@@ -1,3 +1,3 @@
-## Step title
+## What is a Sense HAT?
 
 + Step content...

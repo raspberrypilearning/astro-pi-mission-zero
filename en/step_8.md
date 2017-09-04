@@ -1,0 +1,3 @@
+## Display the temperature
+
++ Step content...

@@ -1,0 +1,3 @@
+## Display an image
+
++ Step content...
