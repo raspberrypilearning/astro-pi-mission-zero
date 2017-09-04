@@ -13,7 +13,7 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: What is a Sense HAT?
+  - title: What is a Sense HAT
   - title: Display a message
   - title: Add some colour
   - title: Display an image

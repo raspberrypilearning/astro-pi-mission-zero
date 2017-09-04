@@ -1,3 +1,4 @@
 ## Add some colour
 
-+ Step content...
+Understand RGB colour space
+Display messages in different foreground and background colours

@@ -1,3 +1,3 @@
 ## Display the temperature
 
-+ Step content...
+Display the temperature in a schematic / graphical way

@@ -1,3 +1,5 @@
 ## Display a message
 
-+ Step content...
+
+Display a message
+Display messages with different scroll speeds

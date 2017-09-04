@@ -1,3 +1,4 @@
 ## Display an image
 
-+ Step content...
+
+How to display text and an image with the LED matrix;
