@@ -13,7 +13,15 @@
 ---
 title: Notes for teachers
 ---
+(Will update and screenshot once the editor is finished)
 
-Bla bla bla
+You will need to register for the Mission Zero challenge to allow your students to participate.
+
++ Go to the [Mission Zero]() page and click on "Teacher registration"
+
++ Fill out the form and click submit
+
++ An account will be created for you. Each account has its own **classroom code** which you will need to provide to your students when they are ready to submit their code.
+
 
 --- /collapse ---
