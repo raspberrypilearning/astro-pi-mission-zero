@@ -7,3 +7,13 @@
 ### Software
 
 + A web browser (e.g. Google Chrome)
+
+
+--- collapse ---
+---
+title: Notes for teachers
+---
+
+Bla bla bla
+
+--- /collapse ---
