@@ -22,4 +22,6 @@ There are a few rules your code needs to follow before you can submit your entry
 
 + Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
-+ Press the submit button to enter your code. Your teacher will get an email to confirm you are entered, and now it's only a matter of time before your code is run in space!
++ Press the submit button to enter your code. Your teacher will get an email to confirm you are entered.
+
++ If you want to, you could share the link to your code on social media to let people know your code will be run in space!

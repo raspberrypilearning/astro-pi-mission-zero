@@ -1,6 +1,6 @@
 ## Display a message
 
-+ Open the [Sense HAT emulator](https://trinket.io/mission-zero) for the Mission Zero project.
++ Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
 
 You will see that three lines of code have been added automatically for you:
 
