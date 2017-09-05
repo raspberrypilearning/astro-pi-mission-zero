@@ -6,7 +6,7 @@ You will use the Sense HAT emulator to create a program to participate in the Mi
 
 Here is an example of the kind of program you could make:
 
-(Embed a trinket here)
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Click **Run** to see the program in action
 

@@ -1,6 +1,6 @@
 ## Display the temperature
 
-You could combine your temperature reading with a picture to display the temperature in a graphical way. For example you might display a sunny day for hot temperatures and a snowstorm for cold temperatures.
+You could combine your temperature reading with a picture to display the temperature in a graphical way. For example you might display a snowstorm for cold temperatures and a sunny day for hot temperatures.
 
 ![Hot and cold](images/hot-and-cold.png)
 
