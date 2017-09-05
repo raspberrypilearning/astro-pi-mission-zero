@@ -1,4 +1,4 @@
-## Challenge: more Sense HAT projects
+## Challenge: more Astro Pi projects
 
 Now that you have completed your mission, why not try out some other projects using the other sensors on the Sense HAT.
 

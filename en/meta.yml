@@ -13,11 +13,11 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: What is a Sense HAT
+  - title: What is an Astro Pi?
   - title: Display a message
   - title: Add some colour
   - title: Display an image
   - title: Measure the temperature
   - title: Display the temperature
   - title: Submit your entry
-  - title: "Challenge: more Sense HAT projects" 
+  - title: "Challenge: more Astro Pi projects"

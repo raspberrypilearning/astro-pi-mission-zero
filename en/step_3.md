@@ -1,6 +1,6 @@
-## What is a Sense HAT?
+## What is an Astro Pi?
 
-The Sense HAT is an add-on board for the Raspberry Pi, made especially for the Astro Pi competition. The board adds the ability to sense temperature, humidity, pressure and orientation, and to output information using a built-in LED matrix, as well as having a joystick.
+The Sense HAT is an add-on board for the Raspberry Pi, made especially for the Astro Pi competition. The board adds the ability to sense temperature, humidity, pressure and orientation, and to output information using a built-in LED matrix, as well as having a joystick. 
 
 For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Sense HAT in your web browser.
 
