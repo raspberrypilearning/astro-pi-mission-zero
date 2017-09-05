@@ -6,8 +6,8 @@ There are a few rules your code needs to follow before you can submit your entry
 
 + Light up the LEDs
 + Take a temperature reading
-+ Make sure your code is 1000 characters or less
-+ Make sure your code takes a maximum of 30 seconds to run
++ Make sure your code is 1000 characters or less, not including blank lines
++ Make sure your message to the astronauts fits within 30 seconds or less, as this is how long your code will run for on the ISS
 + Avoid using any methods needing input
 + Only import from the `sense_hat`, `time` and `random` modules
 + Make sure you don't include any profanity

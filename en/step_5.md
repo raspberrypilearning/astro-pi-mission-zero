@@ -5,7 +5,7 @@ The Sense HAT's LED matrix can display colours as well as black and white. You c
 You can find out how all colours can be made from different amounts of red green and blue here:
 [[[generic-theory-colours]]]
 
-+ Choose a colour and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp) to help you.
++ Choose a colour and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
 
 + Create a variable to store your chosen colour. For example, if you chose the colour red you would write this line of code:
 

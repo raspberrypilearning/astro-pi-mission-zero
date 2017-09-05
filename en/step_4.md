@@ -30,3 +30,5 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
 The original speed of the message is `0.1`. Making the number smaller will make the message scroll more quickly, and making the number larger makes the message scroll more slowly.
+
++ Perhaps you could leave a nice greeting for the Astronauts who will be working near where the Sense HAT is installed on the ISS?

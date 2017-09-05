@@ -17,11 +17,13 @@ title: Notes for teachers
 
 You will need to register for the Mission Zero challenge to allow your students to participate.
 
-+ Go to the [Mission Zero]() page and click on "Teacher registration"
++ Go to the [Mission Zero](https://trinket.io/mission-zero/register) page and click on "Teacher registration".
 
-+ Fill out the form and click submit
++ Fill out the form and click submit.
 
 + An account will be created for you. Each account has its own **classroom code** which you will need to provide to your students when they are ready to submit their code.
+
++ Display your classroom code somewhere accessible to students such as a whiteboard or projector, and begin the activity.
 
 
 --- /collapse ---

@@ -4,6 +4,8 @@ The Sense HAT can measure the temperature which is useful to help you gather dat
 
 ![Message about the temperature](images/degrees-message.gif)
 
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within normal parameters will help reassure them.
+
 + Add this code to take a temperature reading:
 
 ```python

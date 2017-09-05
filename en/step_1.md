@@ -1,10 +1,13 @@
 ## Introduction
 
-You will use the Sense HAT emulator to create a program to participate in the Mission Zero challenge. Your completed program will be run in space on the International Space Station!
+Contribute to the daily routine of the International Space Station by showing the astronauts a message and the ambient air temperature on board. You will use the Sense HAT emulator so no extra hardware is needed, everything is done through a web browser. Your completed program will be run in space on the International Space Station (ISS).
+
+Teachers - this classroom activity can be completed in an afternoon. Organise your students into teams of between two and four people and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi computer. 
+
 
 ### What you will make
 
-Here is an example of the kind of program you could make. 
+Here is an example of the kind of program you could make.
 
 <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
