@@ -6,9 +6,9 @@ For this mission, you will be using the Sense HAT emulator. The emulator is a pi
 
 ![Sense HAT emulator](images/sense-hat-emulator.png)
 
-Here is a real Sense HAT inside one of the Astro Pi units on the International Space Station. This is where your code will eventually be run.
+Here is a real Sense HAT inside one of the Astro Pi units on the International Space Station, running some code written by students. This is where your code will eventually be run.
 
-![Real Astro Pi](images/real-astro-pi.png)
+<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 The emulator is a piece of software which mimics all of the functions of the real Sense HAT. The differences include:
 
