@@ -33,22 +33,20 @@ cold = [
 ]
 ```
 
-+ Add some code to take the temperature reading, but this time put it inside a loop so that the temperature is constantly being updated:
++ Add some code to take the temperature reading:
 
 ```python
-while True:
-    temp = sense.get_temperature()
+temp = sense.get_temperature()
 ```
 
-+ Also inside the loop, decide which picture to display. For this example, we will display the hot image if the temperature is 20 degrees or above, and the cold image if the temperature is below 20 degrees.
++ Now decide which picture to display. For this example, we will display the hot image if the temperature is 20 degrees or above, and the cold image if the temperature is below 20 degrees.
 
 ```python
-while True:
-    temp = sense.get_temperature()
-    if temp >= 20:
-        sense.set_pixels(hot)
-    else:
-        sense.set_pixels(cold)
+temp = sense.get_temperature()
+if temp >= 20:
+    sense.set_pixels(hot)
+else:
+    sense.set_pixels(cold)
 ```
 
-+ Run your program and use the temperature slider to simulate a change in temperature. Check that the correct image displays for the temperature you have selected.
++ Use the temperature slider to set a temperature. Run your program and check that the correct image displays for the temperature you have selected.

@@ -1,4 +1,25 @@
 ## Submit your entry
 
-Work within the code length limit (and other rules, see original post) and fit their program into 30 seconds
-Submit the project using the teacher-codes workflow
+There are a few rules your code needs to follow before you can submit your entry to be run on the International Space Station. The list of rules at the bottom will light up green when you run the program.
+
+![Validation](images/validation.png)
+
++ Light up the LEDs
++ Take a temperature reading
++ Make sure your code is 1000 characters or less
++ Make sure your code takes a maximum of 30 seconds to run
++ Avoid using any methods needing input
++ Only import from the `sense_hat`, `time` and `random` modules
++ Make sure you don't include any profanity
+
+(Obviously this will change when the editor is ready, and I will add screenshots)
+
++ Once the rules are all green you are ready to submit, so press the **Continue** button.
+
++ You will be asked to enter your classroom code, your teacher will tell you what this is.
+
++ Your teacher's name will appear. If this is the right teacher, press **Go to final form**
+
++ Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+
++ Press the submit button to enter your code. Your teacher will get an email to confirm you are entered, and now it's only a matter of time before your code is run in space!
