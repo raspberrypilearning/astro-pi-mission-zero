@@ -6,6 +6,22 @@ The Sense HAT can measure the temperature which is useful to help you gather dat
 
 Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within normal parameters will help reassure them.
 
+--- collapse ---
+---
+title: What is temperature?
+---
+Temperature is the measure of how hot something is, or to be more precise, the amount of thermal energy of the particles in a substance. It is measured by the Sense HAT in degrees Celsius (&deg;C). You may well have had your temperature taken with a thermometer when you have visited the doctor.
+
+![Thermometer](images/thermometer.JPG)
+
+_By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/)] via Wikimedia Commons_
+
+As the amount of heat energy absorbed by a substance changes, the substance might change state. You have probably noticed that an ice cube begins as a solid, but as it absorbs heat energy from its environment it melts and becomes a liquid.
+
+The Sense HAT's temperature sensor measures the ambient temperature of the air around it in the ISS. Because temperatures in space vary much more than those on Earth, it can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+
+--- /collapse ---
+
 + Add this code to take a temperature reading:
 
 ```python
