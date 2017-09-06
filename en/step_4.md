@@ -27,7 +27,7 @@ To display a different message, you can write anything you like between the quot
 
 ```
 +-*/!"#$><0123456789.=)(ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz?,;:|@%[&_']\\~
+abcdefghijklmnopqrstuvwxyz?,;:|@%[&_']\~
 ```
 
 + You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
