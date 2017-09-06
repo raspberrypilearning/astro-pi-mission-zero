@@ -4,6 +4,7 @@ Contribute to the daily routine of the International Space Station by showing th
 
 Teachers - this classroom activity can be completed in an afternoon. Organise your students into teams of between two and four people and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi computer.
 
+Translated versions of this resource can be found on the [ESA website](http://www.esa.int/Education){:target="_blank"} along with the [official guidelines document]() for Mission Zero.
 
 ### What you will make
 

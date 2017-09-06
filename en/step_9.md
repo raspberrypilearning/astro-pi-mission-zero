@@ -16,6 +16,8 @@ There are a few rules your code needs to follow before you can submit your entry
 
 + Once the rules are all green you are ready to submit, so press the **Continue** button.
 
++ If necessary, click on your country's flag to change the language the submission form is displayed in.
+
 + You will be asked to enter your classroom code, your teacher will tell you what this is.
 
 + Your teacher's name will appear. If this is the right teacher, press **Go to final form**
