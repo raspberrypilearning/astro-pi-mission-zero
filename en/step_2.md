@@ -13,7 +13,6 @@
 ---
 title: Notes for teachers
 ---
-(Will update and screenshot once the editor is finished)
 
 You will need to register for the Mission Zero challenge to allow your students to participate.
 

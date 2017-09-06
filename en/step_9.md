@@ -4,15 +4,13 @@ There are a few rules your code needs to follow before you can submit your entry
 
 ![Validation](images/validation.png)
 
-+ Light up the LEDs
-+ Take a temperature reading
-+ Make sure your code is 1000 characters or less, not including blank lines
-+ Make sure your message to the astronauts fits within 30 seconds or less, as this is how long your code will run for on the ISS
-+ Avoid using any methods needing input
-+ Only import from the `sense_hat`, `time` and `random` modules
-+ Make sure you don't include any profanity
-
-(Obviously this will change when the editor is ready, and I will add screenshots)
+1. Light up the LEDs
+1. Take a temperature reading
+1. Make sure your code is 1000 characters or less, not including blank lines
+1. Make sure your message to the astronauts fits within 30 seconds or less, as this is how long your code will run for on the ISS
+1. Avoid using any methods needing input
+1. Only import from the `sense_hat`, `time` and `random` modules
+1. Make sure you don't include any profanity
 
 + Once the rules are all green you are ready to submit, so press the **Continue** button.
 
