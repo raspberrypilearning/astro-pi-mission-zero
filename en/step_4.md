@@ -26,7 +26,8 @@ To display a different message, you can write anything you like between the quot
 **Note:** The Sense HAT can only display the Latin 1 character set, so only the following characters will be available. Other characters will display as a `?`.
 
 ```
-+-*/!"#$><0123456789.=)(ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz?,;:|@%[&_']\~
++-*/!"#$><0123456789.=)(ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz?,;:|@%[&_']\\~
 ```
 
 + You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
