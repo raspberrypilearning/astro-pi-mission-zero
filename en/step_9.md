@@ -14,11 +14,11 @@ There are a few rules your code needs to follow before you can submit your entry
 
 + Once the rules are all green you are ready to submit, so press the **Continue** button.
 
-+ If necessary, click on your country's flag to change the language the submission form is displayed in.
-
 + You will be asked to enter your classroom code, your teacher will tell you what this is.
 
 + Your teacher's name will appear. If this is the right teacher, press **Go to final form**
+
++ If necessary, click on your country's flag to change the language the submission form is displayed in.
 
 + Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
