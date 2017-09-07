@@ -1,6 +1,6 @@
 ## Display an image
 
-You can display a picture on the Sense HAT's LED matrix.
+You can display a picture on the Astro Pi's LED matrix.
 
 ![Astronaut](images/astronaut-pic.png)
 
@@ -50,4 +50,4 @@ Then, on the line after you display your picture, add this code to wait for 2 se
 sleep(2)
 ```
 
-+ Perhaps your greeting for the Astronauts could include a picture or a pattern you want to show them, as well as or instead of a written message?
++ Perhaps your greeting for the astronauts could include a picture or a pattern you want to show them, as well as or instead of a written message?

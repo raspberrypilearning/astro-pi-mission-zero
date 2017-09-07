@@ -14,4 +14,4 @@ Alternatively you might want to try out one of our other Astro Pi projects:
 
 + Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-+ Recreate the old classic [pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} with the Sense HAT emulator
++ Recreate the old classic game of [pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} 

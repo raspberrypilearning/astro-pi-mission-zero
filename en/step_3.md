@@ -12,6 +12,6 @@ Here is a real Astro Pi unit on the International Space Station, running some co
 
 The emulator is a piece of software which simulates in your web browser all of the functions of the Astro Pi. The differences include:
 
-- With the emulator, you can set the temperature, pressure and humidity yourself with sliders, whereas with a real Sense HAT these values are measured from the surrounding environment by sensors.
+- With the emulator, you can set the temperature, pressure and humidity yourself with sliders, whereas with a real Astro Pi these values are measured from the surrounding environment by sensors.
 
-- The emulator lets you rotate the Sense HAT by using the mouse to click and drag it, whereas the real Sense HAT can actually be moved in the real world and its sensors can detect when and how it has been moved.
+- The emulator lets you rotate the Astro Pi by using the mouse to click and drag it, whereas the real Astro Pi can actually be moved in the real world and its sensors can detect when and how it has been moved.

@@ -10,7 +10,7 @@ Part of your mission is to contribute to the daily lives of the crew aboard the 
 ---
 title: What is temperature?
 ---
-Temperature is the measure of how hot something is, or to be more precise, the amount of thermal energy of the particles in a substance. It is measured by the Sense HAT in degrees Celsius (&deg;C). You may well have had your temperature taken with a thermometer when you have visited the doctor.
+Temperature is the measure of how hot something is, or to be more precise, the amount of thermal energy of the particles in a substance. It is measured by the Astro Pi in degrees Celsius (&deg;C). You may well have had your temperature taken with a thermometer when you have visited the doctor.
 
 ![Thermometer](images/thermometer.JPG)
 
@@ -18,7 +18,7 @@ _By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:targe
 
 As the amount of heat energy absorbed by a substance changes, the substance might change state. You have probably noticed that an ice cube begins as a solid, but as it absorbs heat energy from its environment it melts and becomes a liquid.
 
-The Sense HAT's temperature sensor measures the ambient temperature of the air around it in the ISS. Because temperatures in space vary much more than those on Earth, the Sense HAT can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+The Astro Pi's temperature sensor measures the ambient temperature of the air around it in the ISS. Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
 
 --- /collapse ---
 
@@ -44,7 +44,7 @@ temp = round( sense.get_temperature(), 1 )
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Sense HAT can display it.
+The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
 
 + You can also display the temperature as part of another message, like this. The parts of the message are joined together with a `+`.
 
@@ -52,7 +52,7 @@ The `str()` part converts the temperature from a number into text so that the Se
 sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
-+ The real Sense HAT will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
++ The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
 
 ![Temperature slider](images/temperature-slider.png)
 
