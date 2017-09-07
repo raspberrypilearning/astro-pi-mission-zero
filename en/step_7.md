@@ -1,6 +1,6 @@
 ## Measure the temperature
 
-The Sense HAT can measure the temperature which is useful to help you gather data about the conditions in space.
+The Astro Pi can measure the temperature which is useful to help you gather data about the conditions in space.
 
 ![Message about the temperature](images/degrees-message.gif)
 
@@ -55,3 +55,5 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 + The real Sense HAT will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
 
 ![Temperature slider](images/temperature-slider.png)
+
+**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement seen may be very slightly larger or smaller than the slider value.

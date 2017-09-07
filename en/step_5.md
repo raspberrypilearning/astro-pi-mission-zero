@@ -1,6 +1,6 @@
 ## Add some colour
 
-The Sense HAT's LED matrix can display colours as well as black and white. You can specify a colour by creating a variable and assigning it a RGB colour value.
+The Astro Pi's LED matrix can also display colours. You can specify a colour by creating a variable and assigning it a RGB colour value.
 
 You can find out how all colours can be made from different amounts of red green and blue here:
 [[[generic-theory-colours]]]

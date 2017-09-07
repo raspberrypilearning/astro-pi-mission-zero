@@ -4,7 +4,14 @@ You could combine your temperature reading with a picture to display the tempera
 
 ![Hot and cold](images/hot-and-cold.png)
 
-+ Create colour variables for the colours you want to use in your pictures. For these examples we will use white (`w`), yellow (`y`), green (`g`) and black (`b`).
++ At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of the colours you want in a previous step. For these examples we will use white (`w`), yellow (`y`), green (`g`) and black/blank (`b`).
+
+```python
+w = (255, 255, 255)
+y = (255, 255, 0)
+g = (0, 255, 0)
+b = (0, 0, 0)
+```
 
 + Create your hot and cold pictures by first creating a list and then setting the pixels to the colours you want, just as you did before.
 

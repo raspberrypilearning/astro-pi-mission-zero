@@ -4,7 +4,7 @@ You can display a picture on the Sense HAT's LED matrix.
 
 ![Astronaut](images/astronaut-pic.png)
 
-+ Create colour variables to define the colours you want to use in your picture. You can use as many colours as you like, but for this example we'll stick to only two - white (`w`) and black (`b`).
++ At the bottom of your code, create some colour variables to define the colours you want to use in your picture. You can use as many colours as you like, but for this example we'll stick to only two - white (`w`) and black (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -38,4 +38,16 @@ sense.set_pixels(picture)
 
 + Press **Run** to see your picture displayed.
 
-+ Perhaps your greeting for the Astronauts could include a picture or a pattern you want to show them, as well as or instead a written message?
++ You might want to add some code for a short wait (or `sleep`) after the picture is displayed so that the astronauts have time to see it before the next part of your message. At the start of your program, add
+
+```python
+from time import sleep
+```
+
+Then, on the line after you display your picture, add this code to wait for 2 seconds:
+
+```python
+sleep(2)
+```
+
++ Perhaps your greeting for the Astronauts could include a picture or a pattern you want to show them, as well as or instead of a written message?
