@@ -1,24 +1,24 @@
 ## Measure the temperature
 
-The Astro Pi can measure the temperature which is useful to help you gather data about the conditions in space.
+The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+
+The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
 
 ![Message about the temperature](images/degrees-message.gif)
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within normal parameters will help reassure them.
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
 
 --- collapse ---
 ---
 title: What is temperature?
 ---
-Temperature is the measure of how hot something is, or to be more precise, the amount of thermal energy of the particles in a substance. It is measured by the Astro Pi in degrees Celsius (&deg;C). You may well have had your temperature taken with a thermometer when you have visited the doctor.
+Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer when you have visited the doctor.
 
 ![Thermometer](images/thermometer.JPG)
 
 _By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons_
 
-As the amount of heat energy absorbed by a substance changes, the substance might change state. You have probably noticed that an ice cube begins as a solid, but as it absorbs heat energy from its environment it melts and becomes a liquid.
-
-The Astro Pi's temperature sensor measures the ambient temperature of the air around it in the ISS. Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. change from being a solid into being a liquid.
 
 --- /collapse ---
 
@@ -28,11 +28,9 @@ The Astro Pi's temperature sensor measures the ambient temperature of the air ar
 temp = sense.get_temperature()
 ```
 
-This will take the current temperature in degrees Celsius and store it in the variable `temp`.
+This line will measure the current temperature, and store the measured value in the variable `temp`.
 
-+ The temperature will be taken to a large number of decimal places. If you would like to round the temperature to a certain number of decimal places, you can do it like this.
-
-In the example, we have rounded to 1 decimal place, but for a different level of precision, change the number 1 to the number of decimal places you would like to see.
++ The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -46,7 +44,7 @@ sense.show_message( str(temp) )
 
 The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
 
-+ You can also display the temperature as part of another message, like this. The parts of the message are joined together with a `+`.
++ You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -56,4 +54,4 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 ![Temperature slider](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement seen may be very slightly larger or smaller than the slider value.
+**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement seen may be very slightly larger or smaller than the value set by the slider.
