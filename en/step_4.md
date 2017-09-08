@@ -2,28 +2,28 @@
 
 + Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
 
-You will see that three lines of code have been added automatically for you:
+You will see that three lines of code have been added for you automatically:
 
 ```python
 from sense_hat import SenseHat
 sense = SenseHat()
 sense.set_rotation(270)
 ```
-This code connects to the Astro Pi and makes sure the LED display is shown the correct way around in the Astro Pi display on the right. Leave it there because you'll need it.
+This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around on the right. Leave the code there, because you'll need it.
 
-+ Let's scroll a message across the screen. Add this code underneath the other code:
++ Let's scroll a message across the screen. Add this line below the other code:
 
 ```python
 sense.show_message("Astro Pi")
 ```
 
-+ Press the **Run** button and watch as the message "Astro Pi" scrolls across the LED matrix.
++ Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
 
 ![Scrolling message](images/scroll-message.gif)
 
 To display a different message, you can write anything you like between the quotation marks (`""`).
 
-**Note:** The Sense HAT can only display the Latin 1 character set, so only the following characters will be available. Other characters will display as a `?`.
+**Note:** The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
 
 ```
 +-*/!"#$><0123456789.=)(ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -36,6 +36,6 @@ abcdefghijklmnopqrstuvwxyz?,;:|@%[&_']\~
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The original speed of the message is `0.1`. Making the number smaller will make the message scroll more quickly, and making the number larger makes the message scroll more slowly.
+The original speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
 
-+ Perhaps you could leave a nice greeting for the Astronauts who will be working near where the Astro Pi is installed on the ISS?
++ Perhaps you could leave a nice greeting for the Astronauts working near where the Astro Pi is installed on the ISS?
