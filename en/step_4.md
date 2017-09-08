@@ -9,7 +9,8 @@ from sense_hat import SenseHat
 sense = SenseHat()
 sense.set_rotation(270)
 ```
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around on the right. Leave the code there, because you'll need it.
+
+This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
 Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi?
 
@@ -38,4 +39,4 @@ abcdefghijklmnopqrstuvwxyz?,;:|@%[&_']\~
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The original speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
