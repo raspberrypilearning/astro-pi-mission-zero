@@ -11,6 +11,8 @@ sense.set_rotation(270)
 ```
 This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around on the right. Leave the code there, because you'll need it.
 
+Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi?
+
 + Let's scroll a message across the screen. Add this line below the other code:
 
 ```python
@@ -37,5 +39,3 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
 The original speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
-
-+ Perhaps you could leave a nice greeting for the Astronauts working near where the Astro Pi is installed on the ISS?
