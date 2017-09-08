@@ -1,6 +1,6 @@
 ## Display an image
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+You can display pictures on the Astro Pi's LED matrix.
 
 ![Astronaut](images/astronaut-pic.png)
 
@@ -49,3 +49,5 @@ Then, on the line after the one that displays your picture, add this code to wai
 ```python
 sleep(2)
 ```
+
++ Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
