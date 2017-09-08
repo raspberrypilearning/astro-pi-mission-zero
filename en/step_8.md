@@ -1,10 +1,10 @@
 ## Display the temperature
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures and a sunny day for hot temperatures:
+You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
 
 ![Hot and cold](images/hot-and-cold.png)
 
-+ At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of the colours you want in a previous step. For our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
++ At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -13,7 +13,7 @@ g = (0, 255, 0)
 b = (0, 0, 0)
 ```
 
-+ Create your hot and cold pictures by first creating a list and then setting the pixels to the colours you want, just as you did before.
++ Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
 
 ```python
 hot = [
@@ -40,13 +40,13 @@ cold = [
 ]
 ```
 
-+ Add some code to take the temperature reading:
++ Add some code to take the temperature:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-+ Now decide which picture to display. For this example, we will display the hot image if the temperature is 20 degrees or above, and the cold image if the temperature is below 20 degrees.
++ Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
 
 ```python
 temp = sense.get_temperature()
@@ -56,4 +56,4 @@ else:
     sense.set_pixels(cold)
 ```
 
-+ Use the temperature slider to set a temperature. Run your program and check that the correct image displays for the temperature you have selected.
++ Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
