@@ -18,11 +18,11 @@ You will need to register for the Mission Zero challenge to allow your students 
 
 + Go to the [Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"} page.
 
-+ Fill out the form and click submit.
++ Fill out the form and click **Submit**.
 
-+ An account will be created for you. Each account has its own **classroom code** which you will need to provide to your students when they are ready to submit their code.
++ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your students what yours is when they are ready to submit their scripts.
 
-+ Display your classroom code somewhere accessible to students such as a whiteboard or projector, and begin the activity.
++ Display your classroom code somewhere visible such as on a whiteboard or using a projector, and begin the activity.
 
 
 --- /collapse ---
