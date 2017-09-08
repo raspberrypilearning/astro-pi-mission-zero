@@ -2,9 +2,9 @@
 
 The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
-
 ![Message about the temperature](images/degrees-message.gif)
+
+The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
 
 Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
 
@@ -17,7 +17,7 @@ Temperature is the measure of how hot something is. You may well have had your t
 ![Thermometer](images/thermometer.JPG)
 _By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons_
 
-To be more precise, temperature is a measure of the amount of heat energy which a substance has. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. change from being a solid into being a liquid.
+To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
 
 --- /collapse ---
 
@@ -35,7 +35,7 @@ This line will measure the current temperature, and store the measured value in 
 temp = round( sense.get_temperature(), 1 )
 ```
 
-+ You can display the current temperature as a scrolling message on the display like this:
++ To display the current temperature as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
@@ -53,4 +53,4 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 ![Temperature slider](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement seen may be very slightly larger or smaller than the value set by the slider.
+**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
