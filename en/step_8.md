@@ -1,10 +1,10 @@
 ## Display the temperature
 
-You could combine your temperature reading with a picture to display the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures and a sunny day for hot temperatures:
+You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures and a sunny day for hot temperatures:
 
 ![Hot and cold](images/hot-and-cold.png)
 
-+ At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of the colours you want in a previous step. For these examples we will use white (`w`), yellow (`y`), green (`g`) and black/blank (`b`).
++ At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of the colours you want in a previous step. For our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
 
 ```python
 w = (255, 255, 255)
