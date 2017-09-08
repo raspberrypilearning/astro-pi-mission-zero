@@ -24,4 +24,4 @@ There are a few rules your code needs to follow before you can submit your entry
 
 + Press the **Submit** button to enter your code. Your teacher will get an email to confirm your entry.
 
-+ If you want to, you could share the link to your code on social media to let people know that code which you wrote will be run in space!
++ If you want to, you can share the link to your code on social media to let people know that code which you wrote will be run in space!
