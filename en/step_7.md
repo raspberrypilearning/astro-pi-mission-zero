@@ -12,13 +12,12 @@ Part of your mission is to contribute to the daily lives of the crew aboard the 
 ---
 title: What is temperature?
 ---
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer when you have visited the doctor.
+Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
 
 ![Thermometer](images/thermometer.JPG)
-
 _By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons_
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. change from being a solid into being a liquid.
+To be more precise, temperature is a measure of the amount of heat energy which a substance has. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. change from being a solid into being a liquid.
 
 --- /collapse ---
 
