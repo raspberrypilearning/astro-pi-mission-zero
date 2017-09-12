@@ -2,9 +2,7 @@
 
 Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT. You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. Your completed program will be run in space on the International Space Station (ISS)!
 
-Teachers: this classroom activity can be completed in an afternoon. Organise your students into teams of two to four people, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
-
-Translated versions of this resource can be found on the [ESA website](http://www.esa.int/Education){:target="_blank"}, along with the [official guidelines document]() for Mission Zero.
+Teachers: this classroom activity can be completed in an afternoon. Organise your students into teams of two to four people, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi. Read the [official guidelines document]() for Mission Zero.
 
 ### What you will make
 
