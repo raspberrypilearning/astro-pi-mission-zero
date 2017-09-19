@@ -12,11 +12,9 @@ There are a few rules your code needs to follow so that you can submit it to be 
 1. Only import from the `sense_hat`, `time`, and `random` modules
 1. Make sure you don't include any profanity
 
-+ Once the rules are all green, you are ready to submit, so press the **Continue** button.
++ Once the rules are all green, you are ready to submit. Enter your classroom code in the box at the bottom - your teacher will tell you what this is.
 
-+ You will be asked to enter your classroom code — your teacher will tell you what it is.
-
-+ Your teacher's name will appear. If it is the right name, click **Go to final form**.
++ Your teacher's name will appear. If it is the right name, click on the green **Go to final form** button.
 
 + If necessary, click on your country's flag to change the language in which the submission form is displayed.
 
