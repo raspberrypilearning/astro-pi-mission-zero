@@ -4,20 +4,21 @@ There are a few rules your code needs to follow so that you can submit it to be 
 
 ![Validation](images/validation.png)
 
-+ Take a temperature reading
-+ Light up the LEDs
-+ Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Take a temperature reading
+1. Light up the LEDs
+1. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
 
 Also make sure you have met the following criteria:
 
-+ Make sure your code is no longer than 1000 characters, not including blank lines
-+ Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-+ Avoid using any methods needing input
-+ Only import from the `sense_hat`, `time`, and `random` modules
-+ Make sure you don't include any profanity
+1. Make sure your code is no longer than 1000 characters, not including blank lines
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+1. Avoid using any methods needing input
+1. Only import from the `sense_hat`, `time`, and `random` modules
+1. Make sure you don't include any profanity
 
+Once the rules are all green, you are ready to submit.
 
-+ Once the rules are all green, you are ready to submit. Enter your classroom code in the box at the bottom - your teacher will tell you what this is.
++ Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
 
 + Your teacher's name will appear. If it is the right name, click on the green **Go to final form** button.
 
