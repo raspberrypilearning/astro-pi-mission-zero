@@ -32,6 +32,6 @@ Once the rules are all green, you are ready to submit.
 
 + If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
-Watch how to submit your entry here:
+Watch this video to see how to submit your entry:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen></iframe>
