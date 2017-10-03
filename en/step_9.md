@@ -18,7 +18,7 @@ Also make sure you have met the following criteria:
 
 Once the rules are all green, you are ready to submit.
 
-+ Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
++ Enter your classroom code in the box at the bottom - your teacher will tell you what your code is. (Instructions for teachers can be found in the "What you will need" step.)
 
 + Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
