@@ -57,3 +57,5 @@ else:
 ```
 
 + Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+
++ Change your code so that your program displays the temperature to the astronauts in your own chosen way.

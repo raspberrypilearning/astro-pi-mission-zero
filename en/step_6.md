@@ -48,3 +48,5 @@ Then, on the line after the one that displays your picture, add this code to wai
 ```python
 sleep(2)
 ```
+
++ Create your own picture or pattern to display to the astronauts!
