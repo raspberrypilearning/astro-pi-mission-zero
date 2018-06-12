@@ -50,7 +50,7 @@ cold = [
 
 --- task ---
 
-Add some code to take the temperature:
+Add some code to get the temperature:
 
 ```python
 temp = sense.get_temperature()

@@ -64,7 +64,7 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-+ You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
