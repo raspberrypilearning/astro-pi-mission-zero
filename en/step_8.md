@@ -1,61 +1,61 @@
-## Display the temperature
+## Submit your entry
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
 
-![Hot and cold](images/hot-and-cold.png)
+![Validation](images/validation.png)
 
-+ At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+1. Take a temperature reading
+1. Light up the LEDs
+1. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
 
-```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
-```
+Also make sure you have met the following criteria:
 
-+ Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+1. Make sure your code is no longer than 1000 characters, not including blank lines
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+1. Avoid using any methods needing input
+1. Only import from the `sense_hat`, `time`, and `random` modules
+1. Make sure you don't include any profanity
 
-```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
-]
+Once the rules are all green, you are ready to submit.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
-]
-```
+--- task ---
 
-+ Add some code to take the temperature:
+Enter your classroom code in the box at the bottom - your teacher will tell you what your code is. 
 
-```python
-temp = sense.get_temperature()
-```
+**Notes for teachers** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
 
-+ Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+--- /task ---
 
-```python
-temp = sense.get_temperature()
-if temp >= 20:
-    sense.set_pixels(hot)
-else:
-    sense.set_pixels(cold)
-```
+--- task ---
 
-+ Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
-+ Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+![Continue to form](images/continue-to-form.png)
+
+--- /task ---
+
+--- task ---
+
+If necessary, click on your country's flag to change the language in which the submission form is displayed.
+
+--- /task ---
+
+--- task ---
+
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+
+--- /task ---
+
+--- task ---
+
+Press the **Submit** button to enter your code. Your teacher will get an email to confirm your entry.
+
+--- /task ---
+
+--- task ---
+
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+
+--- /task ---

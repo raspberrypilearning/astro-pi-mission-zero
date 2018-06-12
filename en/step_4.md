@@ -1,42 +1,54 @@
-## Display a message
+## Add some colour
 
-+ Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
+The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
 
-You will see that three lines of code have been added for you automatically:
+You can learn how all colours can be created using different proportions of red, green, and blue here:
 
-```python
-from sense_hat import SenseHat
-sense = SenseHat()
-sense.set_rotation(270)
-```
+[[[generic-theory-colours]]]
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+--- task ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi?
+Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
 
-+ Let's scroll a message across the screen. Add this line below the other code:
+--- /task ---
 
-```python
-sense.show_message("Astro Pi")
-```
+--- task ---
 
-+ Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
-
-![Scrolling message](images/scroll-message.gif)
-
-To display a different message, you can write anything you like between the quotation marks (`""`).
-
-**Note:** The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
-
-```
-+-*/!"#$><0123456789.=)(ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz?,;:|@%[&_']\~
-```
-
-+ You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
 
 ```python
-sense.show_message("Astro Pi", scroll_speed=0.05)
+red = (255,0,0)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+--- /task ---
+
+--- task ---
+
+You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+
+```python
+red = (255,0,0)
+sense.show_message("Astro Pi", text_colour=red)
+```
+
+--- /task ---
+
+![show message in color](images/show-message-color.gif)
+
+--- task ---
+
+You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+
+```python
+red = (255,0,0)
+green = (0,255,0)
+sense.show_message("Astro Pi", text_colour=red, back_colour=green)
+```
+
+--- /task ---
+
+--- task ---
+
+Change the greeting text and colour — what message will you send to the Astronauts aboard the ISS?
+
+--- /task ---
