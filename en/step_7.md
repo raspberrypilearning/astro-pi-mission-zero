@@ -1,56 +1,85 @@
-## Measure the temperature
+## Display the temperature
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
 
-![Message about the temperature](images/degrees-message.gif)
+![Hot and cold](images/hot-and-cold.png)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+--- task ---
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
 
---- collapse ---
----
-title: What is temperature?
----
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+```python
+w = (255, 255, 255)
+y = (255, 255, 0)
+g = (0, 255, 0)
+b = (0, 0, 0)
+```
 
-![Thermometer](images/thermometer.JPG)
-_By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons_
+--- /task ---
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+--- task ---
 
---- /collapse ---
+Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
 
-+ Add this code to take a temperature reading:
+```python
+hot = [
+  b, b, b, b, b, y, y, b,
+  b, b, b, b, y, y, y, y,
+  b, b, b, b, b, y, y, b,
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b,
+  g, g, g, g, g, g, g, g,
+  g, g, g, g, g, g, g, g
+]
+
+
+cold = [
+  b, b, w, b, b, b, w, b,
+  b, b, b, b, b, w, b, b,
+  b, w, b, b, b, b, b, w,
+  b, b, b, b, w, b, b, b,
+  w, b, b, w, b, b, w, b,
+  b, b, b, b, b, b, b, b,
+  w, w, w, w, w, w, w, w,
+  w, w, w, w, w, w, w, w
+]
+```
+
+--- /task ---
+
+--- task ---
+
+Add some code to get the temperature:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+--- /task ---
 
-+ The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+--- task ---
 
-```python
-temp = round( sense.get_temperature(), 1 )
-```
-
-+ To display the current temperature as a scrolling message on the display, add this line of code:
+Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
 
 ```python
-sense.show_message( str(temp) )
+temp = sense.get_temperature()
+if temp >= 20:
+    sense.set_pixels(hot)
+else:
+    sense.set_pixels(cold)
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+--- /task ---
 
-+ You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+--- task ---
 
-```python
-sense.show_message( "It is " + str(temp) + " degrees" )
-```
+Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
 
-+ The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+--- /task ---
 
-![Temperature slider](images/temperature-slider.png)
+--- task ---
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+
+--- /task ---

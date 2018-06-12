@@ -1,52 +1,72 @@
-## Display an image
+## Measure the temperature
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
 
-![Astronaut](images/astronaut-pic.png)
+![Message about the temperature](images/degrees-message.gif)
 
-+ At the bottom of your script, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
+The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-```
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
 
-This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+--- collapse ---
+---
+title: What is temperature?
+---
+Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
 
-+ Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined.
-Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the   black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
+![Thermometer](images/thermometer.JPG)
+_By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons_
 
-```python
-picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
-```
+To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
 
-+ Add a line of code to display your picture on the LED display.
+--- /collapse ---
+
+--- task ---
+
+Add this code to take a temperature reading:
 
 ```python
-sense.set_pixels(picture)
+temp = sense.get_temperature()
 ```
 
-+ Press **Run** to see your picture displayed.
+This line will measure the current temperature, and store the measured value in the variable `temp`.
 
-+ You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+--- /task ---
+
+--- task ---
+
+The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
-from time import sleep
+temp = round( sense.get_temperature(), 1 )
 ```
 
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+--- /task ---
+
+--- task ---
+
+To display the current temperature as a scrolling message on the display, add this line of code:
 
 ```python
-sleep(2)
+sense.show_message( str(temp) )
 ```
 
-+ Create your own picture or pattern to display to the astronauts!
+The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+
+--- /task ---
+
+--- task ---
+
+You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+
+```python
+sense.show_message( "It is " + str(temp) + " degrees" )
+```
+
+--- /task ---
+
+The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+
+![Temperature slider](images/temperature-slider.png)
+
+**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.

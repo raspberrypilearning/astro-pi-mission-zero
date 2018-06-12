@@ -1,32 +1,75 @@
-## Add some colour
+## Display an image
 
-The Astro Pi's LED matrix can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
+You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
 
-You can learn how all colours can be created using different proportions of red, green, and blue here:
+![Astronaut](images/astronaut-pic.png)
 
-[[[generic-theory-colours]]]
+--- task ---
 
-+ Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
-
-+ Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
+At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
 
 ```python
-red = (255,0,0)
+w = (255, 255, 255)
+b = (0, 0, 0)
 ```
 
-+ You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+
+--- /task ---
+
+--- task ---
+
+Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined.
+Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the   black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
 
 ```python
-red = (255,0,0)
-sense.show_message("Astro Pi", text_colour=red)
+picture = [
+    b, b, w, w, w, w, b, b,
+    b, w, b, b, b, b, w, b,
+    b, w, b, w, w, b, w, b,
+    b, w, b, b, b, b, w, b,
+    b, b, w, w, w, w, b, b,
+    b, b, w, w, w, w, b, b,
+    b, w, w, w, w, w, w, b,
+    b, w, w, w, w, w, w, b
+]
 ```
+--- /task ---
 
-+ You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+--- task ---
+
+Add a line of code to display your picture on the LED display.
 
 ```python
-red = (255,0,0)
-green = (0,255,0)
-sense.show_message("Astro Pi", text_colour=red, back_colour=green)
+sense.set_pixels(picture)
 ```
 
-+ Change the greeting text and colour — what message will you send to the Astronauts aboard the ISS?
+--- /task ---
+
+--- task ---
+
+Press **Run** to see your picture displayed.
+
+--- /task ---
+
+--- task ---
+
+You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+
+```python
+from time import sleep
+```
+
+Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+
+```python
+sleep(2)
+```
+
+--- /task ---
+
+--- task ---
+
+Create your own picture or pattern to display to the astronauts!
+
+--- /task ---

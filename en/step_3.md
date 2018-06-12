@@ -1,17 +1,77 @@
-## What is an Astro Pi?
+## Display a message
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space. It also has an add-on board called the Sense HAT, made specifically for the Astro Pi mission. The Sense HAT has a joystick, an LED display, and sensors for recording temperature, humidity, pressure, and orientation.
+--- task ---
 
-Here is a real Astro Pi unit on the International Space Station, running some code written by students. This is where your code will eventually be run!
+Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
 
-<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+You will see that three lines of code have been added for you automatically:
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+```python
+from sense_hat import SenseHat
+sense = SenseHat()
+sense.set_rotation(270)
+```
 
-![Sense HAT emulator](images/sense-hat-emulator.png)
+![sense hat emulator](images/sense-hat-emulator2.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
-- On the emulator, you can set the temperature, pressure, and humidity yourself using sliders, whereas the real Sense HAT in the Astro Pi uses sensors to measure these parameters in its environment.
+--- /task ---
 
-- You can use the mouse to click and drag the emulated Sense HAT to move and rotate it, simulating changes in its orientation; the real Astro Pi (and its Sense HAT) can move in the real world, and the Sense HAT's orientation sensors detect when and how it has  moved.
+--- task ---
+
+Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display. 
+
+Add this line below the other code:
+
+```python
+sense.show_message("Astro Pi")
+```
+
+--- /task ---
+
+--- task ---
+
+Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
+
+![show message code click run](images/show-message-code-annotated.PNG)
+
+--- /task ---
+
+![Scrolling message](images/scroll-message.gif)
+
+To display a different message, you can write anything you like between the quotation marks (`""`).
+
+--- collapse ---
+
+---
+title: What characters can be used?
+---
+
+The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
+
+--- /collapse ---
+
+--- task ---
+
+You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+
+```python
+sense.show_message("Astro Pi", scroll_speed=0.05)
+```
+
+The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+
+--- /task ---
+
+
