@@ -1,10 +1,7 @@
 title: "Astro Pi: Mission Zero"
 hero_image: images/banner.png
 description: Prepare for Mission Zero
-theme: navy # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 2
 listed: false
-ingredient: false
 copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
