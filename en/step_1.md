@@ -4,7 +4,8 @@ Brighten up the daily routine of the astronauts on the International Space Stati
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. 
 
-Your completed program will be run in space on the International Space Station (ISS)!
+Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+
 
 ### What you will make
 
@@ -47,20 +48,20 @@ title: What you will need
 
 --- collapse ---
 ---
-title: Notes for teachers
+title: Notes for teachers and mentors
 ---
 
-This classroom activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi. 
+This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi. 
 
 Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your students to participate.
+You will need to register for the Mission Zero challenge to allow your team/s to participate.
 
 + Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
 
 + Fill out the form and click **Submit**.
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your students what yours is when they are ready to submit their programs.
++ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
 
 + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
 
