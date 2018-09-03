@@ -1,12 +1,12 @@
-## Display the temperature
+## Anzeigen der Temperatur
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+Du kannst deinen Temperaturmesswert mit einem Bild kombinieren, um die Temperatur grafisch darzustellen. Du könntest zum Beispiel für kalte Temperaturen einen Schneesturm und für heiße Temperaturen einen sonnigen Tag anzeigen:
 
-![Hot and cold](images/hot-and-cold.png)
+![Heiß und kalt](images/hot-and-cold.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Möglicherweise hast du bereits einige von ihnen in einem vorherigen Schritt definiert. In unseren Beispielen verwenden wir weiß (`w`), gelb (`y`), grün (`g`) und schwarz / leer (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Zeichne deine Bilder wie zuvor, indem du zunächst eine Liste für jedes Bild erstellst und dann die Listenelemente auf die Farben einstellst, die du für deine Pixel verwenden möchtest.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Add some code to get the temperature:
+Füge einen Code hinzu, um die Temperatur zu erhalten:
 
 ```python
 temp = sense.get_temperature()
@@ -60,7 +60,7 @@ temp = sense.get_temperature()
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+Entscheide dich jetzt, welches Bild angezeigt werden soll. In diesem Beispiel zeigen wir das `hot` (heiße) Bild an, wenn der Temperaturmesswert 20 Grad oder mehr beträgt, und das `cold` (kalte) Bild, wenn die Temperatur unter 20 Grad liegt.
 
 ```python
 temp = sense.get_temperature()
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+Stell mit dem Temperaturregler eine Temperatur auf dem Emulator ein. Führe dein Programm aus und überprüfe, ob das für diese Temperatur ausgewählte Bild richtig angezeigt wird.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+Ändere deinen Code so, dass dein Programm den Astronauten die Temperatur auf deine ausgesuchte Weise anzeigt.
 
 \--- /task \---
