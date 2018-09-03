@@ -1,59 +1,59 @@
-## Submit your entry
+## Esita oma kirje
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Sinu koodi esitamiseks rahvusvahelises kosmosejaamas peab see vastama mõnedele reeglitele. Kui sinu kood vastab neile, siis programmi käivitamisel muutuvad emulaatori allosas asuvad reeglid roheliseks.
 
-![Validation](images/validation.png)
+![Kinnitamine](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Mõõda õhutemperatuur
+2. Süüta LED-id
+3. Kontrolli, et sinu kood töötab vigadeta lõpuni välja. Kui sinu koodis on `while True` silmus, pead selle reegli läbilaskmiseks vajutama **Stop** nuppu.
 
-Also make sure you have met the following criteria:
+Samuti pead veenduma, et järgmised kriteeriumid oleks täidetud:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Kood ei tohi olla pikem, kui 1000 tähemärki, v.a tühjad read
+2. Astronautidele edastatava sõnumi pikkus ei tohi ületada 30 sekundit, kuna see on sinu koodi pikkus, mida saad esitada rahvusvahelises kosmosejaamas
+3. Väldi mistahes sisendit vajava meetodi kasutamist
+4. Impordi ainult moodulitelt `sense_hat`, `time` ja `random`
+5. Ei tohi olla ebaviisakas või sündsusetu
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Kui kõik reeglid on rohelised, oled esitamiseks valmis: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Sisesta oma klassiruumi kood allpool asuvasse kastikesse; sinu õpetaja ütleb sulle, mis sinu kood on.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**Märkused õpetajatele või mentoritele** on saadaval jaotises [Sissejuhatus](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Kuvatakse sinu õpetaja nimi. Kui see on õige, siis klõpsa rohelisel **Continue to form** (ava vorm) nupul.
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Ava vorm](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Vajadusel klõpsa oma riigi lipul, kui soovid muuta keelt, milles vormi kuvatakse.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Sisesta oma meeskonna nimi ja meeskonnaliikmete nimed. Peale sinu koodi näitamist kosmoses trükitakse need nimed tunnistusele, seega kontrolli et nimed oleksid õigesti kirjutatud!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Oma koodi sisestamiseks vajuta **Submit** (Esita) nuppu. Sinu õpetajale või mentorile saadetakse seda kinnitav e-kiri.
+
+\--- /task \---
+
+\--- task \---
+
+Soovi korral võid oma koodi linki jagada sotsiaalmeedias andmaks kõigile teada, et sinu kirjutatud koodi näidatakse kosmoses!
 
 \--- /task \---
