@@ -1,12 +1,12 @@
-## Display the temperature
+## Õhutemperatuuri kuvamine
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+Võid õhutemperatuuri mõõtmise tulemust kombineerida pildiga, et näidata õhutemperatuuri ka graafiliselt. Näiteks võid külma õhutemperatuuri korral näidata lumetormi ja kuuma õhutemperatuuri korral päikesepaistelist päeva:
 
-![Hot and cold](images/hot-and-cold.png)
+![Kuum ja külm](images/hot-and-cold.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+Oma programmi lõpus lisa rohkem värvimuutujaid värvide jaoks, mida tahad oma piltidel kasutada. Võimalik, et oled mõned juba eelmises etapis määranud. Meie näites kasutatakse valget (`w`), kollast (`y`), rohelist (`g`) ja musta/tühja (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Täpselt samamoodi kui varem, oma piltide joonistamiseks tee kõigepealt iga pildi jaoks loetelu ja seejärel vastavalt soovitud pikslite värvidele määra loetelu ühikutele värvid.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Add some code to get the temperature:
+Õhutemperatuuri saamiseks lisa kood:
 
 ```python
 temp = sense.get_temperature()
@@ -60,7 +60,7 @@ temp = sense.get_temperature()
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+Nüüd otsusta, millist pilti kuvada. Selle näite jaoks kuvatakse `hot` pilti, kui mõõdetav õhutemperatuur on 20 kraadi või rohkem ja `cold` pilti, kui õhutemperatuur on alla 20 kraadi.
 
 ```python
 temp = sense.get_temperature()
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+Õhutemperatuuri määramiseks emulaatoril kasuta temperatuuri liugurit. Käivita oma programm ja kontrolli, et sinu poolt selle õhutemperatuuri jaoks valitud pilti kuvatakse korrektselt.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+Muuda oma koodi, et sinu programm kuvaks õhutemperatuuri astronautidele sinu poolt valitud viisil.
 
 \--- /task \---
