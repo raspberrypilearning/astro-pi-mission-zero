@@ -1,40 +1,40 @@
-## Measure the temperature
+## Μέτρηση της θερμοκρασίας
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Ο αισθητήρας θερμοκρασίας στο Astro Pi μπορεί να μετρήσει την περιβάλλουσα θερμοκρασία του άερα, μια χρήσιμη δυνατότητα που σας βοηθά να συλλέξετε δεδομένα για τις διαστημικές συνθήκες.
 
-![Message about the temperature](images/degrees-message.gif)
+![Μήνυμα για τη θερμοκρασία](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Το Astro Pi μετρά τη θερμοκρασία στον ΔΔΣ σε βαθμούς Κελσίου (&deg;C). Καθώς οι θερμοκρασίες στο διάστημα διαφέρουν κατά πολύ σε σχέση με τις θερμοκρασίες στη Γη, το Astro Pi μπορεί να μετρήσει θερμοκρασίες από -40 βαθμούς Κελσίου έως και +120 βαθμούς Κελσίου.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Μέρος της αποστολής σας είναι να συμβάλλετε στην καθημερινή ζωή του πληρώματος στον ΔΔΣ. Αν τους ενημερώσετε ότι η θερμοκρασία στον διαστημικό σταθμό είναι εντός του φυσιολογικού εύρους, θα τους καθησυχάσετε.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Τι είναι η θερμοκρασία;
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Θερμοκρασία είναι το φυσικό μέγεθος που μετρά το πόσο ζεστό είναι κάτι. Ίσως ένας γιατρός να έχει μετρήσει και τη δική σας θερμοκρασία χρησιμοποιώντας ένα θερμόμετρο.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Θερμόμετρο](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Πιο συγκεκριμένα, η θερμοκρασία είναι το φυσικό μέγεθος που μετρά την ποσότητα της θερμικής ενέργειας μιας ουσίας. Γνωρίζετε ότι ένα παγάκι είναι στερεό, αλλά όσο ζεσταίνεται, όσο δηλάδή απορροφά θερμική ενέργεια από το περιβάλλον του, λιώνει και μετατρέπεται σε υγρό. Αυτό οφείλεται στο γεγονός ότι όταν μια ουσία απορροφά ή χάνει αρκετή θερμική ενέργεια, η ουσία αλλάζει κατάσταση, για παράδειγμα από στερεή γίνεται υγρή.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Προσθέστε τον παρακάτω κώδικα για να λάβετε μια μέτρηση της θερμοκρασίας:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Η γραμμή αυτή θα μετρήσει την τρέχουσα θερμοκρασία και θα αποθηκεύσει την τιμή μέτρησης στη μεταβλητή `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Η θερμοκρασία καταγράφεται με μεγάλη ακρίβεια, κι έτσι η τιμή που θα λάβετε θα έχει εναν μεγάλο αριθμό δεκαδικών ψηφίων. Μπορείτε να στρογγυλοποιήσετε την τιμή σε οποιονδήποτε αριθμό δεκαδικών ψηφίων. Στο παρακάτω παράδειγμα, κάνουμε στρογγυλοποίηση σε ένα δεκαδικό ψηφίο, αλλά αν επιθυμείτε κάποιο διαφορετικό επίπεδο ακρίβειας, αλλάξτε το νούμερο `1` στον αριθμό των δεκαδικών ψηφίων που θέλετε να διατηρήσετε.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Για να προβάλετε την τρέχουσα θερμοκρασία ως κυλιόμενο μήνυμα στην οθόνη, προσθέστε την ακόλουθη γραμμή κώδικα:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+Το τμήμα `str()` μετατρέπει τη θερμοκρασία σπό αριθμό σε κείμενο, ώστε να μπορέσει να προβληθεί από το Astro Pi.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Μπορείτε επίσης να προβάλετε τη θερμοκρασία ως μέρος ενός άλλου μηνύματος, ενώνοντας τα διάφορα τμήματα του μηνύματος σας με ένα `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Το πραγματικό Astro Pi θα μετρήσει την περιβάλλουσα θερμοκρασία, αλλά εσείς μπορείτε να χρησιμοποιήσετε το ρυθμιστικό θερμοκρασίας στον εξομοιωτή Sense HAT για να προσομοιώσετε τις αλλαγές θερμοκρασίας και να δοκιμάσετε τον κώδικά σας.
 
-![Temperature slider](images/temperature-slider.png)
+![Ρυθμιστικό θερμοκρασίας](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Σημείωση:** Μπορεί να αναρωτιέστε γιατί το ρυθμιστικό θερμοκρασίας εμφανίζει τη θερμοκρασία ως ακέραιο αριθμό, ενώ η μέτρηση που λαμβάνετε είναι δεκαδική. Ο εξομοιωτής προσομοιώνει τη μικρή ανακρίβεια του πραγματικού αισθητήρα, οπότε η μέτρηση θερμοκρασίας που εμφανίζεται μπορεί να είναι ελάχιστα μεγαλύτερη ή ελάχιστα μικρότερη από την τιμή που έχετε καθορίσει με το ρυθμιστικό.
