@@ -1,27 +1,27 @@
 ---
 title: "Astro Pi: Mission Zero"
 hero_image: images/banner.png
-description: Prepare for Mission Zero
+description: Valmistaudu Mission Zeroon
 listed: false
 copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
   - 
-    title: Introduction
+    title: Esittely
   - 
-    title: What is an Astro Pi?
+    title: Mikä Astro Pi on?
   - 
-    title: Display a message
+    title: Näytä viesti
   - 
-    title: Add some colour
+    title: Lisää väriä
   - 
-    title: Display an image
+    title: Esitä kuva
   - 
-    title: Measure the temperature
+    title: Mittaa lämpötila
   - 
-    title: Display the temperature
+    title: Näytä lämpötila
   - 
-    title: Submit your entry
+    title: Lähetä merkintäsi
   - 
-    title: "Challenge: more Astro Pi projects"
+    title: "Haaste: lisää Astro Pi -hankkeita"
