@@ -1,59 +1,59 @@
-## Submit your entry
+## Lähetä merkintäsi
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen ajettavaksi kansainvälisellä avaruusasemalla (International Space Station). Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
 
-![Validation](images/validation.png)
+![Validointi](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Ota lämpötilan lukema
+2. Sytytä LEDit
+3. Varmista, että koodisi ajaa loppuun saakka ilman virheitä. Jos koodissasi on silmukka `whileTrue`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
 
-Also make sure you have met the following criteria:
+Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Varmista, että koodisi on enintään 1000 merkkiä tyhjiä viivoja lukuun ottamatta
+2. Varmista, että viestisi astronauteille ajaa korkeintaan 30 sekuntia, sillä tämä on kuinka kauan koodiasi ajetaan ISS:llä
+3. Vältä käyttämästä menetelmiä, jotka tarvitsevat syöttöä
+4. Tuonti vain moduuleista `sense_hat`, `time` ja `random`
+5. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Kirjoita luokkakoodisi alla olevaan ruutuun - opettajasi ilmoittaa sinulle koodisi.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**Huomautuksia opettajille ja ohjaajille ** löytyy vaiheesta [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Opettajasi nimi ilmestyy esille. Jos se on oikea nimi, napsauta vihreää painiketta **Continue to form**.
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Jatka lomakkeeseen](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Napsauta tarvittaessa maasi lippua, jos haluat vaihtaa hakulomakkeen kieltä.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodiasi on käytetty avaruudessa, joten varmista, että ne on kirjoitettu oikein!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Paina **Submit**-painiketta koodisi kirjoittamiseksi. Opettajasi tai ohjaajasi saa sähköpostin merkintäsi vahvistamiseksi.
+
+\--- /task \---
+
+\--- task \---
+
+Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
 
 \--- /task \---
