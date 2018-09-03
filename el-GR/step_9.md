@@ -1,17 +1,17 @@
-## Challenge: more Astro Pi projects
+## Πρόκληση: περισσότερες εργασίες Astro Pi
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Τώρα που ολοκληρώσατε την αποστολή σας, μήπως θέλετε να πάρετε μέρος και σε άλλες εργασίες και να χρησιμοποιήσετε και τους υπόλοιπους αισθητήρες στο Astro Pi;
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Αν αισθάνεστε σίγουροι, μπορείτε να πάρετε μέρος στην αποσολή [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Σχηματίστε μια ομάδα με δύο έως έξι άτομα και συνεργαστείτε σαν πραγματικοί διαστημικοί επιστήμονες για να σχεδιάσετε το δικό σας πείραμα. Λάβετε δωρεάν υλικό υπολογιστή για την αποστολή σας και γράψτε κώδικα Python για τη διεξαγωγή του πειράματός σας. Αν καταφέρετε να φτάσετε στην κατάσταση πτήσης (flight status), ο κώδικάς σας θα σταλεί στον Διεθνή Διαστημικό Σταθμό και θα εκτελεστεί στο Astro Pi για τρεις ώρες (δύο τροχιές). Τα δεδομένα που θα συλλέξει ο κώδικάς σας από το διάστημα — αρχεία δεδομένων εικόνων ή αισθητήρων — θα επιστραφούν σε εσάς για ανάλυση.
 
-Alternatively you might want to try out one of our other Astro Pi projects:
+Εναλλακτικά, μπορεί να θέλετε να δοκιμάσετε κάποια από τις υπόλοιπες εργασίες μας για το Astro Pi:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Μάθετε περισσότερα σχετικά με το [Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} και όλα όσα μπορεί να κάνει
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Δημιουργήστε όμορφες [τυχαίες λάμψεις](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} στην οθόνη LED του Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Δημιουργήστε ένα παιχνίδι [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Προκαλέστε τους φίλους σας σε ένα παιχνίδι [λαβύρινθου με μπίλιες](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Δημιουργήστε το κλασικό παιχνίδι [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
