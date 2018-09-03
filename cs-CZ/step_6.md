@@ -1,40 +1,40 @@
-## Measure the temperature
+## Změřte teplotu
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Teplotní snímač v Astru Pi dokáže měřit teplotu okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
 
-![Message about the temperature](images/degrees-message.gif)
+![Zpráva s teplotou](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Astro Pi měří teplotu v ISS ve stupních Celsia (&deg;C). Protože teploty ve vesmíru mají mnohem větší výkyvy než teploty na Zemi, umí Astro Pi měřit široké rozmezí teplot – od -40 stupňů Celsia až do +120 stupňů Celsia.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Součástí vaší mise je přispět ke každodennímu životu posádky ISS. Když jim dáte vědě, že teplota na palubě vesmírné stanice je v normálu, uklidní ji to.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Co je teplota?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Teplota je měřítko toho, jak je něco teplé. Dost možná vám pan doktor měřil teplotu teploměrem.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Teploměr](images/thermometer.JPG) Foto: *Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"}, zdroj: Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Přesněji řečeno, teplota je měřítkem množství tepelné energie nějaké látky. Jak víte, kostka ledu je pevná, ale jak se potupně ohřívá (tj. absorbuje tepelnou energii z prostředí), roztává se a stává se kapalnou. Je to proto, že když látka absorbuje nebo ztratí dostatečné množství tepelné energie, změní skupenství, např. z pevného na kapalné.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Přidejte tento kód k odečtení teploty:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Tato řádka změří současnou teplotu a uloží naměřenou hodnotu v proměnné `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Teplota je měřena s velikou přesností, takže uložená hodnota bude mít mnoho desetinných míst. Hodnotu můžete zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníte na jiné, dostanete jiný počet desetinných míst.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Abyste aktuální teplotu zobrazili na displeji jako běžící text, přidejte tuhle řádku kódu:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+To `str()` převádí teplotu z čísla na text, aby ji Astro Pi mohlo zobrazit.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Teplotu můžete zobrazit také jako součást jiné zprávy. Části zprávy pospojujte znaky `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Skutečné Astro Pi měří teplotu kolem sebe, ale k otestování kódu na emulátoru Sense HAT můžete změny teploty simulovat posuvníkem teploty.
 
-![Temperature slider](images/temperature-slider.png)
+![Posuvník teploty](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Poznámka:** Možná se divíte, proč posuvník teploty zobrazuje teplotu jako celé číslo, zatímco měření, které získáte, má desetinná místa. Emulátor simuluje maličkou míru nepřesnosti skutečného snímače, takže měření teploty, které dostanete, může být nepatrně větší nebo menší než hodnota, kterou jste nastavili pomocí posuvníku.
