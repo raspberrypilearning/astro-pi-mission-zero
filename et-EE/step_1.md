@@ -1,30 +1,30 @@
-## Introduction
+## Sissejuhatus
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+Muutke rahvusvahelise kosmosejaama astronautide igapäevane rutiin rõõmsamaks näidates neile sõnumit ja õhutemperatuuri pardal kasutades Astro Pi arvuti Sense HAT´i.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Oma programmi loomiseks saad kasutada veebipõhist Sense HAT´i emulaatorit, seega ei ole sul vaja täiendavat riistvara, sest kõike saab teha veebibrauseris.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+Sinu tehtud programm käivitatakse rahvusvahelises kosmosejaamas kosmoses! Saad ka spetsiaalse tunnistuse, mis näitab rahvusvahelise kosmosejaama täpset asukohta sinu programm käivitamise ajal!
 
-### What you will make
+### Mida sa teed
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see toimib klõpsa **Run**. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## title: Mida sa õpid
 
-You will learn about the AstroPi unit and how to control an it, including how to:
+Õpid tundma Astro Pi´d ja selle juhtimist, sealhulgas kuidas:
 
-+ display messages and colors
-+ create images
-+ measure the temperature
++ kuvada sõnumeid ja värve
++ luua pilte
++ mõõta õhutemperatuuri
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Selles projektis käsitletakse [Raspberry Pi digitaalse õppekava](http://rpf.io/curriculum){:target="_blank"} järgmisi valdkondi:
 
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Algtasemel programmeerimise konstruktsioonide kasutamine lihtsate programmide loomiseks](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,34 +32,34 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * * *
 
-## title: What you will need
+## title: Mida on sul selleks vaja
 
-### Hardware
+### Riistvara
 
-+ Any computer with an internet connection
++ Internetiühendusega arvuti
 
-### Software
+### Tarkvara
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
++ Veebibrauser (nt Google Chrome), et avada <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Notes for teachers and mentors
+## title: Märkused õpetajatele ja mentoritele
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskondadesse ja lubage meil neid juhendada kirjutama lühikest Python´i programmi, mis näitab lühikest isiklikku sõnumit ja Astro Pi´l olevat õhutemperatuuri.
 
-Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
+Lugege [juhiseid sisaldavat dokumenti](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} Mission Zero kohta.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+Selleks, et teie meeskond/meeskonnad saaksid osaleda, peate registreeruma Mission Zero väljakutseks.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Minge [Trinket emulaatori Mission Zero lehele](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**.
++ Täitke vorm ja klõpsake **Submit** (esita) nupul.
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood**, ja te peate ütlema oma meeskonnale/meeskondadele, mis on teie kasutajakonto nimetus siis, kui nad hakkavad oma programme esitama.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
 
 \--- /collapse \---
