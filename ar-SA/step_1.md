@@ -1,30 +1,30 @@
-## Introduction
+## مقدمة
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+أضف المتعة والإثارة إلى الروتين اليومي لرواد الفضاء الموجودين على متن محطة الفضاء الدولية من خلال موافاتهم برسالة ودرجة حرارة الهواء المحيطة على متن المحطة باستخدام لوحة Sense HAT الخاصة بنظام Astro Pi.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+ومن ثم فإنك ستستخدم محاكي Sense HAT المتاح عبر الإنترنت لإنشاء برنامجك، وبذلك فإنك لن تحتاج إلى أي أجهزة إضافية - حيث يتم إجراء كل الأنشطة في متصفح الويب.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+وسيتم تشغيل برنامجك المكتمل في الفضاء في محطة الفضاء الدولية (ISS)! وستتلقى أيضًا شهادة خاصة توضح أين كان موضع محطة الفضاء الدولية بالضبط عندما تم تشغيل برنامجك!
 
-### What you will make
+### ما البرنامج الذي ستعده
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+إليك مثالًا لنوع البرنامج الذي يمكنك إعداده. انقر **Run** (تشغيل) لرؤية ذلك عمليًا. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## title: ما الذي ستتعلمه
 
-You will learn about the AstroPi unit and how to control an it, including how to:
+ستحصل على تعليم حول وحدة نظام AstroPi وكيفية التحكم فيها، بما في ذلك كيفية:
 
-+ display messages and colors
-+ create images
-+ measure the temperature
++ عرض الصور والألوان
++ إنشاء الصور
++ قياس درجة الحرارة
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+يغطي هذا المشروع عناصر من الأجزاء التالية لمنهج [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [استخدام أدوات البناء البرمجي الرئيسية لإنشاء برامج بسيطة](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,34 +32,34 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * * *
 
-## title: What you will need
+## title: ما الذي ستحتاجه
 
-### Hardware
+### الأجهزة
 
-+ Any computer with an internet connection
++ أي جهاز كمبيوتر متصل بالإنترنت
 
-### Software
+### البرامج
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
++ متصفح ويب (مثل Google Chrome) لفتح <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Notes for teachers and mentors
+## title: ملاحظات للمدرسين والمعلمين
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+يمكن إتمام هذا النشاط خلال فترة الظهيرة. نظِّم طلابك في فرق من أربعة أفراد بحد أقصى، واسمح لنا بإرشادهم خلال كتابة برنامج Python قصير لعرض رسالة شخصية ودرجة حرارة الهواء على نظام Astro Pi.
 
-Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
+اقرأ [وثيقة الإرشادات الرسمية](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} الخاصة بمشروع Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+ستحتاج إلى التسجيل في تحدي مشروع Mission Zero للسماح لفريقك/فرقك بالمشاركة.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ انتقل إلى [صفحة مشروع Mission Zero في محاكي Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**.
++ املء النموذج وانقر **Submit** (إرسال).
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ وسيتم إنشاء حساب لك. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
 
 \--- /collapse \---
