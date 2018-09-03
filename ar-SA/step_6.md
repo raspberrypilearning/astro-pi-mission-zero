@@ -1,40 +1,40 @@
-## Measure the temperature
+## قياس درجة الحرارة
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+يمكن لمستشعر درجة الحرارة في نظام Astro Pi قياس درجة حرارة الهواء في الأجواء المحيطة، وهي ميزة مفيدة من شأنها مساعدتك في جمع البيانات عن الظروف في الفضاء.
 
-![Message about the temperature](images/degrees-message.gif)
+![رسالة درجة الحرارة](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+يقيس نظام Astro Pi درجة الحرارة في محطة الفضاء الدولية بالدرجة المئوية (&deg;C). ولأن درجات الحرارة في الفضاء تتباين بشكل كبير عن درجات الحرارة على سطح الأرض، يمكن لنظام Astro Pi قياس درجات الحرارة المنخفضة بداية من -40 درجة مئوية حتى +120 درجة مئوية.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+ويتمثل جزء من بعثتك في دعم طاقم محطة الفضاء الدولية فيما يتعلق بأنشطة حياتهم اليومية، إذ إن قيامك بإبلاغهم بأن درجة الحرارة على متن محطة الفضاء في النطاق الطبيعي أمر من شأنه أن يبعث الطمأنينة في نفوسهم.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: ما هي درجة الحرارة؟
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+درجة الحرارة هي قياس مدى سخونة أي جسم. ربما تم قياس درجة حرارة جسمك خلال إحدى زيارتك إلى الطبيب باستخدام مقياس درجة الحرارة.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![مقياس درجة الحرارة](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+ولنكون أكثر دقة، فإن درجة الحرارة هي قياس كمية الطاقة الحرارية لأي مادة. أنت تعرف أن مكعب الثلج يكون في حالة صلبة، ولكن عندما يسخن، حيث يمتص الطاقة الحرارية من بيئته، ينصهر ويُصبح سائلًا. ينتج ذلك عن التغير الذي يحدث في حالة المادة عند امتصاصها أو فقدانها كمية كافية من الطاقة الحرارية، حيث تتحول من الحالة الصلبة إلى الحالة السائلة.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+أضف هذا الكود لأخذ قراءة درجة الحرارة:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+سيقيس هذا السطر درجة الحرارة الحالية ويُخزِّن القيمة المُقاسة في المتغير `temp` (درجة الحرارة).
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+يتم تسجيل درجة الحرارة بدقة بالغة، وهو ما يعني أن القيمة المُخزَّنة ستشتمل على عدد كبير من الخانات الكسرية. يمكنك تقريب القيمة إلى أي عدد من الخانات الكسرية. في هذا المثال قمنا بالتقريب إلى خانة كسرية واحدة، ولكن للحصول على مستوى مختلف من الدقة، غيِّر العدد`1` إلى عدد الخانات الكسرية التي تريد مشاهدتها.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+لعرض درجة الحرارة الحالية في شكل رسالة عابرة على شاشة العرض، أضف هذا السطر من الكود:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+يحوِّل الجزء `str()` (سلسلة()) درجة الحرارة من عدد إلى نص بحيث يمكن لنظام Astro Pi عرضها.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+يمكنك أيضًا عرض درجة الحرارة كجزء من رسالة أخرى عن طريق ربط أجزاء الرسالة معًا باستخدام الرمز `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+سيقيس نظام Astro Pi الحقيقي درجة الحرارة في الأجواء المحيطة، ومع ذلك يمكنك تحريك شريط تمرير ضبط درجة الحرارة في محاكي لوحة Sense HAT لمحاكاة تغيرات درجة الحرارة واختبار الكود الخاص بك.
 
-![Temperature slider](images/temperature-slider.png)
+![شريط تمرير ضبط درجة الحرارة](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**ملاحظة:** قد تتساءل لماذا يعرض شريط تمرير ضبط درجة الحرارة درجة الحرارة في شكل عدد صحيح، في حين أن القراءة التي يتم الحصول عليها تكون في عدد كسري. يتم من خلال المحاكي محاكاة حالات عدم الدقة الطفيفة للمستشعر الحقيقي، لذلك فإن قياس درجة الحرارة الذي تشاهده قد يزداد أو ينخفض بدرجة طفيفة عن القيمة التي حددتها باستخدام شريط تمرير الضبط.
