@@ -1,65 +1,65 @@
-## Introduction
+## Introductie
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+De dagelijkse routine van de astronauten opfleuren in het Internationale Space Station door hun een boodchap en de omgevingslucht temperatuur te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, dus geen extra hardware is nodig - alles wordt gedaan in de web browser.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+Je voltooide programma zal in Space runnen in het International Space Station (ISS)! Je zult ook een speciaal certificaat ontvangen waar precies de ISS was toen je programma aan het runnen was!
 
-### What you will make
+### Wat je gaat maken
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
-
-\--- collapse \---
-
-* * *
-
-## title: What you will learn
-
-You will learn about the AstroPi unit and how to control an it, including how to:
-
-+ display messages and colors
-+ create images
-+ measure the temperature
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
-
-\--- /collapse \---
+Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om te zien hoe het in de praktijk werkt. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Wat je zult leren
 
-### Hardware
+Je zult leren over AstroPi unit en hoe het te besturen, waaronder hoe:
 
-+ Any computer with an internet connection
++ toon boodschappen en kleuren
++ ontwerp beelden
++ meet de temperatuur
 
-### Software
+Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: Notes for teachers and mentors
-
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
-
-Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
-
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
-
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
-
-+ Fill out the form and click **Submit**.
-
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
-
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
-
-\--- /collapse \---
++ Gebruik basic programming constructies om eenvoudige programma's te ontwerpen<0> {target="_blank"}</li> </ul> 
+    
+    \--- /collapse \---
+    
+    \--- collapse \---
+    
+    * * *
+    
+    ## title: Wat je nodig hebt
+    
+    ### Hardware
+    
+    + Een computer met een internet verbinding
+    
+    ### Software
+    
+    + Een web browser (bijv. Google Chrome) om https://trinket.io/mission-zero<0>{target="-blank"} te openen</li> </ul> 
+        
+        \--- /collapse \---
+        
+        ## \--- collapse \---
+        
+        ## title: Aantekeningen voor leraars en mentors
+        
+        Deze activiteit kan worden afgerond in een namiddag. Organiseer je studenten in teams van ten hoogste vier, en laat ons hun loodsen met het schrijven van een kort Python programma om een persoonlijke boodschap te laten zien en de lucht temperatuur op de Astro Pi.
+        
+        Lees het [officiele richtlijnen document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} voor Mission Zero.
+        
+        Je moet registreren voor de Mission Zero uitdaging om je team/s te laten deelnemen.
+        
+        + Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
+            
+            + Vul het formulier in en klik **Submit**.
+            
+            + Een rekening wordt voor je opgericht. Elke rekening heeft zijn eigen **variatiecode**, en je moet je team/s laten weten wat die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
+            
+            + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.</ul> 
+            
+            \--- /collapse \---
