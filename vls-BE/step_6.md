@@ -1,62 +1,62 @@
-## Measure the temperature
+## Meten van de temperatuur
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+De temperatuur sensor op de Astro Pi kan de temperatuur meten van de lucht eromheen, een nuttige eigenschap om je te helpen met het verzamelen van gegevens over de condities in Space.
 
-![Message about the temperature](images/degrees-message.gif)
+![Boodschap over de temperatuur](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+De Astro Pi meet de temperatuur op de ISS in graden Celsius (&deg;C). Omdat de temperaturen in Space veel meer verschillen dan op Aarde, kan de Astro Pi de temperaturen meten van slechts -40 graden Celsius tot wel +120 graden Celsius.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Een deel van je missie is het bijdragen tot het dagelijkse leven van de bemanning aan boord de ISS, dus hun laten weten dat de temperatuur aan boord het ruimtestation binnen de normale parameters ligt zal hun geruststellen.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Wat is de temperatuur?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Temperatuur is de maat van hoe heet iets is. Misschien heb je wel eens je temperatuur laten opnemen met een thermometer gedurende een bezoek aan de dokter.
 
 ![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Om precies te zijn, de temperatuur is een maat van de hoeveelheid warmte-energie van een bepaalde substantie. Je weet dat een ijsklontje massief is, maar als het opwarmt, d.w.z. als het warmte-energie absorbeert van zijn omgeving, smelt het en wordt het vloeibaar. Dit is omdat, wanneer een stof warmte-energie absorbeert of voldoende verliest, dan verandert de substantie van staat, namelijk verandert van het massief zijn naar een vloeistof.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Voeg deze code toe bij het meten van een temperatuur:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.neem_temperatuur()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Deze lijn meet de huidige temperatuur en slaat de meetwaarde op in de variabele `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+De temperatuur wordt heel precies opgenomen, d.w.z. de opgeslagen waarde heeft een groot aantal decimale cijfers. Je kunt de waarde afronden tot een aantal decimale cijfers. In het voorbeeld hebben wij het cijfer afgerond tot een decimaal, maar voor een ander niveau van nauwkeurigheid, verander het nummer `1` tot het nummer van decimale cijfers die je wenst te zien.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = rond( sense.neem_temperatuur(), 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Om de huidige temperatuur tentoon te stellen als een scrollende boodschap op het schermbeeld, voeg je deze codelijn toe:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+Het `str()` deel zet de temperatuur om van een nummer naar tekst zodat de Astro Pi het tentoon kan stellen.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Je kunt ook de temperatuur tentoonstellen als deel van een andere boodschap door delen van je boodschap samen te voegen met een `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+De werkelijke Astro Pi zal de temperatuur eromheen meten, maar je kunt de temperatuur schuifknop op de Sense HAT emulator verschuiven om de temperatuur veranderingen te simuleren en je code te testen.
 
-![Temperature slider](images/temperature-slider.png)
+![Temperatuur schuifknop](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Aandacht:** Je vraagt je misschien af waarom de temperatuur schuifknop de temperatuur laat zien als een geheel getal, maar de lezing die je ziet is een decimaal. De emulator simuleert de onnauwkeurigheid van de werkelijke sensor, zodat de temperatuurmeting die je ziet misschient iets groter of kleiner is dan de waarde die je hebt gezet met de schuifknop.
