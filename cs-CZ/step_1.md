@@ -1,30 +1,30 @@
-## Introduction
+## Úvod
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT, přídavné desky počítače Astro Pi, zobrazíte vzkaz a teplotu vzduchu na palubě.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Při vytváření programu budete používat online emulátor desky Sense HAT, takže není potřeba žádný nový hardware – všechno se to dělá ve webovém prohlížeči.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+Váš hotový program bude spuštěn ve vesmíru na Mezinárodní vesmírné stanici (ISS)! Také dostanete speciální certifikát s přesnou polohou ISS v okamžiku, kdy na ní váš program byl spuštěn!
 
-### What you will make
+### Co vytvoříte
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Tady je příklad, jaký asi program byste mohli vytvořit. Klikněte na **Run** (Spustit) a uvidíte ho v akci. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## title: Co se naučíte
 
-You will learn about the AstroPi unit and how to control an it, including how to:
+Dozvíte se, co je jednotka AstroPi a jak ji ovládat, například jak:
 
-+ display messages and colors
-+ create images
-+ measure the temperature
++ zobrazovat zprávy a barvy
++ vytvářet obrázky
++ měřit teplotu
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitální tvorby s Raspberry Pi):
 
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Použij základní programovací konstrukce k vytvoření jednoduchých programů](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,34 +32,34 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * * *
 
-## title: What you will need
+## title: Co budete potřebovat
 
 ### Hardware
 
-+ Any computer with an internet connection
++ Jakýkoli počítač s připojením k internetu
 
 ### Software
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
++ Webový prohlížeč (např. Google Chrome), který otevře <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Notes for teachers and mentors
+## title: Poznámky pro učitele a mentory
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů nejvýš po čtyřech. Pak nechte na nás, abychom je provedli napsáním krátkého programu v Pythonu, který zobrazí osobní vzkaz a teplotu vzduchu na Astro Pi.
 
-Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
+Přečtěte si [dokument s oficiálními instrukcemi](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} pro Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+Aby se vaše týmy mohly zúčastnit, musíte se pro Mission Zero zaregistrovat.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Jděte na [stránku emulátoru Trinket pro Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**.
++ Vyplňte formulář a klikněte na **Submit** (Odeslat).
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Bude pro vás vytvořen účet. Každý účet má svůj **kód třídy** – až budou vaše týmy připravené odeslat své programy, budete jim muset dát ten váš.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
 
 \--- /collapse \---
