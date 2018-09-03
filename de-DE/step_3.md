@@ -1,10 +1,10 @@
-## Display a message
+## Anzeigen einer Nachricht
 
 \--- task \---
 
-Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
+Öffne den [ Sense HAT Emulator](https://trinket.io/mission-zero){:target="_ blank"} für das Mission Zero Projekt.
 
-You will see that three lines of code have been added for you automatically:
+Du wirst sehen, dass drei Zeilen Code bereits automatisch erscheinen:
 
 ```python
 from sense_hat import SenseHat
@@ -12,17 +12,17 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat emulator](images/sense-hat-emulator2.png)
+![Sense Hat Emulator](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Dieser Code verbindet sich mit dem Astro Pi und sorgt dafür, dass die LED-Anzeige des Astro Pi korrekt angezeigt wird. Lass den Code so dort stehen, weil du ihn noch brauchen wirst.
 
 \--- /task \---
 
 \--- task \---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Vielleicht könntest du einen schönen Gruß für die Astronauten hinterlassen, die auf der ISS in der Nähe des Astro Pi arbeiten? Wir lassen nun eine Nachricht über den Bildschirm laufen.
 
-Add this line below the other code:
+Füge diese Zeile unter dem anderen Code hinzu:
 
 ```python
 sense.show_message("Astro Pi")
@@ -32,23 +32,23 @@ sense.show_message("Astro Pi")
 
 \--- task \---
 
-Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
+Klicke auf **Run** (Ausführen) und schau wie die Nachricht `Astro Pi` über den LED-Bildschirm läuft.
 
-![show message code click run](images/show-message-code-annotated.PNG)
+![Nachrichtencode anzeigen, Auf Ausführen klicken](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
-![Scrolling message](images/scroll-message.gif)
+![Lauftext](images/scroll-message.gif)
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Um eine andere Nachricht anzuzeigen, kannst du beliebig zwischen den Anführungszeichen schreiben (`""`).
 
 \--- collapse \---
 
 * * *
 
-## title: What characters can be used?
+## title: Welche Zeichen können verwendet werden?
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Der Sense HAT kann nur den Zeichensatz Latin 1 anzeigen, sodass nur die folgenden Zeichen verfügbar sind. Andere Zeichen werden als `?` angezeigt.
 
     +-*/!"#$><0123456789.=)(
     
@@ -63,12 +63,12 @@ The Sense HAT can only display the Latin 1 character set, meaning only the follo
 
 \--- task \---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Du kannst auch die Geschwindigkeit der Nachricht ändern, die über den Bildschirm läuft. Füge `scroll_speed` (Laufgeschwindigkeit) zu der Codezeile, die du schon hast, folgendermaßen hinzu:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleinerst, läuft die Nachricht schneller ab, und wenn du sie vergrößerst, läuft die Nachricht langsamer ab.
 
 \--- /task \---
