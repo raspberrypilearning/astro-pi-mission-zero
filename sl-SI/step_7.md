@@ -1,12 +1,12 @@
-## Display the temperature
+## Prikažite temperaturo
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+Odčitek temperature lahko združite s sliko in temperaturo tako prikažete tudi grafično. Tako lahko za nizke temperature prikažete snežno nevihto, za visoke pa sončen dan.
 
-![Hot and cold](images/hot-and-cold.png)
+![Vroče in hladno](images/hot-and-cold.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+Na dnu svojega programa določite več barvnih spremenljivk za barve, ki jih želite uporabiti v svojih slikah. Nekatere izmed njih ste morda določili že pri prejšnjem koraku. V naših primerih bomo uporabili belo (`w`), rumeno(`y`), zeleno(`g`), in črno/praznino (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Tako kot prej svoje slike ustvarite tako, da za vsako od njih ustvarite seznam in nato elementom seznama določite barve, ki jih želite uporabiti pri prikazu slikovnih pik.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Add some code to get the temperature:
+Za temperaturo dodajte kodo:
 
 ```python
 temp = sense.get_temperature()
@@ -60,7 +60,7 @@ temp = sense.get_temperature()
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+Zdaj se odločite, katero sliko želite uporabiti. V tem primeru bomo uporabili sliko `hot`, če temperatura znaša 20 stopinj ali več, in sliko `cold`, če je temperatura nižja od 20 stopinj.
 
 ```python
 temp = sense.get_temperature()
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+Z drsnikom za temperaturo na emulatorju nastavite temperaturo. Zaženite svoj program in preverite, ali je slika, ki ste jo za to temperaturo izbrali, prikazana pravilno.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+Svojo kodo spremenite tako, da bo vaš program astronavtom temperaturo prikazal na želen način.
 
 \--- /task \---
