@@ -1,59 +1,59 @@
-## Submit your entry
+## Υποβολή της καταχώρισής σας
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σας, ώστε να μπορέσετε να τον υποβάλετε για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. Αν ο κώδικάς σας τους ακολουθεί, οι κανόνες στο κάτω μέρος του εξομοιωτή θα γίνουν πράσινοι όταν τρέξετε το πρόγραμμα.
 
-![Validation](images/validation.png)
+![Επικύρωση](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Πραγματοποιήστε μια μέτρηση θερμοκρασίας
+2. Ενεργοποιήστε τις φωτεινές ενδείξεις LED
+3. Βεβαιωθείτε ότι ο κώδικάς σας εκτελείται μέχρι το τέλος χωρίς σφάλματα. Αν έχετε έναν βρόχο `while True` στον κώδικά σας, θα πρέπει να πατήσετε το κουμπί «**Stop**» (Διακοπή) για να μπορέσετε να περάσετε αυτόν τον κανόνα.
 
-Also make sure you have met the following criteria:
+Επίσης, βεβαιωθείτε ότι πληρούνται τα ακόλουθα κριτήρια:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Ο κώδικάς σας δεν πρέπει να υπερβαίνει τους 1000 χαρακτήρες, στους οποίους δεν συμπεριλαμβάνονται οι κενές γραμμές
+2. Το μήνυμά σας στους αστροναύτες δεν πρέπει να εμφανίζεται για παραπάνω από 30 δευτερόλεπτα και αυτός θα είναι ο χρόνος εκτέλεσης του κώδικα σας στον ΔΔΣ
+3. Αποφύγετε τη χρήση μεθόδων που απαιτούν είσοδο
+4. Κάντε εισαγωγή μόνο από τις ενότητες `sense_hat`, `time` και `random`
+5. Μην χρησιμοποιείτε αισχρολογίες
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Αν όλοι οι κανόνες είναι πράσινοι, μπορείτε να προχωρήσετε στην υποβολή: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Εισαγάγετε τον κωδικό τάξης στο πλαίσιο στο κάτω μέρος - ο δάσκαλός σας θα σας δώσει τον κωδικό σας.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+Θα βρείτε τις **Σημειώσεις για εκπαιδευτικούς ή συμβούλους** στο βήμα [Εισαγωγή](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Θα εμφανιστεί το όνομα του δάσκαλού σας. Αν είναι το σωστό όνομα, κάντε κλικ στο κουμπί «**Continue to form**» (Συνέχιση στη φόρμα).
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Συνέχιση στη φόρμα](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Αν είναι απαραίτητο, κάντε κλικ στη σημαία της χώρας σας για να αλλάξετε τη γλώσσα στην οποία εμφανίζεται η φόρμα υποβολής.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Εισαγάγετε το όνομα της ομάδας σας και τα ονόματα των μελών της ομάδας. Τα ονόματα αυτά θα εκτυπωθούν στο πιστοποιητικό που θα λάβετε μόλις ο κώδικάς σας εκτελεστεί στο διάστημα, οπότε βεβαιωθείτε ότι τα έχετε γράφει σωστά!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Πατήστε το κουμπί «**Submit**» (Υποβολή) για να υποβάλετε τον κώδικά σας. Ο δάσκαλος ή ο σύμβουλος σας θα λάβει ένα email επιβεβαίωσης για την καταχώρισή σας.
+
+\--- /task \---
+
+\--- task \---
+
+Αν θέλετε, μπορείτε να κοινοποιήσετε έναν σύνδεσμο προς τον κώδικά σας στα κοινωνικά μέσα, για να δημοσιεύσετε ότι ο κώδικας που γράψατε θα εκτελεστεί στο διάστημα!
 
 \--- /task \---
