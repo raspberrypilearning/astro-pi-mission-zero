@@ -1,40 +1,40 @@
-## Measure the temperature
+## Izmerite temperaturo
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Senzor temperature v računalniku Astro Pi lahko izmeri temperaturo zraka okrog sebe, kar je koristna funkcija, ki pomaga pri zbiranju podatkov o razmerah v vesolju.
 
-![Message about the temperature](images/degrees-message.gif)
+![Sporočilo o temperaturi](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Astro Pi temperaturo na postaji ISS meri v stopinjah Celzija (&deg;C). Ker se temperature v vesolju razlikujejo veliko bolj kot tiste na Zemlji, lahko Astro Pi izmeri temperaturo v razponu od –40 stopinj Celzija do +120 stopinj Celzija.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Del vaše misije je izboljšanje vsakdana posadke na postaji ISS. Ko jim boste sporočili, da je temperatura na vesoljski postaji v mejah normale, jih bo to prav gotovo pomirilo.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Kaj je temperatura?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+S temperaturo izmerimo, kako vroče je nekaj. Med obiskom pri zdravniku so vam prav gotovo s termometrom že kdaj izmerili telesno temperaturo.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Če smo natančnejši, je temperatura merilo količine toplotne energije snovi. Veste, da je kocka ledu trdna, a ko se segreje (ko absorbira toplotno energijo iz okolja), se stali in postane tekoča. Ko absorbira ali izgubi toplotno energijo, snov namreč spremeni agregatno stanje, npr. iz trdnega v tekoče.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Za odčitavanje temperature dodajte to kodo:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Ta vrstica bo izmerila trenutno temperaturo in izmerjeno vrednost shranila v spremenljivki `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Temperatura je zabeležena zelo natančno, kar pomeni, da bo shranjena vrednost imela veliko število decimalnih mest. Vrednost lahko zaokrožite na poljubno število decimalnih mest. V tem primeru smo vrednost zaokrožili na eno decimalno mesto, a za drugačno stopnjo natančnosti lahko število `1` spremenite v želeno število decimalnih mest.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Za prikaz trenutne temperature v obliki premikajočega se sporočila dodajte to vrstico kode:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+Del `str()` temperaturo pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Temperaturo lahko prikažete tudi kot del drugega sporočila, kar storite tako, da dele sporočila združite s kodo `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Pravi Astro Pi bo izmeril temperaturo okrog sebe, a vi lahko drsnik za temperaturo na emulatorju Sense HAT premikate in s tem simulirate temperaturne spremembe ter preizkusite svojo kodo.
 
-![Temperature slider](images/temperature-slider.png)
+![Drsnik za temperaturo](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Opomba:** Morda se sprašujete, zakaj drsnik temperaturo prikaže kot celo število, a dobljen odčitek bo v decimalni obliki. Emulator simulira manjšo nenatančnost pravega senzorja, zato je lahko izmerjena temperatura nekoliko višja ali nižja od vrednosti, ki ste jo nastavili z drsnikom.
