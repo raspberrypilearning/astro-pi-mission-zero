@@ -1,30 +1,30 @@
-## Introduction
+## Εισαγωγή
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+Προσφέρετε μια ευχάριστη νότα στην καθημερινή ρουτίνα των αστροναυτών στον Διεθνή Διαστημικό Σταθμό, δείχνοντας τους ένα μήνυμα και τη θερμοκρασία περιβάλλοντος μέσα στον σταθμό, χρησιμοποιώντας τον υπολογιστή Sense ΗΑΤ του Astro Pi.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Θα χρησιμοποιήσετε τον διαδικτυακό εξομοιωτή Sense HAT για να δημιουργήσετε το πρόγραμμά σας, οπότε δεν θα χρειαστείτε επιπλέον εξοπλισμό — όλα γίνονται σε ένα πρόγραμμα περιήγησης Ιστού.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+Το ολοκληρωμένο πρόγραμμα σας θα εκτελεστεί στο διάστημα στον Διεθνή Διαστημικό Σταθμό (ΔΔΣ)! Θα λάβετε επίσης ένα ειδικό πιστοποιητικό που θα δείχνει πού ακριβώς βρισκόταν ο ΔΔΣ κατά την εκτέλεση του προγράμματός σας!
 
-### What you will make
+### Τι θα φτιάξετε
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Παρακάτω είναι ένα παράδειγμα του είδους προγράμματος που θα μπορούσατε να φτιάξετε. Κάντε κλικ στο «**Run**» (Εκτέλεση) για να δείτε το πρόγραμμα σε δράση. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## title: Τι θα μάθετε
 
-You will learn about the AstroPi unit and how to control an it, including how to:
+Θα μάθετε σχετικά με τη μονάδα AstroPi και το πώς να την ελέγχετε, συμπεριλαμβανομένων των εξής:
 
-+ display messages and colors
-+ create images
-+ measure the temperature
++ πώς να εμφανίζετε μηνύματα και χρώματα
++ πώς να δημιουργείτε εικόνες
++ πώς να μετράτε τη θερμοκρασία
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Αυτή η εργασία καλύπτει στοιχεία από τις ακόλουθες ενότητες του [προγράμματος σπουδών ψηφιακής δημιουργίας Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Χρησιμοποιήστε βασικές δομές προγραμματισμού για να δημιουργήσετε απλά προγράμματα](https://curriculum.raspberrypi.org/programming/creator/){: target = "_ blank"}
 
 \--- /collapse \---
 
@@ -32,34 +32,34 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * * *
 
-## title: What you will need
+## title: Τι θα χρειαστείτε
 
-### Hardware
+### Υλικό
 
-+ Any computer with an internet connection
++ Οποιοσδήποτε υπολογιστής με σύνδεση στο Διαδίκτυο
 
-### Software
+### Λογισμικό
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
++ Ένα πρόγραμμα περιήγησης Ιστού (π.χ. Google Chrome) για να ανοίξετε το <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Notes for teachers and mentors
+## title: Σημειώσεις για εκπαιδευτικούς και συμβούλους
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες των τεσσάρων και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και τη θερμοκρασία αέρα στο Astro Pi.
 
-Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
+Διαβάστε το [επίσημο έγγραφο οδηγιών](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} για το Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+Θα πρέπει να εγγραφείτε στην πρόκληση Mission Zero για να μπορέσουν οι ομάδες σας να συμμετέχουν.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Μεταβείτε στη [σελίδα Mission Zero του εξομοιωτή Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**.
++ Συμπληρώστε τη φόρμα και κάντε κλικ στο «**Submit**» (Υποβολή).
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Θα δημιουργηθεί ένας λογαριασμός για εσάς. Κάθε λογαριασμός έχει τον δικό του **κωδικό τάξης**, τον οποίον θα πρέπει να δώσετε στις ομάδες σας όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Προβάλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής, και ξεκινήστε τη δραστηριότητα.
 
 \--- /collapse \---
