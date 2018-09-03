@@ -1,25 +1,25 @@
-## Display an image
+## عرض صورة
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+يمكنك عرض الصور على مصفوفة شاشة LED الخاصة بنظام Astro Pi. قد تتضمن رسالة الترحيب برواد الفضاء صورة أو نقشًا بدلاً من الرسالة المكتوبة أو بالإضافة إليها؟
 
-![Astronaut](images/astronaut-pic.png)
+![رائد فضاء](images/astronaut-pic.png)
 
 \--- task \---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
+في نهاية برنامجك، أنشئ بعض متغيرات الألوان لتحديد الألوان التي تريد استخدامها لرسم صورتك. يمكنك استخدام العدد الذي تريده من الألوان، ولكننا سنلتزم في هذا المثال بلونين فقط — الأبيض (`w`) والأسود (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**ملاحظة:** من الأفكار الجيدة في هذه المرة إعطاء متغيرات الألوان أسماء مكونة من حرف واحد، لأن هذا سيوفر الوقت في الخطوة التالية، حيث سيتعين عليك كتابتها عدة مرات. علاوة على ذلك، سيسهل استخدام حرف واحد من رؤية الصورة التي سترسمها.
 
 \--- /task \---
 
 \--- task \---
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
+أسفل المتغيرات الجديدة الخاصة بك، أنشئ قائمة من 64 عنصرًا. يمثل كل عنصر وحدة بكسل واحدة في مصفوفة شاشة LED ويتوافق مع أحد متغيرات الألوان التي حددتها. ارسم صورتك بوضع المتغير في المكان الذي تريد أن يظهر فيه اللون الخاص بهذا التغير والذي تم تعيينه له من قبل. لقد رسمنا رائد فضاء باستخدام وحدات البكسل السوداء (`b`) كخلفية ووحدات البكسل البيضاء (`w`) لرسم بدلة الفضاء الخاصة برائد الفضاء:
 
 ```python
 picture = [
@@ -38,7 +38,7 @@ picture = [
 
 \--- task \---
 
-Add a line of code to display your picture on the LED display.
+أضف سطرًا من الكود لعرض صورتك على شاشة عرض LED.
 
 ```python
 sense.set_pixels(picture)
@@ -48,19 +48,19 @@ sense.set_pixels(picture)
 
 \--- task \---
 
-Press **Run** to see your picture displayed.
+انقر **Run** (تشغيل) لرؤية صورتك معروضة.
 
 \--- /task \---
 
 \--- task \---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+قد ترغب في إضافة بعض الأكواد لتضمين انتظار قصير (أو `sleep`) (سكون) بعد عرض الصورة. وسيُتيح هذا لرواد الفضاء الوقت لرؤية صورتك قبل ظهور الجزء التالي من رسالتك. في أعلى البرنامج، أضف:
 
 ```python
 from time import sleep
 ```
 
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+ثم، في السطر التالي للسطر الذي يعرض صورتك، أضف هذا الكود للانتظار لمدة ثانيتين:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Create your own picture or pattern to display to the astronauts!
+أنشئ صورتك أو نقشك لعرضه على رواد الفضاء!
 
 \--- /task \---
