@@ -1,40 +1,40 @@
-## Measure the temperature
+## Mõõda õhutemperatuur
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Astro Pi´l asuv õhutemperatuuri sensor mõõdab ümbritseva õhu temperatuuri, mis on vajalik kosmoses valitsevate tingimuste kohta andmete kogumiseks.
 
-![Message about the temperature](images/degrees-message.gif)
+![Sõnum õhutemperatuuri kohta](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Astro Pi mõõdab rahvusvahelise kosmosejaama õhutemperatuuri Celsiuse kraadides (&deg;C). Kuna kosmose õhutemperatuur kõigub palju rohkem kui Maa oma, võib Astro Pi mõõta temperatuuri vahemikus -40°C...+120°C.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Osa sinu ülesandest on panustada rahvusvahelise kosmosejaama meeskonna igapäeva ellu, seetõttu nende teavitamine sellest, et õhutemperatuur kosmosejaama pardal on normaalses vahemikus annab neile suuremat kindlust.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## pealkiri: Mis on õhutemperatuur?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Temperatuur mõõdab millegi soojust. Arsti juures käies on ilmselt sinu kehatemperatuuri mõõdetud kraadiklaasiga.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termomeeter](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Täpsemalt öeldes on temperatuur mingi aine soojusenergia hulga mõõt. Sa tead seda, et jääkuubik on tahke, aga selle soojenemisel, st ümbritsevast keskkonnast soojusenergia absorbeerimisel, hakkab see sulama ja muutub vedelikuks. Seda seetõttu, et kui aine absorbeerib või kaotab piisavalt palju soojusenergiat muudab aine oma olekut, st muutub tahkest olekust vedelikuks.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Õhutemperatuuri mõõtmiseks lisa see kood:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+See koodirida mõõdab valitsevat õhutemperatuuri ja säilitab mõõdetud väärtuse muutujas `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Õhutemperatuuri mõõdetakse väga täpselt, st säilitataval väärtusel on suur kümnendkohtade arv. Sina võid väärtuse ümardada mistahes kümnendkohtadega arvuks. Meie ümardasime näite ühe kümnendkohaga arvuks, aga teistsuguse täpsuse saavutamiseks muuda numbrit `1` selliseks kümnendkoha arvuks, mida soovid näha.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Õhutemperatuuri kuvamiseks keriva sõnumina ekraanil tuleb lisada see koodirida:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+See `str()` osa konverteerib õhutemperatuuri numbri tekstiks selle jaoks, et seda saaks kuvada Astro Pi´l.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Samuti võid kuvada õhutemperatuuri mõne teise sõnumi osana, selleks pead oma sõnumi osad ühendama kasutades `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Tõeline Astro Pi mõõdab õhutemperatuuri enda ümber, aga sina võid temperatuuri liugurit liigutada Sense HAT´i emulaatoril simuleerimaks temperatuuri muutusi ja testimaks oma koodi.
 
-![Temperature slider](images/temperature-slider.png)
+![Õhutemperatuuri liugur](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Märkus:** Sa võid mõelda, et miks õhutemperatuuri liugur näitab õhutemperatuuri ühe numbrina, aga need mõõtmise tulemused mis sina saad näitavad kümnendkohti. Emulaator simuleerib tõelise sensori väikest ebatäpsust, seetõttu võib sinu poolt nähtav õhutemperatuuri mõõtmise tulemus olla natuke suurem või väiksem sellest väärtusest, mis sa liuguriga tegelikult määrasid.
