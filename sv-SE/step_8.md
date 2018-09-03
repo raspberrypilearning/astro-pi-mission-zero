@@ -1,59 +1,59 @@
-## Submit your entry
+## Skicka ditt bidrag
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dessa, kommer reglerna längst ner i emulatorn att tända grönt när du kör ditt program.
 
-![Validation](images/validation.png)
+![Validering](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Gör en temperaturavläsning
+2. Tänd lysdioderna
+3. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. Om du har en `while True`-slinga i din kod, måste du trycka på **Stop** (Stopp) för att uppfylla denna regel.
 
-Also make sure you have met the following criteria:
+Kontrollera även att följande kriterier är uppfyllda:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Se till att din kod inte är längre än 1000 tecken, exklusive tomma rader
+2. Kontrollera att ditt meddelande till astronauterna inte körs längre än 30 sekunder, eftersom detta är den tid som din kod kommer att köras på ISS
+3. Undvik att använda metoder som kräver inmatning
+4. Importera bara från modulerna `sense_hat`, `time` och `random`
+5. Se till att du inte inkluderar några svordomar
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+När alla regler är gröna, är du redo att skicka: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad koden är.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**Noteringar för lärare och mentorer** finns i steget [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gröna knappen **Continue to form** (Fortsätt till formulär).
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Fortsätt till formulär](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Klicka på ditt lands flagga för att ändra det språk som bidragsformuläret visas på, om så krävs.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Ange ditt lagnamn och namnen på dina lagmedlemmar. Dessa kommer att skrivas ut på certifikatet när din kod har körts i rymden, så se till att du stavar dem rätt!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Tryck på **Submit** (Skicka) för att ange din kod. Din lärare eller mentor får ett e-postmeddelande som bekräftar ditt bidrag.
+
+\--- /task \---
+
+\--- task \---
+
+Om du vill kan du dela länken till din kod på sociala medier för att berätta för människor att den kod som du skrev kommer att köras i rymden!
 
 \--- /task \---
