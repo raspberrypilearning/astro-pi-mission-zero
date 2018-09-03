@@ -1,25 +1,25 @@
-## Display an image
+## Zobrazte obrázek
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Na LED matici Astra Pi můžete zobrazovat obrázky. Co kdyby váš pozdrav astronautům obsahoval, kromě nebo místo psané zprávy, i obrázek nebo vzor?
 
 ![Astronaut](images/astronaut-pic.png)
 
 \--- task \---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
+Na konec programu přidejte nové řádky a na nich si vytvořte nové proměnné s definicemi barev, které budete chtít používat při kreslení svého obrázku. Můžete použít kolik barev budete chtít, ale v našem příkladu zůstaneme u dvou — u černé (`w`) a bílé (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Poznámka:** V tomhle případě se hodí dát proměnným s barvami jednopísmenná jména, protože to ušetří čas v dalším kroku, kde je budeme psát hodněkrát dokola. A kromě toho s jednopísmennými proměnnými lépe uvidíte obrázek, který kreslíte.
 
 \--- /task \---
 
 \--- task \---
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
+Pod novými proměnnými udělejte seznam s 64 položkami. Každá položka představuje jeden pixel na LED matici a odpovídá jedné z proměnných s barvami, které jste si definovali. Obrázek nakreslíte tak, že proměnnou dáte tam, kde chcete, aby se objevila jí přiřazená barva. Nakreslili jsme astronauta tak, že černé pixely (`b`) tvoří pozadí a bílými pixely (`w`) jsme nakreslili astronautův skafandr:
 
 ```python
 picture = [
@@ -38,7 +38,7 @@ picture = [
 
 \--- task \---
 
-Add a line of code to display your picture on the LED display.
+Přidejte řádek kódu, kterým obrázek zobrazíte na LED displeji.
 
 ```python
 sense.set_pixels(picture)
@@ -48,19 +48,19 @@ sense.set_pixels(picture)
 
 \--- task \---
 
-Press **Run** to see your picture displayed.
+Podívejte se na svůj obrázek stisknutím tlačítka **Run** (Spustit).
 
 \--- /task \---
 
 \--- task \---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Možná budete chtít po zobrazení obrázku přidat kus kódu, který vyvolá krátké čekání (říká se mu `sleep` (spánek)). Tak dáte astronautům čas, aby si obrázek prohlédli, než se objeví další část vaší zprávy. Na začátek programu přidejte:
 
 ```python
 from time import sleep
 ```
 
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+Potom na řádek hned po řádku zobrazujícím obrázek přidejte tento kód, který znamená dvouvteřinové čekání:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Create your own picture or pattern to display to the astronauts!
+Vytvořte si svůj vlastní obrázek nebo vzor, který chcete astronautům zobrazit!
 
 \--- /task \---
