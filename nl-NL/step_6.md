@@ -1,40 +1,40 @@
-## Measure the temperature
+## Meet de temperatuur
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+De temperatuursensor in de Astro Pi kan de temperatuur van de lucht eromheen meten, een handige functie om je te helpen gegevens te verzamelen over de omstandigheden in de ruimte.
 
-![Message about the temperature](images/degrees-message.gif)
+![Bericht over de temperatuur](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+De Astro Pi meet de temperatuur in het ISS in graden Celsius (&deg;C). Omdat de temperatuur in de ruimte veel meer varieert dan die op aarde, kan de Astro Pi temperaturen van -40 graden Celsius tot +120 graden Celsius meten.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Een deel van je missie is om bij te dragen aan het dagelijks leven van de bemanning aan boord van het ISS, dus ze laten weten dat de temperatuur aan boord van het ruimtestation binnen een normaal bereik ligt, zal hen geruststellen.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Wat is temperatuur?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Temperatuur is de maat voor hoe heet iets is. Misschien heb je je temperatuur met een thermometer laten nemen tijdens een bezoek aan de dokter.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Thermometer](images/thermometer.JPG) *door Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){: target = "_ blank"} via Wikimedia Commons *
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Om exacter te zijn, temperatuur is een maat voor de hoeveelheid warmte-energie van een stof. Je weet dat een ijsblokje vast is, maar naarmate het opwarmt, dat wil zeggen omdat het warmte-energie absorbeert uit zijn omgeving, smelt het en wordt het vloeibaar. Dit komt omdat wanneer een stof voldoende warmte-energie absorbeert of verliest, de staat zal veranderen, bijv. van een vaste stof naar een vloeistof.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Voeg deze code toe om een ​​temperatuurmeting te doen:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Deze lijn meet de huidige temperatuur en slaat de gemeten waarde op in de variabele `temp`.
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+De temperatuur wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` tot het aantal decimalen dat je wilt zien.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Om de huidige temperatuur weer te geven als een scrollend bericht op het display, voeg je deze regel code toe:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+Het `str()` gedeelte zet de temperatuur van een getal om naar tekst, zodat de Astro Pi het kan weergeven.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Je kunt de temperatuur ook weergeven als onderdeel van een ander bericht door de delen van je bericht samen te voegen met een `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+De echte Astro Pi meet de temperatuur eromheen, maar je kunt de temperatuurschuifregelaar op de Sense HAT-emulator verplaatsen om temperatuurveranderingen te simuleren en je code te testen.
 
-![Temperature slider](images/temperature-slider.png)
+![Temperatuurschuifregelaar](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Opmerking:** Je vraagt ​​je misschien af ​​waarom de temperatuurschuifregelaar de temperatuur als een geheel getal weergeeft, maar de waarde die je krijgt is een decimaal. De emulator simuleert de kleine onnauwkeurigheid van de echte sensor, dus de temperatuurmeting die je ziet, is mogelijk iets groter of kleiner dan de waarde die je met de schuifregelaar hebt ingesteld.
