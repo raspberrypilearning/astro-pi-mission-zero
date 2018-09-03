@@ -1,59 +1,59 @@
-## Submit your entry
+## Trimite programul tău
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi difuzat pe Stația Spațială Internațională. În cazul în care codul tău le respectă, regulile din partea de jos a emulatorului se vor schimba în verde atunci când execuţi programul.
 
-![Validation](images/validation.png)
+![Validare](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Măsoară temperatura
+2. Aprinde LED-urile
+3. Asigură-te că tot codul tău funcţionează până la sfârșit, fără să apară nici o eroare. Dacă ai o buclă `while True` (cât timp e adevărat) în codul tău, va trebui să apeşi butonul **Stop** pentru a depăşi această regulă.
 
-Also make sure you have met the following criteria:
+De asemenea, asigură-te că ai îndeplinit următoarele criterii:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Asigură-te că codul tău nu depășește 1000 de caractere, fără a include liniile necompletate
+2. Asigură-te că mesajul tău către astronauți rulează timp de cel mult 30 de secunde, deoarece acesta este timpul în care va fi rulat codul tău pe ISS
+3. Evită utilizarea oricăror metode care necesită input
+4. Importă doar din modulele `sense_hat`, `time`, şi `random`
+5. Asigură-te că nu incluzi limbaj obscen
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Odată ce regulile sunt toate scrise în culoarea verde, eşti gata să trimiți: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Introdu codul pentru clasă în caseta din partea de jos - profesorul îţi va spune care este codul tău.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**Notes for teachers or mentors** (Note pentru profesori sau mentori) pot fi găsite în etapa [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) (Introducere).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Va apărea numele profesorului tău. Dacă numele este cel corect, fă clic pe butonul verde **Continue to form** (Continuă spre formular).
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Continuă spre formular](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Dacă este necesar, fă clic pe steagul țării tale pentru a modifica limba în care este afișat formularul de trimitere.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Introdu numele echipei și numele membrilor echipei. Acestea vor fi imprimate pe certificat odată ce codul tău este rulat în spațiu, deci asigură-te că le scrii corect!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Apasă pe **Submit** (Trimite) pentru a introduce codul tău. Profesorul sau mentorul tău va primi un e-mail pentru a-ţi confirma intrarea.
+
+\--- /task \---
+
+\--- task \---
+
+Dacă vrei, poți distribui linkul cu codul tău pe social media pentru a le spune tuturor că există cod scris de tine care va fi rulat în spațiu!
 
 \--- /task \---
