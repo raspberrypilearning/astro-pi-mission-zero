@@ -1,20 +1,20 @@
-## Add some colour
+## Adj hozzá egy kis színt!
 
-The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
+Az Astro Pi LED-jei színeket is meg tudnak jeleníteni. Egy színt egy változó létrehozásával, majd egy RGB színérték hozzárendelésével határozhatsz meg.
 
-You can learn how all colours can be created using different proportions of red, green, and blue here:
+Itt megtanulhatod, hogyan hozhatsz létre bármilyen színt a vörös, a zöld és a kék különböző arányainak használatával:
 
 [[[generic-theory-colours]]]
 
 \--- task \---
 
-Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
+Válassz ki egy színt, és keresd ki annak a színnek az RGB értékét. Egy [színválasztót](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} is segítségül hívhatsz.
 
 \--- /task \---
 
 \--- task \---
 
-Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
+Hozz létre egy változót a válaszott színed tárolására. Például, ha a vöröset választottad volna, ezt a kódsort írnád:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 \--- task \---
 
-You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+Mást már meg tudod jeleníteni az üzeneteted az általad választott színben! Utasítsd a programot, hogy az általad létrehozott színben jelenítse meg az üzenetedet a `text_colour` paraméter hozzádásával:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 \--- /task \---
 
-![show message in color](images/show-message-color.gif)
+![színes üzenetek megjelenítése](images/show-message-color.gif)
 
 \--- task \---
 
-You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+Még a kijelző háttérszínét is megváltoztathatod. Válassz ki egy másik színt, és hozz létre még egy változót annak a színnek a tárolásához. Utasítsd a programot, hogy az általad választott háttérszínt használja, add a `back_colour` paramétert a kódodhoz:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- task \---
 
-Change the greeting text and colour — what message will you send to the Astronauts aboard the ISS?
+Változtasd meg az üdvözlő szöveget és a színt — milyen üzenetet küldesz majd a Nemzetközi Űrállomás űrhajósainak?
 
 \--- /task \---
