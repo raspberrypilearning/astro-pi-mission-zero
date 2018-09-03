@@ -1,25 +1,25 @@
-## Display an image
+## Εμφάνιση εικόνας
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Στη διάταξη απεικόνισης LED του Astro Pi μπορείτε να εμφανίσετε εικόνες. Ίσως θα θέλατε να συμπεριλάβετε στον χαιρετισμό σας για τους αστροναύτες μια εικόνα ή ένα μοτίβο, μαζί με το γραπτό μήνυμά σας ή αντί για αυτό;
 
-![Astronaut](images/astronaut-pic.png)
+![Αστροναύτης](images/astronaut-pic.png)
 
 \--- task \---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
+Στο κάτω μέρος του προγράμματος σας, δημιουργήστε μερικές μεταβλητές χρώματος για να καθορίσετε τα χρώματα με τα οποία θα θέλατε να σχεδιάσετε την εικόνα σας. Μπορείτε να χρησιμοποιήσετε όσα χρώματα θέλετε, αλλά σε αυτό το παράδειγμα χρησιμοποιούμε μόνο δύο — λευκό (`w`) και μαύρο (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Σημείωση:** Αυτή τη φορά, είναι καλή ιδέα να χρησιμοποιήσετε ονόματα ενός γράμματος για τις μεταβλητές χρώματος, για να εξοικονομήσετε χρόνο στο επόμενο βήμα, όταν θα χρειαστεί να πληκτρολογήσετε τα ονόματα των μεταβλητών πολλές φορές. Επιπλέον, χρησιμοποιώντας ένα μόνο γράμμα είναι πιο εύκολο να δείτε την εικόνα που θα σχεδιάσετε.
 
 \--- /task \---
 
 \--- task \---
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
+Κάτω από τις νέες μεταβλητές σας, δημιουργήστε μια λίστα με 64 στοιχεία. Κάθε στοιχείο αντιπροσωπεύει ένα πίξελ στη διάταξη LED και αντιστοιχεί σε μία από τις μεταβλητές χρώματος που έχετε καθορίσει. Σχεδιάστε την εικόνα σας βάζοντας μια μεταβλητή στα σημεία όπου θέλετε να εμφανιστεί το εκχωρημένο της χρώμα. Σχεδιάσαμε έναν αστροναύτη χρησιμοποιώντας τα μαύρα (`b`) πίξελ για το φόντο και τα λευκά (`w`) για τη στολή του αστροναύτη:
 
 ```python
 picture = [
@@ -38,7 +38,7 @@ picture = [
 
 \--- task \---
 
-Add a line of code to display your picture on the LED display.
+Προσθέστε μια γραμμή κώδικα για να εμφανίσετε την εικόνα σας στην οθόνη LED.
 
 ```python
 sense.set_pixels(picture)
@@ -48,19 +48,19 @@ sense.set_pixels(picture)
 
 \--- task \---
 
-Press **Run** to see your picture displayed.
+Πατήστε «**Run**» για να δείτε την εικόνα σας στην οθόνη.
 
 \--- /task \---
 
 \--- task \---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Ίσως θελήσετε να προσθέσετε μια μικρή αναμονή (ή `sleep`) μετά την εμφάνιση της εικόνας σας. Με αυτόν τον τρόπο θα δώσετε στους αστροναύτες περισσότερο χρόνο για να δουν την εικόνα σας, πριν εμφανιστεί το επόμενο τμήμα του μηνύματός σας. Στο πάνω μέρος του προγράμματός σας, προσθέστε:
 
 ```python
 from time import sleep
 ```
 
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+Έπειτα, μετά από τη γραμμή του κώδικα εμφάνισης της εικόνας σας, προσθέστε τον ακόλουθο κώδικα για αναμονή 2 δευτερολέπτων:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Create your own picture or pattern to display to the astronauts!
+Δημιουργήστε τη δική σας εικόνα ή το δικό σας μοτίβο για προβολή στους αστροναύτες!
 
 \--- /task \---
