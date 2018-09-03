@@ -1,59 +1,59 @@
-## Submit your entry
+## Odešlete svůj příspěvek
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Aby váš kód byl odeslán a spuštěn na Mezinárodní kosmické stanici, musí dodržet několik pravidel. Když kód pravidlo splňuje, rozsvítí se tohle pravidlo při spuštění programu v dolní části emulátoru zeleně.
 
-![Validation](images/validation.png)
+![Validace](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Proveďte měření teploty
+2. Rozsviťte LED diody
+3. Ujistěte se, že váš kód proběhne až do konce, aniž by se vyskytly chyby. Jestli máte v kódu smyčku `while True`, musíte ke splnění tohoto pravidla stisknout tlačítko **Stop**.
 
-Also make sure you have met the following criteria:
+Také se ujistěte, že jste splnili následující kritéria:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Ujistěte se, že kód není delší než 1000 znaků (kromě prázdných řádků)
+2. Ujistěte se, že vaše zpráva pro astronauty není delší než 30 sekund, protože váš kód poběží na ISS právě 30 sekund
+3. Nepoužívejte žádné metody vyžadující vstup
+4. Importujte jen z modulů `sense_hat`, `time`, a `random`
+5. V kódu nesmějí být žádné vulgární výrazy
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Když jsou všechna pravidla zelená, všechno je připravené a kód můžete odeslat: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Do rámečku dole zadejte svůj kód třídy – řekne vám ho učitel.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**Poznámky pro učitele nebo mentory** najdete v kroku [Úvod](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Objeví se jméno vašeho učitele. Když je to správné jméno, klikněte na zelené tlačítko **Pokračovat na formulář**.
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Pokračovat na formulář](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Kdybyste potřebovali, změňte si jazyk formuláře pro odeslání příspěvku kliknutím na vlajku své země.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Zadejte název svého týmu a jména členů týmu. Po spuštění vašeho kódu ve vesmíru budou tahle jména vytištěna na certifikát, tak je napište bez překlepů!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Odešlete svůj kód tlačítkem **Submit** (Odeslat). Váš učitel nebo mentor dostane email s potvrzením, že váš příspěvek byl odeslán.
+
+\--- /task \---
+
+\--- task \---
+
+Jestli chcete, můžete odkaz na svůj kód sdílet na sociálních sítích, abyste se pochlubili, že kód, který jste napsali, poběží ve vesmíru!
 
 \--- /task \---
