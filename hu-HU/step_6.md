@@ -1,40 +1,40 @@
-## Measure the temperature
+## Mérd meg a hőmérsékletet!
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Az Astro Pi hőmérsékletérzékelője képes a körülötte levő levegő hőmérsékletének mérésére. Ez egy hasznos funkció, amely segít az űrbeli viszonyokról szóló adatgyűjtésben.
 
-![Message about the temperature](images/degrees-message.gif)
+![Üzenet a hőmérsékletről](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Az Astro Pi a Nemzetközi Űrállomáson Celsius-fokban méri a hőmérsékletet (&deg;C). Mivel az űrben sokkal nagyobb a hőmérsékletingadozás, mint a Földön, az Astro Pi akár -40 Celsius-foktól egészen +120 Celsius-fokig képes a hőmérsékletet mérni.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+A küldetésedhez tartozik a Nemzetközi Űrállomás legénységének napi életéhez való hozzájárulás, úgyhogy, ha tudatod velük, hogy az űrállomáson a hőmérséklet a normális tartományon belül van, azzal megnyugtatod őket.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Mi a hőmérséklet?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+A hőmérséklet azt méri, milyen forró valami. Lehet, hogy egy orvosi vizit során már mérték a te hőmérsékletedet is egy hőmérővel.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Hőmérő](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Pontosabban, a hőmérséklet egy anyag hőenergia-mennyiségének mértéke. Ahogy azt te is tudod, a jégkocka szilárd, de ahogy felmelegszik, azaz elnyeli a környezet hőenergiáját, elolvad és folyékonnyá válik. Ez azért van, mert amikor egy anyag elég hőenergiát nyel el vagy veszít el, az anyag halmazállapota megváltozik, pl. egy szilárd halmazállapotú anyag folyékonnyá válik.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Add hozzá ezt a kódot a hőmérséklet leolvasásához:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Ez a sor az aktuális hőmérsékletet méri majd meg, és a `temp` változóban tárolja a mért értéket.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+A hőmérséklet nagyon pontosan kerül rögzítésre, azaz a tárolt érték sok tizedesjegyet fog tartalmazni. Az értéket akárhány tizedesjegyre lekerekítheted. A példában egy tizedesjegyre kerekítettük le, de ha más szintű pontosságot szeretnél, változtasd meg az `1`-es számot arra számra, ahány tizedesjegyet szeretnél látni.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Az aktuális hőmérsékletet futó üzenetként való megjelenítéséhez add hozzá ezt a kódsort:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+A `str()` rész a hőmérsékletet számból szöveggé alakítja, hogy az Astro Pi meg tudja jeleníteni.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Egy másik üzenet részeként is megjelenítheted a hőmérsékletet az üzeneted különböző részeit egy `+` jellel összekötve.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+A valódi Astro Pi a körülötte levő hőmérsékletet méri majd, de a Sense HAT emulátor hőmérséklet-csúszkájával szimulálhatod a hőmérsékletváltozásokat és tesztelheted a kódod.
 
-![Temperature slider](images/temperature-slider.png)
+![Hőmérsélet-csúszka](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Megjegyzés:** Furcsa lehet, hogy a hőmérséklet-csúszka egy egész számként mutatja a hőmérsékletet, de a leolvasott érték egy tizedes tört lesz. Az emulátor a valódi érzékelő enyhe pontatlanságát szimulálja, úgyhogy a mért hőmérséklet, amit látsz, kicsit nagyobb vagy kisebb lehet annál az értéknél, amit a csúszkával állítottál be.
