@@ -1,25 +1,25 @@
-## Display an image
+## Visualizar uma imagem
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a tua saudação para os astronautas possa incluir uma imagem ou um desenho, junto com ou em vez de uma mensagem escrita.
 
-![Astronaut](images/astronaut-pic.png)
+![Astronauta](images/astronaut-pic.png)
 
 \--- task \---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
+Na parte inferior do programa, cria algumas variáveis ​​para definir as cores que queres usar no teu desenho. Podes usar quantas cores quiseres, mas neste exemplo vamos usar apenas duas - branco (`w`) e preto (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Nota:** Desta vez, é uma boa ideia dar um nome às variáveis ​​de cor utilizando uma letra só, porque isso economizará tempo na próxima etapa, onde terás que digitá-las várias vezes. Além disso, usar uma única letra facilitará a visualização da imagem que vais desenhar.
 
 \--- /task \---
 
 \--- task \---
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
+Abaixo tens as tuas novas variáveis, cria uma lista de 64 itens. Cada item representa um pixel na matriz de LED e corresponde a uma das variáveis ​​de cor que definiste. Desenha a tua imagem colocando uma variável onde queres que a tua cor apareça. Nós desenhámos um astronauta utilizando pixels pretos (`b`) como fundo e pixels brancos (`w`) para desenhar a roupa do astronauta:
 
 ```python
 picture = [
@@ -38,7 +38,7 @@ picture = [
 
 \--- task \---
 
-Add a line of code to display your picture on the LED display.
+Adiciona o seguinte código para visualizar a tua imagem no ecrã LED.
 
 ```python
 sense.set_pixels(picture)
@@ -48,19 +48,19 @@ sense.set_pixels(picture)
 
 \--- task \---
 
-Press **Run** to see your picture displayed.
+Para visualizar a tua imagem basta clicar em **Run**.
 
 \--- /task \---
 
 \--- task \---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Se quiseres podes adicionar um código para incluir uma pequena pausa (ou `sleep` para suspender) depois de exibires a imagem. Isso dará tempo aos astronautas para ver a tua foto antes que o resto da tua mensagem apareça. No topo do programa, adiciona:
 
 ```python
 from time import sleep
 ```
 
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+Em seguida, por baixo do código de visualizar a imagem, adiciona este código para aguardar dois segundos:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Create your own picture or pattern to display to the astronauts!
+Cria a tua própria imagem ou desenho para mostrar aos astronautas!
 
 \--- /task \---
