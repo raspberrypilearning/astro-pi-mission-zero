@@ -1,30 +1,30 @@
-## Introduction
+## Introducere
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+Îmbunătățește rutina zilnică a astronauților de pe Stația Spațială Internațională, arătându-le un mesaj și temperatura aerului ambiant la bord folosind programul Sense HAT al computerului Astro Pi.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Vei folosi emulatorul online Sense HAT pentru a crea programul, astfel încât nu este nevoie de hardware suplimentar - totul se face într-un browser web.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+Programul tău finalizat va fi rulat în spațiu pe Stația Spațială Internațională (ISS)! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău!
 
-### What you will make
+### Ce vei face
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Iată un exemplu al tipului de program pe care l-ai putea face. Dă clic pe **Run** (Executare) pentru a-l vedea în acțiune. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## title: Ce vei învăța
 
-You will learn about the AstroPi unit and how to control an it, including how to:
+Vei învăța despre unitatea AstroPi și cum să o controlezi, inclusiv cum să:
 
-+ display messages and colors
-+ create images
-+ measure the temperature
++ afișezi mesaje și culori
++ creezi imagini
++ măsori temperatura
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Acest proiect acoperă elemente din următoarele componente ale curriculumului [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Folosirea elementelor de bază ale programării pentru a crea programe simple](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,34 +32,34 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * * *
 
-## title: What you will need
+## title: De ce vei avea nevoie
 
 ### Hardware
 
-+ Any computer with an internet connection
++ Orice computer cu o conexiune la internet
 
 ### Software
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
++ Un browser web (de ex. Google Chrome) pentru a deschide <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Notes for teachers and mentors
+## title: Note pentru profesori și mentori
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+Această activitate poate fi terminată într-o după-amiază. Organizați-vă elevii în echipe de patru sau mai puţini, și haideți să-i ghidăm să scrie un scurt program Python pentru a afișa un mesaj personal și temperatura aerului pe Astro Pi.
 
-Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
+Citiți [documentul privind instrucțiunile oficiale](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} pentru Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+Va trebui să vă înregistrați pentru provocarea Mission Zero pentru a permite echipei dumneavoastră să participe.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Accesați [pagina Emulator Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**.
++ Completaţi formularul şi faceţi clic pe **Submit** (trimite).
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Va fi creat un cont pentru dumneavoastră. Fiecare cont are propriul său **classroom code** (Cod de clasă), şi va trebui să spuneţi echipei / echipelor dumneavoastră care este codul atunci când sunt gata să-şi prezinte programele.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Afișați codul de clasă undeva vizibil, de exemplu pe o tablă albă sau utilizând un proiector, și începeți activitatea.
 
 \--- /collapse \---
