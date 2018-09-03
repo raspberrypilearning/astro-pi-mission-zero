@@ -1,10 +1,10 @@
-## Display a message
+## Prikažite sporočilo
 
 \--- task \---
 
-Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
+Odprite [emulator Sense HAT](https://trinket.io/mission-zero){:target="_blank"} za projekt Mission Zero.
 
-You will see that three lines of code have been added for you automatically:
+Opazili boste, da so bile tri vrstice kode dodane samodejno:
 
 ```python
 from sense_hat import SenseHat
@@ -12,17 +12,17 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat emulator](images/sense-hat-emulator2.png)
+![Emulator Sense HAT](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Koda se poveže z računalnikom Astro Pi in poskrbi, da je zaslon LED računalnika Astro Pi prikazan pravilno. Kodo pustite, ker jo boste potrebovali.
 
 \--- /task \---
 
 \--- task \---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Morda bi lahko pozdravili astronavte na ISS, ki delajo v bližini računalnika Astro Pi? Na zaslonu bomo prikazali premikajoče se sporočilo.
 
-Add this line below the other code:
+Pod kodo dodajte to vrstico:
 
 ```python
 sense.show_message("Astro Pi")
@@ -32,23 +32,23 @@ sense.show_message("Astro Pi")
 
 \--- task \---
 
-Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
+Pritisnite gumb **Run** (Zaženi) in si oglejte, kako se sporočilo `Astro Pi` pomika po zaslonu LED.
 
-![show message code click run](images/show-message-code-annotated.PNG)
+![Prikaži kodo sporočila. Kliknite Run (Zaženi).](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
-![Scrolling message](images/scroll-message.gif)
+![Premikajoče se sporočilo](images/scroll-message.gif)
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Da bi prikazali drugačno sporočilo, lahko med narekovaja (`""`) napišete kar koli drugega.
 
 \--- collapse \---
 
 * * *
 
-## title: What characters can be used?
+## title: Katere znake lahko uporabite?
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Emulator Sense HAT lahko prikaže le komplet znakov Latin 1, kar pomeni, da so na voljo le naslednji znaki. Vsi drugi znaki bodo prikazani kot `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -63,12 +63,12 @@ The Sense HAT can only display the Latin 1 character set, meaning only the follo
 
 \--- task \---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Spremenite lahko tudi hitrost, s katero se sporočilo pomika po zaslonu. Obstoječi kodi dodajte `scroll_speed`, kot je prikazano spodaj:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Privzeta hitrost sporočila je `0.1`. Če številko zmanjšate, se bo sporočilo pomikalo hitreje, če pa jo povečate, se bo sporočilo pomikalo počasneje.
 
 \--- /task \---
