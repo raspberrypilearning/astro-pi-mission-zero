@@ -1,20 +1,20 @@
-## Add some colour
+## Přidejte barvy
 
-The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
+LED displej Astra Pi také umí zobrazovat barvy. Barvu můžete určit vytvořením proměnné, které přiřadíte hodnotu barvy v RGB.
 
-You can learn how all colours can be created using different proportions of red, green, and blue here:
+Jak se pomocí různých proporcí červené, zelené a modré dají vytvořit všechny barvy, se dozvíte tady:
 
 [[[generic-theory-colours]]]
 
 \--- task \---
 
-Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
+Vyberte si barvu a zjistěte její hodnotu v RGB. Pomůže vám s tím [vybírátko barev](https://www.w3schools.com/colors/colors_rgb.asp) {: target = "_ blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
+Vytvoře proměnnou, do které si svou barvu uložíte. Například když jste si vybrali červenou, můžete napsat tuto řádku kódu:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 \--- task \---
 
-You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+Teď můžete zobrazit svůj text v barvě, kterou jste si vybrali! Abyste programu řekli, jakou barvu jste vytvořili, přidejte do kódu, který zobrazuje váš text, `text_colour`:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 \--- /task \---
 
-![show message in color](images/show-message-color.gif)
+![barva zobrazené zprávy](images/show-message-color.gif)
 
 \--- task \---
 
-You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+Můžete také změnit barvu pozadí displeje. Vyberte si jinou barvu a vytvořte další proměnnou, do které ji uložíte. Abyste programu řekli, aby použil barvu pozadí, kterou jste si vybrali, přidejte do svého kódu parametr `back_colour`:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- task \---
 
-Change the greeting text and colour — what message will you send to the Astronauts aboard the ISS?
+Změňte text a barvu pozdravu – jaký vzkaz pošlete astronautům na palubě ISS?
 
 \--- /task \---
