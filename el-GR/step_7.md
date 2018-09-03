@@ -1,12 +1,12 @@
-## Display the temperature
+## Εμφάνιση της θερμοκρασίας
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+Μπορείτε να συνδυάσετε τη μέτρηση θερμοκρασίας με μια εικόνα, για να προβάλετε τη θερμοκρασία με έναν γραφικό τρόπο. Για παράδειγμα, μπορείτε να εμφανίσετε μια χιονοθύελλα για κρύες θερμοκρασίες και μια ηλιόλουστη ημέρα για ζεστές θερμοκρασίες:
 
-![Hot and cold](images/hot-and-cold.png)
+![Ζεστό και κρύο](images/hot-and-cold.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+Στο κάτω μέρος του προγράμματος σας, δημιουργήστε μερικές μεταβλητές χρώματος για τα χρώματα που θέλετε να χρησιμοποιήσετε στις εικόνες σας. Ίσως να έχετε ήδη ορίσει κάποιες από αυτές τις μεταβλητές σε προηγούμενο βήμα. Στα παραδείγματά μας παρακάτω, θα χρησιμοποιήσουμε το λευκό (`w`), το κίτρινο (`y`), το πράσινο (`g`) και το μαύρο/κενό (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Όπως και προηγουμένως, σχεδιάστε τις εικόνες σας δημιουργώντας πρώτα μια λίστα για κάθε μία, και έπειτα εκχωρήστε στα στοιχεία της λίστας τα χρώματα που θέλετε να αντιστοιχήσετε στα πίξελ.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Add some code to get the temperature:
+Προσθέστε τον κώδικα λήψης της θερμοκρασίας:
 
 ```python
 temp = sense.get_temperature()
@@ -60,7 +60,7 @@ temp = sense.get_temperature()
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+Τώρα αποφασίστε ποια εικόνα θέλετε να εμφανιστεί. Σε αυτό το παράδειγμα, θα εμφανίσουμε την εικόνα `hot` αν η τιμή της θερμοκρασίας είναι πάνω από 20 βαθμούς και την εικόνα `cold` αν η τιμή είναι κάτω από 20 βαθμούς.
 
 ```python
 temp = sense.get_temperature()
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+Χρησιμοποιήστε το ρυθμιστικό θερμοκρασίας για να καθορίσετε μια τιμή στον εξομοιωτή. Εκτελέστε το πρόγραμμά σας και επαληθεύστε ότι εμφανίζεται η εικόνα που έχετε επιλέξει για τη συγκεκριμένη θερμοκρασία.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+Αλλάξτε τον κώδικά σας έτσι ώστε το πρόγραμμά σας να εμφανίζει τη θερμοκρασία στους αστροναύτες με τον δικό σας τρόπο.
 
 \--- /task \---
