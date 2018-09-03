@@ -1,40 +1,40 @@
-## Measure the temperature
+## Medir a temperatura
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+O sensor de temperatura no Astro Pi pode medir a temperatura do ar ao seu redor, uma funcionalidade útil para ajudar-te a recolher dados sobre as condições no espaço.
 
-![Message about the temperature](images/degrees-message.gif)
+![Mensagem sobre a temperatura](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+O Astro Pi mede a temperatura na Estação Espacial em graus Celsius (&deg;C). Visto que as temperaturas no espaço variam muito mais do que aquelas na terra, o Astro Pi pode medir temperaturas desde os -40 graus Celsius até aos +120 graus Celsius.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Parte da tua missão é contribuir para o dia-a-dia da tripulação a bordo da Estação Espacial, por isso informa-os que a temperatura a bordo da estação espacial está dentro da escala normal, isso irá tranquilizá-los.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Qual é a temperatura?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+A temperatura é a medida do quão quente algo está. Talvez já tenhas tido a tua temperatura medida com um termómetro numa visita ao médico.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termómetro](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Para ser mais exato, a temperatura é uma medida da quantidade de energia térmica de uma substância. Como sabes um cubo de gelo é sólido, mas à medida que aquece, isto é, ao absorver a energia do calor do seu meio ambiente, ele funde-se e torna-se líquido. Isso acontece quando uma substância absorve ou perde suficiente energia térmica, a substância muda de estado, por exemplo, ela passa de sólida a líquida.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Adiciona este código para obter uma leitura da temperatura:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Este código vai medir a temperatura atual e armazenar o valor medido na variável `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+A temperatura é registada com bastante precisão, ou seja, o valor armazenado terá um grande número de casas decimais. Se quiseres podes arredondar o valor para qualquer número de casas decimais. No exemplo, arredondámos para uma casa decimal, mas para um nível diferente de precisão, altera o número `1` para o número de casas decimais que gostarias de ver.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Para visualizar a temperatura atual como uma mensagem no ecrã, adiciona este código:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+A parte `str()` converte a temperatura de um número para texto para que o Astro Pi possa exibi-lo.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Também podes visualizar a temperatura como parte de outra mensagem unindo as partes da mensagem com o sinal `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+O verdadeiro Astro Pi irá medir a temperatura ao seu redor, mas podes mover o controlo de deslize de temperatura no emulador Sense HAT para simular mudanças de temperatura e testar o teu código.
 
-![Temperature slider](images/temperature-slider.png)
+![Controlo de deslize de temperatura](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Nota:** Deves estar curioso para saber por que é que o controlo de deslize de temperatura exibe a temperatura como um número inteiro, mas a leitura obtida é um decimal. O emulador simula a pequena imprecisão do sensor real, por isso, a medição da temperatura que vês pode ser muito maior ou menor do que o valor que definiste com o controle de deslize.
