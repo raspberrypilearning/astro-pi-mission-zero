@@ -1,34 +1,34 @@
-## Submit your entry
+## Envia a tua participação
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+O teu código precisa seguir algumas regras para que possas enviar a tua participação para ser executada na Estação Espacial Internacional. Se o teu código seguir essas regras, na parte inferior do emulador as regras vão aparecer em verde quando executares o programa.
 
-![Validation](images/validation.png)
+![Validação](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Faz a leitura da temperatura
+2. Acende os LED
+3. Assegura-te de que o código seja executado até ao final sem que ocorram erros. Se tiveres um loop `while true` no teu código, precisas premir o botão **Stop** para parar esta regra.
 
-Also make sure you have met the following criteria:
+Assegura-te que cumpriste os seguintes critérios:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Certifica-te de que o teu código não tem mais de 1000 carateres, sem incluir linhas em branco
+2. Certifica-te que a tua mensagem para os astronautas não dura mais de 30 segundos, porque esse é o tempo que o teu código irá ser executado na Estação Espacial Internacional
+3. Evita usar qualquer método que precise de entrada de dados
+4. Importa apenas do `sense_hat`, do `time` e de módulos `random` aleatórios
+5. Certifica-te que não incluíste linguagem inapropriada
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Quando as regras estiverem todas em verde, estás pronto para enviar: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Introduz o código da tua turma no respetivo campo na parte inferior - o teu professor dir-te-á qual é o código.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**As notas para os professores ou mentores** encontram-se na [Introdução](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+O nome do teu professor ficará visível. Se o nome estiver correto, clica no botão verde **Continue to form**.
 
 ![Continue to form](images/continue-to-form.png)
 
@@ -36,24 +36,24 @@ Your teacher's name will appear. If it is the right name, click on the green **C
 
 \--- task \---
 
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+Se necessário, clica na bandeira do teu país para alterar o idioma do formulário de inscrição.
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Insire o nome da tua equipa e os nomes dos membros da equipa. Estes nomes serão impressos no certificado uma vez que o código seja executado no espaço, por isso, certifica-te que os soletraste corretamente!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Prime o botão **Submit** para inserir o teu código. O teu professor ou mentor receberá um email para confirmar a inscrição.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Se quiseres, podes compartir o link para o teu código nas redes sociais para dizer às pessoas que o código que escreveste vai ser executado no espaço!
 
 \--- /task \---
