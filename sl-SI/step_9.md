@@ -1,17 +1,17 @@
-## Challenge: more Astro Pi projects
+## Izziv: več projektov Astro Pi
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Zakaj se ne bi zdaj, ko ste izpolnili svojo misijo, preizkusili v drugih projektih, pri katerih bi uporabljali še druge senzorje Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Če ste dovolj samozavestni, lahko sodelujete v projektu [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Oblikujte skupino dveh do šestih oseb in sodelujte kot pravi raziskovalci vesolja ter oblikujte svoj eksperiment. Za svojo misijo boste prejeli brezplačno strojno opremo, nato pa boste za izvedbo eksperimenta napisali kodo v programskem jeziku Python. Če bo vaš prispevek odobren, bo vaša koda naložena na Mednarodno vesoljsko postajo in na računalniku Astro Pi prikazana tri ure (dve orbiti). Vsi podatki, ki jih bo v vesolju zbrala vaša koda (slikovne datoteke ali datoteke s podatki senzorjev), bodo preneseni in vam vrnjeni v analizo.
 
-Alternatively you might want to try out one of our other Astro Pi projects:
+Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Astro Pi.
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Izvedite [več o emulatorju Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} in ostalih stvareh, ki jih ponuja.
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Na zaslonu LED emulatorja Sense Hat ustvarite [naključne vzorce utripajočih luči](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"}.
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Ustvarite igro [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}.
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Izzovite svoje prijatelje z igro [labirint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}.
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Poustvarite klasično igro [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}.
