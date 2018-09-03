@@ -1,59 +1,59 @@
-## Submit your entry
+## Je toegang indienen
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om te runnen in het International Space Station. Indien jouw code hun volgt, dan zullen de regels onderaan de emulator groen oplichten wanneer je het programma runt.
 
-![Validation](images/validation.png)
+![Valideer](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Neem een temperatuur
+2. De LED's oplichten
+3. Zorg ervoor dat jouw code helemaal tot het einde runt zonder dat er fouten optreden. Indien je een `while True` (terwijl echte) loop in jouw code, dan moet je drukken op de **Stop** knop om in deze regel te slagen.
 
-Also make sure you have met the following criteria:
+Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Zorg ervoor dat jouw code niet langer is dan 1000 tekens, de blanke lijnen niet inbegrepen
+2. Zorg ervoor dat je boodschap aan de astronauten niet langer duurt dan 30 seconden, omdat dit de looptijd is dat je code zal runnen in het ISS
+3. Vermijd het gebruiken van methoden die invoer nodig hebben
+4. Uitsluitend invoeren van de `sense_hat`, `time`, en `random` modules
+5. Zorg ervoor dat je geen vloek erbij doet
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Zodra de regels allemaal groen zijn, ben je klaar om in te dienen: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Vul je klas code in, in het vakje onderaan - je leraar zal je vertellen wat je code is.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op groen **Ga verder naar formulier** knop.
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Ga verder naar het formulier](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Indien noodzakelijk, klik op de vlag van je land om de taal te veranderen waarin het formulier is weergegeven.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Vermeld je team naam en de namen van de team leden. Deze worden geprint op een certificaat zodra je code in Space runt, dus zorg ervoor dat je ze juist hebt gespeld!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Druk op de **Submit** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je invoer te bevestigen.
+
+\--- /task \---
+
+\--- task \---
+
+Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in Space zal runnen!
 
 \--- /task \---
