@@ -1,40 +1,40 @@
-## Measure the temperature
+## Måle temperaturen
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Temperaturføleren i Astro Pi kan måle temperaturen på luften rundt den, en nyttig funksjon som hjelper deg med å samle data om forholdene i rommet.
 
-![Message about the temperature](images/degrees-message.gif)
+![Melding om temperaturen](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Astro Pi måler temperaturen i ISS i grader Celsius (&deg;C). Fordi temperaturen i rommet varierer mye mer enn på jorden, kan Astro Pi måle temperaturer fra så lavt som -40 grader Celsius opp til +120 grader Celsius.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+En del av oppdraget deres er å bidra til dagliglivet til mannskapet ombord på ISS, så når de får vite at temperaturen om bord på romstasjonen ligger innenfor et normalt område, vil de bli beroliget.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Hva er temperatur?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Temperatur er måling av hvor varmt noe er. Det kan godt hende dere har fått målt temperaturen med et termometer hos legen.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+For å være mer presis er temperatur et mål på mengden varmeenergi i et stoff. Dere vet at en isbit er hard, men når den varmes opp, det vil si når den absorberer varmeenergi fra omgivelsene, smelter den og blir til væske. Dette skyldes at når et stoff absorberer eller mister nok varmeenergi, vil stoffet forandre tilstand, for eksempel vil det gå fra å være et fast stoff til å bli en væske.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Legg til denne koden for å ta en temperaturavlesning:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Denne linjen vil måle gjeldende temperatur og lagre den målte verdien i variabelen `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Temperaturen registreres svært nøyaktig, dvs. den lagrede verdien vil ha et høyt antall desimaler. Du kan avrunde verdien til et hvilket som helst antall desimaler. I eksemplet har vi avrundet til en desimal, men for et annet presisjonsnivå, endrer dere tallet `1` til så mange desimaler dere ønsker.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+For å vise gjeldende temperatur som en rullerende melding på skjermen, legg til denne kodelinjen:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+`str()`-delen omdanner temperaturen fra tall til tekst slik at Astro Pi kan vise den.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Du kan også vise temperaturen som en del av en annen melding ved å slå sammen delene av meldingen med et `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Den virkelige Astro Pi måler temperaturen rundt seg, men dere kan flytte temperaturregulatoren på Sense HAT-emulatoren for å simulere temperaturendringer og teste koden.
 
-![Temperature slider](images/temperature-slider.png)
+![Temperaturregulator](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Merk:** Dere lurer kanskje på hvorfor temperaturregulatoren viser temperaturen som et heltall, mens avlesingen dere får er et desimaltall. Emulatoren simulerer den lille unøyaktigheten til den virkelige sensoren, så temperaturmålingene dere ser kan være ørlite større eller mindre enn verdien dere har angitt med skyveknappen.
