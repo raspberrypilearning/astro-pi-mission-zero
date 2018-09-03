@@ -1,40 +1,40 @@
-## Measure the temperature
+## Măsoară temperatura
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Senzorul de temperatură din Astro Pi poate măsura temperatura aerului în jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
 
-![Message about the temperature](images/degrees-message.gif)
+![Mesaj despre temperatură](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Astro Pi măsoară temperatura în ISS în grade Celsius (&deg;C). Deoarece temperaturile în spațiu variază mult mai mult decât cele de pe Pământ, Astro Pi poate măsura temperaturi de la -40 grade Celsius până la +120 grade Celsius.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului de la bordul ISS, informându-i astfel că temperatura la bordul stației spațiale se află într-un interval normal, fapt ce îi va liniști.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Ce este temperatura?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Temperatura este măsura a cât de cald este ceva. S-ar putea ca temperatura ta să fi fost luată cu un termometru în timpul unei vizite la medic.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometru](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Mai precis, temperatura este o măsură a cantității de energie termică a unei substanțe. Știi că un cub de gheață este solid, dar pe măsură ce se încălzește, adică în timp ce absoarbe energia termică din mediul său, se topește și devine lichid. Acest lucru se datorează faptului că, atunci când o substanță absoarbe sau pierde suficientă energie termică, substanța îşi va schimba starea, de exemplu va trece de la stare solidă la cea lichidă.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Adaugă acest cod pentru a măsura temperatura:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Această linie va măsura temperatura curentă și va stoca valoarea măsurată în variabila `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Temperatura este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care doreşti să le vezi.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Pentru a afișa temperatura curentă ca mesaj derulant pe afișaj, adaugă această linie de cod:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să poată afișa.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+De asemenea, poți afișa temperatura ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de temperatură de pe emulatorul Sense HAT pentru a simula schimbări de temperatură și pentru a testa codul tău.
 
-![Temperature slider](images/temperature-slider.png)
+![Cursor pentru temperatură](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Notă:** S-ar putea să te întrebi de ce sliderul de temperatură afișează temperatura ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât temperatura măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul cursorului.
