@@ -1,40 +1,40 @@
-## Measure the temperature
+## Pomiar temperatury
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Czujnik temperatury w Astro Pi może mierzyć temperaturę powietrza w otoczeniu. Jest to przydatna funkcja, która pomoże zebrać dane o warunkach panujących w przestrzeni kosmicznej.
 
-![Message about the temperature](images/degrees-message.gif)
+![Wiadomość o temperaturze](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+Astro Pi mierzy temperaturę na MSK w stopniach Celsjusza (&deg;°C). Ponieważ temperatury w kosmosie różnią się znacznie od tych na Ziemi, Astro Pi może mierzyć temperaturę w zakresie od -40 stopni Celsjusza do +120 stopni Celsjusza.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Częścią waszej misji jest wkład w codzienne życie załogi na pokładzie MSK, więc informacja o tym, że temperatura na stacji kosmicznej mieści się w normalnym zakresie, doda im otuchy.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Co to jest temperatura?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+Temperatura to miara stopnia nagrzania substancji. Możliwe, że podczas wizyty u lekarza mierzono ci temperaturę za pomocą termometru.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometr](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Mówiąc bardziej precyzyjnie, temperatura jest miarą ilości energii cieplnej substancji. Wiesz, że kostka lodu jest ciałem stałym, ale gdy się nagrzewa, tzn. gdy pochłania energię cieplną z otoczenia, topi się i staje się płynem. Dzieje się tak dlatego, że gdy dana substancja pochłonie lub straci wystarczającą ilość energii cieplnej, substancja ta zmienia swój stan, np. przechodzi od ciała stałego do cieczy.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Dodaj ten kod, aby pobrać pomiar temperatury:
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Wiersz ten będzie mierzyć aktualną temperaturę i przechowywać zmierzoną wartość w zmiennej `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Temperatura jest rejestrowana bardzo precyzyjnie, tzn. zapisana wartość będzie zawierała dużą liczbę miejsc dziesiętnych. Można zaokrąglić wartość do dowolnej liczby miejsc po przecinku. W tym przykładzie zaokrągliliśmy do jednego miejsca po przecinku, ale aby uzyskać inny poziom dokładności, należy zmienić cyfrę `1` na pożądaną liczbę miejsc po przecinku.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Aby wyświetlić aktualną temperaturę jako przewijany komunikat na wyświetlaczu, dodaj ten wiersz kodu:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+Część `str()` konwertuje temperaturę z liczby na tekst, aby Astro Pi mógł ją wyświetlić.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Można również wyświetlić temperaturę jako część innej wiadomości, łącząc części wiadomości za pomocą `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Prawdziwy Astro Pi mierzy temperaturę w swoim otoczeniu, ale można przesunąć suwak temperatury na emulatorze Sense HAT, aby symulować zmiany temperatury i przetestować kod.
 
-![Temperature slider](images/temperature-slider.png)
+![Suwak temperatury](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Uwaga:** Być może zastanawiasz się, dlaczego suwak temperatury wyświetla temperaturę jako liczbę całkowitą, ale pomiar podawany jest w postaci liczby dziesiętnej. Emulator symuluje niewielką niedokładność rzeczywistego czujnika, więc uzyskany pomiar temperatury może być nieznacznie większy lub mniejszy niż wartość ustawiona za pomocą suwaka.
