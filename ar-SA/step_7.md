@@ -1,12 +1,12 @@
-## Display the temperature
+## عرض درجة الحرارة
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+يمكنك إقران قراءة درجة الحرارة بصورة ما للإشارة إلى درجة الحرارة أيضًا بطريقة رسومية. فمثلًا، يمكنك عرض صورة عاصفة ثلجية لدرجات الحرارة الباردة، وصورة يوم مشمس لدرجات الحرارة الحارة:
 
-![Hot and cold](images/hot-and-cold.png)
+![درجات الحرارة الحارة ودرجات الحرارة الباردة](images/hot-and-cold.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+في نهاية برنامجك، أنشئ مزيد من متغيرات اللون لأية ألوان تريد استخدامها في صورك. ربما تكون قد حددت بعضًا منها بالفعل في خطوة سابقة. في أمثلتنا، سنستخدم اللون الأبيض (`w`) والأصفر (`y`) والأخضر (`g`) والأسود/الفارغ (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+مثلما تم في السابق، ارسم صورك من خلال القيام أولاً بإنشاء قائمة لكل واحدة منها ثم ضبط عناصر القائمة على الألوان التي تريدها لوحدات البكسل.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Add some code to get the temperature:
+أضف كودًا للحصول على درجة الحرارة:
 
 ```python
 temp = sense.get_temperature()
@@ -60,7 +60,7 @@ temp = sense.get_temperature()
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+والآن قرر أي صورة ترغب في عرضها. في هذا المثال، سنعرض صورة `hot` (درجة الحرارة الحارة) إذا كانت قراءة درجة الحرارة 20 درجة مئوية أو أعلى، وصورة `cold` (درجة الحرارة الباردة) إذا كانت درجة الحرارة أقل من 20 درجة مئوية.
 
 ```python
 temp = sense.get_temperature()
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+استخدم شريط تمرير ضبط درجة الحرارة لضبط درجة الحرارة في برنامج المحاكاة. شغِّل البرنامج وتحقق من أن الصورة التي حددتها لدرجة الحرارة تلك يتم عرضها بشكل صحيح.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+غيِّر الكود بحيث يعرض البرنامج درجة الحرارة لرواد الفضاء بطريقتك المختارة.
 
 \--- /task \---
