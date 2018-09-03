@@ -1,10 +1,10 @@
-## Display a message
+## عرض رسالة
 
 \--- task \---
 
-Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
+افتح [محاكي لوحة Sense HAT](https://trinket.io/mission-zero){:target="_blank"} الخاص بمشروع Mission Zero.
 
-You will see that three lines of code have been added for you automatically:
+وسترى أنه قد تم إضافة ثلاثة أسطر من الكود لك تلقائيًا:
 
 ```python
 from sense_hat import SenseHat
@@ -12,17 +12,17 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat emulator](images/sense-hat-emulator2.png)
+![محاكي لوحة Sense HAT](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+يتصل هذا الكود بنظام Astro Pi ويتأكد من أن العرض على شاشة عرض LED الخاصة بنظام Astro Pi يتم بشكل صحيح. اترك الكود في ذلك المكان، لأنك ستحتاجه.
 
 \--- /task \---
 
 \--- task \---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+فقد تود ترك رسالة ترحيب لطيفة لرواد الفضاء الموجودين على متن محطة الفضاء الدولية والذين يعملون بالقرب من نظام Astro Pi؟ هيا بنا نمرر رسالة عبر شاشة العرض.
 
-Add this line below the other code:
+أضف هذا السطر أسفل الكود الآخر:
 
 ```python
 sense.show_message("Astro Pi")
@@ -32,23 +32,23 @@ sense.show_message("Astro Pi")
 
 \--- task \---
 
-Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
+اضغط على زر **Run** (تشغيل) وشاهد تمرير الرسالة `Astro Pi` عبر شاشة عرض LED.
 
-![show message code click run](images/show-message-code-annotated.PNG)
+![لعرض كود الرسالة، انقر run (تشغيل)](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
-![Scrolling message](images/scroll-message.gif)
+![تمرير رسالة](images/scroll-message.gif)
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+لعرض رسالة مختلفة، يمكنك كتابة أي رسالة ترغبها بين علامات الاقتباس (`""`).
 
 \--- collapse \---
 
 * * *
 
-## title: What characters can be used?
+## title: ما الأحرف والرموز التي يمكن استخدامها؟
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+يمكن للوحة Sense HAT عرض مجموعة الأحرف والرموز اللاتينية 1، مما يعني عدم توفر سوى الأحرف والرموز التالية فقط. تُعرض الأحرف والرموز الأخرى في شكل `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -63,12 +63,12 @@ The Sense HAT can only display the Latin 1 character set, meaning only the follo
 
 \--- task \---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+يمكنك أيضًا تغيير سرعة تمرير الرسالة عبر الشاشة. أضف `scroll_speed` (سرعة_التمرير) إلى سطر الكود الذي لديك بالفعل، مثل هذا المثال:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+السرعة الافتراضية للرسالة هي `0.1`. يُزيد تصغير الرقم من سرعة تمرير الرسالة ويُبطئ تكبير الرقم من سرعة تمريرها.
 
 \--- /task \---
