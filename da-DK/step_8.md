@@ -1,59 +1,59 @@
-## Submit your entry
+## Indsend dit bidrag
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Der er nogle få regler, som din kode skal følge, så du kan indsende den, og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, begynder reglerne nede i bunden af efterligneren at lyse grønt, når du kører programmet.
 
-![Validation](images/validation.png)
+![Validering](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Foretag en temperaturaflæsning
+2. Tænd lysdioderne
+3. Sørg for, at din kode kører helt ud uden, at der opstår fejl. Hvis du har sløjfen `while True` (mens det er sandt) i din kode, bliver du nødt til at trykke på knappen **Stop** (Stop) for at kunne passere denne regel.
 
-Also make sure you have met the following criteria:
+Sørg også for at have opfyldt følgende kriterier:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Sørg for, at din kode holder sig på under 1.000 tegn; tomme linjer medregnes ikke
+2. Sørg for, at din besked til astronauterne kun kører i op til 30 sekunder, da det er den tid, din kode kører på ISS
+3. Undgå at anvende metoder, der kræver indtastning
+4. Importér kun fra modulerne `sense_hat` (sense_hat), `time` (tid) og `random` (vilkårlig)
+5. Sørg for ikke at medtage bandeord
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Når alle reglerne er grønne, er du klar til at indsende: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Indtast din klasseværelseskode i boksen nederst - din lærer fortæller dig, hvad din kode er.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Indledning](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den grønne knap **Continue to form** (Fortsæt til formular).
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Fortsæt til formular](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Klik om nødvendigt på dit lands flag for at ændre det sprog, som indsendelsesformularen vises på.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Indtast dit holdnavn og navnene på holdets medlemmer. Disse bliver trykt på certifikatet, når din kode køres i rummet, så sørg for at stave dem korrekt!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Tryk på knappen **Submit** (Indsend) for at indtaste din kode. Din lærer eller mentor får en E-mail for at bekræfte indtastningen.
+
+\--- /task \---
+
+\--- task \---
+
+Hvis du vil, kan du dele linket til din kode på de sociale medier for at fortælle folk, at den kode, du har skrevet, bliver kørt i rummet!
 
 \--- /task \---
