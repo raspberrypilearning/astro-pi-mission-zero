@@ -1,12 +1,12 @@
-## Display the temperature
+## Jelenítsd meg a hőmérsékletet!
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+A leolvasott hőmérsékletet egy képpel is összekapcsolhatod, hogy a hőmérsékletet grafikusan is szemléltesd. Például hideg idő esetén egy hóvihart is megjeleníthetsz, vagy egy napfényes képet meleg idő esetén:
 
-![Hot and cold](images/hot-and-cold.png)
+![Hideg és meleg](images/hot-and-cold.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+A programod végén hozz létre még több színváltozót azokra a színekre, amelyeket használni szeretnél a képeidben. Lehetséges, hogy van olyan, amit már egy előző lépésben meghatároztál. A mi példáinkban fehéret (`w`), sárgát (`y`), zöldet (`g`) és feketét/kitöltetlent (`b`) használunk.
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Akárcsak korábban, a képeid megrajzolásához hozz létre egy listát mindegyiknek, majd állítsd be a listaelemeket azokra a színekre, amelyekre szeretnéd a pixeleidet beszínezni.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Add some code to get the temperature:
+Add hozzá a kódot, hogy megkapd a hőmérsékletet:
 
 ```python
 temp = sense.get_temperature()
@@ -60,7 +60,7 @@ temp = sense.get_temperature()
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+Most döntsd el, melyik képet szeretnéd megjeleníteni. Ebben a példában mi a `hot` („meleg”) képet jelenítjük majd meg, ha a mért hőmérséklet 20 fok vagy annál magasabb, és a `cold` („hideg”) képet, ha a hőmérséklet 20 foknál alacsonyabb.
 
 ```python
 temp = sense.get_temperature()
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+Használd a hőmérséklet-csúszkát az emulátoron a hőmérséklet beállításához. Futtasd a programod és ellenőrizd le, hogy a kép, amelyet az adott a hőmérséklethez kiválasztottál, helyesen jelenik-e meg.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+Változtasd meg a kódot, hogy a programod az általad választott módon jelenítse meg a hőmérsékletet az űrhajósok számára.
 
 \--- /task \---
