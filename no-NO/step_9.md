@@ -1,17 +1,17 @@
-## Challenge: more Astro Pi projects
+## Utfordring: flere Astro Pi-prosjekter
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Nå som dere har fullført ditt oppdrag, hvorfor ikke prøve noen flere prosjekter ved hjelp av de andre sensorene på Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Hvis dere føler dere trygge, kan dere delta i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Lag et team på to til seks personer, og samarbeide som ekte romforskere for å designe deres eget eksperiment. Motta gratis maskinvare til oppdraget, og skriv Python-koden for å utføre eksperimentet. Hvis dere oppnår flystatus, vil koden bli lastet opp til den internasjonale romstasjonen og kjørt på Astro Pi i tre timer (to baner). Eventuelle data dere koder samles i verdensrommet - bilde- eller sensordatafiler - lastes ned og returneres til dere for analyse.
 
-Alternatively you might want to try out one of our other Astro Pi projects:
+Alternativt kan dere prøve et av våre andre Astro Pi-prosjekter:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Lær [mer om Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} og de andre tingene det kan gjøre
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Lag noen fine [vilkårlige stjerneskudd](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} på Sense HATs LED-skjerm
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Lag et [Flaksende astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}-spill
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Utfordre vennene dine med et [Marmorlabyrint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}-spill
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Gjenskap det klassiske spillet [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
