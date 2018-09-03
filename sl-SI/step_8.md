@@ -1,59 +1,59 @@
-## Submit your entry
+## Pošljite svoj prispevek
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če je vaša koda v skladu s pravili, se bodo pravila na dnu emulatorja ob zagonu programa obarvala zeleno.
 
-![Validation](images/validation.png)
+![Potrditev](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Odčitajte temperaturo.
+2. Vklopite zaslon LED.
+3. Prepričajte se, da vaša koda v celoti deluje brez napak. Če vaša koda vsebuje zanko `while True`, boste morali za izpolnitev tega pravila pritisniti gumb **Stop** (Ustavi).
 
-Also make sure you have met the following criteria:
+Prepričajte se tudi, da ste upoštevali naslednje kriterije.
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Prepričajte se, da vaša koda ne presega 1000 znakov (številka ne vključuje praznih vrstic).
+2. Prepričajte se, da vaše sporočilo astronavtom ne bo trajalo več kot 30 sekund, saj bo tako dolgo vaša koda prikazana na postaji ISS.
+3. Izogibajte se uporabi metod, ki zahtevajo vnose.
+4. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
+5. Ne vključujte žaljiviih besed ali slik.
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Ko so vsa pravila obarvana zeleno, ste pripravljeni na pošiljanje. <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+V polje na dnu vnesite kodo učilnice – kodo vam bo sporočil vaš učitelj.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**Navodila za učitelje in mentorje** najdete v koraku [Uvod](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Pojavilo se bo ime vašega učitelja. Če je ime pravilno, kliknite na zelen gumb **Continue to form** (Nadaljuj na obrazec).
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Nadaljuj na obrazec](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Po potrebi kliknite na zastavo svoje države in s tem spremenite jezik, v katerem je prikazan obrazec za pošiljanje.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Vnesite ime svoje skupine in imena članov skupine. Ko bo koda zagnana v vesolju, bodo ta namreč natisnjena na certifikatu, zato se prepričajte, da so črkovana pravilno!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Za pošiljanje svoje kode kliknite gumb **Submit** (Pošlji). Vaš učitelj oziroma mentor bo prejel elektronsko sporočilo s potrdilom prejema vašega prispevka.
+
+\--- /task \---
+
+\--- task \---
+
+Če želite, lahko povezavo do svoje kode delite na družbenih omrežjih in tako ljudem poveste, da bo vaša koda zagnana v vesolju!
 
 \--- /task \---
