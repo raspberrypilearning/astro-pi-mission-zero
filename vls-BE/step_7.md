@@ -1,12 +1,12 @@
-## Display the temperature
+## Laat de temperatuur zien
 
-You could combine your temperature reading with a picture to also indicate the temperature in a graphical way. For example, you might display a snowstorm for cold temperatures, and a sunny day for hot temperatures:
+Je kunt je temperatuur combineren met een tekening om de temperatuur ook aan te wijzen op een grafische manier. Bijvoorbeeld, je kunt een sneeuwstorm laten zien voor koude temperaturen, en een zonnige dag voor hete temperaturen:
 
-![Hot and cold](images/hot-and-cold.png)
+![Heet en koud](images/hot-and-cold.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step. In our examples we will use white (`w`), yellow (`y`), green (`g`), and black/blank (`b`).
+Onderaan je programma, kun je meer variable kleuren definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je reeds sommigen gedefinieerd in een voorgaande stap. In onze voorbeelden zullen wij wit gebruiken (`w`), geel (`y`), groen (`g`), en zwart/blank (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Net zoals eerder, teken je tekeningen door eerst een lijst aan te maken voor elk van hen, en zet dan de items met de kleuren op de lijst die je voor je pixels wilt gebruiken.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Add some code to get the temperature:
+Voeg een code toe om de temperatuur te verkrijgen:
 
 ```python
 temp = sense.get_temperature()
@@ -60,7 +60,7 @@ temp = sense.get_temperature()
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `hot` image if the temperature reading is 20 degrees or above, and the `cold` image if the temperature is below 20 degrees.
+Besluit nu welke tekening je wilt weergeven. Voor dit voorbeeld, zullen wij het `hot` (heet) beeld tentoonstellen indien de temperatuur 20 graden of meer is, en het `cold` (koud) beeld indien de temperatuur minder is dan 20 graden.
 
 ```python
 temp = sense.get_temperature()
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Use the temperature slider to set a temperature on the emulator. Run your program and check that the image you've selected for that temperature is correctly displayed.
+Gebruik de temperatuur schuifknop om de temperatuur op de emulator in te stellen. Run je programma en controleer dat het beeld dat je hebt gekozen voor deze temperatuur op de juiste wijze is weergegeven.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the temperature to the astronauts in your own chosen way.
+Verander je code zodat je programma de temperatuur weergeeft aan de astronauten op je eigen gekozen manier.
 
 \--- /task \---
