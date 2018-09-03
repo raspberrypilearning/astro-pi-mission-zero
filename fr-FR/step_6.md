@@ -1,40 +1,40 @@
-## Measure the temperature
+## Mesurer la température
 
-The temperature sensor in the Astro Pi can measure the temperature of the air around it, a useful feature to help you gather data about the conditions in space.
+Le capteur de température de l'Astro Pi peut mesurer la température de l'air qui l'entoure, c'est une fonction utile pour t'aider à rassembler des données sur les conditions dans l'espace.
 
-![Message about the temperature](images/degrees-message.gif)
+![Message relatif à la température](images/degrees-message.gif)
 
-The Astro Pi measures the temperature in the ISS in degrees Celsius (&deg;C). Because temperatures in space vary much more than those on Earth, the Astro Pi can measure temperatures from as low as -40 degrees Celsius up to +120 degrees Celsius.
+L'Astro Pi mesure la température dans la SSI en degrés Celsius (&deg;C). Parce que les températures dans l'espace varient beaucoup plus que sur la Terre, l'Astro Pi peut mesurer des températures allant de -40 degrés Celsius à +120 degrés Celsius.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the temperature aboard the space station is within a normal range will reassure them.
+Une partie de ta mission consiste à contribuer à la vie quotidienne de l’équipage à bord de la SSI, c'est pourquoi faire savoir aux astronautes que la température à bord de la station spatiale se situe dans les limites normales est utile et va les rassurer.
 
 ## \--- collapse \---
 
-## title: What is temperature?
+## title: Qu'est-ce que la température ?
 
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
+La température est la mesure qui indique la chaleur de quelque chose. Peut-être que ta température a été prise avec un thermomètre quand tu es allé voir le médecin.
 
-![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Thermomètre](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
+Pour être plus précis, la température est la mesure de la quantité d'énergie thermique d'une substance. Tu sais qu'un cube de glace est solide, mais à mesure qu'il se réchauffe, c'est-à-dire qu'il absorbe l'énergie thermique de son environnement, il fond et devient liquide. Ceci est dû au fait que lorsqu'une substance absorbe ou perd suffisamment d'énergie calorifique, la substance change d'état, elle passe de l'état solide à l'état liquide.
 
 \--- /collapse \---
 
 \--- task \---
 
-Add this code to take a temperature reading:
+Ajoute ce code pour mesurer la température :
 
 ```python
 temp = sense.get_temperature()
 ```
 
-This line will measure the current temperature, and store the measured value in the variable `temp`.
+Cette ligne mesure la température actuelle et stocke la valeur mesurée dans la variable `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+La température est enregistrée très précisément, c’est-à-dire que la valeur stockée a un grand nombre de décimales. Tu peux arrondir la valeur à n'importe quel nombre de décimales. Dans l'exemple, nous avons arrondi à une décimale, mais pour avoir un autre niveau de précision remplace le nombre `1` par le nombre de décimales que tu souhaites.
 
 ```python
 temp = round( sense.get_temperature(), 1 )
@@ -44,19 +44,19 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- task \---
 
-To display the current temperature as a scrolling message on the display, add this line of code:
+Pour afficher la température actuelle sous la forme d'un message défilant à l'écran, ajoute cette ligne de code :
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the temperature from a number into text so that the Astro Pi can display it.
+La partie `str()` convertit la température d'un nombre en texte pour que l'Astro Pi puisse l'afficher.
 
 \--- /task \---
 
 \--- task \---
 
-You can also display the temperature as part of another message by joining the parts of your message together with a `+`.
+Tu peux également afficher la température à l'intérieur d’un autre message en joignant les différentes parties de ton message avec un `+` .
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-The real Astro Pi will measure the temperature around it, but you can move the temperature slider on the Sense HAT emulator to simulate temperature changes and test your code.
+Le vrai Astro Pi mesure la température autour de lui, mais toi tu peux déplacer le curseur de température sur l'émulateur Sense HAT pour simuler des changements de température et tester ton code.
 
-![Temperature slider](images/temperature-slider.png)
+![Curseur de température](images/temperature-slider.png)
 
-**Note:** You might be wondering why the temperature slider displays the temperature as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the temperature measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Remarque :** Tu te demandes peut-être pourquoi le curseur de température affiche la température sous forme d'un nombre entier, mais le résultat de la mesure de la température est donnée avec des décimales. L'émulateur simule la légère imprécision du capteur réel, de sorte que le résultat de la mesure de la température que tu vois peut être très légèrement supérieure ou inférieure à la valeur que tu as définie avec le curseur.
