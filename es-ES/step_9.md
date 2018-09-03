@@ -1,17 +1,17 @@
-## Challenge: more Astro Pi projects
+## Desafío: Más proyectos Astro Pi
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Ahora que has completado tu misión, ¿por qué no pruebas más proyectos usando los otros sensores de Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Si te sientes seguro de ti mismo, ¡puedes participar en [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Forma un equipo de dos a seis personas y trabajar juntos como verdaderos científicos espaciales para diseñar vuestro propio experimento. Recibe hardware informático gratuito para tu misión y escribe el código Python para llevar a cabo tu experimento. Si logras el estado de vuelo, tu código será cargado en la Estación Espacial Internacional y será ejecutado en Astro Pi durante tres horas (dos órbitas). Cualquier dato que tu código adquiera en el espacio (archivos de datos de imagen o sensor), será descargado y devuelto para que lo analices.
 
-Alternatively you might want to try out one of our other Astro Pi projects:
+Alternativamente, puedes intentar uno de los otros proyectos Astro Pi:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Aprende [más sobre Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} y qué más puede hacer
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Crea hermosas [luces aleatorias](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} en la pantalla LED de Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Crea un juego de [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Reta a tus amigos con un juego de [laberinto](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Recrea el clásico juego de [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
