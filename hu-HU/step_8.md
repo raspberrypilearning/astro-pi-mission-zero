@@ -1,59 +1,59 @@
-## Submit your entry
+## Küldd be a munkádat!
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the emulator will light up in green when you run the program.
+Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy beküldhesd a Nemzetközi Űrállomáson való futtatásra. Ha a kódod megfelel nekik, az emulátor alján található szabályok zölden fognak világítani a programod futtatásakor.
 
-![Validation](images/validation.png)
+![Érvényesítés](images/validation.png)
 
-1. Take a temperature reading
-2. Light up the LEDs
-3. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Mérd meg a hőmérsékletet!
+2. Kapcsold be a LED-eket!
+3. Győződj meg arról, hogy a kódod hiba nélkül fut végig! Ha egy `while True` ciklus van a kódodban, meg kell nyomnod a **Stop** (Leállítás) gombot, hogy ezt a szabályt teljesítsd.
 
-Also make sure you have met the following criteria:
+Ellenőrizd, hogy ezeknek a feltételeknek is eleget tettél:
 
-1. Make sure your code is no longer than 1000 characters, not including blank lines
-2. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-3. Avoid using any methods needing input
-4. Only import from the `sense_hat`, `time`, and `random` modules
-5. Make sure you don't include any profanity
+1. Ellenőrizd, hogy a kódod nem hosszabb 1000 karakternél, az üres sorokat nem beleszámítva
+2. Ellenőrizd, hogy az űrhajósoknak szóló üzeneted nem hosszabb 30 másodpercnél, mert ennyi ideig fut majd a Nemzetközi Űrállomáson
+3. Kerüld el a bevitelt igénylő módszereket
+4. Csak a `sense_hat`, `time`, és `random` modulokból importálj
+5. Semmiképp ne használj káromkodást
 
-Once the rules are all green, you are ready to submit: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Ha minden szabály zöld, készen állsz a beküldésre: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- task \---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Írd be az osztálytermi kódodat a lenti mezőbe. A tanárod mondja meg majd a kódod.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+**A tanárok és mentorok részére szóló jegyzetek** a [Bevezető](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) lépésben találhatók meg.
 
 \--- /task \---
 
 \--- task \---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Megjelenik a tanárod neve. Ha ez a helyes név, kattints a zöld **Continue to form** (Tovább az űrlaphoz) gombra.
 
-![Continue to form](images/continue-to-form.png)
-
-\--- /task \---
-
-\--- task \---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
+![Tovább az űrlaphoz](images/continue-to-form.png)
 
 \--- /task \---
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Ha szükséges, akár az országod zászlajára is ráklikkelhetsz a beküldési lap nyelvének megváltoztatásához.
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Írd be a csapatod nevét, és a csapattagok neveit. Ezek a tanúsítványra is rákerülnek, miután a kódod az űrben futott, úgyhogy ellenőrizd, hogy helyesen írtad őket!
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Nyomd meg a **Submit** (Küldés) gombot a kódod beküldéséhez. A tanárod vagy mentorod egy e-mailt kap majd a jelentkezésedről.
+
+\--- /task \---
+
+\--- task \---
+
+Ha szerenéd, akár meg is oszthatod a kódodhoz tartozó linket a közösségi médián, hogy elújságold az embereknek, hogy a kód, amit írtál, az űrben fog futni!
 
 \--- /task \---
