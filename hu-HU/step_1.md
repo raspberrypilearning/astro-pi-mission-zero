@@ -1,30 +1,30 @@
-## Introduction
+## Bevezetés
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállomáson: küldj nekik egy üzenetet és mutasd meg a környező levegő hőmérsékletét a fedélzeten az Astro Pi számítógép Sense HAT-jének segítségével.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Az online Sense HAT emulátort használod majd a programod létrehozására, úgyhogy nincs szükség extra hardverre — minden a böngészőben történik.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+A kész programod az űrben fog futni a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott!
 
-### What you will make
+### Mit készítesz?
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd! <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## title: Miről tanulsz majd?
 
-You will learn about the AstroPi unit and how to control an it, including how to:
+Az Astro Pi egységről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
 
-+ display messages and colors
-+ create images
-+ measure the temperature
++ üzenetek és színek megjelenítése
++ képek létrehozása
++ hőmérséklet mérése
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ez a projekt a [Raspberry Pi Digitális Alkotási Tananyag ](http://rpf.io/curriculum){:target="_blank"} alábbi részeinek elemeit fedi le:
 
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Alapvető programozási szerkezetek használata egyszerű programok létehozására](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,34 +32,34 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * * *
 
-## title: What you will need
+## title: Mire lesz szükséged?
 
-### Hardware
+### Hardver
 
-+ Any computer with an internet connection
++ Bármilyen számítógépre internetkapcsolattal
 
-### Software
+### Szoftver
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
++ Egy böngészőre (pl. Google Chrome), hogy megnyithasd ezt az oldalt: <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Notes for teachers and mentors
+## title: Jegyzetek tanárok és mentorok számára
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+Ezt a feladatot egy délután alatt el lehet végezni. Szervezze tanítványait maximum négyes csoportokba, és hagyja, hogy végigvezessük őket egy rövid Python program megírásán, amely egy személyes üzenetet és a levegő hőmérsékletét jeleníti majd meg az Astro Pi-on.
 
-Read the [official guidelines document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} for Mission Zero.
+Olvassa el a Mission Zero [hivatalos útmutató dokumentumát](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"}.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+Regisztálnia kell a Mission Zero kihívásra, hogy csapata(i) részt vehessen(ek) rajta.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Menjen a [Triket emulátor Mission Zero oldalára](https://trinket.io/mission-zero/register){:target="_blank"}!
 
-+ Fill out the form and click **Submit**.
++ Töltse ki az űrlapot és kattintson a **Submit** (Küldés) gombra.
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Egy fiók jön létre az Ön számára. Minden fióknak saját **osztálytermi kódja** van, amelyet akkor kell elmondania a csapatának (csapatainak), amikor ők már készen vannak, hogy beküldjék programjaikat.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Rakja ki az osztálytermi kódját egy jól látható helyre, például egy táblára vagy projektorra, és kezdjenek neki a feladatnak!
 
 \--- /collapse \---
