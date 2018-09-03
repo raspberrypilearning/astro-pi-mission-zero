@@ -1,36 +1,36 @@
-## Display an image
+## Toon een afbeelding
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Je kunt afbeeldingen op de LED-matrix van de Astro Pi weergeven. Misschien zou je groet voor de astronauten een afbeelding of een patroon kunnen bevatten, evenals of in plaats van een geschreven boodschap?
 
 ![Astronaut](images/astronaut-pic.png)
 
 \--- task \---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
+Onderaan je programma kun je enkele kleurvariabelen maken om de kleuren te definiëren waarmee je je afbeelding wilt tekenen. Je kunt zoveel kleuren gebruiken als je wilt, maar in dit voorbeeld blijven we bij slechts twee - wit (`w`) en zwart (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Opmerking:** Deze keer is het een goed idee om de kleurvariabelen éénletterige namen te geven, omdat dat tijd zal besparen in de volgende stap, waar je ze veel keer gaat typen. Bovendien maakt het gebruik van losse letters het makkelijker om de afbeelding te zien die je tekent.
 
 \--- /task \---
 
 \--- task \---
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
+Onder je nieuwe variabelen, maak je een lijst van 64 items. Elk item vertegenwoordigt één pixel op de LED-matrix en komt overeen met een van de kleurvariabelen die je hebt gedefinieerd. Teken je afbeelding door een variabele te plaatsen waar je de toegewezen kleur wilt laten verschijnen. We hebben een astronaut getekend door de zwarte (`b`) pixels te gebruiken als achtergrond en de witte (`w`) pixels om het ruimtepak van de astronaut te tekenen:
 
 ```python
 picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
+b, b, w, w, w, w, b, b,
+b, w, b, b, b, b, w, b,
+b, w, b, w, w, b, w, b,
+b, w, b, b, b, b, w, b,
+b, b, w, w, w, w, b, b,
+b, b, w, w, w, w, b, b,
+b, w, w, w, w, w, w, b,
+b, w, w, w, w, w, w, b
 ]
 ```
 
@@ -38,7 +38,7 @@ picture = [
 
 \--- task \---
 
-Add a line of code to display your picture on the LED display.
+Voeg een coderegel toe om je foto op het LED-display weer te geven.
 
 ```python
 sense.set_pixels(picture)
@@ -48,19 +48,19 @@ sense.set_pixels(picture)
 
 \--- task \---
 
-Press **Run** to see your picture displayed.
+Druk op **Run** (Uitvoeren) om je foto te laten zien.
 
 \--- /task \---
 
-\--- task \---
+\--- taak \---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Misschien wil je een code toevoegen om een ​​korte wachttijd (of `sleep` (slaapstand)) toe te voegen nadat de foto wordt weergegeven. Dit geeft de astronauten de tijd om je foto te bekijken voordat het volgende deel van je bericht verschijnt. Voeg bovenaan je programma toe:
 
 ```python
-from time import sleep
+van tijd slaap importeren
 ```
 
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+Voeg vervolgens aan de lijn na degene die je foto weergeeft deze code toe om twee seconden te wachten:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Create your own picture or pattern to display to the astronauts!
+Maak je eigen foto of patroon om aan de astronauten te tonen!
 
 \--- /task \---
