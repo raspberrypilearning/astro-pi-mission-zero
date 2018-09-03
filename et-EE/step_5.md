@@ -1,25 +1,25 @@
-## Display an image
+## Kuva pilt
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Pilte saad kuvada Astro Pi LED-maatriksil. Kui soovid, võib sinu tervitus astronautidele koosneda pildist või mustrist koos kirjaliku sõnumiga või ilma selleta.
 
 ![Astronaut](images/astronaut-pic.png)
 
 \--- task \---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll stick to only two — white (`w`) and black (`b`).
+Oma programmi alaosas saad luua värvimuutujaid määramaks piltide joonistamisel kasutatavad värvid. Saad kasutada nii palju värve kui soovid, aga selles näites me kasutame ainult kahte värvi, valget (`w`) ja musta (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Märkus:** Seekord oleks hea mõte anda värvi muutujatele ühetähelisi nimetusi, sest see hoiab järgmises etapis aega kokku, kuna neid on sul vaja kirjutada palju kordi. Lisaks teeb ühetäheliste nimetuste kasutamine joonistatud pildi vaatamise hõlpsamaks.
 
 \--- /task \---
 
 \--- task \---
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the black (`b`) pixels as the background and the white (`w`) pixels to draw the astronaut's space suit:
+Oma uute muutujate alla tee 64-st elemendist koosnev loetelu. Iga element kujutab ühte pikslit LED-maatriksil ja vastab ühele sinu määratud värvimuutujale. Joonista oma pilt pannes muutuja sinna, kus soovid kasutada sellega määratud värvi. Meie kasutasime astronaudi joonistamiseks musta värvi (`b`) piksleid tausta määramiseks ja valge värvi (`w`) piksleid astronaudi skafandri joonistamiseks:
 
 ```python
 picture = [
@@ -38,7 +38,7 @@ picture = [
 
 \--- task \---
 
-Add a line of code to display your picture on the LED display.
+Oma pildi kuvamiseks LED-ekraanil lisa koodirida.
 
 ```python
 sense.set_pixels(picture)
@@ -48,19 +48,19 @@ sense.set_pixels(picture)
 
 \--- task \---
 
-Press **Run** to see your picture displayed.
+Klõpsa **Run** (Käivita) nägemaks, kuidas sinu pilti kuvatakse.
 
 \--- /task \---
 
 \--- task \---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Kui soovid, võid lisada mõne koodi (või `sleep`) selle jaoks, et peale pildi kuvamist oleks lühike paus. See annab astronautidele aega vaadata sinu pilti enne sinu sõnumi järgmise osa kuvamist. Oma programmi ülaosasse lisa:
 
 ```python
 from time import sleep
 ```
 
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
+Seejärel lisa reale, mis on peale seda rida mis kuvab sinu pilti see kood, et anda kaks sekundit ooteaega:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Create your own picture or pattern to display to the astronauts!
+Loo astronautidele näitamiseks oma pilt või muster!
 
 \--- /task \---
