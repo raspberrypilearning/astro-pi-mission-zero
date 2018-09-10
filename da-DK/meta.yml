@@ -1,0 +1,27 @@
+---
+title: "Astro Pi: Mission Zero"
+hero_image: images/banner.png
+description: Gør klar til Mission Zero
+listed: false
+copyedit: true
+version: 4.0.1
+last_tested: 12. juni 2018
+steps:
+  - 
+    title: Indledning
+  - 
+    title: Hvad er en Astro Pi?
+  - 
+    title: Vis en besked
+  - 
+    title: Tilføj noget farve
+  - 
+    title: Vis et billede
+  - 
+    title: Mål temperaturen
+  - 
+    title: Vis temperaturen
+  - 
+    title: Indsend dit bidrag
+  - 
+    title: "Udfordring: Flere Astro Pi-projekter"
