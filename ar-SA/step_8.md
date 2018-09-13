@@ -16,7 +16,9 @@
 4. لا تستورد إلا من وحدات `sense_hat` و `time` (الوقت)، و `random`(عشوائي)
 5. تأكد من عدم تضمين أي كلمات نابية
 
-بمجرد أن تكون جميع القواعد باللون الأخضر، فإنك تصبح حينئذ مستعدًا للإرسال: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+بمجرد أن تكون جميع القواعد باللون الأخضر، فإنك تصبح حينئذ مستعدًا للإرسال: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 
