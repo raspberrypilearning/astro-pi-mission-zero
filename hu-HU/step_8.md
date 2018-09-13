@@ -16,7 +16,9 @@ Ellenőrizd, hogy ezeknek a feltételeknek is eleget tettél:
 4. Csak a `sense_hat`, `time`, és `random` modulokból importálj
 5. Semmiképp ne használj káromkodást
 
-Ha minden szabály zöld, készen állsz a beküldésre: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Ha minden szabály zöld, készen állsz a beküldésre: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

@@ -1,4 +1,4 @@
-## Laat een boodschap zien
+## Toon een boodschap
 
 --- task ---
 
@@ -59,7 +59,7 @@ De Sense HAT kan uitsluitend 1 Latijns tekenset tonen, wat betekent dat de volge
 
 --- /collapse ---
 
---- taak ---
+--- task ---
 
 Je kunt ook de snelheid van het scrollen van de boodschap veranderen. Voeg een `scroll_speed` toe aan de lijn van de code die je reeds hebt, zoals dit:
 

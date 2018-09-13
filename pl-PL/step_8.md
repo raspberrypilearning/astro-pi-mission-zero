@@ -16,7 +16,9 @@ Upewnij się też, że spełniasz następujące kryteria:
 4. Importuj tylko z modułów `sense_hat`, `time` i `random`
 5. Nie wolno umieszczać wulgaryzmów
 
-Gdy wszystkie reguły będą zielone, można przesłać zgłoszenie: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Gdy wszystkie reguły będą zielone, można przesłać zgłoszenie: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

@@ -2,7 +2,9 @@
 
 Een Astro Pi is een Raspberry Pi-computer in een behuizing die speciaal is ontworpen voor omstandigheden in de ruimte. Het heeft ook een uitbreidingskaart genaamd Sense HAT, speciaal gemaakt voor de Astro Pi-missie. De Sense HAT heeft een joystick, een LED-display en sensoren voor het registreren van temperatuur, vochtigheid, druk en oriëntatie.
 
-Hier is een echte Astro Pi-eenheid op het internationale ruimtestation ISS, waarop een aantal codes zijn geschreven door studenten. Hier zal je code uiteindelijk worden uitgevoerd! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
+Hier is een echte Astro Pi-eenheid op het internationale ruimtestation ISS, waarop een aantal codes zijn geschreven door studenten. Hier zal je code uiteindelijk worden uitgevoerd! 
+
+<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
 Voor deze missie gebruik je de Sense HAT-emulator. De emulator is een stukje software dat alle functies van de Astro Pi simuleert in je webbrowser.
 

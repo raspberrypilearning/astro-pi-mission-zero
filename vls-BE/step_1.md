@@ -8,7 +8,9 @@ Je voltooide programma zal in Space runnen in het International Space Station (I
 
 ### Wat je gaat maken
 
-Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om te zien hoe het in de praktijk werkt. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om te zien hoe het in de praktijk werkt. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -22,7 +24,7 @@ Je zult leren over AstroPi unit en hoe het te besturen, waaronder hoe:
 
 Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ Gebruik basic programming constructies om eenvoudige programma's te ontwerpen<0> {target="_blank"}</li> </ul> 
++ [Gebruik basic programming constructies om eenvoudige programma's te ontwerpen](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"} 
 
 --- /collapse ---
     
@@ -36,7 +38,7 @@ title: Wat je nodig hebt
  
 ### Software
     
-+ Een web browser (bijv. Google Chrome) om https://trinket.io/mission-zero<0>{target="-blank"} te openen</li> </ul> 
++ Een web browser (bijv. Google Chrome) om [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"} te openen
         
 --- /collapse ---
         
@@ -50,12 +52,12 @@ Lees het [officiele richtlijnen document](http://esamultimedia.esa.int/docs/edu/
         
 Je moet registreren voor de Mission Zero uitdaging om je team/s te laten deelnemen.
         
-+ Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
++ Ga naar de [Trinket emulator Misson Zero pagina](https://trinket.io/mission-zero/register){:target="-blank"}.
             
 + Vul het formulier in en klik **Submit**.
             
 + Een rekening wordt voor je opgericht. Elke rekening heeft zijn eigen **variatiecode**, en je moet je team/s laten weten wat die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
             
-+ Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.</ul> 
++ Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.
             
 --- /collapse ---

@@ -16,7 +16,9 @@ Assicuratevi anche di aver soddisfatto i seguenti criteri:
 4. Eseguite importazioni solo dai moduli `sense_hat`, `time` e `random`
 5. Non scrivete parolacce
 
-Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il programma: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il programma: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

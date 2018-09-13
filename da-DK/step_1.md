@@ -8,7 +8,9 @@ Dit færdige program køres i rummet på den internationale rumstation (ISS)! Du
 
 ### Du kommer til at lave følgende
 
-Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---

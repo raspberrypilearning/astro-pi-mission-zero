@@ -1,4 +1,4 @@
-## Je toegang indienen
+## Je invoer indienen
 
 Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om te runnen in het International Space Station. Indien jouw code hun volgt, dan zullen de regels onderaan de emulator groen oplichten wanneer je het programma runt.
 
@@ -16,7 +16,9 @@ Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 4. Uitsluitend invoeren van de `sense_hat`, `time`, en `random` modules
 5. Zorg ervoor dat je geen vloek erbij doet
 
-Zodra de regels allemaal groen zijn, ben je klaar om in te dienen: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Zodra de regels allemaal groen zijn, ben je klaar om in te dienen: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

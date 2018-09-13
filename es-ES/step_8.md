@@ -16,7 +16,9 @@ Asegúrate también de que has cumplido los siguientes criterios:
 4. Solamente importa desde los módulos `sense_hat`, `time` y `random`
 5. Asegúrate de que no incluyes palabras soeces
 
-Podrás realizar el envío una vez todas las reglas se hayan iluminado en verde: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Podrás realizar el envío una vez todas las reglas se hayan iluminado en verde: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

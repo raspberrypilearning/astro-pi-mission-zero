@@ -8,7 +8,9 @@ A kész programod az űrben fog futni a Nemzetközi Űrállomáson! Még egy kü
 
 ### Mit készítesz?
 
-Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd! <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd! 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -28,7 +30,7 @@ Ez a projekt a [Raspberry Pi Digitális Alkotási Tananyag ](http://rpf.io/curri
 
 --- collapse ---
 ---
-itle: Mire lesz szükséged?
+title: Mire lesz szükséged?
 ---
 ### Hardver
 

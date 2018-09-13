@@ -57,7 +57,7 @@ Druk op **Run** om je vertoonde tekening te zien.
 Misschien wil je een soort code toevoegen om een korte wachttijd op te nemen (of `sleep` (slaap)) nadat de tekening is tentoongesteld. Dit zal de astronauten de tijd geven om uw tekening te zien voordat het volgende deel van je boodschap verschijnt. Voeg toe, bovenaan je programma:
 
 ```python
-van tijd importatie slaap
+from time import sleep
 ```
 
 Daarna, op de lijn na degene die jouw tekening toont, voeg je deze code toe om twee seconden te wachten:

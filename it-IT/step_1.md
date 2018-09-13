@@ -8,7 +8,9 @@ Una volta completato, il vostro programma verrà eseguito nello spazio, sulla IS
 
 ### Cosa potete creare
 
-Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cliccate su **Run** per vederlo funzionare. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cliccate su **Run** per vederlo funzionare. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---

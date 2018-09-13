@@ -52,12 +52,12 @@ Druk op **Run** (Uitvoeren) om je foto te laten zien.
 
 --- /task ---
 
---- taak ---
+--- task ---
 
 Misschien wil je een code toevoegen om een ​​korte wachttijd (of `sleep` (slaapstand)) toe te voegen nadat de foto wordt weergegeven. Dit geeft de astronauten de tijd om je foto te bekijken voordat het volgende deel van je bericht verschijnt. Voeg bovenaan je programma toe:
 
 ```python
-van tijd slaap importeren
+from time import sleep
 ```
 
 Voeg vervolgens aan de lijn na degene die je foto weergeeft deze code toe om twee seconden te wachten:

@@ -16,7 +16,9 @@ Sørg også for at dere har oppfylt følgende kriterier:
 4. Dere må bare importere fra modulene `sense_hat`, `time` og `random`
 5. Pass på at meldingen ikke har støtende innhold
 
-Når alle reglene er grønne, er dere klare til å sende: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Når alle reglene er grønne, er dere klare til å sende: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

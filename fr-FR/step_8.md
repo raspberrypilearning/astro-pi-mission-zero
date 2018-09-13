@@ -1,4 +1,4 @@
-## Soumission de ta proposition
+## Soumettre ta proposition
 
 Ton code doit respecter quelques règles pour que tu puisses le soumettre et le faire exécuter dans la station spatiale internationale. Si ton code les respectent, les règles en bas de l'émulateur s'allument en vert lorsque tu exécutes le programme.
 
@@ -6,7 +6,7 @@ Ton code doit respecter quelques règles pour que tu puisses le soumettre et le 
 
 1. Mesure la température
 2. Allume les LED
-3. Vérifie que ton code s'exécute jusqu'au bout sans erreur. Si tu as une boucle `while True` (tant que cela est vrai) dans ton code, tu devras appuyer sur le bouton ** Stop ** pour passer cette règle.
+3. Vérifie que ton code s'exécute jusqu'au bout sans erreur. Si tu as une boucle `while True` (tant que cela est vrai) dans ton code, tu devras appuyer sur le bouton **Stop** pour passer cette règle.
 
 Assure-toi également que les critères suivants sont satisfaits :
 
@@ -16,7 +16,9 @@ Assure-toi également que les critères suivants sont satisfaits :
 4. Pour les importations n'tilisent que des données des modules `sense_hat`, `time`, et `random`
 5. Assure-toi de ne pas inclure de juron
 
-Une fois que toutes les règles sont passées au vert, tu es prêt à faire ta soumission : <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Une fois que toutes les règles sont passées au vert, tu es prêt à faire ta soumission : 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

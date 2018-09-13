@@ -8,7 +8,9 @@ Je voltooide programma wordt in de ruimte uitgevoerd op het International Space 
 
 ### Wat ga je maken
 
-Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -22,7 +24,7 @@ Je leert over de AstroPi-eenheid en hoe je hem bestuurt, inclusief hoe je:
 
 Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Gebruik eenvoudige programmeerconstructies om eenvoudige programma's te maken](https://curriculum.raspberrypi.org/programming/creator/) {:target="_blank"}
++ [Gebruik eenvoudige programmeerconstructies om eenvoudige programma's te maken](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -36,7 +38,7 @@ title: Wat heb je nodig
 
 ### Software
 
-+ Een webbrowser (bijv. Google Chrome) om [https://trinket.io/mission-zero= ](https://trinket.io/mission-zero){: Target = "_ blank"} te openen
++ Een webbrowser (bijv. Google Chrome) om [https://trinket.io/mission-zero= ](https://trinket.io/mission-zero){:target="_blank"} te openen
 
 --- /collapse ---
 
@@ -46,11 +48,11 @@ title: notities voor leerkrachten en mentoren
 ---
 Deze activiteit kan in een middag worden voltooid. Groepeer de studenten in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
 
-Lees de officiële richtlijnen<0>{:target="_blank"} voor Mission Zero door.</p> 
+Lees de [officiële richtlijnen](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} voor Mission Zero door.
 
 U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / kunnen nemen.
 
-+ Ga naar de [rinket emulator Mission Zero-pagina](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Ga naar de [Trinket emulator Mission Zero-pagina](https://trinket.io/mission-zero/register){:target="_blank"}.
 
 + Vul het formulier in en klik op **Submit** (Verzenden).
 

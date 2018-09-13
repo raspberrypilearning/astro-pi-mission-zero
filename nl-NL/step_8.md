@@ -16,7 +16,9 @@ Zorg er ook voor dat je aan de volgende criteria voldoet:
 4. Importeer alleen vanuit de `sense_hat`, `time` (tijd) en `random` (willekeurig) modules
 5. Zorg ervoor dat je geen grove taal gebruikt
 
-Zodra de regels allemaal groen zijn, ben je klaar om te verzenden: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Zodra de regels allemaal groen zijn, ben je klaar om te verzenden: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 
@@ -26,7 +28,7 @@ Voer je klascode in het vak onderaan in - je leerkracht vertelt je wat je code i
 
 --- /task ---
 
---- taak ---
+--- task ---
 
 De naam van je leraar verschijnt. Als het de juiste naam is, klik dan op de groene **Doorgaan naar formulier** knop.
 

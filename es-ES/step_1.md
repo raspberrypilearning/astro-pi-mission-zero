@@ -8,7 +8,9 @@ Utilizarás el emulador digital Sense HAT para crear tu programa, por lo que no 
 
 ### Lo que harás
 
-A continuación tienes un ejemplo del tipo de programa que puedes hacer. Haz clic en **Run** (Ejecutar) para verlo en acción. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+A continuación tienes un ejemplo del tipo de programa que puedes hacer. Haz clic en **Run** (Ejecutar) para verlo en acción. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---

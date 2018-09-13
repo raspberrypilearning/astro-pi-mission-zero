@@ -1,4 +1,4 @@
-## Voeg wat kleur toe
+## Voeg er wat kleur aan toe
 
 De Astro Pi's LEDs kan ook kleuren tonen. Je kunt een kleur specificeren door een variabele te definiëren en het een RGB kleurwaarde toe te kennen.
 

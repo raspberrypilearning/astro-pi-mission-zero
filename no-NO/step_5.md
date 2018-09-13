@@ -57,7 +57,7 @@ Trykk **Run** (Kjør) for å se bildet på skjermen.
 Dere vil kanskje legge til koder for å få et kort tidsrom (eller `sleep` (søvn)) etter at bildet er vist. Dette gir astronautene tid til å se bildet før neste del av meldingen vises. På toppen av programmet legger dere til:
 
 ```python
-fra tid importer søvn
+from time import sleep
 ```
 
 På linjen etter den som viser bildet, legger dere til denne koden for å et opphold på to sekunder:

@@ -2,7 +2,9 @@
 
 En Astro Pi er en Raspberry Pi-datamaskin innkapslet av et hus spesialdesignet for forhold i verdensrommet. Den har også et tilleggskort kalt Sense HAT, laget spesielt for Astro Pi-oppdraget. Sense HAT har en joystick, en LED-skjerm og sensorer for registrering av temperatur, fuktighet, trykk og orientering.
 
-Her er en ekte Astro Pi-enhet på den internasjonale romstasjonen som kjører en kode skrevet av elever. Det er her koden deres vil bli kjørt! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
+Her er en ekte Astro Pi-enhet på den internasjonale romstasjonen som kjører en kode skrevet av elever. Det er her koden deres vil bli kjørt! 
+
+<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
 Til dette oppdraget bruker dere Sense HAT-emulatoren. Emulatoren er et program som simulerer alle funksjonene til Astro Pi i nettleseren.
 

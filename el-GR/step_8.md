@@ -16,7 +16,9 @@
 4. Κάντε εισαγωγή μόνο από τις ενότητες `sense_hat`, `time` και `random`
 5. Μην χρησιμοποιείτε αισχρολογίες
 
-Αν όλοι οι κανόνες είναι πράσινοι, μπορείτε να προχωρήσετε στην υποβολή: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Αν όλοι οι κανόνες είναι πράσινοι, μπορείτε να προχωρήσετε στην υποβολή: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

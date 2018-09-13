@@ -1,4 +1,4 @@
-## Défi: d'autres projets Astro Pi
+## Défi: davantage de projets Astro Pi
 
 Maintenant que tu as terminé ta mission, pourquoi ne pas essayer d'autres projets en utilisant les autres capteurs de l'Astro Pi ?
 

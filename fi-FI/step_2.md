@@ -2,7 +2,9 @@
 
 Astro Pi on Rasberry Pi -tietokone, joka on koteloitu sunniteltuna erityisesti olsuhteisiin avaruudessa. Siinä on myös lisäosa nimeltä Sense HAT, joka on tehty nimenomaan Astro Pi -missiota varten. The Sense HAT käsittää ohjaussauvan, LED-näytön ja antureita lämpötilan, koskeuden, paineen ja sunnan tallentamiseksi.
 
-Tässä on Astro Pi-reaaliyksikkö kansainvälisellä ISS-avaruusasemalla, joka käyttää tiettyjä oiskelijoiden kirjoittamia koodeja. Koodiasi käytetään lopulta tässä! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
+Tässä on Astro Pi-reaaliyksikkö kansainvälisellä ISS-avaruusasemalla, joka käyttää tiettyjä oiskelijoiden kirjoittamia koodeja. Koodiasi käytetään lopulta tässä! 
+
+<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
 Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaattori on ohjelmisto, joka simuloi kaikkia Astro Pi -toimintoja selaimessasi.
 

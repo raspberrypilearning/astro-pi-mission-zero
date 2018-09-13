@@ -16,7 +16,9 @@ Stelle außerdem sicher, dass du die folgenden Kriterien erfüllt hast:
 4. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
 5. Achte darauf, dass keine Obszönitäten im Code enthalten sind
 
-Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

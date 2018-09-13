@@ -14,7 +14,7 @@ title: Wat is temperatuur?
 ---
 Temperatuur is de maat voor hoe heet iets is. Misschien heb je je temperatuur met een thermometer laten nemen tijdens een bezoek aan de dokter.
 
-![Thermometer](images/thermometer.JPG) *door Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){: target = "_ blank"} via Wikimedia Commons *
+![Thermometer](images/thermometer.JPG) *door Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
 Om exacter te zijn, temperatuur is een maat voor de hoeveelheid warmte-energie van een stof. Je weet dat een ijsblokje vast is, maar naarmate het opwarmt, dat wil zeggen omdat het warmte-energie absorbeert uit zijn omgeving, smelt het en wordt het vloeibaar. Dit komt omdat wanneer een stof voldoende warmte-energie absorbeert of verliest, de staat zal veranderen, bijv. van een vaste stof naar een vloeistof.
 
