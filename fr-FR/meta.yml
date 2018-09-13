@@ -8,7 +8,7 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
   - title: Introduction
-  - title: Qu'est-ce qu'un Astro Pi ?
+  - title: "Qu'est-ce qu'un Astro Pi ?"
   - title: Afficher un message
   - title: Ajouter de la couleur
   - title: Afficher une image
