@@ -43,11 +43,9 @@ Appuie sur le bouton **Run** (Exécuter) et regarde comme le message `Astro Pi` 
 Pour afficher un autre message tu peux écrire ce que tu veux entre les guillemets (`""`).
 
 --- collapse ---
-
-* * *
-
-## title: Quels caractères peuvent être utilisés ?
-
+---
+title: Quels caractères peuvent être utilisés ?
+---
 Le Sense HAT ne peut afficher que le jeu de caractères Latin 1, ce qui signifie que seuls les caractères suivants sont disponibles. Les autres caractères s'afficheront sous la forme d'un `?` .
 
     +-*/!"#$><0123456789.=)(
