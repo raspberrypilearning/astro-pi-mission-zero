@@ -1,0 +1,18 @@
+---
+title: "Astro Pi: Mission Zero"
+hero_image: images/banner.png
+description: Preparatevi per Mission Zero
+listed: false
+copyedit: true
+version: 4.0.1
+last_tested: 2018-06-12
+steps:
+  - title: Introduzione
+  - title: Che cosa è un Astro Pi?
+  - title: Mostrate un messaggio
+  - title: Aggiungete un po’ di colore
+  - title: Mostrate un’immagine
+  - title: Misurate la temperatura
+  - title: Mostrate la temperatura
+  - title: Inviate il vostro programma
+  - title: "Sfida: altri progetti Astro Pi"
