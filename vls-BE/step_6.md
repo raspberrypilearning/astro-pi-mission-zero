@@ -37,7 +37,7 @@ Deze lijn meet de huidige temperatuur en slaat de meetwaarde op in de variabele 
 De temperatuur wordt heel precies opgenomen, d.w.z. de opgeslagen waarde heeft een groot aantal decimale cijfers. Je kunt de waarde afronden tot een aantal decimale cijfers. In het voorbeeld hebben wij het cijfer afgerond tot een decimaal, maar voor een ander niveau van nauwkeurigheid, verander het nummer `1` tot het nummer van decimale cijfers die je wenst te zien.
 
 ```python
-temp = rond( sense.get_temperature(), 1 )
+temp = round( sense.get_temperature(), 1 )
 ```
 
 --- /task ---
