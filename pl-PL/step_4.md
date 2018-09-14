@@ -8,7 +8,7 @@ Tutaj można dowiedzieć się, jak tworzy się wszystkie kolory za pomocą róż
 
 --- task ---
 
-Wybierz kolor i sprawdź jego wartość RGB. Można użyć [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp) {:target="_blank"}.
+Wybierz kolor i sprawdź jego wartość RGB. Można użyć [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
 
 --- /task ---
 
