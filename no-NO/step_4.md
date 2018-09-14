@@ -1,4 +1,4 @@
-## Legg til farge
+## Legge til farge
 
 Astro Pi-lysdiodene kan også vise farger. Du kan angi en farge ved å opprette en variabel og tildele den en RGB-fargeverdi.
 
