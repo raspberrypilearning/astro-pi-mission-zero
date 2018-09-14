@@ -57,7 +57,7 @@ Paina **Run** nähdäksesi kuvasi näytössä.
 Haluat ehkä lisätä tietyn koodin sisällyttämään lyhyen odotuksen (vaihtoehtona `sleep`) kuvan näyttämisen jälkeen. Tämä antaa astronauteille aikaa nähdä kuvasi ennen kuin seuraava viestisi osa tulee näkyviin. Lisää ohjelman yläosaan:
 
 ```python
-aika tuomasta nukkumisesta
+from time import sleep
 ```
 
 Lisää sitten kuvasi esittämän koodin jälkeiselle riville tämä koodi odottamaan kaksi sekuntia:
