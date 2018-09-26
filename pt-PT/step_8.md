@@ -16,7 +16,9 @@ Assegura-te que cumpriste os seguintes critérios:
 4. Importa apenas do `sense_hat`, do `time` e de módulos `random` aleatórios
 5. Certifica-te que não incluíste linguagem inapropriada
 
-Quando as regras estiverem todas em verde, estás pronto para enviar: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Quando as regras estiverem todas em verde, estás pronto para enviar: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

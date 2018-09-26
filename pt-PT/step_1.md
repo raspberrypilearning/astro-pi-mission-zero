@@ -8,7 +8,9 @@ O programa completo irá ser executado a partir do espaço na Estação Espacial
 
 ### O que vais fazer
 
-Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para executar o programa e vê-lo em ação. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para executar o programa e vê-lo em ação. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---

@@ -16,7 +16,9 @@ Prepričajte se tudi, da ste upoštevali naslednje kriterije.
 4. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
 5. Ne vključujte žaljiviih besed ali slik.
 
-Ko so vsa pravila obarvana zeleno, ste pripravljeni na pošiljanje. <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Ko so vsa pravila obarvana zeleno, ste pripravljeni na pošiljanje. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

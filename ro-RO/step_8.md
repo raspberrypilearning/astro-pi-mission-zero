@@ -16,7 +16,9 @@ De asemenea, asigură-te că ai îndeplinit următoarele criterii:
 4. Importă doar din modulele `sense_hat`, `time`, şi `random`
 5. Asigură-te că nu incluzi limbaj obscen
 
-Odată ce regulile sunt toate scrise în culoarea verde, eşti gata să trimiți: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Odată ce regulile sunt toate scrise în culoarea verde, eşti gata să trimiți: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

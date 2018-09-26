@@ -8,7 +8,9 @@ Vaš program bo zagnan v vesolju na Mednarodni vesoljski postaji (angl. Internat
 
 ### Kaj boste ustvarili?
 
-Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---

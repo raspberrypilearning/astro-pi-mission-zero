@@ -8,7 +8,7 @@ Jak se pomocí různých proporcí červené, zelené a modré dají vytvořit v
 
 --- task ---
 
-Vyberte si barvu a zjistěte její hodnotu v RGB. Pomůže vám s tím [vybírátko barev](https://www.w3schools.com/colors/colors_rgb.asp) {:target="_blank"}.
+Vyberte si barvu a zjistěte její hodnotu v RGB. Pomůže vám s tím [vybírátko barev](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
 
 --- /task ---
 

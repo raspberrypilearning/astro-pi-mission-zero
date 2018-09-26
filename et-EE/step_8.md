@@ -16,7 +16,9 @@ Samuti pead veenduma, et järgmised kriteeriumid oleks täidetud:
 4. Impordi ainult moodulitelt `sense_hat`, `time` ja `random`
 5. Ei tohi olla ebaviisakas või sündsusetu
 
-Kui kõik reeglid on rohelised, oled esitamiseks valmis: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Kui kõik reeglid on rohelised, oled esitamiseks valmis: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

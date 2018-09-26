@@ -1,4 +1,4 @@
-## Desafio: mais projetos do Astro Pi
+## Desafio: mais projectos do Astro Pi
 
 Agora que completaste a tua missão, por que não experimentar mais alguns projetos usando os outros sensores do Astro Pi?
 

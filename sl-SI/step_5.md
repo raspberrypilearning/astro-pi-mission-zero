@@ -1,4 +1,4 @@
-## Prikažite sporočilo
+## Prikažite sliko
 
 Na matrici LED računalnika Astro Pi lahko prikažete slike. Morda želite, da bi vaš pozdrav astronavtov poleg ali namesto pisnega sporočila vseboval sliko ali vzorec?
 

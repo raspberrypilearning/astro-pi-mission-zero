@@ -2,7 +2,9 @@
 
 Astro Pi je računalnik Raspberry Pi z ohišjem, ki je bilo posebej zasnovano za razmere v vesolju. Ima tudi dodano tablo, imenovano Sense HAT, izdelano posebej za misijo Astro Pi. Sense HAT ima krmilno palico, zaslon LED in senzorje za odčitavanje temperature, vlažnosti, tlaka in orientacije.
 
-Tukaj je prava enota Astro Pi na Mednarodni vesoljski postaji, ki prikazuje kodo, ki so jo napisali učenci. Tukaj bo sčasoma zagnana tudi vaša koda! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
+Tukaj je prava enota Astro Pi na Mednarodni vesoljski postaji, ki prikazuje kodo, ki so jo napisali učenci. Tukaj bo sčasoma zagnana tudi vaša koda! 
+
+<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
 Pri tej misiji boste uporabljali emulator Sense Hat. Emulator je del programske opreme, ki v vašem spletnem brskalniku simulira vse funkcije Astro Pi.
 

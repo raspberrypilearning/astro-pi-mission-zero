@@ -16,7 +16,9 @@ Také se ujistěte, že jste splnili následující kritéria:
 4. Importujte jen z modulů `sense_hat`, `time`, a `random`
 5. V kódu nesmějí být žádné vulgární výrazy
 
-Když jsou všechna pravidla zelená, všechno je připravené a kód můžete odeslat: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Když jsou všechna pravidla zelená, všechno je připravené a kód můžete odeslat: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- task ---
 

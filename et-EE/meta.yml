@@ -9,10 +9,10 @@ last_tested: 2018-06-12
 steps:
   - title: Sissejuhatus
   - title: Mis on Astro Pi?
-  - title: Kuva sõnum
-  - title: Lisa värv
+  - title: Kuva teade
+  - title: Lisa värve
   - title: Kuva pilt
-  - title: Mõõda temperatuur
-  - title: Kuva temperatuur
+  - title: Mõõda õhutemperatuur
+  - title: Õhutemperatuuri kuvamine
   - title: Esita oma kirje
   - title: "Väljakutse: rohkem Astro Pi projekte"
