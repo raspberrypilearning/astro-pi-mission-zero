@@ -64,6 +64,6 @@ You will need to register for the Mission Zero challenge to allow your students 
 
 + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
 
- We have created a [2 page summary handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points and which can be used by students and young people in conjunction with this online project
+ We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
