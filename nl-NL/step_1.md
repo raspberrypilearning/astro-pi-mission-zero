@@ -8,9 +8,9 @@ Je voltooide programma wordt in de ruimte uitgevoerd op het International Space 
 
 ### Wat ga je maken
 
-Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien. 
+Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / k
 + Plaats uw klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

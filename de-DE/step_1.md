@@ -8,9 +8,9 @@ Dein fertiges Programm wird im Weltraum auf der Internationalen Raumstation (ISS
 
 ### Was du machen wirst
 
-Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf **Run** (Ausführen), um es in Aktion zu sehen. 
+Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf **Run** (Ausführen), um es in Aktion zu sehen.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre 
 + Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Schreibwand oder mit einem Projektor, und beginnen Sie mit der Aktivität.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

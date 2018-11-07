@@ -8,9 +8,9 @@ Váš hotový program bude spuštěn ve vesmíru na Mezinárodní vesmírné sta
 
 ### Co vytvoříte
 
-Tady je příklad, jaký asi program byste mohli vytvořit. Klikněte na **Run** (Spustit) a uvidíte ho v akci. 
+Tady je příklad, jaký asi program byste mohli vytvořit. Klikněte na **Run** (Spustit) a uvidíte ho v akci.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Aby se vaše týmy mohly zúčastnit, musíte se pro Mission Zero zaregistrovat.
 + Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

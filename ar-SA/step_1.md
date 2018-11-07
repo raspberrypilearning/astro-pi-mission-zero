@@ -8,9 +8,9 @@
 
 ### ما البرنامج الذي ستعده
 
-إليك مثالًا لنوع البرنامج الذي يمكنك إعداده. انقر **Run** (تشغيل) لرؤية ذلك عمليًا. 
+إليك مثالًا لنوع البرنامج الذي يمكنك إعداده. انقر **Run** (تشغيل) لرؤية ذلك عمليًا.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ title: ملاحظات للمدرسين والمعلمين
 + اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

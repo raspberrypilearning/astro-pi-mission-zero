@@ -8,9 +8,9 @@ A kész programod az űrben fog futni a Nemzetközi Űrállomáson! Még egy kü
 
 ### Mit készítesz?
 
-Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd! 
+Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd!
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Regisztálnia kell a Mission Zero kihívásra, hogy csapata(i) részt vehessen(e
 + Rakja ki az osztálytermi kódját egy jól látható helyre, például egy táblára vagy projektorra, és kezdjenek neki a feladatnak!
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
