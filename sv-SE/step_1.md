@@ -8,9 +8,9 @@ Ditt färdiga program kommer att köras på den internationella rymdstationen (I
 
 ### Vad du kommer att skapa
 
-Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras. 
+Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Du måste registrera dig för utmaningen Mission Zero för att dina lag ska kunn
 + Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

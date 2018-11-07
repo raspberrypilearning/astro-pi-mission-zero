@@ -8,9 +8,9 @@ Ton programme achevé sera exécuté dans l'espace dans la Station spatiale inte
 
 ### Ce que tu vas faire
 
-Voici un exemple du type de programme que tu peux créer. Clique sur **Run** (Exécuter) pour le voir en action. 
+Voici un exemple du type de programme que tu peux créer. Clique sur **Run** (Exécuter) pour le voir en action.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Vous devez vous inscrire au challenge Mission Zero pour permettre à votre ou vo
 + Affichez votre code de salle de classe quelque part où il sera visible, par exemple sur un tableau blanc ou en utilisant un projecteur, et commencez l'activité.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

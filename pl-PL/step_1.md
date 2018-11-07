@@ -8,9 +8,9 @@ Stworzony program zostanie uruchomiony w kosmosie na Międzynarodowej Stacji Kos
 
 ### Co stworzysz
 
-Oto przykład programu, który można stworzyć. Kliknij **Run** (Uruchom), aby zobaczyć, jak działa. 
+Oto przykład programu, który można stworzyć. Kliknij **Run** (Uruchom), aby zobaczyć, jak działa.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Mission Zero, należy
 + Wyświetl kod klasy w widocznym miejscu, na przykład na tablicy lub za pomocą projektora, i rozpocznij zadanie.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

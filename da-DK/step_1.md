@@ -8,9 +8,9 @@ Dit færdige program køres i rummet på den internationale rumstation (ISS)! Du
 
 ### Du kommer til at lave følgende
 
-Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer. 
+Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Du skal melde dig til Mission-udfordringen, så dit/dine hold kan deltage.
 + Sæt din klasseværelseskode på et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

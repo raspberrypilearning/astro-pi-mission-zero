@@ -8,9 +8,9 @@ Programul tău finalizat va fi rulat în spațiu pe Stația Spațială Internaț
 
 ### Ce vei face
 
-Iată un exemplu al tipului de program pe care l-ai putea face. Dă clic pe **Run** (Executare) pentru a-l vedea în acțiune. 
+Iată un exemplu al tipului de program pe care l-ai putea face. Dă clic pe **Run** (Executare) pentru a-l vedea în acțiune.
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 ---
@@ -61,3 +61,5 @@ Va trebui să vă înregistrați pentru provocarea Mission Zero pentru a permite
 + Afișați codul de clasă undeva vizibil, de exemplu pe o tablă albă sau utilizând un proiector, și începeți activitatea.
 
 --- /collapse ---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
