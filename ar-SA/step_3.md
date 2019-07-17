@@ -28,7 +28,7 @@ sense.set_rotation(270)
 sense.show_message("Astro Pi")
 ```
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
