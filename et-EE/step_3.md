@@ -1,4 +1,4 @@
-## Kuva teade
+## Kuva sõnum
 
 \--- task \---
 
