@@ -1,4 +1,4 @@
-## Kihívás: még több Astro Pi projekt
+## Kihívás: Még több Astro Pi projekt
 
 Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
