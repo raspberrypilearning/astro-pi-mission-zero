@@ -4,7 +4,7 @@ Du kan kombinera din temperaturavläsning med en bild för att även visa temper
 
 ![Varm och kall](images/hot-and-cold.png)
 
-\--- task \---
+\--- uppgift \---
 
 Skapa fler färgvariabler för alla de färger som du vill använda, i slutet av ditt program. Du kanske redan har definierat några av dem i ett tidigare steg. I vårt exempel kommer vi att använda vitt (`w`), gult (`y`), grönt (`g`), och svart/tom (`b`).
 
@@ -17,7 +17,7 @@ b = (0, 0, 0)
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Precis som tidigare, ritar du dina bilder genom att först skapa en lista för var och en av dem, och sedan ställa in listans objekt med de färger som du vill att pixlarna ska ha.
 
@@ -48,7 +48,7 @@ cold = [
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Lägg till lite kod för att hämta temperaturen:
 
@@ -58,7 +58,7 @@ temp = sense.get_temperature()
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Välj nu vilken bild som ska visas. I det här exemplet kommer vi att visa bilden `hot` om temperaturavläsningen är 20 grader eller högre, och bilden `cold` om temperaturen är under 20 grader.
 
@@ -72,13 +72,13 @@ else:
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Använd skjutreglaget för temperatur för att ställa in en temperatur på emulatorn. Kör ditt program och kontrollera att den bild du har valt för den temperaturen visas korrekt.
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Ändra din kod så att ditt program visar temperaturen för astronauterna på det sätt som du väljer.
 
