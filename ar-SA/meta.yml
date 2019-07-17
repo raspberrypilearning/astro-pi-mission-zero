@@ -8,7 +8,7 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
   - 
-    title: مقدمة
+    title: المقدمة
   - 
     title: ما هو نظام Astro Pi؟
   - 
