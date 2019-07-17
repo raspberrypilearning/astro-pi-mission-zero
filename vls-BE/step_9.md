@@ -1,4 +1,4 @@
-## Uitdaging: meer Aspro Pi projecten
+## Uitdaging: meer Astro Pi projecten
 
 Nu dat je de missie hebt afgerond, waarom niet meer projecten proberen door gebruik te maken van de andere sensors op de Astro Pi?
 
