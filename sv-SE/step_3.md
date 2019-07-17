@@ -1,6 +1,6 @@
 ## Visa ett meddelande
 
-\--- uppgift \---
+\--- task \---
 
 Öppna [Sense HAT-emulatorn](https://trinket.io/mission-zero){:target="_blank"} för projektet Mission Zero.
 
@@ -30,7 +30,7 @@ sense.show_message("Astro Pi")
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Tryck på knappen **Run** (Kör) och titta när meddelandet `Astro Pi` rullar över LED-displayen.
 
@@ -61,7 +61,7 @@ Sense HAT kan bara visa teckenuppsättningen Latin 1, vilket innebär att följa
 
 \--- /collapse \---
 
-\--- task \---
+\--- uppgift \---
 
 Du kan också ändra hastigheten på meddelandet som rullar över skärmen. Lägg till `scroll_speed` på raden i den kod som du redan har skrivit, så här:
 
