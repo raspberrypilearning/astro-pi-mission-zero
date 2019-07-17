@@ -8,7 +8,7 @@ Astro Pi måler temperaturen i ISS i grader Celsius (&deg;C). Fordi temperaturen
 
 En del av oppdraget deres er å bidra til dagliglivet til mannskapet ombord på ISS, så når de får vite at temperaturen om bord på romstasjonen ligger innenfor et normalt område, vil de bli beroliget.
 
-## \--- collapse \---
+## \--- kollaps \---
 
 ## title: Hva er temperatur?
 
@@ -18,7 +18,7 @@ Temperatur er måling av hvor varmt noe er. Det kan godt hende dere har fått m�
 
 For å være mer presis er temperatur et mål på mengden varmeenergi i et stoff. Dere vet at en isbit er hard, men når den varmes opp, det vil si når den absorberer varmeenergi fra omgivelsene, smelter den og blir til væske. Dette skyldes at når et stoff absorberer eller mister nok varmeenergi, vil stoffet forandre tilstand, for eksempel vil det gå fra å være et fast stoff til å bli en væske.
 
-\--- /collapse \---
+\--- / kollaps \---
 
 \--- task \---
 
