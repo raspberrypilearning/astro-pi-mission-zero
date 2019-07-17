@@ -20,9 +20,9 @@ Du wirst mehr über den Astro Pi erfahren und wie du ihn steuern kannst, einschl
 
 + Anzeige von Nachrichten und Farben
 + Erstellung von Bildern
-+ Messen der Temperatur
++ messen der Temperatur
 
-Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Lehrplans](http://rpf.io/curriculum) {:target="_blank"}:
 
 + [Verwende grundlegende Programmierkonstrukte, um einfache Programme zu erstellen ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
@@ -50,7 +50,7 @@ Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digit
 
 Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, womit man eine persönliche Nachricht und die Lufttemperatur an den Astro Pi schicken kann.
 
-Lesen Sie das [Dokument offizieller Richtlinien](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_ blank"} für Mission Zero.
+Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
 Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre Teams teilnehmen können.
 
@@ -61,5 +61,9 @@ Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre 
 + Ein Konto wird für Sie erstellt. Jedes Konto hat seinen eigenen **Klassencode** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
 
 + Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Schreibwand oder mit einem Projektor, und beginnen Sie mit der Aktivität.
+    
+    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 \--- /collapse \---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
