@@ -8,7 +8,7 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
   - 
-    title: Introdução
+    title: Jogo de calculo mental
   - 
     title: O que é um Astro Pi?
   - 
@@ -24,4 +24,4 @@ steps:
   - 
     title: Envia a tua participação
   - 
-    title: "Desafio: mais projectos do Astro Pi"
+    title: "Desafio: mais projetos do Astro Pi"
