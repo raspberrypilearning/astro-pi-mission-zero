@@ -53,7 +53,7 @@ cold = [
 Voeg een code toe om de temperatuur te verkrijgen:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.neem_temperatuur()
 ```
 
 \--- /task \---
