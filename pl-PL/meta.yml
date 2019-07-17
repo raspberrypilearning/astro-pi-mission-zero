@@ -1,11 +1,11 @@
 ---
 title: "Astro Pi: Mission Zero"
-hero_image: images/banner.png
+hero_image: images / banner.png
 description: Przygotuj się do Mission Zero
 listed: false
 copyedit: true
 version: 4.0.1
-last_tested: 2018-06-12
+last_tested: 2017-06-01
 steps:
   - 
     title: Wprowadzenie
