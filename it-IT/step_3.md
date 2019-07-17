@@ -59,7 +59,7 @@ Sense HAT può visualizzare solo il set di caratteri "Latin 1". Questo significa
     ?,;:|@%[&_']\~
     
 
-\--- /collapse \---
+\--- / chiudi \---
 
 \--- task \---
 
