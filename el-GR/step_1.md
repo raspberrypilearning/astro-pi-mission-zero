@@ -6,7 +6,7 @@
 
 Το ολοκληρωμένο πρόγραμμα σας θα εκτελεστεί στο διάστημα στον Διεθνή Διαστημικό Σταθμό (ΔΔΣ)! Θα λάβετε επίσης ένα ειδικό πιστοποιητικό που θα δείχνει πού ακριβώς βρισκόταν ο ΔΔΣ κατά την εκτέλεση του προγράμματός σας!
 
-### Τι θα φτιάξετε
+### Τι θα φτιάξεις
 
 Παρακάτω είναι ένα παράδειγμα του είδους προγράμματος που θα μπορούσατε να φτιάξετε. Κάντε κλικ στο «**Run**» (Εκτέλεση) για να δείτε το πρόγραμμα σε δράση. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
@@ -14,17 +14,17 @@
 
 * * *
 
-## title: Τι θα μάθετε
+## title: Τι θα μάθεις
 
 Θα μάθετε σχετικά με τη μονάδα AstroPi και το πώς να την ελέγχετε, συμπεριλαμβανομένων των εξής:
 
 + πώς να εμφανίζετε μηνύματα και χρώματα
 + πώς να δημιουργείτε εικόνες
-+ πώς να μετράτε τη θερμοκρασία
++ μέτρηση της θερμοκρασίας
 
-Αυτή η εργασία καλύπτει στοιχεία από τις ακόλουθες ενότητες του [προγράμματος σπουδών ψηφιακής δημιουργίας Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Χρησιμοποιήστε βασικές δομές προγραμματισμού για να δημιουργήσετε απλά προγράμματα](https://curriculum.raspberrypi.org/programming/creator/){: target = "_ blank"}
++ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,7 +32,7 @@
 
 * * *
 
-## title: Τι θα χρειαστείτε
+## title: Τι θα χρειαστείς
 
 ### Υλικό
 
@@ -50,7 +50,7 @@
 
 Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες των τεσσάρων και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και τη θερμοκρασία αέρα στο Astro Pi.
 
-Διαβάστε το [επίσημο έγγραφο οδηγιών](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} για το Mission Zero.
+Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
 Θα πρέπει να εγγραφείτε στην πρόκληση Mission Zero για να μπορέσουν οι ομάδες σας να συμμετέχουν.
 
@@ -61,5 +61,9 @@
 + Θα δημιουργηθεί ένας λογαριασμός για εσάς. Κάθε λογαριασμός έχει τον δικό του **κωδικό τάξης**, τον οποίον θα πρέπει να δώσετε στις ομάδες σας όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
 
 + Προβάλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής, και ξεκινήστε τη δραστηριότητα.
+    
+    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 \--- /collapse \---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
