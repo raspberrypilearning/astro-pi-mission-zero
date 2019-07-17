@@ -6,13 +6,13 @@ Du kan lära dig hur alla färger kan skapas med olika proportioner rött, grön
 
 [[[generic-theory-colours]]]
 
-\--- task \---
+\--- uppgift \---
 
 Välj en färg och ta reda på färgens RGB-värde. Du kan använda en [färgväljare](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} för att hjälpa dig.
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Skapa en variabel för att lagra den färg du valt. Om du exempelvis valde röd (red), kan du skriva den här kodraden:
 
@@ -22,7 +22,7 @@ red = (255,0,0)
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Du kan nu visa din text i den färg du valt! För att tala om för programmet att det ska använda den färg du skapat, lägger du till parametern `text_colour` till den kod som visar din text:
 
@@ -35,7 +35,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 ![visa meddelande i färg](images/show-message-color.gif)
 
-\--- task \---
+\--- uppgift \---
 
 Du kan även ändra bakgrundsfärg på displayen. Välj en annan färg, och skapa ytterligare en variabel för att lagra den färgen. För att tala om för programmet att det ska använda din valda bakgrundsfärg lägger du till parametern `back_colour` till din kod:
 
@@ -47,7 +47,7 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Ändra hälsningstexten och färgen - vilket meddelande vill du skicka till astronauterna ombord på ISS?
 
