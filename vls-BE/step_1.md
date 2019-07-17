@@ -4,7 +4,7 @@ De dagelijkse routine van de astronauten opfleuren in het Internationale Space S
 
 Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, dus geen extra hardware is nodig - alles wordt gedaan in de web browser.
 
-Je voltooide programma zal in Space runnen in het International Space Station (ISS)! Je zult ook een speciaal certificaat ontvangen waar precies de ISS was toen je programma aan het runnen was!
+Je voltooide programma zal in Space runnen in het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat dat laat zien waar de ISS precies was toen je programma aan het runnen was!
 
 ### Wat je gaat maken
 
@@ -50,7 +50,7 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
         
         Deze activiteit kan worden afgerond in een namiddag. Organiseer je studenten in teams van ten hoogste vier, en laat ons hun loodsen met het schrijven van een kort Python programma om een persoonlijke boodschap te laten zien en de lucht temperatuur op de Astro Pi.
         
-        Lees het [officiele richtlijnen document](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} voor Mission Zero.
+        Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
         
         Je moet registreren voor de Mission Zero uitdaging om je team/s te laten deelnemen.
         
@@ -60,6 +60,10 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
             
             + Een rekening wordt voor je opgericht. Elke rekening heeft zijn eigen **variatiecode**, en je moet je team/s laten weten wat die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
             
-            + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.</ul> 
+            + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.
+                
+                We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.</ul> 
             
             \--- /collapse \---
+            
+            ![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
