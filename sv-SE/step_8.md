@@ -18,7 +18,7 @@ Kontrollera även att följande kriterier är uppfyllda:
 
 När alla regler är gröna, är du redo att skicka: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
-\--- task \---
+\--- uppgift \---
 
 Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad koden är.
 
@@ -26,7 +26,7 @@ Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad ko
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gröna knappen **Continue to form** (Fortsätt till formulär).
 
@@ -34,25 +34,25 @@ Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gr
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Klicka på ditt lands flagga för att ändra det språk som bidragsformuläret visas på, om så krävs.
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Ange ditt lagnamn och namnen på dina lagmedlemmar. Dessa kommer att skrivas ut på certifikatet när din kod har körts i rymden, så se till att du stavar dem rätt!
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Tryck på **Submit** (Skicka) för att ange din kod. Din lärare eller mentor får ett e-postmeddelande som bekräftar ditt bidrag.
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Om du vill kan du dela länken till din kod på sociala medier för att berätta för människor att den kod som du skrev kommer att köras i rymden!
 
