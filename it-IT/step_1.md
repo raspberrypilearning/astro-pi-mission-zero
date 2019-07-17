@@ -4,9 +4,9 @@ Rallegrate la routine quotidiana degli astronauti sulla Stazione Spaziale Intern
 
 Per creare il vostro programma, utilizzerete l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo: viene fatto tutto in un browser web.
 
-Una volta completato, il vostro programma verrà eseguito nello spazio, sulla ISS, la Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui il vostro programma è stato eseguito!
+Una volta completato, il vostro programma verrà eseguito nello spazio, sulla ISS, la Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
-### Cosa potete creare
+### Che cosa creerai
 
 Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cliccate su **Run** per vederlo funzionare. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
@@ -14,25 +14,25 @@ Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cl
 
 * * *
 
-## title: Cosa imparerete?
+## title: Cosa imparerai
 
 Imparerete tante cose sull’AstroPi, come comandarlo e come:
 
 + mostrare messaggi e colori
 + creare immagini
-+ misurare la temperatura
++ misurate la temperatura
 
 Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Utilizzare i costrutti base di un linguaggio di programmazione per creare semplici programmi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Utilizzare i costrutti base di un linguaggio di programmazione per creare programmi semplici](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
-\--- /collapse \---
+\--- / chiudi \---
 
 \--- collapse \---
 
 * * *
 
-## title: Di cosa avrete bisogno?
+## title: Di cosa avrai bisogno
 
 ### Hardware
 
@@ -50,7 +50,7 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 Questa attività può essere completata in un pomeriggio. In preparazione, dovrete organizzare team di max. quattro ragazzi o ragazze. Questi gruppi verranno quindi guidati nella scrittura di un piccolo programma in Python che consente di mostrare un messaggio personale e la temperatura dell’aria sull’Astro Pi.
 
-È disponibile anche il documento contenente le [linee guida ufficiali](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} di Mission Zero.
+Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
 Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete prima completare la registrazione.
 
@@ -61,5 +61,9 @@ Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete pri
 + Questo creerà il vostro account. Ad ogni account viene assegnato uno specifico **codice di classe** che i vostri team dovranno utilizzare quando sono pronti a inviare il loro programma.
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
+    
+    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
-\--- /collapse \---
+\--- / chiudi \---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
