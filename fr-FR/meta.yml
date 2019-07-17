@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Prépare-toi pour la Mission Zero
 listed: false
 copyedit: true
-version: 4.0.1
+version: 4
 last_tested: 2018-06-12
 steps:
   - 
@@ -22,6 +22,6 @@ steps:
   - 
     title: Afficher la température
   - 
-    title: Soumettre ta proposition
+    title: Soumission de ta proposition
   - 
-    title: "Challenge: davantage de projets Astro Pi"
+    title: "Défi: davantage de projets Astro Pi"
