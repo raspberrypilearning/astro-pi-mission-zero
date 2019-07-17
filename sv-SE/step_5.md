@@ -4,7 +4,7 @@ Du kan visa bilden på LED-matrisen i Astro Pi. Din hälsning till astronauterna
 
 ![Astronaut](images/astronaut-pic.png)
 
-\--- task \---
+\--- uppgift \---
 
 Skapa några färgvariabler för att definiera de färger som du vill rita din bild med, i slutet av programmet. Du kan använda hur många färger du vill, men i det här exemplet använder vi bara två - vit (`w`) och svart (`b`).
 
@@ -17,7 +17,7 @@ b = (0, 0, 0)
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Skapa en lista med 64 objekt, nedanför dina nya variabler. Varje objekt representerar en pixel i LED-matrisen och motsvarar en av de färgvariabler du definierade. Rita din bild genom att placera en variabel där du vill att den tilldelade färgen ska visas. Vi har ritat en astronaut genom att använda de svarta (`s`) pixlarna som bakgrund och de vita (`v`) pixlarna för att rita astronautens rymddräkt:
 
@@ -36,7 +36,7 @@ picture = [
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Lägg till en kodrad för att visa din bild på LED-displayen.
 
@@ -46,13 +46,13 @@ sense.set_pixels(picture)
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Tryck på **Run** (Kör) för att se din bild visas.
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Du kanske vill lägga till lite kod för att inkludera en kort väntetid (eller `sleep`) efter att bilden har visats. Det ger astronauterna lite tid att hinna se din bild innan nästa del av ditt meddelande visas. Överst i programmet, lägger du till:
 
@@ -68,7 +68,7 @@ sleep(2)
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Skapa din egen bild eller ditt egna mönster för att visa astronauterna!
 
