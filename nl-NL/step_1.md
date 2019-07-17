@@ -4,7 +4,7 @@ Fleur de dagelijkse routine van de astronauten op het International Space Statio
 
 Je gebruikt de online Sense HAT-emulator om je programma te maken, dus er is geen extra hardware nodig - alles gebeurt in een webbrowser.
 
-Je voltooide programma wordt in de ruimte uitgevoerd op het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen je programma liep!
+Je voltooide programma wordt in de ruimte uitgevoerd op het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma liep!
 
 ### Wat ga je maken
 
@@ -20,11 +20,11 @@ Je leert over de AstroPi-eenheid en hoe je hem bestuurt, inclusief hoe je:
 
 + berichten en kleuren laat zien
 + afbeeldingen maakt
-+ de temperatuur meet
++ meet de temperatuur
 
 Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Gebruik eenvoudige programmeerconstructies om eenvoudige programma's te maken](https://curriculum.raspberrypi.org/programming/creator/) {:target="_ blank"}
++ [ Gebruik basale programmeerconstructies om eenvoudige programma's te maken ](https://curriculum.raspberrypi.org/programming/creator/) {:target="_ blank"}
 
 \--- /collapse \---
 
@@ -32,7 +32,7 @@ Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi 
 
 * * *
 
-## title: Wat heb je nodig
+## title: What you will need
 
 ### Hardware
 
@@ -50,7 +50,7 @@ Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi 
 
 Deze activiteit kan in een middag worden voltooid. Groepeer de studenten in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
 
-Lees de officiële richtlijnen<0>{: target = "_ blank"} voor Mission Zero door.</p> 
+Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
 U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / kunnen nemen.
 
@@ -61,5 +61,9 @@ U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / k
 + Er wordt een account voor je gemaakt. Elk account heeft zijn eigen **klascode**, en u moet uw team vertellen welke van u is wanneer ze klaar zijn om hun programma's te verzenden.
 
 + Plaats uw klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
+    
+    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 \--- /collapse \---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
