@@ -26,15 +26,15 @@ Voer je klascode in het vak onderaan in - je leerkracht vertelt je wat je code i
 
 \--- /task \---
 
-\--- taak \---
+\--- task \---
 
 De naam van je leraar verschijnt. Als het de juiste naam is, klik dan op de groene **Doorgaan naar formulier** knop.
 
 ![Ga door naar het formulier](images/continue-to-form.png)
 
-\--- /task \---
+-- /task \---
 
-\--- task \---
+\--- task \----
 
 Klik indien nodig op de vlag van je land om de taal te wijzigen waarin het verzendformulier wordt weergegeven.
 
