@@ -1,4 +1,4 @@
-## Mäta temperaturen
+## Mät temperaturen
 
 Temperatursensorn i Astro Pi kan mäta den omgivande luftens temperatur, en användbar funktion som hjälper dig att samla data om förhållandena i rymden.
 
@@ -20,7 +20,7 @@ För att vara mer exakt, är temperatur ett mått på mängden värmeenergi i et
 
 \--- /collapse \---
 
-\--- task \---
+\--- uppgift \---
 
 Lägg till den här koden för att göra en temperaturavläsning:
 
@@ -32,7 +32,7 @@ Den här raden mäter den aktuella temperaturen och lagrar det uppmätta värdet
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Temperaturen lagras väldigt noggrant, dvs. det lagrade värdet kommer att ha många decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan nivå av noggrannhet, ändrar du talet `1` till det antal decimaler du vill se.
 
@@ -42,7 +42,7 @@ temp = round( sense.get_temperature(), 1 )
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 För att visa aktuell temperatur som ett rullande meddelande på skärmen, lägger du till den här raden kod:
 
@@ -54,7 +54,7 @@ Delen med `str()` konverterar temperaturen från ett tal till text så att Astro
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Du kan också visa temperaturen som en del av ett annat meddelande genom att slå samman delarna av ditt meddelande med ett `+`.
 
