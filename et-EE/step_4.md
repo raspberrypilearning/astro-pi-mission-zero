@@ -1,4 +1,4 @@
-## Lisa värve
+## Lisa värv
 
 Astro Pi LED-ekraanid näitavad ka erinevaid värve. Värvi saad määrata luues muutuja ja määrates sellele RGB-värviväärtuse.
 
