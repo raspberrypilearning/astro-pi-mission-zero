@@ -30,9 +30,9 @@ temp = sense.get_temperature()
 
 Deze lijn meet de huidige temperatuur en slaat de gemeten waarde op in de variabele `temp`.
 
-\--- /task \---
+-- /task \---
 
-\--- task \----
+\--- task \---
 
 De temperatuur wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` tot het aantal decimalen dat je wilt zien.
 
