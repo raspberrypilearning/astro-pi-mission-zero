@@ -1,4 +1,4 @@
-## Je toegang indienen
+## Je invoer indienen
 
 Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om te runnen in het International Space Station. Indien jouw code hun volgt, dan zullen de regels onderaan de emulator groen oplichten wanneer je het programma runt.
 
