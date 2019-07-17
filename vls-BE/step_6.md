@@ -1,4 +1,4 @@
-## Meten van de temperatuur
+## Meet de temperatuur
 
 De temperatuur sensor op de Astro Pi kan de temperatuur meten van de lucht eromheen, een nuttige eigenschap om je te helpen met het verzamelen van gegevens over de condities in Space.
 
@@ -25,7 +25,7 @@ Om precies te zijn, de temperatuur is een maat van de hoeveelheid warmte-energie
 Voeg deze code toe bij het meten van een temperatuur:
 
 ```python
-temp = sense.neem_temperatuur()
+temp = sense.get_temperature()
 ```
 
 Deze lijn meet de huidige temperatuur en slaat de meetwaarde op in de variabele `temp`.
