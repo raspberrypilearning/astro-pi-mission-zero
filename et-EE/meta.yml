@@ -12,15 +12,15 @@ steps:
   - 
     title: Mis on Astro Pi?
   - 
-    title: Kuva sõnum
+    title: Kuva teade
   - 
-    title: Lisa värv
+    title: Lisa värve
   - 
     title: Kuva pilt
   - 
-    title: Mõõda temperatuur
+    title: Mõõda õhutemperatuur
   - 
-    title: Kuva temperatuur
+    title: Õhutemperatuuri kuvamine
   - 
     title: Esita oma kirje
   - 
