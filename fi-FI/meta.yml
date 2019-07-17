@@ -8,13 +8,13 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
   - 
-    title: Esittely
+    title: Johdanto
   - 
     title: Mikä Astro Pi on?
   - 
     title: Näytä viesti
   - 
-    title: Lisää väriä
+    title: Lisää jonkun verran väriä
   - 
     title: Esitä kuva
   - 
