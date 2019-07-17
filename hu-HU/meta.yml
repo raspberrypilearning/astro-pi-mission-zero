@@ -1,6 +1,6 @@
 ---
 title: "Astro Pi: Mission Zero"
-hero_image: images/banner.png
+hero_image: images / banner.png
 description: Készülj fel a Mission Zeróra!
 listed: false
 copyedit: true
@@ -24,4 +24,4 @@ steps:
   - 
     title: Küldd be a munkádat!
   - 
-    title: "Kihívás: Még több Astro Pi projekt"
+    title: "Kihívás: még több Astro Pi projekt"
