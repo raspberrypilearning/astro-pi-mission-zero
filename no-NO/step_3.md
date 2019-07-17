@@ -42,7 +42,7 @@ Trykk på **Run** (Kjør)-knappen og se meldingen `Astro Pi` rulle over LED-skje
 
 For å vise en annen melding, kan du skrive hva som helst mellom anførselstegnene (`""`).
 
-\--- collapse \---
+\--- kollaps \---
 
 * * *
 
@@ -59,7 +59,7 @@ Sense HAT kan bare vise tegnsettet Latin 1, noe som betyr at bare følgende tegn
     ?,;:|@%[&_']\~
     
 
-\--- /collapse \---
+\--- / kollaps \---
 
 \--- task \---
 
