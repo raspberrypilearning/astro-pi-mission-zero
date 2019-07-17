@@ -1,4 +1,4 @@
-## Laat een boodschap zien
+## Toon een boodschap
 
 \--- task \---
 
@@ -61,7 +61,7 @@ abcdefghijklmnopqrstuvwxyz
 
 \--- /collapse \---
 
-\--- taak \---
+\--- task \---
 
 Je kunt ook de snelheid van het scrollen van de boodschap veranderen. Voeg een `scroll_speed` toe aan de lijn van de code die je reeds hebt, zoals dit:
 
