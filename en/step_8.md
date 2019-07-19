@@ -22,7 +22,7 @@ Once the rules are all green, you are ready to submit:
 
 --- task ---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is. 
+Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
 
 **Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
 
@@ -33,12 +33,6 @@ Enter your classroom code in the box at the bottom - your teacher will tell you 
 Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Continue to form](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-If necessary, click on your country's flag to change the language in which the submission form is displayed.
 
 --- /task ---
 
