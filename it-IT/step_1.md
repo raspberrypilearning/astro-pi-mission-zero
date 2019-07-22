@@ -50,7 +50,7 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 Questa attività può essere completata in un pomeriggio. In preparazione, dovrete organizzare team di max. quattro ragazzi o ragazze. Questi gruppi verranno quindi guidati nella scrittura di un piccolo programma in Python che consente di mostrare un messaggio personale e la temperatura dell’aria sull’Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Leggi il [ documento ufficiale sulle linee guida ](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf) {: target = "_ blank"} per Mission Zero.
 
 Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete prima completare la registrazione.
 
@@ -62,7 +62,7 @@ Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete pri
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Abbiamo creato [ un volantino di due pagine stampabile ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"} che copre i punti chiave di Mission Zero che studenti e giovani possono usare insieme a questo progetto online.
 
 \--- / chiudi \---
 
