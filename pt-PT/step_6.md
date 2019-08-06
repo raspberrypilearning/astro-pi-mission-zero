@@ -25,7 +25,7 @@ Para ser mais exato, a temperatura é uma medida da quantidade de energia térmi
 Adiciona este código para obter uma leitura da temperatura:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Este código vai medir a temperatura atual e armazenar o valor medido na variável `temp`.
@@ -37,7 +37,7 @@ Este código vai medir a temperatura atual e armazenar o valor medido na variáv
 A temperatura é registada com bastante precisão, ou seja, o valor armazenado terá um grande número de casas decimais. Se quiseres podes arredondar o valor para qualquer número de casas decimais. No exemplo, arredondámos para uma casa decimal, mas para um nível diferente de precisão, altera o número `1` para o número de casas decimais que gostarias de ver.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

@@ -25,7 +25,7 @@ Přesněji řečeno, teplota je měřítkem množství tepelné energie nějaké
 Přidejte tento kód k odečtení teploty:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Tato řádka změří současnou teplotu a uloží naměřenou hodnotu v proměnné `temp`.
@@ -37,7 +37,7 @@ Tato řádka změří současnou teplotu a uloží naměřenou hodnotu v proměn
 Teplota je měřena s velikou přesností, takže uložená hodnota bude mít mnoho desetinných míst. Hodnotu můžete zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníte na jiné, dostanete jiný počet desetinných míst.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

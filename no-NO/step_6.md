@@ -25,7 +25,7 @@ For å være mer presis er temperatur et mål på mengden varmeenergi i et stoff
 Legg til denne koden for å ta en temperaturavlesning:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Denne linjen vil måle gjeldende temperatur og lagre den målte verdien i variabelen `temp`.
@@ -37,7 +37,7 @@ Denne linjen vil måle gjeldende temperatur og lagre den målte verdien i variab
 Temperaturen registreres svært nøyaktig, dvs. den lagrede verdien vil ha et høyt antall desimaler. Du kan avrunde verdien til et hvilket som helst antall desimaler. I eksemplet har vi avrundet til en desimal, men for et annet presisjonsnivå, endrer dere tallet `1` til så mange desimaler dere ønsker.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---
