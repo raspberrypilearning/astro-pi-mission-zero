@@ -15,9 +15,7 @@ Also make sure you have met the following criteria:
 1. Only import from the `sense_hat`, `time`, and `random` modules
 1. Make sure you don't include any profanity
 
-Once the rules are all green, you are ready to submit:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen></iframe>
+Once the rules are all green, you are ready to submit.
 
 --- task ---
 
