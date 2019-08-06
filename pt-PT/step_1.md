@@ -50,7 +50,7 @@ Esta atividade pode ser concluída em uma tarde. Organize os seus alunos em equi
 
 Leia o documento [diretrizes oficiais](http://esamultimedia.esa.int/docs/edu/European_Astro_Pi_Challenge_Mission_Zero_guidelines.pdf){:target="_blank"} do Mission Zero.
 
-Será necessário registar-se para o desafio Mission Zero--- challenge --- para permitir que a sua equipe participe.
+Será necessário registar-se para o desafio Mission Zero challenge para permitir que a sua equipe participe.
 
 + Siga para a página [emulador de Trinket Misson Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
