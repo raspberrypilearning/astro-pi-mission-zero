@@ -53,7 +53,7 @@ cold = [
 Přidejte kód pro získání teploty:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 --- /task ---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 Teď rozhodněte, který obrázek se zobrazí. V tomhle příkladu zobrazíme obrázek pro `hot` (teplo) při naměřené teplotě 20 stupňů nebo vyšší a obrázek pro `cold` (zima), když je teplota nižší než 20 stupňů.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:

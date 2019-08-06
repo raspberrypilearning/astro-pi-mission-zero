@@ -25,7 +25,7 @@ Para ser más preciso, la temperatura es la medición de la cantidad de energía
 Añade este código para tomar una lectura de temperatura:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Esta línea medirá la temperatura actual y almacenará el valor medido en la variable `temp`.
@@ -37,7 +37,7 @@ Esta línea medirá la temperatura actual y almacenará el valor medido en la va
 La temperatura se registra con gran precisión, es decir, el valor almacenado tendrá un gran número de decimales. Puedes redondear el valor a cualquier número de decimales. En el ejemplo hemos redondeado a un decimal, sin embargo, para lograr otro nivel de precisión, cambia el número `1` al número de decimales que quieras ver.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

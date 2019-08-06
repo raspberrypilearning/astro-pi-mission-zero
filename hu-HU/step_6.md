@@ -25,7 +25,7 @@ Pontosabban, a hőmérséklet egy anyag hőenergia-mennyiségének mértéke. Ah
 Add hozzá ezt a kódot a hőmérséklet leolvasásához:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Ez a sor az aktuális hőmérsékletet méri majd meg, és a `temp` változóban tárolja a mért értéket.
@@ -37,7 +37,7 @@ Ez a sor az aktuális hőmérsékletet méri majd meg, és a `temp` változóban
 A hőmérséklet nagyon pontosan kerül rögzítésre, azaz a tárolt érték sok tizedesjegyet fog tartalmazni. Az értéket akárhány tizedesjegyre lekerekítheted. A példában egy tizedesjegyre kerekítettük le, de ha más szintű pontosságot szeretnél, változtasd meg az `1`-es számot arra számra, ahány tizedesjegyet szeretnél látni.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

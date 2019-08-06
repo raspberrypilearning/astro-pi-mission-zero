@@ -25,7 +25,7 @@ Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tied
 Lisää tämä koodi lämpötilan lukeman ottamiseksi:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujalle `temp`.
@@ -37,7 +37,7 @@ Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujalle 
 Lämpötila tallennetaan hyvin tarkkaan merkiten sitä, että tallenntussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet arvon yhden desimaalin tarkkuudella, mutta eri tarkkuustasoja varten muuta numero `1` desimaaliin, jonka haluat nähdä.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

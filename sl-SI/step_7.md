@@ -53,7 +53,7 @@ cold = [
 Za temperaturo dodajte kodo:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 --- /task ---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 Zdaj se odločite, katero sliko želite uporabiti. V tem primeru bomo uporabili sliko `hot`, če temperatura znaša 20 stopinj ali več, in sliko `cold`, če je temperatura nižja od 20 stopinj.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:

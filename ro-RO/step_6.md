@@ -25,7 +25,7 @@ Mai precis, temperatura este o măsură a cantității de energie termică a une
 Adaugă acest cod pentru a măsura temperatura:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Această linie va măsura temperatura curentă și va stoca valoarea măsurată în variabila `temp`.
@@ -37,7 +37,7 @@ Această linie va măsura temperatura curentă și va stoca valoarea măsurată 
 Temperatura este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care doreşti să le vezi.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

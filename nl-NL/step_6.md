@@ -25,7 +25,7 @@ Om exacter te zijn, temperatuur is een maat voor de hoeveelheid warmte-energie v
 Voeg deze code toe om een ​​temperatuurmeting te doen:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Deze lijn meet de huidige temperatuur en slaat de gemeten waarde op in de variabele `temp`.
@@ -37,7 +37,7 @@ Deze lijn meet de huidige temperatuur en slaat de gemeten waarde op in de variab
 De temperatuur wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` tot het aantal decimalen dat je wilt zien.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

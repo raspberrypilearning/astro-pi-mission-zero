@@ -25,7 +25,7 @@ For at være mere præcis er temperatur en måling af mængden af varmeenergi i 
 Tilføj denne kode for at foretage en temperaturaflæsning:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Denne linje måler den aktuelle temperatur og lagrer den målte værdi i variablen `temp`.
@@ -37,7 +37,7 @@ Denne linje måler den aktuelle temperatur og lagrer den målte værdi i variabl
 Temperaturen registreres meget præcist, dvs., at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---

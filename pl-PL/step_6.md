@@ -25,7 +25,7 @@ Mówiąc bardziej precyzyjnie, temperatura jest miarą ilości energii cieplnej 
 Dodaj ten kod, aby pobrać pomiar temperatury:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Wiersz ten będzie mierzyć aktualną temperaturę i przechowywać zmierzoną wartość w zmiennej `temp`.
@@ -37,7 +37,7 @@ Wiersz ten będzie mierzyć aktualną temperaturę i przechowywać zmierzoną wa
 Temperatura jest rejestrowana bardzo precyzyjnie, tzn. zapisana wartość będzie zawierała dużą liczbę miejsc dziesiętnych. Można zaokrąglić wartość do dowolnej liczby miejsc po przecinku. W tym przykładzie zaokrągliliśmy do jednego miejsca po przecinku, ale aby uzyskać inny poziom dokładności, należy zmienić cyfrę `1` na pożądaną liczbę miejsc po przecinku.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 --- /task ---
