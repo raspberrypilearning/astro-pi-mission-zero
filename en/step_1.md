@@ -60,7 +60,23 @@ You will need to register for the Mission Zero challenge to allow your team/s to
 
 + Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**.
++ Fill out the form and click **Submit**&ast;.
+
+* Please note that this registration form is available in English only.
+The fields on the form include:
+Teacher Name
+Teacher Email
+Teacher Phone Number
+Organisation Type (e.g. Primary school, secondary school, Library, Code Club, CoderDojo etc.)
+Organisation Name
+Organisation Address
+Organisation City
+Organisation Country
+Organisation Postal Code
+Team Name
+Number of Team Members
+Names and Ages of Team Members
+In which language did you access the Mission Zero Guidelines?
 
 + An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
 
