@@ -64,18 +64,18 @@ You will need to register for the Mission Zero challenge to allow your team/s to
 
 &ast; Please note that this registration form is available in English only.
 The fields on the form include:
-Teacher Name
-Teacher Email
-Teacher Phone Number
-Organisation Type (e.g. Primary school, secondary school, Library, Code Club, CoderDojo etc.)
-Organisation Name
-Organisation Address
-Organisation City
-Organisation Country
-Organisation Postal Code
-Team Name
-Number of Team Members
-Names and Ages of Team Members
+Teacher name  
+Teacher email address  
+Teacher phone number  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+Organisation name  
+Organisation address  
+Organisation city  
+Organisation country  
+Organisation postal code  
+Team name  
+Number of team members  
+Names and ages of team members  
 In which language did you access the Mission Zero Guidelines?
 
 + An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
