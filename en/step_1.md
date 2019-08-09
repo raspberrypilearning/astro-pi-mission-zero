@@ -77,7 +77,7 @@ Organisation postal code
 Team name  
 Number of team members  
 Names and ages of team members  
-In which language did you access the Mission Zero Guidelines?
+In which language did you access the Mission Zero guidelines?
 
 + An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
 
