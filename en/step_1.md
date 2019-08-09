@@ -63,7 +63,7 @@ You will need to register for the Mission Zero challenge to allow your team/s to
 + Fill out the form and click **Submit**&ast;.
 
 &ast; Please note that this registration form is available in English only.
-The fields on the form include:
+The fields on the form include:  
 Teacher name  
 Teacher email address  
 Teacher phone number  
