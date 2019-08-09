@@ -65,9 +65,9 @@ You will need to register for the Mission Zero challenge to allow your team/s to
 &ast; Please note that this registration form is available in English only.  
 
 The fields on the form include:  
-Teacher name  
-Teacher email address  
-Teacher phone number  
+Teacher/Mentor name  
+Teacher/Mentor email address  
+Teacher/Mentor phone number  
 Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
 Organisation name  
 Organisation address  
