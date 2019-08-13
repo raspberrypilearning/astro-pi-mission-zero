@@ -53,7 +53,7 @@ cold = [
 أضف كودًا للحصول على درجة الحرارة:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 \--- /task \---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 والآن قرر أي صورة ترغب في عرضها. في هذا المثال، سنعرض صورة `hot` (درجة الحرارة الحارة) إذا كانت قراءة درجة الحرارة 20 درجة مئوية أو أعلى، وصورة `cold` (درجة الحرارة الباردة) إذا كانت درجة الحرارة أقل من 20 درجة مئوية.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:
