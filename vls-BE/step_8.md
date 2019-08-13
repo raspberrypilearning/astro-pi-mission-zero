@@ -10,13 +10,12 @@ Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om 
 
 Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
-1. Zorg ervoor dat jouw code niet langer is dan 1000 tekens, de blanke lijnen niet inbegrepen
-2. Zorg ervoor dat je boodschap aan de astronauten niet langer duurt dan 30 seconden, omdat dit de looptijd is dat je code zal runnen in het ISS
-3. Vermijd het gebruiken van methoden die invoer nodig hebben
-4. Uitsluitend invoeren van de `sense_hat`, `time`, en `random` modules
-5. Zorg ervoor dat je geen vloek erbij doet
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
+4. Make sure you don't include any profanity
 
-Zodra de regels allemaal groen zijn, ben je klaar om in te dienen: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Once the rules are all green, you are ready to submit.
 
 \--- task \---
 
@@ -36,24 +35,18 @@ De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op gro
 
 \--- task \---
 
-Indien noodzakelijk, klik op de vlag van je land om de taal te veranderen waarin het formulier is weergegeven.
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 \--- /task \---
 
 \--- task \---
 
-Vermeld je team naam en de namen van de team leden. Deze worden geprint op een certificaat zodra je code in Space runt, dus zorg ervoor dat je ze juist hebt gespeld!
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 \--- /task \---
 
 \--- task \---
 
-Druk op de **Submit** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je invoer te bevestigen.
-
-\--- /task \---
-
-\--- task \---
-
-Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in Space zal runnen!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 \--- /task \---
