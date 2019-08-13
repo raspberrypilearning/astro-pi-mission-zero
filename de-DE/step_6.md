@@ -25,7 +25,7 @@ Um genauer zu sein, ist die Temperatur ein Maß für die Menge an Wärmeenergie 
 Füge diesen Code hinzu, um eine Temperaturmessung durchzuführen:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Diese Zeile misst die aktuelle Temperatur und speichert den gemessenen Wert in der Variablen `temp`.
@@ -37,7 +37,7 @@ Diese Zeile misst die aktuelle Temperatur und speichert den gemessenen Wert in d
 Die Temperatur wird sehr genau erfasst, d.h. der gespeicherte Wert hat eine große Anzahl von Dezimalstellen. Du kannst den Wert auf eine beliebige Anzahl von Dezimalstellen runden. Im Beispiel haben wir auf eine Dezimalstelle gerundet, aber für eine andere Genauigkeitsstufe kannst du die Zahl `1` zu der Anzahl der Dezimalstellen ändern, die du sehen möchtest.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 \--- /task \---
