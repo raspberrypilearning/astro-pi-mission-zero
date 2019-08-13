@@ -25,7 +25,7 @@ Täpsemalt öeldes on temperatuur mingi aine soojusenergia hulga mõõt. Sa tead
 Õhutemperatuuri mõõtmiseks lisa see kood:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 See koodirida mõõdab valitsevat õhutemperatuuri ja säilitab mõõdetud väärtuse muutujas `temp`.
@@ -37,7 +37,7 @@ See koodirida mõõdab valitsevat õhutemperatuuri ja säilitab mõõdetud vää
 Õhutemperatuuri mõõdetakse väga täpselt, st säilitataval väärtusel on suur kümnendkohtade arv. Sina võid väärtuse ümardada mistahes kümnendkohtadega arvuks. Meie ümardasime näite ühe kümnendkohaga arvuks, aga teistsuguse täpsuse saavutamiseks muuda numbrit `1` selliseks kümnendkoha arvuks, mida soovid näha.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 \--- /task \---
