@@ -53,7 +53,7 @@ cold = [
 Voeg een code toe om de temperatuur te verkrijgen:
 
 ```python
-temp = sense.neem_temperatuur()
+temp = sense.temperature
 ```
 
 \--- /task \---
@@ -63,7 +63,7 @@ temp = sense.neem_temperatuur()
 Besluit nu welke tekening je wilt weergeven. Voor dit voorbeeld, zullen wij het `hot` (heet) beeld tentoonstellen indien de temperatuur 20 graden of meer is, en het `cold` (koud) beeld indien de temperatuur minder is dan 20 graden.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:
