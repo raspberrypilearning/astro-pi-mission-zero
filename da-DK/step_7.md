@@ -53,7 +53,7 @@ cold = [
 Tilføj en kode for at få temperaturen:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 \--- /task \---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi billedet `hot` (varmt), hvis temperaturaflæsningen er på 20 grader eller derover, og billedet `cold` (koldt), hvis temperaturen er på under 20 grader.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:
