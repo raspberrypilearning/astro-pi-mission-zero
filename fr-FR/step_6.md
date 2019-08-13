@@ -25,7 +25,7 @@ Pour être plus précis, la température est la mesure de la quantité d'énergi
 Ajoute ce code pour mesurer la température :
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Cette ligne mesure la température actuelle et stocke la valeur mesurée dans la variable `temp`.
@@ -37,7 +37,7 @@ Cette ligne mesure la température actuelle et stocke la valeur mesurée dans la
 La température est enregistrée très précisément, c’est-à-dire que la valeur stockée a un grand nombre de décimales. Tu peux arrondir la valeur à n'importe quel nombre de décimales. Dans l'exemple, nous avons arrondi à une décimale, mais pour avoir un autre niveau de précision remplace le nombre `1` par le nombre de décimales que tu souhaites.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 \--- /task \---
