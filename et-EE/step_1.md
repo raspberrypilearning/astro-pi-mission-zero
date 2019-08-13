@@ -56,11 +56,28 @@ Selleks, et teie meeskond/meeskonnad saaksid osaleda, peate registreeruma Missio
 
 + Minge [Trinket emulaatori Mission Zero lehele](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Täitke vorm ja klõpsake **Submit** (esita) nupul.
++ Fill out the form and click **Submit**\*.
 
-+ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood**, ja te peate ütlema oma meeskonnale/meeskondadele, mis on teie kasutajakonto nimetus siis, kui nad hakkavad oma programme esitama.
+\* Please note that this registration form is available in English only.
 
-+ Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
+The fields on the form include:  
+Teacher/Mentor name  
+Teacher/Mentor email address  
+Teacher/Mentor phone number  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+Organisation name  
+Organisation address  
+Organisation city  
+Organisation country  
+Organisation postal code  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
+
++ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
+
++ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
