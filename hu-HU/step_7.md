@@ -53,7 +53,7 @@ cold = [
 Add hozzá a kódot, hogy megkapd a hőmérsékletet:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 \--- /task \---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 Most döntsd el, melyik képet szeretnéd megjeleníteni. Ebben a példában mi a `hot` („meleg”) képet jelenítjük majd meg, ha a mért hőmérséklet 20 fok vagy annál magasabb, és a `cold` („hideg”) képet, ha a hőmérséklet 20 foknál alacsonyabb.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:
