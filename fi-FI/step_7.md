@@ -53,7 +53,7 @@ kylmä = [
 Lisää tietty koodi lämpötilan saamiseksi:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 \--- /task \---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `hot`, jos lämpötilan lukema on 20 astetta tai sen yli ja, jos lämpötila lukema on alle 20 astetta, näytämme kuvan `cold`.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:
