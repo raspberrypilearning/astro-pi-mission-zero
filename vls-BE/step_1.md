@@ -56,13 +56,30 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
         
         + Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
             
-            + Vul het formulier in en klik **Submit**.
+            + Fill out the form and click **Submit**\*.</ul> 
             
-            + Een rekening wordt voor je opgericht. Elke rekening heeft zijn eigen **variatiecode**, en je moet je team/s laten weten wat die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
+            \* Please note that this registration form is available in English only.
             
-            + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.
+            The fields on the form include:  
+            Teacher/Mentor name  
+            Teacher/Mentor email address  
+            Teacher/Mentor phone number  
+            Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+            Organisation name  
+            Organisation address  
+            Organisation city  
+            Organisation country  
+            Organisation postal code  
+            Team name  
+            Number of team members  
+            Names and ages of team members  
+            In which language did you access the Mission Zero guidelines?
+            
+            + An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
+            
+            + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
                 
-                We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.</ul> 
+                We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
             
             \--- /collapse \---
             
