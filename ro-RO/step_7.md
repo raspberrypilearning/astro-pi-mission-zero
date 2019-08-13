@@ -53,7 +53,7 @@ cold = [
 Adaugă cod pentru a obține temperatura:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 \--- /task \---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 Acum decide ce imagine vrei să se afișeze. Pentru acest exemplu, vom afișa imaginea `hot` (cald) dacă valoarea citită a temperaturii este de 20 de grade sau mai mare și imaginea `cold` (rece) dacă temperatura este sub 20 de grade.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:
