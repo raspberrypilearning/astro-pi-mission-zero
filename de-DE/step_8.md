@@ -10,13 +10,12 @@ Du musst mit deinem Code einige Regeln befolgen, damit er auf der Internationale
 
 Stelle außerdem sicher, dass du die folgenden Kriterien erfüllt hast:
 
-1. Achte darauf, dass dein Code nicht mehr als 1000 Zeichen hat, ohne die Leerzeilen mitzuzählen
-2. Sorge dafür, dass deine Nachricht an die Astronauten nicht länger als 30 Sekunden dauert, denn so lange wird dein Code auf der ISS laufen
-3. Vermeide Methoden, die Eingaben benötigen
-4. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
-5. Achte darauf, dass keine Obszönitäten im Code enthalten sind
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
+4. Make sure you don't include any profanity
 
-Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Once the rules are all green, you are ready to submit.
 
 \--- task \---
 
@@ -36,24 +35,18 @@ Der Name deines Lehrers wird erscheinen. Wenn dies der richtige Name ist, klicke
 
 \--- task \---
 
-Falls notwendig, klicke auf die Flagge deines Landes, um die Sprache zu ändern, in der das Registrierungsformular angezeigt wird.
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 \--- /task \---
 
 \--- task \---
 
-Gib den Namen deines Teams sowie die Namen der Teammitglieder ein. Diese werden auf dem Zertifikat erscheinen, nachdem dein Code im Weltall ausgeführt wurde. Achte darauf, dass du sie richtig buchstabierst!
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 \--- /task \---
 
 \--- task \---
 
-Klicke auf **Submit** (Senden), um deinen Code einzureichen. Dein Lehrer oder Mentor wird eine E-Mail erhalten, um deine Teilnahme zu bestätigen.
-
-\--- /task \---
-
-\--- task \---
-
-Wenn du möchtest, kannst du den Link zu deinem Code auf sozialen Netzwerken teilen, um allen zu berichten, dass der Code, den du geschrieben hast, im Weltraum ausgeführt wird!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 \--- /task \---
