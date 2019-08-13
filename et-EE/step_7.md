@@ -53,7 +53,7 @@ cold = [
 Õhutemperatuuri saamiseks lisa kood:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 \--- /task \---
@@ -63,7 +63,7 @@ temp = sense.get_temperature()
 Nüüd otsusta, millist pilti kuvada. Selle näite jaoks kuvatakse `hot` pilti, kui mõõdetav õhutemperatuur on 20 kraadi või rohkem ja `cold` pilti, kui õhutemperatuur on alla 20 kraadi.
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 if temp >= 20:
     sense.set_pixels(hot)
 else:
