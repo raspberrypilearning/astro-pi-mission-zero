@@ -56,11 +56,28 @@ Du måste registrera dig för utmaningen Mission Zero för att dina lag ska kunn
 
 + Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fyll i formuläret och klicka på **Submit** (Skicka).
++ Fill out the form and click **Submit**\*.
 
-+ Ett konto kommer att skapas åt dig. Varje konto har sin egen **klassrumskod**, och du måste berätta för dina lag vilken din kod är när de är redo att skicka in sina program.
+\* Please note that this registration form is available in English only.
 
-+ Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
+The fields on the form include:  
+Teacher/Mentor name  
+Teacher/Mentor email address  
+Teacher/Mentor phone number  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+Organisation name  
+Organisation address  
+Organisation city  
+Organisation country  
+Organisation postal code  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
+
++ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
+
++ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
