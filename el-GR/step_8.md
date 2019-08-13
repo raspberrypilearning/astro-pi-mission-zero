@@ -10,13 +10,12 @@
 
 Επίσης, βεβαιωθείτε ότι πληρούνται τα ακόλουθα κριτήρια:
 
-1. Ο κώδικάς σας δεν πρέπει να υπερβαίνει τους 1000 χαρακτήρες, στους οποίους δεν συμπεριλαμβάνονται οι κενές γραμμές
-2. Το μήνυμά σας στους αστροναύτες δεν πρέπει να εμφανίζεται για παραπάνω από 30 δευτερόλεπτα και αυτός θα είναι ο χρόνος εκτέλεσης του κώδικα σας στον ΔΔΣ
-3. Αποφύγετε τη χρήση μεθόδων που απαιτούν είσοδο
-4. Κάντε εισαγωγή μόνο από τις ενότητες `sense_hat`, `time` και `random`
-5. Μην χρησιμοποιείτε αισχρολογίες
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
+4. Make sure you don't include any profanity
 
-Αν όλοι οι κανόνες είναι πράσινοι, μπορείτε να προχωρήσετε στην υποβολή: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Once the rules are all green, you are ready to submit.
 
 \--- task --
 
@@ -36,24 +35,18 @@
 
 \--- task --
 
-Αν είναι απαραίτητο, κάντε κλικ στη σημαία της χώρας σας για να αλλάξετε τη γλώσσα στην οποία εμφανίζεται η φόρμα υποβολής.
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 \--- /task \---
 
 \--- task --
 
-Εισαγάγετε το όνομα της ομάδας σας και τα ονόματα των μελών της ομάδας. Τα ονόματα αυτά θα εκτυπωθούν στο πιστοποιητικό που θα λάβετε μόλις ο κώδικάς σας εκτελεστεί στο διάστημα, οπότε βεβαιωθείτε ότι τα έχετε γράφει σωστά!
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 \--- /task \---
 
 \--- task --
 
-Πατήστε το κουμπί «**Submit**» (Υποβολή) για να υποβάλετε τον κώδικά σας. Ο δάσκαλος ή ο σύμβουλος σας θα λάβει ένα email επιβεβαίωσης για την καταχώρισή σας.
-
-\--- /task \---
-
-\--- task --
-
-Αν θέλετε, μπορείτε να κοινοποιήσετε έναν σύνδεσμο προς τον κώδικά σας στα κοινωνικά μέσα, για να δημοσιεύσετε ότι ο κώδικας που γράψατε θα εκτελεστεί στο διάστημα!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 \--- /task \---
