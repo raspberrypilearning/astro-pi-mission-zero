@@ -10,13 +10,12 @@ On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lä
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
-1. Varmista, että koodisi on enintään 1000 merkkiä tyhjiä viivoja lukuun ottamatta
-2. Varmista, että viestisi astronauteille ajaa korkeintaan 30 sekuntia, sillä tämä on kuinka kauan koodiasi ajetaan ISS:llä
-3. Vältä käyttämästä menetelmiä, jotka tarvitsevat syöttöä
-4. Tuonti vain moduuleista `sense_hat`, `time` ja `random`
-5. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
+4. Make sure you don't include any profanity
 
-Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Once the rules are all green, you are ready to submit.
 
 \--- task \---
 
@@ -36,24 +35,18 @@ Opettajasi nimi ilmestyy esille. Jos se on oikea nimi, napsauta vihreää painik
 
 \--- task \---
 
-Napsauta tarvittaessa maasi lippua, jos haluat vaihtaa hakulomakkeen kieltä.
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 \--- /task \---
 
 \--- task \---
 
-Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodiasi on käytetty avaruudessa, joten varmista, että ne on kirjoitettu oikein!
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 \--- /task \---
 
 \--- task \---
 
-Paina **Submit**-painiketta koodisi kirjoittamiseksi. Opettajasi tai ohjaajasi saa sähköpostin merkintäsi vahvistamiseksi.
-
-\--- /task \---
-
-\--- task \---
-
-Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 \--- /task \---
