@@ -10,13 +10,12 @@ Aby váš kód byl odeslán a spuštěn na Mezinárodní kosmické stanici, mus�
 
 Také se ujistěte, že jste splnili následující kritéria:
 
-1. Ujistěte se, že kód není delší než 1000 znaků (kromě prázdných řádků)
-2. Ujistěte se, že vaše zpráva pro astronauty není delší než 30 sekund, protože váš kód poběží na ISS právě 30 sekund
-3. Nepoužívejte žádné metody vyžadující vstup
-4. Importujte jen z modulů `sense_hat`, `time`, a `random`
-5. V kódu nesmějí být žádné vulgární výrazy
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
+4. Make sure you don't include any profanity
 
-Když jsou všechna pravidla zelená, všechno je připravené a kód můžete odeslat: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Once the rules are all green, you are ready to submit.
 
 \--- task \---
 
@@ -36,24 +35,18 @@ Objeví se jméno vašeho učitele. Když je to správné jméno, klikněte na z
 
 \--- task \---
 
-Kdybyste potřebovali, změňte si jazyk formuláře pro odeslání příspěvku kliknutím na vlajku své země.
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 \--- /task \---
 
 \--- task \---
 
-Zadejte název svého týmu a jména členů týmu. Po spuštění vašeho kódu ve vesmíru budou tahle jména vytištěna na certifikát, tak je napište bez překlepů!
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 \--- /task \---
 
 \--- task \---
 
-Odešlete svůj kód tlačítkem **Submit** (Odeslat). Váš učitel nebo mentor dostane email s potvrzením, že váš příspěvek byl odeslán.
-
-\--- /task \---
-
-\--- task \---
-
-Jestli chcete, můžete odkaz na svůj kód sdílet na sociálních sítích, abyste se pochlubili, že kód, který jste napsali, poběží ve vesmíru!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 \--- /task \---
