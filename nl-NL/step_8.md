@@ -10,13 +10,12 @@ Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om
 
 Zorg er ook voor dat je aan de volgende criteria voldoet:
 
-1. Zorg ervoor dat je code niet langer is dan 1000 tekens, exclusief lege regels
-2. Zorg ervoor dat je bericht aan de astronauten niet langer dan 30 seconden loopt, want dit is de duur van je code op het ISS
-3. Vermijd het gebruik van methoden die invoer nodig hebben
-4. Importeer alleen vanuit de `sense_hat`, `time` (tijd) en `random` (willekeurig) modules
-5. Zorg ervoor dat je geen grove taal gebruikt
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
+4. Make sure you don't include any profanity
 
-Zodra de regels allemaal groen zijn, ben je klaar om te verzenden: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Once the rules are all green, you are ready to submit.
 
 \--- task \---
 
@@ -36,24 +35,18 @@ De naam van je leraar verschijnt. Als het de juiste naam is, klik dan op de groe
 
 \--- task \----
 
-Klik indien nodig op de vlag van je land om de taal te wijzigen waarin het verzendformulier wordt weergegeven.
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 \--- /task \---
 
 \--- task \----
 
-Voer je teamnaam en de namen van de teamleden in. Deze worden op het certificaat afgedrukt zodra je code in de ruimte wordt uitgevoerd, dus zorg ervoor dat je ze correct spelt!
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 \--- /task \---
 
 \--- task \---
 
-Druk op **Submit** (Verzenden) knop om je code in te voeren. Je leraar of mentor ontvangt een e-mail om je verzending te bevestigen.
-
-\--- /task \---
-
-\--- task \---
-
-Als je wilt, kun je de link naar je code delen op sociale media om mensen te vertellen dat code die jij hebt geschreven in de ruimte wordt uitgevoerd!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 \--- /task \---
