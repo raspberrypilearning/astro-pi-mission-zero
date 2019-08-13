@@ -25,7 +25,7 @@ To be more precise, temperature is a measure of the amount of heat energy of a s
 Add this code to take a temperature reading:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 This line will measure the current temperature, and store the measured value in the variable `temp`.
@@ -37,7 +37,7 @@ This line will measure the current temperature, and store the measured value in 
 The temperature is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 \--- /görev \---
