@@ -56,11 +56,28 @@ Regisztálnia kell a Mission Zero kihívásra, hogy csapata(i) részt vehessen(e
 
 + Menjen a [Triket emulátor Mission Zero oldalára](https://trinket.io/mission-zero/register){:target="_blank"}!
 
-+ Töltse ki az űrlapot és kattintson a **Submit** (Küldés) gombra.
++ Fill out the form and click **Submit**\*.
 
-+ Egy fiók jön létre az Ön számára. Minden fióknak saját **osztálytermi kódja** van, amelyet akkor kell elmondania a csapatának (csapatainak), amikor ők már készen vannak, hogy beküldjék programjaikat.
+\* Please note that this registration form is available in English only.
 
-+ Rakja ki az osztálytermi kódját egy jól látható helyre, például egy táblára vagy projektorra, és kezdjenek neki a feladatnak!
+The fields on the form include:  
+Teacher/Mentor name  
+Teacher/Mentor email address  
+Teacher/Mentor phone number  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+Organisation name  
+Organisation address  
+Organisation city  
+Organisation country  
+Organisation postal code  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
+
++ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
+
++ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
