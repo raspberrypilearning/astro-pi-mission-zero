@@ -25,7 +25,7 @@ S temperaturo izmerimo, kako vroče je nekaj. Med obiskom pri zdravniku so vam p
 Za odčitavanje temperature dodajte to kodo:
 
 ```python
-temp = sense.get_temperature()
+temp = sense.temperature
 ```
 
 Ta vrstica bo izmerila trenutno temperaturo in izmerjeno vrednost shranila v spremenljivki `temp`.
@@ -37,7 +37,7 @@ Ta vrstica bo izmerila trenutno temperaturo in izmerjeno vrednost shranila v spr
 Temperatura je zabeležena zelo natančno, kar pomeni, da bo shranjena vrednost imela veliko število decimalnih mest. Vrednost lahko zaokrožite na poljubno število decimalnih mest. V tem primeru smo vrednost zaokrožili na eno decimalno mesto, a za drugačno stopnjo natančnosti lahko število `1` spremenite v želeno število decimalnih mest.
 
 ```python
-temp = round( sense.get_temperature(), 1 )
+temp = round( sense.temperature, 1 )
 ```
 
 \--- /task \---
