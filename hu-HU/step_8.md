@@ -10,13 +10,12 @@ Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy 
 
 Ellenőrizd, hogy ezeknek a feltételeknek is eleget tettél:
 
-1. Ellenőrizd, hogy a kódod nem hosszabb 1000 karakternél, az üres sorokat nem beleszámítva
-2. Ellenőrizd, hogy az űrhajósoknak szóló üzeneted nem hosszabb 30 másodpercnél, mert ennyi ideig fut majd a Nemzetközi Űrállomáson
-3. Kerüld el a bevitelt igénylő módszereket
-4. Csak a `sense_hat`, `time`, és `random` modulokból importálj
-5. Semmiképp ne használj káromkodást
+1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
+4. Make sure you don't include any profanity
 
-Ha minden szabály zöld, készen állsz a beküldésre: <iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Once the rules are all green, you are ready to submit.
 
 \--- task \---
 
@@ -36,24 +35,18 @@ Megjelenik a tanárod neve. Ha ez a helyes név, kattints a zöld **Continue to 
 
 \--- task \---
 
-Ha szükséges, akár az országod zászlajára is ráklikkelhetsz a beküldési lap nyelvének megváltoztatásához.
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 \--- /task \---
 
 \--- task \---
 
-Írd be a csapatod nevét, és a csapattagok neveit. Ezek a tanúsítványra is rákerülnek, miután a kódod az űrben futott, úgyhogy ellenőrizd, hogy helyesen írtad őket!
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 \--- /task \---
 
 \--- task \---
 
-Nyomd meg a **Submit** (Küldés) gombot a kódod beküldéséhez. A tanárod vagy mentorod egy e-mailt kap majd a jelentkezésedről.
-
-\--- /task \---
-
-\--- task \---
-
-Ha szerenéd, akár meg is oszthatod a kódodhoz tartozó linket a közösségi médián, hogy elújságold az embereknek, hogy a kód, amit írtál, az űrben fog futni!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 \--- /task \---
