@@ -56,11 +56,28 @@ Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/
 
 + انتقل إلى [صفحة مشروع Mission Zero في محاكي Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ املء النموذج وانقر **Submit** (إرسال).
++ Fill out the form and click **Submit**\*.
 
-+ وسيتم إنشاء حساب لك. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
+\* Please note that this registration form is available in English only.
 
-+ اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
+The fields on the form include:  
+Teacher/Mentor name  
+Teacher/Mentor email address  
+Teacher/Mentor phone number  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+Organisation name  
+Organisation address  
+Organisation city  
+Organisation country  
+Organisation postal code  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
+
++ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
+
++ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
