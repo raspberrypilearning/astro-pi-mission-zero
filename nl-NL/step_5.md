@@ -1,6 +1,6 @@
 ## Toon een afbeelding
 
-Je kunt afbeeldingen op de LED-matrix van de Astro Pi weergeven. Misschien zou je groet voor de astronauten een afbeelding of een patroon kunnen bevatten, evenals of in plaats van een geschreven boodschap?
+Je kunt afbeeldingen op de LED-matrix van de Astro Pi weergeven. Misschien zou je groet voor de astronauten een afbeelding of een patroon kunnen bevatten, naast of in plaats van een geschreven boodschap?
 
 ![Astronaut](images/astronaut-pic.png)
 
