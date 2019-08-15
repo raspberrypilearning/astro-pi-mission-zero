@@ -2,14 +2,14 @@
 
 \--- task \---
 
-Open de [Sense HAT-emulator](https://trinket.io/mission-zero){: target = "_ blank"} voor het Mission Zero-project.
+Open de [Sense HAT-emulator](https://trinket.io/mission-zero){:target="_blank"} voor het Mission Zero-project.
 
 Je zult zien dat er automatisch drie regels met code voor je zijn toegevoegd:
 
 ```python
 from sense_hat import SenseHat
-sense = SenseHat ()
-sense.set_rotation (270)
+sense = SenseHat()
+sense.set_rotation(270)
 ```
 
 ![sense hat emulator](images/sense-hat-emulator2.png)
@@ -20,7 +20,7 @@ Deze code maakt verbinding met de Astro Pi en zorgt ervoor dat het LED-display v
 
 \--- task \---
 
-Misschien kun je een leuke groet achterlaten voor de astronauten op het ISS die in de buurt van de Astro Pi werken? Laten we een bericht over het scherm scrollen.
+Misschien kun je een leuke groet achterlaten voor de astronauten in het ISS die in de buurt van de Astro Pi werken? Laten we een bericht over het scherm scrollen.
 
 Voeg deze regel toe onder de andere code:
 
@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 \--- task \---
 
-Druk op de **Run** knop en kijk terwijl het bericht `Astro Pi` over de LED-display scrollt.
+Druk op de **Run** knop en kijk terwijl het bericht `Astro Pi` over het LED-display scrollt.
 
 ![klik op uitvoeren om de berichtcode te tonen](images/show-message-code-annotated.PNG)
 
