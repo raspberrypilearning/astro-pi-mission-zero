@@ -59,7 +59,7 @@ Partea `str()` convertește temperatura dintr-un caracter numeric în caracter t
 De asemenea, poți afișa temperatura ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
 
 ```python
-sense.show_message( "Sunt " + str(temp) + " grade" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
