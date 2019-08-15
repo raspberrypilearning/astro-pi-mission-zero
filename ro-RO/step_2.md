@@ -12,4 +12,4 @@ Există câteva diferențe între Sense HAT real și cel emulat:
 
 - Pe emulator poți seta singur temperatura, presiunea și umiditatea folosind cursoare, în timp ce în realitate Sense HAT din Astro Pi utilizează senzori pentru a măsura acești parametri în mediul său.
 
-- Poți folosi mouse-ul pentru a face clic and drag pe programul Sense HAT emulat pentru a-l muta și roti, simulând schimbări în orientarea sa; adevăratul Astro Pi (și programul său Sense HAT) se poate mișca în lumea reală, iar senzorii de orientare ai Sense HAT detectează când și cum s-a mutat.
+- Poți folosi mouse-ul pentru a da click și a muta cursorul pe programul Sense HAT emulat pentru a-l muta și roti, simulând schimbări în orientarea sa; adevăratul Astro Pi (și programul său Sense HAT) se poate mișca în lumea reală, iar senzorii de orientare ai Sense HAT detectează când și cum s-a mutat.
