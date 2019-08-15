@@ -64,7 +64,7 @@ sense.show_message( "Sunt " + str(temp) + " grade" )
 
 \--- /task \---
 
-Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de temperatură de pe emulatorul Sense HAT pentru a simula schimbări de temperatură și pentru a testa codul tău.
+Un Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de temperatură de pe emulatorul Sense HAT pentru a simula schimbări de temperatură și pentru a testa codul tău.
 
 ![Slider pentru temperatură](images/temperature-slider.png)
 
