@@ -15,7 +15,7 @@ Assure-toi également que les critères suivants sont satisfaits :
 3. Pour les importations n'tilisent que des données des modules `sense_hat`, `time`, et `random`
 4. Assure-toi de ne pas inclure de juron
 
-Once the rules are all green, you are ready to submit.
+Une fois que toutes les règles sont passées au vert, tu es prêt à faire ta soumission.
 
 \--- task \---
 
