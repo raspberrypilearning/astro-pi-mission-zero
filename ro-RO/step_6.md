@@ -59,7 +59,7 @@ Partea `str()` convertește temperatura dintr-un caracter numeric în caracter t
 De asemenea, poți afișa temperatura ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "Sunt " + str(temp) + " grade" )
 ```
 
 \--- /task \---
@@ -68,4 +68,4 @@ Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de 
 
 ![Slider pentru temperatură](images/temperature-slider.png)
 
-**Notă:** S-ar putea să te întrebi de ce sliderul de temperatură afișează temperatura ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât temperatura măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul cursorului.
+**Notă:** S-ar putea să te întrebi de ce sliderul de temperatură afișează temperatura ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât temperatura măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul sliderului.
