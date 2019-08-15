@@ -61,19 +61,19 @@ Aby se vaše týmy mohly zúčastnit, musíte se pro Mission Zero zaregistrovat.
 \* Povšimněte si prosím, že tento registrační formulář je dostupný pouze v angličtině.
 
 Pole v tomto formuláři zahrnují:  
-Jméno učitele/mentora  
-E-mailovou adresu učitele/mentora  
-Telefonní číslo učitele/mentora  
-Typ organizace (např. škola s primárním vzděláváním, škola se sekundárním vzděláváním, knihovna, Code Club, CoderDojo atd.)  
-Název organizace  
-Adresa organizace  
-Město organizace  
-Země organizace  
-PSČ organizace  
-Název týmu  
-Počet členů týmu  
-Jména a věk členů týmů  
-Ve kterém jazyce jste četli pokyny pro Mission Zero?
+Teacher/Mentor name (Jméno učitele/mentora)  
+Teacher/Mentor email address (E-mailovou adresu učitele/mentora)  
+Teacher/Mentor phone number (Telefonní číslo učitele/mentora)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Typ organizace (např. škola s primárním vzděláváním, škola se sekundárním vzděláváním, knihovna, Code Club, CoderDojo atd.))  
+Organisation name (Název organizace)  
+Organisation address (Adresa organizace)  
+Organisation city (Město organizace)  
+Organisation country (Země organizace)  
+Organisation postal code (PSČ organizace)  
+Team name (Název týmu)  
+Number of team members (Počet členů týmu)  
+Names and ages of team members (Jména a věk členů týmů)  
+In which language did you access the Mission Zero guidelines? (Ve kterém jazyce jste četli pokyny pro Mission Zero?)
 
 + Bude pro vás vytvořen účet. Každý účet má svůj **kód třídy** – až budou vaše týmy připravené odeslat své programy, budete jim muset dát ten váš.
 
