@@ -10,12 +10,12 @@ Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il 
 
 Assicuratevi anche di aver soddisfatto i seguenti criteri:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Assicuratevi che il vostro messaggio non venga visualizzato per oltre 30 secondi perché questa è la durata massima dell’esecuzione del vostro programma sulla ISS
+2. Evitate di usare metodi che richiedono un input
+3. Eseguite importazioni solo dai moduli `sense_hat`, `time` e `random`
+4. Non scrivete parolacce
 
-Once the rules are all green, you are ready to submit.
+Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il programma.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Apparirà il nome del vostro insegnante. Se è il nome giusto, cliccate sul puls
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Immettete il nome del vostro team e i nomi dei membri del team. Questi nomi verranno stampati sul certificato dopo che il programma sarà stato eseguito nello spazio, quindi controllate di averli scritti giusti!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Premete il pulsante **Submit** (Invia) per inviare il codice. Il vostro insegnante o tutor riceverà un’email di conferma.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Se volete, potete anche condividere il collegamento al codice sui social per dire ai vostri amici che il programma che avete scritto verrà eseguito nello spazio!
 
 \--- /task \---
