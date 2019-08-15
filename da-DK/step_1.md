@@ -48,13 +48,13 @@ Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital M
 
 ## titel: Bemærkninger til lærere og mentorer
 
-Denne aktivitet kan gennemføres på en eftermiddag. Sæt dine elever i hold på op til fire, og lad os guide dem gennem skrivningen af et kort Python-program for at vise en personlig besked og lufttemperaturen på Astro Pi.
+Denne aktivitet kan gennemføres på en eftermiddag. Organiser dine studerende i teams på op til fire, og lad os guide dem gennem at skrive et kort Python-program til at vise en personlig besked og lufttemperaturen på Astro Pi.
 
-Læs [dokument med officielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Læs [dokumentet med officielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
-Du skal melde dig til Mission-udfordringen, så dit/dine hold kan deltage.
+Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team mulighed for at deltage.
 
-+ Gå på [Mission Zero-siden for Trinket-efterligner](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Gå til [Mission Zero-siden for Trinket-emulatoren](https://trinket.io/mission-zero/register){:target="_blank"}.
 
 + Udfyld formularen, og klik på **Submit**\*.
 
@@ -77,10 +77,10 @@ In which language did you access the Mission Zero guidelines?
 
 + Der oprettes en konto til dig. Hver konto har sin egen **klasseværelseskode**, og du skal fortælle dit/dine hold, hvad din er, når de er klar til at indsende deres programmer.
 
-+ Sæt din klasseværelseskode på et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
++ Vis din klasseværelseskode et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
     
-    Vi har oprettet [et udskriftvenlig folder på to sider ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"}, der dækker nøglepunkterne i Mission Zero, og som studerende og unge kan bruge sammen med dette online projekt.
+    Vi har oprettet [en udskriftvenlig folder på to sider ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"}, der dækker nøglepunkterne i Mission Zero, og som studerende og unge kan bruge sammen med dette online projekt.
 
-\--- /collapse \---
+\--- /kollaps \---
 
 ![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
