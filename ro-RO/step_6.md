@@ -50,7 +50,7 @@ Pentru a afișa temperatura curentă ca mesaj derulant pe afișaj, adaugă aceas
 sense.show_message( str(temp) )
 ```
 
-Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să poată afișa.
+Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
 
 \--- /task \---
 
