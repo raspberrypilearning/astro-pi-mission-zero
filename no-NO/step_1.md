@@ -50,7 +50,7 @@ Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital S
 
 Denne aktiviteten kan fullføres på en ettermiddag. Organisere elevene i grupper på opp til fire, og la oss veilede dem gjennom å skrive et kort Python-program for å vise en personlig melding og temperaturen på Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Les [dokumentet med offisielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} for Mission Zero.
 
 Du må registrere deg for Mission Zero-utfordringen for at laget/lagene skal kunne delta.
 
@@ -75,9 +75,9 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Det blir opprettet en konto for deg. Hver konto har sin egen **klasseromskode**, og du må fortelle laget/lagene hva koden din er når de er klare til å sende programmene sine.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Vis klasseromskoden et synlig sted, for eksempel på en tavle eller ved hjelp av en projektor, og start aktiviteten.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
