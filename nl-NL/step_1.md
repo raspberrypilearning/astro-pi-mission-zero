@@ -60,26 +60,26 @@ U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / k
 
 \* Let op dat dit registratieformulier alleen in het Engels beschikbaar is.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+De velden op het formulier omvatten:  
+Teacher/Mentor name (Naam leraar/mentor )  
+Teacher/Mentor email address (E-mailadres leraar/mentor)  
+Teacher/Mentor phone number (Telefoonnummer leraar/mentor )  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Soort organisatie (bijv. Basisschool, middelbare school , bibliotheek, Code Club, CoderDojo, enz.)  
+Organisation name (Naam organisatie)  
+Organisation address (Adres organisatie)  
+Organisation city (Plaats organisatie)  
+Organisation country (Land organisatie)  
+Organisation postal code (Postcode organisatie)  
+Team name (tean naam)  
+Number of team members (Aantal teamleden)  
+Names and ages of team members (Namen en leeftijd teamleden)  
+In which language did you access the Mission Zero guidelines (In welke taal heeft u de Mission Zero-richtlijnen bekeken)?
 
-+ Er wordt een account voor je gemaakt. Elk account heeft zijn eigen **klascode**, en u moet uw team vertellen welke van u is wanneer ze klaar zijn om hun programma's te verzenden.
++ Er wordt een account voor je gemaakt. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
 
-+ Plaats uw klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
++ Plaats je klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    We hebben [een afdrukbare handout van twee pagina's gemaakt](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_ blank"} die de belangrijkste punten van Mission Zero behandelt en die studenten en jongeren samen met dit online project kunnen gebruiken.
 
 \--- /collapse \---
 
