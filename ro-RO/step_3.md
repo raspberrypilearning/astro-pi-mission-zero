@@ -25,7 +25,7 @@ Poate ai putea lăsa un salut prietenos pentru astronauții de la ISS care lucre
 Adaugă acest rând sub celelalte linii de cod:
 
 ```python
-sense.show_message ("Astro Pi")
+sense.show_message("Astro Pi")
 ```
 
 \--- /task \---
