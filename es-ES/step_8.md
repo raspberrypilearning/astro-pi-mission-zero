@@ -10,12 +10,12 @@ Hay varias reglas que tu código debe respetar de modo que pueda ser enviado par
 
 Asegúrate también de que has cumplido los siguientes criterios:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Asegúrate de que tu mensaje para los astronautas no dure más de 30 segundos, puesto que esta es la duración máxima que tu código tiene para ejecutarse en la ISS
+2. Evitar usar métodos que requieran entradas
+3. Solamente importa desde los módulos `sense_hat`, `time` y `random`
+4. Asegúrate de que no incluyes palabras soeces
 
-Once the rules are all green, you are ready to submit.
+Podrás realizar el envío una vez todas las reglas se hayan iluminado en verde.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Aparecerá el nombre de tu profesor. Si es el nombre correcto, haz clic en el bo
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Introduce el nombre de tu equipo y los nombres de sus miembros. Una vez tu código sea ejecutado en el espacio, se imprimirán en el certificado. ¡Asegúrate de deletrearlos correctamente!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Pulsa el botón **Submit** para introducir tu código. Tu profesor o mentor recibirán un correo electrónico confirmando tu entrada.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Si quieres, ¡puedes compartir el enlace de tu código en los medios sociales para contarles a los demás que el código que escribiste será ejecutado en el espacio!
 
 \--- /task \---
