@@ -66,6 +66,6 @@ sense.show_message( "Sunt " + str(temp) + " grade" )
 
 Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de temperatură de pe emulatorul Sense HAT pentru a simula schimbări de temperatură și pentru a testa codul tău.
 
-![Cursor pentru temperatură](images/temperature-slider.png)
+![Slider pentru temperatură](images/temperature-slider.png)
 
 **Notă:** S-ar putea să te întrebi de ce sliderul de temperatură afișează temperatura ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât temperatura măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul cursorului.
