@@ -14,7 +14,7 @@ Alege o culoare și află valoarea RGB a culorii. Ai putea folosi un [selector d
 
 \--- task \---
 
-Creează o variabilă pentru a stoca culoarea aleasă. De exemplu, dacă ai selectat roșu, ai scrie această linie de cod:
+Creează o variabilă pentru a stoca culoarea aleasă. De exemplu, dacă ai selecta roșu, ai scrie această linie de cod:
 
 ```python
 rosu = (255,0,0)
@@ -24,7 +24,7 @@ rosu = (255,0,0)
 
 \--- task \---
 
-Acum poți afișa textul tău în culoarea dorită! Pentru a spune programului să utilizeze culoarea pe care ai creat-o, adaugă un parametru `text_colour` pentru codul care afișează textul:
+Acum poți afișa textul tău în culoarea dorită! Pentru a spune programului să utilizeze culoarea pe care ai creat-o, adaugă un parametru `text_colour` la codul care afișează textul tău:
 
 ```python
 rosu = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=rosu)
 
 \--- task \---
 
-De asemenea, poți schimba culoarea de fundal a afișajului. Alege o altă culoare și creează o altă variabilă pentru a stoca acea culoare. Pentru a spune programului să utilizeze culoarea de fundal aleasă, adaugă parametrul `back_colour` pentru codul tău:
+De asemenea, poți schimba culoarea de fundal a afișajului. Alege o altă culoare și creează o altă variabilă pentru a stoca acea culoare. Pentru a spune programului să utilizeze culoarea de fundal aleasă, adaugă parametrul `back_colour` la codul tău:
 
 ```python
 rosu = (255,0,0)
