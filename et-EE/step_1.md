@@ -50,13 +50,13 @@ Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http
 
 Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskondadesse ja lubage meil neid juhendada kirjutama lühikest Python´i programmi, mis näitab lühikest isiklikku sõnumit ja Astro Pi´l olevat õhutemperatuuri.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Lugege [juhiseid sisaldavat dokumenti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zero kohta.
 
 Selleks, et teie meeskond/meeskonnad saaksid osaleda, peate registreeruma Mission Zero väljakutseks.
 
 + Minge [Trinket emulaatori Mission Zero lehele](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Täitke vorm ja klõpsake **Submit** (esita) nupul\*.
 
 \* Please note that this registration form is available in English only.
 
@@ -75,9 +75,9 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood**, ja te peate ütlema oma meeskonnale/meeskondadele, mis on teie kasutajakonto nimetus siis, kui nad hakkavad oma programme esitama.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
