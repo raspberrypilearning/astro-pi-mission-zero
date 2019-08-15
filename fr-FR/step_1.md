@@ -56,9 +56,9 @@ Vous devez vous inscrire au challenge Mission Zero pour permettre à votre ou vo
 
 + Allez à la page [Emulateur Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Remplissez le formulaire et cliquez sur **Submit**\*.
 
-\* Please note that this registration form is available in English only.
+\ * Veuillez noter que ce formulaire d'inscription est disponible en anglais uniquement.
 
 The fields on the form include:  
 Teacher/Mentor name  
