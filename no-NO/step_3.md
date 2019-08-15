@@ -7,14 +7,14 @@
 Du vil se at tre kodelinjer er lagt til automatisk for deg:
 
 ```python
-fra sense_hat importerer du SenseHat
+from sense_hat import SenseHat
 sense = SenseHat ()
 sense.set_rotation (270)
 ```
 
 ![sense hat-emulator](images/sense-hat-emulator2.png)
 
-Denne koden kobles til Astro Pi og sørger for at Astro Pi's LED-skjerm vises den riktige veien. La koden være der, du vil trenge den senere.
+Denne koden kobler til Astro Pi og sørger for at Astro Pi's LED-skjerm vises den riktige veien. La koden være der, du vil trenge den senere.
 
 \--- /task \---
 
