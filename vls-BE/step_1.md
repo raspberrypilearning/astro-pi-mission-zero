@@ -50,13 +50,13 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
         
         Deze activiteit kan worden afgerond in een namiddag. Organiseer je studenten in teams van ten hoogste vier, en laat ons hun loodsen met het schrijven van een kort Python programma om een persoonlijke boodschap te laten zien en de lucht temperatuur op de Astro Pi.
         
-        Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+        Lees het [officiele richtlijnen document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
         
         Je moet registreren voor de Mission Zero uitdaging om je team/s te laten deelnemen.
         
         + Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
             
-            + Fill out the form and click **Submit**\*.</ul> 
+            + Vul het formulier in en klik **Submit**\*.</ul> 
             
             \* Please note that this registration form is available in English only.
             
@@ -75,9 +75,9 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
             Names and ages of team members  
             In which language did you access the Mission Zero guidelines?
             
-            + An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
+            + Een rekening wordt voor je opgericht. Elke rekening heeft zijn eigen **variatiecode**, en je moet je team/s laten weten wat die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
             
-            + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
+            + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.
                 
                 We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
             
