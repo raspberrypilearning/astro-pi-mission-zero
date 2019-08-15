@@ -73,7 +73,7 @@ Organisation postal code (Codul poștal al organizației)
 Team name (Numele echipei)  
 Number of team members (Numărul de membri ai echipei)  
 Names and ages of team members (Numele și vârsta membrilor echipei)  
-In which language did you access the Mission Zero guidelines? (În ce limbă ai accesat instrucțiunile pentru Mission Zero?)?
+In which language did you access the Mission Zero guidelines? (În ce limbă ai accesat instrucțiunile pentru Mission Zero?)
 
 + Va fi creat un cont pentru tine. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și trimită programele.
 
