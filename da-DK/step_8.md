@@ -6,7 +6,7 @@ Der er nogle få regler, som din kode skal følge, så du kan indsende den, og d
 
 1. Foretag en temperaturaflæsning
 2. Tænd lysdioderne
-3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Hvis du har sløjfen `while True` (mens det er sandt) i din kode, bliver du nødt til at trykke på knappen **Stop** (Stop) for at kunne passere denne regel.
+3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Hvis du har en `while True` (mens det er sandt) løkke i din kode, bliver du nødt til at trykke på knappen **Stop** (Stop) for at kunne opfylde denne regel.
 
 Sørg også for at have opfyldt følgende kriterier:
 
@@ -27,7 +27,7 @@ Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Indledning](ht
 
 \--- opgave \---
 
-Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den grønne knap **Continue to form** (Fortsæt til formular).
+Din lærers navn vises. Hvis du har en **while True** (mens det er sandt) løkke i din kode, bliver du nødt til at trykke på knappen <1>Stop</1> (Stop) for at kunne opfylde denne regel.
 
 ![Fortsæt til formular](images/continue-to-form.png)
 
@@ -41,12 +41,12 @@ Indtast dit holdnavn og navnene på holdets medlemmer. Disse bliver trykt på ce
 
 \--- opgave \---
 
-Tryk på knappen **Submit** (Indsend) for at indtaste din kode. Din lærer eller mentor får en E-mail for at bekræfte indtastningen.
+Tryk på knappen **Submit** (Indsend) for at indsende din kode. Din lærer eller mentor får en E-mail for at bekræfte indsendelsen.
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 Hvis du vil, kan du dele linket til din kode på de sociale medier for at fortælle folk, at den kode, du har skrevet, bliver kørt i rummet!
 
-\--- /task \---
+\--- /opgave \---
