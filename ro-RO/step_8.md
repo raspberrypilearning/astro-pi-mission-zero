@@ -1,11 +1,11 @@
 ## Trimite programul tău
 
-Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi difuzat pe Stația Spațială Internațională. În cazul în care codul tău le respectă, regulile din partea de jos a emulatorului se vor schimba în verde atunci când execuți programul.
+Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi rulat pe Stația Spațială Internațională. În cazul în care codul tău le respectă, regulile din partea de jos a emulatorului se vor schimba în verde atunci când execuți programul.
 
 ![Validare](images/validation.png)
 
 1. Măsoară temperatura
-2. Se aprind LED-urile
+2. Aprinde LED-urile
 3. Asigură-te că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. Dacă ai o buclă `while True` în codul tău, va trebui să apeşi butonul **Stop** pentru a depăși această regulă.
 
 De asemenea, asigură-te că ai îndeplinit următoarele criterii:
