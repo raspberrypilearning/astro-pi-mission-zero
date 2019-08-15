@@ -79,7 +79,7 @@ In which language did you access the Mission Zero guidelines?
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
     
-    Abbiamo creato [ un volantino di due pagine stampabile ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"} che copre i punti chiave di Mission Zero che studenti e giovani possono usare insieme a questo progetto online.
+    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 \--- /collapse \---
 
