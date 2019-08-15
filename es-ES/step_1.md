@@ -60,26 +60,26 @@ Necesitarás registrar el desafío Mission Zero para que tus equipos puedan part
 
 \* Ten en cuenta que este formulario de registro solo está disponible en inglés.
 
-The fields on the form include:  
+Los campos del formulario incluyen:  
 Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+(Nombre del profesor/mentor) Teacher/Mentor email address  
+(Correo electrónico del profesor/mentor) Teacher/Mentor phone number  
+(Teléfono del profesor/mentor) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+(Tipo de organización, p.ej. escuela primaria, escuela secundaria, biblioteca, Code Club, Coder Dojo etc.) Organisation name  
+(Nombre de la organización) Organisation address  
+(Dirección de la organización) Organisation city  
+(Localidad de la organización) Organisation country  
+(País de la organización) Organisation postal code  
+(Código postal de la organización) Team name  
+(Nombre del equipo) Number of team members  
+(Número de miembros del equipo) Names and ages of team members  
+(Nombres y edades de los miembros del equipo) In which language did you access the Mission Zero guidelines?(¿En qué idioma has accedido a las directrices de Mission Zero?)
 
 + Se creará una cuenta. Cada cuenta tiene su propio **código de clase**, y necesitarás darle el tuyo a tus equipos cuando estén listos para enviar sus programas.
 
 + Indica tu código de clase en un lugar visible como, por ejemplo, en una pizarra o proyector, y comienza la actividad.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Hemos creado [un folleto imprimible de dos páginas](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"} que cubre los puntos clave de Mission Zero y que los estudiantes y los jóvenes pueden usar junto con este proyecto en línea.
 
 \--- /collapse \---
 
