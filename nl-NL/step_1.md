@@ -50,7 +50,7 @@ Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi 
 
 Deze activiteit kan in een middag worden voltooid. Groepeer de studenten in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Lees de officiële richtlijnen<0>{: target = "_ blank"} voor Mission Zero door.</p> 
 
 U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / kunnen nemen.
 
@@ -75,12 +75,12 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Er wordt een account voor je gemaakt. Elk account heeft zijn eigen **klascode**, en u moet uw team vertellen welke van u is wanneer ze klaar zijn om hun programma's te verzenden.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Plaats uw klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Pixel volgen](https://code.org/api/hour/begin_raspberrypi_astropi.png)
