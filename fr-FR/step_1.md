@@ -60,26 +60,26 @@ Vous devez vous inscrire au challenge Mission Zero pour permettre à votre ou vo
 
 \ * Veuillez noter que ce formulaire d'inscription est disponible en anglais uniquement.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Les champs sur le formulaire comprennent:  
+Teacher/Mentor name [Nom du Professeur/Mentor]  
+Teacher/Mentor email address [Adresse email du Professeur/Mentor]  
+Teacher/Mentor phone number [Numéro de téléphone du Professeur/Mentor]  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) [Type d'organisation (exemple : école primaire, école secondaire, bibliothèque, Code Club, CoderDojo, etc.]  
+Organisation name [Nom de l'organisation]  
+Organisation address [Adresse de l'organisation]  
+Organisation city [Ville de l'organisation]  
+Organisation country [Pays de l'organisation]  
+Organisation postal code [Code postal de l'organisation]  
+Team name [Nom d'équipe]  
+Number of team members [Nombre de membres de l'équipe]  
+Names and ages of team members [Noms et âges des membres de l'équipe]  
+In which language did you access the Mission Zero guidelines? [Dans quelle langue avez-vous eu accès aux directives de la Mission Zero?]
 
 + Un compte sera créé pour vous. Chaque compte a son propre **code de salle de classe**, et vous devez donner ce code à votre ou vos équipes quand elles sont prêtes à soumettre leurs programmes.
 
 + Affichez votre code de salle de classe quelque part où il sera visible, par exemple sur un tableau blanc ou en utilisant un projecteur, et commencez l'activité.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Nous avons créé [ un document imprimable de deux pages. ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_ blank"} qui couvre les points clés de la Mission Zero et que les étudiants et les jeunes peuvent utiliser avec ce projet en ligne.
 
 \--- /collapse \---
 
