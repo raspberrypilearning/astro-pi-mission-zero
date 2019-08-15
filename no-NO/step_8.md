@@ -10,12 +10,12 @@ Det er noen regler for hvordan koden må være for at den kan sendes til å bli 
 
 Sørg også for at dere har oppfylt følgende kriterier:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Pass på at meldingen til astronautene ikke tar mer enn 30 sekunder, da dette er så lenge koden kommer til å kjøres på ISS
+2. Unngå å bruke metoder som trenger input
+3. Dere må bare importere fra modulene `sense_hat`, `time` og `random`
+4. Pass på at meldingen ikke har støtende innhold
 
-Once the rules are all green, you are ready to submit.
+Når alle reglene er grønne, er dere klare til å sende.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Lærerens navn vises. Hvis det er riktig navn, klikk på den grønne **Fortsett 
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Skriv inn navnet på laget og navnene til lagmedlemmene. Disse vil bli skrevet ut på diplomet når koden er kjørt i rommet, så sørg for at de er riktig stavet!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Trykk på **Submit** (Send)-knappen for å skrive inn koden. Læreren eller veilederen vil få en e-post for å bekrefte bidraget deres.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Hvis dere vil, kan dere legge ut en lenke til koden på sosiale medier for å fortelle folk at koden dere skrev vil bli kjørt i verdensrommet!
 
 \--- /task \---
