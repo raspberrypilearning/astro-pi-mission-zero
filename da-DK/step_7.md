@@ -4,9 +4,9 @@ Du kan kombinere din temperaturaflæsning med et billede for også at angive tem
 
 ![Varmt og koldt](images/hot-and-cold.png)
 
-\--- task \---
+\--- opgave \---
 
-I bunden af dit program skal du oprette flere farvevariabler for vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin. I vores eksempler anvender vi hvid (`w`), gul (`y`), grøn (`g`) og sort/blank (`b`).
+I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin. I vores eksempler anvender vi hvid (`w`), gul (`y`), grøn (`g`) og sort/blank (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -15,9 +15,9 @@ g = (0, 255, 0)
 b = (0, 0, 0)
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter indstille elementerne på listen til de farver, du ønsker, dine pixels skal være.
 
