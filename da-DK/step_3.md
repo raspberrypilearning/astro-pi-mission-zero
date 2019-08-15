@@ -1,10 +1,10 @@
 ## Vis en besked
 
-\--- task \---
+\--- opgave \---
 
-Åbn [Sense HAT-efterligneren](https://trinket.io/mission-zero){:target="_blank"} til Mission Zero-projektet.
+Åbn Sense HAT-e</0mulatoren>{:target="_blank"} til Mission Zero-projektet.</p> 
 
-Her kan du se, at der automatisk er blevet tilføjet tre linjer med koder for dig:
+Her kan du se, at der automatisk er blevet tilføjet tre linjer kode for dig:
 
 ```python
 from sense_hat import SenseHat
@@ -12,15 +12,15 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat-efterligner](images/sense-hat-emulator2.png)
+![sense hat-emulator](images/sense-hat-emulator2.png)
 
-Denne kode opretter forbindelse til Astro Pi og sørger for, at LED-displayet på Astro Pi vises på korrekt vis. Lad koden stå der, for du får brug for den.
+Denne kode opretter forbindelse til Astro Pi og sørger for, at LED-displayet på Astro Pi vises på korrekt vis. Lad koden stå, for du får brug for den.
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Måske kunne du efterlade en dejlig hilsen til de astronauter på ISS, der arbejder i nærheden af Astro Pi? Lad os rulle en besked hen over displayet.
+Måske kunne du efterlade en hyggelig hilsen til de astronauter på ISS, der arbejder i nærheden af Astro Pi? Lad os scrolle en besked hen over displayet.
 
 Tilføj denne linje under den anden kode:
 
@@ -28,9 +28,9 @@ Tilføj denne linje under den anden kode:
 sense.show_message("Astro Pi")
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 Tryk på knappen **Run** (Kør), og kig på, mens beskeden `Astro Pi` ruller hen over LED-displayet.
 
