@@ -61,19 +61,19 @@ Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre 
 \* Bitte beachten Sie, dass das Registrierungs-Formular nur auf Englisch verfügbar ist.
 
 Die Felder in dem Formular enthalten:  
-Name des Lehrers / Mentors  
-E-Mail-Adresse des Lehrers / Mentors  
-Telefonnummer des Lehrers / Mentors  
-Art der Organisation (zum Beispiel Grundschule, weiterführende Schule, Bibliothek, Code Club, CoderDojo)  
-Name der Organisation  
-Adresse der Organisation  
-Stadt der Organisation  
-Land der Organisation  
-Postleitzahl der Organisation  
-Name des Teams  
-Anzahl der Teammitglieder  
-Namen und Alter der Teammitglieder  
-In welcher Sprache haben Sie auf die Mission Zero Richtlinien zugegriffen?
+Teacher/Mentor name (Name des Lehrers/Mentors)  
+Teacher/Mentor email address (E-Mail-Adresse des Lehrers/Mentors)  
+Teacher/Mentor phone number (Telefonnummer des Lehrers/Mentors)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Art der Organisation (zum Beispiel Grundschule, weiterführende Schule, Bibliothek, Code Club, CoderDojo, u.ä.))  
+Organisation name (Name der Organisation)  
+Organisation address (Adresse der Organisation)  
+Organisation city (Stadt der Organisation)  
+Organisation country (Land der Organisation)  
+Organisation postal code (Postleitzahl der Organisation)  
+Team name (Name des Teams)  
+Number of team members (Anzahl der Teammitglieder)  
+Names and ages of team members (Namen und Alter der Teammitglieder)  
+In which language did you access the Mission Zero guidelines? (In welcher Sprache haben Sie auf die Mission Zero Richtlinien zugegriffen?)
 
 + Ein Konto wird für Sie erstellt. Jedes Konto hat seinen eigenen **Klassencode** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
 
