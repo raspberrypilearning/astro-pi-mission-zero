@@ -1,6 +1,6 @@
 ## Introducere
 
-Îmbunătățește rutina zilnică a astronauților de pe Stația Spațială Internațională, arătându-le un mesaj și temperatura aerului ambiant la bord folosind programul Sense HAT al computerului Astro Pi.
+Îmbunătățește rutina zilnică a astronauților de pe Stația Spațială Internațională, arătându-le un mesaj și temperatura aerului ambiant la bord folosind Sense HAT-ul computerului Astro Pi.
 
 Vei folosi emulatorul online Sense HAT pentru a crea programul, astfel încât nu este nevoie de hardware suplimentar — totul se face într-un browser web.
 
@@ -56,9 +56,9 @@ Va trebui să te înregistrezi pentru provocarea Mission Zero pentru a permite e
 
 + Accesează pagina cu [emulatorul Trinket pentru Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Completează formularul și dă click pe **Trimite**\*.
++ Completează formularul și dă click pe **Submit**\*.
 
-\* Reține că formularul de înregistrare este disponibil doar în engleză.
+\* Reține te rog că formularul de înregistrare este disponibil doar în engleză.
 
 Câmpurile din formular includ  
 Numele profesorului/mentorului  
@@ -75,7 +75,7 @@ Numărul de membri ai echipei
 Numele și vârsta membrilor echipei  
 În ce limbă ai accesat instrucțiunile pentru Mission Zero?
 
-+ Va fi creat un cont pentru tine. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și prezinte programele.
++ Va fi creat un cont pentru tine. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și trimită programele.
 
 + Afișează codul de clasă undeva vizibil, cum ar fi pe o tablă albă sau utilizând un proiector, iar mai apoi poți începe activitatea.
     
