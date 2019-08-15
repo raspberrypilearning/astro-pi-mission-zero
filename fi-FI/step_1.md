@@ -50,7 +50,7 @@ Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](ht
 
 This activity can be completed in an afternoon. Järjestä oppilaasi enintään neljän henkilön tiimeihin ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma henkilökohtaisen viestin ja Astro Piin ilman lämpötilan näyttämiseksi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Lue [virallinen ohjeasiakirja](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zeroa varten.
 
 Sinun on rekisteröidyttävä Mission Zero -haasteeseen tiimisi/tiimiesi osallistumista varten.
 
@@ -75,9 +75,9 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Sinua varten luodaan tili. Jokaisella tilillä on oma **luokkahuonekoodinsa**, ja sinun on kerrottava tiimillesi/tiimeillesi, mikä on sinun, kun he ovat valmiita lähettämään ohjelmansa.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Esitä luokkahuonekoodisi jossakin näkyvillä olevassa paikassa, kuten esimerkiksi valkotaululla tai kuvanheitintä käyttämällä, ja aloita toiminta.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
