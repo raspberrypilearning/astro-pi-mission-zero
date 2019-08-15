@@ -34,15 +34,15 @@ sense.show_message("Astro Pi")
 
 Trykk på **Run** (Kjør)-knappen og se meldingen `Astro Pi` rulle over LED-skjermen.
 
-![vis meldingskoden click run](images/show-message-code-annotated.PNG)
+![vis meldingskoden klikk run](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
-![Bla i meldinger](images/scroll-message.gif)
+![Melding som ruller](images/scroll-message.gif)
 
 For å vise en annen melding, kan du skrive hva som helst mellom anførselstegnene (`""`).
 
-\--- kollaps \---
+\--- collapse \---
 
 * * *
 
@@ -59,7 +59,7 @@ Sense HAT kan bare vise tegnsettet Latin 1, noe som betyr at bare følgende tegn
     ?,;:|@%[&_']\~
     
 
-\--- / kollaps \---
+\--- /collapse \---
 
 \--- task \---
 
