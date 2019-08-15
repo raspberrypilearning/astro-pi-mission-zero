@@ -6,13 +6,13 @@ Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om
 
 1. Neem een ​​temperatuurmeting
 2. Verlicht de LED's
-3. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Als je een `while True` (terwijl True) lus in je code hebt, moet je op de **Stoppen** knop drukken om deze regel te passeren.
+3. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Als je een `while True` (zolang True) lus in je code hebt, moet je op de **Stop** knop drukken om deze regel te passeren.
 
 Zorg er ook voor dat je aan de volgende criteria voldoet:
 
 1. Zorg ervoor dat je bericht aan de astronauten niet langer dan 30 seconden loopt, want dit is de duur van je code op het ISS
 2. Vermijd het gebruik van methoden die invoer nodig hebben
-3. Importeer alleen vanuit de `sense_hat`, `time` (tijd) en `random` (willekeurig) modules
+3. Importeer alleen vanuit de `sense_hat`, `time` en `random` modules
 4. Zorg ervoor dat je geen grove taal gebruikt
 
 Zodra de regels allemaal groen zijn, ben je klaar om te verzenden.
@@ -27,7 +27,7 @@ Voer je klascode in het vak onderaan in - je leerkracht vertelt je wat je code i
 
 \--- task \---
 
-De naam van je leraar verschijnt. Als het de juiste naam is, klik dan op de groene **Doorgaan naar formulier** knop.
+De naam van je leraar verschijnt. Als het de juiste naam is, klik dan op de groene **Continue to form** (Doorgaan naar formulier) knop.
 
 ![Ga door naar het formulier](images/continue-to-form.png)
 
