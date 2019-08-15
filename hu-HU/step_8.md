@@ -10,12 +10,12 @@ Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy 
 
 Ellenőrizd, hogy ezeknek a feltételeknek is eleget tettél:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Ellenőrizd, hogy az űrhajósoknak szóló üzeneted nem hosszabb 30 másodpercnél, mert ennyi ideig fut majd a Nemzetközi Űrállomáson
+2. Kerüld el a bevitelt igénylő módszereket
+3. Csak a `sense_hat`, `time`, és `random` modulokból importálj
+4. Semmiképp ne használj káromkodást
 
-Once the rules are all green, you are ready to submit.
+Ha minden szabály zöld, készen állsz a beküldésre.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Megjelenik a tanárod neve. Ha ez a helyes név, kattints a zöld **Continue to 
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Írd be a csapatod nevét, és a csapattagok neveit. Ezek a tanúsítványra is rákerülnek, miután a kódod az űrben futott, úgyhogy ellenőrizd, hogy helyesen írtad őket!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Nyomd meg a **Submit** (Küldés) gombot a kódod beküldéséhez. A tanárod vagy mentorod egy e-mailt kap majd a jelentkezésedről.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Ha szerenéd, akár meg is oszthatod a kódodhoz tartozó linket a közösségi médián, hogy elújságold az embereknek, hogy a kód, amit írtál, az űrben fog futni!
 
 \--- /task \---
