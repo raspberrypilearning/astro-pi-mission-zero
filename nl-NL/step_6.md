@@ -64,7 +64,7 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-De echte Astro Pi meet de temperatuur eromheen, maar je kunt de temperatuurschuifregelaar op de Sense HAT-emulator verplaatsen om temperatuurveranderingen te simuleren en je code te testen.
+De echte Astro Pi meet de temperatuur om zich heen, maar je kunt de temperatuurschuifregelaar op de Sense HAT-emulator verplaatsen om temperatuurveranderingen te simuleren en je code te testen.
 
 ![Temperatuurschuifregelaar](images/temperature-slider.png)
 
