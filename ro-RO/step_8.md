@@ -10,12 +10,12 @@ Există câteva reguli pe care codul tău trebuie să le respecte, astfel încâ
 
 De asemenea, asigură-te că ai îndeplinit următoarele criterii:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Asigură-te că mesajul tău către astronauți rulează timp de cel mult 30 de secunde, deoarece acesta este timpul în care va fi rulat codul tău pe ISS
+2. Evită utilizarea oricăror metode care necesită input
+3. Importă doar din modulele `sense_hat`, `time`, şi `random`
+4. Asigură-te că nu incluzi limbaj obscen
 
-Once the rules are all green, you are ready to submit.
+Odată ce regulile sunt toate scrise în culoarea verde, eşti gata să trimiți.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Va apărea numele profesorului tău. Dacă numele este cel corect, fă clic pe b
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Introdu numele echipei și numele membrilor echipei. Acestea vor fi imprimate pe certificat odată ce codul tău este rulat în spațiu, deci asigură-te că le scrii corect!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Apasă pe **Submit** (Trimite) pentru a introduce codul tău. Profesorul sau mentorul tău va primi un e-mail pentru a-ţi confirma intrarea.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Dacă vrei, poți distribui linkul cu codul tău pe social media pentru a le spune tuturor că există cod scris de tine care va fi rulat în spațiu!
 
 \--- /task \---
