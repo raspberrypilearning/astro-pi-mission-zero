@@ -48,38 +48,38 @@ Acest proiect acoperă elemente din următoarele componente ale curriculumului [
 
 ## title: Note pentru profesori și mentori
 
-Această activitate poate fi terminată într-o după-amiază. Organizați-vă elevii în echipe de patru sau mai puţini, și haideți să-i ghidăm să scrie un scurt program Python pentru a afișa un mesaj personal și temperatura aerului pe Astro Pi.
+Această activitate poate fi terminată într-o după-amiază. Organizează-ți elevii în echipe de patru sau mai puţini, și lasă-ne să-i ghidăm să scrie un scurt program în Python pentru a afișa un mesaj personal și temperatura aerului pe Astro Pi.
 
-Citiți [documentul privind instrucțiunile oficiale](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pentru Mission Zero.
+Citește [documentul privind instrucțiunile oficiale](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pentru Mission Zero.
 
-Va trebui să vă înregistrați pentru provocarea Mission Zero pentru a permite echipei dumneavoastră să participe.
+Va trebui să te înregistrezi pentru provocarea Mission Zero pentru a permite echipei/echipelor tale să participe.
 
-+ Accesați [pagina Emulator Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Accesează pagina cu [emulatorul Trinket pentru Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Completează formularul și dă click pe **Trimite**\*.
 
-\* Please note that this registration form is available in English only.
+\* Reține că formularul de înregistrare este disponibil doar în engleză.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Câmpurile din formular includ  
+Numele profesorului/mentorului  
+Email-ul profesorului/mentorului  
+Numărul de telefon al profesorului/mentorului  
+Tipul organizației (de ex. școală primară, gimnazială, bibliotecă, Code Club, CoderDojo etc.)  
+Numele organizației  
+Adresa organizației  
+Orașul organizației  
+Țara organizației  
+Codul poștal al organizației  
+Numele echipei  
+Numărul de membri ai echipei  
+Numele și vârsta membrilor echipei  
+În ce limbă ai accesat instrucțiunile pentru Mission Zero?
 
-+ Va fi creat un cont pentru dumneavoastră. Fiecare cont are propriul său **classroom code** (Cod de clasă), şi va trebui să spuneţi echipei / echipelor dumneavoastră care este codul atunci când sunt gata să-şi prezinte programele.
++ Va fi creat un cont pentru tine. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și prezinte programele.
 
-+ Afișați codul de clasă undeva vizibil, de exemplu pe o tablă albă sau utilizând un proiector, și începeți activitatea.
++ Afișează codul de clasă undeva vizibil, cum ar fi pe o tablă albă sau utilizând un proiector, iar mai apoi poți începe activitatea.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Am creat [o broșură cu 2 pagini](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} care acoperă punctele cheie ale Mission Zero și pe care studenții și tinerii o pot folosi împreună cu acest proiect online.
 
 \--- /collapse \---
 
