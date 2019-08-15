@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- opgave \---
 
-Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter indstille elementerne på listen til de farver, du ønsker, dine pixels skal være.
+Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter tildele elementerne på listen de farver, du ønsker, dine pixels skal være.
 
 ```python
 hot = [
@@ -46,19 +46,19 @@ cold = [
 ]
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Tilføj en kode for at få temperaturen:
+Tilføj noget kode for at få temperaturen:
 
 ```python
 temp = sense.temperature
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi billedet `hot` (varmt), hvis temperaturaflæsningen er på 20 grader eller derover, og billedet `cold` (koldt), hvis temperaturen er på under 20 grader.
 
@@ -70,16 +70,16 @@ else:
     sense.set_pixels(cold)
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Anvend temperaturskyderen til at indstille en temperatur på efterligneren. Kør dit program, og kontrollér, at det billede, du har valgt for pågældende temperatur, vises korrekt.
+Anvend temperaturskyderen til at indstille en temperatur på emulatoren. Kør dit program, og kontrollér, at det billede, du har valgt for pågældende temperatur, vises korrekt.
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Skift din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
+Ændre din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
 
-\--- /task \---
+\--- /opgave \---
