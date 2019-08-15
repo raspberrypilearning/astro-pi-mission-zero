@@ -32,9 +32,9 @@ sense.show_message("Astro Pi")
 
 \--- task \---
 
-Druk op de **Run** knop en kijk terwijl het bericht `Astro Pi` over het LED-display scrollt.
+Druk op de **Run** knop en kijk terwijl het bericht `Astro Pi` over het LED-display scrolt.
 
-![klik op uitvoeren om de berichtcode te tonen](images/show-message-code-annotated.PNG)
+![toon berichtcode klik op uitvoeren](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
@@ -48,15 +48,15 @@ Om een ​​ander bericht weer te geven, kun je alles wat je maar wilt tussen d
 
 ## title: Welke tekens kunnen worden gebruikt?
 
-De Sense HAT kan alleen de Latijnse 1-tekenset weergeven, wat betekent dat alleen de volgende tekens beschikbaar zullen zijn. Andere tekens worden weergegeven als een `?`.
+De Sense HAT kan alleen de tekenset Latin 1 weergeven, wat betekent dat alleen de volgende tekens beschikbaar zullen zijn. Andere tekens worden weergegeven als een `?`.
 
-    + - * /! "# $><0123456789. =) (
+    +-*/!"#$><0123456789.=)(
     
     ABCDEFGHIJKLMNOPQRSTUVWXYZ
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@% [&_ '] \ ~
+    ?,;:|@%[&_']\~
     
 
 \--- /collapse \---
@@ -66,9 +66,9 @@ De Sense HAT kan alleen de Latijnse 1-tekenset weergeven, wat betekent dat allee
 Je kunt ook de snelheid van het bericht veranderen dat over het scherm scrolt. Voeg een `scroll_speed` (scroll_snelheid) toe aan de regel met code die je al hebt, zoals deze:
 
 ```python
-sense.show_message ("Astro Pi", scroll_speed = 0.05)
+sense.show_message("Astro Pi", scroll_speed = 0.05)
 ```
 
-De standaardsnelheid van het bericht is `0.1`. Door het nummer kleiner te maken, scrolt het bericht sneller en door het groter te maken, scrolt het bericht langzamer.
+De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, scrolt het bericht sneller en door het groter te maken, scrolt het bericht langzamer.
 
 \--- /task \---
