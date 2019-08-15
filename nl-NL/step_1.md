@@ -1,6 +1,6 @@
 ## Inleiding
 
-Fleur de dagelijkse routine van de astronauten op het International Space Station op door hen een bericht en de omgevingstemperatuur aan boord te laten zien met behulp van de Sense HAT van de Astro Pi-computer.
+Fleur de dagelijkse routine van de astronauten in het International Space Station op door hen een bericht en de omgevingstemperatuur aan boord te laten zien met behulp van de Sense HAT van de Astro Pi-computer.
 
 Je gebruikt de online Sense HAT-emulator om je programma te maken, dus er is geen extra hardware nodig - alles gebeurt in een webbrowser.
 
@@ -20,9 +20,9 @@ Je leert over de AstroPi-eenheid en hoe je hem bestuurt, inclusief hoe je:
 
 + berichten en kleuren laat zien
 + afbeeldingen maakt
-+ meet de temperatuur
++ de temperatuur meet
 
-Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + [ Gebruik basale programmeerconstructies om eenvoudige programma's te maken ](https://curriculum.raspberrypi.org/programming/creator/) {:target="_ blank"}
 
@@ -32,7 +32,7 @@ Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi 
 
 * * *
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
@@ -40,23 +40,23 @@ Dit project behandelt elementen uit de volgende onderdelen van de [Raspberry Pi 
 
 ### Software
 
-+ Een webbrowser (bijv. Google Chrome) om [https://trinket.io/mission-zero= ](https://trinket.io/mission-zero){: Target = "_ blank"} te openen
++ Een webbrowser (bijv. Google Chrome) om [https://trinket.io/mission-zero= ](https://trinket.io/mission-zero){:target="_blank"} te openen
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: notities voor leerkrachten en mentoren
+## title: Notities voor leraren en mentoren
 
 Deze activiteit kan in een middag worden voltooid. Groepeer de studenten in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
 
-Lees de officiële richtlijnen<0>{: target = "_ blank"} voor Mission Zero door.</p> 
+Lees de [officiële richtlijnen](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero door.
 
-U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / kunnen nemen.
+Je moet je aanmelden voor de Mission Zero-uitdaging zodat uw team(s) deel kan/kunnen nemen.
 
-+ Ga naar de [rinket emulator Mission Zero-pagina](https://trinket.io/mission-zero/register) {: Target = "_ blank"}.
++ Ga naar de [Trinket emulator Mission Zero-pagina](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Vul het formulier in en klik op **Verzenden** \ *.
++ Vul het formulier in en klik op **Submit (Verzenden)**\*.
 
 \* Let op dat dit registratieformulier alleen in het Engels beschikbaar is.
 
