@@ -58,7 +58,7 @@ Será necessário registar-se para o desafio Mission Zero\--- challenge \--- par
 
 + Preencha o formulário e clique **Submit** para enviar\*.
 
-\* Please note that this registration form is available in English only.
+\ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
 The fields on the form include:  
 Teacher/Mentor name  
