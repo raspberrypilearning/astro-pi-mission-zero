@@ -14,7 +14,7 @@ steps:
   - 
     title: Afișează un mesaj
   - 
-    title: Adaugă o anumită culoare
+    title: Adaugă culoare
   - 
     title: Afișează o imagine
   - 
@@ -24,4 +24,4 @@ steps:
   - 
     title: Trimite programul tău
   - 
-    title: "Provocare: alte proiecte Astro Pi"
+    title: "Provocare: mai multe proiecte Astro Pi"
