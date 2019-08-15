@@ -1,10 +1,10 @@
 ## Vis et billede
 
-Du kan vise billeder på LED-matrix på Astro Pi. Måske kunne din hilsen til astronauterne indeholde et billede eller et mønster sammen med eller i stedet for en skriftlig besked?
+Du kan vise billeder på Astro Pi'ens LED-matrix. Måske kunne din hilsen til astronauterne indeholde et billede eller et mønster sammen med, eller i stedet for, en skriftlig besked?
 
 ![Astronaut](images/astronaut-pic.png)
 
-\--- task \---
+\--- opgave \---
 
 I bunden af dit program skal du oprette nogle farvevariabler til at definere de farver, som du ønsker at tegne dit billede med. Du kan anvende ligeså mange farver, du har lyst til, men i dette eksempel holder vi os til kun to — hvid (`w`) og sort (`b`).
 
@@ -15,11 +15,11 @@ b = (0, 0, 0)
 
 **Bemærk:** Denne gang er det en god idé at give farverne enkeltbogstaver som navne, fordi det kommer til at spare dig tid i det næste trin, hvor du skal skrive dem mange gange. Desuden bliver det lettere at se det billede, du vil tegne, hvis du anvender enkeltbogstaver.
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert element repræsenterer en pixel på LED-matrix og svarer til én af de farvevariabler, du definerede. Tegn dit billede ved at sætte en variabel dér, hvor du ønsker, at dens tildelte farve vises. Vi har tegnet en astronaut ved at anvende sorte (`b`) pixels som baggrund og hvide (`w`) pixels til at tegne astronautens rumdragt:
+Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert element repræsenterer en pixel på LED-matrix'en og svarer til én af de farvevariabler, du definerede. Tegn dit billede ved at sætte en variabel dér, hvor du ønsker, at dens tildelte farve skal vises. Vi har tegnet en astronaut ved at anvende sorte (`b`) pixels som baggrund og hvide (`w`) pixels til at tegne astronautens rumdragt:
 
 ```python
 picture = [
@@ -34,9 +34,9 @@ picture = [
 ]
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 Tilføj en kodelinje for at vise dit billede på LED-displayet.
 
@@ -44,17 +44,17 @@ Tilføj en kodelinje for at vise dit billede på LED-displayet.
 sense.set_pixels(picture)
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Tryk på **Run** (Kør) for at se dit billede vist.
+Tryk på **Run** (Kør) for at få dit billede vist.
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Det kan være, du vil tilføje en kode for at lave en kort ventetid (eller `sleep` (dvale)) efter visning af billedet. På den måde får astronauterne tid til at se dit billede, før næste del af din besked vises. Øverst i dit program skal du tilføje:
+Det kan være, du vil tilføje noget kode for at lave en kort pause (eller `sleep` (dvale)) efter visning af billedet. På den måde får astronauterne tid til at se dit billede, før næste del af din besked vises. Øverst i dit program skal du tilføje:
 
 ```python
 from time import sleep
@@ -66,10 +66,10 @@ Dernæst på linjen efter den, der viser dit billede, skal du tilføje denne kod
 sleep(2)
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 Lav dit eget billede eller mønster, du kan vise til astronauterne!
 
-\--- /task \---
+\--- /opgave \---
