@@ -10,12 +10,12 @@ Det finns några regler som din kod måste följa för att du ska kunna skicka d
 
 Kontrollera även att följande kriterier är uppfyllda:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Kontrollera att ditt meddelande till astronauterna inte körs längre än 30 sekunder, eftersom detta är den tid som din kod kommer att köras på ISS
+2. Undvik att använda metoder som kräver inmatning
+3. Importera bara från modulerna `sense_hat`, `time` och `random`
+4. Se till att du inte inkluderar några svordomar
 
-Once the rules are all green, you are ready to submit.
+När alla regler är gröna, är du redo att skicka.
 
 \--- uppgift \---
 
@@ -35,18 +35,18 @@ Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gr
 
 \--- uppgift \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Ange ditt lagnamn och namnen på dina lagmedlemmar. Dessa kommer att skrivas ut på certifikatet när din kod har körts i rymden, så se till att du stavar dem rätt!
 
 \--- /task \---
 
 \--- uppgift \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Tryck på **Submit** (Skicka) för att ange din kod. Din lärare eller mentor får ett e-postmeddelande som bekräftar ditt bidrag.
 
 \--- /task \---
 
 \--- uppgift \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Om du vill kan du dela länken till din kod på sociala medier för att berätta för människor att den kod som du skrev kommer att köras i rymden!
 
 \--- /task \---
