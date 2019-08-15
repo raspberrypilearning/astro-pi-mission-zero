@@ -10,10 +10,10 @@
 
 Prepričajte se tudi, da ste upoštevali naslednje kriterije.
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Prepričajte se, da vaše sporočilo astronavtom ne bo trajalo več kot 30 sekund, saj bo tako dolgo vaša koda prikazana na postaji ISS.
+2. Izogibajte se uporabi metod, ki zahtevajo vnose.
+3. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
+4. Ne vključujte žaljiviih besed ali slik.
 
 Once the rules are all green, you are ready to submit.
 
@@ -35,18 +35,18 @@ Pojavilo se bo ime vašega učitelja. Če je ime pravilno, kliknite na zelen gum
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Vnesite ime svoje skupine in imena članov skupine. Ko bo koda zagnana v vesolju, bodo ta namreč natisnjena na certifikatu, zato se prepričajte, da so črkovana pravilno!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Za pošiljanje svoje kode kliknite gumb **Submit** (Pošlji). Vaš učitelj oziroma mentor bo prejel elektronsko sporočilo s potrdilom prejema vašega prispevka.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Če želite, lahko povezavo do svoje kode delite na družbenih omrežjih in tako ljudem poveste, da bo vaša koda zagnana v vesolju!
 
 \--- /task \---
