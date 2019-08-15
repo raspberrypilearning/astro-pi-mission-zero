@@ -56,9 +56,9 @@ Du skal melde dig til Mission-udfordringen, så dit/dine hold kan deltage.
 
 + Gå på [Mission Zero-siden for Trinket-efterligner](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Udfyld formularen, og klik på **Submit**\*.
 
-\* Please note that this registration form is available in English only.
+\ * Bemærk, at denne tilmeldingsformular kun er tilgængelig på engelsk.
 
 The fields on the form include:  
 Teacher/Mentor name  
@@ -79,7 +79,7 @@ In which language did you access the Mission Zero guidelines?
 
 + Sæt din klasseværelseskode på et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Vi har oprettet [et udskriftvenlig folder på to sider ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"}, der dækker nøglepunkterne i Mission Zero, og som studerende og unge kan bruge sammen med dette online projekt.
 
 \--- /collapse \---
 
