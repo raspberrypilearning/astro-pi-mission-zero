@@ -1,6 +1,6 @@
 ## Esittely
 
-Piristää kansainvälisen International Space Station -avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viestin ja oleskelupaikan lämpötilan käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
+Piristä kansainvälisen International Space Station -avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viesti ja oleskelupaikan lämpötila käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
 
 Käytät online Sense HAT -emulaattoria luomaan ohjelmasi, joten lisälaitteita ei tarvita - kaikki tehdään selaimessa.
 
