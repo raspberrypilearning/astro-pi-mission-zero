@@ -10,12 +10,12 @@
 
 Επίσης, βεβαιωθείτε ότι πληρούνται τα ακόλουθα κριτήρια:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Το μήνυμά σας στους αστροναύτες δεν πρέπει να εμφανίζεται για παραπάνω από 30 δευτερόλεπτα και αυτός θα είναι ο χρόνος εκτέλεσης του κώδικα σας στον ΔΔΣ
+2. Αποφύγετε τη χρήση μεθόδων που απαιτούν είσοδο
+3. Κάντε εισαγωγή μόνο από τις ενότητες `sense_hat`, `time` και `random`
+4. Μην χρησιμοποιείτε αισχρολογίες
 
-Once the rules are all green, you are ready to submit.
+Αν όλοι οι κανόνες είναι πράσινοι, μπορείτε να προχωρήσετε στην υποβολή.
 
 \--- task --
 
@@ -35,18 +35,18 @@ Once the rules are all green, you are ready to submit.
 
 \--- task --
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Εισαγάγετε το όνομα της ομάδας σας και τα ονόματα των μελών της ομάδας. Τα ονόματα αυτά θα εκτυπωθούν στο πιστοποιητικό που θα λάβετε μόλις ο κώδικάς σας εκτελεστεί στο διάστημα, οπότε βεβαιωθείτε ότι τα έχετε γράφει σωστά!
 
 \--- /task \---
 
 \--- task --
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Πατήστε το κουμπί «**Submit**» (Υποβολή) για να υποβάλετε τον κώδικά σας. Ο δάσκαλος ή ο σύμβουλος σας θα λάβει ένα email επιβεβαίωσης για την καταχώρισή σας.
 
 \--- /task \---
 
 \--- task --
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Αν θέλετε, μπορείτε να κοινοποιήσετε έναν σύνδεσμο προς τον κώδικά σας στα κοινωνικά μέσα, για να δημοσιεύσετε ότι ο κώδικας που γράψατε θα εκτελεστεί στο διάστημα!
 
 \--- /task \---
