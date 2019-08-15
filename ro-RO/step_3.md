@@ -32,9 +32,9 @@ sense.show_message ("Astro Pi")
 
 \--- task \---
 
-Apasă pe butonul **Run** (Executare) și urmărește cum mesajul `Astro Pi` se derulează pe ecranul LED.
+Apasă pe butonul **Run** și urmărește cum mesajul `Astro Pi` se derulează pe ecranul LED.
 
-![afișează codul de mesaj dă clic pe run (executare)](images/show-message-code-annotated.PNG)
+![afișează codul de mesaj dă click pe run](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
@@ -63,7 +63,7 @@ Sense HAT poate afișa numai setul de caractere Latin 1, adică numai următoare
 
 \--- task \---
 
-De asemenea, poți schimba viteza derulării mesajului pe ecran. Adaugă un `scroll_speed` (viteza derulării) la linia de cod pe care o ai deja, după cum urmează:
+De asemenea, poți schimba viteza derulării mesajului pe ecran. Adaugă un `scroll_speed` la linia de cod pe care o ai deja, după cum urmează:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
