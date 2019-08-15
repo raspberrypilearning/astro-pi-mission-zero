@@ -10,10 +10,10 @@ Ton code doit respecter quelques règles pour que tu puisses le soumettre et le 
 
 Assure-toi également que les critères suivants sont satisfaits :
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Assure-toi que ton message pour les astronautes ne dure pas plus de 30 secondes, car c'est la durée d'exécution de ton code dans la SSI
+2. Évite d'utiliser des méthodes nécessitant une saisie de donnée
+3. Pour les importations n'tilisent que des données des modules `sense_hat`, `time`, et `random`
+4. Assure-toi de ne pas inclure de juron
 
 Once the rules are all green, you are ready to submit.
 
@@ -35,18 +35,18 @@ Le nom de ton enseignant va s'afficher. Si c'est le bon nom, clique sur le bouto
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Donne le nom de ton équipe et les noms des membres de l'équipe. Ces noms seront imprimés sur le certificat une fois que ton code est exécuté dans l'espace, alors assure-toide les épeler correctement !
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Appuie sur le bouton **Submit (Soumettre)** pour donner ton code. Ton enseignant ou ton mentor recevra un e-mail de confirmation pour ton inscription.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Si tu veux tu peux partager le lien de ton code sur les réseaux sociaux pour dire aux gens que le code que tu as écrit sera exécuté dans l'espace !
 
 \--- /task \---
