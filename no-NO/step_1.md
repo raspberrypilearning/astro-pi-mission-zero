@@ -77,7 +77,7 @@ In which language did you access the Mission Zero guidelines? (På hvilket språ
 
 + Det blir opprettet en konto for deg. Hver konto har sin egen **klasseromskode**, og du må fortelle laget/lagene hva koden din er når de er klare til å sende programmene sine.
 
-+ Vis klasseromskoden et synlig sted, for eksempel på en tavle eller ved hjelp av en projektor, og start aktiviteten.
++ Vis klasseromskoden på et synlig sted, for eksempel på en tavle eller ved hjelp av en projektor, og start aktiviteten.
     
     Vi har laget [et utskriftsvennlig to-siders hefte](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) som dekker de viktigste punktene om Mission Zero, og som elevene og ungdommene kan bruke sammen med dette nettbaserte prosjektet.
 
