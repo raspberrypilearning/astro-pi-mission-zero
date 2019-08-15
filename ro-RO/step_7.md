@@ -19,7 +19,7 @@ n = (0, 0, 0)
 
 \--- task \---
 
-La fel ca și mai devreme, desenează imaginile, creând mai întâi o listă pentru fiecare dintre ele, apoi setând elementele listate pentru culorile pe care dorești să le aibă pixelii.
+La fel ca mai devreme, desenează imaginile tale, creând mai întâi o listă pentru fiecare dintre ele, apoi setând elementele listei la culorile pe care dorești să le aibă pixelii.
 
 ```python
 cald = [
