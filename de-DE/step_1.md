@@ -83,4 +83,4 @@ In welcher Sprache haben Sie auf die Mission Zero Richtlinien zugegriffen?
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Zählpixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
