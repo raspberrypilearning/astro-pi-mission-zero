@@ -15,7 +15,7 @@ Prepričajte se tudi, da ste upoštevali naslednje kriterije.
 3. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
 4. Ne vključujte žaljiviih besed ali slik.
 
-Once the rules are all green, you are ready to submit.
+Ko so vsa pravila obarvana zeleno, ste pripravljeni na pošiljanje.
 
 \--- task \---
 
