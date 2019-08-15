@@ -10,12 +10,12 @@ Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do u
 
 Upewnij się też, że spełniasz następujące kryteria:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Upewnij się, że twoja wiadomość do astronautów wyświetlana jest nie dłużej niż 30 sekund, bo przez tyle czasu twój kod będzie działać na MSK
+2. Należy unikać wszelkich metod wymagających wprowadzania
+3. Importuj tylko z modułów `sense_hat`, `time` i `random`
+4. Nie wolno umieszczać wulgaryzmów
 
-Once the rules are all green, you are ready to submit.
+Gdy wszystkie reguły będą zielone, można przesłać zgłoszenie.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Pojawi się imię twojego nauczyciela. Jeśli imię jest prawidłowe, kliknij zi
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Wprowadź nazwę swojego zespołu i nazwiska jego członków. Zostaną one wydrukowane na certyfikacie po uruchomieniu kodu w przestrzeni kosmicznej, więc sprawdź pisownię!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Naciśnij przycisk **Submit** (Prześlij), aby wprowadzić swój kod. Twój nauczyciel lub mentor otrzyma wiadomość e-mail z potwierdzeniem zgłoszenia.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Jeśli chcesz, możesz udostępnić link do swojego kodu w mediach społecznościowych, aby powiedzieć znajomym, że napisany przez ciebie kod zostanie uruchomiony w kosmosie!
 
 \--- /task \---
