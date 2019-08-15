@@ -50,7 +50,7 @@
 
 يمكن إتمام هذا النشاط خلال فترة الظهيرة. نظِّم طلابك في فرق من أربعة أفراد بحد أقصى، واسمح لنا بإرشادهم خلال كتابة برنامج Python قصير لعرض رسالة شخصية ودرجة حرارة الهواء على نظام Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+اقرأ [وثيقة الإرشادات الرسمية](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} الخاصة بمشروع Mission Zero.
 
 ستحتاج إلى التسجيل في تحدي مشروع Mission Zero للسماح لفريقك/فرقك بالمشاركة.
 
@@ -75,9 +75,9 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ وسيتم إنشاء حساب لك. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
