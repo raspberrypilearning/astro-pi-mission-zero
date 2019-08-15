@@ -1,16 +1,16 @@
 ## Introduksjon
 
-Lyse opp hverdagen til astronautene på den internasjonale romstasjonen ved å vise dem en melding og omgivelsestemperaturen om bord ved hjelp av Astro Pi-datamaskinens Sense HAT.
+Lys opp hverdagen til astronautene på den internasjonale romstasjonen ved å vise dem en melding og omgivelsestemperaturen om bord ved hjelp av Astro Pi-datamaskinens Sense HAT.
 
 Dere bruker Sense HAT-emulatoren online til å lage programmet, så det er ikke nødvendig med ekstra maskinvare - alt gjøres i en nettleser.
 
 Det ferdige programmet vil bli kjørt på den internasjonale romstasjonen (ISS) i verdensrommet! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt!
 
-### Hva du vil lage
+### Hva dere vil lage
 
 Her er et eksempel på hva slags program dere kan lage. Klikk **Run** (Kjør) for å se det i aksjon. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
-\--- kollaps \---
+\--- collapse \---
 
 * * *
 
@@ -26,9 +26,9 @@ Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital S
 
 + [Bruk grunnleggende programmeringskonstruksjoner for å lage enkle programmer](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
-\--- / kollaps \---
+\--- /collapse \---
 
-\--- kollaps \---
+\--- collapse \---
 
 * * *
 
@@ -42,9 +42,9 @@ Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital S
 
 + En nettleser (f.eks. Google Chrome) for å åpne <https://trinket.io/mission-zero>{:target="_blank"}
 
-\--- / kollaps \---
+\--- /collapse \---
 
-## \--- kollaps \---
+## \--- collapse \---
 
 ## title: Notater for lærere og veiledere
 
