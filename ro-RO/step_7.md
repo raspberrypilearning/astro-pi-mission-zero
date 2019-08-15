@@ -6,7 +6,7 @@ Poți combina citirea temperaturii cu o imagine pentru a indica, de asemenea, te
 
 \--- task \---
 
-În partea de jos a programului tău, creează mai multe variabile de culoare pentru orice culori pe care vrei sa le folosești în imaginile tale. Este posibil să fi definit deja unele dintre ele într-un pas anterior. În exemplele noastre vom folosi alb (`a`), galben (`g`), verde (`v`) şi negru/spațiu gol (`n`).
+În partea de jos a programului tău, creează mai multe variabile pentru orice culori pe care vrei sa le folosești în imaginile tale. Este posibil să fi definit deja unele dintre ele într-un pas anterior. În exemplele noastre vom folosi alb (`a`), galben (`g`), verde (`v`) şi negru/spațiu gol (`n`).
 
 ```python
 a = (255, 255, 255)
