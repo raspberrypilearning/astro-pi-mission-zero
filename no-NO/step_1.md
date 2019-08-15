@@ -20,7 +20,7 @@ Dere vil lære om AstroPi-enheten og hvordan dere skal kontrollere den, inkluder
 
 + viser meldinger og farger
 + lager bilder
-+ måle temperaturen
++ måler temperaturen
 
 Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital Skaper Læreplan](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -56,31 +56,31 @@ Du må registrere deg for Mission Zero-utfordringen for at laget/lagene skal kun
 
 + Gå til siden [Trinket-emulator for Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Fyll ut skjemaet og klikk **Submit** (Send)\*.
 
-\* Please note that this registration form is available in English only.
+\ * Vær oppmerksom på at dette registreringsskjemaet kun er tilgjengelig på engelsk.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Feltene på skjemaet er:  
+Teacher/Mentor name (navn på lærer/veileder)  
+Teacher/Mentor email address (epostadresse til lærer/veileder)  
+Teacher/Mentor phone number (telefonnummer til lærer/veileder)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (type organisasjon, for eksempel barneskole, ungdomsskole, bibliotek, kodeklubb, CoderDojo eller lignende)  
+Organisation name (navn på organisasjon)  
+Organisation address (adresse til organisasjon)  
+Organisation city (organisasjonens poststed)  
+Organisation country (organisasjonens land)  
+Organisation postal code (organisasjonens postnummer)  
+Team name (navn på laget/gruppen)  
+Number of team members (antall gruppemedlemmer)  
+Names and ages of team members (navn og alder på gruppemedlemmene)  
+In which language did you access the Mission Zero guidelines? (På hvilket språk leste du retningslinjene for Mission Zero?)
 
 + Det blir opprettet en konto for deg. Hver konto har sin egen **klasseromskode**, og du må fortelle laget/lagene hva koden din er når de er klare til å sende programmene sine.
 
 + Vis klasseromskoden et synlig sted, for eksempel på en tavle eller ved hjelp av en projektor, og start aktiviteten.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Vi har laget [et utskriftsvennlig to-siders hefte](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) som dekker de viktigste punktene om Mission Zero, og som elevene og ungdommene kan bruke sammen med dette nettbaserte prosjektet.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sporingspiksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
