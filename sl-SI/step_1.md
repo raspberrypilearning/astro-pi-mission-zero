@@ -50,7 +50,7 @@ Ta projekt zajema elemente naslednjih sklopov načrta [Raspberry Pi Digital Maki
 
 To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupine z največ štirimi člani, mi pa jih bomo vodili pri pisanju kratkega programa v programskem jeziku Python, s pomočjo katerega bodo na Astro Pi lahko prikazali osebno sporočilo in temperaturo zraka.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Preberite [dokument z uradnimi smernicami](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} za Mission Zero.
 
 Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 
@@ -75,12 +75,12 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Za vas bomo ustvarili račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo pripravljeni za pošiljanje svojih programov.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Kodo učilnice zapišite na vidno mesto, npr. na tablo ali jo projicirajte na platno, in začnite z aktivnostjo.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
-\--- /collapse \---
+\--- /strni \---
 
 ![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
