@@ -1,4 +1,4 @@
-## Adaugă o anumită culoare
+## Adaugă culoare
 
 LED-urile Astro Pi pot afișa și culori. Poți specifica o culoare creând o variabilă și atribuindu-i o valoare de culoare RGB.
 
@@ -17,7 +17,7 @@ Alege o culoare și află valoarea RGB a culorii. Ai putea folosi un [selector d
 Creează o variabilă pentru a stoca culoarea aleasă. De exemplu, dacă ai selectat roșu, ai scrie această linie de cod:
 
 ```python
-red = (255,0,0)
+rosu = (255,0,0)
 ```
 
 \--- /task \---
