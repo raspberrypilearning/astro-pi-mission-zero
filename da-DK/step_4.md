@@ -51,4 +51,4 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 Skift tekst og farve på hilsenen — hvilken besked vil du sende til astronauterne ombord på ISS?
 
-\--- /task \---
+\--- /opgave \---
