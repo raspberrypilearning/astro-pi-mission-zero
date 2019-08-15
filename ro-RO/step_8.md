@@ -1,6 +1,6 @@
 ## Trimite programul tău
 
-Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi difuzat pe Stația Spațială Internațională. În cazul în care codul tău le respectă, regulile din partea de jos a emulatorului se vor schimba în verde atunci când execuţi programul.
+Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi difuzat pe Stația Spațială Internațională. În cazul în care codul tău le respectă, regulile din partea de jos a emulatorului se vor schimba în verde atunci când execuți programul.
 
 ![Validare](images/validation.png)
 
