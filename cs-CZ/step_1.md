@@ -60,27 +60,27 @@ Aby se vaše týmy mohly zúčastnit, musíte se pro Mission Zero zaregistrovat.
 
 \* Povšimněte si prosím, že tento registrační formulář je dostupný pouze v angličtině.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Pole v tomto formuláři zahrnují:  
+Jméno učitele/mentora  
+E-mailovou adresu učitele/mentora  
+Telefonní číslo učitele/mentora  
+Typ organizace (např. škola s primárním vzděláváním, škola se sekundárním vzděláváním, knihovna, Code Club, CoderDojo atd.)  
+Název organizace  
+Adresa organizace  
+Město organizace  
+Země organizace  
+PSČ organizace  
+Název týmu  
+Počet členů týmu  
+Jména a věk členů týmů  
+Ve kterém jazyce jste četli pokyny pro Mission Zero?
 
 + Bude pro vás vytvořen účet. Každý účet má svůj **kód třídy** – až budou vaše týmy připravené odeslat své programy, budete jim muset dát ten váš.
 
 + Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Vytvořili jsme [tisknutelný dvoustránkový leták](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti a mladí lidé jej mohou společně využít s tímto online projektem.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sledovací pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
