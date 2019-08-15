@@ -48,17 +48,17 @@ Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](ht
 
 ## title: Huomautuksia opettajille ja ohjaajille
 
-This activity can be completed in an afternoon. Järjestä oppilaasi enintään neljän henkilön tiimeihin ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma henkilökohtaisen viestin ja Astro Piin ilman lämpötilan näyttämiseksi.
+Tämä toiminta voidaan suorittaa iltapäivän aikana. Järjestä oppilaasi enintään neljän henkilön tiimeihin ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma henkilökohtaisen viestin ja Astro Piin ilman lämpötilan näyttämiseksi.
 
 Lue [virallinen ohjeasiakirja](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zeroa varten.
 
 Sinun on rekisteröidyttävä Mission Zero -haasteeseen tiimisi/tiimiesi osallistumista varten.
 
-+ Ota esille [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Ota esille [Trinket emulator Mission Zero sivu](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Täytä lomake ja napsauta **Submit**\*.
 
-\* Please note that this registration form is available in English only.
+\ * Huomaa, että tämä rekisteröintilomake on saatavana vain englanniksi.
 
 The fields on the form include:  
 Teacher/Mentor name  
