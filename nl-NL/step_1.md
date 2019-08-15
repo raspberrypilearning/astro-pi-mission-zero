@@ -63,16 +63,16 @@ Je moet je aanmelden voor de Mission Zero-uitdaging zodat uw team(s) deel kan/ku
 De velden op het formulier omvatten:  
 Teacher/Mentor name (Naam leraar/mentor )  
 Teacher/Mentor email address (E-mailadres leraar/mentor)  
-Teacher/Mentor phone number (Telefoonnummer leraar/mentor )  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Soort organisatie (bijv. Basisschool, middelbare school , bibliotheek, Code Club, CoderDojo, enz.)  
+Teacher/Mentor phone number (Telefoonnummer leraar/mentor)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Soort organisatie (bijv. basisschool, middelbare school , bibliotheek, Code Club, CoderDojo, enz.)  
 Organisation name (Naam organisatie)  
 Organisation address (Adres organisatie)  
 Organisation city (Plaats organisatie)  
 Organisation country (Land organisatie)  
 Organisation postal code (Postcode organisatie)  
-Team name (tean naam)  
+Team name (teamnaam)  
 Number of team members (Aantal teamleden)  
-Names and ages of team members (Namen en leeftijd teamleden)  
+Names and ages of team members (Namen en leeftijden teamleden)  
 In which language did you access the Mission Zero guidelines (In welke taal heeft u de Mission Zero-richtlijnen bekeken)?
 
 + Er wordt een account voor je gemaakt. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
@@ -83,4 +83,4 @@ In which language did you access the Mission Zero guidelines (In welke taal heef
 
 \--- /collapse \---
 
-![Pixel volgen](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
