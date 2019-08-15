@@ -4,7 +4,7 @@ Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že 
 
 Při vytváření programu budete používat online emulátor desky Sense HAT, takže není potřeba žádný speciální hardware – všechno se to dělá ve webovém prohlížeči.
 
-Váš hotový program bude spuštěn ve vesmíru na Mezinárodní vesmírné stanici (ISS)! Také dostanete speciální certifikát s přesnou polohou ISS v okamžiku, kdy na ní váš program byl spuštěn!
+Váš hotový program bude spuštěn ve vesmíru na Mezinárodní vesmírné stanici (ISS)! Také dostanete speciální certifikát s přesnou polohou ISS v okamžiku, kdy na ní byl spuštěn váš program!
 
 ### Co budeš dělat
 
