@@ -56,30 +56,30 @@ Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre 
 
 + Besuchen Sie die [Trinket Emulator Mission Zero Seite](https://trinket.io/mission-zero/register){:target="_ blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Füllen Sie das Forumlar aus und klicken Sie auf **Submit** (Senden)\*.
 
-\* Please note that this registration form is available in English only.
+\* Bitte beachten Sie, dass das Registrierungs-Formular nur auf Englisch verfügbar ist.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Die Felder in dem Formular enthalten:  
+Name des Lehrers / Mentors  
+E-Mail-Adresse des Lehrers / Mentors  
+Telefonnummer des Lehrers / Mentors  
+Art der Organisation (zum Beispiel Grundschule, weiterführende Schule, Bibliothek, Code Club, CoderDojo)  
+Name der Organisation  
+Adresse der Organisation  
+Stadt der Organisation  
+Land der Organisation  
+Postleitzahl der Organisation  
+Name des Teams  
+Anzahl der Teammitglieder  
+Namen und Alter der Teammitglieder  
+In welcher Sprache haben Sie auf die Mission Zero Richtlinien zugegriffen?
 
 + Ein Konto wird für Sie erstellt. Jedes Konto hat seinen eigenen **Klassencode** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
 
 + Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Schreibwand oder mit einem Projektor, und beginnen Sie mit der Aktivität.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Wir haben ein [druckbares, zweiseitiges Handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, welches die wichtigsten Punkte der Mission Zero abdeckt erstellt, das von den Schülern und Jugendlichen zusammen mit dem Online-Projekt verwendet werden kann.
 
 \--- /collapse \---
 
