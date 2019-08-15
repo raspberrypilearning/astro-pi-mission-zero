@@ -50,7 +50,7 @@ Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Na
 
 To zadanie można wykonać w ciągu jednego popołudnia. Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób. Następnie według naszych wskazówek napiszą oni krótki program Python wyświetlający osobistą wiadomość i temperaturę powietrza w Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Przeczytaj [dokument oficjalnych wytycznych](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} dla Mission Zero.
 
 Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Mission Zero, należy się zarejestrować.
 
@@ -75,9 +75,9 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Zostanie utworzone konto. Każde konto ma własny **kod klasy**, który należy podać swojemu zespołowi/swoim zespołom, kiedy uczestnicy będą gotowi do wysłania swoich programów.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Wyświetl kod klasy w widocznym miejscu, na przykład na tablicy lub za pomocą projektora, i rozpocznij zadanie.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
