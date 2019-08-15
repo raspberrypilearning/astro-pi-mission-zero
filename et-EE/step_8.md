@@ -10,12 +10,12 @@ Sinu koodi esitamiseks rahvusvahelises kosmosejaamas peab see vastama mõnedele 
 
 Samuti pead veenduma, et järgmised kriteeriumid oleks täidetud:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Astronautidele edastatava sõnumi pikkus ei tohi ületada 30 sekundit, kuna see on sinu koodi pikkus, mida saad esitada rahvusvahelises kosmosejaamas
+2. Väldi mistahes sisendit vajava meetodi kasutamist
+3. Impordi ainult moodulitelt `sense_hat`, `time` ja `random`
+4. Ei tohi olla ebaviisakas või sündsusetu
 
-Once the rules are all green, you are ready to submit.
+Kui kõik reeglid on rohelised, oled esitamiseks valmis.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Kuvatakse sinu õpetaja nimi. Kui see on õige, siis klõpsa rohelisel **Continu
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Sisesta oma meeskonna nimi ja meeskonnaliikmete nimed. Peale sinu koodi näitamist kosmoses trükitakse need nimed tunnistusele, seega kontrolli et nimed oleksid õigesti kirjutatud!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Oma koodi sisestamiseks vajuta **Submit** (Esita) nuppu. Sinu õpetajale või mentorile saadetakse seda kinnitav e-kiri.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Soovi korral võid oma koodi linki jagada sotsiaalmeedias andmaks kõigile teada, et sinu kirjutatud koodi näidatakse kosmoses!
 
 \--- /task \---
