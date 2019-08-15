@@ -10,12 +10,12 @@ Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om 
 
 Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Zorg ervoor dat je boodschap aan de astronauten niet langer duurt dan 30 seconden, omdat dit de looptijd is dat je code zal runnen in het ISS
+2. Vermijd het gebruiken van methoden die invoer nodig hebben
+3. Uitsluitend invoeren van de `sense_hat`, `time`, en `random` modules
+4. Zorg ervoor dat je geen vloek erbij doet
 
-Once the rules are all green, you are ready to submit.
+Zodra de regels allemaal groen zijn, ben je klaar om in te dienen.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op gro
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Vermeld je team naam en de namen van de team leden. Deze worden geprint op een certificaat zodra je code in Space runt, dus zorg ervoor dat je ze juist hebt gespeld!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Druk op de **Submit** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je invoer te bevestigen.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in Space zal runnen!
 
 \--- /task \---
