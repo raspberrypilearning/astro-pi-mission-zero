@@ -13,13 +13,13 @@ a = (255, 255, 255)
 n = (0, 0, 0)
 ```
 
-**Notă:** De această dată, este o idee bună să dai variabilelor de culoare câte un nume de o singură literă, deoarece acest lucru va economisi timp la pasul următor, unde le vei tasta de mai multe ori. Mai mult, folosirea literelor unice va face mai ușoară vederea fotografiei pe care o vei desena.
+**Notă:** De această dată, este o idee bună să dai variabilelor de culoare câte un nume de o singură literă, deoarece acest lucru va economisi timp la pasul următor, unde le vei tasta de mai multe ori. Mai mult, folosirea literelor unice va face mai ușoară vederea imaginii pe care o vei desena.
 
 \--- /task \---
 
 \--- task \---
 
-Sub noile variabile, creează o listă cu 64 de elemente. Fiecare element reprezintă un pixel pe matricea LED și corespunde uneia dintre variabilele de culoare pe care le-ai definit. Desenează fotografia ta introducând o variabilă în locul în care dorești să apară culoarea atribuită. Am desenat un astronaut folosind pixeli negri (`n`) ca fundal și albi (`a`) pentru a desena costumul astronauților în spațiu:
+Sub noile tale variabile, creează o listă cu 64 de elemente. Fiecare element reprezintă un pixel pe matricea LED și corespunde uneia dintre variabilele de culoare pe care le-ai definit. Desenează imaginea ta introducând o variabilă în locul în care dorești să apară culoarea atribuită. Am desenat un astronaut folosind pixeli negri (`n`) ca fundal și albi (`a`) pentru a desena costumul astronauților în spațiu:
 
 ```python
 imagine = [
