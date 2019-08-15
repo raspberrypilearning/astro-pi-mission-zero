@@ -38,7 +38,7 @@ b, w, w, w, w, w, w, b
 
 \--- task \---
 
-Voeg een coderegel toe om je foto op het LED-display weer te geven.
+Voeg een coderegel toe om je afbeelding op het LED-display weer te geven.
 
 ```python
 sense.set_pixels(picture)
@@ -54,13 +54,13 @@ Druk op **Run** (Uitvoeren) om je foto te laten zien.
 
 \--- task \---
 
-Misschien wil je een code toevoegen om een ​​korte wachttijd (of `sleep` (slaapstand)) toe te voegen nadat de foto wordt weergegeven. Dit geeft de astronauten de tijd om je foto te bekijken voordat het volgende deel van je bericht verschijnt. Voeg bovenaan je programma toe:
+Misschien wil je wat code toevoegen om een ​​korte wachttijd (of `sleep` (slaapstand)) toe te voegen nadat de afbeelding wordt weergegeven. Dit geeft de astronauten de tijd om je foto te bekijken voordat het volgende deel van je bericht verschijnt. Voeg bovenaan je programma toe:
 
 ```python
 from time import sleep
 ```
 
-Voeg vervolgens aan de lijn na degene die je foto weergeeft deze code toe om twee seconden te wachten:
+Voeg vervolgens aan de regel na degene die je afbeelding weergeeft deze code toe om twee seconden te wachten:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Maak je eigen foto of patroon om aan de astronauten te tonen!
+Maak je eigen afbeelding of patroon om aan de astronauten te tonen!
 
 \--- /task \---
