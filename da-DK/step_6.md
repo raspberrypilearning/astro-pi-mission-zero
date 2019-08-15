@@ -8,9 +8,9 @@ Astro Pi måler temperaturen i ISS i grader Celsius (&deg;C). Idet temperaturern
 
 En del af din mission går ud på at bidrage til besætningens dagligdag ombord på ISS, så det vil berolige dem at få at vide, at temperaturen ombord på rumstationen ligger inden for normalområdet.
 
-## \--- collapse \---
+## \--- kollaps \---
 
-## title: Hvad er temperatur?
+## titel: Hvad er temperatur?
 
 Temperatur er en måling af, hvor varmt noget er. Du har sandsynligvis fået taget din temperatur med et termometer under et besøg hos lægen.
 
@@ -18,9 +18,9 @@ Temperatur er en måling af, hvor varmt noget er. Du har sandsynligvis fået tag
 
 For at være mere præcis er temperatur en måling af mængden af varmeenergi i et stof. Du ved, at en isterning er fast, men når den varmes op, dvs. optager varmeenergi fra omgivelserne, smelter den og bliver flydende. Det skyldes, at når et stof optager eller afgiver tilstrækkeligt med varmeenergi, ændres stoffets tilstand; det går eksempelvis fra at være fast til at være flydende.
 
-\--- /collapse \---
+\--- /kollaps \---
 
-\--- task \---
+\--- opgave \---
 
 Tilføj denne kode for at foretage en temperaturaflæsning:
 
@@ -30,9 +30,9 @@ temp = sense.temperature
 
 Denne linje måler den aktuelle temperatur og lagrer den målte værdi i variablen `temp`.
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 Temperaturen registreres meget præcist, dvs., at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
 
@@ -40,9 +40,9 @@ Temperaturen registreres meget præcist, dvs., at den lagrede værdi har et stor
 temp = round( sense.temperature, 1 )
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
 For at få vist den aktuelle temperatur som rullende besked på displayet skal du tilføje denne kodelinje:
 
@@ -52,20 +52,20 @@ sense.show_message( str(temp) )
 
 Delen `str()` konverterer temperaturen fra et tal til tekst, så Astro Pi kan vise den.
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-Du kan også vise temperaturen som del af en anden besked ved at kæde delene af din besked sammen med et `+`.
+Du kan også vise temperaturen som en del af en anden besked ved at sætte delene af din besked sammen med et `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
-\--- /task \---
+\--- /opgave \---
 
-Den rigtige Astro Pi måler temperaturen omkring den, men du kan flytte temperaturskyderen på Sense HAT-efterligneren for at simulere temperaturændringer og teste din kode.
+Den rigtige Astro Pi måler temperaturen omkring den, men du kan flytte temperaturskyderen på Sense HAT-emulatoren for at simulere temperaturændringer og teste din kode.
 
 ![Temperaturskyder](images/temperature-slider.png)
 
-**Bemærk:** Du undrer dig måske over, hvorfor temperaturskyderen viser temperaturen som et helt tal, men den aflæsning, du får, er med decimaler. Efterligneren simulerer den lille unøjagtighed fra den rigtige sensor, så den temperaturmåling, du ser, kan være en lille smule større eller mindre end den værdi, du har indstillet med skyderen.
+**Bemærk:** Du undrer dig måske over, hvorfor temperaturskyderen viser temperaturen som et helt tal, men den aflæsning, du får, er med decimaler. Emulatoren simulerer den lille unøjagtighed fra den rigtige sensor, så den temperaturmåling, du ser, kan være en lille smule større eller mindre end den værdi, du har indstillet med skyderen.
