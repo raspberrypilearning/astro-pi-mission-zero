@@ -50,7 +50,7 @@ Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital 
 
 Cette activité peut être réalisée en une après-midi. Organisez vos élèves en équipes de quatre personnes maximum et laissez-nous les guider dans la rédaction d’un court programme Python qui affiche un message personnel et la température de l’air sur l'Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Lisez le [document des directives officielles](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pour Mission Zero.
 
 Vous devez vous inscrire au challenge Mission Zero pour permettre à votre ou vos équipes de participer.
 
@@ -75,12 +75,12 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Un compte sera créé pour vous. Chaque compte a son propre **code de salle de classe**, et vous devez donner ce code à votre ou vos équipes quand elles sont prêtes à soumettre leurs programmes.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Affichez votre code de salle de classe quelque part où il sera visible, par exemple sur un tableau blanc ou en utilisant un projecteur, et commencez l'activité.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Pixel de suivi](https://code.org/api/hour/begin_raspberrypi_astropi.png)
