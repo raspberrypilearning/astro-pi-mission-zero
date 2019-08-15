@@ -56,9 +56,9 @@ Necesitarás registrar el desafío Mission Zero para que tus equipos puedan part
 
 + Visita la [página Mission Zero del emulador de Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Rellena el formulario y haz clic en **Submit**\* (Enviar).
 
-\* Please note that this registration form is available in English only.
+\* Ten en cuenta que este formulario de registro solo está disponible en inglés.
 
 The fields on the form include:  
 Teacher/Mentor name  
