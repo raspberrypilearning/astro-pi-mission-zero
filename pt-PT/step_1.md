@@ -50,13 +50,13 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry 
 
 Esta atividade pode ser concluída em uma tarde. Organize os seus alunos em equipas de até quatro pessoas, e deixe-nos guiá-los por meio da criação de um programa em Python para mostrar uma mensagem pessoal e a temperatura do ar no Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Leia o documento [diretrizes oficiais](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} do Mission Zero.
 
 Será necessário registar-se para o desafio Mission Zero\--- challenge \--- para permitir que a sua equipe participe.
 
 + Siga para a página [emulador de Trinket Misson Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Preencha o formulário e clique **Submit** para enviar\*.
 
 \* Please note that this registration form is available in English only.
 
@@ -75,9 +75,9 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Será criada uma conta para si. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
