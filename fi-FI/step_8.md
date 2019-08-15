@@ -10,12 +10,12 @@ On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lä
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-4. Make sure you don't include any profanity
+1. Varmista, että viestisi astronauteille ajaa korkeintaan 30 sekuntia, sillä tämä on kuinka kauan koodiasi ajetaan ISS:llä
+2. Vältä käyttämästä menetelmiä, jotka tarvitsevat syöttöä
+3. Tuonti vain moduuleista `sense_hat`, `time` ja `random`
+4. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
 
-Once the rules are all green, you are ready to submit.
+Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään.
 
 \--- task \---
 
@@ -35,18 +35,18 @@ Opettajasi nimi ilmestyy esille. Jos se on oikea nimi, napsauta vihreää painik
 
 \--- task \---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodiasi on käytetty avaruudessa, joten varmista, että ne on kirjoitettu oikein!
 
 \--- /task \---
 
 \--- task \---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Paina **Submit**-painiketta koodisi kirjoittamiseksi. Opettajasi tai ohjaajasi saa sähköpostin merkintäsi vahvistamiseksi.
 
 \--- /task \---
 
 \--- task \---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
 
 \--- /task \---
