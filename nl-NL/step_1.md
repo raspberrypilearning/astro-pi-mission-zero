@@ -56,9 +56,9 @@ U moet u aanmelden voor de Mission Zero-uitdaging zodat uw team / s deel kan / k
 
 + Ga naar de [rinket emulator Mission Zero-pagina](https://trinket.io/mission-zero/register) {: Target = "_ blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Vul het formulier in en klik op **Verzenden** \ *.
 
-\* Please note that this registration form is available in English only.
+\* Let op dat dit registratieformulier alleen in het Engels beschikbaar is.
 
 The fields on the form include:  
 Teacher/Mentor name  
