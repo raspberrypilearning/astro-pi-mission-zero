@@ -50,7 +50,7 @@
 
 Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες των τεσσάρων και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και τη θερμοκρασία αέρα στο Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} για το Mission Zero.
 
 Θα πρέπει να εγγραφείτε στην πρόκληση Mission Zero για να μπορέσουν οι ομάδες σας να συμμετέχουν.
 
@@ -75,12 +75,12 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ Θα δημιουργηθεί ένας λογαριασμός για εσάς. Κάθε λογαριασμός έχει τον δικό του **κωδικό τάξης**, τον οποίον θα πρέπει να δώσετε στις ομάδες σας όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Προβάλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής, και ξεκινήστε τη δραστηριότητα.
     
     We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Εντοπίζοντας εικονοστοιχεία](https://code.org/api/hour/begin_raspberrypi_astropi.png)
