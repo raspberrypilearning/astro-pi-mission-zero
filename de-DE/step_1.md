@@ -54,7 +54,7 @@ Lesen Sie das [official guidelines document](https://astro-pi.org/wp-content/upl
 
 Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre Teams teilnehmen können.
 
-+ Besuchen Sie die [Trinket Emulator Mission Zero Seite](https://trinket.io/mission-zero/register){:target="_ blank"}.
++ Besuchen Sie die [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_ blank"} (Trinket Emulator Mission Zero Seite).
 
 + Füllen Sie das Forumlar aus und klicken Sie auf **Submit** (Senden)\*.
 
@@ -77,9 +77,9 @@ In which language did you access the Mission Zero guidelines? (In welcher Sprach
 
 + Ein Konto wird für Sie erstellt. Jedes Konto hat seinen eigenen **Klassencode** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
 
-+ Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Schreibwand oder mit einem Projektor, und beginnen Sie mit der Aktivität.
++ Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Tafel oder mit einem Projektor, und beginnen Sie mit der Aktivität.
     
-    Wir haben ein [druckbares, zweiseitiges Handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, welches die wichtigsten Punkte der Mission Zero abdeckt erstellt, das von den Schülern und Jugendlichen zusammen mit dem Online-Projekt verwendet werden kann.
+    Wir haben ein [druckbares, zweiseitiges Handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} erstellt, welches die wichtigsten Punkte der Mission Zero abdeckt. Es kann von den Schülern und Jugendlichen zusammen mit dem Online-Projekt verwendet werden.
 
 \--- /collapse \---
 
