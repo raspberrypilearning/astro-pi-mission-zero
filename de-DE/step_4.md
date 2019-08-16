@@ -17,7 +17,7 @@ Wähle eine Farbe und ermittle den RGB-Wert dieser Farbe. Du könntest zur Hilfe
 Erstelle eine Variable, um deine gewählte Farbe zu speichern. Wenn du beispielsweise rot gewählt hast, würdest du diese Codezeile schreiben:
 
 ```python
-red = (255,0,0)
+rot = (255,0,0)
 ```
 
 \--- /task \---
@@ -27,8 +27,8 @@ red = (255,0,0)
 Du kannst nun deinen Text in der Farbe deiner Wahl anzeigen! Um dem Programm mitzuteilen, dass es die von dir erstellte Farbe verwenden soll, füge einen `text_colour` (Textfarbe) Parameter zum Code, der deinen Text anzeigt, hinzu:
 
 ```python
-red = (255,0,0)
-sense.show_message("Astro Pi", text_colour=red)
+rot = (255,0,0)
+sense.show_message ("Astro Pi", text_colour = rot)
 ```
 
 \--- /task \---
