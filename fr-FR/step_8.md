@@ -10,9 +10,9 @@ Ton code doit respecter quelques règles pour que tu puisses le soumettre et le 
 
 Assure-toi également que les critères suivants sont satisfaits :
 
-1. Assure-toi que ton message pour les astronautes ne dure pas plus de 30 secondes, car c'est la durée d'exécution de ton code dans la SSI
+1. Assure-toi que ton message pour les astronautes ne dure pas plus de 30 secondes, car c'est la durée d'exécution de ton code dans l'ISS
 2. Évite d'utiliser des méthodes nécessitant une saisie de donnée
-3. Pour les importations n'tilisent que des données des modules `sense_hat`, `time`, et `random`
+3. Pour les importations n'utilisent que des données des modules `sense_hat`, `time`, et `random`
 4. Assure-toi de ne pas inclure de juron
 
 Une fois que toutes les règles sont passées au vert, tu es prêt à faire ta soumission.
@@ -27,7 +27,7 @@ Les **Notes pour les enseignants et les mentors** figurent dans l'étape [Introd
 
 \--- task \---
 
-Le nom de ton enseignant va s'afficher. Si c'est le bon nom, clique sur le bouton vert **Continue to form ** (Continuer vers le formulaire).
+Le nom de ton enseignant va s'afficher. Si c'est le bon nom, clique sur le bouton vert **Continue to form** (Continuer vers le formulaire).
 
 ![Continuer vers le formulaire](images/continue-to-form.png)
 
@@ -35,13 +35,13 @@ Le nom de ton enseignant va s'afficher. Si c'est le bon nom, clique sur le bouto
 
 \--- task \---
 
-Donne le nom de ton équipe et les noms des membres de l'équipe. Ces noms seront imprimés sur le certificat une fois que ton code est exécuté dans l'espace, alors assure-toide les épeler correctement !
+Donne le nom de ton équipe et les noms des membres de l'équipe. Ces noms seront imprimés sur le certificat une fois que ton code est exécuté dans l'espace, alors assure-toi de les épeler correctement !
 
 \--- /task \---
 
 \--- task \---
 
-Appuie sur le bouton **Submit (Soumettre)** pour donner ton code. Ton enseignant ou ton mentor recevra un e-mail de confirmation pour ton inscription.
+Appuie sur le bouton **Submit** (Soumettre) pour donner ton code. Ton enseignant ou ton mentor recevra un e-mail de confirmation pour ton inscription.
 
 \--- /task \---
 
