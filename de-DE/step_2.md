@@ -8,7 +8,7 @@ Für diese Mission wirst du den Sense HAT Emulator verwenden. Der Emulator ist e
 
 ![Sense HAT Emulator](images/sense-hat-emulator.png)
 
-Es gibt einige Unterschiede zwischen dem echten und dem emulierten Sense HAT:
+Es gibt einige wenige Unterschiede zwischen dem echten und dem emulierten Sense HAT:
 
 - Auf dem Emulator kannst du die Temperatur, den Druck und die Luftfeuchtigkeit mit Hilfe von Schiebereglern selbst einstellen, während der echte Sense HAT im Astro Pi Sensoren verwendet, um diese Parameter in seiner Umgebung zu messen.
 
