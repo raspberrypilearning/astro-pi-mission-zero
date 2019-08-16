@@ -60,20 +60,18 @@
 
 \* Please note that this registration form is available in English only.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Τα πεδία στη φόρμα περιλαμβάνουν:   
+Όνομα Δασκάλου/Mentor  
+Διεύθυνση ηλεκτρονικού ταχυδρομείου Δασκάλου/Mentor<0 /> Αριθμός τηλεφώνου Δασκάλου/Mentor<0 /> Τύπος Οργανωτικής Μονάδας (π.χ. δημοτικό σχολείο, γυμνάσιο, βιβλιοθήκη, Code Club, CoderDojo, κλπ.)  
+Επωνυμία Οργανωτικής Μονάδας  
+Διεύθυνση Οργανωτικής Μονάδας  
+Πόλη Οργανωτικής Μονάδας  
+Χώρα Οργανωτικής Μονάδας  
+Ταχυδρομικός Κώδικας Οργανωτικής Μονάδας  
+Όνομα ομάδας  
+Αριθμός μελών ομάδας  
+Ονόματα και ηλικίες μελών ομάδας  
+Σε ποια γλώσσα έχετε πρόσβαση στις οδηγίες του Mission Zero;
 
 + Θα δημιουργηθεί ένας λογαριασμός για εσάς. Κάθε λογαριασμός έχει τον δικό του **κωδικό τάξης**, τον οποίον θα πρέπει να δώσετε στις ομάδες σας όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
 
