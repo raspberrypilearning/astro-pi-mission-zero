@@ -1,4 +1,4 @@
-## Afficher un message
+## Affiche un message
 
 \--- task \---
 
@@ -14,7 +14,7 @@ sense.set_rotation(270)
 
 ![émulateur Sense HAT](images/sense-hat-emulator2.png)
 
-Ce code établit la connexion à l'Astro Pi et assure que l'affichage LED de l'Astro Pi s'effectue dans le bon sens. Laisse là ce code car tu en auras besoin.
+Ce code établit la connexion à l'Astro Pi et assure que l'affichage LED de l'Astro Pi s'effectue dans le bon sens. Laisse ce code ici car tu en auras besoin.
 
 \--- /task \---
 
