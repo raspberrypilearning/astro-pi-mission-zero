@@ -4,7 +4,7 @@
 
 Tu va utiliser l'émulateur Sense HAT en ligne pour créer ton programme, aucun matériel supplémentaire n'est nécessaire - tout est fait dans un navigateur Web.
 
-Ton programme achevé sera exécuté dans l'espace dans la Station spatiale internationale (ISS) ! Tu recevras aussi un certificat spécial indiquant exactement où se trouvait la SSI lors de l'exécution de ton programme !
+Ton programme achevé sera exécuté dans l'espace dans la Station spatiale internationale (ISS) ! Tu recevras aussi un certificat spécial indiquant exactement où se trouvait l'ISS lors de l'exécution de ton programme !
 
 ### Ce que tu feras
 
@@ -24,7 +24,7 @@ Tu vas découvrir l'unité AstroPi et apprendre à l'utiliser et à faire les ac
 
 Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [ Utilise des concepts de base de programmation pour créer des programmes simples ](https://curriculum.raspberrypi.org/programming/creator/) {: target = "_ blank"}
++ [Utilise des concepts de base de programmation pour créer des programmes simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,7 +32,7 @@ Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital 
 
 * * *
 
-## title: Ce qu'il faut avoir
+## title: Ce qu'il te faut
 
 ### Matériel informatique
 
@@ -50,9 +50,9 @@ Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital 
 
 Cette activité peut être réalisée en une après-midi. Organisez vos élèves en équipes de quatre personnes maximum et laissez-nous les guider dans la rédaction d’un court programme Python qui affiche un message personnel et la température de l’air sur l'Astro Pi.
 
-Lisez le [document des directives officielles](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pour Mission Zero.
+Lisez le [document des directives officielles](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pour la Mission Zero.
 
-Vous devez vous inscrire au challenge Mission Zero pour permettre à votre ou vos équipes de participer.
+Vous devez vous inscrire au défi Mission Zero pour permettre à votre ou vos équipes de participer.
 
 + Allez à la page [Emulateur Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
