@@ -60,26 +60,26 @@ Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete pri
 
 \ * Si informa che questo modulo di registrazione è disponibile solo in lingua inglese.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Il modulo comprende i seguenti campi da compilare:  
+Teacher/Mentor name (nome dell'insegnante/tutor)  
+Teacher/Mentor email address (indirizzo email dell'insegnante/tutor)  
+Teacher/Mentor phone number (numero di telefono dell'insegnante/tutor)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (tipo di organizzazione per esempio: scuola primaria, scuola secondaria, biblioteca, Code Club, CoderDojo, etc...)  
+Organisation name (nome dell'organizzazione)  
+Organisation address (indirizzo dell'organizzazione)  
+Organisation city (città dell'organizzazione)  
+Organisation country (nazione dell'organizzazione)  
+Organisation postal code (codice postale dell'organizzazione  
+Team name (nome del gruppo)  
+Number of team members (numero di membri del team)  
+Names and ages of team members (nomi ed età dei membri)  
+In which language did you access the Mission Zero guidelines? (In che lingua hai letto le linee guida di Mission Zero?)
 
 + Questo creerà il vostro account. Ad ogni account viene assegnato uno specifico **codice di classe** che i vostri team dovranno utilizzare quando sono pronti a inviare il loro programma.
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Abbiamo creato [un volantino di due pagine stampabile](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_ blank"} che copre i punti chiave di Mission Zero che studenti e giovani possono utilizzare insieme a questo progetto online.
 
 \--- /collapse \---
 
