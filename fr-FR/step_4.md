@@ -17,7 +17,7 @@ Choisis une couleur et découvre la valeur RGB de cette couleur. Tu peux utilise
 Crée une variable qui servira à stocker la couleur que tu as choisi. Par exemple, si tu as choisi la couleur rouge, tu vas écrire cette ligne de code :
 
 ```python
-rouge = (255,0,0)
+red = (255,0,0)
 ```
 
 \--- /task \---
@@ -27,8 +27,8 @@ rouge = (255,0,0)
 Maitenant tu peux afficher ton texte dans la couleur de ton choix ! Pour indiquer au programme d'utiliser la couleur que tu as créée, ajoute le paramètre `text_colour` (couleur du texte) à la ligne de code qui affiche ton texte :
 
 ```python
-roouge = (255,0,0)
-sense.show_message("Astro Pi", text_colour=rouge)
+red = (255,0,0)
+sense.show_message("Astro Pi", text_colour=red)
 ```
 
 \--- /task \---
@@ -40,9 +40,9 @@ sense.show_message("Astro Pi", text_colour=rouge)
 Tu peux également modifier la couleur de fond de l'écran. Choisis une autre couleur et crée une autre variable pour cette couleur. Pour indiquer au programme d'utiliser la couleur de fond que tu as choisie, ajoute le paramètre `back_colour` (couleur de fond) à ton code :
 
 ```python
-rouge = (255,0,0)
-vert = (0,255,0)
-sense.show_message("Astro Pi", text_colour=rouge, back_colour=vert)
+red = (255,0,0)
+green = (0,255,0)
+sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 ```
 
 \--- /task \---
