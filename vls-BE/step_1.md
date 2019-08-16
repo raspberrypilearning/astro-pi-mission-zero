@@ -18,69 +18,69 @@ Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om
 
 Je zult leren over AstroPi unit en hoe het te besturen, waaronder hoe:
 
-+ toon boodschappen en kleuren
-+ ontwerp beelden
-+ meet de temperatuur
++ boodschappen en kleuren tonen
++ beelden ontwerpen
++ de temperatuur meten
 
 Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ Gebruik basic programming constructies om eenvoudige programma's te ontwerpen<0> {target="_blank"}</li> </ul> 
++ [Gebruik basis programmeerconstructies om eenvoudige programma's te ontwerpen](https://curriculum.raspberrypi.org/programming/creator/) {:target="_blank"}
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Wat je nodig hebt
+
+### Hardware
+
++ Een computer met een internet verbinding
+
+### Software
+
++ Een web browser (bijv. Google Chrome) om https://trinket.io/mission-zero<0>{target="-blank"} te openen</li> </ul> 
     
     \--- /collapse \---
     
-    \--- collapse \---
+    ## \--- collapse \---
     
-    * * *
+    ## title: Aantekeningen voor leraars en mentors
     
-    ## title: Wat je nodig hebt
+    Deze activiteit kan worden afgerond in een namiddag. Organiseer je studenten in teams van maximum vier, en laat ons hun begeleiden met het schrijven van een kort Python programma om een persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
     
-    ### Hardware
+    Lees het [officiele richtlijnen document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
     
-    + Een computer met een internet verbinding
+    Je moet je registreren voor de Mission Zero uitdaging om je team(s) te laten deelnemen.
     
-    ### Software
-    
-    + Een web browser (bijv. Google Chrome) om https://trinket.io/mission-zero<0>{target="-blank"} te openen</li> </ul> 
+    + Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
+        
+        + Vul het formulier in en klik **Submit**\*.</ul> 
+        
+        \* Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
+        
+        De velden op het formulier zijn:  
+        Teacher/Mentor name  
+        (Naam van de leraar/mentor) Teacher/Mentor email address  
+        (Emailadres van de leraar/mentor) Teacher/Mentor phone number  
+        (Telefoonnummer van de leraar/mentor) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+        (Soort organisatie (bijv. lagere school, middelbare school, bibliotheek, Code Club, CoderDojo, enz.)) Organisation name  
+        (Naam van de organisatie) Organisation address  
+        (Adres van de organisatie) Organisation city  
+        (Stad van de organisatie) Organisation country  
+        (Land van de organisatie) Organisation postal code  
+        (Postcode van de organisatie) Team name  
+        (Naam van het team) Number of team members  
+        (Aantal teamleden) Names and ages of team members  
+        (Namen en leeftijden van de teamleden) In which language did you access the Mission Zero guidelines? (In welke taal had je toegang tot de richtlijnen voor Mission Zero?)
+        
+        + Een account wordt voor je opgericht. Elk account heeft zijn eigen **variatiecode**, en je moet je team(s) laten weten welke die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
+        
+        + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.
+            
+            We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
         
         \--- /collapse \---
         
-        ## \--- collapse \---
-        
-        ## title: Aantekeningen voor leraars en mentors
-        
-        Deze activiteit kan worden afgerond in een namiddag. Organiseer je studenten in teams van ten hoogste vier, en laat ons hun loodsen met het schrijven van een kort Python programma om een persoonlijke boodschap te laten zien en de lucht temperatuur op de Astro Pi.
-        
-        Lees het [officiele richtlijnen document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
-        
-        Je moet registreren voor de Mission Zero uitdaging om je team/s te laten deelnemen.
-        
-        + Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
-            
-            + Vul het formulier in en klik **Submit**\*.</ul> 
-            
-            \* Please note that this registration form is available in English only.
-            
-            The fields on the form include:  
-            Teacher/Mentor name  
-            Teacher/Mentor email address  
-            Teacher/Mentor phone number  
-            Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-            Organisation name  
-            Organisation address  
-            Organisation city  
-            Organisation country  
-            Organisation postal code  
-            Team name  
-            Number of team members  
-            Names and ages of team members  
-            In which language did you access the Mission Zero guidelines?
-            
-            + Een rekening wordt voor je opgericht. Elke rekening heeft zijn eigen **variatiecode**, en je moet je team/s laten weten wat die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
-            
-            + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.
-                
-                We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
-            
-            \--- /collapse \---
-            
-            ![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+        ![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
