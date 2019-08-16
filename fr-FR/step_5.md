@@ -1,4 +1,4 @@
-## Afficher une image
+## Affiche une image
 
 Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de salutation pour les astronautes pourrait peut-être inclure une image ou un motif avec le texte, ou à la place du texte ?
 
@@ -6,11 +6,11 @@ Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de sal
 
 \--- task \---
 
-En bas de ton programme, crée des variables pour les couleurs que tu veux définir et utiliser pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`w` ) et noir (`b` ).
+En bas de ton programme, crée des variables pour les couleurs que tu veux définir pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`b` ) et noir (`n` ).
 
 ```python
-w = (255, 255, 255)
-b = (0, 0, 0)
+b = (255, 255, 255)
+n = (0, 0, 0)
 ```
 
 **Remarque :** Cette fois-ci, il est conseillé de donner aux variables définies pour les couleurs des noms se limitant à une lettre, car cela permettra de gagner du temps à l'étape suivante, quand tu les saisiras de nombreuses fois. De plus, en utilisant des noms à une seule lettre tu pourras voir plus facilement l'image que tu vas dessiner.
