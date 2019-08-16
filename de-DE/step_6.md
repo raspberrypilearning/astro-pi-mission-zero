@@ -12,7 +12,7 @@ Teil deiner Mission ist es, einen Beitrag zum täglichen Leben der Crew an Bord 
 
 ## title: Was ist Temperatur?
 
-Die Temperatur ist das Maß dafür, wie heiß etwas ist. Bei einem Arztbesuch wurde bei dir bestimmt schon einmal die Temperatur gemessen.
+Die Temperatur ist das Maß dafür, wie heiß etwas ist. Bei einem Arztbesuch wurde bei dir bestimmt schon einmal mit einem Thermometer die Temperatur gemessen.
 
 ![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
