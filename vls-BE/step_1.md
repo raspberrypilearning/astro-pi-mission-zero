@@ -4,7 +4,7 @@ De dagelijkse routine van de astronauten opfleuren in het Internationale Space S
 
 Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, er is dus geen extra hardware nodig - alles wordt gedaan in de web browser.
 
-Je voltooide programma zal in Space werken in het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat dat laat zien waar het ISS precies was toen je programma aan het werken was!
+Je voltooide programma zal in de ruimte werken in het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat dat laat zien waar het ISS precies was toen jouw programma aan het werken was!
 
 ### Wat je gaat maken
 
@@ -16,11 +16,11 @@ Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om
 
 ## title: Wat je zult leren
 
-Je zult leren over AstroPi unit en hoe het te besturen, waaronder hoe:
+Je zult leren over AstroPi unit en hoe het te besturen, waaronder hoe je:
 
-+ boodschappen en kleuren tonen
-+ beelden ontwerpen
-+ de temperatuur meten
++ boodschappen en kleuren kan tonen
++ beelden kan ontwerpen
++ de temperatuur kan meten
 
 Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -36,7 +36,7 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 
 ### Hardware
 
-+ Een computer met een internet verbinding
++ Een computer met een internetverbinding
 
 ### Software
 
