@@ -59,7 +59,7 @@ La partie `str()` convertit la température d'un nombre en texte pour que l'Astr
 Tu peux également afficher la température à l'intérieur d’un autre message en concaténant les différentes parties de ton message avec un `+` .
 
 ```python
-sense.show_message( "Il fait " + str(temp) + " degrees" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
