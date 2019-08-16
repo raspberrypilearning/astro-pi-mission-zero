@@ -24,7 +24,7 @@ red = (255,0,0)
 
 \--- task \---
 
-Du kannst nun deinen Text in der Farbe deiner Wahl anzeigen! Um dem Programm mitzuteilen, dass es die von dir erstellte Farbe verwenden soll, füge einen `text_colour` (Textfarbe) Parameter zum Code hinzu, der deinen Text anzeigt:
+Du kannst nun deinen Text in der Farbe deiner Wahl anzeigen! Um dem Programm mitzuteilen, dass es die von dir erstellte Farbe verwenden soll, füge einen `text_colour` (Textfarbe) Parameter zum Code, der deinen Text anzeigt, hinzu:
 
 ```python
 red = (255,0,0)
@@ -40,9 +40,9 @@ sense.show_message("Astro Pi", text_colour=red)
 Du kannst auch die Hintergrundfarbe des Displays ändern. Wähle eine andere Farbe und erstelle eine weitere Variable, um diese Farbe zu speichern. Um dem Programm zu sagen, dass es die gewählte Hintergrundfarbe verwenden soll, füge den Parameter `back_colour` (Hintergrundfarbe) zu deinem Code hinzu:
 
 ```python
-red = (255,0,0)
-green = (0,255,0)
-sense.show_message("Astro Pi", text_colour=red, back_colour=green)
+rot = (255,0,0)
+gruen = (0,255,0)
+sense.show_message("Astro Pi", text_colour=rot, back_colour=gruen)
 ```
 
 \--- /task \---
