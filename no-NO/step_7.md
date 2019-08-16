@@ -50,7 +50,7 @@ w, w, w, w, w, w, w, w
 
 \--- task \---
 
-Legg til koder for å få temperaturen:
+Legg til kode for å få temperaturen:
 
 ```python
 temp = sense.temperature
