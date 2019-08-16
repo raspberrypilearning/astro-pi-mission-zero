@@ -1,6 +1,6 @@
 ## Einführung
 
-Erhelle den Alltag der Astronauten auf der Internationalen Raumstation, indem du ihnen mit dem Sense HAT des Astro Pi Computers eine Nachricht sowie die Umgebungstemperatur an Bord der Raumstation übermittelst.
+Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des Astro Pi Computers eine Nachricht sowie die Umgebungstemperatur an Bord der Raumstation übermittelst.
 
 Dein Programm erstellst du mit dem Online Sense HAT Emulator, so dass keine zusätzliche Hardware benötigt wird — alles geschieht in einem Webbrowser.
 
@@ -50,7 +50,7 @@ Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digit
 
 Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, womit man eine persönliche Nachricht und die Lufttemperatur an den Astro Pi schicken kann.
 
-Lesen Sie das [Dokument offizieller Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
+Lesen Sie das [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} (Dokument offizieller Richtlinien) für Mission Zero.
 
 Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre Teams teilnehmen können.
 
