@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Klicke auf **Run** (Ausführen) und schau wie die Nachricht `Astro Pi` über den LED-Bildschirm läuft.
 
-![Nachrichtencode anzeigen, Auf Ausführen klicken](images/show-message-code-annotated.PNG)
+![Nachrichtencode anzeigen, auf Ausführen klicken](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
 ![Lauftext](images/scroll-message.gif)
 
-Um eine andere Nachricht anzuzeigen, kannst du beliebig zwischen den Anführungszeichen schreiben (`""`).
+Um eine andere Nachricht anzuzeigen, kannst du etwas Beliebiges zwischen die Anführungszeichen schreiben (`""`).
 
 \--- collapse \---
 
@@ -63,7 +63,7 @@ Der Sense HAT kann nur den Zeichensatz Latin 1 anzeigen, sodass nur die folgende
 
 \--- task \---
 
-Du kannst auch die Geschwindigkeit der Nachricht ändern, die über den Bildschirm läuft. Füge `scroll_speed` (Laufgeschwindigkeit) zu der Codezeile, die du schon hast, folgendermaßen hinzu:
+Du kannst auch die Geschwindigkeit der Nachricht ändern, mit der sie über den Bildschirm läuft. Füge `scroll_speed` (Laufgeschwindigkeit) zu der Codezeile, die du schon hast, folgendermaßen hinzu:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
