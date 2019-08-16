@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Utilise le curseur de température pour définir une température sur l'émulateur. Exécute ton programme et vérifie que l'image que tu as chosie pour cette température est correctement affichée.
+Utilise le curseur de température pour définir une température sur l'émulateur. Exécute ton programme et vérifie que l'image que tu as choisie pour cette température est correctement affichée.
 
 \--- /task \---
 
