@@ -1,10 +1,10 @@
 ## Introductie
 
-De dagelijkse routine van de astronauten opfleuren in het Internationale Space Station door hun een boodchap en de omgevingslucht temperatuur te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
+De dagelijkse routine van de astronauten opfleuren in het Internationale Space Station door hun een boodschap en de omgevingsluchttemperatuur te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
 
-Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, dus geen extra hardware is nodig - alles wordt gedaan in de web browser.
+Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, er is dus geen extra hardware nodig - alles wordt gedaan in de web browser.
 
-Je voltooide programma zal in Space runnen in het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat dat laat zien waar de ISS precies was toen je programma aan het runnen was!
+Je voltooide programma zal in Space werken in het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat dat laat zien waar het ISS precies was toen je programma aan het werken was!
 
 ### Wat je gaat maken
 
