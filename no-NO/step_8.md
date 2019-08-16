@@ -1,4 +1,4 @@
-## Sende inn bidraget
+## Sende inn bidraget ditt
 
 Det er noen regler for hvordan koden må være for at den kan sendes til å bli kjørt på den internasjonale romstasjonen. Hvis koden overholder dem, vil reglene nederst på emulatoren lyse grønt når dere kjører programmet.
 
@@ -19,7 +19,7 @@ Når alle reglene er grønne, er dere klare til å sende.
 
 \--- task \---
 
-Skriv inn klasseromskoden i feltet nederst - læreren vil opplyse hva koden er.
+Skriv inn klasseromskoden i feltet nederst - læreren/veilederen vil opplyse hva koden er.
 
 **Notater for lærere og veiledere** finnes under [Introduksjon](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
@@ -27,7 +27,7 @@ Skriv inn klasseromskoden i feltet nederst - læreren vil opplyse hva koden er.
 
 \--- task \---
 
-Lærerens navn vises. Hvis det er riktig navn, klikk på den grønne **Fortsett til skjema**-knappen.
+Lærerens navn vises. Hvis det er riktig navn, klikk på den grønne **Continue to form** (Fortsett til skjema)-knappen.
 
 ![Fortsett til skjemaet](images/continue-to-form.png)
 
