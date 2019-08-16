@@ -1,4 +1,4 @@
-## Soumission de ta proposition
+## Envoie ton programme
 
 Ton code doit respecter quelques règles pour que tu puisses le soumettre et le faire exécuter dans la station spatiale internationale. Si ton code les respectent, les règles en bas de l'émulateur s'allument en vert lorsque tu exécutes le programme.
 
