@@ -4,7 +4,7 @@
 
 Open de [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} voor het Mission Zero project.
 
-Je zult zien dat drie lijnen van code automatisch voor je werden toegevoegd:
+Je zult zien dat drie lijnen code automatisch voor je werden toegevoegd:
 
 ```python
 from sense_hat import SenseHat
@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![sense Hat emulator](images/sense-hat-emulator2.png)
 
-Deze code verbindt aan de Astro Pi en verzekert dat het Astro Pi's led-kleurenbeeldscherm op de juiste manier wordt weergegeven. Laat de code daar staan, omdat je hem later nodig hebt.
+Deze code verbindt met de Astro Pi en zorgt ervoor dat het Astro Pi's led-kleurenbeeldscherm op de juiste manier wordt weergegeven. Laat de code daar staan, omdat je hem later nodig hebt.
 
 \--- /task \---
 
 \--- task \---
 
-Misschien kun je een leuke begroeting op de ISS achterlaten voor de astronauten die dichtbij de Astro Pi werken? Laten we een boodschap scrollen op het beeldscherm.
+Misschien kun je een leuke begroeting achterlaten voor de astronauten op het ISS die dichtbij de Astro Pi werken? Laten we een boodschap scrollen op het beeldscherm.
 
 Voeg deze lijn toe onder de andere code:
 
@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Druk op de **Run** knop en zie de boodschap `Astro Pi` scrollen op het led-kleurenbeeldscherm.
 
-![laat de boodschap code zien klik op run](images/show-message-code-annotated.PNG)
+![laat de boodschapcode zien klik op run](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
 ![Boodschap scrollen](images/scroll-message.gif)
 
-Om een andere boodschap te tonen, kun je wat je wil schrijven tussen de aanhalingstekens (`""`).
+Om een andere boodschap te tonen, kun je schrijven wat je wil tussen de aanhalingstekens (`""`).
 
 \--- collapse \---
 
@@ -48,7 +48,7 @@ Om een andere boodschap te tonen, kun je wat je wil schrijven tussen de aanhalin
 
 ## title: Welke tekens kunnen worden gebruikt?
 
-De Sense HAT kan uitsluitend 1 Latijns tekenset tonen, wat betekent dat de volgende tekens uitsluitend verkrijgbaar zullen zijn. Andere tekens worden getoond als `?<0>.</p>
+De Sense HAT kan slechts 1 Latijnse tekenset tonen, wat betekent dat alleen de volgende tekens verkrijgbaar zullen zijn. Andere tekens worden getoond als `?<0>.</p>
 
 <pre><code>+-*/!"#$><0123456789.=)(
 
@@ -69,6 +69,6 @@ Je kunt ook de snelheid van het scrollen van de boodschap veranderen. Voeg een `
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-De versteksnelheid van de boodschap is `0.1`. Door het nummer kleiner te maken gaat het scrollen van de boodschap sneller en bij het groter maken van het nummer gaat de boodchap langzamer scrollen.
+De startsnelheid van de boodschap is `0.1`. Door het getal kleiner te maken gaat het scrollen van de boodschap sneller en bij het groter maken van het getal gaat de boodschap langzamer scrollen.
 
 \--- /task \---
