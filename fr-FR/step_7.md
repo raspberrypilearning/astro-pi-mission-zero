@@ -1,4 +1,4 @@
-## Afficher la température
+## Affiche la température
 
 Tu peux combiner ta mesure de la température avec une image pour indiquer également la température de manière graphique. Par exemple, tu peux afficher une tempête de neige pour les températures froides et une journée ensoleillée pour les températures chaudes :
 
