@@ -61,9 +61,9 @@ Vous devez vous inscrire au défi Mission Zero pour permettre à votre ou vos é
 \ * Veuillez noter que ce formulaire d'inscription est disponible en anglais uniquement.
 
 Les champs sur le formulaire comprennent:  
-Teacher/Mentor name (Nom du Professeur/Mentor)  
-Teacher/Mentor email address (Adresse email du Professeur/Mentor)  
-Teacher/Mentor phone number (Numéro de téléphone du Professeur/Mentor)  
+Teacher/Mentor name (Nom de l'enseignant/mentor)  
+Teacher/Mentor email address (Adresse email de l'enseignant/mentor)  
+Teacher/Mentor phone number (Numéro de téléphone de l'enseignant/mentor)  
 Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Type d'organisation (exemple : école primaire, école secondaire, bibliothèque, Code Club, CoderDojo, etc.))  
 Organisation name (Nom de l'organisation)  
 Organisation address (Adresse de l'organisation)  
@@ -79,7 +79,7 @@ In which language did you access the Mission Zero guidelines? (Dans quelle langu
 
 + Affichez votre code de salle de classe quelque part où il sera visible, par exemple sur un tableau blanc ou en utilisant un projecteur, et commencez l'activité.
     
-    Nous avons créé [ un document imprimable de deux pages. ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_ blank"} qui couvre les points clés de la Mission Zero et que les étudiants et les jeunes peuvent utiliser avec ce projet en ligne.
+    Nous avons créé [ un document imprimable de deux pages](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} qui couvre les points clés de la Mission Zero et que les étudiants et les jeunes peuvent utiliser avec ce projet en ligne.
 
 \--- /collapse \---
 
