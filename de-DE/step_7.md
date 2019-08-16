@@ -6,13 +6,13 @@ Du kannst deinen Temperaturmesswert mit einem Bild kombinieren, um die Temperatu
 
 \--- task \---
 
-Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Möglicherweise hast du bereits einige von ihnen in einem vorherigen Schritt definiert. In unseren Beispielen verwenden wir weiß (`w`), gelb (`y`), grün (`g`) und schwarz / leer (`b`).
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Möglicherweise hast du bereits einige von ihnen in einem vorherigen Schritt definiert. In unseren Beispielen verwenden wir weiß (`w`), gelb (`y`), grün (`g`) und schwarz / leer (`s`).
 
 ```python
 w = (255, 255, 255)
 y = (255, 255, 0)
 g = (0, 255, 0)
-b = (0, 0, 0)
+s = (0, 0, 0)
 ```
 
 \--- /task \---
@@ -22,25 +22,25 @@ b = (0, 0, 0)
 Zeichne deine Bilder wie zuvor, indem du zunächst eine Liste für jedes Bild erstellst und dann die Listenelemente auf die Farben einstellst, die du für deine Pixel verwenden möchtest.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
+heiss = [
+  s, s, s, s, s, y, y, s,
+  s, s, s, s, y, y, y, y,
+  s, s, s, s, s, y, y, s,
+  s, s, s, s, s, s, s, s,
+  s, s, s, s, s, s, s, s,
+  s, s, s, s, s, s, s, s,
   g, g, g, g, g, g, g, g,
   g, g, g, g, g, g, g, g
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
+kalt = [
+  s, s, w, s, s, s, w, s,
+  s, s, s, s, s, w, s, s,
+  s, w, s, s, s, s, s, w,
+  s, s, s, s, w, s, s, s,
+  w, s, s, w, s, s, w, s,
+  s, s, s, s, s, s, s, s,
   w, w, w, w, w, w, w, w,
   w, w, w, w, w, w, w, w
 ]
