@@ -8,8 +8,8 @@ Du vil se at tre kodelinjer er lagt til automatisk for deg:
 
 ```python
 from sense_hat import SenseHat
-sense = SenseHat ()
-sense.set_rotation (270)
+sense = SenseHat()
+sense.set_rotation(270)
 ```
 
 ![sense hat-emulator](images/sense-hat-emulator2.png)
