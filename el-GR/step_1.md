@@ -56,7 +56,7 @@
 
 + Μεταβείτε στη [σελίδα Mission Zero του εξομοιωτή Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Συμπληρώστε τη φόρμα και κάντε κλικ στο «**Submit**»\*.
 
 \* Please note that this registration form is available in English only.
 
