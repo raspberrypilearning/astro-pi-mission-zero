@@ -77,9 +77,9 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
         
         + Een account wordt voor je opgericht. Elk account heeft zijn eigen **variatiecode**, en je moet je team(s) laten weten welke die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
         
-        + Laat je variatiecode ergens zichtbaar zien bijvoorbeeld op een wit bord of door gebruik van een projector, en begin met de activiteit.
+        + Laat je variatiecode ergens zichtbaar zien, bijvoorbeeld op een whiteboard of door gebruik te maken van een projector, en begin met de activiteit.
             
-            We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+            We hebben [een te printen uitdeelfiche van twee pagina's](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} opgesteld, met de sleutelpunten van Mission Zero die studenten en jongeren samen kunnen gebruiken bij dit online project.
         
         \--- /collapse \---
         
