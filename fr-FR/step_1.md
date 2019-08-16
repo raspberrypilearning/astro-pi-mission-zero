@@ -56,24 +56,24 @@ Vous devez vous inscrire au challenge Mission Zero pour permettre à votre ou vo
 
 + Allez à la page [Emulateur Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Remplissez le formulaire et cliquez sur **Submit**\*.
++ Remplissez le formulaire et cliquez sur **Submit (Soumettre)**\*. 
 
 \ * Veuillez noter que ce formulaire d'inscription est disponible en anglais uniquement.
 
 Les champs sur le formulaire comprennent:  
-Teacher/Mentor name [Nom du Professeur/Mentor]  
-Teacher/Mentor email address [Adresse email du Professeur/Mentor]  
-Teacher/Mentor phone number [Numéro de téléphone du Professeur/Mentor]  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) [Type d'organisation (exemple : école primaire, école secondaire, bibliothèque, Code Club, CoderDojo, etc.]  
-Organisation name [Nom de l'organisation]  
-Organisation address [Adresse de l'organisation]  
-Organisation city [Ville de l'organisation]  
-Organisation country [Pays de l'organisation]  
-Organisation postal code [Code postal de l'organisation]  
-Team name [Nom d'équipe]  
-Number of team members [Nombre de membres de l'équipe]  
-Names and ages of team members [Noms et âges des membres de l'équipe]  
-In which language did you access the Mission Zero guidelines? [Dans quelle langue avez-vous eu accès aux directives de la Mission Zero?]
+Teacher/Mentor name (Nom du Professeur/Mentor)  
+Teacher/Mentor email address (Adresse email du Professeur/Mentor)  
+Teacher/Mentor phone number (Numéro de téléphone du Professeur/Mentor)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Type d'organisation (exemple : école primaire, école secondaire, bibliothèque, Code Club, CoderDojo, etc.))  
+Organisation name (Nom de l'organisation)  
+Organisation address (Adresse de l'organisation)  
+Organisation city (Ville de l'organisation)  
+Organisation country (Pays de l'organisation)  
+Organisation postal code (Code postal de l'organisation)  
+Team name (Nom d'équipe)  
+Number of team members (Nombre de membres de l'équipe)  
+Names and ages of team members (Noms et âges des membres de l'équipe)  
+In which language did you access the Mission Zero guidelines? (Dans quelle langue avez-vous eu accès aux directives de la Mission Zero?)
 
 + Un compte sera créé pour vous. Chaque compte a son propre **code de salle de classe**, et vous devez donner ce code à votre ou vos équipes quand elles sont prêtes à soumettre leurs programmes.
 
