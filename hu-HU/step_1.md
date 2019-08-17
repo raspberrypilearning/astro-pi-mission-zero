@@ -79,7 +79,7 @@ In which language did you access the Mission Zero guidelines? (Milyen nyelven é
 
 + Rakja ki az osztálytermi kódját egy jól látható helyre, például egy táblára vagy projektorra, és kezdjenek neki a feladatnak!
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Készítettünk egy [kétoldalas nyomtatványt](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ami magába foglalja a Mission Zero főbb pontjait, ezt a tanulók tudják használni az online projekttel.
 
 \--- /collapse \---
 
