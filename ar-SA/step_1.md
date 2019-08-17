@@ -50,11 +50,11 @@
 
 يمكن إتمام هذا النشاط خلال فترة الظهيرة. نظِّم طلابك في فرق من أربعة أفراد بحد أقصى، واسمح لنا بإرشادهم خلال كتابة برنامج Python قصير لعرض رسالة شخصية ودرجة حرارة الهواء على نظام Astro Pi.
 
-اقرأ [وثيقة الإرشادات الرسمية](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} الخاصة بمشروع المهمة صفر.
+اقرأ [وثيقة الإرشادات الرسمية](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} الخاصة بمشروع المهمة صفر (Mission Zero).
 
-ستحتاج إلى التسجيل في تحدي مشروع المهمة صفر للسماح لفريقك/فرقك بالمشاركة.
+ستحتاج إلى التسجيل في تحدي مشروع المهمة صفر (Mission Zero) للسماح لفريقك/فرقك بالمشاركة.
 
-+ انتقل إلى [صفحة مشروع المهمة صفر في محاكي Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
++ انتقل إلى [صفحة مشروع المهمة صفر (Mission Zero) في محاكي Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
 + املء النموذج وانقر **Submit** (إرسال).
 
@@ -79,7 +79,7 @@ The fields on the form include:
 
 + اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
     
-    لقد أنشأنا [ نسخة مطبوعة من صفحتين ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"} والتي تغطي النقاط الرئيسية في المهمة صفر (Mission Zero) والتي يمكن للطلاب والشباب استخدامها مع هذا المشروع عبر الانترنيت.
+    لقد أنشأنا [نسخة مطبوعة من صفحتين](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} والتي تغطي النقاط الرئيسية في المهمة صفر (Mission Zero) والتي يمكن للطلاب والشباب استخدامها مع هذا المشروع عبر الانترنيت.
 
 \--- /collapse \---
 
