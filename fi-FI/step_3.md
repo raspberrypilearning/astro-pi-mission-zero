@@ -48,7 +48,7 @@ Erilaisen viestin näyttämiseksi voit kirjoittaa sen lainausmerkkien (`""`) vä
 
 ## title: Mitä merkkejä voidaan käyttää?
 
-Sense HAT voi esittää Latin 1 -merkistön merkiten sitä, että vain seuraavat merkiit ovat saatavana. Muut merkit näytetään muodossa `?`.
+Sense HAT pystyy näyttämään vain Latin 1 -merkkijoukon, mikä tarkoittaa, että vain seuraavat merkit ovat käytettävissä. Muut merkit näytetään muodossa `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -69,6 +69,6 @@ Voit myös muuttaa näytön poikki vierivän viestin nopeutta. Lisää `scroll_s
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Viestin oletusnopeus on `0.1`. Numeron tekeminen pienemmäksi saa viestin vierittymään nopeammin, ja sen tekeminen suuremmaksi saa viestin vierittymään hitaammin.
+Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vierittymään nopeammin, ja sen muuttaminen suuremmaksi saa viestin vierittymään hitaammin.
 
 \--- /task \---
