@@ -20,11 +20,11 @@ Az Astro Pi egységről tanulsz majd, és arról, hogyan irányítsd, beleértve
 
 + üzenetek és színek megjelenítése
 + képek létrehozása
-+ mérd meg a hőmérsékletet!
++ hőmérséklet mérése
 
-Ez a projekt a [Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum){: target = "_ blank"} következő részeit tartalmazza:
+Ez a projekt a [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} következő részeit tartalmazza:
 
-+ [Alapvető programozási szerkezetek használata egyszerű programok létrehozására](https://curriculum.raspberrypi.org/programming/creator/) {:target="_blank"}
++ [Alapvető programozási szerkezetek használata egyszerű programok létehozására](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -32,7 +32,7 @@ Ez a projekt a [Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculu
 
 * * *
 
-## title: Mire lesz szükséged?
+## title: Amire szükséged lesz
 
 ### Hardver
 
@@ -54,7 +54,7 @@ Olvassa el a Mission Zero [hivatalos útmutató dokumentumát](https://astro-pi.
 
 Regisztálnia kell a Mission Zero kihívásra, hogy csapata(i) részt vehessen(ek) rajta.
 
-+ Menjen a [Triket emulátor Mission Zero oldalára](https://trinket.io/mission-zero/register){:target="_blank"}!
++ Menjen a [Trinket emulátor Mission Zero oldalára](https://trinket.io/mission-zero/register){:target="_blank"}.
 
 + Töltse ki az űrlapot és kattintson a **Submit** (Küldés) gombra\*.
 
