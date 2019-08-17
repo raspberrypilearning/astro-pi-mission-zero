@@ -1,6 +1,6 @@
 ## Lisää väriä
 
-Astro Piin LEDit voivat myös näyttää värejä. Voit määrittää värin luomalla muuttujan ja määrittämällä sille RGB-värin arvon.
+Astro Pi:n LEDit voivat myös näyttää värejä. Voit määrittää värin luomalla muuttujan ja määrittämällä sille RGB-väriarvon.
 
 Voit oppia, kuinka kaikki värit voidaan luoda tässä käyttämällä erilaisia punaisia, vihreitä ja sinisiä mittasuhteita:
 
