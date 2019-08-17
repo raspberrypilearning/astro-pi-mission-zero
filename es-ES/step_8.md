@@ -1,4 +1,4 @@
-## Enviar tu entrada
+## Enviar tu proyecto
 
 Hay varias reglas que tu código debe respetar de modo que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del emulador se iluminarán en verde cuando ejecutes el programa.
 
