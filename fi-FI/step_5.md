@@ -1,6 +1,6 @@
-## Esitä kuva
+## Näytä kuva
 
-Voit näyttää kuvia Astro Piin LED-matriisissa. Ehkä tervehdyksesi astronauteille voisi sisältää kuvan tai kuvion sekä myös kirjallisen viestin niiden yhteydessä tai niiden sijasta?
+Voit näyttää kuvia Astro Pi:n LED-matriisissa. Ehkä tervehdyksesi astronauteille voisi sisältää kuvan tai kuvion sekä myös kirjallisen viestin niiden yhteydessä tai niiden sijasta?
 
 ![Astronautti](images/astronaut-pic.png)
 
