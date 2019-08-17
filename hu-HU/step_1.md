@@ -60,20 +60,20 @@ Regisztálnia kell a Mission Zero kihívásra, hogy csapata(i) részt vehessen(e
 
 \* A regisztrációs űrlap csak angol nyelven érhető el.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Az űrlap mezői a következők:   
+Teacher/Mentor name (Tanár/Mentor neve)   
+Teacher/Mentor email address (Tanár/Mentor email címe)   
+Teacher/Mentor phone number (Tanár/Mentor telefonszáma)   
+Organisation type (Szervezet típusa (pl. általános iskola, középiskola, könyvtár, klub))   
+Organisation name (Szervezet neve)   
+Organisation address (Szervezet címe)   
+Organisation city (Szervezet városa)   
+Organisation country (Szervezet országa)   
+Organisation postal code (Szervezet irányítószáma)   
+Team name (Csapatnév)   
+Number of team members (Csapattagok száma)   
+Names and ages of team members (Csapattagok neve és kora)   
+In which language did you access the Mission Zero guidelines? (Milyen nyelven érted el a Mission Zero útmutatóját?)
 
 + Egy fiók jön létre az Ön számára. Minden fióknak saját **osztálytermi kódja** van, amelyet akkor kell elmondania a csapatának (csapatainak), amikor ők már készen vannak, hogy beküldjék programjaikat.
 
