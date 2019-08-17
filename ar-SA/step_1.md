@@ -56,9 +56,9 @@
 
 + انتقل إلى [صفحة مشروع Mission Zero في محاكي Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ املء النموذج وانقر **Submit** (إرسال).
 
-\* Please note that this registration form is available in English only.
+\ * الرجاء ملاحظة أن نموذج التسجيل هذا متاح باللغة الإنجليزية فقط.
 
 The fields on the form include:  
 Teacher/Mentor name  
