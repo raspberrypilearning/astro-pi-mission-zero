@@ -61,19 +61,19 @@ Necesitarás registrar el desafío Mission Zero para que tus equipos puedan part
 \* Ten en cuenta que este formulario de registro solo está disponible en inglés.
 
 Los campos del formulario incluyen:  
-Teacher/Mentor name  
-(Nombre del profesor/mentor) Teacher/Mentor email address  
-(Correo electrónico del profesor/mentor) Teacher/Mentor phone number  
-(Teléfono del profesor/mentor) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-(Tipo de organización, p.ej. escuela primaria, escuela secundaria, biblioteca, Code Club, Coder Dojo etc.) Organisation name  
-(Nombre de la organización) Organisation address  
-(Dirección de la organización) Organisation city  
-(Localidad de la organización) Organisation country  
-(País de la organización) Organisation postal code  
-(Código postal de la organización) Team name  
-(Nombre del equipo) Number of team members  
-(Número de miembros del equipo) Names and ages of team members  
-(Nombres y edades de los miembros del equipo) In which language did you access the Mission Zero guidelines?(¿En qué idioma has accedido a las directrices de Mission Zero?)
+Teacher/Mentor name (Nombre del profesor/mentor)  
+Teacher/Mentor email address (Correo electrónico del profesor/mentor)  
+Teacher/Mentor phone number (Teléfono del profesor/mentor)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Tipo de organización, p. ej. escuela primaria, escuela secundaria, biblioteca, Code Club, Coder Dojo etc.)  
+Organisation name (Nombre de la organización)  
+Organisation address (Dirección de la organización)  
+Organisation city (Localidad de la organización)  
+Organisation country (País de la organización)  
+Organisation postal code (Código postal de la organización)  
+Team name (Nombre del equipo)  
+Number of team members (Número de miembros del equipo)  
+Names and ages of team members (Nombres y edades de los miembros del equipo)  
+In which language did you access the Mission Zero guidelines? (¿En qué idioma has accedido a las directrices de Mission Zero?)
 
 + Se creará una cuenta. Cada cuenta tiene su propio **código de clase**, y necesitarás darle el tuyo a tus equipos cuando estén listos para enviar sus programas.
 
@@ -83,4 +83,4 @@ Teacher/Mentor name
 
 \--- /collapse \---
 
-![Píxel de seguimiento](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
