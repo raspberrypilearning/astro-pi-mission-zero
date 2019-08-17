@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Luo uusien muuttujien alle 64 kohteen luettelo. Jokainen kohde edustaa yhtä pikseliä LED-matriisissa ja vastaa yhtä määrittämistäsi värimuuttujista. Piirrä kuvasi asettamalla muuttuja, jossa haluat sen nimetyn värin esiintyvän. Olemme piirtäneet astronautin käyttämällä mustia (`b`) pikseleinä taustana ja valkoisia (`w`) pikseleitä piirtämään astronautin avaruuspuvun:
+Luo uusien muuttujien alle 64 kohteen luettelo. Jokainen kohde edustaa yhtä pikseliä LED-matriisissa ja vastaa yhtä määrittämistäsi värimuuttujista. Piirrä kuvasi asettamalla muuttuja sinne, missä haluat sille nimetyn värin esiintyvän. Olemme piirtäneet astronautin käyttämällä mustia (`b`) pikseleinä taustana ja valkoisia (`w`) pikseleitä piirtämään astronautin avaruuspuvun:
 
 ```python
 picture = [
@@ -48,7 +48,7 @@ sense.set_pixels(picture)
 
 \--- task \---
 
-Paina **Run** nähdäksesi kuvasi näytössä.
+Paina **Run** (Suorita) nähdäksesi kuvasi näytössä.
 
 \--- /task \---
 
@@ -57,7 +57,7 @@ Paina **Run** nähdäksesi kuvasi näytössä.
 Haluat ehkä lisätä tietyn koodin sisällyttämään lyhyen odotuksen (vaihtoehtona `sleep`) kuvan näyttämisen jälkeen. Tämä antaa astronauteille aikaa nähdä kuvasi ennen kuin seuraava viestisi osa tulee näkyviin. Lisää ohjelman yläosaan:
 
 ```python
-aika tuomasta nukkumisesta
+from time import sleep
 ```
 
 Lisää sitten kuvasi esittämän koodin jälkeiselle riville tämä koodi odottamaan kaksi sekuntia:
