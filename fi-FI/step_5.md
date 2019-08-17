@@ -70,6 +70,6 @@ sleep(2)
 
 \--- task \---
 
-Luo oma kuvasi tai kuviosi astronauteille näyttämiseksi!
+Luo oma kuva tai kuvio näytettäväksi astronauteille!
 
 \--- /task \---
