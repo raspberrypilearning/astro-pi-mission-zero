@@ -1,12 +1,12 @@
 ## Enviar tu proyecto
 
-Hay varias reglas que tu código debe respetar de modo que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del emulador se iluminarán en verde cuando ejecutes el programa.
+Hay varias reglas que tu código debe respetar para que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del emulador se iluminarán en verde cuando ejecutes el programa.
 
 ![Validación](images/validation.png)
 
 1. Toma una lectura de temperatura
 2. Ilumina los LED
-3. Asegúrate de que el código es ejecutado completamente hasta el final sin errores. Si tienes un bucle `while True` en tu código, necesitarás pulsar el botón **Stop** para pasar esta regla.
+3. Asegúrate de que el código es ejecutado completamente hasta el final sin errores. Si tienes un bucle `while True` en tu código, necesitarás pulsar el botón **Stop** para parar este bucle.
 
 Asegúrate también de que has cumplido los siguientes criterios:
 
