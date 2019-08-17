@@ -38,7 +38,7 @@ Pulsa el botón **Run** (Ejecutar) y observa cómo el mensaje `Astro Pi` se desp
 
 \--- /task \---
 
-![Desplazar mensaje](images/scroll-message.gif)
+![Mensaje desplazándose](images/scroll-message.gif)
 
 Para mostrar otro mensaje, escribe lo que quieras entre las comillas (`""`).
 
