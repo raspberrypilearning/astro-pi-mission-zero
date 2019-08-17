@@ -69,6 +69,6 @@ También puedes cambiar la velocidad de desplazamiento del mensaje por la pantal
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-La velocidad predeterminada del mensaje es `0.1`. Disminuir el número causará que el mensaje se desplace más rápidamente; y aumentarlo, que se desplace más lentamente.
+La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que el mensaje se desplace más rápidamente; y aumentarlo, que se desplace más lentamente.
 
 \--- /task \---
