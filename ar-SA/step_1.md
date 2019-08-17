@@ -61,25 +61,25 @@
 \ * الرجاء ملاحظة أن نموذج التسجيل هذا متاح باللغة الإنجليزية فقط.
 
 The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+(يتضمن النموذج الحقول التالية:) Teacher/Mentor name  
+(اسم المعلم/المرشد) Teacher/Mentor email address  
+(البريد الالكتروني الخاص بـ المعلم/المرشد) Teacher/Mentor phone number  
+(رقم الهاتف للـ المعلم/المرشد) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+(نوع المؤسسة (مثال: مدرسة ابتدائية، مدرسة متوسطة، مكتبة، نادي برمجة Code Club، كودر دوجو CoderDojo، أو غيرها)) Organisation name  
+(اسم المؤسسة) Organisation address  
+(عنوان المؤسسة) Organisation city  
+(المدينة للمؤسسة) Organisation country  
+(البلد للمؤسسة) Organisation postal code  
+(الرمز البريدي للمؤسسة) Team name  
+(اسم الفريق) Number of team members  
+(عدد أعضاء الفريق) Names and ages of team members  
+(أسماء وأعمار أعضاء الفريق) In which language did you access the Mission Zero guidelines? (ماهي اللغة التي استخدمتها للوصول الى ارشادات المهمة صفر؟)
 
 + وسيتم إنشاء حساب لك. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
 
 + اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    لقد أنشأنا [ نسخة مطبوعة من صفحتين ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"} والتي تغطي النقاط الرئيسية في المهمة صفر (Mission Zero) والتي يمكن للطلاب والشباب استخدامها مع هذا المشروع عبر الانترنيت.
 
 \--- /collapse \---
 
