@@ -14,7 +14,7 @@ sense.set_rotation(270)
 
 ![emulador sense hat](images/sense-hat-emulator2.png)
 
-Este código se conecta al Astro Pi y se asegura que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja el código ahí, puesto que lo necesitarás más adelante.
+Este código se conecta al Astro Pi y se asegura que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
 
 \--- /task \---
 
