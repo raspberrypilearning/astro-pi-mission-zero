@@ -4,9 +4,9 @@ Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállom
 
 Az online Sense HAT emulátort használod majd a programod létrehozására, úgyhogy nincs szükség extra hardverre — minden a böngészőben történik.
 
-A kész programod az űrben fog futni a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott!
+A kész programod az űrben fog futni a Nemzetközi Űrállomáson (angolul International Space Station vagy ISS)! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott!
 
-### Amit csinálni fogsz
+### Amit el fogsz készíteni
 
 Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd! <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
@@ -14,7 +14,7 @@ Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Fut
 
 * * *
 
-## title: Miről tanulsz majd?
+## title: Amit meg fogsz tanulni
 
 Az Astro Pi egységről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
 
