@@ -1,14 +1,14 @@
 ---
-title: "Astro Pi: Mission Zero"
+title: "Astro Pi: المهمة صفر"
 hero_image: images/banner.png
-description: استعد لمشروع Mission Zero
+description: استعد لمشروع المهمة صفر
 listed: false
 copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
   - 
-    title: المقدمة
+    title: مقدمة
   - 
     title: ما هو نظام Astro Pi؟
   - 
