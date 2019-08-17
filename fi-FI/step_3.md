@@ -4,7 +4,7 @@
 
 Avaa [Sense HAT emulaattori](https://trinket.io/mission-zero){:target="_blank"} Mission Zero -projektia varten.
 
-Näet, että kolme koodiriviä on lisätty automaattisesti sinua varten:
+Näet, että kolme riviä koodia on lisätty sinulle automaattisesti:
 
 ```python
 from sense_hat import SenseHat
@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![sense hat -emulaattori](images/sense-hat-emulator2.png)
 
-Tämän koodin kytkennän kohteena on Astro Pi, ja se varmistaa, että Astro Pi LED -näyttö on esitetty oikein. Jätä koodi sinne. koska tulet tarvitsemaan sitä.
+Tämä koodi muodostaa yhteyden Astro Pi: hen ja varmistaa, että Astro Pi: n LED-näyttö näytetään oikein päin. Jätä koodi sinne. koska tulet tarvitsemaan sitä.
 
 \--- /task \---
 
 \--- task \---
 
-Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät lähellä Astro Piä? Selataanpa viestiä näytöllä.
+Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät lähellä Astro Piä? Vieritetään viesti näytön poikki.
 
 Lisää tämä rivi toisen koodin alapuolelle:
 
@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 \--- task \---
 
-Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierittyy LED-näytön poikkii.
+Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierittyy LED-näytön poikki.
 
 ![näytä viestikoodin aja-klikkaus](images/show-message-code-annotated.PNG)
 
