@@ -47,6 +47,6 @@ Pulsa el botón **Submit** para enviar tu proyecto. Tu profesor o mentor recibir
 
 \--- task \---
 
-Si quieres, ¡puedes compartir el enlace de tu código en los medios sociales para contarles a los demás que el código que escribiste será ejecutado en el espacio!
+Si quieres, ¡puedes compartir el enlace de tu código en las redes sociales para contarles a los demás que tu código será ejecutado en el espacio!
 
 \--- /task \---
