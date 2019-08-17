@@ -1,6 +1,6 @@
 ## Mostrar una imagen
 
-Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o patrón además o en lugar de un mensaje escrito?
+Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o patrón además, o en lugar de, un mensaje escrito?
 
 ![Astronauta](images/astronaut-pic.png)
 
