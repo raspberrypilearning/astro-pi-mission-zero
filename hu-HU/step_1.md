@@ -58,7 +58,7 @@ Regisztálnia kell a Mission Zero kihívásra, hogy csapata(i) részt vehessen(e
 
 + Töltse ki az űrlapot és kattintson a **Submit** (Küldés) gombra\*.
 
-\* Please note that this registration form is available in English only.
+\* A regisztrációs űrlap csak angol nyelven érhető el.
 
 The fields on the form include:  
 Teacher/Mentor name  
