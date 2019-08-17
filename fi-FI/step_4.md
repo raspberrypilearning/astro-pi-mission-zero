@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- task \---
 
-Muuta tervehdystekstiä ja väriä - mimkä viestin lähetät ASTA-laitteisiin ISS:ssä?
+Muuta tervehdystekstiä ja väriä - minkä viestin sinä lähetät astronauteille ISS:n aluksella?
 
 \--- /task \---
