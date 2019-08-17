@@ -2,19 +2,19 @@
 
 Astro Pi:n LEDit voivat myös näyttää värejä. Voit määrittää värin luomalla muuttujan ja määrittämällä sille RGB-väriarvon.
 
-Voit oppia, kuinka kaikki värit voidaan luoda tässä käyttämällä erilaisia punaisia, vihreitä ja sinisiä mittasuhteita:
+Täältä voit oppia, kuinka kaikki värit voidaan luoda käyttämällä punaisen, vihreän ja sinisen eri mittasuhteita:
 
 [[[generic-theory-colours]]]
 
 \--- task \---
 
-Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} auttamaan sinua.
+Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [värinvalitsinta](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} auttamaan sinua.
 
 \--- /task \---
 
 \--- task \---
 
-Luo muuttuja tallentamaan valitsemasi väri. Jos esimerkiksi valitsit punaisen, kirjoitat tämän koodin rivin:
+Luo muuttuja tallentamaan valitsemasi väri. Jos esimerkiksi valitsit punaisen, kirjoitat tämän koodirivin:
 
 ```python
 red = (255,0,0)
