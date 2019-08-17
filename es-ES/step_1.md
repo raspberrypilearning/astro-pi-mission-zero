@@ -4,7 +4,7 @@ Anímales el día a los astronautas de la Estación Espacial Internacional mostr
 
 Utilizarás el emulador digital Sense HAT para crear tu programa, por lo que no necesitarás hardware adicional, ya que todo se realiza en un navegador web.
 
-¡Tu programa finalizado será ejecutado en el espacio en la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica en dónde exactamente estaba la ISS cuando se ejecutó tu código!
+¡Tu programa finalizado será ejecutado en el espacio en la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código!
 
 ### Lo que harás
 
@@ -22,9 +22,9 @@ Aprenderás sobre la unidad AstroPi y cómo controlarla, incluyendo cómo:
 + crear imágenes
 + medir la temperatura
 
-Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Este proyecto incluye elementos de los siguientes aspectos del [Currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Usa estructuras de programación básicos para crear programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Usar estructuras de programación básicas para crear programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
