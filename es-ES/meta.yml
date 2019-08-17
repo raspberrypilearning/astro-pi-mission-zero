@@ -22,6 +22,6 @@ steps:
   - 
     title: Mostrar la temperatura
   - 
-    title: Enviar tu entrada
+    title: Enviar tu proyecto
   - 
     title: "Desafío: Más proyectos Astro Pi"
