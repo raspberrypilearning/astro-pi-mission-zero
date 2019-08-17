@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Avaa [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} Mission Zero -hanketta varten.
+Avaa [Sense HAT emulaattori](https://trinket.io/mission-zero){:target="_blank"} Mission Zero -projektia varten.
 
 Näet, että kolme koodiriviä on lisätty automaattisesti sinua varten:
 
