@@ -12,11 +12,11 @@ Parte de tu misión es contribuir a la vida diaria de la tripulación de la ISS.
 
 ## title: ¿Qué es la temperatura?
 
-La temperatura mide cuán caliente está algo. Seguramente te hayan tomado la temperatura con un termómetro en una de tus visitas al médico.
+La temperatura es la medida de lo caliente que está algo. Seguramente te hayan tomado la temperatura con un termómetro en una de tus visitas al médico.
 
 ![Termómetro](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-Para ser más preciso, la temperatura es la medición de la cantidad de energía térmica de una sustancia. Como bien sabes, un cubito de hielo es sólido, sin embargo, al calentarse, es decir, según absorbe energía térmica del entorno, se derrite y se vuelve líquido. Esto se debe a que cuando una sustancia absorbe o pierde suficiente energía térmica, el estado de dicha sustancia cambia, por ejemplo, de estado sólido a estado líquido.
+Para ser más preciso, la temperatura es la medida de la cantidad de energía térmica de una sustancia. Como bien sabes, un cubito de hielo es sólido, sin embargo, al calentarse, es decir, según absorbe energía térmica del entorno, se derrite y se vuelve líquido. Esto se debe a que cuando una sustancia absorbe o pierde suficiente energía térmica, el estado de dicha sustancia cambia, por ejemplo, de estado sólido a estado líquido.
 
 \--- /collapse \---
 
