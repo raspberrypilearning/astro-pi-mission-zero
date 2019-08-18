@@ -60,27 +60,27 @@ Selleks et teie meeskon(na) d saaks(id) osaleda, peate Mission Zero väljakutsek
 
 Pange tähele, et registreerimisvorm on kättesaadav ainult inglise keeles.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Vormi väljade hulgas on:  
+Teacher/Mentor name (õpetaja/mentori nimi)  
+Teacher/Mentor email address (õpetaja/mentori meiliaadress)  
+Teacher/Mentor phone number (õpetaja/mentori telefoninumber)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (organisatsiooni tüüp (nt põhikool, gümnaasium, raamatukogu, Code Club, CoderDojo jne)  
+Organisation name (organisatsiooni nimi)  
+Organisation address (organisatsiooni aadress)  
+Organisation city (organisatsiooni linn)  
+Organisation country (organisatsiooni riik)  
+Organisation postal code (organisatsiooni postiindeks)  
+Team name (meeskonna nimi)  
+Number of team members (meeskonnaliikmete arv)  
+Names and ages of team members (meeskonnaliikmete nimed ja vanused)  
+In which language did you access the Mission Zero guidelines? (Mis keeles pääsesite ligi Mission Zero juhistele?)
 
-+ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood**, ja te peate ütlema oma meeskonnale/meeskondadele, mis on teie kasutajakonto nimetus siis, kui nad hakkavad oma programme esitama.
++ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood** ja te peate oma meeskon(n)(d)a(de)le ütlema, mis on teie kasutajakonto nimetus, kui nad on valmis oma programme esitama.
 
 + Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Oleme koostanud [ prinditava kahelehelise käsilehe ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"}, mis hõlmab missiooni Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Piksli jälgimine](https://code.org/api/hour/begin_raspberrypi_astropi.png)
