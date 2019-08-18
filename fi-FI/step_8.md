@@ -1,12 +1,12 @@
-## Lähetä merkintäsi
+## Lähetä osallistumisilmoituksesi
 
-On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen ajettavaksi kansainvälisellä avaruusasemalla (International Space Station). Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
+On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
 
 ![Validointi](images/validation.png)
 
 1. Ota lämpötilan lukema
 2. Sytytä LEDit
-3. Varmista, että koodisi ajaa loppuun saakka ilman virheitä. Jos koodissasi on silmukka `whileTrue`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
+3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. Jos koodissasi on silmukka `whileTrue`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
