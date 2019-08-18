@@ -20,7 +20,7 @@ Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas s
 
 + kuvada sõnumeid ja värve
 + luua pilte
-+ mõõda temperatuur
++ mõõta temperatuuri
 
 Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http://rpf.io/curriculum){:target="_blank"} järgmisi valdkondi:
 
@@ -32,7 +32,7 @@ Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http
 
 * * *
 
-## title: Mida on sul selleks vaja
+## title: Mida sul vaja on
 
 ### Riistvara
 
@@ -48,9 +48,9 @@ Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http
 
 ## title: Märkused õpetajatele ja mentoritele
 
-Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskondadesse ja lubage meil neid juhendada kirjutama lühikest Python´i programmi, mis näitab lühikest isiklikku sõnumit ja Astro Pi´l olevat õhutemperatuuri.
+Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskondadesse ja lubage meil neid juhendada lühikese Pythoni programmi kirjutamisel, mis näitab isiklikku sõnumit ja Astro Pi´l olevat õhutemperatuuri.
 
-Lugege [juhiseid sisaldavat dokumenti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zero kohta.
+Lugege [ametlikke juhiseid sisaldavat dokumenti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zero kohta.
 
 Selleks, et teie meeskond/meeskonnad saaksid osaleda, peate registreeruma Mission Zero väljakutseks.
 
