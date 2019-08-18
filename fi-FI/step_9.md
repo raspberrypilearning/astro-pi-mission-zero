@@ -2,7 +2,7 @@
 
 Nyt kun olet suorittanut missiosi, entäpä jos kokeilisit muita hankkeita käyttämällä muita Astro Pi -antureita?
 
-Jos olet varma tästä, voit osallistua [Mission Space Lab:iin](https://astro-pi.org/missions/space-lab/)! Muodosta tiimi, jossa on 2-6 henkilöä, ja työskennelkää yhdessä reaalitilan avaruustieteilijöiden tapaan oman kokeilunne suunnittelemiseksi. Hanki ilmaiset tietokonelaitteet missiotanne varten ja kirjoita Python-koodi kokeilun suorittamiseksi. Jos saavutat lentostatuksen, koodisi ladataan ISS-avaruusasemaan, ja sitä ajetaan Astro Piissä kolme tuntia (kaksi kiertorataa). Kaikki tiedot, jotka koodisi kerää avaruudessa - kuva- tai anturitiedostot - , ladataan ja palautetaan analyysiä varten.
+Jos tunnet olosi varmaksi, voit osallistua [Mission Space Lab:iin](https://astro-pi.org/missions/space-lab/)! Muodostakaa tiimi, jossa on 2-6 henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. Hanki ilmaiset tietokonelaitteet missiotanne varten ja kirjoita Python-koodi kokeilun suorittamiseksi. Jos saavutat lentostatuksen, koodisi ladataan ISS-avaruusasemaan, ja sitä ajetaan Astro Piissä kolme tuntia (kaksi kiertorataa). Kaikki tiedot, jotka koodisi kerää avaruudessa - kuva- tai anturitiedostot - , ladataan ja palautetaan analyysiä varten.
 
 Vaihtoehtoisesti voit kokeilla jotain muuta Astro Pi -hankkettamme:
 
