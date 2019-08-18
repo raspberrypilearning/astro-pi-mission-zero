@@ -10,9 +10,9 @@ On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lä
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
-1. Varmista, että viestisi astronauteille ajaa korkeintaan 30 sekuntia, sillä tämä on kuinka kauan koodiasi ajetaan ISS:llä
-2. Vältä käyttämästä menetelmiä, jotka tarvitsevat syöttöä
-3. Tuonti vain moduuleista `sense_hat`, `time` ja `random`
+1. Varmista, että viestisi astronauteille kestää korkeintaan 30 sekuntia, sillä niin kauan koodiasi ajetaan ISS:llä
+2. Vältä käyttämästä menetelmiä, jotka tarvitsevat syötteitä
+3. Tuo tietoa vain moduuleista `sense_hat`, `time` ja `random`
 4. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
 
 Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään.
