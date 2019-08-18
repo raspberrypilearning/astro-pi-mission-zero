@@ -35,13 +35,13 @@ Opettajasi nimi ilmestyy esille. Jos se on oikea nimi, napsauta vihreää painik
 
 \--- task \---
 
-Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodiasi on käytetty avaruudessa, joten varmista, että ne on kirjoitettu oikein!
+Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodisi on suoritettu avaruudessa, joten varmista, että ne on kirjoitettu oikein!
 
 \--- /task \---
 
 \--- task \---
 
-Paina **Submit**-painiketta koodisi kirjoittamiseksi. Opettajasi tai ohjaajasi saa sähköpostin merkintäsi vahvistamiseksi.
+Paina **Submit**-painiketta koodisi kirjoittamiseksi. Opettajasi tai ohjaajasi saa sähköpostin osallistumisesi vahvistamiseksi.
 
 \--- /task \---
 
