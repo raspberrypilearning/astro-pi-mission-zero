@@ -6,7 +6,7 @@ Voit yhdistää lämpötilalukemasi kuvaan myös lämpötilan osoittamiseksi gra
 
 \--- task \---
 
-Luo ohjelman alaosaan tiettyjä värimuuttujia määrittääksesi värit, joilla haluat piirtää kuvan. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa. Esimerkkeissämme käytämme valkoista (`w`), keltaista (`y`), vihreää (`g`) ja mustaa / tyhjää (`b`).
+Luo ohjelman alareunaan lisää värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa. Esimerkkeissämme käytämme valkoista (`w`), keltaista (`y`), vihreää (`g`) ja mustaa / tyhjää (`b`).
 
 ```python
 w = (255, 255, 255)
