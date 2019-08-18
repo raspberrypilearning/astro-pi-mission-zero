@@ -50,7 +50,7 @@ kylmä = [
 
 \--- task \---
 
-Lisää tietty koodi lämpötilan saamiseksi:
+Lisää koodi lämpötilan saamiseksi:
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Käytä lämpötilan liukusäädintä asettaaksesi lämpötilan emulaattoriin. Aja ohjelma ja tarkista, että kyseiselle lämpötilalle valittu kuva näytetään oikein.
+Käytä lämpötilan liukusäädintä asettaaksesi lämpötilan emulaattoriin. Suorita ohjelma ja tarkista, että kyseiselle lämpötilalle valittu kuva näytetään oikein.
 
 \--- /task \---
 
