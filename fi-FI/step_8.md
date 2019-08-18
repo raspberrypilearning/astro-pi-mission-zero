@@ -19,9 +19,9 @@ Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään.
 
 \--- task \---
 
-Kirjoita luokkakoodisi alla olevaan ruutuun - opettajasi ilmoittaa sinulle koodisi.
+Kirjoita luokkakoodisi alareunassa olevaan ruutuun - opettajasi kertoo sinulle, mikä koodisi on.
 
-**Huomautuksia opettajille ja ohjaajille ** löytyy vaiheesta [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
+**Huomautuksia opettajille ja ohjaajille ** löytyy [Johdanto-kappaleesta](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
