@@ -1,4 +1,4 @@
-## Haaste: lisää Astro Pi -hankkeita
+## Haaste: lisää Astro Pi -projekteja
 
 Nyt kun olet suorittanut missiosi, entäpä jos kokeilisit muita hankkeita käyttämällä muita Astro Pi -antureita?
 
