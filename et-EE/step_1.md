@@ -58,7 +58,7 @@ Selleks et teie meeskon(na) d saaks(id) osaleda, peate Mission Zero väljakutsek
 
 + Täitke vorm ja klõpsake **Submit** (esita) nupul\*.
 
-\* Please note that this registration form is available in English only.
+Pange tähele, et registreerimisvorm on kättesaadav ainult inglise keeles.
 
 The fields on the form include:  
 Teacher/Mentor name  
