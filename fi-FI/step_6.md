@@ -1,6 +1,6 @@
 ## Mittaa lämpötila
 
-Astro Pi:n lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa; hyödyllinen ominaisuus auttaen sinua keräämään tietoja olosuhteista avaruudessa.
+Astro Pi:n lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa. Tämä on hyödyllinen ominaisuus joka auttaa sinua keräämään tietoja olosuhteista avaruudessa.
 
 ![Viesti lämpötilasta](images/degrees-message.gif)
 
@@ -12,11 +12,11 @@ Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, jot
 
 ## title: Mikä on lämpötila?
 
-Lämpötila mittaa tietyn kuumuuden. Sinun kehosi lämpö on ehkä mitattu lämpömittarilla käydessäsi lääkärissä.
+Lämpötila on mitta siitä, kuinka kuuma jokin on. Sinun kehosi lämpö on ehkä mitattu lämpömittarilla käydessäsi lääkärissä.
 
 ![Lämpömittari](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} Wikimedia Commons -sivuston kautta*
 
-Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät, että jääkuutio on kiinteä, mutta kun se lämpenee, eli kun se absorboi lämpöenergiaa sen ympäristöstä, se sulaa ja tulee nestemäiseksi. Tämä johtuu siitä, että kun aine imeytyy tai menettää riittävästi lämpöenergiaa, aine muuttaa tilaansa, esim. se muuttuu kiinteästä nestemäiseksi.
+Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät, että jääkuutio on kiinteä, mutta kun se lämpenee, eli kun se imee itseensä lämpöenergiaa sen ympäristöstä, se sulaa ja tulee nestemäiseksi. Tämä johtuu siitä, että kun aine imeytyy tai menettää riittävästi lämpöenergiaa, aine muuttaa tilaansa, esim. se muuttuu kiinteästä nestemäiseksi.
 
 \--- /collapse \---
 
