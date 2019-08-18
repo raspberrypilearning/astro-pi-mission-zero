@@ -4,11 +4,11 @@ Muutke rahvusvahelise kosmosejaama astronautide igapäevane rutiin rõõmsamaks 
 
 Oma programmi loomiseks saad kasutada veebipõhist Sense HAT´i emulaatorit, seega ei ole sul vaja täiendavat riistvara, sest kõike saab teha veebibrauseris.
 
-Sinu tehtud programm käivitatakse rahvusvahelises kosmosejaamas kosmoses! Samuti antakse sulle spetsiaalne tunnistus, mis näitab kus täpselt rahvusvaheline kosmosejaam viibis sinu programmi käivitamise ajal!
+Sinu tehtud programm käivitatakse rahvusvahelises kosmosejaamas (ISS) kosmoses! Samuti antakse sulle spetsiaalne tunnistus, mis näitab kus täpselt ISS sinu programmi käivitamise ajal viibis!
 
 ### Mida sa teed
 
-Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see toimib klõpsa **Run**. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see toimib, klõpsa **Run**. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
