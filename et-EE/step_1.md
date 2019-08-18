@@ -52,7 +52,7 @@ Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskond
 
 Lugege [ametlikke juhiseid sisaldavat dokumenti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zero kohta.
 
-Selleks, et teie meeskond/meeskonnad saaksid osaleda, peate registreeruma Mission Zero väljakutseks.
+Selleks et teie meeskon(na) d saaks(id) osaleda, peate Mission Zero väljakutseks registreeruma.
 
 + Minge [Trinket emulaatori Mission Zero lehele](https://trinket.io/mission-zero/register){:target="_blank"}.
 
