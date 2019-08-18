@@ -1,10 +1,10 @@
 ## Sissejuhatus
 
-Muutke rahvusvahelise kosmosejaama astronautide igapäevane rutiin rõõmsamaks näidates neile sõnumit ja õhutemperatuuri pardal kasutades Astro Pi arvuti Sense HAT´i.
+Muuda rahvusvahelise kosmosejaama astronautide igapäevane rutiin rõõmsamaks näidates neile sõnumit ja õhutemperatuuri pardal kasutades Astro Pi arvuti Sense HAT´i.
 
 Oma programmi loomiseks saad kasutada veebipõhist Sense HAT´i emulaatorit, seega ei ole sul vaja täiendavat riistvara, sest kõike saab teha veebibrauseris.
 
-Sinu tehtud programm käivitatakse rahvusvahelises kosmosejaamas (ISS) kosmoses! Samuti antakse sulle spetsiaalne tunnistus, mis näitab kus täpselt ISS sinu programmi käivitamise ajal viibis!
+Sinu tehtud programm käivitatakse rahvusvahelises kosmosejaamas (ISS) kosmoses! Samuti antakse sulle spetsiaalne tunnistus, mis näitab, kus täpselt ISS sinu programmi käivitamise ajal viibis!
 
 ### Mida sa teed
 
@@ -18,9 +18,9 @@ Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas s
 
 Õpid tundma Astro Pi´d ja selle juhtimist, sealhulgas kuidas:
 
-+ kuvada sõnumeid ja värve
-+ luua pilte
-+ mõõta temperatuuri
++ sõnumite ja värvide kuvamine
++ piltide loomine
++ temperatuuri mõõtmine
 
 Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http://rpf.io/curriculum){:target="_blank"} järgmisi valdkondi:
 
@@ -48,7 +48,7 @@ Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http
 
 ## title: Märkused õpetajatele ja mentoritele
 
-Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskondadesse ja lubage meil neid juhendada lühikese Pythoni programmi kirjutamisel, mis näitab isiklikku sõnumit ja Astro Pi´l olevat õhutemperatuuri.
+Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskondadesse ja lubage meil neid lühikese Pythoni programmi kirjutamisel juhendada, mis näitab isiklikku sõnumit ja Astro Pi´l olevat õhutemperatuuri.
 
 Lugege [ametlikke juhiseid sisaldavat dokumenti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zero kohta.
 
@@ -64,7 +64,7 @@ Vormi väljade hulgas on:
 Teacher/Mentor name (õpetaja/mentori nimi)  
 Teacher/Mentor email address (õpetaja/mentori meiliaadress)  
 Teacher/Mentor phone number (õpetaja/mentori telefoninumber)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (organisatsiooni tüüp (nt põhikool, gümnaasium, raamatukogu, Code Club, CoderDojo jne)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (organisatsiooni tüüp (nt põhikool, gümnaasium, raamatukogu, Code Club, CoderDojo jne))  
 Organisation name (organisatsiooni nimi)  
 Organisation address (organisatsiooni aadress)  
 Organisation city (organisatsiooni linn)  
@@ -75,7 +75,7 @@ Number of team members (meeskonnaliikmete arv)
 Names and ages of team members (meeskonnaliikmete nimed ja vanused)  
 In which language did you access the Mission Zero guidelines? (Mis keeles pääsesite ligi Mission Zero juhistele?)
 
-+ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood** ja te peate oma meeskon(n)(d)a(de)le ütlema, mis on teie kasutajakonto nimetus, kui nad on valmis oma programme esitama.
++ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood** ja te peate oma meeskonnale/meeskondadele ütlema, mis on teie kasutajakonto nimetus, kui nad on valmis oma programme esitama.
 
 + Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
     
