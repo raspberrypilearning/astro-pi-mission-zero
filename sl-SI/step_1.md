@@ -56,9 +56,9 @@ Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 
 + Obiščite [stran emulatorja Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Izpolnite obrazec in za pošiljanje kliknite **Submit**\*.
 
-\* Please note that this registration form is available in English only.
+\* Obrazec za registracijo je na voljo le v angleščini.
 
 The fields on the form include:  
 Teacher/Mentor name  
