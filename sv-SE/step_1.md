@@ -56,7 +56,7 @@ Du måste registrera dig för utmaningen Mission Zero för att dina lag ska kunn
 
 + Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Fyll i formuläret och klicka på **Skicka**\*.
 
 \ * Observera att detta registreringsformulär endast finns på engelska.
 
@@ -79,8 +79,8 @@ In which language did you access the Mission Zero guidelines?
 
 + Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Vi har skapat [ett utskrivbart två sidors dokument för utdelning](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} som innehåller viktiga punkter för Mission Zero och som studenter och ungdomar kan använda tillsammans med detta online-projekt.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Spårningspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
