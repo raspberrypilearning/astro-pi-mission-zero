@@ -61,15 +61,15 @@ Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team mulighe
 \ * Bemærk, at denne tilmeldingsformular kun er tilgængelig på engelsk.
 
 Felter i formen inkluderer:  
-Teacher/Mentor name(Lære/Mentor navn)  
-Teacher/Mentor email address(Lære/Mentor mailadresse)  
-Teacher/Mentor phone number(Lære/Mentor Telefon)  
+Teacher/Mentor name(Lærer/Mentor navn)  
+Teacher/Mentor email address(Lærer/Mentor mailadresse)  
+Teacher/Mentor phone number(Lærer/Mentor Telefon)  
 Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)(F.eks. Grundskole, Gymnasium, Bibliotek, Code Club, CoderDojo, mm. )  
 Organisation name(Organitationsnavn)  
-Organisation address(Organitations adresse)  
+Organisation address(Organitationsadresse)  
 Organisation city(Organitations by)  
 Organisation country(Organitationsland)  
-Organisation postal code(Organitations postnr.)  
+Organisation postal code(Organitations-postnr.)  
 Team name(Holdnavn)  
 Number of team members(Antal på holdet)  
 Names and ages of team members(Navn og alder på deltagerne)  
