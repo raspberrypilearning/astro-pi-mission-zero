@@ -60,20 +60,19 @@ Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 
 \* Obrazec za registracijo je na voljo le v angleščini.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Polja na obrazcu so:   
+Ime učitelja/mentorja   
+Elektronski naslov učitelja/mentorja   
+Telefonska številka učitelja/mentorja   
+Vrsta organizacije (npr. osnovna šola, srednja šola, knjižnica, Code Club, CoderDojo itd.)   
+Ime organizacije   
+Naslov organizacije   
+Mesto organizacije   
+Država organizacije   
+Poštna številka organizacije   
+Ime ekipe   
+Število članov v ekipi   
+Imena in starost članov ekipe <0 /> V katerem jeziku ste dostopali do smernic Misije nič?
 
 + Za vas bomo ustvarili račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo pripravljeni za pošiljanje svojih programov.
 
@@ -83,4 +82,4 @@ In which language did you access the Mission Zero guidelines?
 
 \--- /strni \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![sledilni piksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
