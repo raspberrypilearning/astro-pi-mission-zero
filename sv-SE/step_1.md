@@ -58,7 +58,7 @@ Du måste registrera dig för utmaningen Mission Zero för att dina lag ska kunn
 
 + Fill out the form and click **Submit**\*.
 
-\* Please note that this registration form is available in English only.
+\ * Observera att detta registreringsformulär endast finns på engelska.
 
 The fields on the form include:  
 Teacher/Mentor name  
