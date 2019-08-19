@@ -83,4 +83,4 @@ In which language did you access the Mission Zero guidelines(På hvilke sprog ha
 
 \--- /kollaps \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sporings pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
