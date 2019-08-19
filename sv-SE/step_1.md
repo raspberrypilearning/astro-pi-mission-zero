@@ -60,20 +60,7 @@ Du måste registrera dig för utmaningen Mission Zero för att dina lag ska kunn
 
 \ * Observera att detta registreringsformulär endast finns på engelska.
 
-The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Fälten på formuläret inkluderar: <0 /> Lärare/mentor namn <0 /> Lärare/mentor e-postadress <0 /> Lärare/mentor telefonnummer <0 /> Organisationstyp (t.ex. grundskola, gymnasium, bibliotek, Code Club, CoderDojo, mm.) <0 /> Organisationsnamn <0 /> Organisationsadress <0 /> Organisationsstad <0 /> Organisationsland <0 /> Organisationens postnummer <0 /> > Lagnamn <0 /> Antal lagmedlemmar <0 /> Lagmedlemmarnas namn och åldrar <0 /> På vilket språk har du tillgång till riktlinjerna för Mission Zero?
 
 + Ett konto kommer att skapas åt dig. Varje konto har sin egen **klassrumskod**, och du måste berätta för dina lag vilken din kod är när de är redo att skicka in sina program.
 
