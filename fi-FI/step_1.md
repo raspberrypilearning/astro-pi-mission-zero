@@ -4,7 +4,7 @@ Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia n�
 
 Käytät Sense HAT -verkkoemulaattoria luomaan ohjelmasi, joten lisälaitteita ei tarvita - kaikki tehdään selaimessa.
 
-Sinun valmistama ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (ISS)! Saat myös erityisen sertifikaatin, joka osoittaa, missä tarkalleen ISS oli, kun ohjelmaa käytettiin!
+Sinun valmistama ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (ISS)! Saat myös erityisen sertifikaatin, joka osoittaa, missä tarkalleen ISS oli, kun ohjelmaasi käytettiin!
 
 ### Mitä tulet tekemään
 
@@ -24,7 +24,7 @@ Tutustut AstroPi-yksikköön ja miten hallitset sitä, mukaan lukien:
 
 Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista {:target="_blank"}:
 
-+ [Käytä yksinkertaisia ​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseen](https://curriculum.raspberrypi.org/programming/creator/){: target = "_ blank"}
++ [ Käytä perus​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseksi](https://curriculum.raspberrypi.org/programming/creator/){: Target = "_ blank"}
 
 \--- /collapse \---
 
