@@ -8,7 +8,7 @@
 2. Vklopite zaslon LED.
 3. Prepričajte se, da vaša koda v celoti deluje brez napak. Če vaša koda vsebuje zanko `while True`, boste morali za izpolnitev tega pravila pritisniti gumb **Stop** (Ustavi).
 
-Prepričajte se tudi, da ste upoštevali naslednje kriterije.
+Prepričajte se tudi, da ste upoštevali naslednje kriterije:
 
 1. Prepričajte se, da vaše sporočilo astronavtom ne bo trajalo več kot 30 sekund, saj bo tako dolgo vaša koda prikazana na postaji ISS.
 2. Izogibajte se uporabi metod, ki zahtevajo vnose.
