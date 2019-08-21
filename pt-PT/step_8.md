@@ -35,7 +35,7 @@ O nome do teu professor ficará visível. Se o nome estiver correto, clica no bo
 
 \--- task \---
 
-Insire o nome da tua equipa e os nomes dos membros da equipa. Estes nomes serão impressos no certificado uma vez que o código seja executado no espaço, por isso, certifica-te que os soletraste corretamente!
+Insere o nome da tua equipa e os nomes dos membros da equipa. Estes nomes serão impressos no certificado uma vez que o código seja executado no espaço, por isso, certifica-te que os soletraste corretamente!
 
 \--- /task \---
 
