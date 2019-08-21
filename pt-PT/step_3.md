@@ -38,7 +38,7 @@ Para executar, pressiona o botão **Run** e vê a mensagem `Astro Pi` passar no 
 
 \--- /task \---
 
-![mensagem a passar no ecrã](images/scroll-message.gif)
+![Mensagem a passar no ecrã](images/scroll-message.gif)
 
 Para exibir uma mensagem diferente, podes escrever o que quiseres entre as aspas (`""`).
 
