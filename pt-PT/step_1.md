@@ -4,7 +4,7 @@ Para alegrar a rotina diária dos astronautas da Estação Espacial Internaciona
 
 Usa o emulador Sense HAT online para criar o teu programa, não precisas de hardware extra - tens tudo o que precisas no navegador web.
 
-O programa completo irá ser executado a partir do espaço na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado!
+O programa completo irá ser executado a partir do espaço na Estação Espacial Internacional (ISS)! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado!
 
 ### O que vais fazer
 
@@ -24,7 +24,7 @@ Vais aprender sobre a unidade Astro Pi e como controlá-la, incluindo como:
 
 Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){: target = "_ blank"}:
 
-+ [Usar construções básicas de programação para criar programas simples](https://curriculum.raspberrypi.org/programming/creator/){: target = "_ blank"}
++ [Usar construções básicas de programação para criar programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_ blank"}
 
 \--- /collapse \---
 
@@ -56,30 +56,30 @@ Será necessário registar-se para o desafio Mission Zero\--- challenge \--- par
 
 + Siga para a página [emulador de Trinket Misson Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Preencha o formulário e clique **Submit** para enviar\*.
++ Preencha o formulário e clique para enviar **Submit**\*.
 
 \ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
-The fields on the form include:  
-(Os campos do formulário incluem:  
-) Teacher/Mentor name  
-(Nome do Professor/Mentor  
-) Teacher/Mentor email address  
-( Endereço email do Professor/Mentor  
-) Teacher/Mentor phone number  
-(Número de telefone do Professor/Mentor  
-) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-(Tipo de Instituiçāo (e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
-) Organisation name  
-(Nome da instituiçāo  
-) Organisation address  
-(Endereço da instituiçāo<0/>) Organisation city<0/> (Cidade da instuiçāo<0/>) Organisation country<0/> (País da instituiçāo<0/>) Organisation postal code<0/>(Código postal da instituiçāo<0/>) Team name<0/>( Nome da Equipa<0/>) Number of team members<0/>( Número de membros na equipa<0/>) Names and ages of team members<0/>( Nomes e idades dos membros da equipa<0/>) In which language did you access the Mission Zero guidelines? ( Em que língua obtiveste as instruções da Mission Zero?)
+Os campos do formulário incluem:  
+Nome do Professor/Mentor  
+Endereço email do Professor/Mentor  
+Número de telefone do Professor/Mentor  
+Tipo de Instituiçāo (e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
+Nome da instituiçāo  
+Endereço da instituiçāo  
+Cidade da instuiçāo  
+País da instituiçāo  
+Código postal da instituiçāo  
+Nome da Equipa  
+Número de membros na equipa  
+Nomes e idades dos membros da equipa  
+Em que língua obtiveste as instruções da Mission Zero?
 
-+ Será criada uma conta para si. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
++ Será criada uma conta para ti. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
 
 + Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
     
-    Criámos [ um folheto de duas páginas para impressão](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"} que cobre os pontos-chave da Missão Zero e que estudantes e jovens podem usar com este projeto on-line.
+    Criámos [ um folheto de duas páginas para impressão](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_ blank"} que cobre os pontos-chave da Missão Zero e que estudantes e jovens podem usar com este projeto on-line.
 
 \--- /collapse \---
 
