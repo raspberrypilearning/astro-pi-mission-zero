@@ -4,7 +4,7 @@ Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji in jim s po
 
 Za pisanje svojega programa boste uporabljali spletni emulator Sense HAT, zato dodatna strojna oprema ni potrebna – delo v celoti poteka v spletnem brskalniku.
 
-Vaš program bo zagnan v vesolju na Mednarodni vesoljski postaji (angl. International Space Station ali ISS)! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program!
+Vaš program bo zagnan v vesolju na Mednarodni vesoljski postaji (angl. International Space Station ali ISS)! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je ISS nahajala, ko je bil zagnan vaš program!
 
 ### Kaj boste naredili?
 
@@ -16,11 +16,11 @@ Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi),
 
 ## title: Kaj se boste naučili?
 
-Poučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
+Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
 
 + prikazovanjem sporočil in barv,
 + ustvarjanjem slik,
-+ izmerite temperaturo
++ merjenjem temperature
 
 Ta projekt zajema elemente naslednjih sklopov načrta [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
