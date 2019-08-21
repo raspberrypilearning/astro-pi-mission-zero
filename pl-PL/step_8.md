@@ -4,9 +4,9 @@ Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do u
 
 ![Sprawdzanie poprawności](images/validation.png)
 
-1. Pobierz pomiar temperatury
-2. Rozświetl diody LED
-3. Upewnij się, że twój kod działa do końca bez żadnych błędów. Jeśli masz w kodzie pętlę `while True`, musisz nacisnąć przycisk **Stop**, aby przekazać tę regułę.
+1. Dokonaj odczytu temperatury
+2. Zapal diody LED
+3. Upewnij się, że twój kod działa do końca bez żadnych błędów. Jeśli masz w kodzie pętlę `while True`, musisz nacisnąć przycisk **Stop**, aby spełnić ten wymóg.
 
 Upewnij się też, że spełniasz następujące kryteria:
 
