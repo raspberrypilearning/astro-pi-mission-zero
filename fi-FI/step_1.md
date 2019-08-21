@@ -61,9 +61,9 @@ Sinun on rekisteröidyttävä Mission Zero -haasteeseen tiimisi/tiimiesi osallis
 \ * Huomaa, että tämä rekisteröintilomake on saatavana vain englanniksi.
 
 Lomakkeen kenttiin sisältyy:  
-Teacher/Mentor name (Opettajan / ohjaajan nimi)  
-Teacher/Mentor email address (Opettajan / ohjaajan sähköpostiosoite)  
-Teacher/Mentor phone number (Opettajan / ohjaajan puhelinnumero)  
+Teacher/Mentor name (Opettajan/ohjaajan nimi)  
+Teacher/Mentor email address (Opettajan/ohjaajan sähköpostiosoite)  
+Teacher/Mentor phone number (Opettajan/ohjaajan puhelinnumero)  
 Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Organisaatiotyyppi (esim. ala-aste, yläaste, kirjasto, Code Club, CoderDojo, jne.)  
 Organisation name (Organisaation nimi)  
 Organisation address (Organisaation osoite)  
@@ -72,14 +72,14 @@ Organisation country (Organisaation maa)
 Organisation postal code (Organisaation postinumero)  
 Team name (Tiimin nimi)  
 Number of team members (Tiimin jäsenten lukumäärä)  
-Names and ages of team members (Tiimin jäsenten nimet ja ikä)  
+Names and ages of team members (Tiimin jäsenten nimet ja iät)  
 In which language did you access the Mission Zero guidelines? (Millä kielellä käytit Mission Zero -ohjeita?)
 
-+ Sinua varten luodaan tili. Jokaisella tilillä on oma **luokkahuonekoodinsa**, ja sinun on kerrottava tiimillesi/tiimeillesi, mikä on sinun, kun he ovat valmiita lähettämään ohjelmansa.
++ Sinulle luodaan tili. Jokaisella tilillä on oma **luokkahuonekoodinsa**, joka sinun on kerrottava tiimillesi/tiimeillesi, kun he ovat valmiita lähettämään ohjelmansa.
 
-+ Esitä luokkahuonekoodisi jossakin näkyvillä olevassa paikassa, kuten esimerkiksi valkotaululla tai kuvanheitintä käyttämällä, ja aloita toiminta.
++ Pidä luokkahuonekoodisi jossakin näkyvillä olevassa paikassa, kuten esimerkiksi valkotaululla tai videoprojektorilla, ja aloita toiminta.
     
-    Olemme luoneet [tulostettavan kaksisivun monisteen](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, joka kattaa Mission Zero avainkysymykset ja jota opiskelijat ja nuoret voivat käyttää yhdessä tämän online-projektin kanssa.
+    Olemme luoneet [tulostettavan kaksisivuisen monisteen](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, joka kattaa Mission Zeron ydinkohdat ja jota opiskelijat ja nuoret voivat käyttää yhdessä tämän verkkoprojektin kanssa.
 
 \--- /collapse \---
 
