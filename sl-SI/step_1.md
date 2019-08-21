@@ -22,7 +22,7 @@ Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z nasl
 + ustvarjanjem slik,
 + merjenjem temperature
 
-Ta projekt zajema elemente naslednjih sklopov načrta [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Uporaba osnovnih programskih konstruktov za pisanje enostavnih programov](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
@@ -32,7 +32,7 @@ Ta projekt zajema elemente naslednjih sklopov načrta [Raspberry Pi Digital Maki
 
 * * *
 
-## title: Kaj potrebujete?
+## title: Kaj boste potrebovali?
 
 ### Strojna oprema
 
@@ -72,7 +72,7 @@ Država organizacije
 Poštna številka organizacije   
 Ime ekipe   
 Število članov v ekipi   
-Imena in starost članov ekipe <0 /> V katerem jeziku ste dostopali do smernic Misije nič?
+Imena in starost članov ekipe <0 /> V katerem jeziku ste dostopali do smernic Mission Zero?
 
 + Za vas bomo ustvarili račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo pripravljeni za pošiljanje svojih programov.
 
@@ -80,6 +80,6 @@ Imena in starost članov ekipe <0 /> V katerem jeziku ste dostopali do smernic M
     
     Ustvarili smo [dvostranski izroček](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ki vsebuje ključne točke projekta Mission Zero in ki jih lahko učenci in mladi uporabljajo skupaj s tem spletnim projektom.
 
-\--- /strni \---
+\--- /collapse \---
 
 ![sledilni piksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
