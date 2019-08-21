@@ -50,7 +50,7 @@ cold = [
 
 \--- task \---
 
-Dodaj kod, aby uzyskać temperaturę:
+Dodaj kod, aby odczytać temperaturę:
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Za pomocą suwaka temperatury ustaw temperaturę na emulatorze. Uruchom program i sprawdź, czy obrazek wybrany dla tej temperatury jest wyświetlany poprawnie.
+Za pomocą suwaka temperatury ustaw temperaturę na emulatorze. Uruchom program i sprawdź, czy obrazek wybrany dla tej temperatury jest poprawnie wyświetlany.
 
 \--- /task \---
 
