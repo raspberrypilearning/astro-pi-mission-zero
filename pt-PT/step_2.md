@@ -1,6 +1,6 @@
 ## O que é um Astro Pi?
 
-Um Astro Pi é um computador Raspberry Pi envolto por uma caixa especialmente concebida para as condições no espaço. Inclui também tem uma placa de expansão chamada Sense HAT, criada especificamente para a missão Astro Pi. A Sense HAT possui um joystick, um écrã LED e sensores para registar a temperatura, a humidade, a pressão e a orientação.
+Um Astro Pi é um computador Raspberry Pi envolto por uma caixa especialmente concebida para as condições no espaço. Inclui também tem uma placa de expansão chamada Sense HAT, criada especificamente para a missão Astro Pi. A Sense HAT possui um joystick, um ecrã LED e sensores para registar a temperatura, a humidade, a pressão e a orientação.
 
 Aqui está uma unidade real do Astro Pi na Estação Espacial Internacional, a executar um código escrito por alunos. Aqui é onde o teu código será executado eventualmente! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
