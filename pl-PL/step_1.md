@@ -20,7 +20,7 @@ Uzyskasz informacje o jednostce AstroPi i nauczysz się ją kontrolować, w tym 
 
 + jak wyświetlać wiadomości i kolory
 + jak tworzyć obrazki
-+ pomiar temperatury
++ jak mierzyć temperaturę
 
 Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -56,7 +56,7 @@ Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Mission Zero, należy
 
 + Przejdź do [strony emulatora Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_ blank"}.
 
-+ Wypełnij formularz i kliknij **Submit** (Wyślij).
++ Wypełnij formularz i kliknij **Submit** (Wyślij)\*.
 
 \* Proszę zwróc uwagę, że ten formularz jest dostępny tylko w języku angielskim.
 
@@ -73,13 +73,13 @@ Teacher/Mentor name
 (Kod pocztowy organizacji) Team name  
 (Nazwa zespołu) Number of team members  
 (Liczba osób w zespole) Names and ages of team members  
-(Imiona i nazwiska, oraz wiek uczestników) W jakim języku użyto przewodnik do Mission Zero?
+(Imiona i nazwiska, oraz wiek uczestników) W jakim języku użyto przewodnika do Mission Zero?
 
 + Zostanie utworzone konto. Każde konto ma własny **kod klasy**, który należy podać swojemu zespołowi/swoim zespołom, kiedy uczestnicy będą gotowi do wysłania swoich programów.
 
 + Wyświetl kod klasy w widocznym miejscu, na przykład na tablicy lub za pomocą projektora, i rozpocznij zadanie.
     
-    Stworzyliśmy [dwustronicowy materiał do druku](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target = "_ blank"}, który obejmuje kluczowe punkty Mission Zero i z którego uczniowie i młodzi ludzie mogą korzystać w ramach tego projektu online.
+    Stworzyliśmy [dwustronicowy materiał do druku](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target = "_ blank"}, który obejmuje kluczowe punkty Mission Zero i z którego uczniowie i młodzi ludzie mogą korzystać w ramach tego projektu online.
 
 \--- /collapse \---
 
