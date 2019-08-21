@@ -11,7 +11,7 @@ Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do u
 Upewnij się też, że spełniasz następujące kryteria:
 
 1. Upewnij się, że twoja wiadomość do astronautów wyświetlana jest nie dłużej niż 30 sekund, bo przez tyle czasu twój kod będzie działać na MSK
-2. Należy unikać wszelkich metod wymagających wprowadzania
+2. Należy unikać wszelkich metod wymagających ręcznego wprowadzania danych
 3. Importuj tylko z modułów `sense_hat`, `time` i `random`
 4. Nie wolno umieszczać wulgaryzmów
 
