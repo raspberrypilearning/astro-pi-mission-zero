@@ -8,7 +8,7 @@ Tutaj można dowiedzieć się, jak tworzy się wszystkie kolory za pomocą róż
 
 \--- task \---
 
-Wybierz kolor i sprawdź jego wartość RGB. Można użyć [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp) {:target="_blank"}.
+Wybierz kolor i sprawdź jego wartość RGB. Można użyć [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
 
 \--- /task \---
 
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 \--- task \---
 
-Można również zmienić kolor tła wyświetlacza. Wybierz inny kolor i utwórz kolejną zmienną, aby zachować ten kolor. Aby w programie dać polecenie użycia wybranego koloru tła, dodaj parametr `back_colour` (koloru_tła) do swojego kodu:
+Można również zmienić kolor tła wyświetlacza. Wybierz inny kolor i utwórz kolejną zmienną, aby zachować ten kolor. Aby w programie dać polecenie użycia wybranego koloru tła, dodaj parametr `back_colour` (kolor_tła) do swojego kodu:
 
 ```python
 red = (255,0,0)
