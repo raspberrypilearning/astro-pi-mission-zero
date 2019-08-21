@@ -5,7 +5,7 @@ description: Przygotuj się do Mission Zero
 listed: false
 copyedit: true
 version: 4.0.1
-last_tested: 2017-06-01
+last_tested: 2018-06-12
 steps:
   - 
     title: Wprowadzenie
@@ -22,6 +22,6 @@ steps:
   - 
     title: Wyświetlanie temperatury
   - 
-    title: Jak wysłać zgłoszenie
+    title: Wyślij swoje zgłoszenie
   - 
     title: "Wyzwanie: więcej projektów Astro Pi"
