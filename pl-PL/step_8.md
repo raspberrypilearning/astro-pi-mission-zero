@@ -1,4 +1,4 @@
-## Jak wysłać zgłoszenie
+## Wyślij swoje zgłoszenie
 
 Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do uruchomienia na Międzynarodowej Stacji Kosmicznej. Jeśli twój kod je spełnia, zasady u dołu emulatora zaświecą się na zielono po uruchomieniu programu.
 
