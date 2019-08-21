@@ -1,6 +1,6 @@
 ## Visualizar uma imagem
 
-Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a tua saudação para os astronautas possa incluir uma imagem ou um desenho, junto com ou em vez de uma mensagem escrita.
+Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a tua saudação para os astronautas possa incluir uma imagem ou um desenho, junto com ou em vez de uma mensagem escrita?
 
 ![Astronauta](images/astronaut-pic.png)
 
