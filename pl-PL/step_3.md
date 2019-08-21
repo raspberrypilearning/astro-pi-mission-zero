@@ -14,7 +14,7 @@ sense.set_rotation(270)
 
 ![emulator sense hat](images/sense-hat-emulator2.png)
 
-Kod ten łączy się z Astro Pi i zapewnia, że wyświetlacz LED Astro Pi jest pokazany we właściwy sposób. Kod należy zostawić, gdyż będzie potrzebny.
+Kod ten łączy się z Astro Pi i zapewnia, że wyświetlacz LED Astro Pi jest pokazany we właściwy sposób. Kod należy zostawić, gdyż będzie on potrzebny.
 
 \--- /task \---
 
