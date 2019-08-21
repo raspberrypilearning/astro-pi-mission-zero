@@ -8,7 +8,7 @@ Astro Pi temperaturo na postaji ISS meri v stopinjah Celzija (&deg;C). Ker se te
 
 Del vaše misije je izboljšanje vsakdana posadke na postaji ISS. Ko jim boste sporočili, da je temperatura na vesoljski postaji v mejah normale, jih bo to prav gotovo pomirilo.
 
-## \--- propad \---
+## \--- collapse \---
 
 ## title: Kaj je temperatura?
 
