@@ -54,13 +54,13 @@ Paina **Run** (Suorita) nähdäksesi kuvasi näytössä.
 
 \--- task \---
 
-Haluat ehkä lisätä tietyn koodin sisällyttämään lyhyen odotuksen (vaihtoehtona `sleep`) kuvan näyttämisen jälkeen. Tämä antaa astronauteille aikaa nähdä kuvasi ennen kuin seuraava viestisi osa tulee näkyviin. Lisää ohjelman yläosaan:
+Haluat ehkä lisätä koodia lyhyttä viivettä varten (eli `sleep`-käsky) kuvan näyttämisen jälkeen. Tämä antaa astronauteille aikaa nähdä kuvasi ennen kuin seuraava viestisi osa tulee näkyviin. Lisää ohjelman yläosaan:
 
 ```python
 from time import sleep
 ```
 
-Lisää sitten kuvasi esittämän koodin jälkeiselle riville tämä koodi odottamaan kaksi sekuntia:
+Lisää sitten kuvasi näyttävää koodia seuraavalle riville tämä koodi kahden sekunnin viivettä varten:
 
 ```python
 sleep(2)
