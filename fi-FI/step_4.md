@@ -24,7 +24,7 @@ red = (255,0,0)
 
 \--- task \---
 
-Voit nyt näyttää tekstin haluamallasi värillä! Jos haluat ohjata ohjelman käyttämään luomaasi väriä, lisää `text_colour` parametri koodille, joka näyttää tekstisi:
+Voit nyt näyttää tekstin haluamallasi värillä! Käskeäksesi ohjelman käyttämään valitsemaasi väriä, lisää parametri `text_colour` koodiin, joka näyttää tekstisi:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 \--- /task \---
 
-![näytä viesti värissä](images/show-message-color.gif)
+![näytä viesti värillisenä](images/show-message-color.gif)
 
 \--- task \---
 
-Voit myös vaihtaa näytön taustaväriä. Valitse toinen väri ja luo toinen muuttuja tallentamaan kyseinen väri. Jos haluat ohjata ohjelman käyttämään valitsemaasi taustaväriä, lisää `back_colour` parametri koodiisi:
+Voit myös vaihtaa näytön taustaväriä. Valitse toinen väri ja luo toinen muuttuja tallentamaan kyseinen väri. Käskeäksesi ohjelman käyttämään valitsemaasi taustaväriä, lisää parametri `back_colour` koodiisi:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- task \---
 
-Muuta tervehdystekstiä ja väriä - minkä viestin sinä lähetät astronauteille ISS:n aluksella?
+Muuta tervehdystekstiä ja väriä — minkä viestin sinä lähetät ISS:n astronauteille?
 
 \--- /task \---
