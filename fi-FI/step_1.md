@@ -4,7 +4,7 @@ Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia n�
 
 Käytät Sense HAT -verkkoemulaattoria luomaan ohjelmasi, joten lisälaitteita ei tarvita - kaikki tehdään selaimessa.
 
-Sinun valmistama ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (ISS)! Saat myös erityisen sertifikaatin, joka osoittaa, missä tarkalleen ISS oli, kun ohjelmaasi käytettiin!
+Sinun tekemä ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (ISS)! Saat myös erityisen sertifikaatin, joka osoittaa, missä tarkalleen ISS oli, kun ohjelmaasi käytettiin!
 
 ### Mitä tulet tekemään
 
@@ -16,7 +16,7 @@ Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** n�
 
 ## title: Mitä tulet oppimaan
 
-Tutustut AstroPi-yksikköön ja miten hallitset sitä, mukaan lukien:
+Tutustut Astro Pi -yksikköön ja miten hallitset sitä, mukaan lukien:
 
 + näytä viestejä ja värejä
 + luo kuvia
@@ -48,7 +48,7 @@ Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](ht
 
 ## title: Huomautuksia opettajille ja ohjaajille
 
-Tämä toiminta voidaan suorittaa iltapäivän aikana. Järjestä oppilaasi enintään neljän henkilön tiimeihin ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma henkilökohtaisen viestin ja Astro Piin ilman lämpötilan näyttämiseksi.
+Tämä toiminta voidaan suorittaa iltapäivän aikana. Järjestä oppilaasi enintään neljän henkilön tiimeihin ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma henkilökohtaisen viestin ja Astro Pin ilman lämpötilan näyttämiseksi.
 
 Lue [virallinen ohjeasiakirja](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zeroa varten.
 
