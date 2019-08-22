@@ -1,19 +1,19 @@
 ## Näytä kuva
 
-Voit näyttää kuvia Astro Pi:n LED-matriisissa. Ehkä tervehdyksesi astronauteille voisi sisältää kuvan tai kuvion sekä myös kirjallisen viestin niiden yhteydessä tai niiden sijasta?
+Voit näyttää kuvia Astro Pin LED-matriisissa. Ehkä tervehdyksesi astronauteille voisi sisältää kuvan tai kuvion kirjallisen viestin yhteydessä tai sen sijasta?
 
 ![Astronautti](images/astronaut-pic.png)
 
 \--- task \---
 
-Luo ohjelman alaosaan tiettyjä värimuuttujia määrittääksesi värit, joilla haluat piirtää kuvan. Voit käyttää niin monta väriä kuin haluat, mutta tässä esimerkissä käytämme vain kahta väriä - valkoista (`w`) ja mustaa (`b`).
+Luo ohjelman loppuun värimuuttujia määrittämään värit, joilla haluat piirtää kuvan. Voit käyttää niin montaa väriä kuin haluat, mutta tässä esimerkissä käytämme vain kahta väriä — valkoista (`w`) ja mustaa (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Huomautus:** Tällä kertaa kannattaa antaa värimuuttujille yksikirjaimisia nimiä, koska se säästää aikaa seuraavassa vaiheessa, jossa tulet kirjoittamaan ne useita kertoja. Lisäksi yksittäiset kirjiamet tekevät helpommaksi nähdä kuvan, jonka piirrät.
+**Huomautus:** Tällä kertaa kannattaa antaa värimuuttujille yksikirjaimisia nimiä, koska se säästää aikaa seuraavassa vaiheessa, jossa tulet kirjoittamaan ne useita kertoja. Lisäksi yksittäiset kirjaimet helpottavat piirtämäsi kuvan näkemistä.
 
 \--- /task \---
 
