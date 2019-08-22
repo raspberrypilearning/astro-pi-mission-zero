@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Luo uusien muuttujien alle 64 kohteen luettelo. Jokainen kohde edustaa yhtä pikseliä LED-matriisissa ja vastaa yhtä määrittämistäsi värimuuttujista. Piirrä kuvasi asettamalla muuttuja sinne, missä haluat sille nimetyn värin esiintyvän. Olemme piirtäneet astronautin käyttämällä mustia (`b`) pikseleinä taustana ja valkoisia (`w`) pikseleitä piirtämään astronautin avaruuspuvun:
+Luo 64-kohtainen lista uusien muuttujien alle. Jokainen kohde edustaa yhtä pikseliä LED-matriisissa ja vastaa yhtä määrittämistäsi värimuuttujista. Piirrä kuvasi asettamalla muuttuja sinne, missä haluat sille nimetyn värin esiintyvän. Olemme piirtäneet astronautin käyttämällä mustia (`b`) pikseleitä taustana ja valkoisia (`w`) pikseleitä piirtämään astronautin avaruuspuvun:
 
 ```python
 picture = [
