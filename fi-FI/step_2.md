@@ -8,8 +8,8 @@ Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaatt
 
 ![Sense HAT -emulaattori](images/sense-hat-emulator.png)
 
-Oikean ja emuloidun Sense HAT:n välillä on muutamia eroavaisuuksia:
+Oikean ja emuloidun Sense HATin välillä on muutamia eroavaisuuksia:
 
-- Emulaattorissa voit asettaa lämpötilan, paineen ja kosteuden käyttämällä liukusäätimiä, kun taas Astro Pi:ssä oleva oikea Sense HAT käyttää antureita näiden parametrien mittaamiseen sen ympäristössä.
+- Emulaattorissa voit asettaa lämpötilan, paineen ja kosteuden käyttämällä liukusäätimiä, kun taas Astro Pissä oleva oikea Sense HAT käyttää antureita näiden parametrien mittaamiseen sen ympäristössä.
 
-- Voit hiirellä napsauttaa ja vetää emuloitua Sense HAT:ia siirtääksesi ja pyörittääksesi sitä ja näin simuloida sen suunnan muutoksia; oikea Astro Pi (ja sen Sense HAT) voi liikkua oikeassa maailmassa, ja Sense HAT:n suunta-anturit tunnistavat milloin ja miten se on liikkunut.
+- Voit hiirellä napsauttaa ja vetää emuloitua Sense HATiä siirtääksesi ja pyörittääksesi sitä ja näin simuloida sen suunnan muutoksia; oikea Astro Pi (ja sen Sense HAT) voi liikkua oikeassa maailmassa, ja Sense HATin suunta-anturit tunnistavat milloin ja miten se on liikkunut.
