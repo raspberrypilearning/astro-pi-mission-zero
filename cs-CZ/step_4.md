@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 \--- /task \---
 
-![barva zobrazené zprávy](images/show-message-color.gif)
+![zobrazit zprávu barevně](images/show-message-color.gif)
 
 \--- task \---
 
