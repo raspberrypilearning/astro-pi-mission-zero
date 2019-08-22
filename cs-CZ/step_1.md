@@ -20,11 +20,11 @@ Dozvíte se, co je jednotka AstroPi a jak ji ovládat, například jak:
 
 + zobrazovat zprávy a barvy
 + vytvářet obrázky
-+ změřte teplotu
++ měřit teplotu
 
-Tento projekt zahrnuje prvky z následujících částí výukového curricula [ Raspberry Pi Digital ](http://rpf.io/curriculum) {: target = "_ blank"}:
+Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
 
-+ [Použij základní programovací konstrukce k vytvoření jednoduchých programů ](https://curriculum.raspberrypi.org/programming/creator/) {:target = "_blank"}
++ [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů ](https://curriculum.raspberrypi.org/programming/creator/) {:target = "_blank"}
 
 \--- /collapse \---
 
@@ -40,7 +40,7 @@ Tento projekt zahrnuje prvky z následujících částí výukového curricula [
 
 ### Software
 
-+ Webový prohlížeč (např. Google Chrome), který otevře <https://trinket.io/mission-zero>{:target="_blank"}
++ Webový prohlížeč (např. Google Chrome), kterým otevřeš <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- /collapse \---
 
@@ -52,7 +52,7 @@ Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do t�
 
 Přečtěte si [dokument s oficiálními instrukcemi](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
-Aby se vaše týmy mohly zúčastnit, musíte se pro Mission Zero zaregistrovat.
+Aby se vaše týmy mohly zúčastnit, musíte se do Mission Zero zaregistrovat.
 
 + Jděte na [stránku emulátoru Trinket pro Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
