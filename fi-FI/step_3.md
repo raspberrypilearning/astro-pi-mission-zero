@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![sense hat -emulaattori](images/sense-hat-emulator2.png)
 
-Tämä koodi muodostaa yhteyden Astro Pi:hin ja varmistaa, että Astro Pi:n LED-näyttö näytetään oikein päin. Jätä koodi sinne, koska tulet tarvitsemaan sitä.
+Tämä koodi muodostaa yhteyden Astro Pihin ja varmistaa, että Astro Pin LED-näyttö näytetään oikein päin. Jätä koodi sinne, koska tulet tarvitsemaan sitä.
 
 \--- /task \---
 
 \--- task \---
 
-Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät Astro Pi:n lähellä? Vieritetään viesti näytön poikki.
+Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät Astro Pin lähellä? Vieritetään viesti näytön poikki.
 
 Lisää tämä rivi muun koodin alapuolelle:
 
