@@ -1,6 +1,6 @@
 ## Lisää väriä
 
-Astro Pi:n LEDit voivat myös näyttää värejä. Voit määrittää värin luomalla muuttujan ja määrittämällä sille RGB-väriarvon.
+Astro Pin LEDit voivat näyttää myös värejä. Voit määrittää värin luomalla muuttujan ja antamalla sille RGB-väriarvon.
 
 Täältä voit oppia, kuinka kaikki värit voidaan luoda käyttämällä punaisen, vihreän ja sinisen eri mittasuhteita:
 
@@ -14,7 +14,7 @@ Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [värinvalitsinta](ht
 
 \--- task \---
 
-Luo muuttuja tallentamaan valitsemasi väri. Jos esimerkiksi valitsit punaisen, kirjoitat tämän koodirivin:
+Luo muuttuja tallentaaksesi valitsemasi värin. Jos esimerkiksi valitsit punaisen, kirjoitat tämän koodirivin:
 
 ```python
 red = (255,0,0)
