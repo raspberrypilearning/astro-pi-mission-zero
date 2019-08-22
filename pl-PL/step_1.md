@@ -62,14 +62,14 @@ Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Mission Zero, należy
 
 Pola z formularza zawierają:  
 Teacher/Mentor name  
-(Imię i nazwisko nauczyciela/Mentora) Teacher/Mentor email address  
-(Adres e-mail nauczyciela/Mentora) Teacher/Mentor phone number  
-(Numer telefonu nauczyciela/Mentora) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+(Imię i nazwisko nauczyciela/mentora) Teacher/Mentor email address  
+(Adres e-mail nauczyciela/mentora) Teacher/Mentor phone number  
+(Numer telefonu nauczyciela/mentora) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
 (Rodzaj organizacji -np. szkoła podstawowa, gimnazjum, szkoła średnia, biblioteka, Code Club, CoderDojo, itp.) Organisation name  
 (Nazwa organizacji) Organisation address  
 (Adres organizacji) Organisation city  
-(Miasto gdzie zlokalizowana jest organizacja) Organisation country  
-(Państwo organizacji) Organisation postal code  
+(Miasto, w którym znajduje się organizacja) Organisation country  
+(Państwo, w którym znajduje się organizacja) Organisation postal code  
 (Kod pocztowy organizacji) Team name  
 (Nazwa zespołu) Number of team members  
 (Liczba osób w zespole) Names and ages of team members  
