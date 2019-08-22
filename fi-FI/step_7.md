@@ -1,6 +1,6 @@
 ## Näytä lämpötila
 
-Voit yhdistää lämpötilalukemasi kuvaan myös lämpötilan osoittamiseksi graafisella tavalla. Esimerkiksi saatat näyttää lumimyrskyn kylmille lämpötiloille ja aurinkoisen päivän kuumille lämpötiloille:
+Voit yhdistää lämpötilalukemasi kuvaan näyttääksesi lämpötilan myös graafisella tavalla. Esimerkiksi saatat näyttää lumimyrskyn kylmille lämpötiloille ja aurinkoisen päivän kuumille lämpötiloille:
 
 ![Kuuma ja kylmä](images/hot-and-cold.png)
 
