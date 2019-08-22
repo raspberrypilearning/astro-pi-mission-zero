@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Otevřete [emulátor desky Sense HAT](https://trinket.io/mission-zero){:target="_blank"} pro projekt Mission Zero.
+Otevřete [emulátor desky Sense HAT](https://trinket.io/mission-zero){:target="_blank"} pro založení projektu Mission Zero.
 
 Tři řádky kódu, přidané automaticky, už tam budou:
 
