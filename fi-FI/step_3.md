@@ -69,6 +69,6 @@ Voit myös muuttaa näytön poikki vierivän viestin nopeutta. Lisää `scroll_s
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vierittymään nopeammin, ja sen muuttaminen suuremmaksi saa viestin vierittymään hitaammin.
+Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vierimään nopeammin, ja sen muuttaminen suuremmaksi saa viestin vierimään hitaammin.
 
 \--- /task \---
