@@ -6,7 +6,7 @@ Voit yhdistää lämpötilalukemasi kuvaan näyttääksesi lämpötilan myös gr
 
 \--- task \---
 
-Luo ohjelman alareunaan lisää värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa. Esimerkkeissämme käytämme valkoista (`w`), keltaista (`y`), vihreää (`g`) ja mustaa / tyhjää (`b`).
+Lisää ohjelman loppuun uusia värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa. Esimerkeissämme käytämme valkoista (`w`), keltaista (`y`), vihreää (`g`) ja mustaa/tyhjää (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,10 +19,10 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Aivan kuten aiemmin, piirrä kuvat luoden ensin listan jokaisesta niistä ja asettaen sitten listan kohteet väreihin, joissa haluat pikselisi esitettäväksi.
+Aivan kuten aiemminkin, piirrä kuvat luomalla ensin listan jokaista varten, ja sitten täyttämällä listan kohdat väreillä, joilla haluat pikselisi esitettävän.
 
 ```python
-kuuma = [
+hot = [
   b, b, b, b, b, y, y, b,
   b, b, b, b, y, y, y, y,
   b, b, b, b, b, y, y, b,
@@ -34,7 +34,7 @@ kuuma = [
 ]
 
 
-kylmä = [
+cold = [
   b, b, w, b, b, b, w, b,
   b, b, b, b, b, w, b, b,
   b, w, b, b, b, b, b, w,
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `hot`, jos lämpötilan lukema on 20 astetta tai sen yli ja, jos lämpötila lukema on alle 20 astetta, näytämme kuvan `cold`.
+Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `hot`, jos lämpötilan lukema on 20 astetta tai sen yli, ja kuvan `cold`, jos lämpötilan lukema on alle 20 astetta.
 
 ```python
 temp = sense.temperature
@@ -74,12 +74,12 @@ else:
 
 \--- task \---
 
-Käytä lämpötilan liukusäädintä asettaaksesi lämpötilan emulaattoriin. Suorita ohjelma ja tarkista, että kyseiselle lämpötilalle valittu kuva näytetään oikein.
+Käytä lämpötilan liukusäädintä asettaaksesi lämpötilan emulaattorissa. Suorita ohjelma ja tarkista, että kyseiselle lämpötilalle valittu kuva näytetään oikein.
 
 \--- /task \---
 
 \--- task \---
 
-Muuta koodisi niin, että ohjelma näyttää lämpötilan astronauteille omalla valitsemallasi tavalla.
+Muuta koodiasi niin, että ohjelma näyttää lämpötilan astronauteille omalla valitsemallasi tavalla.
 
 \--- /task \---
