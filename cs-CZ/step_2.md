@@ -6,7 +6,7 @@ Tady vidíte skutečnou jednotku Astro Pi na Mezinárodní vesmírné stanici, n
 
 Pro tuto misi budete používat emulátor desky Sense HAT. Emulátor je software, který simuluje všechny funkce Astro Pi ve vašem webovém prohlížeči.
 
-![Sense HAT emulator](images/sense-hat-emulator.png)
+![Emulátor Sense HAT](images/sense-hat-emulator.png)
 
 Mezi skutečnou a emulovanou deskou Sense HAT jsou určité rozdíly:
 
