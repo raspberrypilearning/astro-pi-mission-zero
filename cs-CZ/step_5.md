@@ -6,7 +6,7 @@ Na LED matici Astra Pi můžete zobrazovat obrázky. Co kdyby váš pozdrav astr
 
 \--- task \---
 
-Na konec programu přidejte nové řádky a na nich si vytvořte nové proměnné s definicemi barev, které budete chtít používat při kreslení svého obrázku. Můžete použít kolik barev budete chtít, ale v našem příkladu zůstaneme u dvou — u černé (`w`) a bílé (`b`).
+Na konec programu přidejte nové řádky a na nich si vytvořte nové proměnné s definicemi barev, které budete chtít používat při kreslení svého obrázku. Můžete použít tolik barev, kolik budete chtít, ale v našem příkladu zůstaneme u dvou — u černé (`b`) a bílé (`w`).
 
 ```python
 w = (255, 255, 255)
