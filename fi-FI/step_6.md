@@ -16,25 +16,25 @@ Lämpötila on mitta siitä, kuinka kuuma jokin on. Sinun kehosi lämpö on ehk�
 
 ![Lämpömittari](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} Wikimedia Commons -sivuston kautta*
 
-Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät, että jääkuutio on kiinteä, mutta kun se lämpenee, eli kun se imee itseensä lämpöenergiaa sen ympäristöstä, se sulaa ja tulee nestemäiseksi. Tämä johtuu siitä, että kun aine imee itseensä tai menettää riittävästi lämpöenergiaa, aine muuttaa olomuotoaan, esim. se muuttuu kiinteästä nestemäiseksi.
+Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät jääkuution olevan kiinteä, mutta kun se lämpenee eli imee itseensä lämpöenergiaa ympäristöstään, se sulaa ja muuttuu nestemäiseksi. Tämä johtuu siitä, että kun aine imee itseensä tai menettää riittävästi lämpöenergiaa, aine muuttaa olomuotoaan, esim. se muuttuu kiinteästä nestemäiseksi.
 
 \--- /collapse \---
 
 \--- task \---
 
-Lisää tämä koodi lämpötilan lukeman ottamiseksi:
+Lisää tämä koodi lämpötilan lukemiseksi:
 
 ```python
 temp = sense.temperature
 ```
 
-Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujalle `temp`.
+Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujaan `temp`.
 
 \--- /task \---
 
 \--- task \---
 
-Lämpötila tallennetaan hyvin tarkkaan merkiten sitä, että tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet arvon yhden desimaalin tarkkuudella, mutta eri tarkkuustasoja varten muuta numero `1` desimaaliin, jonka haluat nähdä.
+Lämpötila tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +44,19 @@ temp = round( sense.temperature, 1 )
 
 \--- task \---
 
-Jos haluat näyttää nykyisen lämpötilan vieritysviestinä näytöllä, lisää tämä koodirivi:
+Lisää tämä koodirivi näyttääksesi nykyisen lämpötilan vieritysviestinä näytöllä:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-`str()` -osa muuntaa lämpötilan numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
+`str()`-osa muuntaa lämpötilan numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
 
 \--- /task \---
 
 \--- task \---
 
-Voit myös näyttää lämpötilan osana toista viestiä liittämällä viestisi osat `+` merkillä.
+Voit myös näyttää lämpötilan osana toista viestiä liittämällä viestisi osat käyttäen merkkiä `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,7 +64,7 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-Oikea Astro Pi mittaa sen ympärillä olevan lämpötilan, mutta voit siirtää Sense HAT -emulaattorin lämpötilan liukusäädintä simuloimaan lämpötilan muutoksia ja testaamaan koodiasi.
+Oikea Astro Pi mittaa sen ympärillä olevan lämpötilan, mutta voit liikuttaa lämpötilan liukusäädintä Sense HAT -emulaattorissa simuloidaksesi lämpötilan muutoksia ja testataksesi koodiasi.
 
 ![Lämpötilan liukusäädin](images/temperature-slider.png)
 
