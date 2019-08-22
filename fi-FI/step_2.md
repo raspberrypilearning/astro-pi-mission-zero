@@ -6,10 +6,10 @@ Tässä on oikea Astro Pi -yksikkö Kansainvälisellä avaruusasemalla, jolla su
 
 Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaattori on ohjelma, joka simuloi kaikkia Astro Pi -toimintoja verkkoselaimessasi.
 
-![Sense HAT-emulaattori](images/sense-hat-emulator.png)
+![Sense HAT -emulaattori](images/sense-hat-emulator.png)
 
 Oikean ja emuloidun Sense HAT:n välillä on muutamia eroavaisuuksia:
 
 - Emulaattorissa voit asettaa lämpötilan, paineen ja kosteuden käyttämällä liukusäätimiä, kun taas Astro Pi:ssä oleva oikea Sense HAT käyttää antureita näiden parametrien mittaamiseen sen ympäristössä.
 
-- Voit hiirellä napsauttaa ja vetää emuloitua Sense HAT -sovellusta siirtääksesi ja pyörittääksesi sitä ja näin ollen simuloida sen suunnan muutoksia; oikea Astro Pi (ja sen Sense HAT) voi liikkua oikeassa maailmassa, ja Sense HAT: n suunta-anturit tunnistavat milloin ja miten se on liikkunut.
+- Voit hiirellä napsauttaa ja vetää emuloitua Sense HAT:ia siirtääksesi ja pyörittääksesi sitä ja näin simuloida sen suunnan muutoksia; oikea Astro Pi (ja sen Sense HAT) voi liikkua oikeassa maailmassa, ja Sense HAT:n suunta-anturit tunnistavat milloin ja miten se on liikkunut.
