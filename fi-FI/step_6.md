@@ -1,6 +1,6 @@
 ## Mittaa lämpötila
 
-Astro Pi:n lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa. Tämä on hyödyllinen ominaisuus joka auttaa sinua keräämään tietoja olosuhteista avaruudessa.
+Astro Pin lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa. Tämä on hyödyllinen ominaisuus, joka auttaa sinua keräämään tietoja olosuhteista avaruudessa.
 
 ![Viesti lämpötilasta](images/degrees-message.gif)
 
