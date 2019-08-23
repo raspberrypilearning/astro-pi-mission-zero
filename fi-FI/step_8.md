@@ -27,7 +27,7 @@ Kirjoita luokkakoodisi alareunassa olevaan ruutuun - opettajasi kertoo sinulle, 
 
 \--- task \---
 
-Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painiketta **Continue to form**.
+Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painiketta **Jatka lomakkeeseen**.
 
 ![Jatka lomakkeeseen](images/continue-to-form.png)
 
@@ -35,18 +35,18 @@ Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painik
 
 \--- task \---
 
-Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodisi on suoritettu avaruudessa, joten varmista, että ne on kirjoitettu oikein!
+Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodinne on suoritettu avaruudessa, joten varmista, että ne on kirjoitettu oikein!
 
 \--- /task \---
 
 \--- task \---
 
-Paina **Submit**-painiketta koodisi kirjoittamiseksi. Opettajasi tai ohjaajasi saa sähköpostin osallistumisesi vahvistamiseksi.
+Paina **Submit**-painiketta koodisi lähettämiseksi. Opettajasi tai ohjaajasi saa sähköpostin osallistumisesi vahvistamiseksi.
 
 \--- /task \---
 
 \--- task \---
 
-Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
+Voit halutessasi jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että kirjoittamaasi koodia käytetään avaruudessa!
 
 \--- /task \---
