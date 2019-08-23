@@ -16,12 +16,12 @@ steps:
   - 
     title: Lisää jonkun verran väriä
   - 
-    title: Esitä kuva
+    title: Näytä kuva
   - 
     title: Mittaa lämpötila
   - 
     title: Näytä lämpötila
   - 
-    title: Lähetä merkintäsi
+    title: Lähetä osallistumisilmoituksesi
   - 
-    title: "Haaste: lisää Astro Pi -hankkeita"
+    title: "Haaste: lisää Astro Pi -projekteja"
