@@ -10,7 +10,7 @@ In alternativa, potreste provare uno dei nostri altri progetti Astro Pi:
 
 + Create un bel [luccichio casuale](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} sul display LED del Sense HAT
 
-+ Create un gioco su [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
++ Create un gioco chiamato [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
 + Sfidate i vostri amici a risolvere un [labirinto](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} con una bilia
 
