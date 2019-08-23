@@ -2,11 +2,11 @@
 
 Nyt, kun olet suorittanut tehtäväsi, miksi et kokeilisi lisää projekteja muita Astro Pi -antureita käyttäen?
 
-Jos tunnet olosi varmaksi, voit osallistua [Mission Space Labiin](https://astro-pi.org/missions/space-lab/)! Muodostakaa tiimi, jossa on 2-6 henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. Saatte ilmaiset tietokonelaitteet tehtävää varten, ja kirjoitatte Python-koodia kokeenne suorittamiseksi. Jos onnistutte pääsemään lennolle, koodinne lähetetään Kansainväliselle avaruusasemalle ja ajetaan Astro Pissä kolme tuntia (kaksi kierrosta Maapallon ympäri). Kaikki tiedot, jotka koodisi kerää avaruudessa - kuva- tai anturitiedostot - , ladataan ja palautetaan analyysiä varten.
+Jos tunnet olosi varmaksi, voit osallistua [Mission Space Labiin](https://astro-pi.org/missions/space-lab/)! Muodostakaa tiimi, jossa on 2-6 henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. Saatte ilmaiset tietokonelaitteet tehtävää varten, ja kirjoitatte Python-koodia kokeenne suorittamiseksi. Jos onnistutte pääsemään lennolle, koodinne lähetetään Kansainväliselle avaruusasemalle ja ajetaan Astro Pissä kolme tuntia (kaksi kierrosta Maapallon ympäri). Kaikki koodinne keräämät tiedot avaruudessa — kuva- tai anturidatatiedostot — ladataan alas ja palautetaan teille analysoitavaksi.
 
-Vaihtoehtoisesti voit kokeilla jotain muuta Astro Pi -projektiamme:
+Vaihtoehtoisesti voitte kokeilla joitain muita Astro Pi -projektejamme:
 
-+ Opi [lisää Sense HAT:stä ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} ja muita asioita, joita se voi tehdä
++ Opi [lisää Sense HATistä](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} ja muista asioista, joita se voi tehdä
 
 + Luo kauniita [satunnaisia kimalluksia](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} Sense HATin LED-näytössä
 
