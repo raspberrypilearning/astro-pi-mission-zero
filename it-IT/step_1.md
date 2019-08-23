@@ -1,14 +1,14 @@
 ## Introduzione
 
-Rallegra la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e la temperatura dell’aria ambiente a bordo usando il Sense HAT del computer Astro Pi.
+Rallegra la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e la temperatura dell’ambiente a bordo usando il Sense HAT del computer Astro Pi.
 
-Per creare il vostro programma, utilizzerete l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo: viene fatto tutto in un browser web.
+Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo: viene realizzato tutto in un browser web.
 
-Una volta completato, il vostro programma verrà eseguito nello spazio, sulla ISS, la Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
+Una volta completato, il tuo programma verrà eseguito nello spazio, sulla ISS, la Stazione Spaziale Internazionale! Riceverai anche un certificato speciale che mostra esattamente dove si trovava la ISS durante l'esecuzione del programma!
 
 ### Che cosa creerai
 
-Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cliccate su **Run** per vederlo in funzione. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Ecco un esempio del tipo di programma che puoi creare. Cliccate su **Run** per vederlo in funzione. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,15 +16,15 @@ Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cl
 
 ## title: Cosa imparerai
 
-Imparerete tante cose sull’AstroPi, come comandarlo e come:
+Imparerai sull'unità AstroPi e su come controllarla, compreso come:
 
 + mostrare messaggi e colori
 + creare immagini
 + misurare la temperatura
 
-Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Questo progetto include elementi tratti dai seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Utilizzare i costrutti base di un linguaggio di programmazione per creare programmi semplici](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Utilizzare i costrutti base di un linguaggio di programmazione per creare semplici programmi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
