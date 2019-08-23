@@ -1,8 +1,8 @@
 ## Haaste: lisää Astro Pi -projekteja
 
-Nyt kun olet suorittanut missiosi, entäpä jos kokeilisit muita hankkeita käyttämällä muita Astro Pi -antureita?
+Nyt, kun olet suorittanut tehtäväsi, miksi et kokeilisi lisää projekteja muita Astro Pi -antureita käyttäen?
 
-Jos tunnet olosi varmaksi, voit osallistua [Mission Space Lab:iin](https://astro-pi.org/missions/space-lab/)! Muodostakaa tiimi, jossa on 2-6 henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. Saat ilmaiset tietokonelaitteet tehtävää varten ja kirjoitat Python-koodin kokeilun suorittamiseksi. Jos saavutat lentostatuksen, koodisi ladataan ISS-avaruusasemalle, ja sitä ajetaan Astro Piissä kolme tuntia (kaksi kiertorataa). Kaikki tiedot, jotka koodisi kerää avaruudessa - kuva- tai anturitiedostot - , ladataan ja palautetaan analyysiä varten.
+Jos tunnet olosi varmaksi, voit osallistua [Mission Space Labiin](https://astro-pi.org/missions/space-lab/)! Muodostakaa tiimi, jossa on 2-6 henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. Saat ilmaiset tietokonelaitteet tehtävää varten ja kirjoitat Python-koodin kokeilun suorittamiseksi. Jos saavutat lentostatuksen, koodisi ladataan ISS-avaruusasemalle, ja sitä ajetaan Astro Piissä kolme tuntia (kaksi kiertorataa). Kaikki tiedot, jotka koodisi kerää avaruudessa - kuva- tai anturitiedostot - , ladataan ja palautetaan analyysiä varten.
 
 Vaihtoehtoisesti voit kokeilla jotain muuta Astro Pi -projektiamme:
 
