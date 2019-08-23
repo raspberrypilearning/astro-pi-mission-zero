@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Premete il pulsante **Run** (esegui) e guardate il messaggio `Astro Pi` che scorre sul display LED.
 
-![mostra messaggio codice clic esegui](images/show-message-code-annotated.PNG)
+![mostra il codice del messaggio fai clic su Esegui](images / show-messaggio-codice-annotated.PNG)
 
 \--- /task \---
 
 ![Scorrimento del messaggio](images/scroll-message.gif)
 
-Se volete visualizzare un messaggio diverso, scrivete il messaggio che desiderate fra le virgolette (`""`).
+Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra le virgolette (`""`).
 
 \--- collapse \---
 
@@ -59,7 +59,7 @@ Sense HAT può visualizzare solo il set di caratteri "Latin 1". Questo significa
     ?,;:|@%[&_']\~
     
 
-\--- / chiudi \---
+\--- /collapse \---
 
 \--- task \---
 
