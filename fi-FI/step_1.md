@@ -2,9 +2,9 @@
 
 Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viesti ja aluksen sisäilman lämpötila käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
 
-Käytät Sense HAT -verkkoemulaattoria luomaan ohjelmasi, joten lisälaitteita ei tarvita - kaikki tehdään selaimessa.
+Käytät Sense HAT -verkkoemulaattoria luomaan ohjelmasi, joten lisälaitteita ei tarvita — kaikki tehdään selaimessa.
 
-Sinun tekemä ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (ISS)! Saat myös erityisen sertifikaatin, joka osoittaa, missä tarkalleen ISS oli, kun ohjelmaasi käytettiin!
+Sinun tekemä ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (ISS)! Saat myös erityisen sertifikaatin, joka osoittaa ISS:n tarkan olinpaikan, kun ohjelmaasi käytettiin!
 
 ### Mitä tulet tekemään
 
