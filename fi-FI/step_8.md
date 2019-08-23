@@ -1,12 +1,12 @@
 ## Lähetä osallistumisilmoituksesi
 
-On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
+On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi Kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
 
 ![Validointi](images/validation.png)
 
-1. Ota lämpötilan lukema
+1. Lue lämpötila
 2. Sytytä LEDit
-3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. Jos koodissasi on silmukka `whileTrue`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
+3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. Jos koodissasi on silmukka `while True`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
@@ -21,13 +21,13 @@ Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään.
 
 Kirjoita luokkakoodisi alareunassa olevaan ruutuun - opettajasi kertoo sinulle, mikä koodisi on.
 
-**Huomautuksia opettajille ja ohjaajille ** löytyy [Johdanto-kappaleesta](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
+**Huomautuksia opettajille ja ohjaajille** löytyy kohdasta [Johdanto](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
 \--- task \---
 
-Opettajasi nimi ilmestyy esille. Jos se on oikea nimi, napsauta vihreää painiketta **Continue to form**.
+Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painiketta **Continue to form**.
 
 ![Jatka lomakkeeseen](images/continue-to-form.png)
 
