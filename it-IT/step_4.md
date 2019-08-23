@@ -8,7 +8,7 @@ Potete imparare come si possono creare tutti i colori usando diverse proporzioni
 
 \--- task \---
 
-Scegliete un colore e scoprite quale è il suo valore RGB. Se volete, potete usare un [calcolatore dei colori](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} per sceglierlo.
+Scegliete un colore e scoprite qual è il suo valore RGB. Se volete, potete usare un [calcolatore dei colori](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} per sceglierlo.
 
 \--- /task \---
 
@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 \--- /task \---
 
-![mostra colori messaggio](images/show-message-color.gif)
+![mostra il messaggio a colori](images/show-message-color.gif)
 
 \--- task \---
 
