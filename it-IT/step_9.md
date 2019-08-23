@@ -2,7 +2,7 @@
 
 Ora che avete completato la vostra missione, perché non provare altri progetti usando gli altri sensori dell’Astro Pi?
 
-Se vi sentite sicuri, potete partecipare anche a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Formate un team da due o sei persone e lavorare insieme come veri scienziati spaziali per progettare un vostro esperimento. Per la vostra missione riceverete gratuitamente l’hardware computer necessario e dovrete scrivere il codice Python per eseguire l’esperimento. Se raggiungete il permesso al volo, il vostro codice verrà trasmesso alla Stazione Spaziale Internazionale e verrà eseguito sull’Astro Pi per tre ore (due orbite). Tutti i dati raccolti dal vostro codice nello spazio (file di immagini o dati di sensore) verranno scaricati e vi verranno trasmessi per consentirvi di analizzarli.
+Se vi sentite preparati, potete partecipare anche a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Formate un team da due o sei persone e lavorate insieme come veri scienziati spaziali per progettare un vostro esperimento. Per la vostra missione riceverete gratuitamente l’hardware necessario e dovrete scrivere il codice Python per eseguire l’esperimento. Se raggiungete il permesso al volo, il vostro codice verrà trasmesso alla Stazione Spaziale Internazionale e verrà eseguito sull’Astro Pi per tre ore (due orbite). Tutti i dati raccolti dal vostro codice nello spazio (file di immagini o dati di sensore) verranno scaricati e vi verranno trasmessi per consentirvi di analizzarli.
 
 In alternativa, potreste provare uno dei nostri altri progetti Astro Pi:
 
