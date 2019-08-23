@@ -1,12 +1,12 @@
 ## Mostrate un’immagine
 
-La matrice di LED dell’Astro Pi consente anche di visualizzare immagini. Se volete, il vostro saluto per gli astronauti potrebbe includere un’immagine o un motivo, con o senza messaggio di testo.
+La matrice di LED dell’Astro Pi consente anche di visualizzare immagini. Se volete, il vostro saluto per gli astronauti potrebbe includere un’immagine o un motivo, insieme ad un messaggio o al posto di un testo scritto.
 
 ![Astronauta](images/astronaut-pic.png)
 
 \--- task \---
 
-Alla fine del programma, create delle variabili di colore per definire i colori con i quali potete disegnare la vostra immagine. Potete utilizzare tutti i colori che volete ma, in questo esempio, ci limiteremo a due soli colori: il bianco (`w`) e il nero (`b`).
+Alla fine del programma, create delle variabili di colore per definire i colori con i quali potete disegnare la vostra immagine. Potete utilizzare tutti i colori che volete ma, in questo esempio, ci limiteremo a due: il bianco (`w`) e il nero (`b`).
 
 ```python
 w = (255, 255, 255)
