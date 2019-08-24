@@ -19,7 +19,7 @@ Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il p
 
 \--- task \---
 
-Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o tutor vi dirà quale è il vostro codice di classe.
+Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o tutor vi dirà qual è il vostro codice di classe.
 
 Le **Note per insegnanti e tutor** sono disponibili nel passo [Introduzione](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
@@ -35,7 +35,7 @@ Apparirà il nome del vostro insegnante. Se è il nome giusto, cliccate sul puls
 
 \--- task \---
 
-Immettete il nome del vostro team e i nomi dei membri del team. Questi nomi verranno stampati sul certificato dopo che il programma sarà stato eseguito nello spazio, quindi controllate di averli scritti giusti!
+Immettete il nome del vostro team e i nomi dei membri del team. Questi nomi verranno stampati sul certificato dopo che il programma sarà stato eseguito nello spazio, quindi controllate di averli scritti in maniera corretta!
 
 \--- /task \---
 
