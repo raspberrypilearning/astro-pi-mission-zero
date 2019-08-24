@@ -50,7 +50,7 @@ Per visualizzare la temperatura attuale come messaggio scorrevole sul display, a
 sense.show_message( str(temp) )
 ```
 
-La parte `str()` converte il valore di temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
+La parte `str()` converte il valore della temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
 
 \--- /task \---
 
