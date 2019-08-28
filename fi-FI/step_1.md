@@ -83,4 +83,4 @@ In which language did you access the Mission Zero guidelines? (Millä kielellä 
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Pikselin seuraaminen](https://code.org/api/hour/begin_raspberrypi_astropi.png)
