@@ -14,14 +14,14 @@ steps:
   - 
     title: Visa ett meddelande
   - 
-    title: Lägg till lite färg
+    title: Lägg till färg
   - 
     title: Visa en bild
   - 
-    title: Mäta temperaturen
+    title: Mät temperaturen
   - 
     title: Visa temperaturen
   - 
     title: Skicka ditt bidrag
   - 
-    title: "Utmaning: Fler Astro Pi-projekt"
+    title: "Utmaning: fler Astro Pi-projekt"
