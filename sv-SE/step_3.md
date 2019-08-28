@@ -20,7 +20,7 @@ Den här koden ansluter till Astro Pi och ser till att LED-displayen i Astro PI 
 
 \--- task \---
 
-Du kanske kan skicka en trevlig hälsning till de astronauter på ISS som arbetar i närheten av Astro Pi? Låt oss rulla meddelandet över displayen.
+Du kanske kan skicka en trevlig hälsning till astronauterna på ISS som arbetar i närheten av Astro Pi? Låt oss rulla meddelandet över displayen.
 
 Lägg till den här raden under de andra kodraderna:
 
@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 \--- uppgift \---
 
-Tryck på knappen **Run** (Kör) och titta när meddelandet `Astro Pi` rullar över LED-displayen.
+Tryck på knappen **Run** (Kör) och se meddelandet `Astro Pi` rullar över LED-displayen.
 
 ![visa meddelandekod klicka på kör](images/show-message-code-annotated.PNG)
 
