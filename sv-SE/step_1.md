@@ -16,15 +16,15 @@ Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) fö
 
 ## title: Vad du kommer att lära dig
 
-Du kommer att lära dig om enheten Astro Pi och hur man styr den, inklusive hur man:
+Du kommer att lära dig om Astro Pi enheten och hur man styr den, inklusive hur man:
 
 + visar meddelanden och färger
 + skapar bilder
-+ mät temperaturen
++ mäter temperaturen
 
-Detta projekt omfattar element från följande rader av [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
+Det här projektet omfattar element från följande delar av [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Använd grundläggande programmeringskonstruktioner för att skapa enkla program](https://curriculum.raspberrypi.org/programming/creator/){: target = "_ blank"}
++ [Använd grundläggande programmeringsstrukturer för att skapa enkla program](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -34,7 +34,7 @@ Detta projekt omfattar element från följande rader av [Raspberry Pi Digital Ma
 
 ## title: Vad du behöver
 
-### Maskinvara
+### Hårdvara
 
 + En dator med en internetanslutning
 
@@ -48,11 +48,11 @@ Detta projekt omfattar element från följande rader av [Raspberry Pi Digital Ma
 
 ## title: Noteringar för lärare och mentorer
 
-Den här aktiviteten kan avslutas på en eftermiddag. Organisera dina elever i lag med maximalt fyra personer, och låt oss leda dem när de skriver ett kort program i Python för att visa ett personligt meddelande och lufttemperaturen på Astro Pi.
+Denna aktivitet kan avslutas på en eftermiddag. Organisera dina elever i lag med maximalt fyra personer, och låt oss leda dem när de skriver ett kort program i Python för att visa ett personligt meddelande och lufttemperaturen på Astro Pi.
 
 Läs [dokumentet med de officiella riktlinjerna](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} för Mission Zero.
 
-Du måste registrera dig för utmaningen Mission Zero för att dina lag ska kunna delta.
+Du måste registrera dig för Mission Zero utmaningen för att dina lag ska kunna delta.
 
 + Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
