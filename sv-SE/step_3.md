@@ -30,7 +30,7 @@ sense.show_message("Astro Pi")
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Tryck på knappen **Run** (Kör) och se meddelandet `Astro Pi` rullar över LED-displayen.
 
@@ -48,7 +48,7 @@ För att visa ett annat meddelande, kan du skriva vad du vill mellan citationste
 
 ## title: Vilka tecken går att använda?
 
-Sense HAT kan bara visa teckenuppsättningen Latin 1, vilket innebär att följande tecken är tillgängliga. Övriga tecken kommer att visas som ett `?`.
+Sense HAT kan bara visa teckenuppsättningen Latin 1, vilket betyder att endast följande tecken är tillgängliga. Övriga tecken kommer att visas som ett `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -69,6 +69,6 @@ Du kan också ändra hastigheten på meddelandet som rullar över skärmen. Läg
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Standardhastigheten för meddelandet är `0.1`. Om du väljer ett mindre tal blir meddelandet snabbare och väljer du ett större gör det att meddelandet rullar långsammare.
+Meddelandets standardhastighet är ` 0,1 `. Om du väljer ett mindre tal blir meddelandet snabbare och väljer du ett större gör det att meddelandet rullar långsammare.
 
 \--- /task \---
