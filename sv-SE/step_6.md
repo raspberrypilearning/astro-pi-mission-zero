@@ -1,4 +1,4 @@
-## Mäta temperaturen
+## Mät temperaturen
 
 Temperatursensorn i Astro Pi kan mäta den omgivande luftens temperatur, en användbar funktion som hjälper dig att samla data om förhållandena i rymden.
 
@@ -54,7 +54,7 @@ Delen med `str()` konverterar temperaturen från ett tal till text så att Astro
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Du kan också visa temperaturen som en del av ett annat meddelande genom att slå samman delarna av ditt meddelande med ett `+`.
 
@@ -64,7 +64,7 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-Den riktiga Astro Pi mäter omgivningstemperaturen, men du flyttar skjutreglaget för temperatur på Sense HAT-emulatorn för att simulera temperaturförändringar och testa din kod.
+Den verkliga Astro Pi kommer att mäta temperaturen runt den, men du kan flytta temperaturreglaget på Sense HAT-emulatorn för att simulera temperaturförändringar och testa din kod.
 
 ![Skjutreglage för temperatur](images/temperature-slider.png)
 
