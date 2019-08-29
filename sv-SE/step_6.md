@@ -1,4 +1,4 @@
-## Mät temperaturen
+## Mäta temperaturen
 
 Temperatursensorn i Astro Pi kan mäta den omgivande luftens temperatur, en användbar funktion som hjälper dig att samla data om förhållandena i rymden.
 
@@ -6,7 +6,7 @@ Temperatursensorn i Astro Pi kan mäta den omgivande luftens temperatur, en anv�
 
 Astro Pi mäter temperaturen ombord på ISS i grader Celsius (&deg;C). Eftersom temperaturen i rymden varierar mycket mer än på jorden, kan Astro Pi mäta så låga temperaturer som -40 grader Celsius ända upp till +120 grader Celsius.
 
-En del av ditt uppdrag är att bidra till vardagslivet för besättningen ombord på ISS, så att låta dem få reda på att temperaturen ombord på rymdstationen ligger inom ett normalt intervall kommer att muntra upp dem.
+En del av ditt uppdrag är att bidra till det dagliga livet för besättningen ombord på ISS, så att låta dem veta att temperaturen ombord på rymdstationen är inom ett normalt område kommer att lugna dem.
 
 ## \--- collapse \---
 
@@ -14,7 +14,7 @@ En del av ditt uppdrag är att bidra till vardagslivet för besättningen ombord
 
 Temperatur är ett mått på hur varmt något är. En doktor kanske har tagit din temperatur med en termometer.
 
-![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometer](images/thermometer.JPG) *Av Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
 För att vara mer exakt, är temperatur ett mått på mängden värmeenergi i ett ämne. Du vet att en isbit är hård, men när den värms upp, dvs. när den absorberar värmeenergi ur sin omgivning, så smälter den och blir till vätska. Detta beror på att när ett ämne absorberar eller förlorar tillräckligt med värmeenergi, kommer ämnet att ändra form, t.ex. övergå från fast form till att bli en vätska.
 
