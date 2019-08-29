@@ -17,7 +17,7 @@ Kontrollera även att följande kriterier är uppfyllda:
 
 När alla regler är gröna, är du redo att skicka.
 
-\--- uppgift \---
+\--- task \---
 
 Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad koden är.
 
@@ -25,7 +25,7 @@ Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad ko
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gröna knappen **Continue to form** (Fortsätt till formulär).
 
@@ -33,20 +33,20 @@ Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gr
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Ange ditt lagnamn och namnen på dina lagmedlemmar. Dessa kommer att skrivas ut på certifikatet när din kod har körts i rymden, så se till att du stavar dem rätt!
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Tryck på **Submit** (Skicka) för att ange din kod. Din lärare eller mentor får ett e-postmeddelande som bekräftar ditt bidrag.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
-Om du vill kan du dela länken till din kod på sociala medier för att berätta för människor att den kod som du skrev kommer att köras i rymden!
+Om du vill kan du dela länken till din kod på sociala medier för att berätta för folk att koden som du skrev kommer att köras i rymden!
 
 \--- /task \---
