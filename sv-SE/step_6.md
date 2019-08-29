@@ -20,7 +20,7 @@ För att vara mer exakt, är temperatur ett mått på mängden värmeenergi i et
 
 \--- /collapse \---
 
-\--- uppgift \---
+\--- task \---
 
 Lägg till den här koden för att göra en temperaturavläsning:
 
@@ -32,9 +32,9 @@ Den här raden mäter den aktuella temperaturen och lagrar det uppmätta värdet
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
-Temperaturen lagras väldigt noggrant, dvs. det lagrade värdet kommer att ha många decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan nivå av noggrannhet, ändrar du talet `1` till det antal decimaler du vill se.
+Temperaturen registreras mycket exakt, dvs det lagrade värdet har ett stort antal decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan precision, ändra siffran ` 1 ` till antalet decimaler du vill se.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -42,7 +42,7 @@ temp = round( sense.temperature, 1 )
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 För att visa aktuell temperatur som ett rullande meddelande på skärmen, lägger du till den här raden kod:
 
