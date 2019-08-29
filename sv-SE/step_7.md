@@ -48,7 +48,7 @@ cold = [
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Lägg till lite kod för att hämta temperaturen:
 
@@ -58,7 +58,7 @@ temp = sense.temperature
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Välj nu vilken bild som ska visas. I det här exemplet kommer vi att visa bilden `hot` om temperaturavläsningen är 20 grader eller högre, och bilden `cold` om temperaturen är under 20 grader.
 
@@ -72,13 +72,13 @@ else:
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Använd skjutreglaget för temperatur för att ställa in en temperatur på emulatorn. Kör ditt program och kontrollera att den bild du har valt för den temperaturen visas korrekt.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Ändra din kod så att ditt program visar temperaturen för astronauterna på det sätt som du väljer.
 
