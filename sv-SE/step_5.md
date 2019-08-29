@@ -36,7 +36,7 @@ picture = [
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Lägg till en kodrad för att visa din bild på LED-displayen.
 
@@ -46,13 +46,13 @@ sense.set_pixels(picture)
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Tryck på **Run** (Kör) för att se din bild visas.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Du kanske vill lägga till lite kod för att inkludera en kort väntetid (eller `sleep`) efter att bilden har visats. Det ger astronauterna lite tid att hinna se din bild innan nästa del av ditt meddelande visas. Överst i programmet, lägger du till:
 
@@ -60,7 +60,7 @@ Du kanske vill lägga till lite kod för att inkludera en kort väntetid (eller 
 from time import sleep
 ```
 
-Sedan, lägger du till följande kod på raden som visar din bild för att vänta i två sekunder:
+Lägg sedan till koden för att vänta i två sekunder på raden efter den som visar din bild:
 
 ```python
 sleep(2)
@@ -68,8 +68,8 @@ sleep(2)
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
-Skapa din egen bild eller ditt egna mönster för att visa astronauterna!
+Skapa din egen bild eller mönster för att visa för astronauterna!
 
 \--- /task \---
