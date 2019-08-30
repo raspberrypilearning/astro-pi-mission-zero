@@ -31,15 +31,15 @@ De naam van je leraar verschijnt. Als het de juiste naam is, klik dan op de groe
 
 ![Ga door naar het formulier](images/continue-to-form.png)
 
--- /task ---
+--- /task ---
 
---- task ----
+--- task ---
 
 Voer je teamnaam en de namen van de teamleden in. Deze worden op het certificaat afgedrukt zodra je code in de ruimte wordt uitgevoerd, dus zorg ervoor dat je ze correct spelt!
 
 --- /task ---
 
---- task ----
+--- task ---
 
 Druk op **Submit** (Verzenden) knop om je code in te voeren. Je leraar of mentor ontvangt een e-mail om je verzending te bevestigen.
 
