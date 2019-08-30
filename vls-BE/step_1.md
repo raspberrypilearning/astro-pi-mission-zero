@@ -40,47 +40,47 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 
 ### Software
 
-+ Een web browser (bijv. Google Chrome) om https://trinket.io/mission-zero<0>{target="-blank"} te openen</li> </ul> 
++ Een web browser (bijv. Google Chrome) om <https://trinket.io/mission-zero>{target="blank"} te openen
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Aantekeningen voor leraars en mentors
+
+Deze activiteit kan worden afgerond in een namiddag. Organiseer je studenten in teams van maximum vier, en laat ons hun begeleiden met het schrijven van een kort Python programma om een persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
+
+Lees het [officiele richtlijnen document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
+
+Je moet je registreren voor de Mission Zero uitdaging om je team(s) te laten deelnemen.
+
++ Ga naar de [Trinket emulator Misson Zero pagina](https://trinket.io/mission-zero/register){:target="blank"}.
+
++ Vul het formulier in en klik **Submit**\*.
+
+\* Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
+
+De velden op het formulier zijn:  
+Teacher/Mentor name  
+(Naam van de leraar/mentor) Teacher/Mentor email address  
+(Emailadres van de leraar/mentor) Teacher/Mentor phone number  
+(Telefoonnummer van de leraar/mentor) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+(Soort organisatie (bijv. lagere school, middelbare school, bibliotheek, Code Club, CoderDojo, enz.)) Organisation name  
+(Naam van de organisatie) Organisation address  
+(Adres van de organisatie) Organisation city  
+(Stad van de organisatie) Organisation country  
+(Land van de organisatie) Organisation postal code  
+(Postcode van de organisatie) Team name  
+(Naam van het team) Number of team members  
+(Aantal teamleden) Names and ages of team members  
+(Namen en leeftijden van de teamleden) In which language did you access the Mission Zero guidelines? (In welke taal had je toegang tot de richtlijnen voor Mission Zero?)
+
++ Een account wordt voor je opgericht. Elk account heeft zijn eigen **variatiecode**, en je moet je team(s) laten weten welke die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
+
++ Laat je variatiecode ergens zichtbaar zien, bijvoorbeeld op een whiteboard of door gebruik te maken van een projector, en begin met de activiteit.
     
-    \--- /collapse \---
-    
-    ## \--- collapse \---
-    
-    ## title: Aantekeningen voor leraars en mentors
-    
-    Deze activiteit kan worden afgerond in een namiddag. Organiseer je studenten in teams van maximum vier, en laat ons hun begeleiden met het schrijven van een kort Python programma om een persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
-    
-    Lees het [officiele richtlijnen document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
-    
-    Je moet je registreren voor de Mission Zero uitdaging om je team(s) te laten deelnemen.
-    
-    + Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
-        
-        + Vul het formulier in en klik **Submit**\*.</ul> 
-        
-        \* Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
-        
-        De velden op het formulier zijn:  
-        Teacher/Mentor name  
-        (Naam van de leraar/mentor) Teacher/Mentor email address  
-        (Emailadres van de leraar/mentor) Teacher/Mentor phone number  
-        (Telefoonnummer van de leraar/mentor) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-        (Soort organisatie (bijv. lagere school, middelbare school, bibliotheek, Code Club, CoderDojo, enz.)) Organisation name  
-        (Naam van de organisatie) Organisation address  
-        (Adres van de organisatie) Organisation city  
-        (Stad van de organisatie) Organisation country  
-        (Land van de organisatie) Organisation postal code  
-        (Postcode van de organisatie) Team name  
-        (Naam van het team) Number of team members  
-        (Aantal teamleden) Names and ages of team members  
-        (Namen en leeftijden van de teamleden) In which language did you access the Mission Zero guidelines? (In welke taal had je toegang tot de richtlijnen voor Mission Zero?)
-        
-        + Een account wordt voor je opgericht. Elk account heeft zijn eigen **variatiecode**, en je moet je team(s) laten weten welke die van jou is wanneer ze klaar zijn om hun programma's in te dienen.
-        
-        + Laat je variatiecode ergens zichtbaar zien, bijvoorbeeld op een whiteboard of door gebruik te maken van een projector, en begin met de activiteit.
-            
-            We hebben [een te printen uitdeelfiche van twee pagina's](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} opgesteld, met de sleutelpunten van Mission Zero die studenten en jongeren samen kunnen gebruiken bij dit online project.
-        
-        \--- /collapse \---
-        
-        ![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+    We hebben [een te printen uitdeelfiche van twee pagina's](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} opgesteld, met de sleutelpunten van Mission Zero die studenten en jongeren samen kunnen gebruiken bij dit online project.
+
+\--- /collapse \---
+
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
