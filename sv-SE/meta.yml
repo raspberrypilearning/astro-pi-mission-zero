@@ -7,10 +7,10 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: Introduktion
+  - title: Inledning
   - title: Vad är en Astro Pi?
   - title: Visa ett meddelande
-  - title: Lägg till färg
+  - title: LLägg till lite färg
   - title: Visa en bild
   - title: Mät temperaturen
   - title: Visa temperaturen

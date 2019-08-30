@@ -8,7 +8,9 @@ Ditt färdiga program kommer att köras på den internationella rymdstationen (I
 
 ### Vad du kommer att göra
 
-Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -53,11 +55,24 @@ Du måste registrera dig för Mission Zero utmaningen för att dina lag ska kunn
 
 + Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Fyll i formuläret och klicka på **Skicka**\*.
++ Fyll i formuläret och klicka på **Submit** (Skicka)\*.
 
 \* Observera att detta registreringsformulär endast finns på engelska.
 
-Fälten på formuläret inkluderar: <0 /> Lärare/mentor namn <0 /> Lärare/mentor e-postadress <0 /> Lärare/mentor telefonnummer <0 /> Organisationstyp (t.ex. grundskola, gymnasium, bibliotek, Code Club, CoderDojo, mm.) <0 /> Organisationsnamn <0 /> Organisationsadress <0 /> Organisationsstad <0 /> Organisationsland <0 /> Organisationens postnummer <0 /> > Lagnamn <0 /> Antal lagmedlemmar <0 /> Lagmedlemmarnas namn och åldrar <0 /> På vilket språk har du tillgång till riktlinjerna för Mission Zero?
+Fälten på formuläret inkluderar: 
+Teacher/Mentor name (Lärare/mentor namn)
+Teacher/Mentor email address (Lärare/mentor e-postadress)
+Teacher/Mentor phone number (Lärare/mentor telefonnummer)
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Organisationstyp (t.ex. grundskola, gymnasium, bibliotek, Code Club, CoderDojo, mm.))
+Organisation name (Organisationsnamn)
+Organisation address (Organisationsadress)
+Organisation city (Organisationsstad)
+Organisation country (Organisationsland)
+Organisation postal code (Organisationens postnummer)
+Team name (Lagnamn)
+Number of team members (Antal lagmedlemmar)
+Names and ages of team members (Lagmedlemmarnas namn och åldrar)
+In which language did you access the Mission Zero guidelines? (På vilket språk har du tillgång till riktlinjerna för Mission Zero?)
 
 + Ett konto kommer att skapas åt dig. Varje konto har sin egen **klassrumskod**, och du måste berätta för dina lag vilken din kod är när de är redo att skicka in sina program.
 
