@@ -20,7 +20,7 @@ Definieer een variabele om je gekozen kleur op te slaan. Bijvoorbeeld, indien je
 red = (255,0,0)
 ```
 
---- /taak ---
+--- /task ---
 
 --- task ---
 
