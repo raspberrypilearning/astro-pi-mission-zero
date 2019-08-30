@@ -1,4 +1,4 @@
-## Einführung
+## Einleitung
 
 Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des Astro Pi Computers eine Nachricht sowie die Umgebungstemperatur an Bord der Raumstation übermittelst.
 
