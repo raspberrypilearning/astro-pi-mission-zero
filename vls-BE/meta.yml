@@ -9,10 +9,10 @@ last_tested: 12-06-2018
 steps:
   - title: Introductie
   - title: Wat is een Astro Pi?
-  - title: Laat een boodschap zien
+  - title: Toon een boodschap
   - title: Voeg wat kleur toe
   - title: Laat een beeld zien
-  - title: Meten van de temperatuur
+  - title: Meet de temperatuur
   - title: Laat de temperatuur zien
   - title: Je project indienen
   - title: "Uitdaging: meer Aspro Pi projecten"

@@ -8,7 +8,9 @@ Una volta completato, il tuo programma verrà eseguito nello spazio, sulla ISS, 
 
 ### Che cosa creerai
 
-Ecco un esempio del tipo di programma che puoi creare. Cliccate su **Run** per vederlo in funzione. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Ecco un esempio del tipo di programma che puoi creare. Cliccate su **Run** per vederlo in funzione. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -47,7 +49,7 @@ title: Note per insegnanti e tutor
 
 Questa attività può essere completata in un pomeriggio. Come prima cosa dovrete organizzare team di max. quattro ragazzi o ragazze. Questi gruppi verranno quindi guidati nella scrittura di un piccolo programma in Python che consente di mostrare un messaggio personale e la temperatura dell’aria sull’Astro Pi.
 
-Leggi le [le linee guida ufficiali ](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf) {:target="_ blank"} per Mission Zero.
+Leggi le [le linee guida ufficiali ](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} per Mission Zero.
 
 Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete prima completare la registrazione.
 

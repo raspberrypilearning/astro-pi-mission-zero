@@ -1,4 +1,4 @@
-## Mõõda temperatuur
+## Mõõda õhutemperatuur
 
 Astro Pi´l asuv õhutemperatuuri sensor mõõdab ümbritseva õhu temperatuuri, mis on vajalik kosmoses valitsevate tingimuste kohta andmete kogumiseks.
 

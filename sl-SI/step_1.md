@@ -8,7 +8,9 @@ Vaš program bo zagnan v vesolju na Mednarodni vesoljski postaji (angl. Internat
 
 ### Kaj boste naredili?
 
-Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -58,18 +60,19 @@ Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 \* Obrazec za registracijo je na voljo le v angleščini.
 
 Polja na obrazcu so:   
-Ime učitelja/mentorja   
-Elektronski naslov učitelja/mentorja   
-Telefonska številka učitelja/mentorja   
-Vrsta organizacije (npr. osnovna šola, srednja šola, knjižnica, Code Club, CoderDojo itd.)   
-Ime organizacije   
-Naslov organizacije   
-Mesto organizacije   
-Država organizacije   
-Poštna številka organizacije   
-Ime ekipe   
-Število članov v ekipi   
-Imena in starost članov ekipe <0 /> V katerem jeziku ste dostopali do smernic Mission Zero?
+Teacher/Mentor name (Ime učitelja/mentorja)   
+Teacher/Mentor email address (Elektronski naslov učitelja/mentorja)   
+Teacher/Mentor phone number (Telefonska številka učitelja/mentorja)   
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Vrsta organizacije (npr. osnovna šola, srednja šola, knjižnica, Code Club, CoderDojo itd.))   
+Organisation name (Ime organizacije)   
+Organisation address (Naslov organizacije)   
+Organisation city (Mesto organizacije)   
+Organisation country (Država organizacije)   
+Organisation postal code (Poštna številka organizacije)   
+Team name (Ime ekipe)   
+Number of team members (Število članov v ekipi)   
+Names and ages of team members (Imena in starost članov ekipe)
+In which language did you access the Mission Zero guidelines? (V katerem jeziku ste dostopali do smernic Mission Zero?)
 
 + Za vas bomo ustvarili račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo pripravljeni za pošiljanje svojih programov.
 

@@ -8,7 +8,9 @@ Je voltooide programma wordt in de ruimte uitgevoerd op het International Space 
 
 ### Wat ga je maken
 
-Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -22,7 +24,7 @@ Je leert over de AstroPi-eenheid en hoe je hem bestuurt, inclusief hoe je:
 
 Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [ Gebruik basale programmeerconstructies om eenvoudige programma's te maken ](https://curriculum.raspberrypi.org/programming/creator/) {:target="_ blank"}
++ [ Gebruik basale programmeerconstructies om eenvoudige programma's te maken ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 

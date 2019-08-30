@@ -1,4 +1,4 @@
-## Kuva temperatuur
+## Õhutemperatuuri kuvamine
 
 Võid õhutemperatuuri mõõtmise tulemust kombineerida pildiga, et näidata õhutemperatuuri ka graafiliselt. Näiteks võid külma õhutemperatuuri korral näidata lumetormi ja kuuma õhutemperatuuri korral päikesepaistelist päeva:
 

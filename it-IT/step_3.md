@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![emulatore sense hat](images/sense-hat-emulator.png)
+![emulatore sense hat](images/sense-hat-emulator2.png)
 
 Questo codice si collega all’Astro Pi e garantisce che il messaggio sul display LED di Astro Pi sia mostrato nel senso corretto. Lasciate qui questo codice perché è necessario.
 

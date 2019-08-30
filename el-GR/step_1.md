@@ -72,7 +72,7 @@ Organisation postal code (Ταχυδρομικός Κώδικας Οργανωτ
 Team name (Όνομα ομάδας)  
 Number of team members (Αριθμός μελών ομάδας)  
 Names and ages of team members (Ονόματα και ηλικίες μελών ομάδας)  
-In which language did you access the Mission Zero guidelines? (Σε ποια γλώσσα έχετε πρόσβαση στις οδηγίες του Mission Zero;)
+In which language did you access the Mission Zero guidelines? (Σε ποια γλώσσα έχετε πρόσβαση στις οδηγίες του Mission Zero)
 
 + Θα δημιουργηθεί ένας λογαριασμός για εσάς. Κάθε λογαριασμός έχει τον δικό του **κωδικό τάξης**, τον οποίον θα πρέπει να δώσετε στις ομάδες σας, όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
 

@@ -8,7 +8,9 @@ O programa completo irá ser executado a partir do espaço na Estação Espacial
 
 ### O que vais fazer
 
-Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para executar o programa e vê-lo em ação. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para executar o programa e vê-lo em ação. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -58,25 +60,25 @@ Será necessário registar-se para o desafio Mission Zero para permitir que a su
 \* Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
 Os campos do formulário incluem:  
-Nome do Professor/Mentor  
-Endereço email do Professor/Mentor  
-Número de telefone do Professor/Mentor  
-Tipo de Instituiçāo (e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
-Nome da instituiçāo  
-Endereço da instituiçāo  
-Cidade da instuiçāo  
-País da instituiçāo  
-Código postal da instituiçāo  
-Nome da Equipa  
-Número de membros na equipa  
-Nomes e idades dos membros da equipa  
-Em que língua obtiveste as instruções da Mission Zero?
+Teacher/Mentor name (Nome do Professor/Mentor)  
+Teacher/Mentor email address (Endereço email do Professor/Mentor)  
+Teacher/Mentor phone number (Número de telefone do Professor/Mentor)  
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Tipo de Instituiçāo, e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
+Organisation name (Nome da instituiçāo)  
+Organisation address (Endereço da instituiçāo)  
+Organisation city (Cidade da instuiçāo)  
+Organisation country (País da instituiçāo)  
+Organisation postal code (Código postal da instituiçāo)  
+Team name (Nome da Equipa)  
+Number of team members (Número de membros na equipa)  
+Names and ages of team members (Nomes e idades dos membros da equipa)  
+In which language did you access the Mission Zero guidelines? (Em que língua obtiveste as instruções da Mission Zero?)
 
 + Será criada uma conta para ti. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
 
 + Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
     
-    Criámos [ um folheto de duas páginas para impressão](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_ blank"} que cobre os pontos-chave da Missão Zero e que estudantes e jovens podem usar com este projeto on-line.
+    Criámos [ um folheto de duas páginas para impressão](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} que cobre os pontos-chave da Missão Zero e que estudantes e jovens podem usar com este projeto on-line.
 
 --- /collapse ---
 

@@ -7,10 +7,10 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: Johdanto
+  - title: Esittely
   - title: Mikä Astro Pi on?
   - title: Näytä viesti
-  - title: Lisää jonkun verran väriä
+  - title: Lisää väriä
   - title: Näytä kuva
   - title: Mittaa lämpötila
   - title: Näytä lämpötila

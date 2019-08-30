@@ -8,7 +8,9 @@ Utilizarás el emulador digital Sense HAT para crear tu programa, por lo que no 
 
 ### Lo que harás
 
-A continuación tienes un ejemplo del tipo de programa que puedes hacer. Haz clic en **Run** (Ejecutar) para verlo en acción. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+A continuación tienes un ejemplo del tipo de programa que puedes hacer. Haz clic en **Run** (Ejecutar) para verlo en acción. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -76,7 +78,7 @@ In which language did you access the Mission Zero guidelines? (¿En qué idioma 
 
 + Indica tu código de clase en un lugar visible como, por ejemplo, en una pizarra o proyector, y comienza la actividad.
     
-    Hemos creado [un folleto imprimible de dos páginas](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"} que cubre los puntos clave de Mission Zero y que los estudiantes y los jóvenes pueden usar junto con este proyecto en línea.
+    Hemos creado [un folleto imprimible de dos páginas](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} que cubre los puntos clave de Mission Zero y que los estudiantes y los jóvenes pueden usar junto con este proyecto en línea.
 
 --- /collapse ---
 

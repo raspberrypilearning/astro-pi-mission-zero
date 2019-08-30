@@ -8,7 +8,9 @@ Sinu tehtud programm käivitatakse rahvusvahelises kosmosejaamas (ISS) kosmoses!
 
 ### Mida sa teed
 
-Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see toimib, klõpsa **Run**. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see toimib, klõpsa **Run**. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -76,7 +78,7 @@ In which language did you access the Mission Zero guidelines? (Mis keeles pääs
 
 + Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
     
-    Oleme koostanud [ prinditava kahelehelise käsilehe ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"}, mis hõlmab missiooni Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
+    Oleme koostanud [ prinditava kahelehelise käsilehe ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_blank"}, mis hõlmab missiooni Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
 
 --- /collapse ---
 

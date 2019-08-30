@@ -6,9 +6,11 @@ Program zostanie stworzony za pomocą internetowego emulatora Sense HAT, więc n
 
 Stworzony program zostanie uruchomiony w kosmosie na Międzynarodowej Stacji Kosmicznej (MSK)! Twórca programu otrzyma także specjalny certyfikat pokazujący, gdzie dokładnie była MSK, gdy program został uruchomiony!
 
-### Co będziesz robił
+### Co zrobisz
 
-Oto przykład programu, który można stworzyć. Kliknij **Run** (Uruchom), aby zobaczyć, jak działa. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Oto przykład programu, który można stworzyć. Kliknij **Run** (Uruchom), aby zobaczyć, jak działa. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -22,7 +24,7 @@ Uzyskasz informacje o jednostce AstroPi i nauczysz się ją kontrolować, w tym 
 
 Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Użycie podstawowych konstrukcji programistycznych do tworzenia prostych programów](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"
++ [Użycie podstawowych konstrukcji programistycznych do tworzenia prostych programów](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank")
 
 --- /collapse ---
 

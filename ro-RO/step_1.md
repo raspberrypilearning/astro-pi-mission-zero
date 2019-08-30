@@ -8,7 +8,9 @@ Programul tău finalizat va fi rulat în spațiu pe Stația Spațială Internaț
 
 ### Ce vei face
 
-Iată un exemplu al tipului de program pe care l-ai putea face. Dă click pe **Run** pentru a-l vedea în acțiune. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Iată un exemplu al tipului de program pe care l-ai putea face. Dă click pe **Run** pentru a-l vedea în acțiune. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---

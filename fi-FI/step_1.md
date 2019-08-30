@@ -8,7 +8,9 @@ Sinun tekemä ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (IS
 
 ### Mitä tulet tekemään
 
-Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** nähdäksesi sen toiminnassa. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** nähdäksesi sen toiminnassa. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -20,7 +22,7 @@ Tutustut Astro Pi -yksikköön ja miten hallitset sitä, mukaan lukien:
 + luo kuvia
 + mittaa lämpötila
 
-Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista {:target="_blank"}:
+Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista{:target="_blank"}:
 
 + [ Käytä perus​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseksi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 

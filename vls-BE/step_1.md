@@ -8,7 +8,9 @@ Je voltooide programma zal in de ruimte werken in het International Space Statio
 
 ### Wat je gaat maken
 
-Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om te zien hoe het in de praktijk werkt. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om te zien hoe het in de praktijk werkt. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -22,7 +24,7 @@ Je zult leren over AstroPi unit en hoe het te besturen, waaronder hoe je:
 
 Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Gebruik basis programmeerconstructies om eenvoudige programma's te ontwerpen](https://curriculum.raspberrypi.org/programming/creator/) {:target="_blank"}
++ [Gebruik basis programmeerconstructies om eenvoudige programma's te ontwerpen](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -36,7 +38,7 @@ title: Wat je nodig hebt
 
 ### Software
 
-+ Een web browser (bijv. Google Chrome) om https://trinket.io/mission-zero<0>{target="-blank"} te openen</li> </ul> 
++ Een web browser (bijv. Google Chrome) om <https://trinket.io/mission-zero>{target="-blank"} te openen 
     
 --- /collapse ---
     
@@ -50,9 +52,9 @@ Lees het [officiele richtlijnen document](https://astro-pi.org/wp-content/upload
     
 Je moet je registreren voor de Mission Zero uitdaging om je team(s) te laten deelnemen.
     
-+ Ga naar de Trinket emulator Misson Zero pagina<0>{:target="-blank"}.</p></li> 
++ Ga naar de [Trinket emulator Misson Zero pagina](https://trinket.io/mission-zero/register){:target="-blank"}. 
         
-+ Vul het formulier in en klik **Submit**\*.</ul> 
++ Vul het formulier in en klik **Submit**\*.
         
 \* Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
         
