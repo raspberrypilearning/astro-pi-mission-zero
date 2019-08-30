@@ -19,7 +19,7 @@ La temperatura è la misura di quanto è caldo qualcosa. Certamente avranno misu
 
 Per essere più precisi, la temperatura è una misura della quantità di energia termica di una sostanza. Sapete che un cubetto di ghiaccio è solido, ma mentre si riscalda, cioè mentre assorbe l’energia termica dal suo ambiente, si scioglie e diventa liquido. Questo perché, quando una sostanza assorbe o perde abbastanza energia termica, si verifica un cambiamento di stato nella sostanza. Ad esempio la sostanza passa dallo stato solido allo stato liquido.
 
---- / chiudi ---
+--- /collapse ---
 
 --- task ---
 
