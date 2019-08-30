@@ -12,11 +12,12 @@ Een deel van je missie is om bij te dragen aan het dagelijks leven van de bemann
 ---
 title: Wat is temperatuur?
 ---
-Temperatuur is de maat voor hoe heet iets is. Misschien heb je je temperatuur met een thermometer laten nemen tijdens een bezoek aan de dokter.
 
-![Thermometer](images/thermometer.JPG) *door Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+Temperatuur is de maat voor hoe warm iets is. Misschien heb je je temperatuur met een thermometer laten meten tijdens een bezoek aan de dokter.
 
-Om exacter te zijn, temperatuur is een maat voor de hoeveelheid warmte-energie van een stof. Je weet dat een ijsblokje vast is, maar naarmate het opwarmt, dat wil zeggen omdat het warmte-energie absorbeert uit zijn omgeving, smelt het en wordt het vloeibaar. Dit komt omdat wanneer een stof voldoende warmte-energie absorbeert of verliest, de staat zal veranderen, bijv. van een vaste stof naar een vloeistof.
+![Thermometer](images/thermometer.JPG) *Door Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+
+Om exacter te zijn, temperatuur is een maat voor de hoeveelheid warmte-energie van een stof. Je weet dat een ijsblokje vast is, maar naarmate het opwarmt, dat wil zeggen omdat het warmte-energie absorbeert uit zijn omgeving, smelt het en wordt het vloeibaar. Dit komt omdat wanneer een stof voldoende warmte-energie absorbeert of verliest, de toestand zal veranderen, bijv. van een vaste stof naar een vloeistof.
 
 --- /collapse ---
 
@@ -28,11 +29,11 @@ Voeg deze code toe om een ​​temperatuurmeting te doen:
 temp = sense.temperature
 ```
 
-Deze lijn meet de huidige temperatuur en slaat de gemeten waarde op in de variabele `temp`.
+Deze regel meet de huidige temperatuur en slaat de gemeten waarde op in de variabele `temp`.
 
 --- /task ---
 
---- task ----
+--- task ---
 
 De temperatuur wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` tot het aantal decimalen dat je wilt zien.
 
@@ -64,7 +65,7 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 --- /task ---
 
-De echte Astro Pi meet de temperatuur eromheen, maar je kunt de temperatuurschuifregelaar op de Sense HAT-emulator verplaatsen om temperatuurveranderingen te simuleren en je code te testen.
+De echte Astro Pi meet de temperatuur om zich heen, maar je kunt de temperatuurschuifregelaar op de Sense HAT-emulator verplaatsen om temperatuurveranderingen te simuleren en je code te testen.
 
 ![Temperatuurschuifregelaar](images/temperature-slider.png)
 

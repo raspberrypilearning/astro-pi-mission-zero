@@ -11,8 +11,8 @@ steps:
   - title: Mikä Astro Pi on?
   - title: Näytä viesti
   - title: Lisää väriä
-  - title: Esitä kuva
+  - title: Näytä kuva
   - title: Mittaa lämpötila
   - title: Näytä lämpötila
-  - title: Lähetä merkintäsi
-  - title: "Haaste: lisää Astro Pi -hankkeita"
+  - title: Lähetä osallistumisilmoituksesi
+  - title: "Haaste: lisää Astro Pi -projekteja"

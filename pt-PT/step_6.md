@@ -12,6 +12,7 @@ Parte da tua missão é contribuir para o dia-a-dia da tripulação a bordo da E
 ---
 title: Qual é a temperatura?
 ---
+
 A temperatura é a medida do quão quente algo está. Talvez já tenhas tido a tua temperatura medida com um termómetro numa visita ao médico.
 
 ![Termómetro](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*

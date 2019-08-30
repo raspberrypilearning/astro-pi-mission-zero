@@ -6,7 +6,7 @@ Je kunt je temperatuur combineren met een tekening om de temperatuur ook aan te 
 
 --- task ---
 
-Onderaan je programma, kun je meer variable kleuren definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je reeds sommigen gedefinieerd in een voorgaande stap. In onze voorbeelden zullen wij wit gebruiken (`w`), geel (`y`), groen (`g`), en zwart/blank (`b`).
+Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een voorgaande stap. In onze voorbeelden zullen wij wit gebruiken (`w`), geel (`y`), groen (`g`), en zwart/blank (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 --- task ---
 
-Besluit nu welke tekening je wilt weergeven. Voor dit voorbeeld, zullen wij het `hot` (heet) beeld tentoonstellen indien de temperatuur 20 graden of meer is, en het `cold` (koud) beeld indien de temperatuur minder is dan 20 graden.
+Beslis nu welke tekening je wilt tonen. Voor dit voorbeeld, zullen wij het `hot` (heet) beeld tentoonstellen indien de temperatuur 20 graden of meer is, en het `cold` (koud) beeld indien de temperatuur lager is dan 20 graden.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 --- task ---
 
-Gebruik de temperatuur schuifknop om de temperatuur op de emulator in te stellen. Run je programma en controleer dat het beeld dat je hebt gekozen voor deze temperatuur op de juiste wijze is weergegeven.
+Gebruik de temperatuurschuifknop om de temperatuur op de emulator in te stellen. Start je programma en controleer dat het beeld dat je hebt gekozen voor deze temperatuur op de juiste wijze wordt weergegeven.
 
 --- /task ---
 

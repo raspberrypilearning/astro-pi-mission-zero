@@ -1,6 +1,6 @@
 ## Voeg wat kleur toe
 
-De LED's van de Astro Pi kunnen ook kleuren weergeven. Je kunt een kleur opgeven door een variabele te maken en deze een RGB-kleurwaarde toe te wijzen.
+De LED's van de Astro Pi kunnen ook kleuren weergeven. Je kunt een kleur opgeven door een variabele te maken en deze een RGB-kleurwaarde toe te kennen.
 
 Je kunt hier leren hoe alle kleuren kunnen worden gemaakt met verschillende verhoudingen rood, groen en blauw:
 

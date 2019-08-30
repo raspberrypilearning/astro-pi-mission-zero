@@ -10,9 +10,10 @@ Parte della vostra missione è contribuire positivamente alla vita quotidiana de
 
 --- collapse ---
 ---
-title: Cosa è la temperatura?
+title: Cos'è la temperatura?
 ---
-La temperatura è la misura di quanto sia caldo un qualcosa. Certamente avranno misurato la temperatura anche a voi con un termometro, magari se siete dovuti andare dal dottore.
+
+La temperatura è la misura di quanto è caldo qualcosa. Certamente avranno misurato la temperatura anche a voi con un termometro, magari se siete dovuti andare dal dottore.
 
 ![Termometro](images/thermometer.JPG) *Foto Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} tramite Wikimedia Commons*
 
@@ -50,7 +51,7 @@ Per visualizzare la temperatura attuale come messaggio scorrevole sul display, a
 sense.show_message( str(temp) )
 ```
 
-La parte `str()` converte il valore di temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
+La parte `str()` converte il valore della temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
 
 --- /task ---
 

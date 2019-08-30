@@ -1,6 +1,6 @@
 ---
 title: "Astro Pi: Mission Zero"
-hero_image: images/banner.png
+hero_image: afbeeldingen/banner.png
 description: Voorbereiding voor Mission Zero
 listed: false
 copyedit: true
@@ -10,9 +10,9 @@ steps:
   - title: Introductie
   - title: Wat is een Astro Pi?
   - title: Toon een boodschap
-  - title: Voeg er wat kleur aan toe
+  - title: Voeg wat kleur toe
   - title: Laat een beeld zien
   - title: Meet de temperatuur
   - title: Laat de temperatuur zien
-  - title: Je invoer indienen
-  - title: "Uitdaging: meer Astro Pi projecten"
+  - title: Je project indienen
+  - title: "Uitdaging: meer Aspro Pi projecten"

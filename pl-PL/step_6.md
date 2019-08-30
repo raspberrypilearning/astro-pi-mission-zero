@@ -4,7 +4,7 @@ Czujnik temperatury w Astro Pi może mierzyć temperaturę powietrza w otoczeniu
 
 ![Wiadomość o temperaturze](images/degrees-message.gif)
 
-Astro Pi mierzy temperaturę na MSK w stopniach Celsjusza (&deg;°C). Ponieważ temperatury w kosmosie różnią się znacznie od tych na Ziemi, Astro Pi może mierzyć temperaturę w zakresie od -40 stopni Celsjusza do +120 stopni Celsjusza.
+Astro Pi mierzy temperaturę na MSK w stopniach Celsjusza (&deg;C). Ponieważ temperatury w kosmosie różnią się znacznie od tych na Ziemi, Astro Pi może mierzyć temperaturę w zakresie od -40 stopni Celsjusza do +120 stopni Celsjusza.
 
 Częścią waszej misji jest wkład w codzienne życie załogi na pokładzie MSK, więc informacja o tym, że temperatura na stacji kosmicznej mieści się w normalnym zakresie, doda im otuchy.
 
@@ -12,9 +12,10 @@ Częścią waszej misji jest wkład w codzienne życie załogi na pokładzie MSK
 ---
 title: Co to jest temperatura?
 ---
+
 Temperatura to miara stopnia nagrzania substancji. Możliwe, że podczas wizyty u lekarza mierzono ci temperaturę za pomocą termometru.
 
-![Termometr](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometr](images/thermometer.JPG) *Autor: Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){: target = "_ blank"} za pośrednictwem Wikimedia Commons*
 
 Mówiąc bardziej precyzyjnie, temperatura jest miarą ilości energii cieplnej substancji. Wiesz, że kostka lodu jest ciałem stałym, ale gdy się nagrzewa, tzn. gdy pochłania energię cieplną z otoczenia, topi się i staje się płynem. Dzieje się tak dlatego, że gdy dana substancja pochłonie lub straci wystarczającą ilość energii cieplnej, substancja ta zmienia swój stan, np. przechodzi od ciała stałego do cieczy.
 

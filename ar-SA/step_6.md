@@ -12,6 +12,7 @@
 ---
 title: ما هي درجة الحرارة؟
 ---
+
 درجة الحرارة هي قياس مدى سخونة أي جسم. ربما تم قياس درجة حرارة جسمك خلال إحدى زيارتك إلى الطبيب باستخدام مقياس درجة الحرارة.
 
 ![مقياس درجة الحرارة](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*

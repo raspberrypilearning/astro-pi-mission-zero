@@ -7,7 +7,7 @@ copyedit: true
 version: 4.0.1
 last_tested: 12. juni 2018
 steps:
-  - title: Indledning
+  - title: Introduktion
   - title: Hvad er en Astro Pi?
   - title: Vis en besked
   - title: Tilføj noget farve

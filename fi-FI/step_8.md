@@ -1,36 +1,33 @@
-## Lähetä merkintäsi
+## Lähetä osallistumisilmoituksesi
 
-On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen ajettavaksi kansainvälisellä avaruusasemalla (International Space Station). Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
+On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi Kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
 
 ![Validointi](images/validation.png)
 
-1. Ota lämpötilan lukema
+1. Lue lämpötila
 2. Sytytä LEDit
-3. Varmista, että koodisi ajaa loppuun saakka ilman virheitä. Jos koodissasi on silmukka `whileTrue`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
+3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. Jos koodissasi on silmukka `while True`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
-1. Varmista, että koodisi on enintään 1000 merkkiä tyhjiä viivoja lukuun ottamatta
-2. Varmista, että viestisi astronauteille ajaa korkeintaan 30 sekuntia, sillä tämä on kuinka kauan koodiasi ajetaan ISS:llä
-3. Vältä käyttämästä menetelmiä, jotka tarvitsevat syöttöä
-4. Tuonti vain moduuleista `sense_hat`, `time` ja `random`
-5. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
+1. Varmista, että viestisi astronauteille kestää korkeintaan 30 sekuntia, sillä niin kauan koodiasi ajetaan ISS:llä
+2. Vältä käyttämästä menetelmiä, jotka tarvitsevat syötteitä
+3. Tuo tietoa vain moduuleista `sense_hat`, `time` ja `random`
+4. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
 
-Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään.
 
 --- task ---
 
-Kirjoita luokkakoodisi alla olevaan ruutuun - opettajasi ilmoittaa sinulle koodisi.
+Kirjoita luokkakoodisi alareunassa olevaan ruutuun - opettajasi kertoo sinulle, mikä koodisi on.
 
-**Huomautuksia opettajille ja ohjaajille** löytyy vaiheesta [Introduction](https://projects.raspberrypi.org/fi-FI/projects/astro-pi-mission-zero/1).
+**Huomautuksia opettajille ja ohjaajille** löytyy kohdasta [Johdanto](https://projects.raspberrypi.org/fi-FI/projects/astro-pi-mission-zero/1).
 
 --- /task ---
 
 --- task ---
 
-Opettajasi nimi ilmestyy esille. Jos se on oikea nimi, napsauta vihreää painiketta **Continue to form**.
+Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painiketta **Jatka lomakkeeseen**.
 
 ![Jatka lomakkeeseen](images/continue-to-form.png)
 
@@ -38,24 +35,18 @@ Opettajasi nimi ilmestyy esille. Jos se on oikea nimi, napsauta vihreää painik
 
 --- task ---
 
-Napsauta tarvittaessa maasi lippua, jos haluat vaihtaa hakulomakkeen kieltä.
+Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodinne on suoritettu avaruudessa, joten varmista, että ne on kirjoitettu oikein!
 
 --- /task ---
 
 --- task ---
 
-Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodiasi on käytetty avaruudessa, joten varmista, että ne on kirjoitettu oikein!
+Paina **Submit**-painiketta koodisi lähettämiseksi. Opettajasi tai ohjaajasi saa sähköpostin osallistumisesi vahvistamiseksi.
 
 --- /task ---
 
 --- task ---
 
-Paina **Submit**-painiketta koodisi kirjoittamiseksi. Opettajasi tai ohjaajasi saa sähköpostin merkintäsi vahvistamiseksi.
-
---- /task ---
-
---- task ---
-
-Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
+Voit halutessasi jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että kirjoittamaasi koodia käytetään avaruudessa!
 
 --- /task ---

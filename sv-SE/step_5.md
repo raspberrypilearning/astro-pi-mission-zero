@@ -1,19 +1,19 @@
 ## Visa en bild
 
-Du kan visa bilden på LED-matrisen i Astro Pi. Din hälsning till astronauterna kanske ska innehålla en bild eller ett mönster, tillsammans med eller istället för ett skrivet meddelande?
+Du kan visa bilder på Astro Pis LED-matris. Din hälsning till astronauterna kanske ska innehålla en bild eller ett mönster, tillsammans med eller istället för ett skrivet meddelande?
 
 ![Astronaut](images/astronaut-pic.png)
 
 --- task ---
 
-Skapa några färgvariabler för att definiera de färger som du vill rita din bild med, i slutet av programmet. Du kan använda hur många färger du vill, men i det här exemplet använder vi bara två - vit (`w`) och svart (`b`).
+Längst ner i programmet skapar du några färgvariabler för att definiera de färger du vill rita din bild med. Du kan använda hur många färger du vill, men i det här exemplet använder vi bara två - vit (`w`) och svart (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Obs!** Den här gången är det en bra idé att ge färgvariablerna enstaviga namn, eftersom det sparar tid i nästa steg, där du ska skriva in dem många gånger. Dessutom, gör enstaka bokstäver det enklare att se den bild du kommer att rita.
+**Obs!** Den här gången är det en bra idé att ge färgvariablerna enstaviga namn, eftersom det sparar tid i nästa steg, där du ska skriva in dem många gånger. Användning av enstaka bokstäver gör det dessutom lättare att se den bild du ska rita.
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Du kanske vill lägga till lite kod för att inkludera en kort väntetid (eller 
 from time import sleep
 ```
 
-Sedan, lägger du till följande kod på raden som visar din bild för att vänta i två sekunder:
+Lägg sedan till koden för att vänta i två sekunder på raden efter den som visar din bild:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 --- task ---
 
-Skapa din egen bild eller ditt egna mönster för att visa astronauterna!
+Skapa din egen bild eller mönster för att visa för astronauterna!
 
 --- /task ---

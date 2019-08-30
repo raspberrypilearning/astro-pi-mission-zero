@@ -10,15 +10,12 @@ Aby váš kód byl odeslán a spuštěn na Mezinárodní kosmické stanici, mus�
 
 Také se ujistěte, že jste splnili následující kritéria:
 
-1. Ujistěte se, že kód není delší než 1000 znaků (kromě prázdných řádků)
-2. Ujistěte se, že vaše zpráva pro astronauty není delší než 30 sekund, protože váš kód poběží na ISS právě 30 sekund
-3. Nepoužívejte žádné metody vyžadující vstup
-4. Importujte jen z modulů `sense_hat`, `time`, a `random`
-5. V kódu nesmějí být žádné vulgární výrazy
+1. Ujistěte se, že vaše zpráva pro astronauty není delší než 30 sekund, protože váš kód poběží na ISS právě 30 sekund
+2. Nepoužívejte žádné metody vyžadující vstup
+3. Importujte jen z modulů `sense_hat`, `time`, a `random`
+4. V kódu nesmějí být žádné vulgární výrazy
 
-Když jsou všechna pravidla zelená, všechno je připravené a kód můžete odeslat: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Když jsou všechna pravidla zelená, všechno je připravené a kód můžete odeslat.
 
 --- task ---
 
@@ -33,12 +30,6 @@ Do rámečku dole zadejte svůj kód třídy – řekne vám ho učitel.
 Objeví se jméno vašeho učitele. Když je to správné jméno, klikněte na zelené tlačítko **Pokračovat na formulář**.
 
 ![Pokračovat na formulář](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Kdybyste potřebovali, změňte si jazyk formuláře pro odeslání příspěvku kliknutím na vlajku své země.
 
 --- /task ---
 

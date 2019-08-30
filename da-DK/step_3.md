@@ -2,9 +2,9 @@
 
 --- task ---
 
-Åbn [Sense HAT-efterligneren](https://trinket.io/mission-zero){:target="_blank"} til Mission Zero-projektet.
+Åbn [Sense HAT-emulatoren](https://trinket.io/mission-zero){:target="_blank"} til Mission Zero-projektet.
 
-Her kan du se, at der automatisk er blevet tilføjet tre linjer med koder for dig:
+Her kan du se, at der automatisk er blevet tilføjet tre linjer kode for dig:
 
 ```python
 from sense_hat import SenseHat
@@ -12,15 +12,15 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat-efterligner](images/sense-hat-emulator2.png)
+![sense hat-emulator](images/sense-hat-emulator2.png)
 
-Denne kode opretter forbindelse til Astro Pi og sørger for, at LED-displayet på Astro Pi vises på korrekt vis. Lad koden stå der, for du får brug for den.
+Denne kode opretter forbindelse til Astro Pi og sørger for, at LED-displayet på Astro Pi vises på korrekt vis. Lad koden stå, for du får brug for den.
 
 --- /task ---
 
 --- task ---
 
-Måske kunne du efterlade en dejlig hilsen til de astronauter på ISS, der arbejder i nærheden af Astro Pi? Lad os rulle en besked hen over displayet.
+Måske kunne du efterlade en hyggelig hilsen til de astronauter på ISS, der arbejder i nærheden af Astro Pi? Lad os rulle (scrolle) en besked hen over displayet.
 
 Tilføj denne linje under den anden kode:
 
@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Tryk på knappen **Run** (Kør), og kig på, mens beskeden `Astro Pi` ruller hen over LED-displayet.
+Tryk på knappen **Run** (Kør) og kig på, mens beskeden `Astro Pi` ruller hen over LED-displayet.
 
 ![vis kode for besked, klik på kør](images/show-message-code-annotated.PNG)
 
@@ -44,7 +44,7 @@ For at få vist en anden besked kan du skrive præcist, hvad du ønsker mellem a
 
 --- collapse ---
 ---
-title: Hvilke tegn kan anvendes?
+title: Hvilke tegn kan bruges?
 ---
 Sense HAT kan kun vise tegnsættet Latin 1, hvilket betyder, at kun følgende tegn er tilgængelige. Øvrige tegn vises som `?`.
 
@@ -54,14 +54,14 @@ Sense HAT kan kun vise tegnsættet Latin 1, hvilket betyder, at kun følgende te
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---
 
 --- task ---
 
-Du kan også ændre den hastighed, som beskeden ruller hen over displayet med. Tilføj en `scroll_speed` (Rullehastighed) til den kodelinje, du allerede har, som følger:
+Du kan også ændre den hastighed, som beskeden ruller med hen over displayet med. Tilføj en `scroll_speed` (Rullehastighed) til den kodelinje, du allerede har, som følger:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)

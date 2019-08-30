@@ -12,6 +12,7 @@ A küldetésedhez tartozik a Nemzetközi Űrállomás legénységének napi éle
 ---
 title: Mi a hőmérséklet?
 ---
+
 A hőmérséklet azt méri, milyen forró valami. Lehet, hogy egy orvosi vizit során már mérték a te hőmérsékletedet is egy hőmérővel.
 
 ![Hőmérő](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*

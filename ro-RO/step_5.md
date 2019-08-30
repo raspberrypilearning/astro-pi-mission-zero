@@ -6,31 +6,31 @@ Poți afișa imagini pe matricea LED a Astro Pi. Poate că salutul tău pentru a
 
 --- task ---
 
-În partea de jos a programului tău, creează câteva variabile de culoare pentru a defini culorile cu care doreşti să desenezi imaginea. Poți folosi cât de multe culori doreşti, dar în acest exemplu vom păstra doar două culori - alb (`w`) și negru (`b`).
+În partea de jos a programului tău, creează câteva variabile de culoare pentru a defini culorile cu care dorești să desenezi imaginea. Poți folosi cât de multe culori dorești, dar în acest exemplu vom păstra doar două culori — alb (`a`) și negru (`n`).
 
 ```python
-w = (255, 255, 255)
-b = (0, 0, 0)
+a = (255, 255, 255)
+n = (0, 0, 0)
 ```
 
-**Notă:** De această dată, este o idee bună să dați variabilelor de culoare câte un nume de o singură literă, deoarece acest lucru va economisi timp la pasul următor, unde le veți tasta de mai multe ori. Mai mult, folosirea literelor unice va face mai ușoară vederea fotografiei pe care o vei desena.
+**Notă:** De această dată, este o idee bună să dai variabilelor de culoare câte un nume de o singură literă, deoarece acest lucru va economisi timp la pasul următor, unde le vei tasta de mai multe ori. Mai mult, folosirea literelor unice va face mai ușoară vederea imaginii pe care o vei desena.
 
 --- /task ---
 
 --- task ---
 
-Sub noile variabile, creează o listă cu 64 de elemente. Fiecare element reprezintă un pixel pe matricea LED și corespunde uneia dintre variabilele de culoare pe care le-ai definit. Desenează fotografia ta introducând o variabilă în locul în care doreşti să apară culoarea atribuită. Am desenat un astronaut folosind pixeli negri (`b`) ca fundal și albi (`w`) pentru a desena costumul astronauților în spațiu:
+Sub noile tale variabile, creează o listă cu 64 de elemente. Fiecare element reprezintă un pixel pe matricea LED și corespunde uneia dintre variabilele de culoare pe care le-ai definit. Desenează imaginea ta introducând o variabilă în locul în care dorești să apară culoarea atribuită. Am desenat un astronaut folosind pixeli negri (`n`) ca fundal și albi (`a`) pentru a desena costumul astronauților în spațiu:
 
 ```python
-picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
+imagine = [
+    n, n, a, a, a, a, n, n,
+    n, a, n, n, n, n, a, n,
+    n, a, n, a, a, n, a, n,
+    n, a, n, n, n, n, a, n,
+    n, n, a, a, a, a, n, n,
+    n, n, a, a, a, a, n, n,
+    n, a, a, a, a, a, a, n,
+    n, a, a, a, a, a, a, n
 ]
 ```
 
@@ -41,20 +41,20 @@ picture = [
 Adaugă o linie de cod pentru a afișa imaginea ta pe afișajul cu LED-uri.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(imagine)
 ```
 
 --- /task ---
 
 --- task ---
 
-Apasă **Run** (Executare) pentru a vedea afișată imaginea ta.
+Apasă **Run** pentru a vedea afișată imaginea ta.
 
 --- /task ---
 
 --- task ---
 
-S-ar putea să dorești să adaugi cod pentru a include o așteptare scurtă (sau `sleep`) (repaus) după afișarea imaginii. Acest lucru va acorda astronauților timp pentru a vedea imaginea înainte ca următoarea parte a mesajului să apară. În partea de sus a programului, adaugă:
+S-ar putea să dorești să adaugi cod pentru a include o așteptare scurtă (sau `sleep`) după afișarea imaginii. Acest lucru va acorda astronauților timp pentru a vedea imaginea înainte ca următoarea parte a mesajului să apară. În partea de sus a programului, adaugă:
 
 ```python
 from time import sleep

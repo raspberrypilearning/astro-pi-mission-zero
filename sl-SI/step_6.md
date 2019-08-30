@@ -12,6 +12,7 @@ Del vaše misije je izboljšanje vsakdana posadke na postaji ISS. Ko jim boste s
 ---
 title: Kaj je temperatura?
 ---
+
 S temperaturo izmerimo, kako vroče je nekaj. Med obiskom pri zdravniku so vam prav gotovo s termometrom že kdaj izmerili telesno temperaturo.
 
 ![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*

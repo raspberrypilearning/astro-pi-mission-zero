@@ -12,11 +12,12 @@ Teil deiner Mission ist es, einen Beitrag zum täglichen Leben der Crew an Bord 
 ---
 title: Was ist Temperatur?
 ---
-Die Temperatur ist das Maß dafür, wie heiß etwas ist. Bei einem Arztbesuch wurde bei dir bestimmt schon einmal die Temperatur gemessen.
+
+Die Temperatur ist das Maß dafür, wie heiß etwas ist. Bei einem Arztbesuch wurde bei dir bestimmt schon einmal mit einem Thermometer die Temperatur gemessen.
 
 ![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-Um genauer zu sein, ist die Temperatur ein Maß für die Menge an Wärmeenergie einer Substanz. Du weißt, dass ein Eiswürfel fest ist, aber wenn er sich aufwärmt, d.h. Wärmeenergie aus seiner Umgebung aufnimmt, schmilzt er und wird flüssig. Das liegt daran, dass sich bei der Aufnahme oder beim Verlust von Wärmeenergie der Zustand einer Substanz verändert, d.h. sie wird von einem Festkörper zu einer Flüssigkeit.
+Um genauer zu sein, ist die Temperatur ein Maß für die Menge an Wärmeenergie einer Substanz. Du weißt, dass ein Eiswürfel fest ist, aber wenn er sich aufwärmt, d.h. Wärmeenergie aus seiner Umgebung aufnimmt, schmilzt er und wird flüssig. Das liegt daran, dass sich bei der Aufnahme oder beim Verlust von genug Wärmeenergie der Zustand einer Substanz verändert, z.B. ein Festkörper wird zu einer Flüssigkeit.
 
 --- /collapse ---
 
@@ -59,7 +60,7 @@ Der Code `str()` wandelt die Temperatur von einer Zahl in Text um, so dass der A
 Du kannst die Temperatur auch als Teil einer anderen Nachricht anzeigen, indem du die Teile deiner Nachricht mit einem `+` verbindest.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "Es hat " + str(temp) + " Grad" )
 ```
 
 --- /task ---

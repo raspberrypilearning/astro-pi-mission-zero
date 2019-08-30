@@ -6,15 +6,16 @@ Temperatursensorn i Astro Pi kan mäta den omgivande luftens temperatur, en anv�
 
 Astro Pi mäter temperaturen ombord på ISS i grader Celsius (&deg;C). Eftersom temperaturen i rymden varierar mycket mer än på jorden, kan Astro Pi mäta så låga temperaturer som -40 grader Celsius ända upp till +120 grader Celsius.
 
-En del av ditt uppdrag är att bidra till vardagslivet för besättningen ombord på ISS, så att låta dem få reda på att temperaturen ombord på rymdstationen ligger inom ett normalt intervall kommer att muntra upp dem.
+En del av ditt uppdrag är att bidra till det dagliga livet för besättningen ombord på ISS, så att låta dem veta att temperaturen ombord på rymdstationen är inom ett normalt område kommer att lugna dem.
 
 --- collapse ---
 ---
 title: Vad är temperatur?
 ---
+
 Temperatur är ett mått på hur varmt något är. En doktor kanske har tagit din temperatur med en termometer.
 
-![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometer](images/thermometer.JPG) *Av Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
 För att vara mer exakt, är temperatur ett mått på mängden värmeenergi i ett ämne. Du vet att en isbit är hård, men när den värms upp, dvs. när den absorberar värmeenergi ur sin omgivning, så smälter den och blir till vätska. Detta beror på att när ett ämne absorberar eller förlorar tillräckligt med värmeenergi, kommer ämnet att ändra form, t.ex. övergå från fast form till att bli en vätska.
 
@@ -34,7 +35,7 @@ Den här raden mäter den aktuella temperaturen och lagrar det uppmätta värdet
 
 --- task ---
 
-Temperaturen lagras väldigt noggrant, dvs. det lagrade värdet kommer att ha många decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan nivå av noggrannhet, ändrar du talet `1` till det antal decimaler du vill se.
+Temperaturen registreras mycket exakt, dvs det lagrade värdet har ett stort antal decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan precision, ändra siffran ` 1 ` till antalet decimaler du vill se.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -64,7 +65,7 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 --- /task ---
 
-Den riktiga Astro Pi mäter omgivningstemperaturen, men du flyttar skjutreglaget för temperatur på Sense HAT-emulatorn för att simulera temperaturförändringar och testa din kod.
+Den verkliga Astro Pi kommer att mäta temperaturen runt den, men du kan flytta temperaturreglaget på Sense HAT-emulatorn för att simulera temperaturförändringar och testa din kod.
 
 ![Skjutreglage för temperatur](images/temperature-slider.png)
 

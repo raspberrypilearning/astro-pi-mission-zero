@@ -1,6 +1,6 @@
 ## Vis et billede
 
-Du kan vise billeder på LED-matrix på Astro Pi. Måske kunne din hilsen til astronauterne indeholde et billede eller et mønster sammen med eller i stedet for en skriftlig besked?
+Du kan vise billeder på Astro Pi'ens LED-matrix. Måske kunne din hilsen til astronauterne indeholde et billede eller et mønster sammen med, eller i stedet for, en skriftlig besked?
 
 ![Astronaut](images/astronaut-pic.png)
 
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 --- task ---
 
-Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert element repræsenterer en pixel på LED-matrix og svarer til én af de farvevariabler, du definerede. Tegn dit billede ved at sætte en variabel dér, hvor du ønsker, at dens tildelte farve vises. Vi har tegnet en astronaut ved at anvende sorte (`b`) pixels som baggrund og hvide (`w`) pixels til at tegne astronautens rumdragt:
+Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert element repræsenterer en pixel på LED-matrix'en og svarer til én af de farvevariabler, du definerede. Tegn dit billede ved at sætte en variabel dér, hvor du ønsker, at dens tildelte farve skal vises. Vi har tegnet en astronaut ved at anvende sorte (`b`) pixels som baggrund og hvide (`w`) pixels til at tegne astronautens rumdragt:
 
 ```python
 picture = [
@@ -48,13 +48,13 @@ sense.set_pixels(picture)
 
 --- task ---
 
-Tryk på **Run** (Kør) for at se dit billede vist.
+Tryk på **Run** (Kør) for at få dit billede vist.
 
 --- /task ---
 
 --- task ---
 
-Det kan være, du vil tilføje en kode for at lave en kort ventetid (eller `sleep` (dvale)) efter visning af billedet. På den måde får astronauterne tid til at se dit billede, før næste del af din besked vises. Øverst i dit program skal du tilføje:
+Det kan være, du vil tilføje noget kode for at lave en kort pause (eller `sleep` (dvale)) efter visning af billedet. På den måde får astronauterne tid til at se dit billede, før næste del af din besked vises. Øverst i dit program skal du tilføje:
 
 ```python
 from time import sleep

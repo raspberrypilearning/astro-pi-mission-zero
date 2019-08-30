@@ -10,9 +10,10 @@ En del av oppdraget deres er å bidra til dagliglivet til mannskapet ombord på 
 
 --- collapse ---
 ---
-title: Hva er temperatur?
+title: Hva er temperaturen?
 ---
-Temperatur er måling av hvor varmt noe er. Det kan godt hende dere har fått målt temperaturen med et termometer hos legen.
+
+Temperatur er måling av hvor varmt noe er. Det kan godt hende dere har fått målt temperaturen deres med et termometer hos legen.
 
 ![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 

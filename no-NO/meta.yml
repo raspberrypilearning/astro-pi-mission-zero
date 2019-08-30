@@ -1,6 +1,6 @@
 ---
 title: "Astro Pi: Mission Zero"
-hero_image: images/banner.png
+hero_image: images / banner.png
 description: Gjør deg klar for Mission Zero
 listed: false
 copyedit: true
@@ -14,5 +14,5 @@ steps:
   - title: Vise et bilde
   - title: Måle temperaturen
   - title: Vise temperaturen
-  - title: Sende inn bidraget
+  - title: Sende inn bidraget ditt
   - title: "Utfordring: flere Astro Pi-prosjekter"

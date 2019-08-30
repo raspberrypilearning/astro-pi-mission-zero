@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-Można również zmienić kolor tła wyświetlacza. Wybierz inny kolor i utwórz kolejną zmienną, aby zachować ten kolor. Aby w programie dać polecenie użycia wybranego koloru tła, dodaj parametr `back_colour` (koloru_tła) do swojego kodu:
+Można również zmienić kolor tła wyświetlacza. Wybierz inny kolor i utwórz kolejną zmienną, aby zachować ten kolor. Aby w programie dać polecenie użycia wybranego koloru tła, dodaj parametr `back_colour` (kolor_tła) do swojego kodu:
 
 ```python
 red = (255,0,0)

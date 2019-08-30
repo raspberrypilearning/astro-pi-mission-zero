@@ -2,7 +2,7 @@
 
 Lysdioderna i Astro Pi kan även visa färger. Du kan ange en färg genom att skapa en variabel och tilldela den ett värde för en RGB-färg.
 
-Du kan lära dig hur alla färger kan skapas med olika proportioner rött, grönt och blått här:
+Du kan lära dig hur alla färger kan skapas med olika proportioner av rött, grönt och blått här:
 
 [[[generic-theory-colours]]]
 
@@ -14,7 +14,7 @@ Välj en färg och ta reda på färgens RGB-värde. Du kan använda en [färgvä
 
 --- task ---
 
-Skapa en variabel för att lagra den färg du valt. Om du exempelvis valde röd (red), kan du skriva den här kodraden:
+Skapa en variabel för att lagra den färg du valt. Om du exempelvis valde röd, kan du skriva den här kodraden:
 
 ```python
 red = (255,0,0)

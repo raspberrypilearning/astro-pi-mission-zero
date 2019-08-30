@@ -1,4 +1,4 @@
-## Afficher un message
+## Affiche un message
 
 --- task ---
 
@@ -14,7 +14,7 @@ sense.set_rotation(270)
 
 ![émulateur Sense HAT](images/sense-hat-emulator2.png)
 
-Ce code établit la connexion à l'Astro Pi et assure que l'affichage LED de l'Astro Pi s'effectue dans le bon sens. Laisse là ce code car tu en auras besoin.
+Ce code établit la connexion à l'Astro Pi et assure que l'affichage LED de l'Astro Pi s'effectue dans le bon sens. Laisse ce code ici car tu en auras besoin.
 
 --- /task ---
 
@@ -40,7 +40,7 @@ Appuie sur le bouton **Run** (Exécuter) et regarde comme le message `Astro Pi` 
 
 ![Message de défilement](images/scroll-message.gif)
 
-Pour afficher un autre message tu peux écrire ce que tu veux entre les guillemets (`""`).
+Pour afficher un autre message tu peux écrire ce que tu veux entre les guillemets (`""` ).
 
 --- collapse ---
 ---
@@ -54,7 +54,7 @@ Le Sense HAT ne peut afficher que le jeu de caractères Latin 1, ce qui signifie
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---

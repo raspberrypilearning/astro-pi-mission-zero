@@ -8,11 +8,11 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
   - title: Introduction
-  - title: "Qu'est-ce qu'un Astro Pi ?"
-  - title: Afficher un message
-  - title: Ajouter de la couleur
-  - title: Afficher une image
-  - title: Mesurer la température
-  - title: Afficher la température
-  - title: Soumettre ta proposition
+  - title: Qu'est-ce qu'un Astro Pi ?
+  - title: Affiche un message
+  - title: Ajoute de la couleur
+  - title: Affiche une image
+  - title: Mesure la température
+  - title: Affiche la température
+  - title: Envoie ton programme
   - title: "Défi: davantage de projets Astro Pi"

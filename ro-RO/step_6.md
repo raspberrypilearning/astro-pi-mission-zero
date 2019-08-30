@@ -12,11 +12,12 @@ O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului d
 ---
 title: Ce este temperatura?
 ---
+
 Temperatura este măsura a cât de cald este ceva. S-ar putea ca temperatura ta să fi fost luată cu un termometru în timpul unei vizite la medic.
 
-![Termometru](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Termometru](images/thermometer.JPG) *De Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
-Mai precis, temperatura este o măsură a cantității de energie termică a unei substanțe. Știi că un cub de gheață este solid, dar pe măsură ce se încălzește, adică în timp ce absoarbe energia termică din mediul său, se topește și devine lichid. Acest lucru se datorează faptului că, atunci când o substanță absoarbe sau pierde suficientă energie termică, substanța îşi va schimba starea, de exemplu va trece de la stare solidă la cea lichidă.
+Mai precis, temperatura este o măsură a cantității de energie termică a unei substanțe. Știi că un cub de gheață este solid, dar pe măsură ce se încălzește, adică în timp ce absoarbe energia termică din mediul său, se topește și devine lichid. Acest lucru se datorează faptului că, atunci când o substanță absoarbe sau pierde suficientă energie termică, substanța își va schimba starea, de exemplu va trece de la stare solidă la cea lichidă.
 
 --- /collapse ---
 
@@ -34,7 +35,7 @@ Această linie va măsura temperatura curentă și va stoca valoarea măsurată 
 
 --- task ---
 
-Temperatura este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care doreşti să le vezi.
+Temperatura este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -50,7 +51,7 @@ Pentru a afișa temperatura curentă ca mesaj derulant pe afișaj, adaugă aceas
 sense.show_message( str(temp) )
 ```
 
-Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să poată afișa.
+Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
 
 --- /task ---
 
@@ -64,8 +65,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 --- /task ---
 
-Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de temperatură de pe emulatorul Sense HAT pentru a simula schimbări de temperatură și pentru a testa codul tău.
+Un Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de temperatură de pe emulatorul Sense HAT pentru a simula schimbări de temperatură și pentru a testa codul tău.
 
-![Cursor pentru temperatură](images/temperature-slider.png)
+![Slider pentru temperatură](images/temperature-slider.png)
 
-**Notă:** S-ar putea să te întrebi de ce sliderul de temperatură afișează temperatura ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât temperatura măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul cursorului.
+**Notă:** S-ar putea să te întrebi de ce sliderul de temperatură afișează temperatura ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât temperatura măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul sliderului.

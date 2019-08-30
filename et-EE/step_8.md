@@ -10,15 +10,12 @@ Sinu koodi esitamiseks rahvusvahelises kosmosejaamas peab see vastama mõnedele 
 
 Samuti pead veenduma, et järgmised kriteeriumid oleks täidetud:
 
-1. Kood ei tohi olla pikem, kui 1000 tähemärki, v.a tühjad read
-2. Astronautidele edastatava sõnumi pikkus ei tohi ületada 30 sekundit, kuna see on sinu koodi pikkus, mida saad esitada rahvusvahelises kosmosejaamas
-3. Väldi mistahes sisendit vajava meetodi kasutamist
-4. Impordi ainult moodulitelt `sense_hat`, `time` ja `random`
-5. Ei tohi olla ebaviisakas või sündsusetu
+1. Astronautidele edastatava sõnumi pikkus ei tohi ületada 30 sekundit, kuna see on sinu koodi pikkus, mida saad esitada rahvusvahelises kosmosejaamas
+2. Väldi mistahes sisendit vajava meetodi kasutamist
+3. Impordi ainult moodulitelt `sense_hat`, `time` ja `random`
+4. Ei tohi olla ebaviisakas või sündsusetu
 
-Kui kõik reeglid on rohelised, oled esitamiseks valmis: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Kui kõik reeglid on rohelised, oled esitamiseks valmis.
 
 --- task ---
 
@@ -33,12 +30,6 @@ Sisesta oma klassiruumi kood allpool asuvasse kastikesse; sinu õpetaja ütleb s
 Kuvatakse sinu õpetaja nimi. Kui see on õige, siis klõpsa rohelisel **Continue to form** (ava vorm) nupul.
 
 ![Ava vorm](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Vajadusel klõpsa oma riigi lipul, kui soovid muuta keelt, milles vormi kuvatakse.
 
 --- /task ---
 

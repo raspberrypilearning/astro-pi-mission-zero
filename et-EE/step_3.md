@@ -1,4 +1,4 @@
-## Kuva teade
+## Kuva sõnum
 
 --- task ---
 
@@ -54,7 +54,7 @@ Sense HAT´iga saab kuvada ainult Latin 1 tähemärke, seetõttu saab ainult jä
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---

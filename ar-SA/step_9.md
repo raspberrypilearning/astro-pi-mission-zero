@@ -6,12 +6,12 @@
 
 بدلًا من ذلك، قد ترغب في خوض تجربة تنفيذ إحدى مشروعات Astro Pi الأخرى الخاصة بنا:
 
-+ تعلم [المزيد عن لوحة Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} والأشياء الأخرى التي يمكنها تنفيذها
++ تعلم [المزيد عن لوحة Sense HAT](https://projects.raspberrypi.org/ar-SA/projects/getting-started-with-the-sense-hat){:target="_blank"} والأشياء الأخرى التي يمكنها تنفيذها
 
-+ أنشئ بعض [الومضات العشوائية](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} الرائعة على شاشة عرض LED الخاصة بلوحة Sense HAT
++ أنشئ بعض [الومضات العشوائية](https://projects.raspberrypi.org/ar-SA/projects/sense-hat-random-sparkles){:target="_blank"} الرائعة على شاشة عرض LED الخاصة بلوحة Sense HAT
 
-+ أنشئ لعبة [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
++ أنشئ لعبة [Flappy Astronaut](https://projects.raspberrypi.org/ar-SA/projects/flappy-astronaut){:target="_blank"}
 
-+ تحدَّ أصدقاءك بلعبة [متاهة الكرات الرخامية](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
++ تحدَّ أصدقاءك بلعبة [متاهة الكرات الرخامية](https://projects.raspberrypi.org/ar-SA/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ أعد إنشاء اللعبة الكلاسيكية [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ أعد إنشاء اللعبة الكلاسيكية [Pong](https://projects.raspberrypi.org/ar-SA/projects/sense-hat-pong){:target="_blank"}

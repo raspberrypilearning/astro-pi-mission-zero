@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![emulador sense hat](images/sense-hat-emulator2.png)
 
-Este código se conecta al Astro Pi y se asegura que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja el código ahí, puesto que lo necesitarás más adelante.
+Este código se conecta al Astro Pi y se asegura que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
 
 --- /task ---
 
 --- task ---
 
-¿Por qué no escribes un saludo para los astronautas de la ISS que están trabajando cerca de Astro Pi? Desplacemos un mensaje por la pantalla.
+¿Por qué no escribes un saludo para los astronautas de la ISS que están trabajando cerca de Astro Pi? Mostremos un mensaje que se desplace por la pantalla.
 
 Añade esta línea debajo del otro código:
 
@@ -38,7 +38,7 @@ Pulsa el botón **Run** (Ejecutar) y observa cómo el mensaje `Astro Pi` se desp
 
 --- /task ---
 
-![Desplazar mensaje](images/scroll-message.gif)
+![Mensaje desplazándose](images/scroll-message.gif)
 
 Para mostrar otro mensaje, escribe lo que quieras entre las comillas (`""`).
 
@@ -54,7 +54,7 @@ Sense HAT solamente muestra el set de caracteres Latin 1, es decir, solamente es
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---
@@ -67,6 +67,6 @@ También puedes cambiar la velocidad de desplazamiento del mensaje por la pantal
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-La velocidad predeterminada del mensaje es `0.1`. Disminuir el número causará que el mensaje se desplace más rápidamente; y aumentarlo, que se desplace más lentamente.
+La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que el mensaje se desplace más rápidamente; y aumentarlo, que se desplace más lentamente.
 
 --- /task ---

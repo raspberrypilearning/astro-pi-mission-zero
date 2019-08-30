@@ -1,4 +1,4 @@
-## Sende inn bidraget
+## Sende inn bidraget ditt
 
 Det er noen regler for hvordan koden må være for at den kan sendes til å bli kjørt på den internasjonale romstasjonen. Hvis koden overholder dem, vil reglene nederst på emulatoren lyse grønt når dere kjører programmet.
 
@@ -10,19 +10,16 @@ Det er noen regler for hvordan koden må være for at den kan sendes til å bli 
 
 Sørg også for at dere har oppfylt følgende kriterier:
 
-1. Pass på at koden ikke overstiger 1000 tegn, ikke medregnet tomme linjer
-2. Pass på at meldingen til astronautene ikke tar mer enn 30 sekunder, da dette er så lenge koden kommer til å kjøres på ISS
-3. Unngå å bruke metoder som trenger input
-4. Dere må bare importere fra modulene `sense_hat`, `time` og `random`
-5. Pass på at meldingen ikke har støtende innhold
+1. Pass på at meldingen til astronautene ikke tar mer enn 30 sekunder, da dette er så lenge koden kommer til å kjøres på ISS
+2. Unngå å bruke metoder som trenger input
+3. Dere må bare importere fra modulene `sense_hat`, `time` og `random`
+4. Pass på at meldingen ikke har støtende innhold
 
-Når alle reglene er grønne, er dere klare til å sende: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Når alle reglene er grønne, er dere klare til å sende.
 
 --- task ---
 
-Skriv inn klasseromskoden i feltet nederst - læreren vil opplyse hva koden er.
+Skriv inn klasseromskoden i feltet nederst - læreren/veilederen vil opplyse hva koden er.
 
 **Notater for lærere og veiledere** finnes under [Introduksjon](https://projects.raspberrypi.org/no-NO/projects/astro-pi-mission-zero/1).
 
@@ -30,15 +27,9 @@ Skriv inn klasseromskoden i feltet nederst - læreren vil opplyse hva koden er.
 
 --- task ---
 
-Lærerens navn vises. Hvis det er riktig navn, klikk på den grønne **Fortsett til skjema**-knappen.
+Lærerens navn vises. Hvis det er riktig navn, klikk på den grønne **Continue to form** (Fortsett til skjema)-knappen.
 
 ![Fortsett til skjemaet](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Om nødvendig, klikk på flagget til landet deres for å endre språket i Send-skjemaet.
 
 --- /task ---
 

@@ -1,6 +1,6 @@
-## Ajouter de la couleur
+## Ajoute de la couleur
 
-Les LED de l'Astro Pi peuvent également afficher des couleurs. Tu peux spécifier une couleur en créant une variable et en lui attribuant une valeur RGB pour la couleur RGB.
+Les LED de l'Astro Pi peuvent également afficher des couleurs. Tu peux spécifier une couleur en créant une variable et en lui attribuant une valeur de couleur RGB.
 
 Tu peux apprendre ici comment créer toutes les couleurs en utilisant différentes proportions de rouge, de vert et de bleu :
 
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Maitenant tu peux afficher ton texte dans la couleur de ton choix ! Pour indiquer au programme d'utiliser la couleur que tu as créée, ajoute le paramètre `text_colour` (couleur_du_texte) à la ligne de code qui affiche ton texte :
+Maitenant tu peux afficher ton texte dans la couleur de ton choix ! Pour indiquer au programme d'utiliser la couleur que tu as créée, ajoute le paramètre `text_colour` (couleur du texte) à la ligne de code qui affiche ton texte :
 
 ```python
 red = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-Tu peux également modifier la couleur de fond de l'écran. Choisis une autre couleur et crée une autre variable pour cette couleur. Pour indiquer au programme d'utiliser la couleur de fond que tu as choisie, ajoute le paramètre `back_colour` (couleur_de_fond) à ton code :
+Tu peux également modifier la couleur de fond de l'écran. Choisis une autre couleur et crée une autre variable pour cette couleur. Pour indiquer au programme d'utiliser la couleur de fond que tu as choisie, ajoute le paramètre `back_colour` (couleur de fond) à ton code :
 
 ```python
 red = (255,0,0)

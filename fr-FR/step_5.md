@@ -1,12 +1,12 @@
-## Afficher une image
+## Affiche une image
 
-Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de salutation pour les astronautes pourrait peut-être inclure une image ou un motif avec le texte, ou à la place du texte ?
+Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de salutation pour les astronautes pourrait peut-être inclure une image ou un motif avec le texte, ou à la place du texte?
 
 ![Astronaute](images/astronaut-pic.png)
 
 --- task ---
 
-En bas de ton programme, crée des variables pour les couleurs que tu veux définir et utiliser pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`w` ) et noir (`b` ).
+En bas de ton programme, crée des variables pour les couleurs que tu veux définir pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`w` ) et noir (`b` ).
 
 ```python
 w = (255, 255, 255)

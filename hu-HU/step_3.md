@@ -20,7 +20,7 @@ Ez a kód az Astro Pi-hoz kapcsolódik, és biztosítja, hogy az Astro Pi LED ki
 
 --- task ---
 
-Akár egy kedves üzenetet is hagyhatsz a Nemzetközi Űrállomás űrhajósainak, akik az Astro Pi közelében dolgoznak! Futtassunk egy üzenetet keresztül a kijelzőn!
+Akár egy kedves üzenetet is hagyhatsz a Nemzetközi Űrállomás űrhajósainak, akik az Astro Pi közelében dolgoznak! Futtassunk egy üzenetet a kijelzőn keresztül.
 
 Írd be ezt a sort a többi kód alá:
 
@@ -54,7 +54,7 @@ A Sense HAT csak a Latin 1-es karakterkészletet tudja megjeleníteni, ami azt j
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---

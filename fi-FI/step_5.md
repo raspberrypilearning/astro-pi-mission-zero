@@ -1,25 +1,25 @@
-## Esitä kuva
+## Näytä kuva
 
-Voit näyttää kuvia Astro Piin LED-matriisissa. Ehkä tervehdyksesi astronauteille voisi sisältää kuvan tai kuvion sekä myös kirjallisen viestin niiden yhteydessä tai niiden sijasta?
+Voit näyttää kuvia Astro Pin LED-matriisissa. Ehkä tervehdyksesi astronauteille voisi sisältää kuvan tai kuvion kirjallisen viestin yhteydessä tai sen sijasta?
 
 ![Astronautti](images/astronaut-pic.png)
 
 --- task ---
 
-Luo ohjelman alaosaan tiettyjä värimuuttujia määrittääksesi värit, joilla haluat piirtää kuvan. Voit käyttää niin monta väriä kuin haluat, mutta tässä esimerkissä käytämme vain kahta väriä - valkoista (`w`) ja mustaa (`b`).
+Luo ohjelman loppuun värimuuttujia määrittämään värit, joilla haluat piirtää kuvan. Voit käyttää niin montaa väriä kuin haluat, mutta tässä esimerkissä käytämme vain kahta väriä — valkoista (`w`) ja mustaa (`b`).
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Huomautus:** Tällä kertaa kannattaa antaa värimuuttujille yksikirjaimisia nimiä, koska se säästää aikaa seuraavassa vaiheessa, jossa tulet kirjoittamaan ne useita kertoja. Lisäksi yksittäiset kirjiamet tekevät helpommaksi nähdä kuvan, jonka piirrät.
+**Huomautus:** Tällä kertaa kannattaa antaa värimuuttujille yksikirjaimisia nimiä, koska se säästää aikaa seuraavassa vaiheessa, jossa tulet kirjoittamaan ne useita kertoja. Lisäksi yksittäiset kirjaimet helpottavat piirtämäsi kuvan näkemistä.
 
 --- /task ---
 
 --- task ---
 
-Luo uusien muuttujien alle 64 kohteen luettelo. Jokainen kohde edustaa yhtä pikseliä LED-matriisissa ja vastaa yhtä määrittämistäsi värimuuttujista. Piirrä kuvasi asettamalla muuttuja, jossa haluat sen nimetyn värin esiintyvän. Olemme piirtäneet astronautin käyttämällä mustia (`b`) pikseleinä taustana ja valkoisia (`w`) pikseleitä piirtämään astronautin avaruuspuvun:
+Luo 64-kohtainen lista uusien muuttujien alle. Jokainen kohde edustaa yhtä pikseliä LED-matriisissa ja vastaa yhtä määrittämistäsi värimuuttujista. Piirrä kuvasi asettamalla muuttuja sinne, missä haluat sille nimetyn värin esiintyvän. Olemme piirtäneet astronautin käyttämällä mustia (`b`) pikseleitä taustana ja valkoisia (`w`) pikseleitä piirtämään astronautin avaruuspuvun:
 
 ```python
 picture = [
@@ -48,19 +48,19 @@ sense.set_pixels(picture)
 
 --- task ---
 
-Paina **Run** nähdäksesi kuvasi näytössä.
+Paina **Run** (Suorita) nähdäksesi kuvasi näytössä.
 
 --- /task ---
 
 --- task ---
 
-Haluat ehkä lisätä tietyn koodin sisällyttämään lyhyen odotuksen (vaihtoehtona `sleep`) kuvan näyttämisen jälkeen. Tämä antaa astronauteille aikaa nähdä kuvasi ennen kuin seuraava viestisi osa tulee näkyviin. Lisää ohjelman yläosaan:
+Haluat ehkä lisätä koodia lyhyttä viivettä varten (eli `sleep`-käsky) kuvan näyttämisen jälkeen. Tämä antaa astronauteille aikaa nähdä kuvasi ennen kuin seuraava viestisi osa tulee näkyviin. Lisää ohjelman yläosaan:
 
 ```python
 from time import sleep
 ```
 
-Lisää sitten kuvasi esittämän koodin jälkeiselle riville tämä koodi odottamaan kaksi sekuntia:
+Lisää sitten kuvasi näyttävää koodia seuraavalle riville tämä koodi kahden sekunnin viivettä varten:
 
 ```python
 sleep(2)
@@ -70,6 +70,6 @@ sleep(2)
 
 --- task ---
 
-Luo oma kuvasi tai kuviosi astronauteille näyttämiseksi!
+Luo oma kuva tai kuvio näytettäväksi astronauteille!
 
 --- /task ---

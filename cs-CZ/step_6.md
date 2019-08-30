@@ -12,6 +12,7 @@ Součástí vaší mise je přispět ke každodennímu životu posádky ISS. Kdy
 ---
 title: Co je teplota?
 ---
+
 Teplota je měřítko toho, jak je něco teplé. Dost možná vám pan doktor měřil teplotu teploměrem.
 
 ![Teploměr](images/thermometer.JPG) Foto: *Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"}, zdroj: Wikimedia Commons*

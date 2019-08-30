@@ -60,7 +60,7 @@ Dere vil kanskje legge til koder for å få et kort tidsrom (eller `sleep` (søv
 from time import sleep
 ```
 
-På linjen etter den som viser bildet, legger dere til denne koden for å et opphold på to sekunder:
+På linjen etter den som viser bildet, legger dere til denne koden for å få et opphold på to sekunder:
 
 ```python
 sleep(2)

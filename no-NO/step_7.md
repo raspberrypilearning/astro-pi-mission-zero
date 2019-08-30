@@ -50,7 +50,7 @@ w, w, w, w, w, w, w, w
 
 --- task ---
 
-Legg til koder for å få temperaturen:
+Legg til kode for å få temperaturen:
 
 ```python
 temp = sense.temperature
@@ -65,9 +65,9 @@ Nå bestemmer dere hvilket bilde som skal vises. I dette eksemplet vil vi vise e
 ```python
 temp = sense.temperature
 if temp >= 20:
-    sense.set_pixels(varm)
+    sense.set_pixels(hot)
 else:
-    sense.set_pixels(kald)
+    sense.set_pixels(cold)
 ```
 
 --- /task ---

@@ -2,13 +2,13 @@
 
 Lysdioderne på Astro Pi kan også vise farver. Du kan angive en farve ved at oprette en variabel og tildele den en RGB-farveværdi.
 
-Du kan lære, hvordan alle farver kan oprettes ved hjælp af forskellige proportioner af rød, grøn og blå, her:
+Du kan lære, hvordan alle farver kan laves ved hjælp af forskellige kombinationer af rød, grøn og blå, her:
 
 [[[generic-theory-colours]]]
 
 --- task ---
 
-Vælg en farve, og find ud af den pågældende farves RGB-værdi. Du kan benytte en [farvevælger](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} til at hjælpe dig.
+Vælg en farve og find uden pågældende farves RGB-værdi. Du kan benytte en [farvevælger](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} til at hjælpe dig.
 
 --- /task ---
 

@@ -6,7 +6,7 @@ Podrás combinar tu lectura de temperatura con una imagen para indicar la temper
 
 --- task ---
 
-En la parte inferior de tu programa, crea más variables de color para cualquiera de los colores que deseas usar en tus imágenes. Es posible que ya hayas definido algunos en el paso anterior. En nuestros ejemplos usaremos blanco (`w`), amarillo (`y`), verde (`g`) y negro/vacío (`b`).
+En la parte inferior de tu programa, crea más variables de color para cualquiera de los colores que deseas usar en tus imágenes. Es posible que ya hayas definido algunas en el paso anterior. En nuestros ejemplos usaremos blanco (`w`), amarillo (`y`), verde (`g`) y negro/vacío (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -80,6 +80,6 @@ Usa el control deslizante de la temperatura para establecer una temperatura en e
 
 --- task ---
 
-Cambia tu código de modo que tu programa muestre la temperatura a los astronautas del modo que hayas seleccionado.
+Cambia tu código de forma que tu programa muestre la temperatura a los astronautas del modo que hayas seleccionado.
 
 --- /task ---

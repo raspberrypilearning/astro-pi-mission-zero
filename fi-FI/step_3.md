@@ -2,9 +2,9 @@
 
 --- task ---
 
-Avaa [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} Mission Zero -hanketta varten.
+Avaa [Sense HAT -emulaattori](https://trinket.io/mission-zero){:target="_blank"} Mission Zero -projektia varten.
 
-Näet, että kolme koodiriviä on lisätty automaattisesti sinua varten:
+Näet, että kolme riviä koodia on lisätty sinulle automaattisesti:
 
 ```python
 from sense_hat import SenseHat
@@ -14,15 +14,15 @@ sense.set_rotation(270)
 
 ![sense hat -emulaattori](images/sense-hat-emulator2.png)
 
-Tämän koodin kytkennän kohteena on Astro Pi, ja se varmistaa, että Astro Pi LED -näyttö on esitetty oikein. Jätä koodi sinne. koska tulet tarvitsemaan sitä.
+Tämä koodi muodostaa yhteyden Astro Pihin ja varmistaa, että Astro Pin LED-näyttö näytetään oikein päin. Jätä koodi sinne, koska tulet tarvitsemaan sitä.
 
 --- /task ---
 
 --- task ---
 
-Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät lähellä Astro Piä? Selataanpa viestiä näytöllä.
+Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät Astro Pin lähellä? Vieritetään viesti näytön poikki.
 
-Lisää tämä rivi toisen koodin alapuolelle:
+Lisää tämä rivi muun koodin alapuolelle:
 
 ```python
 sense.show_message("Astro Pi")
@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierittyy LED-näytön poikkii.
+Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierii LED-näytön poikki.
 
 ![näytä viestikoodin aja-klikkaus](images/show-message-code-annotated.PNG)
 
@@ -46,7 +46,7 @@ Erilaisen viestin näyttämiseksi voit kirjoittaa sen lainausmerkkien (`""`) vä
 ---
 title: Mitä merkkejä voidaan käyttää?
 ---
-Sense HAT voi esittää Latin 1 -merkistön merkiten sitä, että vain seuraavat merkiit ovat saatavana. Muut merkit näytetään muodossa `?`.
+Sense HAT pystyy näyttämään vain Latin 1 -merkkijoukon, mikä tarkoittaa, että vain seuraavat merkit ovat käytettävissä. Muut merkit näytetään muodossa `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -54,7 +54,7 @@ Sense HAT voi esittää Latin 1 -merkistön merkiten sitä, että vain seuraavat
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---
@@ -67,6 +67,6 @@ Voit myös muuttaa näytön poikki vierivän viestin nopeutta. Lisää `scroll_s
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Viestin oletusnopeus on `0.1`. Numeron tekeminen pienemmäksi saa viestin vierittymään nopeammin, ja sen tekeminen suuremmaksi saa viestin vierittymään hitaammin.
+Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vierimään nopeammin, ja sen muuttaminen suuremmaksi saa viestin vierimään hitaammin.
 
 --- /task ---

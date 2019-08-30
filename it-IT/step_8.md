@@ -10,19 +10,16 @@ Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il 
 
 Assicuratevi anche di aver soddisfatto i seguenti criteri:
 
-1. Controllate che la lunghezza del codice non superi i 1000 caratteri, senza contare le righe vuote
-2. Assicuratevi che il vostro messaggio non venga visualizzato per oltre 30 secondi perché questa è la durata massima dell’esecuzione del vostro programma sulla ISS
-3. Evitate di usare metodi che richiedono un input
-4. Eseguite importazioni solo dai moduli `sense_hat`, `time` e `random`
-5. Non scrivete parolacce
+1. Assicuratevi che il vostro messaggio non venga visualizzato per oltre 30 secondi perché questa è la durata massima dell’esecuzione del vostro programma sulla ISS
+2. Evitate di usare metodi che richiedono un input
+3. Eseguite importazioni solo dai moduli `sense_hat`, `time` e `random`
+4. Non scrivete parolacce
 
-Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il programma: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il programma.
 
 --- task ---
 
-Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o tutor vi dirà quale è il vostro codice di classe.
+Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o tutor vi dirà qual è il vostro codice di classe.
 
 Le **Note per insegnanti e tutor** sono disponibili nel passo [Introduzione](https://projects.raspberrypi.org/it-IT/projects/astro-pi-mission-zero/1).
 
@@ -38,13 +35,7 @@ Apparirà il nome del vostro insegnante. Se è il nome giusto, cliccate sul puls
 
 --- task ---
 
-Se necessario, fate clic sulla bandiera del vostro paese per cambiare la lingua in cui viene visualizzato il modulo di invio.
-
---- /task ---
-
---- task ---
-
-Immettete il nome del vostro team e i nomi dei membri del team. Questi nomi verranno stampati sul certificato dopo che il programma sarà stato eseguito nello spazio, quindi controllate di averli scritti giusti!
+Immettete il nome del vostro team e i nomi dei membri del team. Questi nomi verranno stampati sul certificato dopo che il programma sarà stato eseguito nello spazio, quindi controllate di averli scritti in maniera corretta!
 
 --- /task ---
 

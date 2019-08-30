@@ -6,12 +6,12 @@ Wenn du es dir zutraust, könntest du an der [ Mission Space Lab](https://astro-
 
 Alternativ möchtest du vielleicht eines unserer anderen Astro Pi Projekte ausprobieren:
 
-+ Erfahre [mehr über den Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} und was er noch alles kann
++ Erfahre [mehr über den Sense HAT](https://projects.raspberrypi.org/de-DE/projects/getting-started-with-the-sense-hat){:target="_blank"} und was er noch alles kann
 
-+ Erstelle ein hübsches [willkürliches Glitzern](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} auf dem LED-Bildschirm des Sense HAT
++ Erstelle ein hübsches [willkürliches Glitzern](https://projects.raspberrypi.org/de-DE/projects/sense-hat-random-sparkles){:target="_blank"} auf dem LED-Bildschirm des Sense HAT
 
-+ Entwickle ein [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} Spiel
++ Entwickle ein [Flappy Astronaut](https://projects.raspberrypi.org/de-DE/projects/flappy-astronaut){:target="_blank"} Spiel
 
-+ Fordere deine Freunde zu einem [Murmel-Labyrinth](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} Spiel heraus
++ Fordere deine Freunde zu einem [Murmel-Labyrinth](https://projects.raspberrypi.org/de-DE/projects/sense-hat-marble-maze){:target="_blank"} Spiel heraus
 
-+ Bilde das klassische Spiel [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} nach
++ Bilde das klassische Spiel [Pong](https://projects.raspberrypi.org/de-DE/projects/sense-hat-pong){:target="_blank"} nach

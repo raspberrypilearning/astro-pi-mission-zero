@@ -1,4 +1,4 @@
-## Afficher la température
+## Affiche la température
 
 Tu peux combiner ta mesure de la température avec une image pour indiquer également la température de manière graphique. Par exemple, tu peux afficher une tempête de neige pour les températures froides et une journée ensoleillée pour les températures chaudes :
 
@@ -74,7 +74,7 @@ else:
 
 --- task ---
 
-Utilise le curseur de température pour définir une température sur l'émulateur. Exécute ton programme et vérifie que l'image que tu as chosie pour cette température est correctement affichée.
+Utilise le curseur de température pour définir une température sur l'émulateur. Exécute ton programme et vérifie que l'image que tu as choisie pour cette température est correctement affichée.
 
 --- /task ---
 

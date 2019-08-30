@@ -1,6 +1,6 @@
 ## Mittaa lämpötila
 
-Astro Pi:n lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa; hyödyllinen ominaisuus auttaen sinua keräämään tietoja olosuhteista avaruudessa.
+Astro Pin lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa. Tämä on hyödyllinen ominaisuus, joka auttaa sinua keräämään tietoja olosuhteista avaruudessa.
 
 ![Viesti lämpötilasta](images/degrees-message.gif)
 
@@ -12,29 +12,30 @@ Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, jot
 ---
 title: Mikä on lämpötila?
 ---
-Lämpötila mittaa tietyn kuumuuden. Sinun kehosi lämpö on ehkä mitattu lämpömittarilla käydessäsi lääkärissä.
+
+Lämpötila on mitta siitä, kuinka kuuma jokin on. Sinun kehosi lämpö on ehkä mitattu lämpömittarilla käydessäsi lääkärissä.
 
 ![Lämpömittari](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} Wikimedia Commons -sivuston kautta*
 
-Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät, että jääkuutio on kiinteä, mutta kun se lämpenee, eli kun se absorboi lämpöenergiaa sen ympäristöstä, se sulaa ja tulee nestemäiseksi. Tämä johtuu siitä, että kun aine imeytyy tai menettää riittävästi lämpöenergiaa, aine muuttaa tilaansa, esim. se muuttuu kiinteästä nestemäiseksi.
+Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät jääkuution olevan kiinteä, mutta kun se lämpenee eli imee itseensä lämpöenergiaa ympäristöstään, se sulaa ja muuttuu nestemäiseksi. Tämä johtuu siitä, että kun aine imee itseensä tai menettää riittävästi lämpöenergiaa, aine muuttaa olomuotoaan, esim. se muuttuu kiinteästä nestemäiseksi.
 
 --- /collapse ---
 
 --- task ---
 
-Lisää tämä koodi lämpötilan lukeman ottamiseksi:
+Lisää tämä koodi lämpötilan lukemiseksi:
 
 ```python
 temp = sense.temperature
 ```
 
-Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujalle `temp`.
+Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujaan `temp`.
 
 --- /task ---
 
 --- task ---
 
-Lämpötila tallennetaan hyvin tarkkaan merkiten sitä, että tallenntussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet arvon yhden desimaalin tarkkuudella, mutta eri tarkkuustasoja varten muuta numero `1` desimaaliin, jonka haluat nähdä.
+Lämpötila tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +45,19 @@ temp = round( sense.temperature, 1 )
 
 --- task ---
 
-Olemassa olevan lämpötilan esittämiseksi vieritysviestinä näytössä lisää koodin tämä rivi:
+Lisää tämä koodirivi näyttääksesi nykyisen lämpötilan vieritysviestinä näytöllä:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-`str()` -osa muuntaa lämpötilan numerosta tekstiin niin, että Astro Pi voi näyttää sen.
+`str()`-osa muuntaa lämpötilan numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
 
 --- /task ---
 
 --- task ---
 
-Voit myös näyttää lämpötilan osana toista viestiä liittämällä viestisi osat näin: `+`.
+Voit myös näyttää lämpötilan osana toista viestiä liittämällä viestisi osat käyttäen merkkiä `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +65,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 --- /task ---
 
-Reaalitilan Astro Pi mittaa sen ympärillä olevan lämpötilan, mutta voit siirtää Sense HAT -emulaattorin lämpötilan liukusäädintä simuloimaan lämpötilan muutoksia ja testaamaan koodisi.
+Oikea Astro Pi mittaa sen ympärillä olevan lämpötilan, mutta voit liikuttaa lämpötilan liukusäädintä Sense HAT -emulaattorissa simuloidaksesi lämpötilan muutoksia ja testataksesi koodiasi.
 
 ![Lämpötilan liukusäädin](images/temperature-slider.png)
 
-**Huomautus:** Saatat ihmetellä, miksi lämpötilan liukusäädin näyttää lämpötilan kokonaislukuna, mutta lukema on desimaali. Emulaattori simuloi reaalianturin hienoisen epätarkkuuden, joten näkemän lämpötilan mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.
+**Huomautus:** Saatat ihmetellä, miksi lämpötilan liukusäädin näyttää lämpötilan kokonaislukuna, mutta saamasi arvo on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi lämpötilan mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.

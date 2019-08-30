@@ -1,24 +1,21 @@
 ## Einreichen deines Beitrags
 
-Du musst mit deinem Code einige Regeln befolgen, damit er auf der Internationalen Raumstation ausgeführt werden kann. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im Emulator grün angezeigt.
+Dein Code muss einige Regeln einhalten, damit er auf der Internationalen Raumstation ausgeführt werden kann. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im Emulator grün angezeigt.
 
-![Bestätigung](images/validation.png)
+![Verprobung](images/validation.png)
 
 1. Nimm eine Temperaturmessung vor
 2. Schalte die LED-Lichter ein
-3. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Wenn du eine `while True` Schleife in deinem Code hast, musst du auf **Stop** klicken, um diese Regel richtig zu befolgen.
+3. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Wenn du eine `while True` Schleife in deinem Code hast, musst du auf **Stop** klicken, um diese Vorgabe richtig zu erfüllen.
 
 Stelle außerdem sicher, dass du die folgenden Kriterien erfüllt hast:
 
-1. Achte darauf, dass dein Code nicht mehr als 1000 Zeichen hat, ohne die Leerzeilen mitzuzählen
-2. Sorge dafür, dass deine Nachricht an die Astronauten nicht länger als 30 Sekunden dauert, denn so lange wird dein Code auf der ISS laufen
-3. Vermeide Methoden, die Eingaben benötigen
-4. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
-5. Achte darauf, dass keine Obszönitäten im Code enthalten sind
+1. Sorge dafür, dass deine Nachricht an die Astronauten nicht länger als 30 Sekunden dauert, denn so lange wird dein Code auf der ISS laufen
+2. Vermeide Methoden, die Eingaben benötigen
+3. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
+4. Achte darauf, dass keine Obszönitäten im Code enthalten sind
 
-Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen.
 
 --- task ---
 
@@ -30,15 +27,9 @@ Gib deinen Klassencode in das Feld unten ein - dein Lehrer wird dir deinen Code 
 
 --- task ---
 
-Der Name deines Lehrers wird erscheinen. Wenn dies der richtige Name ist, klicke auf **Weiter zum Formular**.
+Der Name deines Lehrers wird erscheinen. Wenn dies der richtige Name ist, klicke auf **Continue to form** (Weiter zum Formular).
 
 ![Weiter zum Formular](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Falls notwendig, klicke auf die Flagge deines Landes, um die Sprache zu ändern, in der das Registrierungsformular angezeigt wird.
 
 --- /task ---
 

@@ -20,7 +20,7 @@ Den här koden ansluter till Astro Pi och ser till att LED-displayen i Astro PI 
 
 --- task ---
 
-Du kanske kan skicka en trevlig hälsning till de astronauter på ISS som arbetar i närheten av Astro Pi? Låt oss rulla meddelandet över displayen.
+Du kanske kan skicka en trevlig hälsning till astronauterna på ISS som arbetar i närheten av Astro Pi? Låt oss rulla meddelandet över displayen.
 
 Lägg till den här raden under de andra kodraderna:
 
@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Tryck på knappen **Run** (Kör) och titta när meddelandet `Astro Pi` rullar över LED-displayen.
+Tryck på knappen **Run** (Kör) och se meddelandet `Astro Pi` rullar över LED-displayen.
 
 ![visa meddelandekod klicka på kör](images/show-message-code-annotated.PNG)
 
@@ -46,7 +46,7 @@ För att visa ett annat meddelande, kan du skriva vad du vill mellan citationste
 ---
 title: Vilka tecken går att använda?
 ---
-Sense HAT kan bara visa teckenuppsättningen Latin 1, vilket innebär att följande tecken är tillgängliga. Övriga tecken kommer att visas som ett `?`.
+Sense HAT kan bara visa teckenuppsättningen Latin 1, vilket betyder att endast följande tecken är tillgängliga. Övriga tecken kommer att visas som ett `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -54,7 +54,7 @@ Sense HAT kan bara visa teckenuppsättningen Latin 1, vilket innebär att följa
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---
@@ -67,6 +67,6 @@ Du kan också ändra hastigheten på meddelandet som rullar över skärmen. Läg
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Standardhastigheten för meddelandet är `0.1`. Om du väljer ett mindre tal blir meddelandet snabbare och väljer du ett större gör det att meddelandet rullar långsammare.
+Meddelandets standardhastighet är ` 0,1 `. Om du väljer ett mindre tal blir meddelandet snabbare och väljer du ett större gör det att meddelandet rullar långsammare.
 
 --- /task ---

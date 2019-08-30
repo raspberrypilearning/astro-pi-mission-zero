@@ -6,7 +6,7 @@ Du kan kombinere din temperaturaflæsning med et billede for også at angive tem
 
 --- task ---
 
-I bunden af dit program skal du oprette flere farvevariabler for vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin. I vores eksempler anvender vi hvid (`w`), gul (`y`), grøn (`g`) og sort/blank (`b`).
+I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin. I vores eksempler anvender vi hvid (`w`), gul (`y`), grøn (`g`) og sort/blank (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 --- task ---
 
-Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter indstille elementerne på listen til de farver, du ønsker, dine pixels skal være.
+Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter tildele elementerne på listen de farver, du ønsker, dine pixels skal være.
 
 ```python
 hot = [
@@ -50,7 +50,7 @@ cold = [
 
 --- task ---
 
-Tilføj en kode for at få temperaturen:
+Tilføj noget kode for at få temperaturen:
 
 ```python
 temp = sense.temperature
@@ -74,12 +74,12 @@ else:
 
 --- task ---
 
-Anvend temperaturskyderen til at indstille en temperatur på efterligneren. Kør dit program, og kontrollér, at det billede, du har valgt for pågældende temperatur, vises korrekt.
+Anvend temperaturskyderen til at indstille en temperatur på emulatoren. Kør dit program, og kontrollér, at det billede, du har valgt for pågældende temperatur, vises korrekt.
 
 --- /task ---
 
 --- task ---
 
-Skift din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
+Ændre din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
 
 --- /task ---

@@ -54,7 +54,7 @@ Emulator Sense HAT lahko prikaže le komplet znakov Latin 1, kar pomeni, da so n
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---

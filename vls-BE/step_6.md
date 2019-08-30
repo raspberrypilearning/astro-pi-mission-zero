@@ -1,17 +1,18 @@
 ## Meet de temperatuur
 
-De temperatuur sensor op de Astro Pi kan de temperatuur meten van de lucht eromheen, een nuttige eigenschap om je te helpen met het verzamelen van gegevens over de condities in Space.
+De temperatuursensor op de Astro Pi kan de temperatuur meten van de lucht eromheen, een nuttige eigenschap om je te helpen met het verzamelen van gegevens over de condities in de ruimte.
 
 ![Boodschap over de temperatuur](images/degrees-message.gif)
 
-De Astro Pi meet de temperatuur op de ISS in graden Celsius (&deg;C). Omdat de temperaturen in Space veel meer verschillen dan op Aarde, kan de Astro Pi de temperaturen meten van slechts -40 graden Celsius tot wel +120 graden Celsius.
+De Astro Pi meet de temperatuur op het ISS in graden Celsius (&deg;C). Omdat de temperaturen in de ruimte veel meer verschillen dan op aarde, kan de Astro Pi de temperaturen meten van slechts -40 graden Celsius tot wel +120 graden Celsius.
 
-Een deel van je missie is het bijdragen tot het dagelijkse leven van de bemanning aan boord de ISS, dus hun laten weten dat de temperatuur aan boord het ruimtestation binnen de normale parameters ligt zal hun geruststellen.
+Een deel van je missie is het bijdragen tot het dagelijkse leven van de bemanning aan boord het ISS, dus hun laten weten dat de temperatuur aan boord het ruimtestation binnen de normale parameters ligt zal hun geruststellen.
 
 --- collapse ---
 ---
 title: Wat is de temperatuur?
 ---
+
 Temperatuur is de maat van hoe heet iets is. Misschien heb je wel eens je temperatuur laten opnemen met een thermometer gedurende een bezoek aan de dokter.
 
 ![Thermometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
@@ -25,7 +26,7 @@ Om precies te zijn, de temperatuur is een maat van de hoeveelheid warmte-energie
 Voeg deze code toe bij het meten van een temperatuur:
 
 ```python
-temp = sense._temperature
+temp = sense.temperature
 ```
 
 Deze lijn meet de huidige temperatuur en slaat de meetwaarde op in de variabele `temp`.
@@ -50,13 +51,13 @@ Om de huidige temperatuur tentoon te stellen als een scrollende boodschap op het
 sense.show_message( str(temp) )
 ```
 
-Het `str()` deel zet de temperatuur om van een nummer naar tekst zodat de Astro Pi het tentoon kan stellen.
+Het `str()` deel zet de temperatuur om van een nummer naar tekst zodat de Astro Pi het kan laten zien.
 
 --- /task ---
 
 --- task ---
 
-Je kunt ook de temperatuur tentoonstellen als deel van een andere boodschap door delen van je boodschap samen te voegen met een `+`.
+Je kunt ook de temperatuur laten zien als deel van een andere boodschap door delen van je boodschap samen te voegen met een `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +65,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 --- /task ---
 
-De werkelijke Astro Pi zal de temperatuur eromheen meten, maar je kunt de temperatuur schuifknop op de Sense HAT emulator verschuiven om de temperatuur veranderingen te simuleren en je code te testen.
+De werkelijke Astro Pi zal de temperatuur eromheen meten, maar je kunt de temperatuur schuifknop op de Sense HAT emulator verschuiven om de temperatuurveranderingen te simuleren en je code te testen.
 
-![Temperatuur schuifknop](images/temperature-slider.png)
+![Temperatuurschuifknop](images/temperature-slider.png)
 
-**Aandacht:** Je vraagt je misschien af waarom de temperatuur schuifknop de temperatuur laat zien als een geheel getal, maar de lezing die je ziet is een decimaal. De emulator simuleert de onnauwkeurigheid van de werkelijke sensor, zodat de temperatuurmeting die je ziet misschient iets groter of kleiner is dan de waarde die je hebt gezet met de schuifknop.
+**Aandacht:** Je vraagt je misschien af waarom de temperatuurschuifknop de temperatuur laat zien als een geheel getal, maar de lezing die je ziet is een decimaal. De emulator simuleert de onnauwkeurigheid van de werkelijke sensor, zodat de temperatuurmeting die je ziet misschien iets groter of kleiner is dan de waarde die je hebt ingesteld met de schuifknop.

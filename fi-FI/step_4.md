@@ -1,20 +1,20 @@
 ## Lisää väriä
 
-Astro Piin LEDit voivat myös näyttää värejä. Voit määrittää värin luomalla muuttujan ja määrittämällä sille RGB-värin arvon.
+Astro Pin LEDit voivat näyttää myös värejä. Voit määrittää värin luomalla muuttujan ja antamalla sille RGB-väriarvon.
 
-Voit oppia, kuinka kaikki värit voidaan luoda tässä käyttämällä erilaisia punaisia, vihreitä ja sinisiä mittasuhteita:
+Täältä voit oppia, kuinka kaikki värit voidaan luoda käyttämällä punaisen, vihreän ja sinisen eri mittasuhteita:
 
 [[[generic-theory-colours]]]
 
 --- task ---
 
-Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} auttamaan sinua.
+Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [värinvalitsinta](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} auttamaan sinua.
 
 --- /task ---
 
 --- task ---
 
-Luo muuttuja tallentamaan valitsemasi väri. Jos esimerkiksi valitsit punaisen, kirjoitat tämän koodin rivin:
+Luo muuttuja tallentaaksesi valitsemasi värin. Jos esimerkiksi valitsit punaisen, kirjoitat tämän koodirivin:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Voit nyt näyttää tekstin haluamallasi värillä! Jos haluat ohjata ohjelman käyttämään luomaasi väriä, lisää `text_colour` parametri koodille, joka näyttää tekstisi:
+Voit nyt näyttää tekstin haluamallasi värillä! Käskeäksesi ohjelman käyttämään valitsemaasi väriä, lisää parametri `text_colour` koodiin, joka näyttää tekstisi:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![näytä viesti värissä](images/show-message-color.gif)
+![näytä viesti värillisenä](images/show-message-color.gif)
 
 --- task ---
 
-Voit myös vaihtaa näytön taustaväriä. Valitse toinen väri ja luo toinen muuttuja tallentamaan kyseinen väri. Jos haluat ohjata ohjelman käyttämään valitsemaasi taustaväriä, lisää `back_colour` parametri koodiisi:
+Voit myös vaihtaa näytön taustaväriä. Valitse toinen väri ja luo toinen muuttuja tallentamaan kyseinen väri. Käskeäksesi ohjelman käyttämään valitsemaasi taustaväriä, lisää parametri `back_colour` koodiisi:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 --- task ---
 
-Muuta tervehdystekstiä ja väriä - mimkä viestin lähetät ASTA-laitteisiin ISS:ssä?
+Muuta tervehdystekstiä ja väriä — minkä viestin sinä lähetät ISS:n astronauteille?
 
 --- /task ---

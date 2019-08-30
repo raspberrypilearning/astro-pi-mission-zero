@@ -7,14 +7,14 @@
 Du vil se at tre kodelinjer er lagt til automatisk for deg:
 
 ```python
-fra sense_hat importerer du SenseHat
-sense = SenseHat ()
-sense.set_rotation (270)
+from sense_hat import SenseHat
+sense = SenseHat()
+sense.set_rotation(270)
 ```
 
 ![sense hat-emulator](images/sense-hat-emulator2.png)
 
-Denne koden kobles til Astro Pi og sørger for at Astro Pi's LED-skjerm vises den riktige veien. La koden være der, du vil trenge den senere.
+Denne koden kobler til Astro Pi og sørger for at Astro Pi's LED-skjerm vises den riktige veien. La koden være der, du vil trenge den senere.
 
 --- /task ---
 
@@ -34,11 +34,11 @@ sense.show_message("Astro Pi")
 
 Trykk på **Run** (Kjør)-knappen og se meldingen `Astro Pi` rulle over LED-skjermen.
 
-![vis meldingskoden click run](images/show-message-code-annotated.PNG)
+![vis meldingskoden klikk run](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
-![Bla i meldinger](images/scroll-message.gif)
+![Melding som ruller](images/scroll-message.gif)
 
 For å vise en annen melding, kan du skrive hva som helst mellom anførselstegnene (`""`).
 
@@ -46,7 +46,7 @@ For å vise en annen melding, kan du skrive hva som helst mellom anførselstegne
 ---
 title: Hvilke tegn kan brukes?
 ---
-Sense HAT kan bare vise tegnsettet Latin 1, noe som betyr at bare følgende tegn vil være tilgjengelig. Andre tegn vises som`?`.
+Sense HAT kan bare vise tegnsettet Latin 1, noe som betyr at bare følgende tegn vil være tilgjengelig. Andre tegn vises som `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -54,7 +54,7 @@ Sense HAT kan bare vise tegnsettet Latin 1, noe som betyr at bare følgende tegn
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---

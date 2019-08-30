@@ -10,15 +10,12 @@ Det finns några regler som din kod måste följa för att du ska kunna skicka d
 
 Kontrollera även att följande kriterier är uppfyllda:
 
-1. Se till att din kod inte är längre än 1000 tecken, exklusive tomma rader
-2. Kontrollera att ditt meddelande till astronauterna inte körs längre än 30 sekunder, eftersom detta är den tid som din kod kommer att köras på ISS
-3. Undvik att använda metoder som kräver inmatning
-4. Importera bara från modulerna `sense_hat`, `time` och `random`
-5. Se till att du inte inkluderar några svordomar
+1. Kontrollera att ditt meddelande till astronauterna inte körs längre än 30 sekunder, eftersom detta är den tid som din kod kommer att köras på ISS
+2. Undvik att använda metoder som kräver inmatning
+3. Importera bara från modulerna `sense_hat`, `time` och `random`
+4. Se till att du inte inkluderar några svordomar
 
-När alla regler är gröna, är du redo att skicka: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+När alla regler är gröna, är du redo att skicka.
 
 --- task ---
 
@@ -38,12 +35,6 @@ Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gr
 
 --- task ---
 
-Klicka på ditt lands flagga för att ändra det språk som bidragsformuläret visas på, om så krävs.
-
---- /task ---
-
---- task ---
-
 Ange ditt lagnamn och namnen på dina lagmedlemmar. Dessa kommer att skrivas ut på certifikatet när din kod har körts i rymden, så se till att du stavar dem rätt!
 
 --- /task ---
@@ -56,6 +47,6 @@ Tryck på **Submit** (Skicka) för att ange din kod. Din lärare eller mentor f�
 
 --- task ---
 
-Om du vill kan du dela länken till din kod på sociala medier för att berätta för människor att den kod som du skrev kommer att köras i rymden!
+Om du vill kan du dela länken till din kod på sociala medier för att berätta för folk att koden som du skrev kommer att köras i rymden!
 
 --- /task ---

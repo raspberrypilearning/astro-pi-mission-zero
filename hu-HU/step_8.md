@@ -10,15 +10,12 @@ Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy 
 
 Ellenőrizd, hogy ezeknek a feltételeknek is eleget tettél:
 
-1. Ellenőrizd, hogy a kódod nem hosszabb 1000 karakternél, az üres sorokat nem beleszámítva
-2. Ellenőrizd, hogy az űrhajósoknak szóló üzeneted nem hosszabb 30 másodpercnél, mert ennyi ideig fut majd a Nemzetközi Űrállomáson
-3. Kerüld el a bevitelt igénylő módszereket
-4. Csak a `sense_hat`, `time`, és `random` modulokból importálj
-5. Semmiképp ne használj káromkodást
+1. Ellenőrizd, hogy az űrhajósoknak szóló üzeneted nem hosszabb 30 másodpercnél, mert ennyi ideig fut majd a Nemzetközi Űrállomáson
+2. Kerüld el a bevitelt igénylő módszereket
+3. Csak a `sense_hat`, `time`, és `random` modulokból importálj
+4. Semmiképp ne használj káromkodást
 
-Ha minden szabály zöld, készen állsz a beküldésre: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Ha minden szabály zöld, készen állsz a beküldésre.
 
 --- task ---
 
@@ -33,12 +30,6 @@ Ha minden szabály zöld, készen állsz a beküldésre:
 Megjelenik a tanárod neve. Ha ez a helyes név, kattints a zöld **Continue to form** (Tovább az űrlaphoz) gombra.
 
 ![Tovább az űrlaphoz](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Ha szükséges, akár az országod zászlajára is ráklikkelhetsz a beküldési lap nyelvének megváltoztatásához.
 
 --- /task ---
 

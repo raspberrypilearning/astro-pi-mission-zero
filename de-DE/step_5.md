@@ -10,7 +10,7 @@ Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben 
 
 ```python
 w = (255, 255, 255)
-b = (0, 0, 0)
+s = (0, 0, 0)
 ```
 
 **Hinweis:** Es is hier sinnvoll den Farbvariablen Namen aus einem Buchstaben zu geben, denn das spart Zeit im nächsten Schritt, wo du sie mehrmals tippen musst. Darüber hinaus erleichtert die Verwendung einzelner Buchstaben das Erkennen des gezeichneten Bildes.
@@ -19,18 +19,18 @@ b = (0, 0, 0)
 
 --- task ---
 
-Erstelle unter deinen neuen Variablen eine Liste von 64 Elementen. Jedes Element repräsentiert ein Pixel in der LED-Matrix und entspricht einer der von dir definierten Farbvariablen. Zeichne dein Bild, indem du eine Variable dort einfügst, wo die zugewiesene Farbe angezeigt werden soll. Wir haben einen Astronauten gezeichnet, indem wir die schwarzen (`b`) Pixel als Hintergrund und die weißen (`w`) Pixel für den Raumanzug des Astronauten benutzt haben:
+Erstelle unter deinen neuen Variablen eine Liste von 64 Elementen. Jedes Element repräsentiert ein Pixel in der LED-Matrix und entspricht einer der von dir definierten Farbvariablen. Zeichne dein Bild, indem du eine Variable dort einfügst, wo die zugewiesene Farbe angezeigt werden soll. Wir haben einen Astronauten gezeichnet, indem wir die schwarzen (`s`) Pixel als Hintergrund und die weißen (`w`) Pixel für den Raumanzug des Astronauten benutzt haben:
 
 ```python
-picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
+bild = [
+    s, s, w, w, w, w, s, s,
+    s, w, s, s, s, s, w, s,
+    s, w, s, w, w, s, w, s,
+    s, w, s, s, s, s, w, s,
+    s, s, w, w, w, w, s, s,
+    s, s, w, w, w, w, s, s,
+    s, w, w, w, w, w, w, s,
+    s, w, w, w, w, w, w, s
 ]
 ```
 
@@ -41,7 +41,7 @@ picture = [
 Füge eine Codezeile hinzu, um dein Bild auf dem LED-Bildschirm anzuzeigen.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(bild)
 ```
 
 --- /task ---
@@ -54,7 +54,7 @@ Klicke auf **Run** (Ausführen), um dein Bild angezeigt zu sehen.
 
 --- task ---
 
-Vielleicht möchtest du einen Code hinzufügen, um eine kurze Wartezeit (oder `sleep` (Schlaf)) einzubeziehen, nachdem das Bild angezeigt wird. Dies wird den Astronauten Zeit geben, dein Bild zu betrachten, bevor der nächste Teil deiner Nachricht erscheint. Füge oben in deinem Programm Folgendes hinzu:
+Vielleicht möchtest du Code hinzufügen, um eine kurze Wartezeit (oder `sleep` (Schlaf)) einzubauen nachdem das Bild angezeigt wird. Dies wird den Astronauten Zeit geben, dein Bild zu betrachten, bevor der nächste Teil deiner Nachricht erscheint. Füge oben in deinem Programm Folgendes hinzu:
 
 ```python
 from time import sleep

@@ -1,20 +1,21 @@
-## Mesurer la température
+## Mesure la température
 
 Le capteur de température de l'Astro Pi peut mesurer la température de l'air qui l'entoure, c'est une fonction utile pour t'aider à rassembler des données sur les conditions dans l'espace.
 
 ![Message relatif à la température](images/degrees-message.gif)
 
-L'Astro Pi mesure la température dans la SSI en degrés Celsius (&deg;C). Parce que les températures dans l'espace varient beaucoup plus que sur la Terre, l'Astro Pi peut mesurer des températures allant de -40 degrés Celsius à +120 degrés Celsius.
+L'Astro Pi mesure la température dans l'ISS en degrés Celsius (&deg;C). Parce que les températures dans l'espace varient beaucoup plus que sur la Terre, l'Astro Pi peut mesurer des températures allant de -40 degrés Celsius à +120 degrés Celsius.
 
-Une partie de ta mission consiste à contribuer à la vie quotidienne de l’équipage à bord de la SSI, c'est pourquoi faire savoir aux astronautes que la température à bord de la station spatiale se situe dans les limites normales est utile et va les rassurer.
+Une partie de ta mission consiste à contribuer à la vie quotidienne de l’équipage à bord de l'ISS, c'est pourquoi faire savoir aux astronautes que la température à bord de la station spatiale se situe dans les limites normales est utile et va les rassurer.
 
 --- collapse ---
 ---
 title: Qu'est-ce que la température ?
 ---
+
 La température est la mesure qui indique la chaleur de quelque chose. Peut-être que ta température a été prise avec un thermomètre quand tu es allé voir le médecin.
 
-![Thermomètre](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
+![Thermomètre](images/thermometer.JPG) *Par Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
 
 Pour être plus précis, la température est la mesure de la quantité d'énergie thermique d'une substance. Tu sais qu'un cube de glace est solide, mais à mesure qu'il se réchauffe, c'est-à-dire qu'il absorbe l'énergie thermique de son environnement, il fond et devient liquide. Ceci est dû au fait que lorsqu'une substance absorbe ou perd suffisamment d'énergie calorifique, la substance change d'état, elle passe de l'état solide à l'état liquide.
 
@@ -56,7 +57,7 @@ La partie `str()` convertit la température d'un nombre en texte pour que l'Astr
 
 --- task ---
 
-Tu peux également afficher la température à l'intérieur d’un autre message en joignant les différentes parties de ton message avec un `+` .
+Tu peux également afficher la température à l'intérieur d’un autre message en concaténant les différentes parties de ton message avec un `+` .
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )

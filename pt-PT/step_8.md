@@ -10,15 +10,12 @@ O teu código precisa seguir algumas regras para que possas enviar a tua partici
 
 Assegura-te que cumpriste os seguintes critérios:
 
-1. Certifica-te de que o teu código não tem mais de 1000 carateres, sem incluir linhas em branco
-2. Certifica-te que a tua mensagem para os astronautas não dura mais de 30 segundos, porque esse é o tempo que o teu código irá ser executado na Estação Espacial Internacional
-3. Evita usar qualquer método que precise de entrada de dados
-4. Importa apenas do `sense_hat`, do `time` e de módulos `random` aleatórios
-5. Certifica-te que não incluíste linguagem inapropriada
+1. Certifica-te que a tua mensagem para os astronautas não dura mais de 30 segundos, porque esse é o tempo que o teu código irá ser executado na Estação Espacial Internacional
+2. Evita usar qualquer método que precise de entrada de dados
+3. Importa apenas do `sense_hat`, do `time` e de módulos `random` aleatórios
+4. Certifica-te que não incluíste linguagem inapropriada
 
-Quando as regras estiverem todas em verde, estás pronto para enviar: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sLlhf3FjdU?rel=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
+Quando as regras estiverem todas em verde, estás pronto para enviar.
 
 --- task ---
 
@@ -38,13 +35,7 @@ O nome do teu professor ficará visível. Se o nome estiver correto, clica no bo
 
 --- task ---
 
-Se necessário, clica na bandeira do teu país para alterar o idioma do formulário de inscrição.
-
---- /task ---
-
---- task ---
-
-Insire o nome da tua equipa e os nomes dos membros da equipa. Estes nomes serão impressos no certificado uma vez que o código seja executado no espaço, por isso, certifica-te que os soletraste corretamente!
+Insere o nome da tua equipa e os nomes dos membros da equipa. Estes nomes serão impressos no certificado uma vez que o código seja executado no espaço, por isso, certifica-te que os soletraste corretamente!
 
 --- /task ---
 

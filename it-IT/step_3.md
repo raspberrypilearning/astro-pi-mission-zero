@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Premete il pulsante **Run** (esegui) e guardate il messaggio `Astro Pi` che scorre sul display LED.
 
-![mostra messaggio codice clic esegui](images/show-message-code-annotated.PNG)
+![mostra il codice del messaggio fai clic su Esegui](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
 ![Scorrimento del messaggio](images/scroll-message.gif)
 
-Se volete visualizzare un messaggio diverso, scrivete il messaggio che desiderate fra le virgolette (`""`).
+Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra le virgolette (`""`).
 
 --- collapse ---
 ---
@@ -54,7 +54,7 @@ Sense HAT può visualizzare solo il set di caratteri "Latin 1". Questo significa
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']~
+    ?,;:|@%[&_']\~
     
 
 --- /collapse ---
@@ -67,6 +67,6 @@ Potete anche cambiare la velocità di scorrimento del messaggio sullo schermo. A
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-La velocità predefinita del messaggio è ` 0.1`. Usando un numero più piccolo, il messaggio scorre più velocemente, mentre usando un numero più grande il messaggio scorre più lentamente.
+La velocità predefinita del messaggio è `0.1`. Usando un numero più piccolo, il messaggio scorre più velocemente, mentre usando un numero più grande il messaggio scorre più lentamente.
 
 --- /task ---

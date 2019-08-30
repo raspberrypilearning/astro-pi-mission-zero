@@ -1,17 +1,17 @@
 ## Mikä Astro Pi on?
 
-Astro Pi on Rasberry Pi -tietokone, joka on koteloitu sunniteltuna erityisesti olsuhteisiin avaruudessa. Siinä on myös lisäosa nimeltä Sense HAT, joka on tehty nimenomaan Astro Pi -missiota varten. The Sense HAT käsittää ohjaussauvan, LED-näytön ja antureita lämpötilan, koskeuden, paineen ja sunnan tallentamiseksi.
+Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu avaruusolosuhteisiin. Siinä on myös lisäosa nimeltä Sense HAT, joka on tehty nimenomaan Astro Pi -tehtävää varten. Sense HAT -laitteessa on ohjaussauva, LED-näyttö ja anturit lämpötilan, kosteuden, paineen ja suunnan tallentamiseksi.
 
-Tässä on Astro Pi-reaaliyksikkö kansainvälisellä ISS-avaruusasemalla, joka käyttää tiettyjä oiskelijoiden kirjoittamia koodeja. Koodiasi käytetään lopulta tässä! 
+Tässä on oikea Astro Pi -yksikkö Kansainvälisellä avaruusasemalla, jolla suoritetaan opiskelijoiden kirjoittamaa koodia. Täällä koodisi lopulta suoritetaan! 
 
 <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
-Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaattori on ohjelmisto, joka simuloi kaikkia Astro Pi -toimintoja selaimessasi.
+Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaattori on ohjelma, joka simuloi kaikkia Astro Pi -toimintoja verkkoselaimessasi.
 
-![Sense HAT-emulaattori](images/sense-hat-emulator.png)
+![Sense HAT -emulaattori](images/sense-hat-emulator.png)
 
-Reaalisen ja emuloidun Sense HATin välillä on muutamia eroavaisuuksia:
+Oikean ja emuloidun Sense HATin välillä on muutamia eroavaisuuksia:
 
-- Emulaattorissa voit asettaa lämpötilan, paineen ja kosteuden käyttämällä liukusäätimiä, kun taas Astro Pi:ssä reaalinen Sense HAT käyttää antureita näiden parametrien mittaamiseen sen ympäristössä.
+- Emulaattorissa voit asettaa lämpötilan, paineen ja kosteuden käyttämällä liukusäätimiä, kun taas Astro Pissä oleva oikea Sense HAT käyttää antureita näiden parametrien mittaamiseen sen ympäristössä.
 
-- Voit käyttää hiirtä napsauttamalla ja vetämällä emuloidun Sense HATin siirtämään ja pyörittämään sitä, simuloimalla muutoksia sen suuntaan; todellinen Astro Pi (ja sen Sense HAT) voivat liikkua reaalimaailmassa, ja Sense HATin suuntausanturit tunnistavat, milloin ja miten se on liikkunut.
+- Voit hiirellä napsauttaa ja vetää emuloitua Sense HATiä siirtääksesi ja pyörittääksesi sitä ja näin simuloida sen suunnan muutoksia; oikea Astro Pi (ja sen Sense HAT) voi liikkua oikeassa maailmassa, ja Sense HATin suunta-anturit tunnistavat milloin ja miten se on liikkunut.

@@ -56,7 +56,7 @@ Delen `str()` konverterer temperaturen fra et tal til tekst, så Astro Pi kan vi
 
 --- task ---
 
-Du kan også vise temperaturen som del af en anden besked ved at kæde delene af din besked sammen med et `+`.
+Du kan også vise temperaturen som en del af en anden besked ved at sætte delene af din besked sammen med et `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +64,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 --- /task ---
 
-Den rigtige Astro Pi måler temperaturen omkring den, men du kan flytte temperaturskyderen på Sense HAT-efterligneren for at simulere temperaturændringer og teste din kode.
+Den rigtige Astro Pi måler temperaturen omkring den, men du kan flytte temperaturskyderen på Sense HAT-emulatoren for at simulere temperaturændringer og teste din kode.
 
 ![Temperaturskyder](images/temperature-slider.png)
 
-**Bemærk:** Du undrer dig måske over, hvorfor temperaturskyderen viser temperaturen som et helt tal, men den aflæsning, du får, er med decimaler. Efterligneren simulerer den lille unøjagtighed fra den rigtige sensor, så den temperaturmåling, du ser, kan være en lille smule større eller mindre end den værdi, du har indstillet med skyderen.
+**Bemærk:** Du undrer dig måske over, hvorfor temperaturskyderen viser temperaturen som et helt tal, men den aflæsning, du får, er med decimaler. Emulatoren simulerer den lille unøjagtighed fra den rigtige sensor, så den temperaturmåling, du ser, kan være en lille smule større eller mindre end den værdi, du har indstillet med skyderen.
