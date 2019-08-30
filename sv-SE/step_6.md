@@ -1,4 +1,4 @@
-## Mät temperaturen
+## Mäta temperaturen
 
 Temperatursensorn i Astro Pi kan mäta den omgivande luftens temperatur, en användbar funktion som hjälper dig att samla data om förhållandena i rymden.
 
