@@ -10,7 +10,7 @@ steps:
   - title: Inledning
   - title: Vad är en Astro Pi?
   - title: Visa ett meddelande
-  - title: LLägg till lite färg
+  - title: Lägg till lite färg
   - title: Visa en bild
   - title: Mät temperaturen
   - title: Visa temperaturen

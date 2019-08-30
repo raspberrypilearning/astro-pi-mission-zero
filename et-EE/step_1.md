@@ -78,7 +78,7 @@ In which language did you access the Mission Zero guidelines? (Mis keeles pääs
 
 + Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
     
-    Oleme koostanud [ prinditava kahelehelise käsilehe ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_blank"}, mis hõlmab missiooni Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
+    Oleme koostanud [prinditava kahelehelise käsilehe](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, mis hõlmab missiooni Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
 
 --- /collapse ---
 

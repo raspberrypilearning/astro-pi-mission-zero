@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 Premete il pulsante **Run** (esegui) e guardate il messaggio `Astro Pi` che scorre sul display LED.
 
-![mostra il codice del messaggio fai clic su Esegui](images / show-messaggio-codice-annotated.PNG)
+![mostra il codice del messaggio fai clic su Esegui](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
@@ -67,6 +67,6 @@ Potete anche cambiare la velocità di scorrimento del messaggio sullo schermo. A
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-La velocità predefinita del messaggio è ` 0.1`. Usando un numero più piccolo, il messaggio scorre più velocemente, mentre usando un numero più grande il messaggio scorre più lentamente.
+La velocità predefinita del messaggio è `0.1`. Usando un numero più piccolo, il messaggio scorre più velocemente, mentre usando un numero più grande il messaggio scorre più lentamente.
 
 --- /task ---

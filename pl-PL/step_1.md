@@ -24,7 +24,7 @@ Uzyskasz informacje o jednostce AstroPi i nauczysz się ją kontrolować, w tym 
 
 Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Użycie podstawowych konstrukcji programistycznych do tworzenia prostych programów](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank")
++ [Użycie podstawowych konstrukcji programistycznych do tworzenia prostych programów](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 

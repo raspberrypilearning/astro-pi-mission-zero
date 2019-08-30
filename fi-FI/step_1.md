@@ -22,7 +22,7 @@ Tutustut Astro Pi -yksikköön ja miten hallitset sitä, mukaan lukien:
 + luo kuvia
 + mittaa lämpötila
 
-Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista{:target="_blank"}:
+Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum){:target="_blank"} seuraavista osioista:
 
 + [ Käytä perus​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseksi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 

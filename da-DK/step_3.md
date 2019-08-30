@@ -2,7 +2,7 @@
 
 --- task ---
 
-Åbn Sense HAT-emulatoren{:target="_blank"} til Mission Zero-projektet.</p> 
+Åbn [Sense HAT-emulatoren](https://trinket.io/mission-zero){:target="_blank"} til Mission Zero-projektet.
 
 Her kan du se, at der automatisk er blevet tilføjet tre linjer kode for dig:
 
