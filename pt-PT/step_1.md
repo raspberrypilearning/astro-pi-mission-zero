@@ -60,20 +60,20 @@ Será necessário registar-se para o desafio Mission Zero para permitir que a su
 
 \ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
-Os campos do formulário incluem:  
-Nome do Professor/Mentor  
-Endereço email do Professor/Mentor  
-Número de telefone do Professor/Mentor  
-Tipo de Instituiçāo (e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
-Nome da instituiçāo  
-Endereço da instituiçāo  
-Cidade da instuiçāo  
-País da instituiçāo  
-Código postal da instituiçāo  
-Nome da Equipa  
-Número de membros na equipa  
-Nomes e idades dos membros da equipa  
-Em que língua obtiveste as instruções da Mission Zero?
+The fields on the form include:  
+(Os campos do formulário incluem:  
+) Teacher/Mentor name  
+(Nome do Professor/Mentor  
+) Teacher/Mentor email address  
+( Endereço email do Professor/Mentor  
+) Teacher/Mentor phone number  
+(Número de telefone do Professor/Mentor  
+) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
+(Tipo de Instituiçāo (e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
+) Organisation name  
+(Nome da instituiçāo  
+) Organisation address  
+(Endereço da instituiçāo<0/>) Organisation city<0/> (Cidade da instuiçāo<0/>) Organisation country<0/> (País da instituiçāo<0/>) Organisation postal code<0/>(Código postal da instituiçāo<0/>) Team name<0/>( Nome da Equipa<0/>) Number of team members<0/>( Número de membros na equipa<0/>) Names and ages of team members<0/>( Nomes e idades dos membros da equipa<0/>) In which language did you access the Mission Zero guidelines? ( Em que língua obtiveste as instruções da Mission Zero?)
 
 + Será criada uma conta para ti. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
 
