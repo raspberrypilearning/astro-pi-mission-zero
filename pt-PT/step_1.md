@@ -20,9 +20,9 @@ Vais aprender sobre a unidade Astro Pi e como controlá-la, incluindo como:
 + criar imagens
 + medir a temperatura
 
-Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){: target = "_ blank"}:
+Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Usar construções básicas de programação para criar programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_ blank"}
++ [Usar construções básicas de programação para criar programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
