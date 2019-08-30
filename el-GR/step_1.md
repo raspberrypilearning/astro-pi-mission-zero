@@ -8,7 +8,9 @@
 
 ### Τι θα φτιάξεις
 
-Παρακάτω είναι ένα παράδειγμα του προγράμματος που θα μπορούσατε να φτιάξετε. Κάντε κλικ στο «**Run**» (Εκτέλεση) για να δείτε το πρόγραμμα σε δράση. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Παρακάτω είναι ένα παράδειγμα του προγράμματος που θα μπορούσατε να φτιάξετε. Κάντε κλικ στο «**Run**» (Εκτέλεση) για να δείτε το πρόγραμμα σε δράση. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -60,7 +62,8 @@ title: Σημειώσεις για εκπαιδευτικούς και συμβ�
 Τα πεδία στη φόρμα περιλαμβάνουν:   
 Teacher/Mentor name (Όνομα Δασκάλου/Mentor)  
 Teacher/Mentor email address (Διεύθυνση ηλεκτρονικού ταχυδρομείου Δασκάλου/Mentor)  
-Teacher/Mentor phone number (Αριθμός τηλεφώνου Δασκάλου/Mentor)<0 /> Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Τύπος Οργανωτικής Μονάδας (π.χ. δημοτικό σχολείο, γυμνάσιο, βιβλιοθήκη, Code Club, CoderDojo, κλπ.))  
+Teacher/Mentor phone number (Αριθμός τηλεφώνου Δασκάλου/Mentor)
+Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Τύπος Οργανωτικής Μονάδας (π.χ. δημοτικό σχολείο, γυμνάσιο, βιβλιοθήκη, Code Club, CoderDojo, κλπ.))  
 Organisation name (Επωνυμία Οργανωτικής Μονάδας)  
 Organisation address (Διεύθυνση Οργανωτικής Μονάδας)  
 Organisation city (Πόλη Οργανωτικής Μονάδας)  

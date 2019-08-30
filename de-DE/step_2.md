@@ -2,7 +2,9 @@
 
 Ein Astro Pi ist ein Raspberry Pi Computer, der von einem Gehäuse umgeben ist, das speziell für Weltraumbedingungen entwickelt wurde. Er hat auch eine Aufsteckplatine namens Sense HAT, der speziell für die Mission Astro Pi gemacht wurde. Der Sense HAT verfügt über einen Joystick, eine LED-Anzeige und Sensoren zur Aufzeichnung von Temperatur, Feuchtigkeit, Druck und Ausrichtung.
 
-Hier ist ein echtes Astro Pi Gerät auf der Internationalen Raumstation, auf dem ein von Schülern geschriebener Code läuft. Hier wird dein Code später laufen! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
+Hier ist ein echtes Astro Pi Gerät auf der Internationalen Raumstation, auf dem ein von Schülern geschriebener Code läuft. Hier wird dein Code später laufen! 
+
+<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
 Für diese Mission wirst du den Sense HAT Emulator verwenden. Der Emulator ist eine Software, die alle Funktionen des Astro Pi in deinem Webbrowser simuliert.
 

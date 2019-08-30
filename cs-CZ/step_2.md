@@ -2,7 +2,9 @@
 
 Astro Pi je počítač Raspberry Pi obalený pláštěm speciálně navrženým pro podmínky ve vesmíru. Má také přídavnou desku s názvem Sense HAT vytvořenou speciálně pro misi Astro Pi. Sense HAT má joystick, LED displej a čidla pro snímání teploty, vlhkosti, tlaku a orientace.
 
-Tady vidíte skutečnou jednotku Astro Pi na Mezinárodní vesmírné stanici, na které běží kód napsaný studenty. Právě tady bude váš kód nakonec spuštěn! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
+Tady vidíte skutečnou jednotku Astro Pi na Mezinárodní vesmírné stanici, na které běží kód napsaný studenty. Právě tady bude váš kód nakonec spuštěn! 
+
+<iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
 
 Pro tuto misi budete používat emulátor desky Sense HAT. Emulátor je software, který simuluje všechny funkce Astro Pi ve vašem webovém prohlížeči.
 

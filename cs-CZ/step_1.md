@@ -8,7 +8,9 @@ Váš hotový program bude spuštěn ve vesmíru na Mezinárodní vesmírné sta
 
 ### Co budeš dělat
 
-Tady je příklad, jaký program byste mohli vytvořit. Klikněte na **Run** (Spustit) a uvidíte ho v akci. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Tady je příklad, jaký program byste mohli vytvořit. Klikněte na **Run** (Spustit) a uvidíte ho v akci. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -22,7 +24,7 @@ Dozvíte se, co je jednotka AstroPi a jak ji ovládat, například jak:
 
 Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
 
-+ [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů ](https://curriculum.raspberrypi.org/programming/creator/) {:target = "_blank"}
++ [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 

@@ -8,7 +8,9 @@
 
 ### ما الذي ستصنعه
 
-إليك مثالًا لنوع البرنامج الذي يمكنك إعداده. انقر **Run** (تشغيل) لرؤية ذلك عمليًا. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+إليك مثالًا لنوع البرنامج الذي يمكنك إعداده. انقر **Run** (تشغيل) لرؤية ذلك عمليًا. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -55,7 +57,7 @@ title: ملاحظات للمدرسين والمعلمين
 
 + املء النموذج وانقر **Submit** (إرسال).
 
-\ * الرجاء ملاحظة أن نموذج التسجيل هذا متاح باللغة الإنجليزية فقط.
+\* الرجاء ملاحظة أن نموذج التسجيل هذا متاح باللغة الإنجليزية فقط.
 
 The fields on the form include:  
 (يتضمن النموذج الحقول التالية:) Teacher/Mentor name  

@@ -8,7 +8,9 @@ Dit færdige program køres i rummet på den internationale rumstation (ISS)! Du
 
 ### Hvad du vil lave
 
-Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -75,7 +77,7 @@ In which language did you access the Mission Zero guidelines(På hvilke sprog ha
 
 + Vis din klasseværelseskode et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
     
-    Vi har oprettet [en udskriftvenlig folder på to sider ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"}, der dækker nøglepunkterne i Mission Zero, og som studerende og unge kan bruge sammen med dette online projekt.
+    Vi har oprettet [en udskriftvenlig folder på to sider ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, der dækker nøglepunkterne i Mission Zero, og som studerende og unge kan bruge sammen med dette online projekt.
 
 --- /collapse ---
 

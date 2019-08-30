@@ -10,7 +10,7 @@ steps:
   - title: مقدمة
   - title: ما هو نظام Astro Pi؟
   - title: عرض رسالة
-  - title: إضافة لون
+  - title: إضافة بعض الألوان
   - title: عرض صورة
   - title: قياس درجة الحرارة
   - title: عرض درجة الحرارة

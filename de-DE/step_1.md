@@ -1,4 +1,4 @@
-## Einführung
+## Einleitung
 
 Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des Astro Pi Computers eine Nachricht sowie die Umgebungstemperatur an Bord der Raumstation übermittelst.
 
@@ -8,7 +8,9 @@ Dein fertiges Programm wird im Weltraum auf der Internationalen Raumstation (ISS
 
 ### Was du machen wirst
 
-Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf **Run** (Ausführen), um es in Aktion zu sehen. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf **Run** (Ausführen), um es in Aktion zu sehen. 
+
+<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
@@ -20,7 +22,7 @@ Du wirst mehr über den Astro Pi erfahren und wie du ihn steuern kannst, einschl
 + Erstellung von Bildern
 + messen der Temperatur
 
-Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Lehrplans](http://rpf.io/curriculum) {:target="_blank"}:
+Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Lehrplans](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Verwende grundlegende Programmierkonstrukte, um einfache Programme zu erstellen ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
