@@ -19,7 +19,7 @@ Når alle reglerne er grønne, er du klar til at indsende.
 
 --- task ---
 
---- task ---
+Indtast din klasseværelseskode i boksen nederst - din lærer fortæller dig, hvad din kode er.
 
 Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Indledning](https://projects.raspberrypi.org/da-DK/projects/astro-pi-mission-zero/1).
 
