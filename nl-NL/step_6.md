@@ -31,7 +31,7 @@ temp = sense.temperature
 
 Deze regel meet de huidige temperatuur en slaat de gemeten waarde op in de variabele `temp`.
 
--- /task ---
+--- /task ---
 
 --- task ---
 
