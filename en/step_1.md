@@ -52,34 +52,26 @@ title: Notes for teachers and mentors
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
 
 Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
 You will need to register for the Mission Zero challenge to allow your team/s to participate.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Fill out the form and click **Submit**\*.
 
 \* Please note that this registration form is available in English only.  
 
 The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
+Teacher/Mentor name   
 Team name  
 Number of team members  
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in).You can create one account per email. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
 
