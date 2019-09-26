@@ -56,7 +56,7 @@ This activity can be completed in an afternoon. Organise your students into team
 
 Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_blank"}.
 
@@ -71,7 +71,7 @@ Number of team members
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in).You can create one account per email. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
 
