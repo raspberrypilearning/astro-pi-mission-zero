@@ -65,9 +65,9 @@ Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we
 ```python
 temp = sense.temperature
 if temp >= 20:
-sense.set_pixels(hot)
+  sense.set_pixels(hot)
 else:
-sense.set_pixels(cold)
+  sense.set_pixels(cold)
 ```
 
 --- /task ---
