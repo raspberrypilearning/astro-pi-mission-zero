@@ -66,7 +66,7 @@ Now decide which picture to display. For this example, we will display the `wet`
 
 ```python
 humid = sense.humidity
-if humid >= 20:
+if humid >= 40:
     sense.set_pixels(wet)
 else:
     sense.set_pixels(dry)
