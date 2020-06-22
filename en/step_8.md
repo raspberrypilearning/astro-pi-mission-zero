@@ -6,7 +6,7 @@ There are a few rules your code needs to follow so that you can submit it to be 
 
 1. Take a humidity reading
 1. Light up the LEDs
-1. Ensure your code runs all the way to the end without any errors occurring. If you have a `while True` loop in your code, you will need to press the **Stop** button in order to pass this rule.
+1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Also make sure you have met the following criteria:
 
@@ -19,7 +19,7 @@ Once the rules are all green, you are ready to submit.
 
 --- task ---
 
-Enter your classroom code in the box at the bottom - your teacher will tell you what your code is.
+Enter your classroom code in the box at the bottom - your teacher or mentor will tell you what your code is.
 
 **Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
 
