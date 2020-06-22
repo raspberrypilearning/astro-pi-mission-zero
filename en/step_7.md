@@ -11,8 +11,8 @@ At the bottom of your program, create more colour variables for any colours you 
 ```python
 o=(255,130,0)
 b=(0,0,255)
-lb=(0,150,255)
-gr=(80,80,80)
+c=(0,150,255)
+e=(80,80,80)
 g=(0,255,0)
 y=(255,255,0)
 ```
@@ -28,7 +28,7 @@ wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
-  b, o, o, o, o, gr, o, b,
+  b, o, o, o, o, e, o, b,
   b, o, o, o, o, o, o, b,
   b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
@@ -37,12 +37,12 @@ wet = [
 
 
 dry = [
-  lb, lb, g, g, lb, lb, lb, lb,
-  lb, lb, g, g, lb, g, lb, lb,
-  g, lb, g, g, lb, g, lb, lb,
-  g, lb, g, g, lb, g, lb, lb,
-  g, g, g, g, g, g, lb, lb,
-  lb, lb, g, g, lb, lb, lb, lb,
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
   y, y, y, y, y, y, y, y,
   y, y, y, y, y, y, y, y
 ]
