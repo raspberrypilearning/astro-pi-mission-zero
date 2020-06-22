@@ -8,18 +8,7 @@ The Astro Pi measures the humidity in the ISS in percentage water concentration 
 
 Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
 
---- collapse ---
----
-title: What is temperature?
----
-Temperature is the measure of how hot something is. You may well have had your temperature taken with a thermometer on a visit to the doctor.
-
-![Thermometer](images/thermometer.JPG)
-_By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons_
-
-To be more precise, temperature is a measure of the amount of heat energy of a substance. You know that an ice cube is solid, but as it warms up, i.e. as it absorbs heat energy from its environment, it melts and becomes liquid. This is because, when a substance absorbs or loses enough heat energy, the substance will change state, e.g. it will go from being a solid to being a liquid.
-
---- /collapse ---
+[[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
