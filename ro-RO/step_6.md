@@ -4,37 +4,27 @@ Senzorul de temperatură din Astro Pi poate măsura temperatura aerului în juru
 
 ![Mesaj despre temperatură](images/degrees-message.gif)
 
-Astro Pi măsoară temperatura în ISS în grade Celsius (&deg;C). Deoarece temperaturile în spațiu variază mult mai mult decât cele de pe Pământ, Astro Pi poate măsura temperaturi de la -40 grade Celsius până la +120 grade Celsius.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
 O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului de la bordul ISS, informându-i astfel că temperatura la bordul stației spațiale se află într-un interval normal, fapt ce îi va liniști.
 
-## \--- collapse \---
-
-## title: Ce este temperatura?
-
-Temperatura este măsura a cât de cald este ceva. S-ar putea ca temperatura ta să fi fost luată cu un termometru în timpul unei vizite la medic.
-
-![Termometru](images/thermometer.JPG) *De Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
-
-Mai precis, temperatura este o măsură a cantității de energie termică a unei substanțe. Știi că un cub de gheață este solid, dar pe măsură ce se încălzește, adică în timp ce absoarbe energia termică din mediul său, se topește și devine lichid. Acest lucru se datorează faptului că, atunci când o substanță absoarbe sau pierde suficientă energie termică, substanța își va schimba starea, de exemplu va trece de la stare solidă la cea lichidă.
-
-\--- /collapse \---
+[[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Adaugă acest cod pentru a măsura temperatura:
+Add this code to take a humidity reading:
 
 ```python
 temp = sense.temperature
 ```
 
-Această linie va măsura temperatura curentă și va stoca valoarea măsurată în variabila `temp`.
+\--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-Temperatura este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +34,19 @@ temp = round( sense.temperature, 1 )
 
 \--- task \---
 
-Pentru a afișa temperatura curentă ca mesaj derulant pe afișaj, adaugă această linie de cod:
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
 \--- /task \---
 
 \--- task \---
 
-De asemenea, poți afișa temperatura ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
+Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +54,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-Un Astro Pi real va măsura temperatura din jurul său, dar poți muta sliderul de temperatură de pe emulatorul Sense HAT pentru a simula schimbări de temperatură și pentru a testa codul tău.
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Slider pentru temperatură](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
-**Notă:** S-ar putea să te întrebi de ce sliderul de temperatură afișează temperatura ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât temperatura măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul sliderului.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
