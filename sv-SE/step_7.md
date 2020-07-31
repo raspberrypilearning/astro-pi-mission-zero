@@ -1,12 +1,12 @@
 ## Visa temperaturen
 
-Du kan kombinera din temperaturavläsning med en bild för att även visa temperaturen grafiskt. Du kan exempelvis visa en snöstorm för kalla temperaturer, och en solig dag för varma temperaturer:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Varm och kall](images/hot-and-cold.png)
+![Varm och kall](images/wet-dry.png)
 
 \--- task \---
 
-Skapa fler färgvariabler för alla de färger som du vill använda, i slutet av ditt program. Du kanske redan har definierat några av dem i ett tidigare steg. I vårt exempel kommer vi att använda vitt (`w`), gult (`y`), grönt (`g`), och svart/tom (`b`).
+Skapa fler färgvariabler för alla de färger som du vill använda, i slutet av ditt program. Du kanske redan har definierat några av dem i ett tidigare steg.
 
 ```python
 w = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Välj nu vilken bild som ska visas. I det här exemplet kommer vi att visa bilden `hot` om temperaturavläsningen är 20 grader eller högre, och bilden `cold` om temperaturen är under 20 grader.
+Välj nu vilken bild som ska visas. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Använd skjutreglaget för temperatur för att ställa in en temperatur på emulatorn. Kör ditt program och kontrollera att den bild du har valt för den temperaturen visas korrekt.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 \--- /task \---
 
