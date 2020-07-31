@@ -4,37 +4,27 @@
 
 ![Μήνυμα για τη θερμοκρασία](images/degrees-message.gif)
 
-Ο Astro Pi μετρά τη θερμοκρασία στον Διεθνή Διαστημικό Σταθμό σε βαθμούς Κελσίου (&deg;C). Καθώς οι θερμοκρασίες στο διάστημα διαφέρουν κατά πολύ σε σχέση με τις θερμοκρασίες στη Γη, ο Astro Pi μπορεί να μετρήσει θερμοκρασίες από -40 βαθμούς Κελσίου έως και +120 βαθμούς Κελσίου.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
-Μέρος της αποστολής σας είναι να συμβάλετε στην καθημερινή ζωή του πληρώματος στον Διεθνή Διαστημικό Σταθμό. Αν τους ενημερώσετε ότι η θερμοκρασία στον διαστημικό σταθμό είναι εντός του φυσιολογικού εύρους, θα τους καθησυχάσετε.
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
 
-## \--- collapse \---
+[[[generic-theory-what-is-humidity]]]
 
-## title: Τι είναι η θερμοκρασία;
+\--- task \---
 
-Θερμοκρασία είναι το φυσικό μέγεθος που μετρά πόσο ζεστό είναι κάτι. Ίσως ένας γιατρός να έχει μετρήσει και τη δική σας θερμοκρασία χρησιμοποιώντας ένα θερμόμετρο.
-
-![Θερμόμετρο](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
-
-Πιο συγκεκριμένα, η θερμοκρασία είναι το φυσικό μέγεθος που μετρά την ποσότητα της θερμικής ενέργειας μιας ουσίας. Γνωρίζετε ότι ένα παγάκι είναι στερεό, αλλά όσο ζεσταίνεται, όσο δηλαδή απορροφά θερμική ενέργεια από το περιβάλλον του, λιώνει και μετατρέπεται σε υγρό. Αυτό οφείλεται στο γεγονός ότι,όταν μια ουσία απορροφά ή χάνει αρκετή θερμική ενέργεια, η ουσία αλλάζει κατάσταση, για παράδειγμα από στερεή γίνεται υγρή.
-
-\--- /collapse \---
-
-\--- task --
-
-Προσθέστε τον παρακάτω κώδικα για να λάβετε μια μέτρηση της θερμοκρασίας:
+Add this code to take a humidity reading:
 
 ```python
 temp = sense.temperature
 ```
 
-Η γραμμή αυτή θα μετρήσει την τρέχουσα θερμοκρασία και θα αποθηκεύσει την τιμή μέτρησης στη μεταβλητή `temp`.
+\--- /collapse \---
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Η θερμοκρασία καταγράφεται με μεγάλη ακρίβεια, κι έτσι η τιμή που θα λάβετε θα έχει έναν μεγάλο αριθμό δεκαδικών ψηφίων. Μπορείτε να στρογγυλοποιήσετε την τιμή σε οποιονδήποτε αριθμό δεκαδικών ψηφίων. Στο παρακάτω παράδειγμα, κάνουμε στρογγυλοποίηση σε ένα δεκαδικό ψηφίο, αλλά αν επιθυμείτε κάποιο διαφορετικό επίπεδο ακρίβειας, αλλάξτε το νούμερο `1` στον αριθμό των δεκαδικών ψηφίων που θέλετε να διατηρήσετε.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +34,19 @@ temp = round( sense.temperature, 1 )
 
 \--- task --
 
-Για να προβάλετε την τρέχουσα θερμοκρασία ως κυλιόμενο μήνυμα στην οθόνη, προσθέστε την ακόλουθη γραμμή κώδικα:
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-Το τμήμα `str()` μετατρέπει τη θερμοκρασία σπό αριθμό σε κείμενο, ώστε να μπορέσει να προβληθεί από το Astro Pi.
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Μπορείτε επίσης να προβάλετε τη θερμοκρασία ως μέρος ενός άλλου μηνύματος, ενώνοντας τα διάφορα τμήματα του μηνύματός σας με ένα `+`.
+Το τμήμα `str()` μετατρέπει τη θερμοκρασία σπό αριθμό σε κείμενο, ώστε να μπορέσει να προβληθεί από το Astro Pi.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +54,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-Ο πραγματικός Astro Pi θα μετρήσει την περιβάλλουσα θερμοκρασία, αλλά εσείς μπορείτε να χρησιμοποιήσετε το ρυθμιστικό θερμοκρασίας στον εξομοιωτή Sense HAT για να προσομοιώσετε τις αλλαγές θερμοκρασίας και να δοκιμάσετε τον κώδικά σας.
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Ρυθμιστικό θερμοκρασίας](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
-**Σημείωση:** Μπορεί να αναρωτιέστε γιατί το ρυθμιστικό θερμοκρασίας εμφανίζει τη θερμοκρασία ως ακέραιο αριθμό, ενώ η μέτρηση που λαμβάνετε είναι δεκαδική. Ο εξομοιωτής προσομοιώνει τη μικρή ανακρίβεια του πραγματικού αισθητήρα, οπότε η μέτρηση θερμοκρασίας που εμφανίζεται μπορεί να είναι ελάχιστα μεγαλύτερη ή ελάχιστα μικρότερη από την τιμή που έχετε καθορίσει με το ρυθμιστικό.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
