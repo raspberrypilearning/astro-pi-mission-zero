@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- task \---
 
-Change le texte et la couleur du message de salutation - quel message veux-tu envoyer aux astronautes à bord de l'ISS?
+Modifie le texte et la couleur du message de salutation - quel message veux-tu envoyer aux astronautes à bord de l'ISS ?
 
 \--- /task \---
