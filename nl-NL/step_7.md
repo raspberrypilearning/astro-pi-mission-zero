@@ -2,11 +2,11 @@
 
 Je kunt je temperatuurmeting combineren met een afbeelding om ook de temperatuur op een grafische manier aan te geven. Je kunt bijvoorbeeld een sneeuwstorm weergeven voor lage temperaturen en een zonnige dag voor hoge temperaturen:
 
-![Warm en koud](images/hot-and-cold.png)
+![Warm en koud](images/wet-dry.png)
 
 \--- task \---
 
-Maak onder aan het programma meer kleurvariabelen voor alle kleuren die je in je afbeeldingen wilt gebruiken. Mogelijk heb je sommige ervan al in een vorige stap gedefinieerd. In onze voorbeelden gebruiken we wit (`w`), geel (`y`), groen (`g`) en zwart/blanco (`b`).
+Maak onder aan het programma meer kleurvariabelen voor alle kleuren die je in je afbeeldingen wilt gebruiken. Mogelijk heb je sommige ervan al in een vorige stap gedefinieerd.
 
 ```python
 w = (255, 255, 255)
