@@ -1,6 +1,6 @@
 ## Introdução
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the ambient air temperature on board using the Astro Pi computer's Sense HAT.
+Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the relative humidity on board using the Astro Pi computer's Sense HAT.
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
@@ -8,7 +8,7 @@ Your completed program will be run in space on the International Space Station (
 
 ### O que você vai fazer
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,11 +16,11 @@ Here is an example of the kind of program you could make. Click **Run** to see i
 
 ## title: O que você vai aprender
 
-You will learn about the AstroPi unit and how to control an it, including how to:
+You will learn about the Astro Pi unit and how to control an it, including how to:
 
-+ display messages and colors
-+ create images
-+ measure the temperature
++ Display messages and colours
++ Create images
++ Measure the humidity using a Sense HAT
 
 Este projeto abrange elementos das seguintes vertentes do [Currículo de Fabricação Digital Raspberry Pi](http://rpf.io/curriculum){:target="_ blank"}:
 
@@ -48,34 +48,26 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo de Fabrica
 
 ## title: Notes for teachers and mentors
 
-This activity can be completed in an afternoon. Organise your students into teams of up to four, and let us guide them through writing a short Python program to show a personal message and the air temperature on the Astro Pi.
+This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team/s to participate.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Fill out the form and click **Submit**\*.
 
 \* Please note that this registration form is available in English only.
 
 The fields on the form include:  
-Teacher/Mentor name  
-Teacher/Mentor email address  
-Teacher/Mentor phone number  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-Organisation name  
-Organisation address  
-Organisation city  
-Organisation country  
-Organisation postal code  
+Teacher/mentor name  
 Team name  
 Number of team members  
 Names and ages of team members  
 In which language did you access the Mission Zero guidelines?
 
-+ An account will be created for you. Each account has its own **classroom code**, and you will need to tell your team/s what yours is when they are ready to submit their programs.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
     
