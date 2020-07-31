@@ -6,7 +6,7 @@ Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy 
 
 1. Mérd meg a hőmérsékletet!
 2. Kapcsold be a LED-eket!
-3. Győződj meg arról, hogy a kódod hiba nélkül fut végig! Ha egy `while True` ciklus van a kódodban, meg kell nyomnod a **Stop** (Leállítás) gombot, hogy ezt a szabályt teljesítsd.
+3. Győződj meg arról, hogy a kódod hiba nélkül fut végig! You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Ellenőrizd, hogy ezeknek a feltételeknek is eleget tettél:
 
@@ -19,7 +19,7 @@ Ha minden szabály zöld, készen állsz a beküldésre.
 
 \--- task \---
 
-Írd be az osztálytermi kódodat a lenti mezőbe. A tanárod mondja meg majd a kódod.
+Enter your classroom code in the box at the bottom - your teacher or mentor will tell you what your code is.
 
 **A tanárok és mentorok részére szóló jegyzetek** a [Bevezető](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) lépésben találhatók meg.
 
