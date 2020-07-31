@@ -8,7 +8,7 @@ Vaš program bo zagnan v vesolju na Mednarodni vesoljski postaji (angl. Internat
 
 ### Kaj boste naredili?
 
-Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+To je primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi),
 
 ## title: Kaj se boste naučili?
 
-Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
+Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
 
 + prikazovanjem sporočil in barv,
 + ustvarjanjem slik,
@@ -48,11 +48,11 @@ Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarj
 
 ## title: Navodila za učitelje in mentorje
 
-To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupine z največ štirimi člani, mi pa jih bomo vodili pri pisanju kratkega programa v programskem jeziku Python, s pomočjo katerega bodo na Astro Pi lahko prikazali osebno sporočilo in temperaturo zraka.
+To aktivnost je mogoče dokončati v enem popoldnevu. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} za Mission Zero.
 
-Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Obiščite [stran emulatorja Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,21 +60,14 @@ Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 
 \* Obrazec za registracijo je na voljo le v angleščini.
 
-Polja na obrazcu so:   
-Ime učitelja/mentorja   
-Elektronski naslov učitelja/mentorja   
-Telefonska številka učitelja/mentorja   
-Vrsta organizacije (npr. osnovna šola, srednja šola, knjižnica, Code Club, CoderDojo itd.)   
-Ime organizacije   
-Naslov organizacije   
-Mesto organizacije   
-Država organizacije   
-Poštna številka organizacije   
-Ime ekipe   
-Število članov v ekipi   
-Imena in starost članov ekipe <0 /> V katerem jeziku ste dostopali do smernic Mission Zero?
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Za vas bomo ustvarili račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo pripravljeni za pošiljanje svojih programov.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Kodo učilnice zapišite na vidno mesto, npr. na tablo ali jo projicirajte na platno, in začnite z aktivnostjo.
     
