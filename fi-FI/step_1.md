@@ -8,7 +8,7 @@ Sinun tekemä ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (IS
 
 ### Mitä tulet tekemään
 
-Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** nähdäksesi sen toiminnassa. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** nähdäksesi sen toiminnassa. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** n�
 
 ## title: Mitä tulet oppimaan
 
-Tutustut Astro Pi -yksikköön ja miten hallitset sitä, mukaan lukien:
+Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum){:target="_blank"} seuraavista osioista:
 
 + näytä viestejä ja värejä
 + luo kuvia
@@ -48,11 +48,11 @@ Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](ht
 
 ## title: Huomautuksia opettajille ja ohjaajille
 
-Tämä toiminta voidaan suorittaa iltapäivän aikana. Järjestä oppilaasi enintään neljän henkilön tiimeihin ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma henkilökohtaisen viestin ja Astro Pin ilman lämpötilan näyttämiseksi.
+Tämä toiminta voidaan suorittaa iltapäivän aikana. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Lue [virallinen ohjeasiakirja](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zeroa varten.
 
-Sinun on rekisteröidyttävä Mission Zero -haasteeseen tiimisi/tiimiesi osallistumista varten.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Ota esille [Trinket emulator Mission Zero sivu](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,22 +60,14 @@ Sinun on rekisteröidyttävä Mission Zero -haasteeseen tiimisi/tiimiesi osallis
 
 \ * Huomaa, että tämä rekisteröintilomake on saatavana vain englanniksi.
 
-Lomakkeen kenttiin sisältyy:  
-Teacher/Mentor name (Opettajan/ohjaajan nimi)  
-Teacher/Mentor email address (Opettajan/ohjaajan sähköpostiosoite)  
-Teacher/Mentor phone number (Opettajan/ohjaajan puhelinnumero)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Organisaatiotyyppi (esim. ala-aste, yläaste, kirjasto, Code Club, CoderDojo, jne.)  
-Organisation name (Organisaation nimi)  
-Organisation address (Organisaation osoite)  
-Organisation city (Organisaation kaupunki)  
-Organisation country (Organisaation maa)  
-Organisation postal code (Organisaation postinumero)  
-Team name (Tiimin nimi)  
-Number of team members (Tiimin jäsenten lukumäärä)  
-Names and ages of team members (Tiimin jäsenten nimet ja iät)  
-In which language did you access the Mission Zero guidelines? (Millä kielellä käytit Mission Zero -ohjeita?)
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Sinulle luodaan tili. Jokaisella tilillä on oma **luokkahuonekoodinsa**, joka sinun on kerrottava tiimillesi/tiimeillesi, kun he ovat valmiita lähettämään ohjelmansa.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Pidä luokkahuonekoodisi jossakin näkyvillä olevassa paikassa, kuten esimerkiksi valkotaululla tai videoprojektorilla, ja aloita toiminta.
     
