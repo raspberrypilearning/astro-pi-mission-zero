@@ -2,11 +2,11 @@
 
 Podes combinar a leitura de temperatura com uma imagem para também indicar a temperatura de maneira gráfica. Por exemplo, podes escolher a imagem de uma tempestade de neve para mostrar temperaturas frias e um dia ensolarado para temperaturas altas:
 
-![Quente e frio](images/hot-and-cold.png)
+![Quente e frio](images/wet-dry.png)
 
 \--- task \---
 
-Na parte inferior do programa, cria mais variáveis ​​de cor para definir as cores que queres usar nos teus desenhos. Talvez já tenhas definido algumas variáveis num passo anterior. Nos nossos exemplos, vamos usar branco (`w`), amarelo (`y`), verde (`g`) e preto / em branco (`b`).
+Na parte inferior do programa, cria mais variáveis ​​de cor para definir as cores que queres usar nos teus desenhos. Talvez já tenhas definido algumas variáveis num passo anterior.
 
 ```python
 w = (255, 255, 255)
