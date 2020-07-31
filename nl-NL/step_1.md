@@ -8,7 +8,7 @@ Je voltooide programma wordt in de ruimte uitgevoerd op het International Space 
 
 ### Wat ga je maken
 
-Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op **Run** (Uitvoeren) om het in actie te zien. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Hier is een voorbeeld van het soort programma dat je zou kunnen maken. Klik op *
 
 ## title: Wat ga je leren
 
-Je leert over de AstroPi-eenheid en hoe je hem bestuurt, inclusief hoe je:
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + berichten en kleuren laat zien
 + afbeeldingen maakt
@@ -60,22 +60,14 @@ Je moet je aanmelden voor de Mission Zero-uitdaging zodat uw team(s) deel kan/ku
 
 \* Let op dat dit registratieformulier alleen in het Engels beschikbaar is.
 
-De velden op het formulier omvatten:  
-Teacher/Mentor name (Naam leraar/mentor )  
-Teacher/Mentor email address (E-mailadres leraar/mentor)  
-Teacher/Mentor phone number (Telefoonnummer leraar/mentor)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Soort organisatie (bijv. basisschool, middelbare school , bibliotheek, Code Club, CoderDojo, enz.)  
-Organisation name (Naam organisatie)  
-Organisation address (Adres organisatie)  
-Organisation city (Plaats organisatie)  
-Organisation country (Land organisatie)  
-Organisation postal code (Postcode organisatie)  
-Team name (teamnaam)  
-Number of team members (Aantal teamleden)  
-Names and ages of team members (Namen en leeftijden teamleden)  
-In which language did you access the Mission Zero guidelines (In welke taal heeft u de Mission Zero-richtlijnen bekeken)?
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Er wordt een account voor je gemaakt. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
 
 + Plaats je klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
     
