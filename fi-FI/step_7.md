@@ -1,12 +1,12 @@
 ## Näytä lämpötila
 
-Voit yhdistää lämpötilalukemasi kuvaan näyttääksesi lämpötilan myös graafisella tavalla. Esimerkiksi saatat näyttää lumimyrskyn kylmille lämpötiloille ja aurinkoisen päivän kuumille lämpötiloille:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Kuuma ja kylmä](images/hot-and-cold.png)
+![Kuuma ja kylmä](images/wet-dry.png)
 
 \--- task \---
 
-Lisää ohjelman loppuun uusia värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa. Esimerkeissämme käytämme valkoista (`w`), keltaista (`y`), vihreää (`g`) ja mustaa/tyhjää (`b`).
+Lisää ohjelman loppuun uusia värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa.
 
 ```python
 w = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `hot`, jos lämpötilan lukema on 20 astetta tai sen yli, ja kuvan `cold`, jos lämpötilan lukema on alle 20 astetta.
+Päätä nyt, minkä kuvan haluat esitettäväksi. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Käytä lämpötilan liukusäädintä asettaaksesi lämpötilan emulaattorissa. Suorita ohjelma ja tarkista, että kyseiselle lämpötilalle valittu kuva näytetään oikein.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 \--- /task \---
 
