@@ -8,7 +8,7 @@ Dit færdige program køres i rummet på den internationale rumstation (ISS)! Du
 
 ### Hvad du vil lave
 
-Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se, hvordan det fungerer. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- kollaps \---
 
@@ -16,7 +16,7 @@ Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør
 
 ## titel: Du kommer til at lære følgende
 
-Du kommer til at lære om AstroPi-enheden og styringen af den, herunder hvordan du:
+Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + vis beskeder og farver
 + opret billeder
@@ -48,11 +48,11 @@ Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital M
 
 ## titel: Bemærkninger til lærere og mentorer
 
-Denne aktivitet kan gennemføres på en eftermiddag. Organiser dine studerende i teams på op til fire, og lad os guide dem gennem at skrive et kort Python-program til at vise en personlig besked og lufttemperaturen på Astro Pi.
+Denne aktivitet kan gennemføres på en eftermiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Læs [dokumentet med officielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
-Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team mulighed for at deltage.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Gå til [Mission Zero-siden for Trinket-emulatoren](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,22 +60,14 @@ Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team mulighe
 
 \ * Bemærk, at denne tilmeldingsformular kun er tilgængelig på engelsk.
 
-Felter i formen inkluderer:  
-Teacher/Mentor name(Lærer/Mentor navn)  
-Teacher/Mentor email address(Lærer/Mentor mailadresse)  
-Teacher/Mentor phone number(Lærer/Mentor Telefon)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)(F.eks. Grundskole, Gymnasium, Bibliotek, Code Club, CoderDojo, mm. )  
-Organisation name(Organitationsnavn)  
-Organisation address(Organitationsadresse)  
-Organisation city(Organitations by)  
-Organisation country(Organitationsland)  
-Organisation postal code(Organitations-postnr.)  
-Team name(Holdnavn)  
-Number of team members(Antal på holdet)  
-Names and ages of team members(Navn og alder på deltagerne)  
-In which language did you access the Mission Zero guidelines(På hvilke sprog har du læst Mission Zero reglerne)?
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Der oprettes en konto til dig. Hver konto har sin egen **klasseværelseskode**, og du skal fortælle dit/dine hold, hvad din er, når de er klar til at indsende deres programmer.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Vis din klasseværelseskode et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
     
