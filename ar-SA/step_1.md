@@ -8,7 +8,7 @@
 
 ### ما الذي ستصنعه
 
-إليك مثالًا لنوع البرنامج الذي يمكنك إعداده. انقر **Run** (تشغيل) لرؤية ذلك عمليًا. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+إليك مثالًا لنوع البرنامج الذي يمكنك إعداده. انقر **Run** (تشغيل) لرؤية ذلك عمليًا. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@
 
 ## title: ما الذي ستتعلمه
 
-ستحصل على تعليم حول وحدة نظام AstroPi وكيفية التحكم فيها، بما في ذلك كيفية:
+يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
 + عرض الصور والألوان
 + إنشاء الصور
@@ -61,21 +61,13 @@
 \ * الرجاء ملاحظة أن نموذج التسجيل هذا متاح باللغة الإنجليزية فقط.
 
 The fields on the form include:  
-(يتضمن النموذج الحقول التالية:) Teacher/Mentor name  
-(اسم المعلم/المرشد) Teacher/Mentor email address  
-(البريد الالكتروني الخاص بـ المعلم/المرشد) Teacher/Mentor phone number  
-(رقم الهاتف للـ المعلم/المرشد) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-(نوع المؤسسة (مثال: مدرسة ابتدائية، مدرسة متوسطة، مكتبة، نادي برمجة Code Club، كودر دوجو CoderDojo، أو غيرها)) Organisation name  
-(اسم المؤسسة) Organisation address  
-(عنوان المؤسسة) Organisation city  
-(المدينة للمؤسسة) Organisation country  
-(البلد للمؤسسة) Organisation postal code  
-(الرمز البريدي للمؤسسة) Team name  
-(اسم الفريق) Number of team members  
-(عدد أعضاء الفريق) Names and ages of team members  
-(أسماء وأعمار أعضاء الفريق) In which language did you access the Mission Zero guidelines? (ماهي اللغة التي استخدمتها للوصول الى ارشادات المهمة صفر؟)
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ وسيتم إنشاء حساب لك. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
 
 + اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
     
