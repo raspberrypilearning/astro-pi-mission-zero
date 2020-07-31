@@ -6,7 +6,7 @@ Det er noen regler for hvordan koden må være for at den kan sendes til å bli 
 
 1. Ta en temperaturavlesning
 2. Lys opp lysdiodene
-3. Kontroller at koden din går helt til slutten uten at det oppstår feil. Hvis dere har en `while True`-sløyfe i koden, må dere trykke på **Stop**-knappen for å overholde denne regelen.
+3. Kontroller at koden din går helt til slutten uten at det oppstår feil. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Sørg også for at dere har oppfylt følgende kriterier:
 
