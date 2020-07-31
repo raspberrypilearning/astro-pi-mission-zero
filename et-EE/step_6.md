@@ -20,11 +20,11 @@ temp = sense.temperature
 
 \--- /collapse \---
 
-\--- /task \---
+\--- / ülesanne \---
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Sina võid väärtuse ümardada mistahes kümnendkohtadega arvuks. Meie ümardasime näite ühe kümnendkohaga arvuks, aga teistsuguse täpsuse saavutamiseks muuda numbrit `1` selliseks kümnendkoha arvuks, mida soovid näha.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -42,7 +42,7 @@ sense.show_message( str(temp) )
 
 The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
-\--- /task \---
+\--- / ülesanne \---
 
 \--- task \---
 
