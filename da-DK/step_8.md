@@ -6,7 +6,7 @@ Der er nogle få regler, som din kode skal følge, så du kan indsende den, og d
 
 1. Foretag en temperaturaflæsning
 2. Tænd lysdioderne
-3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Hvis du har en `while True` (mens det er sandt) løkke i din kode, bliver du nødt til at trykke på knappen **Stop** (Stop) for at kunne opfylde denne regel.
+3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Sørg også for at have opfyldt følgende kriterier:
 
