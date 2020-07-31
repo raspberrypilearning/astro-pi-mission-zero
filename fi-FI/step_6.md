@@ -1,40 +1,30 @@
 ## Mittaa lämpötila
 
-Astro Pin lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa. Tämä on hyödyllinen ominaisuus, joka auttaa sinua keräämään tietoja olosuhteista avaruudessa.
+The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
 
 ![Viesti lämpötilasta](images/degrees-message.gif)
 
-Astro Pi mittaa lämpötilaa ISS:ssä celsiusasteina (&deg;C). Koska avaruudessa olevat lämpötilat vaihtelevat paljon enemmän kuin maapallolla, Astro Pi voi mitata lämpötiloja jopa -40 asteen ja +120 asteen välillä.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
 Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, joten antamalla heidän tietää, että avaruusaseman lämpötila on tavanomaisella alueella, rauhoittaa heitä.
 
-## \--- collapse \---
-
-## title: Mikä on lämpötila?
-
-Lämpötila on mitta siitä, kuinka kuuma jokin on. Sinun kehosi lämpö on ehkä mitattu lämpömittarilla käydessäsi lääkärissä.
-
-![Lämpömittari](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} Wikimedia Commons -sivuston kautta*
-
-Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät jääkuution olevan kiinteä, mutta kun se lämpenee eli imee itseensä lämpöenergiaa ympäristöstään, se sulaa ja muuttuu nestemäiseksi. Tämä johtuu siitä, että kun aine imee itseensä tai menettää riittävästi lämpöenergiaa, aine muuttaa olomuotoaan, esim. se muuttuu kiinteästä nestemäiseksi.
-
-\--- /collapse \---
+[[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Lisää tämä koodi lämpötilan lukemiseksi:
+Add this code to take a humidity reading:
 
 ```python
 temp = sense.temperature
 ```
 
-Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujaan `temp`.
+\--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-Lämpötila tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +34,19 @@ temp = round( sense.temperature, 1 )
 
 \--- task \---
 
-Lisää tämä koodirivi näyttääksesi nykyisen lämpötilan vieritysviestinä näytöllä:
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-`str()`-osa muuntaa lämpötilan numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
 \--- /task \---
 
 \--- task \---
 
-Voit myös näyttää lämpötilan osana toista viestiä liittämällä viestisi osat käyttäen merkkiä `+`.
+`str()`-osa muuntaa lämpötilan numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +54,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-Oikea Astro Pi mittaa sen ympärillä olevan lämpötilan, mutta voit liikuttaa lämpötilan liukusäädintä Sense HAT -emulaattorissa simuloidaksesi lämpötilan muutoksia ja testataksesi koodiasi.
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Lämpötilan liukusäädin](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
-**Huomautus:** Saatat ihmetellä, miksi lämpötilan liukusäädin näyttää lämpötilan kokonaislukuna, mutta saamasi arvo on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi lämpötilan mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
