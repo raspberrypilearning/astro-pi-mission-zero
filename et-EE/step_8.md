@@ -6,7 +6,7 @@ Sinu koodi esitamiseks rahvusvahelises kosmosejaamas peab see vastama mõnedele 
 
 1. Mõõda õhutemperatuur
 2. Süüta LED-id
-3. Kontrolli, et sinu kood töötab vigadeta lõpuni välja. Kui sinu koodis on `while True` silmus, pead selle reegli läbilaskmiseks vajutama **Stop** nuppu.
+3. Kontrolli, et sinu kood töötab vigadeta lõpuni välja. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Samuti pead veenduma, et järgmised kriteeriumid oleks täidetud:
 
@@ -21,7 +21,7 @@ Kui kõik reeglid on rohelised, oled esitamiseks valmis.
 
 Sisesta oma klassiruumi kood allpool asuvasse kastikesse; sinu õpetaja ütleb sulle, mis sinu kood on.
 
-**Märkused õpetajatele või mentoritele** on saadaval jaotises [Sissejuhatus](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
+**Märkused õpetajatele või mentoritele** on saadaval jaotises [Sissejuhatus](https://projects.raspberrypi.org/et-EE/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
