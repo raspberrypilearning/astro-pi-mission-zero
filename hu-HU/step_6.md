@@ -1,40 +1,30 @@
 ## Mérd meg a hőmérsékletet!
 
-Az Astro Pi hőmérsékletérzékelője képes a körülötte levő levegő hőmérsékletének mérésére. Ez egy hasznos funkció, amely segít az űrbeli viszonyokról szóló adatgyűjtésben.
+The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
 
 ![Üzenet a hőmérsékletről](images/degrees-message.gif)
 
-Az Astro Pi a Nemzetközi Űrállomáson Celsius-fokban méri a hőmérsékletet (&deg;C). Mivel az űrben sokkal nagyobb a hőmérsékletingadozás, mint a Földön, az Astro Pi akár -40 Celsius-foktól egészen +120 Celsius-fokig képes a hőmérsékletet mérni.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
 A küldetésedhez tartozik a Nemzetközi Űrállomás legénységének napi életéhez való hozzájárulás, úgyhogy, ha tudatod velük, hogy az űrállomáson a hőmérséklet a normális tartományon belül van, azzal megnyugtatod őket.
 
-## \--- collapse \---
-
-## title: Mi a hőmérséklet?
-
-A hőmérséklet azt méri, milyen forró valami. Lehet, hogy egy orvosi vizit során már mérték a te hőmérsékletedet is egy hőmérővel.
-
-![Hőmérő](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
-
-Pontosabban, a hőmérséklet egy anyag hőenergia-mennyiségének mértéke. Ahogy azt te is tudod, a jégkocka szilárd, de ahogy felmelegszik, azaz elnyeli a környezet hőenergiáját, elolvad és folyékonnyá válik. Ez azért van, mert amikor egy anyag elég hőenergiát nyel el vagy veszít el, az anyag halmazállapota megváltozik, pl. egy szilárd halmazállapotú anyag folyékonnyá válik.
-
-\--- /collapse \---
+[[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Add hozzá ezt a kódot a hőmérséklet leolvasásához:
+Add this code to take a humidity reading:
 
 ```python
 temp = sense.temperature
 ```
 
-Ez a sor az aktuális hőmérsékletet méri majd meg, és a `temp` változóban tárolja a mért értéket.
+\--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-A hőmérséklet nagyon pontosan kerül rögzítésre, azaz a tárolt érték sok tizedesjegyet fog tartalmazni. Az értéket akárhány tizedesjegyre lekerekítheted. A példában egy tizedesjegyre kerekítettük le, de ha más szintű pontosságot szeretnél, változtasd meg az `1`-es számot arra számra, ahány tizedesjegyet szeretnél látni.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +34,19 @@ temp = round( sense.temperature, 1 )
 
 \--- task \---
 
-Az aktuális hőmérsékletet futó üzenetként való megjelenítéséhez add hozzá ezt a kódsort:
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-A `str()` rész a hőmérsékletet számból szöveggé alakítja, hogy az Astro Pi meg tudja jeleníteni.
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
 \--- /task \---
 
 \--- task \---
 
-Egy másik üzenet részeként is megjelenítheted a hőmérsékletet az üzeneted különböző részeit egy `+` jellel összekötve.
+A `str()` rész a hőmérsékletet számból szöveggé alakítja, hogy az Astro Pi meg tudja jeleníteni.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +54,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-A valódi Astro Pi a körülötte levő hőmérsékletet méri majd, de a Sense HAT emulátor hőmérséklet-csúszkájával szimulálhatod a hőmérsékletváltozásokat és tesztelheted a kódod.
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Hőmérsélet-csúszka](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
-**Megjegyzés:** Furcsa lehet, hogy a hőmérséklet-csúszka egy egész számként mutatja a hőmérsékletet, de a leolvasott érték egy tizedes tört lesz. Az emulátor a valódi érzékelő enyhe pontatlanságát szimulálja, úgyhogy a mért hőmérséklet, amit látsz, kicsit nagyobb vagy kisebb lehet annál az értéknél, amit a csúszkával állítottál be.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
