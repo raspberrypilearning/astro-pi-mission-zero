@@ -8,7 +8,7 @@ Sinu tehtud programm käivitatakse rahvusvahelises kosmosejaamas (ISS) kosmoses!
 
 ### Mida sa teed
 
-Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see toimib, klõpsa **Run**. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see toimib, klõpsa **Run**. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas s
 
 ## title: Mida sa õpid
 
-Õpid tundma Astro Pi´d ja selle juhtimist, sealhulgas kuidas:
+Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http://rpf.io/curriculum){:target="_blank"} järgmisi valdkondi:
 
 + sõnumite ja värvide kuvamine
 + piltide loomine
@@ -32,7 +32,7 @@ Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http
 
 * * *
 
-## title: Mida sul vaja on
+## title: Mida sa õpid
 
 ### Riistvara
 
@@ -48,11 +48,11 @@ Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http
 
 ## title: Märkused õpetajatele ja mentoritele
 
-Seda võib teha pärastlõunal. Jaotage õpilased kuni 4-liikmelistesse meeskondadesse ja lubage meil neid lühikese Pythoni programmi kirjutamisel juhendada, mis näitab isiklikku sõnumit ja Astro Pi´l olevat õhutemperatuuri.
+Seda võib teha pärastlõunal. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
-Lugege [ametlikke juhiseid sisaldavat dokumenti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zero kohta.
+\* Pange tähele, et registreerimisvorm on kättesaadav ainult inglise keeles.
 
-Selleks et teie meeskon(na) d saaks(id) osaleda, peate Mission Zero väljakutseks registreeruma.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Minge [Trinket emulaatori Mission Zero lehele](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,26 +60,18 @@ Selleks et teie meeskon(na) d saaks(id) osaleda, peate Mission Zero väljakutsek
 
 Pange tähele, et registreerimisvorm on kättesaadav ainult inglise keeles.
 
-Vormi väljade hulgas on:  
-Teacher/Mentor name (õpetaja/mentori nimi)  
-Teacher/Mentor email address (õpetaja/mentori meiliaadress)  
-Teacher/Mentor phone number (õpetaja/mentori telefoninumber)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (organisatsiooni tüüp (nt põhikool, gümnaasium, raamatukogu, Code Club, CoderDojo jne))  
-Organisation name (organisatsiooni nimi)  
-Organisation address (organisatsiooni aadress)  
-Organisation city (organisatsiooni linn)  
-Organisation country (organisatsiooni riik)  
-Organisation postal code (organisatsiooni postiindeks)  
-Team name (meeskonna nimi)  
-Number of team members (meeskonnaliikmete arv)  
-Names and ages of team members (meeskonnaliikmete nimed ja vanused)  
-In which language did you access the Mission Zero guidelines? (Mis keeles pääsesite ligi Mission Zero juhistele?)
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Teile luuakse kasutajakonto. Igal kasutajakontol on oma **klassi kood** ja te peate oma meeskonnale/meeskondadele ütlema, mis on teie kasutajakonto nimetus, kui nad on valmis oma programme esitama.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
     
-    Oleme koostanud [ prinditava kahelehelise käsilehe ](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {: target = "_ blank"}, mis hõlmab missiooni Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
+    Oleme koostanud [prinditava kahelehelise käsilehe](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, mis hõlmab missiooni Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
 
 \--- /collapse \---
 
