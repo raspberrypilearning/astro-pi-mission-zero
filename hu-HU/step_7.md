@@ -1,12 +1,12 @@
 ## Jelenítsd meg a hőmérsékletet!
 
-A leolvasott hőmérsékletet egy képpel is összekapcsolhatod, hogy a hőmérsékletet grafikusan is szemléltesd. Például hideg idő esetén egy hóvihart is megjeleníthetsz, vagy egy napfényes képet meleg idő esetén:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Hideg és meleg](images/hot-and-cold.png)
+![Hideg és meleg](images/wet-dry.png)
 
 \--- task \---
 
-A programod végén hozz létre még több színváltozót azokra a színekre, amelyeket használni szeretnél a képeidben. Lehetséges, hogy van olyan, amit már egy előző lépésben meghatároztál. A mi példáinkban fehéret (`w`), sárgát (`y`), zöldet (`g`) és feketét/kitöltetlent (`b`) használunk.
+A programod végén hozz létre még több színváltozót azokra a színekre, amelyeket használni szeretnél a képeidben. Lehetséges, hogy van olyan, amit már egy előző lépésben meghatároztál.
 
 ```python
 w = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Most döntsd el, melyik képet szeretnéd megjeleníteni. Ebben a példában mi a `hot` („meleg”) képet jelenítjük majd meg, ha a mért hőmérséklet 20 fok vagy annál magasabb, és a `cold` („hideg”) képet, ha a hőmérséklet 20 foknál alacsonyabb.
+Most döntsd el, melyik képet szeretnéd megjeleníteni. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Használd a hőmérséklet-csúszkát az emulátoron a hőmérséklet beállításához. Futtasd a programod és ellenőrizd le, hogy a kép, amelyet az adott a hőmérséklethez kiválasztottál, helyesen jelenik-e meg.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 \--- /task \---
 
