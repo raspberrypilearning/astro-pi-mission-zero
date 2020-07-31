@@ -6,12 +6,12 @@ Kui sa tunned ennast piisavalt enesekindlana, võiksid osaleda projektis [Missio
 
 Soovi korral võid proovida ka teistsugust Astro Pi projekti:
 
-+ Õpi [rohkem Sense HAT´i kohta](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} ja selle kohta, mida temaga veel teha saab
++ Õpi [rohkem Sense HAT´i kohta](https://projects.raspberrypi.org/et-EE/projects/getting-started-with-the-sense-hat){:target="_blank"} ja selle kohta, mida temaga veel teha saab
 
-+ Tee ilusaid [juhuslikult välkuvaid tulukesi](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} Sense HAT´i LED-ekraanil
++ Tee ilusaid [juhuslikult välkuvaid tulukesi](https://projects.raspberrypi.org/et-EE/projects/sense-hat-random-sparkles){:target="_blank"} Sense HAT´i LED-ekraanil
 
-+ Tee mäng [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
++ Tee mäng [Flappy Astronaut](https://projects.raspberrypi.org/et-EE/projects/flappy-astronaut){:target="_blank"}
 
-+ Esita oma sõpradele väljakutse mänguga [labürint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
++ Esita oma sõpradele väljakutse mänguga [labürint](https://projects.raspberrypi.org/et-EE/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Taasloo mänguklassika [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Taasloo mänguklassika [Pong](https://projects.raspberrypi.org/et-EE/projects/sense-hat-pong){:target="_blank"}
