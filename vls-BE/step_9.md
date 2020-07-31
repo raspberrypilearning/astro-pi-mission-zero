@@ -6,12 +6,12 @@ Indien je zelfzeker voelt, kun je deelnemen aan [Mission Space Lab](https://astr
 
 Een andere mogelijkheid is dat je misschien een van onze andere Astro Pi projecten wilt uitproberen:
 
-+ Leer [meer over de Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen dat het kan doen
++ Leer [meer over de Sense HAT](https://projects.raspberrypi.org/vls-BE/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen dat het kan doen
 
-+ Maak wat mooie [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op het Sense HAT's led-kleurenbeeldscherm
++ Maak wat mooie [random sparkles](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-random-sparkles){:target="_blank"} op het Sense HAT's led-kleurenbeeldscherm
 
-+ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} spel
++ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/vls-BE/projects/flappy-astronaut){:target="_blank"} spel
 
-+ Daag je vrienden uit met een [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spel
++ Daag je vrienden uit met een [marble maze](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-marble-maze){:target="_blank"} spel
 
-+ Reconstrueer het klassieke spel van [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Reconstrueer het klassieke spel van [Pong](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-pong){:target="_blank"}
