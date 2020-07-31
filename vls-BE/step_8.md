@@ -6,7 +6,7 @@ Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om 
 
 1. Neem een temperatuurmeting
 2. De LED's laten oplichten
-3. Zorg ervoor dat jouw code helemaal tot het einde werkt zonder dat er fouten optreden. Indien je een `while True` (terwijl echte) lus hebt in jouw code, dan moet je op de **Stop** knop drukken om aan deze regel te voldoen.
+3. Zorg ervoor dat jouw code helemaal tot het einde werkt zonder dat er fouten optreden. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
@@ -21,7 +21,7 @@ Zodra de regels allemaal groen zijn, ben je klaar om in te dienen.
 
 Vul je klascode in het vakje onderaan in - je leraar zal je vertellen wat je code is.
 
-**Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
+**Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/vls-BE/projects/astro-pi-mission-zero/1) stap.
 
 \--- /task \---
 
