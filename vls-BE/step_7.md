@@ -1,12 +1,12 @@
 ## Laat de temperatuur zien
 
-Je kunt je temperatuur combineren met een tekening om de temperatuur ook aan te wijzen op een grafische manier. Bijvoorbeeld, je kunt een sneeuwstorm laten zien voor koude temperaturen, en een zonnige dag voor hete temperaturen:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Heet en koud](images/hot-and-cold.png)
+![Heet en koud](images/wet-dry.png)
 
 \--- task \---
 
-Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een voorgaande stap. In onze voorbeelden zullen wij wit gebruiken (`w`), geel (`y`), groen (`g`), en zwart/blank (`b`).
+Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een voorgaande stap.
 
 ```python
 w = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Beslis nu welke tekening je wilt tonen. Voor dit voorbeeld, zullen wij het `hot` (heet) beeld tentoonstellen indien de temperatuur 20 graden of meer is, en het `cold` (koud) beeld indien de temperatuur lager is dan 20 graden.
+Beslis nu welke tekening je wilt tonen. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Gebruik de temperatuurschuifknop om de temperatuur op de emulator in te stellen. Start je programma en controleer dat het beeld dat je hebt gekozen voor deze temperatuur op de juiste wijze wordt weergegeven.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 \--- /task \---
 
