@@ -20,7 +20,7 @@ temp = sense.temperature
 
 \--- /collapse \---
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
@@ -42,7 +42,7 @@ sense.show_message( str(temp) )
 
 The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
