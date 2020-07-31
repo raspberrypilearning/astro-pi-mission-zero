@@ -1,12 +1,12 @@
 ## Anzeigen der Temperatur
 
-Du kannst deinen Temperaturmesswert mit einem Bild kombinieren, um die Temperatur grafisch darzustellen. Du könntest zum Beispiel für kalte Temperaturen einen Schneesturm und für heiße Temperaturen einen sonnigen Tag anzeigen:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Heiß und kalt](images/hot-and-cold.png)
+![Heiß und kalt](images/wet-dry.png)
 
 \--- task \---
 
-Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Möglicherweise hast du bereits einige von ihnen in einem vorherigen Schritt definiert. In unseren Beispielen verwenden wir weiß (`w`), gelb (`y`), grün (`g`) und schwarz / leer (`s`).
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Möglicherweise hast du bereits einige von ihnen in einem vorherigen Schritt definiert.
 
 ```python
 w = (255, 255, 255)
