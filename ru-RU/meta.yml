@@ -18,9 +18,9 @@ steps:
   - 
     title: Display an image
   - 
-    title: Measure the temperature
+    title: Measure the humidity
   - 
-    title: Display the temperature
+    title: Display the humidity
   - 
     title: Submit your entry
   - 
