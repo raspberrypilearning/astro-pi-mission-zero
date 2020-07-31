@@ -24,7 +24,7 @@ temp = sense.temperature
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Du kan avrunde verdien til et hvilket som helst antall desimaler. I eksemplet har vi avrundet til en desimal, men for et annet presisjonsnivå, endrer dere tallet `1` til så mange desimaler dere ønsker.
 
 ```python
 temp = round( sense.temperature, 1 )
