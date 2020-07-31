@@ -6,7 +6,7 @@
 
 1. Odčitajte temperaturo.
 2. Vklopite zaslon LED.
-3. Prepričajte se, da vaša koda v celoti deluje brez napak. Če vaša koda vsebuje zanko `while True`, boste morali za izpolnitev tega pravila pritisniti gumb **Stop** (Ustavi).
+3. Prepričajte se, da vaša koda v celoti deluje brez napak. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Prepričajte se tudi, da ste upoštevali naslednje kriterije:
 
