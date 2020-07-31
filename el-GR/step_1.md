@@ -8,7 +8,7 @@
 
 ### Τι θα φτιάξεις
 
-Παρακάτω είναι ένα παράδειγμα του προγράμματος που θα μπορούσατε να φτιάξετε. Κάντε κλικ στο «**Run**» (Εκτέλεση) για να δείτε το πρόγραμμα σε δράση. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Παρακάτω είναι ένα παράδειγμα του προγράμματος που θα μπορούσατε να φτιάξετε. Κάντε κλικ στο «**Run**» (Εκτέλεση) για να δείτε το πρόγραμμα σε δράση. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@
 
 ## title: Τι θα μάθεις
 
-Θα μάθετε σχετικά με τη μονάδα AstroPi και το πώς μπορείτε να την ελέγχετε, συμπεριλαμβανομένων και των εξής:
+Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
 
 + πώς να εμφανίζετε μηνύματα και χρώματα
 + πώς να δημιουργείτε εικόνες
@@ -48,11 +48,11 @@
 
 ## title: Σημειώσεις για εκπαιδευτικούς και συμβούλους (μέντορες)
 
-Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες των τεσσάρων και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και τη θερμοκρασία αέρα στο Astro Pi.
+Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} για το Mission Zero.
 
-Θα πρέπει να εγγραφείτε στην πρόκληση Mission Zero για να μπορέσουν οι ομάδες σας να συμμετέχουν.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Μεταβείτε στη [σελίδα Mission Zero του εξομοιωτή Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,21 +60,14 @@
 
 \* Παρακαλώ, προσέξτε ότι αυτή η φόρμα εγγραφής είναι διαθέσιμη μόνο στα Αγγλικά.
 
-Τα πεδία στη φόρμα περιλαμβάνουν:   
-Teacher/Mentor name (Όνομα Δασκάλου/Mentor)  
-Teacher/Mentor email address (Διεύθυνση ηλεκτρονικού ταχυδρομείου Δασκάλου/Mentor)  
-Teacher/Mentor phone number (Αριθμός τηλεφώνου Δασκάλου/Mentor)<0 /> Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Τύπος Οργανωτικής Μονάδας (π.χ. δημοτικό σχολείο, γυμνάσιο, βιβλιοθήκη, Code Club, CoderDojo, κλπ.))  
-Organisation name (Επωνυμία Οργανωτικής Μονάδας)  
-Organisation address (Διεύθυνση Οργανωτικής Μονάδας)  
-Organisation city (Πόλη Οργανωτικής Μονάδας)  
-Organisation country (Χώρα Οργανωτικής Μονάδας)  
-Organisation postal code (Ταχυδρομικός Κώδικας Οργανωτικής Μονάδας)  
-Team name (Όνομα ομάδας)  
-Number of team members (Αριθμός μελών ομάδας)  
-Names and ages of team members (Ονόματα και ηλικίες μελών ομάδας)  
-In which language did you access the Mission Zero guidelines? (Σε ποια γλώσσα έχετε πρόσβαση στις οδηγίες του Mission Zero;)
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Θα δημιουργηθεί ένας λογαριασμός για εσάς. Κάθε λογαριασμός έχει τον δικό του **κωδικό τάξης**, τον οποίον θα πρέπει να δώσετε στις ομάδες σας, όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Προβάλλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής και ξεκινήστε τη δραστηριότητα.
     
