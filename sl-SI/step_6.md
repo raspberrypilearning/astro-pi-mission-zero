@@ -4,37 +4,27 @@ Senzor temperature v računalniku Astro Pi lahko izmeri temperaturo zraka okrog 
 
 ![Sporočilo o temperaturi](images/degrees-message.gif)
 
-Astro Pi temperaturo na postaji ISS meri v stopinjah Celzija (&deg;C). Ker se temperature v vesolju razlikujejo veliko bolj kot tiste na Zemlji, lahko Astro Pi izmeri temperaturo v razponu od –40 stopinj Celzija do +120 stopinj Celzija.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
-Del vaše misije je izboljšanje vsakdana posadke na postaji ISS. Ko jim boste sporočili, da je temperatura na vesoljski postaji v mejah normale, jih bo to prav gotovo pomirilo.
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
 
-## \--- collapse \---
-
-## title: Kaj je temperatura?
-
-S temperaturo izmerimo, kako vroče je nekaj. Med obiskom pri zdravniku so vam prav gotovo s termometrom že kdaj izmerili telesno temperaturo.
-
-![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
-
-Če smo natančnejši, je temperatura merilo količine toplotne energije snovi. Veste, da je kocka ledu trdna, a ko se segreje (ko absorbira toplotno energijo iz okolja), se stali in postane tekoča. Ko absorbira ali izgubi toplotno energijo, snov namreč spremeni agregatno stanje, npr. iz trdnega v tekoče.
-
-\--- /collapse \---
+[[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Za odčitavanje temperature dodajte to kodo:
+Add this code to take a humidity reading:
 
 ```python
 temp = sense.temperature
 ```
 
-Ta vrstica bo izmerila trenutno temperaturo in izmerjeno vrednost shranila v spremenljivki `temp`.
+\--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-Temperatura je zabeležena zelo natančno, kar pomeni, da bo shranjena vrednost imela veliko število decimalnih mest. Vrednost lahko zaokrožite na poljubno število decimalnih mest. V tem primeru smo vrednost zaokrožili na eno decimalno mesto, a za drugačno stopnjo natančnosti lahko število `1` spremenite v želeno število decimalnih mest.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +34,19 @@ temp = round( sense.temperature, 1 )
 
 \--- task \---
 
-Za prikaz trenutne temperature v obliki premikajočega se sporočila dodajte to vrstico kode:
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-Del `str()` temperaturo pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
 \--- /task \---
 
 \--- task \---
 
-Temperaturo lahko prikažete tudi kot del drugega sporočila, kar storite tako, da dele sporočila združite s kodo `+`.
+Del `str()` temperaturo pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +54,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-Pravi Astro Pi bo izmeril temperaturo okrog sebe, a vi lahko drsnik za temperaturo na emulatorju Sense HAT premikate in s tem simulirate temperaturne spremembe ter preizkusite svojo kodo.
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Drsnik za temperaturo](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
-**Opomba:** Morda se sprašujete, zakaj drsnik temperaturo prikaže kot celo število, a dobljen odčitek bo v decimalni obliki. Emulator simulira manjšo nenatančnost pravega senzorja, zato je lahko izmerjena temperatura nekoliko višja ali nižja od vrednosti, ki ste jo nastavili z drsnikom.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
