@@ -4,37 +4,27 @@ Temperatursensoren i Astro Pi kan måle temperaturen i luften omkring den og er 
 
 ![Besked om temperaturen](images/degrees-message.gif)
 
-Astro Pi måler temperaturen i ISS i grader Celsius (&deg;C). Idet temperaturerne i rummet varierer meget mere end dem på jorden, kan Astro Pi måle temperaturer helt nede fra -40 grader Celsius og op til +120 grader Celsius.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
 En del af din mission går ud på at bidrage til besætningens dagligdag ombord på ISS, så det vil berolige dem at få at vide, at temperaturen ombord på rumstationen ligger inden for normalområdet.
 
-## \--- kollaps \---
+[[[generic-theory-what-is-humidity]]]
 
-## titel: Hvad er temperatur?
+\--- task \---
 
-Temperatur er en måling af, hvor varmt noget er. Du har sandsynligvis fået taget din temperatur med et termometer under et besøg hos lægen.
-
-![Termometer](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
-
-For at være mere præcis er temperatur en måling af mængden af varmeenergi i et stof. Du ved, at en isterning er fast, men når den varmes op, dvs. optager varmeenergi fra omgivelserne, smelter den og bliver flydende. Det skyldes, at når et stof optager eller afgiver tilstrækkeligt med varmeenergi, ændres stoffets tilstand; det går eksempelvis fra at være fast til at være flydende.
-
-\--- /kollaps \---
-
-\--- opgave \---
-
-Tilføj denne kode for at foretage en temperaturaflæsning:
+Add this code to take a humidity reading:
 
 ```python
 temp = sense.temperature
 ```
 
-Denne linje måler den aktuelle temperatur og lagrer den målte værdi i variablen `temp`.
+\--- /collapse \---
 
-\--- /opgave \---
+\--- /task \---
 
-\--- opgave \---
+\--- task \---
 
-Temperaturen registreres meget præcist, dvs., at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +34,19 @@ temp = round( sense.temperature, 1 )
 
 \--- opgave \---
 
-For at få vist den aktuelle temperatur som rullende besked på displayet skal du tilføje denne kodelinje:
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+
+\--- /task \---
+
+\--- task \---
+
 Delen `str()` konverterer temperaturen fra et tal til tekst, så Astro Pi kan vise den.
-
-\--- /opgave \---
-
-\--- opgave \---
-
-Du kan også vise temperaturen som en del af en anden besked ved at sætte delene af din besked sammen med et `+`.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +54,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /opgave \---
 
-Den rigtige Astro Pi måler temperaturen omkring den, men du kan flytte temperaturskyderen på Sense HAT-emulatoren for at simulere temperaturændringer og teste din kode.
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Temperaturskyder](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
-**Bemærk:** Du undrer dig måske over, hvorfor temperaturskyderen viser temperaturen som et helt tal, men den aflæsning, du får, er med decimaler. Emulatoren simulerer den lille unøjagtighed fra den rigtige sensor, så den temperaturmåling, du ser, kan være en lille smule større eller mindre end den værdi, du har indstillet med skyderen.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
