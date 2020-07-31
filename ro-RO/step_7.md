@@ -1,12 +1,12 @@
 ## Afișează temperatura
 
-Poți combina citirea temperaturii cu o imagine pentru a indica, de asemenea, temperatura într-un mod grafic. De exemplu, este posibil să afișezi o furtună de zăpadă pentru temperaturi scăzute și o zi însorită pentru temperaturi ridicate:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Cald și rece](images/hot-and-cold.png)
+![Cald și rece](images/wet-dry.png)
 
 \--- task \---
 
-În partea de jos a programului tău, creează mai multe variabile pentru orice culori pe care vrei sa le folosești în imaginile tale. Este posibil să fi definit deja unele dintre ele într-un pas anterior. În exemplele noastre vom folosi alb (`a`), galben (`g`), verde (`v`) și negru/spațiu gol (`n`).
+În partea de jos a programului tău, creează mai multe variabile pentru orice culori pe care vrei sa le folosești în imaginile tale. Este posibil să fi definit deja unele dintre ele într-un pas anterior.
 
 ```python
 a = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Acum decide ce imagine vrei să se afișeze. Pentru acest exemplu, vom afișa imaginea `cald` dacă valoarea citită a temperaturii este de 20 de grade sau mai mare și imaginea `rece` dacă temperatura este sub 20 de grade.
+Acum decide ce imagine vrei să se afișeze. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Utilizează sliderul pentru temperatură pentru a seta o temperatură pe emulator. Rulează programul și verifică dacă imaginea pe care ai selectat-o pentru acea temperatură este afișată corect.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 \--- /task \---
 
