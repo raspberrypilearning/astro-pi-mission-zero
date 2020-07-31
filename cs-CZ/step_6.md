@@ -1,40 +1,30 @@
 ## Změřte teplotu
 
-Teplotní snímač v Astru Pi dokáže měřit teplotu okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
+The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
 
 ![Zpráva s teplotou](images/degrees-message.gif)
 
-Astro Pi měří teplotu v ISS ve stupních Celsia (&deg;C). Protože teploty ve vesmíru mají mnohem větší výkyvy než teploty na Zemi, umí Astro Pi měřit široké rozmezí teplot – od -40 stupňů Celsia až do +120 stupňů Celsia.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
-Součástí vaší mise je přispět ke každodennímu životu posádky ISS. Když jim dáte vědě, že teplota na palubě vesmírné stanice je v normálu, uklidní ji to.
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
 
-## \--- collapse \---
-
-## title: Co je teplota?
-
-Teplota je měřítko toho, jak je něco teplé. Dost možná vám pan doktor měřil teplotu teploměrem.
-
-![Teploměr](images/thermometer.JPG) Foto: *Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"}, zdroj: Wikimedia Commons*
-
-Přesněji řečeno, teplota je měřítkem množství tepelné energie nějaké látky. Jak víte, kostka ledu je pevná, ale jak se potupně ohřívá (tj. absorbuje tepelnou energii z prostředí), roztává se a stává se kapalnou. Je to proto, že když látka absorbuje nebo ztratí dostatečné množství tepelné energie, změní skupenství, např. z pevného na kapalné.
-
-\--- /collapse \---
+[[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Přidejte tento kód k odečtení teploty:
+Add this code to take a humidity reading:
 
 ```python
 temp = sense.temperature
 ```
 
-Tato řádka změří současnou teplotu a uloží naměřenou hodnotu v proměnné `temp`.
+\--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-Teplota je měřena s velikou přesností, takže uložená hodnota bude mít mnoho desetinných míst. Hodnotu můžete zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníte na jiné, dostanete jiný počet desetinných míst.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -44,19 +34,19 @@ temp = round( sense.temperature, 1 )
 
 \--- task \---
 
-Abyste aktuální teplotu zobrazili na displeji jako běžící text, přidejte tuhle řádku kódu:
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-To `str()` převádí teplotu z čísla na text, aby ji Astro Pi mohlo zobrazit.
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
 \--- /task \---
 
 \--- task \---
 
-Teplotu můžete zobrazit také jako součást jiné zprávy. Části zprávy pospojujte znaky `+`.
+To `str()` převádí teplotu z čísla na text, aby ji Astro Pi mohlo zobrazit.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -64,8 +54,8 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 \--- /task \---
 
-Skutečné Astro Pi měří teplotu kolem sebe, ale k otestování kódu na emulátoru Sense HAT můžete změny teploty simulovat posuvníkem teploty.
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Posuvník teploty](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
-**Poznámka:** Možná se divíte, proč posuvník teploty zobrazuje teplotu jako celé číslo, zatímco měření, které získáte, má desetinná místa. Emulátor simuluje maličkou míru nepřesnosti skutečného snímače, takže měření teploty, které dostanete, může být nepatrně větší nebo menší než hodnota, kterou jste nastavili pomocí posuvníku.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
