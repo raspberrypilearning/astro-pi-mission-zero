@@ -2,11 +2,11 @@
 
 Można połączyć pomiar temperatury z obrazkiem, aby pokazać temperaturę również w postaci graficznej. Można na przykład wyświetlić burzę śnieżną przy niskich temperaturach i słoneczny dzień w przypadku wysokich temperatur:
 
-![Gorąco i zimno](images/hot-and-cold.png)
+![Gorąco i zimno](images/wet-dry.png)
 
 \--- task \---
 
-U dołu programu utwórz więcej zmiennych kolorów, aby określić dowolne kolory potrzebne do narysowania obrazków. Możliwe, że niektóre z nich zostały już określone w poprzednim kroku. W naszych przykładach zastosujemy kolor biały (`w`), żółty (`y`), zielony (`g`) i czarny/pusty (`b`).
+U dołu programu utwórz więcej zmiennych kolorów, aby określić dowolne kolory potrzebne do narysowania obrazków. Możliwe, że niektóre z nich zostały już określone w poprzednim kroku.
 
 ```python
 w = (255, 255, 255)
