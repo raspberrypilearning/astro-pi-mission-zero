@@ -2,11 +2,11 @@
 
 Tu peux combiner ta mesure de la température avec une image pour indiquer également la température de manière graphique. Par exemple, tu peux afficher une tempête de neige pour les températures froides et une journée ensoleillée pour les températures chaudes :
 
-![Chaud et froid](images/hot-and-cold.png)
+![Chaud et froid](images/wet-dry.png)
 
 \--- task \---
 
-En bas de ton programme, crée d'autres variables pour les couleurs que tu veux utiliser pour dessiner tes images. Tu en as peut-être déjà défini certaines lors d'une étape précédente. Dans nos exemples, nous utiliserons du blanc (`w`), jaune (`y`), vert (`g`), et noir / blanc (`b`).
+En bas de ton programme, crée d'autres variables pour les couleurs que tu veux utiliser pour dessiner tes images. Tu en as peut-être déjà défini certaines lors d'une étape précédente.
 
 ```python
 w = (255, 255, 255)
