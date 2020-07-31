@@ -1,21 +1,21 @@
-## Mesure la température
+## Mesurer l'humidité
 
-Le capteur de température de l'Astro Pi peut mesurer la température de l'air qui l'entoure, c'est une fonction utile pour t'aider à rassembler des données sur les conditions dans l'espace.
+Le capteur d'humidité de l'Astro Pi peut mesurer l'humidité de l'air qui l'entoure, c'est une fonction utile pour t'aider à collecter des données sur les conditions dans l'espace.
 
 ![Message relatif à la température](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+L'Astro Pi mesure l'humidité dans l'ISS en pourcentage de concentration d'eau dans l'air.
 
-Une partie de ta mission consiste à contribuer à la vie quotidienne de l’équipage à bord de l'ISS, c'est pourquoi faire savoir aux astronautes que la température à bord de la station spatiale se situe dans les limites normales est utile et va les rassurer.
+Une partie de ta mission est de contribuer à la vie quotidienne de l'équipage à bord de l'ISS, afin de leur faire savoir que l'humidité à bord de la station spatiale est dans les limites normales les rassurera.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Ajoute ce code pour mesurer la température :
+Ajoute ce code pour mesurer l'humidité :
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /collapse \---
