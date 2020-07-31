@@ -18,9 +18,9 @@ steps:
   - 
     title: Affiche une image
   - 
-    title: Mesure la température
+    title: Mesurer l'humidité
   - 
-    title: Affiche la température
+    title: Afficher l'humidité
   - 
     title: Envoie ton programme
   - 
