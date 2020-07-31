@@ -4,21 +4,11 @@ Le capteur de température de l'Astro Pi peut mesurer la température de l'air q
 
 ![Message relatif à la température](images/degrees-message.gif)
 
-L'Astro Pi mesure la température dans l'ISS en degrés Celsius (&deg;C). Parce que les températures dans l'espace varient beaucoup plus que sur la Terre, l'Astro Pi peut mesurer des températures allant de -40 degrés Celsius à +120 degrés Celsius.
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
 Une partie de ta mission consiste à contribuer à la vie quotidienne de l’équipage à bord de l'ISS, c'est pourquoi faire savoir aux astronautes que la température à bord de la station spatiale se situe dans les limites normales est utile et va les rassurer.
 
-## \--- collapse \---
-
-## title: Qu'est-ce que la température ?
-
-La température est la mesure qui indique la chaleur de quelque chose. Peut-être que ta température a été prise avec un thermomètre quand tu es allé voir le médecin.
-
-![Thermomètre](images/thermometer.JPG) *Par Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
-
-Pour être plus précis, la température est la mesure de la quantité d'énergie thermique d'une substance. Tu sais qu'un cube de glace est solide, mais à mesure qu'il se réchauffe, c'est-à-dire qu'il absorbe l'énergie thermique de son environnement, il fond et devient liquide. Ceci est dû au fait que lorsqu'une substance absorbe ou perd suffisamment d'énergie calorifique, la substance change d'état, elle passe de l'état solide à l'état liquide.
-
-\--- /collapse \---
+[[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
@@ -28,7 +18,7 @@ Ajoute ce code pour mesurer la température :
 temp = sense.temperature
 ```
 
-Cette ligne mesure la température actuelle et stocke la valeur mesurée dans la variable `temp`.
+\--- /collapse \---
 
 \--- /task \---
 
@@ -50,13 +40,13 @@ Pour afficher la température actuelle sous la forme d'un message défilant à l
 sense.show_message( str(temp) )
 ```
 
-La partie `str()` convertit la température d'un nombre en texte pour que l'Astro Pi puisse l'afficher.
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
 \--- /task \---
 
 \--- task \---
 
-Tu peux également afficher la température à l'intérieur d’un autre message en concaténant les différentes parties de ton message avec un `+` .
+La partie `str()` convertit la température d'un nombre en texte pour que l'Astro Pi puisse l'afficher.
 
 ```python
 sense.show_message( "It is " + str(temp) + " degrees" )
@@ -66,6 +56,6 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 Le vrai Astro Pi mesure la température autour de lui, mais toi tu peux déplacer le curseur de température sur l'émulateur Sense HAT pour simuler des changements de température et tester ton code.
 
-![Curseur de température](images/temperature-slider.png)
+![Humidity slider](images/humidity-slider.png)
 
 **Remarque :** Tu te demandes peut-être pourquoi le curseur de température affiche la température sous forme d'un nombre entier, mais le résultat de la mesure de la température est donnée avec des décimales. L'émulateur simule la légère imprécision du capteur réel, de sorte que le résultat de la mesure de la température que tu vois peut être très légèrement supérieure ou inférieure à la valeur que tu as définie avec le curseur.
