@@ -1,12 +1,12 @@
 ## Vis temperaturen
 
-Du kan kombinere din temperaturaflæsning med et billede for også at angive temperaturen på grafisk vis. Du kunne for eksempel vise en snestorm ved kolde temperaturer og en solskinsdag ved varme temperaturer:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Varmt og koldt](images/hot-and-cold.png)
+![Varmt og koldt](images/wet-dry.png)
 
 \--- opgave \---
 
-I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin. I vores eksempler anvender vi hvid (`w`), gul (`y`), grøn (`g`) og sort/blank (`b`).
+I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin.
 
 ```python
 w = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- opgave \---
 
-Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi billedet `hot` (varmt), hvis temperaturaflæsningen er på 20 grader eller derover, og billedet `cold` (koldt), hvis temperaturen er på under 20 grader.
+Beslut dig derefter for, hvilket billede du vil vise. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- opgave \---
 
-Anvend temperaturskyderen til at indstille en temperatur på emulatoren. Kør dit program, og kontrollér, at det billede, du har valgt for pågældende temperatur, vises korrekt.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 \--- /opgave \---
 
