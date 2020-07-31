@@ -60,14 +60,9 @@
 
 \ * الرجاء ملاحظة أن نموذج التسجيل هذا متاح باللغة الإنجليزية فقط.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+تتضمن الحقول في النموذج: <0 /> اسم المعلم / المرشد <0 /> اسم الفريق <0 /> عدد أعضاء الفريق <0 /> أسماء وأعمار أعضاء الفريق <0 /> في اي لغة وصلت إلى إرشادات Mission Zero؟
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
++ سيتم إنشاء حساب Trinket لك (إذا لم يكن لديك بالفعل حساب أو لم تقم بتسجيل الدخول). يمكنك إنشاء حساب واحد لكل عنوان بريد إلكتروني. يُخصص لكل حساب **كود الفصل الدراسي** الخاص به، ولذا ستحتاج إلى إعلام فريقك/فرقك بكود فصلك الدراسي عندما تكون برامجهم جاهز للإرسال.
 
 + اعرض كود فصلك الدراسي في مكان مرئي، على سبيل المثال على سبورة بيضاء أو باستخدام جهاز بروجيكتور، وابدأ النشاط.
     
