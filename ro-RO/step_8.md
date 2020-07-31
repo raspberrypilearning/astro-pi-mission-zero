@@ -6,7 +6,7 @@ Există câteva reguli pe care codul tău trebuie să le respecte, astfel încâ
 
 1. Măsoară temperatura
 2. Aprinde LED-urile
-3. Asigură-te că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. Dacă ai o buclă `while True` în codul tău, va trebui să apeşi butonul **Stop** pentru a depăși această regulă.
+3. Asigură-te că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 De asemenea, asigură-te că ai îndeplinit următoarele criterii:
 
