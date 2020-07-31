@@ -8,7 +8,7 @@ The Astro Pi measures the humidity in the ISS in percentage water concentration 
 
 O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului de la bordul ISS, informându-i astfel că temperatura la bordul stației spațiale se află într-un interval normal, fapt ce îi va liniști.
 
-[[[generic-theory-what-is-humidity]]]
+[generic-theory-what-is-humidity]
 
 \--- task \---
 
@@ -24,7 +24,7 @@ temp = sense.temperature
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
 
 ```python
 temp = round( sense.temperature, 1 )
