@@ -24,7 +24,7 @@ temp = sense.temperature
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Μπορείτε να στρογγυλοποιήσετε την τιμή σε οποιονδήποτε αριθμό δεκαδικών ψηφίων. Στο παρακάτω παράδειγμα, κάνουμε στρογγυλοποίηση σε ένα δεκαδικό ψηφίο, αλλά αν επιθυμείτε κάποιο διαφορετικό επίπεδο ακρίβειας, αλλάξτε το νούμερο `1` στον αριθμό των δεκαδικών ψηφίων που θέλετε να διατηρήσετε.
 
 ```python
 temp = round( sense.temperature, 1 )
