@@ -8,7 +8,7 @@ O programa completo irá ser executado a partir do espaço na Estação Espacial
 
 ### O que vais fazer
 
-Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para executar o programa e vê-lo em ação. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para executar o programa e vê-lo em ação. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para
 
 ## title: O que vais aprender
 
-Vais aprender sobre a unidade Astro Pi e como controlá-la, incluindo como:
+Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
 
 + exibir mensagens e cores
 + criar imagens
@@ -61,21 +61,13 @@ Será necessário registar-se para o desafio Mission Zero para permitir que a su
 \ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
 The fields on the form include:  
-(Os campos do formulário incluem:  
-) Teacher/Mentor name  
-(Nome do Professor/Mentor  
-) Teacher/Mentor email address  
-( Endereço email do Professor/Mentor  
-) Teacher/Mentor phone number  
-(Número de telefone do Professor/Mentor  
-) Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.)  
-(Tipo de Instituiçāo (e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
-) Organisation name  
-(Nome da instituiçāo  
-) Organisation address  
-(Endereço da instituiçāo<0/>) Organisation city<0/> (Cidade da instuiçāo<0/>) Organisation country<0/> (País da instituiçāo<0/>) Organisation postal code<0/>(Código postal da instituiçāo<0/>) Team name<0/>( Nome da Equipa<0/>) Number of team members<0/>( Número de membros na equipa<0/>) Names and ages of team members<0/>( Nomes e idades dos membros da equipa<0/>) In which language did you access the Mission Zero guidelines? ( Em que língua obtiveste as instruções da Mission Zero?)
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Será criada uma conta para ti. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
 
 + Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
     
