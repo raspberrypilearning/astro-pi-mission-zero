@@ -1,12 +1,12 @@
-## Kuva temperatuur
+## Õhutemperatuuri kuvamine
 
-Võid õhutemperatuuri mõõtmise tulemust kombineerida pildiga, et näidata õhutemperatuuri ka graafiliselt. Näiteks võid külma õhutemperatuuri korral näidata lumetormi ja kuuma õhutemperatuuri korral päikesepaistelist päeva:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Kuum ja külm](images/hot-and-cold.png)
+![Kuum ja külm](images/wet-dry.png)
 
 \--- task \---
 
-Oma programmi lõpus lisa rohkem värvimuutujaid värvide jaoks, mida tahad oma piltidel kasutada. Võimalik, et oled mõned juba eelmises etapis määranud. Meie näites kasutatakse valget (`w`), kollast (`y`), rohelist (`g`) ja musta/tühja (`b`).
+Oma programmi lõpus lisa rohkem värvimuutujaid värvide jaoks, mida tahad oma piltidel kasutada. Võimalik, et oled mõned juba eelmises etapis määranud.
 
 ```python
 w = (255, 255, 255)
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Nüüd otsusta, millist pilti kuvada. Selle näite jaoks kuvatakse `hot` pilti, kui mõõdetav õhutemperatuur on 20 kraadi või rohkem ja `cold` pilti, kui õhutemperatuur on alla 20 kraadi.
+Nüüd otsusta, millist pilti kuvada. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Õhutemperatuuri määramiseks emulaatoril kasuta temperatuuri liugurit. Käivita oma programm ja kontrolli, et sinu poolt selle õhutemperatuuri jaoks valitud pilti kuvatakse korrektselt.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 \--- /task \---
 
