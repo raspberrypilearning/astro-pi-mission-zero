@@ -6,7 +6,7 @@ On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lä
 
 1. Lue lämpötila
 2. Sytytä LEDit
-3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. Jos koodissasi on silmukka `while True`, sinun on painettava painiketta **Stop** tämän säännön ohittamiseksi.
+3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
