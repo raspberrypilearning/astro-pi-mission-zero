@@ -8,7 +8,7 @@ Programul tău finalizat va fi rulat în spațiu pe Stația Spațială Internaț
 
 ### Ce vei face
 
-Iată un exemplu al tipului de program pe care l-ai putea face. Dă click pe **Run** pentru a-l vedea în acțiune. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Iată un exemplu al tipului de program pe care l-ai putea face. Dă click pe **Run** pentru a-l vedea în acțiune. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Iată un exemplu al tipului de program pe care l-ai putea face. Dă click pe **R
 
 ## title: Ce vei învăța
 
-Vei învăța despre unitatea AstroPi și cum să o controlezi, inclusiv cum să:
+Acest proiect acoperă elemente din următoarele componente ale curriculumului [Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
 
 + afișezi mesaje și culori
 + creezi imagini
@@ -48,11 +48,11 @@ Acest proiect acoperă elemente din următoarele componente ale curriculumului [
 
 ## title: Note pentru profesori și mentori
 
-Această activitate poate fi terminată într-o după-amiază. Organizează-ți elevii în echipe de patru sau mai puțini, și lasă-ne să-i ghidăm să scrie un scurt program în Python pentru a afișa un mesaj personal și temperatura aerului pe Astro Pi.
+Această activitate poate fi terminată într-o după-amiază. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Citește [documentul privind instrucțiunile oficiale](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pentru Mission Zero.
 
-Va trebui să te înregistrezi pentru provocarea Mission Zero pentru a permite echipei/echipelor tale să participe.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Accesează pagina cu [emulatorul Trinket pentru Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,22 +60,14 @@ Va trebui să te înregistrezi pentru provocarea Mission Zero pentru a permite e
 
 \* Reține te rog că formularul de înregistrare este disponibil doar în engleză.
 
-Câmpurile din formular includ:  
-Teacher/Mentor name (Numele profesorului/mentorului)  
-Teacher/Mentor email address (Email-ul profesorului/mentorului)  
-Teacher/Mentor phone number (Numărul de telefon al profesorului/mentorului)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Tipul organizației (de ex. școală primară, gimnazială, bibliotecă, Code Club, CoderDojo etc.))  
-Organisation name (Numele organizației)  
-Organisation address (Adresa organizației)  
-Organisation city (Orașul organizației)  
-Organisation country (Țara organizației)  
-Organisation postal code (Codul poștal al organizației)  
-Team name (Numele echipei)  
-Number of team members (Numărul de membri ai echipei)  
-Names and ages of team members (Numele și vârsta membrilor echipei)  
-In which language did you access the Mission Zero guidelines? (În ce limbă ai accesat instrucțiunile pentru Mission Zero?)
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Va fi creat un cont pentru tine. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și trimită programele.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Afișează codul de clasă undeva vizibil, cum ar fi pe o tablă albă sau utilizând un proiector, iar mai apoi poți începe activitatea.
     
