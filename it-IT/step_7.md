@@ -1,12 +1,12 @@
 ## Mostrate la temperatura
 
-Potete anche combinare la lettura della temperatura con un’immagine per indicare la temperatura graficamente. Ad esempio, potreste visualizzare una nevicata per indicare temperature fredde e una giornata di sole per indicare le temperature calde.
+Potete anche combinare la lettura della temperatura con un’immagine per indicare la temperatura graficamente. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Caldo e freddo](images/hot-and-cold.png)
+![Caldo e freddo](images/wet-dry.png)
 
 \--- task \---
 
-Alla fine del programma create altre variabili di colore per gli altri colori che volete usare nelle vostre immagini. Potreste averne già definiti alcuni in un passo precedente. Nei nostri esempi useremo il bianco (`w`), il giallo (`y`), il verde (`g`) e il nero (`b`).
+Alla fine del programma create altre variabili di colore per gli altri colori che volete usare nelle vostre immagini. Potreste averne già definiti alcuni in un passo precedente.
 
 ```python
 w = (255, 255, 255)
