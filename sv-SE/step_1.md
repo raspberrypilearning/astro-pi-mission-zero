@@ -8,7 +8,7 @@ Ditt färdiga program kommer att köras på den internationella rymdstationen (I
 
 ### Vad du kommer att göra
 
-Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) fö
 
 ## title: Vad du kommer att lära dig
 
-Du kommer att lära dig om Astro Pi enheten och hur man styr den, inklusive hur man:
+Det här projektet omfattar element från följande delar av [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + visar meddelanden och färger
 + skapar bilder
@@ -48,11 +48,11 @@ Det här projektet omfattar element från följande delar av [Raspberry Pi Digit
 
 ## title: Noteringar för lärare och mentorer
 
-Denna aktivitet kan avslutas på en eftermiddag. Organisera dina elever i lag med maximalt fyra personer, och låt oss leda dem när de skriver ett kort program i Python för att visa ett personligt meddelande och lufttemperaturen på Astro Pi.
+Denna aktivitet kan avslutas på en eftermiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Läs [dokumentet med de officiella riktlinjerna](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} för Mission Zero.
 
-Du måste registrera dig för Mission Zero utmaningen för att dina lag ska kunna delta.
+You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
 + Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,9 +60,14 @@ Du måste registrera dig för Mission Zero utmaningen för att dina lag ska kunn
 
 \ * Observera att detta registreringsformulär endast finns på engelska.
 
-Fälten på formuläret inkluderar: <0 /> Lärare/mentor namn <0 /> Lärare/mentor e-postadress <0 /> Lärare/mentor telefonnummer <0 /> Organisationstyp (t.ex. grundskola, gymnasium, bibliotek, Code Club, CoderDojo, mm.) <0 /> Organisationsnamn <0 /> Organisationsadress <0 /> Organisationsstad <0 /> Organisationsland <0 /> Organisationens postnummer <0 /> > Lagnamn <0 /> Antal lagmedlemmar <0 /> Lagmedlemmarnas namn och åldrar <0 /> På vilket språk har du tillgång till riktlinjerna för Mission Zero?
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Ett konto kommer att skapas åt dig. Varje konto har sin egen **klassrumskod**, och du måste berätta för dina lag vilken din kod är när de är redo att skicka in sina program.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
     
