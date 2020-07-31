@@ -8,7 +8,7 @@ Dein fertiges Programm wird im Weltraum auf der Internationalen Raumstation (ISS
 
 ### Was du machen wirst
 
-Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf **Run** (Ausführen), um es in Aktion zu sehen. <iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf **Run** (Ausführen), um es in Aktion zu sehen. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,7 +16,7 @@ Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf 
 
 ## title: Was du lernen wirst
 
-Du wirst mehr über den Astro Pi erfahren und wie du ihn steuern kannst, einschließlich:
+Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Lehrplans](http://rpf.io/curriculum){:target="_blank"}:
 
 + Anzeige von Nachrichten und Farben
 + Erstellung von Bildern
@@ -60,22 +60,14 @@ Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre 
 
 \* Bitte beachten Sie, dass das Registrierungs-Formular nur auf Englisch verfügbar ist.
 
-Die Felder in dem Formular enthalten:  
-Teacher/Mentor name (Name des Lehrers/Mentors)  
-Teacher/Mentor email address (E-Mail-Adresse des Lehrers/Mentors)  
-Teacher/Mentor phone number (Telefonnummer des Lehrers/Mentors)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Art der Organisation (zum Beispiel Grundschule, weiterführende Schule, Bibliothek, Code Club, CoderDojo, u.ä.))  
-Organisation name (Name der Organisation)  
-Organisation address (Adresse der Organisation)  
-Organisation city (Stadt der Organisation)  
-Organisation country (Land der Organisation)  
-Organisation postal code (Postleitzahl der Organisation)  
-Team name (Name des Teams)  
-Number of team members (Anzahl der Teammitglieder)  
-Names and ages of team members (Namen und Alter der Teammitglieder)  
-In which language did you access the Mission Zero guidelines? (In welcher Sprache haben Sie auf die Mission Zero Richtlinien zugegriffen?)
+The fields on the form include:  
+Teacher/mentor name  
+Team name  
+Number of team members  
+Names and ages of team members  
+In which language did you access the Mission Zero guidelines?
 
-+ Ein Konto wird für Sie erstellt. Jedes Konto hat seinen eigenen **Klassencode** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
++ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Jedes Konto hat seinen eigenen **Klassencode** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
 
 + Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Tafel oder mit einem Projektor, und beginnen Sie mit der Aktivität.
     
