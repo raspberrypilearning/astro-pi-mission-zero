@@ -4,8 +4,8 @@ There are a few rules your code needs to follow so that you can submit it to be 
 
 ![Validation](images/validation.png)
 
-1. Take a humidity reading
-1. Light up the LEDs
+1. Take a humidity reading.
+1. Light up the LEDs.
 1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
 Also make sure you have met the following criteria:

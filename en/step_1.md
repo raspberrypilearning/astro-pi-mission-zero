@@ -22,10 +22,10 @@ Here is an example of the kind of program you could make. Click **Run** to see i
 title: What you will learn
 ---
 
-You will learn about the AstroPi unit and how to control an it, including how to:
-+ display messages and colors
-+ create images
-+ measure the humidity using a Sense HAT
+You will learn about the Astro Pi unit and how to control an it, including how to:
++ Display messages and colours
++ Create images
++ Measure the humidity using a Sense HAT
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -68,7 +68,7 @@ You will need to register for the Mission Zero challenge to allow your team(s) t
 \* Please note that this registration form is available in English only.  
 
 The fields on the form include:  
-Teacher/Mentor name   
+Teacher/mentor name   
 Team name  
 Number of team members  
 Names and ages of team members  
