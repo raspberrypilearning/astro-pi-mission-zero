@@ -1,8 +1,8 @@
-## Vis temperaturen
+## Vis luftfugtigheden
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Du kan kombinere din fugtlæsning med et billede for også at indikere fugtigheden grafisk. For eksempel kan du vise et hav for høj luftfugtighed og en ørken for lav luftfugtighed:
 
-![Varmt og koldt](images/wet-dry.png)
+![Våd og tør](images/wet-dry.png)
 
 \--- opgave \---
 
@@ -60,11 +60,11 @@ temp = sense.temperature
 
 \--- opgave \---
 
-Beslut dig derefter for, hvilket billede du vil vise. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
+Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi ` våd ` billede, hvis luftfugtigheden er 20% eller derover, og ` tør ` billede, hvis luftfugtigheden er under 20%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
+temp = sense.humidity
+if temp >= 40:
     sense.set_pixels(hot)
 else:
     sense.set_pixels(cold)
@@ -74,7 +74,7 @@ else:
 
 \--- opgave \---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Brug fugtighedsskyderen til at indstille en fugtighed på emulatoren. Kør dit program, og kontroller, at det billede, du har valgt til den målte luftfugtighed, vises korrekt.
 
 \--- /opgave \---
 
