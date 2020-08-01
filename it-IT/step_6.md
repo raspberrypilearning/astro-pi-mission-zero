@@ -40,7 +40,7 @@ Per visualizzare la temperatura attuale come messaggio scorrevole sul display, a
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro Pi possa visualizzarla.
 
 \--- /task \---
 
@@ -56,6 +56,6 @@ sense.show_message( "It is " + str(temp) + " degrees" )
 
 In realtà, il vero Astro Pi misurerà la temperatura effettiva intorno ad esso, ma voi, con l’emulatore Sense HAT, potete simulare cambiamenti di temperatura e provare il corretto funzionamento del codice semplicemente spostando il cursore della temperatura.
 
-![Humidity slider](images/humidity-slider.png)
+![Cursore dell'umidità](images/humidity-slider.png)
 
 **Nota:** Potreste chiedervi come mai il cursore della temperatura visualizza la temperatura come un numero intero, ma la lettura ottenuta è un numero decimale. L’emulatore simula anche una leggera imprecisione che è presente sul sensore reale. Quindi la misura della temperatura che vedete potrebbe essere leggermente superiore o inferiore al valore impostato con il cursore.
