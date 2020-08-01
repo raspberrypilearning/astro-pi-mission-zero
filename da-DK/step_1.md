@@ -1,6 +1,6 @@
 ## Introduktion
 
-Pift hverdagsrutinen op for astronauterne på den internationale rumstation ved at vise dem en besked og den omgivende lufttemperatur ombord ved hjælp af Astro Pi-computerens Sense HAT.
+Lys op astronauternes daglige rutine på International Space Station ved at vise dem en besked og den relative luftfugtighed ombord ved hjælp af Astro Pi-computerens Sense HAT.
 
 Du bruger online Sense HAT-emulatoren til at oprette dit program, så der kræves ingen ekstra hardware - alt gøres i en webbrowser.
 
@@ -16,11 +16,11 @@ Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør
 
 ## titel: Du kommer til at lære følgende
 
-Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Du kommer til at lære om AstroPi-enheden og styringen af den, herunder hvordan du:
 
-+ vis beskeder og farver
-+ opret billeder
-+ mål temperaturen
++ Vis beskeder og farver
++ Lav billede
++ Mål fugtigheden ved hjælp af en Sense HAT
 
 Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -54,7 +54,7 @@ Læs [dokumentet med officielle retningslinjer](https://astro-pi.org/wp-content/
 
 Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team/s mulighed for at deltage.
 
-+ Gå til [Mission Zero-siden for Trinket-emulatoren](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Gå til siden [ Trinket emulator Mission Zero side ](https://trinket.io/mission-zero) {: Target = "_ blank"}.
 
 + Udfyld formularen, og klik på **Submit**\*.
 
