@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 اضغط على زر **Run**(تشغيل) وشاهد تمرير الرسالة `Astro Pi` عبر شاشة العرض LED.
 
-![لعرض كود الرسالة، انقر run (تشغيل)](images/show-message-code-annotated.PNG)
+![لعرض رمز الرسالة، انقر run (تشغيل)](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
@@ -69,6 +69,6 @@ sense.show_message("Astro Pi")
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-السرعة الافتراضية للرسالة هي `0.1`. يُزيد تصغير الرقم من سرعة تمرير الرسالة ويُبطئ تكبير الرقم من سرعة تمريرها.
+السرعة الافتراضية للرسالة هي `0.1`. تصغير الرقم يزيد من سرعة تمرير الرسالة، وتكبير الرقم يبطى من سرعة تمرير الرسالة.
 
 \--- /task \---
