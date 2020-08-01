@@ -1,6 +1,6 @@
 ## Mostrate la temperatura
 
-Potete anche combinare la lettura della temperatura con un’immagine per indicare la temperatura graficamente. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Potete anche combinare la lettura della temperatura con un’immagine per indicare la temperatura graficamente. Ad esempio, potresti visualizzare un oceano per alta umidità e un deserto per bassa umidità:
 
 ![Caldo e freddo](images/wet-dry.png)
 
