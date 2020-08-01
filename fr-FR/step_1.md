@@ -16,7 +16,7 @@ Voici un exemple du type de programme que tu peux créer. Clique sur **Run** (Ex
 
 ## title: Ce que tu vas apprendre
 
-Tu découvriras l'unité Astro Pi et apprendre à l'utiliser et à faire les actions suivantes :
+Tu découvriras l'unité Astro Pi et apprendras à l'utiliser et à faire les actions suivantes :
 
 + afficher des messages et ajouter des couleurs
 + créer des images
