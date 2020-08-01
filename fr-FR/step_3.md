@@ -1,4 +1,4 @@
-## Affiche un message
+## Afficher un message
 
 \--- task \---
 
