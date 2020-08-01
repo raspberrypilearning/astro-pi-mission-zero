@@ -4,15 +4,15 @@ Temperatursensoren i Astro Pi kan måle temperaturen i luften omkring den og er 
 
 ![Besked om temperaturen](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi måler fugtigheden i ISS i procent af vandkoncentrationen i luften.
 
 En del af din mission går ud på at bidrage til besætningens dagligdag ombord på ISS, så det vil berolige dem at få at vide, at temperaturen ombord på rumstationen ligger inden for normalområdet.
 
 [[[generic-theory-what-is-humidity]]]
 
-\--- task \---
+\--- opgave \---
 
-Add this code to take a humidity reading:
+Tilføj denne kode for at foretage en temperaturaflæsning:
 
 ```python
 temp = sense.temperature
@@ -20,11 +20,11 @@ temp = sense.temperature
 
 \--- /collapse \---
 
-\--- /task \---
+\--- /opgave \---
 
-\--- task \---
+\--- opgave \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
+Temperaturen registreres meget præcist, dvs., at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
 
 ```python
 temp = round( sense.temperature, 1 )
