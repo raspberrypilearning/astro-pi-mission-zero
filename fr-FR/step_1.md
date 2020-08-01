@@ -2,7 +2,7 @@
 
 Égaye la routine quotidienne des astronautes de la station spatiale internationale en leur affichant un message et l'humidité relative à bord, à l’aide du Sense HAT de l’ordinateur Astro Pi.
 
-Tu va utiliser l'émulateur Sense HAT en ligne pour créer ton programme, aucun matériel supplémentaire n'est nécessaire - tout est fait dans un navigateur Web.
+Tu utiliseras l'émulateur en ligne Sense HAT pour créer ton programme, aucun matériel supplémentaire n'est nécessaire - tout se fait dans un navigateur Web.
 
 Ton programme achevé sera exécuté dans l'espace dans la Station spatiale internationale (ISS) ! Tu recevras aussi un certificat spécial indiquant exactement où se trouvait l'ISS lors de l'exécution de ton programme !
 
