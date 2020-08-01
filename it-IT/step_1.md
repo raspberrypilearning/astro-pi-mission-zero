@@ -60,14 +60,9 @@ Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete pri
 
 \ * Si informa che questo modulo di registrazione è disponibile solo in lingua inglese.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+I campi del modulo includono: <0 /> Nome dell'insegnante/mentore <0 /> Nome del team <0 /> Numero dei membri del team <0 /> Nomi ed età dei membri del team <0 /> In che lingua hai avuto accesso alle linee guida di Mission Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Ad ogni account viene assegnato uno specifico **codice di classe** che i vostri team dovranno utilizzare quando sono pronti a inviare il loro programma.
++ Verrà creato un account Trinket per te (se non ne hai già uno o non hai effettuato l'accesso). Puoi creare un solo account per indirizzo email. Ad ogni account viene assegnato uno specifico **codice di classe** che i vostri team dovranno utilizzare quando sono pronti a inviare il loro programma.
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
     
