@@ -1,21 +1,21 @@
-## Măsoară temperatura
+## Măsoară umiditatea
 
-Senzorul de temperatură din Astro Pi poate măsura temperatura aerului în jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
+Senzorul de umiditate din Astro Pi poate măsura temperatura aerului în jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
 
-![Mesaj despre temperatură](images/degrees-message.gif)
+![Mesaj despre umiditate](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi măsoară umiditatea în cadrul ISS în procentajul concentrației de apă din aer.
 
-O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului de la bordul ISS, informându-i astfel că temperatura la bordul stației spațiale se află într-un interval normal, fapt ce îi va liniști.
+O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului de la bordul ISS, informându-i astfel că umiditatea la bordul stației spațiale se află într-un interval normal, fapt ce îi va liniști.
 
-[generic-theory-what-is-humidity]
+[[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Add this code to take a humidity reading:
+Adaugă acest cod pentru a măsura umiditatea:
 
 ```python
-temp = sense.temperature
+temp = sense.humidity
 ```
 
 \--- /collapse \---
@@ -24,38 +24,38 @@ temp = sense.temperature
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
+Umiditatea este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
 
 ```python
-temp = round( sense.temperature, 1 )
+temp = round( sense.humidity 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To display the current humidity as a scrolling message on the display, add this line of code:
+Pentru a afișa umiditatea curentă ca mesaj derulant pe afișaj, adaugă această linie de cod:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+Partea `str()` convertește umiditatea dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
 
 \--- /task \---
 
 \--- task \---
 
-Partea `str()` convertește temperatura dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
+De asemenea, poți afișa umiditatea ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "Umiditatea este de " + str(temp) + "%" )
 ```
 
 \--- /task \---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+Un Astro Pi real va măsura umiditatea din jurul său, dar poți muta sliderul de umiditate de pe emulatorul Sense HAT pentru a simula schimbări de umiditate și pentru a testa codul tău.
 
-![Humidity slider](images/humidity-slider.png)
+![Slider-ul de umiditate](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Notă:** S-ar putea să te întrebi de ce sliderul de umiditate afișează umiditatea ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează o ușoară inexactitate a senzorului real, astfel încât umiditatea măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul sliderului.
