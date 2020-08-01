@@ -6,7 +6,7 @@ Le capteur d'humidité de l'Astro Pi peut mesurer l'humidité de l'air qui l'ent
 
 L'Astro Pi mesure l'humidité dans l'ISS en pourcentage de concentration d'eau dans l'air.
 
-Une partie de ta mission est de contribuer à la vie quotidienne de l'équipage à bord de l'ISS, afin de leur faire savoir que l'humidité à bord de la station spatiale est dans les limites normales les rassurera.
+Une partie de ta mission est de contribuer à la vie quotidienne de l'équipage à bord de l'ISS, afin de leur faire savoir que l'humidité à bord de la station spatiale est dans les limites normales, cela les rassurera.
 
 [[[generic-theory-what-is-humidity]]]
 
