@@ -18,9 +18,9 @@ steps:
   - 
     title: Afișează o imagine
   - 
-    title: Măsoară temperatura
+    title: Măsoară umiditatea
   - 
-    title: Afișează temperatura
+    title: Afișează umiditatea
   - 
     title: Trimite programul tău
   - 
