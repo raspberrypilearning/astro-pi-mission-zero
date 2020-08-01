@@ -4,7 +4,7 @@ Il sensore di temperatura dell’Astro Pi può misurare la temperatura dell’ar
 
 ![Messaggio sulla temperatura](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+L'Astro Pi misura l'umidità nell'ISS in percentuale di concentrazione d'acqua nell'aria.
 
 Parte della vostra missione è contribuire positivamente alla vita quotidiana dell’equipaggio a bordo della ISS. Il far saper loro che la temperatura a bordo della stazione spaziale si trova fra i valori normali li rassicurerà certamente.
 
