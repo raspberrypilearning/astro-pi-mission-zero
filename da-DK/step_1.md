@@ -48,11 +48,11 @@ Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital M
 
 ## titel: Bemærkninger til lærere og mentorer
 
-Denne aktivitet kan gennemføres på en eftermiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Denne aktivitet kan gennemføres på en eftermiddag. Organiser dine studerende i teams på op til fire, og lad os guide dem gennem at skrive et kort Python-program til at vise en personlig besked og lufttemperaturen på Astro Pi.
 
 Læs [dokumentet med officielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team/s mulighed for at deltage.
 
 + Gå til [Mission Zero-siden for Trinket-emulatoren](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,14 +60,9 @@ You will need to register for the Mission Zero challenge to allow your team(s) t
 
 \ * Bemærk, at denne tilmeldingsformular kun er tilgængelig på engelsk.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Felterne på formularen inkluderer: <0 /> Lærer / mentor navn <0 /> Teamnavn <0 /> Antal holdmedlemmer <0 /> Navn og aldre på teammedlemmer <0 /> På hvilket sprog har du adgang til Mission Zeros retningslinjer?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Der oprettes en Trinket-konto til dig (hvis du ikke allerede har en, eller du ikke er logget ind). Du kan oprette en konto pr. E-mail-adresse. Hver konto har sin egen **klasseværelseskode**, og du skal fortælle dit/dine team(s), hvad jeres er, når de er klar til at indsende deres programmer.
 
 + Vis din klasseværelseskode et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
     
