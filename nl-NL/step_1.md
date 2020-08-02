@@ -48,26 +48,26 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ## title: Notities voor leraren en mentoren
 
-Deze activiteit kan in een middag worden voltooid. Groepeer de studenten in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchttemperatuur op de Astro Pi te laten zien.
+Deze activiteit kan in een middag worden voltooid. Groepeer de leerlingen in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchtvochtigheid op de Astro Pi te laten zien.
 
 Lees de [officiële richtlijnen](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero door.
 
-Je moet je aanmelden voor de Mission Zero-uitdaging zodat uw team(s) deel kan/kunnen nemen.
+Je moet je aanmelden voor de Mission Zero-uitdaging zodat je team(s) deel kan/kunnen nemen.
 
-+ Ga naar de [Trinket emulator Mission Zero-pagina](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Ga naar de [Trinket emulator Mission Zero-pagina](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Vul het formulier in en klik op **Submit (Verzenden)**\*.
 
 \* Let op dat dit registratieformulier alleen in het Engels beschikbaar is.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+De velden op het formulier bevatten:  
+Naam leraar/mentor  
+Teamnaam  
+Aantal teamleden  
+Namen en leeftijden van teamlede   
+In welke taal heb je toegang gekregen tot de Mission Zero-richtlijnen?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
++ Er wordt een Trinket-account voor je aangemaakt (als je er nog geen hebt, of je bent niet ingelogd). Je kunt één account aanmaken per e-mailadres. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
 
 + Plaats je klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
     
