@@ -6,7 +6,7 @@ Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om
 
 1. Neem een luchtvochtigheidsmeting.
 2. Verlicht de LED's.
-3. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Als je een `while True` (zolang True) lus in je code hebt, moet je op de **Stop** knop drukken om deze regel te passeren.
+3. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Je zou geen `while True` lussen moeten zetten in je code, omdat dit je code laat doordraaien en voorkomt dat deze eindigt.
 
 Zorg er ook voor dat je aan de volgende criteria voldoet:
 
@@ -19,7 +19,7 @@ Zodra de regels allemaal groen zijn, ben je klaar om te verzenden.
 
 \--- task \---
 
-Voer je klascode in het vak onderaan in - je leerkracht vertelt je wat je code is.
+Voer je klascode in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
 
 **Opmerkingen voor leerkrachten of mentoren** zijn te vinden in de [Inleiding](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
 
