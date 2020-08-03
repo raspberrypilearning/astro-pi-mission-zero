@@ -62,7 +62,7 @@ temp = sense.humidity
 
 \--- task \---
 
-Acum decide ce imagine vrei să se afișeze. Pentru acest exemplu, vom afișa imaginea `wet` (umed) dacă valoarea citită a umidității este de 20% sau mai mare și imaginea `dry` (uscat) dacă umiditatea este sub 20%.
+Acum decide ce imagine vrei să se afișeze. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 humid = sense.humidity
