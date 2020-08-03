@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Ora decidete quale immagine mostrare. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `hot` se la temperatura misurata è uguale o superiore a 20 gradi e l’immagine `cold` se la temperatura misurata è inferiore a 20 gradi.
 
 ```python
 temp = sense.temperature
