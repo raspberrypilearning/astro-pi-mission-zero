@@ -62,7 +62,7 @@ humid = sense.humidity
 
 \--- task \---
 
-Bepaal nu welke afbeelding moet worden weergegeven. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we de `wet` (natte) afbeelding weergeven als de luchtvochtigheidswaarde 40 % of meer is, en de `dry` (droge) afbeelding als de luchtvochtigheid lager is dan 40 %.
 
 ```python
 humid = sense.humidity
