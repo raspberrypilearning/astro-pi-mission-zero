@@ -8,9 +8,9 @@ Als alternatief kun je een van onze andere Astro Pi-projecten proberen:
 
 + Leer [meer over de Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
 
-+ Maak een paar mooie [willekeurige sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op de LED-display van de Sense HAT
++ Maak een paar mooie [willekeurige fonkelingen](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op de LED-display van de Sense HAT
 
-+ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_ blank"} spel
++ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} spel
 
 + Daag je vrienden uit met een [marmeren doolhof](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spel
 
