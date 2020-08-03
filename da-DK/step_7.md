@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- opgave \---
 
-Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi ` våd ` billede, hvis luftfugtigheden er 20% eller derover, og ` tør ` billede, hvis luftfugtigheden er under 20%.
+Beslut dig derefter for, hvilket billede du vil vise. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 temp = sense.humidity
