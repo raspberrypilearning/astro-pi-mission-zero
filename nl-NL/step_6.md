@@ -1,6 +1,6 @@
 ## Meet de luchtvochtigheid
 
-De luchtvochtigheidssensor in de Astro Pi kan de temperatuur van de lucht eromheen meten, een handige functie om je te helpen gegevens te verzamelen over de omstandigheden in de ruimte.
+De luchtvochtigheidssensor in de Astro Pi kan de vochtigheid van de lucht eromheen meten, een handige functie om je te helpen gegevens te verzamelen over de omstandigheden in de ruimte.
 
 ![Bericht over de luchtvochtigheid](images/degrees-message.gif)
 
