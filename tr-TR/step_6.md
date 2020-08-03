@@ -49,7 +49,7 @@ The `str()` part converts the humidity from a number into text so that the Astro
 You can also display the humidity as part of another message by joining the parts of your message together with a `+`.
 
 ```python
-sense.show_message( "It is " + str(humid) + " degrees" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 \--- /görev \---
