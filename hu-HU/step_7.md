@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Most döntsd el, melyik képet szeretnéd megjeleníteni. For this example, we will display the `wet` image if the humidity reading is 20% or above, and the `dry` image if the humidity is below 20%.
+Most döntsd el, melyik képet szeretnéd megjeleníteni. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 temp = sense.temperature
