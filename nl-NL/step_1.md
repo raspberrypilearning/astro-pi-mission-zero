@@ -67,7 +67,7 @@ Aantal teamleden
 Namen en leeftijden van teamleden   
 In welke taal heb je toegang gekregen tot de Mission Zero-richtlijnen?
 
-+ Er wordt een Trinket-account voor je aangemaakt (als je er nog geen hebt, of je bent niet ingelogd). Je kunt één account aanmaken per e-mailadres. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
++ Er wordt een Trinket-account voor je aangemaakt (als je er nog geen hebt, of je bent niet ingelogd). Je kunt één account aanmaken per e-mailadres. Elk account heeft zijn eigen **klassencode**, en je moet je team(s) vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
 
 + Plaats je klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
     
