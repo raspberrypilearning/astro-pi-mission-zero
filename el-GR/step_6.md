@@ -2,7 +2,7 @@
 
 Ο αισθητήρας θερμοκρασίας στο Astro Pi μπορεί να μετρήσει τη θερμοκρασία του αέρα που τον περιβάλλει, μια χρήσιμη δυνατότητα που σας βοηθά να συλλέξετε δεδομένα για τις διαστημικές συνθήκες.
 
-![Μήνυμα για τη θερμοκρασία](images/degrees-message.gif)
+![Μήνυμα για τη υγρασία](images/degrees-message.gif)
 
 The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
