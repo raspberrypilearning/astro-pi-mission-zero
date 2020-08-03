@@ -1,12 +1,12 @@
 ## Změřte teplotu
 
-The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
+Teplotní snímač v Astru Pi dokáže měřit teplotu okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
 
 ![Zpráva s teplotou](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi měří vlhkost v ISS v procentech koncentrace vody ve vzduchu.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
+Součástí vaší mise je přispívat k každodennímu životu posádky na palubě ISS, dát jim vědět, že vlhkost na palubě vesmírné stanice je v normálním rozsahu je uklidní.
 
 [[[generic-theory-what-is-humidity]]]
 
@@ -49,7 +49,7 @@ sense.show_message( str(temp) )
 To `str()` převádí teplotu z čísla na text, aby ji Astro Pi mohlo zobrazit.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "Je " + str(humid) + " %" )
 ```
 
 \--- /task \---
@@ -58,4 +58,4 @@ Skutečný Astro Pi bude měřit vlhkost kolem sebe, vy můžete posunout posuvn
 
 ![Posuvník vlhkosti](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Poznámka:** Možná se divíte, proč posuvník teploty zobrazuje teplotu jako celé číslo, zatímco měření, které získáte, má desetinná místa. Emulátor simuluje maličkou míru nepřesnosti skutečného snímače, takže měření teploty, které dostanete, může být nepatrně větší nebo menší než hodnota, kterou jste nastavili pomocí posuvníku.
