@@ -49,7 +49,7 @@ Het `str()` gedeelte zet de luchtvochtigheid van een getal om naar tekst, zodat 
 Je kunt de luchtvochtigheid ook weergeven als onderdeel van een ander bericht door de delen van je bericht samen te voegen met een `+`.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "De luchtvochtigheid is " + str(humid) + " %" )
 ```
 
 \--- /task \---
