@@ -49,7 +49,7 @@ La partie `str()` convertit l'humidité d'un nombre en texte afin que l'Astro Pi
 Tu peux également afficher l'humidité dans un autre message en joignant les parties de ton message avec un `+`.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "C'est " + str(humid) + " %" )
 ```
 
 \--- /task \---
