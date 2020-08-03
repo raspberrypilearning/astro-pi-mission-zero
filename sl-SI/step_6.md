@@ -49,7 +49,7 @@ The `str()` part converts the humidity from a number into text so that the Astro
 Del `str()` temperaturo pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 \--- /task \---
