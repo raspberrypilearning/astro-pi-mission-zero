@@ -48,11 +48,11 @@ Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digita
 
 ## title: Poznámky pro učitele a mentory
 
-Tato aktivita se dá stihnout během jednoho odpoledne. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů nejvýš po čtyřech, a nechte na nás, abychom je provedli napsáním krátkého programu v Pythonu, který zobrazí osobní vzkaz a teplotu vzduchu na Astro Pi.
 
 Přečtěte si [dokument s oficiálními instrukcemi](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Aby se vaše týmy mohly zúčastnit, musíte se do Mission Zero zaregistrovat.
 
 + Jděte na [stránku emulátoru Trinket pro Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,14 +60,14 @@ You will need to register for the Mission Zero challenge to allow your team(s) t
 
 \* Povšimněte si prosím, že tento registrační formulář je dostupný pouze v angličtině.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Pole ve formuláři zahrnující:  
+Název učitele/mentora  
+Název týmu  
+Počet členů týmu  
+Jména a věk členů týmu  
+V jakém jazyce máte přístup k pokynům Mission Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte, nebo nejste přihlášeni). Pro každou e-mailovou adresu můžete vytvořit jeden účet. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
     
