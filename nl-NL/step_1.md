@@ -1,6 +1,6 @@
 ## Inleiding
 
-Fleur de dagelijkse routine van de astronauten in het International Space Station op door hen een bericht en de relative luchtvochtigheid aan boord te laten zien met behulp van de Sense HAT van de Astro Pi-computer.
+Fleur de dagelijkse routine van de astronauten in het International Space Station op door hen een bericht en de relatieve luchtvochtigheid aan boord te laten zien met behulp van de Sense HAT van de Astro Pi-computer.
 
 Je gebruikt de online Sense HAT-emulator om je programma te maken, dus er is geen extra hardware nodig - alles gebeurt in een webbrowser.
 
@@ -64,7 +64,7 @@ De velden op het formulier bevatten:
 Naam leraar/mentor  
 Teamnaam  
 Aantal teamleden  
-Namen en leeftijden van teamlede   
+Namen en leeftijden van teamleden   
 In welke taal heb je toegang gekregen tot de Mission Zero-richtlijnen?
 
 + Er wordt een Trinket-account voor je aangemaakt (als je er nog geen hebt, of je bent niet ingelogd). Je kunt één account aanmaken per e-mailadres. Elk account heeft zijn eigen **klascode**, en je moet je team vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
