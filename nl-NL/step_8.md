@@ -19,7 +19,7 @@ Zodra de regels allemaal groen zijn, ben je klaar om te verzenden.
 
 \--- task \---
 
-Voer je klascode in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
+Voer je klassencode in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
 
 **Opmerkingen voor leerkrachten of mentoren** zijn te vinden in de [Inleiding](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
 
