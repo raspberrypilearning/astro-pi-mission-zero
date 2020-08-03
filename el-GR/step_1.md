@@ -16,11 +16,11 @@
 
 ## title: Τι θα μάθεις
 
-Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
+Θα μάθετε σχετικά με τη μονάδα AstroPi και το πώς μπορείτε να την ελέγχετε, συμπεριλαμβανομένων και των εξής:
 
 + πώς να εμφανίζετε μηνύματα και χρώματα
 + πώς να δημιουργείτε εικόνες
-+ μέτρηση της θερμοκρασίας
++ Μετρήστε την υγρασία χρησιμοποιώντας ένα Sense HAT
 
 Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -48,26 +48,21 @@
 
 ## title: Σημειώσεις για εκπαιδευτικούς και συμβούλους (μέντορες)
 
-Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες των τεσσάρων και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και τη θερμοκρασία αέρα στο Astro Pi.
 
 Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} για το Mission Zero.
 
 You will need to register for the Mission Zero challenge to allow your team(s) to participate.
 
-+ Μεταβείτε στη [σελίδα Mission Zero του εξομοιωτή Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Μεταβείτε στη [σελίδα Mission Zero του εξομοιωτή Trinket](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Συμπληρώστε τη φόρμα και κάντε κλικ στο «**Submit**»\*.
 
 \* Παρακαλώ, προσέξτε ότι αυτή η φόρμα εγγραφής είναι διαθέσιμη μόνο στα Αγγλικά.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Τα πεδία της φόρμας περιλαμβάνουν: <0 /> Όνομα δασκάλου / μέντορα <0 /> Όνομα ομάδας <0 /> Αριθμός μελών ομάδας <0 /> Ονόματα και ηλικίες μελών ομάδας <0 /> Στα οποία γλώσσα που έχετε πρόσβαση στις οδηγίες του Mission Zero;
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Θα δημιουργηθεί ένας λογαριασμός Trinket για εσάς (εάν δεν έχετε ήδη λογαριασμό ή δεν έχετε συνδεθεί). Μπορείτε να δημιουργήσετε έναν λογαριασμό ανά διεύθυνση email. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
 + Προβάλλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής και ξεκινήστε τη δραστηριότητα.
     
