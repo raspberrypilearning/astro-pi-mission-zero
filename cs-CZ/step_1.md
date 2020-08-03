@@ -67,7 +67,7 @@ Počet členů týmu
 Jména a věk členů týmu  
 V jakém jazyce máte přístup k pokynům Mission Zero?
 
-+ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte, nebo nejste přihlášeni). Pro každou e-mailovou adresu můžete vytvořit jeden účet. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte, nebo nejste přihlášeni). Pro každou e-mailovou adresu můžete vytvořit jeden účet. Každý účet má svůj **kód třídy**, až budou vaše týmy připravené odeslat své programy, budete jim muset dát ten váš.
 
 + Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
     
