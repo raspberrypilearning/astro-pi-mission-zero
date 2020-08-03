@@ -1,6 +1,6 @@
 ## Zobrazte teplotu
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Naměřenou teplotu můžete zkombinovat s obrázkem, kterým teplotu naznačíte graficky. Můžete například zobrazit oceán pro vysokou vlhkost a poušť pro nízkou vlhkost:
 
 ![Teplo a zima](images/wet-dry.png)
 
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Teď rozhodněte, který obrázek se zobrazí. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Teď rozhodněte, který obrázek se zobrazí. V tomhle příkladu zobrazíme obrázek pro `hot` (teplo) při naměřené teplotě 40 stupňů nebo vyšší a obrázek pro `cold` (zima), když je teplota nižší než 40 stupňů%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Pomocí posuvníku teploty nastavte teplotu na emulátoru. Spusťte svůj program a zkontrolujte, jestli se správně zobrazí obrázek vybraný pro danou teplotu.
 
 \--- /task \---
 
