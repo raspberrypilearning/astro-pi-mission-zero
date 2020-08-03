@@ -24,7 +24,7 @@ Je leert over de Astro Pi-eenheid en hoe je hem bestuurt, inclusief hoe je:
 
 Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [ Gebruik basale programmeerconstructies om eenvoudige programma's te maken ](https://curriculum.raspberrypi.org/programming/creator/) {:target="_ blank"}
++ [Gebruik basale programmeerconstructies om eenvoudige programma's te maken](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -40,7 +40,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ### Software
 
-+ Een webbrowser (bijv. Google Chrome) om [https://trinket.io/mission-zero= ](https://trinket.io/mission-zero){:target="_blank"} te openen
++ Een webbrowser (bijv. Google Chrome) om [https://trinket.io/mission-zero ](https://trinket.io/mission-zero){:target="_blank"} te openen
 
 \--- /collapse \---
 
@@ -71,7 +71,7 @@ In welke taal heb je toegang gekregen tot de Mission Zero-richtlijnen?
 
 + Plaats je klascode op een zichtbare plek, bijvoorbeeld op een whiteboard of met behulp van een projector, en begin met de activiteit.
     
-    We hebben [een afdrukbare handout van twee pagina's gemaakt](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_ blank"} die de belangrijkste punten van Mission Zero behandelt en die studenten en jongeren samen met dit online project kunnen gebruiken.
+    We hebben [een afdrukbare handout van twee pagina's gemaakt](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} die de belangrijkste punten van Mission Zero behandelt en die leerlingen en jongeren samen met dit online project kunnen gebruiken.
 
 \--- /collapse \---
 
