@@ -6,7 +6,7 @@ Aby váš kód byl odeslán a spuštěn na Mezinárodní kosmické stanici, mus�
 
 1. Proveďte měření teploty
 2. Rozsviťte LED diody
-3. Ujistěte se, že váš kód proběhne až do konce, aniž by se vyskytly chyby. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+3. Ujistěte se, že váš kód proběhne až do konce, aniž by se vyskytly chyby. Neměli byste zahrnout žádné `while True ` smyčky ve vašem kódu, protože způsobují, že kódu stále běží a zabrání jeho dokončení.
 
 Také se ujistěte, že jste splnili následující kritéria:
 
