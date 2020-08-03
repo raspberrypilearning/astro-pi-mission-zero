@@ -1,4 +1,4 @@
-## Misurate la temperatura
+## Misurare la temperatura
 
 Il sensore di temperatura dell’Astro Pi può misurare la temperatura dell’aria circostante. Questa funzione è molto utile per raccogliere dati sulle condizioni nello spazio.
 
@@ -49,7 +49,7 @@ L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro 
 La parte `str()` converte il valore della temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "Ci sono " + str(temp) + " gradi" )
 ```
 
 \--- /task \---
