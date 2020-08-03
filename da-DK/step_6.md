@@ -49,7 +49,7 @@ Funktionen `str()` konverterer temperaturen fra et tal til tekst, så Astro Pi k
 Delen `str()` konverterer temperaturen fra et tal til tekst, så Astro Pi kan vise den.
 
 ```python
-sense.show_message( "It is " + str(humid) + " degrees" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 \--- /opgave \---
