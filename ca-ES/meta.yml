@@ -1,7 +1,7 @@
 ---
-title: "Astro Pi: Mission Zero"
+title: "Astro Pi: Αποστολή Μηδέν"
 hero_image: images/banner.png
-description: Prepare for Mission Zero
+description: Προετοιμασία για την Αποστολή Μηδέν
 listed: false
 copyedit: true
 version: 4.0.1
@@ -10,9 +10,9 @@ steps:
   - 
     title: Introducció
   - 
-    title: What is an Astro Pi?
+    title: Τι είναι ένα Άστρο Πι?
   - 
-    title: Display a message
+    title: Εμφάνιση μηνύματος
   - 
     title: Add some colour
   - 
