@@ -4,7 +4,7 @@ Temperatursensorn i Astro Pi kan mäta den omgivande luftens temperatur, en anv�
 
 ![Meddelande om temperaturen](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi mäter luftfuktigheten i ISS i procentuell vattenkoncentration i luften.
 
 En del av ditt uppdrag är att bidra till det dagliga livet för besättningen ombord på ISS, så att låta dem veta att temperaturen ombord på rymdstationen är inom ett normalt område kommer att lugna dem.
 
@@ -12,7 +12,7 @@ En del av ditt uppdrag är att bidra till det dagliga livet för besättningen o
 
 \--- task \---
 
-Add this code to take a humidity reading:
+Lägg till den här koden för att göra en luftfuktighetsavläsning:
 
 ```python
 temp = sense.temperature
@@ -24,7 +24,7 @@ temp = sense.temperature
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan precision, ändra siffran ` 1 ` till antalet decimaler du vill se.
+Luftfuktigheten registreras mycket exakt, dvs det lagrade värdet har ett stort antal decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan precision, ändra siffran ` 1 ` till antalet decimaler du vill se.
 
 ```python
 temp = round( sense.temperature, 1 )
@@ -34,13 +34,13 @@ temp = round( sense.temperature, 1 )
 
 \--- task \---
 
-To display the current humidity as a scrolling message on the display, add this line of code:
+För att visa aktuell luftfuktigheten som ett rullande meddelande på skärmen, lägger du till den här raden kod:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+Delen `str()` omvandlar fuktigheten från ett nummer till text så att Astro Pi kan visa den.
 
 \--- /task \---
 
@@ -54,8 +54,8 @@ sense.show_message ("Det är" + str (humid) + "%")
 
 \--- /task \---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+Den verkliga Astro Pi kommer att mäta luftfuktigheten runt den, men du kan flytta luftfuktighetsreglaget på Sense HAT-emulatorn för att simulera luftfuktighetsförändringar och testa din kod.
 
-![Humidity slider](images/humidity-slider.png)
+![Reglage för fuktighet](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Obs!** Du kanske undrar varför skjutreglaget för luftfuktighet visar luftfuktigheten som ett heltal, men avläsningen du får är ett decimaltal. Emulatorn simulerar den lilla bristen på noggrannhet hos den riktiga sensorn, så skjutreglaget för luftfuktighet som du ser kan vara något större eller mindre än det värde du ställer in med skjutreglaget.
