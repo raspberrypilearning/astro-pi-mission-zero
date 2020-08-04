@@ -1,6 +1,6 @@
 ## Visa temperaturen
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Du kan kombinera din luftfuktighet med en bild för att också indikera luftfuktigheten på ett grafiskt sätt. Till exempel kan du visa ett hav för hög luftfuktighet, och en öken för låg luftfuktighet:
 
 ![Varm och kall](images/wet-dry.png)
 
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Använd luftfuktighetsreglaget för att sätta en luftfuktighet på emulatorn. Kör ditt program och kontrollera att den bild du har valt för den luftfuktigheten visas korrekt.
 
 \--- /task \---
 
