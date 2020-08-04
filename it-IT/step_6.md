@@ -49,7 +49,7 @@ L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro 
 La parte `str()` converte il valore della temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
 
 ```python
-sense.show_message( "Ci sono " + str(temp) + " gradi" )
+sense.show_message( "È al " + str(humid) + " %" )
 ```
 
 \--- /task \---
