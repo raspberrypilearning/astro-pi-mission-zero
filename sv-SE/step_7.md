@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Välj nu vilken bild som ska visas. I det här exemplet visar vi ` våt ` bilden om luftfuktigheten är 40% eller högre och ` torr ` bilden om fuktigheten är under 40%.
+Välj nu vilken bild som ska visas. I det här exemplet visar vi `våt` bilden om luftfuktigheten är 40% eller högre och `torr` bilden om fuktigheten är under 40%.
 
 ```python
 temp = sense.temperature
