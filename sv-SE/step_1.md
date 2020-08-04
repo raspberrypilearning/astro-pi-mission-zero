@@ -48,11 +48,11 @@ Det här projektet omfattar element från följande delar av [Raspberry Pi Digit
 
 ## title: Noteringar för lärare och mentorer
 
-Denna aktivitet kan avslutas på en eftermiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Denna aktivitet kan avslutas på en eftermiddag. Organisera dina elever i lag med maximalt fyra personer, och låt oss leda dem när de skriver ett kort program i Python för att visa ett personligt meddelande och den relativa luftfuktigheten på Astro Pi.
 
 Läs [dokumentet med de officiella riktlinjerna](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} för Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Du måste registrera dig för Mission Zero utmaningen för att dina lag ska kunna delta.
 
 + Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,14 +60,9 @@ You will need to register for the Mission Zero challenge to allow your team(s) t
 
 \ * Observera att detta registreringsformulär endast finns på engelska.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Fälten på formuläret inkluderar: <0 /> Lärare / mentornamn <0 /> Lagnamn <0 /> Antal lagmedlemmar <0 /> Namn och åldrar på lagmedlemmarna <0 /> Vilket språk användes för Mission Zero-riktlinjerna?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Ett Trinket-konto skapas för dig (om du inte redan har ett, eller om du inte är inloggad). Du kan skapa ett konto per e-postadress. Varje konto har sin egen **klassrumskod**, och du måste berätta för dina lag vilken din kod är när de är redo att skicka in sina program.
 
 + Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
     
