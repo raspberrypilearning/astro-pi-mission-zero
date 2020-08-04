@@ -6,7 +6,7 @@ Det finns några regler som din kod måste följa för att du ska kunna skicka d
 
 1. Gör en temperaturavläsning
 2. Tänd lysdioderna
-3. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+3. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. Du bör inte inkludera någon `while True` loopar i din kod eftersom detta kommer förhindra den från att slutföras.
 
 Kontrollera även att följande kriterier är uppfyllda:
 
