@@ -1,6 +1,6 @@
 ## Introduzione
 
-Rallegra la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e la temperatura dell’ambiente a bordo usando il Sense HAT del computer Astro Pi.
+Rallegra la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e il valore di umidità relativa dell’ambiente a bordo usando il Sense HAT del computer Astro Pi.
 
 Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo: viene realizzato tutto in un browser web.
 
