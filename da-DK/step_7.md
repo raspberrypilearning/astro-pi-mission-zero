@@ -50,10 +50,10 @@ cold = [
 
 \--- opgave \---
 
-Tilføj noget kode for at få temperaturen:
+Tilføj noget kode for at få luftfugtigheden:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /opgave \---
@@ -63,8 +63,8 @@ temp = sense.temperature
 Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi ` våd ` billede, hvis luftfugtigheden er 40% eller derover og ` tør ` billede, hvis luftfugtigheden er under 40%.
 
 ```python
-temp = sense.humidity
-if temp >= 40:
+humid = sense.humidity
+if humid >= 40:
     sense.set_pixels(hot)
 else:
     sense.set_pixels(cold)
