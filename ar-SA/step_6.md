@@ -49,7 +49,7 @@ sense.show_message( str(temp) )
 يمكنك أيضا عرض الرطوبة كجزء من رسالة أخرى عن طريق ربط أجزاء رسالتك بواسطة `+`.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
