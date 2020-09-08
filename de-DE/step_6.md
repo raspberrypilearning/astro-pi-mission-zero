@@ -1,61 +1,61 @@
-## Messen der Temperatur
+## Miss die Luftfeuchtigkeit
 
-Der echte Astro Pi misst die Umgebungstemperatur, aber du kannst den Temperaturschieberegler auf dem Sense HAT Emulator bewegen, um Temperaturänderungen zu simulieren und deinen Code zu testen.
+Der Feuchtichkeitssensor im Astro Pi misst die Luftfeuchtigkeit in seiner Umgebung. Das ist nützlich, um Daten über die Bedingungen im All zu sammeln.
 
-![Nachricht über die Temperatur](images/degrees-message.gif)
+![Nachricht über die Luftfeuchtigkeit](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Der Astro Pi misst die Luftfeuchtigkeit in der ISS in Prozent der maximal möglichen Wasserkonzentration in der Luft.
 
-Teil deiner Mission ist es, einen Beitrag zum täglichen Leben der Crew an Bord der ISS zu leisten, und wenn du die Astronauten wissen lässt, dass die Temperatur an Bord der Raumstation in einem normalen Bereich liegt, wird sie das sehr beruhigen.
+Teil deiner Mission ist es, einen Beitrag zum täglichen Leben der Crew an Bord der ISS zu leisten, und wenn du die Astronauten wissen lässt, dass die Luftfeuchtigkeit an Bord der Raumstation in einem normalen Bereich liegt, wird sie das sehr beruhigen.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Füge diesen Code hinzu, um eine Temperaturmessung durchzuführen:
+Füge diesen Code hinzu, um eine Feuchtemessung durchzuführen:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-\--- /collapse \---
+Diese Zeile misst die aktuelle Luftfeuchtigkeit und speichert den gemessenen Wert in der Variablen `humid`.
 
 \--- /task \---
 
 \--- task \---
 
-Die Temperatur wird sehr genau erfasst, d.h. der gespeicherte Wert hat eine große Anzahl von Dezimalstellen. Du kannst den Wert auf eine beliebige Anzahl von Dezimalstellen runden. Im Beispiel haben wir auf eine Dezimalstelle gerundet, aber für eine andere Genauigkeitsstufe kannst du die Zahl `1` zu der Anzahl der Dezimalstellen ändern, die du sehen möchtest.
+Die Luftfeuchtigkeit wird sehr genau erfasst, d.h. der gespeicherte Wert hat eine große Anzahl von Dezimalstellen. Du kannst den Wert auf eine beliebige Anzahl von Dezimalstellen runden. Im Beispiel haben wir auf eine Dezimalstelle gerundet, aber für eine andere Genauigkeitsstufe kannst du die Zahl `1` zu der Anzahl der Dezimalstellen ändern, die du sehen möchtest.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Um die aktuelle Temperatur als Laufschrift auf dem Bildschirm anzuzeigen, füge diese Codezeile hinzu:
+Um die aktuelle Luftfeuchtigkeit als Laufschrift auf dem Bildschirm anzuzeigen, füge diese Codezeile hinzu:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+Der Befehl `str()` wandelt die Luftfeuchtigkeit von einer Zahl in Text um, so dass der Astro Pi sie anzeigen kann.
 
 \--- /task \---
 
 \--- task \---
 
-Der Code `str()` wandelt die Temperatur von einer Zahl in Text um, so dass der Astro Pi sie anzeigen kann.
+Du kannst die Luftfeuchtigkeit auch als Teil einer anderen Nachricht anzeigen, indem du die Teile deiner Nachricht mit einem `+` verbindest.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "Es hat " + str(humid) + " %" )
 ```
 
 \--- /task \---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+Der echte Astro Pi misst die Luftfeuchtigkeit in seiner Umgebung, aber du kannst den Luftfeuchtigkeitsschieberegler auf dem Sense HAT Emulator bewegen, um Luftfeuchtigkeitsänderungen zu simulieren und deinen Code zu testen.
 
-![Humidity slider](images/humidity-slider.png)
+![Feuchtigkeitsregler](images/humidity-slider.png)
 
-**Hinweis:** Du wirst dich vielleicht wundern, warum der Temperaturregler die Temperatur als ganze Zahl anzeigt, aber der Messwert, den du erhältst, eine Dezimalzahl ist. Der Emulator simuliert die geringfügige Ungenauigkeit des realen Sensors.
+**Hinweis:** Du wirst dich vielleicht wundern, warum der Luftfeuchtigkeitsregler die Luftfeuchtigkeit als ganze Zahl anzeigt, aber der Messwert, den du erhältst, eine Dezimalzahl ist. Der Emulator simuliert die geringfügige Ungenauigkeit des realen Sensors. Deshalb kann der Wert, den du siehst, etwas kleiner oder größer sein, als der Wert, den du mit dem Regler eingestellt hast.
