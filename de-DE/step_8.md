@@ -1,12 +1,12 @@
 ## Einreichen deines Beitrags
 
-Dein Code muss einige Regeln einhalten, damit er auf der Internationalen Raumstation ausgeführt werden kann. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im Emulator grün angezeigt.
+Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im Emulator grün angezeigt.
 
 ![Verprobung](images/validation.png)
 
-1. Nimm eine Temperaturmessung vor
+1. Nimm eine Feuchtigkeitsmessung vor.
 2. Schalte die LED-Lichter ein
-3. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Wenn du eine `while True` Schleife in deinem Code hast, musst du auf **Stop** klicken, um diese Vorgabe richtig zu erfüllen.
+3. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Du solltest keine `while True`-Schleife in deinem Code verwenden, da dies deinen Coden endlos laufen ließe ohne je zu beenden.
 
 Stelle außerdem sicher, dass du die folgenden Kriterien erfüllt hast:
 
@@ -19,7 +19,7 @@ Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen.
 
 \--- task \---
 
-Gib deinen Klassencode in das Feld unten ein - dein Lehrer wird dir deinen Code mitteilen.
+Gib deinen Klassen-Code in das Feld unten ein - dein Lehrer wird dir deinen Code mitteilen.
 
 **Hinweise für Lehrer oder Mentoren** können in der [Einführung](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) gefunden werden.
 
