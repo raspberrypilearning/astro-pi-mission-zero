@@ -17,6 +17,7 @@
 + أعد إنشاء اللعبة الكلاسيكية [Pong](https://projects.raspberrypi.org/ar-SA/projects/sense-hat-pong){:target="_blank"}
 
 
+
 ***
 تمت ترجمة هذا المشروع بواسطة متطوعين:
 
