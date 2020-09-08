@@ -2,13 +2,13 @@
 
 Rallegra la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e il valore di umidità relativa dell’ambiente a bordo usando il Sense HAT del computer Astro Pi.
 
-Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo: viene realizzato tutto in un browser web.
+Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo: viene fatto tutto in un browser web.
 
-Una volta completato, il tuo programma verrà eseguito nello spazio, sulla ISS, la Stazione Spaziale Internazionale! Riceverai anche un certificato speciale che mostra esattamente dove si trovava la ISS durante l'esecuzione del programma!
+Una volta completato, il vostro programma verrà eseguito nello spazio, sulla ISS, la Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
 ### Che cosa creerai
 
-Ecco un esempio del tipo di programma che puoi creare. Cliccate su **Run** per vederlo in funzione. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cliccate su **Run** per vederlo in funzione. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
@@ -16,11 +16,11 @@ Ecco un esempio del tipo di programma che puoi creare. Cliccate su **Run** per v
 
 ## title: Cosa imparerai
 
-Questo progetto include elementi tratti dai seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Imparerai cos'è l'unità AstroPi e come controllarla, compreso come:
 
-+ mostrare messaggi e colori
-+ creare immagini
-+ misurare la temperatura
++ Mostrare messaggi e colori
++ Creare immagini
++ Misurare l'umidità utilizzando un Sense HAT
 
 Questo progetto include elementi tratti dai seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -48,21 +48,26 @@ Questo progetto include elementi tratti dai seguenti componenti del [Digital Mak
 
 ## title: Note per insegnanti e tutor
 
-Questa attività può essere completata in un pomeriggio. quattro ragazzi o ragazze. Questi gruppi verranno quindi guidati nella scrittura di un piccolo programma in Python che consente di mostrare un messaggio personale e la temperatura dell’aria sull’Astro Pi.
+Questa attività può essere completata in un pomeriggio. Organizza i tuoi studenti in team da due a quattro, li guideremo attraverso la scrittura di un breve programma Python che mostrerà un messaggio personalizzato e l'umidità relativa sull'Astro Pi.
 
 Leggi le [le linee guida ufficiali ](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf) {:target="_ blank"} per Mission Zero.
 
 Per consentire ai vostri team di partecipare alla sfida Mission Zero, dovete prima completare la registrazione.
 
-+ Andate sulla pagina di [Mission Zero dell’emulatore Trinket](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Andate alla pagina [Emulatore Trinket Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Compilate il modulo e fate clic su **Submit (invia)**\*.
 
 \ * Si informa che questo modulo di registrazione è disponibile solo in lingua inglese.
 
-I campi del modulo includono: <0 /> Nome dell'insegnante/mentore <0 /> Nome del team <0 /> Numero dei membri del team <0 /> Nomi ed età dei membri del team <0 /> In che lingua hai avuto accesso alle linee guida di Mission Zero?
+I campi del modulo includono:   
+Nome dell'insegnante/mentore   
+Nome del team   
+Numero dei membri del team   
+Nomi ed età dei membri del team   
+In che lingua hai avuto accesso alle linee guida di Mission Zero?
 
-+ Verrà creato un account Trinket per te (se non ne hai già uno o non hai effettuato l'accesso). Puoi creare un solo account per indirizzo email. Ad ogni account viene assegnato uno specifico **codice di classe** che i vostri team dovranno utilizzare quando sono pronti a inviare il loro programma.
++ Verrà creato un account Trinket per te (se non ne hai già uno o non hai effettuato l'accesso). Puoi creare un solo account per indirizzo email. Ogni account ha il suo **codice in classe**, che dovrete comunicare alla vostra squadra quando questa sarà pronta all'invio dei programmi.
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
     
