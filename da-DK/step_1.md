@@ -1,6 +1,6 @@
 ## Introduktion
 
-Lys op astronauternes daglige rutine på International Space Station ved at vise dem en besked og den relative luftfugtighed ombord ved hjælp af Astro Pi-computerens Sense HAT.
+Pift hverdagsrutinen op for astronauterne på den internationale rumstation ved at vise dem en besked og den omgivende lufttemperatur ombord ved hjælp af Astro Pi-computerens Sense HAT.
 
 Du bruger online Sense HAT-emulatoren til at oprette dit program, så der kræves ingen ekstra hardware - alt gøres i en webbrowser.
 
@@ -16,10 +16,10 @@ Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør
 
 ## titel: Du kommer til at lære følgende
 
-Du kommer til at lære om AstroPi-enheden og styringen af den, herunder hvordan du:
+Du kommer til at lære om Astro Pi-enheden og styringen af den, herunder hvordan du:
 
 + Vis beskeder og farver
-+ Lav billede
++ Lav billeder
 + Mål fugtigheden ved hjælp af en Sense HAT
 
 Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
