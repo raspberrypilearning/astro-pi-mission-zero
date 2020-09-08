@@ -49,7 +49,7 @@ sense.show_message( str(temp) )
 To `str()` převádí teplotu z čísla na text, aby ji Astro Pi mohlo zobrazit.
 
 ```python
-sense.show_message( "Je " + str(humid) + " %" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
