@@ -1,12 +1,12 @@
-## Inviate il vostro programma
+## Invia il tuo programma
 
 Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il programma deve soddisfare alcune regole. Se il vostro codice le soddisfa, le regole visualizzate in basso sull’emulatore si evidenziano di colore verde quando il programma viene eseguito.
 
 ![Convalida](images/validation.png)
 
-1. Eseguite una lettura della temperatura
+1. Fate una lettura dell'umidità.
 2. Accendete i LED
-3. Controllate che il codice venga eseguito fino alla fine, senza errori. Se avete un loop `while True` nel codice, dovrete premere il pulsante **Stop** per soddisfare questa regola.
+3. Controllate che il codice venga eseguito fino alla fine, senza errori. Non dovresti includere nessun cliclo `while True` nel vostro codice in quanto manterrà in esecuzione il codice e gli impedirà di terminare.
 
 Assicuratevi anche di aver soddisfatto i seguenti criteri:
 
@@ -19,7 +19,7 @@ Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il p
 
 \--- task \---
 
-Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o tutor vi dirà qual è il vostro codice di classe.
+Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o mentor vi dirà qual è il vostro codice di classe.
 
 Le **Note per insegnanti e tutor** sono disponibili nel passo [Introduzione](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
