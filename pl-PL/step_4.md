@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- task \---
 
-Zmień tekst pozdrowienia i kolor - jaką wiadomość wyślesz do astronautów na pokładzie MSK?
+Zmień tekst pozdrowienia i kolor - jaką wiadomość wyślesz do astronautów na pokładzie ISS?
 
 \--- /task \---
