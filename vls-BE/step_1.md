@@ -1,6 +1,6 @@
 ## Introductie
 
-De dagelijkse routine van de astronauten opfleuren in het Internationale Space Station door hun een boodschap en de omgevingsluchttemperatuur te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
+Fleur de dagelijkse routine van de astronauten in het internationale ruimtestation op door hun een boodschap en de omgevingsluchttemperatuur te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
 
 Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, er is dus geen extra hardware nodig - alles wordt gedaan in de web browser.
 
@@ -14,13 +14,13 @@ Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om
 
 * * *
 
-## title: Wat je zult leren
+## title: Wat je zal leren
 
-Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Je zal van alles te weten komen over de Astro Pi-unit, hoe je die kan besturen en ook nog:
 
-+ boodschappen en kleuren kan tonen
-+ beelden kan ontwerpen
-+ de temperatuur kan meten
++ hoe je boodschappen en kleuren kan tonen
++ hoe je beelden kan ontwerpen
++ hoe je de temperatuur kan meten met een Sense HAT
 
 Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -32,7 +32,7 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 
 * * *
 
-## title: Wat je zult leren
+## title: Wat je nodig hebt
 
 ### Hardware
 
@@ -46,28 +46,28 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 
 ## \--- collapse \---
 
-## title: Wat je nodig hebt
+## titel: Aantekeningen voor leraars en mentors
 
-Deze activiteit kan worden afgerond in een namiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Deze activiteit kan worden afgerond in een namiddag. Verdeel je studenten in teams van twee tot vier en laat ons hen begeleiden om een kort Python-programma te schrijven om een persoonlijke boodschap en de relatieve luchtvochtigheid te tonen op de Astro Pi.
 
-\* Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
+Lees het document met de [officiële richtlijnen](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Je moet je registreren voor de Mission Zero uitdaging om je team(s) te kunnen laten deelnemen.
 
-+ Ga naar de [Trinket emulator Misson Zero pagina](https://trinket.io/mission-zero/register){:target="-blank"}.
++ Ga naar de [Trinket emulator Misson Zero pagina](https://trinket.io/mission-zero){:target="blank"}.
 
 + Vul het formulier in en klik **Submit**\*.
 
-We hebben [een te printen uitdeelfiche van twee pagina's](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} opgesteld, met de sleutelpunten van Mission Zero die studenten en jongeren samen kunnen gebruiken bij dit online project.
+\*Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+De velden op het formulier zijn:  
+Naam leraar/mentor  
+Naam van het team  
+Aantal teamleden  
+Namen en leeftijden van de teamleden  
+In welke taal las je de richtlijnen voor Mission Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Er wordt een Trinket-account voor je gecreëerd (als je er nog geen hebt, of als je niet ingelogd bent). Je kan één account per e-mail-adres aanmaken. Elk account heeft zijn eigen **klascode**, en je zal die moeten doorgeven aan je team(s) als zij klaar zijn om hun projecten in te dienen.
 
 + Laat je variatiecode ergens zichtbaar zien, bijvoorbeeld op een whiteboard of door gebruik te maken van een projector, en begin met de activiteit.
     
