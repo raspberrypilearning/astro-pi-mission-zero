@@ -1,18 +1,20 @@
-## Näytä lämpötila
+## Näytä ilmankosteus
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Voit yhdistää kosteuslukemasi kuvaan osoittamaan kosteuden myös graafisella tavalla. Esimerkiksi, voit näyttää valtameren korkealle kosteudelle, ja aavikon matalalle kosteudelle:
 
-![Kuuma ja kylmä](images/wet-dry.png)
+![Märkä ja kuiva](images/wet-dry.png)
 
 \--- task \---
 
 Lisää ohjelman loppuun uusia värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 \--- /task \---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Aivan kuten aiemminkin, piirrä kuvat luomalla ensin listan jokaista varten, ja sitten täyttämällä listan kohdat väreillä, joilla haluat pikselisi esitettävän.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ cold = [
 
 \--- task \---
 
-Lisää koodi lämpötilan saamiseksi:
+Lisää koodi kosteuden saamiseksi:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Päätä nyt, minkä kuvan haluat esitettäväksi. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `wet`, jos kosteuslukema on 40% tai sen yli, ja kuvan `dry`, jos kosteuslukema on alle 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Aseta kosteus emulaattoriin kosteuden liukusäätimellä. Suorita ohjelma ja tarkista, että kyseiselle kosteudelle valittu kuva näytetään oikein.
 
 \--- /task \---
 
 \--- task \---
 
-Muuta koodiasi niin, että ohjelma näyttää lämpötilan astronauteille omalla valitsemallasi tavalla.
+Muuta koodiasi niin, että ohjelma näyttää kosteuden astronauteille omalla valitsemallasi tavalla.
 
 \--- /task \---
