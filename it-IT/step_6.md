@@ -1,43 +1,43 @@
-## Misurare la temperatura
+## Misura l'umidità
 
-Il sensore di temperatura dell’Astro Pi può misurare la temperatura dell’aria circostante. Questa funzione è molto utile per raccogliere dati sulle condizioni nello spazio.
+Il sensore di umidità nell'Astro Pi può misurare l'umidità nell'aria circostante, una funzione utile che può aiutarti a raccogliere dati sulle condizioni nello spazio.
 
-![Messaggio sulla temperatura](images/degrees-message.gif)
+![Messaggio sull'umidità](images/degrees-message.gif)
 
-L'Astro Pi misura l'umidità nell'ISS in percentuale di concentrazione d'acqua nell'aria.
+L'Astro Pi misura l'umidità nell'ISS come percentuale di concentrazione d'acqua nell'aria.
 
-Parte della vostra missione è contribuire positivamente alla vita quotidiana dell’equipaggio a bordo della ISS. Il far saper loro che la temperatura a bordo della stazione spaziale si trova fra i valori normali li rassicurerà certamente.
+Parte della vostra missione è contribuire positivamente alla vita quotidiana dell’equipaggio a bordo della ISS. Far saper loro che l'umidità a bordo della stazione spaziale si trova fra i valori normali li rassicurerà certamente.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Aggiungete questa riga di codice per misurare la temperatura:
+Aggiungete questa riga di codice per misurare l'umidità:
 
 ```python
-temp = sense.temperature
+umidita = sense.humidity
 ```
 
-\--- /collapse \---
+Questa riga di codice misurerà l'umidità attuale e la memorizzerà nella variabile `umidita`.
 
 \--- /task \---
 
 \--- task \---
 
-La temperatura viene registrata con molta precisione, ovvero il valore memorizzato avrà un numero elevato di cifre decimali. È possibile arrotondare il valore a un numero qualsiasi di cifre decimali. Nell’esempio, abbiamo arrotondato il valore a una cifra decimale, ma per visualizzare un diverso livello di precisione è sufficiente sostituire il numero `1` con il numero di cifre decimali che volete visualizzare.
+L'umidità viene registrata con molta precisione, ovvero il valore memorizzato avrà un numero elevato di cifre decimali. È possibile arrotondare il valore a un numero qualsiasi di cifre decimali. Nell’esempio, abbiamo arrotondato il valore a una cifra decimale, ma per visualizzare un diverso livello di precisione è sufficiente sostituire il numero `1` con il numero di cifre decimali che volete visualizzare.
 
 ```python
-temp = round( sense.temperature, 1 )
+umidita = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Per visualizzare la temperatura attuale come messaggio scorrevole sul display, aggiungete questa riga di codice:
+Per visualizzare l'umidità attuale come messaggio scorrevole sul display, aggiungete questa riga di codice:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(umidita) )
 ```
 
 L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro Pi possa visualizzarla.
@@ -46,16 +46,16 @@ L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro 
 
 \--- task \---
 
-La parte `str()` converte il valore della temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
+È possibile anche visualizzare l'umidità all’interno di un messaggio più lungo, unendo insieme le varie parti con un `+`.
 
 ```python
-sense.show_message( "È al " + str(humid) + " %" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
 
-In realtà, il vero Astro Pi misurerà la temperatura effettiva intorno ad esso, ma voi, con l’emulatore Sense HAT, potete simulare cambiamenti di temperatura e provare il corretto funzionamento del codice semplicemente spostando il cursore della temperatura.
+In realtà, il vero Astro Pi misurerà l'umidità effettiva intorno ad esso, ma voi, con l’emulatore Sense HAT, potete simulare cambiamenti d'umidità e provare il corretto funzionamento del codice semplicemente spostando il cursore relativo.
 
 ![Cursore dell'umidità](images/humidity-slider.png)
 
-**Nota:** Potreste chiedervi come mai il cursore della temperatura visualizza la temperatura come un numero intero, ma la lettura ottenuta è un numero decimale. L’emulatore simula anche una leggera imprecisione che è presente sul sensore reale. Quindi la misura della temperatura che vedete potrebbe essere leggermente superiore o inferiore al valore impostato con il cursore.
+**Nota:** Potreste chiedervi come mai il cursore dell'umidità visualizza l'umidità come un numero intero, ma la lettura ottenuta è un numero decimale. L’emulatore simula anche una leggera imprecisione che è presente sul sensore reale. Quindi la misura dell'umidità che leggerete potrebbe essere leggermente superiore o inferiore al valore impostato con il cursore.
