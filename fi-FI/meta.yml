@@ -18,9 +18,9 @@ steps:
   - 
     title: Näytä kuva
   - 
-    title: Mittaa lämpötila
+    title: Mittaa ilmankosteus
   - 
-    title: Näytä lämpötila
+    title: Näytä ilmankosteus
   - 
     title: Lähetä osallistumisilmoituksesi
   - 
