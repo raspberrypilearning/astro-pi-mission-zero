@@ -1,6 +1,6 @@
 ## Bevezetés
 
-Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállomáson: küldj nekik egy üzenetet és mutasd meg a környező levegő hőmérsékletét a fedélzeten az Astro Pi számítógép Sense HAT-jének segítségével.
+Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállomáson: küldj nekik egy üzenetet és mutasd meg a levegő páratartalmát a fedélzeten az Astro Pi számítógép Sense HAT-jének segítségével.
 
 Az online Sense HAT emulátort használod majd a programod létrehozására, úgyhogy nincs szükség extra hardverre — minden a böngészőben történik.
 
@@ -16,11 +16,11 @@ Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Fut
 
 ## title: Amit meg fogsz tanulni
 
-Ez a projekt a [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} következő részeit tartalmazza:
+Az Astro Pi egységről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
 
-+ üzenetek és színek megjelenítése
-+ képek létrehozása
-+ hőmérséklet mérése
++ Üzenetek és színek megjelenítése
++ Képek létrehozása
++ Páratartalom mérése a Sense HAT segítségével
 
 Ez a projekt a [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} következő részeit tartalmazza:
 
@@ -48,26 +48,26 @@ Ez a projekt a [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum
 
 ## title: Jegyzetek tanárok és mentorok számára
 
-Ezt a feladatot egy délután alatt el lehet végezni. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Ezt a feladatot egy délután alatt el lehet végezni. Szervezd a tanulóidat kettő-négy fős csoportokba, és engedd meg, hogy végigvezessük őket egy rövid Python program megírásán, amely egy személyes üzenetet és a levegő páratartalmát jeleníti majd meg az Astro Pi-on.
 
 Olvassa el a Mission Zero [hivatalos útmutató dokumentumát](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"}.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Regisztálnod kell a Mission Zero kihívásra, hogy csapata(id) részt vehessen(ek) rajta.
 
-+ Menjen a [Trinket emulátor Mission Zero oldalára](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Menj a [Trinket emulátor Mission Zero oldalára](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Töltse ki az űrlapot és kattintson a **Submit** (Küldés) gombra\*.
 
 \* A regisztrációs űrlap csak angol nyelven érhető el.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Az űrlap mezői a következők:  
+Tanár / mentor neve  
+Csapat neve  
+A csapat tagjainak száma  
+A csapat tagjainak neve és életkora  
+Milyen nyelven olvastad el a Mission Zero irányelveit?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Létrehozunk neked egy Trinket fiókot (ha még nincs, vagy nem vagy bejelentkezve). E-mail címenként egy fiókot hozhatsz létre. Minden fióknak saját **osztálytermi kódja** van, amelyet akkor kell elmondanod a csapatodnak (csapataidnak), amikor már készen vannak, hogy beküldjék programjaikat.
 
 + Rakja ki az osztálytermi kódját egy jól látható helyre, például egy táblára vagy projektorra, és kezdjenek neki a feladatnak!
     
