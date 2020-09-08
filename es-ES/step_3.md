@@ -20,7 +20,7 @@ Este código se conecta al Astro Pi y se asegura que la pantalla LED de Astro Pi
 
 \--- task \---
 
-¿Por qué no escribes un saludo para los astronautas de la ISS que están trabajando cerca de Astro Pi? Mostremos un mensaje que se desplace por la pantalla.
+¿Quizás podrías dejar un bonito saludo para los astronautas de la ISS que están trabajando cerca del Astro Pi? Mostremos un mensaje que se desplace por la pantalla.
 
 Añade esta línea debajo del otro código:
 
