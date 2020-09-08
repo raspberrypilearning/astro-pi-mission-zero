@@ -6,14 +6,14 @@ Auf der LED-Matrix des Astro Pi kannst du auch Bilder anzeigen. Vielleicht könn
 
 \--- task \---
 
-Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`b`).
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`s`).
 
 ```python
 w = (255, 255, 255)
 s = (0, 0, 0)
 ```
 
-**Hinweis:** Es is hier sinnvoll den Farbvariablen Namen aus einem Buchstaben zu geben, denn das spart Zeit im nächsten Schritt, wo du sie mehrmals tippen musst. Darüber hinaus erleichtert die Verwendung einzelner Buchstaben das Erkennen des gezeichneten Bildes.
+**Hinweis:** Es ist hier sinnvoll den Farbvariablen Namen aus nur einem Buchstaben zu geben, denn das spart Zeit im nächsten Schritt, wo du sie mehrmals tippen musst. Darüber hinaus erleichtert die Verwendung einzelner Buchstaben das Erkennen des gezeichneten Bildes.
 
 \--- /task \---
 
@@ -54,7 +54,7 @@ Klicke auf **Run** (Ausführen), um dein Bild angezeigt zu sehen.
 
 \--- task \---
 
-Vielleicht möchtest du Code hinzufügen, um eine kurze Wartezeit (oder `sleep` (Schlaf)) einzubauen nachdem das Bild angezeigt wird. Dies wird den Astronauten Zeit geben, dein Bild zu betrachten, bevor der nächste Teil deiner Nachricht erscheint. Füge oben in deinem Programm Folgendes hinzu:
+Vielleicht möchtest du Code hinzufügen, um eine kurze Pause (oder `sleep` (Schlaf)) einzubauen nachdem das Bild angezeigt wird. Dies wird den Astronauten Zeit geben, dein Bild zu betrachten, bevor der nächste Teil deiner Nachricht erscheint. Füge oben in deinem Programm Folgendes hinzu:
 
 ```python
 from time import sleep
