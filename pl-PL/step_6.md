@@ -1,61 +1,61 @@
-## Pomiar temperatury
+## Pomiar wilgotności
 
-Czujnik temperatury w Astro Pi może mierzyć temperaturę powietrza w otoczeniu. Jest to przydatna funkcja, która pomoże zebrać dane o warunkach panujących w przestrzeni kosmicznej.
+Czujnik wilgotności w Astro Pi może mierzyć wilgotność powietrza wokół niego, co jest przydatną funkcją, która pomaga zbierać dane o warunkach w przestrzeni.
 
-![Wiadomość o temperaturze](images/degrees-message.gif)
+![Wiadomość o wilgotności](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi mierzy wilgotność w ISS w procentowym stężeniu wody w powietrzu.
 
-Częścią waszej misji jest wkład w codzienne życie załogi na pokładzie MSK, więc informacja o tym, że temperatura na stacji kosmicznej mieści się w normalnym zakresie, doda im otuchy.
+Część misji polega na przyczynianiu się do codziennego życia załogi na pokładzie ISS, aby mogli wiedzieć, że wilgotność na pokładzie stacji kosmicznej mieści się w normalnym zakresie, co ich uspokoi.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Dodaj ten kod, aby pobrać pomiar temperatury:
+Dodaj ten kod, aby odczytać wilgotność:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-\--- /collapse \---
+Ta linia zmierzy aktualną wilgotność i zapisze zmierzoną wartość w zmiennej `humid`.
 
 \--- /task \---
 
 \--- task \---
 
-Temperatura jest rejestrowana bardzo precyzyjnie, tzn. zapisana wartość będzie zawierała dużą liczbę miejsc dziesiętnych. Można zaokrąglić wartość do dowolnej liczby miejsc po przecinku. W tym przykładzie zaokrągliliśmy do jednego miejsca po przecinku, ale aby uzyskać inny poziom dokładności, należy zmienić cyfrę `1` na pożądaną liczbę miejsc po przecinku.
+Wilgotność jest zapisywana bardzo precyzyjnie, tj. zapisana wartość będzie miała dużą liczbę miejsc po przecinku. Można zaokrąglić wartość do dowolnej liczby miejsc po przecinku. W tym przykładzie zaokrągliliśmy do jednego miejsca po przecinku, ale aby uzyskać inny poziom dokładności, należy zmienić cyfrę `1` na pożądaną liczbę miejsc po przecinku.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Aby wyświetlić aktualną temperaturę jako przewijany komunikat na wyświetlaczu, dodaj ten wiersz kodu:
+Aby wyświetlić bieżącą wilgotność jako komunikat przewijający się na wyświetlaczu, dodaj tą linijkę kodu:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+Część `str()` przekształca wilgotność z liczby na tekst, tak aby Astro Pi mogło ją wyświetlić.
 
-\--- /zadanie \---
+\--- /task \---
 
 \--- task \---
 
-Część `str()` konwertuje temperaturę z liczby na tekst, aby Astro Pi mógł ją wyświetlić.
+Możesz również wyświetlić wilgotność jako część innej wiadomości, dołączając do części swojej wiadomości używając `+`.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
 
-Prawdziwy Astro Pi mierzy temperaturę w swoim otoczeniu, ale można przesunąć suwak temperatury na emulatorze Sense HAT, aby symulować zmiany temperatury i przetestować kod.
+Prawdziwy Astro Pi mierzy temperaturę w swoim otoczeniu, ale możesz przesunąć suwak wilgotności na emulatorze Sense HAT, aby symulować zmiany wilgotności i przetestować kod.
 
-![Humidity slider](images/humidity-slider.png)
+![Suwak wilgotności](images/humidity-slider.png)
 
-**Uwaga:** Być może zastanawiasz się, dlaczego suwak temperatury wyświetla temperaturę jako liczbę całkowitą, ale pomiar podawany jest w postaci liczby dziesiętnej. Emulator symuluje niewielką niedokładność rzeczywistego czujnika, więc uzyskany pomiar temperatury może być nieznacznie większy lub mniejszy niż wartość ustawiona za pomocą suwaka.
+**Uwaga:** Być może zastanawiasz się, dlaczego suwak wilgotności wyświetla wilgotność jako liczbę całkowitą, ale pomiar podawany jest w postaci liczby dziesiętnej. Emulator symuluje niewielką niedokładność rzeczywistego czujnika, więc uzyskany pomiar wilgotności może być nieznacznie większy lub mniejszy niż wartość ustawiona za pomocą suwaka.
