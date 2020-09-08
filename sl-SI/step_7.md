@@ -1,6 +1,6 @@
 ## Prikažite temperaturo
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Odčitek vlage lahko združite s sliko in vlago tako prikažete tudi grafično. Na primer, lahko prikažete ocean za visoko vlažnost in puščavo za nizko vlažnost:
 
 ![Vroče in hladno](images/wet-dry.png)
 
@@ -60,7 +60,7 @@ temp = sense.temperature
 
 \--- task \---
 
-Zdaj se odločite, katero sliko želite uporabiti. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Zdaj se odločite, katero sliko želite uporabiti. V tem primeru bomo uporabili sliko `wet`, če vlaga znaša 40% ali več, in sliko `dry`, če je vlaga nižja od 40%.
 
 ```python
 temp = sense.temperature
@@ -74,7 +74,7 @@ else:
 
 \--- task \---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Z drsnikom za vlago na emulatorju nastavite vlago. Zaženite svoj program in preverite, ali je slika, ki ste jo za to vlago izbrali, prikazana pravilno.
 
 \--- /task \---
 
