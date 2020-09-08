@@ -4,7 +4,7 @@ Det finns några regler som din kod måste följa för att du ska kunna skicka d
 
 ![Validering](images/validation.png)
 
-1. Gör en temperaturavläsning
+1. Avläs luftfuktigheten.
 2. Tänd lysdioderna
 3. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. Du bör inte inkludera någon `while True` loopar i din kod eftersom detta kommer förhindra den från att slutföras.
 
