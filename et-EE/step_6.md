@@ -1,61 +1,61 @@
-## Mõõda õhutemperatuur
+## Mõõda niiskust
 
-Astro Pi´l asuv õhutemperatuuri sensor mõõdab ümbritseva õhu temperatuuri, mis on vajalik kosmoses valitsevate tingimuste kohta andmete kogumiseks.
+Astro Pi-l asuv niiskuse sensor mõõdab ümbritseva õhu niiskust, mis on vajalik kosmoses valitsevate tingimuste kohta andmete kogumiseks.
 
-![Sõnum õhutemperatuuri kohta](images/degrees-message.gif)
+![Sõnum õhuniiskuse kohta](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi mõõdab ISS-i niiskust protsentides vee kontsentratsiooni kohta õhus.
 
-Osa sinu ülesandest on panustada rahvusvahelise kosmosejaama meeskonna igapäeva ellu, seetõttu nende teavitamine sellest, et õhutemperatuur kosmosejaama pardal on normaalses vahemikus annab neile suuremat kindlust.
+Osa sinu ülesandest on panustada ISS-i meeskonna igapäevaellu, seetõttu annab nende teavitamine sellest, et õhuniiskus kosmosejaama pardal on normaalses vahemikus, neile suuremat kindlust.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Add this code to take a humidity reading:
+Õhuniiskuse mõõtmiseks lisa see kood:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-\--- /collapse \---
+See koodirida mõõdab valitsevat õhuniiskust ja säilitab mõõdetud väärtuse muutujas `humid`.
 
-\--- / ülesanne \---
+\--- /task \---
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Sina võid väärtuse ümardada mistahes kümnendkohtadega arvuks. Meie ümardasime näite ühe kümnendkohaga arvuks, aga teistsuguse täpsuse saavutamiseks muuda numbrit `1` selliseks kümnendkoha arvuks, mida soovid näha.
+Õhuniiskust mõõdetakse väga täpselt, st säilitataval väärtusel on suur kümnendkohtade arv. Sina võid väärtuse ümardada mistahes kümnendkohtadega arvuks. Meie ümardasime näite ühe kümnendkohaga arvuks, aga teistsuguse täpsuse saavutamiseks muuda numbrit `1` selliseks kümnendkoha arvuks, mida soovid näha.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To display the current humidity as a scrolling message on the display, add this line of code:
+Valitseva õhuniiskuse kuvamiseks ekraanil keritava sõnumina tuleb lisada see koodirida:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+See `str()` osa konverteerib õhuniiskuse numbri tekstiks selle jaoks, et seda saaks kuvada Astro Pi-l.
 
-\--- / ülesanne \---
+\--- /task \---
 
 \--- task \---
 
-See `str()` osa konverteerib õhutemperatuuri numbri tekstiks selle jaoks, et seda saaks kuvada Astro Pi´l.
+Samuti võid kuvada õhuniiskust mõne teise sõnumi osana, selleks pead oma sõnumi osad ühendama kasutades `+`.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+Tõeline Astro Pi mõõdab õhuniiskust enda ümber, aga sina võid niiskuse liugurit liigutada Sense HAT-i emulaatoril simuleerimaks niiskuse muutusi ja testimaks oma koodi.
 
-![Humidity slider](images/humidity-slider.png)
+![Niiskuse liugur](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Märkus:** Sa võid mõelda, miks õhuniiskuse liugur näitab niiskust täisarvuna, aga need mõõtmise tulemused, mis sina saad, näitavad kümnendkohti. Emulaator simuleerib tõelise sensori väikest ebatäpsust, seetõttu võib sinu poolt nähtav õhuniiskuse mõõtmise tulemus olla natuke suurem või väiksem sellest väärtusest, mis sa liuguriga tegelikult määrasid.
