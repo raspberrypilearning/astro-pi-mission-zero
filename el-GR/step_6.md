@@ -1,52 +1,52 @@
-## Μέτρηση της θερμοκρασίας
+## Μέτρηση της υγρασίας
 
-Ο αισθητήρας θερμοκρασίας στο Astro Pi μπορεί να μετρήσει τη θερμοκρασία του αέρα που τον περιβάλλει, μια χρήσιμη δυνατότητα που σας βοηθά να συλλέξετε δεδομένα για τις διαστημικές συνθήκες.
+Ο αισθητήρας υγρασίας στο Astro Pi μπορεί να μετρήσει την υγρασία του αέρα που τον περιβάλλει, μια χρήσιμη δυνατότητα που σας βοηθά να συλλέξετε δεδομένα για τις συνθήκες στο διάστημα.
 
 ![Μήνυμα για τη υγρασία](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Το Astro Pi μετράει την υγρασία στον ISS σαν ποσοστό συγκέντρωσης νερού στον αέρα.
 
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
+Μέρος της αποστολής σας είναι να συνεισφέρετε στην καθημερινότητα του πληρώματος του ISS, ώστε να γνωρίζει ότι η υγρασία μέσα στον διαστημικό σταθμό είναι σε ένα κανονικό εύρος που θα τους καθησυχάζει.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Add this code to take a humidity reading:
+Προσθέστε αυτόν τον κώδικα για να πάρετε μια μέτρηση υγρασίας:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-\--- /collapse \---
+Αυτή η γραμμή θα μετρήσει την τρέχουσα υγρασία, και θα την αποθηκεύσει στην μεταβλητή `humid`.
 
 \--- /task \---
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Μπορείτε να στρογγυλοποιήσετε την τιμή σε οποιονδήποτε αριθμό δεκαδικών ψηφίων. Στο παρακάτω παράδειγμα, κάνουμε στρογγυλοποίηση σε ένα δεκαδικό ψηφίο, αλλά αν επιθυμείτε κάποιο διαφορετικό επίπεδο ακρίβειας, αλλάξτε το νούμερο `1` στον αριθμό των δεκαδικών ψηφίων που θέλετε να διατηρήσετε.
+Η υγρασία καταγράφεται με μεγάλη ακρίβεια π.χ. η αποθηκευμένη τιμή θα έχει μεγάλο αριθμό δεκαδικών ψηφίων. Μπορείτε να στρογγυλοποιήσετε την τιμή σε οποιονδήποτε αριθμό δεκαδικών ψηφίων. Στο παρακάτω παράδειγμα, κάνουμε στρογγυλοποίηση σε ένα δεκαδικό ψηφίο, αλλά αν επιθυμείτε κάποιο διαφορετικό επίπεδο ακρίβειας, αλλάξτε το νούμερο `1` στον αριθμό των δεκαδικών ψηφίων που θέλετε να διατηρήσετε.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task --
 
-To display the current humidity as a scrolling message on the display, add this line of code:
+Για να εμφανίσετε την τρέχουσα υγρασία σαν κυλιόμενο μήνυμα στην οθόνη, προσθέστε την παρακάτω γραμμή κώδικα:
 
 ```python
 sense.show_message( str(temp) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+Το τμήμα `str()` μετατρέπει την υγρασία απο αριθμό σε κείμενο ωστε το Astro Pi να μπορεί να το εμφανίσει.
 
 \--- /task \---
 
 \--- task \---
 
-Το τμήμα `str()` μετατρέπει τη θερμοκρασία σπό αριθμό σε κείμενο, ώστε να μπορέσει να προβληθεί από το Astro Pi.
+Μπορείτε επίσης να εμφανίσετε την υγρασία σαν τμήμα άλλου μηνύματος ενώνοντας τα δύο τμήματα μαζί με το `+`.
 
 ```python
 sense.show_message( "It is " + str(humid) + " %" )
@@ -54,8 +54,8 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 \--- /task \---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+Το αληθινό Astro Pi θα μετρήσει την υγρασία στο χώρο που βρίσκεται, αλλά μπορείτε να μετακινήσετε τον ρυθμιστή υγρασίας στον εξομοιωτή Sense Hat για να εξομοιώσετε αλλαγές υγρασίας και να ελέγξετε τον κώδικά σας.
 
-![Humidity slider](images/humidity-slider.png)
+![Ρυθμιστής υγρασίας](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Σημείωση:** Θα αναρωτιέστε γιατί ο ρυθμιστής υγρασίας εμφανίζει την υγρασία σαν ακέραιο αριθμό, αλλά η μέτρηση που λαμβάνετε είναι δεκαδικός. Ο εξομοιωτής εξομοιώνει τη μικρή ανακρίβεια του αληθινού αισθητήρα, οπότε η μέτρηση υγρασίας που βλέπετε είναι λίγο μεγαλύτερη ή μικρότερη από την τιμή που έχετε ορίσει με το ρυθμιστή.
