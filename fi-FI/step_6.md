@@ -1,61 +1,61 @@
-## Mittaa lämpötila
+## Mittaa ilmankosteus
 
 Astro Pi: n kosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
 
-![Viesti lämpötilasta](images/degrees-message.gif)
+![Viesti kosteudesta](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi mittaa ISS:n kosteuden prosentteina veden pitoisuudesta ilmassa.
 
-Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, joten antamalla heidän tietää, että avaruusaseman lämpötila on tavanomaisella alueella, rauhoittaa heitä.
+Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, joten antamalla heidän tietää, että avaruusaseman ilmankosteus on tavanomaisella alueella, rauhoittaa heitä.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Add this code to take a humidity reading:
+Lisää tämä koodi kosteuden lukemiseksi:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-\--- /collapse \---
+Tämä viiva mittaa nykyisen kosteuden ja tallentaa mitatun arvon muuttujaan `humid`.
 
 \--- /task \---
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
+Kosteus tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To display the current humidity as a scrolling message on the display, add this line of code:
+Lisää tämä koodirivi näyttääksesi nykyisen kosteuden vieritysviestinä näytöllä:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+`str()`-osa muuntaa kosteuden numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
 
 \--- /task \---
 
 \--- task \---
 
-`str()`-osa muuntaa lämpötilan numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
+Voit myös näyttää kosteuden osana toista viestiä liittämällä viestisi osat käyttäen merkkiä `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 \--- /task \---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+Oikea Astro Pi mittaa sen ympärillä olevan kosteuden, mutta voit liikuttaa kosteuden liukusäädintä Sense HAT -emulaattorissa simuloidaksesi kosteuden muutoksia ja testataksesi koodiasi.
 
-![Humidity slider](images/humidity-slider.png)
+![Kosteuden liukusäädin](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Huomautus:** Saatat ihmetellä, miksi kosteuden liukusäädin näyttää kosteuden kokonaislukuna, mutta saamasi lukema on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi kosteuden mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.
