@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-Urozmaić codzienność astronautów na Międzynarodowej Stacji Kosmicznej, pokazując im wiadomość i temperaturę powietrza na pokładzie za pomocą Sense HAT komputera Astro Pi.
+Urozmaić codzienność astronautów na Międzynarodowej Stacji Kosmicznej(ISS), pokazując im wiadomość i wilgotność względną powietrza na pokładzie za pomocą Sense HAT komputera Astro Pi.
 
 Program zostanie stworzony za pomocą internetowego emulatora Sense HAT, więc nie jest potrzebny żaden dodatkowy sprzęt - wszystko odbywa się w przeglądarce internetowej.
 
@@ -16,11 +16,11 @@ Oto przykład programu, który można stworzyć. Kliknij **Run** (Uruchom), aby 
 
 ## title: Czego się nauczysz
 
-Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Dowiedz się więcej o jednostce Astro Pi i jak nią sterować, w tym:
 
 + jak wyświetlać wiadomości i kolory
-+ jak tworzyć obrazki
-+ jak mierzyć temperaturę
++ Utwórz obrazy
++ Zmierzyć wilgotność przy użyciu Sense HAT
 
 Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -52,22 +52,22 @@ To zadanie można wykonać w ciągu jednego popołudnia. Zorganizuj uczniów w z
 
 Przeczytaj [dokument oficjalnych wytycznych](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} dla Mission Zero.
 
-Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Mission Zero, należy się zarejestrować.
+Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Misjki Zero, należy się zarejestrować.
 
-+ Przejdź do [strony emulatora Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_ blank"}.
++ Przejdź do [strony emulatora Trinket Misji Zero](https://trinket.io/mission-zero){:target="_ blank"}.
 
 + Wypełnij formularz i kliknij **Submit** (Wyślij)\*.
 
 \* Proszę zwróc uwagę, że ten formularz jest dostępny tylko w języku angielskim.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Pola w formularzu obejmują:  
+Nazwisko nauczyciela / mentora  
+Nazwę zespołu  
+Liczba osób w zespole  
+Nazwiska i wiek członków zespołu   
+W którym język, czy uzyskałeś dostęp do wytycznych Mission Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Każde konto ma własny **kod klasy**, który należy podać swojemu zespołowi/swoim zespołom, kiedy uczestnicy będą gotowi do wysłania swoich programów.
++ Konto Trinket zostanie utworzone dla Ciebie (jeśli jeszcze go nie posiadasz, lub nie jesteś zalogowany). Możesz utworzyć jedno konto na jeden adres e-mail. Każde konto ma własny **kod klasy**, który należy podać swojemu zespołowi/swoim zespołom, kiedy uczestnicy będą gotowi do wysłania swoich programów.
 
 + Wyświetl kod klasy w widocznym miejscu, na przykład na tablicy lub za pomocą projektora, i rozpocznij zadanie.
     
