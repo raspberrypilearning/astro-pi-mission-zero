@@ -6,7 +6,7 @@ Her er en rigtig Astro Pi-enhed på den internationale rumstation, der kører no
 
 >
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Til denne mission kommer du til at anvende Sense HAT-emulatoren. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
 
 ![Sense HAT emulator](images/sense-hat-emulator.png)
 
