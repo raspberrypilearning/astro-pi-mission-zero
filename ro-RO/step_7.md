@@ -24,7 +24,7 @@ y = (255,255,0)
 La fel ca mai devreme, desenează imaginile tale, creând mai întâi o listă pentru fiecare dintre ele, apoi setând elementele listei la culorile pe care dorești să le aibă pixelii.
 
 ```python
-wet = [
+ud = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wet = [
 ]
 
 
-dry = [
+uscat = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,33 +55,33 @@ dry = [
 Adaugă cod pentru a obține umiditatea:
 
 ```python
-temp = sense.humidity
+umiditate = sense.humidity
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Acum decide ce imagine vrei să se afișeze. Pentru acest exemplu, vom afișa imaginea `wet` (umed) dacă valoarea citită a umidității este de 40% sau mai mare și imaginea `dry` (uscat) dacă umiditatea este sub 40%.
+Acum decide ce imagine vrei să se afișeze. Pentru acest exemplu, vom afișa imaginea `ud` dacă valoarea citită a umidității este de 40% sau mai mare și imaginea `uscat` dacă umiditatea este sub 40%.
 
 ```python
-humid = sense.humidity
-if humid >= 40:
-    sense.set_pixels(wet)
+umiditate = sense.humidity
+if umiditate >= 40:
+    sense.set_pixels(ud)
 else:
-    sense.set_pixels(dry)
+    sense.set_pixels(uscat)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Utilizează sliderul pentru umiditate pentru a seta o umiditate pe emulator. Rulează programul și verifică dacă imaginea pe care ai selectat-o pentru acea umiditate este afișată corect.
+Utilizează glisorul pentru umiditate pentru a seta o umiditate pe emulator. Rulează programul și verifică dacă imaginea pe care ai selectat-o pentru acea umiditate este afișată corect.
 
 \--- /task \---
 
 \--- task \---
 
-Modifică codul astfel încât programul să afișeze temperatura pentru astronauți în modul ales de tine.
+Modifică codul astfel încât programul să afișeze umiditatea pentru astronauți în modul ales de tine.
 
 \--- /task \---
