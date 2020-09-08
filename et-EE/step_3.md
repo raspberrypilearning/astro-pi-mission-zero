@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Ava [Sense HAT´i emulaator](https://trinket.io/mission-zero){:target="_blank"} Mission Zero projekti jaoks.
+Ava [Sense HAT-i emulaator](https://trinket.io/mission-zero){:target="_blank"} Mission Zero projekti jaoks.
 
 Näed, et sulle on automaatselt lisatud kolm rida koodi:
 
@@ -12,15 +12,15 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat´i emulaator](images/sense-hat-emulator2.png)
+![sense hat-i emulaator](images/sense-hat-emulator2.png)
 
-See kood ühendub Astro Pi´ga ja tagab, et Astro Pi LED-ekraan kuvatakse õigesti. Jäta kood sinna, sest sul läheb seda vaja.
+See kood ühendub Astro Pi-ga ja tagab, et Astro Pi LED-ekraan kuvatakse õigesti. Jäta kood sinna, sest sul läheb seda vaja.
 
 \--- /task \---
 
 \--- task \---
 
-Võib-olla jätaksid toreda tervituse neile rahvusvahelise kosmosejaama astronautidele, kes töötavad Astro Pi läheduses? Kerime sõnumit kogu ekraanil.
+Võib-olla jätaksid toreda tervituse neile ISS-i astronautidele, kes töötavad Astro Pi läheduses? Kerime sõnumit tervel ekraanil.
 
 Lisa see rida teise koodi alla:
 
@@ -40,15 +40,15 @@ Vajuta **Run** (Käivita) nuppu ja vaata sõnumit `Astro Pi` LED-ekraanil.
 
 ![Keriv sõnum](images/scroll-message.gif)
 
-Uue sõnumi kuvamiseks kirjuta uus sõnum jutumärkide vahele (`""`).
+Teise sõnumi kuvamiseks kirjuta jutumärkide vahele, mida iganes sa soovid (`""`).
 
 \--- collapse \---
 
 * * *
 
-## pealkiri: Milliseid tähemärke saab kasutada?
+## title: Milliseid tähemärke saab kasutada?
 
-Sense HAT´iga saab kuvada ainult Latin 1 tähemärke, seetõttu saab ainult järgmisi tähemärke kasutada. Kõiki teisi tähemärke kuvataks nii `?`.
+Sense HAT-iga saab kuvada ainult Latin 1 tähemärke, seetõttu saab kasutada ainult järgmisi tähemärke. Kõiki teisi tähemärke kuvataks nii `?`.
 
     +-*/!"#$><0123456789.=)(
     
@@ -69,6 +69,6 @@ Samuti saad muuta ekraanil keritava sõnumi kiirust. Lisa `scroll_speed` (kerimi
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Sõnumi kerimise vaikimisi kiirus on `0.1`. Numbri väiksemaks muutmine teeb sõnumi kerimise kiiremaks ja numbri suuremaks muutmine teeb selle aeglasemaks.
+Sõnumi kerimise vaikekiirus on `0.1`. Numbri vähendamine muudab sõnumi kerimise kiiremaks ja numbri suurendamine muudab selle aeglasemaks.
 
 \--- /task \---
