@@ -20,7 +20,7 @@ Vei învăța despre unitatea AstroPi și cum să o controlezi, inclusiv cum să
 
 + afișezi mesaje și culori
 + creezi imagini
-+ măsori temperatura
++ măsori temperatura folosind Sense HAT
 
 Acest proiect acoperă elemente din următoarele componente ale curriculumului [Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -67,7 +67,7 @@ Numărul membrilor echipei
 Numele și vârsta membrilor echipei  
 În ce limbă ai accesat ghidul Mission Zero?
 
-+ Un cont Trinket va fi creat pentru tine (dacă nu ai deja unul, sau nu ești conectat). Poți crea un singer cont per adresă de e-mail. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și trimită programele.
++ Un cont Trinket va fi creat pentru tine (dacă nu ai deja unul, sau nu ești conectat). Poți crea un singur cont per adresă de e-mail. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și trimită programele.
 
 + Afișează codul de clasă undeva vizibil, cum ar fi pe o tablă albă sau utilizând un proiector, iar mai apoi poți începe activitatea.
     
