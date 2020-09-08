@@ -6,11 +6,11 @@ Her er en ekte Astro Pi-enhet på den internasjonale romstasjonen som kjører ko
 
 >
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Til dette oppdraget bruker dere Sense HAT-emulatoren. Emulatoren er et program som simulerer alle funksjonene til Astro Pi i nettleseren.
 
-![Sense HAT emulator](images/sense-hat-emulator.png)
+![Sense HAT-emulator](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Det er noen forskjeller mellom den virkelige og den emulerte Sense HAT:
 
 - På emulatoren kan du stille inn temperatur, trykk og fuktighet ved hjelp av glidebrytere, mens den virkelige Sense HAT i Astro Pi bruker sensorer til å måle disse parametrene i sitt miljø.
 
