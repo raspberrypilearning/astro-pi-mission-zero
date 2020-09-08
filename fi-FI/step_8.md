@@ -4,9 +4,9 @@ On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lä
 
 ![Validointi](images/validation.png)
 
-1. Lue lämpötila
+1. Ota kosteuslukema.
 2. Sytytä LEDit
-3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. Sinun ei pitäisi sisällyttää koodiin `while True` -silmukoita, koska se pitää koodisi käynnissä ja estää sen viimeistelemisen.
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
