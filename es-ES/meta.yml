@@ -18,9 +18,9 @@ steps:
   - 
     title: Mostrar una imagen
   - 
-    title: Medir la temperatura
+    title: Mide la humedad
   - 
-    title: Mostrar la temperatura
+    title: Muestra la humedad
   - 
     title: Enviar tu proyecto
   - 
