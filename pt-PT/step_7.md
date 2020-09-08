@@ -1,6 +1,6 @@
-## Visualizar a temperatura
+## Visualizar a humidade
 
-Podes combinar a leitura de temperatura com uma imagem para também indicar a temperatura de maneira gráfica. Por exemplo, podes escolher a imagem de uma tempestade de neve para mostrar temperaturas frias e um dia ensolarado para temperaturas altas:
+Podes combinar a leitura da humidade com uma imagem para também indicar a humidade de maneira gráfica. Por exemplo, pode-se mostrar um oceano para alta humidade e um deserto para baixa humidade:
 
 ![Quente e frio](images/wet-dry.png)
 
@@ -60,21 +60,21 @@ temp = sense.temperature
 
 \--- task \---
 
-Agora decide que imagem queres mostrar. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Agora decide que imagem queres mostrar. Para este exemplo, vamos mostrar a imagem `hot` se a leitura da temperatura for igual ou superior a 20 graus, e a imagem `cold` se a temperatura estiver abaixo dos 20 graus.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Usa o controlo de deslize de temperatura para definir uma temperatura no emulador. Executa o teu programa e verifica se a imagem que selecionaste para essa temperatura foi exibida corretamente.
+Use o controle deslizante de humidade para definir uma humidade no emulador. Executa o teu programa e verifica se a imagem que seleccionaste para essa humidade foi exibida correctamente.
 
 \--- /task \---
 
