@@ -18,10 +18,10 @@ steps:
   - 
     title: Anzeigen eines Bildes
   - 
-    title: Messen der Temperatur
+    title: Miss die Luftfeuchtigkeit
   - 
-    title: Anzeigen der Temperatur
+    title: Zeige die Luftfeuchtigkeit an
   - 
     title: Einreichen deines Beitrags
   - 
-    title: "Herausforderung: mehr Astro Pi Projekte"
+    title: "Herausforderung: noch mehr Astro Pi Projekte"
