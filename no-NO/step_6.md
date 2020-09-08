@@ -1,61 +1,61 @@
-## Måle temperaturen
+## Måle luftfuktigheten
 
-Temperaturføleren i Astro Pi kan måle temperaturen på luften rundt den, en nyttig funksjon som hjelper deg med å samle data om forholdene i rommet.
+Luftfuktighetsføleren i Astro Pi kan måle luftfuktigheten i luften rundt den, en nyttig funksjon som hjelper deg med å samle data om forholdene i rommet.
 
 ![Melding om temperaturen](images/degrees-message.gif)
 
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
+Astro Pi måler luftfuktigheten i ISS i antall prosent vannkonsentrasjon i luften.
 
-En del av oppdraget deres er å bidra til dagliglivet til mannskapet ombord på ISS, så når de får vite at temperaturen om bord på romstasjonen ligger innenfor et normalt område, vil de bli beroliget.
+En del av oppdraget deres er å bidra til dagliglivet til mannskapet ombord på ISS, så når de får vite at luftfuktigheten om bord på romstasjonen ligger innenfor et normalt område, vil de bli beroliget.
 
 [[[generic-theory-what-is-humidity]]]
 
 \--- task \---
 
-Add this code to take a humidity reading:
+Legg til denne koden for å lese av luftfuktigheten:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-\--- /collapse \---
+Denne linjen vil måle gjeldende luftfuktighet og lagre den målte verdien i variabelen `humid`.
 
 \--- /task \---
 
 \--- task \---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. Du kan avrunde verdien til et hvilket som helst antall desimaler. I eksemplet har vi avrundet til en desimal, men for et annet presisjonsnivå, endrer dere tallet `1` til så mange desimaler dere ønsker.
+Luftfuktigheten lagres veldig nøyaktig, det vil si at den lagrede verdien har mange desimaler. Du kan avrunde verdien til et hvilket som helst antall desimaler. I eksemplet har vi avrundet til en desimal, men for et annet presisjonsnivå, endrer dere tallet `1` til så mange desimaler dere ønsker.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To display the current humidity as a scrolling message on the display, add this line of code:
+For å vise gjeldende luftfuktighet som en rullende melding på skjermen, legg til denne kodelinjen:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+`str()`-delen gjør om luftfuktigheten fra tall til tekst slik at Astro Pi kan vise den.
 
 \--- /task \---
 
 \--- task \---
 
-`str()`-delen omdanner temperaturen fra tall til tekst slik at Astro Pi kan vise den.
+Du kan også vise luftfuktigheten som en del av en annen melding ved å slå sammen delene av meldingen med et `+`.
 
 ```python
-sense.show_message( "It is " + str(humid) + " %" )
+sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
 \--- /task \---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+Den virkelige Astro Pi måler luftfuktigheten rundt seg, men dere kan flytte glidebryteren for luftfuktighet på Sense HAT-emulatoren for å simulere endringer i luftfuktighet og teste koden.
 
-![Humidity slider](images/humidity-slider.png)
+![Luftfuktighet glidebryter](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Merk:** Dere lurer kanskje på hvorfor luftfuktighetsinnstillingen viser temperaturen som et heltall, mens avlesingen dere får er et desimaltall. Emulatoren simulerer den lille unøyaktigheten til den virkelige sensoren, så luftfuktighetsmålingene dere ser kan være ørlite større eller mindre enn verdien dere har angitt med skyveknappen.
