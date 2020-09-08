@@ -1,12 +1,12 @@
 ## Kuva pilt
 
-Pilte saad kuvada Astro Pi LED-maatriksil. Kui soovid, võib sinu tervitus astronautidele koosneda pildist või mustrist koos kirjaliku sõnumiga või ilma selleta.
+Pilte saad kuvada Astro Pi LED-maatriksil. Võib-olla võiks sinu tervitus astronautidele sisaldada pilti või mustrit koos kirjaliku sõnumiga või selle asemel?
 
 ![Astronaut](images/astronaut-pic.png)
 
 \--- task \---
 
-Oma programmi alaosas saad luua värvimuutujaid määramaks piltide joonistamisel kasutatavad värvid. Saad kasutada nii palju värve kui soovid, aga selles näites me kasutame ainult kahte värvi, valget (`w`) ja musta (`b`).
+Oma programmi alaosas saad luua värvimuutujaid määramaks piltide joonistamisel kasutatavaid värve. Saad kasutada nii palju värve kui soovid, aga selles näites me kasutame ainult kahte värvi, valget (`w`) ja musta (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 \--- task \---
 
-Oma uute muutujate alla tee 64-st elemendist koosnev loetelu. Iga element kujutab ühte pikslit LED-maatriksil ja vastab ühele sinu määratud värvimuutujale. Joonista oma pilt pannes muutuja sinna, kus soovid kasutada sellega määratud värvi. Meie kasutasime astronaudi joonistamiseks musta värvi (`b`) piksleid tausta määramiseks ja valge värvi (`w`) piksleid astronaudi skafandri joonistamiseks:
+Oma uute muutujate alla tee 64-st elemendist koosnev loend. Iga element kujutab ühte pikslit LED-maatriksil ja vastab ühele sinu määratud värvimuutujale. Joonista oma pilt pannes muutuja sinna, kus soovid kasutada sellega määratud värvi. Meie joonistasime astronaudi kasutades musta värvi (`b`) piksleid tausta määramiseks ja valge värvi (`w`) piksleid astronaudi skafandri joonistamiseks:
 
 ```python
 picture = [
@@ -54,13 +54,13 @@ Klõpsa **Run** (Käivita) nägemaks, kuidas sinu pilti kuvatakse.
 
 \--- task \---
 
-Kui soovid, võid lisada mõne koodi (või `sleep`) selle jaoks, et peale pildi kuvamist oleks lühike paus. See annab astronautidele aega vaadata sinu pilti enne sinu sõnumi järgmise osa kuvamist. Oma programmi ülaosasse lisa:
+Kui soovid, võid lisada veidi koodi selle jaoks, et peale pildi kuvamist oleks lühike paus (või `sleep`). See annab astronautidele aega vaadata sinu pilti enne, kui sinu sõnumi järgmine osa neile kuvatakse. Oma programmi ülaossa lisa:
 
 ```python
 from time import sleep
 ```
 
-Seejärel lisa reale, mis on peale seda rida mis kuvab sinu pilti see kood, et anda kaks sekundit ooteaega:
+Seejärel lisa reale, mis on peale sinu pilti kuvavat rida, see kood, et anda kaks sekundit ooteaega:
 
 ```python
 sleep(2)
