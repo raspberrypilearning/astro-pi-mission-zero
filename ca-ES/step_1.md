@@ -1,30 +1,30 @@
-## Introducció
+## Εισαγωγή
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the relative humidity on board using the Astro Pi computer's Sense HAT.
+Προσφέρετε μια ευχάριστη νότα στην καθημερινή ρουτίνα των αστροναυτών στον Διεθνή Διαστημικό Σταθμό, δείχνοντάς τους ένα μήνυμα και τη θερμοκρασία περιβάλλοντος μέσα στον σταθμό, χρησιμοποιώντας τον υπολογιστή Sense ΗΑΤ του Astro Pi.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Θα χρησιμοποιήσετε τον διαδικτυακό εξομοιωτή Sense HAT για να δημιουργήσετε το πρόγραμμά σας, οπότε δεν θα χρειαστείτε επιπλέον εξοπλισμό — όλα γίνονται σε ένα πρόγραμμα περιήγησης Ιστού (φυλλομετρητή).
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+Το ολοκληρωμένο πρόγραμμά σας θα εκτελεστεί στο διάστημα στον Διεθνή Διαστημικό Σταθμό (ΔΔΣ)! Θα λάβετε επίσης ένα ειδικό πιστοποιητικό που θα δείχνει πού ακριβώς βρισκόταν ο Διεθνής Διαστημικός Σταθμός κατά την εκτέλεση του προγράμματός σας!
 
-### Què faràs
+### Τι θα φτιάξεις
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+Παρακάτω είναι ένα παράδειγμα του προγράμματος που θα μπορούσες να φτιάξεις. Κάνε κλικ στο «**Run**» (Εκτέλεση) για να δείς το πρόγραμμα σε δράση. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 \--- collapse \---
 
 * * *
 
-## títol: Què aprendràs
+## title: Τι θα μάθεις
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
+Θα μάθεις σχετικά με τη μονάδα AstroPi και το πώς μπορείς να την ελέγχεις, συμπεριλαμβανομένων και των εξής:
 
-+ Display messages and colours
-+ Create images
-+ Measure the humidity using a Sense HAT
++ Πώς να εμφανίζεις μηνύματα και χρώματα
++ Πώς να δημιουργείς εικόνες
++ Μέτρησε την υγρασία χρησιμοποιώντας ένα Sense HAT
 
-Aquest projecte tracta elements dels següents aspectes del [Currículum de Fabricació Digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Utilitza estructures de programació senzilles per crear programes simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- / collapse \---
 
@@ -32,15 +32,15 @@ Aquest projecte tracta elements dels següents aspectes del [Currículum de Fabr
 
 * * *
 
-## títol: què necessitaràs
+## title: Τι θα χρειαστείς
 
-### Maquinari
+### Υλικό (Hardware)
 
-+ Any computer with an internet connection
++ Οποιοσδήποτε υπολογιστής με σύνδεση στο Διαδίκτυο
 
-### Programari
+### Λογισμικό
 
-+ A web browser (e.g. Google Chrome) to open <https://trinket.io/mission-zero>{:target="_blank"}
++ Ένα πρόγραμμα περιήγησης Ιστού (π.χ. Google Chrome) για να ανοίξετε το <https://trinket.io/mission-zero>{:target="_blank"}
 
 \--- / collapse \---
 
@@ -48,30 +48,25 @@ Aquest projecte tracta elements dels següents aspectes del [Currículum de Fabr
 
 ## title: Notes for teachers and mentors
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες των τεσσάρων και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και τη θερμοκρασία αέρα στο Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} για το Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Θα χρειαστεί να εγγραφείτε στη δοκιμασία Mission Zero για να μπορουν να συμμετάσχουν οι ομάδα(ες) σας.
 
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_blank"}.
++ Μεταβείτε στη [σελίδα Mission Zero του εξομοιωτή Trinket](https://trinket.io/mission-zero){:target="_blank"}.
 
-+ Fill out the form and click **Submit**\*.
++ Συμπληρώστε τη φόρμα και κάντε κλικ στο «**Submit**»\*.
 
-\* Please note that this registration form is available in English only.
+\* Παρακαλώ, προσέξτε ότι αυτή η φόρμα εγγραφής είναι διαθέσιμη μόνο στα Αγγλικά.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Τα πεδία της φόρμας περιλαμβάνουν: <0 /> Όνομα δασκάλου / μέντορα <0 /> Όνομα ομάδας <0 /> Αριθμός μελών ομάδας <0 /> Ονόματα και ηλικίες μελών ομάδας <0 /> Στα οποία γλώσσα που έχετε πρόσβαση στις οδηγίες του Mission Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Θα δημιουργηθεί ένας λογαριασμός Trinket για εσάς (εάν δεν έχετε ήδη λογαριασμό ή δεν έχετε συνδεθεί). Μπορείτε να δημιουργήσετε έναν λογαριασμό ανά διεύθυνση email. Καθε λογαριασμός εχει τον δικό του **classroomcode**, και θα πρέπει να ενημερώσετε την ομαδα(ες) ποιός είναι ο δικός σας όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
 
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
++ Προβάλλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής και ξεκινήστε τη δραστηριότητα.
     
-    We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+    Δημιουργήσαμε [ένα εκτυπώσιμο φυλλάδιο δύο σελίδων](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} που καλύπτει τα βασικά σημεία του Mission Zero και το οποίο οι μαθητές και οι νέοι μπορούν να χρησιμοποιήσουν μαζί με αυτό το online έργο.
 
 \--- /collapse \---
 
