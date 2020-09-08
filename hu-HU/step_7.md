@@ -1,18 +1,20 @@
-## Jelenítsd meg a hőmérsékletet!
+## Jelenítsd meg a páratartalmat!
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+A leolvasott páratartalmat egy képpel is összekapcsolhatod, hogy a páratartalmat grafikusan is szemléltesd. Például megjeleníthetsz egy óceánt magas páratartalomnál, és egy sivatagot alacsony páratartalomnál:
 
-![Hideg és meleg](images/wet-dry.png)
+![Nedves és száraz](images/wet-dry.png)
 
 \--- task \---
 
 A programod végén hozz létre még több színváltozót azokra a színekre, amelyeket használni szeretnél a képeidben. Lehetséges, hogy van olyan, amit már egy előző lépésben meghatároztál.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 \--- /task \---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Akárcsak korábban, a képeid megrajzolásához hozz létre egy listát mindegyiknek, majd állítsd be a listaelemeket azokra a színekre, amelyekre szeretnéd a pixeleidet beszínezni.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ cold = [
 
 \--- task \---
 
-Add hozzá a kódot, hogy megkapd a hőmérsékletet:
+Add hozzá a kódot, hogy megkapd a páratartalmat:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Most döntsd el, melyik képet szeretnéd megjeleníteni. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Most döntsd el, melyik képet szeretnéd megjeleníteni. Ebben a példában mi a `wet` („nedves”) képet jelenítjük majd meg, ha a mért páratartalom 40% vagy annál magasabb, és a `dry` („száraz”) képet, ha a páratartalom 40%-nál alacsonyabb.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Használd a páratartalom-csúszkát az emulátoron a páratartalom beállításához. Futtasd a programod és ellenőrizd le, hogy a kép, amelyet az adott a páratartalomhoz kiválasztottál, helyesen jelenik-e meg.
 
 \--- /task \---
 
 \--- task \---
 
-Változtasd meg a kódot, hogy a programod az általad választott módon jelenítse meg a hőmérsékletet az űrhajósok számára.
+Változtasd meg a kódot, hogy a programod az általad választott módon jelenítse meg a páratartalmat az űrhajósok számára.
 
 \--- /task \---
