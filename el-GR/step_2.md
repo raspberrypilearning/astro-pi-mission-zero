@@ -6,11 +6,11 @@
 
 >
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Γι΄ αυτή την αποστολή, θα χρησιμοποιήσετε τον εξομοιωτή Sense HAT. Ο εξομοιωτής είναι ένα λογισμικό που προσομοιώνει όλες τις λειτουργίες του Astro Pi στο πρόγραμμα περιήγησης του φυλλομετρητή σας.
 
-![Sense HAT emulator](images/sense-hat-emulator.png)
+![Εξομοιωτής Sense HAT](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Υπάρχουν μερικές διαφορές μεταξύ του πραγματικού και του εξομοιωμένου Sense HAT:
 
 - Στον εξομοιωτή, μπορείτε να ρυθμίσετε τη θερμοκρασία, την πίεση και την υγρασία μόνοι σας χρησιμοποιώντας ρυθμιστικά, ενώ το πραγματικό Sense HAT στον Astro Pi χρησιμοποιεί αισθητήρες που μετρούν αυτές τις παραμέτρους στο πραγματικό περιβάλλον.
 
