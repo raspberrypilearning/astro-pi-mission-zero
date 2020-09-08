@@ -6,7 +6,7 @@ Există câteva reguli pe care codul tău trebuie să le respecte, astfel încâ
 
 1. Măsoară umiditatea.
 2. Aprinde LED-urile.
-3. Asigură-te că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. Nu ar trebui să incluzi nici o buclă `while True` în codul tău, deoarece aceasta îți va menține codul funcțional și va împiedica terminarea acestuia.
+3. Asigură-te că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. Nu ar trebui să incluzi nici o buclă `while True` în codul tău, deoarece aceasta îți va menține codul în execuție și va împiedica terminarea acestuia.
 
 De asemenea, asigură-te că ai îndeplinit următoarele criterii:
 
