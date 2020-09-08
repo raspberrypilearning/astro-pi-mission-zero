@@ -12,16 +12,16 @@ steps:
   - 
     title: Qu'est-ce qu'un Astro Pi ?
   - 
-    title: Affiche un message
+    title: Afficher un message
   - 
-    title: Ajoute de la couleur
+    title: Ajouter de la couleur
   - 
-    title: Affiche une image
+    title: Afficher une image
   - 
     title: Mesurer l'humidité
   - 
     title: Afficher l'humidité
   - 
-    title: Envoie ton programme
+    title: Soumettre ton programme
   - 
-    title: "Défi: davantage de projets Astro Pi"
+    title: "Défi : d'autres projets Astro Pi"
