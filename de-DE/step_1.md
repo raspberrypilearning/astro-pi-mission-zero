@@ -1,6 +1,6 @@
 ## Einleitung
 
-Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des Astro Pi Computers eine Nachricht sowie die Umgebungstemperatur an Bord der Raumstation übermittelst.
+Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des Astro Pi Computers eine Nachricht sowie die Luftfeuchtigkeit an Bord der Raumstation übermittelst.
 
 Dein Programm erstellst du mit dem Online Sense HAT Emulator, so dass keine zusätzliche Hardware benötigt wird — alles geschieht in einem Webbrowser.
 
@@ -20,11 +20,11 @@ Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digit
 
 + Anzeige von Nachrichten und Farben
 + Erstellung von Bildern
-+ messen der Temperatur
++ Messen der Luftfeuchtigkeit mit einem Sense HAT
 
 Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Lehrplans](http://rpf.io/curriculum) {:target="_blank"}:
 
-+ [Verwende grundlegende Programmierkonstrukte, um einfache Programme zu erstellen ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Verwendung grundlegender Programmierkonstrukte, um einfache Programme zu erstellen ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 \--- /collapse \---
 
@@ -48,31 +48,26 @@ Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digit
 
 ## title: Hinweise für Lehrer und Mentoren
 
-Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, womit man eine persönliche Nachricht und die Lufttemperatur an den Astro Pi schicken kann.
+Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, womit man eine persönliche Nachricht und die Luftfeuchtigkeit an den Astro Pi schicken kann.
 
 Lesen Sie das [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} (Dokument offizieller Richtlinien) für Mission Zero.
 
 Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihre Teams teilnehmen können.
 
-+ Besuchen Sie die [Trinket emulator Mission Zero page](https://trinket.io/mission-zero/register){:target="_ blank"} (Trinket Emulator Mission Zero Seite).
++ Besuchen Sie die [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_ blank"} (Trinket Emulator Mission Zero Seite).
 
 + Füllen Sie das Forumlar aus und klicken Sie auf **Submit** (Senden)\*.
 
 \* Bitte beachten Sie, dass das Registrierungs-Formular nur auf Englisch verfügbar ist.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Die Felder im Formular umfassen: <0 /> Name des Lehrers / Mentors <0 /> Teamname <0 /> Anzahl der Teammitglieder <0 /> Namen und Alter der Teammitglieder <0 /> In welcher Sprache haben Sie auf die Mission Zero-Richtlinien zugegriffen?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Jedes Konto hat seinen eigenen **Klassencode** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
++ Ein Trinket-Konto wird für Sie erstellt (falls Sie noch keines haben oder nicht angemeldet sind). Sie können ein Konto pro E-Mail-Adresse erstellen. Jedes Konto hat seinen eigenen **Klassen-Code** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
 
 + Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Tafel oder mit einem Projektor, und beginnen Sie mit der Aktivität.
     
-    Wir haben ein [druckbares, zweiseitiges Handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} erstellt, welches die wichtigsten Punkte der Mission Zero abdeckt. Es kann von den Schülern und Jugendlichen zusammen mit dem Online-Projekt verwendet werden.
+    Wir haben ein [druckbares, zweiseitiges Handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} erstellt, welches die wichtigsten Punkte der Mission Zero abdeckt. Es kann von den Schülern und Jugendlichen für dieses Online-Projekt verwendet werden.
 
 \--- /collapse \---
 
-![Zählpixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
