@@ -1,7 +1,7 @@
 ---
 title: "Astro Pi: Mission Zero"
 hero_image: images/banner.png
-description: Valmistu Mission Zero´ks
+description: Valmistu Mission Zeroks
 listed: false
 copyedit: true
 version: 4.0.1
@@ -12,15 +12,15 @@ steps:
   - 
     title: Mis on Astro Pi?
   - 
-    title: Kuva teade
+    title: Kuva sõnum
   - 
     title: Lisa värve
   - 
     title: Kuva pilt
   - 
-    title: Mõõda õhutemperatuur
+    title: Mõõda niiskust
   - 
-    title: Õhutemperatuuri kuvamine
+    title: Kuva niiskus
   - 
     title: Esita oma kirje
   - 
