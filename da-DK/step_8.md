@@ -4,7 +4,7 @@ Der er nogle få regler, som din kode skal følge, så du kan indsende den, og d
 
 ![Validering](images/validation.png)
 
-1. Foretag en luftfugtugsaflæsning.
+1. Foretag en luftfugtigsaflæsning.
 2. Tænd lysdioderne
 3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Du bør ikke medtage nogen ` while True ` løkker i din kode, da dette holder dig kode kørende og forhindrer, at den afsluttes.
 
