@@ -1,12 +1,12 @@
-## Display the humidity
+## Εμφάνιση της υγρασίας
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Μπορείς να συνδιάσεις τη μέτρηση υγρασίας με μια εικόνα που επίσης θα δείχνει την υγρασία με ενα γραφικό τρόπο. Για παράδειγμα μπορείς να εμφανίσεις ένα ωκεανό για την υψηλή υγρασία και μια έρημο για τη χαμηλή:
 
-![Wet and dry](images/wet-dry.png)
+![Υγρό και ξηρό](images/wet-dry.png)
 
 \--- task \---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+Στο κάτω μέρος του προγράμματός σου, δημιούργησε μερικές μεταβλητές χρώματος για κάθε χρώμα που θες να χρησιμοποιήσεις στις εικόνες σου. Ίσως να έχεις ήδη ορίσει κάποιες από αυτές τις μεταβλητές σε προηγούμενο βήμα.
 
 ```python
 o=(255,130,0)
@@ -21,7 +21,7 @@ y=(255,255,0)
 
 \--- task \---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Όπως και προηγουμένως, σχεδίασε τις εικόνες σου δημιουργώντας πρώτα μια λίστα για κάθε μία, και έπειτα όρισε τα στοιχεία της λίστας με τα χρώματα που θέλεις να έχουν τα pixels σου.
 
 ```python
 wet = [
@@ -52,7 +52,7 @@ dry = [
 
 \--- task \---
 
-Add some code to get the humidity:
+Πρόσθεσε τον κώδικα για τη λήψη της υγρασίας:
 
 ```python
 humid = sense.humidity
@@ -62,7 +62,7 @@ humid = sense.humidity
 
 \--- task \---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Τώρα αποφάσισε ποια εικόνα θέλεις να εμφανιστεί. Σε αυτό το παράδειγμα, θα εμφανίσουμε την εικόνα `υγρό` αν η τιμή της υγρασίας είναι πάνω από 40% και την εικόνα `ξηρό` αν η τιμή είναι κάτω από 40%.
 
 ```python
 humid = sense.humidity
@@ -76,12 +76,12 @@ else:
 
 \--- task \---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Χρησιμοποποίησε το ρυθμιστή υγρασίας για να βάλεις μια υγρασία στον εξομοιωτή. Τρέξε το πρόγραμμά σου και έλεγξε οτι η εικόνα που επέλεξες γι αυτή την υγρασία εμφανίζεται σωστά.
 
 \--- /task \---
 
 \--- task \---
 
-Change your code so that your program displays the humidity to the astronauts in your own chosen way.
+Άλλαξε τον κώδικά σαου έτσι ώστε το πρόγραμμά σου να εμφανίζει τη θερμοκρασία στους αστροναύτες με τον δικό σου τρόπο.
 
 \--- /task \---
