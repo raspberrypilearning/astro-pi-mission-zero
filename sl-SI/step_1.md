@@ -48,11 +48,11 @@ Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarj
 
 ## title: Navodila za učitelje in mentorje
 
-To aktivnost je mogoče dokončati v enem popoldnevu. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupine z 2-4 člani, mi pa jih bomo vodili pri pisanju kratkega programa v programskem jeziku Python, s pomočjo katerega bodo na Astro Pi lahko prikazali osebno sporočilo in vlago zraka.
 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} za Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 
 + Obiščite [stran emulatorja Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
@@ -60,14 +60,14 @@ You will need to register for the Mission Zero challenge to allow your team(s) t
 
 \* Obrazec za registracijo je na voljo le v angleščini.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Polja na obrazcu vključujejo:  
+Ime učitelja/mentorja  
+Ime ekipe  
+Število članov ekipe  
+Imena in starost članov ekipe  
+V katerem jeziku ste dostopali do smernic Misije Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Za vas bo ustvarjen račun Trinket (če ga še nimate ali niste prijavljeni). Na en e-poštni naslov lahko ustvarite en račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo uporabili za pošiljanje svojih programov.
 
 + Kodo učilnice zapišite na vidno mesto, npr. na tablo ali jo projicirajte na platno, in začnite z aktivnostjo.
     
