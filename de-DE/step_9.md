@@ -1,8 +1,8 @@
-## Herausforderung: mehr Astro Pi Projekte
+## Herausforderung: noch mehr Astro Pi Projekte
 
 Jetzt, wo du deine Mission beendet hast, hättest du doch sicher Lust noch ein paar Projekte mit den anderen Sensoren auf dem Astro Pi auszuprobieren?
 
-Wenn du es dir zutraust, könntest du an der [ Mission Space Lab](https://astro-pi.org/missions/space-lab/) teilnehmen! Stellt ein Team von zwei bis sechs Personen zusammen und arbeitet wie echte Weltraumwissenschaftler zusammen, um euer eigenes Experiment zu entwerfen. Erhaltet kostenlose Computerhardware für eure Mission und schreibt den Python-Code, um euer Experiment durchzuführen. Wenn ihr den Flugstatus erreicht, wird euer Code auf die Internationale Raumstation hochgeladen und läuft drei Stunden lang auf dem Astro Pi (zwei Orbits). Alle Daten, die euer Code im Weltraum sammelt — Image- oder Sensordatendateien — werden heruntergeladen und euch zur Analyse zurückgegeben.
+Wenn du es dir zutraust, könntest du an der [Mission Space Lab](https://astro-pi.org/missions/space-lab/) teilnehmen! Stellt ein Team von zwei bis sechs Personen zusammen und arbeitet wie echte Weltraumwissenschaftler zusammen, um euer eigenes Experiment zu entwerfen. Erhaltet kostenlose Computerhardware für eure Mission und schreibt den Python-Code, um euer Experiment durchzuführen. Wenn ihr den Flugstatus erreicht, wird euer Code auf die Internationale Raumstation hochgeladen und läuft drei Stunden lang auf dem Astro Pi (zwei Orbits). Alle Daten, die euer Code im Weltraum sammelt — Image- oder Sensordatendateien — werden heruntergeladen und euch zur Analyse zurückgegeben.
 
 Alternativ möchtest du vielleicht eines unserer anderen Astro Pi Projekte ausprobieren:
 
@@ -15,3 +15,13 @@ Alternativ möchtest du vielleicht eines unserer anderen Astro Pi Projekte auspr
 + Fordere deine Freunde zu einem [Murmel-Labyrinth](https://projects.raspberrypi.org/de-DE/projects/sense-hat-marble-maze){:target="_blank"} Spiel heraus
 
 + Bilde das klassische Spiel [Pong](https://projects.raspberrypi.org/de-DE/projects/sense-hat-pong){:target="_blank"} nach
+
+
+***
+Dieses Projekt wurde von freiwilligen Helfern übersetzt:
+
+Karl Schuh
+
+Lars Reime
+
+Dank freiwilliger Helfer können wir Menschen auf der ganzen Welt die Möglichkeit geben, in ihrer eigenen Sprache zu lernen. Du kannst uns helfen, mehr Menschen zu erreichen, indem Du dich freiwillig zum Übersetzen meldest - weitere Informationen unter [rpf.io/translate](https://rpf.io/translate).

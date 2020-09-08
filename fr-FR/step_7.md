@@ -1,18 +1,20 @@
-## Affiche la température
+## Afficher l'humidité
 
-Tu peux combiner ta mesure de la température avec une image pour indiquer également la température de manière graphique. Par exemple, tu peux afficher une tempête de neige pour les températures froides et une journée ensoleillée pour les températures chaudes :
+Tu peux combiner ta mesure d'humidité avec une image pour aussi indiquer l'humidité d'une manière graphique. Par exemple, tu peux afficher un océan pour une humidité élevée, et un désert pour une faible humidité :
 
-![Chaud et froid](images/hot-and-cold.png)
+![Humide et sec](images/wet-dry.png)
 
 --- task ---
 
-En bas de ton programme, crée d'autres variables pour les couleurs que tu veux utiliser pour dessiner tes images. Tu en as peut-être déjà défini certaines lors d'une étape précédente. Dans nos exemples, nous utiliserons du blanc (`w`), jaune (`y`), vert (`g`), et noir / blanc (`b`).
+En bas de ton programme, crée d'autres variables pour les couleurs que tu veux utiliser pour dessiner tes images. Tu en as peut-être déjà défini certaines lors d'une étape précédente.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Comme précédemment, dessine tes images en créant d'abord une liste pour chacune d'entre elles, puis en indiquant la couleur que tu veux donner aux pixels de chaque élément de la liste.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ cold = [
 
 --- task ---
 
-Ajoute du code pour obtenir la température :
+Ajoute du code pour obtenir l'humidité :
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 --- /task ---
 
 --- task ---
 
-Décide maintenant quelle image tu veux afficher. Pour cet exemple, nous afficherons l'image correspondant à la chaleur `hot` (chaud) si la mesure de la température est de 20 degrés ou plus, et l'image correspondant au froid `cold` (froid) si la température est inférieure à 20 degrés.
+Décide maintenant quelle image tu veux afficher. Pour cet exemple, nous afficherons l'image `humide` si la lecture de l'humidité est de 40% ou plus, et l'image `sec` si l'humidité est inférieure à 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Utilise le curseur de température pour définir une température sur l'émulateur. Exécute ton programme et vérifie que l'image que tu as choisie pour cette température est correctement affichée.
+Utilise le curseur d'humidité pour définir une humidité sur l'émulateur. Exécute ton programme et vérifie que l'image que tu as choisie pour cette humidité est correctement affichée.
 
 --- /task ---
 
 --- task ---
 
-Modifie ton code pour que ton programme affiche la température pour les astronautes de la manière que tu as choisie.
+Modifie ton code pour que ton programme affiche l'humidité pour les astronautes de la manière que tu as choisie.
 
 --- /task ---

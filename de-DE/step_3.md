@@ -2,7 +2,7 @@
 
 --- task ---
 
-Öffne den [ Sense HAT Emulator](https://trinket.io/mission-zero){:target="_ blank"} für das Mission Zero Projekt.
+Öffne den [Sense HAT Emulator](https://trinket.io/mission-zero){:target="_blank"} für das Mission Zero Projekt.
 
 Du wirst sehen, dass drei Zeilen Code bereits automatisch erscheinen:
 
@@ -46,6 +46,7 @@ Um eine andere Nachricht anzuzeigen, kannst du etwas Beliebiges zwischen die Anf
 ---
 title: Welche Zeichen können verwendet werden?
 ---
+
 Der Sense HAT kann nur den Zeichensatz Latin 1 anzeigen, sodass nur die folgenden Zeichen verfügbar sind. Andere Zeichen werden als `?` angezeigt.
 
     +-*/!"#$><0123456789.=)(

@@ -7,12 +7,12 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: مقدمة
+  - title: المقدمة
   - title: ما هو نظام Astro Pi؟
   - title: عرض رسالة
   - title: إضافة بعض الألوان
   - title: عرض صورة
-  - title: قياس درجة الحرارة
-  - title: عرض درجة الحرارة
+  - title: قياس مقدار الرطوبة
+  - title: عرض مقدار الرطوبة
   - title: إرسال إدخالك
   - title: "التحدي: المزيد من مشروعات Astro Pi"

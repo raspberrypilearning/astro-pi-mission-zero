@@ -46,6 +46,7 @@ Om een ​​ander bericht weer te geven, kun je alles wat je maar wilt tussen d
 ---
 title: Welke tekens kunnen worden gebruikt?
 ---
+
 De Sense HAT kan alleen de tekenset Latin 1 weergeven, wat betekent dat alleen de volgende tekens beschikbaar zullen zijn. Andere tekens worden weergegeven als een `?`.
 
     +-*/!"#$><0123456789.=)(

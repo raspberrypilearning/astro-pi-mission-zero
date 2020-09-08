@@ -12,7 +12,7 @@ steps:
   - title: Toon een bericht
   - title: Voeg wat kleur toe
   - title: Toon een afbeelding
-  - title: Meet de temperatuur
-  - title: Geef de temperatuur weer
+  - title: Meet de luchtvochtigheid
+  - title: Geef de luchtvochtigheid weer
   - title: Verstuur je inzending
   - title: "Uitdaging: meer Astro Pi-projecten"
