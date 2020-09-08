@@ -1,6 +1,6 @@
 ## Úvod
 
-Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT, přídavné desky počítače Astro Pi, zobrazíte vzkaz a teplotu vzduchu na palubě.
+Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT, přídavné desky počítače Astro Pi, zobrazíte vzkaz a vlhkost vzduchu na palubě.
 
 Při vytváření programu budete používat online emulátor desky Sense HAT, takže není potřeba žádný speciální hardware – všechno se to dělá ve webovém prohlížeči.
 
@@ -19,7 +19,7 @@ Tady je příklad, jaký program byste mohli vytvořit. Klikněte na **Run** (Sp
 Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
 
 + zobrazovat zprávy a barvy
-+ vytvářet obrázky
++ Vytvořit obrázky
 + měřit teplotu
 
 Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
