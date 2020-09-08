@@ -20,7 +20,7 @@ Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](ht
 
 + näytä viestejä ja värejä
 + luo kuvia
-+ mittaa lämpötila
++ Mittaa kosteus Sense HAT:lla
 
 Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista {:target="_blank"}:
 
