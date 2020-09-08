@@ -8,7 +8,7 @@ Du kannst hier lernen, wie alle Farben mit unterschiedlichen Anteilen von rot, g
 
 --- task ---
 
-Wähle eine Farbe und ermittle den RGB-Wert dieser Farbe. Du könntest zur Hilfe einen [Farbwähler](https://www.w3schools.com/colors/colors_rgb.asp){:target="_ blank"} verwenden.
+Wähle eine Farbe und ermittle den RGB-Wert dieser Farbe. Du könntest zur Hilfe einen [Farbwähler](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} verwenden.
 
 --- /task ---
 

@@ -1,12 +1,12 @@
-## Affiche une image
+## Afficher une image
 
-Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de salutation pour les astronautes pourrait peut-être inclure une image ou un motif avec le texte, ou à la place du texte?
+Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de salutation pour les astronautes pourrait peut-être inclure une image ou un motif avec le texte, ou à la place du texte ?
 
 ![Astronaute](images/astronaut-pic.png)
 
 --- task ---
 
-En bas de ton programme, crée des variables pour les couleurs que tu veux définir pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`w` ) et noir (`b` ).
+En bas de ton programme, crée des variables pour les couleurs que tu veux définir pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`w`) et noir (`b`).
 
 ```python
 w = (255, 255, 255)
@@ -19,7 +19,7 @@ b = (0, 0, 0)
 
 --- task ---
 
-Sous tes nouvelles variables, crée une liste de 64 éléments. Chaque élément représente un pixel de la matrice du LED et correspond à l'une des variables de couleur que tu as définies. Dessine ton image en mettant une variable à l'endroit où tu veux que la couleur de cette variable apparaisse. Nous avons dessiné un astronaute en utilisant les pixels noirs (`b` ) pour l'arrière-plan et les pixels blancs (`w` ) pour dessiner la combinaison spatiale de l'astronaute :
+Sous tes nouvelles variables, crée une liste de 64 éléments. Chaque élément représente un pixel de la matrice du LED et correspond à l'une des variables de couleur que tu as définies. Dessine ton image en mettant une variable à l'endroit où tu veux que la couleur de cette variable apparaisse. Nous avons dessiné un astronaute en utilisant les pixels noirs (`b`) pour l'arrière-plan et les pixels blancs (`w`) pour dessiner la combinaison spatiale de l'astronaute :
 
 ```python
 picture = [
@@ -54,7 +54,7 @@ Appuie sur **Run** (Exécuter) pour afficher ton image.
 
 --- task ---
 
-Si tu veux tu peux ajouter du code pour inclure un court moment d'attente (ou `sleep` (pause)) après l’affichage de l'image. Cela donnera aux astronautes le temps de voir ton image avant l'affichage de la partie suivante de ton message. En haut de ton programme, rajoute :
+Tu peux ajouter du code pour inclure une courte attente (ou `sleep`) après que l'image soit affichée. Cela donnera aux astronautes le temps de voir ton image avant l'affichage de la partie suivante de ton message. En haut de ton programme, rajoute :
 
 ```python
 from time import sleep

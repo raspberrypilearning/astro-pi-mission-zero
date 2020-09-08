@@ -12,7 +12,7 @@ steps:
   - title: Anzeigen einer Nachricht
   - title: Füge etwas Farbe hinzu
   - title: Anzeigen eines Bildes
-  - title: Messen der Temperatur
-  - title: Anzeigen der Temperatur
+  - title: Miss die Luftfeuchtigkeit
+  - title: Zeige die Luftfeuchtigkeit an
   - title: Einreichen deines Beitrags
-  - title: "Herausforderung: mehr Astro Pi Projekte"
+  - title: "Herausforderung: noch mehr Astro Pi Projekte"

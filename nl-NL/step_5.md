@@ -46,7 +46,7 @@ sense.set_pixels(picture)
 
 --- /task ---
 
---- task ---
+--- task ----
 
 Druk op **Run** (Uitvoeren) om je foto te laten zien.
 

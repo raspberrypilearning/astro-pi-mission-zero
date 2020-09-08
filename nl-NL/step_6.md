@@ -1,72 +1,61 @@
-## Meet de temperatuur
+## Meet de luchtvochtigheid
 
-De temperatuursensor in de Astro Pi kan de temperatuur van de lucht eromheen meten, een handige functie om je te helpen gegevens te verzamelen over de omstandigheden in de ruimte.
+De luchtvochtigheidssensor in de Astro Pi kan de vochtigheid van de lucht eromheen meten, een handige functie om je te helpen gegevens te verzamelen over de omstandigheden in de ruimte.
 
-![Bericht over de temperatuur](images/degrees-message.gif)
+![Bericht over de luchtvochtigheid](images/degrees-message.gif)
 
-De Astro Pi meet de temperatuur in het ISS in graden Celsius (&deg;C). Omdat de temperatuur in de ruimte veel meer varieert dan die op aarde, kan de Astro Pi temperaturen van -40 graden Celsius tot +120 graden Celsius meten.
+De Astro Pi meet de luchtvochtigheid in het ISS in procentuele waterconcentratie in de lucht.
 
-Een deel van je missie is om bij te dragen aan het dagelijks leven van de bemanning aan boord van het ISS, dus ze laten weten dat de temperatuur aan boord van het ruimtestation binnen een normaal bereik ligt, zal hen geruststellen.
+Een deel van je missie is om bij te dragen aan het dagelijks leven van de bemanning aan boord van het ISS, dus ze laten weten dat de luchtvochtigheid aan boord van het ruimtestation binnen een normaal bereik ligt, zal hen geruststellen.
 
---- collapse ---
----
-title: Wat is temperatuur?
----
-
-Temperatuur is de maat voor hoe warm iets is. Misschien heb je je temperatuur met een thermometer laten meten tijdens een bezoek aan de dokter.
-
-![Thermometer](images/thermometer.JPG) *Door Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} via Wikimedia Commons*
-
-Om exacter te zijn, temperatuur is een maat voor de hoeveelheid warmte-energie van een stof. Je weet dat een ijsblokje vast is, maar naarmate het opwarmt, dat wil zeggen omdat het warmte-energie absorbeert uit zijn omgeving, smelt het en wordt het vloeibaar. Dit komt omdat wanneer een stof voldoende warmte-energie absorbeert of verliest, de toestand zal veranderen, bijv. van een vaste stof naar een vloeistof.
-
---- /collapse ---
+[[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
-Voeg deze code toe om een ​​temperatuurmeting te doen:
+Voeg deze code toe om een luchtvochtigheidsmeting te doen:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-Deze regel meet de huidige temperatuur en slaat de gemeten waarde op in de variabele `temp`.
+Deze regel meet de huidige luchtvochtigheid en slaat de gemeten waarde op in de variabele `humid`.
 
---- /task ---
+---/task---
 
 --- task ---
 
-De temperatuur wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` tot het aantal decimalen dat je wilt zien.
+De luchtvochtigheid wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` in het aantal decimalen dat je wilt zien.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
---- /task ---
+-- /task ---
 
 --- task ---
 
-Om de huidige temperatuur weer te geven als een scrollend bericht op het display, voeg je deze regel code toe:
+Om de huidige luchtvochtigheid weer te geven als een scrollend bericht op het display, voeg je deze regel code toe:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-Het `str()` gedeelte zet de temperatuur van een getal om naar tekst, zodat de Astro Pi het kan weergeven.
+Het `str()` gedeelte zet de luchtvochtigheid van een getal om naar tekst, zodat de Astro Pi het kan weergeven.
 
---- /task ---
+---/task---
 
 --- task ---
 
-Je kunt de temperatuur ook weergeven als onderdeel van een ander bericht door de delen van je bericht samen te voegen met een `+`.
+Je kunt de luchtvochtigheid ook weergeven als onderdeel van een ander bericht door de delen van je bericht samen te voegen met een `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "De luchtvochtigheid is " + str(humid) + " %" )
 ```
 
 --- /task ---
 
-De echte Astro Pi meet de temperatuur om zich heen, maar je kunt de temperatuurschuifregelaar op de Sense HAT-emulator verplaatsen om temperatuurveranderingen te simuleren en je code te testen.
+De echte Astro Pi meet de luchtvochtigheid om zich heen, maar je kunt de luchtvochtigheidsschuifregelaar op de Sense HAT-emulator verplaatsen om luchtvochtigheidsveranderingen te simuleren en je code te testen.
 
-![Temperatuurschuifregelaar](images/temperature-slider.png)
+![Luchtvochtigheidsschuifregelaar](images/humidity-slider.png)
 
-**Opmerking:** Je vraagt ​​je misschien af ​​waarom de temperatuurschuifregelaar de temperatuur als een geheel getal weergeeft, maar de waarde die je krijgt is een decimaal. De emulator simuleert de kleine onnauwkeurigheid van de echte sensor, dus de temperatuurmeting die je ziet, is mogelijk iets groter of kleiner dan de waarde die je met de schuifregelaar hebt ingesteld.
+**Opmerking:** Je vraagt ​​je misschien af ​​waarom de luchtvochtigheidsschuifregelaar de luchtvochtigheid als een geheel getal weergeeft, maar de waarde die je krijgt is een decimaal. De emulator simuleert de kleine onnauwkeurigheid van de echte sensor, dus de luchtvochtigheidsmeting die je ziet, is mogelijk iets groter of kleiner dan de waarde die je met de schuifregelaar hebt ingesteld.
