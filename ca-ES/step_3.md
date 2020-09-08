@@ -1,10 +1,10 @@
-## Display a message
+## Εμφάνιση μηνύματος
 
 \--- task \---
 
-Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
+Ανοίξτε τον [εξομοιωτή Sense HAT](https://trinket.io/mission-zero){:target="_blank"} για το έργο Mission Zero.
 
-You will see that three lines of code have been added for you automatically:
+Θα δείς τρεις γραμμές κώδικα που έχουν προστεθεί αυτόματα για εσένα:
 
 ```python
 from sense_hat import SenseHat
@@ -12,17 +12,17 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat emulator](images/sense-hat-emulator2.png)
+![εξομοιωτής sense hat](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Ο κώδικας αυτός συνδέεται στο Astro Pi και εξασφαλίζει ότι η οθόνη LED του Astro Pi εμφανίζεται στη σωστή κατεύθυνση. Άφησε αυτόν τον κώδικα εκεί, γιατί θα τον χρειαστείς.
 
 \--- /task \---
 
 \--- task \---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Μήπως θέλετε να στείλετε έναν χαιρετισμό στους αστροναύτες στον Διεθνή Διαστημικό Σταθμό που εργάζονται κοντά στον Astro Pi? Ας κυλύσουμε ένα μήνυμα στην οθόνη.
 
-Add this line below the other code:
+Πρόσθεσε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
 
 ```python
 sense.show_message("Astro Pi")
@@ -32,43 +32,43 @@ sense.show_message("Astro Pi")
 
 \--- task \---
 
-Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
+Πάτησε το κουμπί «**Run**» και παρακολούθησε το κυλιόμενο μήνυμα «`Astro Pi`» στην οθόνη LED.
 
-![show message code click run](images/show-message-code-annotated.PNG)
+![κώδικας εμφάνισης μηνύματος κλικ run](images/show-message-code-annotated.PNG)
 
 \--- /task \---
 
-![Scrolling message](images/scroll-message.gif)
+![Κυλιόμενο μήνυμα](images/scroll-message.gif)
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Για να εμφανίσεις ένα διαφορετικό μήνυμα, μπορείς να γράψεις ό, τι άλλο θέλεις μεταξύ των εισαγωγικών (`""`).
 
 \--- collapse \---
 
 * * *
 
-## title: What characters can be used?
+## title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν?
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Το Sense HAT μπορεί να εμφανίσει μόνο το σύνολο χαρακτήρων Latin 1, που σημαίνει ότι διατίθενται μόνο οι ακόλουθοι χαρακτήρες. Οποιοσδήποτε άλλος χαρακτήρας θα εμφανίζεται ως `?`.
 
-    +-*/!"#$><0123456789.=)(
+    + - * /! "# $><0123456789. =) (
     
     ABCDEFGHIJKLMNOPQRSTUVWXYZ
     
     abcdefghijklmnopqrstuvwxyz
     
-    ?,;:|@%[&_']\~
+    ?,;: | @% [&_ '] \ ~
     
 
 \--- / collapse \---
 
 \--- task \---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Μπορείς επίσης να αλλάξεις την ταχύτητα κύλισης του μηνύματος στην οθόνη. Πρόσθεσε την παράμετρο `scroll_speed` στη γραμμή κώδικα που έχεις ήδη, ως εξής:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Η προεπιλεγμένη ταχύτητα του μηνύματος είναι `0.1`. Αν μειώσεις τον αριθμό, το μήνυμα θα κυλάει πιο γρήγορα. Αν τον αυξήσεις, το μήνυμα θα κυλάει πιο αργά.
 
 \--- /task \---
