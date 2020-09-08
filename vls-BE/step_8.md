@@ -1,12 +1,12 @@
 ## Je project indienen
 
-Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om te werken in het International Space Station. Indien jouw code deze regels volgt, dan zullen de regels onderaan de emulator groen oplichten wanneer je het programma start.
+Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om te werken in het internationaal ruimtestation. Indien jouw code deze regels volgt, dan zullen de regels onderaan de emulator groen oplichten wanneer je het programma start.
 
-![Valideer](images/validation.png)
+![Valideren](images/validation.png)
 
-1. Neem een temperatuurmeting
+1. Doe een vochtigheidsmeting.
 2. De LED's laten oplichten
-3. Zorg ervoor dat jouw code helemaal tot het einde werkt zonder dat er fouten optreden. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+3. Zorg ervoor dat jouw code helemaal tot het einde werkt zonder dat er fouten optreden. Je mag geen `while True` lessen in je code zetten omdat dit ervoor zorgt dat je code blijft draaien en voorkomt dat ze zal stoppen.
 
 Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
@@ -17,36 +17,36 @@ Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
 Zodra de regels allemaal groen zijn, ben je klaar om in te dienen.
 
-\--- task \---
+\--- taak \---
 
-Vul je klascode in het vakje onderaan in - je leraar zal je vertellen wat je code is.
+Vul je klascode in het vakje onderaan in - je leraar of mentor zal je vertellen wat je code is.
 
-**Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/vls-BE/projects/astro-pi-mission-zero/1) stap.
+**Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
 
-\--- /task \---
+\--- /taak \---
 
-\--- task \---
+\--- taak \---
 
 De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op groen **Ga verder naar formulier** knop.
 
 ![Ga verder naar het formulier](images/continue-to-form.png)
 
-\--- /task \---
+\--- /taak \---
 
-\--- task \---
+\--- taak \---
 
 Vermeld je teamnaam en de namen van de teamleden. Deze worden geprint op een certificaat zodra je code in de ruimte werkt, dus zorg ervoor dat je ze juist hebt gespeld!
 
-\--- /task \---
+\--- /taak \---
 
-\--- task \---
+\--- taak \---
 
-Druk op de **Submit** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
+Druk op de **Indienen** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
 
-\--- /task \---
+\--- /taak \---
 
-\--- task \---
+\--- taak \---
 
-Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te laten weten dat de code die je hebt geschreven in de ruimte zal werken!
+Als je wilt, kun je de link naar je code delen op social media om aan mensen te laten weten dat de code die je hebt geschreven in de ruimte zal werken!
 
-\--- /task \---
+\--- /taak \---
