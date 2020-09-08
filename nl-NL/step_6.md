@@ -20,7 +20,7 @@ humid = sense.humidity
 
 Deze regel meet de huidige luchtvochtigheid en slaat de gemeten waarde op in de variabele `humid`.
 
----/task---
+--- /task ---
 
 --- task ---
 
@@ -30,7 +30,7 @@ De luchtvochtigheid wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen wa
 humid = round( sense.humidity, 1 )
 ```
 
--- /task ---
+--- /task ---
 
 --- task ---
 
@@ -42,7 +42,7 @@ sense.show_message( str(humid) )
 
 Het `str()` gedeelte zet de luchtvochtigheid van een getal om naar tekst, zodat de Astro Pi het kan weergeven.
 
----/task---
+--- /task ---
 
 --- task ---
 
