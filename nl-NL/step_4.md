@@ -31,7 +31,7 @@ red = (255,0,0)
 sense.show_message("Astro Pi", text_colour=red)
 ```
 
--- /task ---
+--- /task ---
 
 ![toon bericht in kleur](images/show-message-color.gif)
 
