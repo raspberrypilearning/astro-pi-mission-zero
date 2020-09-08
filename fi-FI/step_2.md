@@ -6,11 +6,11 @@ Tässä on oikea Astro Pi -yksikkö Kansainvälisellä avaruusasemalla, jolla su
 
 >
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaattori on ohjelma, joka simuloi kaikkia Astro Pi -toimintoja verkkoselaimessasi.
 
-![Sense HAT emulator](images/sense-hat-emulator.png)
+![Sense HAT -emulaattori](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Oikean ja emuloidun Sense HATin välillä on muutamia eroavaisuuksia:
 
 - Emulaattorissa voit asettaa lämpötilan, paineen ja kosteuden käyttämällä liukusäätimiä, kun taas Astro Pissä oleva oikea Sense HAT käyttää antureita näiden parametrien mittaamiseen sen ympäristössä.
 
