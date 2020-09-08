@@ -1,6 +1,6 @@
 ## Introduksjon
 
-Lys opp hverdagen til astronautene på den internasjonale romstasjonen ved å vise dem en melding og omgivelsestemperaturen om bord ved hjelp av Astro Pi-datamaskinens Sense HAT.
+Lys opp hverdagen til astronautene på den internasjonale romstasjonen ved å vise dem en melding og den relative luftfuktigheten om bord ved hjelp av Astro Pi-datamaskinens Sense HAT.
 
 Dere bruker Sense HAT-emulatoren online til å lage programmet, så det er ikke nødvendig med ekstra maskinvare - alt gjøres i en nettleser.
 
@@ -16,11 +16,11 @@ Her er et eksempel på hva slags program dere kan lage. Klikk **Run** (Kjør) fo
 
 ## title: Hva dere vil lære
 
-Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital Skaper Læreplan](http://rpf.io/curriculum){:target="_blank"}:
+Dere vil lære om Astro Pi-enheten og hvordan dere skal kontrollere den, inkludert hvordan dere:
 
 + viser meldinger og farger
 + lager bilder
-+ måler temperaturen
++ måler luftfuktighet med en Sense HAT
 
 Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital Skaper Læreplan](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -48,26 +48,26 @@ Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital S
 
 ## title: Notater for lærere og veiledere
 
-Denne aktiviteten kan fullføres på en ettermiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Denne aktiviteten kan fullføres på en ettermiddag. Organisere elevene i grupper på to til fire, og la oss veilede dem gjennom å skrive et kort Python-program for å vise en personlig melding og den relative luftfuktigheten på Astro Pi.
 
 Les [dokumentet med offisielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} for Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
+Du må registrere deg for Mission Zero-utfordringen for at gruppen(e) dine skal kunne delta.
 
-+ Gå til siden [Trinket-emulator for Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Gå til nettsiden [Trinket emulator Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Fyll ut skjemaet og klikk **Submit** (Send)\*.
 
 \ * Vær oppmerksom på at dette registreringsskjemaet kun er tilgjengelig på engelsk.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Feltene på skjemaet inkluderer:  
+Navnet på læreren/veilederen  
+Gruppenavn  
+Antall gruppemedlemmer  
+Navn og alder på gruppemedlemmene  
+På hvilket språk du leste retningslinjene for Mission Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ En Trinket-konto vil bli opprettet for deg (hvis du ikke allerede har en, eller hvis du ikke er logget inn). Du kan opprette en konto per e-postadresse. Hver konto har sin egen **klasseromskode**, og du må fortelle gruppen(e) hva koden din er når de er klare til å sende programmene sine.
 
 + Vis klasseromskoden på et synlig sted, for eksempel på en tavle eller ved hjelp av en projektor, og start aktiviteten.
     
