@@ -1,6 +1,6 @@
 ## Introdução
 
-Para alegrar a rotina diária dos astronautas da Estação Espacial Internacional mostra-lhes uma mensagem e a temperatura ambiente a bordo usando o Sense HAT do computador Astro Pi.
+Para alegrar a rotina diária dos astronautas da Estação Espacial Internacional mostra-lhes uma mensagem e a humidade ambiente a bordo usando o Sense HAT do computador Astro Pi.
 
 Usa o emulador Sense HAT online para criar o teu programa, não precisas de hardware extra - tens tudo o que precisas no navegador web.
 
@@ -60,14 +60,14 @@ Será necessário registar-se para o desafio Mission Zero para permitir que a su
 
 \ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
-The fields on the form include:  
-Teacher/mentor name  
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Os campos do formulário incluem:  
+Nome do professor / mentor  
+Nome da equipa  
+Número de membros da equipa  
+Nomes e idades dos membros da equipa  
+Em que idioma acedeu as directrizes da Missão Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
++ Uma conta do Trinket será criada para você (se ainda não tiver uma, ou não está autenticado). Você pode criar uma conta por endereço de e-mail. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
 
 + Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
     
