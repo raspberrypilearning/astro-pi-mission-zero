@@ -1,6 +1,6 @@
-## Εμφάνιση της θερμοκρασίας
+## Εμφάνιση της υγρασίας
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Μπορείτε να συνδυάσετε τη μέτρηση υγρασίας με μια εικόνα που επίσης θα δείχνει την υγρασία με ένα γραφικό τρόπο. Για παράδειγμα μπορείτε να εμφανίσετε ένα ωκεανό για την υψηλή υγρασία και μια έρημο για τη χαμηλή:
 
 ![Ζεστό και κρύο](images/wet-dry.png)
 
@@ -9,10 +9,12 @@ You could combine your humidity reading with a picture to also indicate the humi
 Στο κάτω μέρος του προγράμματός σας, δημιουργήστε μερικές μεταβλητές χρώματος για τα χρώματα που θέλετε να χρησιμοποιήσετε στις εικόνες σας. Ίσως να έχετε ήδη ορίσει κάποιες από αυτές τις μεταβλητές σε προηγούμενο βήμα.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 \--- /task \---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Όπως και προηγουμένως, σχεδιάστε τις εικόνες σας δημιουργώντας πρώτα μια λίστα για κάθε μία, και έπειτα καθορίστε/αντιστοιχίστε τα στοιχεία της λίστας με τα χρώματα που θέλετε να είναι τα pixels σας .
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ cold = [
 
 \--- task --
 
-Προσθέστε τον κώδικα για τη λήψη της θερμοκρασίας:
+Προσθέστε τον κώδικα για τη λήψη της υγρασίας:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /task \---
 
 \--- task --
 
-Τώρα αποφασίστε ποια εικόνα θέλετε να εμφανιστεί. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Τώρα αποφασίστε ποια εικόνα θέλετε να εμφανιστεί. Σε αυτό το παράδειγμα, θα εμφανίσουμε την εικόνα `wet (υγρό)` αν η τιμή της υγρασίας είναι πάνω από 40% και την εικόνα `dry (ξηρό)` αν η τιμή είναι κάτω από 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 \--- /task \---
 
 \--- task --
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Χρησιμοποποιήστε το ρυθμιστή υγρασίας για να ορίσετε μια υγρασία στον εξομοιωτή. Εκτελέστε το πρόγραμμά σας και ελέγξτε την εικόνα που επιλέξατε ώστε η υγρασία να εμφανίζεται σωστά.
 
 \--- /task \---
 
 \--- task --
 
-Αλλάξτε τον κώδικά σας έτσι ώστε το πρόγραμμά σας να εμφανίζει τη θερμοκρασία στους αστροναύτες με τον δικό σας τρόπο.
+Αλλάξτε τον κώδικά σας έτσι ώστε το πρόγραμμά σας να εμφανίζει την υγρασία στους αστροναύτες με τον δικό σας τρόπο.
 
 \--- /task \---
