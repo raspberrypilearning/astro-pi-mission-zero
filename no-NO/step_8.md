@@ -4,9 +4,9 @@ Det er noen regler for hvordan koden må være for at den kan sendes til å bli 
 
 ![Validering](images/validation.png)
 
-1. Ta en temperaturavlesning
+1. Les av luftfuktigheten.
 2. Lys opp lysdiodene
-3. Kontroller at koden din går helt til slutten uten at det oppstår feil. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+3. Kontroller at koden din går helt til slutten uten at det oppstår feil. Du bør ikke ta med noen `while True` løkker i koden din, siden det vil føre til at koden fortsetter å kjøre og hindrer at den blir ferdig.
 
 Sørg også for at dere har oppfylt følgende kriterier:
 
@@ -19,7 +19,7 @@ Når alle reglene er grønne, er dere klare til å sende.
 
 \--- task \---
 
-Skriv inn klasseromskoden i feltet nederst - læreren/veilederen vil opplyse hva koden er.
+Skriv inn klasseromskoden i feltet nederst - læreren/veilederen vil fortelle hva koden er.
 
 **Notater for lærere og veiledere** finnes under [Introduksjon](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
