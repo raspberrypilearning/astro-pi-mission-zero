@@ -1,8 +1,8 @@
-## Lisa värv
+## Lisa värve
 
-Astro Pi LED-ekraanid näitavad ka erinevaid värve. Värvi saad määrata luues muutuja ja määrates sellele RGB-värviväärtuse.
+Astro Pi LED-ekraanid näitavad ka erinevaid värve. Värvi saad määrata luues muutuja ja andes sellele RGB-värviväärtuse.
 
-Siin saad õppida, kuidas luua kõiki värve kasutades erinevaid punase, rohelise ja sinise proportsioone:
+Siin saad õppida, kuidas luua kõiki värve kasutades siin erinevaid punase, rohelise ja sinise proportsioone:
 
 [[[generic-theory-colours]]]
 
@@ -14,7 +14,7 @@ Vali värv ja leia selle värvi RGB-väärtus. Enda abistamiseks võid kasutada 
 
 \--- task \---
 
-Oma valitud värvi säilitamiseks loo muutuja. Näiteks, kui sa valisid punase värvi, siis sa kirjutaksid sellise koodirea:
+Oma valitud värvi säilitamiseks loo muutuja. Kui sa näiteks punase värvi valisid, siis kirjutaksid sellise koodirea:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 \--- task \---
 
-Muuda tervitusteksti ja värvi; millise sõnumi sa saadad rahvusvahelise kosmosejaama astronautidele?
+Muuda tervitusteksti ja värvi; millise sõnumi sa rahvusvahelise ISS-i astronautidele saadad?
 
 \--- /task \---
