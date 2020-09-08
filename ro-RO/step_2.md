@@ -2,13 +2,15 @@
 
 Astro Pi este un calculator Raspberry Pi încapsulat într-o carcasă special concepută pentru condițiile din spațiu. De asemenea, are o placă de circuite adițională numită Sense HAT, creată special pentru misiunea Astro Pi. Sense HAT are un joystick, un afișaj LED și senzori pentru înregistrarea temperaturii, umidității, presiunii și orientării.
 
-Iată o unitate Astro Pi reală de pe Stația Spațială Internațională care rulează programe scrise de elevi. Aici va fi rulat programul tău la final! <iframe src="https://player.vimeo.com/video/172737314" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen mark="crwd-mark"></iframe> 
+Iată o unitate Astro Pi reală de pe Stația Spațială Internațională care rulează programe scrise de elevi. Aici va fi rulat programul tău la final! <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe> 
 
-Pentru această misiune, vei folosi emulatorul Sense HAT. Emulatorul este o parte din software care simulează toate funcțiile Astro Pi în browserul tău web.
+>
 
-![Emulator sense HAT](images/sense-hat-emulator.png)
+For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
 
-Există câteva diferențe între Sense HAT real și cel emulat:
+![Sense HAT emulator](images/sense-hat-emulator.png)
+
+There are a few differences between the real and the emulated Sense HAT:
 
 - Pe emulator poți seta singur temperatura, presiunea și umiditatea folosind slidere, în timp ce în realitate Sense HAT din Astro Pi utilizează senzori pentru a măsura acești parametri în mediul său.
 
