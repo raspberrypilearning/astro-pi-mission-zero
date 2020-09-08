@@ -1,6 +1,6 @@
 ## Mittaa lämpötila
 
-The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
+Astro Pi: n kosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
 
 ![Viesti lämpötilasta](images/degrees-message.gif)
 
