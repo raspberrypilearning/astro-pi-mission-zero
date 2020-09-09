@@ -11,8 +11,8 @@ steps:
   - title: Che cos'è un Astro Pi?
   - title: Mostra un messaggio
   - title: Aggiungi un po’ di colore
-  - title: Mostrate un’immagine
-  - title: Misurate la temperatura
-  - title: Mostrate la temperatura
-  - title: Inviate il vostro programma
+  - title: Mostra un’immagine
+  - title: Misura l'umidità
+  - title: Mostra l'umidità
+  - title: Invia il tuo programma
   - title: "Sfida: altri progetti Astro Pi"

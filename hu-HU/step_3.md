@@ -46,6 +46,7 @@ Egy másik üzenet megjelenítéséhez írj be az idézőjelek (`""`) közé bá
 ---
 title: Milyen karaktereket lehet használni?
 ---
+
 A Sense HAT csak a Latin 1-es karakterkészletet tudja megjeleníteni, ami azt jelenti, hogy csak a lentebb látható karakterek lesznek elérhetők. Minden más karakter `?`-ként jelenik majd meg.
 
     +-*/!"#$><0123456789.=)(

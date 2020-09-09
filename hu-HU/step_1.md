@@ -1,6 +1,6 @@
 ## Bevezetés
 
-Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállomáson: küldj nekik egy üzenetet és mutasd meg a környező levegő hőmérsékletét a fedélzeten az Astro Pi számítógép Sense HAT-jének segítségével.
+Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállomáson: küldj nekik egy üzenetet és mutasd meg a levegő páratartalmát a fedélzeten az Astro Pi számítógép Sense HAT-jének segítségével.
 
 Az online Sense HAT emulátort használod majd a programod létrehozására, úgyhogy nincs szükség extra hardverre — minden a böngészőben történik.
 
@@ -9,18 +9,18 @@ A kész programod az űrben fog futni a Nemzetközi Űrállomáson (angolul Inte
 ### Amit el fogsz készíteni
 
 Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd! 
-
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
 title: Amit meg fogsz tanulni
 ---
+
 Az Astro Pi egységről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
 
-+ üzenetek és színek megjelenítése
-+ képek létrehozása
-+ hőmérséklet mérése
++ Üzenetek és színek megjelenítése
++ Képek létrehozása
++ Páratartalom mérése a Sense HAT segítségével
 
 Ez a projekt a [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} következő részeit tartalmazza:
 
@@ -32,13 +32,14 @@ Ez a projekt a [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum
 ---
 title: Amire szükséged lesz
 ---
+
 ### Hardver
 
 + Bármilyen számítógépre internetkapcsolattal
 
 ### Szoftver
 
-+ Egy böngészőre (pl. Google Chrome), hogy megnyithasd ezt az oldalt: <https://trinket.io/mission-zero>{:target="_blank"}
++ Egy böngészőre (pl. Google Chrome), hogy megnyithasd ezt az oldalt: [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
 --- /collapse ---
 
@@ -47,34 +48,26 @@ title: Amire szükséged lesz
 title: Jegyzetek tanárok és mentorok számára
 ---
 
-Ezt a feladatot egy délután alatt el lehet végezni. Szervezze tanítványait maximum négyes csoportokba, és hagyja, hogy végigvezessük őket egy rövid Python program megírásán, amely egy személyes üzenetet és a levegő hőmérsékletét jeleníti majd meg az Astro Pi-on.
+Ezt a feladatot egy délután alatt el lehet végezni. Szervezd a tanulóidat kettő-négy fős csoportokba, és engedd meg, hogy végigvezessük őket egy rövid Python program megírásán, amely egy személyes üzenetet és a levegő páratartalmát jeleníti majd meg az Astro Pi-on.
 
 Olvassa el a Mission Zero [hivatalos útmutató dokumentumát](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"}.
 
-Regisztálnia kell a Mission Zero kihívásra, hogy csapata(i) részt vehessen(ek) rajta.
+Regisztálnod kell a Mission Zero kihívásra, hogy csapata(id) részt vehessen(ek) rajta.
 
-+ Menjen a [Trinket emulátor Mission Zero oldalára](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Menj a [Trinket emulátor Mission Zero oldalára](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Töltse ki az űrlapot és kattintson a **Submit** (Küldés) gombra\*.
 
 \* A regisztrációs űrlap csak angol nyelven érhető el.
 
-Az űrlap mezői a következők:   
-Teacher/Mentor name (Tanár/Mentor neve)   
-Teacher/Mentor email address (Tanár/Mentor email címe)   
-Teacher/Mentor phone number (Tanár/Mentor telefonszáma)   
-Organisation type (Szervezet típusa (pl. általános iskola, középiskola, könyvtár, klub))   
-Organisation name (Szervezet neve)   
-Organisation address (Szervezet címe)   
-Organisation city (Szervezet városa)   
-Organisation country (Szervezet országa)   
-Organisation postal code (Szervezet irányítószáma)   
-Team name (Csapatnév)   
-Number of team members (Csapattagok száma)   
-Names and ages of team members (Csapattagok neve és kora)   
-In which language did you access the Mission Zero guidelines? (Milyen nyelven érted el a Mission Zero útmutatóját?)
+Az űrlap mezői a következők:  
+Tanár / mentor neve  
+Csapat neve  
+A csapat tagjainak száma  
+A csapat tagjainak neve és életkora  
+Milyen nyelven olvastad el a Mission Zero irányelveit?
 
-+ Egy fiók jön létre az Ön számára. Minden fióknak saját **osztálytermi kódja** van, amelyet akkor kell elmondania a csapatának (csapatainak), amikor ők már készen vannak, hogy beküldjék programjaikat.
++ Létrehozunk neked egy Trinket fiókot (ha még nincs, vagy nem vagy bejelentkezve). E-mail címenként egy fiókot hozhatsz létre. Minden fióknak saját **osztálytermi kódja** van, amelyet akkor kell elmondanod a csapatodnak (csapataidnak), amikor már készen vannak, hogy beküldjék programjaikat.
 
 + Rakja ki az osztálytermi kódját egy jól látható helyre, például egy táblára vagy projektorra, és kezdjenek neki a feladatnak!
     

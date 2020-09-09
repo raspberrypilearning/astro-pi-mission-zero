@@ -1,72 +1,61 @@
-## Misurate la temperatura
+## Misura l'umidità
 
-Il sensore di temperatura dell’Astro Pi può misurare la temperatura dell’aria circostante. Questa funzione è molto utile per raccogliere dati sulle condizioni nello spazio.
+Il sensore di umidità nell'Astro Pi può misurare l'umidità nell'aria circostante, una funzione utile che può aiutarti a raccogliere dati sulle condizioni nello spazio.
 
-![Messaggio sulla temperatura](images/degrees-message.gif)
+![Messaggio sull'umidità](images/degrees-message.gif)
 
-L’Astro Pi misura la temperatura nella ISS in gradi centigradi (&deg;C). Poiché le temperature nello spazio variano molto più di quelle sulla Terra, l’Astro Pi può misurare temperature da un minimo di -40 gradi centigradi fino a un massimo di +120 gradi centigradi.
+L'Astro Pi misura l'umidità nell'ISS come percentuale di concentrazione d'acqua nell'aria.
 
-Parte della vostra missione è contribuire positivamente alla vita quotidiana dell’equipaggio a bordo della ISS. Il far saper loro che la temperatura a bordo della stazione spaziale si trova fra i valori normali li rassicurerà certamente.
+Parte della vostra missione è contribuire positivamente alla vita quotidiana dell’equipaggio a bordo della ISS. Far saper loro che l'umidità a bordo della stazione spaziale si trova fra i valori normali li rassicurerà certamente.
 
---- collapse ---
----
-title: Cos'è la temperatura?
----
-
-La temperatura è la misura di quanto è caldo qualcosa. Certamente avranno misurato la temperatura anche a voi con un termometro, magari se siete dovuti andare dal dottore.
-
-![Termometro](images/thermometer.JPG) *Foto Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} tramite Wikimedia Commons*
-
-Per essere più precisi, la temperatura è una misura della quantità di energia termica di una sostanza. Sapete che un cubetto di ghiaccio è solido, ma mentre si riscalda, cioè mentre assorbe l’energia termica dal suo ambiente, si scioglie e diventa liquido. Questo perché, quando una sostanza assorbe o perde abbastanza energia termica, si verifica un cambiamento di stato nella sostanza. Ad esempio la sostanza passa dallo stato solido allo stato liquido.
-
---- /collapse ---
+[[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
-Aggiungete questa riga di codice per misurare la temperatura:
+Aggiungete questa riga di codice per misurare l'umidità:
 
 ```python
-temp = sense.temperature
+umidita = sense.humidity
 ```
 
-Questa riga di codice misurerà la temperatura attuale e la memorizzerà nella variabile `temp`.
+Questa riga di codice misurerà l'umidità attuale e la memorizzerà nella variabile `umidita`.
 
 --- /task ---
 
 --- task ---
 
-La temperatura viene registrata con molta precisione, ovvero il valore memorizzato avrà un numero elevato di cifre decimali. È possibile arrotondare il valore a un numero qualsiasi di cifre decimali. Nell’esempio, abbiamo arrotondato il valore a una cifra decimale, ma per visualizzare un diverso livello di precisione è sufficiente sostituire il numero `1` con il numero di cifre decimali che volete visualizzare.
+L'umidità viene registrata con molta precisione, ovvero il valore memorizzato avrà un numero elevato di cifre decimali. È possibile arrotondare il valore a un numero qualsiasi di cifre decimali. Nell’esempio, abbiamo arrotondato il valore a una cifra decimale, ma per visualizzare un diverso livello di precisione è sufficiente sostituire il numero `1` con il numero di cifre decimali che volete visualizzare.
 
 ```python
-temp = round( sense.temperature, 1 )
+umidita = round( sense.humidity, 1 )
 ```
 
 --- /task ---
 
 --- task ---
 
-Per visualizzare la temperatura attuale come messaggio scorrevole sul display, aggiungete questa riga di codice:
+Per visualizzare l'umidità attuale come messaggio scorrevole sul display, aggiungete questa riga di codice:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(umidita) )
 ```
 
-La parte `str()` converte il valore della temperatura da numero a testo, per poterlo visualizzare sull’Astro Pi.
+L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro Pi possa visualizzarla.
 
 --- /task ---
 
 --- task ---
 
-È possibile anche visualizzare la temperatura all’interno di un altro messaggio, unendo insieme le varie parti del messaggio con un `+`.
+È possibile anche visualizzare l'umidità all’interno di un messaggio più lungo, unendo insieme le varie parti con un `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "È al " + str(temp) + " %" )
 ```
 
 --- /task ---
 
-In realtà, il vero Astro Pi misurerà la temperatura effettiva intorno ad esso, ma voi, con l’emulatore Sense HAT, potete simulare cambiamenti di temperatura e provare il corretto funzionamento del codice semplicemente spostando il cursore della temperatura.
+In realtà, il vero Astro Pi misurerà l'umidità effettiva intorno ad esso, ma voi, con l’emulatore Sense HAT, potete simulare cambiamenti d'umidità e provare il corretto funzionamento del codice semplicemente spostando il cursore relativo.
 
-![Cursore della temperatura](images/temperature-slider.png)
+![Cursore dell'umidità](images/humidity-slider.png)
 
-**Nota:** Potreste chiedervi come mai il cursore della temperatura visualizza la temperatura come un numero intero, ma la lettura ottenuta è un numero decimale. L’emulatore simula anche una leggera imprecisione che è presente sul sensore reale. Quindi la misura della temperatura che vedete potrebbe essere leggermente superiore o inferiore al valore impostato con il cursore.
+**Nota:** Potreste chiedervi come mai il cursore dell'umidità visualizza l'umidità come un numero intero, ma la lettura ottenuta è un numero decimale. L’emulatore simula anche una leggera imprecisione che è presente sul sensore reale. Quindi la misura dell'umidità che leggerete potrebbe essere leggermente superiore o inferiore al valore impostato con il cursore.

@@ -1,4 +1,4 @@
-## Mostrate un’immagine
+## Mostra un'immagine
 
 La matrice di LED dell’Astro Pi consente anche di visualizzare immagini. Se volete, il vostro saluto per gli astronauti potrebbe includere un’immagine o un motivo, insieme ad un messaggio o al posto di un testo.
 

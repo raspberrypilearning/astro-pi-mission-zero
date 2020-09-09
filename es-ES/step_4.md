@@ -28,7 +28,7 @@ rojo = (255,0,0)
 
 ```python
 rojo = (255,0,0)
-sense.show_message("Astro Pi", text_colour=red)
+sense.show_message("Astro Pi", text_colour=rojo)
 ```
 
 --- /task ---

@@ -12,7 +12,7 @@ steps:
   - title: Jeleníts meg egy üzenetet!
   - title: Adj hozzá egy kis színt!
   - title: Jeleníts meg egy képet!
-  - title: Mérd meg a hőmérsékletet!
-  - title: Jelenítsd meg a hőmérsékletet!
+  - title: Mérd meg a páratartalmat
+  - title: Jelenítsd meg a páratartalmat
   - title: Küldd be a munkádat!
   - title: "Kihívás: még több Astro Pi projekt"
