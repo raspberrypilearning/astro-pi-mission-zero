@@ -1,6 +1,6 @@
-## Změřte teplotu
+## Změřte vlhkost
 
-Teplotní snímač v Astru Pi dokáže měřit teplotu okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
+Snímač vlhkosti v Astru Pi dokáže měřit vlhkost okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
 
 ![Zpráva s teplotou](images/degrees-message.gif)
 
@@ -15,10 +15,10 @@ Součástí vaší mise je přispívat k každodennímu životu posádky na palu
 Přidejte tento kód pro měření vlhkosti:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-\--- /collapse \---
+Tato řádka změří současnou vlhkost a uloží naměřenou hodnotu v proměnné `humid`.
 
 \--- /task \---
 
@@ -27,17 +27,17 @@ temp = sense.temperature
 Vlhkost se zaznamenává velmi přesně, proto bude mít uložená hodnota velký počet desetinných míst. Hodnotu můžete zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníte na jiné, dostanete jiný počet desetinných míst.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Abyste aktuální teplotu zobrazili na displeji jako běžící text, přidejte tuhle řádku kódu:
+Abyste aktuální vlhkost zobrazili na displeji jako běžící text, přidejte tuhle řádku kódu:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
 Část `str()` převádí vlhkost z čísla na text tak, aby ji Astro Pi mohl zobrazit.
@@ -46,10 +46,10 @@ sense.show_message( str(temp) )
 
 \--- task \---
 
-To `str()` převádí teplotu z čísla na text, aby ji Astro Pi mohlo zobrazit.
+To `str()` převádí vlhkost z čísla na text, aby ji Astro Pi mohlo zobrazit.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "Je " + str(humid) + " %" )
 ```
 
 \--- /task \---
