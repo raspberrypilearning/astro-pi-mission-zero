@@ -1,4 +1,4 @@
-## Medir la humedad
+## Mide la humedad
 
 El sensor de humedad de Astro Pi puede medir la humedad del ambiente; una función útil para ayudarte a obtener datos sobre las condiciones en el espacio.
 
