@@ -46,6 +46,7 @@ For at få vist en anden besked kan du skrive præcist, hvad du ønsker mellem a
 ---
 title: Hvilke tegn kan bruges?
 ---
+
 Sense HAT kan kun vise tegnsættet Latin 1, hvilket betyder, at kun følgende tegn er tilgængelige. Øvrige tegn vises som `?`.
 
     +-*/!"#$><0123456789.=)(

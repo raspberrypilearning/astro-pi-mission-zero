@@ -1,6 +1,6 @@
 ## Úvod
 
-Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT, přídavné desky počítače Astro Pi, zobrazíte vzkaz a teplotu vzduchu na palubě.
+Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT, přídavné desky počítače Astro Pi, zobrazíte vzkaz a vlhkost vzduchu na palubě.
 
 Při vytváření programu budete používat online emulátor desky Sense HAT, takže není potřeba žádný speciální hardware – všechno se to dělá ve webovém prohlížeči.
 
@@ -10,17 +10,18 @@ Váš hotový program bude spuštěn ve vesmíru na Mezinárodní vesmírné sta
 
 Tady je příklad, jaký program byste mohli vytvořit. Klikněte na **Run** (Spustit) a uvidíte ho v akci. 
 
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
 title: Co se naučíš
 ---
-Dozvíte se, co je jednotka AstroPi a jak ji ovládat, například jak:
 
-+ zobrazovat zprávy a barvy
-+ vytvářet obrázky
-+ měřit teplotu
+Dozvíte se, co je jednotka Astro Pi a jak ji ovládat, například jak:
+
++ Zobrazovat zprávy a barvy
++ Vytvořit obrázky
++ Měřit vlhkost pomocí Sense HAT
 
 Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
 
@@ -32,13 +33,14 @@ Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digita
 ---
 title: Co budeš potřebovat
 ---
+
 ### Hardware
 
 + Jakýkoli počítač s připojením k internetu
 
 ### Software
 
-+ Webový prohlížeč (např. Google Chrome), kterým otevřeš <https://trinket.io/mission-zero>{:target="_blank"}
++ Webový prohlížeč (např. Google Chrome), kterým otevřeš [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
 --- /collapse ---
 
@@ -47,7 +49,7 @@ title: Co budeš potřebovat
 title: Poznámky pro učitele a mentory
 ---
 
-Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů nejvýš po čtyřech. Pak nechte na nás, abychom je provedli napsáním krátkého programu v Pythonu, který zobrazí osobní vzkaz a teplotu vzduchu na Astro Pi.
+Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů nejvýš po čtyřech, a nechte na nás, abychom je provedli napsáním krátkého programu v Pythonu, který zobrazí osobní vzkaz a vlhkost vzduchu na Astro Pi.
 
 Přečtěte si [dokument s oficiálními instrukcemi](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
@@ -59,22 +61,14 @@ Aby se vaše týmy mohly zúčastnit, musíte se do Mission Zero zaregistrovat.
 
 \* Povšimněte si prosím, že tento registrační formulář je dostupný pouze v angličtině.
 
-Pole v tomto formuláři zahrnují:  
-Teacher/Mentor name (Jméno učitele/mentora)  
-Teacher/Mentor email address (E-mailovou adresu učitele/mentora)  
-Teacher/Mentor phone number (Telefonní číslo učitele/mentora)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Typ organizace (např. škola s primárním vzděláváním, škola se sekundárním vzděláváním, knihovna, Code Club, CoderDojo atd.))  
-Organisation name (Název organizace)  
-Organisation address (Adresa organizace)  
-Organisation city (Město organizace)  
-Organisation country (Země organizace)  
-Organisation postal code (PSČ organizace)  
-Team name (Název týmu)  
-Number of team members (Počet členů týmu)  
-Names and ages of team members (Jména a věk členů týmů)  
-In which language did you access the Mission Zero guidelines? (Ve kterém jazyce jste četli pokyny pro Mission Zero?)
+Pole ve formuláři zahrnující:  
+Název učitele/mentora  
+Název týmu  
+Počet členů týmu  
+Jména a věk členů týmu  
+V jakém jazyce máte přístup k pokynům Mission Zero?
 
-+ Bude pro vás vytvořen účet. Každý účet má svůj **kód třídy** – až budou vaše týmy připravené odeslat své programy, budete jim muset dát ten váš.
++ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte, nebo nejste přihlášeni). Pro každou e-mailovou adresu můžete vytvořit jeden účet. Každý účet má svůj **kód třídy**, až budou vaše týmy připravené odeslat své programy, budete jim muset dát ten váš.
 
 + Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
     

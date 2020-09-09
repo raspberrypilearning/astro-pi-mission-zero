@@ -15,3 +15,11 @@ Taky si můžete zkusit některé z našich dalších projektů pro Astro Pi:
 + Změřte se s kamarády ve hře [marble maze](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-marble-maze){:target="_blank"}
 
 + Zkuste si naprogramovat klasickou hru [Pong](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-pong){:target="_blank"}
+
+
+***
+Tento projekt byl přeložen dobrovolníky:
+
+Radek Salomon
+
+Díky dobrovolníkům můžeme dát lidem po celém světě šanci se učit ve svém vlastním jazyce. Můžete nám pomoci oslovit více lidí dobrovolným překládáním - více informací na [rpf.io/translate](rpf.io/translate).

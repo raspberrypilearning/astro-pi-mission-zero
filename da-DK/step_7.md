@@ -1,18 +1,20 @@
-## Vis temperaturen
+## Vis luftfugtigheden
 
-Du kan kombinere din temperaturaflæsning med et billede for også at angive temperaturen på grafisk vis. Du kunne for eksempel vise en snestorm ved kolde temperaturer og en solskinsdag ved varme temperaturer:
+Du kan kombinere din fugtlæsning med et billede for også at indikere fugtigheden grafisk. For eksempel kan du vise et hav for høj luftfugtighed og en ørken for lav luftfugtighed:
 
-![Varmt og koldt](images/hot-and-cold.png)
+![Våd og tør](images/wet-dry.png)
 
 --- task ---
 
-I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin. I vores eksempler anvender vi hvid (`w`), gul (`y`), grøn (`g`) og sort/blank (`b`).
+I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter tildele elementerne på listen de farver, du ønsker, dine pixels skal være.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,31 +52,31 @@ cold = [
 
 --- task ---
 
-Tilføj noget kode for at få temperaturen:
+Tilføj noget kode for at få luftfugtigheden:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 --- /task ---
 
 --- task ---
 
-Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi billedet `hot` (varmt), hvis temperaturaflæsningen er på 20 grader eller derover, og billedet `cold` (koldt), hvis temperaturen er på under 20 grader.
+Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `våd (wet)` billede, hvis luftfugtigheden er 40% eller derover og `tør (dry)` billede, hvis luftfugtigheden er under 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Anvend temperaturskyderen til at indstille en temperatur på emulatoren. Kør dit program, og kontrollér, at det billede, du har valgt for pågældende temperatur, vises korrekt.
+Brug fugtighedsskyderen til at indstille en fugtighed på emulatoren. Kør dit program, og kontroller, at det billede, du har valgt til den målte luftfugtighed, vises korrekt.
 
 --- /task ---
 
