@@ -46,6 +46,7 @@ Jestli chcete zobrazit nějakou jinou zprávu, napište ji mezi uvozovky (`""`).
 ---
 title: Jaké znaky je možné použít?
 ---
+
 Sense HAT umí zobrazit jen znakovou sadu Latin 1, takže k dispozici jsou jen následující znaky. Jiné znaky se zobrazí jako `?`.
 
     +-*/!"#$><0123456789.=)(
