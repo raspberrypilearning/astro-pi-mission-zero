@@ -4,9 +4,9 @@ Der er nogle få regler, som din kode skal følge, så du kan indsende den, og d
 
 ![Validering](images/validation.png)
 
-1. Foretag en temperaturaflæsning
+1. Foretag en luftfugtigsaflæsning.
 2. Tænd lysdioderne
-3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Hvis du har en `while True` (mens det er sandt) løkke i din kode, bliver du nødt til at trykke på knappen **Stop** (Stop) for at kunne opfylde denne regel.
+3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Du bør ikke medtage nogen `while True` løkker i din kode, da dette holder dig kode kørende og forhindrer, at den afsluttes.
 
 Sørg også for at have opfyldt følgende kriterier:
 
@@ -21,13 +21,13 @@ Når alle reglerne er grønne, er du klar til at indsende.
 
 Indtast din klasseværelseskode i boksen nederst - din lærer fortæller dig, hvad din kode er.
 
-Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Indledning](https://projects.raspberrypi.org/da-DK/projects/astro-pi-mission-zero/1).
+Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Introduktion](https://projects.raspberrypi.org/da-DK/projects/astro-pi-mission-zero/1).
 
 --- /task ---
 
 --- task ---
 
-Din lærers navn vises. Hvis du har en **while True** (mens det er sandt) løkke i din kode, bliver du nødt til at trykke på knappen <1>Stop</1> (Stop) for at kunne opfylde denne regel.
+Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den grønne knap **Continue to form** (Fortsæt til formular).
 
 ![Fortsæt til formular](images/continue-to-form.png)
 

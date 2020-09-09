@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Du kan nu få vist din tekst i den farve, du ønsker! For at bede programmet om at anvende den farve, du oprettede, skal du tilføje parameteren `text_colour` (tekst_farve) til den kode, der viser din tekst:
+Du kan nu få vist din tekst i den farve, du ønsker! For at bede programmet om at anvende den farve, du oprettede, skal du tilføje parameteret `text_colour` (tekst_farve) til den kode, der viser din tekst:
 
 ```python
 red = (255,0,0)

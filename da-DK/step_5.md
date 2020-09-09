@@ -13,7 +13,7 @@ w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Bemærk:** Denne gang er det en god idé at give farverne enkeltbogstaver som navne, fordi det kommer til at spare dig tid i det næste trin, hvor du skal skrive dem mange gange. Desuden bliver det lettere at se det billede, du vil tegne, hvis du anvender enkeltbogstaver.
+**Bemærk:** Denne gang er det en god idé at give farvevariablerne enkeltbogstaver som navne, fordi det kommer til at spare dig tid i det næste trin, hvor du skal skrive dem mange gange. Desuden bliver det lettere at se det billede, du vil tegne, hvis du anvender enkeltbogstaver.
 
 --- /task ---
 
