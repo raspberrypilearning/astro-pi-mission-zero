@@ -2,7 +2,7 @@
 
 Snímač vlhkosti v Astru Pi dokáže měřit vlhkost okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
 
-![Zpráva s teplotou](images/degrees-message.gif)
+![Zpráva o vlhkosti](images/degrees-message.gif)
 
 Astro Pi měří vlhkost v ISS v procentech koncentrace vody ve vzduchu.
 
@@ -58,4 +58,4 @@ Skutečný Astro Pi bude měřit vlhkost kolem sebe, vy můžete posunout posuvn
 
 ![Posuvník vlhkosti](images/humidity-slider.png)
 
-**Poznámka:** Možná se divíte, proč posuvník teploty zobrazuje teplotu jako celé číslo, zatímco měření, které získáte, má desetinná místa. Emulátor simuluje maličkou míru nepřesnosti skutečného snímače, takže měření teploty, které dostanete, může být nepatrně větší nebo menší než hodnota, kterou jste nastavili pomocí posuvníku.
+**Poznámka:** Možná se divíte, proč posuvník vlhkosti zobrazuje vlhkost jako celé číslo, zatímco měření, které získáte, má desetinná místa. Emulátor simuluje maličkou míru nepřesnosti skutečného snímače, takže měření vlhkosti, které dostanete, může být nepatrně větší nebo menší než hodnota, kterou jste nastavili pomocí posuvníku.
