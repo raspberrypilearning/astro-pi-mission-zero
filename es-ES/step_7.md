@@ -1,4 +1,4 @@
-## Mostrar la humedad
+## Muestra la humedad
 
 Podrías combinar tu lectura de humedad con una imagen para indicar la temperatura a modo de gráfico. Por ejemplo, puedes hacer que aparezca una tormenta de nieve para bajas temperaturas y un día soleado para altas temperaturas:
 
