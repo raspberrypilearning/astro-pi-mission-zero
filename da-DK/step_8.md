@@ -17,36 +17,36 @@ Sørg også for at have opfyldt følgende kriterier:
 
 Når alle reglerne er grønne, er du klar til at indsende.
 
-\--- opgave \---
+\--- task \---
 
 Indtast din klasseværelseskode i boksen nederst - din lærer fortæller dig, hvad din kode er.
 
-Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Indledning](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
+Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
-\--- /opgave \---
+\--- /task \---
 
-\--- opgave \---
+\--- task \---
 
-Din lærers navn vises. Hvis du har en **while True** (mens det er sandt) løkke i din kode, bliver du nødt til at trykke på knappen <1>Stop</1> (Stop) for at kunne opfylde denne regel.
+Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den grønne knap **Continue to form** (Fortsæt til formular).
 
 ![Fortsæt til formular](images/continue-to-form.png)
 
-\--- /opgave \---
+\--- /task \---
 
-\--- opgave \---
+\--- task \---
 
 Indtast dit holdnavn og navnene på holdets medlemmer. Disse bliver trykt på certifikatet, når din kode køres i rummet, så sørg for at stave dem korrekt!
 
-\--- /opgave \---
+\--- /task \---
 
-\--- opgave \---
+\--- task \---
 
 Tryk på knappen **Submit** (Indsend) for at indsende din kode. Din lærer eller mentor får en E-mail for at bekræfte indsendelsen.
 
-\--- /opgave \---
+\--- /task \---
 
-\--- opgave \---
+\--- task \---
 
 Hvis du vil, kan du dele linket til din kode på de sociale medier for at fortælle folk, at den kode, du har skrevet, bliver kørt i rummet!
 
-\--- /opgave \---
+\--- /task \---
