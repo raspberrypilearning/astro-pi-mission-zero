@@ -46,6 +46,7 @@ Pentru a afișa un alt mesaj, poți scrie orice dorești între ghilimele (`""`)
 ---
 title: Ce caractere pot fi folosite?
 ---
+
 Sense HAT poate afișa numai setul de caractere Latin 1, adică numai următoarele caractere vor fi disponibile. Alte caractere se vor afișa ca și `?`.
 
     +-*/!"#$><0123456789.=)(

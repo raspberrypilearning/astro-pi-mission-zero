@@ -15,3 +15,11 @@ Akár valamelyik másik Astro Pi projektünket is kipróbálhatod:
 + Hívd ki a barátaidat egy [golyólabirintus](https://projects.raspberrypi.org/hu-HU/projects/sense-hat-marble-maze){:target="_blank"} játékra
 
 + Készítsd el újra a klasszikus [Pong](https://projects.raspberrypi.org/hu-HU/projects/sense-hat-pong){:target="_blank"} játékot
+
+
+***
+Közösségi hozzájárulással készült fordítás
+
+Ezt a projektet Péter Györök fordította le és Bence Vass ellenőrizte.
+
+A nagyszerű fordító önkénteseink segítenek, hogy világszerte megadhassuk a gyerekeknek a lehetőséget, hogy megtanuljanak kódolni. Ön is segíthet a projektjeink lefordításával, hogy több gyereket érhessünk el - bővebben az [rpf.io/translate](https://rpf.io/translate) oldalon.

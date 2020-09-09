@@ -4,9 +4,9 @@ Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy 
 
 ![Érvényesítés](images/validation.png)
 
-1. Mérd meg a hőmérsékletet!
+1. Mérd meg a páratartalmat!
 2. Kapcsold be a LED-eket!
-3. Győződj meg arról, hogy a kódod hiba nélkül fut végig! Ha egy `while True` ciklus van a kódodban, meg kell nyomnod a **Stop** (Leállítás) gombot, hogy ezt a szabályt teljesítsd.
+3. Győződj meg arról, hogy a kódod hiba nélkül fut végig! Ne hagyj benn `while True` ciklust a kódodban, mert ettől a kódod a végtelenségig fut és nem fejeződik be.
 
 Ellenőrizd, hogy ezeknek a feltételeknek is eleget tettél:
 
@@ -19,7 +19,7 @@ Ha minden szabály zöld, készen állsz a beküldésre.
 
 --- task ---
 
-Írd be az osztálytermi kódodat a lenti mezőbe. A tanárod mondja meg majd a kódod.
+Írd be az osztálytermi kódodat a lenti mezőbe. A tanárod vagy mentorod mondja meg majd a kódod.
 
 **A tanárok és mentorok részére szóló jegyzetek** a [Bevezető](https://projects.raspberrypi.org/hu-HU/projects/astro-pi-mission-zero/1) lépésben találhatók meg.
 

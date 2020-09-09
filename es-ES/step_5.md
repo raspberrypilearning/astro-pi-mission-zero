@@ -1,6 +1,6 @@
 ## Mostrar una imagen
 
-Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o patrón además, o en lugar de, un mensaje escrito?
+Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o un patrón, además o en lugar de un mensaje escrito?
 
 ![Astronauta](images/astronaut-pic.png)
 
@@ -22,7 +22,7 @@ b = (0, 0, 0)
 Debajo de tus nuevas variables, crea una lista de 64 elementos. Cada elemento representa un píxel en la matriz LED, y se corresponde con una de las variables de color definidas. Dibuja tu imagen colocando una variable donde quieras que aparezca su color asignado. Hemos dibujado un astronauta usando píxeles negros (`b`) para el fondo y píxeles blancos (`w`) para dibujar el traje espacial del astronauta:
 
 ```python
-picture = [
+imagen = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -41,7 +41,7 @@ picture = [
 Añade una línea de código para ver tu imagen en la pantalla LED.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(imagen)
 ```
 
 --- /task ---

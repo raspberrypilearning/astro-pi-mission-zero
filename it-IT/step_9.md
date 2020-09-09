@@ -15,3 +15,13 @@ In alternativa, potreste provare uno dei nostri altri progetti Astro Pi:
 + Sfidate i vostri amici a risolvere un [labirinto](https://projects.raspberrypi.org/it-IT/projects/sense-hat-marble-maze){:target="_blank"} con una bilia
 
 + Ricreate il classico gioco [Pong](https://projects.raspberrypi.org/it-IT/projects/sense-hat-pong){:target="_blank"}
+
+
+***
+Questo progetto è stato tradotto da volontari:
+
+Omar Lazzari
+
+Pierangela Trovato
+
+Grazie ai volontari, possiamo offrire alle persone di tutto il mondo la possibilità di imparare nella loro lingua. Puoi aiutarci a raggiungere più persone offrendoti come volontario per la traduzione - puoi trovare maggiori informazioni su [rpf.io/translate](https://rpf.io/translate).

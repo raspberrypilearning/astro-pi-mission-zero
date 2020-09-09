@@ -12,7 +12,7 @@ steps:
   - title: Mostrar un mensaje
   - title: Añadir algo de color
   - title: Mostrar una imagen
-  - title: Medir la temperatura
-  - title: Mostrar la temperatura
+  - title: Mide la humedad
+  - title: Muestra la humedad
   - title: Enviar tu proyecto
   - title: "Desafío: Más proyectos Astro Pi"

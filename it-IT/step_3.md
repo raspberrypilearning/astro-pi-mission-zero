@@ -1,4 +1,4 @@
-## Mostrate un messaggio
+## Mostra un messaggio
 
 --- task ---
 
@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![emulatore sense hat](images/sense-hat-emulator2.png)
+![emulatore sense hat](images/sense-hat-emulator.png)
 
 Questo codice si collega all’Astro Pi e garantisce che il messaggio sul display LED di Astro Pi sia mostrato nel senso corretto. Lasciate qui questo codice perché è necessario.
 
@@ -46,6 +46,7 @@ Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra 
 ---
 title: Quali caratteri si possono usare?
 ---
+
 Sense HAT può visualizzare solo il set di caratteri "Latin 1". Questo significa che saranno disponibili solo i seguenti caratteri: Eventuali altri caratteri verranno visualizzati come `?`.
 
     +-*/!"#$><0123456789.=)(

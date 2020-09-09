@@ -4,9 +4,9 @@ Hay varias reglas que tu código debe respetar para que pueda ser enviado para s
 
 ![Validación](images/validation.png)
 
-1. Toma una lectura de temperatura
-2. Ilumina los LED
-3. Asegúrate de que el código es ejecutado completamente hasta el final sin errores. Si tienes un bucle `while True` en tu código, necesitarás pulsar el botón **Stop** para parar este bucle.
+1. Toma una lectura de la humedad.
+2. Ilumina los LED.
+3. Asegúrate de que el código es ejecutado completamente hasta el final sin errores. No deberías incluir ningún bucle `while True` en tu código ya que esto mantendrá el código funcionando de forma indefinida y evitará que se termine.
 
 Asegúrate también de que has cumplido los siguientes criterios:
 
@@ -19,7 +19,7 @@ Podrás realizar el envío de tu proyecto una vez que todas las reglas se hayan 
 
 --- task ---
 
-Introduce el código de tu clase en la casilla de abajo (tu profesor te dirá el código).
+Introduce el código de tu clase en la casilla de abajo (tu profesor o mentor te dirá el código).
 
 Las **notas para los profesores o mentores** se encuentran en el paso [Introducción](https://projects.raspberrypi.org/es-ES/projects/astro-pi-mission-zero/1).
 

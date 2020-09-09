@@ -7,12 +7,13 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: Inledning
+  - title: Introduktion
   - title: Vad är en Astro Pi?
   - title: Visa ett meddelande
   - title: Lägg till lite färg
   - title: Visa en bild
-  - title: Mät temperaturen
-  - title: Visa temperaturen
+  - title: Mät luftfuktigheten
+  - title: Visa luftfuktigheten
   - title: Skicka ditt bidrag
   - title: "Utmaning: fler Astro Pi-projekt"
+ 
