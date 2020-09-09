@@ -16,11 +16,11 @@ Tady je příklad, jaký program byste mohli vytvořit. Klikněte na **Run** (Sp
 
 ## title: Co se naučíš
 
-Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
+Dozvíte se, co je jednotka Astro Pi a jak ji ovládat, například jak:
 
-+ zobrazovat zprávy a barvy
++ Zobrazovat zprávy a barvy
 + Vytvořit obrázky
-+ měřit teplotu
++ Měřit vlhkost pomocí Sense HAT
 
 Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
 
@@ -48,7 +48,7 @@ Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digita
 
 ## title: Poznámky pro učitele a mentory
 
-Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů nejvýš po čtyřech, a nechte na nás, abychom je provedli napsáním krátkého programu v Pythonu, který zobrazí osobní vzkaz a teplotu vzduchu na Astro Pi.
+Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů nejvýš po čtyřech, a nechte na nás, abychom je provedli napsáním krátkého programu v Pythonu, který zobrazí osobní vzkaz a vlhkost vzduchu na Astro Pi.
 
 Přečtěte si [dokument s oficiálními instrukcemi](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
