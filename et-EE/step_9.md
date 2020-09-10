@@ -1,17 +1,25 @@
 ## Väljakutse: rohkem Astro Pi projekte
 
-Nüüd, kui oled täitnud selle missiooni, miks mitte proovida mõnda teist projekti kasutades teistsugust Astro Pi sensorit?
+Nüüd, kui oled lõpetanud selle missiooni, miks mitte proovida mõnda teist projekti kasutades teistsugust Astro Pi sensorit?
 
-Kui sa tunned ennast piisavalt enesekindlana, võiksid osaleda projektis [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Pane kokku kahest kuni kuuest liikmest koosnev meeskond ja tee päris oma enda eksperiment töötades koos täpselt nii, nagu tõelised kosmoseteadlased töötavad. Missiooni läbiviimiseks antakse sulle tasuta arvuti riistvara ja oma eksperimendi läbiviimiseks tuleb sul kirjutada Python kood. Kui saavutad lennustaatuse, siis laaditakse sinu kood rahvusvahelisesse kosmosejaama üles ja see töötab Astro Pi´l kolm tundi (kaks orbiiti). Kõik andmed, mida sinu kood kosmoses kogus, nii pildid kui sensori andmefailid, laaditakse alla ja saadetakse sulle analüüsmiseks.
+Kui oled endas kindel, võiksid osaleda projektis [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Pane kokku kahest kuni kuuest liikmest koosnev meeskond ja tee päris oma enda eksperiment töötades koos täpselt nii nagu teevad seda tõelised kosmoseteadlased. Missiooni läbiviimiseks antakse sulle tasuta arvuti riistvara ja oma eksperimendi läbiviimiseks tuleb sul kirjutada Pythoni kood. Kui saavutad lennustaatuse, siis laetakse sinu kood üles Rahvusvahelisesse Kosmosejaama ja see töötab Astro Pi-l kolm tundi (kaks orbiiti). Kõik andmed, mida sinu kood kosmoses kogub, nii pildid kui sensori andmefailid, laetakse alla ja saadetakse sulle analüüsmiseks.
 
 Soovi korral võid proovida ka teistsugust Astro Pi projekti:
 
-+ Õpi [rohkem Sense HAT´i kohta](https://projects.raspberrypi.org/et-EE/projects/getting-started-with-the-sense-hat){:target="_blank"} ja selle kohta, mida temaga veel teha saab
++ Saa [rohkem teada Sense HAT-i](https://projects.raspberrypi.org/et-EE/projects/getting-started-with-the-sense-hat){:target="_blank"} ja teiste asjade kohta, mida see teha suudab
 
-+ Tee ilusaid [juhuslikult välkuvaid tulukesi](https://projects.raspberrypi.org/et-EE/projects/sense-hat-random-sparkles){:target="_blank"} Sense HAT´i LED-ekraanil
++ Loo mõned ilusad [random sparkles](https://projects.raspberrypi.org/et-EE/projects/sense-hat-random-sparkles){:target="_blank"} (juhuslikult välkuvad tulukesed) Sense HAT-i LED-ekraanil
 
-+ Tee mäng [Flappy Astronaut](https://projects.raspberrypi.org/et-EE/projects/flappy-astronaut){:target="_blank"}
++ Loo mäng [Flappy Astronaut](https://projects.raspberrypi.org/et-EE/projects/flappy-astronaut){:target="_blank"} (lehviv astronaut)
 
-+ Esita oma sõpradele väljakutse mänguga [labürint](https://projects.raspberrypi.org/et-EE/projects/sense-hat-marble-maze){:target="_blank"}
++ Esita oma sõpradele väljakutse mänguga [marble maze](https://projects.raspberrypi.org/et-EE/projects/sense-hat-marble-maze){:target="_blank"} (marmorist labürint)
 
 + Taasloo mänguklassika [Pong](https://projects.raspberrypi.org/et-EE/projects/sense-hat-pong){:target="_blank"}
+
+
+***
+Kogukondlik tõlge
+
+Selle projekti tõlkis Kärt Roomäe.
+
+Meie vahvad vabatahtlikud tõlgid annavad võimaluse lastel programeerimist õppida. Te saate aidata meil meie projekte tõlkides rohkemate lasteni jõuda - rohkem infot on saadaval veebilehel [rpf.io/translate](https://rpf.io/translate). 
