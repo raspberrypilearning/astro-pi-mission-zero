@@ -1,48 +1,50 @@
-## Õhutemperatuuri kuvamine
+## Kuva niiskus
 
-Võid õhutemperatuuri mõõtmise tulemust kombineerida pildiga, et näidata õhutemperatuuri ka graafiliselt. Näiteks võid külma õhutemperatuuri korral näidata lumetormi ja kuuma õhutemperatuuri korral päikesepaistelist päeva:
+Võid oma õhuniiskuse mõõtmise tulemust kombineerida pildiga, et näidata niiskust ka graafiliselt. Näiteks võid kuvada kõrge õhuniiskuse korral ookeani ja madala õhuniiskuse korral kõrbe:
 
-![Kuum ja külm](images/hot-and-cold.png)
+![Niiske ja kuiv](images/wet-dry.png)
 
 --- task ---
 
-Oma programmi lõpus lisa rohkem värvimuutujaid värvide jaoks, mida tahad oma piltidel kasutada. Võimalik, et oled mõned juba eelmises etapis määranud. Meie näites kasutatakse valget (`w`), kollast (`y`), rohelist (`g`) ja musta/tühja (`b`).
+Oma programmi alaosas saad luua rohkem värvimuutujaid määramaks piltide joonistamisel kasutatavaid värve. Võimalik, et oled mõned juba eelmises etapis määranud.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255 255,0)
 ```
 
 --- /task ---
 
 --- task ---
 
-Täpselt samamoodi kui varem, oma piltide joonistamiseks tee kõigepealt iga pildi jaoks loetelu ja seejärel vastavalt soovitud pikslite värvidele määra loetelu ühikutele värvid.
+Täpselt samamoodi nagu varem, tee oma piltide joonistamiseks kõigepealt iga pildi jaoks loend ja seejärel määra vastavalt soovitud pikslite värvidele loendi elementidele värvid.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g , g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  , y , y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ cold = [
 
 --- task ---
 
-Õhutemperatuuri saamiseks lisa kood:
+Õhuniiskuse saamiseks lisa kood:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 --- /task ---
 
 --- task ---
 
-Nüüd otsusta, millist pilti kuvada. Selle näite jaoks kuvatakse `hot` pilti, kui mõõdetav õhutemperatuur on 20 kraadi või rohkem ja `cold` pilti, kui õhutemperatuur on alla 20 kraadi.
+Nüüd otsusta, millist pilti kuvada. Selle näite puhul kuvatakse `wet` pilt, kui mõõdetud õhuniiskus on 40% või rohkem ja `dry` pilt, kui õhuniiskus on alla 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Õhutemperatuuri määramiseks emulaatoril kasuta temperatuuri liugurit. Käivita oma programm ja kontrolli, et sinu poolt selle õhutemperatuuri jaoks valitud pilti kuvatakse korrektselt.
+Õhuniiskuse määramiseks emulaatoril kasuta niiskuse liugurit. Käivita oma programm ja kontrolli, et sinu poolt selle õhuniiskuse jaoks valitud pilt kuvatakse korrektselt.
 
 --- /task ---
 
 --- task ---
 
-Muuda oma koodi, et sinu programm kuvaks õhutemperatuuri astronautidele sinu poolt valitud viisil.
+Muuda oma koodi, et sinu programm kuvaks õhuniiskuse astronautidele sinu poolt valitud viisil.
 
 --- /task ---
