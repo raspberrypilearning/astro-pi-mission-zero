@@ -46,7 +46,7 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 
 ## \--- collapse \---
 
-## titel: Aantekeningen voor leraars en mentors
+## title: Aantekeningen voor leraars en mentors
 
 Deze activiteit kan worden afgerond in een namiddag. Verdeel je studenten in teams van twee tot vier en laat ons hen begeleiden om een kort Python-programma te schrijven om een persoonlijke boodschap en de relatieve luchtvochtigheid te tonen op de Astro Pi.
 
