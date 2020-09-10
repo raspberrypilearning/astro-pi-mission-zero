@@ -15,3 +15,13 @@ Alternativt kan dere prøve et av våre andre Astro Pi-prosjekter:
 + Utfordre vennene dine med et [Marmorlabyrint](https://projects.raspberrypi.org/no-NO/projects/sense-hat-marble-maze){:target="_blank"}-spill
 
 + Gjenskap det klassiske spillet [Pong](https://projects.raspberrypi.org/no-NO/projects/sense-hat-pong){:target="_blank"}
+
+
+***
+Dette prosjektet er oversatt av frivillige:
+
+Simen Lunke
+
+Tor Arve Stangeland
+
+Takket være frivillige kan vi gi mennesker over hele verden sjansen til å lære på sitt eget språk. Du kan hjelpe oss med å nå flere mennesker ved å melde deg frivillig til å oversette - mer informasjon på [rpf.io/translate](rpf.io/translate).

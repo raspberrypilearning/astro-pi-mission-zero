@@ -1,18 +1,20 @@
-## Vise temperaturen
+## Vise luftfuktigheten
 
-Du kan kombinere temperaturavlesningen med et bilde for å angi temperaturen på en grafisk måte i tillegg. Dere kan for eksempel vise en snøstorm for minustemperaturer og en solskinnsdag for plusstemperaturer:
+Du kan kombinere luftfuktighetsavlesningen med et bilde for å angi luftfuktigheten på en grafisk måte i tillegg. For eksempel kan du vise et hav for høy luftfuktighet, og en ørken for lav luftfuktighet:
 
-![Varmt og kaldt](images/hot-and-cold.png)
+![Fuktig og tørt](images/wet-dry.png)
 
 --- task ---
 
-På slutten av programmet kan dere opprette flere fargevariabler for fargene dere vil bruke i bildene. Dere har kanskje allerede definert noen av dem i et tidligere trinn. I våre eksempler vil vi bruke hvit (`w`), gul (`y`), grønn (`g`) og svart/tomt (`b`).
+På slutten av programmet kan dere opprette flere fargevariabler for fargene dere vil bruke i bildene. Dere har kanskje allerede definert noen av dem i et tidligere trinn.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Som tidligere begynner dere med å opprette en liste for hver av dem, og deretter angir dere farger for punktene på listen slik dere vil at bildene skal være.
 
 ```python
-hot = [
-b, b, b, b, b, y, y, b,
-b, b, b, b, y, y, y, y,
-b, b, b, b, b, y, y, b,
-b, b, b, b, b, b, b, b,
-b, b, b, b, b, b, b, b,
-b, b, b, b, b, b, b, b,
-g, g, g, g, g, g, g, g,
-g, g, g, g, g, g, g, g
+wet = [
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-b, b, w, b, b, b, w, b,
-b, b, b, b, b, w, b, b,
-b, w, b, b, b, b, b, w,
-b, b, b, b, w, b, b, b,
-w, b, b, w, b, b, w, b,
-b, b, b, b, b, b, b, b,
-w, w, w, w, w, w, w, w,
-w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ w, w, w, w, w, w, w, w
 
 --- task ---
 
-Legg til kode for å få temperaturen:
+Legg til kode for å få luftfuktigheten:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 --- /task ---
 
 --- task ---
 
-Nå bestemmer dere hvilket bilde som skal vises. I dette eksemplet vil vi vise et `hot` (varmt) bilde hvis temperaturavlesningen er 20 grader eller høyere, og et `cold` (kaldt) bilde hvis temperaturen er under 20 grader.
+Nå bestemmer dere hvilket bilde som skal vises. I dette eksemplet vil vi vise et `wet` (fuktig) bilde hvis luftfuktigheten er 40% eller høyere, og et `dry` (tørt) bilde hvis luftfuktigheten er under 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Bruk temperaturregulatoren til å angi en temperatur på emulatoren. Kjør programmet og kontroller at bildet dere har valgt for den temperaturen, vises riktig.
+Bruk skyveknappen for luftfuktighet til å angi en luftfuktighet på emulatoren. Kjør programmet og kontroller at bildet dere har valgt for den luftfuktigheten vises riktig.
 
 --- /task ---
 
 --- task ---
 
-Endre koden slik at programmet viser temperaturen til astronautene slik dere har valgt.
+Endre koden slik at programmet viser luftfuktigheten til astronautene slik dere har valgt.
 
 --- /task ---

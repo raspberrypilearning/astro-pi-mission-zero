@@ -1,18 +1,20 @@
-## Visualizar a temperatura
+## Exibir a humidade
 
-Podes combinar a leitura de temperatura com uma imagem para também indicar a temperatura de maneira gráfica. Por exemplo, podes escolher a imagem de uma tempestade de neve para mostrar temperaturas frias e um dia ensolarado para temperaturas altas:
+Podes combinar a leitura da humidade com uma imagem para também indicar a humidade de maneira gráfica. Por exemplo, pode-se mostrar um oceano para alta humidade e um deserto para baixa humidade:
 
-![Quente e frio](images/hot-and-cold.png)
+![Quente e frio](images/wet-dry.png)
 
 --- task ---
 
-Na parte inferior do programa, cria mais variáveis ​​de cor para definir as cores que queres usar nos teus desenhos. Talvez já tenhas definido algumas variáveis num passo anterior. Nos nossos exemplos, vamos usar branco (`w`), amarelo (`y`), verde (`g`) e preto / em branco (`b`).
+Na parte inferior do programa, cria mais variáveis ​​de cor para definir as cores que queres usar nos teus desenhos. Talvez já tenhas definido algumas variáveis num passo anterior.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Como fizeste antes, desenha a tua imagem primeiro por criar uma lista para cada desenho, e em seguida combina os itens da lista com as cores que queres que os pixels tenham.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -53,28 +55,28 @@ cold = [
 Adiciona um código para obter a temperatura:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 --- /task ---
 
 --- task ---
 
-Agora decide que imagem queres mostrar. Para este exemplo, vamos mostrar a imagem `hot` se a leitura da temperatura for igual ou superior a 20 graus, e a imagem `cold` se a temperatura estiver abaixo dos 20 graus.
+Agora decide que imagem queres mostrar. Para este exemplo, mostraremos a imagem `wet (molhada)` se a leitura da humidade estiver 40% ou acima, e a imagem `dry (seca)` se a um humidade estiver abaixo de 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Usa o controlo de deslize de temperatura para definir uma temperatura no emulador. Executa o teu programa e verifica se a imagem que selecionaste para essa temperatura foi exibida corretamente.
+Use o controle deslizante de humidade para definir uma humidade no emulador. Executa o teu programa e verifica se a imagem que seleccionaste para essa humidade foi exibida correctamente.
 
 --- /task ---
 

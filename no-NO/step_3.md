@@ -46,6 +46,7 @@ For å vise en annen melding, kan du skrive hva som helst mellom anførselstegne
 ---
 title: Hvilke tegn kan brukes?
 ---
+
 Sense HAT kan bare vise tegnsettet Latin 1, noe som betyr at bare følgende tegn vil være tilgjengelig. Andre tegn vises som `?`.
 
     +-*/!"#$><0123456789.=)(

@@ -1,18 +1,27 @@
 ---
 title: "Astro Pi: Mission Zero"
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Gjør deg klar for Mission Zero
 listed: false
 copyedit: true
 version: 4.0.1
 last_tested: 12.06.2018
 steps:
-  - title: Introduksjon
-  - title: Hva er en Astro Pi?
-  - title: Vise en melding
-  - title: Legge til farge
-  - title: Vise et bilde
-  - title: Måle temperaturen
-  - title: Vise temperaturen
-  - title: Sende inn bidraget ditt
-  - title: "Utfordring: flere Astro Pi-prosjekter"
+  - 
+    title: Introduksjon
+  - 
+    title: Hva er en Astro Pi?
+  - 
+    title: Vise en melding
+  - 
+    title: Legge til farge
+  - 
+    title: Vise et bilde
+  - 
+    title: Måle luftfuktigheten
+  - 
+    title: Vise luftfuktigheten
+  - 
+    title: Sende inn bidraget ditt
+  - 
+    title: "Utfordring: flere Astro Pi-prosjekter"

@@ -1,6 +1,6 @@
 ## Introdução
 
-Para alegrar a rotina diária dos astronautas da Estação Espacial Internacional mostra-lhes uma mensagem e a temperatura ambiente a bordo usando o Sense HAT do computador Astro Pi.
+Para alegrar a rotina diária dos astronautas da Estação Espacial Internacional mostra-lhes uma mensagem e a humidade ambiente a bordo usando o Sense HAT do computador Astro Pi.
 
 Usa o emulador Sense HAT online para criar o teu programa, não precisas de hardware extra - tens tudo o que precisas no navegador web.
 
@@ -9,18 +9,18 @@ O programa completo irá ser executado a partir do espaço na Estação Espacial
 ### O que vais fazer
 
 Aqui está um exemplo do tipo de programa que podes fazer. Clica em **Run** para executar o programa e vê-lo em ação. 
-
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+<iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
 title: O que vais aprender
 ---
-Vais aprender sobre a unidade Astro Pi e como controlá-la, incluindo como:
+
+Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
 
 + exibir mensagens e cores
 + criar imagens
-+ medir a temperatura
++ medir a humidade usando o Sense HAT
 
 Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -32,13 +32,14 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry 
 ---
 title: O que vais precisar
 ---
+
 ### Hardware
 
 + Qualquer computador com conexão à Internet
 
 ### Software
 
-+ Um navegador web (por exemplo, o Google Chrome) para abrir <https://trinket.io/mission-zero>{:target="_blank"}
++ Um navegador web (por exemplo, o Google Chrome) para abrir [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
 --- /collapse ---
 
@@ -57,24 +58,16 @@ Será necessário registar-se para o desafio Mission Zero para permitir que a su
 
 + Preencha o formulário e clique para enviar **Submit**\*.
 
-\* Por favor note que este formulário de inscrição está disponível apenas em inglês.
+\ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
 Os campos do formulário incluem:  
-Teacher/Mentor name (Nome do Professor/Mentor)  
-Teacher/Mentor email address (Endereço email do Professor/Mentor)  
-Teacher/Mentor phone number (Número de telefone do Professor/Mentor)  
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Tipo de Instituiçāo, e.g. escola primária, escola secundária, biblioteca, Code Club, CoderDojo, etc.)  
-Organisation name (Nome da instituiçāo)  
-Organisation address (Endereço da instituiçāo)  
-Organisation city (Cidade da instuiçāo)  
-Organisation country (País da instituiçāo)  
-Organisation postal code (Código postal da instituiçāo)  
-Team name (Nome da Equipa)  
-Number of team members (Número de membros na equipa)  
-Names and ages of team members (Nomes e idades dos membros da equipa)  
-In which language did you access the Mission Zero guidelines? (Em que língua obtiveste as instruções da Mission Zero?)
+Nome do professor / mentor  
+Nome da equipa  
+Número de membros da equipa  
+Nomes e idades dos membros da equipa  
+Em que idioma acedeu as directrizes da Missão Zero?
 
-+ Será criada uma conta para ti. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
++ Uma conta do Trinket será criada para você (se ainda não tiver uma, ou não está autenticado). Você pode criar uma conta por endereço de e-mail. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
 
 + Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
     

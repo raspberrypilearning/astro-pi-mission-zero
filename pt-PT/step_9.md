@@ -15,3 +15,15 @@ Alternativamente, podes querer experimentar um dos nossos outros projetos do Ast
 + Desafia os teus amigos com um jogo [labirinto de mármore](https://projects.raspberrypi.org/pt-PT/projects/sense-hat-marble-maze){:target="_blank"}
 
 + Recria o clássico jogo [Pong](https://projects.raspberrypi.org/pt-PT/projects/sense-hat-pong){:target="_blank"}
+
+
+***
+Este projeto foi traduzido por voluntários:
+
+Bruno Santos
+
+Paulo A. Santos
+
+Homero Cardoso
+
+Graças a voluntários, podemos dar às pessoas de todo o mundo a possibilidade de aprender no seu próprio idioma. Tu podes ajudar-nos a alcançar mais pessoas oferecendo-te para traduzir - mais informações em [rpf.io/translate](https://rpf.io/translate).
