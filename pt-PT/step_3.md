@@ -46,6 +46,7 @@ Para exibir uma mensagem diferente, podes escrever o que quiseres entre as aspas
 ---
 title: Que carateres podem ser usados?
 ---
+
 O Sense HAT só pode exibir o conjunto de carateres Latin 1, o que significa que apenas os seguintes carateres estarão disponíveis. Outros carateres serão exibidos como `?` .
 
     +-*/!"#$><0123456789.=)(
