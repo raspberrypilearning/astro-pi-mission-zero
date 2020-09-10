@@ -16,7 +16,7 @@ To je primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si 
 
 ## title: Kaj se boste naučili?
 
-Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
+Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
 
 + prikazovanjem sporočil in barv,
 + ustvarjanjem slik,
