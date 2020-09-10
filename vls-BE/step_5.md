@@ -23,14 +23,14 @@ Onderaan je nieuwe variabelen, maak een lijst met 64 items. Ieder item vertegenw
 
 ```python
 picture = [
-b, b, w, w, w, w, b, b,
-b, w, b, b, b, b, w, b,
-b, w, b, w, w, b, w, b,
-b, w, b, b, b, b, w, b,
-b, b, w, w, w, w, b, b,
-b, b, w, w, w, w, b, b,
-b, w, w, w, w, w, w, b,
-b, w, w, w, w, w, w, b
+    b, b, w, w, w, w, b, b,
+    b, w, b, b, b, b, w, b,
+    b, w, b, w, w, b, w, b,
+    b, w, b, b, b, b, w, b,
+    b, b, w, w, w, w, b, b,
+    b, b, w, w, w, w, b, b,
+    b, w, w, w, w, w, w, b,
+    b, w, w, w, w, w, w, b
 ]
 ```
 
