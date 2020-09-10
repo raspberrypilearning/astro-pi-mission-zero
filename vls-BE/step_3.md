@@ -1,4 +1,4 @@
-## Toon een boodschap
+## Laat een boodschap zien
 
 \--- task \---
 
