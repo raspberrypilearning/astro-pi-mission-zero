@@ -2,7 +2,7 @@
 
 O sensor de humidade no Astro Pi pode medir a humidade do ar ao seu redor, uma funcionalidade útil para ajudar-te a recolher dados sobre as condições no espaço.
 
-![Mensagem sobre a temperatura](images/degrees-message.gif)
+![Mensagem sobre a humidade](images/degrees-message.gif)
 
 O Astro Pi mede a humidade na ISS em percentagem da concentração de água no ar.
 
@@ -18,7 +18,7 @@ Adiciona este código para obter uma leitura da temperatura:
 humid= sense.humidity
 ```
 
---- /collapse ---
+Este código vai medir a humidade atual e armazenar o valor medido na variável `humid`.
 
 --- /task ---
 
