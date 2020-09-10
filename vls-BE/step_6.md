@@ -10,29 +10,29 @@ Een deel van je missie is het bijdragen tot het dagelijkse leven van de bemannin
 
 [[[generic-theory-what-is-humidity]]]
 
-\--- taak \---
+\--- task \---
 
 Voeg deze code toe om een vochtigheidsmeting te doen:
 
 ```python
-humid = sense.vochtigheid
+humid = sense.humidity
 ```
 
-Deze lijn meet de huidige vochtigheid en slaat de meetwaarde op in de variabele `temp`.
+Deze lijn meet de huidige vochtigheid en slaat de meetwaarde op in de variabele `humid`.
 
 \--- /task \---
 
-\--- taak \---
+\--- task \---
 
 De vochtigheid wordt heel precies gemeten, d.w.z. dat de opgeslagen waarde een groot aantal decimalen zal hebben. Je kunt de waarde afronden tot een aantal decimale cijfers. In het voorbeeld hebben wij het cijfer afgerond tot één decimaal, maar voor een ander niveau van nauwkeurigheid, verander het nummer `1` tot het nummer van decimale cijfers die je wenst te zien.
 
 ```python
-humid = round( sense.vochtigheid, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Om de actuele vochtigheid te tonen als een scrollende boodschap op het scherm, voeg je deze codelijn toe:
 
@@ -42,17 +42,17 @@ sense.show_message( str(humid) )
 
 Het `str()` deel zet de vochtigheid om van een nummer naar tekst zodat de Astro Pi het kan laten zien.
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Je kan de vochtigheid ook tonen als een deel van een andere boodschap door de delen van je boodschap samen te voegen met een `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message("Het is " + str(humid) + " %")
 ```
 
-\--- /taak \---
+\--- /task \---
 
 De echte Astro Pi zal de vochtigheid errond meten, maar je kan de vochtigheid-schuifknop op de Sense HAT-emulator verplaatsen om vochtigheidsveranderingen te simuleren en zo je code te testen.
 
