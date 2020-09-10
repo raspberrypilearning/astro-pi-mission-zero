@@ -15,7 +15,7 @@ Del vaše misije je izboljšanje vsakdana posadke na postaji ISS. Ko jim boste s
 Za odčitavanje vlage dodajte to kodo:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /collapse \---
@@ -27,7 +27,7 @@ temp = sense.temperature
 Vlaga je zabeležena zelo natančno, kar pomeni, da bo shranjena vrednost imela veliko število decimalnih mest. Vrednost lahko zaokrožite na poljubno število decimalnih mest. V tem primeru smo vrednost zaokrožili na eno decimalno mesto, a za drugačno stopnjo natančnosti lahko število `1` spremenite v želeno število decimalnih mest.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 \--- /task \---
@@ -37,7 +37,7 @@ temp = round( sense.temperature, 1 )
 Za prikaz trenutne vlage v obliki premikajočega se sporočila dodajte to vrstico kode:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
 Del `str()` vlago pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
@@ -49,7 +49,7 @@ Del `str()` vlago pretvori iz številke v besedilo, da jo lahko Astro Pi prikaž
 Del `str()` vlago pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 \--- /task \---
