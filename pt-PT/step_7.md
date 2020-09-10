@@ -1,4 +1,4 @@
-## Visualizar a humidade
+## Exibir a humidade
 
 Podes combinar a leitura da humidade com uma imagem para também indicar a humidade de maneira gráfica. Por exemplo, pode-se mostrar um oceano para alta humidade e um deserto para baixa humidade:
 
@@ -9,10 +9,12 @@ Podes combinar a leitura da humidade com uma imagem para também indicar a humid
 Na parte inferior do programa, cria mais variáveis ​​de cor para definir as cores que queres usar nos teus desenhos. Talvez já tenhas definido algumas variáveis num passo anterior.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 \--- /task \---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Como fizeste antes, desenha a tua imagem primeiro por criar uma lista para cada desenho, e em seguida combina os itens da lista com as cores que queres que os pixels tenham.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -53,14 +55,14 @@ cold = [
 Adiciona um código para obter a temperatura:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Agora decide que imagem queres mostrar. Para este exemplo, vamos mostrar a imagem `hot` se a leitura da temperatura for igual ou superior a 20 graus, e a imagem `cold` se a temperatura estiver abaixo dos 20 graus.
+Agora decide que imagem queres mostrar. Para este exemplo, mostraremos a imagem `molhada` se a leitura da humidade estiver 40% ou acima, e a imagem `seca` se a um humidade estiver abaixo de 40%.
 
 ```python
 humid = sense.humidity
