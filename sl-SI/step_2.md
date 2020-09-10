@@ -6,11 +6,11 @@ Tukaj je prava enota Astro Pi na Mednarodni vesoljski postaji, ki prikazuje kodo
 
 >
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Pri tej misiji boste uporabljali emulator Sense HAT. Emulator je del programske opreme, ki v vašem spletnem brskalniku simulira vse funkcije Astro Pi.
 
-![Sense HAT emulator](images/sense-hat-emulator.png)
+![Emulator Sense HAT](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Obstaja nekaj razlik med pravim in emuliranim Sense HAT:
 
 - Na emulatorju lahko s pomočjo drsnikov sami nastavite temperaturo, tlak in vlažnost, medtem ko pravi Sense HAT v računalniku Astro Pi za merjenje teh parametrov v svojem okolju uporablja senzorje.
 
