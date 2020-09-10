@@ -49,7 +49,7 @@ sense.show_message( str(humid) )
 Du kan også vise luftfuktigheten som en del av en annen melding ved å slå sammen delene av meldingen med et `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "Det er " + str(humid) + " %" )
 ```
 
 \--- /task \---
