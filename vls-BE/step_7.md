@@ -4,7 +4,7 @@ Je kan je vochtigheidsmeting combineren met een foto om de vochtigheid ook op ee
 
 ![Nat en droog](images/wet-dry.png)
 
-\--- taak \---
+\--- task \---
 
 Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een vorige stap.
 
@@ -17,9 +17,9 @@ g=(0,255,0)
 y=(255,255,0)
 ```
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Net zoals eerder, teken je tekeningen door eerst een lijst aan te maken voor elk van hen, en zet dan de items met de kleuren op de lijst die je voor je pixels wilt gebruiken.
 
@@ -48,40 +48,40 @@ dry = [
 ]
 ```
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Voeg code toe om de vochtigheid te verkrijgen:
 
 ```python
-humid = sense.vochtigheid
+humid = sense.humidity
 ```
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Beslis nu welke tekening je wilt tonen. In dit voorbeeld zullen we de `wet`(nat) tekening laten zien als de vochtigheidsmeting 40% of hoger is en de `dry` (droog) tekening als de vochtigheid lager is dan 40%.
 
 ```python
-humid = sense.vochtigheid
+humid = sense.humidity
 if humid >= 40:
     sense.set_pixels(wet)
 else:
     sense.set_pixels(dry)
 ```
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Gebruik de vochtigheid-schuifknop om een vochtigheid op de emulator in te stellen. Start je programma en controleer dat de tekening die je koos voor die vochtigheid juist weergegeven wordt.
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Verander je code zodat je programma de vochtigheid weergeeft aan de astronauten op de door jou gekozen manier.
 
-\--- /taak \---
+\--- /task \---
