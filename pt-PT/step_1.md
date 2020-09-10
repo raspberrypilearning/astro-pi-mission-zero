@@ -20,7 +20,7 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry 
 
 + exibir mensagens e cores
 + criar imagens
-+ medir a temperatura
++ medir a humidade usando o Sense HAT
 
 Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){: target = "_ blank"}:
 
