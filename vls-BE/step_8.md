@@ -17,36 +17,36 @@ Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
 Zodra de regels allemaal groen zijn, ben je klaar om in te dienen.
 
-\--- taak \---
+\--- task \---
 
 Vul je klascode in het vakje onderaan in - je leraar of mentor zal je vertellen wat je code is.
 
 **Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op groen **Ga verder naar formulier** knop.
 
 ![Ga verder naar het formulier](images/continue-to-form.png)
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Vermeld je teamnaam en de namen van de teamleden. Deze worden geprint op een certificaat zodra je code in de ruimte werkt, dus zorg ervoor dat je ze juist hebt gespeld!
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Druk op de **Indienen** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
 
-\--- /taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
 Als je wilt, kun je de link naar je code delen op social media om aan mensen te laten weten dat de code die je hebt geschreven in de ruimte zal werken!
 
-\--- /taak \---
+\--- /task \---
