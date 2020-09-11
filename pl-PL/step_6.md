@@ -49,7 +49,7 @@ Część `str()` przekształca wilgotność z liczby na tekst, tak aby Astro Pi 
 Możesz również wyświetlić wilgotność jako część innej wiadomości, dołączając do części swojej wiadomości używając `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "Jest " + str(humid) + " %" )
 ```
 
 \--- /task \---
