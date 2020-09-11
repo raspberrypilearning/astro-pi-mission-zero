@@ -1,6 +1,6 @@
 ## Esittely
 
-Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viesti ja aluksen sisäilman lämpötila käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
+Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viesti ja aluksen sisäilman ilmankosteus käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
 
 Käytät Sense HAT -verkkoemulaattoria luomaan ohjelmasi, joten lisälaitteita ei tarvita — kaikki tehdään selaimessa.
 
