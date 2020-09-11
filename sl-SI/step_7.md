@@ -2,7 +2,7 @@
 
 Odčitek vlage lahko združite s sliko in vlago tako prikažete tudi grafično. Na primer, lahko prikažete ocean za visoko vlažnost in puščavo za nizko vlažnost:
 
-![Wet and dry](images/wet-dry.png)
+![Mokro in suho](images/wet-dry.png)
 
 \--- task \---
 
