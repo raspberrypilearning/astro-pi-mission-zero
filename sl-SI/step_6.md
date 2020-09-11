@@ -46,7 +46,7 @@ Del `str()` vlago pretvori iz številke v besedilo, da jo lahko Astro Pi prikaž
 
 \--- task \---
 
-Del `str()` vlago pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
+Vlažnost lahko prikažete tudi kot del drugega sporočila, kar storite tako, da dele sporočila združite s kodo `+`.
 
 ```python
 sense.show_message( "It is " + str(humid) + " %" )
