@@ -55,21 +55,21 @@ dry = [
 Dodaj kod, aby uzyskać wilgotność:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Teraz zdecyduj, który obrazek chcesz wyświetlić. W tym przykładzie wyświetlimy obrazek `hot` (gorąco), jeśli pomiar temperatury wyniesie 20 stopni lub więcej, a obrazek `cold` (zimno), jeśli temperatura będzie poniżej 20 stopni.
+Teraz zdecyduj, który obrazek chcesz wyświetlić. Dla tego przykładu wyświetlmy obrazek `wet`, jeśli odczyt wilgotności wynosi 40% lub więcej, i obrazek `dry` jeśli wilgotność jest poniżej 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 \--- /task \---
