@@ -1,6 +1,6 @@
 ## Introductie
 
-Fleur de dagelijkse routine van de astronauten in het internationale ruimtestation op door hun een boodschap en de omgevingsluchttemperatuur te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
+Fleur de dagelijkse routine van de astronauten in het internationale ruimtestation op door hun een boodschap en de relatieve luchtvochtigheid te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
 
 Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, er is dus geen extra hardware nodig - alles wordt gedaan in de web browser.
 
@@ -20,7 +20,7 @@ Je zal van alles te weten komen over de Astro Pi-unit, hoe je die kan besturen e
 
 + hoe je boodschappen en kleuren kan tonen
 + hoe je beelden kan ontwerpen
-+ hoe je de temperatuur kan meten met een Sense HAT
++ Hoe je de vochtigheid kan meten met een Sense HAT
 
 Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
