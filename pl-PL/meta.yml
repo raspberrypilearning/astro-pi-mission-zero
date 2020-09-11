@@ -1,7 +1,7 @@
 ---
-title: "Astro Pi: Mission Zero"
+title: "Astro Pi: Misja Zero"
 hero_image: images/banner.png
-description: Przygotuj się do Mission Zero
+description: Przygotuj się do Misji Zero
 listed: false
 copyedit: true
 version: 4.0.1
@@ -10,7 +10,7 @@ steps:
   - 
     title: Wprowadzenie
   - 
-    title: Co to jest Astro Pi?
+    title: Czym jest Astro Pi?
   - 
     title: Wyświetlanie wiadomości
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Pomiar wilgotności
   - 
-    title: Wyświetlanie temperatury
+    title: Wyświetl wilgotność
   - 
     title: Wyślij swoje zgłoszenie
   - 
