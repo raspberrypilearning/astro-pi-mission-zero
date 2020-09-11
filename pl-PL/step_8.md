@@ -4,13 +4,13 @@ Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do u
 
 ![Sprawdzanie poprawności](images/validation.png)
 
-1. Dokonaj odczytu temperatury
+1. Dokonaj odczytu wilgotności.
 2. Zapal diody LED
-3. Upewnij się, że twój kod działa do końca bez żadnych błędów. Jeśli masz w kodzie pętlę `while True`, musisz nacisnąć przycisk **Stop**, aby spełnić ten wymóg.
+3. Upewnij się, że twój kod działa do końca bez żadnych błędów. Nie powinieneś zawierać żadnych pętli, `while True` w swoim kodzie, jako że ciągle wykonywał kod i uniemożliwi jego zakończenie.
 
 Upewnij się też, że spełniasz następujące kryteria:
 
-1. Upewnij się, że twoja wiadomość do astronautów wyświetlana jest nie dłużej niż 30 sekund, bo przez tyle czasu twój kod będzie działać na MSK
+1. Upewnij się, że twoja wiadomość do astronautów wyświetlana jest nie dłużej niż 30 sekund, bo przez tyle czasu twój kod będzie działać na ISS
 2. Należy unikać wszelkich metod wymagających ręcznego wprowadzania danych
 3. Importuj tylko z modułów `sense_hat`, `time` i `random`
 4. Nie wolno umieszczać wulgaryzmów
@@ -19,7 +19,7 @@ Gdy wszystkie reguły będą zielone, można przesłać zgłoszenie.
 
 --- task ---
 
-Wpisz kod swojej klasy w polu na dole - nauczyciel poda ci twój kod.
+Wpisz kod swojej klasy w polu na dole - twój nauczyciel lub mentor poda ci twój kod.
 
 **Uwagi dla nauczycieli lub mentorów** można znaleźć we [Wprowadzeniu](https://projects.raspberrypi.org/pl-PL/projects/astro-pi-mission-zero/1).
 

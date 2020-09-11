@@ -2,7 +2,7 @@
 
 --- task ---
 
-Otwórz [emulator Sense HAT](https://trinket.io/mission-zero){:target="_blank"} dla projektu Mission Zero.
+Otwórz [emulator Sense HAT](https://trinket.io/mission-zero){:target="_blank"} dla projektu Misja Zero.
 
 Zobaczysz, że trzy wiersze kodu zostały dodane automatycznie:
 
@@ -20,7 +20,7 @@ Kod ten łączy się z Astro Pi i zapewnia, że wyświetlacz LED Astro Pi jest p
 
 --- task ---
 
-Może zamieścisz miłe pozdrowienia dla astronautów z MSK, którzy pracują w pobliżu Astro Pi? Dodajmy przewijaną wiadomość na wyświetlaczu.
+Może zamieścisz miłe pozdrowienia dla astronautów z ISS, którzy pracują w pobliżu Astro Pi? Dodajmy przewijaną wiadomość na wyświetlaczu.
 
 Dodaj ten wiersz poniżej drugiego kodu:
 
@@ -46,6 +46,7 @@ Aby wyświetlić inną wiadomość, można napisać dowolną treść między zna
 ---
 title: Jakich znaków można użyć?
 ---
+
 Sense HAT może wyświetlać tylko zestaw znaków Latin 1, co oznacza, że ​​dostępne będą tylko następujące znaki. Inne znaki będą wyświetlane jako `?`.
 
     +-*/!"#$><0123456789.=)(
