@@ -1,4 +1,4 @@
-## Lisää väriä
+## Lisää jonkun verran väriä
 
 Astro Pin LEDit voivat näyttää myös värejä. Voit määrittää värin luomalla muuttujan ja antamalla sille RGB-väriarvon.
 
