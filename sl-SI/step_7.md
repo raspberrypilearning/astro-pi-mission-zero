@@ -1,4 +1,4 @@
-## Prikažite temperaturo
+## Prikažite vlažnost
 
 Odčitek vlage lahko združite s sliko in vlago tako prikažete tudi grafično. Na primer, lahko prikažete ocean za visoko vlažnost in puščavo za nizko vlažnost:
 
@@ -52,7 +52,7 @@ dry = [
 
 \--- task \---
 
-Za temperaturo dodajte kodo:
+Za informacije o vlažnosti dodajte kodo:
 
 ```python
 humid = sense.humidity
@@ -82,6 +82,6 @@ Z drsnikom za vlago na emulatorju nastavite vlago. Zaženite svoj program in pre
 
 \--- task \---
 
-Svojo kodo spremenite tako, da bo vaš program astronavtom temperaturo prikazal na želen način.
+Svojo kodo spremenite tako, da bo vaš program astronavtom vlažnost prikazal na želen način.
 
 \--- /task \---
