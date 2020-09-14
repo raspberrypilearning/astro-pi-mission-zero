@@ -18,7 +18,7 @@ Za odčitavanje vlage dodajte to kodo:
 humid = sense.humidity
 ```
 
-\--- /collapse \---
+Ta vrstica bo izmerila trenutno vlažnost in izmerjeno vrednost shranila v spremenljivki `humid`.
 
 \--- /task \---
 
