@@ -4,7 +4,7 @@
 
 ![Potrditev](images/validation.png)
 
-1. Odčitajte temperaturo.
+1. Odčitajte vlažnost.
 2. Vklopite zaslon LED.
 3. Prepričajte se, da vaša koda v celoti deluje brez napak. Ne smete dodati nobenih `while True` zank, saj bodo povzročile, da se vaša koda nikoli ne ustavi.
 
