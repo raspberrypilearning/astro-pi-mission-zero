@@ -1,6 +1,6 @@
-## Izmerite temperaturo
+## Izmerite vlažnost
 
-Senzor temperature v računalniku Astro Pi lahko izmeri temperaturo zraka okrog sebe, kar je koristna funkcija, ki pomaga pri zbiranju podatkov o razmerah v vesolju.
+Senzor vlažnosti v računalniku Astro Pi lahko izmeri stanje vlažnosti okoli sebe, kar je koristna funkcija pri zbiranju podatkov o razmerah v vesolju.
 
 ![Sporočilo o vlagi](images/degrees-message.gif)
 
