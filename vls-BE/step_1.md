@@ -39,7 +39,7 @@ title: Wat je nodig hebt
 
 ### Software
 
-+ Een web browser (bijv. Google Chrome) om [https://trinket.io/mission-zero](https://trinket.io/mission-zero){target="blank"} te openen
++ Een web browser (bijv. Google Chrome) om [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="blank"} te openen
 
 --- /collapse ---
 
