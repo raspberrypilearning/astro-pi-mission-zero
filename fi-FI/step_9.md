@@ -15,3 +15,13 @@ Vaihtoehtoisesti voitte kokeilla joitain muita Astro Pi -projektejamme:
 + Haasta ystäväsi [marmori labyrintti](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-marble-maze){:target="_blank"} -pelillä
 
 + Luo uudelleen klassinen [Pong](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-pong){:target="_blank"}-peli
+
+
+***
+Tämän projektin ovat kääntäneet vapaaehtoiset:
+
+Erno Pentzin
+
+Tero Mäkelä
+
+Vapaaehtoisten ansiosta ihmisillä ympäri maailma on mahdollisuus oppia omalla kielellään. Voit auttaa meitä tavoittamaan enemmän ihmisiä vapaaehtoistyönä kääntämällä - lisätietoja osoitteessa [rpf.io/translate](rpf.io/translate).

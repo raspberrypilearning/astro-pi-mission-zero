@@ -46,6 +46,7 @@ Da bi prikazali drugačno sporočilo, lahko med narekovaja (`""`) napišete kar 
 ---
 title: Katere znake lahko uporabite?
 ---
+
 Emulator Sense HAT lahko prikaže le komplet znakov Latin 1, kar pomeni, da so na voljo le naslednji znaki. Vsi drugi znaki bodo prikazani kot `?`.
 
     +-*/!"#$><0123456789.=)(

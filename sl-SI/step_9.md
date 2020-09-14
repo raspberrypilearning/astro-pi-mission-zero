@@ -15,3 +15,13 @@ Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Astro Pi.
 + Izzovite svoje prijatelje z igro [labirint](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-marble-maze){:target="_blank"}.
 
 + Poustvarite klasično igro [Pong](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-pong){:target="_blank"}.
+
+
+***
+Ta projekt so prevedli prostovoljci:
+
+Filip Štamcar
+
+Arnold Marko
+
+Zahvaljujoč prostovoljcem, lahko ljudem po vsem svetu omogočimo, da se učijo v svojem jeziku. S prostovoljnim prevajanjem nam lahko pomagate, da dosežemo več ljudi - več informacij na [rpf.io/translate](https://rpf.io/translate).

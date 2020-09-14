@@ -1,4 +1,4 @@
-## Toon een boodschap
+## Laat een boodschap zien
 
 --- task ---
 
@@ -46,16 +46,17 @@ Om een andere boodschap te tonen, kun je schrijven wat je wil tussen de aanhalin
 ---
 title: Welke tekens kunnen worden gebruikt?
 ---
+
 De Sense HAT kan slechts 1 Latijnse tekenset tonen, wat betekent dat alleen de volgende tekens verkrijgbaar zullen zijn. Andere tekens worden getoond als `?`.
 
-<pre><code>+-*/!"#$><0123456789.=)(
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-abcdefghijklmnopqrstuvwxyz
-
-?,;:|@%[&_']\~
-`</pre> 
+    +-*/!"#$><0123456789.=)(
+    
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    
+    abcdefghijklmnopqrstuvwxyz
+    
+    ?,;:|@%[&_']\~
+    
 
 --- /collapse ---
 

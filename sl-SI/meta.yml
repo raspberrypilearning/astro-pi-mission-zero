@@ -7,12 +7,21 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: Uvod
-  - title: Kaj je Astro Pi?
-  - title: Prikažite sporočilo
-  - title: Dodajte barve
-  - title: Prikažite sliko
-  - title: Izmerite temperaturo
-  - title: Prikažite temperaturo
-  - title: Pošljite svoj prispevek
-  - title: "Izziv: več projektov Astro Pi"
+  - 
+    title: Uvod
+  - 
+    title: Kaj je Astro Pi?
+  - 
+    title: Prikažite sporočilo
+  - 
+    title: Dodajte barve
+  - 
+    title: Prikažite sliko
+  - 
+    title: Izmerite vlažnost
+  - 
+    title: Prikažite vlažnost
+  - 
+    title: Pošljite svoj prispevek
+  - 
+    title: "Izziv: več projektov Astro Pi"

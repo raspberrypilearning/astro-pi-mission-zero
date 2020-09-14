@@ -7,12 +7,21 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: Esittely
-  - title: Mikä Astro Pi on?
-  - title: Näytä viesti
-  - title: Lisää väriä
-  - title: Näytä kuva
-  - title: Mittaa lämpötila
-  - title: Näytä lämpötila
-  - title: Lähetä osallistumisilmoituksesi
-  - title: "Haaste: lisää Astro Pi -projekteja"
+  - 
+    title: Esittely
+  - 
+    title: Mikä Astro Pi on?
+  - 
+    title: Näytä viesti
+  - 
+    title: Lisää jonkun verran väriä
+  - 
+    title: Näytä kuva
+  - 
+    title: Mittaa ilmankosteus
+  - 
+    title: Näytä ilmankosteus
+  - 
+    title: Lähetä osallistumisilmoituksesi
+  - 
+    title: "Haaste: lisää Astro Pi -projekteja"

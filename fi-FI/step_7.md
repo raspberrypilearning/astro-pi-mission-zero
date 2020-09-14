@@ -1,18 +1,20 @@
-## Näytä lämpötila
+## Näytä ilmankosteus
 
-Voit yhdistää lämpötilalukemasi kuvaan näyttääksesi lämpötilan myös graafisella tavalla. Esimerkiksi saatat näyttää lumimyrskyn kylmille lämpötiloille ja aurinkoisen päivän kuumille lämpötiloille:
+Voit yhdistää kosteuslukemasi kuvaan osoittamaan kosteuden myös graafisella tavalla. Esimerkiksi, voit näyttää valtameren korkealle kosteudelle, ja aavikon matalalle kosteudelle:
 
-![Kuuma ja kylmä](images/hot-and-cold.png)
+![Märkä ja kuiva](images/wet-dry.png)
 
 --- task ---
 
-Lisää ohjelman loppuun uusia värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa. Esimerkeissämme käytämme valkoista (`w`), keltaista (`y`), vihreää (`g`) ja mustaa/tyhjää (`b`).
+Lisää ohjelman loppuun uusia värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Aivan kuten aiemminkin, piirrä kuvat luomalla ensin listan jokaista varten, ja sitten täyttämällä listan kohdat väreillä, joilla haluat pikselisi esitettävän.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ cold = [
 
 --- task ---
 
-Lisää koodi lämpötilan saamiseksi:
+Lisää koodi kosteuden saamiseksi:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 --- /task ---
 
 --- task ---
 
-Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `hot`, jos lämpötilan lukema on 20 astetta tai sen yli, ja kuvan `cold`, jos lämpötilan lukema on alle 20 astetta.
+Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `wet`, jos kosteuslukema on 40% tai sen yli, ja kuvan `dry`, jos kosteuslukema on alle 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Käytä lämpötilan liukusäädintä asettaaksesi lämpötilan emulaattorissa. Suorita ohjelma ja tarkista, että kyseiselle lämpötilalle valittu kuva näytetään oikein.
+Aseta kosteus emulaattoriin kosteuden liukusäätimellä. Suorita ohjelma ja tarkista, että kyseiselle kosteudelle valittu kuva näytetään oikein.
 
 --- /task ---
 
 --- task ---
 
-Muuta koodiasi niin, että ohjelma näyttää lämpötilan astronauteille omalla valitsemallasi tavalla.
+Muuta koodiasi niin, että ohjelma näyttää kosteuden astronauteille omalla valitsemallasi tavalla.
 
 --- /task ---
