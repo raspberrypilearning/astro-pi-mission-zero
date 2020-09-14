@@ -1,72 +1,61 @@
-## Mittaa lämpötila
+## Mittaa ilmankosteus
 
-Astro Pin lämpötila-anturi voi mitata sen ympärillä olevan ilman lämpötilaa. Tämä on hyödyllinen ominaisuus, joka auttaa sinua keräämään tietoja olosuhteista avaruudessa.
+Astro Pi: n kosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
 
-![Viesti lämpötilasta](images/degrees-message.gif)
+![Viesti kosteudesta](images/degrees-message.gif)
 
-Astro Pi mittaa lämpötilaa ISS:ssä celsiusasteina (&deg;C). Koska avaruudessa olevat lämpötilat vaihtelevat paljon enemmän kuin maapallolla, Astro Pi voi mitata lämpötiloja jopa -40 asteen ja +120 asteen välillä.
+Astro Pi mittaa ISS:n kosteuden prosentteina veden pitoisuudesta ilmassa.
 
-Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, joten antamalla heidän tietää, että avaruusaseman lämpötila on tavanomaisella alueella, rauhoittaa heitä.
+Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, joten antamalla heidän tietää, että avaruusaseman ilmankosteus on tavanomaisella alueella, rauhoittaa heitä.
 
---- collapse ---
----
-title: Mikä on lämpötila?
----
-
-Lämpötila on mitta siitä, kuinka kuuma jokin on. Sinun kehosi lämpö on ehkä mitattu lämpömittarilla käydessäsi lääkärissä.
-
-![Lämpömittari](images/thermometer.JPG) *By Menchi [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} Wikimedia Commons -sivuston kautta*
-
-Tarkemmin sanottuna lämpötila on aineen lämpöenergian mitattu määrä. Tiedät jääkuution olevan kiinteä, mutta kun se lämpenee eli imee itseensä lämpöenergiaa ympäristöstään, se sulaa ja muuttuu nestemäiseksi. Tämä johtuu siitä, että kun aine imee itseensä tai menettää riittävästi lämpöenergiaa, aine muuttaa olomuotoaan, esim. se muuttuu kiinteästä nestemäiseksi.
-
---- /collapse ---
+[[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
-Lisää tämä koodi lämpötilan lukemiseksi:
+Lisää tämä koodi kosteuden lukemiseksi:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
-Tämä rivi mittaa nykyisen lämpötilan ja tallentaa mitatun arvon muuttujaan `temp`.
+Tämä viiva mittaa nykyisen kosteuden ja tallentaa mitatun arvon muuttujaan `humid`.
 
 --- /task ---
 
 --- task ---
 
-Lämpötila tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
+Kosteus tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
 
 ```python
-temp = round( sense.temperature, 1 )
+humid = round( sense.humidity, 1 )
 ```
 
 --- /task ---
 
 --- task ---
 
-Lisää tämä koodirivi näyttääksesi nykyisen lämpötilan vieritysviestinä näytöllä:
+Lisää tämä koodirivi näyttääksesi nykyisen kosteuden vieritysviestinä näytöllä:
 
 ```python
-sense.show_message( str(temp) )
+sense.show_message( str(humid) )
 ```
 
-`str()`-osa muuntaa lämpötilan numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
+`str()`-osa muuntaa kosteuden numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
 
 --- /task ---
 
 --- task ---
 
-Voit myös näyttää lämpötilan osana toista viestiä liittämällä viestisi osat käyttäen merkkiä `+`.
+Voit myös näyttää kosteuden osana toista viestiä liittämällä viestisi osat käyttäen merkkiä `+`.
 
 ```python
-sense.show_message( "It is " + str(temp) + " degrees" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
 
-Oikea Astro Pi mittaa sen ympärillä olevan lämpötilan, mutta voit liikuttaa lämpötilan liukusäädintä Sense HAT -emulaattorissa simuloidaksesi lämpötilan muutoksia ja testataksesi koodiasi.
+Oikea Astro Pi mittaa sen ympärillä olevan kosteuden, mutta voit liikuttaa kosteuden liukusäädintä Sense HAT -emulaattorissa simuloidaksesi kosteuden muutoksia ja testataksesi koodiasi.
 
-![Lämpötilan liukusäädin](images/temperature-slider.png)
+![Kosteuden liukusäädin](images/humidity-slider.png)
 
-**Huomautus:** Saatat ihmetellä, miksi lämpötilan liukusäädin näyttää lämpötilan kokonaislukuna, mutta saamasi arvo on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi lämpötilan mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.
+**Huomautus:** Saatat ihmetellä, miksi kosteuden liukusäädin näyttää kosteuden kokonaislukuna, mutta saamasi lukema on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi kosteuden mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.

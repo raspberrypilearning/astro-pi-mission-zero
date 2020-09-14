@@ -46,6 +46,7 @@ Erilaisen viestin näyttämiseksi voit kirjoittaa sen lainausmerkkien (`""`) vä
 ---
 title: Mitä merkkejä voidaan käyttää?
 ---
+
 Sense HAT pystyy näyttämään vain Latin 1 -merkkijoukon, mikä tarkoittaa, että vain seuraavat merkit ovat käytettävissä. Muut merkit näytetään muodossa `?`.
 
     +-*/!"#$><0123456789.=)(

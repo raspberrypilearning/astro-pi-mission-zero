@@ -1,18 +1,20 @@
-## Laat de temperatuur zien
+## Laat de vochtigheid zien
 
-Je kunt je temperatuur combineren met een tekening om de temperatuur ook aan te wijzen op een grafische manier. Bijvoorbeeld, je kunt een sneeuwstorm laten zien voor koude temperaturen, en een zonnige dag voor hete temperaturen:
+Je kan je vochtigheidsmeting combineren met een foto om de vochtigheid ook op een grafische manier te laten zien. Je kan bijvoorbeeld een oceaan tonen voor hoge vochtigheid en een woestijn voor lage luchtvochtigheid:
 
-![Heet en koud](images/hot-and-cold.png)
+![Nat en droog](images/wet-dry.png)
 
 --- task ---
 
-Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een voorgaande stap. In onze voorbeelden zullen wij wit gebruiken (`w`), geel (`y`), groen (`g`), en zwart/blank (`b`).
+Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een vorige stap.
 
 ```python
-w = (255, 255, 255)
-y = (255, 255, 0)
-g = (0, 255, 0)
-b = (0, 0, 0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
@@ -22,27 +24,27 @@ b = (0, 0, 0)
 Net zoals eerder, teken je tekeningen door eerst een lijst aan te maken voor elk van hen, en zet dan de items met de kleuren op de lijst die je voor je pixels wilt gebruiken.
 
 ```python
-hot = [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-cold = [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -50,36 +52,36 @@ cold = [
 
 --- task ---
 
-Voeg een code toe om de temperatuur te verkrijgen:
+Voeg code toe om de vochtigheid te verkrijgen:
 
 ```python
-temp = sense.temperature
+humid = sense.humidity
 ```
 
 --- /task ---
 
 --- task ---
 
-Beslis nu welke tekening je wilt tonen. Voor dit voorbeeld, zullen wij het `hot` (heet) beeld tentoonstellen indien de temperatuur 20 graden of meer is, en het `cold` (koud) beeld indien de temperatuur lager is dan 20 graden.
+Beslis nu welke tekening je wilt tonen. In dit voorbeeld zullen we de `wet`(nat) tekening laten zien als de vochtigheidsmeting 40% of hoger is en de `dry` (droog) tekening als de vochtigheid lager is dan 40%.
 
 ```python
-temp = sense.temperature
-if temp >= 20:
-    sense.set_pixels(hot)
+humid = sense.humidity
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(cold)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Gebruik de temperatuurschuifknop om de temperatuur op de emulator in te stellen. Start je programma en controleer dat het beeld dat je hebt gekozen voor deze temperatuur op de juiste wijze wordt weergegeven.
+Gebruik de vochtigheid-schuifknop om een vochtigheid op de emulator in te stellen. Start je programma en controleer dat de tekening die je koos voor die vochtigheid juist weergegeven wordt.
 
 --- /task ---
 
 --- task ---
 
-Verander je code zodat je programma de temperatuur weergeeft aan de astronauten op je eigen gekozen manier.
+Verander je code zodat je programma de vochtigheid weergeeft aan de astronauten op de door jou gekozen manier.
 
 --- /task ---

@@ -1,6 +1,6 @@
 ## Uvod
 
-Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji in jim s pomočjo emulatorja Sense HAT računalnika Astro Pi pošljite sporočilo in sporočite temperaturo zraka.
+Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji, in jim s pomočjo računalnika Astro Pi in njegovega emulatorja Sense HAT, sporočite relativno vlažnost.
 
 Za pisanje svojega programa boste uporabljali spletni emulator Sense HAT, zato dodatna strojna oprema ni potrebna – delo v celoti poteka v spletnem brskalniku.
 
@@ -8,19 +8,19 @@ Vaš program bo zagnan v vesolju na Mednarodni vesoljski postaji (angl. Internat
 
 ### Kaj boste naredili?
 
-Videli boste primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. 
-
-<iframe src="https://trinket.io/embed/python/069f6138f7?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+To je primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. 
+<iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 --- collapse ---
 ---
 title: Kaj se boste naučili?
 ---
+
 Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
 
 + prikazovanjem sporočil in barv,
 + ustvarjanjem slik,
-+ merjenjem temperature
++ izmerite vlažnost s pomočjo emulatorja Sense HAT
 
 Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -32,13 +32,14 @@ Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarj
 ---
 title: Kaj boste potrebovali?
 ---
+
 ### Strojna oprema
 
 + Računalnik s spletno povezavo
 
 ### Programska oprema
 
-+ Spletni brskalnik (npr. Google Chrome) za odpiranje strani <https://trinket.io/mission-zero>{:target="_blank"}
++ Spletni brskalnik (npr. Google Chrome) za odpiranje strani [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
 --- /collapse ---
 
@@ -47,7 +48,7 @@ title: Kaj boste potrebovali?
 title: Navodila za učitelje in mentorje
 ---
 
-To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupine z največ štirimi člani, mi pa jih bomo vodili pri pisanju kratkega programa v programskem jeziku Python, s pomočjo katerega bodo na Astro Pi lahko prikazali osebno sporočilo in temperaturo zraka.
+To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupine z 2-4 člani, mi pa jih bomo vodili pri pisanju kratkega programa v programskem jeziku Python, s pomočjo katerega bodo na Astro Pi lahko prikazali osebno sporočilo in vlago zraka.
 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} za Mission Zero.
 
@@ -59,22 +60,14 @@ Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 
 \* Obrazec za registracijo je na voljo le v angleščini.
 
-Polja na obrazcu so:   
-Teacher/Mentor name (Ime učitelja/mentorja)   
-Teacher/Mentor email address (Elektronski naslov učitelja/mentorja)   
-Teacher/Mentor phone number (Telefonska številka učitelja/mentorja)   
-Organisation type (e.g. primary school, secondary school, library, Code Club, CoderDojo, etc.) (Vrsta organizacije (npr. osnovna šola, srednja šola, knjižnica, Code Club, CoderDojo itd.))   
-Organisation name (Ime organizacije)   
-Organisation address (Naslov organizacije)   
-Organisation city (Mesto organizacije)   
-Organisation country (Država organizacije)   
-Organisation postal code (Poštna številka organizacije)   
-Team name (Ime ekipe)   
-Number of team members (Število članov v ekipi)   
-Names and ages of team members (Imena in starost članov ekipe)
-In which language did you access the Mission Zero guidelines? (V katerem jeziku ste dostopali do smernic Mission Zero?)
+Polja na obrazcu vključujejo:  
+Ime učitelja/mentorja  
+Ime ekipe  
+Število članov ekipe  
+Imena in starost članov ekipe  
+V katerem jeziku ste dostopali do smernic Misije Zero?
 
-+ Za vas bomo ustvarili račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo pripravljeni za pošiljanje svojih programov.
++ Za vas bo ustvarjen račun Trinket (če ga še nimate ali niste prijavljeni). Na en e-poštni naslov lahko ustvarite en račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo uporabili za pošiljanje svojih programov.
 
 + Kodo učilnice zapišite na vidno mesto, npr. na tablo ali jo projicirajte na platno, in začnite z aktivnostjo.
     
