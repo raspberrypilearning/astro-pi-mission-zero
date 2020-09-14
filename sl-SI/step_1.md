@@ -1,6 +1,6 @@
 ## Uvod
 
-Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji in jim s pomočjo emulatorja Sense HAT računalnika Astro Pi pošljite sporočilo in sporočite temperaturo zraka.
+Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji, in jim s pomočjo računalnika Astro Pi in njegovega emulatorja Sense HAT, sporočite relativno vlažnost.
 
 Za pisanje svojega programa boste uporabljali spletni emulator Sense HAT, zato dodatna strojna oprema ni potrebna – delo v celoti poteka v spletnem brskalniku.
 
@@ -20,7 +20,7 @@ Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z nasl
 
 + prikazovanjem sporočil in barv,
 + ustvarjanjem slik,
-+ merjenjem temperature
++ Izmerite vlažnost s pomočjo emulatorja Sense HAT
 
 Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
 
