@@ -49,7 +49,7 @@ L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro 
 È possibile anche visualizzare l'umidità all’interno di un messaggio più lungo, unendo insieme le varie parti con un `+`.
 
 ```python
-sense.show_message( "È al " + str(temp) + " %" )
+sense.show_message( "È al " + str(umidita) + " %" )
 ```
 
 --- /task ---
