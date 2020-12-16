@@ -52,7 +52,12 @@ Denne aktiviteten kan fullføres på en ettermiddag. Organisere elevene i gruppe
 
 Les [dokumentet med offisielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} for Mission Zero.
 
-Du må registrere deg for Mission Zero-utfordringen for at gruppen(e) dine skal kunne delta.
+Feltene på skjemaet inkluderer:  
+Navnet på læreren/veilederen  
+Gruppenavn  
+Antall gruppemedlemmer  
+Navn og alder på gruppemedlemmene  
+På hvilket språk du leste retningslinjene for Mission Zero?
 
 + Gå til nettsiden [Trinket emulator Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
