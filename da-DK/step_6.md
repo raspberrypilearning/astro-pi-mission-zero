@@ -15,7 +15,7 @@ En del af din mission er at bidrage til det daglige liv for besætningen ombord 
 Tilføj denne kode for at foretage en fugtighedsaflæsning:
 
 ```python
-luftfugtighed = sense.humidity
+humid = sense.humidity
 ```
 
 Denne linje måler den aktuelle fugtighed og gemmer den målte værdi i variablen `luftfugtighed`.
