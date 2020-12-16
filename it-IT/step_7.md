@@ -62,7 +62,7 @@ umidita = sense.humidity
 
 \--- task \---
 
-Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `wet` se la temperatura misurata è uguale o superiore a 40 gradi e l’immagine `dry` se la temperatura misurata è inferiore a 40 gradi.
+Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `wet` se l'umidità misurata è uguale o superiore al 40% e l’immagine `dry` se l'umidità misurata è inferiore al 40%.
 
 ```python
 umidita = sense.humidity
