@@ -15,7 +15,7 @@ Parte da tua missão é contribuir para o dia-a-dia da tripulação a bordo da E
 Adiciona este código para obter uma leitura da temperatura:
 
 ```python
-humid= sense.humidity
+humidade= sense.humidity()
 ```
 
 Este código vai medir a humidade atual e armazenar o valor medido na variável `humid`.
@@ -27,7 +27,7 @@ Este código vai medir a humidade atual e armazenar o valor medido na variável 
 A temperatura é registada com bastante precisão, ou seja, o valor armazenado terá um grande número de casas decimais. Se quiseres podes arredondar o valor para qualquer número de casas decimais. No exemplo, arredondámos para uma casa decimal, mas para um nível diferente de precisão, altera o número `1` para o número de casas decimais que gostarias de ver.
 
 ```python
-humid = round( sense.humidity, 1 )
+humidade = round( sense.humidity(), 1)
 ```
 
 \--- /task \---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 Para visualizar a temperatura atual como uma mensagem no ecrã, adiciona este código:
 
 ```python
-sense.show_message( str(humid))
+sense.show_message( str(humidade))
 ```
 
 A parte `str()` converte a humidade de um número para texto para que o Astro Pi possa exibi-lo.
