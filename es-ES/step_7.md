@@ -55,7 +55,7 @@ seco = [
 Añade algo de código para obtener la humedad:
 
 ```python
-humedad = sense.humidity
+humedad = sense.get_humidity()
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ humedad = sense.humidity
 Ahora decide la imagen que quieres mostrar. Para este ejemplo, mostraremos la imagen `humedo` si la lectura de la humedad es del 40% o superior, y la imagen `seco` si la temperatura es inferior al 40%.
 
 ```python
-humedad = sense.humidity
+humedad = sense.get_humidity()
 if humedad >= 40:
     sense.set_pixels(humedo)
 else:
