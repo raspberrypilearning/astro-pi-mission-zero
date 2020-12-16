@@ -16,11 +16,11 @@ To je primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si 
 
 ## title: Kaj se boste naučili?
 
-Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
+Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
 
 + prikazovanjem sporočil in barv,
 + ustvarjanjem slik,
-+ Izmerite vlažnost s pomočjo emulatorja Sense HAT
++ izmerite vlažnost s pomočjo emulatorja Sense HAT
 
 Ta projekt zajema elemente iz [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -52,7 +52,12 @@ To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupin
 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} za Mission Zero.
 
-Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
+Polja na obrazcu vključujejo:  
+Ime učitelja/mentorja  
+Ime ekipe  
+Število članov ekipe  
+Imena in starost članov ekipe  
+V katerem jeziku ste dostopali do smernic Misije Zero?
 
 + Obiščite [stran emulatorja Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
