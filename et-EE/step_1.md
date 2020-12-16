@@ -52,7 +52,12 @@ Seda võib teha pärastlõunal. Jaotage õpilased kuni 2-4-liikmelistesse meesko
 
 Lugege [ametlikke juhiseid sisaldavat dokumenti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zero kohta.
 
-Selleks et teie meeskon(na) d saaks(id) osaleda, peate Mission Zero väljakutseks registreeruma.
+Vormi väljad hõlmavad järgmist:  
+Õpetaja/juhendaja nimi  
+Meeskonna nimi  
+Meeskonna liikmete arv  
+Meeskonna liikmete nimed ja vanused  
+Millises keeles te Mission Zero juhistega tutvusite?
 
 + Minge [Trinket emulaatori Mission Zero lehele](https://trinket.io/mission-zero){:target="_blank"}.
 
@@ -71,7 +76,7 @@ Millises keeles te Mission Zero juhistega tutvusite?
 
 + Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tööd.
     
-    Oleme koostanud [prinditava kaheleheküljelise käsilehe](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/) {:target="_ blank"}, mis hõlmab Mission Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
+    Oleme koostanud [prinditava kaheleheküljelise käsilehe](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, mis hõlmab Mission Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
 
 \--- /collapse \---
 
