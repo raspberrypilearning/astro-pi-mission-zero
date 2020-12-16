@@ -52,7 +52,12 @@ Tämä toiminta voidaan suorittaa iltapäivän aikana. Järjestä oppilaasi 2 - 
 
 Lue [virallinen ohjeasiakirja](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} Mission Zeroa varten.
 
-Sinun on rekisteröidyttävä Mission Zero -haasteeseen tiimisi/tiimiesi osallistumista varten.
+Lomakkeen kentät sisältävät:  
+Opettajan / mentorin nimi  
+Joukkueen nimi  
+Ryhmän jäsenten lukumäärä  
+Ryhmän jäsenten nimet ja ikät  
+Millä kielellä käytit Mission Zero -ohjeita?
 
 + Ota esille [Trinket emulator Mission Zero sivu](https://trinket.io/mission-zero/register){:target="_blank"}.
 
