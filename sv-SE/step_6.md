@@ -15,7 +15,7 @@ En del av ditt uppdrag är att bidra till det dagliga livet för besättningen o
 Lägg till den här koden för att avläsa luftfuktigheten:
 
 ```python
-luftfuktighet = sense.humidity
+luftfuktighet = sense.get_humidity()
 ```
 
 Den här raden med kod mäter den aktuella luftfuktigheten och lagrar det avlästa värdet i variabeln `luftfuktighet`.
@@ -37,7 +37,7 @@ luftfuktighet = round( sense.humidity, 1 )
 För att visa den aktuella luftfuktigheten som ett rullande meddelande på skärmen, lägger du till den här raden kod:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 Delen `str()` omvandlar luftfuktigheten från ett nummer till text så att Astro Pi kan visa den.
