@@ -52,7 +52,12 @@ Esta atividade pode ser concluída em uma tarde. Organize os seus alunos em equi
 
 Leia o documento [diretrizes oficiais](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} do Mission Zero.
 
-Será necessário registar-se para o desafio Mission Zero para permitir que a sua equipe participe.
+Os campos do formulário incluem:  
+Nome do professor / mentor  
+Nome da equipa  
+Número de membros da equipa  
+Nomes e idades dos membros da equipa  
+Em que idioma acedeu as directrizes da Missão Zero?
 
 + Siga para a página [emulador de Trinket Misson Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
