@@ -5,6 +5,7 @@
 Παρακάτω φαίνεται μια πραγματική μονάδα Astro Pi στον Διεθνή Διαστημικό Σταθμό, στην οποία εκτελείται κάποιος κώδικας που έχει γραφτεί από μαθητές. Εδώ θα "τρέξει" στο τέλος και ο δικός σας κώδικας! 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe> 
 
+
 Γι΄ αυτή την αποστολή, θα χρησιμοποιήσετε τον εξομοιωτή Sense HAT. Ο εξομοιωτής είναι ένα λογισμικό που προσομοιώνει όλες τις λειτουργίες του Astro Pi στο πρόγραμμα περιήγησης του φυλλομετρητή σας.
 
 ![Εξομοιωτής Sense HAT](images/sense-hat-emulator.png)
