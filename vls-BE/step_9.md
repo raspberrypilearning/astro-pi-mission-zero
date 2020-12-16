@@ -6,7 +6,7 @@ Indien je zelfzeker voelt, kun je deelnemen aan [Mission Space Lab](https://astr
 
 Een andere mogelijkheid is dat je misschien een van onze andere Astro Pi projecten wilt uitproberen:
 
-+ Leer [meer over de Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
++ Leer [meer over de Sense HAT](https://projects.raspberrypi.org/vls-BE/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
 
 + Maak wat mooie [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op het Sense HAT's led-kleurenbeeldscherm
 
