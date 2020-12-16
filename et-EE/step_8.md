@@ -21,7 +21,7 @@ Kui kõik reeglid on rohelised, oled esitamiseks valmis.
 
 Sisesta oma klassiruumi kood allpool asuvasse kastikesse; sinu õpetaja või mentor ütleb sulle, mis sinu kood on.
 
-**Märkused õpetajatele või mentoritele** on saadaval etapis [Sissejuhatus](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
+**Märkused õpetajatele või mentoritele** on saadaval etapis [Sissejuhatus](https://projects.raspberrypi.org/et-EE/projects/astro-pi-mission-zero/1).
 
 \--- /task \---
 
