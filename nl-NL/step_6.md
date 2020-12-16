@@ -15,7 +15,7 @@ Een deel van je missie is om bij te dragen aan het dagelijks leven van de bemann
 Voeg deze code toe om een luchtvochtigheidsmeting te doen:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 Deze regel meet de huidige luchtvochtigheid en slaat de gemeten waarde op in de variabele `humid`.
@@ -27,7 +27,7 @@ Deze regel meet de huidige luchtvochtigheid en slaat de gemeten waarde op in de 
 De luchtvochtigheid wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` in het aantal decimalen dat je wilt zien.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 -- /task \---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 Om de huidige luchtvochtigheid weer te geven als een scrollend bericht op het display, voeg je deze regel code toe:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 Het `str()` gedeelte zet de luchtvochtigheid van een getal om naar tekst, zodat de Astro Pi het kan weergeven.
