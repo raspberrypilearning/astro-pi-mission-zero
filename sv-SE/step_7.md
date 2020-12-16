@@ -55,7 +55,7 @@ dry= [
 Lägg till lite kod för att få luftfuktigheten:
 
 ```python
-luftfuktighet = sense.humidity
+luftfuktighet = sense.get_humidity()
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ luftfuktighet = sense.humidity
 Välj nu vilken bild som ska visas. I det här exemplet visar vi `wet` bilden om luftfuktigheten är 40% eller högre och `dry` bilden om fuktigheten är under 40%.
 
 ```python
-luftfuktighet = sense.humidity
+luftfuktighet = sense.get_humidity()
 if luftfuktighet >= 40:
     sense.set_pixels(wet)
 else:
