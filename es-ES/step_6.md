@@ -15,7 +15,7 @@ Parte de tu misión es contribuir a la vida diaria de la tripulación de la ISS,
 Añade este código para tomar una lectura de la humedad:
 
 ```python
-humedad = sense.temperature
+humedad = sense.get_humidity()
 ```
 
 Esta línea medirá la humedad actual y almacenará su valor en la variable `humedad`.
@@ -27,7 +27,7 @@ Esta línea medirá la humedad actual y almacenará su valor en la variable `hum
 La humedad se registra con gran precisión, es decir, el valor almacenado tendrá un gran número de decimales. Puedes redondear el valor a cualquier número de lugares decimales. En el ejemplo hemos redondeado a un decimal, sin embargo, para lograr otro nivel de precisión, cambia el número `1` al número de decimales que quieras ver.
 
 ```python
-humedad = round( sense.humidity, 1 )
+humedad = round(sense.get_humidity(), 1)
 ```
 
 \--- /task \---
@@ -37,7 +37,7 @@ humedad = round( sense.humidity, 1 )
 Para ver la humedad actual a modo de mensaje desplazándose por la pantalla, añade esta línea de código:
 
 ```python
-sense.show_message( str(humedad) )
+sense.show_message(str(humedad))
 ```
 
 La parte `str()` convierte la temperatura de número a texto, de modo que Astro Pi pueda mostrarla.
