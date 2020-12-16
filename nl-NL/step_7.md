@@ -55,7 +55,7 @@ dry = [
 Voeg wat code toe om de luchtvochtigheid te krijgen:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we de `wet` (natte) afbeelding weergeven als de luchtvochtigheidswaarde 40 % of meer is, en de `dry` (droge) afbeelding als de luchtvochtigheid lager is dan 40 %.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
