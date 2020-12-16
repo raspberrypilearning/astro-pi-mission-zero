@@ -32,7 +32,7 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 
 * * *
 
-## title: Wat je nodig hebt
+## title: Wat je zal leren
 
 ### Hardware
 
@@ -46,13 +46,18 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 
 ## \--- collapse \---
 
-## title: Aantekeningen voor leraars en mentors
+## title: Wat je nodig hebt
 
 Deze activiteit kan worden afgerond in een namiddag. Verdeel je studenten in teams van twee tot vier en laat ons hen begeleiden om een kort Python-programma te schrijven om een persoonlijke boodschap en de relatieve luchtvochtigheid te tonen op de Astro Pi.
 
-Lees het document met de [officiële richtlijnen](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
+\*Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
 
-Je moet je registreren voor de Mission Zero uitdaging om je team(s) te kunnen laten deelnemen.
+De velden op het formulier zijn:  
+Naam leraar/mentor  
+Naam van het team  
+Aantal teamleden  
+Namen en leeftijden van de teamleden  
+In welke taal las je de richtlijnen voor Mission Zero?
 
 + Ga naar de [Trinket emulator Misson Zero pagina](https://trinket.io/mission-zero){:target="blank"}.
 
