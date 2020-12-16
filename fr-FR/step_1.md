@@ -1,6 +1,6 @@
 ## Introduction
 
-Égaye la routine quotidienne des astronautes de la station spatiale internationale en leur affichant un message et l'humidité relative à bord, à l’aide du Sense HAT de l’ordinateur Astro Pi.
+Égaye la routine quotidienne des astronautes de la station spatiale internationale en leur affichant un message sympa,et informe-les du taux d'humidité relatif à bord, à l’aide du Sense HAT de l’ordinateur Astro Pi.
 
 Tu utiliseras l'émulateur en ligne Sense HAT pour créer ton programme, aucun matériel supplémentaire n'est nécessaire - tout se fait dans un navigateur Web.
 
