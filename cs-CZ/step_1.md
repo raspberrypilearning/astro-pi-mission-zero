@@ -16,7 +16,7 @@ Tady je příklad, jaký program byste mohli vytvořit. Klikněte na **Run** (Sp
 
 ## title: Co se naučíš
 
-Dozvíte se, co je jednotka Astro Pi a jak ji ovládat, například jak:
+Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
 
 + Zobrazovat zprávy a barvy
 + Vytvořit obrázky
@@ -52,7 +52,12 @@ Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do t�
 
 Přečtěte si [dokument s oficiálními instrukcemi](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
-Aby se vaše týmy mohly zúčastnit, musíte se do Mission Zero zaregistrovat.
+Pole ve formuláři zahrnující:  
+Název učitele/mentora  
+Název týmu  
+Počet členů týmu  
+Jména a věk členů týmu  
+V jakém jazyce máte přístup k pokynům Mission Zero?
 
 + Jděte na [stránku emulátoru Trinket pro Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
