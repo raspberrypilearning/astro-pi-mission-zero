@@ -6,7 +6,7 @@ Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do u
 
 1. Dokonaj odczytu wilgotności.
 2. Zapal diody LED
-3. Upewnij się, że twój kod działa do końca bez żadnych błędów. Nie powinieneś zawierać żadnych pętli `, while True` w swoim kodzie, jako że ciągle wykonywał kod i uniemożliwi jego zakończenie.
+3. Upewnij się, że twój kod działa do końca bez żadnych błędów. Nie powinieneś zawierać żadnych pętli, `while True` w swoim kodzie, jako że ciągle wykonywał kod i uniemożliwi jego zakończenie.
 
 Upewnij się też, że spełniasz następujące kryteria:
 
