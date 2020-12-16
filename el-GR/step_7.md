@@ -55,7 +55,7 @@ dry = [
 Προσθέστε τον κώδικα για τη λήψη της υγρασίας:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Τώρα αποφασίστε ποια εικόνα θέλετε να εμφανιστεί. Σε αυτό το παράδειγμα, θα εμφανίσουμε την εικόνα `wet (υγρό)` αν η τιμή της υγρασίας είναι πάνω από 40% και την εικόνα `dry (ξηρό)` αν η τιμή είναι κάτω από 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
