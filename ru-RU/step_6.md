@@ -15,7 +15,7 @@ Part of your mission is to contribute to the daily lives of the crew aboard the 
 Add this code to take a humidity reading:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 This line will measure the current humidity, and store the measured value in the variable `humid`.
@@ -27,7 +27,7 @@ This line will measure the current humidity, and store the measured value in the
 The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 \--- /task \---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
