@@ -55,7 +55,7 @@ dry = [
 Adiciona um código para obter a temperatura:
 
 ```python
-humid = sense.humidity
+humidade = sense.humidity()
 ```
 
 \--- /task \---
@@ -65,8 +65,8 @@ humid = sense.humidity
 Agora decide que imagem queres mostrar. Para este exemplo, mostraremos a imagem `wet (molhada)` se a leitura da humidade estiver 40% ou acima, e a imagem `dry (seca)` se a um humidade estiver abaixo de 40%.
 
 ```python
-humid = sense.humidity
-if humid >= 40:
+humidade = sense.humidity()
+if humidade >= 40:
     sense.set_pixels(wet)
 else:
     sense.set_pixels(dry)
