@@ -66,7 +66,7 @@ Teď rozhodněte, který obrázek se zobrazí. V tomhle příkladu zobrazíme ob
 
 ```python
 humid = sense.humidity
-if humid >= 40:
+if humid &gt;= 40:
     sense.set_pixels(wet)
 else:
     sense.set_pixels(dry)
