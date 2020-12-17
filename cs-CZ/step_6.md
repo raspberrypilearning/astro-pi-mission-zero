@@ -15,7 +15,7 @@ Součástí vaší mise je přispívat k každodennímu životu posádky na palu
 Přidejte tento kód pro měření vlhkosti:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 Tato řádka změří současnou vlhkost a uloží naměřenou hodnotu v proměnné `humid`.
@@ -27,7 +27,7 @@ Tato řádka změří současnou vlhkost a uloží naměřenou hodnotu v proměn
 Vlhkost se zaznamenává velmi přesně, proto bude mít uložená hodnota velký počet desetinných míst. Hodnotu můžete zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníte na jiné, dostanete jiný počet desetinných míst.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 \--- /task \---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 Abyste aktuální vlhkost zobrazili na displeji jako běžící text, přidejte tuhle řádku kódu:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 Část `str()` převádí vlhkost z čísla na text tak, aby ji Astro Pi mohl zobrazit.
