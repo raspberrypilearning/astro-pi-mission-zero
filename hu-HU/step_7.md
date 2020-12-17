@@ -55,7 +55,7 @@ dry = [
 Add hozzá a kódot, hogy megkapd a páratartalmat:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Most döntsd el, melyik képet szeretnéd megjeleníteni. Ebben a példában mi a `wet` („nedves”) képet jelenítjük majd meg, ha a mért páratartalom 40% vagy annál magasabb, és a `dry` („száraz”) képet, ha a páratartalom 40%-nál alacsonyabb.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
