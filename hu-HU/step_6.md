@@ -15,7 +15,7 @@ A küldetésedhez tartozik a Nemzetközi Űrállomás legénységének napi éle
 Add hozzá ezt a kódot a páratartalom leolvasásához:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 Ez a sor az aktuális páratartalmat méri majd meg, és a `humid` változóban tárolja a mért értéket.
@@ -27,7 +27,7 @@ Ez a sor az aktuális páratartalmat méri majd meg, és a `humid` változóban 
 A páratartalom nagyon pontosan kerül rögzítésre, azaz a tárolt érték sok tizedesjegyet fog tartalmazni. Az értéket akárhány tizedesjegyre lekerekítheted. A példában egy tizedesjegyre kerekítettük le, de ha más szintű pontosságot szeretnél, változtasd meg az `1`-es számot arra számra, ahány tizedesjegyet szeretnél látni.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 \--- /task \---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 Az aktuális páratartalom futó üzenetként való megjelenítéséhez add hozzá ezt a kódsort:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 A `str()` rész a páratartalmat számból szöveggé alakítja, hogy az Astro Pi meg tudja jeleníteni.
