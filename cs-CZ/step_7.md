@@ -55,7 +55,7 @@ dry = [
 Přidejte kód pro získání vlhkosti:
 
 ```python
-temp = sense.temperature
+humid = sense.get_humidity()
 ```
 
 \--- /task \---
@@ -65,8 +65,8 @@ temp = sense.temperature
 Teď rozhodněte, který obrázek se zobrazí. V tomhle příkladu zobrazíme obrázek pro `wet` při naměřené vlhkosti 40% nebo vyšší a obrázek pro `dry`, když je vlhkost nižší než 40%.
 
 ```python
-humid = sense.humidity
-if humid &gt;= 40:
+humid = sense.get_humidity()
+if humid >= 40:
     sense.set_pixels(wet)
 else:
     sense.set_pixels(dry)
