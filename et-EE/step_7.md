@@ -55,7 +55,7 @@ dry = [
 Õhuniiskuse saamiseks lisa kood:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Nüüd otsusta, millist pilti kuvada. Selle näite puhul kuvatakse `wet` pilt, kui mõõdetud õhuniiskus on 40% või rohkem ja `dry` pilt, kui õhuniiskus on alla 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
