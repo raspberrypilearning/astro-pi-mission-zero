@@ -1,6 +1,6 @@
 ## Introduction
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the relative humidity on board using the Astro Pi computer's Sense HAT.
+Brighten up the daily routine of the astronauts on the International Space Station by showing them a message on the Astro Pi computer's Sense HAT using colours that match the lighting on board. You can use your message to enter the "Name the new Astro Pis" competition and vote for your favourite name. 
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
@@ -25,7 +25,7 @@ title: What you will learn
 You will learn about the Astro Pi unit and how to control an it, including how to:
 + Display messages and colours
 + Create images
-+ Measure the humidity using a Sense HAT
++ Take a light and colour reading using a Sense HAT
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -55,7 +55,7 @@ title: Notes for teachers and mentors
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+This activity can be completed in a morning or afternoon. Students can work by themselves on in teams of up to four. This project will guide them through writing a short Python program to show a personal message and measure the lighting conditions on the Astro Pi.
 
 Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 

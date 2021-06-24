@@ -42,6 +42,14 @@ Press the **Run** button and watch as the message `Astro Pi` scrolls across the 
 
 To display a different message, you can write anything you like between the quotation marks (`""`).
 
+If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "I vote for" and then add in your selection from this list.
+
+For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("I vote for Ada Lovelace")
+```
+
 --- collapse ---
 
 ---

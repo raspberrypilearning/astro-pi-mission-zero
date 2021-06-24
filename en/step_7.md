@@ -1,87 +1,35 @@
-## Display the humidity
+## Adjust LED brightness for the lighting conditions
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
-
-![Wet and dry](images/wet-dry.png)
+The Columbus module where the Astro Pis normally live is used for a variety of different tasks and the internal lighting may be adjusted to match whatever is happening. In order to make sure that your Mission Zero experiments doesn't disturb the conditions by being too bright, you can measure how bright it is using the light sensor and adjust the intensity of the LEDs accordingly.
 
 --- task ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+Calculate a scaling factor to work out how much the brightness of the LEDs should be reduced. To do this, you need to know the maximum possible brightness value that will be recorded by the light sensor which can be retrieved using `sh.color.max_raw`.
+
+Then divide the measured value by that maximum. 
 
 ```python
-o=(255,130,0)
-b=(0,0,255)
-c=(0,150,255)
-e=(80,80,80)
-g=(0,255,0)
-y=(255,255,0)
+scaling_factor = lux/sh.color.max_raw
 ```
 
 --- /task ---
 
 --- task ---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Now you can use this scaling factor to adjust the RGB values for the colours that you have defined. This can be achieved cleanly and simply using a list comprehension.
+
+[[[generic-python-simple-list-comprehensions]]]
+
+So to scale all the white values:
 
 ```python
-wet = [
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
-  b, o, b, o, o, o, b, b,
-  b, o, o, o, o, e, o, b,
-  b, o, o, o, o, o, o, b,
-  b, o, b, o, o, o, b, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b
-]
-
-
-dry = [
-  c, c, g, g, c, c, c, c,
-  c, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, g, g, g, g, g, c, c,
-  c, c, g, g, c, c, c, c,
-  y, y, y, y, y, y, y, y,
-  y, y, y, y, y, y, y, y
-]
+ w = [ int(value * scaling_factor) for value in w ]
 ```
+Note that because RGB values need to be integers (whole numbers) we need to convert out scaled value using the `int()` function. 
 
 --- /task ---
 
 --- task ---
-
-Add some code to get the humidity:
-
-```python
-humid = sense.get_humidity()
-```
-
---- /task ---
-
---- task ---
-
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
-
-```python
-humid = sense.get_humidity()
-if humid >= 40:
-    sense.set_pixels(wet)
-else:
-    sense.set_pixels(dry)
-```
-
---- /task ---
-
---- task ---
-
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
-
---- /task ---
-
---- task ---
-
-Change your code so that your program displays the humidity to the astronauts in your own chosen way.
+Add list comprehensions for every colour definition you have used. Re-arrange your program so that you measure the light levels and adjust your colour definitions before you display any messages or images.
 
 --- /task ---

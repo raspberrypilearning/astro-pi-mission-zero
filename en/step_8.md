@@ -4,7 +4,7 @@ There are a few rules your code needs to follow so that you can submit it to be 
 
 ![Validation](images/validation.png)
 
-1. Take a humidity reading.
+1. Take a light reading.
 1. Light up the LEDs.
 1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 
@@ -13,7 +13,7 @@ Also make sure you have met the following criteria:
 1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
 1. Avoid using any methods needing input
 1. Only import from the `sense_hat`, `time`, and `random` modules
-1. Make sure you don't include any profanity
+1. Make sure you don't include any profanity or rudeness
 
 Once the rules are all green, you are ready to submit.
 

@@ -11,7 +11,7 @@ steps:
 - title: Display a message
 - title: Add some colour
 - title: Display an image
-- title: Measure the humidity
+- title: Measure the Lighting conditions
 - title: Display the humidity
 - title: Submit your entry
 - title: "Challenge: more Astro Pi projects"
