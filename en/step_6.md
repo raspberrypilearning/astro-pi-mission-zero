@@ -4,9 +4,8 @@ The light/colour sensor in the Astro Pi can measure the lighting conditions arou
 
 ![Message about the humidity](images/degrees-message.gif)
 
- As well as measuring the overall brightness, the Astro Pi can also work out the contributions form red, blue and green light as described in the SenseHAT library documentation. 
+As well as measuring the overall brightness, the Astro Pi can also work out the contributions form red, blue and green light as described in the SenseHAT library documentation. 
 
-The Columbus module where the Astro Pis are normally kept is used for a variety of different tasks and the internal lighting may be adjusted to match whatever is happening. In order to make sure that the Mission Zero experiments don't disturb the conditions by being too bright, you can measure how bright it is using the light sensor and adjust the intensity of the LEDs accordingly. 
 
 
 --- task ---
