@@ -12,6 +12,7 @@ steps:
 - title: Add some colour
 - title: Display an image
 - title: Measure the Lighting conditions
-- title: Adjust LED brightness for the lighting conditions
+- title: Display the Lighting conditions
+- title: Challenge - Adjust LED brightness for the lighting conditions
 - title: Submit your entry
-- title: "Challenge: more Astro Pi projects"
+- title: What next - more Astro Pi projects"

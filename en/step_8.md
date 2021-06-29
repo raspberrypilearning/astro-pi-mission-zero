@@ -1,52 +1,35 @@
-## Submit your entry
+## Adjust LED brightness for the lighting conditions
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
-
-![Validation](images/validation.png)
-
-1. Take a light reading.
-1. Light up the LEDs.
-1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
-
-Also make sure you have met the following criteria:
-
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-1. Avoid using any methods needing input
-1. Only import from the `sense_hat`, `time`, and `random` modules
-1. Make sure you don't include any profanity or rudeness
-
-Once the rules are all green, you are ready to submit.
+The Columbus module where the Astro Pis normally live is used for a variety of different tasks and the internal lighting may be adjusted to match whatever is happening. In order to make sure that your Mission Zero experiments doesn't disturb the conditions by being too bright, you can measure how bright it is using the light sensor and adjust the intensity of the LEDs accordingly.
 
 --- task ---
 
-Enter your classroom code in the box at the bottom - your teacher or mentor will tell you what your code is.
+Calculate a scaling factor to work out how much the brightness of the LEDs should be reduced. To do this, you need to know the maximum possible brightness value that will be recorded by the light sensor which can be retrieved using `sh.color.max_raw`.
 
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
+Then divide the measured value by that maximum. 
+
+```python
+scaling_factor = lux/sh.color.max_raw
+```
 
 --- /task ---
 
 --- task ---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Now you can use this scaling factor to adjust the RGB values for the colours that you have defined. This can be achieved cleanly and simply using a list comprehension.
 
-![Continue to form](images/continue-to-form.png)
+[[[generic-python-simple-list-comprehensions]]]
 
---- /task ---
+So to scale all the white values:
 
---- task ---
-
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
-
---- /task ---
-
---- task ---
-
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+```python
+ w = [ int(value * scaling_factor) for value in w ]
+```
+Note that because RGB values need to be integers (whole numbers) we need to convert out scaled value using the `int()` function. 
 
 --- /task ---
 
 --- task ---
-
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Add list comprehensions for every colour definition you have used. Re-arrange your program so that you measure the light levels and adjust your colour definitions before you display any messages or images.
 
 --- /task ---

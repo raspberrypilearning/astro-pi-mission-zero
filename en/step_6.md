@@ -13,37 +13,54 @@ As well as measuring the overall brightness, the Astro Pi can also work out the 
 Add this code to take a light reading:
 
 ```python
-sh.color.gain = 4
-lux = sh.color.clear_raw
+sense.color.gain = 4
+brightness = sense.color.clear
+sense.show_message(str(brightness))
 ```
+The first line sets the sensitivity of the light sensor using the gain parameter to a value useful for indoor conditions. The second line will measure the current brightness, and store the measured value in the variable `brightness`. 
 
-The first line sets the sensitivity of the light sensor using the gain parameter to a value useful for indoor conditions. The second line will actually measure the current brightness, and store the measured value in the variable `lux`.
+What does the number you obtain actually mean? 
+
+The maximum possible value is 256 with the sensor's current settings. So if your measurement was a value of 100, that would represent 100/256 of the maximum amount of light that could be detected by the sensor. 
+
+Finally, the `str()` part converts the brightness value from a number into text so that the Astro Pi can display it.
 
 --- /task ---
 
 --- task ---
 
-To display the brightness as a scrolling message on the display, add this line of code:
+Previously you were mixing red, green and blue to make different colours for the LEDs. You can now do the reverse and use the sensor to measure the red, green and blue components of the light that it can detect. For the red component:
 
 ```python
-sense.show_message(str(lux))
-```
 
-The `str()` part converts the brightness value from a number into text so that the Astro Pi can display it.
+red_light = sense.color.red
+sense.show_message(str(red_light))
+```
 
 --- /task ---
 
 --- task ---
-
-You can also display the brightness as part of another message by joining the parts of your message together with a `+`.
+You go do the same thing for the green and blue components individually. Or use a single line to retrieve all the values and store them in appropriately named variables:
 
 ```python
-sense.show_message( "It is " + str(lux) + " %" )
+
+red_light, green_light, blue_light, brightness = sense.color.color
 ```
 
 --- /task ---
 
-The real Astro Pi will measure the brightness around it, but you can move the brightness slider on the Sense HAT emulator to simulate lighting changes and test your code.
+
+--- task ---
+
+You can also display the values as part of another message by joining the parts of your message together with a `+`.
+
+```python
+sense.show_message( "Red: " + str(red_light), ", Green: " + str(green_light), ", Blue: " + str(blue_light) )
+```
+
+--- /task ---
+
+The real Astro Pi will measure the brightness around it, but you can move the brightness slider on the Sense HAT emulator to simulate lighting changes and test your code. Experiment with different values for each of the 3 colours. 
 
 ![Humidity slider](images/humidity-slider.png)
 

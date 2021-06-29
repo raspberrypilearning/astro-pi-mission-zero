@@ -1,10 +1,12 @@
 ## Introduction
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message on the Astro Pi computer's Sense HAT using colours that match the lighting on board. You can use your message to enter the "Name the new Astro Pis" competition and vote for your favourite name. 
+Brighten up the daily routine of the astronauts on the International Space Station by showing them a message on the new Mark II Astro Pi computers' Sense HATs using colours that match the lighting on board. 
+
+The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pis" competition and including your favourite name as part of your Mission Zero program.  
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran!
+Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran! And we'll be announcing the winner of the competition in spring 2022.
 
 
 ### What you will make
@@ -15,7 +17,6 @@ Here is an example of the kind of program you could make. Click **Run** to see i
 <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- collapse ---
-
 
 
 ---
@@ -56,6 +57,8 @@ title: Notes for teachers and mentors
 
 
 This activity can be completed in a morning or afternoon. Students can work by themselves on in teams of up to four. This project will guide them through writing a short Python program to show a personal message and measure the lighting conditions on the Astro Pi.
+
+Every participant also has the opportunity to enter the "Name the new Astro Pis" competition.
 
 Read the [official guidelines document](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
 
