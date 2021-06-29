@@ -10,7 +10,7 @@ There are a few rules your code needs to follow so that you can submit it to be 
 
 Also make sure you have met the following criteria:
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+1. Make sure your message (including any images) to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
 1. Avoid using any methods needing input
 1. Only import from the `sense_hat`, `time`, and `random` modules
 1. Make sure you don't include any profanity or rudeness

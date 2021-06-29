@@ -2,7 +2,7 @@
 
 The light/colour sensor in the Astro Pi can measure the lighting conditions around it, a useful feature to help you gather data about the conditions in space.
 
-![Message about the humidity](images/degrees-message.gif)
+![Message about the brightness](images/degrees-message.gif)
 
 As well as measuring the overall brightness, the Astro Pi can also work out the contributions form red, blue and green light as described in the SenseHAT library documentation. 
 
@@ -23,7 +23,7 @@ What does the number you obtain actually mean?
 
 The maximum possible value is 256 with the sensor's current settings. So if your measurement was a value of 100, that would represent 100/256 of the maximum amount of light that could be detected by the sensor. 
 
-Finally, the `str()` part converts the brightness value from a number into text so that the Astro Pi can display it.
+Finally, the `str()` part converts the brightness value from a number into text so that the Astro Pi can display it with `show_message()`.
 
 --- /task ---
 

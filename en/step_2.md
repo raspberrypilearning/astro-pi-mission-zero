@@ -14,4 +14,4 @@ There are a few differences between the real and the emulated Sense HAT:
 
 - On the emulator, you can set the light colour, temperature, pressure, and humidity yourself using sliders, whereas the real Sense HAT in the Astro Pi uses sensors to measure these parameters in its environment.
 
-- You can use the mouse to click and drag the emulated Sense HAT to move and rotate it, simulating changes in its orientation; the real Astro Pi (and its Sense HAT) can move in the real world, and the Sense HAT's orientation sensors detect when and how it has moved.
+- You can use the mouse to click and drag the emulated Sense HAT to move and rotate it, simulating changes in its orientation; the real Astro Pi (and its SenseHAT) can move in the real world, and the SenseHAT's orientation sensors detect when and how it has moved.

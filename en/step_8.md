@@ -1,15 +1,15 @@
-## Adjust LED brightness for the lighting conditions
+## Challenge: Adjust LED brightness for the lighting conditions
 
 The Columbus module where the Astro Pis normally live is used for a variety of different tasks and the internal lighting may be adjusted to match whatever is happening. In order to make sure that your Mission Zero experiments doesn't disturb the conditions by being too bright, you can measure how bright it is using the light sensor and adjust the intensity of the LEDs accordingly.
 
 --- task ---
 
-Calculate a scaling factor to work out how much the brightness of the LEDs should be reduced. To do this, you need to know the maximum possible brightness value that will be recorded by the light sensor which can be retrieved using `sh.color.max_raw`.
+Calculate a scaling factor to work out how much the brightness of the LEDs should be reduced. To do this, you need to know the maximum possible brightness value that will be recorded by the light sensor which with normal settings is 256.
 
 Then divide the measured value by that maximum. 
 
 ```python
-scaling_factor = lux/sh.color.max_raw
+scaling_factor = brightness/256
 ```
 
 --- /task ---
@@ -25,7 +25,7 @@ So to scale all the white values:
 ```python
  w = [ int(value * scaling_factor) for value in w ]
 ```
-Note that because RGB values need to be integers (whole numbers) we need to convert out scaled value using the `int()` function. 
+Note that because RGB values need to be integers (whole numbers), you need to convert out scaled value using the `int()` function. 
 
 --- /task ---
 

@@ -1,7 +1,9 @@
 ## Display the Lighting conditions
 
 
-Simply scrolling the colours values across the LEd matrix is useful but to make the data more interesting for the astronauts you can alter your program so that it displays a different image depending on what the lighting conditions are. The first step is to create 3 different pictures, one for each of the 3 colours. 
+Simply scrolling the colours values across the LEd matrix is useful but to make the data more interesting for the astronauts you can alter your program so that it displays a different image depending on what the lighting conditions are. The first step is to create 3 different pictures, one for each of the 3 colours. Below are examples of a red fire engine, a blue bird and a green tree.
+
+![Three LED pictures - a red fire engine, a ble bird and a green tree](images/rgb_pictures.png)
 
 What objects do you immediately think of in connection with those colours? A red rose? The blue sea? How easy is it to draw those with just 64 pixels?
 
