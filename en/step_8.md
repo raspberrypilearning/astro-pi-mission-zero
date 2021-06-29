@@ -33,3 +33,7 @@ Note that because RGB values need to be integers (whole numbers), you need to co
 Add list comprehensions for every colour definition you have used. Re-arrange your program so that you measure the light levels and adjust your colour definitions before you display any messages or images.
 
 --- /task ---
+
+--- task ---
+Test your program by using the colour sliders to simulate different brightnesses. Check that your messages and images become dimmer if you reduce the light levels. 
+--- /task ---
