@@ -1,7 +1,7 @@
-## Display the Lighting conditions
+## Display the lighting conditions
 
 
-Simply scrolling the colours values across the LEd matrix is useful but to make the data more interesting for the astronauts you can alter your program so that it displays a different image depending on what the lighting conditions are. The first step is to create 3 different pictures, one for each of the 3 colours. Below are examples of a red fire engine, a blue bird and a green tree.
+Simply scrolling the colours values across the LED matrix is useful but to make the data more interesting for the astronauts, you can alter your program so that it displays a different image depending on what the lighting conditions are. The first step is to create 3 different pictures, one for each of the 3 colours. Below are examples of a red fire engine, a blue bird and a green tree.
 
 ![Three LED pictures - a red fire engine, a ble bird and a green tree](images/rgb_pictures.png)
 
@@ -92,3 +92,6 @@ In that situation, none of the conditions would be met, so no image would be dis
 --- /hints ---
 --- /task ---
 
+--- task ---
+Test your program by using the colour sliders to simulate light that is mostly red, then green then blue. Make sure the right images is displayed each time. 
+--- /task ---

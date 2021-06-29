@@ -1,4 +1,4 @@
-## Measure the Lighting conditions
+## Measure the lighting conditions
 
 The light/colour sensor in the Astro Pi can measure the lighting conditions around it, a useful feature to help you gather data about the conditions in space.
 
