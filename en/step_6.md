@@ -1,10 +1,10 @@
 ## Measure the lighting conditions
 
-The light/colour sensor in the Astro Pi can measure the lighting conditions around it, a useful feature to help you gather data about the conditions in space.
+The light/colour sensor in the Astro Pi can measure the lighting conditions around it, a useful feature to help you gather data about the conditions inside the Space Station.
 
 ![Message about the brightness](images/degrees-message.gif)
 
-As well as measuring the overall brightness, the Astro Pi can also work out the contributions form red, blue and green light as described in the SenseHAT library documentation. 
+As well as measuring the overall brightness, the Astro Pi can also work out the contributions from red, blue and green light as described in the SenseHAT library documentation. 
 
 
 
@@ -60,7 +60,7 @@ sense.show_message( "Red: " + str(red_light), ", Green: " + str(green_light), ",
 
 --- /task ---
 
-The real Astro Pi will measure the brightness around it, but you can move the brightness slider on the Sense HAT emulator to simulate lighting changes and test your code. Experiment with different values for each of the 3 colours. 
+The real Astro Pi will measure the brightness around it, but you can move the colour sliders on the Sense HAT emulator to simulate lighting changes and test your code. Experiment with different values for each of the 3 colours. 
 
 ![Humidity slider](images/humidity-slider.png)
 

@@ -14,6 +14,7 @@ Also make sure you have met the following criteria:
 1. Avoid using any methods needing input
 1. Only import from the `sense_hat`, `time`, and `random` modules
 1. Make sure you don't include any profanity or rudeness
+1. Run your program under different simulated lighting conditions to make sure it will run successfully in all cases. 
 
 Once the rules are all green, you are ready to submit.
 
