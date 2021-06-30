@@ -30,7 +30,7 @@ Below your new variables, create a list of 64 items. Each item represents one pi
 
 [[[rpi-sensehat-multiple-pixels]]]
 
-Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an astronaut by using the  black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi Flight Case:
+Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi Flight Case:
 
 
 ```python
