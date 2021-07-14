@@ -1,66 +1,61 @@
-## Measure the lighting conditions
+## Measure the humidity
 
-The light/colour sensor in the Astro Pi can measure the lighting conditions around it, a useful feature to help you gather data about the conditions inside the Space Station.
+The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
 
-![Message about the brightness](images/degrees-message.gif)
+![Message about the humidity](images/degrees-message.gif)
 
-As well as measuring the overall brightness, the Astro Pi can also work out the contributions from red, blue and green light as described in the SenseHAT library documentation. 
+The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
 
+[[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
-Add this code to take a light reading:
+Add this code to take a humidity reading:
 
 ```python
-sense.color.gain = 4
-brightness = sense.color.clear
-sense.show_message(str(brightness))
+humid = sense.get_humidity()
 ```
-The first line sets the sensitivity of the light sensor using the gain parameter to a value useful for indoor conditions. The second line will measure the current brightness, and store the measured value in the variable `brightness`. 
 
-What does the number you obtain actually mean? 
-
-The maximum possible value is 256 with the sensor's current settings. So if your measurement was a value of 100, that would represent 100/256 of the maximum amount of light that could be detected by the sensor. 
-
-Finally, the `str()` part converts the brightness value from a number into text so that the Astro Pi can display it with `show_message()`.
+This line will measure the current humidity, and store the measured value in the variable `humid`.
 
 --- /task ---
 
 --- task ---
 
-Previously you were mixing red, green and blue to make different colours for the LEDs. You can now do the reverse and use the sensor to measure the red, green and blue components of the light that it can detect. For the red component:
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
-
-red_light = sense.color.red
-sense.show_message(str(red_light))
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
 
 --- task ---
-You go do the same thing for the green and blue components individually. Or use a single line to retrieve all the values and store them in appropriately named variables:
+
+To display the current humidity as a scrolling message on the display, add this line of code:
 
 ```python
-
-red_light, green_light, blue_light, brightness = sense.color.color
+sense.show_message(str(humid))
 ```
 
---- /task ---
+The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
 
+--- /task ---
 
 --- task ---
 
-You can also display the values as part of another message by joining the parts of your message together with a `+`.
+You can also display the humidity as part of another message by joining the parts of your message together with a `+`.
 
 ```python
-sense.show_message( "Red: " + str(red_light), ", Green: " + str(green_light), ", Blue: " + str(blue_light) )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
 
-The real Astro Pi will measure the brightness around it, but you can move the colour sliders on the Sense HAT emulator to simulate lighting changes and test your code. Experiment with different values for each of the 3 colours. 
+The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
 ![Humidity slider](images/humidity-slider.png)
 
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
