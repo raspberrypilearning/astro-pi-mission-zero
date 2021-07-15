@@ -42,18 +42,6 @@ Press the **Run** button and watch as the message `Astro Pi` scrolls across the 
 
 To display a different message, you can write anything you like between the quotation marks (`""`).
 
-### Choose the name of the new Astro Pis
-
---- task ---
-If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
-
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
-
-```python
-sense.show_message("My name should be Ada Lovelace")
-```
---- /task ---
-
 --- collapse ---
 
 ---
@@ -85,5 +73,18 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
 
 --- /task ---
+
+### Choose the name of the new Astro Pis
+
+--- task ---
+If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+
+For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+--- /task ---
+
 
 

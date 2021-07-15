@@ -6,7 +6,9 @@ The Mark II Astro Pi hardware is so new that the computers don't even have names
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran! And we'll be announcing the competition winning names for the new Astro Pis in spring 2022.
+Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran.
+
+And we'll be announcing the competition winning names for the new Astro Pis in spring 2022.
 
 
 ### What you will make
