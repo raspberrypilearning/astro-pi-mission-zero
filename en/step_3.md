@@ -1,4 +1,4 @@
-## Display a message
+## Display a message and choose the name of a new Astro Pi
 
 --- task ---
 
