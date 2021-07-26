@@ -1,5 +1,5 @@
 from sense_hat import SenseHat
-sense = SenseHat()
+capteur = SenseHat()
 sense.set_rotation(270)
 w = (255, 255, 255) # white
 x = (0, 0, 0) # black
