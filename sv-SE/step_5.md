@@ -4,7 +4,7 @@ You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for
 
 ![Astronaut](images/astronaut-pic.png)
 
---- task ---
+--- uppgift ---
 
 At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
@@ -15,9 +15,9 @@ b = (0, 0, 0)
 
 **Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 
 
@@ -35,9 +35,9 @@ Below your new variables, create a list of 64 items. Each item represents one pi
     b, w, w, w, w, w, w, b
 ]
 ```
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Lägg till en kodrad för att visa din bild på LED-displayen.
 
@@ -45,15 +45,15 @@ Lägg till en kodrad för att visa din bild på LED-displayen.
 sense.set_pixels(picture)
 ```
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Tryck på **Run** (Kör) för att se din bild visas.
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
 
@@ -67,10 +67,10 @@ Lägg sedan till koden för att vänta i två sekunder på raden efter den som v
 sleep(2)
 ```
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Skapa din egen bild eller mönster för att visa för astronauterna!
 
---- /task ---
+--- /uppgift ---
