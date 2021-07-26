@@ -1,6 +1,6 @@
 ## Mérd meg a páratartalmat!
 
-Az Astro Pi páratartalom-érzékelője képes a körülötte levő levegő páratartalmának mérésére. Ez egy hasznos funkció, amely segít az űrbeli viszonyokról szóló adatgyűjtésben.
+The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
 
 ![Üzenet a páratartalomról](images/degrees-message.gif)
 
@@ -24,7 +24,7 @@ Ez a sor az aktuális páratartalmat méri majd meg, és a `humid` változóban 
 
 --- task ---
 
-A páratartalom nagyon pontosan kerül rögzítésre, azaz a tárolt érték sok tizedesjegyet fog tartalmazni. Az értéket akárhány tizedesjegyre lekerekítheted. A példában egy tizedesjegyre kerekítettük le, de ha más szintű pontosságot szeretnél, változtasd meg az `1`-es számot arra számra, ahány tizedesjegyet szeretnél látni.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 humid = round( sense.humidity, 1 )
@@ -58,4 +58,4 @@ A valódi Astro Pi a körülötte levő páratartalmat méri majd, de a Sense HA
 
 ![Páratartalom csúszka](images/humidity-slider.png)
 
-**Megjegyzés:** Furcsa lehet, hogy a páratartalom-csúszka egy egész számként mutatja a páratartalmat, de a leolvasott érték egy tizedes tört lesz. Az emulátor a valódi érzékelő enyhe pontatlanságát szimulálja, úgyhogy a mért páratartalom, amit látsz, kicsit nagyobb vagy kisebb lehet annál az értéknél, amit a csúszkával állítottál be.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
