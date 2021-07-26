@@ -1,14 +1,14 @@
 ## Introduction
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the relative humidity on board using the new Mark II Astro Pi computers' Sense HAT.
+Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the relative humidity on board using the new Mark II Astro Pi computer's Sense HAT.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pis" competition and including your favourite name as part of your Mission Zero program.
+The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate showing where exactly the ISS was when your program ran.
+Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
-And we'll be announcing the competition winning names for the new Astro Pis in spring 2022.
+We will also announce the winning names for the new Astro Pi computers in spring 2022.
 
 
 ### What you will make
