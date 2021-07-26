@@ -1,4 +1,4 @@
-## Display the humidity
+## Reacting to humidity
 
 You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
