@@ -15,7 +15,7 @@ We will announce the winning names for the new Astro Pi computers in spring 2022
 
 Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
---- collapse ---
+--- kollaps ---
 
 
 
@@ -32,9 +32,9 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 + [Använd grundläggande programmeringsstrukturer för att skapa enkla program](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
---- /collapse ---
+--- /kollaps ---
 
---- collapse ---
+--- kollaps ---
 
 ---
 title: Vad du behöver
@@ -48,9 +48,9 @@ title: Vad du behöver
 
 + A web browser (e.g. Google Chrome) to open [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
---- /collapse ---
+--- /kollaps ---
 
---- collapse ---
+--- kollaps ---
 ---
 title: Noteringar för lärare och mentorer
 ---
@@ -81,6 +81,6 @@ In which language did you access the Mission Zero guidelines?
 
  Vi har skapat [ett utskrivbart två sidors dokument för utdelning](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} som innehåller viktiga punkter för Mission Zero och som studenter och ungdomar kan använda tillsammans med detta online-projekt.
 
---- /collapse ---
+--- /kollaps ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Spårningspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
