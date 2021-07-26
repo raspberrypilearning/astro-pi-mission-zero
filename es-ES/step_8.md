@@ -5,15 +5,16 @@ Hay varias reglas que tu código debe respetar para que pueda ser enviado para s
 ![Validación](images/validation.png)
 
 1. Toma una lectura de la humedad.
-2. Ilumina los LED.
-3. Asegúrate de que el código es ejecutado completamente hasta el final sin errores. No deberías incluir ningún bucle `while True` en tu código ya que esto mantendrá el código funcionando de forma indefinida y evitará que se termine.
+1. Ilumina los LED.
+1. Asegúrate de que el código es ejecutado completamente hasta el final sin errores. No deberías incluir ningún bucle `while True` en tu código ya que esto mantendrá el código funcionando de forma indefinida y evitará que se termine.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Asegúrate también de que has cumplido los siguientes criterios:
 
 1. Asegúrate de que tu mensaje para los astronautas no dure más de 30 segundos, puesto que esta es la duración máxima que tu código tiene para ejecutarse en la ISS
-2. Evita usar métodos que requieran entrada de datos
-3. Solamente importa desde los módulos `sense_hat`, `time` y `random`
-4. Asegúrate de que no incluyes palabras soeces
+1. Evita usar métodos que requieran entrada de datos
+1. Solamente importa desde los módulos `sense_hat`, `time` y `random`
+1. Asegúrate de que no incluyes palabras soeces
 
 Podrás realizar el envío de tu proyecto una vez que todas las reglas se hayan iluminado en verde.
 
