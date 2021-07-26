@@ -6,7 +6,7 @@ Auf der LED-Matrix des Astro Pi kannst du auch Bilder anzeigen. Vielleicht könn
 
 --- task ---
 
-Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`s`).
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
 ```python
 w = (255, 255, 255)
@@ -19,10 +19,12 @@ s = (0, 0, 0)
 
 --- task ---
 
+
+
 Erstelle unter deinen neuen Variablen eine Liste von 64 Elementen. Jedes Element repräsentiert ein Pixel in der LED-Matrix und entspricht einer der von dir definierten Farbvariablen. Zeichne dein Bild, indem du eine Variable dort einfügst, wo die zugewiesene Farbe angezeigt werden soll. Wir haben einen Astronauten gezeichnet, indem wir die schwarzen (`s`) Pixel als Hintergrund und die weißen (`w`) Pixel für den Raumanzug des Astronauten benutzt haben:
 
 ```python
-bild = [
+ bild = [
     s, s, w, w, w, w, s, s,
     s, w, s, s, s, s, w, s,
     s, w, s, w, w, s, w, s,
@@ -33,7 +35,6 @@ bild = [
     s, w, w, w, w, w, w, s
 ]
 ```
-
 --- /task ---
 
 --- task ---
