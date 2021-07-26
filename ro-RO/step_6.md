@@ -15,19 +15,19 @@ O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului d
 Adaugă acest cod pentru a măsura umiditatea:
 
 ```python
-umiditate = sense.humidity
+humid = sense.get_humidity()
 ```
 
-Această linie va măsura umiditatea curentă și va stoca rezultatul în variabila `umiditate`.
+Această linie va măsura umiditatea curentă și va stoca rezultatul în variabila `humid`.
 
 --- /task ---
 
 --- task ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Umiditatea este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
 
 ```python
-umiditate = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ umiditate = round( sense.humidity, 1 )
 Pentru a afișa umiditatea curentă ca mesaj derulant pe afișaj, adaugă această linie de cod:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 Partea `str()` convertește umiditatea dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
@@ -49,7 +49,7 @@ Partea `str()` convertește umiditatea dintr-un caracter numeric în caracter te
 De asemenea, poți afișa umiditatea ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
 
 ```python
-sense.show_message( "Umiditate de " + str(umiditate) + "%" )
+sense.show_message("Umiditate de " + str(humid) + "%")
 ```
 
 --- /task ---
@@ -58,4 +58,4 @@ Un Astro Pi real va măsura umiditatea din jurul său, dar poți muta sliderul d
 
 ![Slider-ul de umiditate](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Notă:** S-ar putea să te întrebi de ce sliderul de umiditate afișează umiditatea ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează ușoara inexactitate a senzorului real, astfel încât umiditatea măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul glisorului.
