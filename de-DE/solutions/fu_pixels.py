@@ -18,4 +18,4 @@ picture = [
     g, b, b, b, b, b, b, g
     ]
     
-sense.set_pixels(picture)
+sense.set_pixels(bild)
