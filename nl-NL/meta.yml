@@ -7,12 +7,21 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: Inleiding
-  - title: Wat is een Astro Pi?
-  - title: Toon een bericht
-  - title: Voeg wat kleur toe
-  - title: Toon een afbeelding
-  - title: Meet de luchtvochtigheid
-  - title: Geef de luchtvochtigheid weer
-  - title: Verstuur je inzending
-  - title: "Uitdaging: meer Astro Pi-projecten"
+  - 
+    title: Inleiding
+  - 
+    title: Wat is een Astro Pi?
+  - 
+    title: Toon een bericht
+  - 
+    title: Voeg wat kleur toe
+  - 
+    title: Toon een afbeelding
+  - 
+    title: Meet de luchtvochtigheid
+  - 
+    title: Geef de luchtvochtigheid weer
+  - 
+    title: Verstuur je inzending
+  - 
+    title: 'Uitdaging: meer Astro Pi-projecten'
