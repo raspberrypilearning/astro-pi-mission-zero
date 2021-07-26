@@ -15,13 +15,3 @@ Alternativ möchtest du vielleicht eines unserer anderen Astro Pi Projekte auspr
 + Fordere deine Freunde zu einem [Murmel-Labyrinth](https://projects.raspberrypi.org/de-DE/projects/sense-hat-marble-maze){:target="_blank"} Spiel heraus
 
 + Bilde das klassische Spiel [Pong](https://projects.raspberrypi.org/de-DE/projects/sense-hat-pong){:target="_blank"} nach
-
-
-***
-Dieses Projekt wurde von freiwilligen Helfern übersetzt:
-
-Karl Schuh
-
-Lars Reime
-
-Dank freiwilliger Helfer können wir Menschen auf der ganzen Welt die Möglichkeit geben, in ihrer eigenen Sprache zu lernen. Du kannst uns helfen, mehr Menschen zu erreichen, indem Du dich freiwillig zum Übersetzen meldest - weitere Informationen unter [rpf.io/translate](https://rpf.io/translate).
