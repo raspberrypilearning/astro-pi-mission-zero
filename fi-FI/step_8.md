@@ -1,19 +1,20 @@
 ## Lähetä osallistumisilmoituksesi
 
-On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi Kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, emulaattorin alareunassa olevat säännöt tulevat vihreiksi, kun ajat ohjelmaa.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
 ![Validointi](images/validation.png)
 
 1. Ota kosteuslukema.
-2. Sytytä LEDit
-3. Varmista, että koodisi suoritetaan loppuun saakka ilman virheitä. Sinun ei pitäisi sisällyttää koodiin `while True` -silmukoita, koska se pitää koodisi käynnissä ja estää sen viimeistelemisen.
+1. Sytytä LEDit
+1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Varmista myös, että olet täyttänyt seuraavat kriteerit:
 
 1. Varmista, että viestisi astronauteille kestää korkeintaan 30 sekuntia, sillä niin kauan koodiasi ajetaan ISS:llä
-2. Vältä käyttämästä menetelmiä, jotka tarvitsevat syötteitä
-3. Tuo tietoa vain moduuleista `sense_hat`, `time` ja `random`
-4. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
+1. Vältä käyttämästä menetelmiä, jotka tarvitsevat syötteitä
+1. Tuo tietoa vain moduuleista `sense_hat`, `time` ja `random`
+1. Varmista, että et sisällytä minkäänlaisia hävyttömyyksiä
 
 Kun kaikki säännöt ovat vihreitä, olet valmis lähettämään.
 
@@ -27,7 +28,7 @@ Kirjoita luokkakoodisi alareunassa olevaan ruutuun - opettajasi kertoo sinulle, 
 
 --- task ---
 
-Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painiketta **Jatka lomakkeeseen**.
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Jatka lomakkeeseen](images/continue-to-form.png)
 
@@ -35,13 +36,13 @@ Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painik
 
 --- task ---
 
-Ilmoita tiimisi nimi ja tiimin jäsenten nimet. Nämä tulostetaan sertifikaattiin, kun koodinne on suoritettu avaruudessa, joten varmista, että ne on kirjoitettu oikein!
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Paina **Submit**-painiketta koodisi lähettämiseksi. Opettajasi tai ohjaajasi saa sähköpostin osallistumisesi vahvistamiseksi.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
