@@ -2,7 +2,7 @@
 
 Zakaj se ne bi zdaj, ko ste izpolnili svojo misijo, preizkusili v drugih projektih, pri katerih bi uporabljali še druge senzorje Astro Pi?
 
-Če ste dovolj samozavestni, lahko sodelujete v projektu [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Oblikujte skupino dveh do šestih oseb in sodelujte kot pravi raziskovalci vesolja ter oblikujte svoj eksperiment. Za svojo misijo boste prejeli brezplačno strojno opremo, nato pa boste za izvedbo eksperimenta napisali kodo v programskem jeziku Python. Če bo vaš prispevek odobren, bo vaša koda naložena na Mednarodno vesoljsko postajo in na računalniku Astro Pi prikazana tri ure (dve orbiti). Vsi podatki, ki jih bo v vesolju zbrala vaša koda (slikovne datoteke ali datoteke s podatki senzorjev), bodo preneseni in vam vrnjeni v analizo.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Astro Pi.
 
@@ -15,13 +15,3 @@ Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Astro Pi.
 + Izzovite svoje prijatelje z igro [labirint](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-marble-maze){:target="_blank"}.
 
 + Poustvarite klasično igro [Pong](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-pong){:target="_blank"}.
-
-
-***
-Ta projekt so prevedli prostovoljci:
-
-Filip Štamcar
-
-Arnold Marko
-
-Zahvaljujoč prostovoljcem, lahko ljudem po vsem svetu omogočimo, da se učijo v svojem jeziku. S prostovoljnim prevajanjem nam lahko pomagate, da dosežemo več ljudi - več informacij na [rpf.io/translate](https://rpf.io/translate).
