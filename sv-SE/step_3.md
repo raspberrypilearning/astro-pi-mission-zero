@@ -60,9 +60,9 @@ abcdefghijklmnopqrstuvwxyz
 ?,;:|@%[&_']\~
 ```
 
---- /collapse ---
+--- /kollaps ---
 
---- task ---
+--- uppgift ---
 
 You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
 
@@ -72,9 +72,9 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 
 The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
 
---- /task ---
+--- /uppgift ---
 
-### Choose a name for the new Astro Pi computers
+### Välj ett namn för de nya Astro Pi-datorerna
 
 --- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
 
