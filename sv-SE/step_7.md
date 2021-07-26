@@ -74,18 +74,18 @@ else:
 
 --- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Ändra din kod så att ditt program visar luftfuktigheten för astronauterna på det sätt som du väljer.
 
---- /task ---
+--- /uppgift ---
 
 --- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
---- /task ---
+--- /uppgift ---
