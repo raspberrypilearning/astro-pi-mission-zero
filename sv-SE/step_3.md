@@ -1,6 +1,6 @@
 ## Visa ett meddelande
 
---- task ---
+--- uppgift ---
 
 Öppna [Sense HAT-emulatorn](https://trinket.io/mission-zero){:target="_blank"} för projektet Mission Zero.
 
@@ -16,9 +16,9 @@ sense.set_rotation(270)
 
 This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
---- /task ---
+--- / uppgift ---
 
---- task ---
+--- uppgift ---
 
 Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
 
@@ -28,15 +28,15 @@ Lägg till den här raden under de andra kodraderna:
 sense.show_message("Astro Pi")
 ```
 
---- /task ---
+--- / uppgift ---
 
---- task ---
+--- uppgift ---
 
 Tryck på knappen **Run** (Kör) och se meddelandet `Astro Pi` rullar över LED-displayen.
 
 ![visa meddelandekod klicka på kör](images/show-message-code-annotated.PNG)
 
---- /task ---
+--- /uppgift ---
 
 ![Rullande meddelande](images/scroll-message.gif)
 
@@ -83,7 +83,7 @@ For example, if you'd like to vote for Ada Lovelace, your code would look like t
 ```python
 sense.show_message("My name should be Ada Lovelace")
 ```
---- /task ---
+--- /uppgift ---
 
 
 
