@@ -85,3 +85,7 @@ Utilise le curseur d'humidité pour définir une humidité sur l'émulateur. Ex�
 Modifie ton code pour que ton programme affiche l'humidité pour les astronautes de la manière que tu as choisie.
 
 --- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+
+--- /task ---
