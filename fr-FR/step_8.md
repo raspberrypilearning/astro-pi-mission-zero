@@ -5,15 +5,16 @@ Ton code doit respecter quelques règles pour que tu puisses le soumettre et le 
 ![Validation](images/validation.png)
 
 1. Mesure l'humidité.
-2. Allume les LED
-3. Vérifie que ton code s'exécute jusqu'au bout sans erreur. Tu ne dois pas inclure de boucles `while True` dans ton code car cela fera exécuter le code en continu et l'empêchera de se terminer.
+1. Allume les LED
+1. Vérifie que ton code s'exécute jusqu'au bout sans erreur. Tu ne dois pas inclure de boucles `while True` dans ton code car cela fera exécuter le code en continu et l'empêchera de se terminer.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Assure-toi également que les critères suivants sont satisfaits :
 
 1. Assure-toi que ton message pour les astronautes ne dure pas plus de 30 secondes, car c'est la durée d'exécution de ton code dans l'ISS
-2. Évite d'utiliser des méthodes nécessitant une saisie de donnée
-3. Pour les importations n'utilisent que des données des modules `sense_hat`, `time`, et `random`
-4. Assure-toi de ne pas inclure de juron
+1. Évite d'utiliser des méthodes nécessitant une saisie de donnée
+1. Pour les importations n'utilisent que des données des modules `sense_hat`, `time`, et `random`
+1. Assure-toi de ne pas inclure de juron
 
 Une fois que toutes les règles sont passées au vert, tu es prêt à faire ta soumission.
 
