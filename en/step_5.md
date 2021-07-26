@@ -6,7 +6,7 @@ You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for
 
 --- task ---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`) and two shades of of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same. 
+At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same. 
 
 ```python
 w = (255, 255, 255)
@@ -25,7 +25,7 @@ r = (255,0,0)
 
 
 Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined.
-Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi Flight Case:
+Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
 
 ```python
  picture = [
