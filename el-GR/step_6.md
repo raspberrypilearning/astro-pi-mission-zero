@@ -24,7 +24,7 @@ humid = sense.get_humidity
 
 --- task ---
 
-Η υγρασία καταγράφεται με μεγάλη ακρίβεια π.χ. η αποθηκευμένη τιμή θα έχει μεγάλο αριθμό δεκαδικών ψηφίων. Μπορείτε να στρογγυλοποιήσετε την τιμή σε οποιονδήποτε αριθμό δεκαδικών ψηφίων. Στο παρακάτω παράδειγμα, κάνουμε στρογγυλοποίηση σε ένα δεκαδικό ψηφίο, αλλά αν επιθυμείτε κάποιο διαφορετικό επίπεδο ακρίβειας, αλλάξτε το νούμερο `1` στον αριθμό των δεκαδικών ψηφίων που θέλετε να διατηρήσετε.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 humid = round( sense.get_humidity(), 1 )
@@ -58,4 +58,4 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 ![Ρυθμιστής υγρασίας](images/humidity-slider.png)
 
-**Σημείωση:** Θα αναρωτιέστε γιατί ο ρυθμιστής υγρασίας εμφανίζει την υγρασία σαν ακέραιο αριθμό, αλλά η μέτρηση που λαμβάνετε είναι δεκαδικός. Ο εξομοιωτής εξομοιώνει τη μικρή ανακρίβεια του αληθινού αισθητήρα, οπότε η μέτρηση υγρασίας που βλέπετε είναι λίγο μεγαλύτερη ή μικρότερη από την τιμή που έχετε ορίσει με το ρυθμιστή.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
