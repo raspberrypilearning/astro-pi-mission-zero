@@ -74,7 +74,7 @@ The default speed of the message is `0.1`. Making the number smaller makes the m
 
 --- /task ---
 
-### Choose the name of the new Astro Pis
+### Choose the name of the new Astro Pi computers
 
 --- task ---
 If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
