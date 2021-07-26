@@ -1,19 +1,20 @@
 ## Indsend dit bidrag
 
-Der er nogle få regler, som din kode skal følge, så du kan indsende den, og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, begynder reglerne nede i bunden af emulatoren at lyse grønt, når du kører programmet.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
 ![Validering](images/validation.png)
 
 1. Foretag en luftfugtigsaflæsning.
-2. Tænd lysdioderne
-3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Du bør ikke medtage nogen `while True` løkker i din kode, da dette holder dig kode kørende og forhindrer, at den afsluttes.
+1. Tænd lysdioderne
+1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Sørg også for at have opfyldt følgende kriterier:
 
 1. Sørg for, at din besked til astronauterne kun kører i op til 30 sekunder, da det er den tid, din kode kører på ISS
-2. Undgå at anvende metoder, der kræver indtastning
-3. Importér kun fra modulerne `sense_hat` (sense_hat), `time` (tid) og `random` (vilkårlig)
-4. Sørg for ikke at bruge bandeord
+1. Undgå at anvende metoder, der kræver indtastning
+1. Importér kun fra modulerne `sense_hat` (sense_hat), `time` (tid) og `random` (vilkårlig)
+1. Sørg for ikke at bruge bandeord
 
 Når alle reglerne er grønne, er du klar til at indsende.
 
@@ -27,7 +28,7 @@ Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Introduktion](
 
 --- task ---
 
-Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den grønne knap **Continue to form** (Fortsæt til formular).
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Fortsæt til formular](images/continue-to-form.png)
 
@@ -35,13 +36,13 @@ Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den gr�
 
 --- task ---
 
-Indtast dit holdnavn og navnene på holdets medlemmer. Disse bliver trykt på certifikatet, når din kode køres i rummet, så sørg for at stave dem korrekt!
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Tryk på knappen **Submit** (Indsend) for at indsende din kode. Din lærer eller mentor får en E-mail for at bekræfte indsendelsen.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
