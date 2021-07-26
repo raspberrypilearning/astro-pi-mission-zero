@@ -2,7 +2,7 @@
 
 Nyt, kun olet suorittanut tehtäväsi, miksi et kokeilisi lisää projekteja muita Astro Pi -antureita käyttäen?
 
-Jos tunnet olosi varmaksi, voit osallistua [Mission Space Labiin](https://astro-pi.org/missions/space-lab/)! Muodostakaa tiimi, jossa on 2-6 henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. Saatte ilmaiset tietokonelaitteet tehtävää varten, ja kirjoitatte Python-koodia kokeenne suorittamiseksi. Jos onnistutte pääsemään lennolle, koodinne lähetetään Kansainväliselle avaruusasemalle ja ajetaan Astro Pissä kolme tuntia (kaksi kierrosta Maapallon ympäri). Kaikki koodinne keräämät tiedot avaruudessa — kuva- tai anturidatatiedostot — ladataan alas ja palautetaan teille analysoitavaksi.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Vaihtoehtoisesti voitte kokeilla joitain muita Astro Pi -projektejamme:
 
@@ -15,13 +15,3 @@ Vaihtoehtoisesti voitte kokeilla joitain muita Astro Pi -projektejamme:
 + Haasta ystäväsi [marmori labyrintti](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-marble-maze){:target="_blank"} -pelillä
 
 + Luo uudelleen klassinen [Pong](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-pong){:target="_blank"}-peli
-
-
-***
-Tämän projektin ovat kääntäneet vapaaehtoiset:
-
-Erno Pentzin
-
-Tero Mäkelä
-
-Vapaaehtoisten ansiosta ihmisillä ympäri maailma on mahdollisuus oppia omalla kielellään. Voit auttaa meitä tavoittamaan enemmän ihmisiä vapaaehtoistyönä kääntämällä - lisätietoja osoitteessa [rpf.io/translate](rpf.io/translate).
