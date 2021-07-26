@@ -1,5 +1,5 @@
 from sense_hat import SenseHat
-sense = SenseHat()
+sensor = SenseHat()
 sense.set_rotation(270)
 w = (255, 255, 255) # white
 x = (0, 0, 0) # black
@@ -21,4 +21,4 @@ picture = [
     b, b, b, b, b, c, c, c
     ]
     
-sense.set_pixels(picture)
+sense.set_pixels(imagen)
