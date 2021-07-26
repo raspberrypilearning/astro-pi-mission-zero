@@ -1,6 +1,6 @@
 ## Adaugă culoare
 
-The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
+LED-urile Astro Pi pot afișa și culori. Poți specifica o culoare creând o variabilă și atribuindu-i o valoare de culoare RGB.
 
 Poți afla cum pot fi create toate culorile folosind diferite proporții de roșu, verde și albastru aici:
 
@@ -8,26 +8,26 @@ Poți afla cum pot fi create toate culorile folosind diferite proporții de roș
 
 --- task ---
 
-Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
+Alege o culoare și află valoarea RGB a culorii. Ai putea folosi un [selector de culoare](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} pentru a te ajuta.
 
 --- /task ---
 
 --- task ---
 
-Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
+Creează o variabilă pentru a stoca culoarea aleasă. De exemplu, dacă ai selecta roșu, ai scrie această linie de cod:
 
 ```python
-rosu = (255,0,0)
+rosu = (255, 0, 0)
 ```
 
 --- /task ---
 
 --- task ---
 
-You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+Acum poți afișa textul tău în culoarea dorită! Pentru a spune programului să utilizeze culoarea pe care ai creat-o, adaugă un parametru `text_colour` la codul care afișează textul tău:
 
 ```python
-rosu = (255,0,0)
+rosu = (255, 0, 0)
 sense.show_message("Astro Pi", text_colour=rosu)
 ```
 
@@ -37,11 +37,11 @@ sense.show_message("Astro Pi", text_colour=rosu)
 
 --- task ---
 
-You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+De asemenea, poți schimba culoarea de fundal a afișajului. Alege o altă culoare și creează o altă variabilă pentru a stoca acea culoare. Pentru a spune programului să utilizeze culoarea de fundal aleasă, adaugă parametrul `back_colour` la codul tău:
 
 ```python
-rosu = (255,0,0)
-verde = (0,255,0)
+rosu = (255, 0, 0)
+verde = (0, 255, 0)
 sense.show_message("Astro Pi", text_colour=rosu, back_colour=verde)
 ```
 
