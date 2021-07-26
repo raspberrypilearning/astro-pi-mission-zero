@@ -5,15 +5,16 @@ Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il 
 ![Convalida](images/validation.png)
 
 1. Fate una lettura dell'umidità.
-2. Accendete i LED
-3. Controllate che il codice venga eseguito fino alla fine, senza errori. Non dovresti includere nessun cliclo `while True` nel vostro codice in quanto manterrà in esecuzione il codice e gli impedirà di terminare.
+1. Accendete i LED
+1. Controllate che il codice venga eseguito fino alla fine, senza errori. Non dovresti includere nessun cliclo `while True` nel vostro codice in quanto manterrà in esecuzione il codice e gli impedirà di terminare.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Assicuratevi anche di aver soddisfatto i seguenti criteri:
 
 1. Assicuratevi che il vostro messaggio non venga visualizzato per oltre 30 secondi perché questa è la durata massima dell’esecuzione del vostro programma sulla ISS
-2. Evitate di usare metodi che richiedono un input
-3. Eseguite importazioni solo dai moduli `sense_hat`, `time` e `random`
-4. Non scrivete parolacce
+1. Evitate di usare metodi che richiedono un input
+1. Eseguite importazioni solo dai moduli `sense_hat`, `time` e `random`
+1. Non scrivete parolacce
 
 Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il programma.
 
