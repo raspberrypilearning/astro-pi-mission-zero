@@ -24,7 +24,7 @@ Denne linje måler den aktuelle fugtighed og gemmer den målte værdi i variable
 
 --- task ---
 
-Luftfugtigheden registreres meget præcist, dvs. at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 humid = round( sense.humidity, 1 )
@@ -58,4 +58,4 @@ Den rigtige Astro Pi måler luftfugtigheden omkring den, men du kan flytte luftf
 
 ![Luftfugtighedsskyder](images/humidity-slider.png)
 
-**Bemærk:** Du undrer dig måske over, hvorfor luftfugtighedsskyder viser luftfugtigheden som et helt tal, men den aflæsning, du får, er med decimaler. Emulatoren simulerer den lille unøjagtighed fra den rigtige sensor, så den luftfugtighedsmåling, du ser, kan være en lille smule større eller mindre end den værdi, du har indstillet med skyderen.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.

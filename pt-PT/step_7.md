@@ -85,3 +85,7 @@ Use o controle deslizante de humidade para definir uma humidade no emulador. Exe
 Altera o teu código para que o teu programa mostre a temperatura aos astronautas da maneira que escolheste.
 
 --- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+
+--- /task ---

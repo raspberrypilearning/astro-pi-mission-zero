@@ -5,15 +5,16 @@ O teu código precisa seguir algumas regras para que possas enviar a tua partici
 ![Validação](images/validation.png)
 
 1. Faz a leitura da temperatura
-2. Acende os LED
-3. Assegura-te de que o código seja executado até ao final sem que ocorram erros. Se tiveres um loop `while true` no teu código, precisas premir o botão **Stop** para parar esta regra.
+1. Acende os LED
+1. Assegura-te de que o código seja executado até ao final sem que ocorram erros. Se tiveres um loop `while true` no teu código, precisas premir o botão **Stop** para parar esta regra.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Assegura-te que cumpriste os seguintes critérios:
 
 1. Certifica-te que a tua mensagem para os astronautas não dura mais de 30 segundos, porque esse é o tempo que o teu código irá ser executado na Estação Espacial Internacional
-2. Evita usar qualquer método que precise de entrada de dados
-3. Importa apenas do `sense_hat`, do `time` e de módulos `random` aleatórios
-4. Certifica-te que não incluíste linguagem inapropriada
+1. Evita usar qualquer método que precise de entrada de dados
+1. Importa apenas do `sense_hat`, do `time` e de módulos `random` aleatórios
+1. Certifica-te que não incluíste linguagem inapropriada
 
 Quando as regras estiverem todas em verde, estás pronto para enviar.
 

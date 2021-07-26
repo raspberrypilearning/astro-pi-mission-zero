@@ -6,7 +6,7 @@ Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de sal
 
 --- task ---
 
-En bas de ton programme, crée des variables pour les couleurs que tu veux définir pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`w`) et noir (`b`).
+En bas de ton programme, crée des variables pour les couleurs que tu veux définir pour dessiner une image. Tu peux utiliser autant de couleurs que tu veux mais dans cet exemple, nous nous limiterons à deux couleurs - blanc (`w`) et noir (`b`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
 ```python
 w = (255, 255, 255)
@@ -19,10 +19,12 @@ b = (0, 0, 0)
 
 --- task ---
 
+
+
 Sous tes nouvelles variables, crée une liste de 64 éléments. Chaque élément représente un pixel de la matrice du LED et correspond à l'une des variables de couleur que tu as définies. Dessine ton image en mettant une variable à l'endroit où tu veux que la couleur de cette variable apparaisse. Nous avons dessiné un astronaute en utilisant les pixels noirs (`b`) pour l'arrière-plan et les pixels blancs (`w`) pour dessiner la combinaison spatiale de l'astronaute :
 
 ```python
-picture = [
+ picture = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -33,7 +35,6 @@ picture = [
     b, w, w, w, w, w, w, b
 ]
 ```
-
 --- /task ---
 
 --- task ---

@@ -2,7 +2,7 @@
 
 Nu när du har avslutat ditt uppdrag, varför inte prova några fler projekt med de andra sensorerna på Astro Pi?
 
-Om du känner dig självsäker kan du delta i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Skapa ett lag med två till sex personer och arbeta tillsammans som riktiga rymdforskare för att utforma ert eget experiment. Få gratis datorhårdvara för ert uppdrag och skriv den Python-kod som utför ert experiment. Om du uppnår flygstatus, kommer din kod att laddas upp till den internationella rymdstationen, och kommer att köras på Astro Pi i tre timmar (två omloppsbanor). All information som din kod samlar in i rymden - filer med bilder eller sensordata - kommer att laddas ned och returneras till dig för analys.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Eller så kanske du vill prova något av våra andra Astro Pi-projekt:
 
@@ -15,11 +15,3 @@ Eller så kanske du vill prova något av våra andra Astro Pi-projekt:
 + Utmana dina vänner med spelet [marmorlabyrint](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-marble-maze){:target="_blank"}
 
 + Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-pong){:target="_blank"}
-
-
-***
-Gemenskapsbaserad översättning
-
-Detta projekt har översatts av Jonas Hedberg och granskats av Jennica Falk.
-
-Våra fantastiska frivilliga översättare hjälper oss att ge barn runt om i världen chansen att lära sig att koda. Du kan hjälpa oss att nå fler barn genom att översätta våra projekt - läs mer på [rpf.io/translate](https://rpf.io/translate).

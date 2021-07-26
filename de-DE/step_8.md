@@ -5,15 +5,16 @@ Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf de
 ![Verprobung](images/validation.png)
 
 1. Nimm eine Feuchtigkeitsmessung vor.
-2. Schalte die LED-Lichter ein
-3. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Du solltest keine `while True`-Schleife in deinem Code verwenden, da dies deinen Coden endlos laufen ließe ohne je zu beenden.
+1. Schalte die LED-Lichter ein
+1. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Du solltest keine `while True`-Schleife in deinem Code verwenden, da dies deinen Coden endlos laufen ließe ohne je zu beenden.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Stelle außerdem sicher, dass du die folgenden Kriterien erfüllt hast:
 
 1. Sorge dafür, dass deine Nachricht an die Astronauten nicht länger als 30 Sekunden dauert, denn so lange wird dein Code auf der ISS laufen
-2. Vermeide Methoden, die Eingaben benötigen
-3. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
-4. Achte darauf, dass keine Obszönitäten im Code enthalten sind
+1. Vermeide Methoden, die Eingaben benötigen
+1. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
+1. Achte darauf, dass keine Obszönitäten im Code enthalten sind
 
 Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen.
 

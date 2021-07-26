@@ -1,12 +1,12 @@
 ## Zobrazit vlhkost
 
-Naměřenou vlhkost můžete zkombinovat s obrázkem, kterým vlhkost naznačíte graficky. Můžete například zobrazit oceán pro vysokou vlhkost a poušť pro nízkou vlhkost:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
 ![Mokrá a suchá](images/wet-dry.png)
 
 --- task ---
 
-Na konci programu vytvořte ještě několik proměnných s barvami, jaké budete chtít použít v obrázcích. Možná jste některé z nich definovali už v předchozím kroku.
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
 
 ```python
 o=(255,130,0)
@@ -62,7 +62,7 @@ temp = sense.temperature
 
 --- task ---
 
-Teď rozhodněte, který obrázek se zobrazí. V tomhle příkladu zobrazíme obrázek pro `wet` při naměřené vlhkosti 40% nebo vyšší a obrázek pro `dry`, když je vlhkost nižší než 40%.
+Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 humid = sense.humidity
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Pomocí posuvníku vlhkosti nastavte vlhkost na emulátoru. Spusťte svůj program a zkontrolujte, jestli se správně zobrazí obrázek vybraný pro danou vlhkost.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 --- /task ---
 
 --- task ---
 
 Změňte kód tak, aby váš program ukazoval astronautům vlhkost tak, jak chcete vy.
+
+--- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
 --- /task ---

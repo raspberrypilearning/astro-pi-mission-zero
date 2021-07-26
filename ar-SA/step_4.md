@@ -8,7 +8,7 @@
 
 --- task ---
 
-اختر لونًا واعرف القيمة اللونية له، يمكنك استخدام [أداة انتقاء الألوان](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} لمساعدتك.
+Choose a colour, and find out that colour's RGB value. اختر لونًا واعرف القيمة اللونية له، يمكنك استخدام [أداة انتقاء الألوان](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} لمساعدتك.
 
 --- /task ---
 

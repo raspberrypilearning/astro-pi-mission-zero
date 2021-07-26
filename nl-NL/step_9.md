@@ -15,13 +15,3 @@ Als alternatief kun je een van onze andere Astro Pi-projecten proberen:
 + Daag je vrienden uit met een [marmeren doolhof](https://projects.raspberrypi.org/nl-NL/projects/sense-hat-marble-maze){:target="_blank"} spel
 
 + Maak het klassieke spel [Pong](https://projects.raspberrypi.org/nl-NL/projects/sense-hat-pong){:target="_blank"} overnieuw
-
-
-***
-Dit project werd vertaald door vrijwilligers:
-
-Robert-Jan Kempenaar
-
-Sanneke van der Meer
-
-Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

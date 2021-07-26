@@ -1,6 +1,6 @@
 ## Přidejte barvy
 
-LED displej Astra Pi také umí zobrazovat barvy. Barvu můžete určit vytvořením proměnné, které přiřadíte hodnotu barvy v RGB.
+The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
 
 Jak se pomocí různých proporcí červené, zelené a modré dají vytvořit všechny barvy, se dozvíte tady:
 
@@ -8,13 +8,13 @@ Jak se pomocí různých proporcí červené, zelené a modré dají vytvořit v
 
 --- task ---
 
-Vyberte si barvu a zjistěte její hodnotu v RGB. Pomůže vám s tím [vybírátko barev](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
+Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
 
 --- /task ---
 
 --- task ---
 
-Vytvoře proměnnou, do které si svou barvu uložíte. Například když jste si vybrali červenou, můžete napsat tuto řádku kódu:
+Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Teď můžete zobrazit svůj text v barvě, kterou jste si vybrali! Abyste programu řekli, jakou barvu jste vytvořili, přidejte do kódu, který zobrazuje váš text, `text_colour`:
+You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
 
 ```python
 red = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-Můžete také změnit barvu pozadí displeje. Vyberte si jinou barvu a vytvořte další proměnnou, do které ji uložíte. Abyste programu řekli, aby použil barvu pozadí, kterou jste si vybrali, přidejte do svého kódu parametr `back_colour`:
+You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
 
 ```python
 red = (255,0,0)

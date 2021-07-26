@@ -1,28 +1,30 @@
 ## Laat een beeld zien
 
-Je kunt beelden tonen op de Astro Pi's LED matrix. Misschien kan je begroeting voor de astronauten een beeld of een patroon omvatten, samen met of in plaats van een geschreven boodschap?
+You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
 
 ![Astronaut](images/astronaut-pic.png)
 
 --- task ---
 
-Onderaan je programma kun je wat kleurvariabelen creëren om de kleuren te definiëren waarmee je je tekening wilt maken. Je kunt zoveel kleuren gebruiken als je wil, maar in dit voorbeeld houden wij ons bij twee — wit (`w`) en zwart (`b`).
+At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Aandacht:** Deze keer, is het een goed idee om de kleurvariabelen een enkele letternaam te geven, omdat dit tijd zal besparen bij de volgende stap, waar je ze herhaaldelijk zult gaan typen. Daarenboven, zal het gebruiken van enkele letters het gemakkelijker maken om de tekening te zien die je zult maken.
+**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
 
 --- /task ---
 
 --- task ---
 
-Onderaan je nieuwe variabelen, maak een lijst met 64 items. Ieder item vertegenwoordigt een pixel op de LED matrix, en komt overeen met een van de kleurvariabelen die je hebt gedefinieerd. Maak je tekening door een variabele aan te brengen waar je de toegekende kleur wilt laten verschijnen. We hebben een een astronaut getekend door het gebruiken van de zwarte (`b`) pixels als achtergrond en de witte (`w`) pixels om het ruimtepak van de astronaut te tekenen:
+
+
+Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
 
 ```python
-picture = [
+ picture = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -33,7 +35,6 @@ picture = [
     b, w, w, w, w, w, w, b
 ]
 ```
-
 --- /task ---
 
 --- task ---
@@ -54,7 +55,7 @@ Druk op **Run** om je tekening te zien verschijnen.
 
 --- task ---
 
-Misschien wil je een soort code toevoegen om een korte wachttijd op te nemen (of `sleep` (slaap)) nadat de tekening is tentoongesteld. Dit zal de astronauten de tijd geven om jouw tekening te zien voordat het volgende deel van je boodschap verschijnt. Voeg toe, bovenaan je programma:
+You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
 
 ```python
 from time import sleep

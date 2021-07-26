@@ -6,7 +6,7 @@ Na matrycy LED Astro Pi można wyświetlać obrazki. Może twoje pozdrowienie dl
 
 --- task ---
 
-U dołu programu utwórz kilka zmiennych kolorów, aby określić, jakich kolorów chcesz użyć do narysowania obrazka. Można użyć dowolnej ilości kolorów, ale w poniższym przykładzie użyjemy tylko dwóch - białego (`w`) i czarnego (`b`).
+U dołu programu utwórz kilka zmiennych kolorów, aby określić, jakich kolorów chcesz użyć do narysowania obrazka. Można użyć dowolnej ilości kolorów, ale w poniższym przykładzie użyjemy tylko dwóch - białego (`w`) i czarnego (`b`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
 ```python
 w = (255, 255, 255)
@@ -19,10 +19,12 @@ b = (0, 0, 0)
 
 --- task ---
 
+
+
 Pod nowymi zmiennymi utwórz listę 64 elementów. Każdy element reprezentuje jeden piksel na matrycy LED i odpowiada jednej z określonych zmiennych kolorów. Narysuj swój obrazek, umieszczając zmienną w miejscu, w którym ma pojawić się przypisany jej kolor. Narysowaliśmy astronautę, używając czarnych pikseli (`b`) jako tła i białych pikseli (`w`) do narysowania skafandra astronauty:
 
 ```python
-picture = [
+ picture = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -33,7 +35,6 @@ picture = [
     b, w, w, w, w, w, w, b
 ]
 ```
-
 --- /task ---
 
 --- task ---

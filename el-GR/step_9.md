@@ -2,7 +2,7 @@
 
 Τώρα που ολοκληρώσατε την αποστολή σας, γιατί να μην δοκιμάσετε κάποια ακόμη έργα και να χρησιμοποιήσετε έτσι και τους υπόλοιπους αισθητήρες στο Astro Pi;
 
-Αν αισθάνεστε σίγουροι, μπορείτε να πάρετε μέρος στην αποστολή [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Σχηματίστε μια ομάδα με δύο έως έξι άτομα και συνεργαστείτε σαν πραγματικοί διαστημικοί επιστήμονες για να σχεδιάσετε το δικό σας πείραμα. Λάβετε δωρεάν υλικό υπολογιστή για την αποστολή σας και γράψτε κώδικα Python για να εκτελέσετε το πείραμά σας. Αν καταφέρετε να φτάσετε στην κατάσταση πτήσης (flight status), ο κώδικάς σας θα σταλεί στον Διεθνή Διαστημικό Σταθμό και θα εκτελεστεί στο Astro Pi για τρεις ώρες (δύο τροχιές). Τα δεδομένα που θα συλλέξει ο κώδικάς σας από το διάστημα — αρχεία δεδομένων εικόνων ή αισθητήρων — θα επιστραφούν σε εσάς για ανάλυση.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Εναλλακτικά, μπορεί να θέλετε να δοκιμάσετε κάποια από τα υπόλοιπα έργα μας για το Astro Pi:
 
@@ -15,13 +15,3 @@
 + Προκαλέστε τους φίλους σας σε ένα παιχνίδι [λαβύρινθου με μπίλιες](https://projects.raspberrypi.org/el-GR/projects/sense-hat-marble-maze){:target="_blank"}
 
 + Δημιουργήστε το κλασικό παιχνίδι [Pong](https://projects.raspberrypi.org/el-GR/projects/sense-hat-pong){:target="_blank"}
-
-
-***
-Το έργο αυτό μεταφράστηκε από τους εθελοντές:
-
-Γιώργος Δούκας
-
-Ευστάθιος Ιωσηφίδης
-
-Χάρη στους εθελοντές, μπορούμε να δώσουμε σε ανθρώπους σε όλο τον κόσμο την ευκαιρία να μάθουν στη γλώσσα τους. Μπορείτε να μας βοηθήσετε να προσεγγίσουμε περισσότερους ανθρώπους μεταφράζοντας εθελοντικά - περισσότερες πληροφορίες στο [rpf.io/translate](https://rpf.io/translate).

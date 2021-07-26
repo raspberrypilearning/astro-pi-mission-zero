@@ -1,6 +1,6 @@
 ## Změřte vlhkost
 
-Snímač vlhkosti v Astru Pi dokáže měřit vlhkost okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
+The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
 
 ![Zpráva o vlhkosti](images/degrees-message.gif)
 
@@ -24,7 +24,7 @@ Tato řádka změří současnou vlhkost a uloží naměřenou hodnotu v proměn
 
 --- task ---
 
-Vlhkost se zaznamenává velmi přesně, proto bude mít uložená hodnota velký počet desetinných míst. Hodnotu můžete zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníte na jiné, dostanete jiný počet desetinných míst.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 humid = round( sense.humidity, 1 )
@@ -58,4 +58,4 @@ Skutečný Astro Pi bude měřit vlhkost kolem sebe, vy můžete posunout posuvn
 
 ![Posuvník vlhkosti](images/humidity-slider.png)
 
-**Poznámka:** Možná se divíte, proč posuvník vlhkosti zobrazuje vlhkost jako celé číslo, zatímco měření, které získáte, má desetinná místa. Emulátor simuluje maličkou míru nepřesnosti skutečného snímače, takže měření vlhkosti, které dostanete, může být nepatrně větší nebo menší než hodnota, kterou jste nastavili pomocí posuvníku.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.

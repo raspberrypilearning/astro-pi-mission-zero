@@ -2,7 +2,7 @@
 
 Nüüd, kui oled lõpetanud selle missiooni, miks mitte proovida mõnda teist projekti kasutades teistsugust Astro Pi sensorit?
 
-Kui oled endas kindel, võiksid osaleda projektis [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Pane kokku kahest kuni kuuest liikmest koosnev meeskond ja tee päris oma enda eksperiment töötades koos täpselt nii nagu teevad seda tõelised kosmoseteadlased. Missiooni läbiviimiseks antakse sulle tasuta arvuti riistvara ja oma eksperimendi läbiviimiseks tuleb sul kirjutada Pythoni kood. Kui saavutad lennustaatuse, siis laetakse sinu kood üles Rahvusvahelisesse Kosmosejaama ja see töötab Astro Pi-l kolm tundi (kaks orbiiti). Kõik andmed, mida sinu kood kosmoses kogub, nii pildid kui sensori andmefailid, laetakse alla ja saadetakse sulle analüüsmiseks.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Soovi korral võid proovida ka teistsugust Astro Pi projekti:
 
@@ -15,11 +15,3 @@ Soovi korral võid proovida ka teistsugust Astro Pi projekti:
 + Esita oma sõpradele väljakutse mänguga [marble maze](https://projects.raspberrypi.org/et-EE/projects/sense-hat-marble-maze){:target="_blank"} (marmorist labürint)
 
 + Taasloo mänguklassika [Pong](https://projects.raspberrypi.org/et-EE/projects/sense-hat-pong){:target="_blank"}
-
-
-***
-Kogukondlik tõlge
-
-Selle projekti tõlkis Kärt Roomäe.
-
-Meie vahvad vabatahtlikud tõlgid annavad võimaluse lastel programeerimist õppida. Te saate aidata meil meie projekte tõlkides rohkemate lasteni jõuda - rohkem infot on saadaval veebilehel [rpf.io/translate](https://rpf.io/translate). 

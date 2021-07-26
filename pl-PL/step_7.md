@@ -85,3 +85,7 @@ Użyj suwaka wilgotności, aby ustawić wilgotność na emulatorze. Uruchom swó
 Zmień swój kod, aby Twój program wyświetlał wilgotność dla astronautów w wybrany przez Ciebie sposób.
 
 --- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+
+--- /task ---

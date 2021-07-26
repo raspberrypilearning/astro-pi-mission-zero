@@ -1,28 +1,30 @@
 ## Εμφάνιση εικόνας
 
-Στη διάταξη απεικόνισης LED του Astro Pi μπορείτε να εμφανίσετε εικόνες. Μήπως θα θέλατε να συμπεριλάβετε στον χαιρετισμό σας προς τους αστροναύτες μια εικόνα ή ένα μοτίβο μαζί με το γραπτό μήνυμά σας ή αντί γι΄αυτό;
+You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
 
 ![Αστροναύτης](images/astronaut-pic.png)
 
 --- task ---
 
-Στο κάτω μέρος του προγράμματός σας, δημιουργήστε μερικές μεταβλητές χρώματος για να καθορίσετε τα χρώματα με τα οποία θα θέλατε να σχεδιάσετε την εικόνα σας. Μπορείτε να χρησιμοποιήσετε όσα χρώματα θέλετε, αλλά σ΄ αυτό το παράδειγμα χρησιμοποιούμε μόνο δύο — λευκό (`w`) και μαύρο (`b`).
+At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Σημείωση:** Αυτή τη φορά, μια καλή ιδέα είναι να χρησιμοποιήσετε ονόματα με ένα γράμμα για τις μεταβλητές χρώματος για να εξοικονομήσετε χρόνο στο επόμενο βήμα, όταν θα χρειαστεί να πληκτρολογήσετε τα ονόματα των μεταβλητών πολλές φορές. Επιπλέον, χρησιμοποιώντας ένα μόνο γράμμα είναι πιο εύκολο να δείτε την εικόνα που θα σχεδιάσετε.
+**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
 
 --- /task ---
 
 --- task ---
 
-Κάτω από τις νέες μεταβλητές σας, δημιουργήστε μια λίστα με 64 στοιχεία. Κάθε στοιχείο αντιπροσωπεύει ένα pixel στη διάταξη LED και αντιστοιχεί σε μία από τις μεταβλητές χρώματος που έχετε καθορίσει. Σχεδιάστε την εικόνα σας βάζοντας μια μεταβλητή στα σημεία όπου θέλετε να εμφανιστεί το καθορισμένο της χρώμα. Σχεδιάσαμε έναν αστροναύτη χρησιμοποιώντας τα μαύρα (`b`) pixels για το φόντο και τα λευκά (`w`) για τη στολή του αστροναύτη:
+
+
+Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
 
 ```python
-picture = [
+ picture = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -33,7 +35,6 @@ picture = [
     b, w, w, w, w, w, w, b
 ]
 ```
-
 --- /task ---
 
 --- task ---
@@ -54,7 +55,7 @@ sense.set_pixels(picture)
 
 --- task ---
 
-Ίσως θελήσετε να προσθέσετε μια μικρή αναμονή (ή `sleep`) μετά την εμφάνιση της εικόνας σας. Με αυτόν τον τρόπο θα δώσετε στους αστροναύτες περισσότερο χρόνο για να δουν την εικόνα σας, πριν εμφανιστεί το επόμενο τμήμα του μηνύματός σας. Στο πάνω μέρος του προγράμματός σας, προσθέστε:
+You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
 
 ```python
 from time import sleep

@@ -7,12 +7,21 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - title: Introduzione
-  - title: Che cos'è un Astro Pi?
-  - title: Mostra un messaggio
-  - title: Aggiungi un po’ di colore
-  - title: Mostra un’immagine
-  - title: Misura l'umidità
-  - title: Mostra l'umidità
-  - title: Invia il tuo programma
-  - title: "Sfida: altri progetti Astro Pi"
+  - 
+    title: Introduzione
+  - 
+    title: Che cos'è un Astro Pi?
+  - 
+    title: Mostra un messaggio
+  - 
+    title: Aggiungi un po’ di colore
+  - 
+    title: Mostra un’immagine
+  - 
+    title: Misura l'umidità
+  - 
+    title: Mostra l'umidità
+  - 
+    title: Invia il tuo programma
+  - 
+    title: 'Sfida: altri progetti Astro Pi'

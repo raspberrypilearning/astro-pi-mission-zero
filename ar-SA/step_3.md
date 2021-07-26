@@ -43,20 +43,22 @@ sense.show_message("Astro Pi")
 لعرض رسالة مختلفة، يمكنك كتابة أي رسالة ترغبها بين علامات الاقتباس (`""`).
 
 --- collapse ---
+
 ---
 title: ما الأحرف والرموز التي يمكن استخدامها؟
 ---
 
 يمكن للوحة Sense HAT عرض مجموعة الأحرف والرموز اللاتينية 1، مما يعني عدم توفر سوى الأحرف والرموز التالية فقط. تُعرض الأحرف والرموز الأخرى على شكل `?`.
 
-    +-*/!"#$><0123456789.=)(
-    
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    
-    abcdefghijklmnopqrstuvwxyz
-    
-    ?,;:|@%[&_']\~
-    
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
 
 --- /collapse ---
 
@@ -71,3 +73,17 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 السرعة الافتراضية للرسالة هي `0.1`. تصغير الرقم يزيد من سرعة تمرير الرسالة، وتكبير الرقم يبطى من سرعة تمرير الرسالة.
 
 --- /task ---
+
+### Choose a name for the new Astro Pi computers
+
+--- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+
+For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+--- /task ---
+
+
+

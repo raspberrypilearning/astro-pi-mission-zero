@@ -2,7 +2,7 @@
 
 Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
-Ha elég magabiztosnak érzed magad, akár a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)ben is részt vehetsz! Állíts össze minimum két, maximum hat emberből álló csapatot, és dolgozzatok együtt igazi űrkutatókként a saját kísérletetek megtervezésére. Ingyenes számítógépes hardvert kapsz a küldetésedre, hogy megírhasd a Python kódot a kísérleted elvégzéséhez. Ha repülési státuszt érsz el, a kódodat feltöltjük a Nemzetközi Űrállomásra, és három órán keresztül fog futni az Astro Pi-on (kétszer körbekerüli a Földet). Minden adatot, amelyet a kódod gyűjt be az űrben — képek vagy az érzékelő adatfájljai — letöltünk és visszaküldjük neked elemzésre.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Akár valamelyik másik Astro Pi projektünket is kipróbálhatod:
 
@@ -15,11 +15,3 @@ Akár valamelyik másik Astro Pi projektünket is kipróbálhatod:
 + Hívd ki a barátaidat egy [golyólabirintus](https://projects.raspberrypi.org/hu-HU/projects/sense-hat-marble-maze){:target="_blank"} játékra
 
 + Készítsd el újra a klasszikus [Pong](https://projects.raspberrypi.org/hu-HU/projects/sense-hat-pong){:target="_blank"} játékot
-
-
-***
-Közösségi hozzájárulással készült fordítás
-
-Ezt a projektet Péter Györök fordította le és Bence Vass ellenőrizte.
-
-A nagyszerű fordító önkénteseink segítenek, hogy világszerte megadhassuk a gyerekeknek a lehetőséget, hogy megtanuljanak kódolni. Ön is segíthet a projektjeink lefordításával, hogy több gyereket érhessünk el - bővebben az [rpf.io/translate](https://rpf.io/translate) oldalon.

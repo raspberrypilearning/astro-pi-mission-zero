@@ -1,12 +1,12 @@
 ## Jelenítsd meg a páratartalmat!
 
-A leolvasott páratartalmat egy képpel is összekapcsolhatod, hogy a páratartalmat grafikusan is szemléltesd. Például megjeleníthetsz egy óceánt magas páratartalomnál, és egy sivatagot alacsony páratartalomnál:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
 ![Nedves és száraz](images/wet-dry.png)
 
 --- task ---
 
-A programod végén hozz létre még több színváltozót azokra a színekre, amelyeket használni szeretnél a képeidben. Lehetséges, hogy van olyan, amit már egy előző lépésben meghatároztál.
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
 
 ```python
 o=(255,130,0)
@@ -62,7 +62,7 @@ humid = sense.humidity
 
 --- task ---
 
-Most döntsd el, melyik képet szeretnéd megjeleníteni. Ebben a példában mi a `wet` („nedves”) képet jelenítjük majd meg, ha a mért páratartalom 40% vagy annál magasabb, és a `dry` („száraz”) képet, ha a páratartalom 40%-nál alacsonyabb.
+Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 humid = sense.humidity
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Használd a páratartalom-csúszkát az emulátoron a páratartalom beállításához. Futtasd a programod és ellenőrizd le, hogy a kép, amelyet az adott a páratartalomhoz kiválasztottál, helyesen jelenik-e meg.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 --- /task ---
 
 --- task ---
 
 Változtasd meg a kódot, hogy a programod az általad választott módon jelenítse meg a páratartalmat az űrhajósok számára.
+
+--- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
 --- /task ---

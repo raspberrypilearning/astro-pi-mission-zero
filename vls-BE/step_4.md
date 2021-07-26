@@ -1,6 +1,6 @@
 ## Voeg er wat kleur aan toe
 
-De Astro Pi's LEDs kunnen ook kleuren tonen. Je kunt een kleur specificeren door een variabele te definiëren en het een RGB-kleurwaarde toe te kennen.
+The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
 
 Je kunt hier leren hoe alle kleuren te definiëren door gebruik te maken van verschillende verhoudingen van rood, groen, en blauw:
 
@@ -8,13 +8,13 @@ Je kunt hier leren hoe alle kleuren te definiëren door gebruik te maken van ver
 
 --- task ---
 
-Kies een kleur en zoek de RGB-waarde van die kleur. Je kunt een [kleurenkiezer](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} gebruiken om je te helpen.
+Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
 
 --- /task ---
 
 --- task ---
 
-Definieer een variabele om je gekozen kleur op te slaan. Bijvoorbeeld, indien je rood hebt gekozen, dan schrijf je deze regel code:
+Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Je kunt nu je tekst tonen in je gekozen kleur! Om het programma te laten weten dat de gedefinieerde gebruikt moet worden, voeg je een `text_colour` (tekst_kleur) parameter toe aan de code die je tekst toont:
+You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
 
 ```python
 red = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-Je kunt ook de achtergrondkleur van het scherm veranderen. Kies een andere kleur en definieer een andere variabele om die kleur op te slaan. Om het programma je gekozen achtergrond te laten gebruiken, voeg je de `back_colour` (achtergrond_kleur) parameter aan je code:
+You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
 
 ```python
 red = (255,0,0)

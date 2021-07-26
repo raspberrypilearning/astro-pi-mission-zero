@@ -1,8 +1,8 @@
 ## Výzva: další projekty Astro Pi
 
-Splnili jste svou misi. Nechcete si teď zkusit další projekty, které využívají další čidla Astra Pi?
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-Jestli se cítíte silní v kramflecích, zkuste se zúčastnit [Mission Space Lab](https://astro-pi.org/missions/space-lab/) (Mise vesmírná laboratoř)! Dejte dohromady tým dvou až šesti lidí a společně, jako opravdoví vesmírní vědci, pracujte na návrhu svého vlastního experimentu. Pro svou misi dostanete zadarmo počítačový hardware a vy sami napíšete v programovacím jazyce Python kód, který experiment provede. Když dostanete povolení k letu, bude váš kód nahrán na Mezinárodní vesmírnou stanici a tři hodiny (dva oběhy) poběží na Astru Pi. Veškerá data, která váš kód ve vesmíru shromáždí – obrazové soubory nebo soubory s daty z čidel –, budou stažena a dostanete je zpátky, abyste je mohli analyzovat.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Taky si můžete zkusit některé z našich dalších projektů pro Astro Pi:
 
@@ -15,11 +15,3 @@ Taky si můžete zkusit některé z našich dalších projektů pro Astro Pi:
 + Změřte se s kamarády ve hře [marble maze](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-marble-maze){:target="_blank"}
 
 + Zkuste si naprogramovat klasickou hru [Pong](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-pong){:target="_blank"}
-
-
-***
-Tento projekt byl přeložen dobrovolníky:
-
-Radek Salomon
-
-Díky dobrovolníkům můžeme dát lidem po celém světě šanci se učit ve svém vlastním jazyce. Můžete nám pomoci oslovit více lidí dobrovolným překládáním - více informací na [rpf.io/translate](rpf.io/translate).

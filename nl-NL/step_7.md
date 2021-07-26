@@ -85,3 +85,7 @@ Gebruik de schuifregelaar voor luchtvochtigheid om een luchtvochtigheid op de em
 Wijzig je code zodat je programma de luchtvochtigheid op je eigen gekozen manier aan de astronauten weergeeft.
 
 --- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+
+--- /task ---

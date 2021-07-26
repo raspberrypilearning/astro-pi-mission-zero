@@ -1,19 +1,20 @@
 ## Pošljite svoj prispevek
 
-Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če je vaša koda v skladu s pravili, se bodo pravila na dnu emulatorja ob zagonu programa obarvala zeleno.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
 ![Potrditev](images/validation.png)
 
 1. Odčitajte vlažnost.
-2. Vklopite zaslon LED.
-3. Prepričajte se, da vaša koda v celoti deluje brez napak. Ne smete dodati nobenih `while True` zank, saj bodo povzročile, da se vaša koda nikoli ne ustavi.
+1. Vklopite zaslon LED.
+1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Prepričajte se tudi, da ste upoštevali naslednje kriterije:
 
 1. Prepričajte se, da vaše sporočilo astronavtom ne bo trajalo več kot 30 sekund, saj bo tako dolgo vaša koda prikazana na postaji ISS.
-2. Izogibajte se uporabi metod, ki zahtevajo vnose.
-3. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
-4. Ne vključujte žaljiviih besed ali slik.
+1. Izogibajte se uporabi metod, ki zahtevajo vnose.
+1. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
+1. Ne vključujte žaljiviih besed ali slik.
 
 Ko so vsa pravila obarvana zeleno, ste pripravljeni na pošiljanje.
 
@@ -27,7 +28,7 @@ V polje na dnu vnesite kodo učilnice – kodo vam bo sporočil vaš učitelj.
 
 --- task ---
 
-Pojavilo se bo ime vašega učitelja. Če je ime pravilno, kliknite na zelen gumb **Continue to form** (Nadaljuj na obrazec).
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Nadaljuj na obrazec](images/continue-to-form.png)
 
@@ -35,13 +36,13 @@ Pojavilo se bo ime vašega učitelja. Če je ime pravilno, kliknite na zelen gum
 
 --- task ---
 
-Vnesite ime svoje skupine in imena članov skupine. Ko bo koda zagnana v vesolju, bodo ta namreč natisnjena na certifikatu, zato se prepričajte, da so črkovana pravilno!
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Za pošiljanje svoje kode kliknite gumb **Submit** (Pošlji). Vaš učitelj oziroma mentor bo prejel elektronsko sporočilo s potrdilom prejema vašega prispevka.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 

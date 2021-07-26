@@ -6,7 +6,7 @@ Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a tua saudação p
 
 --- task ---
 
-Na parte inferior do programa, cria algumas variáveis ​​para definir as cores que queres usar no teu desenho. Podes usar quantas cores quiseres, mas neste exemplo vamos usar apenas duas - branco (`w`) e preto (`b`).
+Na parte inferior do programa, cria algumas variáveis ​​para definir as cores que queres usar no teu desenho. Podes usar quantas cores quiseres, mas neste exemplo vamos usar apenas duas - branco (`w`) e preto (`b`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
 ```python
 w = (255, 255, 255)
@@ -19,10 +19,12 @@ b = (0, 0, 0)
 
 --- task ---
 
+
+
 Abaixo tens as tuas novas variáveis, cria uma lista de 64 itens. Cada item representa um pixel na matriz de LED e corresponde a uma das variáveis ​​de cor que definiste. Desenha a tua imagem colocando uma variável onde queres que a tua cor apareça. Nós desenhámos um astronauta utilizando pixels pretos (`b`) como fundo e pixels brancos (`w`) para desenhar a roupa do astronauta:
 
 ```python
-picture = [
+ picture = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -33,7 +35,6 @@ picture = [
     b, w, w, w, w, w, w, b
 ]
 ```
-
 --- /task ---
 
 --- task ---

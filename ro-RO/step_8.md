@@ -1,19 +1,20 @@
 ## Trimite programul tău
 
-Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi rulat pe Stația Spațială Internațională. În cazul în care codul tău le respectă, regulile din partea de jos a emulatorului se vor schimba în verde atunci când execuți programul.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
 ![Validare](images/validation.png)
 
 1. Măsoară umiditatea.
-2. Aprinde LED-urile.
-3. Asigură-te că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. Nu ar trebui să incluzi nici o buclă `while True` în codul tău, deoarece aceasta îți va menține codul în execuție și va împiedica terminarea acestuia.
+1. Aprinde LED-urile.
+1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 De asemenea, asigură-te că ai îndeplinit următoarele criterii:
 
 1. Asigură-te că mesajul tău către astronauți rulează timp de cel mult 30 de secunde, deoarece acesta este timpul în care va fi rulat codul tău pe ISS
-2. Evită utilizarea oricăror metode care necesită input
-3. Importă doar din modulele `sense_hat`, `time`, și `random`
-4. Asigură-te că nu incluzi limbaj obscen
+1. Evită utilizarea oricăror metode care necesită input
+1. Importă doar din modulele `sense_hat`, `time`, și `random`
+1. Asigură-te că nu incluzi limbaj obscen
 
 Odată ce regulile sunt toate scrise în culoarea verde, ești gata să trimiți programul.
 
@@ -27,7 +28,7 @@ Introdu codul pentru clasă în caseta din partea de jos - profesorul sau mentor
 
 --- task ---
 
-Va apărea numele profesorului tău. Dacă numele este cel corect, dă click pe butonul verde **Continue to form**.
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Continuă spre formular](images/continue-to-form.png)
 
@@ -35,13 +36,13 @@ Va apărea numele profesorului tău. Dacă numele este cel corect, dă click pe 
 
 --- task ---
 
-Introdu numele echipei și numele membrilor echipei. Acestea vor fi printate pe certificat odată ce codul tău este rulat în spațiu, deci asigură-te că le scrii corect!
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Apasă pe **Submit** pentru a introduce codul tău. Profesorul sau mentorul tău va primi un e-mail pentru a-ți confirma participarea.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
