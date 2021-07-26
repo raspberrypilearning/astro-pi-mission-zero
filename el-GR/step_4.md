@@ -1,6 +1,6 @@
 ## Προσθήκη χρώματος
 
-Τα LED του Astro Pi μπορούν επίσης να εμφανίζουν χρώματα. Μπορείτε να προσδιορίσετε ένα χρώμα δημιουργώντας μια μεταβλητή στην οποία θα ορίσετε μια τιμή χρώματος RGB.
+The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
 
 Μπορείτε να μάθετε πώς να δημιουργείτε όλα τα χρώματα χρησιμοποιώντας διαφορετικές αναλογίες κόκκινου, πράσινου και μπλε εδώ:
 
@@ -8,13 +8,13 @@
 
 --- task ---
 
-Επιλέξτε ένα χρώμα και δείτε την τιμή RGB του χρώματος. Μπορείτε να χρησιμοποιήσετε έναν [επιλογέα χρώματος](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} για να σας βοηθήσει.
+Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
 
 --- /task ---
 
 --- task ---
 
-Δημιουργήστε μια μεταβλητή για να αποθηκεύσετε το επιλεγμένο χρώμα σας. Για παράδειγμα, αν επιλέξατε το κόκκινο, θα γράφατε την ακόλουθη γραμμή κώδικα:
+Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Τώρα μπορείτε να εμφανίσετε το κείμενό σας στο χρώμα της επιλογής σας! Για να δώσετε εντολή στο πρόγραμμα να χρησιμοποιήσει το χρώμα που δημιουργήσατε, προσθέστε την παράμετρο `text_colour` στον κώδικα εμφάνισης του κειμένου σας:
+You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
 
 ```python
 red = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-Μπορείτε επίσης να αλλάξετε το χρώμα φόντου της οθόνης. Επιλέξτε ένα άλλο χρώμα και δημιουργήστε μια άλλη μεταβλητή για να το αποθηκεύσετε. Για να δώσετε εντολή στο πρόγραμμα να χρησιμοποιήσει το επιλεγμένο σας χρώμα φόντου, προσθέστε την παράμετρο `back_colour` στον κώδικά σας:
+You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
 
 ```python
 red = (255,0,0)
