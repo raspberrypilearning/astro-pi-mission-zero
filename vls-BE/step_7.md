@@ -1,12 +1,12 @@
 ## Laat de vochtigheid zien
 
-Je kan je vochtigheidsmeting combineren met een foto om de vochtigheid ook op een grafische manier te laten zien. Je kan bijvoorbeeld een oceaan tonen voor hoge vochtigheid en een woestijn voor lage luchtvochtigheid:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
 ![Nat en droog](images/wet-dry.png)
 
 --- task ---
 
-Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een vorige stap.
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
 
 ```python
 o=(255,130,0)
@@ -62,7 +62,7 @@ humid = sense.humidity
 
 --- task ---
 
-Beslis nu welke tekening je wilt tonen. In dit voorbeeld zullen we de `wet`(nat) tekening laten zien als de vochtigheidsmeting 40% of hoger is en de `dry` (droog) tekening als de vochtigheid lager is dan 40%.
+Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 humid = sense.humidity
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Gebruik de vochtigheid-schuifknop om een vochtigheid op de emulator in te stellen. Start je programma en controleer dat de tekening die je koos voor die vochtigheid juist weergegeven wordt.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 --- /task ---
 
 --- task ---
 
 Verander je code zodat je programma de vochtigheid weergeeft aan de astronauten op de door jou gekozen manier.
+
+--- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
 --- /task ---
