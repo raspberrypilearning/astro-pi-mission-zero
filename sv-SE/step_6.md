@@ -24,7 +24,7 @@ Den här raden med kod mäter den aktuella luftfuktigheten och lagrar det avläs
 
 --- task ---
 
-Luftfuktigheten registreras mycket exakt, dvs det lagrade värdet har ett stort antal decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan precision, ändra siffran `1` till antalet decimaler du vill se.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 luftfuktighet = round( sense.humidity, 1 )
@@ -58,4 +58,4 @@ Den verkliga Astro Pi kommer att mäta den omgivande luftfuktighet, men du kan t
 
 ![Reglage för luftfuktighet](images/humidity-slider.png)
 
-**Obs!** Du kanske undrar varför skjutreglaget för luftfuktighet visar luftfuktigheten som ett heltal, men avläsningen du får är ett decimaltal. Emulatorn simulerar den riktiga sensorns bristfälliga noggrannhet, så skjutreglaget för luftfuktighet som du ser kan vara något större eller mindre än det värde du ställer in med skjutreglaget.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
