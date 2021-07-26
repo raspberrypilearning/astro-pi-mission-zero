@@ -43,20 +43,22 @@ Po naciśnięciu przycisku **Run** (Uruchom) zobaczysz, jak wiadomość `Astro P
 Aby wyświetlić inną wiadomość, można napisać dowolną treść między znakami cudzysłowu (`""`).
 
 --- collapse ---
+
 ---
 title: Jakich znaków można użyć?
 ---
 
 Sense HAT może wyświetlać tylko zestaw znaków Latin 1, co oznacza, że ​​dostępne będą tylko następujące znaki. Inne znaki będą wyświetlane jako `?`.
 
-    +-*/!"#$><0123456789.=)(
-    
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    
-    abcdefghijklmnopqrstuvwxyz
-    
-    ?,;:|@%[&_']\~
-    
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
 
 --- /collapse ---
 
@@ -71,3 +73,17 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 Domyślne tempo przewijania wiadomości to `0.1`. Zmniejszenie liczby spowoduje, że wiadomość będzie przewijać się szybciej, a jej zwiększenie spowoduje, że wiadomość będzie przewijać się wolniej.
 
 --- /task ---
+
+### Choose a name for the new Astro Pi computers
+
+--- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+
+For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+--- /task ---
+
+
+
