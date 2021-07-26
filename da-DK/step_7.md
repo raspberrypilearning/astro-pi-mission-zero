@@ -1,12 +1,12 @@
 ## Vis luftfugtigheden
 
-Du kan kombinere din fugtlæsning med et billede for også at indikere fugtigheden grafisk. For eksempel kan du vise et hav for høj luftfugtighed og en ørken for lav luftfugtighed:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
 ![Våd og tør](images/wet-dry.png)
 
 --- task ---
 
-I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin.
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
 
 ```python
 o=(255,130,0)
@@ -62,7 +62,7 @@ humid = sense.humidity
 
 --- task ---
 
-Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `våd (wet)` billede, hvis luftfugtigheden er 40% eller derover og `tør (dry)` billede, hvis luftfugtigheden er under 40%.
+Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 humid = sense.humidity
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Brug fugtighedsskyderen til at indstille en fugtighed på emulatoren. Kør dit program, og kontroller, at det billede, du har valgt til den målte luftfugtighed, vises korrekt.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 --- /task ---
 
 --- task ---
 
 Ændre din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
+
+--- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
 --- /task ---
