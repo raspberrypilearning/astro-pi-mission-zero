@@ -21,4 +21,4 @@ picture = [
     g, g, g, g, g, g, g, g
     ]
     
-sense.set_pixels(picture)
+sense.set_pixels(imagine)
