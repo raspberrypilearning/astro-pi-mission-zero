@@ -6,7 +6,7 @@ You could combine your humidity reading with a picture to also indicate the humi
 
 --- task ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. Du kanske redan har definierat några av dem i ett tidigare steg.
 
 ```python
 o=(255,130,0)
@@ -17,9 +17,9 @@ g=(0,255,0)
 y=(255,255,0)
 ```
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Precis som tidigare, ritar du dina bilder genom att först skapa en lista för var och en av dem, och sedan ställa in listans objekt med de färger som du vill att pixlarna ska ha.
 
@@ -48,9 +48,9 @@ dry= [
 ]
 ```
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Lägg till lite kod för att få luftfuktigheten:
 
@@ -58,11 +58,11 @@ Lägg till lite kod för att få luftfuktigheten:
 luftfuktighet = sense.humidity
 ```
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Bestäm nu vilken bild som ska visas. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 luftfuktighet = sense.humidity
@@ -72,7 +72,7 @@ else:
     sense.set_pixels(dry)
 ```
 
---- /task ---
+--- /uppgift ---
 
 --- task ---
 
