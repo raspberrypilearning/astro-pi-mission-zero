@@ -1,19 +1,20 @@
 ## Je project indienen
 
-Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om te werken in het internationaal ruimtestation. Indien jouw code deze regels volgt, dan zullen de regels onderaan de emulator groen oplichten wanneer je het programma start.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
 ![Valideren](images/validation.png)
 
 1. Doe een vochtigheidsmeting.
-2. De LED's laten oplichten
-3. Zorg ervoor dat jouw code helemaal tot het einde werkt zonder dat er fouten optreden. Je mag geen `while True` lessen in je code zetten omdat dit ervoor zorgt dat je code blijft draaien en voorkomt dat ze zal stoppen.
+1. De LED's laten oplichten
+1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
 1. Zorg ervoor dat je boodschap aan de astronauten niet langer duurt dan 30 seconden, omdat dit de looptijd is dat je code zal werken in het ISS
-2. Vermijd het gebruiken van methodes die invoer nodig hebben
-3. Importeer uitsluitend van de `sense_hat`, `time`, en `random` modules
-4. Zorg ervoor dat je er geen vloek bij doet
+1. Vermijd het gebruiken van methodes die invoer nodig hebben
+1. Importeer uitsluitend van de `sense_hat`, `time`, en `random` modules
+1. Zorg ervoor dat je er geen vloek bij doet
 
 Zodra de regels allemaal groen zijn, ben je klaar om in te dienen.
 
@@ -27,7 +28,7 @@ Vul je klascode in het vakje onderaan in - je leraar of mentor zal je vertellen 
 
 --- task ---
 
-De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op groen **Ga verder naar formulier** knop.
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Ga verder naar het formulier](images/continue-to-form.png)
 
@@ -35,13 +36,13 @@ De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op gro
 
 --- task ---
 
-Vermeld je teamnaam en de namen van de teamleden. Deze worden geprint op een certificaat zodra je code in de ruimte werkt, dus zorg ervoor dat je ze juist hebt gespeld!
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Druk op de **Indienen** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
