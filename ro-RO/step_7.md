@@ -1,20 +1,20 @@
 ## Afișează umiditatea
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Poți combina citirea umidității cu o imagine pentru a indica umiditatea într-un mod grafic. De exemplu, ai putea afișa un ocean pentru o umiditate mare și un deșert pentru umiditate scăzută:
 
 ![Umed și uscat](images/wet-dry.png)
 
 --- task ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+În partea de jos a programului tău, creează mai multe variabile pentru orice culori pe care vrei sa le folosești în imaginile tale. Este posibil să fi definit deja unele dintre ele într-un pas anterior.
 
 ```python
-o = (255,130,0)
-b = (0,0,255)
-c = (0,150,255)
-e = (80,80,80)
-g = (0,255,0)
-y = (255,255,0)
+o = (255, 130, 0)
+b = (0, 0, 255)
+c = (0, 150, 255)
+e = (80, 80, 80)
+g = (0, 255, 0)
+y = (255, 255, 0)
 ```
 
 --- /task ---
@@ -55,18 +55,18 @@ uscat = [
 Adaugă cod pentru a obține umiditatea:
 
 ```python
-umiditate = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Acum decide ce imagine vrei să se afișeze. Pentru acest exemplu, vom afișa imaginea `ud` dacă valoarea citită a umidității este de 40% sau mai mare și imaginea `uscat` dacă umiditatea este sub 40%.
 
 ```python
-umiditate = sense.humidity
-if umiditate >= 40:
+humid = sense.get_humidity()
+if humid >= 40:
     sense.set_pixels(ud)
 else:
     sense.set_pixels(uscat)
@@ -76,7 +76,7 @@ else:
 
 --- task ---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Utilizează slider-ul pentru umiditate pentru a seta o umiditate pe emulator. Rulează programul și verifică dacă imaginea pe care ai selectat-o pentru acea umiditate este afișată corect.
 
 --- /task ---
 
@@ -86,6 +86,6 @@ Modifică codul astfel încât programul să afișeze umiditatea pentru astronau
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Testează-ți codul cu câteva setări diferite de umiditate (folosind slider-ul) pentru a te asigura că rulează întotdeauna corect. Dacă ai urmat exemplul de mai sus, este afișată o imagine atât atunci când umiditatea este setată la o valoare mai mică de 40%, cât și atunci când este setată la peste 40%?
 
 --- /task ---
