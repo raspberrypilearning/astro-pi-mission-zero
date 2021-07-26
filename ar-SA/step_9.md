@@ -15,14 +15,3 @@
 + تحدَّ أصدقاءك بلعبة [متاهة الكرات الرخامية](https://projects.raspberrypi.org/ar-SA/projects/sense-hat-marble-maze){:target="_blank"}
 
 + أعد إنشاء اللعبة الكلاسيكية [Pong](https://projects.raspberrypi.org/ar-SA/projects/sense-hat-pong){:target="_blank"}
-
-
-
-***
-تمت ترجمة هذا المشروع بواسطة متطوعين:
-
-نادية علي قاسم
-
-رائد موسى الجعفري
-
-بفضل المتطوعين ، يمكننا إعطاء الناس في جميع أنحاء العالم فرصة للتعلم بلغتهم الخاصة. يمكنك مساعدتنا في الوصول إلى المزيد من الأشخاص من خلال التطوع للترجمة - مزيد من المعلومات على [rpf.io/translate](https://rpf.io/translate).
