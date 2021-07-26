@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![emulatore sense hat](images/sense-hat-emulator.png)
+![emulatore sense hat](images/sense-hat-emulator2.png)
 
 Questo codice si collega all’Astro Pi e garantisce che il messaggio sul display LED di Astro Pi sia mostrato nel senso corretto. Lasciate qui questo codice perché è necessario.
 
@@ -43,20 +43,22 @@ Premete il pulsante **Run** (esegui) e guardate il messaggio `Astro Pi` che scor
 Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra le virgolette (`""`).
 
 --- collapse ---
+
 ---
 title: Quali caratteri si possono usare?
 ---
 
 Sense HAT può visualizzare solo il set di caratteri "Latin 1". Questo significa che saranno disponibili solo i seguenti caratteri: Eventuali altri caratteri verranno visualizzati come `?`.
 
-    +-*/!"#$><0123456789.=)(
-    
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    
-    abcdefghijklmnopqrstuvwxyz
-    
-    ?,;:|@%[&_']\~
-    
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
 
 --- /collapse ---
 
@@ -71,3 +73,17 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 La velocità predefinita del messaggio è `0.1`. Usando un numero più piccolo, il messaggio scorre più velocemente, mentre usando un numero più grande il messaggio scorre più lentamente.
 
 --- /task ---
+
+### Choose a name for the new Astro Pi computers
+
+--- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+
+For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+--- /task ---
+
+
+
