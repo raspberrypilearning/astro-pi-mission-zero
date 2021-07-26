@@ -1,4 +1,4 @@
-from sense_hat import SenseHat
+från sense_hat importera SenseHat
 sense = SenseHat()
 sense.set_rotation(270)
 w = (255, 255, 255) # white
