@@ -6,7 +6,7 @@ Senzor vlažnosti v računalniku Astro Pi lahko izmeri stanje vlažnosti okoli s
 
 Astro Pi meri vlažnost na ISS v odstotkih koncentracije vode v zraku.
 
-Del vaše misije je izboljšanje vsakdana posadke na postaji ISS. Ko jim boste sporočili, da je vlaga na vesoljski postaji v mejah normale, jih bo to prav gotovo pomirilo.
+Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
 
 [[[generic-theory-what-is-humidity]]]
 
@@ -24,7 +24,7 @@ Ta vrstica bo izmerila trenutno vlažnost in izmerjeno vrednost shranila v sprem
 
 --- task ---
 
-Vlaga je zabeležena zelo natančno, kar pomeni, da bo shranjena vrednost imela veliko število decimalnih mest. Vrednost lahko zaokrožite na poljubno število decimalnih mest. V tem primeru smo vrednost zaokrožili na eno decimalno mesto, a za drugačno stopnjo natančnosti lahko število `1` spremenite v želeno število decimalnih mest.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 humid = round( sense.humidity, 1 )
@@ -58,4 +58,4 @@ Pravi Astro Pi bo izmeril vlago okrog sebe, a vi lahko drsnik za vlago na emulat
 
 ![Drsnik za vlažnost](images/humidity-slider.png)
 
-**Opomba:** Morda se sprašujete, zakaj drsnik vlago prikaže kot celo število, a dobljen odčitek bo v decimalni obliki. Emulator simulira manjšo nenatančnost pravega senzorja, zato je lahko izmerjena vlaga nekoliko višja ali nižja od vrednosti, ki ste jo nastavili z drsnikom.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
