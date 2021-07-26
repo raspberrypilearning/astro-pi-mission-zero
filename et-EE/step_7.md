@@ -1,12 +1,12 @@
 ## Kuva niiskus
 
-Võid oma õhuniiskuse mõõtmise tulemust kombineerida pildiga, et näidata niiskust ka graafiliselt. Näiteks võid kuvada kõrge õhuniiskuse korral ookeani ja madala õhuniiskuse korral kõrbe:
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
 ![Niiske ja kuiv](images/wet-dry.png)
 
 --- task ---
 
-Oma programmi alaosas saad luua rohkem värvimuutujaid määramaks piltide joonistamisel kasutatavaid värve. Võimalik, et oled mõned juba eelmises etapis määranud.
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
 
 ```python
 o=(255,130,0)
@@ -62,7 +62,7 @@ humid = sense.humidity
 
 --- task ---
 
-Nüüd otsusta, millist pilti kuvada. Selle näite puhul kuvatakse `wet` pilt, kui mõõdetud õhuniiskus on 40% või rohkem ja `dry` pilt, kui õhuniiskus on alla 40%.
+Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
 humid = sense.humidity
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Õhuniiskuse määramiseks emulaatoril kasuta niiskuse liugurit. Käivita oma programm ja kontrolli, et sinu poolt selle õhuniiskuse jaoks valitud pilt kuvatakse korrektselt.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 --- /task ---
 
 --- task ---
 
 Muuda oma koodi, et sinu programm kuvaks õhuniiskuse astronautidele sinu poolt valitud viisil.
+
+--- /task ---
+
+--- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
 --- /task ---
