@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![emulator Sense Hat](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Acest cod se conectează la Astro Pi și se asigură că afișajul LED al lui Astro Pi este afișat corect. Lasă codul acolo, pentru că vei avea nevoie de el.
 
 --- /task ---
 
 --- task ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Poate ai putea lăsa un salut prietenos pentru astronauții de la ISS care lucrează lângă Astro Pi? Să derulam un mesaj pe ecran.
 
 Adaugă acest rând sub celelalte linii de cod:
 
@@ -48,7 +48,7 @@ Pentru a afișa un alt mesaj, poți scrie orice dorești între ghilimele (`""`)
 title: Ce caractere pot fi folosite?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Sense HAT poate afișa numai setul de caractere Latin 1, adică numai următoarele caractere vor fi disponibile. Alte caractere se vor afișa ca și `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,24 +64,24 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+De asemenea, poți schimba viteza derulării mesajului pe ecran. Adaugă un `scroll_speed` la linia de cod pe care o ai deja, după cum urmează:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Viteza implicită a mesajului este `0.1`. Introducerea unui număr mai mic face ca mesajul să se deruleze mai repede, iar unul mai mare face ca mesajul să se deruleze mai lent.
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Alege un nume pentru noile calculatoare Astro Pi
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Dacă vrei să participi în concursul pentru a alege numele noilor calculatoare Mark II Astro Pi, începe mesajul cu cuvintele „Numele meu ar trebui să fie”, iar apoi adaugă selecția ta din această listă.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+De exemplu, dacă ai vrea să votezi pentru Ada Lovelace, codul tău ar arăta astfel:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message("Numele meu ar trebui sa fie Ada Lovelace")
 ```
 --- /task ---
 
