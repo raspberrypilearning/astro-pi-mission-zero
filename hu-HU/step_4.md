@@ -1,6 +1,6 @@
 ## Adj hozzá egy kis színt!
 
-Az Astro Pi LED-jei színeket is meg tudnak jeleníteni. Egy színt egy változó létrehozásával, majd egy RGB színérték hozzárendelésével határozhatsz meg.
+The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
 
 Itt megtanulhatod, hogyan hozhatsz létre bármilyen színt a vörös, a zöld és a kék különböző arányainak használatával:
 
@@ -8,13 +8,13 @@ Itt megtanulhatod, hogyan hozhatsz létre bármilyen színt a vörös, a zöld �
 
 --- task ---
 
-Válassz ki egy színt, és keresd ki annak a színnek az RGB értékét. Egy [színválasztót](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} is segítségül hívhatsz.
+Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
 
 --- /task ---
 
 --- task ---
 
-Hozz létre egy változót a válaszott színed tárolására. Például, ha a vöröset választottad volna, ezt a kódsort írnád:
+Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Mást már meg tudod jeleníteni az üzeneteted az általad választott színben! Utasítsd a programot, hogy az általad létrehozott színben jelenítse meg az üzenetedet a `text_colour` paraméter hozzádásával:
+You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
 
 ```python
 red = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-Még a kijelző háttérszínét is megváltoztathatod. Válassz ki egy másik színt, és hozz létre még egy változót annak a színnek a tárolásához. Utasítsd a programot, hogy az általad választott háttérszínt használja, add a `back_colour` paramétert a kódodhoz:
+You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
 
 ```python
 red = (255,0,0)
