@@ -1,4 +1,4 @@
-## Challenge: more Astro Pi projects
+## What next — more Astro Pi projects
 
 Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
