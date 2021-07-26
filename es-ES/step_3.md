@@ -43,20 +43,22 @@ Pulsa el botón **Run** (Ejecutar) y observa cómo el mensaje `Astro Pi` se desp
 Para mostrar otro mensaje, escribe lo que quieras entre las comillas (`""`).
 
 --- collapse ---
+
 ---
 title: ¿Qué caracteres puedo utilizar?
 ---
 
 Sense HAT solamente muestra el set de caracteres Latin 1, es decir, solamente están disponibles los siguientes caracteres. El resto de caracteres se mostrarán como `?`.
 
-    +-*/!"#$><0123456789.=)(
-    
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    
-    abcdefghijklmnopqrstuvwxyz
-    
-    ?,;:|@%[&_']\~
-    
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
 
 --- /collapse ---
 
@@ -71,3 +73,17 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que el mensaje se desplace más rápidamente; y aumentarlo, que se desplace más lentamente.
 
 --- /task ---
+
+### Choose a name for the new Astro Pi computers
+
+--- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+
+For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+--- /task ---
+
+
+
