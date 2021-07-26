@@ -5,15 +5,16 @@ Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om
 ![Bevestiging](images/validation.png)
 
 1. Neem een luchtvochtigheidsmeting.
-2. Verlicht de LED's.
-3. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Je zou geen `while True` lussen moeten zetten in je code, omdat dit je code laat doordraaien en voorkomt dat deze eindigt.
+1. Verlicht de LED's.
+1. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Je zou geen `while True` lussen moeten zetten in je code, omdat dit je code laat doordraaien en voorkomt dat deze eindigt.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Zorg er ook voor dat je aan de volgende criteria voldoet:
 
 1. Zorg ervoor dat je bericht aan de astronauten niet langer dan 30 seconden loopt, want dit is de duur van je code op het ISS
-2. Vermijd het gebruik van methoden die invoer nodig hebben
-3. Importeer alleen vanuit de `sense_hat`, `time` en `random` modules
-4. Zorg ervoor dat je geen grove taal gebruikt
+1. Vermijd het gebruik van methoden die invoer nodig hebben
+1. Importeer alleen vanuit de `sense_hat`, `time` en `random` modules
+1. Zorg ervoor dat je geen grove taal gebruikt
 
 Zodra de regels allemaal groen zijn, ben je klaar om te verzenden.
 
