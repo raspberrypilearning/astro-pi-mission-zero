@@ -18,35 +18,35 @@ Kontrollera även att följande kriterier är uppfyllda:
 
 När alla regler är gröna, är du redo att skicka.
 
---- task ---
+--- uppgift ---
 
 Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad koden är.
 
 **Noteringar för lärare och mentorer** finns i steget [Introduktion](https://projects.raspberrypi.org/sv-SE/projects/astro-pi-mission-zero/1).
 
---- /task ---
+--- / uppgift ---
 
---- task ---
+--- uppgift ---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Din lärares namn kommer att visas. If it is the right name, click on the green **Continue to form** button.
 
 ![Fortsätt till formulär](images/continue-to-form.png)
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
---- /task ---
+--- / uppgift ---
 
---- task ---
+--- uppgift ---
 
 Om du vill kan du dela länken till din kod på sociala medier för att berätta för folk att koden som du skrev kommer att köras i rymden!
 
