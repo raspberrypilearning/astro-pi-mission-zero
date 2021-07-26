@@ -24,7 +24,7 @@ Această linie va măsura umiditatea curentă și va stoca rezultatul în variab
 
 --- task ---
 
-Umiditatea este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
+The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 umiditate = round( sense.humidity, 1 )
@@ -58,4 +58,4 @@ Un Astro Pi real va măsura umiditatea din jurul său, dar poți muta sliderul d
 
 ![Slider-ul de umiditate](images/humidity-slider.png)
 
-**Notă:** S-ar putea să te întrebi de ce sliderul de umiditate afișează umiditatea ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează ușoara inexactitate a senzorului real, astfel încât umiditatea măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul glisorului.
+**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
