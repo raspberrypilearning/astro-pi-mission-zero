@@ -13,7 +13,7 @@ We will announce the winning names for the new Astro Pi computers in spring 2022
 
 ### Vad du kommer att göra
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Here is an example of the kind of program you could make. Klicka på **Run** (Kör) för att se det köras. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- kollaps ---
 
