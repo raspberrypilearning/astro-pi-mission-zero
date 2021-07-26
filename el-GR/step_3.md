@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![εξομοιωτής sense hat](images/sense-hat-emulator2.png)
 
-Ο κώδικας αυτός συνδέεται στο Astro Pi και εξασφαλίζει ότι η οθόνη LED του Astro Pi εμφανίζεται στη σωστή κατεύθυνση. Αφήστε αυτόν τον κώδικα εκεί, γιατί θα τον χρειαστείτε.
+This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
 --- /task ---
 
 --- task ---
 
-Μήπως θέλετε να στείλετε έναν χαιρετισμό στους αστροναύτες στον Διεθνή Διαστημικό Σταθμό που εργάζονται κοντά στον Astro Pi; Ας κυλήσουμε ένα μήνυμα στην οθόνη.
+Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
 
 Προσθέστε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
 
@@ -43,31 +43,47 @@ sense.show_message("Astro Pi")
 Για να εμφανίσετε ένα διαφορετικό μήνυμα, μπορείτε να γράψετε ό,τι άλλο θέλετε μεταξύ των εισαγωγικών (`""`).
 
 --- collapse ---
+
 ---
 title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν;
 ---
 
-Το Sense HAT μπορεί να εμφανίσει μόνο το σύνολο χαρακτήρων Latin 1, που σημαίνει ότι διατίθενται μόνο οι ακόλουθοι χαρακτήρες. Οποιοσδήποτε άλλος χαρακτήρας θα εμφανίζεται ως `?`.
+The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
 
-    +-*/!"#$><0123456789.=)(
-    
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    
-    abcdefghijklmnopqrstuvwxyz
-    
-    ?,;:|@%[&_']\~
-    
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
 
 --- /collapse ---
 
 --- task ---
 
-Μπορείτε επίσης να αλλάξετε την ταχύτητα κύλισης του μηνύματος στην οθόνη. Προσθέστε την παράμετρο `scroll_speed` στη γραμμή κώδικα που έχετε ήδη, ως εξής:
+You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Η προεπιλεγμένη ταχύτητα του μηνύματος είναι `0.1`. Αν μειώσετε τον αριθμό, το μήνυμα θα κυλάει πιο γρήγορα. Αν τον αυξήσετε, το μήνυμα θα κυλάει πιο αργά.
+The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
 
 --- /task ---
+
+### Choose a name for the new Astro Pi computers
+
+--- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+
+For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+--- /task ---
+
+
+
