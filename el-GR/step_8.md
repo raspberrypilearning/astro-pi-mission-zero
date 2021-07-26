@@ -1,19 +1,20 @@
 ## Υποβολή της καταχώρησής σας
 
-Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σας, ώστε να μπορέσετε να τον υποβάλετε για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. Αν ο κώδικάς σας τους ακολουθεί, οι κανόνες στο κάτω μέρος του εξομοιωτή θα γίνουν πράσινοι, όταν τρέξετε το πρόγραμμα.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
 ![Επικύρωση](images/validation.png)
 
 1. Πραγματοποιήστε μια μέτρηση υγρασίας.
-2. Ενεργοποιήστε τις φωτεινές ενδείξεις LED
-3. Βεβαιωθείτε ότι ο κώδικάς σας εκτελείται μέχρι το τέλος χωρίς να εμφανιστούν σφάλματα. Δεν πρέπει να περιλάβετε κανένα βρόγχο επανάληψης `while True` γιατί αυτό θα κάνει τον κώδικά σας να εκτελείται συνέχεια και θα τον αποτρέπει από το να ολοκληρωθεί.
+1. Ενεργοποιήστε τις φωτεινές ενδείξεις LED
+1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Επίσης, βεβαιωθείτε ότι πληρούνται τα ακόλουθα κριτήρια:
 
 1. Βεβαιωθείτε πως το μήνυμά σας στους αστροναύτες δεν εμφανίζεται για παραπάνω από 30 δευτερόλεπτα καθώς τόσος θα είναι ο χρόνος εκτέλεσης του κώδικά σας στον Διεθνή Διαστημικό Σταθμό.
-2. Αποφύγετε τη χρήση μεθόδων που απαιτούν εισαγωγή
-3. Κάντε εισαγωγή μόνο από τις ενότητες `sense_hat`, `time` και `random`
-4. Βεβαιωθείτε ότι δεν χρησιμοποιείτε αισχρολογίες
+1. Αποφύγετε τη χρήση μεθόδων που απαιτούν εισαγωγή
+1. Κάντε εισαγωγή μόνο από τις ενότητες `sense_hat`, `time` και `random`
+1. Βεβαιωθείτε ότι δεν χρησιμοποιείτε αισχρολογίες
 
 Αν όλοι οι κανόνες είναι πράσινοι, μπορείτε να προχωρήσετε στην υποβολή.
 
@@ -27,7 +28,7 @@
 
 --- task ---
 
-Θα εμφανιστεί το όνομα του δασκάλου σας. Αν είναι το σωστό όνομα, κάντε κλικ στο κουμπί «**Continue to form**» (Συνέχεια στη φόρμα).
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Συνεχίστε στη φόρμα](images/continue-to-form.png)
 
@@ -35,13 +36,13 @@
 
 --- task ---
 
-Εισάγετε το όνομα της ομάδας σας και τα ονόματα των μελών της ομάδας. Τα ονόματα αυτά θα εκτυπωθούν στο πιστοποιητικό που θα λάβετε μόλις ο κώδικάς σας εκτελεστεί στο διάστημα, οπότε βεβαιωθείτε ότι τα έχετε γράψει σωστά!
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Πατήστε το κουμπί «**Submit**» (Υποβολή) για να υποβάλετε τον κώδικά σας. Ο δάσκαλος ή ο μέντοράς σας θα λάβει ένα email επιβεβαίωσης για την καταχώρησή σας.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
