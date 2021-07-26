@@ -12,7 +12,7 @@ picture = [
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, s,
     b, g, b, b, g, g, g, s,
-    b, g, g, g, s, s, g, s,
+    b, g, g, g, s, g, s, s,
     b, g, r, g, g, g, g, s,
     b, g, g, g, g, g, g, b,
     g, b, b, b, b, b, b, g
