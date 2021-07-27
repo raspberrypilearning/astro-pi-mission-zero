@@ -1,19 +1,22 @@
 ## Prikažite sliko
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Na matrici LED računalnika Astro Pi lahko prikažete slike. Morda želite, da bi vaš pozdrav astronavtov poleg ali namesto pisnega sporočila vseboval sliko ali vzorec?
 
 ![Astronavt](images/astronaut-pic.png)
 
 --- task ---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+Na dnu svojega programa določite nekaj barvnih spremenljivk za barve, ki jih želite uporabiti v svojih slikah. Uporabite lahko poljubno veliko barv, vendar bomo v tem primeru uporabili le nekaj barv - rdečo (`r`), belo (`w`), črno (`b`) in dva odtenka sive (`g` in `s`). Upoštevajte, da lahko odtenke dosežete odtenki z zmanjšanjem količine svetlobe v vseh treh kanalih, pri čemer ohranite enaki razmerji.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Opomba:** V tem primeru je barvnim spremenljivkam priporočljivo dodeliti imena, sestavljena iz le ene črke, saj vam bo to prihranilo čas v naslednjem koraku, ko jih boste morali večkrat natipkati. Poleg tega bo zaradi uporabe enojnih črk sliko lažje videti.
 
 --- /task ---
 
@@ -21,19 +24,19 @@ b = (0, 0, 0)
 
 
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
+Pod svojimi novimi spremenljivkami ustvarite seznam s 64 elementi. Vsak element predstavlja eno slikovno piko na matrici LED in ustreza eni izmed določenih barvnih spremenljivk. Svojo sliko narišete tako, da spremenljivko postavite na mesto, kjer želite, da se pojavi spremenljivki dodeljena barva. S črnimi (`b`) slikovnimi pikami na ozadju in belimi (`w`) slikovnimi pikami za kovinske dele ohišja smo narisali Astro Pi:
 
 ```python
  picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
 --- /task ---
 
@@ -55,7 +58,7 @@ Pritisnite **Run** (Zaženi), da bo vaša slika prikazana.
 
 --- task ---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Dodate lahko kodo, s katero po prikazu slike vključite kratek zamik (ali `sleep`). Tako bodo imeli astronavti več časa, da si ogledajo vašo sliko, preden se pojavi naslednji del vašega sporočila. Na vrhu programa dodajte:
 
 ```python
 from time import sleep
