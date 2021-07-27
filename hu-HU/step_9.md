@@ -2,7 +2,7 @@
 
 Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Ha elég magabiztosnak érzed magad, akár a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)ben is részt vehetsz! Állíts össze minimum két, maximum hat emberből álló csapatot, és dolgozzatok együtt igazi űrkutatókként a saját kísérletetek megtervezésén. Ingyenes számítógépes hardvert kapsz a küldetésedre, hogy megírhasd a Python kódot a kísérleted elvégzéséhez. Ha repülési státuszt érsz el, a kódodat feltöltjük a Nemzetközi Űrállomásra, és három órán keresztül fog futni az Astro Pi-on (kétszer körbekerüli a Földet). Minden adatot, amelyet a kódod gyűjt be az űrben — képek vagy az érzékelő adatfájljai — letöltünk és visszaküldjük neked elemzésre.
 
 Akár valamelyik másik Astro Pi projektünket is kipróbálhatod:
 
