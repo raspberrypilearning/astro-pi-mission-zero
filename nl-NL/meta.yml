@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Bereid je voor op Mission Zero
 listed: false
 copyedit: true
-version: 4.0.1
+version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
@@ -12,7 +12,7 @@ steps:
   - 
     title: Wat is een Astro Pi?
   - 
-    title: Toon een bericht
+    title: Toon een bericht en kies een naam voor de nieuwe Astro Pi computers
   - 
     title: Voeg wat kleur toe
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Meet de luchtvochtigheid
   - 
-    title: Geef de luchtvochtigheid weer
+    title: Reageer op de luchtvochtigheid
   - 
     title: Verstuur je inzending
   - 
