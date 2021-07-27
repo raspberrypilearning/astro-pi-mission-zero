@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 Appuie sur le bouton **Run** (Exécuter) et regarde le message `Astro Pi` défiler sur l'écran LED.
 
-![montrer le code du message cliquer run (exécuter)](images/show-message-code-annotated.PNG)
+![afficher le code du message cliquer run (exécuter)](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
