@@ -7,7 +7,7 @@ g = (0, 255,0) # groen
 s = (180,180,180) # zilver
 r = (255,0,0) # rood
 c = (66,220,240) # cyaan
-0 = (180,100,0) # oranje
+o = (180,100,0) # oranje
 b = (0,0,255) # blauw
 
 afbeelding = [
@@ -21,4 +21,4 @@ afbeelding = [
     b, b, b, b, b, c, c, c
     ]
     
-sense.set_pixels(picture)
+sense.set_pixels(afbeelding)
