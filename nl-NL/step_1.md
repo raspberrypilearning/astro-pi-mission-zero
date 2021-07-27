@@ -2,13 +2,13 @@
 
 Fleur de dagelijkse routine van de astronauten in het International Space Station op door hen een bericht en de relatieve luchtvochtigheid aan boord te laten zien met behulp van de Sense HAT van de Astro Pi-computer.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+De Mark II Astro Pi hardware is zo nieuw dat de computers nog geen naam hebben. Je kunt helpen kiezen hoe ze heten door mee te doen aan de wedstrijd "Geef de nieuwe Astro Pi computers een naam" en je favoriete naam op te nemen als onderdeel van je Mission Zero programma.
 
 Je gebruikt de online Sense HAT-emulator om je programma te maken, dus er is geen extra hardware nodig - alles gebeurt in een webbrowser.
 
 Je voltooide programma wordt in de ruimte uitgevoerd op het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma liep!
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+In het voorjaar van 2022 maken we de winnende namen voor de nieuwe Astro Pi computers bekend.
 
 
 ### Wat ga je maken
@@ -71,14 +71,14 @@ In welke taal heb je toegang gekregen tot de Mission Zero-richtlijnen?
 
 + Vul het formulier in en klik op **Submit (Verzenden)**\*.
 
-\* Please note that this registration form is available in English only.
+\* Let op dat dit registratieformulier alleen in het Engels beschikbaar is.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+De velden op het formulier bevatten:  
+Naam leraar/mentor   
+Teamnaam  
+Aantal teamleden  
+Namen en leeftijden van teamleden   
+In welke taal heb je toegang gekregen tot de Mission Zero richtlijnen?
 
 + Er wordt een Trinket-account voor je aangemaakt (als je er nog geen hebt, of je bent niet ingelogd). Je kunt één account aanmaken per e-mailadres. Elk account heeft zijn eigen **klassencode**, en je moet je team(s) vertellen welke dit is wanneer ze klaar zijn om hun programma's te verzenden.
 
@@ -88,4 +88,4 @@ In which language did you access the Mission Zero guidelines?
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Pixel volgen](https://code.org/api/hour/begin_raspberrypi_astropi.png)
