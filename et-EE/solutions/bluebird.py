@@ -21,4 +21,4 @@ pilt = [
     b, b, b, b, b, c, c, c
     ]
     
-sense.set_pixels(picture)
+sense.set_pixels(pilt)
