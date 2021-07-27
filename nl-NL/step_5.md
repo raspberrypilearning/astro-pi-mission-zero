@@ -6,7 +6,7 @@ Je kunt afbeeldingen op de LED-matrix van de Astro Pi weergeven. Misschien zou j
 
 --- task ---
 
-Onderaan je programma kun je enkele kleurvariabelen maken om de kleuren te definiëren waarmee je je afbeelding wilt tekenen. Je kunt zoveel kleuren gebruiken als je wilt, maar in dit voorbeeld blijven we bij slechts twee - wit (`w`) en zwart (`b`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+Onderaan je programma kun je enkele kleurvariabelen maken om de kleuren te definiëren waarmee je je afbeelding wilt tekenen. Je kunt zoveel kleuren gebruiken als je wilt, maar in dit voorbeeld blijven we bij slechts twee - wit (`w`) en zwart (`b`). Merk op dat de tinten worden bereikt door de hoeveelheid licht in alle drie de kanalen te verminderen terwijl de verhoudingen hetzelfde blijven.
 
 ```python
 w = (255, 255, 255)
@@ -42,7 +42,7 @@ b, w, w, w, w, w, w, b
 Voeg een coderegel toe om je afbeelding op het LED-display weer te geven.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(afbeelding)
 ```
 
 --- /task ---
