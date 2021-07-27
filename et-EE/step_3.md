@@ -1,4 +1,4 @@
-## Kuva sõnum
+## Kuva sõnum ja vali uutele Astro Pi arvutitele nimi
 
 --- task ---
 
