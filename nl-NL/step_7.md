@@ -1,4 +1,4 @@
-## Geef de luchtvochtigheid weer
+## Reageer op de luchtvochtigheid
 
 Je kunt je luchtvochtigheidsmeting combineren met een afbeelding om ook de luchtvochtigheid op een grafische manier aan te geven. Je kunt bijvoorbeeld een oceaan weergeven voor lage luchtvochtigheid en een woestijn voor hoge luchtvochtigheid:
 
@@ -55,21 +55,21 @@ droog = [
 Voeg wat code toe om de luchtvochtigheid te krijgen:
 
 ```python
-humid = sense.humidity
+vochtigheid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we de `wet` (natte) afbeelding weergeven als de luchtvochtigheidswaarde 40 % of meer is, en de `dry` (droge) afbeelding als de luchtvochtigheid lager is dan 40 %.
+Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we de `nat` afbeelding weergeven als de luchtvochtigheidswaarde 40 % of meer is, en de `droog` afbeelding als de luchtvochtigheid lager is dan 40 %.
 
 ```python
-humid = sense.humidity
-if humid >= 40:
-    sense.set_pixels(wet)
+vochtigheid = sense.get_humidity()
+if vochtigheid >= 40:
+    sense.set_pixels(nat)
 else:
-    sense.set_pixels(dry)
+    sense.set_pixels(droog)
 ```
 
 --- /task ---
