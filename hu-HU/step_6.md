@@ -58,4 +58,4 @@ A valódi Astro Pi a körülötte levő páratartalmat méri majd, de a Sense HA
 
 ![Páratartalom csúszka](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Megjegyzés:** Furcsa lehet, hogy a páratartalom-csúszka egy egész számként mutatja a páratartalmat, de a leolvasott érték egy tizedes tört lesz. Az emulátor a valódi érzékelő enyhe pontatlanságát szimulálja, úgyhogy a mért páratartalom, amit látsz, kicsit nagyobb vagy kisebb lehet annál az értéknél, amit a csúszkával állítottál be.
