@@ -13,7 +13,7 @@ We will announce the winning names for the new Astro Pi computers in spring 2022
 
 ### Vad du kommer att göra
 
-Here is an example of the kind of program you could make. Klicka på **Run** (Kör) för att se det köras. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Här är ett exempel på vilken typ av program du kan göra. Klicka på **Run** (Kör) för att se det köras. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- kollaps ---
 
@@ -23,12 +23,12 @@ Here is an example of the kind of program you could make. Klicka på **Run** (K�
 title: Vad du kommer att lära dig
 ---
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
+Du kommer att lära dig om Astro Pi enheten och hur man styr den, inklusive hur man:
 + visar meddelanden och färger
 + skapar bilder
 + mäter luftfuktigheten med hjälp av en Sense HAT
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Detta projekt omfattar element från följande rader av [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
 
 + [Använd grundläggande programmeringsstrukturer för att skapa enkla program](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
@@ -66,7 +66,7 @@ Fälten på formuläret inkluderar: Lärare / mentornamn Gruppens namn Antal del
 
 + Fyll i formuläret och klicka på **Skicka**\*.
 
-\* Please note that this registration form is available in English only.
+\* Observera att detta registreringsformulär endast är tillgängligt på engelska.
 
 The fields on the form include:  
 Teacher/mentor name   
