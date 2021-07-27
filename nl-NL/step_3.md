@@ -74,14 +74,14 @@ De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, 
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Kies een naam voor de nieuwe Astro Pi computers
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Als je wilt deelnemen aan de wedstrijd om de namen van de nieuwe Mark II Astro Pi computers te kiezen, begin je bericht dan met de woorden "Mijn naam zou moeten zijn" en voeg vervolgens jouw keuze uit deze lijst toe.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+Bijvoorbeeld, als jij wilt stemmen voor Ada Lovelace, zou je code er zo uit moeten zien:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message("Mijn naam zou Ada Lovelace moeten zijn")
 ```
 --- /task ---
 
