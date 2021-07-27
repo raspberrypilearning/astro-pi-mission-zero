@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![sense hat-i emulaator](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+See kood ühendub Astro Pi-ga ja tagab, et Astro Pi LED-ekraan kuvatakse õigesti. Jäta kood sinna, sest sul läheb seda vaja.
 
 --- /task ---
 
 --- task ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Võib-olla jätaksid toreda tervituse neile ISS-i astronautidele, kes töötavad Astro Pi läheduses? Kerime sõnumit tervel ekraanil.
 
 Lisa see rida teise koodi alla:
 
@@ -32,15 +32,15 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Vajuta **Run** (Käivita) nuppu ja vaata sõnumit `Astro Pi` LED-ekraanil.
+Vajuta **Käivita** nuppu ja vaata sõnumit `Astro Pi` LED-ekraanil.
 
 ![näita sõnumi koodi klõpsa käivita](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
-![Keriv sõnum](images/scroll-message.gif)
+![Sõnumi kerimine](images/scroll-message.gif)
 
-Teise sõnumi kuvamiseks kirjuta jutumärkide vahele, mida iganes sa soovid (`""`).
+Teistsuguse sõnumi kuvamiseks kirjuta jutumärkide vahele, mida iganes sa soovid (`""`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ Teise sõnumi kuvamiseks kirjuta jutumärkide vahele, mida iganes sa soovid (`""
 title: Milliseid tähemärke saab kasutada?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Sense HAT-iga saab kuvada ainult Latin 1 tähemärke, seetõttu saab kasutada ainult järgmisi tähemärke. Kõiki teisi tähemärke kuvataks nii `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,24 +64,24 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Samuti saad muuta ekraanil keritava sõnumi kiirust. Lisa `scroll_speed` olemasolevale koodireale, nagu näidatud:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Sõnumi kerimise vaikekiirus on `0.1`. Numbri vähendamine muudab sõnumi kerimise kiiremaks ja numbri suurendamine muudab selle aeglasemaks.
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Valige uutele Astro Pi arvutitele nimi
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Kui soovite uute Mark II Astro Pi arvutite nimevalimise konkursil osaleda, alustage oma sõnumit sõnadega "Minu nimi peaks olema" ja lisage seejärel valik sellest loetelust.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+Näiteks juhul, kui soovite hääletada Ada Lovelace'i poolt, näeks teie kood välja selline:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message("Minu nimi peaks olema Ada Lovelace")
 ```
 --- /task ---
 
