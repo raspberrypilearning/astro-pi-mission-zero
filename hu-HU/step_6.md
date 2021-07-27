@@ -1,6 +1,6 @@
 ## Mérd meg a páratartalmat!
 
-The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
+Az Astro Pi páratartalom-érzékelője képes a körülötte levő levegő páratartalmának mérésére. Ez egy hasznos funkció, amely segít az űrbeli viszonyokról szóló adatgyűjtésben.
 
 ![Üzenet a páratartalomról](images/degrees-message.gif)
 
@@ -15,7 +15,7 @@ A küldetésedhez tartozik a Nemzetközi Űrállomás legénységének napi éle
 Add hozzá ezt a kódot a páratartalom leolvasásához:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 Ez a sor az aktuális páratartalmat méri majd meg, és a `humid` változóban tárolja a mért értéket.
@@ -24,10 +24,10 @@ Ez a sor az aktuális páratartalmat méri majd meg, és a `humid` változóban 
 
 --- task ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+A páratartalom nagyon pontosan kerül rögzítésre, azaz a tárolt érték sok tizedesjegyet fog tartalmazni. Az értéket akárhány tizedesjegyre lekerekítheted. A példában egy tizedesjegyre kerekítettük le, de ha más szintű pontosságot szeretnél, változtasd meg az `1`-es számot arra számra, ahány tizedesjegyet szeretnél látni.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 Az aktuális páratartalom futó üzenetként való megjelenítéséhez add hozzá ezt a kódsort:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 A `str()` rész a páratartalmat számból szöveggé alakítja, hogy az Astro Pi meg tudja jeleníteni.
