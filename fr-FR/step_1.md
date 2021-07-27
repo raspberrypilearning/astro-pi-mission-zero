@@ -23,7 +23,7 @@ Voici un exemple du type de programme que tu peux créer. Clique sur **Run** (Ex
 title: Ce que tu vas apprendre
 ---
 
-Tu découvriras l'unité Astro Pi et apprendras à l'utiliser et à faire les actions suivantes :
+Tu découvriras l'Astro Pi et apprendras à l'utiliser et à faire les actions suivantes :
 + afficher des messages et ajouter des couleurs
 + créer des images
 + mesurer l'humidité à l'aide d'un Sense HAT
