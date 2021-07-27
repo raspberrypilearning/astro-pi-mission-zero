@@ -1,14 +1,14 @@
-sense_hat import SenseHat
-sense = SenseHat ()
+from sense_hat import SenseHat
+sense = SenseHat()
 sense.set_rotation(270)
-w = (255, 255, 255) # white
-x = (0, 0, 0) # black
-g = (0,255,0) # green
-s = (180,180,180) # silver
-r = (255,0,0) # red
-c = (66, 220, 240) # cyan
-o = (180,100,0) # orange
-b = (0, 0,255) # blue
+w = (255, 255, 255) # fehér
+x = (0, 0, 0) # fekete
+g = (0,255,0) # zöld
+s = (180,180,180) # szürke
+r = (255,0,0) # piros
+c = (66, 220, 240) # cián
+o = (180,100,0) # narancssárga
+b = (0, 0,255) # kék
 
 picture = [
     c, c, c, c, c, c, c, c,
