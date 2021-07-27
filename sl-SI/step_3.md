@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![Emulator Sense HAT](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Koda se poveže z računalnikom Astro Pi in poskrbi, da je zaslon LED računalnika Astro Pi prikazan pravilno. Kodo pustite, ker jo boste potrebovali.
 
 --- /task ---
 
 --- task ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Morda bi lahko pozdravili astronavte na ISS, ki delajo v bližini računalnika Astro Pi? Na zaslonu bomo prikazali premikajoče se sporočilo.
 
 Pod kodo dodajte to vrstico:
 
@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 Pritisnite gumb **Run** (Zaženi) in si oglejte, kako se sporočilo `Astro Pi` pomika po zaslonu LED.
 
-![show message code click run](images/show-message-code-annotated.PNG)
+![Prikaži kodo sporočila. Kliknite Run (Zaženi).](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
@@ -48,7 +48,7 @@ Da bi prikazali drugačno sporočilo, lahko med narekovaja (`""`) napišete kar 
 title: Katere znake lahko uporabite?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Emulator Sense HAT lahko prikaže le komplet znakov Latin 1, kar pomeni, da so na voljo le naslednji znaki. Vsi drugi znaki bodo prikazani kot `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,24 +64,24 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Spremenite lahko tudi hitrost, s katero se sporočilo pomika po zaslonu. Obstoječi kodi dodajte `scroll_speed`, kot je prikazano spodaj:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Privzeta hitrost sporočila je `0.1`. Če številko zmanjšate, se bo sporočilo pomikalo hitreje, če pa jo povečate, se bo sporočilo pomikalo počasneje.
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Izberite ime za nove računalnike Astro Pi
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Če se želite prijaviti na natečaj za izbiro imen novih računalnikov Mark II Astro Pi, začnite sporočilo z besedami "Moje ime naj bo" in dodajte vaše izbrano ime iz tega seznama.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+Če bi na primer želeli glasovati za Ado Lovelace, bi bila vaša koda videti tako:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message("Moje ime naj bo Ada Lovelace")
 ```
 --- /task ---
 
