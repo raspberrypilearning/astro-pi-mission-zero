@@ -1,19 +1,19 @@
 ## Uvod
 
-Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji, in jim s pomočjo računalnika Astro Pi in njegovega emulatorja Sense HAT, sporočite relativno vlažnost.
+Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji, in jim s pomočjo novega računalnika Astro Pi Mark II in njegovega emulatorja Sense HAT sporočite relativno vlažnost.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+Strojna oprema Mark II je tako nova, da računalniki še nimajo imen. Izberete lahko, kako se bodo imenovali, tako da se prijavite na natečaj "Poimenujte nove računalnike Astro Pi" in vključite svoje najljubše ime v svoj program za Mission Zero.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Za pisanje svojega programa boste uporabljali spletni emulator Sense HAT, zato dodatna strojna oprema ni potrebna – delo v celoti poteka v spletnem brskalniku.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Vaš program bo zagnan v vesolju na Mednarodni vesoljski postaji (angl. International Space Station ali ISS)! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program.
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+Zmagovalna imena za nove računalnike Astro Pi bomo objavili spomladi 2022.
 
 
 ### Kaj boste naredili?
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+To je primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 
@@ -23,12 +23,12 @@ Here is an example of the kind of program you could make. Click **Run** to see i
 title: Kaj se boste naučili?
 ---
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
+Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
 + prikazovanjem sporočil in barv,
 + ustvarjanjem slik,
-+ izmerite vlažnost s pomočjo emulatorja Sense HAT
++ merjenjem vlažnosti s pomočjo emulatorja Sense HAT
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ta projekt zajema elemente naslednjih sklopov [učnega načrta Raspberry Pi za digitalno ustvarjanje](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Uporaba osnovnih programskih konstruktov za pisanje enostavnih programov](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
@@ -56,31 +56,26 @@ title: Navodila za učitelje in mentorje
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupine z 2-4 člani, mi pa jih bomo vodili pri pisanju kratkega programa v programskem jeziku Python, s pomočjo katerega bodo na Astro Pi lahko prikazali osebno sporočilo in vlago zraka.
+
+Preberite [dokument z uradnimi smernicami](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} za Mission Zero.
+
+Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
+
++ Obiščite [stran emulatorja Trinket Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
+
++ Izpolnite obrazec in za pošiljanje kliknite **Submit**\*.
 
 \* Obrazec za registracijo je na voljo le v angleščini.
 
 Polja na obrazcu vključujejo:  
-Ime učitelja/mentorja  
+Ime učitelja/mentorja   
 Ime ekipe  
 Število članov ekipe  
 Imena in starost članov ekipe  
 V katerem jeziku ste dostopali do smernic Misije Zero?
 
-+ Obiščite [stran emulatorja Trinket Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
-
-+ Izpolnite obrazec in za pošiljanje kliknite **Submit**\*.
-
-\* Please note that this registration form is available in English only.
-
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
-
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Za vas bo ustvarjen račun Trinket (če ga še nimate ali niste prijavljeni). Na en e-poštni naslov lahko ustvarite en račun. Vsak račun ima svojo **kodo učilnice**, ki jo boste morali posredovati članom svojih skupin, ko bodo uporabili za pošiljanje svojih programov.
 
 + Kodo učilnice zapišite na vidno mesto, npr. na tablo ali jo projicirajte na platno, in začnite z aktivnostjo.
 
@@ -88,4 +83,4 @@ In which language did you access the Mission Zero guidelines?
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sledilni piksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
