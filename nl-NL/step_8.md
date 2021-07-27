@@ -1,6 +1,6 @@
 ## Verstuur je inzending
 
-Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze volgt, lichten de regels onder aan de emulator groen op wanneer je het programma uitvoert.
+Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze volgt, lichten de regels onder aan de [Sense HAT emulator](https://trinket.io/mission-zero) groen op wanneer je het programma uitvoert.
 
 ![Bevestiging](images/validation.png)
 
@@ -20,9 +20,9 @@ Zodra de regels allemaal groen zijn, ben je klaar om te verzenden.
 
 --- task ---
 
-Voer je klassencode in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
+Voer je klascode in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
 
-**Opmerkingen voor leraren of mentoren** zijn te vinden in de [Inleiding](https://projects.raspberrypi.org/nl-NL/projects/astro-pi-mission-zero/1) stap.
+**Opmerkingen voor leraren of mentoren** zijn te vinden in de [Inleiding](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
 
 --- /task ---
 
@@ -42,7 +42,7 @@ Voer je teamnaam en de namen van de teamleden in. Deze worden op het certificaat
 
 --- task ---
 
-Druk op **Submit** (Verzenden) knop om je code in te voeren. Je leraar of mentor ontvangt een e-mail om je verzending te bevestigen.
+Druk op **Submit** (Verzenden) knop om je code in te zenden. Je leraar of mentor ontvangt een e-mail om je verzending te bevestigen.
 
 --- /task ---
 
