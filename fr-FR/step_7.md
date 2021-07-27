@@ -1,12 +1,12 @@
-## Afficher l'humidité
+## Réagir à l'humidité
 
-Tu peux combiner ta mesure d'humidité avec une image pour aussi indiquer l'humidité d'une manière graphique. Par exemple, tu peux afficher un océan pour une humidité élevée, et un désert pour une faible humidité :
+Tu peux combiner ton relevé d'humidité avec une image pour indiquer également l'humidité d'une manière graphique. Par exemple, tu peux afficher un océan pour une humidité élevée, et un désert pour une faible humidité :
 
 ![Humide et sec](images/wet-dry.png)
 
 --- task ---
 
-En bas de ton programme, crée d'autres variables pour les couleurs que tu veux utiliser pour dessiner tes images. Tu en as peut-être déjà défini certaines lors d'une étape précédente.
+Au bas de ton programme, crée d'autres variables de couleur pour toutes les couleurs que tu souhaites utiliser dans tes images. Tu en as peut-être déjà défini certaines lors d'une étape précédente.
 
 ```python
 o=(255,130,0)
@@ -52,20 +52,20 @@ dry = [
 
 --- task ---
 
-Ajoute du code pour obtenir l'humidité :
+Ajoute du code pour obtenir l'humidité :
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Décide maintenant quelle image tu veux afficher. Pour cet exemple, nous afficherons l'image `humide` si la lecture de l'humidité est de 40% ou plus, et l'image `sec` si l'humidité est inférieure à 40%.
+Décide maintenant quelle image tu veux afficher. Pour cet exemple, nous afficherons l'image `wet` (humide) si la lecture de l'humidité est de 40 % ou plus, et l'image `dry` (sec) si l'humidité est inférieure à 40 %.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -86,6 +86,6 @@ Modifie ton code pour que ton programme affiche l'humidité pour les astronautes
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+Teste ton code avec quelques réglages d'humidité différents (à l'aide du curseur) pour t'assurer qu'il fonctionne toujours correctement. Si tu as suivi l'exemple ci-dessus, une image est-elle affichée à la fois lorsque l'humidité est réglée à une valeur inférieure à 40 % et aussi quand elle est réglée à plus de 40 % ?
 
 --- /task ---
