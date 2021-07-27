@@ -1,4 +1,4 @@
-## Toon een bericht
+## Toon een bericht en kies een naam voor de nieuwe Astro Pi computers
 
 --- task ---
 
@@ -64,10 +64,10 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-Je kunt ook de snelheid van het bericht veranderen dat over het scherm scrolt. Voeg een `scroll_speed` (scroll_snelheid) toe aan de regel met code die je al hebt, zoals deze:
+Je kunt ook de snelheid veranderen van het bericht dat over het scherm scrolt. Voeg een `scroll_speed` (scroll_snelheid) toe aan de regel met code die je al hebt, zoals deze:
 
 ```python
-sense.show_message("Astro Pi", scroll_speed = 0.05)
+sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
 De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, scrolt het bericht sneller en door het groter te maken, scrolt het bericht langzamer.
