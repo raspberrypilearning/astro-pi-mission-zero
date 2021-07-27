@@ -10,11 +10,11 @@ Oma programmi alaosas saad luua rohkem värvimuutujaid määramaks piltide jooni
 
 ```python
 o=(255,130,0)
-m=(0,0,255)
-t=(0,150,255)
+b=(0,0,255)
+c=(0,150,255)
 e=(80,80,80)
-r=(0,255,0)
-k=(255 255,0)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
