@@ -6,14 +6,14 @@ Pilte saad kuvada Astro Pi LED-maatriksil. Võib-olla võiks sinu tervitus astro
 
 --- task ---
 
-Oma programmi alaosas saad luua värvimuutujaid määramaks piltide joonistamisel kasutatavaid värve. Võid kasutada nii palju värve kui soovid, aga selles näites kasutame vaid mõnd — punane (`p`), valge (`v`), must (`m`) ja kaks halli tooni (`h` ja `a`). Pane tähele, et toonid saavutatakse valguse vähendamise tulemusena kõigis kolmes kanalis, ent proportsioone ei muudeta.
+Oma programmi alaosas saad luua värvimuutujaid määramaks piltide joonistamisel kasutatavaid värve. Võid kasutada nii palju värve kui soovid, aga selles näites kasutame vaid mõnd — red (`r`), white (`w`), black (`b`) ja kaks grey tooni (`g` ja `s`). Pane tähele, et toonid saavutatakse valguse vähendamise tulemusena kõigis kolmes kanalis, ent proportsioone ei muudeta.
 
 ```python
-v = (255, 255, 255)
-m = (0, 0, 0)
-h = (50,50,50)
-a = (200)
-p = (255,0,0)
+w = (255, 255, 255)
+b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Märkus:** Seekord oleks hea mõte anda värvi muutujatele ühetähelised nimetused, sest see hoiab järgmises etapis aega kokku, kuna neid on sul vaja kirjutada palju kordi. Lisaks teeb ühetäheliste nimetuste kasutamine joonistatud pildi vaatamise hõlpsamaks.
@@ -24,10 +24,10 @@ p = (255,0,0)
 
 
 
-Oma uute muutujate alla tee 64-st elemendist koosnev loend. Iga element kujutab ühte pikslit LED-maatriksil ja vastab ühele sinu määratud värvimuutujale. Joonista oma pilt pannes muutuja sinna, kus soovid kasutada sellega määratud värvi. Meie joonistasime Astro Pi kasutades musta värvi (`m`) piksleid tausta määramiseks ja halli värvi (`h`) piksleid Astro Pi lennukikohvri metallosade joonistamiseks:
+Oma uute muutujate alla tee 64-st elemendist koosnev loend. Iga element kujutab ühte pikslit LED-maatriksil ja vastab ühele sinu määratud värvimuutujale. Joonista oma pilt pannes muutuja sinna, kus soovid kasutada sellega määratud värvi. Meie joonistasime Astro Pi kasutades musta värvi (`b`) piksleid tausta määramiseks ja halli värvi (`g`) piksleid Astro Pi lennukikohvri metallosade joonistamiseks:
 
 ```python
- picture = [
+ pilt = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, g,
