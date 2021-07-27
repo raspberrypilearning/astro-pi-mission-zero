@@ -12,6 +12,6 @@ Soovi korral võid proovida ka teistsugust Astro Pi projekti:
 
 + Loo mäng [Lehviv astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Esita oma sõpradele väljakutse mänguga [marble maze](https://projects.raspberrypi.org/et-EE/projects/sense-hat-marble-maze){:target="_blank"} (marmorist labürint)
++ Esita oma sõpradele väljakutse mänguga [marmorlabürint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Taasloo mänguklassika [Pong](https://projects.raspberrypi.org/et-EE/projects/sense-hat-pong){:target="_blank"}
++ Taasloo mänguklassika [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
