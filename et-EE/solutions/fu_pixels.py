@@ -7,7 +7,7 @@ g = (50,50,50)
 s = (180,180,180)
 r = (255,0,0)
 
-picture = [
+pilt = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, s,
@@ -18,4 +18,4 @@ picture = [
     g, b, b, b, b, b, b, g
     ]
     
-sense.set_pixels(picture)
+sense.set_pixels(pilt)
