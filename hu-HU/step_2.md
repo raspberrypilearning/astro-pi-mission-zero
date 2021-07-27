@@ -1,18 +1,18 @@
 ## Mi az az Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space. It also has an add-on board called the Sense HAT, made specifically for the Astro Pi mission. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, and orientation.
+Az Astro Pi egy Raspberry Pi számítógép egy olyan burkolatban, amelyet kifejezetten az űrbeli körülményekre terveztek. Egy Sense HAT nevű kiegészítő alkatrész is van hozzá, amely kifejezetten az Astro Pi küldetéshez készült. A Sense HAT-nek van egy joystickje, egy LED-kijelzője és a fényviszonyok, hőmérséklet, páratartalom, nyomás és irány rögzítésére alkalmas érzékelője.
 
-Here is an original Mark I Astro Pi unit on the International Space Station, running some code written by students. Your code will eventually be run on a new version of Astro Pi computers!
+Itt van egy igazi 1-es jelzésű Astro Pi egység a Nemzetközi Űrállomáson, éppen a diákok által írt kód fut rajta. A te kódod majd egy újabb verziójú Astro Pi számítógépen fog futni!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Ehhez a küldetéshez a Sense HAT emulátort használod majd. Az emulátor egy olyan szoftver, amely az Astro Pi összes funkcióját szimulálja a webböngésződben.
 
-![Sense HAT emulator.](images/sense-hat-emulator.png)
+![Sense HAT emulátor.](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Azonban van néhány különbség az igazi és az emulált Sense HAT között:
 
-- Az emulátoron saját magad állíthatod be a hőmérsékletet, nyomást és a páratartalmat csúszkák használatával, azonban az igazi Sense HAT az Astro Pi-ban érzékelőket használ ezeknek a paramétereknek a mérésére környezetében.
+- Az emulátoron saját magad állíthatod be a fény színét, a hőmérsékletet, a nyomást és a páratartalmat csúszkák használatával, azonban az igazi Sense HAT az Astro Pi-ban érzékelőket használ ezeknek a paramétereknek a mérésére környezetében.
 
 - Kattints rá és húzd el az egérrel az emulált Sense HAT-et, hogy elmozgasd és elforgasd, ezáltal szimulálva az irányában beálló változásokat; az igazi Astro Pi (és a Sense HAT) a való világban elmozdulhat, és a Sense HAT irányérzékelői észlelik, hogyan és mikor mozdult el.
