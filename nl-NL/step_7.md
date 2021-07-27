@@ -24,7 +24,7 @@ y=(255,255,0)
 Teken net als eerder je afbeeldingen door eerst een lijst voor elk van deze te maken en vervolgens de lijstitems in te stellen op de kleuren die je wilt dat je pixels zijn.
 
 ```python
-wet = [
+nat = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wet = [
 ]
 
 
-dry = [
+droog = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -86,6 +86,6 @@ Wijzig je code zodat je programma de luchtvochtigheid op je eigen gekozen manier
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Test je code met een paar verschillende vochtigheidsinstellingen (met behulp van de schuifregelaar) om er zeker van te zijn dat deze altijd correct werkt. Als je het bovenstaande voorbeeld hebt gevolgd, wordt er dan een afbeelding weergegeven wanneer de luchtvochtigheid is ingesteld op een waarde van minder dan 40% en ook wanneer deze is ingesteld op meer dan 40%?
 
 --- /task ---
