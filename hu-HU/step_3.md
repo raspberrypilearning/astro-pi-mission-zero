@@ -1,8 +1,8 @@
-## Jeleníts meg egy üzenetet!
+## Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek!
 
 --- task ---
 
-Nyisd meg a MIssion Zero projekthez tartozó [Sense HAT emulátort](https://trinket.io/mission-zero){:target="_blank"}.
+Nyisd meg a Mission Zero projekthez tartozó [Sense HAT emulátort](https://trinket.io/mission-zero){:target="_blank"}.
 
 Látni fogod, hogy három kódsort már automatikusan hozzáadtunk neked:
 
@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![sense hat emulátor](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Ez a kód az Astro Pi-hoz kapcsolódik, és biztosítja, hogy az Astro Pi LED kijelzője a helyes irányba mutat. Hagyd meg a kódot, mert szükséged lesz rá!
 
 --- /task ---
 
 --- task ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Akár egy kedves üzenetet is hagyhatsz a Nemzetközi Űrállomás űrhajósainak, akik az Astro Pi közelében dolgoznak! Futtassunk egy üzenetet a kijelzőn keresztül.
 
 Írd be ezt a sort a többi kód alá:
 
@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Kattints a **Run** (Futtatás) gombra, és figyeld, hogy fut az `Astro Pi` üzenet keresztül a LED kijelzőn!
 
-![üzenet kód megmutatása kattints futtatás](images/show-message-code-annotated.PNG)
+![üzenet megjelenítéséhez kattints a futtatásra](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
 ![Képernyőn átfutó üzenet](images/scroll-message.gif)
 
-Egy másik üzenet megjelenítéséhez írj be az idézőjelek (`""`) közé bármit, amit szeretnél .
+Egy másik üzenet megjelenítéséhez írj be az idézőjelek (`""`) közé bármit, amit szeretnél.
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ Egy másik üzenet megjelenítéséhez írj be az idézőjelek (`""`) közé bá
 title: Milyen karaktereket lehet használni?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+A Sense HAT csak a Latin 1-es karakterkészletet tudja megjeleníteni, ami azt jelenti, hogy csak a lentebb látható karakterek lesznek elérhetők. Minden más karakter `?`-ként jelenik majd meg.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,21 +64,21 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Az üzenet képernyőn való végigfutásának sebességét is megváltoztathatod. Add a `scroll_speed` paramétert a kódsorodhoz, valahogy így:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Az üzenet alapértelmezett sebessége `0.1`. Ha kisebb számot írsz be, az üzenet gyorsabban fut majd, a nagyobb számok pedig lelassítják az üzenetet.
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Válassz nevet az új Astro Pi számítógépeknek
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Ha szeretnél részt venni a 2-es jelzésű Astro Pi számítógépek elnevezési versenyében, kezdd az üzenetet így: "My name should be " (Legyen a nevem ...), aztán add hozzá a kiválasztott nevedet az alábbi listából.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+Például ha Ada Lovelace-ra szeretnél szavazni, akkor így nézzen ki a kódod:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
