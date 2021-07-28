@@ -1,14 +1,14 @@
 ## Introducción
 
-Alegra la rutina diaria de los astronautas en la Estación Espacial Internacional mostrándoles un mensaje y la humedad relativa a bordo, usando el Sense HAT de la computadora Astro Pi.
+Alegra la rutina diaria de los astronautas en la Estación Espacial Internacional mostrándoles un mensaje y la humedad relativa a bordo, usando el nuevo Sense HAT de la computadora Astro Pi Mark II.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+El hardware Mark II Astro Pi es tan nuevo que las computadoras ni siquiera tienen nombres todavía. Puedes ayudar a elegir cómo se llamarán participando en la competencia "Nombra las nuevas computadoras Astro Pi" e incluyendo tu nombre favorito como parte de tu programa Mission Zero.
 
-¡Tu programa finalizado será ejecutado en el espacio en la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código!
+Utilizarás el emulador Sense HAT en línea para crear tu programa, por lo que no se necesita hardware adicional; todo se hace en un navegador web.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+¡Tu programa completo se ejecutará en el espacio en la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica en dónde exactamente estaba la ISS cuando se ejecutó tu código.
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+Anunciaremos los nombres de los ganadores de las nuevas computadoras Astro Pi en la primavera de 2022.
 
 
 ### Lo que harás
@@ -40,11 +40,11 @@ Este proyecto incluye elementos de los siguientes aspectos del [Currículo de cr
 title: Lo que vas a necesitar
 ---
 
-### Hardware
+### Equipo
 
-+ Un ordenador con conexión a Internet
++ Cualquier computadora con conexión a internet
 
-### Software
+### Programas
 
 + Un navegador web (p. ej., Google Chrome) para abrir [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
@@ -60,27 +60,22 @@ Esta actividad puede completarse en una tarde. Divide a tus estudiantes en equip
 
 \* Ten en cuenta que este formulario de registro solo está disponible en inglés.
 
-Los campos del formulario incluyen:  
-Nombre del maestro / mentor  
-Nombre del equipo  
-Número de miembros del equipo  
-Nombres y edades de los miembros del equipo  
-¿En qué idioma accediste a las directrices de Mission Zero?
+Necesitarás registrarte en el desafío Mission Zero para que tu(s) equipo(os) puedan participar.
 
 + Visita la [página del emulador de Trinket Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Rellena el formulario y haz clic en **Submit**\*.
 
-\* Please note that this registration form is available in English only.
+\* Ten en cuenta que este formulario de registro solo está disponible en inglés.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Los campos del formulario incluyen:  
+Nombre del maestro / mentor   
+Nombre del equipo  
+Número de miembros del equipo  
+Nombres y edades de los miembros del equipo  
+¿En qué idioma accediste a las directrices de Mission Zero?
 
-+ Se creará una cuenta de Trinket para ti (si aún no tienes una, o no has iniciado sesión). Puedes crear una cuenta por cada dirección de correo electrónico. Cada cuenta tiene su propio **código de clase**, y necesitarás darle el tuyo a tu equipo(s) cuando estén listos para enviar sus programas.
++ Se creará una cuenta de Trinket para ti (si aún no tienes una, o no has iniciado sesión). Puede crear una cuenta por dirección de correo electrónico. Cada cuenta tiene su propio **código de clase**, y necesitarás darle el tuyo a tu equipo(s) cuando estén listos para enviar sus programas.
 
 + Indica tu código de clase en un lugar visible como, por ejemplo, en una pizarra o proyector, y comienza la actividad.
 
@@ -88,4 +83,4 @@ In which language did you access the Mission Zero guidelines?
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Píxel de seguimiento](https://code.org/api/hour/begin_raspberrypi_astropi.png)
