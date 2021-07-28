@@ -15,7 +15,7 @@ Een deel van je missie is het bijdragen tot het dagelijkse leven van de bemannin
 Voeg deze code toe om een vochtigheidsmeting te doen:
 
 ```python
-humid = sense.humidity
+humid = sense.humidity()
 ```
 
 Deze lijn meet de huidige vochtigheid en slaat de meetwaarde op in de variabele `humid`.
@@ -27,7 +27,7 @@ Deze lijn meet de huidige vochtigheid en slaat de meetwaarde op in de variabele 
 The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 Om de actuele vochtigheid te tonen als een scrollende boodschap op het scherm, voeg je deze codelijn toe:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 Het `str()` deel zet de vochtigheid om van een nummer naar tekst zodat de Astro Pi het kan laten zien.
