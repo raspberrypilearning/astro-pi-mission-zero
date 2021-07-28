@@ -13,7 +13,7 @@ w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Opmerking:** Deze keer is het een goed idee om de kleurvariabelen namen met één letter te geven, omdat dit tijd zal besparen in de volgende stap, waar je ze vaak zal moeten typen. Bovendien maakt het gebruik van aparte letters het eenvoudiger om de tekening die je maakt te zien.
 
 --- /task ---
 
@@ -21,7 +21,7 @@ b = (0, 0, 0)
 
 
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
+Onder je nieuwe variabelen, maak je een lijst van 64 items. Elk item stelt een pixel op de LED-matrix voor en komt overeen met één van de kleurvariabelen die je definieerde. Maak je tekening door een variabele te zetten op de plaats waar je de daaraan toegewezen kleur wil zien verschijnen. We hebben een Astro Pi getekend door de zwarte (`b`) pixels als achtergrond te gebruiken en de grijze (`g`) pixels om de metalen onderdelen van het Astro Pi-omhulsel te tekenen:
 
 ```python
  picture = [
@@ -55,7 +55,7 @@ Druk op **Run** om je tekening te zien verschijnen.
 
 --- task ---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Misschien wil je een code toevoegen om een korte wachttijd toe te voegen (or `sleep`) nadat de tekening getoond wordt. Dit geeft de astronauten de tijd om je tekening te zien voor het volgende deel van je boodschap verschijnt. Voeg dit bovenaan je programma toe:
 
 ```python
 from time import sleep
