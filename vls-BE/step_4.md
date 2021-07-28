@@ -8,13 +8,13 @@ Je kunt hier leren hoe alle kleuren te definiëren door gebruik te maken van ver
 
 --- task ---
 
-Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
+Kies een kleur en zoek de RGB-waarde van die kleur. Je kunt een [kleurenkiezer](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} gebruiken om je te helpen.
 
 --- /task ---
 
 --- task ---
 
-Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
+Definieer een variabele om je gekozen kleur op te slaan. Als je bijvoorbeeld rood koos, schrijf je deze code-regel:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+Je kan de tekst nu weergeven in de kleur van jouw keuze! Om het programma te laten weten dat het de kleur die je maakte moet gebruiken, voeg je een `text_colour` parameter toe aan de code die je tekst weergeeft:
 
 ```python
 red = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+Je kan de achtergrondkleur van het scherm ook aanpassen. Kies een andere kleur en maak een andere variabele om die kleur op te slaan. Om het programma te laten weten dat het de door jouw gekozen achtergondkleur moet gebruiken, voeg je de `back_colour` parameter toe aan je code:
 
 ```python
 red = (255,0,0)
