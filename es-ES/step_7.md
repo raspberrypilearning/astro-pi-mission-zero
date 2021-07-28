@@ -55,7 +55,7 @@ seco = [
 Añade algo de código para obtener la humedad:
 
 ```python
-humedad = sense.humidity
+humedad = sense.get_humidity()
 ```
 
 --- /task ---
@@ -76,7 +76,7 @@ else:
 
 --- task ---
 
-Usa el control deslizante de la humedad para establecer una determinada humedad en el emulador. Ejecuta tu programa y comprueba que la imagen que has seleccionado para dicha humedad sea correctamente visualizada.
+Usa el control deslizante de la humedad para establecer una determinada humedad en el emulador. Ejecuta tu programa y comprueba que la imagen que has seleccionado para dicha humedad se visualice correctamente.
 
 --- /task ---
 
@@ -86,6 +86,6 @@ Cambia tu código de forma que tu programa muestre la humedad a los astronautas 
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Prueba tu código con algunas opciones diferentes de humedad (usando el deslizador) para asegurarte de que siempre funciona correctamente. Si ha seguido el ejemplo anterior, ¿se muestra una imagen cuando la humedad se ajusta a un valor inferior al 40% y también cuando se fija a más del 40%?
 
 --- /task ---
