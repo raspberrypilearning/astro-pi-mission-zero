@@ -2,18 +2,18 @@
 
 Fleur de dagelijkse routine van de astronauten in het internationale ruimtestation op door hun een boodschap en de relatieve luchtvochtigheid te laten zien aan boord door gebruik te maken van de Astro Pi computer's Sense Hat.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+De Mark II hardware van Astro Pi is zo nieuw dat de computers zelfs nog geen namen hebben. Je kan helpen kiezen hoe ze genoemd zullen worden door deel te nemen aan de "Geef de Astro Pi-computers een naam" wedstrijd en je favoriete naam als deel van je Mission Zero-programma op te nemen.
 
 Je voltooide programma zal in de ruimte werken in het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat dat laat zien waar het ISS precies was toen jouw programma aan het werken was!
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Je afgewerkte programma zal in de ruimte werken op het internationaal ruimtestation (ISS)! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+We zullen de winnende namen voor de nieuwe Astro Pi-computers in de lente van 2022 bekend maken.
 
 
 ### Wat je gaat maken
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Hier is een voorbeeld van het soort programma dat je kan maken. Klik **Run** om het in actie te zien. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 
@@ -23,12 +23,12 @@ Here is an example of the kind of program you could make. Click **Run** to see i
 title: Wat je zal leren
 ---
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
+Je zal van alles te weten komen over de Astro Pi-unit, hoe je die kan besturen en ook nog:
 + hoe je boodschappen en kleuren kan tonen
 + hoe je beelden kan ontwerpen
 + Hoe je de vochtigheid kan meten met een Sense HAT
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Gebruik basis programmeerconstructies om eenvoudige programma's te ontwerpen](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
@@ -56,7 +56,7 @@ title: Aantekeningen voor leraars en mentors
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Deze activiteit kan afgewerkt worden in een namiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 \*Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
 
