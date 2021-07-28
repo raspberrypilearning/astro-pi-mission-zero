@@ -2,16 +2,16 @@
 
 Nu dat je de missie hebt afgerond, waarom niet meer projecten uitproberen door gebruik te maken van de andere sensors op de Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Als je je zelfzeker voelt, kan je deelnemen aan [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Stel een team samen van twee tot zes personen en werk samen zoals echte ruimtewetenschappers om je eigen experiment te ontwerpen. Ontvang gratis computer-hardware voor je missie en schrijf de Python-code om je experiment uit te voeren. Als je een vluchtstatus krijgt, zal je code naar het internationaal ruimtestation geüpload worden en gedurende drie uur werken op de Astro Pi (twee banen). Alle gegevens die je code in de ruimte verzamelt - gegevensbestanden met beeld of sensoren - zullen gedownload worden en aan jou bezorgd worden om te analyseren.
 
 Een andere mogelijkheid is dat je misschien een van onze andere Astro Pi projecten wilt uitproberen:
 
-+ Leer [meer over de Sense HAT](https://projects.raspberrypi.org/vls-BE/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
++ Kom [ meer te weten over de Sense HAT ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
 
-+ Maak wat mooie [random sparkles](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-random-sparkles){:target="_blank"} op het Sense HAT's led-kleurenbeeldscherm
++ Maak wat mooie [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op het led-scherm van de Sense HAT
 
-+ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/vls-BE/projects/flappy-astronaut){:target="_blank"} spel
++ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} spel
 
-+ Daag je vrienden uit met een [marble maze](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-marble-maze){:target="_blank"} spel
++ Daag je vrienden uit met een [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spel
 
-+ Reconstrueer het klassieke spel van [Pong](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-pong){:target="_blank"}
++ Reconstrueer het klassieke spel van [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
