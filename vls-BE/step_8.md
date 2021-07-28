@@ -5,7 +5,7 @@ There are a few rules your code needs to follow so that you can submit it to be 
 ![Valideren](images/validation.png)
 
 1. Doe een vochtigheidsmeting.
-1. De LED's laten oplichten
+1. De LED's laten oplichten.
 1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
 1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
@@ -22,7 +22,7 @@ Zodra de regels allemaal groen zijn, ben je klaar om in te dienen.
 
 Vul je klascode in het vakje onderaan in - je leraar of mentor zal je vertellen wat je code is.
 
-**Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/vls-BE/projects/astro-pi-mission-zero/1) stap.
+**Opmerkingen voor leraars of mentors** kunnen gevonden worden in de [Introductie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) stap.
 
 --- /task ---
 
@@ -36,13 +36,13 @@ Your teacher's name will appear. If it is the right name, click on the green **C
 
 --- task ---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Typ de naam van je team en de namen van de teamleden. Deze worden afgedrukt op het certificaat nadat je code in de ruimte werkte, dus zorg ervoor dat je ze juist spelt!
 
 --- /task ---
 
 --- task ---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Druk op de **Submit** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
 
 --- /task ---
 
