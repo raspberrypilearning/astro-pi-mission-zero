@@ -6,7 +6,7 @@ Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en 
 
 --- task ---
 
-En la parte inferior de tu programa, crea algunas variables de color que definan los colores que deseas usar en la imagen. Puedes usar tantos colores como quieras. En este ejemplo solamente hemos usado dos: blanco (`w`) y negro (`b`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+En la parte inferior de tu programa, crea algunas variables de color que definan los colores que deseas usar en la imagen. Puedes usar tantos colores como quieras. En este ejemplo solamente hemos usado dos: blanco (`w`) y negro (`b`). Ten en cuenta que las sombras se logran reduciendo la cantidad de luz en los tres canales manteniendo las proporciones iguales.
 
 ```python
 w = (255, 255, 255)
