@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 --- task ---
 
-Verander de begroetingstekst en -kleur — welke boodschap zul je naar de astronauten aan boord het ISS sturen?
+Verander de begroetingstekst en -kleur — welke boodschap zal je naar de astronauten aan boord het ISS sturen?
 
 --- /task ---
