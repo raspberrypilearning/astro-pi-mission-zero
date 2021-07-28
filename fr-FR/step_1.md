@@ -71,7 +71,7 @@ Vous devrez vous inscrire au défi Mission Zéro pour permettre à votre ou vos 
 Les champs du formulaire incluent :  
 Nom de l'enseignant/mentor    
 Nom d'équipe  
-Nombre de membres de l'équipe  
+Nombre des membres de l'équipe  
 Noms et âges des membres de l'équipe  
 Dans quelle langue avez-vous consulté les directives de Mission Zero ?
 
