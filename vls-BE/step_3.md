@@ -1,4 +1,4 @@
-## Laat een boodschap zien
+## Laat een boodschap zien en kies een naam voor de nieuwe Astro Pi-computers
 
 --- task ---
 
@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense Hat emulator](images/sense-hat-emulator2.png)
+![sense hat emulator](images/sense-hat-emulator2.png)
 
 This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Druk op de **Run** knop en zie de boodschap `Astro Pi` scrollen op het led-kleurenbeeldscherm.
+Druk op de **Run** knop en zie de boodschap `Astro Pi` scrollen op het LED-scherm.
 
 ![laat de boodschapcode zien klik op run](images/show-message-code-annotated.PNG)
 
@@ -45,7 +45,7 @@ Om een andere boodschap te tonen, kun je schrijven wat je wil tussen de aanhalin
 --- collapse ---
 
 ---
-title: Welke tekens kunnen worden gebruikt?
+titel: Welke tekens kunnen worden gebruikt?
 ---
 
 The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
