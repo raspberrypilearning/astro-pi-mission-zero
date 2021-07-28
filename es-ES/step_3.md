@@ -14,7 +14,7 @@ sense.set_rotation(270)
 
 ![emulador sense hat](images/sense-hat-emulator2.png)
 
-Este código se conecta al Astro Pi y se asegura que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
+Este código se conecta al Astro Pi y se asegura de que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
 
 --- /task ---
 
@@ -74,14 +74,14 @@ La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Elije un nombre para las nuevas computadoras Astro Pi
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Si quieres entrar en la competencia para elegir los nombres de los nuevos ordenadores Mark II Astro Pi, comienza tu mensaje con las palabras "Mi nombre debería ser" y luego añade tu selección de esta lista.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+Por ejemplo, si quieres votar por Ada Lovelace, tu código se vería así:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message ("Mi nombre debería ser Ada Lovelace")
 ```
 --- /task ---
 
