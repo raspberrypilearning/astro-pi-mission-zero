@@ -37,7 +37,7 @@ Dit project omvat elementen van de volgende onderdelen [Raspberry Pi Digital Mak
 --- collapse ---
 
 ---
-title: Wat je nodig hebt
+titel: Wat je nodig hebt
 ---
 
 ### Hardware
@@ -52,20 +52,15 @@ title: Wat je nodig hebt
 
 --- collapse ---
 ---
-title: Aantekeningen voor leraars en mentors
+titel: Aantekeningen voor leraars en mentors
 ---
 
 
 Deze activiteit kan afgewerkt worden in een namiddag. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
-\*Opmerking: het registratieformulier is enkel beschikbaar in het Engels.
+Lees het [officiële document met richtlijnen](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero.
 
-De velden op het formulier zijn:  
-Naam leraar/mentor  
-Naam van het team  
-Aantal teamleden  
-Namen en leeftijden van de teamleden  
-In welke taal las je de richtlijnen voor Mission Zero?
+Je moet inschrijven voor de Mission Zero-uitdaging om je team(s) te laten deelnemen.
 
 + Ga naar de [Trinket emulator Misson Zero pagina](https://trinket.io/mission-zero){:target="blank"}.
 
@@ -82,7 +77,7 @@ In which language did you access the Mission Zero guidelines?
 
 + A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
-+ Laat je variatiecode ergens zichtbaar zien, bijvoorbeeld op een whiteboard of door gebruik te maken van een projector, en begin met de activiteit.
++ Laat je klascode ergens zichtbaar zien, bijvoorbeeld op een whiteboard of door gebruik te maken van een projector, en begin met de activiteit.
 
  We hebben [een te printen uitdeelfiche van twee pagina's](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} opgesteld, met de sleutelpunten van Mission Zero die studenten en jongeren samen kunnen gebruiken bij dit online project.
 
