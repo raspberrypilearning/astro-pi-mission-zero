@@ -36,7 +36,7 @@ Aparecerá el nombre de tu profesor. Si es el nombre correcto, haz clic en el bo
 
 --- task ---
 
-Introduce el nombre de tu equipo y los nombres de sus miembros. Una vez tu código sea ejecutado en el espacio, se imprimirán en el certificado. ¡Asegúrate de escribirlos correctamente!
+Introduce el nombre de tu equipo y los nombres de sus miembros. Una vez tu código se ejecute en el espacio, se imprimirán en el certificado. ¡Asegúrate de escribirlos correctamente!
 
 --- /task ---
 
@@ -48,6 +48,6 @@ Pulsa el botón **Submit** para enviar tu proyecto. Tu profesor o mentor recibir
 
 --- task ---
 
-Si quieres, ¡puedes compartir el enlace de tu código en las redes sociales para contarles a los demás que tu código será ejecutado en el espacio!
+Si quieres, ¡puedes compartir el enlace de tu código en las redes sociales para contarles a los demás que tu código va a ejecutarse en el espacio!
 
 --- /task ---
