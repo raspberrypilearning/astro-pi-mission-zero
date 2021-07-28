@@ -1,4 +1,4 @@
-importeer sense_hat van SenseHat
+from sense_hat import SenseHat
 sense = SenseHat()
 sense.set_rotation(270)
 w = (255, 255, 255) # white
@@ -10,7 +10,7 @@ c = (66, 220, 240) # cyan
 o = (180,100,0) # orange
 b = (0, 0,255) # blue
 
-foto = [
+picture = [
     c, c, c, c, c, c, c, c,
     c, c, b, b, b, c, c, c,
     c, b, b, x, b, b, c, c,
