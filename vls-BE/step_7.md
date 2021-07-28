@@ -1,4 +1,4 @@
-## Laat de vochtigheid zien
+## Reageer op vochtigheid
 
 You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
@@ -55,7 +55,7 @@ dry = [
 Voeg code toe om de vochtigheid te verkrijgen:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
