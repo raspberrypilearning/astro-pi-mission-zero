@@ -2,7 +2,7 @@
 
 Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o un patrón, además o en lugar de un mensaje escrito?
 
-![Astronauta](images/astronaut-pic.png)
+![Astronaut](images/astronaut-pic.png)
 
 --- task ---
 
@@ -55,7 +55,7 @@ Pulsa **Run** (Ejecutar) para ver tu imagen en pantalla.
 
 --- task ---
 
-Puede que quieras añadir más código para incluir una breve espera (o `sleep`) después de mostrar la imagen. Esto permitirá que los astronautas puedan ver tu imagen antes de que aparezca la siguiente parte de tu mensaje. En la parte de arriba de tu programa, añade:
+Puede que quieras añadir más código para incluir una breve pausa (o `sleep`) después de mostrar la imagen. Esto permitirá que los astronautas puedan ver tu imagen antes de que aparezca la siguiente parte de tu mensaje. En la parte de arriba de tu programa, añade:
 
 ```python
 from time import sleep
