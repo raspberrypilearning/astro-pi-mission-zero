@@ -49,7 +49,7 @@ La parte `str()` convierte la temperatura de número a texto, de modo que Astro 
 También puedes mostrar la humedad como parte de otro mensaje uniendo las partes de tu mensaje con un `+`.
 
 ```python
-sense.show_message( "Hay " + str(humedad) + " %" )
+sense.show_message( "Hay una humedad del " + str(humedad) + " %" )
 ```
 
 --- /task ---
