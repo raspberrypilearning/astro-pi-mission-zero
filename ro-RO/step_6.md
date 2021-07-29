@@ -1,6 +1,6 @@
 ## Măsoară umiditatea
 
-Senzorul de umiditate din Astro Pi poate măsura temperatura aerului în jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
+Senzorul de umiditate din Astro Pi poate măsura umiditatea aerului din jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
 
 ![Mesaj despre umiditate](images/degrees-message.gif)
 
@@ -54,8 +54,8 @@ sense.show_message("Umiditate de " + str(humid) + "%")
 
 --- /task ---
 
-Un Astro Pi real va măsura umiditatea din jurul său, dar poți muta sliderul de umiditate de pe emulatorul Sense HAT pentru a simula schimbări de umiditate și pentru a testa codul tău.
+Un Astro Pi real va măsura umiditatea din jurul său, dar poți muta glisorul de umiditate de pe emulatorul Sense HAT pentru a simula schimbări de umiditate și pentru a testa codul tău.
 
-![Slider-ul de umiditate](images/humidity-slider.png)
+![Glisor de umiditate](images/humidity-slider.png)
 
 **Notă:** S-ar putea să te întrebi de ce sliderul de umiditate afișează umiditatea ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează ușoara inexactitate a senzorului real, astfel încât umiditatea măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul glisorului.
