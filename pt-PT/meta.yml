@@ -1,7 +1,7 @@
 ---
-title: "Astro Pi: Mission Zero"
+title: "Astro Pi: Missão Zero"
 hero_image: images/banner.png
-description: Prepara-te para a Misson Zero
+description: Prepara-te para a Missão Zero
 listed: false
 copyedit: true
 version: 4.0.1
@@ -12,16 +12,16 @@ steps:
   - 
     title: O que é um Astro Pi?
   - 
-    title: Exibir uma mensagem
+    title: Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
   - 
     title: Adiciona um pouco de cor
   - 
-    title: Visualizar uma imagem
+    title: Mostrar uma imagem
   - 
     title: Medir a humidade
   - 
-    title: Exibir a humidade
+    title: Reage à humidade
   - 
     title: Envia a tua participação
   - 
-    title: 'Desafio: mais projetos do Astro Pi'
+    title: O que vem a seguir - mais projetos Astro Pi "
