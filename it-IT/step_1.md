@@ -1,14 +1,14 @@
 ## Introduzione
 
-Rallegra la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e il valore di umidità relativa dell’ambiente a bordo usando il Sense HAT del computer Astro Pi.
+Smuovi la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e il valore di umidità relativa dell’ambiente a bordo usando il Sense HAT del computer Astro Pi.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+L'hardware del Mark II Astro Pi è così nuovo che i computer non hanno ancora nemmeno un nome. Puoi aiutare a scegliere come chiamarli partecipando al concorso "Dai un nome al nuovo computer Astro Pi" e includendo il tuo nome preferito come parte del tuo codice Mission Zero.
 
-Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo: viene fatto tutto in un browser web.
+Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo - basta un browser web.
 
-Una volta completato, il vostro programma verrà eseguito nello spazio, sulla ISS, la Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
+Una volta completato, il vostro programma verrà eseguito nello spazio sulla ISS, la Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+Annunceremo i nomi vincitori per i nuovi computer Astro Pi nella primavera del 2022.
 
 
 ### Che cosa creerai
@@ -42,7 +42,7 @@ title: Di cosa avrai bisogno
 
 ### Hardware
 
-+ Un qualsiasi computer con una connessione a internet
++ Un qualunque computer con una connessione a internet
 
 ### Software
 
@@ -56,35 +56,30 @@ title: Note per insegnanti e tutor
 ---
 
 
-Questa attività può essere completata in un pomeriggio. Organizza i tuoi studenti in team da due a quattro, li guideremo attraverso la scrittura di un breve programma Python che mostrerà un messaggio personalizzato e l'umidità relativa sull'Astro Pi.
+Questa attività può essere completata in un pomeriggio. Organizza i tuoi studenti in squadre da due a quattro, li guideremo attraverso la scrittura di un breve programma Python che mostrerà un messaggio personalizzato e l'umidità relativa sull'Astro Pi.
 
-\ * Si informa che questo modulo di registrazione è disponibile solo in lingua inglese.
+Leggi le [le linee guida ufficiali](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} di Mission Zero.
 
-I campi del modulo includono:   
-Nome dell'insegnante/mentore   
-Nome del team   
-Numero dei membri del team   
-Nomi ed età dei membri del team   
-In che lingua hai avuto accesso alle linee guida di Mission Zero?
+Per permettere alle vostre squadre di partecipare alla challenge Mission Zero, dovete prima completare la registrazione.
 
 + Andate alla pagina [Emulatore Trinket Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Compilate il modulo e fate clic su **Submit (invia)**\*.
 
-\* Please note that this registration form is available in English only.
+\* Attenzione che questo modulo di registrazione è disponibile solo in inglese.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+I campi del modulo includono:   
+Nome dell'insegnante/mentore    
+Nome del team   
+Numero dei membri del team   
+Nomi ed età dei membri del team   
+In che lingua hai avuto accesso alle linee guida di Mission Zero?
 
-+ Verrà creato un account Trinket per te (se non ne hai già uno o non hai effettuato l'accesso). Puoi creare un solo account per indirizzo email. Ogni account ha il suo **codice in classe**, che dovrete comunicare alla vostra squadra quando questa sarà pronta all'invio dei programmi.
++ Verrà creato un account Trinket per te (se non ne hai già uno o non hai effettuato l'accesso). Puoi creare un solo account per ogni indirizzo email. Ogni account ha il proprio **codice di classe** che dovrete comunicare alla vostra squadra quando questa sarà pronta all'invio dei programmi.
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
 
- Abbiamo creato [un volantino di due pagine stampabile](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} che copre i punti chiave di Mission Zero che studenti e giovani possono utilizzare insieme a questo progetto online.
+ Abbiamo creato [un volantino di due pagine da stampare](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} che copre i punti chiave di Mission Zero che tutti possono utilizzare insieme a questo progetto online.
 
 --- /collapse ---
 
