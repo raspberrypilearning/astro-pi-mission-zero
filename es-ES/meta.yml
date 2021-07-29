@@ -1,5 +1,5 @@
 ---
-title: "Astro Pi: Misión Cero"
+title: "Astro Pi: Mission Zero"
 hero_image: images/banner.png
 description: Prepárate para Mission Zero
 listed: false
@@ -12,9 +12,9 @@ steps:
   - 
     title: '¿Qué es un Astro Pi?'
   - 
-    title: Muestra un mensaje y elije un nombre para las nuevas computadoras Astro Pi
+    title: Muestra un mensaje y elige un nombre para los nuevos ordenadores Astro Pi
   - 
-    title: Agrega un poco de color
+    title: Añade un poco de color
   - 
     title: Muestra una imagen
   - 
@@ -22,6 +22,6 @@ steps:
   - 
     title: Muestra la humedad
   - 
-    title: Enviar tu proyecto
+    title: Envía tu proyecto
   - 
     title: 'Desafío: Más proyectos Astro Pi'
