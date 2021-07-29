@@ -1,14 +1,14 @@
 ## Einleitung
 
-Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des Astro Pi Computers eine Nachricht sowie die Luftfeuchtigkeit an Bord der Raumstation übermittelst.
+Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des neuen Mark II Astro Pi Computers eine Nachricht sowie die Luftfeuchtigkeit an Bord der Raumstation übermittelst.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+Die Mark II Astro Pi Hardware ist so neu, dass die Computer noch nicht einmal Namen haben. Du kannst bei der Auswahl des gewünschten Namens helfen, indem Du an dem Wettbewerb "Benenne die neuen Astro Pi Computer" teilnimmst und Deinen Lieblingsnamen als Teil Deines Mission Zero Programms einschließt.
 
 Dein Programm erstellst du mit dem Online Sense HAT Emulator, so dass keine zusätzliche Hardware benötigt wird — alles geschieht in einem Webbrowser.
 
 Dein fertiges Programm wird im Weltraum auf der Internationalen Raumstation (ISS) laufen! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief!
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+Wir werden im Frühjahr 2022 die Gewinnernamen für die neuen Astro Pi Computer bekannt geben.
 
 
 ### Was du machen wirst
@@ -23,7 +23,7 @@ Hier ist ein Beispiel für ein Programm, das du erstellen könntest. Klicke auf 
 title: Was du lernen wirst
 ---
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
+Du wirst mehr über den Astro Pi erfahren und wie du ihn steuern kannst, einschließlich:
 + Anzeige von Nachrichten und Farben
 + Erstellung von Bildern
 + Messen der Luftfeuchtigkeit mit einem Sense HAT
@@ -58,22 +58,22 @@ title: Hinweise für Lehrer und Mentoren
 
 Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, womit man eine persönliche Nachricht und die Luftfeuchtigkeit an den Astro Pi schicken kann.
 
-\* Bitte beachten Sie, dass das Registrierungs-Formular nur auf Englisch verfügbar ist.
+Lesen Sie das [Dokument offizieller Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
 
-Die Felder im Formular umfassen: Name des Lehrers / Mentors Teamname Anzahl der Teammitglieder Namen und Alter der Teammitglieder In welcher Sprache haben Sie auf die Mission Zero-Richtlinien zugegriffen?
+Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihr(e) Team(s) teilnehmen können.
 
-+ Besuchen Sie die [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_blank"} (Trinket Emulator Mission Zero Seite).
++ Besuchen Sie die [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_ blank"} (Trinket Emulator Mission Zero Seite).
 
 + Füllen Sie das Forumlar aus und klicken Sie auf **Submit** (Senden)\*.
 
-\* Please note that this registration form is available in English only.
+\* Bitte beachten Sie, dass das Registrierungs-Formular nur auf Englisch verfügbar ist.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Die Felder im Formular umfassen:  
+Name des Lehrers / Mentors   
+Name des Teams  
+Anzahl der Teammitglieder  
+Namen und Alter der Teammitglieder  
+In welcher Sprache haben Sie auf die Mission Zero-Richtlinien zugegriffen?
 
 + Ein Trinket-Konto wird für Sie erstellt (falls Sie noch keines haben oder nicht angemeldet sind). Sie können ein Konto pro E-Mail-Adresse erstellen. Jedes Konto hat seinen eigenen **Klassen-Code** und Sie müssen diesen Ihren Teams mitteilen, wenn sie bereit sind, ihre Programme einzureichen.
 
