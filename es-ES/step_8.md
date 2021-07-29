@@ -1,4 +1,4 @@
-## Enviar tu proyecto
+## Envía tu proyecto
 
 Hay varias reglas que tu código debe respetar para que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del emulador se iluminarán en verde cuando ejecutes el programa.
 
@@ -14,9 +14,9 @@ También asegúrate de haber cumplido con los siguientes criterios:
 1. Asegúrate de que tu mensaje para los astronautas no dure más de 30 segundos, puesto que esta es la duración máxima que tu código tiene para ejecutarse en la ISS
 1. Evita usar métodos que requieran entrada de datos
 1. Solamente importa desde los módulos `sense_hat`, `time` y `random`
-1. Asegúrate de no incluir ningún tipo de obscenidad
+1. Asegúrate de no incluir lenguaje o imágenes inapropiadas
 
-Podrás realizar el envío de tu proyecto una vez que todas las reglas se hayan iluminado en verde.
+Podrás realizar el envío de tu proyecto una vez que todos los requisistos se hayan iluminado en verde.
 
 --- task ---
 
