@@ -6,23 +6,23 @@ Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il 
 
 1. Fate una lettura dell'umidità.
 1. Accendete i LED
-1. Controllate che il codice venga eseguito fino alla fine, senza errori. Non dovresti includere nessun cliclo `while True` nel vostro codice in quanto manterrà in esecuzione il codice e gli impedirà di terminare.
-1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
+1. Controllate che il codice venga eseguito fino alla fine, senza errori. Non dovreste includere nessun cliclo `while True` nel vostro codice in quanto manterrebbe in esecuzione il codice e gli impedirebbe di terminare.
+1. Testate il vostro codice con alcune diverse impostazioni di umidità (usando il cursore) per assicurarvi che funzioni sempre correttamente.
 
 Assicuratevi anche di aver soddisfatto i seguenti criteri:
 
 1. Assicuratevi che il vostro messaggio non venga visualizzato per oltre 30 secondi perché questa è la durata massima dell’esecuzione del vostro programma sulla ISS
-1. Evitate di usare metodi che richiedono un input
-1. Eseguite importazioni solo dai moduli `sense_hat`, `time` e `random`
+1. Evitatete di usare metodi che richiedano un input
+1. Eseguite importazioni solo dalle librerie `sense_hat`, `time` e `random`
 1. Non scrivete parolacce
 
 Quando tutte le regole sono visualizzate in verde, siete pronti per inviare il programma.
 
 --- task ---
 
-Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o mentor vi dirà qual è il vostro codice di classe.
+Immettere il vostro codice di classe nella casella in basso. Il vostro insegnante o mentore vi dirà qual è il vostro codice di classe.
 
-Le **Note per insegnanti e tutor** sono disponibili nel passo [Introduzione](https://projects.raspberrypi.org/it-IT/projects/astro-pi-mission-zero/1).
+Le **Note per insegnanti e mentori** sono disponibili al paragrafo [Introduzione](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 --- /task ---
 
@@ -36,7 +36,7 @@ Apparirà il nome del vostro insegnante. Se è il nome giusto, cliccate sul puls
 
 --- task ---
 
-Immettete il nome del vostro team e i nomi dei membri del team. Questi nomi verranno stampati sul certificato dopo che il programma sarà stato eseguito nello spazio, quindi controllate di averli scritti in maniera corretta!
+Compilate il nome del vostro team e i nomi dei membri del team. Questi nomi verranno stampati sul certificato dopo che il programma sarà stato eseguito nello spazio, quindi controllate di averli scritti in maniera corretta!
 
 --- /task ---
 
@@ -48,6 +48,6 @@ Premete il pulsante **Submit** (Invia) per inviare il codice. Il vostro insegnan
 
 --- task ---
 
-Se volete, potete anche condividere il collegamento al codice sui social per dire ai vostri amici che il programma che avete scritto verrà eseguito nello spazio!
+Se volete, potete anche condividere il collegamento al codice sui social per far sapere ai vostri amici che il programma che avete scritto verrà eseguito nello spazio!
 
 --- /task ---
