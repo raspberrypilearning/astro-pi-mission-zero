@@ -42,7 +42,7 @@ title: Lo que vas a necesitar
 
 ### Equipo
 
-+ Cualquier computadora con conexión a internet
++ Cualquier ordenador con conexión a internet
 
 ### Programas
 
@@ -56,9 +56,9 @@ title: Notas para los profesores y mentores
 ---
 
 
-Esta actividad puede completarse en una tarde. Divide a tus estudiantes en equipos de un máximo de cuatro personas y permítenos guiarles en la escritura de un breve programa en Python que muestre un mensaje personal y la humedad relativa en el Astro Pi.
+Esta actividad puede completarse en una tarde. Divide a tus estudiantes en equipos de un máximo de cuatro personas y permítenos guiarles en la creación de un sencillo programa en Python que muestre un mensaje personal y la humedad relativa en el Astro Pi.
 
-\* Ten en cuenta que este formulario de registro solo está disponible en inglés.
+Lee el [documento con las directrices oficiales](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} de Mission Zero.
 
 Necesitarás registrarte en el desafío Mission Zero para que tu(s) equipo(os) puedan participar.
 
@@ -66,16 +66,16 @@ Necesitarás registrarte en el desafío Mission Zero para que tu(s) equipo(os) p
 
 + Rellena el formulario y haz clic en **Submit**\*.
 
-\* Ten en cuenta que este formulario de registro solo está disponible en inglés.
+\* Ten en cuenta que este formulario de inscripción solo está disponible en inglés.
 
 Los campos del formulario incluyen:  
-Nombre del maestro / mentor   
+Nombre del profesor/mentor   
 Nombre del equipo  
 Número de miembros del equipo  
 Nombres y edades de los miembros del equipo  
 ¿En qué idioma accediste a las directrices de Mission Zero?
 
-+ Se creará una cuenta de Trinket para ti (si aún no tienes una, o no has iniciado sesión). Puede crear una cuenta por dirección de correo electrónico. Cada cuenta tiene su propio **código de clase**, y necesitarás darle el tuyo a tu equipo(s) cuando estén listos para enviar sus programas.
++ Se creará una cuenta de Trinket para ti (si aún no tienes una, o no has iniciado sesión). Puede crear una cuenta por cada dirección de correo electrónico. Cada cuenta tiene su propio **código de clase**, y necesitarás darle el tuyo a tu equipo(s) cuando estén listos para enviar sus programas.
 
 + Indica tu código de clase en un lugar visible como, por ejemplo, en una pizarra o proyector, y comienza la actividad.
 
@@ -83,4 +83,4 @@ Nombres y edades de los miembros del equipo
 
 --- /collapse ---
 
-![Píxel de seguimiento](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
