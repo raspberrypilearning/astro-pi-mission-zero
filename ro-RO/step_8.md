@@ -6,7 +6,7 @@ Există câteva reguli pe care codul tău trebuie să le respecte, astfel încâ
 
 1. Măsoară umiditatea.
 1. Aprinde LED-urile.
-1. Se asigură că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. Nu ar trebui să incluzi nici o buclă `while True` în codul tău, deoarece aceasta îți va menține codul în execuție și va împiedica terminarea acestuia.
+1. Asigură-te că tot codul tău funcționează până la sfârșit, fără să apară nici o eroare. Nu ar trebui să incluzi nici o buclă `while True` în codul tău, deoarece aceasta îți va menține codul în execuție și va împiedica terminarea acestuia.
 1. Testează-ți codul cu câteva setări diferite de umiditate (folosind slider-ul) pentru a te asigura că acesta va rula întotdeauna corect.
 
 De asemenea, asigură-te că ai îndeplinit următoarele criterii:
@@ -22,7 +22,7 @@ Odată ce regulile sunt toate scrise în culoarea verde, ești gata să trimiți
 
 Introdu codul pentru clasă în caseta din partea de jos - profesorul sau mentorul îți va spune care este codul tău.
 
-**Note pentru profesori sau mentori** pot fi găsite în pasul [Introducere](https://projects.raspberrypi.org/ro-RO/projects/astro-pi-mission-zero/1).
+**Note pentru profesori sau mentori** pot fi găsite în pasul [Introducere](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 --- /task ---
 
