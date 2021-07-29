@@ -7,7 +7,7 @@ g = (50,50,50)
 s = (180,180,180)
 r = (255,0,0)
 
-picture = [
+bild = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, s,
