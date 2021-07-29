@@ -10,7 +10,7 @@ c = (66, 220, 240) # albastru deschis
 o = (180, 100, 0) # portocaliu
 b = (0, 0, 255) # albastru
 
-picture = [
+imagine = [
     c, c, c, c, c, c, c, c,
     c, c, c, c, c, c, c, c,
     c, c, c, c, c, c, b, c,
