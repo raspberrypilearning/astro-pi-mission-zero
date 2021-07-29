@@ -10,7 +10,7 @@ c = (66, 220, 240) # albastru deschis
 o = (180, 100, 0) # portocaliu
 b = (0, 0, 255) # albastru
 print('bob')
-picture = [
+imagine = [
     c, c, g, g, g, g, c, c,
     c, g, g, g, g, g, g, c,
     c, g, g, g, g, g, g, c,
