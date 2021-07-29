@@ -1,14 +1,14 @@
 ## Introducción
 
-Alegra la rutina diaria de los astronautas en la Estación Espacial Internacional mostrándoles un mensaje y la humedad relativa a bordo, usando el nuevo Sense HAT de la computadora Astro Pi Mark II.
+Alegra la rutina diaria de los astronautas en la Estación Espacial Internacional mostrándoles un mensaje y la humedad relativa a bordo, usando el nuevo Sense HAT del ordenador Astro Pi Mark II.
 
-El hardware Mark II Astro Pi es tan nuevo que las computadoras ni siquiera tienen nombres todavía. Puedes ayudar a elegir cómo se llamarán participando en la competencia "Nombra las nuevas computadoras Astro Pi" e incluyendo tu nombre favorito como parte de tu programa Mission Zero.
+El hardware Mark II Astro Pi es tan nuevo que los ordenadores ni siquiera tienen nombres todavía. Puedes ayudar a elegir cómo se llamarán participando en la competición "Nombra los nuevos ordenadores Astro Pi" e incluyendo tu nombre favorito como parte de tu programa Mission Zero.
 
 Utilizarás el emulador Sense HAT en línea para crear tu programa, por lo que no se necesita hardware adicional; todo se hace en un navegador web.
 
 ¡Tu programa completo se ejecutará en el espacio en la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica en dónde exactamente estaba la ISS cuando se ejecutó tu código.
 
-Anunciaremos los nombres de los ganadores de las nuevas computadoras Astro Pi en la primavera de 2022.
+Anunciaremos los nombres de los nuevos ordenadores Astro Pi ganadores en la primavera de 2022.
 
 
 ### Lo que harás
