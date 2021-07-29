@@ -1,8 +1,8 @@
-## Mostra l'umidità
+## Scegli in base all'umidità
 
-Potreste anche combinare la lettura dell'umidità con un’immagine per indicare l'umidità graficamente. Ad esempio, potresti visualizzare un oceano per alta umidità e un deserto per bassa umidità:
+Potreste anche combinare la lettura dell'umidità con un’immagine per indicare l'umidità graficamente. Ad esempio, potresti visualizzare un oceano per valori di alta umidità e un deserto per valori di bassa umidità:
 
-![Caldo e freddo](images/wet-dry.png)
+![Umido e secco](images/wet-dry.png)
 
 --- task ---
 
@@ -24,7 +24,7 @@ y=(255,255,0)
 Proprio come prima, potete disegnare le immagini creando dapprima una lista per ciascuna immagine e quindi impostando le voci della lista sui colori che volete assumano i pixel corrispondenti.
 
 ```python
-wet = [
+umido = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wet = [
 ]
 
 
-dry = [
+secco = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -52,24 +52,24 @@ dry = [
 
 --- task ---
 
-Aggiungete il codice necessario per ottenere l'umidità:
+Aggiungete il codice necessario per leggere l'umidità:
 
 ```python
-umidita = sense.humidity
+umidita = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `wet` se l'umidità misurata è uguale o superiore al 40% e l’immagine `dry` se l'umidità misurata è inferiore al 40%.
+Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `umido` se l'umidità misurata è uguale o superiore al 40% e l’immagine `secco` se l'umidità misurata è inferiore al 40%.
 
 ```python
-umidita = sense.humidity
+umidita = sense.get_humidity()
 if umidita >= 40:
-    sense.set_pixels(wet)
+    sense.set_pixels(umido)
 else:
-    sense.set_pixels(dry)
+    sense.set_pixels(secco)
 ```
 
 --- /task ---
@@ -86,6 +86,6 @@ Modificate il codice in modo che il vostro programma mostri l'umidità agli astr
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Provate il vostro codice con alcune diverse impostazioni di umidità (usando il cursore) per assicurarvi che funzioni sempre correttamente. Se avete seguito l'esempio sopra, viene visualizzata un'immagine sia quando l'umidità è impostata a un valore inferiore al 40% sia quando è impostata a più del 40%?
 
 --- /task ---
