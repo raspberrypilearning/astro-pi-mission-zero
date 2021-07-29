@@ -12,7 +12,7 @@ steps:
   - 
     title: Ce este Astro Pi?
   - 
-    title: Afișează un mesaj
+    title: Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
   - 
     title: Adaugă culoare
   - 
@@ -20,8 +20,8 @@ steps:
   - 
     title: Măsoară umiditatea
   - 
-    title: Afișează umiditatea
+    title: Reacționează la umiditate
   - 
     title: Trimite programul tău
   - 
-    title: 'Provocare: mai multe proiecte Astro Pi'
+    title: Ce urmează — mai multe proiecte Astro Pi”
