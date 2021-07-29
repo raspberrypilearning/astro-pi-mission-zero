@@ -1,6 +1,6 @@
 ## Soumettre ton programme
 
-Ton code doit respecter quelques règles pour que tu puisses le soumettre et le faire exécuter dans la station spatiale internationale. Si ton code les respecte, les règles situées en bas de l'[émulateur Sense HAT](https://trinket.io/mission-zero) s'allumeront en vert lorsque tu exécuteras le programme.
+Ton code doit respecter quelques règles pour que tu puisses le soumettre et le faire exécuter dans la Station Spatiale Internationale. Si ton code les respecte, les règles situées en bas de l'[émulateur Sense HAT](https://trinket.io/mission-zero) s'allumeront en vert lorsque tu exécuteras le programme.
 
 ![Validation](images/validation.png)
 
