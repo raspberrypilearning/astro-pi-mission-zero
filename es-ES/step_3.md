@@ -1,4 +1,4 @@
-## Mostrar un mensaje
+## Muestra un mensaje y elige un nombre para los nuevos ordenadores Astro Pi
 
 --- task ---
 
@@ -20,7 +20,7 @@ Este código se conecta al Astro Pi y se asegura de que la pantalla LED de Astro
 
 --- task ---
 
-¿Quizás podrías dejar un bonito saludo para los astronautas de la ISS que están trabajando cerca del Astro Pi? Mostremos un mensaje que se desplace por la pantalla.
+¿Quizás podrías dejar un bonito saludo para los astronautas de la ISS que están trabajando cerca del Astro Pi? Vamos a mostrar un mensaje que se desplace por la pantalla.
 
 Añade esta línea debajo del otro código:
 
@@ -34,11 +34,11 @@ sense.show_message("Astro Pi")
 
 Pulsa el botón **Run** (Ejecutar) y observa cómo el mensaje `Astro Pi` se desplaza por la pantalla LED.
 
-![ejecutar con un clic el código para mostrar el mensaje](images/show-message-code-annotated.PNG)
+![show message code click run](images/show-message-code-annotated.PNG)
 
 --- /task ---
 
-![Mensaje desplazándose](images/scroll-message.gif)
+![Scrolling message](images/scroll-message.gif)
 
 Para mostrar otro mensaje, escribe lo que quieras entre las comillas (`""`).
 
@@ -64,7 +64,7 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-También puedes cambiar la velocidad de desplazamiento del mensaje por la pantalla. Añade `scroll_speed` a la línea del código que ya tienes, de este modo:
+También puedes cambiar la velocidad de desplazamiento del mensaje por la pantalla. Añade `scroll_speed` a la línea del código que ya tienes, así:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
@@ -74,9 +74,9 @@ La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que
 
 --- /task ---
 
-### Elije un nombre para las nuevas computadoras Astro Pi
+### Elige un nombre para los nuevos ordenadores Astro Pi
 
---- task --- Si quieres entrar en la competencia para elegir los nombres de los nuevos ordenadores Mark II Astro Pi, comienza tu mensaje con las palabras "Mi nombre debería ser" y luego añade tu selección de esta lista.
+--- task --- Si quieres entrar en la competición para elegir los nombres de los nuevos ordenadores Mark II Astro Pi, comienza tu mensaje con las palabras "Mi nombre debería ser" y luego añade tu selección de esta lista.
 
 Por ejemplo, si quieres votar por Ada Lovelace, tu código se vería así:
 
