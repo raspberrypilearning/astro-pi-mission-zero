@@ -1,19 +1,22 @@
 ## Mostra un'immagine
 
-La matrice di LED dell’Astro Pi consente anche di visualizzare immagini. Se volete, il vostro saluto per gli astronauti potrebbe includere un’immagine o un motivo, insieme ad un messaggio o al posto di un testo.
+La matrice di LED dell’Astro Pi consente anche di visualizzare immagini. Forse volete che il vostro saluto agli astronauti includa un’immagine o un motivo, insieme ad un messaggio o al posto di un testo?
 
 ![Astronauta](images/astronaut-pic.png)
 
 --- task ---
 
-Alla fine del programma, create delle variabili di colore per definire i colori con i quali potete disegnare la vostra immagine. Potete utilizzare tutti i colori che volete ma, in questo esempio, ci limiteremo a due: il bianco (`w`) e il nero (`b`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+Alla fine del programma, create delle variabili di colore per definire i colori con i quali potete disegnare la vostra immagine. Potete utilizzare tutti i colori che volete ma, in questo esempio, ci limiteremo a questi: rosso (`r`), bianco (`b`), nero (`x`) e due sfumature di grigio (`g` e `s`). Attenzione che le sfumature si ottengono riducendo la quantità di luce in tutti e tre i canali mantenendo le stesse proporzioni.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
-**Nota:** In questo caso è una buona idea assegnare alle variabili di colore nomi abbreviati di una sola lettera per risparmiare tempo nel passo seguente, in cui dovrete scriverli ripetutamente molte volte. Inoltre, usando nomi di una sola lettera, diventa molto più facile vedere l’immagine disegnata.
+**Nota:** In questo caso è una buona idea assegnare alle variabili di colore nomi abbreviati di una sola lettera per risparmiare tempo nella fase seguente, in cui dovrete scriverli ripetutamente molte volte. Inoltre, usando nomi di una sola lettera, diventa molto più facile vedere l’immagine disegnata.
 
 --- /task ---
 
@@ -21,19 +24,19 @@ b = (0, 0, 0)
 
 
 
-Sotto alle vostre nuove variabili, create una lista con 64 voci. Ciascuna voce rappresenta un pixel nella matrice di LED e corrisponde ad una delle variabili di colore che avete definito. Per disegnare l’immagine è sufficiente inserire una variabile nel punto in cui volete che appaia il colore ad essa assegnato. Qui sotto abbiamo disegnato un astronauta, usando pixel neri (`b`) per lo sfondo e pixel bianchi per la sua tuta spaziale (`w`):
+Sotto alle vostre nuove variabili, create una lista con 64 voci. Ciascuna voce rappresenta un pixel nella matrice di LED e corrisponde ad una delle variabili di colore che avete definito. Per disegnare l’immagine è sufficiente inserire una variabile nel punto in cui volete che appaia il colore ad essa assegnato. Abbiamo disegnato un Astro Pi utilizzando i pixel neri (`b`) come sfondo e i pixel grigi (`g`) per disegnare le parti metalliche del case dell'Astro Pi:
 
 ```python
- picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+ immagine = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
 --- /task ---
 
@@ -42,7 +45,7 @@ Sotto alle vostre nuove variabili, create una lista con 64 voci. Ciascuna voce r
 Aggiungete una linea di codice per visualizzare il disegno sul display LED.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(immagine)
 ```
 
 --- /task ---
@@ -61,7 +64,7 @@ Se volete, potreste aggiungere del codice per introdurre una breve pausa (`sleep
 from time import sleep
 ```
 
-Quindi, sulla riga successiva a quella che visualizza il disegno, aggiungete la seguente riga di codice per fare un’attesa di due secondi:
+Quindi, sulla riga successiva a quella che visualizza il disegno, aggiungete la seguente riga di codice per inserire un’attesa di due secondi:
 
 ```python
 sleep(2)
