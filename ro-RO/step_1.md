@@ -26,7 +26,7 @@ title: Ce vei învăța
 Vei învăța despre unitatea Astro Pi și cum să o controlezi, inclusiv cum să:
 + afișezi mesaje și culori
 + creezi imagini
-+ măsori temperatura folosind Sense HAT
++ măsori umiditatea folosind Sense HAT
 
 Acest proiect acoperă elemente din următoarele componente ale curriculumului [Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
 
