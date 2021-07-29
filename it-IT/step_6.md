@@ -15,7 +15,7 @@ Parte della vostra missione è contribuire positivamente alla vita quotidiana de
 Aggiungete questa riga di codice per misurare l'umidità:
 
 ```python
-umidita = sense.humidity
+umidita = sense.get_humidity()
 ```
 
 Questa riga di codice misurerà l'umidità attuale e la memorizzerà nella variabile `umidita`.
@@ -27,7 +27,7 @@ Questa riga di codice misurerà l'umidità attuale e la memorizzerà nella varia
 L'umidità viene registrata con molta precisione, ovvero il valore memorizzato avrà un numero elevato di cifre decimali. È possibile arrotondare il valore a un numero qualsiasi di cifre decimali. Nell’esempio, abbiamo arrotondato il valore a una cifra decimale, ma per visualizzare un diverso livello di precisione è sufficiente sostituire il numero `1` con il numero di cifre decimali che volete visualizzare.
 
 ```python
-umidita = round( sense.humidity, 1 )
+umidita = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ umidita = round( sense.humidity, 1 )
 Per visualizzare l'umidità attuale come messaggio scorrevole sul display, aggiungete questa riga di codice:
 
 ```python
-sense.show_message( str(umidita) )
+sense.show_message(str(umidita))
 ```
 
 L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro Pi possa visualizzarla.
@@ -49,7 +49,7 @@ L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro 
 È possibile anche visualizzare l'umidità all’interno di un messaggio più lungo, unendo insieme le varie parti con un `+`.
 
 ```python
-sense.show_message( "È al " + str(umidita) + " %" )
+sense.show_message( "E' al " + str(umidita) + " %" )
 ```
 
 --- /task ---
