@@ -2,11 +2,11 @@
 
 Nå som dere har fullført ditt oppdrag, hvorfor ikke prøve noen flere prosjekter ved hjelp av de andre sensorene på Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Hvis dere føler dere trygge, kan dere delta i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Lag et team på to til seks personer, og jobb sammen som ekte romforskere for å designe deres eget eksperiment. Motta gratis maskinvare til oppdraget, og skriv Python-koden for å utføre eksperimentet. Hvis dere oppnår flystatus, vil koden bli lastet opp til den internasjonale romstasjonen og kjørt på Astro Pi i tre timer (to baner). Eventuelle data koden deres samler inn i verdensrommet - bilde- eller sensordatafiler - lastes ned og returneres til dere for analyse.
 
 Alternativt kan dere prøve et av våre andre Astro Pi-prosjekter:
 
-+ Lær [mer om Sense HAT](https://projects.raspberrypi.org/no-NO/projects/getting-started-with-the-sense-hat){:target="_blank"} og de andre tingene det kan gjøre
++ Lær [mer om Sense HAT](https://projects.raspberrypi.org/no-NO/projects/getting-started-with-the-sense-hat){:target="_blank"} og de andre tingene den kan gjøre
 
 + Lag noen fine [vilkårlige stjerneskudd](https://projects.raspberrypi.org/no-NO/projects/sense-hat-random-sparkles){:target="_blank"} på Sense HATs LED-skjerm
 
