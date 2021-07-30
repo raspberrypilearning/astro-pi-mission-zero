@@ -1,18 +1,18 @@
 ## Vad är en Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space. It also has an add-on board called the Sense HAT, made specifically for the Astro Pi mission. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, and orientation.
+En Astro Pi är en Raspberry Pi-dator monterad i en särskilt utformad låda för förutsättningarna i rymden. Den har även ett tilläggskort som heter Sense HAT, som är särskilt utvecklat för Astro Pi-uppdraget. Sense HAT har en joystick, en LED-display och sensorer för inspelning av ljusförhållanden, temperatur, fukt, tryck och orientering.
 
-Here is an original Mark I Astro Pi unit on the International Space Station, running some code written by students. Your code will eventually be run on a new version of Astro Pi computers!
+Här är en ursprunglig Mark I Astro Pi-enhet på den internationella rymdstationen, som kör någon kod skriven av studenter. Din kod kommer så småningom att köras på en ny version av Astro Pi-datorer!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+För detta uppdrag kommer du att använda Sense HAT-emulatorn. Emulatorn är ett program som simulerar alla funktioner i Astro Pi i din webbläsare.
 
 ![Sense HAT-emulator.](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Det finns några skillnader mellan den verkliga och den emulerade Sense HAT:
 
 - I emulatorn kan du ställa in temperaturen, trycket och luftfuktigheten själv genom att använda skjutreglage, medan den riktiga Sense HAT i Astro Pi använder sensorer för att mäta dessa parametrar i omgivningen.
 
-- You can use the mouse to click and drag the emulated Sense HAT to move and rotate it, simulating changes in its orientation; the real Astro Pi (and its Sense HAT) can move in the real world, and the Sense HAT's orientation sensors detect when and how it has  moved.
+- Du kan använda musen för att klicka och dra i Sense HAT-emulatorn för att flytta och rotera den, för att simulera ändringar i dess riktning. Den riktiga Astro Pi (och dess Sense HAT) kan flytta sig i den riktiga världen, och riktningssensorerna i Sense HAT detekterar när och hur den flyttades.
