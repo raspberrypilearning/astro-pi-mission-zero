@@ -86,6 +86,6 @@ Verander je code zodat je programma de vochtigheid weergeeft aan de astronauten 
 
 --- /task ---
 
---- task --- Test je code met enkele andere vochtigheidswaarden (door gebruik te maken van de schuifknop) om er zeker van te zijn dat het juist werkt. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Test je code met enkele andere vochtigheidswaarden (door gebruik te maken van de schuifknop) om er zeker van te zijn dat het juist werkt. Als je het voorbeeld hierboven volgde, wordt er dan een tekening getoond als de vochtigheid ingesteld wordt op een waarde lager dan 40% en ook als ze lager dan 40% ingesteld wordt?
 
 --- /task ---
