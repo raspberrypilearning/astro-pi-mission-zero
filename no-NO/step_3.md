@@ -1,4 +1,4 @@
-## Vise en melding
+## Vise en melding og velge et navn for de nye Astro Pi datamaskinene
 
 --- task ---
 
@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![sense hat-emulator](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Denne koden kobler til Astro Pi og sørger for at Astro Pi's LED-skjerm vises den riktige veien. La koden være der, du vil trenge den senere.
 
 --- /task ---
 
 --- task ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Kanskje du vil legge til en hyggelig hilsen til astronautene på ISS som jobber i nærheten av Astro Pi? La oss rulle en melding over skjermen.
 
 Legg til denne linjen under den andre koden:
 
@@ -48,7 +48,7 @@ For å vise en annen melding, kan du skrive hva som helst mellom anførselstegne
 title: Hvilke tegn kan brukes?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Sense HAT kan bare vise tegnsettet Latin 1, noe som betyr at bare følgende tegn vil være tilgjengelig. Andre tegn vises som `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,21 +64,21 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Du kan også endre hastigheten på meldingen som ruller over skjermen. Legg til en `scroll_speed` til kodelinjen du allerede har, slik:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Standardhastigheten til meldingen er `0.1`. Med lavere tall ruller meldingen raskere, og høyere tall gjør at meldingen går langsommere.
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Velg et navn for de nye Astro Pi-datamaskinene
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Hvis du vil delta i konkurransen om å velge navn på de nye Mark II Astro Pi-datamaskinene, starter du meldingen med ordene "My name should be" og legger til navnet du har valgt fra listen.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+For eksempel, hvis du ønsker å stemme på Ada Lovelace, ville koden se slik ut:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
