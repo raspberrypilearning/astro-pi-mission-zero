@@ -1,13 +1,13 @@
 ## Skicka ditt bidrag
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
+Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem, reglerna längst ner i [Sense HAT-emulatorn](https://trinket.io/mission-zero) kommer att lysa i grönt när du kör programmet.
 
 ![Validering](images/validation.png)
 
 1. Avläs luftfuktigheten.
 1. Tänd lysdioderna
-1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
-1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
+1. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. Du bör inte inkludera någon `while True` loopar i din kod eftersom detta kommer förhindra den från att slutföras.
+1. Testa din kod med några olika fuktinställningar (med reglaget) för att se till att den alltid kommer att köras korrekt.
 
 Kontrollera även att följande kriterier är uppfyllda:
 
@@ -28,7 +28,7 @@ Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad ko
 
 --- uppgift ---
 
-Din lärares namn kommer att visas. If it is the right name, click on the green **Continue to form** button.
+Din lärares namn kommer att visas. Om det är rätt namn, klickar du på den gröna knappen **Continue to form** (Fortsätt till formulär).
 
 ![Fortsätt till formulär](images/continue-to-form.png)
 
@@ -36,13 +36,13 @@ Din lärares namn kommer att visas. If it is the right name, click on the green 
 
 --- uppgift ---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Ange ditt lagnamn och namnen på dina lagmedlemmar. Dessa kommer att skrivas ut på certifikatet när din kod har körts i rymden, så se till att du stavar dem rätt!
 
 --- /uppgift ---
 
 --- uppgift ---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Tryck på **Submit** (Skicka) för att ange din kod. Din lärare eller mentor får ett e-postmeddelande som bekräftar ditt bidrag.
 
 --- / uppgift ---
 
