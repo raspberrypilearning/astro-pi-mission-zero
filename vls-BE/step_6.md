@@ -24,7 +24,7 @@ Deze lijn meet de huidige vochtigheid en slaat de meetwaarde op in de variabele 
 
 --- task ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+De vochtigheid wordt heel precies gemeten, d.w.z. dat de opgeslagen waarde een groot aantal decimalen zal hebben. Je kan de waarde afronden op om het even welk aantal decimalen. In ons voorbeeld hebben we het cijfer afgerond op 1 decimaal, maar voor een ander niveau van nauwkeurigheid, verander je het cijfer `1` naar het aantal decimalen dat je wil zien.
 
 ```python
 humid = round(sense.get_humidity(), 1)
@@ -34,7 +34,7 @@ humid = round(sense.get_humidity(), 1)
 
 --- task ---
 
-Om de actuele vochtigheid te tonen als een scrollende boodschap op het scherm, voeg je deze codelijn toe:
+Om de actuele vochtigheid te tonen als een boodschap die over het scherm scrolt, voeg je deze codelijn toe:
 
 ```python
 sense.show_message(str(humid))
@@ -58,4 +58,4 @@ De echte Astro Pi zal de vochtigheid errond meten, maar je kan de vochtigheid-sc
 
 ![Vochtigheids-schuifknop](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Opmerking:** Je vraagt je misschien af waarom de vochtigheidsschuifknop de vochtigheid als een geheel getal weergeeft terwijl de meting die je ontvangt een decimaal is. De emulator simuleert de kleine onnauwkeurigheid van de echte sensor, zodat de vochtigheidsmeting die je ziet een beetje groter of kleiner kan zijn dan de waarde die je instelde met de schuifknop.
