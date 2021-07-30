@@ -6,13 +6,13 @@ Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il 
 
 1. Fate una lettura dell'umidità.
 1. Accendete i LED
-1. Controllate che il codice venga eseguito fino alla fine, senza errori. Non dovreste includere nessun cliclo `while True` nel vostro codice in quanto manterrebbe in esecuzione il codice e gli impedirebbe di terminare.
+1. Controllate che il codice venga eseguito fino alla fine, senza errori. Non dovreste includere nessun ciclo `while True` nel vostro codice in quanto manterrebbe in esecuzione il codice e gli impedirebbe di terminare.
 1. Testate il vostro codice con alcune diverse impostazioni di umidità (usando il cursore) per assicurarvi che funzioni sempre correttamente.
 
 Assicuratevi anche di aver soddisfatto i seguenti criteri:
 
 1. Assicuratevi che il vostro messaggio non venga visualizzato per oltre 30 secondi perché questa è la durata massima dell’esecuzione del vostro programma sulla ISS
-1. Evitatete di usare metodi che richiedano un input
+1. Evitate di usare metodi che richiedano un input
 1. Eseguite importazioni solo dalle librerie `sense_hat`, `time` e `random`
 1. Non scrivete parolacce
 
