@@ -24,7 +24,7 @@ r = (255,0,0)
 
 
 
-Sotto alle vostre nuove variabili, create una lista con 64 voci. Ciascuna voce rappresenta un pixel nella matrice di LED e corrisponde ad una delle variabili di colore che avete definito. Per disegnare l’immagine è sufficiente inserire una variabile nel punto in cui volete che appaia il colore ad essa assegnato. Abbiamo disegnato un Astro Pi utilizzando i pixel neri (`b`) come sfondo e i pixel grigi (`g`) per disegnare le parti metalliche del case dell'Astro Pi:
+Sotto alle vostre nuove variabili, create una lista con 64 voci. Ciascuna voce rappresenta un pixel nella matrice di LED e corrisponde ad una delle variabili di colore che avete definito. Per disegnare l’immagine è sufficiente inserire una variabile nel punto in cui volete che appaia il colore ad essa assegnato. Abbiamo disegnato un Astro Pi utilizzando i pixel neri (`b`) come sfondo e i pixel grigi (`g`) per disegnare le parti metalliche per la sua "tuta spaziale":
 
 ```python
  immagine = [
