@@ -2,7 +2,7 @@
 
 Luftfuktighetsføleren i Astro Pi kan måle luftfuktigheten i luften rundt den, en nyttig funksjon som hjelper deg med å samle data om forholdene i rommet.
 
-![Melding om temperaturen](images/degrees-message.gif)
+![Melding om luftfuktighet](images/degrees-message.gif)
 
 Astro Pi måler luftfuktigheten i ISS i antall prosent vannkonsentrasjon i luften.
 
@@ -15,7 +15,7 @@ En del av oppdraget deres er å bidra til dagliglivet til mannskapet ombord på 
 Legg til denne koden for å lese av luftfuktigheten:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 Denne linjen vil måle gjeldende luftfuktighet og lagre den målte verdien i variabelen `humid`.
@@ -24,10 +24,10 @@ Denne linjen vil måle gjeldende luftfuktighet og lagre den målte verdien i var
 
 --- task ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Luftfuktigheten lagres veldig nøyaktig, det vil si at den lagrede verdien har mange desimaler. Du kan avrunde verdien til et hvilket som helst antall desimaler. I eksemplet har vi avrundet til en desimal, men for et annet presisjonsnivå, endrer dere tallet `1` til så mange desimaler dere ønsker.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ humid = round( sense.humidity, 1 )
 For å vise gjeldende luftfuktighet som en rullende melding på skjermen, legg til denne kodelinjen:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
 `str()`-delen gjør om luftfuktigheten fra tall til tekst slik at Astro Pi kan vise den.
@@ -49,7 +49,7 @@ sense.show_message( str(humid) )
 Du kan også vise luftfuktigheten som en del av en annen melding ved å slå sammen delene av meldingen med et `+`.
 
 ```python
-sense.show_message( "Det er " + str(humid) + " %" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
@@ -58,4 +58,4 @@ Den virkelige Astro Pi måler luftfuktigheten rundt seg, men dere kan flytte gli
 
 ![Luftfuktighet glidebryter](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Merk:** Dere lurer kanskje på hvorfor luftfuktighetsinnstillingen viser temperaturen som et heltall, mens avlesingen dere får er et desimaltall. Emulatoren simulerer den lille unøyaktigheten til den virkelige sensoren, så luftfuktighetsmålingene dere ser kan være ørlite større eller mindre enn verdien dere har angitt med skyveknappen.
