@@ -2,13 +2,13 @@
 
 Förgyll vardagsrutinerna för astronauterna på den internationella rymdstationen genom att visa dem ett meddelande och den relativa luftfuktigheten ombord med hjälp av Astro Pi-datorns Sense HAT.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+Mark II Astro Pi-hårdvaran är så ny att datorerna inte ens har namn än. Du kan hjälpa till att välja vad de ska kallas genom att delta i tävlingen "Namnge nya Astro Pi-datorer" och inkludera ditt favoritnamn som en del av ditt Mission Zero program.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Du kommer att använda Sense HAT-emulatorn online för att skapa ditt program, så ingen extra hårdvara behövs - allt sker i en webbläsare.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Ditt färdiga program kommer att köras i rymden på den internationella rymdstationen (ISS)! Du kommer också att få ett särskilt certifikat som visar exakt var ISS var när ditt program körde.
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+Vi kommer att tillkännage de vinnande namnen på de nya Astro Pi-datorerna våren 2022.
 
 
 ### Vad du kommer att göra
@@ -46,7 +46,7 @@ title: Vad du behöver
 
 ### Programvara
 
-+ A web browser (e.g. Google Chrome) to open [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
++ En webbläsare (t.ex. Google Chrome) för att öppna [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
 --- /kollaps ---
 
@@ -56,7 +56,7 @@ title: Noteringar för lärare och mentorer
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Denna aktivitet kan slutföras på en eftermiddag. Dela in dina elever i grupper med mellan 1 och 4 deltagare, och låt oss vägleda dem i att skriva ett kort Python-program som visar ett personligt meddelande och den relativa luftfuktigheten på Astro Pi.
 
 \ * Observera att detta registreringsformulär endast finns på engelska.
 
@@ -68,14 +68,9 @@ Fälten på formuläret inkluderar: Lärare / mentornamn Gruppens namn Antal del
 
 \* Observera att detta registreringsformulär endast är tillgängligt på engelska.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Fälten på formuläret inkluderar:<0 /> Lärare/mentornamn<1 /> Gruppens namn<0 /> Antal deltagare i gruppen<0 /> Deltagarnas namn och ålder<0 /> På vilket språk du läste Mission Zero-riktlinjerna?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Ett Trinket-konto skapas för dig (om du inte redan har ett, eller om du inte är inloggad). Du kan skapa ett konto per e-postadress. Varje konto har sin egen **klassrumskod**, och du skal dela koden med dina grupper när de är redo att skicka in sina program.
 
 + Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
 
