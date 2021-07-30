@@ -83,4 +83,4 @@ Hvilket språk leste du retningslinjene for Mission Zero på?
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sporingspiksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
