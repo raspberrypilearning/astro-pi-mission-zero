@@ -10,7 +10,7 @@ En del av ditt uppdrag är att bidra till det dagliga livet för besättningen o
 
 [[[generic-theory-what-is-humidity]]]
 
---- task ---
+--- uppgift ---
 
 Lägg till den här koden för att avläsa luftfuktigheten:
 
@@ -20,19 +20,19 @@ luftfuktighet = sense.humidity
 
 Den här raden med kod mäter den aktuella luftfuktigheten och lagrar det avlästa värdet i variabeln `luftfuktighet`.
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Luftfuktigheten registreras mycket exakt, dvs det lagrade värdet har ett stort antal decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan precision, ändra siffran `1` till antalet decimaler du vill se.
 
 ```python
 luftfuktighet = round( sense.humidity, 1 )
 ```
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 För att visa den aktuella luftfuktigheten som ett rullande meddelande på skärmen, lägger du till den här raden kod:
 
@@ -42,9 +42,9 @@ sense.show_message( str(humid) )
 
 Delen `str()` omvandlar luftfuktigheten från ett nummer till text så att Astro Pi kan visa den.
 
---- /task ---
+--- /uppgift ---
 
---- task ---
+--- uppgift ---
 
 Du kan också visa luftfuktigheten som en del av ett annat meddelande genom att slå samman delarna av meddelandet med ett `+`.
 
@@ -52,10 +52,10 @@ Du kan också visa luftfuktigheten som en del av ett annat meddelande genom att 
 sense.show_message( "It is " + str(temp) + " degrees" )
 ```
 
---- /task ---
+--- /uppgift ---
 
 Den verkliga Astro Pi kommer att mäta den omgivande luftfuktighet, men du kan testa din kod och simulera luftfuktighetsförändringar genom att flytta luftfuktighetsreglaget på Sense HAT-emulatorn.
 
 ![Reglage för luftfuktighet](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Obs!** Du kanske undrar varför skjutreglaget för luftfuktighet visar luftfuktigheten som ett heltal, men avläsningen du får är ett decimaltal. Emulatorn simulerar den riktiga sensorns bristfälliga noggrannhet, så skjutreglaget för luftfuktighet som du ser kan vara något större eller mindre än det värde du ställer in med skjutreglaget.
