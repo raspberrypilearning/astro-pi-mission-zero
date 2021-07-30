@@ -1,13 +1,13 @@
 ## Je project indienen
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
+Er zijn enkele regels die je code moet volgen zodat je ze kan indienen om te werken op het internationaal ruimtestation. Als je code hieraan voldoet, zullen de regels onderaan de [Sense HAT-emulator](https://trinket.io/mission-zero) groen oplichten als je het programma laat werken.
 
 ![Valideren](images/validation.png)
 
 1. Doe een vochtigheidsmeting.
-1. De LED's laten oplichten.
-1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
-1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
+1. Laat de LED's oplichten.
+1. Zorg ervoor dat je code helemaal tot het einde werkt zonder dat er fouten optreden. Je mag geen `while True` lussen in je code zetten omdat dit ervoor zorgt dat je code blijft werken en voorkomt dat ze zal stoppen.
+1. Test je code met een aantal andere vochtigheidsinstellingen (gebruik de schuifknop) om ervoor te zorgen dat ze altijd correct zal werken.
 
 Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
@@ -28,7 +28,7 @@ Vul je klascode in het vakje onderaan in - je leraar of mentor zal je vertellen 
 
 --- task ---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+De naam van je leraar zal verschijnen. Als het de juiste naam is, klik dan op de groene **Continue to form**knop.
 
 ![Ga verder naar het formulier](images/continue-to-form.png)
 
@@ -42,7 +42,7 @@ Typ de naam van je team en de namen van de teamleden. Deze worden afgedrukt op h
 
 --- task ---
 
-Druk op de **Submit** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
+Druk op de **Submit** knop om je code in te dienen. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
 
 --- /task ---
 
