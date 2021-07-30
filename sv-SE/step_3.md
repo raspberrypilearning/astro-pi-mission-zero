@@ -14,13 +14,13 @@ sense.set_rotation(270)
 
 ![sense hat-emulator](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Den här koden ansluter till Astro Pi och ser till att LED-displayen i Astro PI visas åt rätt håll. Lämna kvar koden där, för du kommer att behöva den.
 
 --- / uppgift ---
 
 --- uppgift ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Du kanske kan skicka en trevlig hälsning till astronauterna på ISS som arbetar i närheten av Astro Pi? Låt oss rulla meddelandet över displayen.
 
 Lägg till den här raden under de andra kodraderna:
 
@@ -42,13 +42,13 @@ Tryck på knappen **Run** (Kör) och se meddelandet `Astro Pi` rullar över LED-
 
 För att visa ett annat meddelande, kan du skriva vad du vill mellan citationstecknen (`""`).
 
---- collapse ---
+--- kollaps ---
 
 ---
 title: Vilka tecken går att använda?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Sense HAT kan bara visa teckenuppsättningen Latin 1, vilket betyder att endast följande tecken är tillgängliga. Övriga tecken kommer att visas som ett `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,24 +64,24 @@ abcdefghijklmnopqrstuvwxyz
 
 --- uppgift ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Du kan också ändra hastigheten på meddelandet som rullar över skärmen. Lägg till `scroll_speed` på raden i den kod som du redan har skrivit, så här:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Meddelandets standardhastighet är ` 0,1 `. Om du väljer ett mindre tal blir meddelandet snabbare och väljer du ett större gör det att meddelandet rullar långsammare.
 
 --- /uppgift ---
 
 ### Välj ett namn för de nya Astro Pi-datorerna
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- uppgift --- Om du vill delta i tävlingen för att välja namnen på de nya Mark II Astro Pi-datorerna, starta ditt meddelande med orden "Mitt namn ska vara" och lägg sedan till ditt val från detta lista.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+Om du till exempel vill rösta på Ada Lovelace skulle din kod se ut så här:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message("Mitt namn ska vara Ada Lovelace")
 ```
 --- /uppgift ---
 
