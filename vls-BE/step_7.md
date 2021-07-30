@@ -1,12 +1,12 @@
 ## Reageer op vochtigheid
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Je kan je vochtigheidsmeting combineren met een foto om zo de vochtigheid ook op een grafische manier te laten zien. Je kan bijvoorbeeld een oceaan tonen voor hoge vochtigheid en een woestijn voor lage luchtvochtigheid:
 
 ![Nat en droog](images/wet-dry.png)
 
 --- task ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+Onderaan je programma, maak je meer kleurvariableen voor alle kleuren die je wil gebruiken in je tekeningen. Je kan er al een aantal gedefinieerd hebben in de vorige stap.
 
 ```python
 o=(255,130,0)
@@ -62,7 +62,7 @@ humid = sense.get_humidity()
 
 --- task ---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Kies nu welke tekening je wil tonen. In dit voorbeeld, zullen we de `wet` tekening laten zien als de vochtigheidsmeting 40% of hoger is en de `dry` tekening als de vochtigheid lager is dan 40%.
 
 ```python
 humid = sense.get_humidity()
@@ -76,7 +76,7 @@ else:
 
 --- task ---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Gebruik de schuifknop voor vochtigheid om een waarde voor de vochtigheid op de emulator in te stellen. Start je programma en controleer dat de tekening die je koos voor die vochtigheid juist weergegeven wordt.
 
 --- /task ---
 
@@ -86,6 +86,6 @@ Verander je code zodat je programma de vochtigheid weergeeft aan de astronauten 
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Test je code met enkele andere vochtigheidswaarden (door gebruik te maken van de schuifknop) om er zeker van te zijn dat het juist werkt. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
 --- /task ---
