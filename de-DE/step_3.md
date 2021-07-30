@@ -1,4 +1,4 @@
-## Anzeigen einer Nachricht
+## Zeige eine Nachricht und wähle einen Namen für die neuen Astro Pi Computer
 
 --- task ---
 
@@ -74,7 +74,7 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Wähle einen Namen für die neuen Astro Pi-Computer
 
 --- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
 
