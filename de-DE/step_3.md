@@ -76,12 +76,12 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 
 ### Wähle einen Namen für die neuen Astro Pi-Computer
 
---- task --- If you'd like to enter the competition to choose the names of the new Mark II Astro Pi computers, start your message with the words "My name should be" and then add in your selection from this list.
+--- task --- Wenn du dem Wettbewerb betreten möchtest, um die Namen der neuen Mark II Astro Pi-Computer zu wählen, beginne Deine Nachricht mit den Worten "Mein Name sollte sein" und fügen Sie dann Ihre Auswahl aus dieser Liste hinzu.
 
-For example, if you'd like to vote for Ada Lovelace, your code would look like this:
+Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message("Mein Name sollte sein Ada Lovelace")
 ```
 --- /task ---
 
