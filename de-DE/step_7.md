@@ -1,6 +1,6 @@
 ## Zeige die Luftfeuchtigkeit an
 
-Du kannst deinen Feuchtigkeitsmesswert auch mit einem Bild kombinieren, um die Luftfeuchtigkeit auch grafisch anzuzeigen. Beispielsweise könntest du einen Ozean für hohe Luftfeuchtigkeit und eine Wüste für niedrige Luftfeuchtigkeit anzeigen:
+Du kannst deinen Feuchtigkeitsmesswert auch mit einem Bild kombinieren, um die Luftfeuchtigkeit grafisch anzuzeigen. Beispielsweise könntest du einen Ozean für hohe Luftfeuchtigkeit und eine Wüste für niedrige Luftfeuchtigkeit anzeigen:
 
 ![Nass und trocken](images/wet-dry.png)
 
@@ -52,20 +52,20 @@ trocken = [
 
 --- task ---
 
-Füge Code hinzu, um die Luftfeuchtigkeit zu ermitteln:
+Füge etwas Code hinzu, um die Luftfeuchtigkeit zu ermitteln:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Entscheide dich jetzt, welches Bild angezeigt werden soll. In diesem Beispiel wird das Bild `nass` angezeigt, wenn der Feuchtigkeitswert 40% oder mehr beträgt und das `Trocken-`Bild, wenn die Luftfeuchtigkeit unter 40% liegt.
+Entscheide dich jetzt, welches Bild angezeigt werden soll. In diesem Beispiel werden wir das Bild `nass` anzeigen, wenn der Feuchtigkeitswert 40% oder mehr beträgt und das Bild `trocken`, wenn die Luftfeuchtigkeit unter 40% liegt.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(nass)
 else:
@@ -86,6 +86,6 @@ Verwende den Feuchtigkeitsregler, um eine Luftfeuchtigkeit am Emulator einzustel
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Teste deinen Code mit einigen unterschiedlichen Feuchtigkeitseinstellungen (mit dem Schieberegler) um sicherzustellen, dass er immer korrekt läuft. Wenn du dem obigen Beispiel gefolgt bist, wird sowohl ein Bild angezeigt, wenn die Luftfeuchtigkeit auf einen Wert von weniger als 40% eingestellt ist, als auch wenn sie auf mehr als 40% eingestellt ist?
 
 --- /task ---
