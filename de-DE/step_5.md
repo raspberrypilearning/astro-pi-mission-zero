@@ -6,7 +6,7 @@ Auf der LED-Matrix des Astro Pi kannst du auch Bilder anzeigen. Vielleicht könn
 
 --- task ---
 
-Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`s`). Beachte, dass die Schattierungen durch die Reduzierung der Lichtmenge in allen drei Kanälen erzielt werden, während die Proportionen gleich bleiben.
 
 ```python
 w = (255, 255, 255)
