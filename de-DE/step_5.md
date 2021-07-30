@@ -6,11 +6,14 @@ Auf der LED-Matrix des Astro Pi kannst du auch Bilder anzeigen. Vielleicht könn
 
 --- task ---
 
-Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`s`). Beachte, dass die Schattierungen durch die Reduzierung der Lichtmenge in allen drei Kanälen erzielt werden, während die Proportionen gleich bleiben.
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel nutzen wir nur einige wenige Farben — rot (`r`), weiss (`w`), schwarz (`s`) und zwei Schattierungen von grau (`g` und `b`). Beachte, dass die Schattierungen durch die Reduzierung der Lichtmenge in allen drei Kanälen erzielt werden, während die Proportionen gleich bleiben.
 
 ```python
 w = (255, 255, 255)
 s = (0, 0, 0)
+g = (50,50,50)
+t = (200,255,200)
+r = (255,0,0)
 ```
 
 **Hinweis:** Es ist hier sinnvoll den Farbvariablen Namen aus nur einem Buchstaben zu geben, denn das spart Zeit im nächsten Schritt, wo du sie mehrmals tippen musst. Darüber hinaus erleichtert die Verwendung einzelner Buchstaben das Erkennen des gezeichneten Bildes.
@@ -25,15 +28,15 @@ Erstelle unter deinen neuen Variablen eine Liste von 64 Elementen. Jedes Element
 
 ```python
  bild = [
-    s, s, w, w, w, w, s, s,
-    s, w, s, s, s, s, w, s,
-    s, w, s, w, w, s, w, s,
-    s, w, s, s, s, s, w, s,
-    s, s, w, w, w, w, s, s,
-    s, s, w, w, w, w, s, s,
-    s, w, w, w, w, w, w, s,
-    s, w, w, w, w, w, w, s
-]
+    g, s, s, s, s, s, s, g,
+    s, g, g, g, g, g, g, s,
+    s, g, s, s, g, w, g, g,
+    s, g, s, s, g, g, g, g,
+    s, g, g, g, b, b, g, g,
+    s, g, r, g, g, g, g, g,
+    s, g, g, g, g, g, g, s,
+    g, s, s, s, s, s, s, g
+    ]
 ```
 --- /task ---
 
