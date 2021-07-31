@@ -2,7 +2,7 @@
 
 Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, indem du ihnen mit dem Sense HAT des neuen Mark II Astro Pi Computers eine Nachricht sowie die Luftfeuchtigkeit an Bord der Raumstation übermittelst.
 
-Die Mark II Astro Pi Hardware ist so neu, dass die Computer noch nicht einmal Namen haben. Du kannst bei der Auswahl des gewünschten Namens helfen, indem Du an dem Wettbewerb "Benenne die neuen Astro Pi Computer" teilnimmst und Deinen Lieblingsnamen als Teil Deines Mission Zero Programms einschließt.
+Die Mark II Astro Pi Hardware ist so neu, dass die Computer noch nicht einmal Namen haben. Du kannst bei der Auswahl der Namen helfen, indem du an dem Wettbewerb "Benenne die neuen Astro Pi Computer" teilnimmst und, als Teil deines Mission Zero Programms, deinen Lieblingsnamen vorschlägst.
 
 Dein Programm erstellst du mit dem Online Sense HAT Emulator, so dass keine zusätzliche Hardware benötigt wird — alles geschieht in einem Webbrowser.
 
@@ -58,11 +58,11 @@ title: Hinweise für Lehrer und Mentoren
 
 Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, womit man eine persönliche Nachricht und die Luftfeuchtigkeit an den Astro Pi schicken kann.
 
-Lesen Sie das [Dokument offizieller Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
+Lese das Dokument [ offizielle Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
 
 Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihr(e) Team(s) teilnehmen können.
 
-+ Besuchen Sie die [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_ blank"} (Trinket Emulator Mission Zero Seite).
++ Besuchen Sie die [Trinket emulator Mission Zero Seite](https://trinket.io/mission-zero){:target="_ blank"}.
 
 + Füllen Sie das Forumlar aus und klicken Sie auf **Submit** (Senden)\*.
 
