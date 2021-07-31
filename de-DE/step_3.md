@@ -76,7 +76,7 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 
 ### Wähle einen Namen für die neuen Astro Pi-Computer
 
---- task --- Wenn du dem Wettbewerb betreten möchtest, um die Namen der neuen Mark II Astro Pi-Computer zu wählen, beginne Deine Nachricht mit den Worten "Mein Name sollte sein" und fügen Sie dann Ihre Auswahl aus dieser Liste hinzu.
+--- task --- Wenn du dem Wettbewerb betreten möchtest, um die Namen der neuen Mark II Astro Pi-Computer zu wählen, beginne deine Nachricht mit den Worten "Mein Name sollte sein" und füge dann deine Auswahl aus dieser Liste hinzu.
 
 Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
 
