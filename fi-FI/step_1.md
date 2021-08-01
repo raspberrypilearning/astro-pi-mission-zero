@@ -2,7 +2,7 @@
 
 Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viesti ja aluksen sisäilman ilmankosteus käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+Mark II Astro Pi -laitteisto on niin uusi, että tietokoneilla ei ole edes nimiä vielä. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
