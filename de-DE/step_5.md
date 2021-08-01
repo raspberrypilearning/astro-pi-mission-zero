@@ -10,9 +10,9 @@ Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben 
 
 ```python
 w = (255, 255, 255)
-s = (0, 0, 0)
+b = (0, 0, 0)
 g = (50,50,50)
-t = (200,255,200)
+s = (200,255,200)
 r = (255,0,0)
 ```
 
