@@ -2,20 +2,20 @@
 
 Lys op astronauternes daglige rutine på International Space Station ved at vise dem en besked og den relative luftfugtighed ombord ved hjælp af Astro Pi-computerens Sense HAT.
 
-The Mark II Astro Pi hardware is so new that the computers don't even have names yet. You can help choose what they'll be called by entering the "Name the new Astro Pi computers" competition and including your favourite name as part of your Mission Zero program.
+Mark II Astro Pi hardware er så ny, at computerne ikke engang har navne endnu. Du kan hjælpe med at vælge, hvad de vil blive kaldt ved at deltage i konkurrencen "Navngiv den nye Astro Pi-computer" og inkludere dit yndlingsnavn som en del af dit Mission Zero program.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+Du bruger online Sense HAT-emulatoren til at oprette dit program, så der kræves ingen ekstra hardware - alt gøres i en webbrowser.
 
-Your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Dit færdige program køres i rummet på den internationale rumstation (ISS)! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program kørte.
 
-We will announce the winning names for the new Astro Pi computers in spring 2022.
+Vi annoncerer de vindende navne til de nye Astro Pi -computere i foråret 2022.
 
 
 ### Hvad du vil lave
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Her er et eksempel på den slags programmer, du kan lave. Klik på **Kør** for at se det i aktion. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
---- collapse ---
+--- kollaps ---
 
 
 
@@ -23,18 +23,18 @@ Here is an example of the kind of program you could make. Click **Run** to see i
 title: Du kommer til at lære følgende
 ---
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
+Du kommer til at lære om AstroPi-enheden og styringen af den, herunder hvordan du:
 + Vis beskeder og farver
 + Lav billeder
 + Mål fugtigheden ved hjælp af en Sense HAT
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Anvend grundlæggende programmeringskonstruktioner til at oprette simple programmer](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
---- /collapse ---
+--- /kollaps ---
 
---- collapse ---
+--- kollaps ---
 
 ---
 title: Du får brug for følgende
@@ -48,15 +48,15 @@ title: Du får brug for følgende
 
 + En webbrowser (eksempelvis Google Chrome) til at åbne [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
---- /collapse ---
+--- /kollaps ---
 
---- collapse ---
+--- kollaps ---
 ---
 title: Bemærkninger til lærere og mentorer
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Denne aktivitet kan gennemføres på en eftermiddag. Organiser dine studerende i teams på op til fire, og lad os guide dem gennem at skrive et kort Python-program til at vise en personlig besked og relativ luftfugtighed på Astro Pi.
 
 \ * Bemærk, at denne tilmeldingsformular kun er tilgængelig på engelsk.
 
@@ -66,16 +66,16 @@ Felterne på formularen inkluderer: Lærer / mentor navn Teamnavn Antal holdmedl
 
 + Udfyld formularen, og klik på **Submit**\*.
 
-\* Please note that this registration form is available in English only.
+\ * Bemærk, at denne tilmeldingsformular kun er tilgængelig på engelsk.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Felterne på formularen inkluderer:  
+Lærer/mentor navn   
+Teamnavn  
+Antal teammedlemmer  
+Teammedlemmeres navne og alder  
+På hvilket sprog fik du adgang til Mission Zero -retningslinjerne?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ En Trinket konto vil blive oprettet til dig (hvis du ikke allerede har en, eller du ikke er logget ind). Du kan oprette en konto pr. e-mail-adresse. Hver konto har sin egen **klasseværelseskode**, og du skal fortælle dit/dine team(s), hvad jeres er, når de er klar til at indsende deres programmer.
 
 + Vis din klasseværelseskode et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
 
@@ -83,4 +83,4 @@ In which language did you access the Mission Zero guidelines?
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sporingspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
