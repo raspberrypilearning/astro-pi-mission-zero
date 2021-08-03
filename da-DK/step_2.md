@@ -11,7 +11,7 @@ Til denne mission kommer du til at anvende Sense HAT-emulatoren. Emulatoren er e
 
 ![Sense HAT-emulator.](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Der er nogle få forskelle mellem den rigtige Sense HAT og emuleringen af den:
 
 - På emulatoren kan du selv indstille temperatur, tryk og fugtighed ved hjælp af skydere, hvorimod den rigtige Sense HAT i Astro Pi anvender sensorer til at måle disse parametre i dens omgivelser.
 
