@@ -62,7 +62,7 @@ humid = sense.humidity
 
 --- task ---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `våd (wet)` billede, hvis luftfugtigheden er 40% eller derover og `tør (dry)` billede, hvis luftfugtigheden er under 40%.
 
 ```python
 humid = sense.humidity
@@ -74,18 +74,18 @@ else:
 
 --- /task ---
 
---- task ---
+--- opgave ---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Brug fugtighedsskyderen til at indstille en fugtighed på emulatoren. Kør dit program og kontroller, at det billede, du har valgt til den målte luftfugtighed, vises korrekt.
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Ændre din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
 
---- /task ---
+--- /opgave ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- opgave --- Test din kode med et par forskellige fugtighedsindstillinger (ved hjælp af skyderen) for at sikre, at den altid kører korrekt. Hvis du har fulgt eksemplet ovenfor, vises der så et billede både, når luftfugtigheden er indstillet til en værdi mindre end 40% og også når, den er indstillet til mere end 40%?
 
---- /task ---
+--- /opgave ---
