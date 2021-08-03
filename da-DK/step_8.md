@@ -1,13 +1,13 @@
 ## Indsend dit bidrag
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
+Der er nogle få regler, som din kode skal følge, så du kan indsende den og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, så vil reglerne i bunden af [Sense HAT-emulatoren](https://trinket.io/mission-zero) lyse grønt, når du kører programmet.
 
 ![Validering](images/validation.png)
 
 1. Foretag en luftfugtigsaflæsning.
 1. Tænd lysdioderne
-1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
-1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
+1. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Du bør ikke medtage nogen ` while True ` løkker i din kode, da dette holder dig kode kørende og forhindrer, at den afsluttes.
+1. Test din kode med et par forskellige fugtighedsindstillinger (ved hjælp af skyderen) for at sikre, at den altid kører korrekt.
 
 Sørg også for at have opfyldt følgende kriterier:
 
@@ -18,15 +18,15 @@ Sørg også for at have opfyldt følgende kriterier:
 
 Når alle reglerne er grønne, er du klar til at indsende.
 
---- task ---
+--- opgave ---
 
 Indtast din klasseværelseskode i boksen nederst - din lærer fortæller dig, hvad din kode er.
 
 Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Introduktion](https://projects.raspberrypi.org/da-DK/projects/astro-pi-mission-zero/1).
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
