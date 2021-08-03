@@ -1,5 +1,5 @@
-from sense_hat import SenseHat
-sense = SenseHat()
+fra sense_hat import SenseHat
+sense = SenseHat ()
 sense.set_rotation(270)
 w = (255, 255, 255)
 b = (0, 0, 0)
