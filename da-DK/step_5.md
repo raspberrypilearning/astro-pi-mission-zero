@@ -1,12 +1,12 @@
 ## Vis et billede
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Du kan vise billeder på Astro Pi'ens LED-matrix. Måske kunne din hilsen til astronauterne indeholde et billede eller et mønster sammen med, eller i stedet for, en skriftlig besked?
 
 ![Astronaut](images/astronaut-pic.png)
 
---- task ---
+--- opgave ---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+I bunden af dit program skal du oprette nogle farvevariabler til at definere de farver, som du ønsker at tegne dit billede med. Du kan bruge så mange farver, som du vil, men i dette eksempel bruger vi kun få farver - rød (`r`), hvid (`w`), sort (`b`) og to gråtoner (`g` og `s`). Bemærk, at nuancerne opnås ved at reducere mængden af lys i alle tre kanaler, samtidig med at proportionerne beholdes.
 
 ```python
 w = (255, 255, 255)
