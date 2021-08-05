@@ -2,7 +2,7 @@
 
 Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do uruchomienia na Międzynarodowej Stacji Kosmicznej. Jeśli twój kod je spełnia, zasady u dołu emulatora zaświecą się na zielono po uruchomieniu programu.
 
-![Sprawdzanie poprawności](images/validation.png)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
 1. Dokonaj odczytu wilgotności.
 1. Zapal diody LED
