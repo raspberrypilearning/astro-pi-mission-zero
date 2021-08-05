@@ -2,7 +2,7 @@
 
 Ο αισθητήρας υγρασίας στο Astro Pi μπορεί να μετρήσει την υγρασία του αέρα που τον περιβάλλει, μια χρήσιμη δυνατότητα που σας βοηθά να συλλέξετε δεδομένα για τις συνθήκες στο διάστημα.
 
-![Μήνυμα για τη υγρασία](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 Το Astro Pi μετράει την υγρασία στον ISS σαν ποσοστό συγκέντρωσης νερού στον αέρα.
 
@@ -56,6 +56,6 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 Το αληθινό Astro Pi θα μετρήσει την υγρασία στο χώρο που βρίσκεται, αλλά μπορείτε να μετακινήσετε τον ρυθμιστή υγρασίας στον εξομοιωτή Sense Hat για να εξομοιώσετε αλλαγές υγρασίας και να ελέγξετε τον κώδικά σας.
 
-![Ρυθμιστής υγρασίας](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
