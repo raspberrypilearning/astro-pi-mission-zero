@@ -13,7 +13,8 @@ We will announce the chosen names for the new Astro Pi computers in spring 2022.
 
 Here is an example of the kind of program you could make. Click **Run** to see it in action.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the test "Astro Pi" across the LED matrix](images/M0_1.gif) <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+
 
 --- collapse ---
 
