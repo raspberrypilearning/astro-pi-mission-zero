@@ -9,7 +9,7 @@ Hier is een originele Mark I Astro Pi-eenheid op het internationale ruimtestatio
 
 Voor deze missie gebruik je de Sense HAT-emulator. De emulator is een stukje software dat alle functies van de Astro Pi simuleert in je webbrowser.
 
-![Sense HAT-emulator.](images/sense-hat-emulator.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
 
 Er zijn een paar verschillen tussen de echte en de geëmuleerde Sense HAT:
 
