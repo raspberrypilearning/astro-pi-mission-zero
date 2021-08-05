@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Po naciśnięciu przycisku **Run** (Uruchom) zobaczysz, jak wiadomość `Astro Pi` przewija się na wyświetlaczu LED.
 
-![pokaż kod wiadomości kliknij uruchom](images/show-message-code-annotated.PNG)
+![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
 
 --- /task ---
 
-![Przewijanie wiadomości](images/scroll-message.gif)
 
-Aby wyświetlić inną wiadomość, można napisać dowolną treść między znakami cudzysłowu (`""`).
+
+To display a different message, you can write anything you like between the quotation marks (`""`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ Aby wyświetlić inną wiadomość, można napisać dowolną treść między zna
 title: Jakich znaków można użyć?
 ---
 
-Sense HAT może wyświetlać tylko zestaw znaków Latin 1, co oznacza, że ​​dostępne będą tylko następujące znaki. Inne znaki będą wyświetlane jako `?`.
+The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,13 +64,13 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-Można również zmienić tempo przewijania wiadomości na ekranie. Dodaj `scroll_speed` (tempo_przewijania) do istniejącego wiersza kodu, na przykład:
+You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Domyślne tempo przewijania wiadomości to `0.1`. Zmniejszenie liczby spowoduje, że wiadomość będzie przewijać się szybciej, a jej zwiększenie spowoduje, że wiadomość będzie przewijać się wolniej.
+The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
 
 --- /task ---
 
@@ -79,7 +79,16 @@ Domyślne tempo przewijania wiadomości to `0.1`. Zmniejszenie liczby spowoduje,
 --- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
 
 
-[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} \ [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} \ [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} \ [Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} \ [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} \ [Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} \ [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} \ [Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} \ [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} \ [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"} \
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
+[Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
+[Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
+[Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
+[John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
+[Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
+[Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
+[Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
 To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
 
