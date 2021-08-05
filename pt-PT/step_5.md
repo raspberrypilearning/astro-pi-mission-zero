@@ -2,7 +2,7 @@
 
 Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a tua saudação para os astronautas possa incluir uma imagem ou um desenho, junto com ou em vez de uma mensagem escrita?
 
-![Astronauta](images/astronaut-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
 --- task ---
 
