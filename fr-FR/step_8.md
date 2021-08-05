@@ -2,7 +2,7 @@
 
 Ton code doit respecter quelques règles pour que tu puisses le soumettre et le faire exécuter dans la Station Spatiale Internationale. Si ton code les respecte, les règles situées en bas de l'[émulateur Sense HAT](https://trinket.io/mission-zero) s'allumeront en vert lorsque tu exécuteras le programme.
 
-![Validation](images/validation.png)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
 1. Mesure l'humidité.
 1. Allume les LED
