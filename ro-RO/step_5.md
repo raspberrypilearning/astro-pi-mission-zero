@@ -2,7 +2,7 @@
 
 Poți afișa imagini pe matricea LED a Astro Pi. Poate că salutul tău pentru astronauți ar putea include o imagine sau un model, împreună cu mesajul sau în locul mesajului scris?
 
-![Astronaut](images/astronaut-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
 --- task ---
 
