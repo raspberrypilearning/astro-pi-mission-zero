@@ -2,7 +2,7 @@
 
 Czujnik wilgotności w Astro Pi może mierzyć wilgotność powietrza wokół niego, co jest przydatną funkcją, która pomaga zbierać dane o warunkach w przestrzeni.
 
-![Wiadomość o wilgotności](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 Astro Pi mierzy wilgotność w ISS w procentowym stężeniu wody w powietrzu.
 
@@ -56,6 +56,6 @@ sense.show_message( "Jest " + str(humid) + " %" )
 
 Prawdziwy Astro Pi mierzy temperaturę w swoim otoczeniu, ale możesz przesunąć suwak wilgotności na emulatorze Sense HAT, aby symulować zmiany wilgotności i przetestować kod.
 
-![Suwak wilgotności](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Uwaga:** Być może zastanawiasz się, dlaczego suwak wilgotności wyświetla wilgotność jako liczbę całkowitą, ale pomiar podawany jest w postaci liczby dziesiętnej. Emulator symuluje niewielką niedokładność rzeczywistego czujnika, więc uzyskany pomiar wilgotności może być nieznacznie większy lub mniejszy niż wartość ustawiona za pomocą suwaka.
