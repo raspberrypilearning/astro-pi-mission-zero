@@ -9,7 +9,7 @@ Oto prawdziwa jednostka Astro Pi na Międzynarodowej Stacji Kosmicznej, z urucho
 
 For this mission, you will be using the Sense HAT emulator. Emulator to oprogramowanie symulujące wszystkie funkcje Astro Pi w przeglądarce internetowej.
 
-![Emulator Sense HAT](images/sense-hat-emulator.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
 
 Istnieje kilka różnic między prawdziwym a emulowanym Sense HAT:
 
