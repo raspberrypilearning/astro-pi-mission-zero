@@ -2,7 +2,7 @@
 
 The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
 
-![Message about the humidity](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
 
@@ -56,6 +56,6 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
 
-![Humidity slider](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
