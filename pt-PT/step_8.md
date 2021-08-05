@@ -2,7 +2,7 @@
 
 O teu código precisa seguir algumas regras para que possas enviar a tua participação para ser executada na Estação Espacial Internacional. Se o teu código seguir essas regras, na parte inferior do emulador as regras vão aparecer em verde quando executares o programa.
 
-![Validação](images/validation.png)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
 1. Faz a leitura da temperatura
 1. Acende os LED
