@@ -76,9 +76,12 @@ Az üzenet alapértelmezett sebessége `0.1`. Ha kisebb számot írsz be, az üz
 
 ### Válassz nevet az új Astro Pi számítógépeknek
 
---- task --- Ha szeretnél részt venni a 2-es jelzésű Astro Pi számítógépek elnevezési versenyében, kezdd az üzenetet így: "My name should be " (Legyen a nevem ...), aztán add hozzá a kiválasztott nevedet az alábbi listából.
+--- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
 
-Például ha Ada Lovelace-ra szeretnél szavazni, akkor így nézzen ki a kódod:
+
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"}: [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel) [Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr) [Hypatia](https://en.wikipedia.org/wiki/Hypatia) [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone) [Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie) [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla) [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe)
+
+To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
