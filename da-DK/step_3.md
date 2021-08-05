@@ -76,14 +76,17 @@ Beskedens standardhastighed er `0.1`. Hvis du gør talværdien mindre, ruller be
 
 ### Vælg et navn til de nye Astro Pi -computere
 
---- opgave --- Hvis du gerne vil deltage i konkurrencen om at vælge navnene på de nye Mark II Astro Pi-computere, skal du starte din besked med ordene "Mit navn skal være" og derefter tilføje dit valg fra denne liste.
+--- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
 
-Hvis du f.eks. vil stemme på Ada Lovelace, ser din kode således ud:
+
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"}: [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel) [Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr) [Hypatia](https://en.wikipedia.org/wiki/Hypatia) [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone) [Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie) [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla) [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe)
+
+To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
 
 ```python
 sense.show_message ("Mit navn skal være Ada Lovelace")
 ```
---- /opgave ---
+--- /task ---
 
 
 
