@@ -2,7 +2,7 @@
 
 Hay varias reglas que tu código debe respetar para que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del emulador se iluminarán en verde cuando ejecutes el programa.
 
-![Validación](images/validation.png)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
 1. Toma una lectura de la humedad.
 1. Ilumina los LED.
