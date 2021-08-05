@@ -2,7 +2,7 @@
 
 Luftfuktighetsføleren i Astro Pi kan måle luftfuktigheten i luften rundt den, en nyttig funksjon som hjelper deg med å samle data om forholdene i rommet.
 
-![Melding om luftfuktighet](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 Astro Pi måler luftfuktigheten i ISS i antall prosent vannkonsentrasjon i luften.
 
@@ -56,6 +56,6 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 Den virkelige Astro Pi måler luftfuktigheten rundt seg, men dere kan flytte glidebryteren for luftfuktighet på Sense HAT-emulatoren for å simulere endringer i luftfuktighet og teste koden.
 
-![Luftfuktighet glidebryter](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Merk:** Dere lurer kanskje på hvorfor luftfuktighetsinnstillingen viser temperaturen som et heltall, mens avlesingen dere får er et desimaltall. Emulatoren simulerer den lille unøyaktigheten til den virkelige sensoren, så luftfuktighetsmålingene dere ser kan være ørlite større eller mindre enn verdien dere har angitt med skyveknappen.
