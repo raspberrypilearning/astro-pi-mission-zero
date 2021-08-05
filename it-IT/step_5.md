@@ -2,7 +2,7 @@
 
 La matrice di LED dell’Astro Pi consente anche di visualizzare immagini. Forse volete che il vostro saluto agli astronauti includa un’immagine o un motivo, insieme ad un messaggio o al posto di un testo?
 
-![Astronauta](images/astronaut-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
 --- task ---
 
