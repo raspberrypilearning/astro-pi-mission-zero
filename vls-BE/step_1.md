@@ -2,18 +2,18 @@
 
 Fleur de dagelijkse routine van de astronauten in het internationaal ruimtestation op door hun een boodschap en de relatieve luchtvochtigheid te laten zien aan boord door gebruik te maken van de Sense Hat van de Astro Pi computer.
 
-De Mark II hardware van Astro Pi is zo nieuw dat de computers zelfs nog geen namen hebben. Je kan helpen kiezen hoe ze genoemd zullen worden door deel te nemen aan de "Geef de Astro Pi-computers een naam" wedstrijd en je favoriete naam als deel van je Mission Zero-programma op te nemen.
+The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
 
-Je zal de online Sense HAT-emulator gebruiken om je programma te maken, dus er is geen extra hardware nodig - alles wordt uitgevoerd in een webbrowser.
+You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
-Je afgewerkte programma zal in de ruimte werken op het internationaal ruimtestation (ISS)! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
-
-We zullen de winnende namen voor de nieuwe Astro Pi-computers in de lente van 2022 bekend maken.
+We will announce the chosen names for the new Astro Pi computers in spring 2022.
 
 
 ### Wat je gaat maken
 
-Hier is een voorbeeld van het soort programma dat je kan maken. Klik **Run** om het in actie te zien. <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Here is an example of the kind of program you could make. Click **Run** to see it in action.
+
+![The Trinket Sense HAT emulator running a sample program which scrolls the test "Astro Pi" across the LED matrix](images/M0_1.gif) <iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 --- collapse ---
 
