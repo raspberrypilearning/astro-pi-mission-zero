@@ -2,7 +2,7 @@
 
 Dere kan vise bilder på Astro Pi's LED-matrise. Kanskje hilsenen til astronautene kan inkludere et bilde eller et mønster, i tillegg til eller i stedet for en skriftlig melding?
 
-![Astronaut](images/astronaut-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
 --- task ---
 
