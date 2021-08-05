@@ -9,7 +9,7 @@ Iată o unitate originală Mark I Astro Pi de pe Stația Spațială Internațion
 
 Pentru această misiune, vei folosi emulatorul Sense HAT. Emulatorul este o parte din software care simulează toate funcțiile Astro Pi în browserul tău web.
 
-![Emulator sense HAT.](images/sense-hat-emulator.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
 
 Există câteva diferențe între Sense HAT real și cel emulat:
 
