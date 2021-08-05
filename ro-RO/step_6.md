@@ -2,7 +2,7 @@
 
 Senzorul de umiditate din Astro Pi poate măsura umiditatea aerului din jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
 
-![Mesaj despre umiditate](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 Astro Pi măsoară umiditatea în cadrul ISS în procentajul concentrației de apă din aer.
 
@@ -56,6 +56,6 @@ sense.show_message("Umiditate de " + str(humid) + "%")
 
 Un Astro Pi real va măsura umiditatea din jurul său, dar poți muta glisorul de umiditate de pe emulatorul Sense HAT pentru a simula schimbări de umiditate și pentru a testa codul tău.
 
-![Glisor de umiditate](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Notă:** S-ar putea să te întrebi de ce sliderul de umiditate afișează umiditatea ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează ușoara inexactitate a senzorului real, astfel încât umiditatea măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul glisorului.
