@@ -2,7 +2,7 @@
 
 Az Astro Pi LED mátrixán képeket is megjeleníthetsz. Az űrhajósoknak szóló üdvözleted akár még egy képet vagy mintát is tartalmazhat, egy írott üzenettel együtt vagy ahelyett!
 
-![Űrhajós](images/astronaut-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
 --- task ---
 
