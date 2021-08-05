@@ -2,7 +2,7 @@
 
 De vochtigheidssensor op de Astro Pi kan de vochtigheid meten van de lucht eromheen, een nuttige eigenschap om je te helpen met het verzamelen van gegevens over de condities in de ruimte.
 
-![Boodschap over de vochtigheid](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 De Astro Pi meet de vochtigheid in het ISS in percentage waterconcentratie in de lucht.
 
@@ -56,6 +56,6 @@ sense.show_message("Het is " + str(humid) + " %")
 
 De echte Astro Pi zal de vochtigheid errond meten, maar je kan de vochtigheid-schuifknop op de Sense HAT-emulator verplaatsen om vochtigheidsveranderingen te simuleren en zo je code te testen.
 
-![Vochtigheids-schuifknop](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Opmerking:** Je vraagt je misschien af waarom de vochtigheidsschuifknop de vochtigheid als een geheel getal weergeeft terwijl de meting die je ontvangt een decimaal is. De emulator simuleert de kleine onnauwkeurigheid van de echte sensor, zodat de vochtigheidsmeting die je ziet een beetje groter of kleiner kan zijn dan de waarde die je instelde met de schuifknop.
