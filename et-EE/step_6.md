@@ -2,7 +2,7 @@
 
 Astro Pi-l asuv niiskuse sensor mõõdab ümbritseva õhu niiskust, mis on vajalik kosmoses valitsevate tingimuste kohta andmete kogumiseks.
 
-![Sõnum õhuniiskuse kohta](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 Astro Pi mõõdab ISS-i niiskust protsentides vee kontsentratsiooni kohta õhus.
 
@@ -56,6 +56,6 @@ sense.show_message( "On " + str(niiske) + " %" )
 
 Tõeline Astro Pi mõõdab õhuniiskust enda ümber, aga sina võid niiskuse liugurit Sense HAT-i emulaatoril liigutada simuleerimaks niiskuse muutusi ja testimaks oma koodi.
 
-![Õhuniiskuse liugur](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Märkus:** Sa võid mõelda, miks õhuniiskuse liugur näitab niiskust täisarvuna, aga need mõõtmise tulemused, mis sina saad, näitavad kümnendkohti. Emulaator simuleerib tõelise sensori väikest ebatäpsust, seetõttu võib sinu poolt nähtav õhuniiskuse mõõtmise tulemus olla natuke suurem või väiksem sellest väärtusest, mis sa liuguriga tegelikult määrasid.
