@@ -2,7 +2,7 @@
 
 El sensor de humedad de Astro Pi puede medir la humedad del ambiente; una función útil para ayudarte a obtener datos sobre las condiciones en el espacio.
 
-![Mensaje sobre la humedad](images/degrees-message.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
 El Astro Pi mide la humedad en la ISS como un porcentaje de concentración de agua en el aire.
 
@@ -56,6 +56,6 @@ sense.show_message( "Hay una humedad del " + str(humedad) + " %" )
 
 El Astro Pi real medirá la humedad a su alrededor, sin embargo, tu podrás mover el control deslizante de la humedad en el emulador Sense HAT para simular cambios de humedad y probar tu código.
 
-![Deslizador de humedad](images/humidity-slider.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
 
 **Nota:** Puede que te preguntes porqué el control deslizante de la humedad muestra la misma en números enteros a pesar de que la lectura que obtienes tiene decimales. El emulador simula una ligera inexactitud del sensor real, de modo que la medición de temperatura que ves podría ser ligeramente inferior o superior al valor establecido con el control deslizante.
