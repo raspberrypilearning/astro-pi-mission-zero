@@ -2,7 +2,7 @@
 
 Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im [Sense HAT emulator](https://trinket.io/mission-zero) grün angezeigt.
 
-![Validierung](images/validation.png)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
 1. Nimm eine Feuchtigkeitsmessung vor.
 1. Schalte die LED-Lichter ein
