@@ -2,7 +2,7 @@
 
 Der er nogle få regler, som din kode skal følge, så du kan indsende den og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, så vil reglerne i bunden af [Sense HAT-emulatoren](https://trinket.io/mission-zero) lyse grønt, når du kører programmet.
 
-![Validering](images/validation.png)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
 1. Foretag en luftfugtigsaflæsning.
 1. Tænd lysdioderne
