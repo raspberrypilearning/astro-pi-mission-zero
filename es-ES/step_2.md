@@ -9,7 +9,7 @@ Aquí tienes una unidad Astro Pi real de la Estación Espacial Internacional eje
 
 Para esta misión, usarás el emulador Sense HAT. El emulador es una pieza de software que simula todas las funciones del Astro Pi en tu navegador web.
 
-![Emulador Sense HAT](images/sense-hat-emulator.png)
+![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
 
 Existen algunas diferencias entre el Sense HAT real y el emulado:
 
