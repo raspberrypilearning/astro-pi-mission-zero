@@ -76,9 +76,12 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 
 ### Wähle einen Namen für die neuen Astro Pi-Computer
 
---- task --- Wenn du dem Wettbewerb betreten möchtest, um die Namen der neuen Mark II Astro Pi-Computer zu wählen, beginne deine Nachricht mit den Worten "Mein Name sollte sein" und füge dann deine Auswahl aus dieser Liste hinzu.
+--- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
 
-Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
+
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"}: [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel) [Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr) [Hypatia](https://en.wikipedia.org/wiki/Hypatia) [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone) [Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie) [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla) [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe)
+
+To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
 
 ```python
 sense.show_message("Mein Name sollte sein Ada Lovelace")
