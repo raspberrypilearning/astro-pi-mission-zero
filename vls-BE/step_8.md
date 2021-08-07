@@ -2,7 +2,7 @@
 
 Er zijn enkele regels die je code moet volgen zodat je ze kan indienen om te werken op het internationaal ruimtestation. Als je code hieraan voldoet, zullen de regels onderaan de [Sense HAT-emulator](https://trinket.io/mission-zero) groen oplichten als je het programma laat werken.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Een screenshot van de Mission Zero-Trinket-pagina's die de indien-knop tonen en de controlecriteria aan de linkerkant. De bovenste twee ("read humidity" en "use the LEDs") stain in orange test, de onderste ("runs without any errors") is green ](images/validation.png)
 
 1. Doe een vochtigheidsmeting.
 1. Laat de LED's oplichten.
