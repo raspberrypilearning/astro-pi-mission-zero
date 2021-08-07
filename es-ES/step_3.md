@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![Una captura de pantalla del emulador Trinket Sense Hat con tres líneas de código de inicio que se muestran en el panel de la izquierda.](images/sense-hat-emulator2.png)
 
 Este código se conecta al Astro Pi y se asegura de que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
 
@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Pulsa el botón **Run** (Ejecutar) y observa cómo el mensaje `Astro Pi` se desplaza por la pantalla LED.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![El emulador HAT Trinket Sense ejecutando un programa de ejemplo que desplaza el texto "Astro PI" a través de la matriz LED en letras blancas](images/M0_1.gif)
 
 --- /task ---
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Para mostrar un mensaje diferente, puedes escribir cualquier cosa que quieras entre las comillas (`""`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: ¿Qué caracteres puedo utilizar?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+El Sense HAT sólo puede mostrar el conjunto de caracteres Latín 1, lo que significa que sólo los siguientes caracteres estarán disponibles. Otros caracteres se mostrarán como un `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -62,21 +62,21 @@ abcdefghijklmnopqrstuvwxyz
 
 --- /collapse ---
 
---- task ---
+--- tarea---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+También puedes cambiar la velocidad de desplazamiento del mensaje por la pantalla. Añade `scroll_speed` a la línea del código que ya tienes, así:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que el mensaje se desplace más rápidamente; y aumentarlo, que se desplace más lentamente.
 
---- /task ---
+--- /tarea ---
 
 ### Elige un nombre para los nuevos ordenadores Astro Pi
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- tarea --- Vamos a nombrar las computadoras Astro Pi en honor a dos científicos europeos inspiradores. Hay cientos de hombres y mujeres que han contribuido a la ciencia y la tecnología; los participantes pueden sugerir sus propios nombres o elegir de nuestra lista de sugerencias:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -90,12 +90,12 @@ The default speed of the message is `0.1`. Making the number smaller makes the m
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+Para votar, comienza tu mensaje con las palabras "Mi nombre debería ser". Por ejemplo, si quieres votar por Ada Lovelace, tu código se vería así:
 
 ```python
 sense.show_message ("Mi nombre debería ser Ada Lovelace")
 ```
---- /task ---
+--- /tarea---
 
 
 
