@@ -2,7 +2,7 @@
 
 Pilte saad kuvada Astro Pi LED-maatriksil. Võib-olla võiks sinu tervitus astronautidele sisaldada pilti või mustrit koos kirjaliku sõnumiga või selle asemel?
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![Emulaatori akna kuvatõmmis, mis näitab lennuüksust, LED-maatriks kuvamas pilti lennuüksusest endast](images/fu-pic.png)
 
 --- task ---
 
