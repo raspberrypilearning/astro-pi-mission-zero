@@ -2,7 +2,7 @@
 
 Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze volgt, lichten de regels onder aan de [Sense HAT emulator](https://trinket.io/mission-zero) groen op wanneer je het programma uitvoert.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Een screenshot van de Mission Zero Trinket pagina's met de verzendknop en de criteriacontroles aan de linkerkant. De bovenste twee ("lees vochtigheid" en "gebruik de LED's") zijn oranje, de onderste ("loopt zonder fouten") is groen ](images/validation.png)
 
 1. Neem een luchtvochtigheidsmeting.
 1. Verlicht de LED's.
