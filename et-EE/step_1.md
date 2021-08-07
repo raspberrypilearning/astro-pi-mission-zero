@@ -13,7 +13,7 @@ Uute Astro Pi arvutite nimed teatame kevadel 2022.
 
 Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see jookseb, klõpsa **Run**.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Trinket Sense HAT-i emulaator, kus on käivitatud näidisprogramm, mis kerib niiskuse väärtust üle LED-maatriksi ja kuvab seejärel kala pildi](images/M0_4.gif)
 
 
 --- collapse ---
