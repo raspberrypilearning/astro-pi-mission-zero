@@ -2,7 +2,7 @@
 
 Sinu koodi esitamiseks rahvusvahelises kosmosejaamas käivitamiseks peab see vastama mõnedele reeglitele. Kui sinu kood neid järgib, reeglid [Sense HAT-i emulaatori](https://trinket.io/mission-zero) all muutuvad programmi käivitamisel roheliseks.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Mission Zero Trinketi lehtede kuvatõmmis, mis näitab esitamisnuppu ja kontrolltingimusi vasakul. Kaks ülemist ("loe niiskust" ja "kasuta LED-e") on oranžis kirjas, alumine ("käivitub tõrgeteta") on rohelises ](images/validation.png)
 
 1. Mõõda õhuniiskust.
 1. Süüta LED-id.
