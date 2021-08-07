@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![Een screenshot van de Trinket Sense Hat emulator met drie regels startercode weergegeven in het linkervenster.](images/sense-hat-emulator2.png)
 
 Deze code maakt verbinding met de Astro Pi en zorgt ervoor dat het LED-display van de Astro Pi op de juiste manier wordt weergegeven. Laat de code daar staan, want je hebt hem nodig.
 
@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Druk op de **Run** knop en kijk terwijl het bericht `Astro Pi` over het LED-display scrolt.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![De Trinket Sense HAT emulator draait een voorbeeldprogramma dat de tekst "Astro PI" in witte letters over de LED-matrix schuift](images/M0_1.gif)
 
 --- /task ---
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Om een ​​ander bericht weer te geven, kun je alles wat je maar wilt tussen de aanhalingstekens (`""`) schrijven.
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: Welke tekens kunnen worden gebruikt?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+De Sense HAT kan alleen de tekenset Latin 1 weergeven, wat betekent dat alleen de volgende tekens beschikbaar zijn. Andere tekens worden weergegeven als een `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,19 +64,19 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Je kunt ook de snelheid veranderen van het bericht dat over het scherm scrolt. Voeg een `scroll_speed` (scroll_snelheid) toe aan de regel met code die je al hebt, zoals deze:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, scrolt het bericht sneller en door het groter te maken, scrolt het bericht langzamer.
 
 --- /task ---
 
 ### Kies een naam voor de nieuwe Astro Pi computers
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- task --- We zullen de Astro Pi computers vernoemen naar twee inspirerende Europese wetenschappers. Er zijn honderden mannen en vrouwen die hebben bijgedragen aan wetenschap en technologie, en deelnemers kunnen hun eigen namen voorstellen, of kiezen uit onze lijst met suggesties:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
