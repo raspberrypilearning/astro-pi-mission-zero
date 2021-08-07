@@ -9,7 +9,7 @@ See on tõeline rahvusvahelises kosmosejaamas asuv Mark I Astro Pi kapsel, kus o
 
 Selle missiooni jaoks kasutad Sense HAT-i emulaatorit. Emulaator on tarkvara, mis simuleerib sinu veebibrauseris kõiki Astro Pi funktsioone.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+![Nimega kuvatõmmis Sense HAT-i emulaatorist, koodiaken vasakul ja emulaator paremal.](images/sense-hat-emulator.png)
 
 Tõelise ja emuleeritud Sense HAT-i vahel on mõned erinevused:
 
