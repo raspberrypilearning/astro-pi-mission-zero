@@ -2,16 +2,16 @@
 
 Muuda rahvusvahelise kosmosejaama astronautide igapäevane rutiin rõõmsamaks näidates neile sõnumit ja suhtelist õhuniiskust pardal kasutades Astro Pi arvuti Sense HAT-i.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Astro Pi riistvara Mark II on nii uus, et arvutitel pole veel isegi nimesid. Anname Astro Pi arvutitele nime kahe inspireeriva Euroopa teadlase järgi. Saad nimevalikul aidata, kui hääletad Mission Zero programmi osana oma lemmiknime poolt.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Oma programmi loomiseks saad kasutada veebipõhist Sense HAT-i emulaatorit, seega ei ole sul vaja täiendavat riistvara — kõike saab teha veebibrauseris. *Nõuetele vastavuse korral* käivitatakse sinu valmis programm rahvusvahelise kosmosejaama (ISS) pardal kosmoses! Samuti antakse sulle spetsiaalne tunnistus, mis näitab kus täpselt ISS sinu programmi käivitamise ajal viibis.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Uute Astro Pi arvutite nimed teatame kevadel 2022.
 
 
 ### Mida sa teed
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see jookseb, klõpsa **Run**.
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
