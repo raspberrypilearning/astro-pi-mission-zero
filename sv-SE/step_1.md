@@ -2,16 +2,16 @@
 
 Förgyll vardagsrutinerna för astronauterna på den internationella rymdstationen genom att visa dem ett meddelande och den relativa luftfuktigheten ombord med hjälp av Astro Pi-datorns Sense HAT.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Mark II Astro Pi-hårdvara är så ny att datorerna inte ens har namn ännu. Vi kommer att namnge Astro Pi-datorerna efter två inspirerande europeiska forskare. Du kan hjälpa till att välja vad de kommer att kallas genom att rösta på ditt favoritnamn som en del av ditt Mission Zero -program.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Du kommer att använda Sense HAT-emulatorn online för att skapa ditt program, så ingen extra hårdvara behövs - allt sker i en webbläsare. *Om det uppfyller behörighetskriterierna* körs ditt slutförda program i rymden på International Space Station (ISS)! Du kommer också att få ett särskilt certifikat som visar exakt var ISS var när ditt program körde.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Vi kommer att meddela de utvalda namnen på de nya Astro Pi-datorerna våren 2022.
 
 
 ### Vad du kommer att göra
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras.
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
