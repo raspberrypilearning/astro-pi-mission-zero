@@ -13,7 +13,7 @@ Vi kommer att meddela de utvalda namnen på de nya Astro Pi-datorerna våren 202
 
 Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) för att se det köras.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Trinket Sense HAT-emulatorn som kör ett exempelprogram som bläddrar igenom luftfuktighetsvärdet över LED-matrisen och sedan visar en bild av en fisk](images/M0_4.gif)
 
 
 --- kollaps ---
