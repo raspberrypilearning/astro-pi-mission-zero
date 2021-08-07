@@ -2,18 +2,18 @@
 
 Fleur de dagelijkse routine van de astronauten in het internationaal ruimtestation op door hun een boodschap en de relatieve luchtvochtigheid te laten zien aan boord door gebruik te maken van de Sense Hat van de Astro Pi computer.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+De Mark II hardware van Astro Pi is zo nieuw dat de computers zelfs nog geen namen hebben. De namen die aan de Astro Pi computers gegeven zullen worden zijn geïnspireerd op twee inspirerende Europese wetenschappers. Je kan helpen kiezen hoe ze zullen heten door te stemmen op je favoriete naam als onderdeel van je Mission Zero-programma.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, er is dus geen extra hardware nodig - alles wordt gedaan in de web browser. *Als het voldoet aan de toelatingscriteria* zal je afgewerkte programma in de ruimte werken op het internationaal ruimtestation (ISS)! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+We zullen de winnende namen voor de nieuwe Astro Pi-computers in de lente van 2022 bekend maken.
 
 
 ### Wat je gaat maken
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Hier is een voorbeeld van het soort programma dat je kunt maken. Klik **Run** om het in actie te zien.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![De Trinket Sense HAT emulator die een proefprogramma laat werken dat de vochtigheidswaarde over de LED-matrix laat scrollen en daarna een beeld van een vis toont](images/M0_4.gif)
 
 
 --- collapse ---
