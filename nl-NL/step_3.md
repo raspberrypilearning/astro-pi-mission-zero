@@ -90,7 +90,7 @@ De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+Om te stemmen, begint je jouw bericht met de woorden "Mijn naam zou moeten zijn". Bijvoorbeeld, als jij wilt stemmen voor Ada Lovelace, zou je code er zo uit moeten zien:
 
 ```python
 sense.show_message("Mijn naam zou Ada Lovelace moeten zijn")
