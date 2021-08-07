@@ -2,7 +2,7 @@
 
 Je kunt afbeeldingen op de LED-matrix van de Astro Pi weergeven. Misschien zou je groet voor de astronauten een afbeelding of een patroon kunnen bevatten, naast of in plaats van een geschreven boodschap?
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![Een screenshot van het emulatorvenster met de Flight Unit met de LED-matrix die een afbeelding van de Flight Unit zelf toont](images/fu-pic.png)
 
 --- task ---
 
