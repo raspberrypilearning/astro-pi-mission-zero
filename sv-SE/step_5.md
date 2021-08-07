@@ -2,7 +2,7 @@
 
 Du kan visa bilder på Astro Pis LED-matris. Din hälsning till astronauterna kanske ska innehålla en bild eller ett mönster, tillsammans med eller istället för ett skrivet meddelande?
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av själva flygenheten](images/fu-pic.png)
 
 --- uppgift ---
 
