@@ -33,7 +33,7 @@ sense.show_message ("Astro Pi", text_colour = rot)
 
 --- /task ---
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+![Der Trinket Sense HAT-Emulator, der ein Beispielprogramm ausführt, das den Text \"Astro PI\" in weißen Buchstaben über die LED-Matrix laufen lässt](images/M0_2.gif)
 
 --- task ---
 
