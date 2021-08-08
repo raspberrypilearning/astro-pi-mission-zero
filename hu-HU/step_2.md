@@ -9,7 +9,7 @@ Itt van egy igazi 1-es jelzésű Astro Pi egység a Nemzetközi Űrállomáson, 
 
 Ehhez a küldetéshez a Sense HAT emulátort használod majd. Az emulátor egy olyan szoftver, amely az Astro Pi összes funkcióját szimulálja a webböngésződben.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+![Felcímkézett képernyőkép a SenseHat emulátorról a bal oldalon a kódablakkal és a jobb oldalon az emulátorral.](images/sense-hat-emulator.png)
 
 Azonban van néhány különbség az igazi és az emulált Sense HAT között:
 
