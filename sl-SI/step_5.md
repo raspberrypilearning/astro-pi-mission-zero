@@ -2,7 +2,7 @@
 
 Na matrici LED računalnika Astro Pi lahko prikažete slike. Morda želite, da bi vaš pozdrav astronavtov poleg ali namesto pisnega sporočila vseboval sliko ali vzorec?
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![Posnetek zaslona okna emulatorja, ki prikazuje Letalsko Enoto z LED matrico, ki prikazuje sliko Letalske Enote](images/fu-pic.png)
 
 --- task ---
 
