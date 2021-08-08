@@ -2,18 +2,18 @@
 
 Popestrite dnevno rutino astronavtov na Mednarodni vesoljski postaji, in jim s pomočjo novega računalnika Astro Pi Mark II in njegovega emulatorja Sense HAT sporočite relativno vlažnost.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Strojna oprema Mark II je tako nova, da računalniki še nimajo imen. Računalnike Astro Pi bomo poimenovali po dveh navdihujočih evropskih znanstvenikih. Pri izbiri imena se lahko odločite tako, da v svojem programu za Mission Zero glasujete za svoje najljubše ime.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Za pisanje svojega programa boste uporabljali spletni emulator Sense HAT, zato dodatna strojna oprema ni potrebna – delo v celoti poteka v spletnem brskalniku. *Če izpolnjuje vse kriterije*, se bo vaš program zagnal v vesolju na Mednarodni vesoljski postaji (ISS)! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Izbrana imena za nove računalnike Astro Pi bomo objavili spomladi 2022.
 
 
 ### Kaj boste naredili?
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+To je primer programa, ki ga lahko ustvarite. Kliknite **Run** (Zaženi), da si ga ogledate.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Emulator Trinket Sense HAT, ki izvaja program, ki prikaže vrednost vlažnosti na matriki LED in nato prikaže sliko ribe](images/M0_4.gif)
 
 
 --- collapse ---
