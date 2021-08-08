@@ -2,7 +2,7 @@
 
 Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy beküldhesd a Nemzetközi Űrállomáson való futtatásra. Ha a kódod betartja őket, akkor a [Sense HAT emulátor](https://trinket.io/mission-zero) alján a szabályok zölddel villannak fel, amikor futtatod a programodat.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Képernyőkép a Mission Zero Trinket oldalakról, amelyen a beküldő gomb a bal oldalon, a feltételek ellenőrzése a jobb oldalon látható. A felső kettő ("olvasd be a páratartalmat" és "használd a LED-eket") narancssárga színű, az alsó ("hiba nélkül lefut") pedig zöld ](images/validation.png)
 
 1. Mérd meg a páratartalmat!
 1. Kapcsold be a LED-eket!
