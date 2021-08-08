@@ -9,7 +9,7 @@ Tukaj je prva enota Astro Pi Mark I na Mednarodni vesoljski postaji, ki prikazuj
 
 Pri tej misiji boste uporabljali emulator Sense HAT. Emulator je del programske opreme, ki v vašem spletnem brskalniku simulira vse funkcije Astro Pi.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+![Posnetek zaslona emulatorja Sense HAT z oknom kode na levi in emulatorjem na desni.](images/sense-hat-emulator.png)
 
 Obstaja nekaj razlik med pravim in emuliranim Sense HAT:
 
