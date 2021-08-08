@@ -2,7 +2,7 @@
 
 Az Astro Pi páratartalom-érzékelője képes a körülötte levő levegő páratartalmának mérésére. Ez egy hasznos funkció, amely segít az űrbeli viszonyokról szóló adatgyűjtésben.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
+![A Trinket Sense HAT emulátor egy példakódot futtat, amely a páratartalom értékét futtatja végig a LED-mátrixon fehér betűkkel](images/M0_3.gif)
 
 Az Astro Pi az ISS-en a páratartalmat a levegőben levő víz százalékos arányaként méri meg.
 
@@ -56,6 +56,6 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 A valódi Astro Pi a körülötte levő páratartalmat méri majd, de a Sense HAT emulátor páratartalom-csúszkájával szimulálhatod a páratartalom-változásokat és tesztelheted a kódod.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
+![Felcímkézett képernyőkép a SenseHat emulátorról a bal oldalon a kódablakkal és a jobb oldalon az emulátorral. A páratartalom beállításához használt csúszka a jobb felső sarokban be van karikázva](images/humidity-slider.png)
 
 **Megjegyzés:** Furcsa lehet, hogy a páratartalom-csúszka egy egész számként mutatja a páratartalmat, de a leolvasott érték egy tizedes tört lesz. Az emulátor a valódi érzékelő enyhe pontatlanságát szimulálja, úgyhogy a mért páratartalom, amit látsz, kicsit nagyobb vagy kisebb lehet annál az értéknél, amit a csúszkával állítottál be.
