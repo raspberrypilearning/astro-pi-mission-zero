@@ -2,7 +2,7 @@
 
 Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če jih vaša koda upošteva, bodo pravila na dnu [Sense HAT emulatorja](https://trinket.io/mission-zero) ob zagonu programa zasvetila zeleno.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Posnetek zaslona strani Mission Zero Trinket, ki prikazuje gumb za oddajo in preverjanja meril na levi. Zgornji merili (v"branje vlažnost" in "uporaba LED") sta v oranžni, spodnje merilo ("program deluje brez napak") je zeleno ](images/validation.png)
 
 1. Odčitajte vlažnost.
 1. Vklopite zaslon LED.
