@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![Képernyőkép a Sense Hat emulátorról a három sornyi kezdőkóddal a bal oldali panelen.](images/sense-hat-emulator2.png)
 
 Ez a kód az Astro Pi-hoz kapcsolódik, és biztosítja, hogy az Astro Pi LED kijelzője a helyes irányba mutat. Hagyd meg a kódot, mert szükséged lesz rá!
 
@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Kattints a **Run** (Futtatás) gombra, és figyeld, hogy fut az `Astro Pi` üzenet keresztül a LED kijelzőn!
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![A Trinket Sense HAT emulátor egy példakódot futtat, amely az "Astro PI" szöveget futtatja végig a LED-mátrixon fehér betűkkel](images/M0_1.gif)
 
 --- /task ---
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Egy másik üzenet megjelenítéséhez írj be az idézőjelek (`""`) közé bármit, amit szeretnél.
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: Milyen karaktereket lehet használni?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+A Sense HAT csak a Latin 1-es karakterkészletet tudja megjeleníteni, ami azt jelenti, hogy csak a lentebb látható karakterek lesznek elérhetők. Minden más karakter `?`-ként jelenik majd meg.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,19 +64,19 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Az üzenet képernyőn való végigfutásának sebességét is megváltoztathatod. Add a `scroll_speed` paramétert a kódsorodhoz, valahogy így:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Az üzenet alapértelmezett sebessége `0.1`. Ha kisebb számot írsz be, az üzenet gyorsabban fut majd, a nagyobb számok pedig lelassítják az üzenetet.
 
 --- /task ---
 
 ### Válassz nevet az új Astro Pi számítógépeknek
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- task --- Az Astro Pi számítógépeket két inspiráló európai tudósról fogjuk elnevezni. Több száz férfi és nő járult hozzá a tudományhoz és technológiához, és a résztvevők javasolhatják a saját neveiket, vagy választhatnak a javasolt nevek listájáról:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
