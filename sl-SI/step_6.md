@@ -2,7 +2,7 @@
 
 Senzor vlažnosti v računalniku Astro Pi lahko izmeri stanje vlažnosti okoli sebe, kar je koristna funkcija pri zbiranju podatkov o razmerah v vesolju.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
+![Emulator Trinket Sense HAT s programom, ki se z belimi črkami na matriko LED napiše vrednost vlage](images/M0_3.gif)
 
 Astro Pi meri vlažnost na ISS v odstotkih koncentracije vode v zraku.
 
@@ -56,6 +56,6 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 Pravi Astro Pi bo izmeril vlago okrog sebe, a vi lahko drsnik za vlago na emulatorju Sense HAT premikate in s tem simulirate spremembe vlage ter preizkusite svojo kodo.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
+![Posnetek zaslona emulatorja Sense HAT z oknom kode na levi in emulatorjem na desni. Drsnik za nastavitev vlažnosti je obkrožen v zgornjem desnem kotu](images/humidity-slider.png)
 
 **Opomba:** Morda se sprašujete, zakaj drsnik vlago prikaže kot celo število, a dobljen odčitek bo v decimalni obliki. Emulator simulira manjšo nenatančnost pravega senzorja, zato je lahko izmerjena vlaga nekoliko višja ali nižja od vrednosti, ki ste jo nastavili z drsnikom.
