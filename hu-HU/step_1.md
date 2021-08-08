@@ -2,18 +2,18 @@
 
 Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállomáson: küldj nekik egy üzenetet és mutasd meg a levegő páratartalmát a fedélzeten az Astro Pi számítógép Sense HAT-jének segítségével.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+A 2-es jelzésű Astro Pi hardver annyira új, hogy az új számítógépeknek még nevük sincs. Az Astro Pi számítógépeket két inspiráló európai tudósról fogjuk elnevezni. Segíthetsz kiválasztani a nevüket, ha a Mission Zero programod részeként szavazol a kedvenc nevedre.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Az online Sense HAT emulátort használod majd a programod létrehozására, úgyhogy nincs szükség extra hardverre — minden a böngészőben történik. *Ha megfelel a részvételi feltételeknek*, az elkészült programod az űrben fog futni a Nemzetközi Űrállomás (ISS) fedélzetén! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Az új Astro Pi számítógépek kiválasztott nevét 2022 tavaszán fogjuk bejelenteni.
 
 
 ### Amit el fogsz készíteni
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Itt van egy példa arra, milyen programot készíthetsz. Kattints a **Run** (Futtatás) gombra, hogy működés közben lásd!
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![A Trinket Sense HAT emulátor egy példaprogramot futtat, amely a páratartalom értékét futtatja végig a LED-mátrixon, aztán egy hal képét mutatja](images/M0_4.gif)
 
 
 --- collapse ---
