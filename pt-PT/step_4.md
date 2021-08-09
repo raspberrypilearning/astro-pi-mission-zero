@@ -14,41 +14,41 @@ Escolha uma cor e descubra o valor RGB dessa cor. Para ajudar, pode usar um [sel
 
 --- task ---
 
-Cria uma variável para armazenar a cor que escolheste. Por exemplo, se escolhes-te o vermelho, deves escrever este código:
+Crie uma variável para armazenar a sua cor escolhida. Por exemplo, se escolheu o vermelho, deve escrever este código:
 
 ```python
-red = (255,0,0)
+vermelho = (255,0,0)
 ```
 
 --- /task ---
 
 --- task ---
 
-Agora podes exibir o teu texto na cor que escolheste! Para que o programa use a cor que criaste, adiciona um parâmetro `text_colour` ao código que exibe o teu texto:
+Agora pode exibir o seu texto na cor que escolheu! Para que o programa use a cor que criou, adicione um parâmetro `text_colour` ao código que exibe o seu texto:
 
 ```python
-red = (255,0,0)
-sense.show_message("Astro Pi", text_colour=red)
+vermelho = (255,0,0)
+sense.show_message("Astro Pi", text_colour=vermelho)
 ```
 
 --- /task ---
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+![O emulador Trinket do Sense HAT executando um programa de exemplo que desliza o texto \"Astro Pi\" ao longo da matriz de LED usando letras vermelhas](images/M0_2.gif)
 
 --- task ---
 
-Também podes alterar a cor de fundo do ecrã. Escolhe outra cor e cria outra variável para armazenar essa cor. Para dizer ao programa que use a cor de fundo escolhida, adiciona o parâmetro `back_colour` ao teu código:
+Também pode alterar a cor de fundo do ecrã. Escolha outra cor e crie outra variável para armazenar essa cor. Para dizer ao programa que use a cor de fundo escolhida, adicione o parâmetro `back_colour` ao seu código:
 
 ```python
-red = (255,0,0)
-green = (0,255,0)
-sense.show_message("Astro Pi", text_colour=red, back_colour=green)
+vermelho = (255,0,0)
+verde = (0,255,0)
+sense.show_message("Astro Pi", text_colour=vermelho, back_colour=verde)
 ```
 
 --- /task ---
 
 --- task ---
 
-Altera o texto e a cor da saudação - que mensagem queres enviar aos astronautas a bordo da Estação Espacial?
+Altere o texto e a cor da saudação - que mensagem enviará aos astronautas a bordo da EEI?
 
 --- /task ---
