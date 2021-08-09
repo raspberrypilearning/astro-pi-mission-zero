@@ -2,7 +2,7 @@
 
 Du kan vise billeder på Astro Pi'ens LED-matrix. Måske kunne din hilsen til astronauterne indeholde et billede eller et mønster sammen med, eller i stedet for, en skriftlig besked?
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![Et skærmbillede af emulatorvinduet, der viser Flight Unit'en med LED-matricen, der viser et billede af selve Flight Unit'en](images/fu-pic.png)
 
 --- opgave ---
 
@@ -73,4 +73,4 @@ sleep(2)
 
 Lav dit eget billede eller mønster, du kan vise til astronauterne!
 
---- /task ---
+--- /opgave ---
