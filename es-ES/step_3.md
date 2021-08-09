@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![Una captura de pantalla del emulador Trinket Sense Hat con tres líneas de código de inicio que se muestran en el panel de la izquierda.](images/sense-hat-emulator2.png)
+![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand panel.](images/sense-hat-emulator2.png)
 
 Este código se conecta al Astro Pi y se asegura de que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
 
@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 Pulsa el botón **Run** (Ejecutar) y observa cómo el mensaje `Astro Pi` se desplaza por la pantalla LED.
 
-![El emulador HAT Trinket Sense ejecutando un programa de ejemplo que desplaza el texto "Astro PI" a través de la matriz LED en letras blancas](images/M0_1.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
 
 --- /task ---
 
@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 
 --- /collapse ---
 
---- tarea---
+--- task ---
 
 También puedes cambiar la velocidad de desplazamiento del mensaje por la pantalla. Añade `scroll_speed` a la línea del código que ya tienes, así:
 
@@ -72,11 +72,11 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 
 La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que el mensaje se desplace más rápidamente; y aumentarlo, que se desplace más lentamente.
 
---- /tarea ---
+--- /task ---
 
 ### Elige un nombre para los nuevos ordenadores Astro Pi
 
---- tarea --- Vamos a nombrar las computadoras Astro Pi en honor a dos científicos europeos inspiradores. Hay cientos de hombres y mujeres que han contribuido a la ciencia y la tecnología; los participantes pueden sugerir sus propios nombres o elegir de nuestra lista de sugerencias:
+--- task --- Vamos a nombrar losordenadores Astro Pi en honor a dos científicos europeos inspiradores. Hay cientos de hombres y mujeres que han contribuido a la ciencia y la tecnología; los participantes pueden sugerir sus propios nombres o elegir de nuestra lista de sugerencias:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -95,7 +95,7 @@ Para votar, comienza tu mensaje con las palabras "Mi nombre debería ser". Por e
 ```python
 sense.show_message ("Mi nombre debería ser Ada Lovelace")
 ```
---- /tarea---
+--- /task ---
 
 
 
