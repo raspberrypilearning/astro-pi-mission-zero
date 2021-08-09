@@ -4,16 +4,16 @@ Lys op astronauternes daglige rutine på International Space Station ved at vise
 
 Mark II Astro Pi hardwaren er så ny, at computerne ikke engang har fået navne endnu. Vi vil navngive Astro Pi-computerne efter to inspirerende europæiske forskere. Du kan hjælpe med at vælge, hvad de skal hedde, ved at stemme på dit yndlingsnavn som en del af dit Mission Zero-program.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Du bruger online Sense HAT-emulatoren til at oprette dit program, så der kræves ingen ekstra hardware - alt gøres i en webbrowser. *Hvis det opfylder berettigelseskriterierne* vil dit færdige program blive kørt i rummet på Den International Rumstation (ISS)! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program blev kørt.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Vi annoncerer de vindende navne til de nye Astro Pi -computere i foråret 2022.
 
 
 ### Hvad du vil lave
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Her er et eksempel på den slags programmer, du kan lave. Klik på **Kør** for at se det i aktion.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller fugtighedsværdien hen over LED-matricen og derefter viser et billede af en fisk](billeder/M0_4.gif)
 
 
 --- kollaps ---
