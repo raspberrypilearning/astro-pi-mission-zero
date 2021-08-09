@@ -2,7 +2,7 @@
 
 Der er nogle få regler, som din kode skal følge, så du kan indsende den og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, så vil reglerne i bunden af [Sense HAT-emulatoren](https://trinket.io/mission-zero) lyse grønt, når du kører programmet.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Et skærmbillede af Mission Zero Trinket-siderne, der viser indsendelsesknappen (Submit) og kriterierne for deltagelse til venstre. De to øverste ("læs fugtighed" og "brug lysdioderne") er i orange tekst, den nederste ("kører uden fejl") er grøn ](images/validation.png)
 
 1. Foretag en luftfugtigsaflæsning.
 1. Tænd lysdioderne
@@ -28,26 +28,26 @@ Du kan finde **Bemærkninger til lærere og mentorer** i trinnet [Introduktion](
 
 --- opgave ---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den grønne knap **Continue to form** (Fortsæt til formular).
 
 ![Fortsæt til formular](images/continue-to-form.png)
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Indtast dit holdnavn og navnene på holdets medlemmer. Disse bliver trykt på certifikatet, når din kode er kørt i rummet, så sørg for at stave dem korrekt!
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Tryk på knappen **Submit** (Indsend) for at indtaste din kode. Din lærer eller mentor får en e-mail for at bekræfte dit bidrag.
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Hvis du vil, kan du dele linket til din kode på de sociale medier for at fortælle folk, at den kode, du har skrevet, bliver kørt i rummet!
 
---- /task ---
+--- /opgave ---
