@@ -2,7 +2,7 @@
 
 Lys op astronauternes daglige rutine på International Space Station ved at vise dem en besked og den relative luftfugtighed ombord ved hjælp af Astro Pi-computerens Sense HAT.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Mark II Astro Pi hardwaren er så ny, at computerne ikke engang har fået navne endnu. Vi vil navngive Astro Pi-computerne efter to inspirerende europæiske forskere. Du kan hjælpe med at vælge, hvad de skal hedde, ved at stemme på dit yndlingsnavn som en del af dit Mission Zero-program.
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
