@@ -2,7 +2,7 @@
 
 Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o un patrón, además o en lugar de un mensaje escrito?
 
-![Una captura de pantalla de la ventana del emulador que muestra la unidad de vuelo con la matriz de LED que muestra una imagen de la propia unidad de vuelo](images/fu-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
 --- task ---
 
