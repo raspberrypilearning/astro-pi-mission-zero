@@ -1,19 +1,22 @@
 ## Visualizar uma imagem
 
-Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a tua saudação para os astronautas possa incluir uma imagem ou um desenho, junto com ou em vez de uma mensagem escrita?
+Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a sua saudação para os astronautas possa incluir uma imagem ou um desenho, junto com, ou em vez de uma mensagem escrita?
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![Uma captura de ecrã da janela do emulador mostrando a unidade de voo com a matriz de LED exibindo uma imagem da própria unidade de voo](images/fu-pic.png)
 
 --- task ---
 
-Na parte inferior do programa, cria algumas variáveis ​​para definir as cores que queres usar no teu desenho. Podes usar quantas cores quiseres, mas neste exemplo vamos usar apenas duas - branco (`w`) e preto (`b`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+Na parte inferior do programa, crie algumas variáveis ​​para definir as cores que quer usar no seu desenho. Pode usar quantas cores quiser, mas neste exemplo usaremos apenas algumas cores - vermelho (`v`), branco (`b`), preto (`p`) e dois tons de cinza (`g` e `s`). Observe que as sombras são alcançadas reduzindo a quantidade de luz em todos os três canais mantendo as proporções iguais.
 
 ```python
-w = (255, 255, 255)
-b = (0, 0, 0)
+b = (255, 255, 255)
+p = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+v = (255,0,0)
 ```
 
-**Nota:** Desta vez, é uma boa ideia dar um nome às variáveis ​​de cor utilizando uma letra só, porque isso economizará tempo na próxima etapa, onde terás que digitá-las várias vezes. Além disso, usar uma única letra facilitará a visualização da imagem que vais desenhar.
+**Nota:** Desta vez, é uma boa ideia dar um nome às variáveis ​​de cor utilizando uma letra só, porque isso economizará tempo na próxima etapa, onde terá que digitá-las várias vezes. Além disso, usar uma única letra facilitará a visualização da imagem que vai desenhar.
 
 --- /task ---
 
@@ -21,18 +24,18 @@ b = (0, 0, 0)
 
 
 
-Abaixo tens as tuas novas variáveis, cria uma lista de 64 itens. Cada item representa um pixel na matriz de LED e corresponde a uma das variáveis ​​de cor que definiste. Desenha a tua imagem colocando uma variável onde queres que a tua cor apareça. Nós desenhámos um astronauta utilizando pixels pretos (`b`) como fundo e pixels brancos (`w`) para desenhar a roupa do astronauta:
+Em baixo das suas novas variáveis, crie uma lista de 64 itens. Cada item representa um pixel na matriz de LED e corresponde a uma das variáveis ​​de cor que definiu. Desenhe a sua imagem colocando uma variável onde deseja que a cor atribuída apareça. Nós desenhámos um astronauta utilizando pixeis pretos (`p`) como fundo e pixeis brancos (`b`) para desenhar a roupa do astronauta:
 
 ```python
- picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
+ imagem = [
+    g, p, p, p, p, p, p, g,
+    p, g, g, g, g, g, g, g, p,
+    p, g, p, p, g, b, g, g,
+    p, g, p, p, g, g, g, g,
+    p, g, g, g, s, s, g, g,
+    p, g, v, g, g, g , g, g,
+    p, g, g, g, g, g, g, p,
+    g, p, p, p, p, p, p, g
 ]
 ```
 --- /task ---
@@ -42,7 +45,7 @@ Abaixo tens as tuas novas variáveis, cria uma lista de 64 itens. Cada item repr
 Adiciona o seguinte código para visualizar a tua imagem no ecrã LED.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(imagem)
 ```
 
 --- /task ---
@@ -55,13 +58,13 @@ Para visualizar a tua imagem basta clicar em **Run**.
 
 --- task ---
 
-Se quiseres podes adicionar um código para incluir uma pequena pausa (ou `sleep` para suspender) depois de exibires a imagem. Isso dará tempo aos astronautas para ver a tua foto antes que o resto da tua mensagem apareça. No topo do programa, adiciona:
+Se quiser pode adicionar código para incluir uma pequena pausa (ou `sleep`) depois de exibir a imagem. Isso dará tempo aos astronautas para ver a sua imagem antes que a próxima parte da sua mensagem apareça. No topo do programa, adicione:
 
 ```python
 from time import sleep
 ```
 
-Em seguida, por baixo do código de visualizar a imagem, adiciona este código para aguardar dois segundos:
+Em seguida, por baixo do código de visualizar a imagem, adicione este código para aguardar dois segundos:
 
 ```python
 sleep(2)
@@ -71,6 +74,6 @@ sleep(2)
 
 --- task ---
 
-Cria a tua própria imagem ou desenho para mostrar aos astronautas!
+Crie a sua própria imagem ou desenho para mostrar aos astronautas!
 
 --- /task ---
