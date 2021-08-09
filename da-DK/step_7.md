@@ -1,12 +1,12 @@
 ## Vis luftfugtigheden
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Du kan kombinere din luftfugtighedslæsning med et billede for også at indikere luftfugtigheden grafisk. For eksempel kan du vise et hav for høj luftfugtighed og en ørken for lav luftfugtighed:
 
 ![Våd og tør](images/wet-dry.png)
 
---- task ---
+--- opgave ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin.
 
 ```python
 o=(255,130,0)
@@ -17,14 +17,14 @@ g=(0,255,0)
 y=(255,255,0)
 ```
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter tildele elementerne på listen de farver, du ønsker, dine pixels skal være.
 
 ```python
-wet = [
+vaad = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wet = [
 ]
 
 
-dry = [
+toer = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -48,31 +48,31 @@ dry = [
 ]
 ```
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Tilføj noget kode for at få luftfugtigheden:
 
 ```python
-humid = sense.humidity
+luftfugtighed = sense.humidity()
 ```
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
-Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `våd (wet)` billede, hvis luftfugtigheden er 40% eller derover og `tør (dry)` billede, hvis luftfugtigheden er under 40%.
+Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `vaad (wet)` billede, hvis luftfugtigheden er 40% eller derover og `toer (dry)` billede, hvis luftfugtigheden er under 40%.
 
 ```python
-humid = sense.humidity
-if humid >= 40:
-    sense.set_pixels(wet)
+luftfugtighed = sense.humidity()
+if luftfugtighed >= 40:
+    sense.set_pixels(vaad)
 else:
-    sense.set_pixels(dry)
+    sense.set_pixels(toer)
 ```
 
---- /task ---
+--- /opgave ---
 
 --- opgave ---
 
