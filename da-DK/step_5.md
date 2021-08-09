@@ -13,49 +13,49 @@ w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Bemærk:** Denne gang er det en god idé at give farvevariablerne enkeltbogstaver som navne, fordi det kommer til at spare dig tid i det næste trin, hvor du skal skrive dem mange gange. Desuden bliver det lettere at se det billede, du vil tegne, hvis du anvender enkeltbogstaver.
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
+Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert element repræsenterer en pixel på LED-matricen og svarer til én af de farvevariabler, du definerede. Tegn dit billede ved at sætte en variabel dér, hvor du ønsker, at dens tildelte farve skal vises. Vi har tegnet en Astro Pi ved at anvende sorte (`b`) pixels som baggrund og grå (`w`) pixels til at tegne den metaldele:
 
 ```python
- picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+ billede = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Tilføj en kodelinje for at vise dit billede på LED-displayet.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(billede)
 ```
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Tryk på **Run** (Kør) for at få dit billede vist.
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Det kan være, du vil tilføje noget kode for at lave en kort pause (eller `sleep` (dvale)) efter visning af billedet. På den måde får astronauterne tid til at se dit billede, før næste del af din besked vises. Øverst i dit program skal du tilføje:
 
 ```python
 from time import sleep
@@ -67,9 +67,9 @@ Dernæst på linjen efter den, der viser dit billede, skal du tilføje denne kod
 sleep(2)
 ```
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
 Lav dit eget billede eller mønster, du kan vise til astronauterne!
 
