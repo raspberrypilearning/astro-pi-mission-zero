@@ -1,10 +1,10 @@
-## Exibir uma mensagem
+## Mostre uma mensagem e escolha um nome para os novos computadores Astro Pi
 
 --- task ---
 
-Abre o emulador [Sense HAT](https://trinket.io/mission-zero){:target="_blank"} para o projeto Mission Zero.
+Abra o [emulador Sense HAT](https://trinket.io/mission-zero){:target="_blank"} para o projeto Missão Zero.
 
-Irás ver três linhas de código que foram adicionadas automaticamente para ti:
+Irá ver três linhas de código que foram adicionadas automaticamente para si:
 
 ```python
 from sense_hat import SenseHat
@@ -14,15 +14,15 @@ sense.set_rotation(270)
 
 ![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
 
-Este código conecta-se ao Astro Pi e garante que o ecrã LED do Astro Pi seja visto da maneira correta. Deixa o código aí, porque irás precisar dele.
+Este código conecta-se ao Astro Pi e garante que o ecrã LED do Astro Pi seja visto da maneira correta. Deixe o código lá, porque você vai precisar.
 
 --- /task ---
 
 --- task ---
 
-Queres deixar uma saudação agradável para os astronautas da Estação Espacial Internacional que estão a trabalhar perto do Astro Pi? Vamos passar uma mensagem no ecrã.
+Quer deixar uma saudação agradável para os astronautas da EEI que estão a trabalhar perto do Astro Pi? Vamos passar uma mensagem no ecrã.
 
-Adiciona este texto por baixo do outro código:
+Adicione esta linha abaixo do outro código:
 
 ```python
 sense.show_message("Astro Pi")
@@ -40,7 +40,7 @@ Para executar, pressiona o botão **Run** e vê a mensagem `Astro Pi` passar no 
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Para exibir uma mensagem diferente, pode escrever o que quiser entre as aspas (`""`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: Que carateres podem ser usados?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+O Sense HAT só pode exibir o conjunto de caracteres Latin 1, o que significa que apenas os seguintes caracteres estarão disponíveis. Outros caracteres serão exibidos como `?`.
 
 ```
 +-*/!"#$><0123456789.=)( ABCDEFGHIJKLMNOPQRSTUVWXYZ
