@@ -1,14 +1,14 @@
 ## Adiciona um pouco de cor
 
-Os ecrãs LED do Astro Pi também podem exibir cores. Podes especificar uma cor ao criar uma variável e atribui-lhe um valor de cor RGB.
+Os LEDs do Astro Pi também podem exibir cores. Pode especificar uma cor, criando uma variável e atribuir-lhe um valor de cor RGB (Red, Green, Blue - Vermelho, Verde, Azul).
 
-Podes aprender como todas as cores podem ser criadas usando diferentes proporções de vermelho, verde e azul, vê aqui:
+Pode aprender como todas as cores podem ser criadas usando diferentes proporções de vermelho, verde e azul aqui:
 
 [[[generic-theory-colours]]]
 
 --- task ---
 
-Escolhe uma cor e descobre o valor RGB dessa cor. Para te ajudar, podes usar um [seletor de cores](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
+Escolha uma cor e descubra o valor RGB dessa cor. Para ajudar, pode usar um [selector de cores](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
 
 --- /task ---
 
