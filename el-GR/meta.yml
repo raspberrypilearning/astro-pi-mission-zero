@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Προετοιμαστείτε για το Mission Zero
 listed: false
 copyedit: true
-version: 4.0.1
+version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
@@ -12,7 +12,7 @@ steps:
   - 
     title: Τι είναι το Astro Pi;
   - 
-    title: Εμφάνιση μηνύματος
+    title: Εμφάνιση μηνύματος και επιλογή ονόματος για τους νέους υπολογιστές Astro Pi
   - 
     title: Προσθήκη χρώματος
   - 
