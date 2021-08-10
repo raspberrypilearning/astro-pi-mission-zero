@@ -1,12 +1,12 @@
 ## Υποβολή της καταχώρησής σου
 
-Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σου, ώστε να μπορείς να τον υποβάλεις για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
+Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σου, ώστε να μπορείς να τον υποβάλεις για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. Εάν ο κωδικός σου τους ακολουθεί, οι κανόνες στο κάτω μέρος του [Sense HAT](https://trinket.io/mission-zero) θα ανάψουν με πράσινο χρώμα όταν εκτελέσεις το πρόγραμμα.
 
 ![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
-1. Πραγματοποιήστε μια μέτρηση υγρασίας.
-1. Ενεργοποιήστε τις φωτεινές ενδείξεις LED
-1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Πραγματοποίηση μέτρησης υγρασίας.
+1. Ενεργοποίηση φωτεινών ενδείξεων LED.
+1. Βεβαιώσου ότι ο κώδικάς σου εκτελείται μέχρι το τέλος χωρίς να εμφανιστούν σφάλματα. Δεν πρέπει να περιλάβεις κανένα βρόγχο επανάληψης `while True` γιατί αυτό θα κάνει τον κώδικά σου να εκτελείται συνέχεια και θα τον αποτρέπει από το να ολοκληρωθεί.
 1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
 
 Επίσης, βεβαιωθείτε ότι πληρούνται τα ακόλουθα κριτήρια:
