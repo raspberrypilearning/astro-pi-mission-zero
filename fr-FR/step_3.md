@@ -95,6 +95,9 @@ To vote, start your message with the words "My name should be". For example, you
 ```python
 sense.show_message("Mon nom doit être Ada Lovelace")
 ```
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
 --- /task ---
 
 
