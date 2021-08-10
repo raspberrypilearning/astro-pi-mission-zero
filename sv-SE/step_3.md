@@ -95,7 +95,10 @@ För att rösta, börja ditt meddelande med orden "Mitt namn borde vara". Till e
 ```python
 sense.show_message("Mitt namn ska vara Ada Lovelace")
 ```
---- / uppgift ---
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
+--- /task ---
 
 
 
