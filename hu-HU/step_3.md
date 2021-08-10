@@ -96,7 +96,7 @@ A szavazáshoz kezdd az üzenetedet így: "My name should be" ("A nevem legyen .
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Ha szeretnél szavazni, az üzenetednek *kötelezően* ezekkel a szavakkal kell kezdődnie, különben nem fogjuk tudni automatikusan beszámítani a szavazatodat. Ha a választott neved olyan nyelvből származik, amely nem a latin betűs írásmódot használja (pl. görög, arab, japán), akkor a név angol átiratát használd a magyar helyett (pl. "Hüpatia" helyett "Hypatia").
 
 --- /task ---
 
