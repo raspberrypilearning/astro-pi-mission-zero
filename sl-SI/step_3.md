@@ -95,6 +95,9 @@ Privzeta hitrost sporočila je `0.1`. Če številko zmanjšate, se bo sporočilo
 ```python
 sense.show_message("Moje ime naj bo Ada Lovelace")
 ```
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
 --- /task ---
 
 
