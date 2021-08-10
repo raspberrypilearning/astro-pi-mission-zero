@@ -95,6 +95,9 @@ A szavazáshoz kezdd az üzenetedet így: "My name should be" ("A nevem legyen .
 ```python
 sense.show_message("My name should be Ada Lovelace")
 ```
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
 --- /task ---
 
 
