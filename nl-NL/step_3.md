@@ -95,6 +95,9 @@ Om te stemmen, begint je jouw bericht met de woorden "Mijn naam zou moeten zijn"
 ```python
 sense.show_message("Mijn naam zou Ada Lovelace moeten zijn")
 ```
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
 --- /task ---
 
 
