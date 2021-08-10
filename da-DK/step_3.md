@@ -95,7 +95,10 @@ For at stemme skal du starte din besked med ordene "Mit navn skal være". Hvis d
 ```python
 sense.show_message ("Mit navn skal være Ada Lovelace")
 ```
---- /opgave ---
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
+--- /task ---
 
 
 
