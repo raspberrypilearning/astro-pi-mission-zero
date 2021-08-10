@@ -1,8 +1,8 @@
-## Πρόκληση: περισσότερα έργα Astro Pi
+## Τι ακολουθεί — περισσότερα έργα Astro Pi
 
-Τώρα που ολοκληρώσατε την αποστολή σας, γιατί να μην δοκιμάσετε κάποια ακόμη έργα και να χρησιμοποιήσετε έτσι και τους υπόλοιπους αισθητήρες στο Astro Pi;
+Τώρα που ολοκλήρωσες την αποστολή σου, γιατί να μην δοκιμάσεις κάποια ακόμη έργα και να χρησιμοποιήσεις έτσι και τους υπόλοιπους αισθητήρες στο Astro Pi;
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Αν αισθάνεσαι σίγουρος, μπορείς να πάρεις μέρος στην αποστολή [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Σχηματίστε μια ομάδα με δύο έως έξι άτομα και συνεργαστείτε σαν πραγματικοί διαστημικοί επιστήμονες για να σχεδιάσετε το δικό σας πείραμα. Λάβετε δωρεάν υλικό υπολογιστή για την αποστολή σας και γράψτε κώδικα Python για να εκτελέσετε το πείραμά σας. Αν καταφέρετε να φτάσετε στην κατάσταση πτήσης (flight status), ο κώδικάς σας θα σταλεί στον Διεθνή Διαστημικό Σταθμό και θα εκτελεστεί στο Astro Pi για τρεις ώρες (δύο τροχιές). Τα δεδομένα που θα συλλέξει ο κώδικάς σας από το διάστημα — εικόνες ή αρχεία δεδομένων αισθητήρων — θα επιστραφούν σε εσάς για ανάλυση.
 
 Εναλλακτικά, μπορεί να θέλετε να δοκιμάσετε κάποια από τα υπόλοιπα έργα μας για το Astro Pi:
 
