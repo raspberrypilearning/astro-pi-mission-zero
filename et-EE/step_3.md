@@ -95,6 +95,9 @@ Hääletamiseks alusta oma sõnumit sõnadega "Minu nimi peaks olema". Näiteks 
 ```python
 sense.show_message("Minu nimi peaks olema Ada Lovelace")
 ```
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
 --- /task ---
 
 
