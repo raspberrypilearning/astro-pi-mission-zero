@@ -1,19 +1,22 @@
 ## Εμφάνιση εικόνας
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Μπορείς να εμφανίσεις εικόνες στην οθόνη LED του Astro Pi. Μήπως θα ήθελες να συμπεριλάβεις στον χαιρετισμό σου προς τους αστροναύτες μια εικόνα ή ένα μοτίβο μαζί ή αντί για το γραπτό μήνυμά σου;
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![Ένα στιγμιότυπο οθόνης του παραθύρου εξομοιωτή που δείχνει τη Μονάδα Πτήσης με τη οθόνη LED που εμφανίζει μια εικόνα της ίδιας της Μονάδας Πτήσης](images/fu-pic.png)
 
 --- task ---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+Στο κάτω μέρος του προγράμματός σου, δημιούργησε μερικές μεταβλητές χρώματος για να καθορίσεις τα χρώματα με τα οποία θα ήθελες να σχεδιάσεις την εικόνα σου. Μπορείς να χρησιμοποιήσεις όσα χρώματα θέλεις, αλλά σε αυτό το παράδειγμα θα χρησιμοποιήσεις μόνο μερικά χρώματα - κόκκινο (`r`), λευκό (`w`), μαύρο (`b`) και δύο αποχρώσεις του γκρι (`g` και `s`). Παρατήρησε ότι οι αποχρώσεις επιτυγχάνονται μειώνοντας την ποσότητα φωτός και στα τρία κανάλια διατηρώντας τις αναλογίες ίδιες.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+**Σημείωση:** Αυτή τη φορά, μια καλή ιδέα είναι να χρησιμοποιήσεις ονόματα με ένα γράμμα για τις μεταβλητές χρώματος για να εξοικονομήσεις χρόνο στο επόμενο βήμα, όταν θα χρειαστεί να πληκτρολογήσεις τα ονόματα των μεταβλητών πολλές φορές. Επιπλέον, χρησιμοποιώντας ένα μόνο γράμμα είναι πιο εύκολο να δείς την εικόνα που θα σχεδιάσεις.
 
 --- /task ---
 
@@ -21,25 +24,25 @@ b = (0, 0, 0)
 
 
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
+Κάτω από τις νέες μεταβλητές σου, δημιούργησε μια λίστα με 64 στοιχεία. Κάθε στοιχείο αντιπροσωπεύει ένα pixel στην οθόνη LED και αντιστοιχεί σε μία από τις μεταβλητές χρώματος που έχεις καθορίσει. Σχεδίασε την εικόνα σου βάζοντας μια μεταβλητή στα σημεία όπου θέλεις να εμφανιστεί το καθορισμένο της χρώμα. Σχεδιάσαμε ένα Astro Pi χρησιμοποιώντας τα μαύρα (`b`) εικονοστοιχεία ως φόντο και τα γκρι (`g`) εικονοστοιχεία για να σχεδιάσουμε τα μεταλλικά μέρη της θήκης του Astro Pi:
 
 ```python
  picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
 --- /task ---
 
 --- task ---
 
-Προσθέστε μια γραμμή κώδικα για να εμφανίσετε την εικόνα σας στην οθόνη LED.
+Πρόσθεσε μια γραμμή κώδικα για να εμφανίσεις την εικόνα σου στην οθόνη LED.
 
 ```python
 sense.set_pixels(picture)
@@ -49,19 +52,19 @@ sense.set_pixels(picture)
 
 --- task ---
 
-Πατήστε «**Run**» για να δείτε την εικόνα σας στην οθόνη.
+Πάτησε «**Εκτέλεση**» για να δεις την εικόνα σου στην οθόνη.
 
 --- /task ---
 
 --- task ---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
+Ίσως θελήσεις να προσθέσεις κώδικα για μια μικρή αναμονή (ή `sleep`) μετά την εμφάνιση της εικόνας σου. Αυτό θα δώσει στους αστροναύτες χρόνο να δουν τη εικόνα σου πριν εμφανιστεί το επόμενο μέρος του μηνύματός σου. Στην κορυφή του προγράμματος, πρόσθεσε:
 
 ```python
 from time import sleep
 ```
 
-Έπειτα, μετά από τη γραμμή του κώδικα εμφάνισης της εικόνας σας, προσθέστε τον ακόλουθο κώδικα για αναμονή 2 δευτερολέπτων:
+Έπειτα, μετά από τη γραμμή του κώδικα εμφάνισης της εικόνας σου, πρόσθεσε τον ακόλουθο κώδικα για αναμονή δυο δευτερολέπτων:
 
 ```python
 sleep(2)
@@ -71,6 +74,6 @@ sleep(2)
 
 --- task ---
 
-Δημιουργήστε τη δική σας εικόνα ή το δικό σας μοτίβο για προβολή στους αστροναύτες!
+Δημιούργησε τη δική σου εικόνα ή το δικό σου μοτίβο για προβολή στους αστροναύτες!
 
 --- /task ---
