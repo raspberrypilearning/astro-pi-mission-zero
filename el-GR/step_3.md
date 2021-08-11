@@ -1,10 +1,10 @@
-## Εμφάνιση μηνύματος
+## Εμφάνιση μηνύματος και επιλογή ονόματος για τους νέους υπολογιστές Astro Pi
 
 --- task ---
 
-Ανοίξτε τον [εξομοιωτή Sense HAT](https://trinket.io/mission-zero){:target="_blank"} για το έργο Mission Zero.
+Άνοιξε τον [εξομοιωτή Sense HAT](https://trinket.io/mission-zero){:target="_blank"} για το έργο Mission Zero.
 
-Θα δείτε τρεις γραμμές κώδικα που έχουν προστεθεί αυτόματα για εσάς:
+Θα δεις τρεις γραμμές κώδικα που έχουν προστεθεί αυτόματα:
 
 ```python
 from sense_hat import SenseHat
@@ -12,17 +12,17 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![Ένα στιγμιότυπο οθόνης του εξομοιωτή Trinket Sense Hat με τρεις γραμμές κώδικα που εμφανίζονται στο αριστερό παράθυρο.](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Ο κώδικας αυτός συνδέεται στο Astro Pi και εξασφαλίζει ότι η οθόνη LED του Astro Pi εμφανίζεται στη σωστή κατεύθυνση. Άφησε αυτόν τον κώδικα εκεί, γιατί θα τον χρειαστείς.
 
 --- /task ---
 
 --- task ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Μήπως θέλεις να στείλεις έναν χαιρετισμό στους αστροναύτες στον Διεθνή Διαστημικό Σταθμό που εργάζονται κοντά στον Astro Pi; Ας κυλήσουμε ένα μήνυμα στην οθόνη.
 
-Προσθέστε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
+Πρόσθεσε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
 
 ```python
 sense.show_message("Astro Pi")
@@ -32,15 +32,15 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Πατήστε το κουμπί «**Run**» και παρακολουθήστε το κυλιόμενο μήνυμα «`Astro Pi`» στην οθόνη LED.
+Πάτησε το κουμπί «**Εκτέλεση**» και παρακολούθησε το κυλιόμενο μήνυμα «`Astro Pi`» στην οθόνη LED.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![Ο εξομοιωτής Trinket Sense HAT εκτελεί ένα δείγμα προγράμματος το οποίο μετακινεί το κείμενο "Astro PI" στη οθόνη LED με λευκά γράμματα](images/M0_1.gif)
 
 --- /task ---
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Για να εμφανίσεις ένα διαφορετικό μήνυμα, μπορείτε να γράψεις ότι άλλο θέλεις μεταξύ των εισαγωγικών (`" "`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν;
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Το Sense HAT μπορεί να εμφανίσει μόνο το σύνολο χαρακτήρων Latin 1, που σημαίνει ότι διατίθενται μόνο οι ακόλουθοι χαρακτήρες. Οποιοσδήποτε άλλος χαρακτήρας θα εμφανίζεται ως `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,19 +64,19 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Μπορείς επίσης να αλλάξεις την ταχύτητα κύλισης του μηνύματος στην οθόνη. Προσθέσε την παράμετρο `scroll_speed` στη γραμμή κώδικα που έχεις ήδη, ως εξής:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Η προεπιλεγμένη ταχύτητα του μηνύματος είναι `0.1`. Αν μειώσεις τον αριθμό, το μήνυμα θα κυλάει πιο γρήγορα. Αν τον αυξήσεις, το μήνυμα θα κυλάει πιο αργά.
 
 --- /task ---
 
-### Choose a name for the new Astro Pi computers
+### Επιλέξτε ένα όνομα για τους νέους υπολογιστές Astro Pi
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- task --- Θα ονομάσουμε τους υπολογιστές Astro Pi με ονόματα από δύο εμπνευσμένους Ευρωπαίους επιστήμονες. Υπάρχουν εκατοντάδες άνδρες και γυναίκες που έχουν συμβάλει στην επιστήμη και την τεχνολογία. Οι συμμετέχοντες μπορούν να προτείνουν τα δικά τους ονόματα ή να επιλέξουν από τη λίστα προτάσεών μας:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -90,13 +90,13 @@ The default speed of the message is `0.1`. Making the number smaller makes the m
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+Για να ψηφίσεις, ξεκίνα το μήνυμά σου με τις λέξεις "My name should be". Για παράδειγμα, αν ένας συμμετέχων ή μια ομάδα θα ήθελε να ψηφίσει για την Ada Lovelace, ο κώδικάς τους θα μοιάζει κάπως έτσι:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Εάν θέλεις να ψηφίσεις, το μήνυμά σου *πρέπει* να ξεκινά με αυτές τις λέξεις, διαφορετικά δεν θα μπορούμε να μετρήσουμε αυτόματα την καταχώρισή σου.
 
 --- /task ---
 
