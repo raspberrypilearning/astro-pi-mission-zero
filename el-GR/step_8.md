@@ -2,7 +2,7 @@
 
 Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σου, ώστε να μπορείς να τον υποβάλεις για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. Εάν ο κωδικός σου τους ακολουθεί, οι κανόνες στο κάτω μέρος του [Sense HAT](https://trinket.io/mission-zero) θα ανάψουν με πράσινο χρώμα όταν εκτελέσεις το πρόγραμμα.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Ένα στιγμιότυπο οθόνης των σελίδων Mission Zero Trinket που δείχνει το κουμπί υποβολής και τα κριτήρια ελέγχου στα αριστερά. Τα δύο πρώτα ("ανάγνωση υγρασίας" και "χρήση των LED") είναι σε πορτοκαλί κείμενο, το κάτω ("εκτελείται χωρίς σφάλματα") είναι πράσινο ](images/validation.png)
 
 1. Πραγματοποίηση μέτρησης υγρασίας.
 1. Ενεργοποίηση φωτεινών ενδείξεων LED.
@@ -36,13 +36,13 @@
 
 --- task ---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Εισάγετε το όνομα της ομάδας σας και τα ονόματα των μελών της ομάδας. Τα ονόματα αυτά θα εκτυπωθούν στο πιστοποιητικό που θα λάβεις μόλις ο κώδικάς σας εκτελεστεί στο διάστημα, οπότε βεβαιωθείτε ότι τα έχετε γράψει σωστά!
 
 --- /task ---
 
 --- task ---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Πάτησε το κουμπί «**Υποβολή**» για να υποβάλεις τον κώδικά σας. Ο δάσκαλος ή ο μέντοράς σας θα λάβει ένα email επιβεβαίωσης για την καταχώρησή σας.
 
 --- /task ---
 
