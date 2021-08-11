@@ -4,18 +4,18 @@
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
 
-Το Astro Pi μετράει την υγρασία στον ISS σαν ποσοστό συγκέντρωσης νερού στον αέρα.
+Το Astro Pi μετράει την υγρασία στον ΔΔΣ σαν ποσοστό συγκέντρωσης νερού στον αέρα.
 
-Μέρος της αποστολής σας είναι να συνεισφέρετε στην καθημερινότητα του πληρώματος του ISS, ώστε να γνωρίζει ότι η υγρασία μέσα στον διαστημικό σταθμό είναι σε ένα κανονικό εύρος που θα τους καθησυχάζει.
+Μέρος της αποστολής σου είναι να συνεισφέρεις στην καθημερινότητα του πληρώματος του ΔΔΣ, ώστε να γνωρίζει ότι η υγρασία μέσα στον διαστημικό σταθμό είναι σε ένα κανονικό εύρος που θα τους καθησυχάζει.
 
 [[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
-Προσθέστε αυτόν τον κώδικα για να πάρετε μια μέτρηση υγρασίας:
+Πρόσθεσε αυτόν τον κώδικα για να συλλέξεις μια μέτρηση υγρασίας:
 
 ```python
-humid = sense.get_humidity
+humid = sense.get_humidity()
 ```
 
 Αυτή η γραμμή θα μετρήσει την τρέχουσα υγρασία, και θα την αποθηκεύσει στην μεταβλητή `humid`.
@@ -24,7 +24,7 @@ humid = sense.get_humidity
 
 --- task ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Η υγρασία καταγράφεται με μεγάλη ακρίβεια, δηλαδή η αποθηκευμένη τιμή θα έχει μεγάλο αριθμό δεκαδικών ψηφίων. Μπορείς να στρογγυλοποιήσεις την τιμή σε οποιονδήποτε αριθμό δεκαδικών ψηφίων. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
 
 ```python
 humid = round( sense.get_humidity(), 1 )
