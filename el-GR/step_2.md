@@ -1,18 +1,18 @@
 ## Τι είναι το Astro Pi;
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space. It also has an add-on board called the Sense HAT, made specifically for the Astro Pi mission. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, and orientation.
+Το Astro Pi είναι ένας υπολογιστής Raspberry Pi μέσα σε ένα περίβλημα που είναι ειδικά σχεδιασμένο για τις συνθήκες που υπάρχουν στο διάστημα. Διαθέτει επίσης μια επιπρόσθετη πλακέτα που ονομάζεται Sense HAT και είναι ειδικά κατασκευασμένη για την αποστολή Astro Pi. Το Sense HAT διαθέτει ένα χειριστήριο, μια οθόνη LED καθώς και αισθητήρες για καταγραφή της θερμοκρασίας, της υγρασίας, της πίεσης και του προσανατολισμού.
 
-Here is an original Mark I Astro Pi unit on the International Space Station, running some code written by students. Your code will eventually be run on a new version of Astro Pi computers!
+Παρακάτω φαίνεται μια πραγματική μονάδα Mark I Astro Pi στον Διεθνή Διαστημικό Σταθμό, στην οποία εκτελείται κάποιος κώδικας που έχει γραφτεί από μαθητές. Ο κωδικός σου θα εκτελεστεί τελικά σε μια νέα έκδοση υπολογιστών Astro Pi!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Γι΄ αυτή την αποστολή, θα χρησιμοποιήσεις τον εξομοιωτή Sense HAT. Ο εξομοιωτής είναι ένα λογισμικό που προσομοιώνει όλες τις λειτουργίες του Astro Pi στο πρόγραμμα περιήγησης του φυλλομετρητή σου.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+![Ένα στιγμιότυπο οθόνης με ετικέτα του εξομοιωτή Sense HAT με το παράθυρο κωδικού στα αριστερά και ο εξομοιωτής στα δεξιά.](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Υπάρχουν μερικές διαφορές μεταξύ του πραγματικού και του εξομοιωμένου Sense HAT:
 
-- Στον εξομοιωτή, μπορείτε να ρυθμίσετε τη θερμοκρασία, την πίεση και την υγρασία μόνοι σας χρησιμοποιώντας ρυθμιστικά, ενώ το πραγματικό Sense HAT στον Astro Pi χρησιμοποιεί αισθητήρες που μετρούν αυτές τις παραμέτρους στο πραγματικό περιβάλλον.
+- Στον εξομοιωτή, μπορείς να ρυθμίσεις τη θερμοκρασία, την πίεση και την υγρασία μόνος σου χρησιμοποιώντας μπάρες ρύθμισης, ενώ το πραγματικό Sense HAT στο Astro Pi χρησιμοποιεί αισθητήρες που μετρούν αυτές τις παραμέτρους στο πραγματικό περιβάλλον.
 
-- Μπορείτε να χρησιμοποιήσετε το ποντίκι για να κάνετε κλικ και να σύρετε το προσομοιωμένο Sense HAT για να το μετακινήσετε και να το περιστρέψετε, προσομοιώνοντας αλλαγές στον προσανατολισμό του΄ το πραγματικό Astro Pi (καθώς και το Sense HAT του) μπορεί να κινηθεί στον πραγματικό κόσμο και οι αισθητήρες προσανατολισμού του Sense HAT εντοπίζουν πότε και πώς έχει μετακινηθεί.
+- Μπορείς να χρησιμοποιήσεις το ποντίκι για να κάνεις κλικ και να σύρεις το προσομοιωμένο Sense HAT για να το μετακινήσεις και να το περιστρέψεις, προσομοιώνοντας αλλαγές στον προσανατολισμό του΄ το πραγματικό Astro Pi (καθώς και το Sense HAT του) μπορεί να κινηθεί στον πραγματικό κόσμο και οι αισθητήρες προσανατολισμού του Sense HAT εντοπίζουν πότε και πώς έχει μετακινηθεί.
