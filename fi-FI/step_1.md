@@ -2,9 +2,9 @@
 
 Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viesti ja aluksen sisäilman ilmankosteus käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+2. mallinen Astro Pi -laitteisto on niin uusi, että tietokoneilla ei ole edes nimiä vielä. Nimeämme Astro Pi -tietokoneet kahden inspiroivan eurooppalaisen tieteentekijän mukaan. Voit auttaa valitsemaan miksi niitä kutsutaan äänestämällä suosikkinimeäsi Mission Zero -ohjelmasi sisällä.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Käytät Sense HAT -verkkoemulaattoria ohjelmasi tekemiseen, joten lisälaitteita ei tarvita — kaikki tehdään selaimessa. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 We will announce the chosen names for the new Astro Pi computers in spring 2022.
 
@@ -29,7 +29,7 @@ Tutustut Astro Pi -yksikköön ja sen toimintoihin, kuten seuraavien asioiden te
 + Kuvien tekeminen
 + Ilmankosteuden mittaaminen Sense HATia käyttäen
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Tämä projekti sisältää seuraavia kohtia [Raspberry Pi Digital Making -opetussuunnitelmasta](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Käytä perus​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseksi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
