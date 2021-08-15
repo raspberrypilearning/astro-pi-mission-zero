@@ -24,18 +24,18 @@ Here is an example of the kind of program you could make. Click **Run** to see i
 title: Mitä tulet oppimaan
 ---
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
-+ näytä viestejä ja värejä
-+ luo kuvia
-+ Mittaa kosteus Sense HAT:lla
+Tutustut Astro Pi -yksikköön ja sen toimintoihin, kuten seuraavien asioiden tekemiseen:
++ Viestien ja värien näyttäminen
++ Kuvien tekeminen
++ Ilmankosteuden mittaaminen Sense HATia käyttäen
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Käytä perus​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseksi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
---- /collapse ---
+--- /pienennä ---
 
---- collapse ---
+--- pienennä ---
 
 ---
 title: Mitä tarvitset
