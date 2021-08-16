@@ -2,7 +2,7 @@
 
 You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![Mokrá a suchá](images/wet-dry.png)
+![Vlhko a sucho](images/wet-dry.png)
 
 --- task ---
 
@@ -24,7 +24,7 @@ y=(255,255,0)
 Stejně jako předtím nakreslete obrázky tak, že pro každý z nich vytvoříte seznam a potom položky tohoto seznamu nastavíte na barvy, které mají mít jednotlivé pixely.
 
 ```python
-wet = [
+vlhko = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wet = [
 ]
 
 
-dry = [
+sucho = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -65,11 +65,11 @@ temp = sense.temperature
 Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
-humid = sense.humidity
-if humid &gt;= 40:
-    sense.set_pixels(wet)
+vlhkost = sense.get_humidity()
+if vlhkost >= 40:
+    sense.set_pixels(vlhko)
 else:
-    sense.set_pixels(dry)
+    sense.set_pixels(sucho)
 ```
 
 --- /task ---
