@@ -57,9 +57,9 @@ title: Poznámky pro učitele a mentory
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů po dvou až čtyřech a my jim ukážeme, jak napsat krátký program v Pythonu, který zobrazí osobní vzkaz a vlhkost vzduchu na Astro Pi.
 
-\* Povšimněte si prosím, že tento registrační formulář je dostupný pouze v angličtině.
+Přečtěte si [oficiální dokument s pokyny](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
 Pole ve formuláři zahrnující:  
 Název učitele/mentora  
@@ -70,16 +70,16 @@ V jakém jazyce máte přístup k pokynům Mission Zero?
 
 + Jděte na [stránku emulátoru Trinket pro Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
 
-+ Vyplňte formulář a klikněte na **Submit** (Odeslat)\*.
++ Vyplňte formulář a klikněte na tlačítko **Submit** (odeslat)\*.
 
-\* Please note that this registration form is available in English only.
+\* Povšimněte si prosím, že tento registrační formulář je dostupný pouze v angličtině.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Formulář obsahuje následující pole:  
+jméno učitele/mentora,   
+název týmu,  
+počet členů týmu,  
+jména a věk členů týmu,  
+v jakém jazyce jste četli pokyny k Mission Zero?
 
 + A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
 
@@ -89,4 +89,4 @@ In which language did you access the Mission Zero guidelines?
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sledovací pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
