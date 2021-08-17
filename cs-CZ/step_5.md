@@ -11,6 +11,9 @@ At the bottom of your program, create some colour variables to define the colour
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
