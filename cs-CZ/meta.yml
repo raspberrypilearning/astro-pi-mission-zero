@@ -12,16 +12,16 @@ steps:
   - 
     title: Co je Astro Pi?
   - 
-    title: Zobrazte zprávu
+    title: Zobraz zprávu a vyber název nových počítačů Astro Pi
   - 
-    title: Přidejte barvy
+    title: Přidej barvy
   - 
-    title: Zobrazte obrázek
+    title: Zobraz obrázek
   - 
-    title: Změřte vlhkost
+    title: Změř vlhkost
   - 
-    title: Zobrazte vlhkost
+    title: Zobraz vlhkost
   - 
-    title: Odešlete svůj příspěvek
+    title: Odešli svůj příspěvek
   - 
     title: 'Výzva: další projekty Astro Pi'
