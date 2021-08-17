@@ -2,7 +2,7 @@
 
 LED displej Astro Pi také umí zobrazovat barvy. Barvu můžeš určit vytvořením proměnné, které přiřadíš hodnotu barvy v RGB.
 
-Jak se pomocí různých proporcí červené, zelené a modré dají vytvořit všechny barvy, se dozvíte tady:
+Tady se dozvíš, jak se pomocí různých poměrů červené, zelené a modré dají vytvořit všechny barvy:
 
 [[[generic-theory-colours]]]
 
@@ -24,7 +24,7 @@ cervena = (255,0,0)
 
 --- task ---
 
-Teď můžeš zobrazit svůj text v barvě, kterou si vybereš! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+Teď můžeš zobrazit svůj text v barvě, kterou si vybereš! Pokud chceš programu říct, aby použil tvoji barvu, přidej do řádku s kódem, který zobrazuje tvůj text, parametr `text_colour`:
 
 ```python
 cervena = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=cervena)
 
 --- task ---
 
-Také můžeš změnit barvu pozadí displeje. Vyber si jinou barvu a vytvoř další proměnnou, do které tu barvu uložíš. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+Také můžeš změnit barvu pozadí displeje. Vyber si jinou barvu a vytvoř další proměnnou, do které tu barvu uložíš. Pokud chceš programu říct, aby použil tvoji barvu pozadí, přidej do kódu parametr `back_colour`:
 
 ```python
 cervena = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=cervena, back_colour=zelena)
 
 --- task ---
 
-Změňte text a barvu pozdravu – jaký vzkaz pošlete astronautům na palubě ISS?
+Změň text a barvu pozdravu. Jaký vzkaz pošleš astronautům na palubě ISS?
 
 --- /task ---
