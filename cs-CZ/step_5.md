@@ -1,4 +1,4 @@
-## Zobrazte obrázek
+## Zobraz obrázek
 
 You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
 
@@ -24,7 +24,7 @@ b = (0, 0, 0)
 Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined. Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
 
 ```python
- picture = [
+ obrazek = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -42,7 +42,7 @@ Below your new variables, create a list of 64 items. Each item represents one pi
 Přidejte řádek kódu, kterým obrázek zobrazíte na LED displeji.
 
 ```python
-sense.set_pixels(picture)
+sense.set_pixels(obrazek)
 ```
 
 --- /task ---
