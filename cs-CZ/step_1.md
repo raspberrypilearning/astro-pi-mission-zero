@@ -1,10 +1,10 @@
 ## Úvod
 
-Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT, přídavné desky počítače Astro Pi, zobrazíte vzkaz a vlhkost vzduchu na palubě.
+Oživ každodenní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT nového počítače Mark II Astro Pi zobrazíš vzkaz a vlhkost vzduchu na palubě.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Hardware Mark II Astro Pi je tak nový, že tyto počítače zatím nemají žádný název. Počítače Astro Pi pojmenujeme po dvou inspirujících evropských vědcích. Hlasováním pro svůj oblíbený název v rámci svého programu Mission Zero můžeš pomoci vybrat, jak se budou jmenovat.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Při vytváření svého programu budeš používat online emulátor Sense HAT, takže nepotřebuješ žádný speciální hardware – všechno uděláš ve webovém prohlížeči. *Pokud tvůj dokončený program splňuje kritéria způsobilosti*, tak poběží ve vesmíru na Mezinárodní vesmírné stanici (ISS)! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
 
 Vybrané názvy nových počítačů Astro Pi oznámíme na jaře 2022.
 
@@ -13,7 +13,7 @@ Vybrané názvy nových počítačů Astro Pi oznámíme na jaře 2022.
 
 Tady je příklad, jaký program můžeš vytvořit. Klikni na tlačítko **Run** (spustit) a dívej se, jak funguje.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Emulátor Trinket Sense HAT, na kterém je spuštěn ukázkový program, který posouvá hodnotu vlhkosti vzduchu po LED matici a poté zobrazuje obrázek rybičky](images/M0_4.gif)
 
 
 --- collapse ---
@@ -24,14 +24,14 @@ Tady je příklad, jaký program můžeš vytvořit. Klikni na tlačítko **Run*
 title: Co se naučíš
 ---
 
-You will learn about the Astro Pi unit and how to control an it, including how to:
-+ Zobrazovat zprávy a barvy
-+ Vytvořit obrázky
-+ Měřit vlhkost pomocí Sense HAT
+Dozvíš se o jednotce Astro Pi a naučíš se ji ovládat. Také se dozvíš, jak:
++ zobrazovat zprávy a barvy,
++ vytvářet obrázky,
++ měřit vlhkost pomocí Sense HAT.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Tento projekt zahrnuje prvky z následujících částí osnovy [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -61,14 +61,9 @@ Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do t�
 
 Přečtěte si [oficiální dokument s pokyny](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
-Pole ve formuláři zahrnující:  
-Název učitele/mentora  
-Název týmu  
-Počet členů týmu  
-Jména a věk členů týmu  
-V jakém jazyce máte přístup k pokynům Mission Zero?
+Aby se vaše týmy mohly zúčastnit výzvy Mission Zero, musíte se zaregistrovat.
 
-+ Jděte na [stránku emulátoru Trinket pro Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Přejděte na [stránku Trinket emulátoru pro Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Vyplňte formulář a klikněte na tlačítko **Submit** (odeslat)\*.
 
@@ -81,9 +76,9 @@ počet členů týmu,
 jména a věk členů týmu,  
 v jakém jazyce jste četli pokyny k Mission Zero?
 
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
++ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte nebo nejste přihlášeni). Na jednu e-mailovou adresu můžete vytvořit jeden účet. Každý účet má svůj vlastní **kód třídy**, a jakmile budou vaše týmy připravené odeslat své programy, budete jim muset ten svůj sdělit.
 
-+ Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
++ Vystavte svůj kód třídy na viditelné místo, například na tabuli nebo jej promítněte pomocí projektoru, a můžete začít.
 
  Vytvořili jsme [tisknutelný dvoustránkový leták](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti a mladí lidé jej mohou společně využít s tímto online projektem.
 
