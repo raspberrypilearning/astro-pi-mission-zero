@@ -1,18 +1,18 @@
 ## Co je Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space. It also has an add-on board called the Sense HAT, made specifically for the Astro Pi mission. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, and orientation.
+Astro Pi je počítač od Raspberry Pi, který je uzavřený v pouzdře speciálně navrženém pro podmínky ve vesmíru. Také obsahuje přídavnou desku s názvem Sense HAT, vytvořenou speciálně pro misi Astro Pi. Sense HAT má joystick, LED displej a senzory pro snímání světla, teploty, vlhkosti, tlaku a orientace.
 
-Here is an original Mark I Astro Pi unit on the International Space Station, running some code written by students. Your code will eventually be run on a new version of Astro Pi computers!
+Tady je originální jednotka Mark I Astro Pi na Mezinárodní vesmírné stanici, na které běží kód od studentů. Tvůj kód časem poběží na nové verzi počítačů Astro Pi!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+V téhle misi budeš používat emulátor Sense HAT. Emulátor je software, který simuluje všechny funkce Astro Pi ve tvém webovém prohlížeči.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+![Označený snímek obrazovky emulátoru Sense HAT s oknem kódu vlevo a emulátorem vpravo.](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Mezi skutečným a emulovaným Sense HAT existuje několik rozdílů:
 
-- Na emulátoru si teplotu, tlak a vlhkost nastavujete sami pomocí posuvníků, zatímco skutečný Sense HAT v Astru Pi tyto parametry měří v prostředí okolo sebe.
+- Na emulátoru si barvu osvětlení, teplotu, tlak a vlhkost nastavíš pomocí posuvníků, zatímco skutečný Sense HAT v Astro Pi tyto parametry měří v prostředí okolo sebe pomocí senzorů.
 
-- You can use the mouse to click and drag the emulated Sense HAT to move and rotate it, simulating changes in its orientation; the real Astro Pi (and its Sense HAT) can move in the real world, and the Sense HAT's orientation sensors detect when and how it has  moved.
+- Když na emulovaný Sense HAT klikneš myší a táhneš, můžeš s ním pohybovat a otáčet, a tak simulovat změnu orientace. Opravdové Astro Pi (a jeho Sense HAT) se může pohybovat v reálném světě a senzory orientace zjišťují, kdy a jak se pohnulo.
