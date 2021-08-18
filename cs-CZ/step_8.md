@@ -2,52 +2,52 @@
 
 Pokud chceš svůj kód odeslat ke spuštění na Mezinárodní vesmírné stanici, musí se řídit několika pravidly. Pokud se jim řídí, tak se pravidla v dolní části [emulátoru Sense HAT](https://trinket.io/mission-zero) při spuštění programu rozsvítí zeleně.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Snímek obrazovky stránek Mission Zero Trinket zobrazující tlačítko pro odeslání a kontrolu kritérií vlevo. Horní dvě pravidla („čtení vlhkosti“ a „použití LED diod“) jsou oranžově, spodní („běží bez chyb“) je zeleně ](images/validation.png)
 
-1. Proveďte měření vlhkosti.
-1. Rozsviťte LED diody.
-1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
-1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
+1. Proveď měření vlhkosti.
+1. Rozsviť LED diody.
+1. Ujisti se, že tvůj kód proběhne až do konce bez jakýchkoli chyb. Ve tvém kódu by neměly být žádné smyčky `while True`, protože by kód stále běžel a nemohl by se dokončit.
+1. Otestuj svůj kód s různými hodnotami vlhkosti (pomocí posuvníku) a ujisti se, že vždy správně funguje.
 
-Také se ujistěte, že jste splnili následující kritéria:
+Také se ujisti, že splňuješ následující kritéria:
 
-1. Ujistěte se, že vaše zpráva pro astronauty není delší než 30 sekund, protože váš kód poběží na ISS právě 30 sekund
-1. Nepoužívejte žádné metody vyžadující vstup
-1. Importujte jen z modulů `sense_hat`, `time`, a `random`
-1. V kódu nesmějí být žádné vulgární výrazy
+1. Ujisti se, že tvoje zpráva pro astronauty není delší než 30 sekund, jelikož tolik sekund právě na ISS poběží.
+1. Nepoužívej žádné metody vyžadující vstup.
+1. Importuj jen z modulů `sense_hat`, `time`, a `random`.
+1. V kódu nesmějí být žádné vulgární výrazy.
 
-Když jsou všechna pravidla zelená, všechno je připravené a kód můžete odeslat.
+Jakmile budou všechna pravidla zelená, tak je tvůj kód připravený k odeslání.
 
 --- task ---
 
-Do rámečku dole zadejte svůj kód třídy – řekne vám ho učitel.
+Do rámečku dole zadej kód třídy, který ti tvůj učitel nebo mentor řekne.
 
-**Poznámky pro učitele nebo mentory** najdete v kroku [Úvod](https://projects.raspberrypi.org/cs-CZ/projects/astro-pi-mission-zero/1).
+**Poznámky pro učitele nebo mentory** naleznete v kroku [Úvod](https://projects.raspberrypi.org/cs-CZ/projects/astro-pi-mission-zero).
 
 --- /task ---
 
 --- task ---
 
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+Ukáže se ti jméno tvého učitele. Pokud je to správně, klikni na zelené tlačítko **Continue to form** (pokračovat k formuláři).
 
-![Pokračovat na formulář](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+![Pokračovat k formuláři](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Zadej název svého týmu a jména členů týmu. Tahle jména budou po spuštění kódu vytištěna na certifikát, takže se ujisti, že je napíšeš bez chyby!
 
 --- /task ---
 
 --- task ---
 
-Jestli chcete, můžete odkaz na svůj kód sdílet na sociálních sítích, abyste se pochlubili, že kód, který jste napsali, poběží ve vesmíru!
+Kód odešli kliknutím na tlačítko **Submit** (odeslat). Tvůj učitel nebo mentor obdrží e-mail s potvrzením, že byl tvůj příspěvek odeslán.
+
+--- /task ---
+
+--- task ---
+
+Jestli chceš, můžeš odkaz na svůj kód sdílet na sociálních sítích a pochlubit se, že tvůj kód poběží ve vesmíru!
 
 --- /task ---
