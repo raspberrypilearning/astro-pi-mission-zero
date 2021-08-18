@@ -12,6 +12,6 @@ Také si můžeš zkusit některé z našich dalších projektů pro Astro Pi:
 
 + Vytvořte hru [Flappy Astronaut](https://projects.raspberrypi.org/cs-CZ/projects/flappy-astronaut){:target="_blank"}
 
-+ Změřte se s kamarády ve hře [marble maze](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-marble-maze){:target="_blank"}
++ Vyzvi své kamarády v [mramorovém bludišti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}.
 
 + Zkuste si naprogramovat klasickou hru [Pong](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-pong){:target="_blank"}
