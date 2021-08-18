@@ -1,12 +1,12 @@
 ## Zobraz obrázek
 
-Na LED matici Astro Pi můžeš zobrazovat obrázky. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+Na LED matici Astro Pi můžeš zobrazovat obrázky. Co kdyby tvůj pozdrav astronautům obsahoval kromě psané zprávy i obrázek nebo vzor?
 
 ![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
 --- task ---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
+Na konci svého programu vytvoř nové proměnné s barvami a definuj tak barvy, které chceš při kreslení svého obrázku použít. Můžeš použít libovolný počet barev, ale v tomhle příkladu použijeme pouze několik barev: červenou (`r`), bílou (`w`), černou (`b`) a dva odstíny šedé (`g` a `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same.
 
 ```python
 w = (255, 255, 255)
