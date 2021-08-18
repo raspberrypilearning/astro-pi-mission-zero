@@ -1,12 +1,12 @@
 ## Zobraz vlhkost
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Naměřenou vlhkost můžeš zkombinovat s obrázkem, tudíž ji můžeš naznačit graficky. Můžeš například nechat zobrazit oceán, když je vlhkost vysoká, a poušť, když je naopak nízká:
 
 ![Vlhko a sucho](images/wet-dry.png)
 
 --- task ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+Na konci programu vytvoř ještě několik proměnných s takovými barvami, které budeš chtít použít při kreslení obrázků. Možná máš už některé z nich definované z předchozího kroku.
 
 ```python
 o=(255,130,0)
@@ -21,7 +21,7 @@ y=(255,255,0)
 
 --- task ---
 
-Stejně jako předtím nakreslete obrázky tak, že pro každý z nich vytvoříte seznam a potom položky tohoto seznamu nastavíte na barvy, které mají mít jednotlivé pixely.
+Stejně jako minule – nakresli obrázky tak, že jim nejprve vytvoříš seznam a poté nastavíš položky seznamu na barvy, které mají jednotlivé pixely mít.
 
 ```python
 vlhko = [
@@ -52,17 +52,17 @@ sucho = [
 
 --- task ---
 
-Přidejte kód pro získání vlhkosti:
+Přidej kód pro změření vlhkosti:
 
 ```python
-temp = sense.temperature
+vlhkost = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Teď se rozhodni, který obrázek se má zobrazit. V tomhle příkladu se obrázek `vlhko` zobrazí tehdy, jestliže je hodnota vlhkosti 40 % a výš, a pokud je naopak vlhkost nižší než 40 %, zobrazí se obrázek `sucho`.
 
 ```python
 vlhkost = sense.get_humidity()
@@ -76,7 +76,7 @@ else:
 
 --- task ---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Pomocí posuvníku vlhkosti nastav vlhkost na emulátoru. Spusť svůj program a zkontroluj, jestli se obrázek vybraný pro danou vlhkost správně zobrazí.
 
 --- /task ---
 
@@ -86,6 +86,6 @@ Změňte kód tak, aby váš program ukazoval astronautům vlhkost tak, jak chce
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Otestuj svůj kód s různými hodnotami vlhkosti (pomocí posuvníku) a ujisti se, že vždy správně funguje. Pokud postupuješ podle výše uvedeného příkladu, zobrazí se ti obrázek jak v případě, že je vlhkost nastavena na hodnotu nižší než 40 %, tak i v případě, že je nastavena na hodnotu vyšší než 40 %?
 
 --- /task ---
