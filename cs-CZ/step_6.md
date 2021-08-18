@@ -1,61 +1,61 @@
-## Změřte vlhkost
+## Změř vlhkost
 
-The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
+Senzor vlhkosti v Astro Pi dokáže měřit vlhkost okolního vzduchu. To je užitečná funkce, která ti pomůže shromažďovat údaje o podmínkách ve vesmíru.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
+![Emulátor Trinket Sense HAT, na kterém je spuštěn ukázkový program, který posouvá bílou hodnotu vlhkosti po LED matici](images/M0_3.gif)
 
-Astro Pi měří vlhkost v ISS v procentech koncentrace vody ve vzduchu.
+Astro Pi měří vlhkost na ISS v procentech koncentrace vody ve vzduchu.
 
-Součástí vaší mise je přispívat k každodennímu životu posádky na palubě ISS, dát jim vědět, že vlhkost na palubě vesmírné stanice je v normálním rozsahu je uklidní.
+Součástí tvé mise je podílet se na každodenním životě posádky na palubě ISS, takže je uklidní, když jim sdělíš, že vlhkost na palubě vesmírné stanice je v normě.
 
 [[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
-Přidejte tento kód pro měření vlhkosti:
+Přidej tenhle kód pro změření vlhkosti:
 
 ```python
-humid = sense.humidity
+vlhkost = sense.get_humidity()
 ```
 
-Tato řádka změří současnou vlhkost a uloží naměřenou hodnotu v proměnné `humid`.
+Tenhle řádek kódu změří aktuální vlhkost a uloží naměřenou hodnotu do proměnné `vlhkost`.
 
 --- /task ---
 
 --- task ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Vlhkost se zaznamenává velmi přesně, proto bude mít uložená hodnota velký počet desetinných míst. Hodnotu můžeš zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníš na jiné číslo, dostaneš jiný počet desetinných míst.
 
 ```python
-humid = round( sense.humidity, 1 )
+vlhkost = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
 
 --- task ---
 
-Abyste aktuální vlhkost zobrazili na displeji jako běžící text, přidejte tuhle řádku kódu:
+Pokud chceš, aby aktuální vlhkost po displeji běžela, přidej tenhle řádek kódu:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(vlhkost))
 ```
 
-Část `str()` převádí vlhkost z čísla na text tak, aby ji Astro Pi mohl zobrazit.
+Část `str()` převádí vlhkost z čísla na text tak, aby ji Astro Pi mohlo zobrazit.
 
 --- /task ---
 
 --- task ---
 
-To `str()` převádí vlhkost z čísla na text, aby ji Astro Pi mohlo zobrazit.
+Vlhkost můžeš také zobrazit jako součást jiné zprávy, jestliže spojíš částí zprávy pomocí znaménka `+`.
 
 ```python
-sense.show_message( "Je " + str(humid) + " %" )
+sense.show_message( "Je " + str(vlhkost) + " %" )
 ```
 
 --- /task ---
 
-Skutečný Astro Pi bude měřit vlhkost kolem sebe, vy můžete posunout posuvník vlhkosti na emulátoru Sense HAT, abyste simulovali změny vlhkosti a vyzkoušeli váš kód.
+Skutečné Astro Pi bude měřit vlhkost kolem sebe, ale ty můžeš pomocí posuvníku na emulátoru Sense HAT simulovat změnu vlhkosti a vyzkoušet si tak svůj kód.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
+![Označený snímek obrazovky emulátoru Sense HAT s oknem kódu vlevo a emulátorem vpravo. Posuvník pro nastavení vlhkosti je zakroužkován v pravém horním rohu](images/humidity-slider.png)
 
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+**Poznámka:** Možná tě zajímá, proč posuvník vlhkosti zobrazuje vlhkost jako celé číslo, zatímco zobrazená hodnota je desetinné číslo. Emulátor simuluje maličkou míru nepřesnosti skutečného senzoru, takže získaná hodnota z měření vlhkosti může být nepatrně větší nebo menší než hodnota, kterou nastavuješ pomocí posuvníku.
