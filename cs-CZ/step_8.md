@@ -1,4 +1,4 @@
-## Odešlete svůj příspěvek
+## Odešli svůj příspěvek
 
 There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
