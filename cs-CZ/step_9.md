@@ -2,7 +2,7 @@
 
 A teď, když máš svoji misi za sebou, nechceš si zkusit nějaké další projekty, ve kterých se používají jiné senzory na Astro Pi?
 
-Pokud se na to cítíš, můžeš se zúčastnit [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Pokud se na to cítíš, můžeš se zúčastnit [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Dej dohromady tým o dvou až šesti lidí a spolupracujte jako skuteční vesmírní vědci na návrhu vlastního experimentu. Získejte pro svou misi počítačový hardware zdarma a napište v Pythonu kód, který provede váš výzkum. Když dostanete povolení k letu, bude váš kód nahrán na Mezinárodní vesmírnou stanici a tři hodiny (dva oběhy) poběží na Astro Pi. Veškerá data, která váš kód ve vesmíru shromáždí, jako obrazové soubory nebo soubory s daty ze senzorů, se stáhnou a předají se vám, abyste je mohli analyzovat.
 
 Také si můžeš zkusit některé z našich dalších projektů pro Astro Pi:
 
