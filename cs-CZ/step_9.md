@@ -6,12 +6,12 @@ Pokud se na to cítíš, můžeš se zúčastnit [Mission Space Lab](https://ast
 
 Také si můžeš zkusit některé z našich dalších projektů pro Astro Pi:
 
-+ Podívejte se, [co je Sense HAT a co dalšího dokáže](https://projects.raspberrypi.org/cs-CZ/projects/getting-started-with-the-sense-hat){:target="_blank"}
++ Zjisti [více o Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} a co dalšího dokáže.
 
-+ Vytvořte krásné [náhodné jiskření](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-random-sparkles){:target="_blank"} na LED displeji desky Sense HAT
++ Vytvoř krásné [náhodné jiskření](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} na LED displeji Sense HAT.
 
-+ Vytvořte hru [Flappy Astronaut](https://projects.raspberrypi.org/cs-CZ/projects/flappy-astronaut){:target="_blank"}
++ Vytvoř hru [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}.
 
 + Vyzvi své kamarády v [mramorovém bludišti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}.
 
-+ Zkuste si naprogramovat klasickou hru [Pong](https://projects.raspberrypi.org/cs-CZ/projects/sense-hat-pong){:target="_blank"}
++ Zkus si naprogramovat klasickou hru [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}.
