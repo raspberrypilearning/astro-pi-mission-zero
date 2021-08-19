@@ -76,11 +76,11 @@ počet členů týmu,
 jména a věk členů týmu,  
 v jakém jazyce jste četli pokyny k Mission Zero?
 
-+ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte nebo nejste přihlášeni). Na jednu e-mailovou adresu můžete vytvořit jeden účet. Každý účet má svůj vlastní **kód třídy**, a jakmile budou vaše týmy připravené odeslat své programy, budete jim muset ten svůj sdělit.
++ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte nebo nejste přihlášeni). Na jednu e-mailovou adresu můžete zaregistrovat jeden účet. Každý účet má svůj vlastní **kód třídy**, a jakmile budou vaše týmy připravené odeslat své programy, budete jim muset ten svůj sdělit.
 
 + Vystavte svůj kód třídy na viditelné místo, například na tabuli nebo jej promítněte pomocí projektoru, a můžete začít.
 
- Vytvořili jsme [tisknutelný dvoustránkový leták](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti a mladí lidé jej mohou společně využít s tímto online projektem.
+ Vytvořili jsme [tisknutelný dvoustránkový leták](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti či mladí lidé jej mohou využít společně s tímto online projektem.
 
 --- /collapse ---
 
