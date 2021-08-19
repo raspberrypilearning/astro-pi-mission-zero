@@ -46,7 +46,7 @@ sense.show_message(str(vlhkost))
 
 --- task ---
 
-Vlhkost můžeš také zobrazit jako součást jiné zprávy, jestliže spojíš částí zprávy pomocí znaménka `+`.
+Vlhkost můžeš také zobrazit jako součást zprávy, jestliže spojíš všechny její částí pomocí znaménka `+`.
 
 ```python
 sense.show_message( "Je " + str(vlhkost) + " %" )
