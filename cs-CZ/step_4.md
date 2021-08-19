@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=cervena)
 
 --- task ---
 
-Také můžeš změnit barvu pozadí displeje. Vyber si jinou barvu a vytvoř další proměnnou, do které tu barvu uložíš. Pokud chceš programu říct, aby použil tvoji barvu pozadí, přidej do kódu parametr `back_colour`:
+Také můžeš změnit barvu pozadí displeje. Vyber si jinou barvu a vytvoř další proměnnou, do které tuto barvu uložíš. Pokud chceš programu říct, aby použil tvoji barvu pozadí, přidej do kódu parametr `back_colour`:
 
 ```python
 cervena = (255,0,0)
