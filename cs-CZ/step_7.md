@@ -21,7 +21,7 @@ y=(255,255,0)
 
 --- task ---
 
-Stejně jako minule – nakresli obrázky tak, že jim nejprve vytvoříš seznam a poté nastavíš položky seznamu na barvy, které mají jednotlivé pixely mít.
+Stejně jako minule – nakresli obrázky tak, že nejprve vytvoříš seznam a poté nastavíš položky seznamu na barvy, které mají jednotlivé pixely mít.
 
 ```python
 vlhko = [
@@ -76,13 +76,13 @@ else:
 
 --- task ---
 
-Pomocí posuvníku vlhkosti nastav vlhkost na emulátoru. Spusť svůj program a zkontroluj, jestli se obrázek vybraný pro danou vlhkost správně zobrazí.
+Pomocí posuvníku vlhkosti nastav vlhkost na emulátoru. Spusť svůj program a zkontroluj, jestli se obrázek určený pro danou hodnotu vlhkosti správně zobrazí.
 
 --- /task ---
 
 --- task ---
 
-Změňte kód tak, aby váš program ukazoval astronautům vlhkost tak, jak chcete vy.
+Změň svůj kód tak, aby program zobrazoval astronautům vlhkost tak, jak chceš ty.
 
 --- /task ---
 
