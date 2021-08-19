@@ -96,9 +96,9 @@ For at stemme skal du starte din besked med ordene "Mit navn skal være". Hvis d
 sense.show_message ("Mit navn skal være Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Hvis du ønsker at stemme, *skal* din besked starte med disse ord, ellers vil vi ikke automatisk kunne tælle den med.
 
---- /task ---
+--- /opgave ---
 
 
 
