@@ -40,7 +40,7 @@ Premete il pulsante **Run** (esegui) e guardate il messaggio `Astro Pi` che scor
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra le virgolette (`""`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: Quali caratteri si possono usare?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Sense HAT può visualizzare solo il set di caratteri "Latin 1". Eventuali altri caratteri verranno visualizzati con un `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,19 +64,19 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Potete anche cambiare la velocità di scorrimento del messaggio sullo schermo. Aggiungete il parametro `scroll_speed` (velocità di scorrimento) alla vostra linea di codice, in questo modo:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+La velocità predefinita del messaggio è `0.1`. Usando un numero più piccolo, il messaggio scorre più velocemente, mentre usando un numero più grande il messaggio scorre più lentamente.
 
 --- /task ---
 
 ### Scegli un nome per i nuovi computer Astro Pi
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- task --- Nomineremo i computer Astro Pi in onore di due fondamentali scienziati europei. Ci sono centinaia di uomini e donne che hanno contribuito alla scienza e alla tecnologia; i partecipanti possono suggerire i propri nomi o scegliere dalla nostra lista:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -90,13 +90,13 @@ The default speed of the message is `0.1`. Making the number smaller makes the m
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+E' necessario che il mesaaggio inizi con le seguenti parole "My name should be" (in inglese). Per esempio, se un partecipante o una squadra volessero votare per Ada Lovelace, il loro codice sarebbe il seguente:
 
 ```python
-sense.show_message("Il mio nome dovrebbe essere Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Se tu volessi votare, il tuo messaggio dovrebbe iniziare con queste parole, altrimenti, non saremo in grado di valutare la tua partecipazione.
 
 --- /task ---
 
