@@ -57,7 +57,7 @@ title: Uwagi dla nauczycieli i mentorów
 ---
 
 
-To zadanie można wykonać w ciągu jednego popołudnia. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+To zadanie można wykonać w ciągu jednego popołudnia. Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób. Następnie według naszych wskazówek napiszą oni krótki program Python wyświetlający osobistą wiadomość i temperaturę powietrza w Astro Pi.
 
 Przeczytaj [dokument z oficjalnymi wytycznymi ](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} dla Misji Zero.
 
