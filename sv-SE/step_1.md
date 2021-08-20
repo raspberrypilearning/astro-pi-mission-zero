@@ -57,7 +57,7 @@ title: Noteringar för lärare och mentorer
 ---
 
 
-Denna aktivitet kan slutföras på en eftermiddag. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Denna aktivitet kan slutföras på en eftermiddag. Dela in dina elever i grupper med mellan 1 och 4 deltagare, och låt oss vägleda dem i att skriva ett kort Python-program som visar ett personligt meddelande och den relativa luftfuktigheten på Astro Pi.
 
 Läs [dokumentet med de officiella riktlinjerna](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} för Mission Zero.
 
