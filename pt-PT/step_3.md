@@ -94,7 +94,7 @@ Para votar, comece a sua mensagem com as palavras "O meu nome deve ser". Por exe
 sense.show_message("O meu nome deve ser Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Se quiser votar, a sua mensagem tem que começar com estas palavras. De outra forma, a sua entrada não será contada.
 
 --- /task ---
 
