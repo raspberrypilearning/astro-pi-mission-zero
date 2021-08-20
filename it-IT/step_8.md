@@ -2,7 +2,7 @@
 
 Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il programma deve soddisfare alcune regole. Se il vostro codice le soddisfa, le regole visualizzate in basso sull’emulatore si evidenziano di colore verde quando il programma viene eseguito.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Uno screenshot delle pagine di Mission Zero Trinket che mostra il pulsante di invio e i controlli dei criteri a sinistra. I primi due ("legge umidità" e "usa i LED") sono in arancione, quello in basso ("funziona senza errori") è verde ](images/validation.png)
 
 1. Fate una lettura dell'umidità.
 1. Accendete i LED
