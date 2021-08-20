@@ -28,7 +28,7 @@ Skriv inn klasseromskoden i feltet nederst - læreren/veilederen vil fortelle hv
 
 --- task ---
 
-Your teacher's name will appear. Hvis det er riktig navn, klikk på den grønne **Continue to form** (Fortsett til skjema)-knappen.
+Lærerens navn vises. Hvis det er riktig navn, klikk på den grønne **Continue to form** (Fortsett til skjema)-knappen.
 
 ![Fortsett til skjemaet](images/continue-to-form.png)
 
