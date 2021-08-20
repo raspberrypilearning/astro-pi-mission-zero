@@ -2,18 +2,18 @@
 
 Urozmaić codzienność astronautów na Międzynarodowej Stacji Kosmicznej(ISS), pokazując im wiadomość i wilgotność względną powietrza na pokładzie za pomocą Sense HAT komputera Astro Pi.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Sprzęt Astro Pi Mark II jest tak nowy, że komputery nie mają jeszcze nawet swoich nazw. Komputery Astro Pi zostaną nazwane imionami dwóch inspirujących europejskich naukowców. Możesz pomóc wybrać, jak będą się nazywać, głosując na swoje ulubione imię w ramach programu Misja Zero.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Program zostanie stworzony za pomocą internetowego emulatora Sense HAT, więc nie jest potrzebny żaden dodatkowy sprzęt - wszystko odbywa się w przeglądarce internetowej. *Jeśli spełnia kryteria kwalifikacyjne* Twój ukończony program zostanie uruchomiony w kosmosie na Międzynarodowej Stacji Kosmicznej (ISS)! Otrzymasz również specjalny certyfikat, który dokładnie pokazuje, gdzie znajdował się ISS, kiedy działał Twój program.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Wiosną 2022 r. ogłosimy wybrane nazwy nowych komputerów Astro Pi.
 
 
 ### Co będziesz robił
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Oto przykład programu, który można stworzyć. Kliknij **Run** (Uruchom), aby zobaczyć, jak działa.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Emulator Trinket Sense HAT uruchamia przykładowy program, który przewija wartość wilgotności po matrycy LED, a następnie wyświetla obraz ryby](images/M0_4.gif)
 
 
 --- collapse ---
@@ -26,7 +26,7 @@ title: Czego się nauczysz
 
 Dowiedz się więcej o jednostce Astro Pi i jak nią sterować, w tym:
 + jak wyświetlać wiadomości i kolory
-+ Utwórz obrazy
++ Tworzyć obrazki
 + Zmierzyć wilgotność przy użyciu Sense HAT
 
 Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
@@ -57,29 +57,24 @@ title: Uwagi dla nauczycieli i mentorów
 ---
 
 
-This activity can be completed in an afternoon. Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób. Następnie według naszych wskazówek napiszą oni krótki program Python wyświetlający osobistą wiadomość i temperaturę powietrza w Astro Pi.
+To zadanie można wykonać w ciągu jednego popołudnia. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
-\* Proszę zwróc uwagę, że ten formularz jest dostępny tylko w języku angielskim.
+Przeczytaj [dokument z oficjalnymi wytycznymi ](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} dla Misji Zero.
 
-Pola w formularzu obejmują:  
-Nazwisko nauczyciela / mentora  
-Nazwę zespołu  
-Liczba osób w zespole  
-Nazwiska i wiek członków zespołu   
-W którym język, czy uzyskałeś dostęp do wytycznych Mission Zero?
+Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Misja Zero, należy się zarejestrować.
 
 + Przejdź do [strony emulatora Trinket Misji Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Wypełnij formularz i kliknij **Submit** (Wyślij)\*.
 
-\* Please note that this registration form is available in English only.
+\* Proszę zwróć uwagę, że ten formularz jest dostępny tylko w języku angielskim.
 
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
+Pola w formularzu obejmują:  
+Nazwisko nauczyciela/mentora   
+Nazwę zespołu  
+Liczba osób w zespole  
+Nazwiska i wiek członków zespołu   
+W którym język, uzyskano dostęp do wytycznych Misji Zero?
 
 + Konto Trinket zostanie utworzone dla Ciebie (jeśli jeszcze go nie posiadasz, lub nie jesteś zalogowany). Możesz utworzyć jedno konto na jeden adres e-mail. Każde konto ma własny **kod klasy**, który należy podać swojemu zespołowi/swoim zespołom, kiedy uczestnicy będą gotowi do wysłania swoich programów.
 
@@ -89,4 +84,4 @@ In which language did you access the Mission Zero guidelines?
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Piksel śledzący](https://code.org/api/hour/begin_raspberrypi_astropi.png)
