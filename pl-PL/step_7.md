@@ -1,8 +1,8 @@
-## Wyświetl wilgotność
+## Zareaguj na wilgotność
 
 Można połączyć pomiar wilgotności z obrazkiem, aby pokazać wilgotność również w postaci graficznej. Na przykład możesz wyświetlić ocean dla wysokiej wilgotności i pustynię dla niskiej wilgotności:
 
-![Mokro i sucho](images/wet-dry.png)
+![Wilgotno i sucho](images/wet-dry.png)
 
 --- task ---
 
@@ -24,7 +24,7 @@ y=(255,255,0)
 Tak jak wcześniej, narysuj swoje obrazki, najpierw tworząc dla każdego z nich listę, a następnie ustawiając kolory pikseli elementów listy.
 
 ```python
-wet = [
+wilgotno= [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wet = [
 ]
 
 
-dry = [
+sucho= [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,21 +55,21 @@ dry = [
 Dodaj kod, aby uzyskać wilgotność:
 
 ```python
-humid = sense.humidity
+wolgotnosc= sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Teraz zdecyduj, który obrazek chcesz wyświetlić. Dla tego przykładu wyświetlmy obrazek `wet`, jeśli odczyt wilgotności wynosi 40% lub więcej, i obrazek `dry` jeśli wilgotność jest poniżej 40%.
+Teraz zdecyduj, który obrazek chcesz wyświetlić. Dla tego przykładu wyświetlmy obrazek `mokro`, jeśli odczyt wilgotności wynosi 40% lub więcej, i obrazek `sucho` jeśli wilgotność jest poniżej 40%.
 
 ```python
-humid = sense.humidity
+wilgotnosc= sense.get_humidity()
 if humid >= 40:
-    sense.set_pixels(wet)
+    sense.set_pixels(mokro)
 else:
-    sense.set_pixels(dry)
+    sense.set_pixels(sucho)
 ```
 
 --- /task ---
@@ -86,6 +86,6 @@ Zmień swój kod, aby Twój program wyświetlał wilgotność dla astronautów w
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Przetestuj swój kod z kilkoma różnymi ustawieniami wilgotności (używając suwaka), aby upewnić się, że zawsze działa poprawnie. Jeśli zastosowałeś się do powyższego przykładu, czy obraz jest wyświetlany zarówno wtedy, gdy wilgotność jest ustawiona na mniej niż 40%, a także gdy jest ustawiona na więcej niż 40%?
 
 --- /task ---
