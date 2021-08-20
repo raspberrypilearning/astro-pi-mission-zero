@@ -2,7 +2,7 @@
 
 Égaye la routine quotidienne des astronautes de la Station spatiale internationale en leur affichant un message et l'humidité relative à bord, à l’aide du Sense HAT de l’ordinateur Astro Pi.
 
-Le matériel Astro Pi Mark II est si récent que les ordinateurs n'ont même pas encore de nom. Nous donnerons aux ordinateurs Astro Pi le nom de deux scientifiques européens inspirants. Tu peux aider à choisir ce qu'ils appelleront en votant pour ton nom préféré dans le cadre de ton programme Mission Zero.
+Le matériel Astro Pi Mark II est si récent que les ordinateurs n'ont même pas encore de nom. Nous donnerons aux ordinateurs Astro Pi le nom de deux scientifiques européens inspirants. Tu peux aider à choisir comment ils s'appelleront en votant pour ton nom préféré dans le cadre de ton programme Mission Zero.
 
 Tu utiliseras l'émulateur en ligne Sense HAT pour créer ton programme, aucun matériel supplémentaire n'est nécessaire - tout se fait dans un navigateur Web. *S'il répond aux critères d'éligibilité,* ton programme terminé sera exécuté dans l'espace sur la Station spatiale internationale (ISS) ! Tu recevras également un certificat spécial qui indique exactement où se trouvait l'ISS lorsque ton programme a été exécuté.
 
@@ -57,7 +57,7 @@ title: Notes pour les enseignants et les mentors
 ---
 
 
-Cette activité peut être réalisée en une après-midi. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Cette activité peut être réalisée en une après-midi. Organisez vos élèves en équipes de deux à quatre personnes et laissez-nous les guider dans l'écriture d'un court programme Python pour afficher un message personnel et l'humidité relative sur l'Astro Pi.
 
 Consultez [les directives officielles](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pour Mission Zero.
 
