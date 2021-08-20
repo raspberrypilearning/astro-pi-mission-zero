@@ -11,7 +11,7 @@ We will announce the chosen names for the new Astro Pi computers in spring 2022.
 
 ### Mitä tulet tekemään
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** nähdäksesi sen toiminnassa.
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
@@ -47,7 +47,7 @@ title: Mitä tarvitset
 
 ### Ohjelmisto
 
-+ A web browser (e.g. Google Chrome) to open [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
++ Verkkoselain (esim. Google Chrome) avaamaan [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
 --- /collapse ---
 
@@ -57,7 +57,7 @@ title: Huomautuksia opettajille ja ohjaajille
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Tämä toiminta voidaan suorittaa iltapäivän aikana. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 \ * Huomaa, että tämä rekisteröintilomake on saatavana vain englanniksi.
 
