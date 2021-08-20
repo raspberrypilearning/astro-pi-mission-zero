@@ -2,7 +2,7 @@
 
 Le capteur d'humidité de l'Astro Pi peut mesurer l'humidité de l'air qui l'entoure, c'est une fonction utile pour t'aider à collecter des données sur les conditions dans l'espace.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
+![L'émulateur Trinket Sense HAT exécutant un exemple de programme qui fait défiler la valeur d'humidité à travers la matrice LED à l'aide de lettres blanches](images/M0_3.gif)
 
 L'Astro Pi mesure l'humidité dans l'ISS en pourcentage de concentration d'eau dans l'air.
 
@@ -56,6 +56,6 @@ sense.show_message( "Il y a " + str(humid) + " %" )
 
 Le vrai Astro Pi mesurera l'humidité autour de lui, mais tu peux déplacer le curseur d'humidité sur l'émulateur Sense HAT pour simuler les changements d'humidité et tester ton code.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
+![Une capture d'écran étiquetée de l'émulateur Sense HAT avec la fenêtre de code à gauche et l'émulateur à droite. Le curseur utilisé pour régler l'humidité est encerclé dans le coin supérieur droit](images/humidity-slider.png)
 
 **Remarque :** Tu te demandes peut-être pourquoi le curseur d'humidité affiche l'humidité sous forme d'un nombre entier, mais le résultat de la mesure que tu obtiens est en décimales. L'émulateur simule la légère imprécision du capteur réel, de sorte que le résultat de la mesure de l'humidité que tu vois peut être très légèrement supérieure ou inférieure à la valeur que tu as définie avec le curseur.
