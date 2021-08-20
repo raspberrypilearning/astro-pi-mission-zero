@@ -45,7 +45,7 @@ Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra 
 --- collapse ---
 
 ---
-titolo: Quali caratteri possono essere utilizzati?
+title: Quali caratteri si possono usare?
 ---
 
 Sense HAT può visualizzare solo il set di caratteri "Latin 1". Eventuali altri caratteri verranno visualizzati con un `?`.
