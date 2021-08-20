@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![Uno screenshot dell'emulatore Trinket Sense Hat con tre righe di codice di avvio visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
 
 Questo codice si collega all’Astro Pi e garantisce che il messaggio sul display LED di Astro Pi sia mostrato nel verso corretto. Lasciate stare questo codice, perché è necessario.
 
@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 Premete il pulsante **Run** (esegui) e guardate il messaggio `Astro Pi` che scorre sul display LED.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![L'emulatore Trinket Sense HAT esegue un programma di esempio che fa scorrere il testo \"Astro Pi \" sulla matrice LED utilizzando lettere bianche](images/M0_1.gif)
 
 --- /task ---
 
@@ -45,7 +45,7 @@ Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra 
 --- collapse ---
 
 ---
-title: Quali caratteri si possono usare?
+titolo: Quali caratteri possono essere utilizzati?
 ---
 
 Sense HAT può visualizzare solo il set di caratteri "Latin 1". Eventuali altri caratteri verranno visualizzati con un `?`.
@@ -90,7 +90,7 @@ La velocità predefinita del messaggio è `0.1`. Usando un numero più piccolo, 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-E' necessario che il mesaaggio inizi con le seguenti parole "My name should be" (in inglese). Per esempio, se un partecipante o una squadra volessero votare per Ada Lovelace, il loro codice sarebbe il seguente:
+Per votare, inizia il tuo messaggio con le parole "Il mio nome dovrebbe essere". Per esempio, se un partecipante o una squadra volessero votare per Ada Lovelace, il loro codice sarebbe il seguente:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
