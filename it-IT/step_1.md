@@ -2,16 +2,16 @@
 
 Smuovi la routine quotidiana degli astronauti sulla Stazione Spaziale Internazionale mostrando loro un messaggio e il valore di umidità relativa dell’ambiente a bordo usando il Sense HAT del computer Astro Pi.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+L'hardware del Mark II Astro Pi è così nuovo che i computer non hanno ancora nemmeno un nome. Nomineremo i computer Astro Pi in onore di due fondamentali scienziati europei. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo - basta un browser web. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Annunceremo i nomi vincitori per i nuovi computer Astro Pi nella primavera del 2022.
 
 
 ### Che cosa creerai
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Di seguito vi mostriamo un esempio del tipo di programma che potreste creare. Cliccate su **Run** per vederlo in funzione.
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
