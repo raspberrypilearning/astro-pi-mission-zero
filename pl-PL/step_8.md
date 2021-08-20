@@ -1,13 +1,13 @@
 ## Wyślij swoje zgłoszenie
 
-Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do uruchomienia na Międzynarodowej Stacji Kosmicznej. Jeśli twój kod je spełnia, zasady u dołu emulatora zaświecą się na zielono po uruchomieniu programu.
+Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do uruchomienia na Międzynarodowej Stacji Kosmicznej. Jeśli twój kod je spełnia, u dołu [Sense HAT emulatora](https://trinket.io/mission-zero) reguły zaświecą się na zielono kiedy uruchomisz swój program.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Zrzut ekranu stron Trinketów Misji Zero pokazujących przycisk przesyłania i kryteria sprawdzają po lewej stronie. Dwie górne ("read humidity" and "use the LEDs") są pomarańczowym tekstem, dolne ("działające bezproblemowo") są zielone ](images/validation.png)
 
 1. Dokonaj odczytu wilgotności.
-1. Zapal diody LED
-1. Upewnij się, że twój kod działa do końca bez żadnych błędów. Nie powinieneś zawierać żadnych pętli, `while True` w swoim kodzie, jako że ciągle wykonywał kod i uniemożliwi jego zakończenie.
-1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly.
+1. Zaświeć diody LED.
+1. Upewnij się, że twój kod działa do samego końca bez żadnych błędów. Nie powinieneś zawierać żadnych pętli, `while True` w swoim kodzie, jako że będzie ciągle wykonywał kod i uniemożliwiając jego zakończenie.
+1. Przetestuj swój kod z kilkoma różnymi ustawieniami wilgotności (za pomocą suwaka), aby upewnić się, że zawsze będzie działał poprawnie.
 
 Upewnij się też, że spełniasz następujące kryteria:
 
@@ -22,7 +22,7 @@ Gdy wszystkie reguły będą zielone, można przesłać zgłoszenie.
 
 Wpisz kod swojej klasy w polu na dole - twój nauczyciel lub mentor poda ci twój kod.
 
-**Uwagi dla nauczycieli lub mentorów** można znaleźć we [Wprowadzeniu](https://projects.raspberrypi.org/pl-PL/projects/astro-pi-mission-zero/1).
+**Uwagi dla nauczycieli lub mentorów** można znaleźć w kroku [Wprowadzenie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1).
 
 --- /task ---
 
