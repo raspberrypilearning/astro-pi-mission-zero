@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![O captură de ecran a emulatorului Trinket Sense Hat, cu trei linii de cod de început afișate în panoul din partea stângă.](images/sense-hat-emulator2.png)
 
 Acest cod se conectează la Astro Pi și se asigură că afișajul LED al lui Astro Pi este afișat corect. Lasă codul acolo, pentru că vei avea nevoie de el.
 
@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 Apasă pe butonul **Run** și urmărește cum mesajul `Astro Pi` se derulează pe ecranul LED.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![Emulatorul Trinket Sense HAT care rulează un program eșantion care derulează textul "Astro PI" prin matricea LED cu litere albe](images/M0_1.gif)
 
 --- /task ---
 
@@ -82,7 +82,7 @@ Viteza implicită a mesajului este `0.1`. Introducerea unui număr mai mic face 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
 [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
-[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
 [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
 [Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
 [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
