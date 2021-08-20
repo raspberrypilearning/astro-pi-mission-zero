@@ -40,7 +40,7 @@ Apasă pe butonul **Run** și urmărește cum mesajul `Astro Pi` se derulează p
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Pentru a afișa un alt mesaj, poți scrie orice dorești între ghilimele (`""`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: Ce caractere pot fi folosite?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Sense HAT poate afișa numai setul de caractere Latin 1, adică numai următoarele caractere vor fi disponibile. Alte caractere se vor afișa ca și `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,25 +64,25 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+De asemenea, poți schimba viteza derulării mesajului pe ecran. Adaugă un `scroll_speed` la linia de cod pe care o ai deja, după cum urmează:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Viteza implicită a mesajului este `0.1`. Introducerea unui număr mai mic face ca mesajul să se deruleze mai repede, iar unul mai mare face ca mesajul să se deruleze mai lent.
 
 --- /task ---
 
 ### Alege un nume pentru noile calculatoare Astro Pi
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- task --- Vom numi computerele Astro Pi după doi oameni de știință europeni care ne inspiră. Există sute de bărbați și femei care au contribuit la știință și tehnologie; participanții pot sugera propriile lor nume sau pot alege din lista noastră de sugestii:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
 [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
-[Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
 [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
 [Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
 [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
@@ -90,13 +90,13 @@ The default speed of the message is `0.1`. Making the number smaller makes the m
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+Trebuie să îți începi mesajul cu cuvintele "My name should be", în engleză. De exemplu, dacă ai vrea să votezi pentru Ada Lovelace, codul tău ar arăta astfel:
 
 ```python
-sense.show_message("Numele meu ar trebui sa fie Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Dacă ai vrea să votezi, mesajul tău trebuie să înceapă cu aceste cuvinte, în caz contrar nu vom putea să îți luăm în calcul răspunsul.
 
 --- /task ---
 
