@@ -2,7 +2,7 @@
 
 Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi rulat pe Stația Spațială Internațională. Dacă codul tău le respectă, regulile din partea de jos a emulatorului [Sense HAT](https://trinket.io/mission-zero) se vor aprinde în verde atunci când rulezi programul.
 
-![O captură de ecran a paginilor Mission Zero Trinket care arată butonul de adăugare și criteriile de verificare din stânga. Primele două ("citește umiditate" și "utilizează LED-urile") sunt în text portocaliu, iar cel de jos ("rulează fără erori") este verde ](images/validation.png)
+![O captură de ecran a paginilor Mission Zero Trinket care arată butonul de adăugare și criteriile de verificare din stânga. Primele două ("citește umiditate" și "utilizează LED-urile") sunt în text portocaliu, iar cea de jos ("rulează fără erori") este verde ](images/validation.png)
 
 1. Măsoară umiditatea.
 1. Aprinde LED-urile.
