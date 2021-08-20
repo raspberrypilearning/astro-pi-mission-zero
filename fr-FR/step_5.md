@@ -2,7 +2,7 @@
 
 Tu peux afficher des images sur la matrice LED de l'Astro Pi. Ton message de bienvenue pour les astronautes pourrait peut-être inclure une image ou un motif avec le texte, ou à la place du texte ?
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![Une capture d'écran de la fenêtre de l'émulateur montrant l'unité de vol avec la matrice de LED affichant une image de l'unité de vol elle-même](images/fu-pic.png)
 
 --- task ---
 
