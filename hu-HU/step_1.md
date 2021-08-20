@@ -58,7 +58,7 @@ title: Jegyzetek tanárok és mentorok számára
 ---
 
 
-Ezt a feladatot egy délután alatt el lehet végezni. Szervezd a tanulóidat kettő-négy fős csoportokba, és engedd meg, hogy végigvezessük őket egy rövid Python program megírásán, amely egy személyes üzenetet és a levegő páratartalmát jeleníti majd meg az Astro Pi-on.
+Ezt a feladatot egy délután alatt el lehet végezni. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Olvasd el a Mission Zero [hivatalos útmutató dokumentumát](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"}.
 
