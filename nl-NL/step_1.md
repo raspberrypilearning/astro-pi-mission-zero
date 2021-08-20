@@ -57,7 +57,7 @@ title: Notities voor leraren en mentoren
 ---
 
 
-Deze activiteit kan in een middag worden voltooid. Groepeer de leerlingen in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchtvochtigheid op de Astro Pi te laten zien.
+Deze activiteit kan in een middag worden voltooid. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Lees de [officiële richtlijnen](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} voor Mission Zero door.
 
