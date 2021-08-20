@@ -96,7 +96,7 @@ Um abzustimmen, beginne Deine Nachricht mit den Worten "Mein Name sollte sein". 
 sense.show_message("Mein Name sollte sein Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Wenn du mitwählen willst, muss deine Nachricht mit diesen Worten beginnen, da wir deine Wahl sonst nicht zählen können.
 
 --- /task ---
 
