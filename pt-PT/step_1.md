@@ -57,7 +57,7 @@ title: Notas para professores e mentores
 ---
 
 
-Esta atividade pode ser concluída numa tarde. Organize os seus alunos em equipas de duas até quatro pessoas, e deixe-nos guiá-los por meio da criação de um programa em Python para mostrar uma mensagem pessoal e a humidade relativa no Astro Pi.
+Esta atividade pode ser concluída numa tarde. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 Leia o [documento com as diretrizes oficiais](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} da Missão Zero.
 
