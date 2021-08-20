@@ -2,9 +2,9 @@
 
 Îmbunătățește rutina zilnică a astronauților de pe Stația Spațială Internațională, arătându-le un mesaj și umiditatea aerului ambiant la bord folosind Sense HAT-ul computerului Astro Pi.
 
-Hardware-ul Mark II Astro Pi este atât de nou încât computerele încă nu au nume încă. Vom numi computerele Astro Pi după doi oameni de știință europeni care ne inspiră. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Hardware-ul Mark II Astro Pi este atât de nou încât computerele încă nu au nume încă. Vom numi computerele Astro Pi după doi oameni de știință europeni care ne inspiră. Poți ajuta la alegerea numelor lor votând numele tău preferat ca parte a programului tău Mission Zero.
 
-Vei folosi emulatorul online Sense HAT pentru a crea programul, astfel încât nu este nevoie de hardware suplimentar — totul se face într-un browser web. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău.
+Vei folosi emulatorul online Sense HAT pentru a crea programul, astfel încât nu este nevoie de hardware suplimentar — totul se face într-un browser web. *Dacă îndeplinește criteriile de eligibilitate* programul completat va fi rulat în spațiu pe Stația Spațială Internațională (ISS)! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău.
 
 Vom anunța numele câștigătorilor pentru noile calculatoare Astro Pi în primăvara anului 2022.
 
@@ -13,7 +13,7 @@ Vom anunța numele câștigătorilor pentru noile calculatoare Astro Pi în prim
 
 Iată un exemplu al tipului de program pe care l-ai putea face. Dă click pe **Run** pentru a-l vedea în acțiune.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Emulatorul Trinket Sense HAT care rulează un program demonstrativ care derulează valoarea umidității prin matricea LED și apoi afișează o imagine a unui pește](images/M0_4.gif)
 
 
 --- collapse ---
@@ -57,7 +57,7 @@ title: Note pentru profesori și mentori
 ---
 
 
-Această activitate poate fi terminată într-o după-amiază. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Această activitate poate fi terminată într-o după-amiază. Organizează-ți elevii în echipe de patru sau mai puțini, și lasă-ne să-i ghidăm să scrie un scurt program în Python pentru a afișa un mesaj personal și umiditatea relativă pe Astro Pi.
 
 Citește [documentul privind instrucțiunile oficiale](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pentru Mission Zero.
 
