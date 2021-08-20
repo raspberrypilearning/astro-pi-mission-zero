@@ -1,8 +1,8 @@
 ## Introduktion
 
-Förgyll vardagsrutinerna för astronauterna på den internationella rymdstationen genom att visa dem ett meddelande och den relativa luftfuktigheten ombord med hjälp av Astro Pi-datorns Sense HAT.
+Förgyll vardagsrutinerna för astronauterna på den internationella rymdstationen genom att visa dem ett meddelande och den relativa luftfuktigheten ombord med hjälp av den nya Mark II Astro Pi-datorns Sense HAT.
 
-Mark II Astro Pi-hårdvara är så ny att datorerna inte ens har namn ännu. Vi kommer att namnge Astro Pi-datorerna efter två inspirerande europeiska forskare. Du kan hjälpa till att välja vad de kommer att kallas genom att rösta på ditt favoritnamn som en del av ditt Mission Zero -program.
+Mark II Astro Pi-hårdvara är så ny att datorerna inte ens har namn ännu. Vi kommer att namnge Astro Pi-datorerna efter två inspirerande europeiska forskare. Du kan hjälpa till att välja vad de ska kallas genom att rösta på ditt favoritnamn som en del av ditt Mission Zero program.
 
 Du kommer att använda Sense HAT-emulatorn online för att skapa ditt program, så ingen extra hårdvara behövs - allt sker i en webbläsare. *Om det uppfyller behörighetskriterierna* körs ditt slutförda program i rymden på International Space Station (ISS)! Du kommer också att få ett särskilt certifikat som visar exakt var ISS var när ditt program körde.
 
@@ -16,7 +16,7 @@ Här är ett exempel på ett program du kan skapa. Klicka på **Run** (Kör) fö
 ![Trinket Sense HAT-emulatorn som kör ett exempelprogram som bläddrar igenom luftfuktighetsvärdet över LED-matrisen och sedan visar en bild av en fisk](images/M0_4.gif)
 
 
---- kollaps ---
+--- collapse ---
 
 
 
@@ -33,9 +33,9 @@ Detta projekt omfattar element från följande rader av [Raspberry Pi Digital Ma
 
 + [Använd grundläggande programmeringsstrukturer för att skapa enkla program](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
---- /kollaps ---
+--- /collapse ---
 
---- kollaps ---
+--- collapse ---
 
 ---
 title: Vad du behöver
@@ -49,27 +49,32 @@ title: Vad du behöver
 
 + En webbläsare (t.ex. Google Chrome) för att öppna [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
---- /kollaps ---
+--- /collapse ---
 
---- kollaps ---
+--- collapse ---
 ---
 title: Noteringar för lärare och mentorer
 ---
 
 
-Denna aktivitet kan slutföras på en eftermiddag. Dela in dina elever i grupper med mellan 1 och 4 deltagare, och låt oss vägleda dem i att skriva ett kort Python-program som visar ett personligt meddelande och den relativa luftfuktigheten på Astro Pi.
+Denna aktivitet kan slutföras på en eftermiddag. Dela in dina elever i grupper med mellan 2 och 4 deltagare, och låt oss vägleda dem i att skriva ett kort Python-program som visar ett personligt meddelande och den relativa luftfuktigheten på Astro Pi.
 
-\ * Observera att detta registreringsformulär endast finns på engelska.
+Läs [dokumentet med de officiella riktlinjerna](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} för Mission Zero.
 
-Fälten på formuläret inkluderar: Lärare / mentornamn Gruppens namn Antal deltagere i gruppen Deltagarnas namn och åldrar På vilket språk du läste Mission Zero-riktlinjerna?
+Du måste registrera dig för Mission Zero utmaningen för att dina grupper ska kunna delta.
 
-+ Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
++ Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
 + Fyll i formuläret och klicka på **Skicka**\*.
 
 \* Observera att detta registreringsformulär endast är tillgängligt på engelska.
 
-Fälten på formuläret inkluderar:<0 /> Lärare/mentornamn<1 /> Gruppens namn<0 /> Antal deltagare i gruppen<0 /> Deltagarnas namn och ålder<0 /> På vilket språk du läste Mission Zero-riktlinjerna?
+Fälten på formuläret inkluderar:  
+Lärare/mentornamn   
+Gruppens namn  
+Antal deltagare i gruppen  
+Deltagarnas namn och ålder  
+På vilket språk du läste Mission Zero-riktlinjerna?
 
 + Ett Trinket-konto skapas för dig (om du inte redan har ett, eller om du inte är inloggad). Du kan skapa ett konto per e-postadress. Varje konto har sin egen **klassrumskod**, och du skal dela koden med dina grupper när de är redo att skicka in sina program.
 
