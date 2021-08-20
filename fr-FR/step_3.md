@@ -90,13 +90,13 @@ La vitesse par défaut du message est `0.1`. En réduisant le nombre, tu fais d�
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Vous devez débuter votre message par « My name should be » (en anglais). Par exemple, si tu souhaites voter pour Ada Lovelace, ton code ressemblerait à ceci :
+Tu dois débuter ton message par « My name should be » (en anglais). Par exemple, si tu souhaites voter pour Ada Lovelace, ton code ressemblerait à ceci :
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-Si vous souhaitez voter, votre message doit commencer par ces mots, sinon nous ne pourrons pas compter votre vote.
+Si tu souhaites voter, ton message doit commencer par ces mots, sinon nous ne pourrons pas compter ton vote.
 
 --- /task ---
 
