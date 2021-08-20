@@ -9,7 +9,7 @@ Voici une unité originale Mark I Astro Pi sur la Station spatiale international
 
 Pour cette mission, tu utiliseras l'émulateur Sense HAT. L'émulateur est un logiciel qui simule toutes les fonctions de l'Astro Pi dans ton navigateur Web.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+![Une capture d'écran étiquetée de l'émulateur Sense HAT avec la fenêtre de code à gauche et l'émulateur à droite.](images/sense-hat-emulator.png)
 
 Il existe quelques différences entre le Sense HAT réel et celui qui est émulé :
 
