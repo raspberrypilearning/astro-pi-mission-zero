@@ -1,10 +1,10 @@
-## Wyświetlanie wiadomości
+## Wyświetl wiadomość i wybierz nazwę dla nowych komputerów Astro Pi
 
 --- task ---
 
 Otwórz [emulator Sense HAT](https://trinket.io/mission-zero){:target="_blank"} dla projektu Misja Zero.
 
-Zobaczysz, że trzy wiersze kodu zostały dodane automatycznie:
+Zobaczysz, że trzy linie kodu zostały dodane automatycznie:
 
 ```python
 from sense_hat import SenseHat
@@ -22,7 +22,7 @@ Kod ten łączy się z Astro Pi i zapewnia, że wyświetlacz LED Astro Pi jest p
 
 Może zamieścisz miłe pozdrowienia dla astronautów z ISS, którzy pracują w pobliżu Astro Pi? Dodajmy przewijaną wiadomość na wyświetlaczu.
 
-Dodaj ten wiersz poniżej drugiego kodu:
+Dodaj ten wiersz pod innym kodem:
 
 ```python
 sense.show_message("Astro Pi")
@@ -96,7 +96,7 @@ Aby zagłosować, zacznij swoją wiadomość od słów „My name should be”. 
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Jeśli chcesz zagłosować, Twoja wiadomość *musi* zaczynać się od tych słów( w języku angielskim), w przeciwnym razie nie będziemy mogli automatycznie policzyć Twojego wpisu.
 
 --- /task ---
 
