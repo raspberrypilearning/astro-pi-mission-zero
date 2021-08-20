@@ -57,7 +57,7 @@ title: Poznámky pro učitele a mentory
 ---
 
 
-Tato aktivita se dá stihnout během jednoho odpoledne. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů po jednom až čtyřech a my jim ukážeme, jak napsat krátký program v Pythonu, který zobrazí osobní vzkaz a vlhkost vzduchu na Astro Pi.
 
 Přečtěte si [oficiální dokument s pokyny](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
 
