@@ -57,7 +57,7 @@ title: Huomautuksia opettajille ja ohjaajille
 ---
 
 
-This activity can be completed in an afternoon. Organise your students into teams of two to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+This activity can be completed in an afternoon. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 \ * Huomaa, että tämä rekisteröintilomake on saatavana vain englanniksi.
 
