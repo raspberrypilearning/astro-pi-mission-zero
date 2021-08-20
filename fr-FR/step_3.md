@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![Une capture d'écran de l'émulateur Trinket Sense Hat avec trois lignes de code de démarrage affichées dans le panneau de gauche.](images/sense-hat-emulator2.png)
 
 Ce code se connecte à l'Astro Pi et s'assure que l'écran LED de l'Astro Pi est affiché dans le bon sens. Laisse ce code ici car tu en auras besoin.
 
@@ -34,13 +34,13 @@ sense.show_message("Astro Pi")
 
 Appuie sur le bouton **Run** (Exécuter) et regarde le message `Astro Pi` défiler sur l'écran LED.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![L'émulateur Trinket Sense HAT exécutant un exemple de programme qui fait défiler le texte "Astro PI" sur la matrice LED en lettres blanches](images/M0_1.gif)
 
 --- /task ---
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Pour afficher un message différent, tu peux écrire ce que tu veux entre les guillemets (`""`).
 
 --- collapse ---
 
@@ -48,7 +48,7 @@ To display a different message, you can write anything you like between the quot
 title: Quels caractères peuvent être utilisés ?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Le Sense HAT ne peut afficher que le jeu de caractères Latin 1, ce qui signifie que seuls les caractères suivants sont disponibles. Les autres caractères s'afficheront sous la forme d'un `?` .
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -64,19 +64,19 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Tu peux aussi modifier la vitesse de défilement du message sur l'écran. Ajoute un `scroll_speed` (vitesse de défilement) à ta ligne de code, comme ceci :
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+La vitesse par défaut du message est `0.1`. En réduisant le nombre, tu fais défiler le message plus rapidement et en augmentant le nombre tu fais défiler le message plus lentement.
 
 --- /task ---
 
 ### Choisis un nom pour les nouveaux ordinateurs Astro Pi
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- task --- Nous donnerons aux ordinateurs Astro Pi le nom de deux scientifiques européens inspirants. Des centaines d'hommes et de femmes ont contribué à la science et à la technologie ; les participants peuvent suggérer leur propre nom ou choisir dans notre liste de suggestions :
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -90,13 +90,13 @@ The default speed of the message is `0.1`. Making the number smaller makes the m
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+Vous devez débuter votre message par « My name should be » (en anglais). Par exemple, si tu souhaites voter pour Ada Lovelace, ton code ressemblerait à ceci :
 
 ```python
-sense.show_message("Mon nom doit être Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Si vous souhaitez voter, votre message doit commencer par ces mots, sinon nous ne pourrons pas compter votre vote.
 
 --- /task ---
 
