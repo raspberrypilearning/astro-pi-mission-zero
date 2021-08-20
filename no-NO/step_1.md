@@ -2,16 +2,16 @@
 
 Lys opp hverdagen til astronautene på den internasjonale romstasjonen ved å vise dem en melding og den relative luftfuktigheten om bord ved hjelp av Astro Pi-datamaskinens Sense HAT.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Mark II Astro Pi-maskinvaren er så ny at datamaskinene ikke engang har navn ennå. Vi vil oppkalle Astro Pi -datamaskinene etter to inspirerende europeiske forskere. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+Dere bruker Sense HAT-emulatoren online til å lage programmet, så det er ikke nødvendig med ekstra maskinvare - alt gjøres i en nettleser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
 
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
+Vi vil kunngjøre vinnernavnene på de nye Astro Pi-datamaskinene våren 2022.
 
 
 ### Hva dere vil lage
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Her er et eksempel på hva slags program dere kan lage. Klikk **Run** (Kjør) for å se det i aksjon.
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
