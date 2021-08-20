@@ -57,7 +57,7 @@ title: Bemærkninger til lærere og mentorer
 ---
 
 
-Denne aktivitet kan gennemføres på en eftermiddag. Organiser dine studerende i teams på op til fire, og lad os guide dem gennem at skrive et kort Python-program til at vise en personlig besked og relativ luftfugtighed på Astro Pi.
+Denne aktivitet kan gennemføres på en eftermiddag. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
 
 \ * Bemærk, at denne tilmeldingsformular kun er tilgængelig på engelsk.
 
