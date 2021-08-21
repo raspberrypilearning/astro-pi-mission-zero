@@ -57,7 +57,7 @@ title: Hinweise für Lehrer und Mentoren
 ---
 
 
-Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, um eine persönliche Nachricht und die Luftfeuchtigkeit auf dem Astro Pi anzuzeigen.
 
 Lese das Dokument [ offizielle Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
 
