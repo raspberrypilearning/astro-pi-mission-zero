@@ -1,6 +1,6 @@
 ## Näytä viesti
 
---- task ---
+--- tehtävä ---
 
 Avaa [Sense HAT -emulaattori](https://trinket.io/mission-zero){:target="_blank"} Mission Zero -projektia varten.
 
@@ -12,15 +12,15 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![Ruutukaappaus Trinket Sense Hat -emulaattorista, jossa on kolme riviä aloituskoodia ruudun vasemmalla puolella.](images/sense-hat-emulator2.png)
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+Tämä koodi ottaa yhteyden Astro Pihin ja varmistaa, että Astro Pin LED-näyttö näytetään oikein päin. Jätä koodi sinne, koska tulet tarvitsemaan sitä.
 
---- /task ---
+--- /tehtävä ---
 
---- task ---
+--- tehtävä ---
 
-Perhaps you could leave a nice greeting for the astronauts on the ISS who are working near the Astro Pi? Let's scroll a message across the display.
+Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät Astro Pin lähellä? Vieritetään viesti näytön poikki.
 
 Lisää tämä rivi muun koodin alapuolelle:
 
@@ -28,27 +28,27 @@ Lisää tämä rivi muun koodin alapuolelle:
 sense.show_message("Astro Pi")
 ```
 
---- /task ---
+--- /tehtävä ---
 
---- task ---
+--- tehtävä ---
 
 Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierii LED-näytön poikki.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![Trinket Sense HAT -emulaattori ajamassa näyteohjelmaa, joka vierittää tekstiä "Astro PI" LED-matriisin läpi valkoisin kirjaimin](images/M0_1.gif)
 
---- /task ---
+--- /tehtävä ---
 
 
 
-To display a different message, you can write anything you like between the quotation marks (`""`).
+Erilaisen viestin näyttämiseksi voit kirjoittaa mitä tahansa lainausmerkkien (`""`) väliin.
 
---- collapse ---
+--- pienennä ---
 
 ---
 title: Mitä merkkejä voidaan käyttää?
 ---
 
-The Sense HAT can only display the Latin 1 character set, meaning only the following characters will be available. Other characters will display as a `?`.
+Sense HAT pystyy näyttämään vain Latin 1 -merkkijoukon, mikä tarkoittaa, että vain seuraavat merkit ovat käytettävissä. Muut merkit näytetään muodossa `?`.
 
 ```
 +-*/!"#$><0123456789.=)(
@@ -60,23 +60,23 @@ abcdefghijklmnopqrstuvwxyz
 ?,;:|@%[&_']\~
 ```
 
---- /collapse ---
+--- /pienennä ---
 
---- task ---
+--- tehtävä ---
 
-You can also change the speed of the message scrolling across the screen. Add a `scroll_speed` to the line of code you already have, like this:
+Voit myös muuttaa näytön poikki vierivän viestin nopeutta. Lisää `scroll_speed` jo olemassa olevaan koodiriviin tällä tavalla:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
+Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vierimään nopeammin, ja sen muuttaminen suuremmaksi saa viestin vierimään hitaammin.
 
---- /task ---
+--- /tehtävä ---
 
-### Choose a name for the new Astro Pi computers
+### Valitse nimi uusille Astro Pi -tietokoneille
 
---- task --- We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+--- tehtävä --- Nimeämme Astro Pi -tietokoneet kahden inspiroivan eurooppalaisen tieteentekijän mukaan. On satoja miehiä ja naisia, jotka ovat antaneet panostuksensa tieteeseen ja tekniikkaan, ja osallistujat voivat esittää omaa ehdokastaan tai valita listaltamme:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -90,15 +90,15 @@ The default speed of the message is `0.1`. Making the number smaller makes the m
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+Äänestääksesi aloita viestisi sanoilla "My name should be". Jos haluat äänestää esimerkiksi Ada Lovelacea, koodisi näyttäisi tältä:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Jos haluat äänestää, viestisi *pitää* alkaa näillä sanoilla, muuten emme pysty automaattisesti laskemaan ääntäsi.
 
---- /task ---
+--- /tehtävä ---
 
 
 
