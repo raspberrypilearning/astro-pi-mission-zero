@@ -4,20 +4,23 @@ Du kan visa bilder på Astro Pis LED-matris. Din hälsning till astronauterna ka
 
 ![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av själva flygenheten](images/fu-pic.png)
 
---- uppgift ---
+--- task ---
 
 Längst ner i programmet, skapa några färgvariabler för att definiera de färger du vill rita din bild med. Du kan använda så många färger som du vill, men i det här exemplet använder vi bara några färger - röd (`r`), vit (`w`), svart (`b`) och två nyanser av grått (`g` och `s`). Observera att nyanserna uppnås genom att minska mängden ljus i alla tre kanalerna samtidigt behålla samma proportioner.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Obs!** Den här gången är det en bra idé att ge färgvariablerna enstaviga namn, eftersom det sparar tid i nästa steg, där du ska skriva in dem många gånger. Användning av enstaka bokstäver gör det dessutom lättare att se den bild du ska rita.
 
---- /uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 
 
