@@ -1,6 +1,6 @@
-## Visa ett meddelande
+## Visa ett meddelande och välj ett namn för de nya Astro Pi -datorerna
 
---- uppgift ---
+--- task ---
 
 Öppna [Sense HAT-emulatorn](https://trinket.io/mission-zero){:target="_blank"} för projektet Mission Zero.
 
@@ -12,13 +12,13 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![En skärmdump av Trinket Sense Hat -emulatorn med tre rader startkod som visas i rutan till vänster.](images/sense-hat-emulator2.png)
+![En skärmdump av Trinket Sense Hat -emulatorn med tre rader startkod visas i rutan till vänster.](images/sense-hat-emulator2.png)
 
 Den här koden ansluter till Astro Pi och ser till att LED-displayen i Astro PI visas åt rätt håll. Lämna kvar koden där, för du kommer att behöva den.
 
---- / uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Du kanske kan skicka en trevlig hälsning till astronauterna på ISS som arbetar i närheten av Astro Pi? Låt oss rulla meddelandet över displayen.
 
@@ -28,15 +28,15 @@ Lägg till den här raden under de andra kodraderna:
 sense.show_message("Astro Pi")
 ```
 
---- / uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Tryck på knappen **Run** (Kör) och se meddelandet `Astro Pi` rullar över LED-displayen.
 
-![Trinket Sense HAT emulatorn kör ett exempelprogram som bläddrar texten "Astro PI" över LED-matrisen i vita bokstäver](images/M0_1.gif)
+![Trinket Sense HAT emulatorn kör ett exempelprogram som rullar texten "Astro PI" över LED-matrisen med vita bokstäver](images/M0_1.gif)
 
---- /uppgift ---
+--- /task ---
 
 
 
@@ -60,9 +60,9 @@ abcdefghijklmnopqrstuvwxyz
 ?,;:|@%[&_']\~
 ```
 
---- /kollaps ---
+--- /collapse ---
 
---- uppgift ---
+--- task ---
 
 Du kan också ändra hastigheten på meddelandet som rullar över skärmen. Lägg till `scroll_speed` på raden i den kod som du redan har skrivit, så här:
 
@@ -70,9 +70,9 @@ Du kan också ändra hastigheten på meddelandet som rullar över skärmen. Läg
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Meddelandets standardhastighet är ` 0,1 `. Om du väljer ett mindre tal blir meddelandet snabbare och väljer du ett större gör det att meddelandet rullar långsammare.
+Meddelandets standardhastighet är ` 0.1 `. Om du väljer ett mindre tal rullar meddelandet snabbare och väljer du ett större gör det att meddelandet rullar långsammare.
 
---- /uppgift ---
+--- /task ---
 
 ### Välj ett namn för de nya Astro Pi-datorerna
 
@@ -90,13 +90,13 @@ Meddelandets standardhastighet är ` 0,1 `. Om du väljer ett mindre tal blir me
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-För att rösta, börja ditt meddelande med orden "Mitt namn borde vara". Till exempel vill du rösta på Ada Lovelace, skall din kod se ut så här:
+För att rösta, börja ditt meddelande med orden "Mitt namn borde vara". Om du till exempel vill rösta på Ada Lovelace skulle din kod se ut så här:
 
 ```python
-sense.show_message("Mitt namn ska vara Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Om du vill rösta måste ditt meddelande ** börja med dessa ord, annars kommer vi inte automatiskt att kunna räkna ditt bidrag.
 
 --- /task ---
 
