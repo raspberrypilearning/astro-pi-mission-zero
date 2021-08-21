@@ -1,6 +1,6 @@
 ## Näytä viesti
 
---- tehtävä ---
+--- task ---
 
 Avaa [Sense HAT -emulaattori](https://trinket.io/mission-zero){:target="_blank"} Mission Zero -projektia varten.
 
@@ -16,9 +16,9 @@ sense.set_rotation(270)
 
 Tämä koodi ottaa yhteyden Astro Pihin ja varmistaa, että Astro Pin LED-näyttö näytetään oikein päin. Jätä koodi sinne, koska tulet tarvitsemaan sitä.
 
---- /tehtävä ---
+--- /task ---
 
---- tehtävä ---
+--- task ---
 
 Ehkä voisit jättää mukavan tervehdyksen ISS:n astronauteille, jotka työskentelevät Astro Pin lähellä? Vieritetään viesti näytön poikki.
 
@@ -28,21 +28,21 @@ Lisää tämä rivi muun koodin alapuolelle:
 sense.show_message("Astro Pi")
 ```
 
---- /tehtävä ---
+--- /task ---
 
---- tehtävä ---
+--- task ---
 
 Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierii LED-näytön poikki.
 
 ![Trinket Sense HAT -emulaattori ajamassa näyteohjelmaa, joka vierittää tekstiä "Astro PI" LED-matriisin läpi valkoisin kirjaimin](images/M0_1.gif)
 
---- /tehtävä ---
+--- /task ---
 
 
 
 Erilaisen viestin näyttämiseksi voit kirjoittaa mitä tahansa lainausmerkkien (`""`) väliin.
 
---- pienennä ---
+--- collapse ---
 
 ---
 title: Mitä merkkejä voidaan käyttää?
@@ -60,9 +60,9 @@ abcdefghijklmnopqrstuvwxyz
 ?,;:|@%[&_']\~
 ```
 
---- /pienennä ---
+--- /collapse ---
 
---- tehtävä ---
+--- task ---
 
 Voit myös muuttaa näytön poikki vierivän viestin nopeutta. Lisää `scroll_speed` jo olemassa olevaan koodiriviin tällä tavalla:
 
@@ -72,11 +72,11 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 
 Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vierimään nopeammin, ja sen muuttaminen suuremmaksi saa viestin vierimään hitaammin.
 
---- /tehtävä ---
+--- /task ---
 
 ### Valitse nimi uusille Astro Pi -tietokoneille
 
---- tehtävä --- Nimeämme Astro Pi -tietokoneet kahden inspiroivan eurooppalaisen tieteentekijän mukaan. On satoja miehiä ja naisia, jotka ovat antaneet panostuksensa tieteeseen ja tekniikkaan, ja osallistujat voivat esittää omaa ehdokastaan tai valita listaltamme:
+--- task --- Nimeämme Astro Pi -tietokoneet kahden inspiroivan eurooppalaisen tieteentekijän mukaan. On satoja miehiä ja naisia, jotka ovat antaneet panostuksensa tieteeseen ja tekniikkaan, ja osallistujat voivat esittää omaa ehdokastaan tai valita listaltamme:
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -98,7 +98,7 @@ sense.show_message("My name should be Ada Lovelace")
 
 Jos haluat äänestää, viestisi *pitää* alkaa näillä sanoilla, muuten emme pysty automaattisesti laskemaan ääntäsi.
 
---- /tehtävä ---
+--- /task ---
 
 
 
