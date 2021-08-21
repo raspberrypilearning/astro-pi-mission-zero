@@ -4,7 +4,7 @@ Urozmaić codzienność astronautów na Międzynarodowej Stacji Kosmicznej, poka
 
 Sprzęt Astro Pi Mark II jest tak nowy, że komputery nie mają jeszcze nawet swoich nazw. Komputery Astro Pi zostaną nazwane imionami dwóch inspirujących europejskich naukowców. Możesz pomóc wybrać, jak będą się nazywać, głosując na swoje ulubione imię w ramach programu Misja Zero.
 
-Program zostanie stworzony za pomocą internetowego emulatora Sense HAT, więc nie jest potrzebny żaden dodatkowy sprzęt - wszystko odbywa się w przeglądarce internetowej. *Jeśli spełnia kryteria kwalifikacyjne* Twój ukończony program zostanie uruchomiony w kosmosie na Międzynarodowej Stacji Kosmicznej (ISS)! Otrzymasz również specjalny certyfikat, który dokładnie pokazuje, gdzie znajdował się ISS, kiedy działał Twój program.
+Program zostanie stworzony za pomocą internetowego emulatora Sense HAT, więc nie jest potrzebny żaden dodatkowy sprzęt - wszystko odbywa się w przeglądarce internetowej. *Jeśli spełnia kryteria kwalifikacyjne* Twój ukończony program zostanie uruchomiony w kosmosie na Międzynarodowej Stacji Kosmicznej (ISS)! Otrzymasz również specjalny certyfikat, który dokładnie pokaże, gdzie znajdował się ISS, kiedy Twój program został uruchomiony.
 
 Wiosną 2022 r. ogłosimy wybrane nazwy nowych komputerów Astro Pi.
 
@@ -29,7 +29,7 @@ Dowiedz się więcej o jednostce Astro Pi i jak nią sterować, w tym:
 + Tworzyć obrazki
 + Zmierzyć wilgotność przy użyciu Sense HAT
 
-Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Ten projekt zawiera elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Użycie podstawowych konstrukcji programistycznych do tworzenia prostych programów](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
@@ -72,7 +72,7 @@ Aby umożliwić drużynie/-om wzięcie udziału w wyzwaniu Misja Zero, należy s
 Pola w formularzu obejmują:  
 Nazwisko nauczyciela/mentora   
 Nazwę zespołu  
-Liczba osób w zespole  
+Liczbę osób w zespole  
 Nazwiska i wiek członków zespołu   
 W którym język, uzyskano dostęp do wytycznych Misji Zero?
 
@@ -80,7 +80,7 @@ W którym język, uzyskano dostęp do wytycznych Misji Zero?
 
 + Wyświetl kod klasy w widocznym miejscu, na przykład na tablicy lub za pomocą projektora, i rozpocznij zadanie.
 
- Stworzyliśmy [dwustronicowy materiał do druku](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, który obejmuje kluczowe punkty Misji Zero i z którego uczniowie i młodzi ludzie mogą korzystać w ramach tego projektu online.
+ Stworzyliśmy [dwustronicowy materiał do wydruku](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, który obejmuje kluczowe punkty Misji Zero i z którego uczniowie i młodzi ludzie mogą korzystać w ramach tego projektu online.
 
 --- /collapse ---
 
