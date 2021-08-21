@@ -86,7 +86,7 @@ Domyślna prędkość przewijania wiadomości to `0.1`. Zmniejszenie liczby spow
 [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
 [Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
 [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
-[Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
+[Maria Skłodowska-Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
@@ -96,7 +96,7 @@ Aby zagłosować, zacznij swoją wiadomość od słów „My name should be”. 
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-Jeśli chcesz zagłosować, Twoja wiadomość *musi* zaczynać się od tych słów( w języku angielskim), w przeciwnym razie nie będziemy mogli automatycznie policzyć Twojego wpisu.
+Jeśli chcesz zagłosować, Twoja wiadomość *musi* zaczynać się od tych słów (w języku angielskim), w przeciwnym razie nie będziemy mogli automatycznie policzyć Twojego wpisu.
 
 --- /task ---
 
