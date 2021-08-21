@@ -1,10 +1,10 @@
-## Visa luftfuktigheten
+## Reagera på luftfuktighet
 
 Du kan kombinera din avläsning av luftfuktigheten med en bild för ge en grafisk visning av luftfuktigheten. Till exempel kan du visa ett hav för hög luftfuktighet, och en öken för låg luftfuktighet:
 
 ![Våt och torr](images/wet-dry.png)
 
---- uppgift ---
+--- task ---
 
 Skapa fler färgvariabler för alla de färger som du vill använda, i slutet av ditt program. Du kanske redan har definierat några av dem i ett tidigare steg.
 
@@ -17,9 +17,9 @@ g=(0,255,0)
 y=(255,255,0)
 ```
 
---- /uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Precis som tidigare, ritar du dina bilder genom att först skapa en lista för var och en av dem, och sedan ställa in listans objekt med de färger som du vill att pixlarna ska ha.
 
