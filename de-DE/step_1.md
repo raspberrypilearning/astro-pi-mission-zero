@@ -4,7 +4,7 @@ Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, i
 
 Die Mark II Astro Pi Hardware ist so neu, dass die Computer noch nicht einmal Namen haben. Wir werden die Astro Pi-Computer nach zwei inspirierenden europäischen Wissenschaftlern benennen. Du kannst bei der Wahl ihres Namens mithelfen, indem Du im Rahmen Deines Mission Zero-Programms für Deinen Lieblingsnamen stimmst.
 
-Dein Programm erstellst du mit dem Online Sense HAT Emulator, so dass keine zusätzliche Hardware benötigt wird — alles geschieht in einem Webbrowser. *Wenn es die Anforderungen erfüllt*, wird Dein vollständiges Programm im Weltraum auf der Internationalen Raumstation (ISS) azsgeführt! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
+Dein Programm erstellst du mit dem Online Sense HAT Emulator, so dass keine zusätzliche Hardware benötigt wird — alles geschieht in einem Webbrowser. *Wenn es die Anforderungen erfüllt*, wird Dein vollständiges Programm im Weltraum auf der Internationalen Raumstation (ISS) ausgeführt! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
 
 Wir werden im Frühjahr 2022 die Namen für die neuen Astro Pi Computer bekannt geben.
 
@@ -59,7 +59,7 @@ title: Hinweise für Lehrer und Mentoren
 
 Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, um eine persönliche Nachricht und die Luftfeuchtigkeit auf dem Astro Pi anzuzeigen.
 
-Lese das Dokument [ offizielle Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
+Lesen Sie das [Dokument offizieller Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
 
 Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihr(e) Team(s) teilnehmen können.
 
