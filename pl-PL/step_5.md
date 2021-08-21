@@ -2,7 +2,7 @@
 
 Na matrycy LED Astro Pi można wyświetlać obrazki. Może twoje pozdrowienie dla astronautów mogłoby zawierać obrazek lub wzór, dodatkowo lub też zamiast pisemnej wiadomości?
 
-![Zrzut ekranu okna emulatora pokazujący jednostkę lotu z matrycą LED wyświetlającą obraz samego jednostki lotu](images/fu-pic.png)
+![Zrzut ekranu okna emulatora pokazujący jednostkę lotu z matrycą LED wyświetlającą obraz samej jednostki lotu](images/fu-pic.png)
 
 --- task ---
 
@@ -42,7 +42,7 @@ Pod nowymi zmiennymi utwórz 64 elementową listę. Każdy element reprezentuje 
 
 --- task ---
 
-Dodaj wiersz kodu, aby wyświetlić obrazek na wyświetlaczu LED.
+Dodaj linię kodu, aby wyświetlić obrazek na wyświetlaczu LED.
 
 ```python
 sense.set_pixels(obrazek)
