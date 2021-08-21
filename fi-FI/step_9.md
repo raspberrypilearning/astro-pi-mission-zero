@@ -12,6 +12,6 @@ Vaihtoehtoisesti voitte kokeilla joitain muita Astro Pi -projektejamme:
 
 + Luo [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} -peli
 
-+ Haasta ystäväsi [marmori labyrintti](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-marble-maze){:target="_blank"} -pelillä
++ Haasta ystäväsi [marmorilabyrintti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} -peliin
 
-+ Luo uudelleen klassinen [Pong](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-pong){:target="_blank"}-peli
++ Luo uudelleen klassinen [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}-peli
