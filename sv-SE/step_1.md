@@ -76,12 +76,12 @@ Antal deltagare i gruppen
 Deltagarnas namn och ålder  
 På vilket språk du läste Mission Zero-riktlinjerna?
 
-+ Ett Trinket-konto skapas för dig (om du inte redan har ett, eller om du inte är inloggad). Du kan skapa ett konto per e-postadress. Varje konto har sin egen **klassrumskod**, och du skal dela koden med dina grupper när de är redo att skicka in sina program.
++ Ett Trinket-konto skapas för dig (om du inte redan har ett, eller om du inte är inloggad). Du kan skapa ett konto per e-postadress. Varje konto har sin egen **klassrumskod**, och du skall dela koden med dina grupper när de är redo att skicka in sina program.
 
 + Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
 
  Vi har skapat [ett utskrivbart två sidors dokument för utdelning](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} som innehåller viktiga punkter för Mission Zero och som studenter och ungdomar kan använda tillsammans med detta online-projekt.
 
---- /kollaps ---
+--- /collapse ---
 
-![Spårningspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
