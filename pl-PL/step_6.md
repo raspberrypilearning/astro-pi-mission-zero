@@ -6,7 +6,7 @@ Czujnik wilgotności w Astro Pi może mierzyć wilgotność powietrza wokół ni
 
 Astro Pi mierzy wilgotność w ISS, mierząc procentowe stężenie wody w powietrzu.
 
-Częścią waszej misji polega na przyczynianiu się do codziennego życia załogi na pokładzie ISS, aby mogli wiedzieć, że wilgotność na pokładzie stacji kosmicznej mieści się w normalnym zakresie, co ich uspokoi.
+Częścią waszej misji jest pomoc w codziennym życiu załogi na pokładzie ISS, aby mogli wiedzieć, że wilgotność na pokładzie stacji kosmicznej mieści się w normalnym zakresie, co ich uspokoi.
 
 [[[generic-theory-what-is-humidity]]]
 
