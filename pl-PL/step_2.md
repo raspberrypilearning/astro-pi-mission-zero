@@ -2,7 +2,7 @@
 
 Astro Pi to komputer Raspberry Pi z obudową zaprojektowaną specjalnie do pracy w warunkach kosmicznych. Ma on również dodatkową płytkę-nakładkę o nazwie Sense HAT, stworzoną specjalnie dla misji Astro Pi. Sense HAT ma joystick; wyświetlacz LED; oraz czujniki do rejestrowania warunków oświetlenia, temperatury, wilgotności, ciśnienia i orientacji.
 
-Oto oryginalne Astro Pi Mark I na Międzynarodowej Stacji Kosmicznej(Iss), z uruchomionym kodem napisanym przez uczniów. Twój kod zostanie ostatecznie uruchomiony na nowej wersji komputerów Astro Pi!
+Oto oryginalne Astro Pi Mark I na Międzynarodowej Stacji Kosmicznej(ISS), z uruchomionym kodem napisanym przez uczniów. Twój kod zostanie ostatecznie uruchomiony na nowej wersji komputerów Astro Pi!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
