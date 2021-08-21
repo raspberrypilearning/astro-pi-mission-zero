@@ -1,17 +1,17 @@
-## Mikä Astro Pi on?
+## Mikä on Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space. It also has an add-on board called the Sense HAT, made specifically for the Astro Pi mission. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, and orientation.
+Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu avaruusolosuhteisiin. Siinä on myös lisäkortti nimeltä Sense HAT, joka on tehty erityisesti Astro Pi -tehtävää varten. Sense HATissa on ohjaussauva, LED-näyttö sekä anturit valaistusolosuhteiden, lämpötilan, ilmankosteuden, paineen ja suunnan tallentamiseksi.
 
-Here is an original Mark I Astro Pi unit on the International Space Station, running some code written by students. Your code will eventually be run on a new version of Astro Pi computers!
+Tässä on alkuperäinen I-mallin Astro Pi -yksikkö Kansainvälisellä avaruusasemalla suorittamassa opiskelijoiden kirjoittamaa koodia. Koodisi tullaan lopulta suorittamaan Astro Pi -tietokoneen uudessa versiossa!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
 
-For this mission, you will be using the Sense HAT emulator. The emulator is a piece of software which simulates all of the functions of the Astro Pi in your web browser.
+Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaattori on ohjelma, joka simuloi kaikkia Astro Pi -toimintoja verkkoselaimessasi.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+![Merkitty ruutukaappaus Sense HAT -emulaattorista, jossa on koodi-ikkuna vasemmalla ja emulaattori oikealla.](images/sense-hat-emulator.png)
 
-There are a few differences between the real and the emulated Sense HAT:
+Oikean ja emuloidun Sense HATin välillä on muutamia eroavaisuuksia:
 
 - Emulaattorissa voit asettaa lämpötilan, paineen ja kosteuden käyttämällä liukusäätimiä, kun taas Astro Pissä oleva oikea Sense HAT käyttää antureita näiden parametrien mittaamiseen sen ympäristössä.
 
