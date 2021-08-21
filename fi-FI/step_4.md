@@ -14,7 +14,7 @@ Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [värinvalitsinta](ht
 
 --- task ---
 
-Luo muuttuja tallentaaksesi valitsemasi värin. For example, if you picked red, you would write this line of code:
+Luo muuttuja tallentaaksesi valitsemasi värin. Jos esimerkiksi valitsisit punaisen, kirjoittaisit tämän koodirivin:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+Voit nyt näyttää tekstin haluamallasi värillä! Käskeäksesi ohjelman käyttämään valitsemaasi väriä, lisää parametri `text_colour` koodiin, joka näyttää tekstisi:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+![Trinket Sense HAT -emulaattori ajamassa esimerkkiohjelmaa, joka vierittää tekstiä \"Astro Pi\" LED-matriisin läpi käyttäen punaisia kirjaimia](images/M0_2.gif)
 
 --- task ---
 
-You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+Voit myös vaihtaa näytön taustaväriä. Valitse toinen väri ja luo toinen muuttuja tallentamaan kyseinen väri. Käskeäksesi ohjelman käyttämään valitsemaasi taustaväriä, lisää parametri `back_colour` koodiisi:
 
 ```python
 red = (255,0,0)
