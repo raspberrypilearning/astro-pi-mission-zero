@@ -1,16 +1,16 @@
-## Haaste: lisää Astro Pi -projekteja
+## Mitä seuraavaksi — lisää Astro Pi -projekteja
 
-Nyt, kun olet suorittanut tehtäväsi, miksi et kokeilisi lisää projekteja muita Astro Pi -antureita käyttäen?
+Nyt, kun olet suorittanut tehtäväsi, miksi et kokeilisi lisää projekteja Astro Pin muita antureita käyttäen?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment. If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
+Jos tunnet olosi varmaksi, voit osallistua [Mission Space Labiin](https://astro-pi.org/missions/space-lab/)! Muodostakaa joukkue, jossa on kahdesta kuuteen henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. Saatte ilmaiset tietokonelaitteet tehtävää varten, ja kirjoitatte Python-koodia kokeenne suorittamiseksi. Jos onnistutte pääsemään lennolle, koodinne lähetetään Kansainväliselle avaruusasemalle ja ajetaan Astro Pissä kolme tuntia (kaksi kierrosta Maapallon ympäri). Kaikki koodinne keräämät tiedot avaruudessa — kuva- tai anturidatatiedostot — ladataan alas ja palautetaan teille analysoitavaksi.
 
 Vaihtoehtoisesti voitte kokeilla joitain muita Astro Pi -projektejamme:
 
-+ Opi [lisää Sense HATistä](https://projects.raspberrypi.org/fi-FI/projects/getting-started-with-the-sense-hat){:target="_blank"} ja muista asioista, joita se voi tehdä
++ Opi [lisää Sense HATistä](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} ja muista asioista, joita se voi tehdä
 
-+ Luo kauniita [satunnaisia kimalluksia](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-random-sparkles){:target="_blank"} Sense HATin LED-näytössä
++ Luo kauniita [satunnaisia kimalluksia](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} Sense HATin LED-näytöllä
 
-+ Luo [Flappy Astronaut](https://projects.raspberrypi.org/fi-FI/projects/flappy-astronaut){:target="_blank"} -peli
++ Luo [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} -peli
 
 + Haasta ystäväsi [marmori labyrintti](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-marble-maze){:target="_blank"} -pelillä
 
