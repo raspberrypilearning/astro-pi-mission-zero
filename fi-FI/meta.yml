@@ -4,15 +4,15 @@ hero_image: images/banner.png
 description: Valmistaudu Mission Zeroon
 listed: false
 copyedit: true
-version: 4.0.1
+version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
     title: Esittely
   - 
-    title: Mikä Astro Pi on?
+    title: Mikä on Astro Pi?
   - 
-    title: Näytä viesti
+    title: Näytä viesti ja valitse nimi uusille Astro Pi -tietokoneille
   - 
     title: Lisää jonkun verran väriä
   - 
@@ -20,8 +20,8 @@ steps:
   - 
     title: Mittaa ilmankosteus
   - 
-    title: Näytä ilmankosteus
+    title: Reagoi ilmankosteuteen
   - 
     title: Lähetä osallistumisilmoituksesi
   - 
-    title: 'Haaste: lisää Astro Pi -projekteja'
+    title: Mitä seuraavaksi — lisää Astro Pi -projekteja"
