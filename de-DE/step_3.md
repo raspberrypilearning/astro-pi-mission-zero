@@ -64,7 +64,7 @@ abcdefghijklmnopqrstuvwxyz
 
 --- task ---
 
-Du kannst auch die Geschwindigkeit der Nachricht ändern, mit der sie über den Bildschirm läuft. Füge `scroll_speed` (Laufgeschwindigkeit) zu der Codezeile, die du schon hast, folgendermaßen hinzu:
+Du kannst auch die Geschwindigkeit der Nachricht, mit der sie über den Bildschirm läuft, ändern. Füge `scroll_speed` (Laufgeschwindigkeit) zu der Codezeile, die du schon hast, folgendermaßen hinzu:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
@@ -90,13 +90,13 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Um abzustimmen, beginne Deine Nachricht mit den Worten "Mein Name sollte sein". Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
+Um abzustimmen, beginne Deine Nachricht mit den Worten "My name should be". Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
 
 ```python
 sense.show_message("Mein Name sollte sein Ada Lovelace")
 ```
 
-Wenn du mitwählen willst, muss deine Nachricht mit diesen Worten beginnen, da wir deine Wahl sonst nicht zählen können.
+Wenn du mitwählen willst, *muss* deine Nachricht mit diesen Worten beginnen, da wir deine Stimme sonst nicht zählen können.
 
 --- /task ---
 
