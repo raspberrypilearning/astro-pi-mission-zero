@@ -8,13 +8,13 @@ Tutaj można dowiedzieć się, jak tworzy się wszystkie kolory za pomocą róż
 
 --- task ---
 
-Wybierz kolor i sprawdź jego wartość RGB. Aby sobie ułatwić, możesz skorzystać z [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
+Wybierz kolor i sprawdź jego wartość RGB. Dla ułatwienia, możesz skorzystać z [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Utwórz zmienną, aby zachować wybrany kolor. Na przykład, w przypadku wybrania czerwonego należy napisać ten wiersz kodu:
+Utwórz zmienną, aby przechować wybrany kolor. Na przykład, w przypadku wybrania czerwonego należy napisać następującą linię kodu:
 
 ```python
 czerwony = (255,0,0)
