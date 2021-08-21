@@ -51,7 +51,7 @@ title: Mitä tarvitset
 
 --- /collapse ---
 
---- pienennä ---
+--- collapse ---
 ---
 title: Huomautuksia opettajille ja ohjaajille
 ---
@@ -82,6 +82,6 @@ Millä kielellä käytitte Mission Zero -ohjeita?
 
  Olemme luoneet [tulostettavan kaksisivuisen monisteen](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, joka kattaa Mission Zeron ydinkohdat ja jota opiskelijat ja nuoret voivat käyttää yhdessä tämän verkkoprojektin kanssa.
 
---- /pienennä ---
+--- /collapse ---
 
 ![Seurantapikseli](https://code.org/api/hour/begin_raspberrypi_astropi.png)
