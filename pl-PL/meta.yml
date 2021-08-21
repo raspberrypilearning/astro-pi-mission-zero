@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Przygotuj się do Misji Zero
 listed: false
 copyedit: true
-version: 4.0.1
+version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
@@ -12,7 +12,7 @@ steps:
   - 
     title: Czym jest Astro Pi?
   - 
-    title: Wyświetlanie wiadomości
+    title: Wyświetl wiadomość i wybierz nazwę dla nowych komputerów Astro Pi
   - 
     title: Dodawanie koloru
   - 
