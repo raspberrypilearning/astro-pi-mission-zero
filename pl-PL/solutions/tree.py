@@ -4,7 +4,7 @@ sense.set_rotation(270)
 w = (255, 255, 255) # biały
 x = (0, 0, 0) # czarny
 g = (0,255,0) # zielony
-s = (180,180,180) # srebny
+s = (180,180,180) # srebrny
 r = (255,0,0) # czerwony
 c = (66, 220, 240) # cyjan
 o = (180,100,0) # pomarańczowy
