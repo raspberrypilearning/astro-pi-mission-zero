@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-Urozmaić codzienność astronautów na Międzynarodowej Stacji Kosmicznej(ISS), pokazując im wiadomość i wilgotność względną powietrza na pokładzie za pomocą Sense HAT komputera Astro Pi.
+Urozmaić codzienność astronautów na Międzynarodowej Stacji Kosmicznej, pokazując im wiadomość i wilgotność względną powietrza na pokładzie za pomocą Sense HAT komputera Astro Pi.
 
 Sprzęt Astro Pi Mark II jest tak nowy, że komputery nie mają jeszcze nawet swoich nazw. Komputery Astro Pi zostaną nazwane imionami dwóch inspirujących europejskich naukowców. Możesz pomóc wybrać, jak będą się nazywać, głosując na swoje ulubione imię w ramach programu Misja Zero.
 
