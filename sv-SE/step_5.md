@@ -38,9 +38,9 @@ Skapa en lista med 64 objekt, nedanför dina nya variabler. Varje objekt represe
     b, w, w, w, w, w, w, b
 ]
 ```
---- /uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Lägg till en kodrad för att visa din bild på LED-displayen.
 
@@ -48,15 +48,15 @@ Lägg till en kodrad för att visa din bild på LED-displayen.
 sense.set_pixels(picture)
 ```
 
---- /uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Tryck på **Run** (Kör) för att se din bild visas.
 
---- /uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Du kanske vill lägga till lite kod för att inkludera en kort väntetid (eller `sleep`) efter att bilden har visats. Det ger astronauterna lite tid att hinna se din bild innan nästa del av ditt meddelande visas. Överst i programmet, lägger du till:
 
@@ -70,10 +70,10 @@ Lägg sedan till koden för att vänta i två sekunder på raden efter den som v
 sleep(2)
 ```
 
---- /uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Skapa din egen bild eller mönster för att visa för astronauterna!
 
---- /uppgift ---
+--- /task ---
