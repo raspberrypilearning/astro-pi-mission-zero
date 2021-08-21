@@ -57,9 +57,9 @@ title: Huomautuksia opettajille ja ohjaajille
 ---
 
 
-Tämä toiminta voidaan suorittaa iltapäivän aikana. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Tämä toiminta voidaan suorittaa yhden iltapäivän aikana. Järjestä oppilaasi joukkueisiin, joissa on yhdestä neljään henkilöä, ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma, joka näyttää henkilökohtaisen viestin ja ilman suhteellisen kosteuden Astro Pi:llä.
 
-\ * Huomaa, että tämä rekisteröintilomake on saatavana vain englanniksi.
+Lue Mission Zeron [virallinen opasdokumentti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"}.
 
 Lomakkeen kentät sisältävät:  
 Opettajan / mentorin nimi  
