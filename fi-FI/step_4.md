@@ -1,20 +1,20 @@
 ## Lisää jonkun verran väriä
 
-The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
+Astro Pin LEDit voivat näyttää myös värejä. Voit määrittää värin luomalla muuttujan ja antamalla sille RGB-väriarvon.
 
 Täältä voit oppia, kuinka kaikki värit voidaan luoda käyttämällä punaisen, vihreän ja sinisen eri mittasuhteita:
 
 [[[generic-theory-colours]]]
 
---- task ---
+--- tehtävä ---
 
-Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
+Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [värinvalitsinta](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} auttamaan sinua.
 
 --- /task ---
 
 --- task ---
 
-Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
+Luo muuttuja tallentaaksesi valitsemasi värin. For example, if you picked red, you would write this line of code:
 
 ```python
 red = (255,0,0)
