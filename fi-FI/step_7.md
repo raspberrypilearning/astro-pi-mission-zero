@@ -1,12 +1,12 @@
-## Näytä ilmankosteus
+## Reagoi ilmankosteuteen
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+Voit yhdistää ilmankosteuden lukemasi kuvaan näyttääksesi ilmankosteuden myös graafisella tavalla. Esimerkiksi voit näyttää valtameren korkealle kosteudelle ja aavikon matalalle kosteudelle:
 
 ![Märkä ja kuiva](images/wet-dry.png)
 
 --- task ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+Lisää ohjelman loppuun uusia värimuuttujia kaikille väreille, joita haluat käyttää kuvissasi. Olet ehkä jo määritellyt joitakin niistä edellisessä vaiheessa.
 
 ```python
 o=(255,130,0)
@@ -52,20 +52,20 @@ dry = [
 
 --- task ---
 
-Lisää koodi kosteuden saamiseksi:
+Lisää koodia ilmankosteuden saamiseksi:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `wet`, jos ilmankosteuslukema on 40% tai sen yli, ja kuvan `dry`, jos ilmankosteuslukema on alle 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -76,7 +76,7 @@ else:
 
 --- task ---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+Aseta ilmankosteus emulaattoriin käyttäen ilmankosteuden liukusäädintä. Suorita ohjelma ja tarkista, että kyseiselle ilmankosteudelle valittu kuva näytetään oikein.
 
 --- /task ---
 
@@ -86,6 +86,6 @@ Muuta koodiasi niin, että ohjelma näyttää kosteuden astronauteille omalla va
 
 --- /task ---
 
---- task --- Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+--- task --- Testaa koodiasi muutamilla erilaisilla ilmankosteusarvoilla (liukusäädintä käyttäen) varmistaaksesi, että se toimii aina oikein. Jos olet seurannut yllä olevaa esimerkkiä, onko kuva näkyvissä silloin, kun ilmankosteuden arvo on alle 40 %, sekä silloin, kun se on yli 40 %?
 
 --- /task ---
