@@ -1,6 +1,6 @@
 ## Skicka ditt bidrag
 
-Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem, reglerna längst ner i [Sense HAT-emulatorn](https://trinket.io/mission-zero) kommer att lysa i grönt när du kör programmet.
+Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem kommer reglerna längst ner i [Sense HAT-emulator](https://trinket.io/mission-zero) att lysa grönt när du kör programmet.
 
 ![En skärmdump av Mission Zero Trinket -sidorna som visar inlämningsknappen och kriteriekontrollerna till vänster. De två översta ("läs fuktighet" och "använd lysdioderna") är i orange text, den nedre ("körningar utan fel") är grön ](images/validation.png)
 
