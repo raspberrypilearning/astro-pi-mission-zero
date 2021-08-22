@@ -44,9 +44,9 @@ Ange ditt lagnamn och namnen på dina lagmedlemmar. Dessa kommer att skrivas ut 
 
 Tryck på **Submit** (Skicka) för att ange din kod. Din lärare eller mentor får ett e-postmeddelande som bekräftar ditt bidrag.
 
---- / uppgift ---
+--- /task ---
 
---- uppgift ---
+--- task ---
 
 Om du vill kan du dela länken till din kod på sociala medier för att berätta för folk att koden som du skrev kommer att köras i rymden!
 
