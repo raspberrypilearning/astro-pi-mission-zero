@@ -2,9 +2,9 @@
 
 Lys opp hverdagen til astronautene på den internasjonale romstasjonen ved å vise dem en melding og den relative luftfuktigheten om bord ved hjelp av Astro Pi-datamaskinens Sense HAT.
 
-Mark II Astro Pi-maskinvaren er så ny at datamaskinene ikke engang har navn ennå. Vi vil oppkalle Astro Pi -datamaskinene etter to inspirerende europeiske forskere. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
+Mark II Astro Pi-maskinvaren er så ny at datamaskinene ikke engang har navn ennå. Vi vil oppkalle Astro Pi -datamaskinene etter to inspirerende europeiske forskere. Du kan hjelpe til med å velge hva de skal hete ved å stemme på ditt favorittnavn som en del av Mission Zero-programmet.
 
-Dere bruker Sense HAT-emulatoren online til å lage programmet, så det er ikke nødvendig med ekstra maskinvare - alt gjøres i en nettleser. *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
+Dere bruker Sense HAT-emulatoren online til å lage programmet, så det er ikke nødvendig med ekstra maskinvare - alt gjøres i en nettleser. *Hvis det oppfyller kvalifikasjonskriteriene* vil ditt ferdige program bli kjørt i rommet på den internasjonale romstasjonen (ISS)! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
 
 Vi vil kunngjøre vinnernavnene på de nye Astro Pi-datamaskinene våren 2022.
 
@@ -13,7 +13,7 @@ Vi vil kunngjøre vinnernavnene på de nye Astro Pi-datamaskinene våren 2022.
 
 Her er et eksempel på hva slags program dere kan lage. Klikk **Run** (Kjør) for å se det i aksjon.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![Trinket Sense HAT -emulatoren som kjører et prøveprogram som ruller fuktighetsverdien over LED -matrisen og deretter viser et bilde av en fisk](images/M0_4.gif)
 
 
 --- collapse ---
@@ -57,7 +57,7 @@ title: Notater for lærere og veiledere
 ---
 
 
-Denne aktiviteten kan fullføres på en ettermiddag. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Denne aktiviteten kan fullføres på en ettermiddag. Organisere elevene dine i grupper på en til fire, og la oss veilede dem gjennom å skrive et kort Python-program for å vise en personlig melding og den relative luftfuktigheten på Astro Pi.
 
 Les [dokumentet med offisielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} for Mission Zero.
 
