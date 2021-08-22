@@ -2,7 +2,7 @@
 
 Det er noen regler for hvordan koden må være for at den kan sendes til å bli kjørt på den internasjonale romstasjonen. Hvis koden din følger dem, vil reglene nederst i [Sense HAT -emulatoren](https://trinket.io/mission-zero) lyse grønt når du kjører programmet.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![Et skjermbilde av Mission Zero Trinket -sidene som viser innsendingsknappen og kriteriekontrollene til venstre. De to øverste ("les luftfuktighet" og "bruker lysdiodene") er i oransje tekst, den nederste ("kjører uten feil") er grønn ](images/validation.png)
 
 1. Les av luftfuktigheten.
 1. Lys opp lysdiodene.
