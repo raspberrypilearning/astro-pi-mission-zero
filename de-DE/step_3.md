@@ -93,7 +93,7 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 Um abzustimmen, beginne Deine Nachricht mit den Worten "My name should be". Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
 
 ```python
-sense.show_message("Mein Name sollte sein Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
 Wenn du mitwählen willst, *muss* deine Nachricht mit diesen Worten beginnen, da wir deine Stimme sonst nicht zählen können.
