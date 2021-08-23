@@ -91,7 +91,7 @@ A velocidade padrão da mensagem é `0.1`. Tornar o número menor faz com que a 
 Para votar, comece a sua mensagem com as palavras "O meu nome deve ser". Por exemplo, se um participante ou equipa quisesse votar em Ada Lovelace, o seu código seria assim:
 
 ```python
-sense.show_message("O meu nome deve ser Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
 Se quiser votar, a sua mensagem tem que começar com estas palavras. De outra forma, a sua entrada não será contada.
