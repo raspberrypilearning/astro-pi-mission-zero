@@ -93,7 +93,7 @@ De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, 
 Om te stemmen, begint je jouw bericht met de woorden "Mijn naam zou moeten zijn". Bijvoorbeeld, als jij wilt stemmen voor Ada Lovelace, zou je code er zo uit moeten zien:
 
 ```python
-sense.show_message("Mijn naam zou Ada Lovelace moeten zijn")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
 Als je wilt stemmen, *moet* je bericht met deze woorden beginnen, anders kunnen we je deelname niet automatisch tellen.
