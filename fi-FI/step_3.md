@@ -82,7 +82,7 @@ Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vier
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
 [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
-[Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
 [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
 [Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
 [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
