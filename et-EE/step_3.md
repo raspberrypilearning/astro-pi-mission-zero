@@ -82,7 +82,7 @@ Sõnumi kerimise vaikekiirus on `0,1`. Numbri vähendamine muudab sõnumi kerimi
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
 [Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
-[Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
 [Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
 [Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
 [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
@@ -93,7 +93,7 @@ Sõnumi kerimise vaikekiirus on `0,1`. Numbri vähendamine muudab sõnumi kerimi
 Hääletamiseks alusta oma sõnumit sõnadega "Minu nimi peaks olema". Näiteks juhul, kui soovid hääletada Ada Lovelace'i poolt, näeks sinu kood välja selline:
 
 ```python
-sense.show_message("Minu nimi peaks olema Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
 Kui soovid anda oma hääle, *peab* sinu sõnum algama nende sõnadega, vastasel juhul ei saa me sinu pakkumist automaatselt arvesse võtta.
