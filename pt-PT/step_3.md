@@ -14,7 +14,7 @@ sense.set_rotation(270)
 
 ![Uma captura de ecrã do emulador Trinket do Sense Hat com três linhas de código inicial exibido no painel esquerdo.](images/sense-hat-emulator2.png)
 
-Este código conecta-se ao Astro Pi e garante que o ecrã LED do Astro Pi seja visto da maneira correta. Deixe o código lá, porque você vai precisar.
+Este código liga-se ao Astro Pi e garante que o ecrã LED do Astro Pi seja visto da maneira correta. Deixe o código lá, porque você vai precisar.
 
 --- /task ---
 
@@ -91,7 +91,7 @@ A velocidade padrão da mensagem é `0.1`. Tornar o número menor faz com que a 
 Para votar, comece a sua mensagem com as palavras "O meu nome deve ser". Por exemplo, se um participante ou equipa quisesse votar em Ada Lovelace, o seu código seria assim:
 
 ```python
-sense.show_message("My name should be Ada Lovelace")
+sense.show_message("O meu nome deve ser Ada Lovelace")
 ```
 
 Se quiser votar, a sua mensagem tem que começar com estas palavras. De outra forma, a sua entrada não será contada.
