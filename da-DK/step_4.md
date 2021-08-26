@@ -6,13 +6,13 @@ Du kan lære, hvordan alle farver kan laves ved hjælp af forskellige kombinatio
 
 [[[generic-theory-colours]]]
 
---- opgave ---
+--- task ---
 
 Vælg en farve og find den pågældende farves RGB-værdi. Du kan benytte en [farvevælger](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} til at hjælpe dig.
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Opret en variabel for at gemme din valgte farve. Hvis du eksempelvis valgte rød, ville du skrive denne kodelinje:
 
@@ -20,9 +20,9 @@ Opret en variabel for at gemme din valgte farve. Hvis du eksempelvis valgte rød
 rød = (255,0,0)
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Du kan nu få vist din tekst i den farve, du ønsker! For at bede programmet om at anvende den farve, du oprettede, skal du tilføje parameteret `text_colour` (tekst_farve) til den kode, der viser din tekst:
 
@@ -31,11 +31,11 @@ rød = (255,0,0)
 sense.show_message ("Astro Pi", tekst_farve = rød)
 ```
 
---- /opgave ---
+--- /task ---
 
 ![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller teksten "Astro PI" hen over LED-matricen med røde bogstaver](images/M0_2.gif)
 
---- opgave ---
+--- task ---
 
 Du kan også ændre baggrundsfarve på displayet. Vælg en anden farve og opret en anden variabel for at gemme den farve. For at bede programmet om at anvende din valgte baggrundsfarve skal du føje parameteren `back_colour` til din kode:
 
@@ -45,10 +45,10 @@ grøn = (0,255,0)
 sense.show_message ("Astro Pi", text_colour = rød, back_colour = grøn)
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Skift tekst og farve på hilsenen — hvilken besked vil du sende til astronauterne ombord på ISS?
 
---- /opgave ---
+--- /task ---
