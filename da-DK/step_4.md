@@ -17,7 +17,7 @@ Vælg en farve og find den pågældende farves RGB-værdi. Du kan benytte en [fa
 Opret en variabel for at gemme din valgte farve. Hvis du eksempelvis valgte rød, ville du skrive denne kodelinje:
 
 ```python
-rød = (255,0,0)
+red = (255,0,0)
 ```
 
 --- /task ---
@@ -27,8 +27,8 @@ rød = (255,0,0)
 Du kan nu få vist din tekst i den farve, du ønsker! For at bede programmet om at anvende den farve, du oprettede, skal du tilføje parameteret `text_colour` (tekst_farve) til den kode, der viser din tekst:
 
 ```python
-rød = (255,0,0)
-sense.show_message ("Astro Pi", tekst_farve = rød)
+red = (255,0,0)
+sense.show_message("Astro Pi", text_colour=red)
 ```
 
 --- /task ---
@@ -40,9 +40,9 @@ sense.show_message ("Astro Pi", tekst_farve = rød)
 Du kan også ændre baggrundsfarve på displayet. Vælg en anden farve og opret en anden variabel for at gemme den farve. For at bede programmet om at anvende din valgte baggrundsfarve skal du føje parameteren `back_colour` til din kode:
 
 ```python
-rød = (255,0,0)
-grøn = (0,255,0)
-sense.show_message ("Astro Pi", text_colour = rød, back_colour = grøn)
+red = (255,0,0)
+green = (0,255,0)
+sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 ```
 
 --- /task ---
