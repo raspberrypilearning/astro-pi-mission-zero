@@ -17,7 +17,7 @@ Wybierz kolor i sprawdź jego wartość RGB. Dla ułatwienia, możesz skorzysta�
 Utwórz zmienną, aby przechować wybrany kolor. Na przykład, w przypadku wybrania czerwonego należy napisać następującą linię kodu:
 
 ```python
-czerwony = (255,0,0)
+red = (255,0,0)
 ```
 
 --- /task ---
@@ -27,8 +27,8 @@ czerwony = (255,0,0)
 Teraz można wyświetlać swój tekst w wybranym kolorze! Aby w programie dać polecenie użycia utworzonego koloru, należy dodać parametr `text_colour` (koloru_tekstu) do kodu, który wyświetla twój tekst:
 
 ```python
-czerwony = (255,0,0)
-sense.show_message("Astro Pi", text_colour=czerwony)
+red = (255,0,0)
+sense.show_message("Astro Pi", text_colour=red)
 ```
 
 --- /task ---
@@ -40,9 +40,9 @@ sense.show_message("Astro Pi", text_colour=czerwony)
 Można również zmienić kolor tła wyświetlacza. Wybierz inny kolor i utwórz kolejną zmienną, aby zachować ten kolor. Aby w programie dać polecenie użycia wybranego koloru tła, dodaj parametr `back_colour` (kolor_tła) do swojego kodu:
 
 ```python
-czerwony = (255,0,0)
-zielony = (0,255,0)
-sense.show_message("Astro Pi", text_colour=czerwony, back_colour=zielony)
+red = (255,0,0)
+green = (0,255,0)
+sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 ```
 
 --- /task ---
