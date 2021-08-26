@@ -15,10 +15,10 @@ Częścią waszej misji jest pomoc w codziennym życiu załogi na pokładzie ISS
 Dodaj ten kod, aby odczytać wilgotność:
 
 ```python
-wilgotnosc= sense.get_humidity()
+humid = sense.get_humidity()
 ```
 
-Ta linia zmierzy aktualną wilgotność i zapisze zmierzoną wartość w zmiennej `wilgotnosc`.
+Ta linia zmierzy aktualną wilgotność i zapisze zmierzoną wartość w zmiennej `humid` (wilgotność).
 
 --- /task ---
 
@@ -27,7 +27,7 @@ Ta linia zmierzy aktualną wilgotność i zapisze zmierzoną wartość w zmienne
 Wilgotność jest zapisywana bardzo precyzyjnie, tj. zapisana wartość będzie miała dużą liczbę miejsc po przecinku. Można zaokrąglić wartość do dowolnej liczby miejsc po przecinku. W tym przykładzie zaokrągliliśmy do jednego miejsca po przecinku, ale aby uzyskać inny poziom dokładności, należy zmienić cyfrę `1` na pożądaną liczbę miejsc po przecinku.
 
 ```python
-wilgotnosc= round(sense.get_humidity(), 1)
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ wilgotnosc= round(sense.get_humidity(), 1)
 Aby wyświetlić aktualną wilgotność jako komunikat przewijający się na wyświetlaczu, dodaj tą linijkę kodu:
 
 ```python
-sense.show_message(str(wilgotnosc))
+sense.show_message(str(humid))
 ```
 
 Część `str()` przekształca wilgotność z liczby na tekst, tak aby Astro Pi mogło ją wyświetlić.
@@ -49,7 +49,7 @@ Część `str()` przekształca wilgotność z liczby na tekst, tak aby Astro Pi 
 Możesz również wyświetlić wilgotność jako część innej wiadomości, dołączając do części swojej wiadomości używając `+`.
 
 ```python
-sense.show_message( "Jest " + str(wilgotnosc) + " %" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
