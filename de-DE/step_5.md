@@ -27,15 +27,15 @@ r = (255,0,0)
 Erstelle unter deinen neuen Variablen eine Liste von 64 Elementen. Jedes Element repräsentiert ein Pixel in der LED-Matrix und entspricht einer der von dir definierten Farbvariablen. Zeichne dein Bild, indem du eine Variable dort einfügst, wo die zugewiesene Farbe angezeigt werden soll. Wir haben einen Astronauten gezeichnet, indem wir die schwarzen (`s`) Pixel als Hintergrund und die weißen (`w`) Pixel für den Raumanzug des Astronauten benutzt haben:
 
 ```python
- bild = [
-    g, s, s, s, s, s, s, g,
-    s, g, g, g, g, g, g, s,
-    s, g, s, s, g, w, g, g,
-    s, g, s, s, g, g, g, g,
-    s, g, g, g, b, b, g, g,
-    s, g, r, g, g, g, g, g,
-    s, g, g, g, g, g, g, s,
-    g, s, s, s, s, s, s, g
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
     ]
 ```
 --- /task ---
@@ -45,7 +45,7 @@ Erstelle unter deinen neuen Variablen eine Liste von 64 Elementen. Jedes Element
 Füge eine Codezeile hinzu, um dein Bild auf dem LED-Bildschirm anzuzeigen.
 
 ```python
-sense.set_pixels(bild)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
