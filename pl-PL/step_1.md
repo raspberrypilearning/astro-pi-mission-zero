@@ -9,7 +9,7 @@ Program zostanie stworzony za pomocą internetowego emulatora Sense HAT, więc n
 Wiosną 2022 r. ogłosimy wybrane nazwy nowych komputerów Astro Pi.
 
 
-### Co będziesz robił
+### Co zrobisz
 
 Oto przykład programu, który można stworzyć. Kliknij **Run** (Uruchom), aby zobaczyć, jak działa.
 
