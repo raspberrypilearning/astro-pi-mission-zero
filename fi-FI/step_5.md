@@ -28,15 +28,15 @@ Luo 64-kohtainen lista uusien muuttujien alle. Jokainen kohde edustaa yhtä piks
 
 ```python
  picture = [
-    g, b, b, b, b b, b, b, g,
-    b, g, g, g, g, g, g, g, b,
-    b, g, b, g, w, g, g,
-    b, g, b, b, g, g, g, g, g,
-    b, g, g, g, s, g, g,
-    b, g, r, g, g, g, g,
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
     b, g, g, g, g, g, g, b,
     g, b, b, b, b, b, b, g
-]
+    ]
 ```
 --- /task ---
 
