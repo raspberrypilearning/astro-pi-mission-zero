@@ -6,7 +6,7 @@ Täältä voit oppia, kuinka kaikki värit voidaan luoda käyttämällä punaise
 
 [[[generic-theory-colours]]]
 
---- tehtävä ---
+--- task ---
 
 Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [värinvalitsinta](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} auttamaan sinua.
 
