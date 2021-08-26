@@ -11,9 +11,6 @@ Onderaan je programma kun je wat kleurvariabelen maken om de kleuren waarmee je 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
 ```
 
 **Opmerking:** Deze keer is het een goed idee om de kleurvariabelen namen met één letter te geven, omdat dit tijd zal besparen in de volgende stap, waar je ze vaak zal moeten typen. Bovendien maakt het gebruik van aparte letters het eenvoudiger om de tekening die je maakt te zien.
@@ -28,15 +25,15 @@ Onder je nieuwe variabelen, maak je een lijst van 64 items. Elk item stelt een p
 
 ```python
  picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
 --- /task ---
 
