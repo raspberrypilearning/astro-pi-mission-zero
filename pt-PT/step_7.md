@@ -9,12 +9,12 @@ Pode combinar a leitura da humidade com uma imagem para também indicar a humida
 Na parte inferior do programa, crie mais variáveis ​​de cor para definir as cores que quer usar nos seus desenhos. Talvez já tenha definido algumas delas num passo anterior.
 
 ```python
-l = (255,130,0)
-a = (0,0,255)
-c = (0,150,255)
-e = (80,80,80)
-v = (0,255,0)
-y = (255,255,0)
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
 ```
 
 --- /task ---
@@ -24,26 +24,26 @@ y = (255,255,0)
 Assim como antes, desenhe as suas imagens criando primeiro uma lista para cada uma delas e, em seguida, definindo os itens da lista com as cores que deseja que seus pixeis tenham.
 
 ```python
-molhado = [
-  a, a, a, a, a, a, a, a,
-  a, a, a, a, a, a, a, a,
-  a, l, a, l, l, l, a, a,
-  a, l, l, l, l, e, l, a,
-  a, l, l, l, l, l, l, l, a,
-  a, l, a, l, l, l , a, a,
-  a, a, a, a, a, a, a, a,
-  a, a, a, a, a, a, a, a
+wet = [
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b
 ]
 
 
-seco = [
-  c, c, v , v, c, c, c, c,
-  c, c, v, v, c, v, c, c,
-  v, c, v, v, c, v, c, c,
-  v, c, v, v, c, v, c, c,
-  v, v, v, v, v, v, c, c,
-  c, c, v, v, c, c, c, c,
-  y, y , y, y, y, y, y, y,
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
   y, y, y, y, y, y, y, y
 ]
 ```
@@ -67,9 +67,9 @@ Agora decida que imagem quer mostrar. Para este exemplo, mostraremos a imagem `m
 ```python
 humid = sense.get_humidity()
 if humid >= 40:
-    sense.set_pixels(molhado)
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(seco)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
