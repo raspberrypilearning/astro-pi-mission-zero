@@ -1,16 +1,16 @@
 from sense_hat import SenseHat
 sense = SenseHat()
 sense.set_rotation(270)
-w = (255,255,255) # wit
-x = (0,0,0) # zwart
-g = (0,255,0) # groen
-s = (180,180,180) # zilver
-r = (255,0,0) # rood
-c = (66,220,240) # cyaan
-o = (180,100,0) # oranje
-b = (0,0,255) # blauw
+w = (255, 255, 255) # white
+x = (0, 0, 0) # black
+g = (0,255,0) # green
+s = (180,180,180) # silver
+r = (255,0,0) # red
+c = (66, 220, 240) # cyan
+o = (180,100,0) # orange
+b = (0, 0,255) # blue
 print('bob')
-afbeelding = [
+picture = [
     c, c, g, g, g, g, c, c,
     c, g, g, g, g, g, g, c,
     c, g, g, g, g, g, g, c,
@@ -21,4 +21,4 @@ afbeelding = [
     g, g, g, g, g, g, g, g
     ]
     
-sense.set_pixels(afbeelding)
+sense.set_pixels(picture)
