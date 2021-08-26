@@ -49,7 +49,7 @@ Der Befehl `str()` wandelt die Luftfeuchtigkeit von einer Zahl in Text um, so da
 Du kannst die Luftfeuchtigkeit auch als Teil einer anderen Nachricht anzeigen, indem du die Teile deiner Nachricht mit einem `+` verbindest.
 
 ```python
-sense.show_message( "Feuchte= " + str(humid) + " %" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
