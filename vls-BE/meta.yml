@@ -1,10 +1,10 @@
 ---
 title: "Astro Pi: Mission Zero"
-hero_image: afbeeldingen/banner.png
+hero_image: images/banner.png
 description: Voorbereiding voor Mission Zero
 listed: false
 copyedit: true
-version: 4.0.1
+version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
