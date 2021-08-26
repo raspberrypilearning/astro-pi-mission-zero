@@ -11,6 +11,9 @@ I bunden af dit program skal du oprette nogle farvevariabler til at definere de 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Bemærk:** Denne gang er det en god idé at give farvevariablerne enkeltbogstaver som navne, fordi det kommer til at spare dig tid i det næste trin, hvor du skal skrive dem mange gange. Desuden bliver det lettere at se det billede, du vil tegne, hvis du anvender enkeltbogstaver.
@@ -24,16 +27,16 @@ b = (0, 0, 0)
 Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert element repræsenterer en pixel på LED-matricen og svarer til én af de farvevariabler, du definerede. Tegn dit billede ved at sætte en variabel dér, hvor du ønsker, at dens tildelte farve skal vises. Vi har tegnet en Astro Pi ved at anvende sorte (`b`) pixels som baggrund og grå (`w`) pixels til at tegne den metaldele:
 
 ```python
- billede = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
+ picture = [
+    b, b, w, w, w, w, b, b,
+    b, w, b, b, b, b, w, b,
+    b, w, b, w, w, b, w, b,
+    b, w, b, b, b, b, w, b,
+    b, b, w, w, w, w, b, b,
+    b, b, w, w, w, w, b, b,
+    b, w, w, w, w, w, w, b,
+    b, w, w, w, w, w, w, b
+]
 ```
 --- /task ---
 
@@ -42,7 +45,7 @@ Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert elemen
 Tilføj en kodelinje for at vise dit billede på LED-displayet.
 
 ```python
-sense.set_pixels(billede)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
