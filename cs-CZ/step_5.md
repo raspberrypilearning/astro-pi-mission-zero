@@ -27,16 +27,16 @@ r = (255,0,0)
 Pod novými proměnnými vytvoř seznam s 64 položkami. Každá položka představuje jeden pixel na LED matici a odpovídá jedné z proměnných s barvami, které už máš definované. Svůj obrázek nakreslíš tak, že umístíš proměnnou tam, kde se má objevit barva, která jí byla přiřazena. Nakreslili jsme Astro Pi tak, že černé (`b`) pixely tvoří pozadí, kdežto šedými (`g`) pixely jsme nakreslili kovové části jeho letového pouzdra:
 
 ```python
- obrazek = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
 --- /task ---
 
@@ -45,7 +45,7 @@ Pod novými proměnnými vytvoř seznam s 64 položkami. Každá položka předs
 Přidej řádek kódu, kterým svůj obrázek zobrazíš na LED displeji.
 
 ```python
-sense.set_pixels(obrazek)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
