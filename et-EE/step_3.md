@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Vajuta **Käivita** nuppu ja vaata sõnumit `Astro Pi` LED-ekraanil.
+Vajuta **Run** (Käivita) nuppu ja vaata sõnumit `Astro Pi` LED-ekraanil.
 
 ![Trinket Sense HAT-i emulaator, kus on käivitatud näidisprogramm, mis kerib valgete tähtedega teksti "Astro Pi" üle LED-maatriksi](images/M0_1.gif)
 
