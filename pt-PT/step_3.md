@@ -32,7 +32,7 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Para executar, pressiona o botão **Run** e vê a mensagem `Astro Pi` passar no ecrã LED.
+Para executar, pressiona o botão **Run** (Executar) e vê a mensagem `Astro Pi` passar no ecrã LED.
 
 ![O emulador Trinket do Sense HAT executando um programa de exemplo que desliza o texto "Astro PI" ao longo da matriz LED em letras brancas](images/M0_1.gif)
 
@@ -51,7 +51,9 @@ title: Que carateres podem ser usados?
 O Sense HAT só pode exibir o conjunto de caracteres Latin 1, o que significa que apenas os seguintes caracteres estarão disponíveis. Outros caracteres serão exibidos como `?`.
 
 ```
-+-*/!"#$><0123456789.=)( ABCDEFGHIJKLMNOPQRSTUVWXYZ
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 abcdefghijklmnopqrstuvwxyz
 
@@ -91,7 +93,7 @@ A velocidade padrão da mensagem é `0.1`. Tornar o número menor faz com que a 
 Para votar, comece a sua mensagem com as palavras "O meu nome deve ser". Por exemplo, se um participante ou equipa quisesse votar em Ada Lovelace, o seu código seria assim:
 
 ```python
-sense.show_message("O meu nome deve ser Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
 Se quiser votar, a sua mensagem tem que começar com estas palavras. De outra forma, a sua entrada não será contada.
