@@ -24,7 +24,7 @@ y=(255,255,0)
 Proprio come prima, potete disegnare le immagini creando dapprima una lista per ciascuna immagine e quindi impostando le voci della lista sui colori che volete assumano i pixel corrispondenti.
 
 ```python
-umido = [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ umido = [
 ]
 
 
-secco = [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,21 +55,21 @@ secco = [
 Aggiungete il codice necessario per leggere l'umidità:
 
 ```python
-umidita = sense.get_humidity()
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `umido` se l'umidità misurata è uguale o superiore al 40% e l’immagine `secco` se l'umidità misurata è inferiore al 40%.
+Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `wet` se l'umidità misurata è uguale o superiore al 40% e l’immagine `dry` se l'umidità misurata è inferiore al 40%.
 
 ```python
-umidita = sense.get_humidity()
-if umidita >= 40:
-    sense.set_pixels(umido)
+humid = sense.get_humidity()
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(secco)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
