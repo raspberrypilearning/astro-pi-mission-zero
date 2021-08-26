@@ -52,7 +52,7 @@ sense.set_pixels(picture)
 
 --- task ---
 
-Klõpsa **Käivita** nägemaks, kuidas sinu pilti kuvatakse.
+Klõpsa **Run** (Käivita) nägemaks, kuidas sinu pilti kuvatakse.
 
 --- /task ---
 
