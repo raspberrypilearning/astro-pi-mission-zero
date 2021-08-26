@@ -24,7 +24,7 @@ y=(255,255,0)
 Zeichne deine Bilder wie zuvor, indem du zunächst eine Liste für jedes Bild erstellst und dann die Listenelemente auf die Farben einstellst, die du für deine Pixel verwenden möchtest.
 
 ```python
-nass = [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ nass = [
 ]
 
 
-trocken = [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -62,14 +62,14 @@ humid = sense.get_humidity()
 
 --- task ---
 
-Entscheide dich jetzt, welches Bild angezeigt werden soll. In diesem Beispiel werden wir das Bild `nass` anzeigen, wenn der Feuchtigkeitswert 40% oder mehr beträgt und das Bild `trocken`, wenn die Luftfeuchtigkeit unter 40% liegt.
+Entscheide dich jetzt, welches Bild angezeigt werden soll. In diesem Beispiel werden wir das Bild `wet` anzeigen, wenn der Feuchtigkeitswert 40% oder mehr beträgt und das Bild `dry`, wenn die Luftfeuchtigkeit unter 40% liegt.
 
 ```python
 humid = sense.get_humidity()
 if humid >= 40:
-    sense.set_pixels(nass)
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(trocken)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
