@@ -27,7 +27,7 @@ r = (255,0,0)
 Oma uute muutujate alla tee 64-st elemendist koosnev loend. Iga element kujutab ühte pikslit LED-maatriksil ja vastab ühele sinu määratud värvimuutujale. Joonista oma pilt pannes muutuja sinna, kus soovid kasutada sellega määratud värvi. Meie joonistasime Astro Pi kasutades musta värvi (`b`) piksleid tausta määramiseks ja halli värvi (`g`) piksleid Astro Pi lennukikohvri metallosade joonistamiseks:
 
 ```python
- pilt = [
+ picture = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, g,
@@ -45,7 +45,7 @@ Oma uute muutujate alla tee 64-st elemendist koosnev loend. Iga element kujutab 
 Oma pildi kuvamiseks LED-ekraanil lisa koodirida.
 
 ```python
-sense.set_pixels(pilt)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
