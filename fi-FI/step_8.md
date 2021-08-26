@@ -28,7 +28,7 @@ Kirjoita luokkahuonekoodisi alhaalla olevaan laatikkoon — opettajasi tai ohjaa
 
 --- task ---
 
-Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painiketta **Jatka lomakkeeseen**.
+Opettajasi nimi tulee näkyviin. Jos se on oikea nimi, napsauta vihreää painiketta **Continue to form**.
 
 ![Jatka lomakkeeseen](images/continue-to-form.png)
 
