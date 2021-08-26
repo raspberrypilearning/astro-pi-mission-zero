@@ -15,7 +15,7 @@ Een deel van je missie is het bijdragen tot het dagelijkse leven van de bemannin
 Voeg deze code toe om een vochtigheidsmeting te doen:
 
 ```python
-humid = sense.humidity()
+humid = sense.get_humidity()
 ```
 
 Deze lijn meet de huidige vochtigheid en slaat de meetwaarde op in de variabele `humid`.
@@ -49,7 +49,7 @@ Het `str()` deel zet de vochtigheid om van een nummer naar tekst zodat de Astro 
 Je kan de vochtigheid ook tonen als een deel van een andere boodschap door de delen van je boodschap samen te voegen met een `+`.
 
 ```python
-sense.show_message("Het is " + str(humid) + " %")
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
