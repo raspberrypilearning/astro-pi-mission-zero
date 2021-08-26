@@ -29,7 +29,7 @@ title: Mida sa õpid
 + Luua pilte
 + Sense HAT-i kasutades õhuniiskust mõõta
 
-Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http://rpf.io/curriculum){:target="_blank"}järgmisi valdkondi:
+Selles projektis käsitletakse [Raspberry Pi digitaalse tegemise õppekava](http://rpf.io/curriculum){:target="_blank"} järgmisi valdkondi:
 
 + [Algtasemel programmeerimiskonstruktsioonide kasutamine lihtsate programmide loomiseks](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
