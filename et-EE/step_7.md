@@ -37,13 +37,13 @@ märg = [
 
 
 kuiv = [
-  c, c, g , g, c, c, c, c,
+  c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
   g, g, g, g, g, g, c, c,
   c, c, g, g, c, c, c, c,
-  , y , y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y,
   y, y, y, y, y, y, y, y
 ]
 ```
@@ -55,7 +55,7 @@ kuiv = [
 Õhuniiskuse saamiseks lisa kood:
 
 ```python
-humid = sense.get_niiskus()
+niiske = sense.get_humidity()
 ```
 
 --- /task ---
@@ -65,7 +65,7 @@ humid = sense.get_niiskus()
 Nüüd otsusta, millist pilti kuvada. Selle näite puhul kuvatakse `märg` pilt, kui mõõdetud õhuniiskus on 40% või rohkem ja `kuiv` pilt, kui õhuniiskus on alla 40%.
 
 ```python
-humid = sense.get_niiskus()
+niiske = sense.get_humidity()
 if niiske >= 40:
     sense.set_pixels(märg)
 else:
