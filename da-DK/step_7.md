@@ -4,7 +4,7 @@ Du kan kombinere din luftfugtighedslæsning med et billede for også at indikere
 
 ![Våd og tør](images/wet-dry.png)
 
---- opgave ---
+--- task ---
 
 I bunden af dit program skal du oprette flere farvevariabler for de vilkårlige farver, du ønsker at anvende på dine billeder. Du har måske allerede defineret nogle af dem i et tidligere trin.
 
@@ -17,9 +17,9 @@ g=(0,255,0)
 y=(255,255,0)
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter tildele elementerne på listen de farver, du ønsker, dine pixels skal være.
 
@@ -48,9 +48,9 @@ toer = [
 ]
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Tilføj noget kode for at få luftfugtigheden:
 
@@ -58,9 +58,9 @@ Tilføj noget kode for at få luftfugtigheden:
 luftfugtighed = sense.humidity()
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `vaad (wet)` billede, hvis luftfugtigheden er 40% eller derover og `toer (dry)` billede, hvis luftfugtigheden er under 40%.
 
@@ -72,20 +72,20 @@ else:
     sense.set_pixels(toer)
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Brug fugtighedsskyderen til at indstille en fugtighed på emulatoren. Kør dit program og kontroller, at det billede, du har valgt til den målte luftfugtighed, vises korrekt.
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Ændre din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
 
---- /opgave ---
+--- /task ---
 
---- opgave --- Test din kode med et par forskellige fugtighedsindstillinger (ved hjælp af skyderen) for at sikre, at den altid kører korrekt. Hvis du har fulgt eksemplet ovenfor, vises der så et billede både, når luftfugtigheden er indstillet til en værdi mindre end 40% og også når, den er indstillet til mere end 40%?
+--- task --- Test din kode med et par forskellige fugtighedsindstillinger (ved hjælp af skyderen) for at sikre, at den altid kører korrekt. Hvis du har fulgt eksemplet ovenfor, vises der så et billede både, når luftfugtigheden er indstillet til en værdi mindre end 40% og også når, den er indstillet til mere end 40%?
 
---- /opgave ---
+--- /task ---
