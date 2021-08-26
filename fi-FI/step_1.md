@@ -11,7 +11,7 @@ Ilmoitamme uusille Astro Pi -tietokoneille valitut nimet keväällä 2022.
 
 ### Mitä tulet tekemään
 
-Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** nähdäksesi sen toiminnassa.
+Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** (Suorita) nähdäksesi sen toiminnassa.
 
 ![Trinket Sense HAT -emulaattori ajaa esimerkkiohjelmaa, joka vierittää ilmankosteuden arvoa LED-matriisin läpi ja sitten näyttää kuvan kalasta](images/M0_4.gif)
 
