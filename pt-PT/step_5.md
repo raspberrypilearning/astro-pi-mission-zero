@@ -9,11 +9,11 @@ Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a sua saudação p
 Na parte inferior do programa, crie algumas variáveis ​​para definir as cores que quer usar no seu desenho. Pode usar quantas cores quiser, mas neste exemplo usaremos apenas algumas cores - vermelho (`v`), branco (`b`), preto (`p`) e dois tons de cinza (`g` e `s`). Observe que as sombras são alcançadas reduzindo a quantidade de luz em todos os três canais mantendo as proporções iguais.
 
 ```python
-b = (255, 255, 255)
-p = (0, 0, 0)
+w = (255, 255, 255)
+b = (0, 0, 0)
 g = (50,50,50)
 s = (200,255,200)
-v = (255,0,0)
+r = (255,0,0)
 ```
 
 **Nota:** Desta vez, é uma boa ideia dar um nome às variáveis ​​de cor utilizando uma letra só, porque isso economizará tempo na próxima etapa, onde terá que digitá-las várias vezes. Além disso, usar uma única letra facilitará a visualização da imagem que vai desenhar.
@@ -27,16 +27,16 @@ v = (255,0,0)
 Em baixo das suas novas variáveis, crie uma lista de 64 itens. Cada item representa um pixel na matriz de LED e corresponde a uma das variáveis ​​de cor que definiu. Desenhe a sua imagem colocando uma variável onde deseja que a cor atribuída apareça. Nós desenhámos um astronauta utilizando pixeis pretos (`p`) como fundo e pixeis brancos (`b`) para desenhar a roupa do astronauta:
 
 ```python
- imagem = [
-    g, p, p, p, p, p, p, g,
-    p, g, g, g, g, g, g, g, p,
-    p, g, p, p, g, b, g, g,
-    p, g, p, p, g, g, g, g,
-    p, g, g, g, s, s, g, g,
-    p, g, v, g, g, g , g, g,
-    p, g, g, g, g, g, g, p,
-    g, p, p, p, p, p, p, g
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
 --- /task ---
 
@@ -45,14 +45,14 @@ Em baixo das suas novas variáveis, crie uma lista de 64 itens. Cada item repres
 Adiciona o seguinte código para visualizar a tua imagem no ecrã LED.
 
 ```python
-sense.set_pixels(imagem)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
 
 --- task ---
 
-Para visualizar a tua imagem basta clicar em **Run**.
+Para visualizar a tua imagem basta clicar em **Run** (Executar).
 
 --- /task ---
 
