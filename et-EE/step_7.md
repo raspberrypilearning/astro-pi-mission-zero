@@ -24,7 +24,7 @@ y=(255,255,0)
 Täpselt samamoodi nagu varem, tee oma piltide joonistamiseks kõigepealt iga pildi jaoks loend ja seejärel määra vastavalt soovitud pikslite värvidele loendi elementidele värvid.
 
 ```python
-märg = [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ märg = [
 ]
 
 
-kuiv = [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,21 +55,21 @@ kuiv = [
 Õhuniiskuse saamiseks lisa kood:
 
 ```python
-niiske = sense.get_humidity()
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Nüüd otsusta, millist pilti kuvada. Selle näite puhul kuvatakse `märg` pilt, kui mõõdetud õhuniiskus on 40% või rohkem ja `kuiv` pilt, kui õhuniiskus on alla 40%.
+Nüüd otsusta, millist pilti kuvada. Selle näite puhul kuvatakse `wet` pilt, kui mõõdetud õhuniiskus on 40% või rohkem ja `dry` pilt, kui õhuniiskus on alla 40%.
 
 ```python
-niiske = sense.get_humidity()
-if niiske >= 40:
-    sense.set_pixels(märg)
+humid = sense.get_humidity()
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(kuiv)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
