@@ -24,7 +24,7 @@ y=(255,255,0)
 Ligesom tidligere skal du tegne dine billeder ved først at oprette en liste for hvert af dem og derefter tildele elementerne på listen de farver, du ønsker, dine pixels skal være.
 
 ```python
-vaad = [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ vaad = [
 ]
 
 
-toer = [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,21 +55,21 @@ toer = [
 Tilføj noget kode for at få luftfugtigheden:
 
 ```python
-luftfugtighed = sense.humidity()
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `vaad (wet)` billede, hvis luftfugtigheden er 40% eller derover og `toer (dry)` billede, hvis luftfugtigheden er under 40%.
+Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `wet` billede, hvis luftfugtigheden er 40% eller derover og `dry` billede, hvis luftfugtigheden er under 40%.
 
 ```python
-luftfugtighed = sense.humidity()
-if luftfugtighed >= 40:
-    sense.set_pixels(vaad)
+humid = sense.get_humidity()
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(toer)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
