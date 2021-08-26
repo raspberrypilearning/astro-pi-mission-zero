@@ -11,7 +11,7 @@ Anunciaremos os nomes escolhidos para os novos computadores Astro Pi na primaver
 
 ### O que vais fazer
 
-Aqui está um exemplo do tipo de programa que você pode fazer. Clique em **Executar** para vê-lo em ação.
+Aqui está um exemplo do tipo de programa que você pode fazer. Clique em **Run** (Executar) para vê-lo em ação.
 
 ![O emulador Trinket Sense HAT executando um programa de exemplo que mostra o valor da humidade a deslizar pela matriz de LED e, em seguida, mostra uma imagem de um peixe](images/M0_4.gif)
 
@@ -33,7 +33,7 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry 
 
 + [Use construções básicas de programação para criar programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
---- / colapse ---
+--- /collapse ---
 
 --- collapse ---
 
