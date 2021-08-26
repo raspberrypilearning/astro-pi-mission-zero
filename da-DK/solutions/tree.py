@@ -1,16 +1,16 @@
-fra sense_hat importer SenseHat
-sense = SenseHat ()
+from sense_hat import SenseHat
+sense = SenseHat()
 sense.set_rotation(270)
-w = (255, 255, 255) # hvid
-x = (0, 0, 0) # sort
-g = (0,255,0) # grøn
-s = (180,180,180) # sølv
-r = (255,0,0) # rød
+w = (255, 255, 255) # white
+x = (0, 0, 0) # black
+g = (0,255,0) # green
+s = (180,180,180) # silver
+r = (255,0,0) # red
 c = (66, 220, 240) # cyan
 o = (180,100,0) # orange
-b = (0, 0,255) # blå
+b = (0, 0,255) # blue
 print('bob')
-billede = [
+picture = [
     c, c, g, g, g, g, c, c,
     c, g, g, g, g, g, g, c,
     c, g, g, g, g, g, g, c,
