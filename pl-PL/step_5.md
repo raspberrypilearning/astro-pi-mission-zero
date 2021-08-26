@@ -27,7 +27,7 @@ r = (255,0,0)
 Pod nowymi zmiennymi utwórz 64 elementową listę. Każdy element reprezentuje jeden piksel na matrycy LED i odpowiada jednej z określonych zmiennych kolorów. Narysuj swój obrazek, umieszczając zmienną w miejscu, w którym ma pojawić się przypisany jej kolor. Narysowaliśmy Astro Pi, używając czarnych (`b`) pikseli jako tła i szarych pikseli (`g`) do narysowania obudowy Astro Pi:
 
 ```python
- obrazek= [
+ picture = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, g,
@@ -45,7 +45,7 @@ Pod nowymi zmiennymi utwórz 64 elementową listę. Każdy element reprezentuje 
 Dodaj linię kodu, aby wyświetlić obrazek na wyświetlaczu LED.
 
 ```python
-sense.set_pixels(obrazek)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
