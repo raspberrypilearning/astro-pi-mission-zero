@@ -55,21 +55,21 @@ dry = [
 Přidej kód pro změření vlhkosti:
 
 ```python
-vlhkost = sense.get_humidity()
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Teď se rozhodni, který obrázek se má zobrazit. V tomhle příkladu se obrázek `vlhko` zobrazí tehdy, jestliže je hodnota vlhkosti 40 % a výš, a pokud je naopak vlhkost nižší než 40 %, zobrazí se obrázek `sucho`.
+Teď se rozhodni, který obrázek se má zobrazit. V tomhle příkladu se obrázek `wet` zobrazí tehdy, jestliže je hodnota vlhkosti 40 % a výš, a pokud je naopak vlhkost nižší než 40 %, zobrazí se obrázek `dry`.
 
 ```python
-vlhkost = sense.get_humidity()
-if vlhkost >= 40:
-    sense.set_pixels(vlhko)
+humid = sense.get_humidity()
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(sucho)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
