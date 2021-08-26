@@ -24,7 +24,7 @@ y=(255,255,0)
 Tak jak wcześniej, narysuj swoje obrazki, najpierw tworząc dla każdego z nich listę, a następnie ustawiając kolory pikseli elementów listy.
 
 ```python
-wilgotno= [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wilgotno= [
 ]
 
 
-sucho= [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,21 +55,21 @@ sucho= [
 Dodaj kod, aby uzyskać wilgotność:
 
 ```python
-wolgotnosc= sense.get_humidity()
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Teraz zdecyduj, który obrazek chcesz wyświetlić. Dla tego przykładu wyświetlmy obrazek `mokro`, jeśli odczyt wilgotności wynosi 40% lub więcej, i obrazek `sucho` jeśli wilgotność jest poniżej 40%.
+Teraz zdecyduj, który obrazek chcesz wyświetlić. Dla tego przykładu wyświetlmy obrazek `wet` (mokro), jeśli odczyt wilgotności wynosi 40% lub więcej, i obrazek `dry` (sucho) jeśli wilgotność jest poniżej 40%.
 
 ```python
-wilgotnosc= sense.get_humidity()
+humid = sense.get_humidity()
 if humid >= 40:
-    sense.set_pixels(mokro)
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(sucho)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
