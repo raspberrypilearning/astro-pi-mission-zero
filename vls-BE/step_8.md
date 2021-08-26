@@ -28,7 +28,7 @@ Vul je klascode in het vakje onderaan in - je leraar of mentor zal je vertellen 
 
 --- task ---
 
-De naam van je leraar zal verschijnen. Als het de juiste naam is, klik dan op de groene **Continue to form**knop.
+De naam van je leraar zal verschijnen. Als het de juiste naam is, klik dan op de groene **Continue to form** knop.
 
 ![Ga verder naar het formulier](images/continue-to-form.png)
 
