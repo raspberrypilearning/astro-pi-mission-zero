@@ -17,7 +17,7 @@ Vyber si barvu a zjisti její hodnotu v RGB. S tím ti může pomoci [nástroj p
 Vytvoř proměnnou, do které si svou barvu uložíš. Pokud si vybereš červenou, tvůj řádek s kódem by vypadal takhle:
 
 ```python
-cervena = (255,0,0)
+red = (255,0,0)
 ```
 
 --- /task ---
@@ -27,8 +27,8 @@ cervena = (255,0,0)
 Teď můžeš zobrazit svůj text v barvě, kterou si vybereš! Pokud chceš programu říct, aby použil tvoji barvu, přidej do řádku s kódem, který zobrazuje tvůj text, parametr `text_colour`:
 
 ```python
-cervena = (255,0,0)
-sense.show_message("Astro Pi", text_colour=cervena)
+red = (255,0,0)
+sense.show_message("Astro Pi", text_colour=red)
 ```
 
 --- /task ---
@@ -40,9 +40,9 @@ sense.show_message("Astro Pi", text_colour=cervena)
 Také můžeš změnit barvu pozadí displeje. Vyber si jinou barvu a vytvoř další proměnnou, do které tuto barvu uložíš. Pokud chceš programu říct, aby použil tvoji barvu pozadí, přidej do kódu parametr `back_colour`:
 
 ```python
-cervena = (255,0,0)
-zelena = (0,255,0)
-sense.show_message("Astro Pi", text_colour=cervena, back_colour=zelena)
+red = (255,0,0)
+green = (0,255,0)
+sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 ```
 
 --- /task ---
