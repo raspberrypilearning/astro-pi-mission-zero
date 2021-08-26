@@ -28,7 +28,7 @@ Sisesta oma klassiruumikood allpool asuvasse kastikesse — sinu õpetaja või m
 
 --- task ---
 
-Kuvatakse sinu õpetaja nimi. Kui see on õige, siis klõpsa rohelisel **Ava vorm** nupul.
+Kuvatakse sinu õpetaja nimi. Kui see on õige, siis klõpsa rohelisel **Continue to form** nupul.
 
 ![Ava vorm](images/continue-to-form.png)
 
@@ -42,7 +42,7 @@ Sisesta oma meeskonna ja meeskonnaliikmete nimed. Peale sinu koodi näitamist ko
 
 --- task ---
 
-Oma koodi sisestamiseks vajuta **Esita** nuppu. Sinu õpetajale või mentorile saadetakse seda kinnitav meil.
+Oma koodi sisestamiseks vajuta **Submit** nuppu. Sinu õpetajale või mentorile saadetakse seda kinnitav meil.
 
 --- /task ---
 
