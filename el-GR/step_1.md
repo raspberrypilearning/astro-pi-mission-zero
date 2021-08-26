@@ -57,7 +57,7 @@ title: Σημειώσεις για εκπαιδευτικούς και συμβ�
 ---
 
 
-Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες από ένα έως τέσσερα άτομα και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και την υγρασία στο Astro Pi.
 
 Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} για το Mission Zero.
 
