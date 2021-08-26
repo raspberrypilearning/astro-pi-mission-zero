@@ -65,7 +65,7 @@ Será necessário registar-se para o desafio Missão Zero para permitir que a(s)
 
 + Vá para a[página do emulador Trinket da Missão Zero](https://trinket.io/mission-zero){: target = "_ blank"}.
 
-+ Preencha o formulário e clique **Enviar**\*.
++ Preencha o formulário e clique **Submit** (Enviar)\*.
 
 \ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
 
