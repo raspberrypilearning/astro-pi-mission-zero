@@ -15,7 +15,7 @@ Parte da sua missão é contribuir para o dia-a-dia da tripulação a bordo da E
 Adicione este código para fazer uma leitura da humidade:
 
 ```python
-humid= sense.get_humidity()
+humid = sense.get_humidity()
 ```
 
 Este código vai medir a humidade atual e armazenar o valor medido na variável `humid`.
@@ -49,7 +49,7 @@ A parte `str()` converte a humidade de um número para texto para que o Astro Pi
 Também pode visualizar a humidade como parte de outra mensagem, unindo as partes da mensagem com o sinal `+`.
 
 ```python
-sense.show_message ("É" + str(humid) + " %")
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
