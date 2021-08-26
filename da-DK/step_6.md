@@ -15,10 +15,10 @@ En del af din mission er at bidrage til det daglige liv for besætningen ombord 
 Tilføj denne kode for at foretage en fugtighedsaflæsning:
 
 ```python
-luftfugtighed = sense.humidity()
+humid = sense.get_humidity()
 ```
 
-Denne linje måler den aktuelle fugtighed og gemmer den målte værdi i variablen ` luftfugtighed `.
+Denne linje måler den aktuelle fugtighed og gemmer den målte værdi i variablen `humid`.
 
 --- /task ---
 
@@ -27,7 +27,7 @@ Denne linje måler den aktuelle fugtighed og gemmer den målte værdi i variable
 Luftfugtigheden registreres meget præcist, dvs. at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
 
 ```python
-luftfugtighed = round(sense.humidity(), 1)
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ luftfugtighed = round(sense.humidity(), 1)
 For at få vist den aktuelle luftfugtighed, som rullende besked på displayet skal du tilføje denne kodelinje:
 
 ```python
-sense.show_message(str(luftfugtighed))
+sense.show_message(str(humid))
 ```
 
 Funktionen `str()` konverterer fugtigheden fra et tal til tekst, så Astro Pi kan vise den.
@@ -49,7 +49,7 @@ Funktionen `str()` konverterer fugtigheden fra et tal til tekst, så Astro Pi ka
 Du kan også vise luftfugtigheden som en del af en anden besked ved at tilslutte dele af din besked sammen med en `+`.
 
 ```python
-sense.show_message ("Det er" + str (luftfugtighed) + " %")
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
