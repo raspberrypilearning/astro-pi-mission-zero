@@ -11,7 +11,7 @@ Vi annoncerer de vindende navne til de nye Astro Pi -computere i foråret 2022.
 
 ### Hvad du vil lave
 
-Her er et eksempel på den slags programmer, du kan lave. Klik på **Kør** for at se det i aktion.
+Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se det i aktion.
 
 ![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller fugtighedsværdien hen over LED-matricen og derefter viser et billede af en fisk](billeder/M0_4.gif)
 
