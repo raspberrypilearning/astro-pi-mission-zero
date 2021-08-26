@@ -10,7 +10,7 @@ En del af din mission er at bidrage til det daglige liv for besætningen ombord 
 
 [[[generic-theory-what-is-humidity]]]
 
---- opgave ---
+--- task ---
 
 Tilføj denne kode for at foretage en fugtighedsaflæsning:
 
@@ -20,9 +20,9 @@ luftfugtighed = sense.humidity()
 
 Denne linje måler den aktuelle fugtighed og gemmer den målte værdi i variablen ` luftfugtighed `.
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Luftfugtigheden registreres meget præcist, dvs. at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
 
@@ -30,9 +30,9 @@ Luftfugtigheden registreres meget præcist, dvs. at den lagrede værdi har et st
 luftfugtighed = round(sense.humidity(), 1)
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 For at få vist den aktuelle luftfugtighed, som rullende besked på displayet skal du tilføje denne kodelinje:
 
@@ -42,9 +42,9 @@ sense.show_message(str(luftfugtighed))
 
 Funktionen `str()` konverterer fugtigheden fra et tal til tekst, så Astro Pi kan vise den.
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Du kan også vise luftfugtigheden som en del af en anden besked ved at tilslutte dele af din besked sammen med en `+`.
 
@@ -52,7 +52,7 @@ Du kan også vise luftfugtigheden som en del af en anden besked ved at tilslutte
 sense.show_message ("Det er" + str (luftfugtighed) + " %")
 ```
 
---- /opgave ---
+--- /task ---
 
 Den rigtige Astro Pi måler luftfugtigheden omkring den, men du kan flytte luftfugtighedsskyderen på Sense HAT-emulatoren for at simulere ændring af luftfugtigheden og teste din kode.
 
