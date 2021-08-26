@@ -4,7 +4,7 @@ Du kan vise billeder på Astro Pi'ens LED-matrix. Måske kunne din hilsen til as
 
 ![Et skærmbillede af emulatorvinduet, der viser Flight Unit'en med LED-matricen, der viser et billede af selve Flight Unit'en](images/fu-pic.png)
 
---- opgave ---
+--- task ---
 
 I bunden af dit program skal du oprette nogle farvevariabler til at definere de farver, som du ønsker at tegne dit billede med. Du kan bruge så mange farver, som du vil, men i dette eksempel bruger vi kun få farver - rød (`r`), hvid (`w`), sort (`b`) og to gråtoner (`g` og `s`). Bemærk, at nuancerne opnås ved at reducere mængden af lys i alle tre kanaler, samtidig med at proportionerne beholdes.
 
@@ -15,9 +15,9 @@ b = (0, 0, 0)
 
 **Bemærk:** Denne gang er det en god idé at give farvevariablerne enkeltbogstaver som navne, fordi det kommer til at spare dig tid i det næste trin, hvor du skal skrive dem mange gange. Desuden bliver det lettere at se det billede, du vil tegne, hvis du anvender enkeltbogstaver.
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 
 
@@ -35,9 +35,9 @@ Under dine nye variabler skal du oprette en liste med 64 elementer. Hvert elemen
     g, b, b, b, b, b, b, g
     ]
 ```
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Tilføj en kodelinje for at vise dit billede på LED-displayet.
 
@@ -45,15 +45,15 @@ Tilføj en kodelinje for at vise dit billede på LED-displayet.
 sense.set_pixels(billede)
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Tryk på **Run** (Kør) for at få dit billede vist.
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Det kan være, du vil tilføje noget kode for at lave en kort pause (eller `sleep` (dvale)) efter visning af billedet. På den måde får astronauterne tid til at se dit billede, før næste del af din besked vises. Øverst i dit program skal du tilføje:
 
@@ -67,10 +67,10 @@ Dernæst på linjen efter den, der viser dit billede, skal du tilføje denne kod
 sleep(2)
 ```
 
---- /opgave ---
+--- /task ---
 
---- opgave ---
+--- task ---
 
 Lav dit eget billede eller mønster, du kan vise til astronauterne!
 
---- /opgave ---
+--- /task ---
