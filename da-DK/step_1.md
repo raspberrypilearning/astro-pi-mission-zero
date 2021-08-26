@@ -16,7 +16,7 @@ Her er et eksempel på den slags programmer, du kan lave. Klik på **Kør** for 
 ![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller fugtighedsværdien hen over LED-matricen og derefter viser et billede af en fisk](billeder/M0_4.gif)
 
 
---- kollaps ---
+--- collapse ---
 
 
 
@@ -33,9 +33,9 @@ Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital M
 
 + [Anvend grundlæggende programmeringskonstruktioner til at oprette simple programmer](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
---- /kollaps ---
+--- /collapse ---
 
---- kollaps ---
+--- collapse ---
 
 ---
 title: Du får brug for følgende
@@ -49,9 +49,9 @@ title: Du får brug for følgende
 
 + En webbrowser (eksempelvis Google Chrome) til at åbne [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
 
---- /kollaps ---
+--- /collapse ---
 
---- kollaps ---
+--- collapse ---
 ---
 title: Bemærkninger til lærere og mentorer
 ---
