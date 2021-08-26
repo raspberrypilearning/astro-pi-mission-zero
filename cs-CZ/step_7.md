@@ -24,7 +24,7 @@ y=(255,255,0)
 Stejně jako minule – nakresli obrázky tak, že nejprve vytvoříš seznam a poté nastavíš položky seznamu na barvy, které mají jednotlivé pixely mít.
 
 ```python
-vlhko = [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ vlhko = [
 ]
 
 
-sucho = [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
