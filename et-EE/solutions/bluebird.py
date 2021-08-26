@@ -1,16 +1,16 @@
 from sense_hat import SenseHat
 sense = SenseHat()
 sense.set_rotation(270)
-w = (255, 255, 255) # valge
-x = (0, 0, 0) # must
-g = (0,255,0) # roheline
-s = (180,180,180) # hõbedane
-r = (255,0,0) # punane
-c = (66, 220, 240) # tsüaan
-o = (180,100,0) # oranž
-b = (0, 0,255) # sinine
+w = (255, 255, 255) # white
+x = (0, 0, 0) # black
+g = (0,255,0) # green
+s = (180,180,180) # silver
+r = (255,0,0) # red
+c = (66, 220, 240) # cyan
+o = (180,100,0) # orange
+b = (0, 0,255) # blue
 
-pilt = [
+picture = [
     c, c, c, c, c, c, c, c,
     c, c, b, b, b, c, c, c,
     c, b, b, x, b, b, c, c,
@@ -21,4 +21,4 @@ pilt = [
     b, b, b, b, b, c, c, c
     ]
     
-sense.set_pixels(pilt)
+sense.set_pixels(picture)
