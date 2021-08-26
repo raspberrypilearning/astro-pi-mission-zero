@@ -11,7 +11,7 @@ Uute Astro Pi arvutite nimed teatame kevadel 2022.
 
 ### Mida sa teed
 
-Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see jookseb, klõpsa **Run**.
+Siin on näide sellest, millise programmi võid teha. Selleks et näha, kuidas see jookseb, klõpsa **Run** (Käivita).
 
 ![Trinket Sense HAT-i emulaator, kus on käivitatud näidisprogramm, mis kerib niiskuse väärtust üle LED-maatriksi ja kuvab seejärel kala pildi](images/M0_4.gif)
 
@@ -65,7 +65,7 @@ Selleks et teie meeskon(na)d saaks(id) Mission Zero väljakutsel osaleda, peate 
 
 + Minge [Trinket emulaatori Mission Zero lehele](https://trinket.io/mission-zero){:target="_blank"}.
 
-+ Täitke vorm ja klõpsake **Esita**\*.
++ Täitke vorm ja klõpsake **Submit** (Esita)\*.
 
 \* Pange tähele, et registreerimisvorm on kättesaadav ainult inglise keeles.
 
