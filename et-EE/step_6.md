@@ -15,7 +15,7 @@ Osa sinu ülesandest on panustada ISS-i meeskonna igapäevaellu, seetõttu annab
 Õhuniiskuse mõõtmiseks lisa see kood:
 
 ```python
-niiske = sense.get_humidity()
+humid = sense.get_humidity()
 ```
 
 See koodirida mõõdab valitsevat õhuniiskust ja säilitab mõõdetud väärtuse muutujas `niiske`.
@@ -27,7 +27,7 @@ See koodirida mõõdab valitsevat õhuniiskust ja säilitab mõõdetud väärtus
 Õhuniiskust mõõdetakse väga täpselt, st säilitataval väärtusel on suur kümnendkohtade arv. Sina võid väärtuse ümardada mistahes kümnendkohtadega arvuks. Näites ümardasime me ühe kümnendkohaga arvuks, aga teistsuguse täpsuse saavutamiseks muuda numbrit `1` selliseks kümnendkoha arvuks, mida soovid näha.
 
 ```python
-niiske = round(sense.get_humidity(), 1)
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ niiske = round(sense.get_humidity(), 1)
 Valitseva õhuniiskuse kuvamiseks ekraanil keritava sõnumina tuleb lisada see koodirida:
 
 ```python
-sense.show_message(str(niiske))
+sense.show_message(str(humid))
 ```
 
 See `str()` osa konverteerib õhuniiskuse numbri tekstiks selle jaoks, et seda saaks kuvada Astro Pi-l.
@@ -49,7 +49,7 @@ See `str()` osa konverteerib õhuniiskuse numbri tekstiks selle jaoks, et seda s
 Samuti võid kuvada õhuniiskust mõne teise sõnumi osana, selleks pead oma sõnumi osad ühendama kasutades `+`.
 
 ```python
-sense.show_message( "It is " + str(niiske) + " %" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
