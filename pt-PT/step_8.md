@@ -28,7 +28,7 @@ Introduz o código da sua turma no respetivo campo na parte inferior - o seu pro
 
 --- task ---
 
-O nome do teu professor ficará visível. Se for o nome correto, clique no botão verde **Continuar para o formulário**.
+O nome do teu professor ficará visível. Se for o nome correto, clique no botão verde **Continue to form** (Continuar para o formulário).
 
 ![Continuar para o formulário](images/continue-to-form.png)
 
@@ -42,7 +42,7 @@ Insira o nome da sua equipa e os nomes dos membros da equipa. Estes nomes serão
 
 --- task ---
 
-Prima o botão **Submeter** para inserir o seu código. O seu professor ou mentor receberá um e-mail para confirmar a sua inscrição.
+Prima o botão **Submit** (Submeter) para inserir o seu código. O seu professor ou mentor receberá um e-mail para confirmar a sua inscrição.
 
 --- /task ---
 
