@@ -62,7 +62,7 @@ humid = sense.get_humidity()
 
 --- task ---
 
-Agora decida que imagem quer mostrar. Para este exemplo, mostraremos a imagem `molhado` se a leitura da humidade estiver 40% ou acima, e a imagem `seco` se a um humidade estiver abaixo de 40%.
+Agora decida que imagem quer mostrar. Para este exemplo, mostraremos a imagem `wet` (molhado) se a leitura da humidade estiver 40% ou acima, e a imagem `dry` (seco) se a um humidade estiver abaixo de 40%.
 
 ```python
 humid = sense.get_humidity()
