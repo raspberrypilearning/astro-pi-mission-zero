@@ -96,7 +96,7 @@ Privzeta hitrost sporočila je `0.1`. Če številko zmanjšate, se bo sporočilo
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Če želite glasovati, morate sporočilo nujno začeti s temi besedami, sicer vaš glas ne bo upoštevan.
 
 --- /task ---
 
