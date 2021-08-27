@@ -28,15 +28,15 @@ Skapa en lista med 64 objekt, nedanför dina nya variabler. Varje objekt represe
 
 ```python
  picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
 --- /task ---
 
