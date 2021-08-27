@@ -96,7 +96,7 @@ Para votar, comienza tu mensaje con las palabras "Mi nombre debería ser". Por e
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+Si quieres votar, tu mensaje debe comenzar con estas palabras, de no ser así tu voto no contará.
 
 --- /task ---
 
