@@ -49,7 +49,7 @@ Partea `str()` convertește umiditatea dintr-un caracter numeric în caracter te
 De asemenea, poți afișa umiditatea ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
 
 ```python
-sense.show_message("Umiditate de " + str(humid) + "%")
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
