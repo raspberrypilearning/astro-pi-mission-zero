@@ -65,7 +65,7 @@ Du måste registrera dig för Mission Zero utmaningen för att dina grupper ska 
 
 + Gå till [sidan för Trinket-emulatorn Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
-+ Fyll i formuläret och klicka på **Skicka**\*.
++ Fyll i formuläret och klicka på **Submit** (Skicka)\*.
 
 \* Observera att detta registreringsformulär endast är tillgängligt på engelska.
 
