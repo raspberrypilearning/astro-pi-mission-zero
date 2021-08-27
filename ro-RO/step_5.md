@@ -11,9 +11,9 @@ Poți afișa imagini pe matricea LED a Astro Pi. Poate că salutul tău pentru a
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
-g = (50, 50, 50)
-s = (200, 255, 200)
-r = (255, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Notă:** De această dată, este o idee bună să dai variabilelor de culoare câte un nume de o singură literă, deoarece acest lucru va economisi timp la pasul următor, unde le vei tasta de mai multe ori. Mai mult, folosirea literelor unice va face mai ușoară vederea imaginii pe care o vei desena.
@@ -27,7 +27,7 @@ r = (255, 0, 0)
 Sub noile tale variabile, creează o listă cu 64 de elemente. Fiecare element reprezintă un pixel pe matricea LED și corespunde uneia dintre variabilele de culoare pe care le-ai definit. Desenează imaginea ta introducând o variabilă în locul în care dorești să apară culoarea atribuită. Am desenat un Astro Pi folosind pixeli negri (`b`) ca fundal și albi (`g`) pentru a-i desena părțile din metal a carcasei:
 
 ```python
- imagine = [
+ picture = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, g,
@@ -45,7 +45,7 @@ Sub noile tale variabile, creează o listă cu 64 de elemente. Fiecare element r
 Adaugă o linie de cod pentru a afișa imaginea ta pe afișajul cu LED-uri.
 
 ```python
-sense.set_pixels(imagine)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
