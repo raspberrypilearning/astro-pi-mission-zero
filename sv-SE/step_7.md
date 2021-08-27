@@ -12,7 +12,7 @@ Skapa fler färgvariabler för alla de färger som du vill använda, i slutet av
 o=(255,130,0)
 b=(0,0,255)
 c=(0,150,255)
-e=(80,80,80,80)
+e=(80,80,80)
 g=(0,255,0)
 y=(255,255,0)
 ```
@@ -24,27 +24,27 @@ y=(255,255,0)
 Precis som tidigare, ritar du dina bilder genom att först skapa en lista för var och en av dem, och sedan ställa in listans objekt med de färger som du vill att pixlarna ska ha.
 
 ```python
-wet= [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-dry= [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -62,7 +62,7 @@ humid = sense.get_humidity()
 
 --- task ---
 
-Bestäm nu vilken bild som ska visas. I det här exemplet visar vi `våt` bilden om luftfuktigheten är 40% eller högre och `torr` bilden om fuktigheten är under 40%.
+Bestäm nu vilken bild som ska visas. I det här exemplet visar vi `wet` (våt) bilden om luftfuktigheten är 40% eller högre och `dry` (torr) bilden om fuktigheten är under 40%.
 
 ```python
 humid = sense.get_humidity()
