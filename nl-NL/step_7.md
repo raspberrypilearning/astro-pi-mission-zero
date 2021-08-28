@@ -24,7 +24,7 @@ y=(255,255,0)
 Teken net als eerder je afbeeldingen door eerst een lijst voor elk van deze te maken en vervolgens de lijstitems in te stellen op de kleuren die je wilt dat je pixels zijn.
 
 ```python
-wet = [
+nat = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ wet = [
 ]
 
 
-dry = [
+droog = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,7 +55,7 @@ dry = [
 Voeg wat code toe om de luchtvochtigheid te krijgen:
 
 ```python
-humid = sense.get_humidity()
+vochtigheid = sense.get_humidity()
 ```
 
 --- /task ---
@@ -65,11 +65,11 @@ humid = sense.get_humidity()
 Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we de `wet` afbeelding weergeven als de luchtvochtigheidswaarde 40 % of meer is, en de `dry` afbeelding als de luchtvochtigheid lager is dan 40 %.
 
 ```python
-humid = sense.get_humidity()
-if humid >= 40:
-    sense.set_pixels(wet)
+vochtigheid = sense.get_humidity()
+if vochtigheid >= 40:
+    sense.set_pixels(nat)
 else:
-    sense.set_pixels(dry)
+    sense.set_pixels(droog)
 ```
 
 --- /task ---
