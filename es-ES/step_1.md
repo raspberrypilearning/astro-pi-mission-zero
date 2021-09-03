@@ -84,4 +84,4 @@ Nombres y edades de los miembros del equipo
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Píxel de seguimiento](https://code.org/api/hour/begin_raspberrypi_astropi.png)
