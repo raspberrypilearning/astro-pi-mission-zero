@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand panel.](images/sense-hat-emulator2.png)
+![Una captura de pantalla del emulador Trinket Sense Hat con tres líneas de código de inicio que se muestran en el panel de la izquierda.](images/sense-hat-emulator2.png)
 
 Este código se conecta al Astro Pi y se asegura de que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
 
@@ -34,7 +34,7 @@ sense.show_message("Astro Pi")
 
 Pulsa el botón **Run** (Ejecutar) y observa cómo el mensaje `Astro Pi` se desplaza por la pantalla LED.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
+![El emulador HAT Trinket Sense ejecutando un programa de ejemplo que desplaza el texto "Astro PI" a través de la matriz LED en letras blancas](images/M0_1.gif)
 
 --- /task ---
 
