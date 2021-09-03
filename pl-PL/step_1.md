@@ -25,9 +25,9 @@ title: Czego się nauczysz
 ---
 
 Dowiedz się więcej o jednostce Astro Pi i jak nią sterować, w tym:
-+ jak wyświetlać wiadomości i kolory
-+ Tworzyć obrazki
-+ Zmierzyć wilgotność przy użyciu Sense HAT
++ Jak wyświetlać wiadomości i kolory
++ Jak tworzyć obrazki
++ Jak zmierzyć wilgotność przy użyciu Sense HAT
 
 Ten projekt zawiera elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
