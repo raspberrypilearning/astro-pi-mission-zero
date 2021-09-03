@@ -1,6 +1,6 @@
 ## Invia il tuo programma
 
-Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il programma deve soddisfare alcune regole. Se il vostro codice le soddisfa, le regole visualizzate in basso sull’emulatore si evidenziano di colore verde quando il programma viene eseguito.
+Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il programma deve soddisfare alcune regole. Se il vostro codice le soddisfa, le regole visualizzate in basso [sull’emulatore](https://trinket.io/mission-zero) si evidenziano di colore verde quando il programma viene eseguito.
 
 ![Uno screenshot delle pagine di Mission Zero Trinket che mostra il pulsante di invio e i controlli dei criteri a sinistra. I primi due ("legge umidità" e "usa i LED") sono in arancione, quello in basso ("funziona senza errori") è verde ](images/validation.png)
 
