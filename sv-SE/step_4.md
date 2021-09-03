@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![visa meddelande i färg](images/show-message-color.gif)
+![Trinket Sense HAT emulatorn kör ett exempelprogram som rullar texten \"Astro Pi\" över LED-matrisen med röda bokstäver](images/M0_2.gif)
 
 --- task ---
 
-Du kan även ändra bakgrundsfärg på displayen. Välj en annan färg, och skapa ytterligare en variabel för att lagra den färgen. För att tala om för programmet att det ska använda din valda bakgrundsfärg lägger du till parametern `back_colour` till din kod:
+Du kan även ändra bakgrundsfärgen på displayen. Välj en annan färg, och skapa ytterligare en variabel för att lagra den färgen. För att tala om för programmet att det ska använda din valda bakgrundsfärg lägger du till parametern `back_colour` till din kod:
 
 ```python
 red = (255,0,0)

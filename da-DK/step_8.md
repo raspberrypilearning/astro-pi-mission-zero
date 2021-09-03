@@ -1,19 +1,20 @@
 ## Indsend dit bidrag
 
-Der er nogle få regler, som din kode skal følge, så du kan indsende den, og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, begynder reglerne nede i bunden af emulatoren at lyse grønt, når du kører programmet.
+Der er nogle få regler, som din kode skal følge, så du kan indsende den og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, så vil reglerne i bunden af [Sense HAT-emulatoren](https://trinket.io/mission-zero) lyse grønt, når du kører programmet.
 
-![Validering](images/validation.png)
+![Et skærmbillede af Mission Zero Trinket-siderne, der viser indsendelsesknappen (Submit) og kriterierne for deltagelse til venstre. De to øverste ("læs fugtighed" og "brug lysdioderne") er i orange tekst, den nederste ("kører uden fejl") er grøn ](images/validation.png)
 
 1. Foretag en luftfugtigsaflæsning.
-2. Tænd lysdioderne
-3. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Du bør ikke medtage nogen `while True` løkker i din kode, da dette holder dig kode kørende og forhindrer, at den afsluttes.
+1. Tænd lysdioderne
+1. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Du bør ikke medtage nogen `while True` løkker i din kode, da dette holder dig kode kørende og forhindrer, at den afsluttes.
+1. Test din kode med et par forskellige fugtighedsindstillinger (ved hjælp af skyderen) for at sikre, at den altid kører korrekt.
 
 Sørg også for at have opfyldt følgende kriterier:
 
 1. Sørg for, at din besked til astronauterne kun kører i op til 30 sekunder, da det er den tid, din kode kører på ISS
-2. Undgå at anvende metoder, der kræver indtastning
-3. Importér kun fra modulerne `sense_hat` (sense_hat), `time` (tid) og `random` (vilkårlig)
-4. Sørg for ikke at bruge bandeord
+1. Undgå at anvende metoder, der kræver indtastning
+1. Importér kun fra modulerne `sense_hat` (sense_hat), `time` (tid) og `random` (vilkårlig)
+1. Sørg for ikke at bruge bandeord
 
 Når alle reglerne er grønne, er du klar til at indsende.
 
@@ -35,13 +36,13 @@ Din lærers navn vises. Hvis det er det rigtige navn, skal du klikke på den gr�
 
 --- task ---
 
-Indtast dit holdnavn og navnene på holdets medlemmer. Disse bliver trykt på certifikatet, når din kode køres i rummet, så sørg for at stave dem korrekt!
+Indtast dit holdnavn og navnene på holdets medlemmer. Disse bliver trykt på certifikatet, når din kode er kørt i rummet, så sørg for at stave dem korrekt!
 
 --- /task ---
 
 --- task ---
 
-Tryk på knappen **Submit** (Indsend) for at indsende din kode. Din lærer eller mentor får en E-mail for at bekræfte indsendelsen.
+Tryk på knappen **Submit** (Indsend) for at indtaste din kode. Din lærer eller mentor får en e-mail for at bekræfte dit bidrag.
 
 --- /task ---
 

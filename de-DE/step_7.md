@@ -1,6 +1,6 @@
 ## Zeige die Luftfeuchtigkeit an
 
-Du kannst deinen Feuchtigkeitsmesswert auch mit einem Bild kombinieren, um die Luftfeuchtigkeit auch grafisch anzuzeigen. Beispielsweise könntest du einen Ozean für hohe Luftfeuchtigkeit und eine Wüste für niedrige Luftfeuchtigkeit anzeigen:
+Du kannst deinen Feuchtigkeitsmesswert auch mit einem Bild kombinieren, um die Luftfeuchtigkeit grafisch anzuzeigen. Beispielsweise könntest du einen Ozean für hohe Luftfeuchtigkeit und eine Wüste für niedrige Luftfeuchtigkeit anzeigen:
 
 ![Nass und trocken](images/wet-dry.png)
 
@@ -24,7 +24,7 @@ y=(255,255,0)
 Zeichne deine Bilder wie zuvor, indem du zunächst eine Liste für jedes Bild erstellst und dann die Listenelemente auf die Farben einstellst, die du für deine Pixel verwenden möchtest.
 
 ```python
-nass = [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ nass = [
 ]
 
 
-trocken = [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -52,24 +52,24 @@ trocken = [
 
 --- task ---
 
-Füge Code hinzu, um die Luftfeuchtigkeit zu ermitteln:
+Füge etwas Code hinzu, um die Luftfeuchtigkeit zu ermitteln:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Entscheide dich jetzt, welches Bild angezeigt werden soll. In diesem Beispiel wird das Bild `nass` angezeigt, wenn der Feuchtigkeitswert 40% oder mehr beträgt und das `Trocken-`Bild, wenn die Luftfeuchtigkeit unter 40% liegt.
+Entscheide dich jetzt, welches Bild angezeigt werden soll. In diesem Beispiel werden wir das Bild `wet` anzeigen, wenn der Feuchtigkeitswert 40% oder mehr beträgt und das Bild `dry`, wenn die Luftfeuchtigkeit unter 40% liegt.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
-    sense.set_pixels(nass)
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(trocken)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
@@ -83,5 +83,9 @@ Verwende den Feuchtigkeitsregler, um eine Luftfeuchtigkeit am Emulator einzustel
 --- task ---
 
 Ändere deinen Code so, dass dein Programm den Astronauten die Luftfeuchtigkeit auf die von dir gewählte Weise anzeigt.
+
+--- /task ---
+
+--- task --- Teste deinen Code mit einigen unterschiedlichen Feuchtigkeitseinstellungen (mit dem Schieberegler) um sicherzustellen, dass er immer korrekt läuft. Wenn du dem obigen Beispiel gefolgt bist, wird sowohl ein Bild angezeigt, wenn die Luftfeuchtigkeit auf einen Wert von weniger als 40% eingestellt ist, als auch wenn sie auf mehr als 40% eingestellt ist?
 
 --- /task ---

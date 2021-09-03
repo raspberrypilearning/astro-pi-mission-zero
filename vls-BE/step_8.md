@@ -1,19 +1,20 @@
 ## Je project indienen
 
-Er zijn een paar regels die jouw code moet volgen zodat je het kunt indienen om te werken in het internationaal ruimtestation. Indien jouw code deze regels volgt, dan zullen de regels onderaan de emulator groen oplichten wanneer je het programma start.
+Er zijn enkele regels die je code moet volgen zodat je ze kan indienen om te werken op het internationaal ruimtestation. Als je code hieraan voldoet, zullen de regels onderaan de [Sense HAT-emulator](https://trinket.io/mission-zero) groen oplichten als je het programma laat werken.
 
-![Valideren](images/validation.png)
+![Een screenshot van de Mission Zero-Trinket-pagina's die de indien-knop tonen en de controlecriteria aan de linkerkant. De bovenste twee ("read humidity" en "use the LEDs") stain in orange test, de onderste ("runs without any errors") is green ](images/validation.png)
 
 1. Doe een vochtigheidsmeting.
-2. De LED's laten oplichten
-3. Zorg ervoor dat jouw code helemaal tot het einde werkt zonder dat er fouten optreden. Je mag geen `while True` lessen in je code zetten omdat dit ervoor zorgt dat je code blijft draaien en voorkomt dat ze zal stoppen.
+1. Laat de LED's oplichten.
+1. Zorg ervoor dat je code helemaal tot het einde werkt zonder dat er fouten optreden. Je mag geen `while True` lussen in je code zetten omdat dit ervoor zorgt dat je code blijft werken en voorkomt dat ze zal stoppen.
+1. Test je code met een aantal andere vochtigheidsinstellingen (gebruik de schuifknop) om ervoor te zorgen dat ze altijd correct zal werken.
 
 Zorg er ook voor dat je aan de volgende voorwaarden voldoet:
 
 1. Zorg ervoor dat je boodschap aan de astronauten niet langer duurt dan 30 seconden, omdat dit de looptijd is dat je code zal werken in het ISS
-2. Vermijd het gebruiken van methodes die invoer nodig hebben
-3. Importeer uitsluitend van de `sense_hat`, `time`, en `random` modules
-4. Zorg ervoor dat je er geen vloek bij doet
+1. Vermijd het gebruiken van methodes die invoer nodig hebben
+1. Importeer uitsluitend van de `sense_hat`, `time`, en `random` modules
+1. Zorg ervoor dat je er geen vloek bij doet
 
 Zodra de regels allemaal groen zijn, ben je klaar om in te dienen.
 
@@ -27,7 +28,7 @@ Vul je klascode in het vakje onderaan in - je leraar of mentor zal je vertellen 
 
 --- task ---
 
-De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op groen **Ga verder naar formulier** knop.
+De naam van je leraar zal verschijnen. Als het de juiste naam is, klik dan op de groene **Continue to form** knop.
 
 ![Ga verder naar het formulier](images/continue-to-form.png)
 
@@ -35,13 +36,13 @@ De naam van je leraar zal verschijnen. Indien het de juiste naam is, klik op gro
 
 --- task ---
 
-Vermeld je teamnaam en de namen van de teamleden. Deze worden geprint op een certificaat zodra je code in de ruimte werkt, dus zorg ervoor dat je ze juist hebt gespeld!
+Typ de naam van je team en de namen van de teamleden. Deze worden afgedrukt op het certificaat nadat je code in de ruimte werkte, dus zorg ervoor dat je ze juist spelt!
 
 --- /task ---
 
 --- task ---
 
-Druk op de **Indienen** knop om je code in te voeren. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
+Druk op de **Submit** knop om je code in te dienen. Je leraar of mentor zal een email ontvangen om je deelname te bevestigen.
 
 --- /task ---
 

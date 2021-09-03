@@ -1,21 +1,22 @@
-## Enviar tu proyecto
+## Envía tu proyecto
 
 Hay varias reglas que tu código debe respetar para que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del emulador se iluminarán en verde cuando ejecutes el programa.
 
-![Validación](images/validation.png)
+![Una captura de pantalla de las páginas del Trinket de Mission Zero que muestra el botón de envío y las verificaciones de criterios a la izquierda. Los dos superiores ("lectura de humedad" y "utilizan los LED") están en texto naranja, el inferior ("ejecuta sin errores") es verde](images/validation.png)
 
 1. Toma una lectura de la humedad.
-2. Ilumina los LED.
-3. Asegúrate de que el código es ejecutado completamente hasta el final sin errores. No deberías incluir ningún bucle `while True` en tu código ya que esto mantendrá el código funcionando de forma indefinida y evitará que se termine.
+1. Ilumina los LED.
+1. Asegúrate de que tu código se ejecuta hasta el final sin que se produzcan errores. No deberías incluir ningún bucle `while True` en tu código ya que esto mantendrá el código funcionando de forma indefinida y evitará que se termine.
+1. Prueba tu código con algunas configuraciones de humedad diferentes (usando el control deslizante) para asegurarte de que siempre se ejecutará correctamente.
 
-Asegúrate también de que has cumplido los siguientes criterios:
+También asegúrate de haber cumplido con los siguientes criterios:
 
 1. Asegúrate de que tu mensaje para los astronautas no dure más de 30 segundos, puesto que esta es la duración máxima que tu código tiene para ejecutarse en la ISS
-2. Evita usar métodos que requieran entrada de datos
-3. Solamente importa desde los módulos `sense_hat`, `time` y `random`
-4. Asegúrate de que no incluyes palabras soeces
+1. Evita usar métodos que requieran entrada de datos
+1. Solamente importa desde los módulos `sense_hat`, `time` y `random`
+1. Asegúrate de no incluir lenguaje o imágenes inapropiadas
 
-Podrás realizar el envío de tu proyecto una vez que todas las reglas se hayan iluminado en verde.
+Podrás realizar el envío de tu proyecto una vez que todos los requisistos se hayan iluminado en verde.
 
 --- task ---
 
@@ -35,7 +36,7 @@ Aparecerá el nombre de tu profesor. Si es el nombre correcto, haz clic en el bo
 
 --- task ---
 
-Introduce el nombre de tu equipo y los nombres de sus miembros. Una vez tu código sea ejecutado en el espacio, se imprimirán en el certificado. ¡Asegúrate de escribirlos correctamente!
+Introduce el nombre de tu equipo y los nombres de sus miembros. Una vez tu código se ejecute en el espacio, se imprimirán en el certificado. ¡Asegúrate de escribirlos correctamente!
 
 --- /task ---
 
@@ -47,6 +48,6 @@ Pulsa el botón **Submit** para enviar tu proyecto. Tu profesor o mentor recibir
 
 --- task ---
 
-Si quieres, ¡puedes compartir el enlace de tu código en las redes sociales para contarles a los demás que tu código será ejecutado en el espacio!
+Si quieres, ¡puedes compartir el enlace de tu código en las redes sociales para contarles a los demás que tu código va a ejecutarse en el espacio!
 
 --- /task ---

@@ -2,7 +2,7 @@
 
 Astro Pi LED-ekraanid näitavad ka erinevaid värve. Värvi saad määrata luues muutuja ja andes sellele RGB-värviväärtuse.
 
-Siin saad õppida, kuidas luua kõiki värve kasutades siin erinevaid punase, rohelise ja sinise proportsioone:
+Siin saad õppida, kuidas luua kõiki värve kasutades erinevaid punase, rohelise ja sinise proportsioone:
 
 [[[generic-theory-colours]]]
 
@@ -14,7 +14,7 @@ Vali värv ja leia selle värvi RGB-väärtus. Enda abistamiseks võid kasutada 
 
 --- task ---
 
-Oma valitud värvi säilitamiseks loo muutuja. Kui sa näiteks punase värvi valisid, siis kirjutaksid sellise koodirea:
+Oma valitud värvi säilitamiseks loo muutuja. Kui valisid näiteks punase värvi, siis kirjutaksid sellise koodirea:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Nüüd saad oma teksti kuvada enda valitud värvidega! Ütlemaks programmile, et ta kasutaks sinu poolt loodud värvi, lisa sinu teksti kuvavale koodile `text_colour` parameeter:
+Nüüd saad oma teksti kuvada enda valitud värvidega! Selleks, et programm kasutaks sinu poolt loodud värvi, lisa sinu teksti kuvavale koodile `teksti_värvuse` parameeter:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![näita sõnumit värviliselt](images/show-message-color.gif)
+![Trinket Sense HAT-i emulaator, kus on käivitatud näidisprogramm, mis kerib punaste tähtedega teksti \"Astro Pi\" üle LED-maatriksi](images/M0_2.gif)
 
 --- task ---
 
-Samuti saad muuta ekraani taustavärvi. Vali mõni teine värv ja selle säilitamiseks loo uus muutuja. Kui soovid programmile öelda, et ta kasutaks sinu valitud taustavärvi, siis lisa oma koodile `back_colour` parameeter:
+Samuti saad muuta ekraani taustavärvi. Vali mõni teine värv ja loo selle säilitamiseks uus muutuja. Kui soovid programmile öelda, et ta kasutaks sinu valitud taustavärvi, lisa oma koodile `tausta_värvi` parameeter:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 --- task ---
 
-Muuda tervitusteksti ja värvi; millise sõnumi sa rahvusvahelise ISS-i astronautidele saadad?
+Muuda tervitusteksti ja värvi — millise sõnumi sa ISS-i astronautidele saadad?
 
 --- /task ---

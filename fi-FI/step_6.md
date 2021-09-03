@@ -1,10 +1,10 @@
 ## Mittaa ilmankosteus
 
-Astro Pi: n kosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
+Astro Pin ilmankosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
 
-![Viesti kosteudesta](images/degrees-message.gif)
+![Trinket Sense HAT -emulaattori ajamassa esimerkkiohjelmaa, joka vierittää ilmankosteuden arvoa LED-matriisin läpi valkoisin kirjaimin](images/M0_3.gif)
 
-Astro Pi mittaa ISS:n kosteuden prosentteina veden pitoisuudesta ilmassa.
+Astro Pi mittaa ISS:n ilmankosteuden prosentteina veden pitoisuudesta ilmassa.
 
 Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, joten antamalla heidän tietää, että avaruusaseman ilmankosteus on tavanomaisella alueella, rauhoittaa heitä.
 
@@ -12,41 +12,41 @@ Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, jot
 
 --- task ---
 
-Lisää tämä koodi kosteuden lukemiseksi:
+Lisää tämä koodi ilmankosteuden arvon lukemiseksi:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
-Tämä viiva mittaa nykyisen kosteuden ja tallentaa mitatun arvon muuttujaan `humid`.
+Tämä rivi mittaa nykyisen ilmankosteuden, ja tallentaa mitatun arvon muuttujaan `humid`.
 
 --- /task ---
 
 --- task ---
 
-Kosteus tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
+Ilmankosteus tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
 
 --- task ---
 
-Lisää tämä koodirivi näyttääksesi nykyisen kosteuden vieritysviestinä näytöllä:
+Lisää tämä koodirivi näyttääksesi nykyisen ilmankosteuden vierivänä viestinä näytöllä:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
-`str()`-osa muuntaa kosteuden numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
+`str()`-osa muuntaa ilmankosteuden numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
 
 --- /task ---
 
 --- task ---
 
-Voit myös näyttää kosteuden osana toista viestiä liittämällä viestisi osat käyttäen merkkiä `+`.
+Voit myös näyttää ilmankosteuden osana toista viestiä liittämällä viestisi osat yhteen käyttäen merkkiä `+`.
 
 ```python
 sense.show_message( "It is " + str(humid) + " %" )
@@ -54,8 +54,8 @@ sense.show_message( "It is " + str(humid) + " %" )
 
 --- /task ---
 
-Oikea Astro Pi mittaa sen ympärillä olevan kosteuden, mutta voit liikuttaa kosteuden liukusäädintä Sense HAT -emulaattorissa simuloidaksesi kosteuden muutoksia ja testataksesi koodiasi.
+Oikea Astro Pi mittaa sen ympärillä olevan ilmankosteuden, mutta voit liikuttaa kosteuden liukusäädintä Sense HAT -emulaattorissa simuloidaksesi kosteuden muutoksia ja testataksesi koodiasi.
 
-![Kosteuden liukusäädin](images/humidity-slider.png)
+![Merkitty ruutukaappaus Sense HAT -emulaattorista, jossa on koodi-ikkuna vasemmalla ja emulaattori oikealla. Liukusäädin, jota käytetään ilmankosteuden muuttamiseen, on ympyröitynä oikeassa yläkulmassa](images/humidity-slider.png)
 
-**Huomautus:** Saatat ihmetellä, miksi kosteuden liukusäädin näyttää kosteuden kokonaislukuna, mutta saamasi lukema on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi kosteuden mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.
+**Huomautus:** Saatat ihmetellä, miksi ilmankosteuden liukusäädin näyttää ilmankosteuden kokonaislukuna, mutta saamasi lukema on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi ilmankosteuden mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.

@@ -1,25 +1,26 @@
 ## Skicka ditt bidrag
 
-Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dessa, kommer reglerna längst ner i emulatorn att tända grönt när du kör ditt program.
+Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem kommer reglerna längst ner i [Sense HAT-emulator](https://trinket.io/mission-zero) att lysa grönt när du kör programmet.
 
-![Validering](images/validation.png)
+![En skärmdump av Mission Zero Trinket -sidorna som visar inlämningsknappen och kriteriekontrollerna till vänster. De två översta ("läs fuktighet" och "använd lysdioderna") är i orange text, den nedre ("körningar utan fel") är grön ](images/validation.png)
 
 1. Avläs luftfuktigheten.
-2. Tänd lysdioderna
-3. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. Du bör inte inkludera någon `while True` loopar i din kod eftersom detta kommer förhindra den från att slutföras.
+1. Tänd lysdioderna
+1. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. Du bör inte inkludera någon `while True` loopar i din kod eftersom detta kommer förhindra den från att slutföras.
+1. Testa din kod med några olika fuktinställningar (med reglaget) för att se till att den alltid kommer att köras korrekt.
 
 Kontrollera även att följande kriterier är uppfyllda:
 
 1. Kontrollera att ditt meddelande till astronauterna inte körs längre än 30 sekunder, eftersom detta är den tid som din kod kommer att köras på ISS
-2. Undvik att använda metoder som kräver inmatning
-3. Importera bara från modulerna `sense_hat`, `time` och `random`
-4. Se till att du inte inkluderar några svordomar
+1. Undvik att använda metoder som kräver inmatning
+1. Importera bara från modulerna `sense_hat`, `time` och `random`
+1. Se till att du inte inkluderar några svordomar
 
 När alla regler är gröna, är du redo att skicka.
 
 --- task ---
 
-Ange din klassrumskod i rutan längst ner - din lärare talar om för dig vad koden är.
+Ange din klassrumskod i rutan längst ner – din lärare eller mentor berättar vad din kod är.
 
 **Noteringar för lärare och mentorer** finns i steget [Introduktion](https://projects.raspberrypi.org/sv-SE/projects/astro-pi-mission-zero/1).
 

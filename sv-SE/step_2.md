@@ -1,16 +1,16 @@
 ## Vad är en Astro Pi?
 
-En Astro Pi är en Raspberry Pi-dator monterad i en särskilt utformad låda för förutsättningarna i rymden. Den har även ett tilläggskort som heter Sense HAT, som är särskilt utvecklat för Astro Pi-uppdraget. Sense HAT har en joystick, en LED-display och sensorer för att lagra temperatur, luftfuktighet, tryck och riktning.
+En Astro Pi är en Raspberry Pi-dator monterad i en särskilt utformad låda för förutsättningarna i rymden. Den har även ett tilläggskort som heter Sense HAT, som är särskilt utvecklat för Astro Pi-uppdraget. Sense HAT har en joystick, en LED-display och sensorer för inspelning av ljusförhållanden, temperatur, fukt, tryck och orientering.
 
-Här är en riktig Astro Pi-enhet på den internationella rymdstationen som kör kod skriven av studenter. Det är här din kod så småningom kommer att köras! 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe> 
+Här är en ursprunglig Mark I Astro Pi-enhet på den internationella rymdstationen, som kör någon kod skriven av studenter. Din kod kommer så småningom att köras på en ny version av Astro Pi-datorer!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
 
-För det här uppdraget kommer du att använda Sense HAT-emulatorn. Emulatorn är ett program som simulerar alla funktioner i Astro Pi i din webbläsare.
+För detta uppdrag kommer du att använda Sense HAT-emulatorn. Emulatorn är ett program som simulerar alla funktioner i Astro Pi i din webbläsare.
 
-![Sense HAT-emulator](images/sense-hat-emulator.png)
+![En märkt skärmdump av Sense HAT -emulatorn med kodfönstret till vänster och emulatorn till höger.](images/sense-hat-emulator.png)
 
-Det är få skillnader mellan den riktiga och den simulerade versionen av Sense HAT:
+Det finns några skillnader mellan den verkliga och den emulerade Sense HAT:
 
 - I emulatorn kan du ställa in temperaturen, trycket och luftfuktigheten själv genom att använda skjutreglage, medan den riktiga Sense HAT i Astro Pi använder sensorer för att mäta dessa parametrar i omgivningen.
 

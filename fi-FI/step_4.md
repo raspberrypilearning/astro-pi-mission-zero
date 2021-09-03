@@ -14,7 +14,7 @@ Valitse väri ja selvitä värin RGB-arvo. Voit käyttää [värinvalitsinta](ht
 
 --- task ---
 
-Luo muuttuja tallentaaksesi valitsemasi värin. Jos esimerkiksi valitsit punaisen, kirjoitat tämän koodirivin:
+Luo muuttuja tallentaaksesi valitsemasi värin. Jos esimerkiksi valitsisit punaisen, kirjoittaisit tämän koodirivin:
 
 ```python
 red = (255,0,0)
@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![näytä viesti värillisenä](images/show-message-color.gif)
+![Trinket Sense HAT -emulaattori ajamassa esimerkkiohjelmaa, joka vierittää tekstiä \"Astro Pi\" LED-matriisin läpi käyttäen punaisia kirjaimia](images/M0_2.gif)
 
 --- task ---
 

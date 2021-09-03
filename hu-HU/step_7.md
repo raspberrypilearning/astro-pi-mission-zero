@@ -1,4 +1,4 @@
-## Jelenítsd meg a páratartalmat!
+## Reagálj a páratartalomra!
 
 A leolvasott páratartalmat egy képpel is összekapcsolhatod, hogy a páratartalmat grafikusan is szemléltesd. Például megjeleníthetsz egy óceánt magas páratartalomnál, és egy sivatagot alacsony páratartalomnál:
 
@@ -55,7 +55,7 @@ dry = [
 Add hozzá a kódot, hogy megkapd a páratartalmat:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Most döntsd el, melyik képet szeretnéd megjeleníteni. Ebben a példában mi a `wet` („nedves”) képet jelenítjük majd meg, ha a mért páratartalom 40% vagy annál magasabb, és a `dry` („száraz”) képet, ha a páratartalom 40%-nál alacsonyabb.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -83,5 +83,9 @@ Használd a páratartalom-csúszkát az emulátoron a páratartalom beállítás
 --- task ---
 
 Változtasd meg a kódot, hogy a programod az általad választott módon jelenítse meg a páratartalmat az űrhajósok számára.
+
+--- /task ---
+
+--- task --- Teszteld a kódodat több különböző páratartalom-beállítással (ehhez mozgasd a csúszkát), hogy megbizonyosodj róla, mindig helyesen fut-e. Ha követted a fenti példát, megjelenik-e valamelyik kép akkor is, ha 40% alatt van a páratartalom, és akkor is, ha 40% felett van?
 
 --- /task ---

@@ -1,39 +1,38 @@
 ## Laat een beeld zien
 
-Je kunt beelden tonen op de Astro Pi's LED matrix. Misschien kan je begroeting voor de astronauten een beeld of een patroon omvatten, samen met of in plaats van een geschreven boodschap?
+Je kan foto's tonen op de LED-matrix van de Astro Pi. Misschien kan je begroeting voor de astronauten een foto of een patroon bevatten, samen met of in plaats van een geschreven boodschap?
 
-![Astronaut](images/astronaut-pic.png)
+![Een screenshot van het emulator-venster dat de vluchteenheid toont met de LED-matrix waarop een foto van de vluchteenheid zelf getoond wordt](images/fu-pic.png)
 
 --- task ---
 
-Onderaan je programma kun je wat kleurvariabelen creëren om de kleuren te definiëren waarmee je je tekening wilt maken. Je kunt zoveel kleuren gebruiken als je wil, maar in dit voorbeeld houden wij ons bij twee — wit (`w`) en zwart (`b`).
+Onderaan je programma kun je wat kleurvariabelen maken om de kleuren waarmee je je tekening wil maken te definiëren. Je kan zoveel kleuren gebruiken als je wil, maar in dit voorbeeld zullen we maar een paar kleuren gebruiken - rood (`r`), wit (`w`), zwart (`b`), en twee tinten grijs (`g` en `s`). Merk op dat de tinten gemaakt worden door de hoeveelheid licht in alle drie de kanalen te verminderen terwijl de verhoudingen gelijk blijven.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
 ```
 
-**Aandacht:** Deze keer, is het een goed idee om de kleurvariabelen een enkele letternaam te geven, omdat dit tijd zal besparen bij de volgende stap, waar je ze herhaaldelijk zult gaan typen. Daarenboven, zal het gebruiken van enkele letters het gemakkelijker maken om de tekening te zien die je zult maken.
+**Opmerking:** Deze keer is het een goed idee om de kleurvariabelen namen met één letter te geven, omdat dit tijd zal besparen in de volgende stap, waar je ze vaak zal moeten typen. Bovendien maakt het gebruik van aparte letters het eenvoudiger om de tekening die je maakt te zien.
 
 --- /task ---
 
 --- task ---
 
-Onderaan je nieuwe variabelen, maak een lijst met 64 items. Ieder item vertegenwoordigt een pixel op de LED matrix, en komt overeen met een van de kleurvariabelen die je hebt gedefinieerd. Maak je tekening door een variabele aan te brengen waar je de toegekende kleur wilt laten verschijnen. We hebben een een astronaut getekend door het gebruiken van de zwarte (`b`) pixels als achtergrond en de witte (`w`) pixels om het ruimtepak van de astronaut te tekenen:
+Onder je nieuwe variabelen, maak je een lijst van 64 items. Elk item stelt een pixel op de LED-matrix voor en komt overeen met één van de kleurvariabelen die je definieerde. Maak je tekening door een variabele te zetten op de plaats waar je de daaraan toegewezen kleur wil zien verschijnen. We hebben een Astro Pi getekend door de zwarte (`b`) pixels als achtergrond te gebruiken en de grijze (`g`) pixels om de metalen onderdelen van het Astro Pi-omhulsel te tekenen:
 
 ```python
-picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
-
 --- /task ---
 
 --- task ---
@@ -54,7 +53,7 @@ Druk op **Run** om je tekening te zien verschijnen.
 
 --- task ---
 
-Misschien wil je een soort code toevoegen om een korte wachttijd op te nemen (of `sleep` (slaap)) nadat de tekening is tentoongesteld. Dit zal de astronauten de tijd geven om jouw tekening te zien voordat het volgende deel van je boodschap verschijnt. Voeg toe, bovenaan je programma:
+Misschien wil je een code toevoegen om een korte wachttijd toe te voegen (or `sleep`) nadat de tekening getoond wordt. Dit geeft de astronauten de tijd om je tekening te zien voor het volgende deel van je boodschap verschijnt. Voeg dit bovenaan je programma toe:
 
 ```python
 from time import sleep

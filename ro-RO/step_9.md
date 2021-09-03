@@ -16,12 +16,10 @@ Alternativ, ai putea dori să încerci unul dintre celelalte proiecte Astro Pi:
 
 + Recreează jocul clasic [Pong](https://projects.raspberrypi.org/ro-RO/projects/sense-hat-pong){:target="_blank"}
 
-
 ***
 Acest proiect a fost tradus de voluntarii:
 
 Gelu Ungur
-
 Manuela-Lidia Grindei
 
 Datorită voluntarilor, putem oferi oamenilor din întreaga lume șansa de a învăța în propria lor limbă. Ne poți ajuta să ajungem la mai multe persoane, ajutând la traducere ca și voluntar - mai multe informații la [rpf.io/translate](https://rpf.io/translate).

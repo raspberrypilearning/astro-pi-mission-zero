@@ -7,21 +7,12 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Introductie
-  - 
-    title: Wat is een Astro Pi?
-  - 
-    title: Laat een boodschap zien
-  - 
-    title: Voeg er wat kleur aan toe
-  - 
-    title: Laat een beeld zien
-  - 
-    title: Meet de vochtigheid
-  - 
-    title: Laat de vochtigheid zien
-  - 
-    title: Je project indienen
-  - 
-    title: "Uitdaging: meer Aspro Pi projecten"
+  - title: Introductie
+  - title: Wat is een Astro Pi?
+  - title: Laat een boodschap zien
+  - title: Voeg er wat kleur aan toe
+  - title: Laat een beeld zien
+  - title: Meet de vochtigheid
+  - title: Laat de vochtigheid zien
+  - title: Je project indienen
+  - title: 'Uitdaging: meer Aspro Pi projecten'

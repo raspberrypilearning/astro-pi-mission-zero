@@ -9,11 +9,10 @@ last_tested: 2018-06-12
 steps:
   - title: Introduktion
   - title: Vad är en Astro Pi?
-  - title: Visa ett meddelande
+  - title: Visa ett meddelande och välj ett namn för de nya Astro Pi -datorerna
   - title: Lägg till lite färg
   - title: Visa en bild
   - title: Mät luftfuktigheten
   - title: Visa luftfuktigheten
   - title: Skicka ditt bidrag
-  - title: "Utmaning: fler Astro Pi-projekt"
- 
+  - title: 'Utmaning: fler Astro Pi-projekt'

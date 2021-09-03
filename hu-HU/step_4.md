@@ -14,7 +14,7 @@ Válassz ki egy színt, és keresd ki annak a színnek az RGB értékét. Egy [s
 
 --- task ---
 
-Hozz létre egy változót a válaszott színed tárolására. Például, ha a vöröset választottad volna, ezt a kódsort írnád:
+Hozz létre egy változót a válaszott színed tárolására. Például, ha a vöröset választottad, ezt a kódsort írd:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Mást már meg tudod jeleníteni az üzeneteted az általad választott színben! Utasítsd a programot, hogy az általad létrehozott színben jelenítse meg az üzenetedet a `text_colour` paraméter hozzádásával:
+Most már meg tudod jeleníteni az üzenetedet az általad választott színben! Utasítsd a programot, hogy az általad létrehozott színben jelenítse meg az üzenetedet a `text_colour` paraméter hozzáadásával:
 
 ```python
 red = (255,0,0)
@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![színes üzenetek megjelenítése](images/show-message-color.gif)
+![A Trinket Sense HAT emulátor egy példakódot futtat, amely az \"Astro PI\" szöveget futtatja végig a LED-mátrixon piros betűkkel](images/M0_2.gif)
 
 --- task ---
 

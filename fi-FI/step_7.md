@@ -1,6 +1,6 @@
-## Näytä ilmankosteus
+## Reagoi ilmankosteuteen
 
-Voit yhdistää kosteuslukemasi kuvaan osoittamaan kosteuden myös graafisella tavalla. Esimerkiksi, voit näyttää valtameren korkealle kosteudelle, ja aavikon matalalle kosteudelle:
+Voit yhdistää ilmankosteuden lukemasi kuvaan näyttääksesi ilmankosteuden myös graafisella tavalla. Esimerkiksi voit näyttää valtameren korkealle kosteudelle ja aavikon matalalle kosteudelle:
 
 ![Märkä ja kuiva](images/wet-dry.png)
 
@@ -52,20 +52,20 @@ dry = [
 
 --- task ---
 
-Lisää koodi kosteuden saamiseksi:
+Lisää koodia ilmankosteuden saamiseksi:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `wet`, jos kosteuslukema on 40% tai sen yli, ja kuvan `dry`, jos kosteuslukema on alle 40%.
+Päätä nyt, minkä kuvan haluat esitettäväksi. Tässä esimerkissä näytämme kuvan `wet`, jos ilmankosteuslukema on 40% tai sen yli, ja kuvan `dry`, jos ilmankosteuslukema on alle 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Aseta kosteus emulaattoriin kosteuden liukusäätimellä. Suorita ohjelma ja tarkista, että kyseiselle kosteudelle valittu kuva näytetään oikein.
+Aseta ilmankosteus emulaattoriin käyttäen ilmankosteuden liukusäädintä. Suorita ohjelma ja tarkista, että kyseiselle ilmankosteudelle valittu kuva näytetään oikein.
 
 --- /task ---
 
 --- task ---
 
 Muuta koodiasi niin, että ohjelma näyttää kosteuden astronauteille omalla valitsemallasi tavalla.
+
+--- /task ---
+
+--- task --- Testaa koodiasi muutamilla erilaisilla ilmankosteusarvoilla (liukusäädintä käyttäen) varmistaaksesi, että se toimii aina oikein. Jos olet seurannut yllä olevaa esimerkkiä, onko kuva näkyvissä silloin, kun ilmankosteuden arvo on alle 40 %, sekä silloin, kun se on yli 40 %?
 
 --- /task ---

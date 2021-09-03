@@ -17,7 +17,7 @@ Alege o culoare și află valoarea RGB a culorii. Ai putea folosi un [selector d
 Creează o variabilă pentru a stoca culoarea aleasă. De exemplu, dacă ai selecta roșu, ai scrie această linie de cod:
 
 ```python
-rosu = (255,0,0)
+red = (255,0,0)
 ```
 
 --- /task ---
@@ -27,22 +27,22 @@ rosu = (255,0,0)
 Acum poți afișa textul tău în culoarea dorită! Pentru a spune programului să utilizeze culoarea pe care ai creat-o, adaugă un parametru `text_colour` la codul care afișează textul tău:
 
 ```python
-rosu = (255,0,0)
-sense.show_message("Astro Pi", text_colour=rosu)
+red = (255,0,0)
+sense.show_message("Astro Pi", text_colour=red)
 ```
 
 --- /task ---
 
-![afișează mesajul colorat](images/show-message-color.gif)
+![Emulatorul Trinket Sense HAT care rulează un program de probă care derulează textul \"Astro Pi\" prin matricea LED folosind litere roșii](images/M0_2.gif)
 
 --- task ---
 
 De asemenea, poți schimba culoarea de fundal a afișajului. Alege o altă culoare și creează o altă variabilă pentru a stoca acea culoare. Pentru a spune programului să utilizeze culoarea de fundal aleasă, adaugă parametrul `back_colour` la codul tău:
 
 ```python
-rosu = (255,0,0)
-verde = (0,255,0)
-sense.show_message("Astro Pi", text_colour=rosu, back_colour=verde)
+red = (255,0,0)
+green = (0,255,0)
+sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 ```
 
 --- /task ---

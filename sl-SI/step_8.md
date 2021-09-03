@@ -1,19 +1,20 @@
 ## Pošljite svoj prispevek
 
-Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če je vaša koda v skladu s pravili, se bodo pravila na dnu emulatorja ob zagonu programa obarvala zeleno.
+Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če jih vaša koda upošteva, bodo pravila na dnu [Sense HAT emulatorja](https://trinket.io/mission-zero) ob zagonu programa zasvetila zeleno.
 
-![Potrditev](images/validation.png)
+![Posnetek zaslona strani Mission Zero Trinket, ki prikazuje gumb za oddajo in preverjanja meril na levi. Zgornji merili (v"branje vlažnost" in "uporaba LED") sta v oranžni, spodnje merilo ("program deluje brez napak") je zeleno ](images/validation.png)
 
 1. Odčitajte vlažnost.
-2. Vklopite zaslon LED.
-3. Prepričajte se, da vaša koda v celoti deluje brez napak. Ne smete dodati nobenih `while True` zank, saj bodo povzročile, da se vaša koda nikoli ne ustavi.
+1. Vklopite zaslon LED.
+1. Prepričajte se, da vaša koda v celoti deluje brez napak. Ne smete dodati nobenih `while True` zank, saj bodo povzročile, da se vaša koda nikoli ne ustavi.
+1. Preizkusite kodo z nekaj različnimi nastavitvami vlažnosti (z drsnikom), da zagotovite, da vedno deluje pravilno.
 
 Prepričajte se tudi, da ste upoštevali naslednje kriterije:
 
 1. Prepričajte se, da vaše sporočilo astronavtom ne bo trajalo več kot 30 sekund, saj bo tako dolgo vaša koda prikazana na postaji ISS.
-2. Izogibajte se uporabi metod, ki zahtevajo vnose.
-3. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
-4. Ne vključujte žaljiviih besed ali slik.
+1. Izogibajte se uporabi metod, ki zahtevajo vnose.
+1. Uvažajte le iz modulov `sense_hat`, `time` in `random`.
+1. Ne vključujte žaljiviih besed ali slik.
 
 Ko so vsa pravila obarvana zeleno, ste pripravljeni na pošiljanje.
 
@@ -35,7 +36,7 @@ Pojavilo se bo ime vašega učitelja. Če je ime pravilno, kliknite na zelen gum
 
 --- task ---
 
-Vnesite ime svoje skupine in imena članov skupine. Ko bo koda zagnana v vesolju, bodo ta namreč natisnjena na certifikatu, zato se prepričajte, da so črkovana pravilno!
+Vnesite ime svoje skupine in imena članov skupine. Ko bo koda zagnana v vesolju, bodo ta natisnjena na certifikatu, zato se prepričajte, da so črkovana pravilno!
 
 --- /task ---
 

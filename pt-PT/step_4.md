@@ -1,20 +1,20 @@
 ## Adiciona um pouco de cor
 
-Os ecrãs LED do Astro Pi também podem exibir cores. Podes especificar uma cor ao criar uma variável e atribui-lhe um valor de cor RGB.
+Os LEDs do Astro Pi também podem exibir cores. Pode especificar uma cor, criando uma variável e atribuir-lhe um valor de cor RGB (Red, Green, Blue - Vermelho, Verde, Azul).
 
-Podes aprender como todas as cores podem ser criadas usando diferentes proporções de vermelho, verde e azul, vê aqui:
+Pode aprender como todas as cores podem ser criadas usando diferentes proporções de vermelho, verde e azul aqui:
 
 [[[generic-theory-colours]]]
 
 --- task ---
 
-Escolhe uma cor e descobre o valor RGB dessa cor. Para te ajudar, podes usar um [seletor de cores](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
+Escolha uma cor e descubra o valor RGB dessa cor. Para ajudar, pode usar um [selector de cores](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Cria uma variável para armazenar a cor que escolheste. Por exemplo, se escolhes-te o vermelho, deves escrever este código:
+Crie uma variável para armazenar a sua cor escolhida. Por exemplo, se escolheu o vermelho, deve escrever este código:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Agora podes exibir o teu texto na cor que escolheste! Para que o programa use a cor que criaste, adiciona um parâmetro `text_colour` ao código que exibe o teu texto:
+Agora pode exibir o seu texto na cor que escolheu! Para que o programa use a cor que criou, adicione um parâmetro `text_colour` ao código que exibe o seu texto:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![mostrar a mensagem em cor](images/show-message-color.gif)
+![O emulador Trinket do Sense HAT executando um programa de exemplo que desliza o texto \"Astro Pi\" ao longo da matriz de LED usando letras vermelhas](images/M0_2.gif)
 
 --- task ---
 
-Também podes alterar a cor de fundo do ecrã. Escolhe outra cor e cria outra variável para armazenar essa cor. Para dizer ao programa que use a cor de fundo escolhida, adiciona o parâmetro `back_colour` ao teu código:
+Também pode alterar a cor de fundo do ecrã. Escolha outra cor e crie outra variável para armazenar essa cor. Para dizer ao programa que use a cor de fundo escolhida, adicione o parâmetro `back_colour` ao seu código:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 --- task ---
 
-Altera o texto e a cor da saudação - que mensagem queres enviar aos astronautas a bordo da Estação Espacial?
+Altere o texto e a cor da saudação - que mensagem enviará aos astronautas a bordo da EEI?
 
 --- /task ---

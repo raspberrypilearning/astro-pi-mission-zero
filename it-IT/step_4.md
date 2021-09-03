@@ -1,6 +1,6 @@
 ## Aggiungi un po’ di colore
 
-I LED dell’Astro Pi possono anche visualizzare colori. Potete specificare un colore creando una variabile e assegnando ad essa un valore di colore RGB.
+I LED dell’Astro Pi possono anche visualizzare i colori. Potete specificare un colore creando una variabile e assegnando ad essa un valore di colore RGB.
 
 Potete imparare come si possono creare tutti i colori usando diverse proporzioni di rosso, verde e blu qui:
 
@@ -8,7 +8,7 @@ Potete imparare come si possono creare tutti i colori usando diverse proporzioni
 
 --- task ---
 
-Scegliete un colore e scoprite qual è il suo valore RGB. Se volete, potete usare un [calcolatore dei colori](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} per sceglierlo.
+Scegliete un colore e scoprite qual è il suo valore RGB. Se volete, potete usare un [selettore dei colori](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} per sceglierlo.
 
 --- /task ---
 
@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![mostra il messaggio a colori](images/show-message-color.gif)
+![L'emulatore HAT Trinket Sense esegue un programma di esempio che fa scorrere il testo \"Astro Pi \" attraverso la matrice LED utilizzando lettere rosse](images/M0_2.gif)
 
 --- task ---
 

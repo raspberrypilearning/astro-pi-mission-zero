@@ -2,15 +2,18 @@
 
 Du kan visa bilder på Astro Pis LED-matris. Din hälsning till astronauterna kanske ska innehålla en bild eller ett mönster, tillsammans med eller istället för ett skrivet meddelande?
 
-![Astronaut](images/astronaut-pic.png)
+![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av själva flygenheten](images/fu-pic.png)
 
 --- task ---
 
-Längst ner i programmet skapar du några färgvariabler för att definiera de färger du vill rita din bild med. Du kan använda hur många färger du vill, men i det här exemplet använder vi bara två - vit (`w`) och svart (`b`).
+Längst ner i programmet, skapa några färgvariabler för att definiera de färger du vill rita din bild med. Du kan använda så många färger som du vill, men i det här exemplet använder vi bara några färger - röd (`r`), vit (`w`), svart (`b`) och två nyanser av grått (`g` och `s`). Observera att nyanserna uppnås genom att minska mängden ljus i alla tre kanalerna samtidigt behålla samma proportioner.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Obs!** Den här gången är det en bra idé att ge färgvariablerna enstaviga namn, eftersom det sparar tid i nästa steg, där du ska skriva in dem många gånger. Användning av enstaka bokstäver gör det dessutom lättare att se den bild du ska rita.
@@ -19,21 +22,20 @@ b = (0, 0, 0)
 
 --- task ---
 
-Skapa en lista med 64 objekt, nedanför dina nya variabler. Varje objekt representerar en pixel i LED-matrisen och motsvarar en av de färgvariabler du definierade. Rita din bild genom att placera en variabel där du vill att den tilldelade färgen ska visas. Vi har ritat en astronaut genom att använda de svarta (`s`) pixlarna som bakgrund och de vita (`v`) pixlarna för att rita astronautens rymddräkt:
+Skapa en lista med 64 objekt, nedanför dina nya variabler. Varje objekt representerar en pixel i LED-matrisen och motsvarar en av de färgvariabler du definierade. Rita din bild genom att placera en variabel där du vill att den tilldelade färgen ska visas. Vi har ritat en Astro Pi genom att använda de svarta (`b`) pixlarna som bakgrund och de grå (`g`) pixlarna för att rita metalldelarna i Astro Pi flygfodralet:
 
 ```python
-picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
-
 --- /task ---
 
 --- task ---

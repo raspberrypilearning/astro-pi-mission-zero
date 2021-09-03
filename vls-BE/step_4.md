@@ -1,8 +1,8 @@
 ## Voeg er wat kleur aan toe
 
-De Astro Pi's LEDs kunnen ook kleuren tonen. Je kunt een kleur specificeren door een variabele te definiëren en het een RGB-kleurwaarde toe te kennen.
+De LED"s van de Astro Pi kunnen ook kleuren weergeven. Je kan een kleur specifiëren door een variabele te maken en er een RGB-kleurwaarde aan toe te wijzen.
 
-Je kunt hier leren hoe alle kleuren te definiëren door gebruik te maken van verschillende verhoudingen van rood, groen, en blauw:
+Je kunt hier leren hoe alle kleuren gemaakt kunnen worden door gebruik te maken van verschillende verhoudingen van rood, groen, en blauw:
 
 [[[generic-theory-colours]]]
 
@@ -14,7 +14,7 @@ Kies een kleur en zoek de RGB-waarde van die kleur. Je kunt een [kleurenkiezer](
 
 --- task ---
 
-Definieer een variabele om je gekozen kleur op te slaan. Bijvoorbeeld, indien je rood hebt gekozen, dan schrijf je deze regel code:
+Maak een variabele om je gekozen kleur op te slaan. Als je bijvoorbeeld rood koos, schrijf je deze code-regel:
 
 ```python
 red = (255,0,0)
@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Je kunt nu je tekst tonen in je gekozen kleur! Om het programma te laten weten dat de gedefinieerde gebruikt moet worden, voeg je een `text_colour` (tekst_kleur) parameter toe aan de code die je tekst toont:
+Je kan de tekst nu weergeven in de kleur van jouw keuze! Om het programma te laten weten dat het de kleur die je maakte moet gebruiken, voeg je een `text_colour` parameter toe aan de code die je tekst weergeeft:
 
 ```python
 red = (255,0,0)
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![toon de boodschap in kleur](images/show-message-color.gif)
+![De Trinket Sense HAT-emulator waarop een voorbeeldprogramma draait die de tekst \";Astro PI\"; over de LED-matrix laat scrollen in rode letters](images/M0_2.gif)
 
 --- task ---
 
-Je kunt ook de achtergrondkleur van het scherm veranderen. Kies een andere kleur en definieer een andere variabele om die kleur op te slaan. Om het programma je gekozen achtergrond te laten gebruiken, voeg je de `back_colour` (achtergrond_kleur) parameter aan je code:
+Je kan de achtergrondkleur van het scherm ook aanpassen. Kies een andere kleur en maak een andere variabele om die kleur op te slaan. Om het programma te laten weten dat het de door jouw gekozen achtergondkleur moet gebruiken, voeg je de `back_colour` parameter toe aan je code:
 
 ```python
 red = (255,0,0)
@@ -49,6 +49,6 @@ sense.show_message("Astro Pi", text_colour=red, back_colour=green)
 
 --- task ---
 
-Verander de begroetingstekst en -kleur — welke boodschap zul je naar de astronauten aan boord het ISS sturen?
+Verander de begroetingstekst en -kleur — welke boodschap zal je naar de astronauten aan boord het ISS sturen?
 
 --- /task ---

@@ -1,12 +1,12 @@
-## Zobrazit vlhkost
+## Zobraz vlhkost
 
-Naměřenou vlhkost můžete zkombinovat s obrázkem, kterým vlhkost naznačíte graficky. Můžete například zobrazit oceán pro vysokou vlhkost a poušť pro nízkou vlhkost:
+Naměřenou vlhkost můžeš zkombinovat s obrázkem, tudíž ji můžeš naznačit graficky. Můžeš například nechat zobrazit oceán, když je vlhkost vysoká, a poušť, když je naopak nízká:
 
-![Mokrá a suchá](images/wet-dry.png)
+![Vlhko a sucho](images/wet-dry.png)
 
 --- task ---
 
-Na konci programu vytvořte ještě několik proměnných s barvami, jaké budete chtít použít v obrázcích. Možná jste některé z nich definovali už v předchozím kroku.
+Na konci programu vytvoř ještě několik proměnných s takovými barvami, které budeš chtít použít při kreslení obrázků. Možná máš už některé z nich definované z předchozího kroku.
 
 ```python
 o=(255,130,0)
@@ -21,7 +21,7 @@ y=(255,255,0)
 
 --- task ---
 
-Stejně jako předtím nakreslete obrázky tak, že pro každý z nich vytvoříte seznam a potom položky tohoto seznamu nastavíte na barvy, které mají mít jednotlivé pixely.
+Stejně jako minule – nakresli obrázky tak, že nejprve vytvoříš seznam a poté nastavíš položky seznamu na barvy, které mají jednotlivé pixely mít.
 
 ```python
 wet = [
@@ -52,21 +52,21 @@ dry = [
 
 --- task ---
 
-Přidejte kód pro získání vlhkosti:
+Přidej kód pro změření vlhkosti:
 
 ```python
-temp = sense.temperature
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Teď rozhodněte, který obrázek se zobrazí. V tomhle příkladu zobrazíme obrázek pro `wet` při naměřené vlhkosti 40% nebo vyšší a obrázek pro `dry`, když je vlhkost nižší než 40%.
+Teď se rozhodni, který obrázek se má zobrazit. V tomhle příkladu se obrázek `wet` zobrazí tehdy, jestliže je hodnota vlhkosti 40 % a výš, a pokud je naopak vlhkost nižší než 40 %, zobrazí se obrázek `dry`.
 
 ```python
-humid = sense.humidity
-if humid &gt;= 40:
+humid = sense.get_humidity()
+if humid >= 40:
     sense.set_pixels(wet)
 else:
     sense.set_pixels(dry)
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Pomocí posuvníku vlhkosti nastavte vlhkost na emulátoru. Spusťte svůj program a zkontrolujte, jestli se správně zobrazí obrázek vybraný pro danou vlhkost.
+Pomocí posuvníku vlhkosti nastav vlhkost na emulátoru. Spusť svůj program a zkontroluj, jestli se obrázek určený pro danou hodnotu vlhkosti správně zobrazí.
 
 --- /task ---
 
 --- task ---
 
-Změňte kód tak, aby váš program ukazoval astronautům vlhkost tak, jak chcete vy.
+Změň svůj kód tak, aby program zobrazoval astronautům vlhkost tak, jak chceš ty.
+
+--- /task ---
+
+--- task --- Otestuj svůj kód s různými hodnotami vlhkosti (pomocí posuvníku) a ujisti se, že vždy správně funguje. Pokud postupuješ podle výše uvedeného příkladu, zobrazí se ti obrázek jak v případě, že je vlhkost nastavena na hodnotu nižší než 40 %, tak i v případě, že je nastavena na hodnotu vyšší než 40 %?
 
 --- /task ---

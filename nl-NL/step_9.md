@@ -1,6 +1,6 @@
-## Uitdaging: meer Astro Pi-projecten
+## Wat nu - meer Astro Pi-projecten
 
-Nu je je missie hebt voltooid, kun je nog wat meer projecten uitproberen met behulp van de andere sensoren op de Astro Pi.
+Nu je je missie hebt volbracht, waarom probeer je dan niet wat meer projecten uit met de andere sensoren op de Astro Pi?
 
 Ben je zeker van jezelf, dan zou je deel kunnen nemen aan [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Vorm een ​​team van twee tot zes personen en werk samen als echte ruimtewetenschappers om je eigen experiment te ontwerpen. Ontvang gratis computerhardware voor je missie en schrijf de Python-code om je experiment uit te voeren. Als je vluchtstatus bereikt, wordt je code geüpload naar het Internationale Ruimtestation en drie uur lang op de Astro Pi uitgevoerd (twee banen). Alle gegevens die je code verzamelt in de ruimte - beeld- of sensordatabestanden - worden gedownload en aan je geretourneerd voor analyse.
 
@@ -16,12 +16,10 @@ Als alternatief kun je een van onze andere Astro Pi-projecten proberen:
 
 + Maak het klassieke spel [Pong](https://projects.raspberrypi.org/nl-NL/projects/sense-hat-pong){:target="_blank"} overnieuw
 
-
 ***
 Dit project werd vertaald door vrijwilligers:
 
-Robert-Jan Kempenaar
-
 Sanneke van der Meer
+Robert-Jan Kempenaar
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

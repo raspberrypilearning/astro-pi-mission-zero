@@ -7,21 +7,12 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Sissejuhatus
-  - 
-    title: Mis on Astro Pi?
-  - 
-    title: Kuva sõnum
-  - 
-    title: Lisa värve
-  - 
-    title: Kuva pilt
-  - 
-    title: Mõõda niiskust
-  - 
-    title: Kuva niiskus
-  - 
-    title: Esita oma võistlustöö
-  - 
-    title: "Väljakutse: rohkem Astro Pi projekte"
+  - title: Sissejuhatus
+  - title: Mis on Astro Pi?
+  - title: Kuva sõnum ja vali uutele Astro Pi arvutitele nimi
+  - title: Lisa värve
+  - title: Kuva pilt
+  - title: Mõõda õhuniiskust
+  - title: Reageeri õhuniiskusele
+  - title: Esita oma võistlustöö
+  - title: Mis edasi — rohkem Astro Pi projekte

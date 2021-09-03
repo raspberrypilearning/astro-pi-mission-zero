@@ -1,12 +1,12 @@
-## Laat de vochtigheid zien
+## Reageer op vochtigheid
 
-Je kan je vochtigheidsmeting combineren met een foto om de vochtigheid ook op een grafische manier te laten zien. Je kan bijvoorbeeld een oceaan tonen voor hoge vochtigheid en een woestijn voor lage luchtvochtigheid:
+Je kan je vochtigheidsmeting combineren met een foto om zo de vochtigheid ook op een grafische manier te laten zien. Je kan bijvoorbeeld een oceaan tonen voor hoge vochtigheid en een woestijn voor lage luchtvochtigheid:
 
 ![Nat en droog](images/wet-dry.png)
 
 --- task ---
 
-Onderaan je programma, kun je meer kleurvariabelen definiëren voor kleuren die je wil gebruiken in je tekeningen. Misschien heb je al sommige gedefinieerd in een vorige stap.
+Onderaan je programma, maak je meer kleurvariableen voor alle kleuren die je wil gebruiken in je tekeningen. Je kan er al een aantal gedefinieerd hebben in de vorige stap.
 
 ```python
 o=(255,130,0)
@@ -55,17 +55,17 @@ dry = [
 Voeg code toe om de vochtigheid te verkrijgen:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Beslis nu welke tekening je wilt tonen. In dit voorbeeld zullen we de `wet`(nat) tekening laten zien als de vochtigheidsmeting 40% of hoger is en de `dry` (droog) tekening als de vochtigheid lager is dan 40%.
+Kies nu welke tekening je wil tonen. In dit voorbeeld, zullen we de `wet` tekening laten zien als de vochtigheidsmeting 40% of hoger is en de `dry` tekening als de vochtigheid lager is dan 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Gebruik de vochtigheid-schuifknop om een vochtigheid op de emulator in te stellen. Start je programma en controleer dat de tekening die je koos voor die vochtigheid juist weergegeven wordt.
+Gebruik de schuifknop voor vochtigheid om een waarde voor de vochtigheid op de emulator in te stellen. Start je programma en controleer dat de tekening die je koos voor die vochtigheid juist weergegeven wordt.
 
 --- /task ---
 
 --- task ---
 
 Verander je code zodat je programma de vochtigheid weergeeft aan de astronauten op de door jou gekozen manier.
+
+--- /task ---
+
+--- task --- Test je code met enkele andere vochtigheidswaarden (door gebruik te maken van de schuifknop) om er zeker van te zijn dat het juist werkt. Als je het voorbeeld hierboven volgde, wordt er dan een tekening getoond als de vochtigheid ingesteld wordt op een waarde lager dan 40% en ook als ze lager dan 40% ingesteld wordt?
 
 --- /task ---

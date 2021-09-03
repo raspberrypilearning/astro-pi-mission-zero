@@ -55,7 +55,7 @@ dry = [
 Za informacije o vlažnosti dodajte kodo:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Zdaj se odločite, katero sliko želite uporabiti. V tem primeru bomo uporabili sliko `wet`, če vlaga znaša 40% ali več, in sliko `dry`, če je vlaga nižja od 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -83,5 +83,9 @@ Z drsnikom za vlago na emulatorju nastavite vlago. Zaženite svoj program in pre
 --- task ---
 
 Svojo kodo spremenite tako, da bo vaš program astronavtom vlažnost prikazal na želen način.
+
+--- /task ---
+
+--- task --- Preizkusite kodo z nekaj različnimi nastavitvami vlažnosti (z drsnikom), da zagotovite, da vedno deluje pravilno. Če ste sledili zgornjemu primeru, ali je slika prikazana ko je vlažnost nastavljena na vrednost manj kot 40%, in tudi, če je nastavljena na več kot 40%?
 
 --- /task ---

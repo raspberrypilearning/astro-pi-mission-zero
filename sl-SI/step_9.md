@@ -4,7 +4,7 @@ Zakaj se ne bi zdaj, ko ste izpolnili svojo misijo, preizkusili v drugih projekt
 
 Če ste dovolj samozavestni, lahko sodelujete v projektu [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Oblikujte skupino dveh do šestih oseb in sodelujte kot pravi raziskovalci vesolja ter oblikujte svoj eksperiment. Za svojo misijo boste prejeli brezplačno strojno opremo, nato pa boste za izvedbo eksperimenta napisali kodo v programskem jeziku Python. Če bo vaš prispevek odobren, bo vaša koda naložena na Mednarodno vesoljsko postajo in na računalniku Astro Pi prikazana tri ure (dve orbiti). Vsi podatki, ki jih bo v vesolju zbrala vaša koda (slikovne datoteke ali datoteke s podatki senzorjev), bodo preneseni in vam vrnjeni v analizo.
 
-Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Astro Pi.
+Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Astro Pi:
 
 + Izvedite [več o emulatorju Sense HAT](https://projects.raspberrypi.org/sl-SI/projects/getting-started-with-the-sense-hat){:target="_blank"} in ostalih stvareh, ki jih ponuja.
 
@@ -16,12 +16,9 @@ Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Astro Pi.
 
 + Poustvarite klasično igro [Pong](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-pong){:target="_blank"}.
 
-
 ***
 Ta projekt so prevedli prostovoljci:
 
 Filip Štamcar
-
-Arnold Marko
 
 Zahvaljujoč prostovoljcem, lahko ljudem po vsem svetu omogočimo, da se učijo v svojem jeziku. S prostovoljnim prevajanjem nam lahko pomagate, da dosežemo več ljudi - več informacij na [rpf.io/translate](https://rpf.io/translate).

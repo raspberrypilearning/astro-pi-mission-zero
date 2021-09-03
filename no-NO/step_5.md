@@ -2,15 +2,18 @@
 
 Dere kan vise bilder på Astro Pi's LED-matrise. Kanskje hilsenen til astronautene kan inkludere et bilde eller et mønster, i tillegg til eller i stedet for en skriftlig melding?
 
-![Astronaut](images/astronaut-pic.png)
+![Et skjermbilde av emulatorvinduet som viser flyenheten med LED -matrisen som viser et bilde av selve flyenhenten](images/fu-pic.png)
 
 --- task ---
 
-På slutten av programmet oppretter dere noen fargevariabler for å definere fargene dere vil tegne bildet med. Dere kan bruke så mange farger dere vil, men i dette eksemplet bruker vi bare to — hvit (`w`) og svart (`b`).
+På slutten av programmet oppretter dere noen fargevariabler for å definere fargene dere vil tegne bildet med. Du kan bruke så mange farger du vil, men i dette eksemplet bruker vi bare noen få farger - rød (`r`), hvit (`w`), svart (`b`) og to gråtoner (`g` og `s`). Legg merke til at nyansene oppnås ved å redusere mengden lys i alle tre kanalene, samtidig som forholdene er de samme.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Merk:** Denne gangen er det en god ide å gi fargevariablene enkeltbokstavsnavn, for det vil spare tid i neste trinn, der de skal skrives inn mange ganger. Dessuten vil bruk av enkeltbokstaver gjøre det enklere å se bildet dere vil tegne.
@@ -19,21 +22,20 @@ b = (0, 0, 0)
 
 --- task ---
 
-Under de nye variablene lager dere en liste med 64 punkter. Hvert punkt representerer en piksel på LED-matrisen, og tilsvarer en av fargevariablene dere definerte. Tegn bildet ved å sette en variabel der dere vil at den angitte fargen skal vises. Vi har tegnet en astronaut ved å bruke de svarte (`b`)-pikslene som bakgrunn og de hvite (`w`)-pikslene for å tegne astronautens romdrakt:
+Under de nye variablene lager dere en liste med 64 punkter. Hvert punkt representerer en piksel på LED-matrisen, og tilsvarer en av fargevariablene dere definerte. Tegn bildet ved å sette en variabel der dere vil at den angitte fargen skal vises. Vi har tegnet en Astro Pi ved å bruke de svarte (`b`)-pikslene som bakgrunn og de grå (`g`)-pikslene for å tegne metalldelene til Astro Pi kabinettet:
 
 ```python
-picture = [
-b, b, w, w, w, w, b, b,
-b, w, b, b, b, b, w, b,
-b, w, b, w, w, b, w, b,
-b, w, b, b, b, b, w, b,
-b, b, w, w, w, w, b, b,
-b, b, w, w, w, w, b, b,
-b, w, w, w, w, w, w, b,
-b, w, w, w, w, w, w, b
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
-
 --- /task ---
 
 --- task ---
@@ -70,6 +72,6 @@ sleep(2)
 
 --- task ---
 
-Lag et eget bilde eller mønster for å vise til astronautene!
+Lag ditt eget bilde eller mønster for å vise til astronautene!
 
 --- /task ---
