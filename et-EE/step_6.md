@@ -18,7 +18,7 @@ Osa sinu ülesandest on panustada ISS-i meeskonna igapäevaellu, seetõttu annab
 humid = sense.get_humidity()
 ```
 
-See koodirida mõõdab valitsevat õhuniiskust ja säilitab mõõdetud väärtuse muutujas `niiske`.
+See koodirida mõõdab valitsevat õhuniiskust ja säilitab mõõdetud väärtuse muutujas `humid`.
 
 --- /task ---
 
