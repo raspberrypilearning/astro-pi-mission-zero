@@ -12,7 +12,7 @@ steps:
   - 
     title: Mi az az Astro Pi?
   - 
-    title: Jeleníts meg egy üzenetet!
+    title: Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek
   - 
     title: Adj hozzá egy kis színt!
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Mérd meg a páratartalmat
   - 
-    title: Jelenítsd meg a páratartalmat
+    title: Reagálj a páratartalomra
   - 
     title: Küldd be a munkádat!
   - 
