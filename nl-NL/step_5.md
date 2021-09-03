@@ -25,7 +25,7 @@ r = (255,0,0)
 Onder je nieuwe variabelen, maak je een lijst van 64 items. Elk item vertegenwoordigt één pixel op de LED-matrix en komt overeen met een van de kleurvariabelen die je hebt gedefinieerd. Teken je afbeelding door een variabele te plaatsen waar je de toegewezen kleur wilt laten verschijnen. We hebben een astronaut getekend door de zwarte (`b`) pixels te gebruiken als achtergrond en de witte (`w`) pixels om het ruimtepak van de astronaut te tekenen:
 
 ```python
- afbeelding = [
+picture = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, g,
@@ -43,7 +43,7 @@ Onder je nieuwe variabelen, maak je een lijst van 64 items. Elk item vertegenwoo
 Voeg een coderegel toe om je afbeelding op het LED-display weer te geven.
 
 ```python
-sense.set_pixels(afbeelding)
+sense.set_pixels(picture)
 ```
 
 --- /task ---

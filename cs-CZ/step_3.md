@@ -73,7 +73,7 @@ Výchozí rychlost zprávy je `0,1`. (Pozor, v Pythonu se nepíše desetinná č
 
 ### Vyber název nových počítačů Astro Pi
 
---- task --- Počítače Astro Pi pojmenujeme po dvou inspirujících evropských vědcích. K vědě a technologii přispěly stovky mužů a žen. Účastníci mohou navrhnout své vlastní názvy nebo si vybrat z našeho seznamu návrhů:
+--- task --- Počítače Astro Pi pojmenujeme po dvou inspirujících evropských vědcích. K vědě a technologii přispěly stovky mužů a žen. Účastníci mohou navrhnout své vlastní názvy nebo si vybrat z našeho seznamu návrhů (ujistěte se, že vybíráte anglickou variantu jména):
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 

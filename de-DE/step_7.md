@@ -1,4 +1,4 @@
-## Zeige die Luftfeuchtigkeit an
+## Reagiere auf die Luftfeuchtigkeit
 
 Du kannst deinen Feuchtigkeitsmesswert auch mit einem Bild kombinieren, um die Luftfeuchtigkeit grafisch anzuzeigen. Beispielsweise könntest du einen Ozean für hohe Luftfeuchtigkeit und eine Wüste für niedrige Luftfeuchtigkeit anzeigen:
 

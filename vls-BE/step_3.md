@@ -73,7 +73,7 @@ De startsnelheid van de boodschap is `0.1`. Als je het getal kleiner maakt, zal 
 
 ### Kies een naam voor de nieuwe Astro Pi-computers
 
---- task -- We zullen de Astro Pi-computers noemen naar twee inspirerende Europese wetenschappers. Er zijn honderden mannen en vrouwen die bijgedragen hebben tot wetenschap en technologie, deelnemers kunnen hun eigen naam voorstellen of kiezen uit onze lijst met suggesties:
+--- task --- We zullen de Astro Pi-computers noemen naar twee inspirerende Europese wetenschappers. Er zijn honderden mannen en vrouwen die bijgedragen hebben tot wetenschap en technologie, deelnemers kunnen hun eigen naam voorstellen of kiezen uit onze lijst met suggesties (zorg ervoor dat je de Engelse versie van de naam gebruikt):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
@@ -86,7 +86,7 @@ De startsnelheid van de boodschap is `0.1`. Als je het getal kleiner maakt, zal 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Om te stemmen, begin je je boodschap met de woorden "My name should be". Bijvoorbeeld, als je wil stemmen van Ada Lovelace, zal je code er als volgt uitzien:
+Om te stemmen, begin je je boodschap met de woorden "My name should be" (in het Engels). Bijvoorbeeld, als je wil stemmen van Ada Lovelace, zal je code er als volgt uitzien:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

@@ -1,4 +1,4 @@
-## Näytä viesti
+## Näytä viesti ja valitse nimi uusille Astro Pi -tietokoneille
 
 --- task ---
 
@@ -73,7 +73,7 @@ Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vier
 
 ### Valitse nimi uusille Astro Pi -tietokoneille
 
---- task --- Nimeämme Astro Pi -tietokoneet kahden inspiroivan eurooppalaisen tieteentekijän mukaan. On satoja miehiä ja naisia, jotka ovat antaneet panostuksensa tieteeseen ja tekniikkaan, ja osallistujat voivat esittää omaa ehdokastaan tai valita listaltamme:
+--- task --- Nimeämme Astro Pi -tietokoneet kahden inspiroivan eurooppalaisen tieteentekijän mukaan. On satoja miehiä ja naisia, jotka ovat antaneet panostuksensa tieteeseen ja tekniikkaan, ja osallistujat voivat esittää omaa ehdokastaan tai valita listaltamme (varmista, että käytät nimen englanninkielistä muotoa):
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 

@@ -5,7 +5,7 @@ Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf de
 ![Ein Screenshot der Mission Zero Trinket Seiten mit dem Button zum Einreichen und der Kriterien-Checkliste auf der linken Seite. Die beiden oberen ("Feuchtigkeit lesen" und "verwenden der LEDs") sind in oranger Schrift, die unterste ("läuft ohne Fehler") ist grün ](images/validation.png)
 
 1. Nimm eine Feuchtigkeitsmessung vor.
-1. Schalte die LED-Lichter ein
+1. Schalte die LED-Lichter ein.
 1. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Du solltest keine `while True`-Schleife in deinem Code verwenden, da dies deinen Coden endlos laufen ließe ohne je zu beenden.
 1. Teste deinen Code mit einigen unterschiedlichen Feuchtigkeitseinstellungen (mit dem Schieberegler) um sicherzustellen, dass er immer korrekt läuft.
 

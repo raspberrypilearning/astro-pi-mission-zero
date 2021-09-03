@@ -1,4 +1,4 @@
-## Afișează umiditatea
+## Reacționează la umiditate
 
 Poți combina citirea umidității cu o imagine pentru a indica umiditatea într-un mod grafic. De exemplu, ai putea afișa un ocean pentru o umiditate mare și un deșert pentru umiditate scăzută:
 

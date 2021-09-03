@@ -73,7 +73,7 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 
 ### Wähle einen Namen für die neuen Astro Pi-Computer
 
---- task --- Wir werden die Astro Pi-Computer nach zwei inspirierenden europäischen Wissenschaftlern benennen. Es gibt Hunderte von Männern und Frauen, die zu Wissenschaft und Technologie beigetragen haben; Teilnehmer können ihre eigenen Namen vorschlagen oder aus unserer Liste an Vorschlägen wählen:
+--- task --- Wir werden die Astro Pi-Computer nach zwei inspirierenden europäischen Wissenschaftlern benennen. Es gibt Hunderte von Männern und Frauen, die zu Wissenschaft und Technologie beigetragen haben; Teilnehmer können ihre eigenen Namen vorschlagen oder aus unserer Liste an Vorschlägen wählen (verwende unbedingt die englische Version der Namen):
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 

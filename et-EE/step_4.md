@@ -24,7 +24,7 @@ red = (255,0,0)
 
 --- task ---
 
-Nüüd saad oma teksti kuvada enda valitud värvidega! Selleks, et programm kasutaks sinu poolt loodud värvi, lisa sinu teksti kuvavale koodile `teksti_värvuse` parameeter:
+Nüüd saad oma teksti kuvada enda valitud värvidega! Selleks, et programm kasutaks sinu poolt loodud värvi, lisa sinu teksti kuvavale koodile `text_colour` parameeter:
 
 ```python
 red = (255,0,0)
@@ -37,7 +37,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- task ---
 
-Samuti saad muuta ekraani taustavärvi. Vali mõni teine värv ja loo selle säilitamiseks uus muutuja. Kui soovid programmile öelda, et ta kasutaks sinu valitud taustavärvi, lisa oma koodile `tausta_värvi` parameeter:
+Samuti saad muuta ekraani taustavärvi. Vali mõni teine värv ja loo selle säilitamiseks uus muutuja. Kui soovid programmile öelda, et ta kasutaks sinu valitud taustavärvi, lisa oma koodile `back_colour` parameeter:
 
 ```python
 red = (255,0,0)

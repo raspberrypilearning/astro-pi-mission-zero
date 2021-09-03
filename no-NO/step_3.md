@@ -73,7 +73,7 @@ Standardhastigheten til meldingen er `0.1`. Med lavere tall ruller meldingen ras
 
 ### Velg et navn for de nye Astro Pi-datamaskinene
 
---- task --- Vi vil oppkalle Astro Pi -datamaskinene etter to inspirerende europeiske forskere. Det er hundrevis av menn og kvinner som har bidratt til vitenskap og teknologi; deltakerne kan foreslå sine egne navn eller velge fra vår forslagsliste:
+--- task --- Vi vil oppkalle Astro Pi -datamaskinene etter to inspirerende europeiske forskere. Det er hundrevis av menn og kvinner som har bidratt til vitenskap og teknologi; deltakerne kan foreslå sine egne navn eller velge fra vår forslagsliste (pass på at du bruker den engelske versjonen av navnet):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 

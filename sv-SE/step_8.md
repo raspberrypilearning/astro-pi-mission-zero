@@ -5,7 +5,7 @@ Det finns några regler som din kod måste följa för att du ska kunna skicka d
 ![En skärmdump av Mission Zero Trinket -sidorna som visar inlämningsknappen och kriteriekontrollerna till vänster. De två översta ("läs fuktighet" och "använd lysdioderna") är i orange text, den nedre ("körningar utan fel") är grön ](images/validation.png)
 
 1. Avläs luftfuktigheten.
-1. Tänd lysdioderna
+1. Tänd lysdioderna.
 1. Kontrollera att din kod körs hela vägen till slutet utan att några fel inträffar. Du bör inte inkludera någon `while True` loopar i din kod eftersom detta kommer förhindra den från att slutföras.
 1. Testa din kod med några olika fuktinställningar (med reglaget) för att se till att den alltid kommer att köras korrekt.
 

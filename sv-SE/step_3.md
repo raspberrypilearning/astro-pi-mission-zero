@@ -73,7 +73,7 @@ Meddelandets standardhastighet är `0.1`. Om du väljer ett mindre tal rullar me
 
 ### Välj ett namn för de nya Astro Pi-datorerna
 
---- task --- Vi kommer att namnge Astro Pi-datorerna efter två inspirerande europeiska forskare. Det finns hundratals män och kvinnor som har bidragit till vetenskap och teknik, och deltagarna kan föreslå sina egna namn eller välja från vår lista med förslag:
+--- task --- Vi kommer att namnge Astro Pi-datorerna efter två inspirerande europeiska forskare. Det finns hundratals män och kvinnor som har bidragit till vetenskap och teknik, och deltagarna kan föreslå sina egna namn eller välja från vår lista med förslag (säkerställ att du använder den engelska versionen av namnet):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
@@ -86,13 +86,13 @@ Meddelandets standardhastighet är `0.1`. Om du väljer ett mindre tal rullar me
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-För att rösta, börja ditt meddelande med orden "Mitt namn borde vara". Om du till exempel vill rösta på Ada Lovelace skulle din kod se ut så här:
+För att rösta, börja ditt meddelande med orden "My name should be" (på engelska). Om du till exempel vill rösta på Ada Lovelace skulle din kod se ut så här:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
 ```
 
-Om du vill rösta måste ditt meddelande ** börja med dessa ord, annars kommer vi inte automatiskt att kunna räkna ditt bidrag.
+Om du vill rösta måste ditt meddelande börja med dessa ord, annars kommer vi inte automatiskt att kunna räkna ditt bidrag.
 
 --- /task ---
 

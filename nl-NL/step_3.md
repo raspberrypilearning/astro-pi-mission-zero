@@ -73,7 +73,7 @@ De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, 
 
 ### Kies een naam voor de nieuwe Astro Pi computers
 
---- task --- We zullen de Astro Pi computers vernoemen naar twee inspirerende Europese wetenschappers. Er zijn honderden mannen en vrouwen die hebben bijgedragen aan wetenschap en technologie, en deelnemers kunnen hun eigen namen voorstellen, of kiezen uit onze lijst met suggesties:
+--- task --- We zullen de Astro Pi computers vernoemen naar twee inspirerende Europese wetenschappers. Er zijn honderden mannen en vrouwen die hebben bijgedragen aan wetenschap en technologie, en deelnemers kunnen hun eigen namen voorstellen, of kiezen uit onze lijst met suggesties (Let op: gebruik de Engelstalige versie van de naam):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
@@ -86,10 +86,10 @@ De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Om te stemmen, begint je jouw bericht met de woorden "Mijn naam zou moeten zijn". Bijvoorbeeld, als jij wilt stemmen voor Ada Lovelace, zou je code er zo uit moeten zien:
+Om te stemmen, begint je jouw bericht met de woorden "My name should be". Bijvoorbeeld, als jij wilt stemmen voor Ada Lovelace, zou je code er zo uit moeten zien:
 
 ```python
-sense.show_message("Mijn naam moet zijn Ada Lovelace")
+sense.show_message("My name should be Ada Lovelace")
 ```
 
 Als je wilt stemmen, *moet* je bericht met deze woorden beginnen, anders kunnen we je deelname niet automatisch tellen.

@@ -1,6 +1,6 @@
 ## Envía tu proyecto
 
-Hay varias reglas que tu código debe respetar para que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del emulador se iluminarán en verde cuando ejecutes el programa.
+Hay varias reglas que tu código debe respetar para que pueda ser enviado para su ejecución en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del [emulador](https://trinket.io/mission-zero) se iluminarán en verde cuando ejecutes el programa.
 
 ![Una captura de pantalla de las páginas del Trinket de Mission Zero que muestra el botón de envío y las verificaciones de criterios a la izquierda. Los dos superiores ("lectura de humedad" y "utilizan los LED") están en texto naranja, el inferior ("ejecuta sin errores") es verde](images/validation.png)
 

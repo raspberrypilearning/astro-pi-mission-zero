@@ -1,4 +1,4 @@
-## Mostrar una imagen
+## Muestra una imagen
 
 Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o un patrón, además o en lugar de un mensaje escrito?
 

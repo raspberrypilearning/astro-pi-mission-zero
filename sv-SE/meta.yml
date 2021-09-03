@@ -13,6 +13,6 @@ steps:
   - title: Lägg till lite färg
   - title: Visa en bild
   - title: Mät luftfuktigheten
-  - title: Visa luftfuktigheten
+  - title: Reagera på luftfuktighet
   - title: Skicka ditt bidrag
   - title: 'Utmaning: fler Astro Pi-projekt'

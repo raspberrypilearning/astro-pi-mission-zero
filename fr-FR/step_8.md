@@ -5,7 +5,7 @@ Ton code doit respecter quelques règles pour que tu puisses le soumettre et le 
 ![Une capture d'écran des pages Trinket de Mission Zero montrant le bouton de soumission et les vérifications des critères sur la gauche. Les deux premiers ("lire l'humidité" et "utiliser les LED") sont en texte orange, celui du bas ("fonctionne sans erreur") est vert ](images/validation.png)
 
 1. Mesure l'humidité.
-1. Allume les LED
+1. Allume les LED.
 1. Vérifie que ton code s'exécute jusqu'au bout sans erreur. Tu ne dois pas inclure de boucles `while True` dans ton code car cela fera exécuter le code en continu et l'empêchera de se terminer.
 1. Teste ton code avec quelques paramètres d'humidité différents (en utilisant le curseur) pour t'assurer qu'il s'exécutera toujours correctement.
 

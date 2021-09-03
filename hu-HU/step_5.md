@@ -1,4 +1,4 @@
-## Jeleníts meg egy képet!
+## Jeleníts meg egy képet
 
 Az Astro Pi LED mátrixán képeket is megjeleníthetsz. Az űrhajósoknak szóló üdvözleted akár még egy képet vagy mintát is tartalmazhat, egy írott üzenettel együtt vagy ahelyett!
 

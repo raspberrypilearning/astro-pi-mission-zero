@@ -20,10 +20,6 @@ Soovi korral võid proovida ka teistsugust Astro Pi projekti:
 
 Selle projekti tõlkisid vabatahtlikud:
 
-[name]
-
-[name]
-
-[name]
+Kärt Roomäe
 
 Tänu vabatahtlikele saame anda inimestele kogu maailmas võimaluse õppida oma emakeeles. Võite aidata meil jõuda rohkemate inimesteni, alustades vabatahtliku tõlkijana - lisateavet leiate saidilt [rpf.io/translate](https://rpf.io/translate).

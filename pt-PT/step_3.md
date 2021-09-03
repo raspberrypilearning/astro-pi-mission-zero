@@ -1,4 +1,4 @@
-## Mostre uma mensagem e escolha um nome para os novos computadores Astro Pi
+## Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
 
 --- task ---
 
@@ -73,7 +73,7 @@ A velocidade padrão da mensagem é `0.1`. Tornar o número menor faz com que a 
 
 ### Escolha um nome para os novos computadores Astro Pi
 
---- task --- Daremos aos computadores Astro Pi o nome de dois cientistas europeus inspiradores. Existem centenas de homens e mulheres que contribuíram para a ciência e a tecnologia, e os participantes podem sugerir os seus próprios nomes ou escolher da nossa lista de sugestões:
+--- task --- Daremos aos computadores Astro Pi o nome de dois cientistas europeus inspiradores. Existem centenas de homens e mulheres que contribuíram para a ciência e a tecnologia, e os participantes podem sugerir os seus próprios nomes ou escolher da nossa lista de sugestões (assegure-se de usar a versão Inglesa do nome):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
@@ -86,7 +86,7 @@ A velocidade padrão da mensagem é `0.1`. Tornar o número menor faz com que a 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Para votar, comece a sua mensagem com as palavras "O meu nome deve ser". Por exemplo, se um participante ou equipa quisesse votar em Ada Lovelace, o seu código seria assim:
+Você precisa de começar a mensagem com as palavras “My name should be” (em inglês). Por exemplo, se um participante ou equipa quisesse votar em Ada Lovelace, o seu código seria assim:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

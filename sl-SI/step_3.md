@@ -1,4 +1,4 @@
-## Prikažite sporočilo
+## Prikažite sporočilo in izberite ime za nove Astro Pi računalnike
 
 --- task ---
 
@@ -73,7 +73,7 @@ Privzeta hitrost sporočila je `0.1`. Če številko zmanjšate, se bo sporočilo
 
 ### Izberite ime za nove računalnike Astro Pi
 
---- task --- Računalnike Astro Pi bomo poimenovali po dveh navdihujočih evropskih znanstvenikih. Obstaja na stotine moških in žensk, ki so prispevali k znanosti in tehnologiji; Udeleženci lahko predlagajo svoja imena ali na našem seznamu predlogov izberejo:
+--- task --- Računalnike Astro Pi bomo poimenovali po dveh navdihujočih evropskih znanstvenikih. Obstaja na stotine moških in žensk, ki so prispevali k znanosti in tehnologiji; Udeleženci lahko predlagajo svoja imena ali na našem seznamu predlogov izberejo (uporabiti morate angleško različico imena):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
@@ -86,7 +86,7 @@ Privzeta hitrost sporočila je `0.1`. Če številko zmanjšate, se bo sporočilo
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Če želite glasovati, začnite svoje sporočilo z besedami "Moje ime naj bo". Če bi na primer želeli glasovati za Ado Lovelace, bi bila vaša koda videti tako:
+Če želite glasovati, začnite svoje sporočilo z besedami "My name should be" (v angleščini). Če bi na primer želeli glasovati za Ado Lovelace, bi bila vaša koda videti tako:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

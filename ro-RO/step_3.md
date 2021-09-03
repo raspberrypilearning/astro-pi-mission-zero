@@ -1,4 +1,4 @@
-## Afișează un mesaj
+## Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
 
 --- task ---
 
@@ -73,7 +73,7 @@ Viteza implicită a mesajului este `0.1`. Introducerea unui număr mai mic face 
 
 ### Alege un nume pentru noile calculatoare Astro Pi
 
---- task --- Vom numi computerele Astro Pi după doi oameni de știință europeni care ne inspiră. Există sute de bărbați și femei care au contribuit la știință și tehnologie; participanții pot sugera propriile lor nume sau pot alege din lista noastră de sugestii:
+--- task --- Vom numi computerele Astro Pi după doi oameni de știință europeni care ne inspiră. Există sute de bărbați și femei care au contribuit la știință și tehnologie; participanții pot sugera propriile lor nume sau pot alege din lista noastră de sugestii (asigură-te că folosești versiunea numelui în engleză):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 

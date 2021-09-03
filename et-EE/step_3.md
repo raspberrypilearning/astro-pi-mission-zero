@@ -73,7 +73,7 @@ Sõnumi kerimise vaikekiirus on `0,1`. Numbri vähendamine muudab sõnumi kerimi
 
 ### Valige uutele Astro Pi arvutitele nimi
 
---- task --- Anname Astro Pi arvutitele nime kahe inspireeriva Euroopa teadlase järgi. Sajad mehed ja naised on andnud oma panuse teaduse ja tehnoloogia vallas ja osalejad saavad soovitada endapakutud nimesid või valida meie soovituste loendist:
+--- task --- Anname Astro Pi arvutitele nime kahe inspireeriva Euroopa teadlase järgi. Sajad mehed ja naised on andnud oma panuse teaduse ja tehnoloogia vallas ja osalejad saavad soovitada endapakutud nimesid või valida meie soovituste loendist (jälgi, et kasutad nime ingliskeelset versiooni):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
@@ -86,7 +86,7 @@ Sõnumi kerimise vaikekiirus on `0,1`. Numbri vähendamine muudab sõnumi kerimi
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Hääletamiseks alusta oma sõnumit sõnadega "Minu nimi peaks olema". Näiteks juhul, kui soovid hääletada Ada Lovelace'i poolt, näeks sinu kood välja selline:
+Hääletamiseks alusta oma sõnumit sõnadega "My name should be". Näiteks juhul, kui soovid hääletada Ada Lovelace'i poolt, näeks sinu kood välja selline:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

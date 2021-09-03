@@ -73,7 +73,7 @@ La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que
 
 ### Elige un nombre para los nuevos ordenadores Astro Pi
 
---- task --- Vamos a nombrar losordenadores Astro Pi en honor a dos científicos europeos inspiradores. Hay cientos de hombres y mujeres que han contribuido a la ciencia y la tecnología; los participantes pueden sugerir sus propios nombres o elegir de nuestra lista de sugerencias:
+--- task --- Vamos a nombrar losordenadores Astro Pi en honor a dos científicos europeos inspiradores. Hay cientos de hombres y mujeres que han contribuido a la ciencia y la tecnología; los participantes pueden sugerir sus propios nombres o elegir de nuestra lista de sugerencias (asegúrate de usar la versión inglesa del nombre):
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -87,7 +87,7 @@ La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Para votar, comienza tu mensaje con las palabras "Mi nombre debería ser". Por ejemplo, si quieres votar por Ada Lovelace, tu código se vería así:
+Para votar, comienza tu mensaje con las palabras "My name should be". Por ejemplo, si quieres votar por Ada Lovelace, tu código se vería así:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

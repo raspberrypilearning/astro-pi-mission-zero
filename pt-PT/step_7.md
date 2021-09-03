@@ -86,6 +86,6 @@ Altere o seu código para que o seu programa mostre a humidade aos astronautas d
 
 --- /task ---
 
---- tarefa --- Teste o seu código com algumas configurações de humidade diferentes (usando o controle de deslize) para ter a certeza de que ele funciona sempre corretamente. Se seguiu o exemplo acima, uma imagem é exibida quando a humidade está definida para um valor inferior a 40% e também quando está definida para mais de 40%?
+--- task --- Teste o seu código com algumas configurações de humidade diferentes (usando o controle de deslize) para ter a certeza de que ele funciona sempre corretamente. Se seguiu o exemplo acima, uma imagem é exibida quando a humidade está definida para um valor inferior a 40% e também quando está definida para mais de 40%?
 
 --- /task ---

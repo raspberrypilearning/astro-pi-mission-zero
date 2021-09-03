@@ -73,7 +73,7 @@ Domyślna prędkość przewijania wiadomości to `0.1`. Zmniejszenie liczby spow
 
 ### Wybierz nazwę dla nowych komputerów Astro Pi
 
---- task --- Komputery Astro Pi zostaną nazwane imionami dwóch inspirujących europejskich naukowców. Setki mężczyzn i kobiet przyczyniło się do rozwoju nauki i technologii; uczestnicy mogą sugerować swoje własne nazwy lub wybrać z listy naszych sugestii:
+--- task --- Komputery Astro Pi zostaną nazwane imionami dwóch inspirujących europejskich naukowców. Setki mężczyzn i kobiet przyczyniło się do rozwoju nauki i technologii; uczestnicy mogą sugerować swoje własne nazwy lub wybrać z listy naszych sugestii (upewnij się, że użyto angielskiej wersji imienia):
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
@@ -86,7 +86,7 @@ Domyślna prędkość przewijania wiadomości to `0.1`. Zmniejszenie liczby spow
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Aby zagłosować, zacznij swoją wiadomość od słów „My name should be”. Na przykład chcesz głosować na Ada Lovelace, twój kod wyglądałby tak:
+Aby zagłosować, zacznij swoją wiadomość od słów „My name should be” (po angielsku). Na przykład chcesz głosować na Ada Lovelace, twój kod wyglądałby tak:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

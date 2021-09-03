@@ -1,4 +1,4 @@
-## Reagálj a páratartalomra!
+## Reagálj a páratartalomra
 
 A leolvasott páratartalmat egy képpel is összekapcsolhatod, hogy a páratartalmat grafikusan is szemléltesd. Például megjeleníthetsz egy óceánt magas páratartalomnál, és egy sivatagot alacsony páratartalomnál:
 

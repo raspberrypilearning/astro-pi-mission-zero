@@ -1,4 +1,4 @@
-## Visualizar uma imagem
+## Mostrar uma imagem
 
 Podes visualizar imagens na matriz de LED do Astro Pi. Talvez a sua saudação para os astronautas possa incluir uma imagem ou um desenho, junto com, ou em vez de uma mensagem escrita?
 

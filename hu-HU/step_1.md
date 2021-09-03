@@ -24,7 +24,7 @@ Az Astro Pi egységről tanulsz majd, és arról, hogyan irányítsd, beleértve
 + Képek létrehozása
 + Páratartalom mérése a Sense HAT segítségével
 
-Ez a projekt a [Raspberry Pi Digitális Alkotás Tanterv](http://rpf.io/curriculum) alábbi részeiből fed le elemeket:{:target="_blank"}:
+Ez a projekt a [Raspberry Pi Digitális Alkotás Tanterv](http://rpf.io/curriculum){:target="_blank"} alábbi részeiből fed le elemeket:
 
 + [Alapvető programozási szerkezetek használata egyszerű programok létrehozására](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 

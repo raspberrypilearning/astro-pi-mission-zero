@@ -15,3 +15,11 @@ Een andere mogelijkheid is dat je misschien een van onze andere Astro Pi-project
 + Daag je vrienden uit met een [marble maze](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-marble-maze){:target="_blank"} spel
 
 + Reconstrueer het klassieke spel van [Pong](https://projects.raspberrypi.org/vls-BE/projects/sense-hat-pong){:target="_blank"}
+
+***
+
+Dit project werd vertaald door vrijwilligers:
+
+Lieve Cox
+
+Dankzij vrijwilligers kunnen we mensen overal ter wereld de kans geven om in hun eigen taal te leren. Je kan ons helpen meer mensen te bereiken door je op te geven als vrijwilliger om te vertalen - meer info op [rpf.io/translate](https://rpf.io/translate).

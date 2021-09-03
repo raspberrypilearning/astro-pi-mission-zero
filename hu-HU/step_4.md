@@ -1,4 +1,4 @@
-## Adj hozzá egy kis színt!
+## Adj hozzá egy kis színt
 
 Az Astro Pi LED-jei színeket is meg tudnak jeleníteni. Egy színt egy változó létrehozásával, majd egy RGB színérték hozzárendelésével határozhatsz meg.
 

@@ -17,7 +17,7 @@ Kies een kleur en ontdek de RGB-waarde van die kleur. Je kunt een [kleurkiezer g
 Maak een variabele om de door jou gekozen kleur op te slaan. Als je bijvoorbeeld rood hebt gekozen, schrijf je deze regel code:
 
 ```python
-rood = (255,0,0)
+red = (255,0,0)
 ```
 
 --- /task ---
@@ -27,8 +27,8 @@ rood = (255,0,0)
 Je kunt nu je tekst weergeven in de kleur van je keuze! Om het programma te vertellen de door jou gemaakte kleur te gebruiken, voeg je een `text_colour` parameter toe aan de code die je tekst laat zien:
 
 ```python
-rood = (255,0,0)
-sense.show_message("Astro Pi", text_colour=rood)
+red = (255,0,0)
+sense.show_message("Astro Pi", text_colour=red)
 ```
 
 --- /task ---
@@ -40,9 +40,9 @@ sense.show_message("Astro Pi", text_colour=rood)
 Je kunt de achtergrondkleur van het display ook wijzigen. Kies een andere kleur en maak een andere variabele om die kleur op te slaan. Om het programma te vertellen de door jou gekozen achtergrondkleur te gebruiken, voeg je de `back_colour` parameter toe aan je code:
 
 ```python
-rood = (255,0,0)
-groen = (0,255,0)
-sense.show_message("Astro Pi", text_color=rood, back_colour=groen)
+red = (255,0,0)
+green = (0,255,0)
+sense.show_message("Astro Pi", text_color=red, back_colour=green)
 ```
 
 --- /task ---

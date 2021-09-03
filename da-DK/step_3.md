@@ -73,7 +73,7 @@ Beskedens standardhastighed er `0.1`. Hvis du gør talværdien mindre, ruller be
 
 ### Vælg et navn til de nye Astro Pi -computere
 
---- task --- Vi vil navngive Astro Pi-computerne efter to inspirerende europæiske forskere. Der er hundredvis af mænd og kvinder, der har bidraget til videnskab og teknologi. Deltagere kan foreslå deres egne navne eller vælge fra vores liste over forslag:
+--- task --- Vi vil navngive Astro Pi-computerne efter to inspirerende europæiske forskere. Der er hundredvis af mænd og kvinder, der har bidraget til videnskab og teknologi. Deltagere kan foreslå deres egne navne eller vælge fra vores liste over forslag (vær sikker på, at du bruger den engelske version af navnet):
 
 
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
@@ -87,7 +87,7 @@ Beskedens standardhastighed er `0.1`. Hvis du gør talværdien mindre, ruller be
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-For at stemme skal du starte din besked med ordene "Mit navn skal være". Hvis du f.eks. vil stemme på Ada Lovelace, ser din kode således ud:
+For at stemme skal du starte din besked med ordene "My name should be". Hvis du f.eks. vil stemme på Ada Lovelace, ser din kode således ud:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

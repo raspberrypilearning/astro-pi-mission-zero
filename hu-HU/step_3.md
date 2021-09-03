@@ -1,4 +1,4 @@
-## Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek!
+## Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek
 
 --- task ---
 
@@ -73,7 +73,7 @@ Az üzenet alapértelmezett sebessége `0.1`. Ha kisebb számot írsz be, az üz
 
 ### Válassz nevet az új Astro Pi számítógépeknek
 
---- task --- Az Astro Pi számítógépeket két inspiráló európai tudósról fogjuk elnevezni. Több száz férfi és nő járult hozzá a tudományhoz és technológiához, és a résztvevők javasolhatják a saját neveiket, vagy választhatnak a javasolt nevek listájáról:
+--- task --- Az Astro Pi számítógépeket két inspiráló európai tudósról fogjuk elnevezni. Több száz férfi és nő járult hozzá a tudományhoz és technológiához, és a résztvevők javasolhatják a saját neveiket, vagy választhatnak a javasolt nevek listájáról (kérjük, hogy a név angol írásmódját használd):
 
 
 [Ada Lovelace](https://hu.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 

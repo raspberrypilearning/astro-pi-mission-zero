@@ -2,7 +2,7 @@
 
 Il sensore di umidità nell'Astro Pi può misurare l'umidità nell'aria circostante, una funzione utile che può aiutarti a raccogliere dati sulle condizioni nello spazio.
 
-![L'emulatore HAT Trinket Sense esegue un programma di esempio che fa scorrere il valore dell'umidità attraverso la matrice di LED utilizzando lettere bianche](immagini/M0_3.gif)
+![L'emulatore HAT Trinket Sense esegue un programma di esempio che fa scorrere il valore dell'umidità attraverso la matrice di LED utilizzando lettere bianche](images/M0_3.gif)
 
 L'Astro Pi misura l'umidità nell'ISS come percentuale di concentrazione d'acqua nell'aria.
 
@@ -18,7 +18,7 @@ Aggiungete questa riga di codice per misurare l'umidità:
 humid = sense.get_humidity()
 ```
 
-Questa riga di codice misurerà l'umidità attuale e la memorizzerà nella variabile `umidita`.
+Questa riga di codice misurerà l'umidità attuale e la memorizzerà nella variabile `humid`.
 
 --- /task ---
 

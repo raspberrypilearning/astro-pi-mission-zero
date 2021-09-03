@@ -1,4 +1,4 @@
-## Mérd meg a páratartalmat!
+## Mérd meg a páratartalmat
 
 Az Astro Pi páratartalom-érzékelője képes a körülötte levő levegő páratartalmának mérésére. Ez egy hasznos funkció, amely segít az űrbeli viszonyokról szóló adatgyűjtésben.
 

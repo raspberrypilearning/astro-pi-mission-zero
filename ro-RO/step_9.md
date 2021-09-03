@@ -1,4 +1,4 @@
-## Provocare: mai multe proiecte Astro Pi
+## Ce urmează — mai multe proiecte Astro Pi
 
 Acum că ți-ai terminat misiunea, de ce nu încerci mai multe proiecte folosind ceilalți senzori de pe Astro Pi?
 

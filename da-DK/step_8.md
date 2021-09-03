@@ -5,7 +5,7 @@ Der er nogle få regler, som din kode skal følge, så du kan indsende den og de
 ![Et skærmbillede af Mission Zero Trinket-siderne, der viser indsendelsesknappen (Submit) og kriterierne for deltagelse til venstre. De to øverste ("læs fugtighed" og "brug lysdioderne") er i orange tekst, den nederste ("kører uden fejl") er grøn ](images/validation.png)
 
 1. Foretag en luftfugtigsaflæsning.
-1. Tænd lysdioderne
+1. Tænd lysdioderne.
 1. Sørg for, at din kode kører helt færdig, uden at der opstår fejl. Du bør ikke medtage nogen `while True` løkker i din kode, da dette holder dig kode kørende og forhindrer, at den afsluttes.
 1. Test din kode med et par forskellige fugtighedsindstillinger (ved hjælp af skyderen) for at sikre, at den altid kører korrekt.
 
