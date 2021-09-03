@@ -1,4 +1,4 @@
-## Näytä viesti
+## Näytä viesti ja valitse nimi uusille Astro Pi -tietokoneille
 
 --- task ---
 
