@@ -1,4 +1,4 @@
-## Mostre uma mensagem e escolha um nome para os novos computadores Astro Pi
+## Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
 
 --- task ---
 
