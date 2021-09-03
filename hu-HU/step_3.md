@@ -79,16 +79,16 @@ Az üzenet alapértelmezett sebessége `0.1`. Ha kisebb számot írsz be, az üz
 --- task --- Az Astro Pi számítógépeket két inspiráló európai tudósról fogjuk elnevezni. Több száz férfi és nő járult hozzá a tudományhoz és technológiához, és a résztvevők javasolhatják a saját neveiket, vagy választhatnak a javasolt nevek listájáról:
 
 
-[Ada Lovelace](https://hu.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
-[Alan Turing](https://hu.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
-[Caroline Herschel](https://sciencemeetup.444.hu/2016/03/08/a-tudomany-volt-a-principiuma-caroline-herschel){:target="_blank"} 
-[Edsger Dijkstra](https://hu.wikipedia.org/wiki/Edsger_Wybe_Dijkstra){:target="_blank"} 
-[Hedy Lamarr](https://hu.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
-[Hüpatia](https://hu.wikipedia.org/wiki/Alexandriai_H%C3%BCpatia){:target="_blank"} 
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
+[Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
+[Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
+[Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
 [John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
-[Marie Curie](https://hu.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
-[Nikola Tesla](https://hu.wikipedia.org/wiki/Nikola_Tesla_(feltal%C3%A1l%C3%B3)){:target="_blank"} 
-[Tycho Brahe](https://hu.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
+[Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
+[Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
+[Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
 A szavazáshoz kezdd az üzenetedet így: "My name should be" ("A nevem legyen ..."). Például ha Ada Lovelace-ra szeretnél szavazni, akkor így nézzen ki a kódod:
 
