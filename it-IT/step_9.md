@@ -1,4 +1,4 @@
-## E adesso: altri progetti Astro Pi
+## E ora - altri progetti su Astro Pi
 
 Ora che avete completato la vostra missione, perché non provare altri progetti usando gli altri sensori dell’Astro Pi?
 
