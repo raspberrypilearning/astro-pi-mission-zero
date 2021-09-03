@@ -1,4 +1,4 @@
-## Añadir algo de color
+## Añade un poco de color
 
 Las pantallas LED de Astro Pi también pueden mostrar colores. Puedes especificar un color creando una variable y asignándole un valor de color RGB.
 
