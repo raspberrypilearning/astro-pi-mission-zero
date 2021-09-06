@@ -86,7 +86,7 @@ Sõnumi kerimise vaikekiirus on `0,1`. Numbri vähendamine muudab sõnumi kerimi
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Hääletamiseks alusta oma sõnumit sõnadega "My name should be". Näiteks juhul, kui soovid hääletada Ada Lovelace'i poolt, näeks sinu kood välja selline:
+Hääletamiseks alusta oma sõnumit sõnadega "My name should be" (inglise keeles). Näiteks juhul, kui soovid hääletada Ada Lovelace'i poolt, näeks sinu kood välja selline:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

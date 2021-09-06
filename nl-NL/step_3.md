@@ -86,7 +86,7 @@ De standaardsnelheid van het bericht is `0.1`. Door het getal kleiner te maken, 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Om te stemmen, begint je jouw bericht met de woorden "My name should be". Bijvoorbeeld, als jij wilt stemmen voor Ada Lovelace, zou je code er zo uit moeten zien:
+Om te stemmen, begint je jouw bericht met de woorden "My name should be" (in het Engels). Bijvoorbeeld, als jij wilt stemmen voor Ada Lovelace, zou je code er zo uit moeten zien:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

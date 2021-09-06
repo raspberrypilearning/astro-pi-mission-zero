@@ -87,7 +87,7 @@ Beskedens standardhastighed er `0.1`. Hvis du gør talværdien mindre, ruller be
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-For at stemme skal du starte din besked med ordene "My name should be". Hvis du f.eks. vil stemme på Ada Lovelace, ser din kode således ud:
+For at stemme skal du starte din besked med ordene "My name should be" (på engelsk). Hvis du f.eks. vil stemme på Ada Lovelace, ser din kode således ud:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

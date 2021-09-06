@@ -86,7 +86,7 @@ La velocità predefinita del messaggio è `0.1`. Usando un numero più piccolo, 
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Per votare, inizia il tuo messaggio con le parole "My name should be". Per esempio, se un partecipante o una squadra volessero votare per Ada Lovelace, il loro codice sarebbe il seguente:
+Per votare, inizia il tuo messaggio con le parole "My name should be" (in inglese). Per esempio, se un partecipante o una squadra volessero votare per Ada Lovelace, il loro codice sarebbe il seguente:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

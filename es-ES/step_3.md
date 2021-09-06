@@ -87,7 +87,7 @@ La velocidad predeterminada del mensaje es `0.1`. Disminuir el número hará que
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Para votar, comienza tu mensaje con las palabras "My name should be". Por ejemplo, si quieres votar por Ada Lovelace, tu código se vería así:
+Para votar, comienza tu mensaje con las palabras "My name should be" (en Inglés). Por ejemplo, si quieres votar por Ada Lovelace, tu código se vería así:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

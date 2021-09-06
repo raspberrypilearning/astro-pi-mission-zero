@@ -87,7 +87,7 @@ Die Standardgeschwindigkeit der Nachricht ist `0.1`. Wenn du die Zahl verkleiner
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Um abzustimmen, beginne Deine Nachricht mit den Worten "My name should be". Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
+Um abzustimmen, beginne Deine Nachricht mit englischen den Worten "My name should be". Wenn Du beispielsweise für Ada Lovelace stimmen möchtest, würde Dein Code so aussehen:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

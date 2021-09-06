@@ -87,7 +87,7 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Για να ψηφίσεις, ξεκίνα το μήνυμά σου με τις λέξεις "My name should be". Για παράδειγμα, αν ένας συμμετέχων ή μια ομάδα θα ήθελε να ψηφίσει για την Ada Lovelace, ο κώδικάς τους θα μοιάζει κάπως έτσι:
+Για να ψηφίσεις, ξεκίνα το μήνυμά σου με τις λέξεις "My name should be" (στα αγγλικά). Για παράδειγμα, αν ένας συμμετέχων ή μια ομάδα θα ήθελε να ψηφίσει για την Ada Lovelace, ο κώδικάς τους θα μοιάζει κάπως έτσι:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

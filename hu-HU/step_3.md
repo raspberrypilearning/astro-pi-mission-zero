@@ -87,7 +87,7 @@ Az üzenet alapértelmezett sebessége `0.1`. Ha kisebb számot írsz be, az üz
 [Nikola Tesla](https://hu.wikipedia.org/wiki/Nikola_Tesla_(feltal%C3%A1l%C3%B3)){:target="_blank"} 
 [Tycho Brahe](https://hu.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-A szavazáshoz kezdd az üzenetedet így: "My name should be" ("A nevem legyen ..."). Például ha Ada Lovelace-ra szeretnél szavazni, akkor így nézzen ki a kódod:
+A szavazáshoz kezdd az üzenetedet így: "My name should be" (angolul). Például ha Ada Lovelace-ra szeretnél szavazni, akkor így nézzen ki a kódod:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

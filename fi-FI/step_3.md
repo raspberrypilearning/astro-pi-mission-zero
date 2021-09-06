@@ -87,7 +87,7 @@ Viestin oletusnopeus on `0.1`. Numeron muuttaminen pienemmäksi saa viestin vier
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Äänestääksesi aloita viestisi sanoilla "My name should be". Jos haluat äänestää esimerkiksi Ada Lovelacea, koodisi näyttäisi tältä:
+Äänestääksesi aloita viestisi sanoilla "My name should be" (englanniksi). Jos haluat äänestää esimerkiksi Ada Lovelacea, koodisi näyttäisi tältä:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")

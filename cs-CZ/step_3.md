@@ -87,7 +87,7 @@ Výchozí rychlost zprávy je `0,1`. (Pozor, v Pythonu se nepíše desetinná č
 [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
 [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
 
-Pokud chceš hlasovat, začni svoji zprávu slovy „My name should be“. Chceš-li například hlasovat pro Adu Lovelaceovou, tvůj kód by vypadal takhle:
+Pokud chceš hlasovat, začni svoji zprávu slovy „My name should be“ (v angličtině). Chceš-li například hlasovat pro Adu Lovelaceovou, tvůj kód by vypadal takhle:
 
 ```python
 sense.show_message("My name should be Ada Lovelace")
