@@ -59,7 +59,7 @@ title: Hinweise für Lehrer und Mentoren
 
 Diese Aktivität kann an einem Nachmittag abgeschlossen werden. Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, um eine persönliche Nachricht und die Luftfeuchtigkeit auf dem Astro Pi anzuzeigen.
 
-Lesen Sie das [Dokument offizieller Richtlinien](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_ blank"} für Mission Zero.
+Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
 Sie müssen sich für die Herausforderung Mission Zero registrieren, damit Ihr(e) Team(s) teilnehmen können.
 
