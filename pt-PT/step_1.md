@@ -59,7 +59,7 @@ title: Notas para professores e mentores
 
 Esta atividade pode ser concluída numa tarde. Organize os seus alunos em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um programa em Python para mostrar uma mensagem pessoal e a temperatura do ar no Astro Pi.
 
-Leia o [documento com as diretrizes oficiais](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} da Missão Zero.
+Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
 Será necessário registar-se para o desafio Missão Zero para permitir que a(s) sua(s) equipa(s) participe(m).
 
