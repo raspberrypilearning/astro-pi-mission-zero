@@ -59,7 +59,7 @@ title: Huomautuksia opettajille ja ohjaajille
 
 Tämä toiminta voidaan suorittaa yhden iltapäivän aikana. Järjestä oppilaasi joukkueisiin, joissa on yhdestä neljään henkilöä, ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma, joka näyttää henkilökohtaisen viestin ja ilman suhteellisen kosteuden Astro Pi:llä.
 
-Lue Mission Zeron [virallinen opasdokumentti](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"}.
+Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
 Sinun on rekisteröidyttävä Mission Zero -haasteeseen joukkueesi/joukkueidesi osallistumista varten.
 
