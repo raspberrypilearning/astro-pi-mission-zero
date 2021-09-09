@@ -59,7 +59,7 @@ title: Navodila za učitelje in mentorje
 
 To aktivnost je mogoče dokončati v enem popoldnevu. Učence razdelite v skupine z 1-4 člani, mi pa jih bomo vodili pri pisanju kratkega programa v programskem jeziku Python, s pomočjo katerega bodo na Astro Pi lahko prikazali osebno sporočilo in vlago zraka.
 
-Preberite [dokument z uradnimi smernicami](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} za Mission Zero.
+Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
 Za sodelovanje vaših skupin se boste morali prijaviti na izziv Mission Zero.
 
