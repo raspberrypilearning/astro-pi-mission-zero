@@ -52,7 +52,7 @@ title: Note per insegnanti e tutor
 
 Questa attività può essere completata in un pomeriggio. Organizza i tuoi studenti in gruppi da due a quattro, li guideremo attraverso la scrittura di un breve programma Python che mostrerà un messaggio personalizzato e l'umidità relativa sull'Astro Pi.
 
-Leggi le [le linee guida ufficiali](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} di Mission Zero.
+Leggi le [le linee guida ufficiali](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-it.pdf){:target="_blank"} di Mission Zero.
 
 Per permettere alle vostre squadre di partecipare alla challenge Mission Zero, dovete prima completare la registrazione.
 

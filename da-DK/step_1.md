@@ -12,7 +12,7 @@ Vi annoncerer de vindende navne til de nye Astro Pi -computere i foråret 2022.
 
 Her er et eksempel på den slags programmer, du kan lave. Klik på **Run** (Kør) for at se det i aktion.
 
-![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller fugtighedsværdien hen over LED-matricen og derefter viser et billede af en fisk](billeder/M0_4.gif)
+![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller fugtighedsværdien hen over LED-matricen og derefter viser et billede af en fisk](images/M0_4.gif)
 
 --- collapse ---
 ---
@@ -52,7 +52,7 @@ title: Bemærkninger til lærere og mentorer
 
 Denne aktivitet kan gennemføres på en eftermiddag. Organiser dine studerende i teams fra et til fire medlemmer og lad os guide dem gennem at skrive et kort Python-program til at vise en personlig besked og luftfugtighed på Astro Pi.
 
-Læs [dokumentet med officielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Læs [dokumentet med officielle retningslinjer](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-da.pdf){:target="_blank"} for Mission Zero.
 
 Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team/s mulighed for at deltage.
 

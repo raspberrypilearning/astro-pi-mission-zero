@@ -52,7 +52,7 @@ title: Note pentru profesori și mentori
 
 Această activitate poate fi terminată într-o după-amiază. Organizează-ți elevii în echipe de patru sau mai puțini, și lasă-ne să-i ghidăm să scrie un scurt program în Python pentru a afișa un mesaj personal și umiditatea relativă pe Astro Pi.
 
-Citește [documentul privind instrucțiunile oficiale](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pentru Mission Zero.
+Citește [documentul privind instrucțiunile oficiale](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-ro.pdf){:target="_blank"} pentru Mission Zero.
 
 Va trebui să te înregistrezi pentru provocarea Mission Zero pentru a permite echipei/echipelor tale să participe.
 

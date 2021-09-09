@@ -52,7 +52,7 @@ title: Notas para los profesores y mentores
 
 Esta actividad puede completarse en una tarde. Divide a tus estudiantes en equipos de un máximo de cuatro personas y permítenos guiarles en la creación de un sencillo programa en Python que muestre un mensaje personal y la humedad relativa en el Astro Pi.
 
-Lee el [documento con las directrices oficiales](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} de Mission Zero.
+Lee el [documento con las directrices oficiales](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-es.pdf){:target="_blank"} de Mission Zero.
 
 Necesitarás registrarte en el desafío Mission Zero para que tu(s) equipo(os) puedan participar.
 

@@ -52,7 +52,7 @@ title: Notater for lærere og veiledere
 
 Denne aktiviteten kan fullføres på en ettermiddag. Organisere elevene dine i grupper på en til fire, og la oss veilede dem gjennom å skrive et kort Python-program for å vise en personlig melding og den relative luftfuktigheten på Astro Pi.
 
-Les [dokumentet med offisielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Les [dokumentet med offisielle retningslinjer](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-nb.pdf){:target="_blank"} for Mission Zero.
 
 Du må registrere deg for Mission Zero-utfordringen for at laget/lagene dine skal kunne delta.
 
