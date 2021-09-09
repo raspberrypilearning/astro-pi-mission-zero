@@ -59,7 +59,7 @@ title: Bemærkninger til lærere og mentorer
 
 Denne aktivitet kan gennemføres på en eftermiddag. Organiser dine studerende i teams fra et til fire medlemmer og lad os guide dem gennem at skrive et kort Python-program til at vise en personlig besked og luftfugtighed på Astro Pi.
 
-Læs [dokumentet med officielle retningslinjer](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} for Mission Zero.
+Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
 Du skal tilmelde dig Mission Zero-udfordringen for at give dit/dine team/s mulighed for at deltage.
 
