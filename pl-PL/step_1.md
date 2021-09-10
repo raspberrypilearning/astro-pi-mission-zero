@@ -80,7 +80,7 @@ W którym język, uzyskano dostęp do wytycznych Misji Zero?
 
 + Wyświetl kod klasy w widocznym miejscu, na przykład na tablicy lub za pomocą projektora, i rozpocznij zadanie.
 
- Stworzyliśmy [dwustronicowy materiał do wydruku](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, który obejmuje kluczowe punkty Misji Zero i z którego uczniowie i młodzi ludzie mogą korzystać w ramach tego projektu online.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
