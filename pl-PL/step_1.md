@@ -73,7 +73,7 @@ W którym język, uzyskano dostęp do wytycznych Misji Zero?
 
 + Wyświetl kod klasy w widocznym miejscu, na przykład na tablicy lub za pomocą projektora, i rozpocznij zadanie.
 
- Stworzyliśmy [dwustronicowy materiał do wydruku](http://rpf.io/mz-printout}, który obejmuje kluczowe punkty Misji Zero i z którego uczniowie i młodzi ludzie mogą korzystać w ramach tego projektu online.
+ Stworzyliśmy [dwustronicowy materiał do wydruku](http://rpf.io/mz-printout){:target="_blank"}, który obejmuje kluczowe punkty Misji Zero i z którego uczniowie i młodzi ludzie mogą korzystać w ramach tego projektu online.
 
 --- /collapse ---
 
