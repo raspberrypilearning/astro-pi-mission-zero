@@ -80,7 +80,7 @@ Em que idioma acedeu as diretrizes da Missão Zero?
 
 + Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
 
- Criámos [ um folheto de duas páginas para impressão](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} que cobre os pontos-chave da Missão Zero e que estudantes e jovens podem usar juntamente com este projeto on-line.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
