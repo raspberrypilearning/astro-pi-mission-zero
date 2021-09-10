@@ -80,7 +80,7 @@ Read the [official guidelines document](https://astro-pi.org/media/mission-zero-
 
 + Προβάλλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής και ξεκινήστε τη δραστηριότητα.
 
- Δημιουργήσαμε [ένα εκτυπώσιμο φυλλάδιο δύο σελίδων](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} που καλύπτει τα βασικά σημεία του Mission Zero και το οποίο οι μαθητές και οι νέοι μπορούν να χρησιμοποιήσουν μαζί με αυτό το online έργο.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
