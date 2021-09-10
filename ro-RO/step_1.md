@@ -80,7 +80,7 @@ Numele și vârsta membrilor echipei
 
 + Afișează codul de clasă undeva vizibil, cum ar fi pe o tablă albă sau utilizând un proiector, iar mai apoi poți începe activitatea.
 
- Am creat [o broșură printabilă cu 2 pagini](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} care acoperă punctele cheie ale Mission Zero și pe care studenții și tinerii o pot folosi împreună cu acest proiect online.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
