@@ -80,7 +80,7 @@ In welcher Sprache haben Sie auf die Mission Zero-Richtlinien zugegriffen?
 
 + Zeigen Sie Ihren Klassencode irgendwo sichtbar an, z. B. auf einer Tafel oder mit einem Projektor, und beginnen Sie mit der Aktivität.
 
- Wir haben ein [druckbares, zweiseitiges Handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} erstellt, welches die wichtigsten Punkte der Mission Zero abdeckt. Es kann von den Schülern und Jugendlichen für dieses Online-Projekt verwendet werden.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
