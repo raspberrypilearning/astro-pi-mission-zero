@@ -73,7 +73,7 @@ Millises keeles te Mission Zero juhistega tutvusite?
 
 + Näidake oma klassi koodi kuskil nähtaval kohal, näiteks tahvlil või projektorit kasutades ja alustage tegevusega.
 
- Oleme koostanud [prinditava kaheleheküljelise käsilehe](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, mis hõlmab Mission Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
+ Oleme koostanud [prinditava kaheleheküljelise käsilehe](http://rpf.io/mz-printout){:target="_blank"}, mis hõlmab Mission Zero põhipunkte ja mida õpilased ja noored saavad koos selle veebiprojektiga kasutada.
 
 --- /collapse ---
 

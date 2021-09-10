@@ -73,7 +73,7 @@ Hvilket språk leste du retningslinjene for Mission Zero på?
 
 + Vis klasseromskoden på et synlig sted, for eksempel på en tavle eller ved hjelp av en projektor, og start aktiviteten.
 
- Vi har laget [et utskriftsvennlig to-siders hefte](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} som dekker de viktigste punktene om Mission Zero, og som elevene og ungdommene kan bruke sammen med dette nettbaserte prosjektet.
+ Vi har laget [et utskriftsvennlig to-siders hefte](http://rpf.io/mz-printout){:target="_blank"} som dekker de viktigste punktene om Mission Zero, og som elevene og ungdommene kan bruke sammen med dette nettbaserte prosjektet.
 
 --- /collapse ---
 

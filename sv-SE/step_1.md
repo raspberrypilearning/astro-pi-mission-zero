@@ -73,7 +73,7 @@ På vilket språk du läste Mission Zero-riktlinjerna?
 
 + Visa din klassrumskod på ett synligt ställe, exempelvis på en whiteboard eller med en projektor, och börja aktiviteten.
 
- Vi har skapat [ett utskrivbart två sidors dokument för utdelning](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} som innehåller viktiga punkter för Mission Zero och som studenter och ungdomar kan använda tillsammans med detta online-projekt.
+ Vi har skapat [ett utskrivbart två sidors dokument för utdelning](http://rpf.io/mz-printout){:target="_blank"} som innehåller viktiga punkter för Mission Zero och som studenter och ungdomar kan använda tillsammans med detta online-projekt.
 
 --- /collapse ---
 

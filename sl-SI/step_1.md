@@ -73,7 +73,7 @@ V katerem jeziku ste dostopali do smernic Misije Zero?
 
 + Kodo učilnice zapišite na vidno mesto, npr. na tablo ali jo projicirajte na platno, in začnite z aktivnostjo.
 
- Ustvarili smo [dvostranski izroček](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ki vsebuje ključne točke projekta Mission Zero in ki jih lahko učenci in mladi uporabljajo skupaj s tem spletnim projektom.
+ Ustvarili smo [dvostranski izroček](http://rpf.io/mz-printout){:target="_blank"}, ki vsebuje ključne točke projekta Mission Zero in ki jih lahko učenci in mladi uporabljajo skupaj s tem spletnim projektom.
 
 --- /collapse ---
 

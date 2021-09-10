@@ -74,7 +74,7 @@ Milyen nyelven olvastad el a Mission Zero irányelveit?
 
 + Rakd ki az osztálytermi kódoit egy jól látható helyre, például egy táblára vagy projektorra, és kezdjtnek neki a feladatnak!
 
- Készítettünk egy [kétoldalas nyomtatványt](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, amely magába foglalja a Mission Zero főbb pontjait, ezt a tanulók tudják használni az online projekttel együtt.
+ Készítettünk egy [kétoldalas nyomtatványt](http://rpf.io/mz-printout){:target="_blank"}, amely magába foglalja a Mission Zero főbb pontjait, ezt a tanulók tudják használni az online projekttel együtt.
 
 --- /collapse ---
 

@@ -81,7 +81,7 @@ In which language did you access the Mission Zero guidelines?
 
 + Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
 
- We have created [a printable two-page handout](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 

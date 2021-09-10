@@ -75,7 +75,7 @@ v jakém jazyce jste četli pokyny k Mission Zero?
 
 + Vystavte svůj kód třídy na viditelné místo, například na tabuli nebo jej promítněte pomocí projektoru, a můžete začít.
 
- Vytvořili jsme [tisknutelný dvoustránkový leták](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti či mladí lidé jej mohou využít společně s tímto online projektem.
+ Vytvořili jsme [tisknutelný dvoustránkový leták](http://rpf.io/mz-printout){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti či mladí lidé jej mohou využít společně s tímto online projektem.
 
 --- /collapse ---
 

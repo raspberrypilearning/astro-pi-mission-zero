@@ -74,7 +74,7 @@ Em que idioma acedeu as diretrizes da Mission Zero?
 
 + Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
 
- Criámos [um folheto de duas páginas para impressão](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} que cobre os pontos-chave da Mission Zero e que estudantes e jovens podem usar juntamente com este projeto on-line.
+ Criámos [um folheto de duas páginas para impressão](http://rpf.io/mz-printout){:target="_blank"} que cobre os pontos-chave da Mission Zero e que estudantes e jovens podem usar juntamente com este projeto on-line.
 
 --- /collapse ---
 

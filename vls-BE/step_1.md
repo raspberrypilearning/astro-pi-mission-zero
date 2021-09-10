@@ -73,7 +73,7 @@ In welke taal las je de richtlijnen voor Mission Zero?
 
 + Laat je klascode ergens zichtbaar zien, bijvoorbeeld op een whiteboard of door gebruik te maken van een projector, en begin met de activiteit.
 
- We hebben [een te printen uitdeelfiche van twee pagina's](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} opgesteld, met de sleutelpunten van Mission Zero die studenten en jongeren samen kunnen gebruiken bij dit online project.
+ We hebben [een te printen uitdeelfiche van twee pagina's](http://rpf.io/mz-printout){:target="_blank"} opgesteld, met de sleutelpunten van Mission Zero die studenten en jongeren samen kunnen gebruiken bij dit online project.
 
 --- /collapse ---
 
