@@ -80,7 +80,7 @@ In che lingua hai avuto accesso alle linee guida di Mission Zero?
 
 + Mostrate il vostro codice di classe in modo che sia ben visibile, ad esempio sulla lavagna o con un proiettore, e cominciate l’attività.
 
- Abbiamo creato [un volantino di due pagine da stampare](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} che copre i punti chiave di Mission Zero che tutti possono utilizzare insieme a questo progetto online.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
