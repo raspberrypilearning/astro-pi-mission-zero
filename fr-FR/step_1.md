@@ -80,7 +80,7 @@ Dans quelle langue avez-vous consulté les directives de Mission Zero ?
 
 + Affichez votre code de salle de classe quelque part où il sera visible, par exemple sur un tableau blanc ou en utilisant un projecteur, et commencez l'activité.
 
- Nous avons créé un [document imprimable de deux pages](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} qui couvre les points clés de Mission Zéro et que les élèves et les jeunes peuvent utiliser avec ce projet en ligne.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
