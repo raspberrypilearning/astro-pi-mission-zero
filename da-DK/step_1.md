@@ -80,7 +80,7 @@ På hvilket sprog fik du adgang til Mission Zero -retningslinjerne?
 
 + Vis din klasseværelseskode et sted, hvor den er synlig, eksempelvis på en tavle eller ved hjælp af en projektor, og start aktiviteten.
 
- Vi har oprettet [en udskriftvenlig folder på to sider](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, der dækker nøglepunkterne i Mission Zero, og som studerende og unge kan bruge sammen med dette online projekt.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
