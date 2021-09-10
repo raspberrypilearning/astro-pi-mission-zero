@@ -80,7 +80,7 @@ Nombres y edades de los miembros del equipo
 
 + Indica tu código de clase en un lugar visible como, por ejemplo, en una pizarra o proyector, y comienza la actividad.
 
- Hemos creado [un folleto imprimible de dos páginas](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"} que cubre los puntos clave de Mission Zero y que los estudiantes y los jóvenes pueden usar junto con este proyecto en línea.
+ We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 
 --- /collapse ---
 
