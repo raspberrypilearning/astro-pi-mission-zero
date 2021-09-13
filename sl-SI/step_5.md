@@ -2,15 +2,18 @@
 
 Na matrici LED računalnika Astro Pi lahko prikažete slike. Morda želite, da bi vaš pozdrav astronavtov poleg ali namesto pisnega sporočila vseboval sliko ali vzorec?
 
-![Astronavt](images/astronaut-pic.png)
+![Posnetek zaslona okna emulatorja, ki prikazuje Letalsko Enoto z LED matrico, ki prikazuje sliko Letalske Enote](images/fu-pic.png)
 
 --- task ---
 
-Na dnu svojega programa določite nekaj barvnih spremenljivk za barve, ki jih želite uporabiti v svojih slikah. Uporabite lahko toliko barv, kot želite, a v tem primeru bomo uporabili le dve — belo (`w`) in črno (`b`).
+Na dnu svojega programa določite nekaj barvnih spremenljivk za barve, ki jih želite uporabiti v svojih slikah. Uporabite lahko poljubno veliko barv, vendar bomo v tem primeru uporabili le nekaj barv - rdečo (`r`), belo (`w`), črno (`b`) in dva odtenka sive (`g` in `s`). Upoštevajte, da lahko odtenke dosežete odtenki z zmanjšanjem količine svetlobe v vseh treh kanalih, pri čemer ohranite enaki razmerji.
 
 ```python
 w = (255, 255, 255)
 b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Opomba:** V tem primeru je barvnim spremenljivkam priporočljivo dodeliti imena, sestavljena iz le ene črke, saj vam bo to prihranilo čas v naslednjem koraku, ko jih boste morali večkrat natipkati. Poleg tega bo zaradi uporabe enojnih črk sliko lažje videti.
@@ -19,21 +22,20 @@ b = (0, 0, 0)
 
 --- task ---
 
-Pod svojimi novimi spremenljivkami ustvarite seznam s 64 elementi. Vsak element predstavlja eno slikovno piko na matrici LED in ustreza eni izmed določenih barvnih spremenljivk. Svojo sliko narišete tako, da spremenljivko postavite na mesto, kjer želite, da se pojavi spremenljivki dodeljena barva. S črnimi (`b`) slikovnimi pikami na ozadju in belimi (`w`) slikovnimi pikami smo narisali astronavtovo vesoljsko obleko:
+Pod svojimi novimi spremenljivkami ustvarite seznam s 64 elementi. Vsak element predstavlja eno slikovno piko na matrici LED in ustreza eni izmed določenih barvnih spremenljivk. Svojo sliko narišete tako, da spremenljivko postavite na mesto, kjer želite, da se pojavi spremenljivki dodeljena barva. S črnimi (`b`) slikovnimi pikami na ozadju in belimi (`w`) slikovnimi pikami za kovinske dele ohišja smo narisali Astro Pi:
 
 ```python
-picture = [
-    b, b, w, w, w, w, b, b,
-    b, w, b, b, b, b, w, b,
-    b, w, b, w, w, b, w, b,
-    b, w, b, b, b, b, w, b,
-    b, b, w, w, w, w, b, b,
-    b, b, w, w, w, w, b, b,
-    b, w, w, w, w, w, w, b,
-    b, w, w, w, w, w, w, b
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
-
 --- /task ---
 
 --- task ---

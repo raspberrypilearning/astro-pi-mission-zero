@@ -1,8 +1,8 @@
-## Wyświetl wilgotność
+## Zareaguj na wilgotność
 
 Można połączyć pomiar wilgotności z obrazkiem, aby pokazać wilgotność również w postaci graficznej. Na przykład możesz wyświetlić ocean dla wysokiej wilgotności i pustynię dla niskiej wilgotności:
 
-![Mokro i sucho](images/wet-dry.png)
+![Wilgotno i sucho](images/wet-dry.png)
 
 --- task ---
 
@@ -55,17 +55,17 @@ dry = [
 Dodaj kod, aby uzyskać wilgotność:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Teraz zdecyduj, który obrazek chcesz wyświetlić. Dla tego przykładu wyświetlmy obrazek `wet`, jeśli odczyt wilgotności wynosi 40% lub więcej, i obrazek `dry` jeśli wilgotność jest poniżej 40%.
+Teraz zdecyduj, który obrazek chcesz wyświetlić. Dla tego przykładu wyświetlmy obrazek `wet` (mokro), jeśli odczyt wilgotności wynosi 40% lub więcej, i obrazek `dry` (sucho) jeśli wilgotność jest poniżej 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -83,5 +83,9 @@ Użyj suwaka wilgotności, aby ustawić wilgotność na emulatorze. Uruchom swó
 --- task ---
 
 Zmień swój kod, aby Twój program wyświetlał wilgotność dla astronautów w wybrany przez Ciebie sposób.
+
+--- /task ---
+
+--- task --- Przetestuj swój kod z kilkoma różnymi ustawieniami wilgotności (używając suwaka), aby upewnić się, że zawsze działa poprawnie. Jeśli zastosowałeś się do powyższego przykładu, czy obraz jest wyświetlany zarówno wtedy, gdy wilgotność jest ustawiona na mniej niż 40%, a także gdy jest ustawiona na więcej niż 40%?
 
 --- /task ---

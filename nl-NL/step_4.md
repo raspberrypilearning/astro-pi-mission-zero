@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![toon bericht in kleur](images/show-message-color.gif)
+![De Trinket Sense HAT emulator draait een voorbeeldprogramma dat de tekst "Astro PI" in rode letters over de LED-matrix schuift](images/M0_2.gif)
 
 --- task ---
 
@@ -42,7 +42,7 @@ Je kunt de achtergrondkleur van het display ook wijzigen. Kies een andere kleur 
 ```python
 red = (255,0,0)
 green = (0,255,0)
-sense.show_message("Astro Pi", text_colour=red, back_colour=green)
+sense.show_message("Astro Pi", text_color=red, back_colour=green)
 ```
 
 --- /task ---

@@ -1,10 +1,10 @@
-## Zobrazte zprávu
+## Zobraz zprávu a vyber název nových počítačů Astro Pi
 
 --- task ---
 
-Otevřete [emulátor desky Sense HAT](https://trinket.io/mission-zero){:target="_blank"} pro založení projektu Mission Zero.
+Otevři [emulátor Sense HAT](https://trinket.io/mission-zero){:target="_blank"} pro založení projektu Mission Zero.
 
-Tři řádky kódu, přidané automaticky, už tam budou:
+Uvidíš tři řádky kódu, které tam už budou automaticky přichystané:
 
 ```python
 from sense_hat import SenseHat
@@ -12,17 +12,17 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![emulátor desky sense hat](images/sense-hat-emulator2.png)
+![Snímek obrazovky emulátoru Trinket Sense Hat se třemi řádky startovacího kódu zobrazeným v levém panelu.](images/sense-hat-emulator2.png)
 
-Tento kód slouží k připojení k Astru Pi a zajistí, že jeho LED displej se zobrazuje správnou stranou nahoru. Tento kód tam nechte, protože ho budete potřebovat.
+Tenhle kód slouží k připojení k Astro Pi a zajistí, že se jeho LED displej bude zobrazovat správně. Ten kód tam nech, protože ho budeš potřebovat.
 
 --- /task ---
 
 --- task ---
 
-Možná byste rádi poslali astronautům pracujícím na ISS poblíž Astra Pi nějaký pěkný vzkaz? Pojďme na displeji zobrazit běžící textový vzkaz.
+Nechceš třeba astronauty na ISS, kteří pracují poblíž Astro Pi, nějak hezky pozdravit? Pojďme na displeji zobrazit běžící vzkaz.
 
-Přidejte pod kód, který už tam je, tuhle řádku:
+Pod kód, který už tam je, přidej tenhle řádek:
 
 ```python
 sense.show_message("Astro Pi")
@@ -32,42 +32,70 @@ sense.show_message("Astro Pi")
 
 --- task ---
 
-Stiskněte tlačítko **Run** (Spustit) a sledujte, jak zpráva `Astro Pi` běží přes LED displej.
+Stiskni tlačítko **Run** (spustit) a dívej se, jak zpráva `Astro Pi` běží přes LED displej.
 
-![kód pro zobrazení zprávy stisknout run (spustit)](images/show-message-code-annotated.PNG)
+![Emulátor Trinket Sense HAT, na kterém je spuštěn ukázkový program, který posouvá bílý text „Astro Pi“ po LED matici](images/M0_1.gif)
 
 --- /task ---
 
-![Běžící text](images/scroll-message.gif)
-
-Jestli chcete zobrazit nějakou jinou zprávu, napište ji mezi uvozovky (`""`).
+Pokud chceš zobrazit nějakou jinou zprávu, napiš ji mezi uvozovky (`""`).
 
 --- collapse ---
 ---
-title: Jaké znaky je možné použít?
+title: Jaké znaky můžeš použít?
 ---
 
-Sense HAT umí zobrazit jen znakovou sadu Latin 1, takže k dispozici jsou jen následující znaky. Jiné znaky se zobrazí jako `?`.
+Sense HAT dokáže zobrazit pouze znakovou sadu Latin 1, což znamená, že dostupné budou pouze následující znaky. Ostatní znaky se zobrazí jako `?`.
 
-    +-*/!"#$><0123456789.=)(
-    
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    
-    abcdefghijklmnopqrstuvwxyz
-    
-    ?,;:|@%[&_']\~
-    
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
 
 --- /collapse ---
 
 --- task ---
 
-Můžete také změnit rychlost, jakou zpráva běží přes displej. Ke kódu, který už máte, přidejte `scroll_speed`, například takhle:
+Můžeš také změnit rychlost, jakou zpráva poběží přes displej. Ke kódu, který tam už máš, přidej `scroll_speed`, například takhle:
 
 ```python
 sense.show_message("Astro Pi", scroll_speed=0.05)
 ```
 
-Výchozí rychlost zprávy je `0,1`. (Pozor, anglicky se nepíše desetinná čárka, ale desetinná tečka!) Když číslo zmenšíte, zpráva poběží rychleji, když ho zvětšíte, poběží pomaleji.
+Výchozí rychlost zprávy je `0,1`. (Pozor, v Pythonu se nepíše desetinná čárka, ale desetinná tečka!) Když číslo zmenšíš, zpráva poběží rychleji, a když ho zvětšíš, poběží pomaleji.
 
 --- /task ---
+
+### Vyber název nových počítačů Astro Pi
+
+--- task --- Počítače Astro Pi pojmenujeme po dvou inspirujících evropských vědcích. K vědě a technologii přispěly stovky mužů a žen. Účastníci mohou navrhnout své vlastní názvy nebo si vybrat z našeho seznamu návrhů (ujistěte se, že vybíráte anglickou variantu jména):
+
+
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
+[Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
+[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
+[Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
+[John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
+[Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
+[Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
+[Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
+
+Pokud chceš hlasovat, začni svoji zprávu slovy „My name should be“ (v angličtině). Chceš-li například hlasovat pro Adu Lovelaceovou, tvůj kód by vypadal takhle:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+
+Pokud chceš hlasovat, *musí* tvoje zpráva začínat těmito slovy, jinak nebudeme moci tvůj příspěvek započítat.
+
+--- /task ---
+
+
+

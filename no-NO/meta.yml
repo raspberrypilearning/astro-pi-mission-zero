@@ -5,23 +5,14 @@ description: Gjør deg klar for Mission Zero
 listed: false
 copyedit: true
 version: 4.0.1
-last_tested: 12.06.2018
+last_tested: 2018-06-12
 steps:
-  - 
-    title: Introduksjon
-  - 
-    title: Hva er en Astro Pi?
-  - 
-    title: Vise en melding
-  - 
-    title: Legge til farge
-  - 
-    title: Vise et bilde
-  - 
-    title: Måle luftfuktigheten
-  - 
-    title: Vise luftfuktigheten
-  - 
-    title: Sende inn bidraget ditt
-  - 
-    title: "Utfordring: flere Astro Pi-prosjekter"
+  - title: Introduksjon
+  - title: Hva er en Astro Pi?
+  - title: Vise en melding og velge et navn for de nye Astro Pi datamaskinene
+  - title: Legge til farge
+  - title: Vise et bilde
+  - title: Måle luftfuktigheten
+  - title: Vise luftfuktigheten
+  - title: Sende inn bidraget ditt
+  - title: 'Utfordring: flere Astro Pi-prosjekter'

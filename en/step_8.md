@@ -2,11 +2,12 @@
 
 There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
-![Validation](images/validation.png)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
 
 1. Take a humidity reading.
 1. Light up the LEDs.
 1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
+1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly. 
 
 Also make sure you have met the following criteria:
 
@@ -19,7 +20,7 @@ Once the rules are all green, you are ready to submit.
 
 --- task ---
 
-Enter your classroom code in the box at the bottom - your teacher or mentor will tell you what your code is.
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 **Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
 

@@ -1,4 +1,4 @@
-## Display the humidity
+## React to humidity
 
 You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
@@ -83,5 +83,10 @@ Use the humidity slider to set a humidity on the emulator. Run your program and 
 --- task ---
 
 Change your code so that your program displays the humidity to the astronauts in your own chosen way.
+
+--- /task ---
+
+--- task ---
+Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
 --- /task ---

@@ -1,52 +1,53 @@
 ## Envia a tua participação
 
-O teu código precisa seguir algumas regras para que possas enviar a tua participação para ser executada na Estação Espacial Internacional. Se o teu código seguir essas regras, na parte inferior do emulador as regras vão aparecer em verde quando executares o programa.
+O seu código precisa de seguir algumas regras para que possa enviar a sua participação para ser executada na Estação Espacial Internacional. Se o seu código as seguir, as regras na parte inferior do [emulador Sense HAT](https://trinket.io/mission-zero) irão acender a verde quando executar o programa.
 
-![Validação](images/validation.png)
+![Uma captura de ecrã das páginas do Trinket da Mission Zero mostrando o botão de envio e a verificação dos critérios à esquerda. Os dois superiores ("ler humidade" e "usar os LEDs") estão em texto laranja, o inferior ("execuções sem erros") é verde ](images/validation.png)
 
-1. Faz a leitura da temperatura
-2. Acende os LED
-3. Assegura-te de que o código seja executado até ao final sem que ocorram erros. Se tiveres um loop `while true` no teu código, precisas premir o botão **Stop** para parar esta regra.
+1. Faça uma leitura da humidade.
+1. Acende os LEDs.
+1. Certifique-se de que o seu código seja executado até o fim, sem a ocorrência de erros. Não deve incluir quaisquer ciclos `while True` no código, pois isso irá mantê-lo em execução e impedi-lo de terminar.
+1. Teste o seu código com algumas configurações de humidade diferentes (usando o controle de deslize) para se certificar de que ele funcionará sempre corretamente.
 
-Assegura-te que cumpriste os seguintes critérios:
+Certifique-se que também cumpriu os seguintes critérios:
 
-1. Certifica-te que a tua mensagem para os astronautas não dura mais de 30 segundos, porque esse é o tempo que o teu código irá ser executado na Estação Espacial Internacional
-2. Evita usar qualquer método que precise de entrada de dados
-3. Importa apenas do `sense_hat`, do `time` e de módulos `random` aleatórios
-4. Certifica-te que não incluíste linguagem inapropriada
+1. Certifique-se de que a sua mensagem para os astronautas não dure mais que 30 segundos, pois é quanto tempo o seu código será executado na EEI
+1. Evite usar qualquer método que necessite de entrada de dados
+1. Importe apenas dos módulos `sense_hat`, `time` e `random`
+1. Certifique-se de não incluiu linguagem inapropriada
 
-Quando as regras estiverem todas em verde, estás pronto para enviar.
+Quando as regras estiverem todas a verde, está pronto para enviar.
 
 --- task ---
 
-Introduz o código da tua turma no respetivo campo na parte inferior - o teu professor dir-te-á qual é o código.
+Introduz o código da sua turma no respetivo campo na parte inferior - o seu professor dirá qual é o código.
 
-**As notas para os professores ou mentores** encontram-se na [Introdução](https://projects.raspberrypi.org/pt-PT/projects/astro-pi-mission-zero/1).
+**Notas para professores ou mentores** podem ser encontradas no passo [Introdução](https://projects.raspberrypi.org/pt-PT/projects/astro-pi-mission-zero/1).
 
 --- /task ---
 
 --- task ---
 
-O nome do teu professor ficará visível. Se o nome estiver correto, clica no botão verde **Continue to form**.
+O nome do teu professor ficará visível. Se for o nome correto, clique no botão verde **Continue to form** (Continuar para o formulário).
 
-![Continue to form](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Insere o nome da tua equipa e os nomes dos membros da equipa. Estes nomes serão impressos no certificado uma vez que o código seja executado no espaço, por isso, certifica-te que os soletraste corretamente!
+![Continuar para o formulário](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Prime o botão **Submit** para inserir o teu código. O teu professor ou mentor receberá um email para confirmar a inscrição.
+Insira o nome da sua equipa e os nomes dos membros da equipa. Estes nomes serão impressos no certificado assim que o seu código for executado no espaço, portanto, certifique-se que os escreveu corretamente!
 
 --- /task ---
 
 --- task ---
 
-Se quiseres, podes compartir o link para o teu código nas redes sociais para dizer às pessoas que o código que escreveste vai ser executado no espaço!
+Prima o botão **Submit** (Submeter) para inserir o seu código. O seu professor ou mentor receberá um e-mail para confirmar a sua inscrição.
+
+--- /task ---
+
+--- task ---
+
+Se quiser, pode compartilhar o link para o seu código nas redes sociais para dizer às pessoas que o código que você escreveu será executado no espaço!
 
 --- /task ---

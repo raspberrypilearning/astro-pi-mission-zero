@@ -9,10 +9,10 @@ last_tested: 2018-06-12
 steps:
   - title: Bevezetés
   - title: Mi az az Astro Pi?
-  - title: Jeleníts meg egy üzenetet!
-  - title: Adj hozzá egy kis színt!
-  - title: Jeleníts meg egy képet!
+  - title: Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek
+  - title: Adj hozzá egy kis színt
+  - title: Jeleníts meg egy képet
   - title: Mérd meg a páratartalmat
-  - title: Jelenítsd meg a páratartalmat
-  - title: Küldd be a munkádat!
-  - title: "Kihívás: még több Astro Pi projekt"
+  - title: Reagálj a páratartalomra
+  - title: Küldd be a munkádat
+  - title: 'Kihívás: még több Astro Pi projekt'

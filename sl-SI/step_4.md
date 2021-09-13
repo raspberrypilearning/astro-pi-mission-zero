@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![Prikaži sporočilo v barvah](images/show-message-color.gif)
+![Emulator Trinket Sense HAT s programom, ki se z rdečimi črkami na matriko LED napiše \"Astro Pi \"](images/M0_2.gif)
 
 --- task ---
 

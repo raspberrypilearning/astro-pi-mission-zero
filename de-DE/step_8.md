@@ -1,19 +1,20 @@
 ## Einreichen deines Beitrags
 
-Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im Emulator grün angezeigt.
+Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im [Sense HAT emulator](https://trinket.io/mission-zero) grün angezeigt.
 
-![Verprobung](images/validation.png)
+![Ein Screenshot der Mission Zero Trinket Seiten mit dem Button zum Einreichen und der Kriterien-Checkliste auf der linken Seite. Die beiden oberen ("Feuchtigkeit lesen" und "verwenden der LEDs") sind in oranger Schrift, die unterste ("läuft ohne Fehler") ist grün ](images/validation.png)
 
 1. Nimm eine Feuchtigkeitsmessung vor.
-2. Schalte die LED-Lichter ein
-3. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Du solltest keine `while True`-Schleife in deinem Code verwenden, da dies deinen Coden endlos laufen ließe ohne je zu beenden.
+1. Schalte die LED-Lichter ein.
+1. Achte darauf, dass dein Code bis zum Ende ohne Fehler ausgeführt wird. Du solltest keine `while True`-Schleife in deinem Code verwenden, da dies deinen Coden endlos laufen ließe ohne je zu beenden.
+1. Teste deinen Code mit einigen unterschiedlichen Feuchtigkeitseinstellungen (mit dem Schieberegler) um sicherzustellen, dass er immer korrekt läuft.
 
 Stelle außerdem sicher, dass du die folgenden Kriterien erfüllt hast:
 
 1. Sorge dafür, dass deine Nachricht an die Astronauten nicht länger als 30 Sekunden dauert, denn so lange wird dein Code auf der ISS laufen
-2. Vermeide Methoden, die Eingaben benötigen
-3. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
-4. Achte darauf, dass keine Obszönitäten im Code enthalten sind
+1. Vermeide Methoden, die Eingaben benötigen
+1. Importiere nur aus den `sense_hat`, `time` und `random` Modulen
+1. Achte darauf, dass keine Obszönitäten im Code enthalten sind
 
 Sobald alle Regeln grün aufleuchten, kannst du deinen Beitrag einreichen.
 

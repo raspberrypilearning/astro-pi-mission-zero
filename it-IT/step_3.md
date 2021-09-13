@@ -1,4 +1,4 @@
-## Mostra un messaggio
+## Mostra un messaggio e scegli un nome per i nuovi computer Astro Pi
 
 --- task ---
 
@@ -12,9 +12,9 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![emulatore sense hat](images/sense-hat-emulator.png)
+![Uno screenshot dell'emulatore Trinket Sense Hat con tre righe di codice di avvio visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
 
-Questo codice si collega all’Astro Pi e garantisce che il messaggio sul display LED di Astro Pi sia mostrato nel senso corretto. Lasciate qui questo codice perché è necessario.
+Questo codice si collega all’Astro Pi e garantisce che il messaggio sul display LED di Astro Pi sia mostrato nel verso corretto. Lasciate stare questo codice, perché è necessario.
 
 --- /task ---
 
@@ -34,11 +34,9 @@ sense.show_message("Astro Pi")
 
 Premete il pulsante **Run** (esegui) e guardate il messaggio `Astro Pi` che scorre sul display LED.
 
-![mostra il codice del messaggio fai clic su Esegui](images/show-message-code-annotated.PNG)
+![L'emulatore Trinket Sense HAT esegue un programma di esempio che fa scorrere il testo \"Astro Pi \" sulla matrice LED utilizzando lettere bianche](images/M0_1.gif)
 
 --- /task ---
-
-![Scorrimento del messaggio](images/scroll-message.gif)
 
 Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra le virgolette (`""`).
 
@@ -47,16 +45,17 @@ Se volete visualizzare un messaggio diverso, scrivete quello che desiderate fra 
 title: Quali caratteri si possono usare?
 ---
 
-Sense HAT può visualizzare solo il set di caratteri "Latin 1". Questo significa che saranno disponibili solo i seguenti caratteri: Eventuali altri caratteri verranno visualizzati come `?`.
+Sense HAT può visualizzare solo il set di caratteri "Latin 1". Eventuali altri caratteri verranno visualizzati con un `?`.
 
-    +-*/!"#$><0123456789.=)(
-    
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    
-    abcdefghijklmnopqrstuvwxyz
-    
-    ?,;:|@%[&_']\~
-    
+```
++-*/!"#$><0123456789.=)(
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+?,;:|@%[&_']\~
+```
 
 --- /collapse ---
 
@@ -71,3 +70,31 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 La velocità predefinita del messaggio è `0.1`. Usando un numero più piccolo, il messaggio scorre più velocemente, mentre usando un numero più grande il messaggio scorre più lentamente.
 
 --- /task ---
+
+### Scegli un nome per i nuovi computer Astro Pi
+
+--- task --- Nomineremo i computer Astro Pi in onore di due fondamentali scienziati europei. Ci sono centinaia di uomini e donne che hanno contribuito alla scienza e alla tecnologia; i partecipanti possono suggerire i propri nomi o scegliere dalla nostra lista (assicurati di usare la versione in inglese del nome):
+
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
+[Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
+[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
+[Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
+[John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
+[Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
+[Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
+[Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
+
+Per votare, inizia il tuo messaggio con le parole "My name should be" (in inglese). Per esempio, se un partecipante o una squadra volessero votare per Ada Lovelace, il loro codice sarebbe il seguente:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+
+Se tu volessi votare, il tuo messaggio dovrebbe iniziare con queste parole, altrimenti, non saremo in grado di valutare la tua partecipazione.
+
+--- /task ---
+
+
+

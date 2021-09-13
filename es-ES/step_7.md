@@ -24,7 +24,7 @@ y=(255,255,0)
 Al igual que antes, dibuja tus imágenes creando primero una lista para cada uno y, a continuación, ajustando los elementos de la lista a los colores que quieres que sean tus píxeles.
 
 ```python
-humedo = [
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
   b, o, b, o, o, o, b, b,
@@ -36,7 +36,7 @@ humedo = [
 ]
 
 
-seco = [
+dry = [
   c, c, g, g, c, c, c, c,
   c, c, g, g, c, g, c, c,
   g, c, g, g, c, g, c, c,
@@ -55,33 +55,37 @@ seco = [
 Añade algo de código para obtener la humedad:
 
 ```python
-humedad = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Ahora decide la imagen que quieres mostrar. Para este ejemplo, mostraremos la imagen `humedo` si la lectura de la humedad es del 40% o superior, y la imagen `seco` si la temperatura es inferior al 40%.
+Ahora decide la imagen que quieres mostrar. Para este ejemplo, mostraremos la imagen `wet` (humedo) si la lectura de la humedad es del 40% o superior, y la imagen `dry` (seco) si la temperatura es inferior al 40%.
 
 ```python
-humedad = sense.humidity
-if humedad >= 40:
-    sense.set_pixels(humedo)
+humid = sense.get_humidity()
+if humid >= 40:
+    sense.set_pixels(wet)
 else:
-    sense.set_pixels(seco)
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-Usa el control deslizante de la humedad para establecer una determinada humedad en el emulador. Ejecuta tu programa y comprueba que la imagen que has seleccionado para dicha humedad sea correctamente visualizada.
+Usa el control deslizante de la humedad para establecer una determinada humedad en el emulador. Ejecuta tu programa y comprueba que la imagen que has seleccionado para dicha humedad se visualice correctamente.
 
 --- /task ---
 
 --- task ---
 
 Cambia tu código de forma que tu programa muestre la humedad a los astronautas del modo que hayas seleccionado.
+
+--- /task ---
+
+--- task --- Prueba tu código con algunas opciones diferentes de humedad (usando el deslizador) para asegurarte de que siempre funciona correctamente. Si ha seguido el ejemplo anterior, ¿se muestra una imagen cuando la humedad se ajusta a un valor inferior al 40% y también cuando se fija a más del 40%?
 
 --- /task ---

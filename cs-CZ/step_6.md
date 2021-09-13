@@ -1,61 +1,61 @@
-## Změřte vlhkost
+## Změř vlhkost
 
-Snímač vlhkosti v Astru Pi dokáže měřit vlhkost okolního vzduchu. To je užitečná funkce, která vám pomůže shromáždit údaje o podmínkách ve vesmíru.
+Senzor vlhkosti v Astro Pi dokáže měřit vlhkost okolního vzduchu. To je užitečná funkce, která ti pomůže shromažďovat údaje o podmínkách ve vesmíru.
 
-![Zpráva o vlhkosti](images/degrees-message.gif)
+![Emulátor Trinket Sense HAT, na kterém je spuštěn ukázkový program, který posouvá bílou hodnotu vlhkosti po LED matici](images/M0_3.gif)
 
-Astro Pi měří vlhkost v ISS v procentech koncentrace vody ve vzduchu.
+Astro Pi měří vlhkost na ISS v procentech koncentrace vody ve vzduchu.
 
-Součástí vaší mise je přispívat k každodennímu životu posádky na palubě ISS, dát jim vědět, že vlhkost na palubě vesmírné stanice je v normálním rozsahu je uklidní.
+Součástí tvé mise je podílet se na každodenním životě posádky na palubě ISS, takže je uklidní, když jim sdělíš, že vlhkost na palubě vesmírné stanice je v normě.
 
 [[[generic-theory-what-is-humidity]]]
 
 --- task ---
 
-Přidejte tento kód pro měření vlhkosti:
+Přidej tenhle kód pro změření vlhkosti:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
-Tato řádka změří současnou vlhkost a uloží naměřenou hodnotu v proměnné `humid`.
+Tenhle řádek kódu změří aktuální vlhkost a uloží naměřenou hodnotu do proměnné `humid`.
 
 --- /task ---
 
 --- task ---
 
-Vlhkost se zaznamenává velmi přesně, proto bude mít uložená hodnota velký počet desetinných míst. Hodnotu můžete zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníte na jiné, dostanete jiný počet desetinných míst.
+Vlhkost se zaznamenává velmi přesně, proto bude mít uložená hodnota velký počet desetinných míst. Hodnotu můžeš zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníš na jiné číslo, dostaneš jiný počet desetinných míst.
 
 ```python
-humid = round( sense.humidity, 1 )
+humid = round(sense.get_humidity(), 1)
 ```
 
 --- /task ---
 
 --- task ---
 
-Abyste aktuální vlhkost zobrazili na displeji jako běžící text, přidejte tuhle řádku kódu:
+Pokud chceš, aby aktuální vlhkost po displeji běžela, přidej tenhle řádek kódu:
 
 ```python
-sense.show_message( str(humid) )
+sense.show_message(str(humid))
 ```
 
-Část `str()` převádí vlhkost z čísla na text tak, aby ji Astro Pi mohl zobrazit.
+Část `str()` převádí vlhkost z čísla na text tak, aby ji Astro Pi mohlo zobrazit.
 
 --- /task ---
 
 --- task ---
 
-To `str()` převádí vlhkost z čísla na text, aby ji Astro Pi mohlo zobrazit.
+Vlhkost můžeš také zobrazit jako součást zprávy, jestliže spojíš všechny její částí pomocí znaménka `+`.
 
 ```python
-sense.show_message( "Je " + str(humid) + " %" )
+sense.show_message( "It is " + str(humid) + " %" )
 ```
 
 --- /task ---
 
-Skutečný Astro Pi bude měřit vlhkost kolem sebe, vy můžete posunout posuvník vlhkosti na emulátoru Sense HAT, abyste simulovali změny vlhkosti a vyzkoušeli váš kód.
+Skutečné Astro Pi bude měřit vlhkost kolem sebe, ale ty můžeš pomocí posuvníku na emulátoru Sense HAT simulovat změnu vlhkosti a vyzkoušet si tak svůj kód.
 
-![Posuvník vlhkosti](images/humidity-slider.png)
+![Označený snímek obrazovky emulátoru Sense HAT s oknem kódu vlevo a emulátorem vpravo. Posuvník pro nastavení vlhkosti je zakroužkován v pravém horním rohu](images/humidity-slider.png)
 
-**Poznámka:** Možná se divíte, proč posuvník vlhkosti zobrazuje vlhkost jako celé číslo, zatímco měření, které získáte, má desetinná místa. Emulátor simuluje maličkou míru nepřesnosti skutečného snímače, takže měření vlhkosti, které dostanete, může být nepatrně větší nebo menší než hodnota, kterou jste nastavili pomocí posuvníku.
+**Poznámka:** Možná tě zajímá, proč posuvník vlhkosti zobrazuje vlhkost jako celé číslo, zatímco zobrazená hodnota je desetinné číslo. Emulátor simuluje maličkou míru nepřesnosti skutečného senzoru, takže získaná hodnota z měření vlhkosti může být nepatrně větší nebo menší než hodnota, kterou nastavuješ pomocí posuvníku.

@@ -1,4 +1,4 @@
-## Visa luftfuktigheten
+## Reagera på luftfuktighet
 
 Du kan kombinera din avläsning av luftfuktigheten med en bild för ge en grafisk visning av luftfuktigheten. Till exempel kan du visa ett hav för hög luftfuktighet, och en öken för låg luftfuktighet:
 
@@ -12,7 +12,7 @@ Skapa fler färgvariabler för alla de färger som du vill använda, i slutet av
 o=(255,130,0)
 b=(0,0,255)
 c=(0,150,255)
-e=(80,80,80,80)
+e=(80,80,80)
 g=(0,255,0)
 y=(255,255,0)
 ```
@@ -24,27 +24,27 @@ y=(255,255,0)
 Precis som tidigare, ritar du dina bilder genom att först skapa en lista för var och en av dem, och sedan ställa in listans objekt med de färger som du vill att pixlarna ska ha.
 
 ```python
-wet= [
-  b, b, b, b, b, y, y, b,
-  b, b, b, b, y, y, y, y,
-  b, b, b, b, b, y, y, b,
+wet = [
   b, b, b, b, b, b, b, b,
   b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
   b, b, b, b, b, b, b, b,
-  g, g, g, g, g, g, g, g,
-  g, g, g, g, g, g, g, g
+  b, b, b, b, b, b, b, b
 ]
 
 
-dry= [
-  b, b, w, b, b, b, w, b,
-  b, b, b, b, b, w, b, b,
-  b, w, b, b, b, b, b, w,
-  b, b, b, b, w, b, b, b,
-  w, b, b, w, b, b, w, b,
-  b, b, b, b, b, b, b, b,
-  w, w, w, w, w, w, w, w,
-  w, w, w, w, w, w, w, w
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
 ]
 ```
 
@@ -55,18 +55,18 @@ dry= [
 Lägg till lite kod för att få luftfuktigheten:
 
 ```python
-luftfuktighet = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Välj nu vilken bild som ska visas. I det här exemplet visar vi `wet` bilden om luftfuktigheten är 40% eller högre och `dry` bilden om fuktigheten är under 40%.
+Bestäm nu vilken bild som ska visas. I det här exemplet visar vi `wet` (våt) bilden om luftfuktigheten är 40% eller högre och `dry` (torr) bilden om fuktigheten är under 40%.
 
 ```python
-luftfuktighet = sense.humidity
-if luftfuktighet >= 40:
+humid = sense.get_humidity()
+if humid >= 40:
     sense.set_pixels(wet)
 else:
     sense.set_pixels(dry)
@@ -83,5 +83,9 @@ Använd luftfuktighetsreglaget för att sätta en luftfuktighet på emulatorn. K
 --- task ---
 
 Ändra din kod så att ditt program visar luftfuktigheten för astronauterna på det sätt som du väljer.
+
+--- /task ---
+
+--- task --- Testa din kod med några olika fuktinställningar (med reglaget) för att se till att den alltid fungerar korrekt. Om du har följt exemplet ovan, visas en bild både när luftfuktigheten är inställd på ett värde mindre än 40% och även när den är inställd på mer än 40%?
 
 --- /task ---

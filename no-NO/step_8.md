@@ -1,19 +1,20 @@
 ## Sende inn bidraget ditt
 
-Det er noen regler for hvordan koden må være for at den kan sendes til å bli kjørt på den internasjonale romstasjonen. Hvis koden overholder dem, vil reglene nederst på emulatoren lyse grønt når dere kjører programmet.
+Det er noen regler for hvordan koden må være for at den kan sendes til å bli kjørt på den internasjonale romstasjonen. Hvis koden din følger dem, vil reglene nederst i [Sense HAT -emulatoren](https://trinket.io/mission-zero) lyse grønt når du kjører programmet.
 
-![Validering](images/validation.png)
+![Et skjermbilde av Mission Zero Trinket -sidene som viser innsendingsknappen og kriteriekontrollene til venstre. De to øverste ("les luftfuktighet" og "bruker lysdiodene") er i oransje tekst, den nederste ("kjører uten feil") er grønn ](images/validation.png)
 
 1. Les av luftfuktigheten.
-2. Lys opp lysdiodene
-3. Kontroller at koden din går helt til slutten uten at det oppstår feil. Du bør ikke ta med noen `while True` løkker i koden din, siden det vil føre til at koden fortsetter å kjøre og hindrer at den blir ferdig.
+1. Lys opp lysdiodene.
+1. Kontroller at koden din kjører helt til slutten uten at det oppstår feil. Du bør ikke ta med noen `while True` løkker i koden din, siden det vil føre til at koden fortsetter å kjøre og hindrer at den blir ferdig.
+1. Test koden din med forskjellige fuktighetsinnstillinger (ved hjelp av glidebryteren) for å sikre at den alltid kjører riktig.
 
 Sørg også for at dere har oppfylt følgende kriterier:
 
 1. Pass på at meldingen til astronautene ikke tar mer enn 30 sekunder, da dette er så lenge koden kommer til å kjøres på ISS
-2. Unngå å bruke metoder som trenger input
-3. Dere må bare importere fra modulene `sense_hat`, `time` og `random`
-4. Pass på at meldingen ikke har støtende innhold
+1. Unngå å bruke metoder som trenger input
+1. Dere må bare importere fra modulene `sense_hat`, `time` og `random`
+1. Pass på at meldingen ikke har støtende innhold
 
 Når alle reglene er grønne, er dere klare til å sende.
 
@@ -35,7 +36,7 @@ Lærerens navn vises. Hvis det er riktig navn, klikk på den grønne **Continue 
 
 --- task ---
 
-Skriv inn navnet på laget og navnene til lagmedlemmene. Disse vil bli skrevet ut på diplomet når koden er kjørt i rommet, så sørg for at de er riktig stavet!
+Skriv inn navnet på laget og navnene til lagmedlemmene. Disse vil bli skrevet ut på diplomet når koden er kjørt i rommet, så sørg for at de er riktig skrevet!
 
 --- /task ---
 

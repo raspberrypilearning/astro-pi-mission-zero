@@ -1,12 +1,12 @@
-## Exibir a humidade
+## Reage à humidade
 
-Podes combinar a leitura da humidade com uma imagem para também indicar a humidade de maneira gráfica. Por exemplo, pode-se mostrar um oceano para alta humidade e um deserto para baixa humidade:
+Pode combinar a leitura da humidade com uma imagem para também indicar a humidade de maneira gráfica. Por exemplo, pode-se mostrar um oceano para humidade alta e um deserto para humidade baixa:
 
-![Quente e frio](images/wet-dry.png)
+![Molhado e seco](images/wet-dry.png)
 
 --- task ---
 
-Na parte inferior do programa, cria mais variáveis ​​de cor para definir as cores que queres usar nos teus desenhos. Talvez já tenhas definido algumas variáveis num passo anterior.
+Na parte inferior do programa, crie mais variáveis ​​de cor para definir as cores que quer usar nos seus desenhos. Talvez já tenha definido algumas delas num passo anterior.
 
 ```python
 o=(255,130,0)
@@ -21,7 +21,7 @@ y=(255,255,0)
 
 --- task ---
 
-Como fizeste antes, desenha a tua imagem primeiro por criar uma lista para cada desenho, e em seguida combina os itens da lista com as cores que queres que os pixels tenham.
+Assim como antes, desenhe as suas imagens criando primeiro uma lista para cada uma delas e, em seguida, definindo os itens da lista com as cores que deseja que seus pixeis tenham.
 
 ```python
 wet = [
@@ -52,20 +52,20 @@ dry = [
 
 --- task ---
 
-Adiciona um código para obter a temperatura:
+Adicione algum código para obter a humidade:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Agora decide que imagem queres mostrar. Para este exemplo, mostraremos a imagem `wet (molhada)` se a leitura da humidade estiver 40% ou acima, e a imagem `dry (seca)` se a um humidade estiver abaixo de 40%.
+Agora decida que imagem quer mostrar. Para este exemplo, mostraremos a imagem `wet` (molhado) se a leitura da humidade estiver 40% ou acima, e a imagem `dry` (seco) se a um humidade estiver abaixo de 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Use o controle deslizante de humidade para definir uma humidade no emulador. Executa o teu programa e verifica se a imagem que seleccionaste para essa humidade foi exibida correctamente.
+Use o controlo de deslize da humidade para definir uma humidade no emulador. Execute o seu programa e verifique se a imagem que selecionou para essa humidade foi exibida corretamente.
 
 --- /task ---
 
 --- task ---
 
-Altera o teu código para que o teu programa mostre a temperatura aos astronautas da maneira que escolheste.
+Altere o seu código para que o seu programa mostre a humidade aos astronautas da maneira que escolheu.
+
+--- /task ---
+
+--- task --- Teste o seu código com algumas configurações de humidade diferentes (usando o controle de deslize) para ter a certeza de que ele funciona sempre corretamente. Se seguiu o exemplo acima, uma imagem é exibida quando a humidade está definida para um valor inferior a 40% e também quando está definida para mais de 40%?
 
 --- /task ---

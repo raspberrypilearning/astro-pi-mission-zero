@@ -9,10 +9,10 @@ last_tested: 2018-06-12
 steps:
   - title: Inleiding
   - title: Wat is een Astro Pi?
-  - title: Toon een bericht
+  - title: Toon een bericht en kies een naam voor de nieuwe Astro Pi computers
   - title: Voeg wat kleur toe
   - title: Toon een afbeelding
   - title: Meet de luchtvochtigheid
-  - title: Geef de luchtvochtigheid weer
+  - title: Reageer op de luchtvochtigheid
   - title: Verstuur je inzending
-  - title: "Uitdaging: meer Astro Pi-projecten"
+  - title: 'Wat nu - meer Astro Pi-projecten'

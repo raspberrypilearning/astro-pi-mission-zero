@@ -2,15 +2,18 @@
 
 Poți afișa imagini pe matricea LED a Astro Pi. Poate că salutul tău pentru astronauți ar putea include o imagine sau un model, împreună cu mesajul sau în locul mesajului scris?
 
-![Astronaut](images/astronaut-pic.png)
+![O captură de ecran a ferestrei de emulator care arată Unitatea de zbor cu matricea LED care afișează o poză a Unității de zbor în sine](images/fu-pic.png)
 
 --- task ---
 
-În partea de jos a programului tău, creează câteva variabile de culoare pentru a defini culorile cu care dorești să desenezi imaginea. Poți folosi cât de multe culori dorești, dar în acest exemplu vom păstra doar două culori — alb (`a`) și negru (`n`).
+În partea de jos a programului tău, creează câteva variabile de culoare pentru a defini culorile cu care dorești să desenezi imaginea. Poți folosi cât de multe culori dorești, dar în acest exemplu vom folosi doar câteva culori - roșu (`r`), alb (`w`), negru (`b`), și două nuanțe de gri (`g` și `s`). Nu uita că aceste nuanțe se obțin prin reducerea cantității de lumină în toate cele trei canale, menținând în același timp proporțiile.
 
 ```python
-a = (255, 255, 255)
-n = (0, 0, 0)
+w = (255, 255, 255)
+b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Notă:** De această dată, este o idee bună să dai variabilelor de culoare câte un nume de o singură literă, deoarece acest lucru va economisi timp la pasul următor, unde le vei tasta de mai multe ori. Mai mult, folosirea literelor unice va face mai ușoară vederea imaginii pe care o vei desena.
@@ -19,21 +22,20 @@ n = (0, 0, 0)
 
 --- task ---
 
-Sub noile tale variabile, creează o listă cu 64 de elemente. Fiecare element reprezintă un pixel pe matricea LED și corespunde uneia dintre variabilele de culoare pe care le-ai definit. Desenează imaginea ta introducând o variabilă în locul în care dorești să apară culoarea atribuită. Am desenat un astronaut folosind pixeli negri (`n`) ca fundal și albi (`a`) pentru a desena costumul astronauților în spațiu:
+Sub noile tale variabile, creează o listă cu 64 de elemente. Fiecare element reprezintă un pixel pe matricea LED și corespunde uneia dintre variabilele de culoare pe care le-ai definit. Desenează imaginea ta introducând o variabilă în locul în care dorești să apară culoarea atribuită. Am desenat un Astro Pi folosind pixeli negri (`b`) ca fundal și albi (`g`) pentru a-i desena părțile din metal a carcasei:
 
 ```python
-imagine = [
-    n, n, a, a, a, a, n, n,
-    n, a, n, n, n, n, a, n,
-    n, a, n, a, a, n, a, n,
-    n, a, n, n, n, n, a, n,
-    n, n, a, a, a, a, n, n,
-    n, n, a, a, a, a, n, n,
-    n, a, a, a, a, a, a, n,
-    n, a, a, a, a, a, a, n
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
-
 --- /task ---
 
 --- task ---
@@ -41,7 +43,7 @@ imagine = [
 Adaugă o linie de cod pentru a afișa imaginea ta pe afișajul cu LED-uri.
 
 ```python
-sense.set_pixels(imagine)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
@@ -70,6 +72,6 @@ sleep(2)
 
 --- task ---
 
-Creează propria ta imagine sau model pentru a le afișa astronauților!
+Creează propria ta imagine sau model pentru a o afișa astronauților!
 
 --- /task ---

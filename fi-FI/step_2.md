@@ -1,14 +1,14 @@
-## Mikä Astro Pi on?
+## Mikä on Astro Pi?
 
-Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu avaruusolosuhteisiin. Siinä on myös lisäosa nimeltä Sense HAT, joka on tehty nimenomaan Astro Pi -tehtävää varten. Sense HAT -laitteessa on ohjaussauva, LED-näyttö ja anturit lämpötilan, kosteuden, paineen ja suunnan tallentamiseksi.
+Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu avaruusolosuhteisiin. Siinä on myös lisäkortti nimeltä Sense HAT, joka on tehty erityisesti Astro Pi -tehtävää varten. Sense HATissa on ohjaussauva, LED-näyttö sekä anturit valaistusolosuhteiden, lämpötilan, ilmankosteuden, paineen ja suunnan tallentamiseksi.
 
-Tässä on oikea Astro Pi -yksikkö Kansainvälisellä avaruusasemalla, jolla suoritetaan opiskelijoiden kirjoittamaa koodia. Täällä koodisi lopulta suoritetaan! 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe> 
+Tässä on alkuperäinen I-mallin Astro Pi -yksikkö Kansainvälisellä avaruusasemalla suorittamassa opiskelijoiden kirjoittamaa koodia. Koodisi tullaan lopulta suorittamaan Astro Pi -tietokoneen uudessa versiossa!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ykbAJeGPMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>>
 
 Tätä tehtävää varten tulet käyttämään Sense HAT -emulaattoria. Emulaattori on ohjelma, joka simuloi kaikkia Astro Pi -toimintoja verkkoselaimessasi.
 
-![Sense HAT -emulaattori](images/sense-hat-emulator.png)
+![Merkitty ruutukaappaus Sense HAT -emulaattorista, jossa on koodi-ikkuna vasemmalla ja emulaattori oikealla.](images/sense-hat-emulator.png)
 
 Oikean ja emuloidun Sense HATin välillä on muutamia eroavaisuuksia:
 

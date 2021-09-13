@@ -1,6 +1,6 @@
 ## Dodawanie koloru
 
-Diody LED Astro Pi mogą również wyświetlać kolory. Można określić kolor, tworząc zmienną i przypisując mu wartość koloru RGB.
+Diody LED Astro Pi mogą również wyświetlać kolory. Można określić kolor, tworząc zmienną i przypisując mu wartość kolorów RGB(Red-czerwony, Green- zielony, Blue- niebieski).
 
 Tutaj można dowiedzieć się, jak tworzy się wszystkie kolory za pomocą różnych proporcji czerwonego, zielonego i niebieskiego:
 
@@ -8,13 +8,13 @@ Tutaj można dowiedzieć się, jak tworzy się wszystkie kolory za pomocą róż
 
 --- task ---
 
-Wybierz kolor i sprawdź jego wartość RGB. Można użyć [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
+Wybierz kolor i sprawdź jego wartość RGB. Dla ułatwienia, możesz skorzystać z [selektora kolorów](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Utwórz zmienną, aby zachować wybrany kolor. Na przykład, w przypadku wybrania czerwonego należy napisać ten wiersz kodu:
+Utwórz zmienną, aby przechować wybrany kolor. Na przykład, w przypadku wybrania czerwonego należy napisać następującą linię kodu:
 
 ```python
 red = (255,0,0)
@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![pokaż wiadomość w kolorze](images/show-message-color.gif)
+![Emulator Trinket Sense HAT uruchamiający przykładowy program, który przewija tekst \"Astro Pi\" po matrycy LED używając czerwonych literami](images/M0_2.gif)
 
 --- task ---
 

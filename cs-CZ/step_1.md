@@ -1,31 +1,33 @@
 ## Úvod
 
-Oživte denní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT, přídavné desky počítače Astro Pi, zobrazíte vzkaz a vlhkost vzduchu na palubě.
+Oživ každodenní rutinu astronautů na Mezinárodní vesmírné stanici tím, že jim pomocí Sense HAT nového počítače Mark II Astro Pi zobrazíš vzkaz a vlhkost vzduchu na palubě.
 
-Při vytváření programu budete používat online emulátor desky Sense HAT, takže není potřeba žádný speciální hardware – všechno se to dělá ve webovém prohlížeči.
+Hardware Mark II Astro Pi je tak nový, že tyto počítače zatím nemají žádný název. Počítače Astro Pi pojmenujeme po dvou inspirujících evropských vědcích. Hlasováním pro svůj oblíbený název v rámci svého programu Mission Zero můžeš pomoci vybrat, jak se budou jmenovat.
 
-Váš hotový program bude spuštěn ve vesmíru na Mezinárodní vesmírné stanici (ISS)! Také dostanete speciální certifikát s přesnou polohou ISS v okamžiku, kdy na ní byl spuštěn váš program!
+Při vytváření svého programu budeš používat online emulátor Sense HAT, takže nepotřebuješ žádný speciální hardware – všechno uděláš ve webovém prohlížeči. *Pokud tvůj dokončený program splňuje kritéria způsobilosti*, tak poběží ve vesmíru na Mezinárodní vesmírné stanici (ISS)! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
+
+Vybrané názvy nových počítačů Astro Pi oznámíme na jaře 2022.
 
 ### Co budeš dělat
 
-Tady je příklad, jaký program byste mohli vytvořit. Klikněte na **Run** (Spustit) a uvidíte ho v akci. 
+Tady je příklad, jaký program můžeš vytvořit. Klikni na tlačítko **Run** (spustit) a dívej se, jak funguje.
 
-<iframe src="https://trinket.io/embed/python/b92d76c0f3?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe> 
+![Emulátor Trinket Sense HAT, na kterém je spuštěn ukázkový program, který posouvá hodnotu vlhkosti vzduchu po LED matici a poté zobrazuje obrázek rybičky](images/M0_4.gif)
+
 
 --- collapse ---
 ---
 title: Co se naučíš
 ---
 
-Dozvíte se, co je jednotka Astro Pi a jak ji ovládat, například jak:
+Dozvíš se o jednotce Astro Pi a naučíš se ji ovládat. Také se dozvíš, jak:
++ zobrazovat zprávy a barvy,
++ vytvářet obrázky,
++ měřit vlhkost pomocí Sense HAT.
 
-+ Zobrazovat zprávy a barvy
-+ Vytvořit obrázky
-+ Měřit vlhkost pomocí Sense HAT
+Tento projekt zahrnuje prvky z následujících částí osnovy [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-Tento projekt zahrnuje prvky z následujících součástí [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"} (Osnov digitálního bastlení Raspberry Pi):
-
-+ [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů ](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
++ [Použití základních programovacích konstrukcí k vytvoření jednoduchých programů](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -49,30 +51,31 @@ title: Co budeš potřebovat
 title: Poznámky pro učitele a mentory
 ---
 
-Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů nejvýš po čtyřech, a nechte na nás, abychom je provedli napsáním krátkého programu v Pythonu, který zobrazí osobní vzkaz a vlhkost vzduchu na Astro Pi.
 
-Přečtěte si [dokument s oficiálními instrukcemi](https://astro-pi.org/wp-content/uploads/2018/09/Astro_Pi_Mission_Zero_Guidelines_2018_19_V12_pages.pdf){:target="_blank"} pro Mission Zero.
+Tato aktivita se dá stihnout během jednoho odpoledne. Rozdělte studenty do týmů po jednom až čtyřech a my jim ukážeme, jak napsat krátký program v Pythonu, který zobrazí osobní vzkaz a vlhkost vzduchu na Astro Pi.
 
-Aby se vaše týmy mohly zúčastnit, musíte se do Mission Zero zaregistrovat.
+Přečtěte si [oficiální dokument s pokyny](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-cs.pdf){:target="_blank"} pro Mission Zero.
 
-+ Jděte na [stránku emulátoru Trinket pro Mission Zero](https://trinket.io/mission-zero/register){:target="_blank"}.
+Aby se vaše týmy mohly zúčastnit výzvy Mission Zero, musíte se zaregistrovat.
 
-+ Vyplňte formulář a klikněte na **Submit** (Odeslat)\*.
++ Přejděte na [stránku Trinket emulátoru pro Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
+
++ Vyplňte formulář a klikněte na tlačítko **Submit** (odeslat)\*.
 
 \* Povšimněte si prosím, že tento registrační formulář je dostupný pouze v angličtině.
 
-Pole ve formuláři zahrnující:  
-Název učitele/mentora  
-Název týmu  
-Počet členů týmu  
-Jména a věk členů týmu  
-V jakém jazyce máte přístup k pokynům Mission Zero?
+Formulář obsahuje následující pole:  
+jméno učitele/mentora,   
+název týmu,  
+počet členů týmu,  
+jména a věk členů týmu,  
+v jakém jazyce jste četli pokyny k Mission Zero?
 
-+ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte, nebo nejste přihlášeni). Pro každou e-mailovou adresu můžete vytvořit jeden účet. Každý účet má svůj **kód třídy**, až budou vaše týmy připravené odeslat své programy, budete jim muset dát ten váš.
++ Bude pro vás vytvořen účet Trinket (pokud ho již nemáte nebo nejste přihlášeni). Na jednu e-mailovou adresu můžete zaregistrovat jeden účet. Každý účet má svůj vlastní **kód třídy**, a jakmile budou vaše týmy připravené odeslat své programy, budete jim muset ten svůj sdělit.
 
-+ Vystavte svůj kód třídy, aby byl dobře viditelný, například na tabuli nebo pomocí projektoru, a začněte s aktivitou.
-    
-    Vytvořili jsme [tisknutelný dvoustránkový leták](https://astro-pi.org/astro_pi_mission_zero_project_print_out_v10_print/){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti a mladí lidé jej mohou společně využít s tímto online projektem.
++ Vystavte svůj kód třídy na viditelné místo, například na tabuli nebo jej promítněte pomocí projektoru, a můžete začít.
+
+ Vytvořili jsme [tisknutelný dvoustránkový leták](http://rpf.io/mz-printout){:target="_blank"}, ve kterém najdete klíčové body Mission Zero a studenti či mladí lidé jej mohou využít společně s tímto online projektem.
 
 --- /collapse ---
 

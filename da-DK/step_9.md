@@ -2,7 +2,7 @@
 
 Nu hvor du har fuldført din mission, hvorfor så ikke prøve kræfter med nogle flere projekter ved hjælp af de andre sensorer på Astro Pi?
 
-Hvis du har mod på det, kan du deltage i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Dan et hold på to til seks personer, og arbejd sammen som rigtige rumforskere om at designe jeres eget eksperiment. Modtag gratis computerhardware til din mission, og skriv Python-koden for at udføre jeres eksperiment. Hvis du opnår flyvestatus, overføres din kode til den internationale rumstation og kører på Astro Pi i tre timer (to baner). Alle de data, som din kode indsamler i rummet — billed- eller sensordatafiler — downloades og returneres til dig til analyse.
+Hvis du har mod på det, kan du deltage i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Dan et hold på to til seks personer og arbejd sammen som rigtige rumforskere om at designe jeres eget eksperiment. Modtag gratis computerhardware til din mission og skriv Python-koden for at udføre jeres eksperiment. Hvis du opnår flyvestatus, overføres din kode til den internationale rumstation og kører på Astro Pi i tre timer (to baner). Alle de data, som din kode indsamler i rummet — billed- eller sensordatafiler — downloades og returneres til dig til analyse.
 
 Alternativt har du måske lyst til at prøve kræfter med ét af vores andre Astro Pi-projekter:
 
@@ -16,3 +16,10 @@ Alternativt har du måske lyst til at prøve kræfter med ét af vores andre Ast
 
 + Genskab det klassiske spil [Pong](https://projects.raspberrypi.org/da-DK/projects/sense-hat-pong){:target="_blank"}
 
+***
+
+Dette projekt blev oversat af frivillige:
+
+Ulrik Aarup Kruse
+
+Takket være frivillige kan vi give mennesker over hele verden chancen for at lære på deres eget sprog. Du kan hjælpe os med at nå endnu flere mennesker ved at melde dig som frivillig oversætter - få mere information på [rpf.io/translate](https://rpf.io/translate).

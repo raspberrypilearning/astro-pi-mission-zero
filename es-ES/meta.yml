@@ -9,10 +9,10 @@ last_tested: 2018-06-12
 steps:
   - title: Introducción
   - title: '¿Qué es un Astro Pi?'
-  - title: Mostrar un mensaje
-  - title: Añadir algo de color
-  - title: Mostrar una imagen
+  - title: Muestra un mensaje y elige un nombre para los nuevos ordenadores Astro Pi
+  - title: Añade un poco de color
+  - title: Muestra una imagen
   - title: Mide la humedad
   - title: Muestra la humedad
-  - title: Enviar tu proyecto
-  - title: "Desafío: Más proyectos Astro Pi"
+  - title: Envía tu proyecto
+  - title: 'Desafío: Más proyectos Astro Pi'

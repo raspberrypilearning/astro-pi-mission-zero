@@ -7,21 +7,12 @@ copyedit: true
 version: 4.0.1
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Wprowadzenie
-  - 
-    title: Czym jest Astro Pi?
-  - 
-    title: Wyświetlanie wiadomości
-  - 
-    title: Dodawanie koloru
-  - 
-    title: Wyświetlanie obrazków
-  - 
-    title: Pomiar wilgotności
-  - 
-    title: Wyświetl wilgotność
-  - 
-    title: Wyślij swoje zgłoszenie
-  - 
-    title: "Wyzwanie: więcej projektów Astro Pi"
+  - title: Wprowadzenie
+  - title: Czym jest Astro Pi?
+  - title: Wyświetl wiadomość i wybierz nazwę dla nowych komputerów Astro Pi
+  - title: Dodawanie koloru
+  - title: Wyświetlanie obrazków
+  - title: Pomiar wilgotności
+  - title: Zareaguj na wilgotność
+  - title: Wyślij swoje zgłoszenie
+  - title: Co później - więcej projektów Astro Pi

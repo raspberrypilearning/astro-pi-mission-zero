@@ -16,10 +16,11 @@ Eller så kanske du vill prova något av våra andra Astro Pi-projekt:
 
 + Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-pong){:target="_blank"}
 
-
 ***
-Gemenskapsbaserad översättning
 
-Detta projekt har översatts av Jonas Hedberg och granskats av Jennica Falk.
+Detta projekt översattes av frivilliga:
 
-Våra fantastiska frivilliga översättare hjälper oss att ge barn runt om i världen chansen att lära sig att koda. Du kan hjälpa oss att nå fler barn genom att översätta våra projekt - läs mer på [rpf.io/translate](https://rpf.io/translate).
+Jonas Hedberg
+David Norlin
+
+Tack vare frivilliga kan vi ge människor runt om i världen möjligheten att lära på sitt eget språk. Du kan hjälpa oss att nå ut till fler personer genom att bli frivillig översättare - läs mer på [rpf.io/translate](https://rpf.io/translate).

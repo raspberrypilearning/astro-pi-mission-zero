@@ -2,7 +2,7 @@
 
 Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
-Ha elég magabiztosnak érzed magad, akár a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)ben is részt vehetsz! Állíts össze minimum két, maximum hat emberből álló csapatot, és dolgozzatok együtt igazi űrkutatókként a saját kísérletetek megtervezésére. Ingyenes számítógépes hardvert kapsz a küldetésedre, hogy megírhasd a Python kódot a kísérleted elvégzéséhez. Ha repülési státuszt érsz el, a kódodat feltöltjük a Nemzetközi Űrállomásra, és három órán keresztül fog futni az Astro Pi-on (kétszer körbekerüli a Földet). Minden adatot, amelyet a kódod gyűjt be az űrben — képek vagy az érzékelő adatfájljai — letöltünk és visszaküldjük neked elemzésre.
+Ha elég magabiztosnak érzed magad, akár a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)ben is részt vehetsz! Állíts össze minimum két, maximum hat emberből álló csapatot, és dolgozzatok együtt igazi űrkutatókként a saját kísérletetek megtervezésén. Ingyenes számítógépes hardvert kapsz a küldetésedre, hogy megírhasd a Python kódot a kísérleted elvégzéséhez. Ha repülési státuszt érsz el, a kódodat feltöltjük a Nemzetközi Űrállomásra, és három órán keresztül fog futni az Astro Pi-on (kétszer körbekerüli a Földet). Minden adatot, amelyet a kódod gyűjt be az űrben — képek vagy az érzékelő adatfájljai — letöltünk és visszaküldjük neked elemzésre.
 
 Akár valamelyik másik Astro Pi projektünket is kipróbálhatod:
 
@@ -16,10 +16,9 @@ Akár valamelyik másik Astro Pi projektünket is kipróbálhatod:
 
 + Készítsd el újra a klasszikus [Pong](https://projects.raspberrypi.org/hu-HU/projects/sense-hat-pong){:target="_blank"} játékot
 
-
 ***
-Közösségi hozzájárulással készült fordítás
+A projektet önkéntesek fordították le:
 
-Ezt a projektet Péter Györök fordította le és Bence Vass ellenőrizte.
+Péter Györök
 
-A nagyszerű fordító önkénteseink segítenek, hogy világszerte megadhassuk a gyerekeknek a lehetőséget, hogy megtanuljanak kódolni. Ön is segíthet a projektjeink lefordításával, hogy több gyereket érhessünk el - bővebben az [rpf.io/translate](https://rpf.io/translate) oldalon.
+Az önkénteseknek köszönhetően lehetőséget biztosítunk az embereknek a világ minden tájáról, hogy saját nyelvükön tanulhassanak. Segíthetsz minél több ember elérésében, ha önkéntesen részt veszel a fordításban - további információ az [rpf.io/translate](https://rpf.io/translate) oldalon.

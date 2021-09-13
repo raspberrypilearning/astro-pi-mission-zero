@@ -9,10 +9,10 @@ last_tested: 2018-06-12
 steps:
   - title: Einleitung
   - title: Was ist ein Astro Pi?
-  - title: Anzeigen einer Nachricht
+  - title: Zeige eine Nachricht und wähle einen Namen für die neuen Astro Pi Computer
   - title: Füge etwas Farbe hinzu
   - title: Anzeigen eines Bildes
   - title: Miss die Luftfeuchtigkeit
-  - title: Zeige die Luftfeuchtigkeit an
+  - title: Reagiere auf die Luftfeuchtigkeit
   - title: Einreichen deines Beitrags
-  - title: "Herausforderung: noch mehr Astro Pi Projekte"
+  - title: Wie geht es weiter – weitere Astro Pi-Projekte

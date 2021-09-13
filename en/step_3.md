@@ -1,4 +1,4 @@
-## Display a message
+## Display a message and choose a name for the new Astro Pi computers
 
 --- task ---
 
@@ -12,7 +12,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 ```
 
-![sense hat emulator](images/sense-hat-emulator2.png)
+![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
 
 This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
@@ -34,11 +34,11 @@ sense.show_message("Astro Pi")
 
 Press the **Run** button and watch as the message `Astro Pi` scrolls across the LED display.
 
-![show message code click run](images/show-message-code-annotated.PNG)
+![The Trinket Sense HAT emulator running a sample program which scrolls the text "Astro PI" across the LED matrix in white letters](images/M0_1.gif)
 
 --- /task ---
 
-![Scrolling message](images/scroll-message.gif)
+
 
 To display a different message, you can write anything you like between the quotation marks (`""`).
 
@@ -73,5 +73,33 @@ sense.show_message("Astro Pi", scroll_speed=0.05)
 The default speed of the message is `0.1`. Making the number smaller makes the message scroll more quickly, and making it larger makes the message scroll more slowly.
 
 --- /task ---
+
+### Choose a name for the new Astro Pi computers
+
+--- task ---
+We will name the Astro Pi computers after two inspirational European scientists. There are hundreds of men and women that have contributed to science and technology, and participants can suggest their own names, or pick from our list of suggestions:
+
+
+[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
+[Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
+[Edsgar Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
+[Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
+[Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
+[John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
+[Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
+[Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
+[Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"} 
+
+To vote, start your message with the words "My name should be". For example, you want to vote for Ada Lovelace, your code would look like this:
+
+```python
+sense.show_message("My name should be Ada Lovelace")
+```
+
+If you would like to vote, your message *must* start with these words, otherwise we won't be able to automatically count your entry.
+
+--- /task ---
+
 
 

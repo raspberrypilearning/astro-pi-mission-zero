@@ -8,7 +8,7 @@ Du kan lære, hvordan alle farver kan laves ved hjælp af forskellige kombinatio
 
 --- task ---
 
-Vælg en farve og find uden pågældende farves RGB-værdi. Du kan benytte en [farvevælger](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} til at hjælpe dig.
+Vælg en farve og find den pågældende farves RGB-værdi. Du kan benytte en [farvevælger](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} til at hjælpe dig.
 
 --- /task ---
 
@@ -33,11 +33,11 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![vis besked i farve](images/show-message-color.gif)
+![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller teksten "Astro PI" hen over LED-matricen med røde bogstaver](images/M0_2.gif)
 
 --- task ---
 
-Du kan også ændre baggrundsfarve på displayet. Vælg en anden farve, og opret en anden variabel for at gemme den farve. For at bede programmet om at anvende din valgte baggrundsfarve skal du føje parameteren `back_colour` (bag_farve) til din kode:
+Du kan også ændre baggrundsfarve på displayet. Vælg en anden farve og opret en anden variabel for at gemme den farve. For at bede programmet om at anvende din valgte baggrundsfarve skal du føje parameteren `back_colour` til din kode:
 
 ```python
 red = (255,0,0)

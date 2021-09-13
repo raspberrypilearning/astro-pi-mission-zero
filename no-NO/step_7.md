@@ -55,7 +55,7 @@ dry = [
 Legg til kode for å få luftfuktigheten:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
@@ -65,7 +65,7 @@ humid = sense.humidity
 Nå bestemmer dere hvilket bilde som skal vises. I dette eksemplet vil vi vise et `wet` (fuktig) bilde hvis luftfuktigheten er 40% eller høyere, og et `dry` (tørt) bilde hvis luftfuktigheten er under 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -83,5 +83,9 @@ Bruk skyveknappen for luftfuktighet til å angi en luftfuktighet på emulatoren.
 --- task ---
 
 Endre koden slik at programmet viser luftfuktigheten til astronautene slik dere har valgt.
+
+--- /task ---
+
+--- task --- Test koden din med forskjellige fuktighetsinnstillinger (ved hjelp av glidebryteren) for å sikre at den alltid kjører riktig. Hvis dere har fulgt eksemplet ovenfor, vises et bilde både når fuktigheten er satt til en verdi mindre enn 40% og når den er satt til mer enn 40%?
 
 --- /task ---

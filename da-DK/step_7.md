@@ -1,6 +1,6 @@
 ## Vis luftfugtigheden
 
-Du kan kombinere din fugtlæsning med et billede for også at indikere fugtigheden grafisk. For eksempel kan du vise et hav for høj luftfugtighed og en ørken for lav luftfugtighed:
+Du kan kombinere din luftfugtighedslæsning med et billede for også at indikere luftfugtigheden grafisk. For eksempel kan du vise et hav for høj luftfugtighed og en ørken for lav luftfugtighed:
 
 ![Våd og tør](images/wet-dry.png)
 
@@ -55,17 +55,17 @@ dry = [
 Tilføj noget kode for at få luftfugtigheden:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `våd (wet)` billede, hvis luftfugtigheden er 40% eller derover og `tør (dry)` billede, hvis luftfugtigheden er under 40%.
+Beslut dig derefter for, hvilket billede du vil vise. I dette eksempel viser vi `wet` billede, hvis luftfugtigheden er 40% eller derover og `dry` billede, hvis luftfugtigheden er under 40%.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -76,12 +76,16 @@ else:
 
 --- task ---
 
-Brug fugtighedsskyderen til at indstille en fugtighed på emulatoren. Kør dit program, og kontroller, at det billede, du har valgt til den målte luftfugtighed, vises korrekt.
+Brug fugtighedsskyderen til at indstille en fugtighed på emulatoren. Kør dit program og kontroller, at det billede, du har valgt til den målte luftfugtighed, vises korrekt.
 
 --- /task ---
 
 --- task ---
 
 Ændre din kode, så dit program viser astronauterne temperaturen på den måde, du selv har valgt.
+
+--- /task ---
+
+--- task --- Test din kode med et par forskellige fugtighedsindstillinger (ved hjælp af skyderen) for at sikre, at den altid kører korrekt. Hvis du har fulgt eksemplet ovenfor, vises der så et billede både, når luftfugtigheden er indstillet til en værdi mindre end 40% og også når, den er indstillet til mere end 40%?
 
 --- /task ---

@@ -1,4 +1,4 @@
-## Geef de luchtvochtigheid weer
+## Reageer op de luchtvochtigheid
 
 Je kunt je luchtvochtigheidsmeting combineren met een afbeelding om ook de luchtvochtigheid op een grafische manier aan te geven. Je kunt bijvoorbeeld een oceaan weergeven voor lage luchtvochtigheid en een woestijn voor hoge luchtvochtigheid:
 
@@ -55,17 +55,17 @@ dry = [
 Voeg wat code toe om de luchtvochtigheid te krijgen:
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 ```
 
 --- /task ---
 
 --- task ---
 
-Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we de `wet` (natte) afbeelding weergeven als de luchtvochtigheidswaarde 40 % of meer is, en de `dry` (droge) afbeelding als de luchtvochtigheid lager is dan 40 %.
+Bepaal nu welke afbeelding moet worden weergegeven. Voor dit voorbeeld zullen we de `wet` afbeelding weergeven als de luchtvochtigheidswaarde 40 % of meer is, en de `dry` afbeelding als de luchtvochtigheid lager is dan 40 %.
 
 ```python
-humid = sense.humidity
+humid = sense.get_humidity()
 if humid >= 40:
     sense.set_pixels(wet)
 else:
@@ -83,5 +83,9 @@ Gebruik de schuifregelaar voor luchtvochtigheid om een luchtvochtigheid op de em
 --- task ---
 
 Wijzig je code zodat je programma de luchtvochtigheid op je eigen gekozen manier aan de astronauten weergeeft.
+
+--- /task ---
+
+--- task --- Test je code met een paar verschillende vochtigheidsinstellingen (met behulp van de schuifregelaar) om er zeker van te zijn dat deze altijd correct werkt. Als je het bovenstaande voorbeeld hebt gevolgd, wordt er dan een afbeelding weergegeven wanneer de luchtvochtigheid is ingesteld op een waarde van minder dan 40% en ook wanneer deze is ingesteld op meer dan 40%?
 
 --- /task ---

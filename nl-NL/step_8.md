@@ -1,25 +1,26 @@
 ## Verstuur je inzending
 
-Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze volgt, lichten de regels onder aan de emulator groen op wanneer je het programma uitvoert.
+Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze volgt, lichten de regels onder aan de [Sense HAT emulator](https://trinket.io/mission-zero) groen op wanneer je het programma uitvoert.
 
-![Bevestiging](images/validation.png)
+![Een screenshot van de Mission Zero Trinket pagina's met de verzendknop en de criteriacontroles aan de linkerkant. De bovenste twee ("lees vochtigheid" en "gebruik de LED's") zijn oranje, de onderste ("loopt zonder fouten") is groen ](images/validation.png)
 
 1. Neem een luchtvochtigheidsmeting.
-2. Verlicht de LED's.
-3. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Je zou geen `while True` lussen moeten zetten in je code, omdat dit je code laat doordraaien en voorkomt dat deze eindigt.
+1. Verlicht de LED's.
+1. Zorg ervoor dat je code helemaal tot het einde loopt zonder dat er fouten optreden. Je zou geen `while True` lussen moeten zetten in je code, omdat dit je code laat doordraaien en voorkomt dat deze eindigt.
+1. Test je code met een paar verschillende vochtigheidsinstellingen (met behulp van de schuifregelaar) om er zeker van te zijn dat deze altijd correct werkt.
 
 Zorg er ook voor dat je aan de volgende criteria voldoet:
 
 1. Zorg ervoor dat je bericht aan de astronauten niet langer dan 30 seconden loopt, want dit is de duur van je code op het ISS
-2. Vermijd het gebruik van methoden die invoer nodig hebben
-3. Importeer alleen vanuit de `sense_hat`, `time` en `random` modules
-4. Zorg ervoor dat je geen grove taal gebruikt
+1. Vermijd het gebruik van methoden die invoer nodig hebben
+1. Importeer alleen vanuit de `sense_hat`, `time` en `random` modules
+1. Zorg ervoor dat je geen grove taal gebruikt
 
 Zodra de regels allemaal groen zijn, ben je klaar om te verzenden.
 
 --- task ---
 
-Voer je klassencode in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
+Voer je klascode in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
 
 **Opmerkingen voor leraren of mentoren** zijn te vinden in de [Inleiding](https://projects.raspberrypi.org/nl-NL/projects/astro-pi-mission-zero/1) stap.
 
@@ -41,7 +42,7 @@ Voer je teamnaam en de namen van de teamleden in. Deze worden op het certificaat
 
 --- task ---
 
-Druk op **Submit** (Verzenden) knop om je code in te voeren. Je leraar of mentor ontvangt een e-mail om je verzending te bevestigen.
+Druk op **Submit** (Verzenden) knop om je code in te zenden. Je leraar of mentor ontvangt een e-mail om je verzending te bevestigen.
 
 --- /task ---
 

@@ -6,7 +6,7 @@ Hvis dere føler dere trygge, kan dere delta i [Mission Space Lab](https://astro
 
 Alternativt kan dere prøve et av våre andre Astro Pi-prosjekter:
 
-+ Lær [mer om Sense HAT](https://projects.raspberrypi.org/no-NO/projects/getting-started-with-the-sense-hat){:target="_blank"} og de andre tingene det kan gjøre
++ Lær [mer om Sense HAT](https://projects.raspberrypi.org/no-NO/projects/getting-started-with-the-sense-hat){:target="_blank"} og de andre tingene den kan gjøre
 
 + Lag noen fine [vilkårlige stjerneskudd](https://projects.raspberrypi.org/no-NO/projects/sense-hat-random-sparkles){:target="_blank"} på Sense HATs LED-skjerm
 
@@ -16,11 +16,8 @@ Alternativt kan dere prøve et av våre andre Astro Pi-prosjekter:
 
 + Gjenskap det klassiske spillet [Pong](https://projects.raspberrypi.org/no-NO/projects/sense-hat-pong){:target="_blank"}
 
-
 ***
 Dette prosjektet er oversatt av frivillige:
-
-Simen Lunke
 
 Tor Arve Stangeland
 

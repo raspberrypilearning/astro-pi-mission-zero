@@ -33,7 +33,7 @@ sense.show_message("Astro Pi", text_colour=red)
 
 --- /task ---
 
-![vise melding i farger](images/show-message-color.gif)
+![Trinket Sense HAT-emulatoren som kjører et eksempelprogram som ruller teksten \"Astro Pi\" over LED-matrisen ved hjelp av røde bokstaver](images/M0_2.gif)
 
 --- task ---
 

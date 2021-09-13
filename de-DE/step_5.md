@@ -2,15 +2,18 @@
 
 Auf der LED-Matrix des Astro Pi kannst du auch Bilder anzeigen. Vielleicht könnte dein Gruß an die Astronauten zusätzlich, oder statt einer schriftlichen Nachricht, ein Bild oder ein Muster enthalten?
 
-![Astronaut](images/astronaut-pic.png)
+![Ein Screenshot des Emulatorfensters, das die Flugeinheit mit der LED-Matrix zeigt, die selbst ein Bild der Flugeinheit anzeigt](images/fu-pic.png)
 
 --- task ---
 
-Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel bleiben wir bei zwei Farben — weiß (`w`) und schwarz (`s`).
+Erstelle am unteren Rand deines Programms ein paar Farbvariablen, um die Farben zu definieren, mit denen du dein Bild zeichnen möchtest. Du kannst so viele Farben verwenden, wie du möchtest, aber in diesem Beispiel nutzen wir nur einige wenige Farben — rot (`r`), weiss (`w`), schwarz (`s`) und zwei Schattierungen von grau (`g` und `t`). Beachte, dass die Schattierungen durch die Reduzierung der Lichtmenge in allen drei Kanälen erzielt werden, während die Proportionen gleich bleiben.
 
 ```python
 w = (255, 255, 255)
-s = (0, 0, 0)
+b = (0, 0, 0)
+g = (50,50,50)
+s = (200,255,200)
+r = (255,0,0)
 ```
 
 **Hinweis:** Es ist hier sinnvoll den Farbvariablen Namen aus nur einem Buchstaben zu geben, denn das spart Zeit im nächsten Schritt, wo du sie mehrmals tippen musst. Darüber hinaus erleichtert die Verwendung einzelner Buchstaben das Erkennen des gezeichneten Bildes.
@@ -19,21 +22,22 @@ s = (0, 0, 0)
 
 --- task ---
 
+
+
 Erstelle unter deinen neuen Variablen eine Liste von 64 Elementen. Jedes Element repräsentiert ein Pixel in der LED-Matrix und entspricht einer der von dir definierten Farbvariablen. Zeichne dein Bild, indem du eine Variable dort einfügst, wo die zugewiesene Farbe angezeigt werden soll. Wir haben einen Astronauten gezeichnet, indem wir die schwarzen (`s`) Pixel als Hintergrund und die weißen (`w`) Pixel für den Raumanzug des Astronauten benutzt haben:
 
 ```python
-bild = [
-    s, s, w, w, w, w, s, s,
-    s, w, s, s, s, s, w, s,
-    s, w, s, w, w, s, w, s,
-    s, w, s, s, s, s, w, s,
-    s, s, w, w, w, w, s, s,
-    s, s, w, w, w, w, s, s,
-    s, w, w, w, w, w, w, s,
-    s, w, w, w, w, w, w, s
-]
+ picture = [
+    g, b, b, b, b, b, b, g,
+    b, g, g, g, g, g, g, b,
+    b, g, b, b, g, w, g, g,
+    b, g, b, b, g, g, g, g,
+    b, g, g, g, s, s, g, g,
+    b, g, r, g, g, g, g, g,
+    b, g, g, g, g, g, g, b,
+    g, b, b, b, b, b, b, g
+    ]
 ```
-
 --- /task ---
 
 --- task ---
@@ -41,7 +45,7 @@ bild = [
 Füge eine Codezeile hinzu, um dein Bild auf dem LED-Bildschirm anzuzeigen.
 
 ```python
-sense.set_pixels(bild)
+sense.set_pixels(picture)
 ```
 
 --- /task ---
