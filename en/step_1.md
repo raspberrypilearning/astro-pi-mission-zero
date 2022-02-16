@@ -12,7 +12,7 @@ We will announce the chosen names for the new Astro Pi computers in spring 2022.
 
 ### What you will make
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Here is an example of the kind of program you could make.
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
