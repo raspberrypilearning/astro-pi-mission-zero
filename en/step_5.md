@@ -43,7 +43,7 @@ Draw your picture by putting a variable where you want its assigned colour to ap
 
 --- task ---
 
-Add a line of code to display your picture on the LED display.
+Below your list, add a line of code to display your picture on the LED display.
 
 ```python
 sense.set_pixels(picture)
