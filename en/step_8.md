@@ -1,5 +1,7 @@
 ## Submit your entry
 
+Please note: Mission Zero is now closed for the 2021/22 season. You can still complete the activity but won’t be able to submit it. The next Challenge will launch in Autumn 2022
+
 There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
 
 ![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
