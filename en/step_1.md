@@ -2,17 +2,17 @@
 
 Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the relative humidity on board using the new Mark II Astro Pi computer's Sense HAT.
 
-The Mark II Astro Pi hardware is so new that the computers don’t even have names yet. We will name the Astro Pi computers after two inspirational European scientists. You can help choose what they’ll be called by voting for your favourite name as part of your Mission Zero program.
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
+Please note: Mission Zero is now closed for the 2021/22 season. You can still complete the activity but won’t be able to submit it. The next Challenge will launch in Autumn 2022.
 We will announce the chosen names for the new Astro Pi computers in spring 2022.
 
 
 ### What you will make
 
-Here is an example of the kind of program you could make. Click **Run** to see it in action.
+Here is an example of the kind of program you could make.
 
 ![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 

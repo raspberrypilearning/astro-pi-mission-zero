@@ -1,4 +1,5 @@
-title: "Astro Pi: Mission Zero"
+---
+title: 'Astro Pi: Mission Zero'
 hero_image: images/banner.png
 description: Prepare for Mission Zero
 listed: false
@@ -9,9 +10,12 @@ steps:
 - title: Introduction
 - title: What is an Astro Pi?
 - title: Display a message and choose a name for the new Astro Pi computers
+  completion: engaged
 - title: Add some colour
 - title: Display an image
 - title: Measure the humidity
 - title: React to humidity
+  completion: internal
 - title: Submit your entry
 - title: What next — more Astro Pi projects
+
