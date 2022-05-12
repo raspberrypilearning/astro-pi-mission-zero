@@ -8,13 +8,14 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
 - title: Introduction
-  completion: engaged
 - title: What is an Astro Pi?
 - title: Display a message and choose a name for the new Astro Pi computers
+  completion: engaged
 - title: Add some colour
 - title: Display an image
 - title: Measure the humidity
 - title: React to humidity
-- title: Submit your entry
   completion: internal
-- title: What next — more Astro Pi projects"
+- title: Submit your entry
+- title: What next — more Astro Pi projects
+
