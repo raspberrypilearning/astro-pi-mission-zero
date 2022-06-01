@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Sissejuhatus
-  completion: engaged
 - title: Mis on Astro Pi?
 - title: Kuva sõnum ja vali uutele Astro Pi arvutitele nimi
+  completion:
+  - engaged
 - title: Lisa värve
 - title: Kuva pilt
 - title: Mõõda õhuniiskust
 - title: Reageeri õhuniiskusele
 - title: Esita oma võistlustöö
-  completion: internal
+  completion:
+  - internal
 - title: Mis edasi — rohkem Astro Pi projekte

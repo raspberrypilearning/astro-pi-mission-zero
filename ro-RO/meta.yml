@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Introducere
-  completion: engaged
 - title: Ce este Astro Pi?
 - title: Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
+  completion:
+  - engaged
 - title: Adaugă culoare
 - title: Afișează o imagine
 - title: Măsoară umiditatea
 - title: Reacționează la umiditate
 - title: Trimite programul tău
-  completion: internal
+  completion:
+  - internal
 - title: Ce urmează — mai multe proiecte Astro Pi

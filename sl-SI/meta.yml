@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Uvod
-  completion: engaged
 - title: Kaj je Astro Pi?
 - title: Prikažite sporočilo in izberite ime za nove Astro Pi računalnike
+  completion:
+  - engaged
 - title: Dodajte barve
 - title: Prikažite sliko
 - title: Izmerite vlažnost
 - title: Prikažite vlažnost
 - title: Pošljite svoj prispevek
-  completion: internal
+  completion:
+  - internal
 - title: 'Izziv: več projektov Astro Pi'

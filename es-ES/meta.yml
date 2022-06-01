@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Introducción
-  completion: engaged
 - title: "¿Qué es un Astro Pi?"
 - title: Muestra un mensaje y elige un nombre para los nuevos ordenadores Astro Pi
+  completion:
+  - engaged
 - title: Añade un poco de color
 - title: Muestra una imagen
 - title: Mide la humedad
 - title: Muestra la humedad
 - title: Envía tu proyecto
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafío: Más proyectos Astro Pi'

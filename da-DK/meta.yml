@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Introduktion
-  completion: engaged
 - title: Hvad er en Astro Pi?
 - title: Vis en besked
+  completion:
+  - engaged
 - title: Tilføj noget farve
 - title: Vis et billede
 - title: Mål luftfugtigheden
 - title: Vis luftfugtigheden
 - title: Indsend dit bidrag
-  completion: internal
+  completion:
+  - internal
 - title: 'Udfordring: Flere Astro Pi-projekter'

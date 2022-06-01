@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Úvod
-  completion: engaged
 - title: Co je Astro Pi?
 - title: Zobraz zprávu a vyber název nových počítačů Astro Pi
+  completion:
+  - engaged
 - title: Přidej barvy
 - title: Zobraz obrázek
 - title: Změř vlhkost
 - title: Zobraz vlhkost
 - title: Odešli svůj příspěvek
-  completion: internal
+  completion:
+  - internal
 - title: 'Výzva: další projekty Astro Pi'
