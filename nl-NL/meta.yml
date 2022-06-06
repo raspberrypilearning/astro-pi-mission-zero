@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Wat is een Astro Pi?
 - title: Toon een bericht en kies een naam voor de nieuwe Astro Pi computers
+  completion:
+  - engaged
 - title: Voeg wat kleur toe
 - title: Toon een afbeelding
 - title: Meet de luchtvochtigheid
 - title: Reageer op de luchtvochtigheid
 - title: Verstuur je inzending
-  completion: internal
+  completion:
+  - internal
 - title: Wat nu - meer Astro Pi-projecten

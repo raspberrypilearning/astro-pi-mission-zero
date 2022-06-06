@@ -8,14 +8,16 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Τι είναι το Astro Pi;
 - title: Εμφάνιση μηνύματος και επιλογή ονόματος για τους νέους υπολογιστές Astro
     Pi
+  completion:
+  - engaged
 - title: Προσθήκη χρώματος
 - title: Εμφάνιση εικόνας
 - title: Μέτρηση της υγρασίας
 - title: Αντίδραση στην υγρασία
 - title: Υποβολή της καταχώρησής σου
-  completion: internal
+  completion:
+  - internal
 - title: Τι ακολουθεί — περισσότερα έργα Astro Pi"

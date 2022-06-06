@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Bevezetés
-  completion: engaged
 - title: Mi az az Astro Pi?
 - title: Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek
+  completion:
+  - engaged
 - title: Adj hozzá egy kis színt
 - title: Jeleníts meg egy képet
 - title: Mérd meg a páratartalmat
 - title: Reagálj a páratartalomra
 - title: Küldd be a munkádat
-  completion: internal
+  completion:
+  - internal
 - title: 'Kihívás: még több Astro Pi projekt'

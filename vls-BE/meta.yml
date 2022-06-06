@@ -8,13 +8,15 @@ version: 4.0.1
 last_tested: 2018-06-12
 steps:
 - title: Introductie
-  completion: engaged
 - title: Wat is een Astro Pi?
 - title: Laat een boodschap zien en kies een naam voor de nieuwe Astro Pi-computers
+  completion:
+  - engaged
 - title: Voeg er wat kleur aan toe
 - title: Laat een beeld zien
 - title: Meet de vochtigheid
 - title: Reageer op vochtigheid
 - title: Je project indienen
-  completion: internal
+  completion:
+  - internal
 - title: 'Uitdaging: meer Aspro Pi projecten'
