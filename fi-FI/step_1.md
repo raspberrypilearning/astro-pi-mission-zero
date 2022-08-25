@@ -2,36 +2,27 @@
 
 Piristä Kansainvälisen avaruusaseman astronauttien päivittäistä rutiinia näyttämällä heille viesti ja aluksen sisäilman ilmankosteus käyttämällä Astro Pi -tietokoneen Sense HAT -toimintoa.
 
-II-mallinen Astro Pi -laitteisto on niin uusi, että tietokoneilla ei ole edes nimiä vielä. Nimeämme Astro Pi -tietokoneet kahden inspiroivan eurooppalaisen tieteentekijän mukaan. Voit auttaa valitsemaan miksi niitä kutsutaan äänestämällä suosikkinimeäsi Mission Zero -ohjelmasi sisällä.
+You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-Käytät Sense HAT -verkkoemulaattoria ohjelmasi tekemiseen, joten lisälaitteita ei tarvita — kaikki tehdään selaimessa. *Jos se täyttää kelpoisuusvaatimukset*, tekemäsi ohjelma ajetaan avaruudessa Kansainvälisellä avaruusasemalla (ISS)! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
-
-Ilmoitamme uusille Astro Pi -tietokoneille valitut nimet keväällä 2022.
-
+*If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### Mitä tulet tekemään
 
-Tässä on esimerkki siitä, millaisen ohjelman voit tehdä. Napsauta **Run** (Suorita) nähdäksesi sen toiminnassa.
+Here is an example of the kind of program you could make. <mark>change image here</mark>
 
-![Trinket Sense HAT -emulaattori ajaa esimerkkiohjelmaa, joka vierittää ilmankosteuden arvoa LED-matriisin läpi ja sitten näyttää kuvan kalasta](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
 
 --- collapse ---
-
-
 
 ---
 title: Mitä tulet oppimaan
 ---
 
-Tutustut Astro Pi -yksikköön ja sen toimintoihin, kuten seuraavien asioiden tekemiseen:
+You will learn about the Astro Pi unit and how to control it, including how to:
 + Viestien ja värien näyttäminen
 + Kuvien tekeminen
 + Ilmankosteuden mittaaminen Sense HATia käyttäen
-
-Tämä projekti sisältää seuraavia kohtia [Raspberry Pi Digital Making -opetussuunnitelmasta](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Käytä perus​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseksi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -43,11 +34,12 @@ title: Mitä tarvitset
 
 ### Laitteisto
 
-+ Mikä tahansa tietokone, jolla on internetyhteys
++ [Käytä perus​​ohjelmointirakenteita yksinkertaisten ohjelmien luomiseksi](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 ### Ohjelmisto
 
-+ Verkkoselain (esim. Google Chrome) avaamaan [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
+<mark> update to new editor link </mark>
++ Mikä tahansa tietokone, jolla on internetyhteys
 
 --- /collapse ---
 
@@ -56,32 +48,18 @@ title: Mitä tarvitset
 title: Huomautuksia opettajille ja ohjaajille
 ---
 
+Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Tämä toiminta voidaan suorittaa yhden iltapäivän aikana. Järjestä oppilaasi joukkueisiin, joissa on yhdestä neljään henkilöä, ja anna meidän ohjata heitä kirjoittamaan lyhyt Python-ohjelma, joka näyttää henkilökohtaisen viestin ja ilman suhteellisen kosteuden Astro Pi:llä.
+Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board and create an image that uses that colour.
+
+<mark> update to new link </mark>
 
 Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
-Sinun on rekisteröidyttävä Mission Zero -haasteeseen joukkueesi/joukkueidesi osallistumista varten.
+<mark> update to new link if this resource is being updated </mark>
 
-+ Mene [Trinket-emulaattori Mission Zero -sivulle](https://trinket.io/mission-zero){:target="_blank"}.
-
-+ Täytä lomake ja napsauta **Submit**\*.
-
-\ * Huomaa, että tämä rekisteröintilomake on saatavilla vain englanniksi.
-
-Lomakkeen kentät ovat:  
-Opettajan/ohjaajan nimi   
-Joukkueen nimi  
-Joukkueen jäsenten lukumäärä  
-Joukkueen jäsenten nimet ja iät  
-Millä kielellä käytitte Mission Zero -ohjeita?
-
-+ Sinulle luodaan Trinket-tili (jos sinulla ei vielä ole sellaista tai et ole kirjautunut sisään). Voit luoda yhden tilin yhdellä sähköpostiosoitteella. Jokaisella tilillä on oma **luokkahuonekoodinsa**, ja sinun on kerrottava joukkueellesi/joukkueillesi, mikä sinun koodisi on, kun he ovat valmiita lähettämään ohjelmansa.
-
-+ Pidä luokkahuonekoodisi esillä näkyvässä paikassa, kuten esimerkiksi valkotaululla tai videoprojektorilla, ja aloita toiminta.
-
- We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+ Lue Mission Zeron [virallinen opasdokumentti](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-fi.pdf){:target="_blank"}.
 
 --- /collapse ---
 
-![Seurantapikseli](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
