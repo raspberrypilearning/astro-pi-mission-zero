@@ -131,7 +131,7 @@ for i in range(28):
 
 **Debug:** My code has a syntax error or doesn't run as expected!
 
-- Check that you code matches the code in the examples above
+- Check that your code matches the code in the examples above
 - Check that you have indented the code in your for loop
 - Check that your list is surrounded by [ and ]
 - Check that each colour variable in the list is seperated by a comma.

@@ -26,7 +26,9 @@ Enter your classroom code in the box at the bottom — your teacher or mentor wi
 **Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
+
 <mark>Check with digital that this will all be the same</mark>
+
 --- task ---
 
 Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
