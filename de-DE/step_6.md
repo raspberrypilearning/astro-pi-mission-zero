@@ -1,61 +1,53 @@
 ## Miss die Luftfeuchtigkeit
 
-Der Feuchtichkeitssensor im Astro Pi misst die Luftfeuchtigkeit in seiner Umgebung. Das ist nützlich, um Daten über die Bedingungen im All zu sammeln.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![Der Trinket Sense HAT-Emulator, der ein Beispielprogramm ausführt, das den Wert der Luftfeuchtigkeit in weißen Buchstaben über die LED-Matrix laufen lässt](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 Der Astro Pi misst die Luftfeuchtigkeit in der ISS in Prozent der maximal möglichen Wasserkonzentration in der Luft.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 Teil deiner Mission ist es, einen Beitrag zum täglichen Leben der Crew an Bord der ISS zu leisten, und wenn du die Astronauten wissen lässt, dass die Luftfeuchtigkeit an Bord der Raumstation in einem normalen Bereich liegt, wird sie das sehr beruhigen.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Füge diesen Code hinzu, um eine Feuchtigkeitsmessung durchzuführen:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Diese Zeile misst die aktuelle Luftfeuchtigkeit und speichert den gemessenen Wert in der Variablen `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Die Luftfeuchtigkeit wird sehr genau erfasst, d.h. der gespeicherte Wert hat eine große Anzahl von Dezimalstellen. Du kannst den Wert auf eine beliebige Anzahl von Dezimalstellen runden. Im Beispiel haben wir auf eine Dezimalstelle gerundet, aber für eine andere Genauigkeitsstufe kannst du die Zahl `1` zu der Anzahl der Dezimalstellen ändern, die du sehen möchtest.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Um die aktuelle Luftfeuchtigkeit als Laufschrift auf dem Bildschirm anzuzeigen, füge diese Codezeile hinzu:
-
-```python
-sense.show_message(str(humid))
-```
-
-Der Befehl `str()` wandelt die Luftfeuchtigkeit von einer Zahl in Text um, so dass der Astro Pi sie anzeigen kann.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Du kannst die Luftfeuchtigkeit auch als Teil einer anderen Nachricht anzeigen, indem du die Teile deiner Nachricht mit einem `+` verbindest.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 Der echte Astro Pi misst die Luftfeuchtigkeit in seiner Umgebung, aber du kannst den Schieberegler für Luftfeuchtigkeit auf dem Sense HAT Emulator bewegen, um Änderungen der Luftfeuchtigkeit zu simulieren und deinen Code zu testen.
 
-![Ein beschrifteter Screenshot des Sense HAT-Emulators mit dem Codefenster links und dem Emulator rechts. Der Schieberegler zum Einstellen der Luftfeuchtigkeit ist in der oberen rechten Ecke eingekreist](images/humidity-slider.png)
-
-**Hinweis:** Du wirst dich vielleicht wundern, warum der Luftfeuchtigkeitsregler die Luftfeuchtigkeit als ganze Zahl anzeigt, aber der Messwert, den du erhältst, eine Dezimalzahl ist. Der Emulator simuliert die geringfügige Ungenauigkeit des realen Sensors. Deshalb kann der Wert, den du siehst, etwas kleiner oder größer sein, als der Wert, den du mit dem Regler eingestellt hast.
+--- /task ---
