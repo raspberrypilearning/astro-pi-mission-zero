@@ -1,91 +1,19 @@
 ## Scegli in base all'umidità
 
-Potreste anche combinare la lettura dell'umidità con un’immagine per indicare l'umidità graficamente. Ad esempio, potresti visualizzare un oceano per valori di alta umidità e un deserto per valori di bassa umidità:
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-![Umido e secco](images/wet-dry.png)
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment.
 
---- task ---
+If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
-Alla fine del programma create altre variabili di colore per gli altri colori che volete usare nelle vostre immagini. Potreste averne già definiti alcuni in un passo precedente.
+Alternatively you might want to try out one of our other Astro Pi projects:
 
-```python
-o=(255,130,0)
-b=(0,0,255)
-c=(0,150,255)
-e=(80,80,80)
-g=(0,255,0)
-y=(255,255,0)
-```
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
---- /task ---
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
---- task ---
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-Proprio come prima, potete disegnare le immagini creando dapprima una lista per ciascuna immagine e quindi impostando le voci della lista sui colori che volete assumano i pixel corrispondenti.
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-```python
-wet = [
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
-  b, o, b, o, o, o, b, b,
-  b, o, o, o, o, e, o, b,
-  b, o, o, o, o, o, o, b,
-  b, o, b, o, o, o, b, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b
-]
-
-
-dry = [
-  c, c, g, g, c, c, c, c,
-  c, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, g, g, g, g, g, c, c,
-  c, c, g, g, c, c, c, c,
-  y, y, y, y, y, y, y, y,
-  y, y, y, y, y, y, y, y
-]
-```
-
---- /task ---
-
---- task ---
-
-Aggiungete il codice necessario per leggere l'umidità:
-
-```python
-humid = sense.get_humidity()
-```
-
---- /task ---
-
---- task ---
-
-Ora decidete quale immagine mostrare. In questo esempio, visualizzeremo l’immagine `wet` se l'umidità misurata è uguale o superiore al 40% e l’immagine `dry` se l'umidità misurata è inferiore al 40%.
-
-```python
-humid = sense.get_humidity()
-if humid >= 40:
-    sense.set_pixels(wet)
-else:
-    sense.set_pixels(dry)
-```
-
---- /task ---
-
---- task ---
-
-Impostate un'umidità di prova sull’emulatore usando l’apposito cursore. Avviate il programma e controllate che l’immagine che avete selezionato per tale umidità sia visualizzata correttamente.
-
---- /task ---
-
---- task ---
-
-Modificate il codice in modo che il vostro programma mostri l'umidità agli astronauti nel modo da voi scelto.
-
---- /task ---
-
---- task --- Provate il vostro codice con alcune diverse impostazioni di umidità (usando il cursore) per assicurarvi che funzioni sempre correttamente. Se avete seguito l'esempio sopra, viene visualizzata un'immagine sia quando l'umidità è impostata a un valore inferiore al 40% sia quando è impostata a più del 40%?
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
