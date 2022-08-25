@@ -1,8 +1,8 @@
 ---
-title: "Astro Pi: Mission Zero"
+title: 'Astro Pi: Mission Zero'
 hero_image: images/banner.png
 description: Valmistu Mission Zeroks
-listed: false
+listed: true
 copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
@@ -13,15 +13,15 @@ steps:
     title: Mis on Astro Pi?
   - 
     title: Kuva sõnum ja vali uutele Astro Pi arvutitele nimi
+    completion:
+      - engaged
   - 
     title: Lisa värve
   - 
     title: Kuva pilt
   - 
     title: Mõõda õhuniiskust
+    completion:
+      - internal
   - 
     title: Reageeri õhuniiskusele
-  - 
-    title: Esita oma võistlustöö
-  - 
-    title: Mis edasi — rohkem Astro Pi projekte
