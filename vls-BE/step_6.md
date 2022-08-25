@@ -1,61 +1,53 @@
 ## Meet de vochtigheid
 
-De vochtigheidssensor op de Astro Pi kan de vochtigheid meten van de lucht eromheen, een nuttige eigenschap om je te helpen met het verzamelen van gegevens over de condities in de ruimte.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![De Trinket Sense HAT-emulator waarop een voorbeeldprogramma draait die de vochtigheidswaarde over de LED-matrix laat scrollen in witte letters](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 De Astro Pi meet de vochtigheid in het ISS in percentage waterconcentratie in de lucht.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 Een deel van je missie is het bijdragen tot het dagelijkse leven van de bemanning aan boord het ISS, dus hun laten weten dat de vochtigheid aan boord het ruimtestation binnen de normale parameters ligt zal hun geruststellen.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Voeg deze code toe om een vochtigheidsmeting te doen:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Deze lijn meet de huidige vochtigheid en slaat de meetwaarde op in de variabele `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-De vochtigheid wordt heel precies gemeten, d.w.z. dat de opgeslagen waarde een groot aantal decimalen zal hebben. Je kan de waarde afronden op om het even welk aantal decimalen. In ons voorbeeld hebben we het cijfer afgerond op 1 decimaal, maar voor een ander niveau van nauwkeurigheid, verander je het cijfer `1` naar het aantal decimalen dat je wil zien.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Om de actuele vochtigheid te tonen als een boodschap die over het scherm scrolt, voeg je deze codelijn toe:
-
-```python
-sense.show_message(str(humid))
-```
-
-Het `str()` deel zet de vochtigheid om van een nummer naar tekst zodat de Astro Pi het kan laten zien.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Je kan de vochtigheid ook tonen als een deel van een andere boodschap door de delen van je boodschap samen te voegen met een `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 De echte Astro Pi zal de vochtigheid errond meten, maar je kan de vochtigheid-schuifknop op de Sense HAT-emulator verplaatsen om vochtigheidsveranderingen te simuleren en zo je code te testen.
 
-![Een genummerd screenshot van de Sense HAT-emulator met het codeervenster aan de linkerkant en de emulator aan de rechterkant. De schuifknop die gebruikt wordt om de vochtigheid aan te passen is omcirkeld in de rechter bovenhoek](images/humidity-slider.png)
-
-**Opmerking:** Je vraagt je misschien af waarom de vochtigheidsschuifknop de vochtigheid als een geheel getal weergeeft terwijl de meting die je ontvangt een decimaal is. De emulator simuleert de kleine onnauwkeurigheid van de echte sensor, zodat de vochtigheidsmeting die je ziet een beetje groter of kleiner kan zijn dan de waarde die je instelde met de schuifknop.
+--- /task ---
