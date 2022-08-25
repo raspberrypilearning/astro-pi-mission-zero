@@ -3,6 +3,7 @@
 Brighten up the daily routine of the astronauts on the International Space Station by sensing the colour of light on board and showing them an image using that colour on the new Mark II Astro Pi computer's Sense HAT.
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+
 *If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### What you will make
@@ -47,30 +48,15 @@ title: What you will need
 title: Notes for teachers and mentors
 ---
 
-This activity can be completed in an afternoon. Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour of light on board and create an image that uses that colour.
+Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser. 
+
+Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board and create an image that uses that colour.
+
+<mark> update to new link </mark>
 
 Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
-
-<mark> update to new process </mark>
-
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_blank"}.
-
-+ Fill out the form and click **Submit**\*.
-
-\* Please note that this registration form is available in English only.  
-
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
-
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
-
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
+<mark> update to new link if this resource is being updated </mark>
 
  We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
 

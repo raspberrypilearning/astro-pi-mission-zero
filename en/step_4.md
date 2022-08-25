@@ -1,6 +1,6 @@
 ## Display an image
 
-Display images on the Astro Pi's LED matrix. 
+In this step, you will display images on the Astro Pi's LED matrix. 
 
 ![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
@@ -69,38 +69,6 @@ image = [
   c, w, a, a, a, a, w, c,
   c, c, w, a, a, w, c, c,
   c, c, c, w, w, c, c, c]
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Skull
----
-
-<mark>add image to show output on Sense HAT</mark> 
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White
-b = (105, 105, 105) # DimGray
-c = (0, 0, 0) # Black
-
-
-image = [
-  a, a, a, a, a, a, a, a,
-  a, a, a, a, a, a, a, a,
-  a, a, a, a, a, a, a, a,
-  a, c, a, a, a, c, a, a,
-  a, a, a, c, a, a, a, a,
-  a, a, a, a, a, a, a, a,
-  b, a, c, a, c, a, b, b,
-  b, a, c, a, c, a, b, b]
 
 --- /code ---
 
@@ -197,7 +165,7 @@ line_numbers: false
 
 image = [
   c, c, c, c, c, c, c, m,
-  m, m, m, m, m, m, m, m,
+  c, m, m, m, m, m, m, m,
   c, m, c, c, c, c, c, c,
   c, m, m, m, m, m, c, c,
   c, c, c, c, c, m, c, c,

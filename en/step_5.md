@@ -1,92 +1,139 @@
 ## Sense a colour
 
-You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
+In this step, you will set up the colour sensor and use it to sense the colour in the environment. This colour will then be used to colour in your chosen image.
 
-![Wet and dry](images/wet-dry.png)
+<mark>add an image with a different background colour not black</mark>
 
 --- task ---
 
-At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+Find the # Setup the colour sensor comment. 
 
-```python
-o=(255,130,0)
-b=(0,0,255)
-c=(0,150,255)
-e=(80,80,80)
-g=(0,255,0)
-y=(255,255,0)
-```
+Enter the code to set up the colour sensor.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 2,3
+---
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+Use the colour sensor to colour your background
 
-```python
-wet = [
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
-  b, o, b, o, o, o, b, b,
-  b, o, o, o, o, e, o, b,
-  b, o, o, o, o, o, o, b,
-  b, o, b, o, o, o, b, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b
-]
+**Update:** your existing `c = (0, 0, 0) # Black` colour variable to use the colour sensed by the SenseHAT colour sensor instead of black.
 
-
-dry = [
-  c, c, g, g, c, c, c, c,
-  c, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, g, g, g, g, g, c, c,
-  c, c, g, g, c, c, c, c,
-  y, y, y, y, y, y, y, y,
-  y, y, y, y, y, y, y, y
-]
-```
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+c = sense.colour.colour[0:3] # Store the sensor readings
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Add some code to get the humidity:
+**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change. 
 
-```python
-humid = sense.get_humidity()
-```
+Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour. 
+
+--- /task ---
+
+## Loop your program
+
+The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.  
+
+--- task ---
+
+**Find:** your `sense.set_pixels(image)` line of code
+
+**Add** code above it to set up your `for` loop for `28` repetitions.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+for i in range(28):
+sense.set_pixels(image)
+  
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
+You now need to indent your function call so that it sits **inside** the `for` loop.
 
-```python
-humid = sense.get_humidity()
-if humid >= 40:
-    sense.set_pixels(wet)
-else:
-    sense.set_pixels(dry)
-```
+To do this, Use the **Tab** character on your keyboard at the start of the `sense.set_pixels()` line.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+for i in range(28):
+  sense.set_pixels(image)
+  
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+At the bottom of your code, add the following two lines to sense the colour and create a `sleep` of one second inside your loop:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+for i in range(28):
+  sense.set_pixels(image)
+  sleep(1)
+  c = sense.colour.colour[0:3]
+  
+--- /code ---
+
+**Tip:** Make sure your last two lines of code are indented within your `for` loop. 
 
 --- /task ---
 
 --- task ---
 
-Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
+**Test** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on it's next run of the animation. 
 
 --- /task ---
 
 --- task ---
 
-Change your code so that your program displays the humidity to the astronauts in your own chosen way.
+**Debug:** My code has a syntax error or doesn't run as expected!
 
---- /task ---
-
---- task ---
-Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
+- Check that you code matches the code in the examples above
+- Check that you have indented the code in your for loop
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
 
 --- /task ---

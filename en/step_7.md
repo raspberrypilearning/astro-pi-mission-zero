@@ -3,6 +3,7 @@
 Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
 If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment.
+
 If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
 Alternatively you might want to try out one of our other Astro Pi projects:
