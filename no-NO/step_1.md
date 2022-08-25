@@ -2,36 +2,27 @@
 
 Lys opp hverdagen til astronautene på den internasjonale romstasjonen ved å vise dem en melding og den relative luftfuktigheten om bord ved hjelp av Astro Pi-datamaskinens Sense HAT.
 
-Mark II Astro Pi-maskinvaren er så ny at datamaskinene ikke engang har navn ennå. Vi vil oppkalle Astro Pi -datamaskinene etter to inspirerende europeiske forskere. Du kan hjelpe til med å velge hva de skal hete ved å stemme på ditt favorittnavn som en del av Mission Zero-programmet.
+You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-Dere bruker Sense HAT-emulatoren online til å lage programmet, så det er ikke nødvendig med ekstra maskinvare - alt gjøres i en nettleser. *Hvis det oppfyller kvalifikasjonskriteriene* vil ditt ferdige program bli kjørt i rommet på den internasjonale romstasjonen (ISS)! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
-
-Vi vil kunngjøre vinnernavnene på de nye Astro Pi-datamaskinene våren 2022.
-
+*If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### Hva dere vil lage
 
-Her er et eksempel på hva slags program dere kan lage. Klikk **Run** (Kjør) for å se det i aksjon.
+Here is an example of the kind of program you could make. <mark>change image here</mark>
 
-![Trinket Sense HAT -emulatoren som kjører et prøveprogram som ruller fuktighetsverdien over LED -matrisen og deretter viser et bilde av en fisk](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
 
 --- collapse ---
-
-
 
 ---
 title: Hva dere vil lære
 ---
 
-Dere vil lære om Astro Pi-enheten og hvordan dere skal kontrollere den, inkludert hvordan dere:
+You will learn about the Astro Pi unit and how to control it, including how to:
 + Viser meldinger og farger
 + Lager bilder
 + Måler luftfuktighet med en Sense HAT
-
-Dette prosjektet dekker elementer fra følgende deler av [Raspberry Pi Digital Skaper Læreplan](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Bruk grunnleggende programmeringskonstruksjoner for å lage enkle programmer](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -43,11 +34,12 @@ title: Hva dere trenger
 
 ### Maskinvare
 
-+ Hvilken som helst datamaskin med Internett-tilkobling
++ [Bruk grunnleggende programmeringskonstruksjoner for å lage enkle programmer](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 ### Programvare
 
-+ En nettleser (f.eks. Google Chrome) for å åpne [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
+<mark> update to new editor link </mark>
++ Hvilken som helst datamaskin med Internett-tilkobling
 
 --- /collapse ---
 
@@ -56,32 +48,18 @@ title: Hva dere trenger
 title: Notater for lærere og veiledere
 ---
 
+Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Denne aktiviteten kan fullføres på en ettermiddag. Organisere elevene dine i grupper på en til fire, og la oss veilede dem gjennom å skrive et kort Python-program for å vise en personlig melding og den relative luftfuktigheten på Astro Pi.
+Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board and create an image that uses that colour.
+
+<mark> update to new link </mark>
 
 Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
-Du må registrere deg for Mission Zero-utfordringen for at laget/lagene dine skal kunne delta.
+<mark> update to new link if this resource is being updated </mark>
 
-+ Gå til nettsiden [Trinket emulator Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
-
-+ Fyll ut skjemaet og klikk **Submit** (Send)\*.
-
-\*Vær oppmerksom på at dette registreringsskjemaet kun er tilgjengelig på engelsk.
-
-Feltene på skjemaet inkluderer:  
-Navnet på læreren/veilederen   
-Lagnavn  
-Antall lagmedlemmer  
-Navn og alder på lagmedlemmene  
-Hvilket språk leste du retningslinjene for Mission Zero på?
-
-+ En Trinket-konto vil bli opprettet for deg (hvis du ikke allerede har en, eller hvis du ikke er logget inn). Du kan opprette en konto per e-postadresse. Hver konto har sin egen **klasseromskode**, og du må fortelle gruppen(e) hva koden din er når de er klare til å sende programmene sine.
-
-+ Vis klasseromskoden på et synlig sted, for eksempel på en tavle eller ved hjelp av en projektor, og start aktiviteten.
-
- We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+ Les [dokumentet med offisielle retningslinjer](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-nb.pdf){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
 
-![Sporingspiksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
