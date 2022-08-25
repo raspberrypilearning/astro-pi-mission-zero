@@ -1,54 +1,167 @@
 ## Dodajte barve
 
-Diode LED računalnika Astro Pi lahko prikazujejo tudi barve. Barvo lahko določite tako, da ustvarite spremenljivko in ji dodelite vrednost RGB.
+In this step, you will display images on the Astro Pi's LED matrix.
 
-O tem, kako lahko s pomočjo različnih razmerij rdeče, zelene in modre ustvarite različne barve, se lahko poučite tukaj:
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
-[[[generic-theory-colours]]]
-
---- task ---
-
-Izberite barvo in ugotovite, kakšna je njena vrednost RGB. Pri tem vam lahko pomaga [izbirnik barv](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
-
---- /task ---
+The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. Python stores this information in a list.
 
 --- task ---
 
-Ustvarite spremenljivko za shranjevanje izbrane barve. Če ste, na primer, izbrali rdečo barvo, morate napisati naslednjo vrstico kode:
+**Choose:** pick an image to display from the options below. You will need to copy the new colour variables and the image list then add them to the end of your project beneath the line which says `# Add colour variables and image`.
 
-```python
-red = (255,0,0)
-```
 
---- /task ---
+**Tip:** If you are not copying one of the images here make sure that you indent the code within the list like in the examples below. Indenting this code tells Python that the indented lines are part of the list. To indent a line, use the `Tab` character on your keyboard (usually above CAPSLOCK on the keyboard) at the start of the line.
 
---- task ---
+--- collapse ---
 
-Zdaj lahko besedilo prikažete v barvi po vaši izbiri! Če želite programu ukazati, naj uporabi barvo, ki ste jo ustvarili, morate kodi, ki prikazuje vaše besedilo, dodati parameter `text_colour`:
+---
+title: Chick in an egg
+---
 
-```python
-red = (255,0,0)
-sense.show_message("Astro Pi", text_colour=red)
-```
+<mark>add image to show output on Sense HAT</mark>
 
---- /task ---
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
-![Emulator Trinket Sense HAT s programom, ki se z rdečimi črkami na matriko LED napiše \"Astro Pi \"](images/M0_2.gif)
 
---- task ---
+image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-Spremenite lahko tudi barvo ozadja zaslona. Izberite drugo barvo in za njeno shranjevanje ustvarite novo spremenljivko. Če želite programu ukazati, naj uporabi izbrano barvo ozadja, morate kodi dodati parameter `back_colour`:
+--- /code ---
 
-```python
-red = (255,0,0)
-green = (0,255,0)
-sense.show_message("Astro Pi", text_colour=red, back_colour=green)
-```
+--- /collapse ---
 
---- /task ---
+--- collapse ---
+---
+title: Crab
+---
 
---- task ---
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+
+a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
+
 
 Spremenite besedilo in barvo pozdravnega sporočila — kakšno sporočilo boste poslali astronavtom na postaji ISS?
 
+--- /code ---
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Crocodile
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
+
+
+image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+
+--- /code ---
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Snake
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+
+ c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+
+
+image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Frog
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start:
+line_highlights:
+---
+
+c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+
+
+image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m ] --- /code ---
+
+--- /collapse ---
+
 --- /task ---
+
+--- task ---
+
+Below your list, add a line of code to display your image on the LED matrix.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 16,17
+---
+image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) sense.set_pixels(image)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Press **Run** to see your image displayed on the LED matrix.
+
+--- /task ---
+
+--- task ---
+
+My code has a syntax error!
+
+- Check that you code matches the code in the examples above
+- Check that you have indented the code in your list
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
+
+My image does not appear
+- Check that your `sense.set_pixels(image)` is not indented
+
+--- /task ---
+
+
+
