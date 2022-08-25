@@ -16,12 +16,12 @@ The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 --- collapse ---
 
 ---
-title: Chick in an egg
+title: Chicken
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a chick in an egg.](images/chick.png)
 
-Maak een variabele om je gekozen kleur op te slaan. Als je bijvoorbeeld rood koos, schrijf je deze code-regel:
+--- code ---
 ---
 language: python filename: main.py
 line_numbers: false
@@ -29,7 +29,7 @@ line_numbers: false
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
 
-Je kan de tekst nu weergeven in de kleur van jouw keuze! Om het programma te laten weten dat het de kleur die je maakte moet gebruiken, voeg je een `text_colour` parameter toe aan de code die je tekst weergeeft:
+image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
 --- /code ---
 
@@ -40,9 +40,9 @@ Je kan de tekst nu weergeven in de kleur van jouw keuze! Om het programma te lat
 title: Crab
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a crab.](images/crab.png)
 
-Je kan de achtergrondkleur van het scherm ook aanpassen. Kies een andere kleur en maak een andere variabele om die kleur op te slaan. Om het programma te laten weten dat het de door jouw gekozen achtergondkleur moet gebruiken, voeg je de `back_colour` parameter toe aan je code:
+--- code ---
 ---
 language: python filename: main.py
 line_numbers: false
@@ -51,7 +51,7 @@ line_numbers: false
 a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
 
 
-Verander de begroetingstekst en -kleur — welke boodschap zal je naar de astronauten aan boord het ISS sturen?
+image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 --- /code ---
 
@@ -63,7 +63,7 @@ Verander de begroetingstekst en -kleur — welke boodschap zal je naar de astron
 title: Crocodile
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a crocodile head.](images/croc.png)
 
 --- code ---
 ---
@@ -86,7 +86,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Snake
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a snake.](images/snake.png)
 
 --- code ---
 ---
@@ -108,7 +108,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Frog
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a frog.](images/frog.png)
 
 --- code ---
 ---
