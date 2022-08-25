@@ -1,61 +1,53 @@
 ## Mittaa ilmankosteus
 
-Astro Pin ilmankosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![Trinket Sense HAT -emulaattori ajamassa esimerkkiohjelmaa, joka vierittää ilmankosteuden arvoa LED-matriisin läpi valkoisin kirjaimin](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 Astro Pi mittaa ISS:n ilmankosteuden prosentteina veden pitoisuudesta ilmassa.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 Osa tehtäväänne on edistää ISS:n miehistön jokapäiväistä elämää, joten antamalla heidän tietää, että avaruusaseman ilmankosteus on tavanomaisella alueella, rauhoittaa heitä.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Lisää tämä koodi ilmankosteuden arvon lukemiseksi:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Tämä rivi mittaa nykyisen ilmankosteuden, ja tallentaa mitatun arvon muuttujaan `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Ilmankosteus tallennetaan hyvin tarkkaan, eli tallennetussa arvossa on suuri määrä desimaaleja. Voit pyöristää arvon mihin tahansa desimaaliin. Esimerkissä olemme pyöristäneet yhden desimaalin tarkkuuteen, mutta eri tarkkuustasoa varten muuta numero `1` haluamasi desimaalilukumäärän mukaiseksi.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Lisää tämä koodirivi näyttääksesi nykyisen ilmankosteuden vierivänä viestinä näytöllä:
-
-```python
-sense.show_message(str(humid))
-```
-
-`str()`-osa muuntaa ilmankosteuden numerosta tekstiksi, jotta Astro Pi voi näyttää sen.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Voit myös näyttää ilmankosteuden osana toista viestiä liittämällä viestisi osat yhteen käyttäen merkkiä `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 Oikea Astro Pi mittaa sen ympärillä olevan ilmankosteuden, mutta voit liikuttaa kosteuden liukusäädintä Sense HAT -emulaattorissa simuloidaksesi kosteuden muutoksia ja testataksesi koodiasi.
 
-![Merkitty ruutukaappaus Sense HAT -emulaattorista, jossa on koodi-ikkuna vasemmalla ja emulaattori oikealla. Liukusäädin, jota käytetään ilmankosteuden muuttamiseen, on ympyröitynä oikeassa yläkulmassa](images/humidity-slider.png)
-
-**Huomautus:** Saatat ihmetellä, miksi ilmankosteuden liukusäädin näyttää ilmankosteuden kokonaislukuna, mutta saamasi lukema on desimaaliluku. Emulaattori simuloi oikean anturin hienoisen epätarkkuuden, joten näkemäsi ilmankosteuden mittaus voi olla hieman suurempi tai pienempi kuin liukusäätimellä asetettu arvo.
+--- /task ---
