@@ -1,61 +1,53 @@
 ## Mät luftfuktigheten
 
-Luftfuktighetssenorn i Astro Pi kan mäta den omgivande luftfuktighet, en användbar funktion som hjälper dig att samla in data om förhållandena i rymden.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![Trinket Sense HAT -emulatorn som kör ett provprogram som rullar luftfuktighetsvärdet över LED -matrisen med vita bokstäver](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 Astro Pi mäter luftfuktigheten i ISS i procentuell vattenkoncentration i luften.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 En del av ditt uppdrag är att bidra till det dagliga livet för besättningen ombord på ISS, så att låta dem veta att luftfuktigheten ombord på rymdstationen är inom ett normalt intervall kommer att lugna dem.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Lägg till den här koden för att avläsa luftfuktigheten:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Den här raden med kod mäter den aktuella luftfuktigheten och lagrar det avlästa värdet i variabeln `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Luftfuktigheten registreras mycket exakt, dvs. det lagrade värdet har ett stort antal decimaler. Du kan avrunda värdet till valfritt antal decimaler. I exemplet har vi avrundat till en decimal, men för en annan precision, ändra siffran `1` till antalet decimaler du vill se.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-För att visa den aktuella luftfuktigheten som ett rullande meddelande på skärmen, lägger du till den här raden kod:
-
-```python
-sense.show_message(str(humid))
-```
-
-Delen `str()` omvandlar luftfuktigheten från ett nummer till text så att Astro Pi kan visa den.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Du kan också visa luftfuktigheten som en del av ett annat meddelande genom att slå samman delarna av meddelandet med ett `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 Den verkliga Astro Pi kommer att mäta den omgivande luftfuktighet, men du kan testa din kod och simulera luftfuktighetsförändringar genom att flytta luftfuktighetsreglaget på Sense HAT-emulatorn.
 
-![En märkt skärmdump av Sense HAT -emulatorn med kodfönstret till vänster och emulatorn till höger. Reglaget som används för att justera luftfuktigheten är inringat i det övre högra hörnet](images/humidity-slider.png)
-
-**Obs!** Du kanske undrar varför skjutreglaget för luftfuktighet visar luftfuktigheten som ett heltal, men avläsningen du får är ett decimaltal. Emulatorn simulerar den lilla avvikelsen i noggranhet hos den riktiga sensorns, så skjutreglaget för luftfuktighet som du ser kan vara något större eller mindre än det värde du ställer in med skjutreglaget.
+--- /task ---
