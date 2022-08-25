@@ -1,79 +1,119 @@
 ## Muestra una imagen
 
-Puedes mostrar imágenes en la matriz LED de Astro Pi. ¿Por qué no incluir en tu saludo a los astronautas una imagen o un patrón, además o en lugar de un mensaje escrito?
+In this step, you will set up the colour sensor and use it to sense the colour in the environment. This colour will then be used to colour in your chosen image.
 
-![Una captura de pantalla de la ventana del emulador que muestra la unidad de vuelo con la matriz de LED que muestra una imagen de la propia unidad de vuelo](images/fu-pic.png)
+<mark>add an image with a different background colour not black</mark>
 
 --- task ---
 
-En la parte inferior de tu programa, crea algunas variables de color que definan los colores que deseas usar en la imagen. Puedes usar tantos colores como quieras. En este ejemplo solamente hemos usado dos: blanco (`w`) y negro (`b`). Ten en cuenta que las sombras se logran reduciendo la cantidad de luz en los tres canales manteniendo las proporciones iguales.
+Find the # Setup the colour sensor comment.
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
-```
+Enter the code to set up the colour sensor.
 
-**Nota:** Es una buena idea dar a las variables de color nombres de una sola letra, puesto que te ahorrará tiempo en el siguiente paso, en donde vas a escribirlas muchas veces. Es más, usar una sola letra facilitará ver la imagen que vas a dibujar.
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 2,3
+---
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken --- /code ---
 
 --- /task ---
 
 --- task ---
 
-
-
-Debajo de tus nuevas variables, crea una lista de 64 elementos. Cada elemento representa un píxel en la matriz LED, y se corresponde con una de las variables de color definidas. Dibuja tu imagen colocando una variable donde quieras que aparezca su color asignado. Hemos dibujado un astronauta usando píxeles negros (`b`) para el fondo y píxeles blancos (`w`) para dibujar el traje espacial del astronauta:
-
-```python
- picture = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
-```
---- /task ---
-
---- task ---
+Use the colour sensor to colour your background
 
 Añade una línea de código para ver tu imagen en la pantalla LED.
 
-```python
-sense.set_pixels(picture)
-```
-
---- /task ---
-
---- task ---
-
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 1
+---
 Pulsa **Run** (Ejecutar) para ver tu imagen en pantalla.
 
 --- /task ---
 
 --- task ---
 
-Puede que quieras añadir más código para incluir una breve pausa (o `sleep`) después de mostrar la imagen. Esto permitirá que los astronautas puedan ver tu imagen antes de que aparezca la siguiente parte de tu mensaje. En la parte de arriba de tu programa, añade:
+**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change.
 
-```python
-from time import sleep
-```
+Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour.
 
-A continuación, en la línea siguiente a la que muestra tu imagen, añade este código para realizar una pausa de dos segundos:
+--- /task ---
 
-```python
-sleep(2)
-```
+## Loop your program
+
+The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.
+
+--- task ---
+
+**Find:** your `sense.set_pixels(image)` line of code
+
+**Add** code above it to set up your `for` loop for `28` repetitions.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 6
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Crea tu propia imagen o patrón, ¡y enséñasela a los astronautas!
+You now need to indent your function call so that it sits **inside** the `for` loop.
+
+To do this, Use the **Tab** character on your keyboard at the start of the `sense.set_pixels()` line.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+A continuación, en la línea siguiente a la que muestra tu imagen, añade este código para realizar una pausa de dos segundos:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 8,9
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image) c = sense.colour.colour[0:3] sleep(1)
+
+--- /code ---
+
+**Tip:** Make sure your last two lines of code are indented within your `for` loop.
+
+--- /task ---
+
+--- task ---
+
+**Nota:** Es una buena idea dar a las variables de color nombres de una sola letra, puesto que te ahorrará tiempo en el siguiente paso, en donde vas a escribirlas muchas veces. Check that your image updates to use the sensed colour on it's next run of the animation.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** My code has a syntax error or doesn't run as expected!
+
+- Check that your code matches the code in the examples above
+- Check that you have indented the code in your for loop
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
 
 --- /task ---
