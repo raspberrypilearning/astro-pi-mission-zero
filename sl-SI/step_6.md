@@ -1,61 +1,54 @@
 ## Izmerite vlažnost
 
-Senzor vlažnosti v računalniku Astro Pi lahko izmeri stanje vlažnosti okoli sebe, kar je koristna funkcija pri zbiranju podatkov o razmerah v vesolju.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![Emulator Trinket Sense HAT s programom, ki se z belimi črkami na matriko LED napiše vrednost vlage](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 Astro Pi meri vlažnost na ISS v odstotkih koncentracije vode v zraku.
 
-Del vaše misije je izboljšanje vsakdana posadke na postaji ISS. Ko jim boste sporočili, da je vlaga na vesoljski postaji v mejah normale, jih bo to prav gotovo pomirilo.
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 
-[[[generic-theory-what-is-humidity]]]
+<mark> check with digital that this will be the same</mark> Once the rules are all green, you are ready to submit.
 
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Za odčitavanje vlage dodajte to kodo:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Ta vrstica bo izmerila trenutno vlažnost in izmerjeno vrednost shranila v spremenljivki `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Vlaga je zabeležena zelo natančno, kar pomeni, da bo shranjena vrednost imela veliko število decimalnih mest. Vrednost lahko zaokrožite na poljubno število decimalnih mest. V tem primeru smo vrednost zaokrožili na eno decimalno mesto, a za drugačno stopnjo natančnosti lahko število `1` spremenite v želeno število decimalnih mest.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Za prikaz trenutne vlage v obliki premikajočega se sporočila dodajte to vrstico kode:
-
-```python
-sense.show_message(str(humid))
-```
-
-Del `str()` vlago pretvori iz številke v besedilo, da jo lahko Astro Pi prikaže.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Vlažnost lahko prikažete tudi kot del drugega sporočila, kar storite tako, da dele sporočila združite s kodo `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 Pravi Astro Pi bo izmeril vlago okrog sebe, a vi lahko drsnik za vlago na emulatorju Sense HAT premikate in s tem simulirate spremembe vlage ter preizkusite svojo kodo.
 
-![Posnetek zaslona emulatorja Sense HAT z oknom kode na levi in emulatorjem na desni. Drsnik za nastavitev vlažnosti je obkrožen v zgornjem desnem kotu](images/humidity-slider.png)
-
-**Opomba:** Morda se sprašujete, zakaj drsnik vlago prikaže kot celo število, a dobljen odčitek bo v decimalni obliki. Emulator simulira manjšo nenatančnost pravega senzorja, zato je lahko izmerjena vlaga nekoliko višja ali nižja od vrednosti, ki ste jo nastavili z drsnikom.
+--- /task ---
