@@ -1,61 +1,53 @@
 ## Medir a humidade
 
-O sensor de humidade no Astro Pi pode medir a humidade do ar ao seu redor, uma funcionalidade útil para ajudar a recolher dados sobre as condições no espaço.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![O emulador Trinket do Sense HAT executando um programa de exemplo que desliza o valor da humidade ao longo da matriz LED em letras brancas](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 O Astro Pi mede a humidade na EEI em percentagem da concentração de água no ar.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 Parte da sua missão é contribuir para o dia-a-dia da tripulação a bordo da EEI, por isso informá-los que a humidade a bordo da estação espacial está dentro da escala normal irá tranquilizá-los.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Adicione este código para fazer uma leitura da humidade:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Este código vai medir a humidade atual e armazenar o valor medido na variável `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-A temperatura é registada com bastante precisão, ou seja, o valor armazenado terá um grande número de casas decimais. Pode arredondar o valor para qualquer número de casas decimais. No exemplo, arredondámos para uma casa decimal, mas para um nível diferente de precisão, alter o número `1` para o número de casas decimais que gostaria de ver.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Para visualizar a humidade atual como uma mensagem no ecrã, adicione este código:
-
-```python
-sense.show_message(str(humid))
-```
-
-A parte `str()` converte a humidade de um número para texto para que o Astro Pi possa exibi-lo.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Também pode visualizar a humidade como parte de outra mensagem, unindo as partes da mensagem com o sinal `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 O verdadeiro Astro Pi irá medir a humidade ao seu redor, mas pode mover o controlo de deslize de humidade no emulador Sense HAT para simular mudanças de humidade e testar o seu código.
 
-![Uma captura de ecrã rotulada do emulador Sense HAT com a janela de código à esquerda e o emulador à direita. O controle de deslize usado para ajustar a humidade está assinalado no canto superior direito](images/humidity-slider.png)
-
-**Nota:** Deve estar curioso para saber por que é que o controlo de deslize de temperatura exibe a temperatura como um número inteiro, mas a leitura obtida é um decimal. O emulador simula a pequena imprecisão do sensor real, por isso, a medição da temperatura que vê pode ser muito maior ou menor do que o valor que definiu com o controle de deslize.
+--- /task ---
