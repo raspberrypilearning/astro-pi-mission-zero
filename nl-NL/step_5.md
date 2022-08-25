@@ -1,79 +1,119 @@
 ## Toon een afbeelding
 
-Je kunt afbeeldingen op de LED-matrix van de Astro Pi weergeven. Misschien zou je groet voor de astronauten een afbeelding of een patroon kunnen bevatten, naast of in plaats van een geschreven boodschap?
+In this step, you will set up the colour sensor and use it to sense the colour in the environment. This colour will then be used to colour in your chosen image.
 
-![Een screenshot van het emulatorvenster met de Flight Unit met de LED-matrix die een afbeelding van de Flight Unit zelf toont](images/fu-pic.png)
+<mark>add an image with a different background colour not black</mark>
 
 --- task ---
 
-Onderaan je programma kun je enkele kleurvariabelen maken om de kleuren te definiëren waarmee je je afbeelding wilt tekenen. Je kunt zoveel kleuren gebruiken als je wilt. maar in dit voorbeeld gebruiken we slechts een paar kleuren - rood (`r`), wit (`w`), zwart (`b`), en twee grijstinten (`g` en `s`). Merk op dat de tinten worden gemaakt door de hoeveelheid licht in alle drie de kanalen te verminderen terwijl de verhoudingen hetzelfde blijven.
+Find the # Setup the colour sensor comment.
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
-```
+Enter the code to set up the colour sensor.
 
-**Opmerking:** Deze keer is het een goed idee om de kleurvariabelen éénletterige namen te geven, omdat dat tijd zal besparen in de volgende stap, waar je ze veel keer gaat typen. Bovendien maakt het gebruik van losse letters het makkelijker om de afbeelding te zien die je tekent.
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 2,3
+---
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken --- /code ---
 
 --- /task ---
 
 --- task ---
 
-
-
-Onder je nieuwe variabelen, maak je een lijst van 64 items. Elk item vertegenwoordigt één pixel op de LED-matrix en komt overeen met een van de kleurvariabelen die je hebt gedefinieerd. Teken je afbeelding door een variabele te plaatsen waar je de toegewezen kleur wilt laten verschijnen. We hebben een astronaut getekend door de zwarte (`b`) pixels te gebruiken als achtergrond en de witte (`w`) pixels om het ruimtepak van de astronaut te tekenen:
-
-```python
- afbeelding = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
-```
---- /task ---
-
---- task ---
+Use the colour sensor to colour your background
 
 Voeg een coderegel toe om je afbeelding op het LED-display weer te geven.
 
-```python
-sense.set_pixels(afbeelding)
-```
-
---- /task ---
-
---- task ---
-
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 1
+---
 Druk op **Run** (Uitvoeren) om je afbeelding te laten zien.
 
 --- /task ---
 
 --- task ---
 
-Misschien wil je wat code toevoegen om een ​​korte wachttijd (of `sleep` (slaapstand)) toe te voegen nadat de afbeelding wordt weergegeven. Dit geeft de astronauten de tijd om je foto te bekijken voordat het volgende deel van je bericht verschijnt. Voeg bovenaan je programma toe:
+**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change.
 
-```python
-from time import sleep
-```
+Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour.
 
-Voeg vervolgens aan de regel na degene die je afbeelding weergeeft deze code toe om twee seconden te wachten:
+--- /task ---
 
-```python
-sleep(2)
-```
+## Loop your program
+
+The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.
+
+--- task ---
+
+**Find:** your `sense.set_pixels(image)` line of code
+
+**Add** code above it to set up your `for` loop for `28` repetitions.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 6
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Maak je eigen afbeelding of patroon om aan de astronauten te tonen!
+You now need to indent your function call so that it sits **inside** the `for` loop.
+
+To do this, Use the **Tab** character on your keyboard at the start of the `sense.set_pixels()` line.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Voeg vervolgens aan de regel na degene die je afbeelding weergeeft deze code toe om twee seconden te wachten:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 8,9
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image) c = sense.colour.colour[0:3] sleep(1)
+
+--- /code ---
+
+**Tip:** Make sure your last two lines of code are indented within your `for` loop.
+
+--- /task ---
+
+--- task ---
+
+**Test** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on it's next run of the animation.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** My code has a syntax error or doesn't run as expected!
+
+- Check that your code matches the code in the examples above
+- Check that you have indented the code in your for loop
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
 
 --- /task ---
