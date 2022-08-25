@@ -1,79 +1,119 @@
 ## Εμφάνιση εικόνας
 
-Μπορείς να εμφανίσεις εικόνες στην οθόνη LED του Astro Pi. Μήπως θα ήθελες να συμπεριλάβεις στον χαιρετισμό σου προς τους αστροναύτες μια εικόνα ή ένα μοτίβο μαζί ή αντί για το γραπτό μήνυμά σου;
+In this step, you will set up the colour sensor and use it to sense the colour in the environment. This colour will then be used to colour in your chosen image.
 
-![Ένα στιγμιότυπο οθόνης του παραθύρου εξομοιωτή που δείχνει τη Μονάδα Πτήσης με τη οθόνη LED που εμφανίζει μια εικόνα της ίδιας της Μονάδας Πτήσης](images/fu-pic.png)
+<mark>add an image with a different background colour not black</mark>
 
 --- task ---
 
-Στο κάτω μέρος του προγράμματός σου, δημιούργησε μερικές μεταβλητές χρώματος για να καθορίσεις τα χρώματα με τα οποία θα ήθελες να σχεδιάσεις την εικόνα σου. Μπορείς να χρησιμοποιήσεις όσα χρώματα θέλεις, αλλά σε αυτό το παράδειγμα θα χρησιμοποιήσεις μόνο μερικά χρώματα - κόκκινο (`r`), λευκό (`w`), μαύρο (`b`) και δύο αποχρώσεις του γκρι (`g` και `s`). Παρατήρησε ότι οι αποχρώσεις επιτυγχάνονται μειώνοντας την ποσότητα φωτός και στα τρία κανάλια διατηρώντας τις αναλογίες ίδιες.
+Find the # Setup the colour sensor comment.
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
-```
+Enter the code to set up the colour sensor.
 
-**Σημείωση:** Αυτή τη φορά, μια καλή ιδέα είναι να χρησιμοποιήσεις ονόματα με ένα γράμμα για τις μεταβλητές χρώματος για να εξοικονομήσεις χρόνο στο επόμενο βήμα, όταν θα χρειαστεί να πληκτρολογήσεις τα ονόματα των μεταβλητών πολλές φορές. Επιπλέον, χρησιμοποιώντας ένα μόνο γράμμα είναι πιο εύκολο να δείς την εικόνα που θα σχεδιάσεις.
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 2,3
+---
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken --- /code ---
 
 --- /task ---
 
 --- task ---
 
-
-
-Κάτω από τις νέες μεταβλητές σου, δημιούργησε μια λίστα με 64 στοιχεία. Κάθε στοιχείο αντιπροσωπεύει ένα pixel στην οθόνη LED και αντιστοιχεί σε μία από τις μεταβλητές χρώματος που έχεις καθορίσει. Σχεδίασε την εικόνα σου βάζοντας μια μεταβλητή στα σημεία όπου θέλεις να εμφανιστεί το καθορισμένο της χρώμα. Σχεδιάσαμε ένα Astro Pi χρησιμοποιώντας τα μαύρα (`b`) εικονοστοιχεία ως φόντο και τα γκρι (`g`) εικονοστοιχεία για να σχεδιάσουμε τα μεταλλικά μέρη της θήκης του Astro Pi:
-
-```python
- picture = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
-```
---- /task ---
-
---- task ---
+Use the colour sensor to colour your background
 
 Πρόσθεσε μια γραμμή κώδικα για να εμφανίσεις την εικόνα σου στην οθόνη LED.
 
-```python
-sense.set_pixels(picture)
-```
-
---- /task ---
-
---- task ---
-
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 1
+---
 Πάτησε «**Run**» (Εκτέλεση) για να δεις την εικόνα σου στην οθόνη.
 
 --- /task ---
 
 --- task ---
 
-Ίσως θελήσεις να προσθέσεις κώδικα για μια μικρή αναμονή (ή `sleep`) μετά την εμφάνιση της εικόνας σου. Αυτό θα δώσει στους αστροναύτες χρόνο να δουν τη εικόνα σου πριν εμφανιστεί το επόμενο μέρος του μηνύματός σου. Στην αρχή του προγράμματος, πρόσθεσε:
+**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change.
 
-```python
-from time import sleep
-```
+Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour.
 
-Έπειτα, μετά από τη γραμμή του κώδικα εμφάνισης της εικόνας σου, πρόσθεσε τον ακόλουθο κώδικα για αναμονή δυο δευτερολέπτων:
+--- /task ---
 
-```python
-sleep(2)
-```
+## Loop your program
+
+The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.
+
+--- task ---
+
+**Find:** your `sense.set_pixels(image)` line of code
+
+**Add** code above it to set up your `for` loop for `28` repetitions.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 6
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Δημιούργησε τη δική σου εικόνα ή το δικό σου μοτίβο για να εμφανιστεί στους αστροναύτες!
+You now need to indent your function call so that it sits **inside** the `for` loop.
+
+To do this, Use the **Tab** character on your keyboard at the start of the `sense.set_pixels()` line.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+At the bottom of your code, add the following two lines to sense the colour and create a `sleep` of one second inside your loop:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 8,9
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image) c = sense.colour.colour[0:3] sleep(1)
+
+--- /code ---
+
+**Tip:** Make sure your last two lines of code are indented within your `for` loop.
+
+--- /task ---
+
+--- task ---
+
+**Test** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on it's next run of the animation.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** My code has a syntax error or doesn't run as expected!
+
+- Check that your code matches the code in the examples above
+- Check that you have indented the code in your for loop
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
 
 --- /task ---
