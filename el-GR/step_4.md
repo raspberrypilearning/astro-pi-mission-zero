@@ -16,10 +16,10 @@ The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 --- collapse ---
 
 ---
-title: Chick in an egg
+title: Chicken
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a chick in an egg.](images/chick.png)
 
 --- code ---
 ---
@@ -40,7 +40,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 title: Crab
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a crab.](images/crab.png)
 
 --- code ---
 ---
@@ -51,7 +51,7 @@ line_numbers: false
 a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
 
 
-Άλλαξε το κείμενο και το χρώμα του χαιρετισμού — τι μήνυμα θα στείλεις στους αστροναύτες που βρίσκονται στον Διεθνή Διαστημικό Σταθμό;
+image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 --- /code ---
 
@@ -63,7 +63,7 @@ a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
 title: Crocodile
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a crocodile head.](images/croc.png)
 
 --- code ---
 ---
@@ -86,7 +86,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Snake
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a snake.](images/snake.png)
 
 --- code ---
 ---
@@ -108,7 +108,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Frog
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a frog.](images/frog.png)
 
 --- code ---
 ---
