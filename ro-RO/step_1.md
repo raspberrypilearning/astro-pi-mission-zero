@@ -2,36 +2,27 @@
 
 Îmbunătățește rutina zilnică a astronauților de pe Stația Spațială Internațională, arătându-le un mesaj și umiditatea aerului ambiant la bord folosind Sense HAT-ul computerului Astro Pi.
 
-Hardware-ul Mark II Astro Pi este atât de nou încât computerele încă nu au nume încă. Vom numi computerele Astro Pi după doi oameni de știință europeni care ne inspiră. Poți ajuta la alegerea numelor lor votând numele tău preferat ca parte a programului tău Mission Zero.
+You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-Vei folosi emulatorul online Sense HAT pentru a crea programul, astfel încât nu este nevoie de hardware suplimentar — totul se face într-un browser web. *Dacă îndeplinește criteriile de eligibilitate* programul completat va fi rulat în spațiu pe Stația Spațială Internațională (ISS)! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău.
-
-Vom anunța numele câștigătorilor pentru noile calculatoare Astro Pi în primăvara anului 2022.
-
+*If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### Ce vei face
 
-Iată un exemplu al tipului de program pe care l-ai putea face. Dă click pe **Run** pentru a-l vedea în acțiune.
+Here is an example of the kind of program you could make. <mark>change image here</mark>
 
-![Emulatorul Trinket Sense HAT care rulează un program demonstrativ care derulează valoarea umidității prin matricea LED și apoi afișează o imagine a unui pește](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
 
 --- collapse ---
-
-
 
 ---
 title: Ce vei învăța
 ---
 
-Vei învăța despre unitatea Astro Pi și cum să o controlezi, inclusiv cum să:
+You will learn about the Astro Pi unit and how to control it, including how to:
 + afișezi mesaje și culori
 + creezi imagini
 + măsori umiditatea folosind Sense HAT
-
-Acest proiect acoperă elemente din următoarele componente ale curriculumului [Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Folosirea elementelor de bază ale programării pentru a crea programe simple](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -43,11 +34,12 @@ title: De ce vei avea nevoie
 
 ### Hardware
 
-+ Orice computer cu o conexiune la internet
++ [Folosirea elementelor de bază ale programării pentru a crea programe simple](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 ### Software
 
-+ Un browser web (de ex. Google Chrome) pentru a deschide [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
+<mark> update to new editor link </mark>
++ Orice computer cu o conexiune la internet
 
 --- /collapse ---
 
@@ -56,32 +48,18 @@ title: De ce vei avea nevoie
 title: Note pentru profesori și mentori
 ---
 
+Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Această activitate poate fi terminată într-o după-amiază. Organizează-ți elevii în echipe de patru sau mai puțini, și lasă-ne să-i ghidăm să scrie un scurt program în Python pentru a afișa un mesaj personal și umiditatea relativă pe Astro Pi.
+Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board and create an image that uses that colour.
+
+<mark> update to new link </mark>
 
 Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
-Va trebui să te înregistrezi pentru provocarea Mission Zero pentru a permite echipei/echipelor tale să participe.
+<mark> update to new link if this resource is being updated </mark>
 
-+ Accesează [pagina emulatorului Trinket pentru Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
-
-+ Completează formularul și dă click pe **Submit**\*.
-
-\* Reține că formularul de înregistrare este disponibil doar în engleză.
-
-Câmpurile din formular includ:   
-Numele profesorului/mentorului    
-Numele echipei   
-Numărul membrilor echipei  
-Numele și vârsta membrilor echipei  
-În ce limbă ai accesat ghidul Mission Zero?
-
-+ Un cont Trinket va fi creat pentru tine (dacă nu ai deja unul, sau nu ești conectat). Poți crea un singur cont folosind o adresă de email. Fiecare cont are propriul său **cod de clasă** pe care va trebui să-l comunici echipei/echipelor tale atunci când sunt gata să-și trimită programele.
-
-+ Afișează codul de clasă undeva vizibil, cum ar fi pe o tablă albă sau utilizând un proiector, iar mai apoi poți începe activitatea.
-
- We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+ Citește [documentul privind instrucțiunile oficiale](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-ro.pdf){:target="_blank"} pentru Mission Zero.
 
 --- /collapse ---
 
-![Urmărire de pixeli](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
