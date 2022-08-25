@@ -16,10 +16,10 @@ The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 --- collapse ---
 
 ---
-title: Chick in an egg
+title: Chicken
 ---
 
-<mark>add image to show output on Sense HAT</mark> 
+![A grid with 8x8 squares showing a chick in an egg.](images/chick.png)
 
 --- code ---
 ---
@@ -54,7 +54,7 @@ image = [
 title: Crab
 ---
 
-<mark>add image to show output on Sense HAT</mark> 
+![A grid with 8x8 squares showing a crab.](images/crab.png)
 
 --- code ---
 ---
@@ -88,7 +88,7 @@ image = [
 title: Crocodile
 ---
 
-<mark>add image to show output on Sense HAT</mark> 
+![A grid with 8x8 squares showing a crocodile head.](images/croc.png)
 
 --- code ---
 ---
@@ -123,7 +123,7 @@ image = [
 title: Snake
 ---
 
-<mark>add image to show output on Sense HAT</mark> 
+![A grid with 8x8 squares showing a snake.](images/chick.png)
 
 --- code ---
 ---
@@ -157,7 +157,7 @@ image = [
 title: Frog
 ---
 
-<mark>add image to show output on Sense HAT</mark> 
+![A grid with 8x8 squares showing a frog.](images/chick.png)
 
 --- code ---
 ---
