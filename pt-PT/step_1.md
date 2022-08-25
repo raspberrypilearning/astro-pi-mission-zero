@@ -2,12 +2,9 @@
 
 Alegra a rotina diária dos astronautas da Estação Espacial Internacional mostrando-lhes uma mensagem e a humidade ambiente a bordo usando o Sense HAT do novo Mark II Astro Pi.
 
-O hardware Mark II Astro Pi é tão novo que os computadores ainda nem têm nomes. Daremos nome aos computadores Astro Pi em honra de dois cientistas europeus inspiradores. Você pode ajudar a escolher o que eles serão chamados votando no seu nome favorito como parte do seu programa Missão Zero.
+Você usará o emulador Sense HAT online para criar o seu programa, portanto, nenhum hardware extra é necessário - tudo é feito num navegador da web.
 
-Você usará o emulador Sense HAT online para criar o seu programa, portanto, nenhum hardware extra é necessário - tudo é feito num navegador da web. *Se isso atender aos critérios de elegibilidade* o seu programa concluído será executado no espaço na Estação Espacial Internacional (EEI)! Receberá também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o seu programa foi executado.
-
-Anunciaremos os nomes escolhidos para os novos computadores Astro Pi na primavera de 2022.
-
+*Se isso atender aos critérios de elegibilidade* o seu programa concluído será executado no espaço na Estação Espacial Internacional (EEI)! Receberá também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o seu programa foi executado.
 
 ### O que vais fazer
 
@@ -18,8 +15,6 @@ Aqui está um exemplo do tipo de programa que você pode fazer. Clique em **Run*
 
 --- collapse ---
 
-
-
 ---
 title: O que vais aprender
 ---
@@ -28,10 +23,6 @@ Vais aprender sobre a unidade Astro Pi e como controlá-la, incluindo como:
 + exibir mensagens e cores
 + criar imagens
 + medir a humidade usando o Sense HAT
-
-Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Use construções básicas de programação para criar programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -43,11 +34,12 @@ title: O que vais precisar
 
 ### Hardware
 
-+ Qualquer computador com ligação à Internet
++ [Use construções básicas de programação para criar programas simples](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 ### Software
 
-+ Um navegador web (por exemplo, o Google Chrome) para abrir [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
+<mark> update to new editor link </mark>
++ Qualquer computador com ligação à Internet
 
 --- /collapse ---
 
@@ -56,31 +48,17 @@ title: O que vais precisar
 title: Notas para professores e mentores
 ---
 
+Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Esta atividade pode ser concluída numa tarde. Organize os seus alunos em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um programa em Python para mostrar uma mensagem pessoal e a temperatura do ar no Astro Pi.
+Organize os seus alunos em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um programa em Python para mostrar uma mensagem pessoal e a temperatura do ar no Astro Pi.
 
-Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
+<mark> update to new link </mark>
 
-Será necessário registar-se para o desafio Missão Zero para permitir que a(s) sua(s) equipa(s) participe(m).
+Vá para a[página do emulador Trinket da Mission Zero](https://trinket.io/mission-zero){:target="_blank"}.
 
-+ Vá para a[página do emulador Trinket da Missão Zero](https://trinket.io/mission-zero){: target = "_ blank"}.
+<mark> update to new link if this resource is being updated </mark>
 
-+ Preencha o formulário e clique **Submit** (Enviar)\*.
-
-\ * Por favor note que este formulário de inscrição está disponível apenas em inglês.
-
-Os campos do formulário incluem:  
-Nome do professor / mentor   
-Nome da equipa  
-Número de membros da equipa  
-Nomes e idades dos membros da equipa  
-Em que idioma acedeu as diretrizes da Missão Zero?
-
-+ Uma conta do Trinket será criada para você (se ainda não tiver uma, ou não está autenticado). Você pode criar uma conta por endereço de e-mail. Cada conta tem o seu próprio **código de sala de aula**. Precisa dizer à sua equipa o código quando ela estiver pronta para enviar os seus programas.
-
-+ Exiba o código da sala de aula em algum lugar visível, por exemplo, num quadro branco ou projetor, e comece a atividade.
-
- We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+ Leia o [documento com as diretrizes oficiais](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-pt.pdf){:target="_blank"} da Mission Zero.
 
 --- /collapse ---
 
