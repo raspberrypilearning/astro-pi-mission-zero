@@ -9,13 +9,11 @@ last_tested: 2018-06-12
 steps:
 - title: Introduction
 - title: What is an Astro Pi?
-- title: Display a message and choose a name for the new Astro Pi computers
+- title: Add some colour
   completion:
   - engaged
-- title: Add some colour
 - title: Display an image
-- title: Measure the humidity
-- title: React to humidity
+- title: Sense a colour
 - title: Submit your entry
   completion:
   - internal

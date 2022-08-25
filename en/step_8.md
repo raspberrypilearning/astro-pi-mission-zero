@@ -1,55 +1,18 @@
-## Submit your entry
+## What next — more Astro Pi projects
 
-Please note: Mission Zero is now closed for the 2021/22 season. You can still complete the activity but won’t be able to submit it. The next Challenge will launch in Autumn 2022
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment.
+If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+Alternatively you might want to try out one of our other Astro Pi projects:
 
-1. Take a humidity reading.
-1. Light up the LEDs.
-1. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep you code running and prevent it from finishing.
-1. Test your code with a few different humidity settings (using the slider) to make sure it will always run correctly. 
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-Also make sure you have met the following criteria:
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-1. Make sure your message to the astronauts runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-1. Avoid using any methods needing input
-1. Only import from the `sense_hat`, `time`, and `random` modules
-1. Make sure you don't include any profanity
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-Once the rules are all green, you are ready to submit.
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
---- task ---
-
-Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
-
-**Notes for teachers or mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/1) step.
-
---- /task ---
-
---- task ---
-
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
-
-![Continue to form](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
-
---- /task ---
-
---- task ---
-
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
-
---- /task ---
-
---- task ---
-
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
