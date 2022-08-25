@@ -1,91 +1,19 @@
 ## Reagera på luftfuktighet
 
-Du kan kombinera din avläsning av luftfuktigheten med en bild för ge en grafisk visning av luftfuktigheten. Till exempel kan du visa ett hav för hög luftfuktighet, och en öken för låg luftfuktighet:
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-![Våt och torr](images/wet-dry.png)
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. Receive free computer hardware for your mission, and write the Python code to carry out your experiment.
 
---- task ---
+If you achieve flight status, your code will be uploaded to the International Space Station, and will run on the Astro Pi for three hours (two orbits). Any data your code gathers in space — image or sensor data files — will be downloaded and returned to you for analysis.
 
-Skapa fler färgvariabler för alla de färger som du vill använda, i slutet av ditt program. Du kanske redan har definierat några av dem i ett tidigare steg.
+Alternatively you might want to try out one of our other Astro Pi projects:
 
-```python
-o=(255,130,0)
-b=(0,0,255)
-c=(0,150,255)
-e=(80,80,80)
-g=(0,255,0)
-y=(255,255,0)
-```
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
---- /task ---
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
---- task ---
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-Precis som tidigare, ritar du dina bilder genom att först skapa en lista för var och en av dem, och sedan ställa in listans objekt med de färger som du vill att pixlarna ska ha.
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-```python
-wet = [
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b,
-  b, o, b, o, o, o, b, b,
-  b, o, o, o, o, e, o, b,
-  b, o, o, o, o, o, o, b,
-  b, o, b, o, o, o, b, b,
-  b, b, b, b, b, b, b, b,
-  b, b, b, b, b, b, b, b
-]
-
-
-dry = [
-  c, c, g, g, c, c, c, c,
-  c, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, c, g, g, c, g, c, c,
-  g, g, g, g, g, g, c, c,
-  c, c, g, g, c, c, c, c,
-  y, y, y, y, y, y, y, y,
-  y, y, y, y, y, y, y, y
-]
-```
-
---- /task ---
-
---- task ---
-
-Lägg till lite kod för att få luftfuktigheten:
-
-```python
-humid = sense.get_humidity()
-```
-
---- /task ---
-
---- task ---
-
-Bestäm nu vilken bild som ska visas. I det här exemplet visar vi `wet` (våt) bilden om luftfuktigheten är 40% eller högre och `dry` (torr) bilden om fuktigheten är under 40%.
-
-```python
-humid = sense.get_humidity()
-if humid >= 40:
-    sense.set_pixels(wet)
-else:
-    sense.set_pixels(dry)
-```
-
---- /task ---
-
---- task ---
-
-Använd luftfuktighetsreglaget för att sätta en luftfuktighet på emulatorn. Kör ditt program och kontrollera att den bild du har valt för den luftfuktigheten visas korrekt.
-
---- /task ---
-
---- task ---
-
-Ändra din kod så att ditt program visar luftfuktigheten för astronauterna på det sätt som du väljer.
-
---- /task ---
-
---- task --- Testa din kod med några olika fuktinställningar (med reglaget) för att se till att den alltid fungerar korrekt. Om du har följt exemplet ovan, visas en bild både när luftfuktigheten är inställd på ett värde mindre än 40% och även när den är inställd på mer än 40%?
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
