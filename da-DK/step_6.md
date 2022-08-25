@@ -1,61 +1,53 @@
 ## Mål luftfugtigheden
 
-Luftfugtighedssensoren i Astro Pi kan måle luftfugtigheden i luften omkring den og er en nyttig funktion, der kan hjælpe dig med at indsamle data om forholdene i rummet.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![Trinket Sense HAT-emulatoren kører et prøveprogram, der ruller værdien af luftfugtigheden hen over LED-matricen med hvide bogstaver](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 Astro Pi måler fugtigheden i ISS i procent af vandkoncentrationen i luften.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 En del af din mission er at bidrage til det daglige liv for besætningen ombord på ISS, så at lade dem vide, at fugtigheden ombord på rumstationen er inden for et normalt interval, vil berolige dem.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Tilføj denne kode for at foretage en fugtighedsaflæsning:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Denne linje måler den aktuelle fugtighed og gemmer den målte værdi i variablen `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Luftfugtigheden registreres meget præcist, dvs. at den lagrede værdi har et stort antal decimaler. Du kan afrunde værdien til et vilkårligt antal decimaler. I eksemplet har vi afrundet til én decimal, men for at få en anden grad af præcision skal du ændre tallet `1` til det antal decimaler, du gerne vil se.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-For at få vist den aktuelle luftfugtighed, som rullende besked på displayet skal du tilføje denne kodelinje:
-
-```python
-sense.show_message(str(humid))
-```
-
-Funktionen `str()` konverterer fugtigheden fra et tal til tekst, så Astro Pi kan vise den.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Du kan også vise luftfugtigheden som en del af en anden besked ved at tilslutte dele af din besked sammen med en `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 Den rigtige Astro Pi måler luftfugtigheden omkring den, men du kan flytte luftfugtighedsskyderen på Sense HAT-emulatoren for at simulere ændring af luftfugtigheden og teste din kode.
 
-![Et opmærket skærmbillede af Sense HAT-emulatoren med kodevinduet til venstre og emulatoren til højre. Skyderen (slideren), der bruges til at justere luftfugtigheden, er markeret med en cirkel i øverste højre hjørne](images/humidity-slider.png)
-
-**Bemærk:** Du undrer dig måske over, hvorfor luftfugtighedsskyderen (slider) viser luftfugtigheden som et helt tal, men den aflæsning, du får, er med decimaler. Emulatoren simulerer en lille unøjagtighed fra den rigtige sensor, så den luftfugtighedsmåling, du ser, kan være en lille smule større eller mindre end den værdi, du har indstillet med skyderen (slideren).
+--- /task ---
