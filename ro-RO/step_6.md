@@ -1,61 +1,53 @@
 ## Măsoară umiditatea
 
-Senzorul de umiditate din Astro Pi poate măsura umiditatea aerului din jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![Emulatorul Trinket Sense HAT care rulează un program eșantion care derulează valoarea umidității prin matricea LED folosind litere albe](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 Astro Pi măsoară umiditatea în cadrul ISS în procentajul concentrației de apă din aer.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 O parte din misiunea ta este să contribui la viața de zi cu zi a echipajului de la bordul ISS, informându-i astfel că umiditatea la bordul stației spațiale se află într-un interval normal, fapt ce îi va liniști.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Adaugă acest cod pentru a măsura umiditatea:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Această linie va măsura umiditatea curentă și va stoca rezultatul în variabila `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Umiditatea este înregistrată foarte precis, adică valoarea stocată va avea un număr mare de zecimale. Poți rotunji valoarea la orice număr de zecimale. În exemplul dat, am rotunjit la o zecimală, dar pentru un alt nivel de precizie, schimbă numărul `1` la numărul de zecimale pe care dorești să le vezi.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Pentru a afișa umiditatea curentă ca mesaj derulant pe afișaj, adaugă această linie de cod:
-
-```python
-sense.show_message(str(humid))
-```
-
-Partea `str()` convertește umiditatea dintr-un caracter numeric în caracter text astfel încât Astro Pi să o poată afișa.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-De asemenea, poți afișa umiditatea ca parte a unui alt mesaj prin îmbinarea părților mesajului tau împreună cu un `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 Un Astro Pi real va măsura umiditatea din jurul său, dar poți muta glisorul de umiditate de pe emulatorul Sense HAT pentru a simula schimbări de umiditate și pentru a testa codul tău.
 
-![O captură de ecran etichetată a emulatorului Sense HAT cu fereastra de cod din stânga și emulatorul din dreapta. Cursorul folosit pentru a ajusta umiditatea este înconjurat în colțul din dreapta sus](images/humidity-slider.png)
-
-**Notă:** S-ar putea să te întrebi de ce sliderul de umiditate afișează umiditatea ca număr întreg, dar citirea pe care o primești este un număr cu zecimale. Emulatorul simulează ușoara inexactitate a senzorului real, astfel încât umiditatea măsurată pe care o vezi poate fi puțin mai mică sau mai mare decât valoarea pe care ai setat-o cu ajutorul glisorului.
+--- /task ---
