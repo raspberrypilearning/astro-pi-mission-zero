@@ -1,80 +1,301 @@
 ## Display an image
 
-You can display pictures on the Astro Pi's LED matrix. 
+Display images on the Astro Pi's LED matrix. 
 
 ![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
+The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. Python stores this information in a list. 
+
 --- task ---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same. 
+The code you created in the previous step to turn the full LED matrix to a single colour is no longer needed as to create an image you will need to set each LED individually. 
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
-```
+**Delete** the colour variables, `sense.clear` and `sleep` lines of code:
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1-6
+---
+red = (255, 0, 0)
+green = (0, 255, 0)
+
+sense.clear(red)
+sleep(1)
+sense.clear(green)
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
+**Choose:** pick an image to display from the options below. You will need to copy the new colour variables and the image list then add them to the end of your project. 
+
+Make sure that you indent the code within the list like in the examples below. Indenting this code tells Python that the indented lines are part of the list.
+
+**Tip:** To indent a line, use the Tab character on your keyboard (usually above CAPSLOCK on the keyboard). 
+
+--- collapse ---
+
+---
+title: Chick in an egg
+---
+
+<mark>add image to show output on Sense HAT</mark> 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+e = (0, 0, 205) # MediumBlue
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+w = (255, 192, 203) # Pink
 
 
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined.
-Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
+image = [
+  c, c, c, q, q, q, c, c,
+  c, c, t, q, e, q, c, c,
+  c, c, c, q, q, q, c, c,
+  c, w, w, w, w, w, w, c,
+  c, w, a, a, a, a, w, c,
+  c, w, a, a, a, a, w, c,
+  c, c, w, a, a, w, c, c,
+  c, c, c, w, w, c, c, c]
 
-```python
- picture = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
-```
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Skull
+---
+
+<mark>add image to show output on Sense HAT</mark> 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+a = (255, 255, 255) # White
+b = (105, 105, 105) # DimGray
+c = (0, 0, 0) # Black
+
+
+image = [
+  a, a, a, a, a, a, a, a,
+  a, a, a, a, a, a, a, a,
+  a, a, a, a, a, a, a, a,
+  a, c, a, a, a, c, a, a,
+  a, a, a, c, a, a, a, a,
+  a, a, a, a, a, a, a, a,
+  b, a, c, a, c, a, b, b,
+  b, a, c, a, c, a, b, b]
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Crab
+---
+
+<mark>add image to show output on Sense HAT</mark> 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+v = (255, 0, 0) # Red
+
+
+image = [
+  c, a, a, c, a, a, c, c,
+  c, a, c, c, a, c, c, c,
+  c, v, c, c, v, c, c, c,
+  c, v, c, c, v, c, c, c,
+  v, v, v, v, v, c, v, v,
+  v, v, c, c, v, v, v, c,
+  v, v, v, v, v, c, v, v,
+  v, c, v, c, v, c, c, c]
+ 
+--- /code ---
+
+--- /collapse ---
+ 
+ 
+--- collapse ---
+---
+title: Crocodile
+---
+
+<mark>add image to show output on Sense HAT</mark> 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+--- /code ---
+ 
+ 
+--- /collapse ---
+ 
+--- collapse ---
+---
+title: Snake
+---
+
+<mark>add image to show output on Sense HAT</mark> 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+
+ c = (0, 0, 0) # Black
+ m = (34, 139, 34) # ForestGreen
+ q = (255, 255, 0) # Yellow
+ v = (255, 0, 0) # Red
+
+
+image = [
+  c, c, c, c, c, c, c, m,
+  m, m, m, m, m, m, m, m,
+  c, m, c, c, c, c, c, c,
+  c, m, m, m, m, m, c, c,
+  c, c, c, c, c, m, c, c,
+  q, m, q, m, m, m, c, c,
+  m, m, m, c, c, c, c, c,
+  v, c, c, c, c, c, c, c]
+  
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Frog
+---
+
+<mark>add image to show output on Sense HAT</mark> 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+c = (0, 0, 0) # Black
+m = (34, 139, 34) # ForestGreen
+q = (255, 255, 0) # Yellow
+v = (255, 0, 0) # Red
+
+
+image = [
+  c, m, m, m, c, m, m, m,
+  c, m, q, m, c, m, q, m,
+  m, m, m, m, m, m, m, m,
+  m, v, v, v, v, v, v, v,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, m, m, m, c, m
+]
+--- /code ---
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
 
-Below your list, add a line of code to display your picture on the LED display.
+Below your list, add a line of code to display your image on the LED matrix.
 
-```python
-sense.set_pixels(picture)
-```
+**Tip:** This line of code should not be indented as it is not part of your list:
 
---- /task ---
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 11
+---
+image = [
+  c, c, c, q, q, q, c, c,
+  c, c, t, q, e, q, c, c,
+  c, c, c, q, q, q, c, c,
+  c, w, w, w, w, w, w, c,
+  c, w, a, a, a, a, w, c,
+  c, w, a, a, a, a, w, c,
+  c, c, w, a, a, w, c, c,
+  c, c, c, w, w, c, c, c]
+  
+sense.set_pixels(image)
 
---- task ---
-
-Press **Run** to see your picture displayed.
-
---- /task ---
-
---- task ---
-
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
-
-```python
-from time import sleep
-```
-
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
-
-```python
-sleep(2)
-```
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Create your own picture or pattern to display to the astronauts!
+Press **Run** to see your image displayed on the LED matrix.
 
 --- /task ---
+
+--- task ---
+
+My code has a syntax error!
+
+- Check that you code matches the code in the examples above
+- Check that you have indented the code in your list
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
+
+My image does not appear
+- Check that your `sense.set_pixels(image)` is not indented
+
+--- /task ---
+
+
+

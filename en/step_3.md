@@ -125,14 +125,13 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 2,5,6
 ---
-
---- /code ---
 red = (255, 0, 0)
 green = (0, 255, 0)
 
 sense.clear(red)
 sleep(1)
 sense.clear(green)
+--- /code ---
 
 --- /task ---
 

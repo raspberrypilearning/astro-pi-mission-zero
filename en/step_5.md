@@ -1,61 +1,92 @@
-## Measure the humidity
+## Sense a colour
 
-The humidity sensor in the Astro Pi can measure the humidity in the air around it, a useful feature to help you gather data about the conditions in space.
+You could combine your humidity reading with a picture to also indicate the humidity in a graphical way. For example, you might display an ocean for high humidity, and a desert for low humidity:
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix using white letters](images/M0_3.gif)
-
-The Astro Pi measures the humidity in the ISS in percentage water concentration in the air.
-
-Part of your mission is to contribute to the daily lives of the crew aboard the ISS, so letting them know that the humidity aboard the space station is within a normal range will reassure them.
-
-[[[generic-theory-what-is-humidity]]]
+![Wet and dry](images/wet-dry.png)
 
 --- task ---
 
-Add this code to take a humidity reading:
+At the bottom of your program, create more colour variables for any colours you want to use in your pictures. You may already have defined some of them in a previous step.
+
+```python
+o=(255,130,0)
+b=(0,0,255)
+c=(0,150,255)
+e=(80,80,80)
+g=(0,255,0)
+y=(255,255,0)
+```
+
+--- /task ---
+
+--- task ---
+
+Just like earlier, draw your pictures by first creating a list for each of them, and then setting the list items to the colours you want your pixels to be.
+
+```python
+wet = [
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b,
+  b, o, b, o, o, o, b, b,
+  b, o, o, o, o, e, o, b,
+  b, o, o, o, o, o, o, b,
+  b, o, b, o, o, o, b, b,
+  b, b, b, b, b, b, b, b,
+  b, b, b, b, b, b, b, b
+]
+
+
+dry = [
+  c, c, g, g, c, c, c, c,
+  c, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, c, g, g, c, g, c, c,
+  g, g, g, g, g, g, c, c,
+  c, c, g, g, c, c, c, c,
+  y, y, y, y, y, y, y, y,
+  y, y, y, y, y, y, y, y
+]
+```
+
+--- /task ---
+
+--- task ---
+
+Add some code to get the humidity:
 
 ```python
 humid = sense.get_humidity()
 ```
 
-This line will measure the current humidity, and store the measured value in the variable `humid`.
-
 --- /task ---
 
 --- task ---
 
-The humidity is recorded very precisely, i.e. the stored value will have a large number of decimal places. You can round the value to any number of decimal places. In the example we have rounded to one decimal place, but for a different level of precision, change the number `1` to the number of decimal places you would like to see.
+Now decide which picture to display. For this example, we will display the `wet` image if the humidity reading is 40% or above, and the `dry` image if the humidity is below 40%.
 
 ```python
-humid = round(sense.get_humidity(), 1)
+humid = sense.get_humidity()
+if humid >= 40:
+    sense.set_pixels(wet)
+else:
+    sense.set_pixels(dry)
 ```
 
 --- /task ---
 
 --- task ---
 
-To display the current humidity as a scrolling message on the display, add this line of code:
-
-```python
-sense.show_message(str(humid))
-```
-
-The `str()` part converts the humidity from a number into text so that the Astro Pi can display it.
+Use the humidity slider to set a humidity on the emulator. Run your program and check that the image you've selected for that humidity is correctly displayed.
 
 --- /task ---
 
 --- task ---
 
-You can also display the humidity as part of another message by joining the parts of your message together with a `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
+Change your code so that your program displays the humidity to the astronauts in your own chosen way.
 
 --- /task ---
 
-The real Astro Pi will measure the humidity around it, but you can move the humidity slider on the Sense HAT emulator to simulate humidity changes and test your code.
+--- task ---
+Test your code with a few different humidity settings (using the slider) to make sure it always runs correctly. If you've followed the example above, is an image displayed both when the humidity is set to a value less than 40% and also when it is set to more than 40%?
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right. The slider used to adjust the humidity is circled in the top right corner](images/humidity-slider.png)
-
-**Note:** You might be wondering why the humidity slider displays the humidity as a whole number, but the reading you get is a decimal. The emulator simulates the slight inaccuracy of the real sensor, so the humidity measurement you see may be very slightly larger or smaller than the value you've set with the slider.
+--- /task ---
