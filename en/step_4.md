@@ -123,7 +123,7 @@ image = [
 title: Snake
 ---
 
-![A grid with 8x8 squares showing a snake.](images/chick.png)
+![A grid with 8x8 squares showing a snake.](images/snake.png)
 
 --- code ---
 ---
@@ -157,7 +157,7 @@ image = [
 title: Frog
 ---
 
-![A grid with 8x8 squares showing a frog.](images/chick.png)
+![A grid with 8x8 squares showing a frog.](images/frog.png)
 
 --- code ---
 ---
