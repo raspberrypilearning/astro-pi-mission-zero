@@ -1,61 +1,53 @@
 ## Změř vlhkost
 
-Senzor vlhkosti v Astro Pi dokáže měřit vlhkost okolního vzduchu. To je užitečná funkce, která ti pomůže shromažďovat údaje o podmínkách ve vesmíru.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![Emulátor Trinket Sense HAT, na kterém je spuštěn ukázkový program, který posouvá bílou hodnotu vlhkosti po LED matici](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 Astro Pi měří vlhkost na ISS v procentech koncentrace vody ve vzduchu.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 Součástí tvé mise je podílet se na každodenním životě posádky na palubě ISS, takže je uklidní, když jim sdělíš, že vlhkost na palubě vesmírné stanice je v normě.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Přidej tenhle kód pro změření vlhkosti:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Tenhle řádek kódu změří aktuální vlhkost a uloží naměřenou hodnotu do proměnné `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-Vlhkost se zaznamenává velmi přesně, proto bude mít uložená hodnota velký počet desetinných míst. Hodnotu můžeš zaokrouhlit na libovolný počet desetinných míst. V příkladu zaokrouhlujeme na jedno desetinné místo, ale když číslo `1` změníš na jiné číslo, dostaneš jiný počet desetinných míst.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Pokud chceš, aby aktuální vlhkost po displeji běžela, přidej tenhle řádek kódu:
-
-```python
-sense.show_message(str(humid))
-```
-
-Část `str()` převádí vlhkost z čísla na text tak, aby ji Astro Pi mohlo zobrazit.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Vlhkost můžeš také zobrazit jako součást zprávy, jestliže spojíš všechny její částí pomocí znaménka `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 Skutečné Astro Pi bude měřit vlhkost kolem sebe, ale ty můžeš pomocí posuvníku na emulátoru Sense HAT simulovat změnu vlhkosti a vyzkoušet si tak svůj kód.
 
-![Označený snímek obrazovky emulátoru Sense HAT s oknem kódu vlevo a emulátorem vpravo. Posuvník pro nastavení vlhkosti je zakroužkován v pravém horním rohu](images/humidity-slider.png)
-
-**Poznámka:** Možná tě zajímá, proč posuvník vlhkosti zobrazuje vlhkost jako celé číslo, zatímco zobrazená hodnota je desetinné číslo. Emulátor simuluje maličkou míru nepřesnosti skutečného senzoru, takže získaná hodnota z měření vlhkosti může být nepatrně větší nebo menší než hodnota, kterou nastavuješ pomocí posuvníku.
+--- /task ---
