@@ -1,8 +1,8 @@
 ---
-title: "Astro Pi: Mission Zero"
+title: 'Astro Pi: Mission Zero'
 hero_image: images/banner.png
 description: Pregătește-te pentru Mission Zero
-listed: false
+listed: true
 copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
@@ -13,15 +13,15 @@ steps:
     title: Ce este Astro Pi?
   - 
     title: Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
+    completion:
+      - engaged
   - 
     title: Adaugă culoare
   - 
     title: Afișează o imagine
   - 
     title: Măsoară umiditatea
+    completion:
+      - internal
   - 
     title: Reacționează la umiditate
-  - 
-    title: Trimite programul tău
-  - 
-    title: Ce urmează — mai multe proiecte Astro Pi”
