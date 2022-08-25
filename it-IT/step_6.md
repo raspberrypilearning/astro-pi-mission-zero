@@ -1,61 +1,54 @@
 ## Misura l'umidità
 
-Il sensore di umidità nell'Astro Pi può misurare l'umidità nell'aria circostante, una funzione utile che può aiutarti a raccogliere dati sulle condizioni nello spazio.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![L'emulatore HAT Trinket Sense esegue un programma di esempio che fa scorrere il valore dell'umidità attraverso la matrice di LED utilizzando lettere bianche](immagini/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 L'Astro Pi misura l'umidità nell'ISS come percentuale di concentrazione d'acqua nell'aria.
 
-Parte della vostra missione è contribuire positivamente alla vita quotidiana dell’equipaggio a bordo della ISS. Far saper loro che l'umidità a bordo della stazione spaziale si trova fra i valori normali li rassicurerà certamente.
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 
-[[[generic-theory-what-is-humidity]]]
+<mark> check with digital that this will be the same</mark> Once the rules are all green, you are ready to submit.
 
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Aggiungete questa riga di codice per misurare l'umidità:
 
-```python
-humid = sense.get_humidity()
-```
+--- /task ---
 
-Questa riga di codice misurerà l'umidità attuale e la memorizzerà nella variabile `umidita`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-L'umidità viene registrata con molta precisione, ovvero il valore memorizzato avrà un numero elevato di cifre decimali. È possibile arrotondare il valore a un numero qualsiasi di cifre decimali. Nell’esempio, abbiamo arrotondato il valore a una cifra decimale, ma per visualizzare un diverso livello di precisione è sufficiente sostituire il numero `1` con il numero di cifre decimali che volete visualizzare.
-
-```python
-humid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Per visualizzare l'umidità attuale come messaggio scorrevole sul display, aggiungete questa riga di codice:
-
-```python
-sense.show_message(str(humid))
-```
-
-L'istruzione `str()` converte l'umidità da numero in testo in modo che l'Astro Pi possa visualizzarla.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-È possibile anche visualizzare l'umidità all’interno di un messaggio più lungo, unendo insieme le varie parti con un `+`.
-
-```python
-sense.show_message( "It is " + str(humid) + " %" )
-```
-
---- /task ---
 
 In realtà, il vero Astro Pi misurerà l'umidità effettiva intorno ad esso, ma voi, con l’emulatore Sense HAT, potete simulare cambiamenti d'umidità e provare il corretto funzionamento del codice semplicemente spostando il cursore relativo.
 
-![Uno screenshot etichettato dell'emulatore Sense HAT con la finestra del codice a sinistra e l'emulatore a destra. Il cursore utilizzato per regolare l'umidità è cerchiato nell'angolo in alto a destra](images/humidity-slider.png)
-
-**Nota:** Potreste chiedervi come mai il cursore dell'umidità visualizza l'umidità come un numero intero, ma la lettura ottenuta è un numero decimale. L’emulatore simula anche una leggera imprecisione che è presente sul sensore reale. Quindi la misura dell'umidità che leggerete potrebbe essere leggermente superiore o inferiore al valore impostato con il cursore.
+--- /task ---
