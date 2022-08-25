@@ -8,35 +8,10 @@ The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 
 --- task ---
 
-The code you created in the previous step to turn the full LED matrix to a single colour is no longer needed as to create an image you will need to set each LED individually. 
+**Choose:** pick an image to display from the options below. You will need to copy the new colour variables and the image list then add them to the end of your project beneath the line which says `# Add colour variables and image`. 
 
-**Delete** the colour variables, `sense.clear` and `sleep` lines of code:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 1-6
----
-red = (255, 0, 0)
-green = (0, 255, 0)
-
-sense.clear(red)
-sleep(1)
-sense.clear(green)
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Choose:** pick an image to display from the options below. You will need to copy the new colour variables and the image list then add them to the end of your project. 
-
-Make sure that you indent the code within the list like in the examples below. Indenting this code tells Python that the indented lines are part of the list.
-
-**Tip:** To indent a line, use the Tab character on your keyboard (usually above CAPSLOCK on the keyboard). 
+**Tip:** If you are not copying one of the images here make sure that you indent the code within the list like in the examples below. Indenting this code tells Python that the indented lines are part of the list. To indent a line, use the `Tab` character on your keyboard (usually above CAPSLOCK on the keyboard) at the start of the line. 
 
 --- collapse ---
 
@@ -219,15 +194,13 @@ image = [
 
 Below your list, add a line of code to display your image on the LED matrix.
 
-**Tip:** This line of code should not be indented as it is not part of your list:
-
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 11
+line_highlights: 16,17
 ---
 image = [
   c, c, c, q, q, q, c, c,
@@ -238,7 +211,12 @@ image = [
   c, w, a, a, a, a, w, c,
   c, c, w, a, a, w, c, c,
   c, c, c, w, w, c, c, c]
-  
+
+# Set LED colours
+sense.clear(v)
+sleep(1)
+sense.clear(m)
+sleep(1)
 sense.set_pixels(image)
 
 --- /code ---

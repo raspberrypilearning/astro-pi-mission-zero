@@ -29,7 +29,7 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 Use the colour sensor to colour your background
 
-**Update:** your existing `c = (0, 0, 0) # Black` colour variable to use the colour sensed by the SenseHAT colour sensor instead of black.
+**Find and Update:** your existing `c = (0, 0, 0) # Black` colour variable to use the colour sensed by the SenseHAT colour sensor instead of black.
 
 --- code ---
 ---
@@ -67,9 +67,14 @@ The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your i
 language: python
 filename: main.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
+line_number_start: 1
+line_highlights: 6
 ---
+# Set LED colours
+sense.clear(v)
+sleep(1)
+sense.clear(m)
+sleep(1)
 for i in range(28):
 sense.set_pixels(image)
   
@@ -88,9 +93,14 @@ To do this, Use the **Tab** character on your keyboard at the start of the `sens
 language: python
 filename: main.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
+line_number_start: 1
+line_highlights: 7
 ---
+# Set LED colours
+sense.clear(v)
+sleep(1)
+sense.clear(m)
+sleep(1)
 for i in range(28):
   sense.set_pixels(image)
   
@@ -107,13 +117,18 @@ At the bottom of your code, add the following two lines to sense the colour and 
 language: python
 filename: main.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
+line_number_start: 1 
+line_highlights: 8,9
 ---
+# Set LED colours
+sense.clear(v)
+sleep(1)
+sense.clear(m)
+sleep(1)
 for i in range(28):
   sense.set_pixels(image)
-  sleep(1)
   c = sense.colour.colour[0:3]
+  sleep(1)
   
 --- /code ---
 

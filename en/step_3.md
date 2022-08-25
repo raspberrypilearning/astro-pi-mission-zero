@@ -20,9 +20,11 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 
 ---
+# Import the libraries
 from sense_hat import SenseHat
 from time import sleep
 
+# Set up the SenseHAT
 sense = SenseHat()
 sense.set_rotation(270)
 --- /code ---
@@ -39,7 +41,7 @@ You can learn how all colours can be created using different proportions of red,
 
 --- task ---
 
-Choose a colour you would like to display on the LED matrix:
+**Choose** a colour you would like to display on the LED matrix:
 
 [[[ambient-colours]]]
 
@@ -54,10 +56,11 @@ Create a variable to store your chosen colour. For example, if you picked red, y
 language: python
 filename: main.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 12
+line_number_start: 
+line_highlights: 2
 ---
-red = (255, 0, 0)
+# Add colour variables and image
+v = (255, 0, 0) # Red
 --- /code ---
 
 --- /task ---
@@ -72,11 +75,13 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3
+line_highlights: 5
 ---
-red = (255, 0, 0)
+# Add colour variables and image
+v = (255, 0, 0) # Red
 
-sense.clear(red)
+# Set LED colours
+sense.clear(v)
 --- /code ---
 
 --- /task ---
@@ -93,9 +98,11 @@ sense.clear(red)
 
 --- task ---
 
-**Choose:** a second colour to display on the Sense HAT LED matrix and set up the colour variable below your first colour variable. 
+**Choose:** a second colour to display on the Sense HAT LED matrix and set up the colour variable below your first colour variable.
 
 [[[ambient-colours]]]
+
+For example, if you picked forest green, your code would look like this:
 
 --- code ---
 ---
@@ -103,12 +110,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2
+line_highlights: 3
 ---
-red = (255, 0, 0)
-green = (0, 255, 0)
+# Add colour variables and image
+v = (255, 0, 0) # Red
+m = (34, 139, 34) # ForestGreen
 
-sense.clear(red)
+# Set LED colours
+sense.clear(v)
 --- /code ---
 
 --- /task ---
@@ -123,14 +132,17 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2,5,6
+line_highlights: 7, 8, 9
 ---
-red = (255, 0, 0)
-green = (0, 255, 0)
+# Add colour variables and image
+v = (255, 0, 0) # Red
+m = (34, 139, 34) # ForestGreen
 
-sense.clear(red)
+# Set LED colours
+sense.clear(v)
 sleep(1)
-sense.clear(green)
+sense.clear(m)
+sleep(1)
 --- /code ---
 
 --- /task ---
