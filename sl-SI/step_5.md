@@ -1,79 +1,119 @@
 ## Prikažite sliko
 
-Na matrici LED računalnika Astro Pi lahko prikažete slike. Morda želite, da bi vaš pozdrav astronavtov poleg ali namesto pisnega sporočila vseboval sliko ali vzorec?
+In this step, you will set up the colour sensor and use it to sense the colour in the environment. This colour will then be used to colour in your chosen image.
 
-![Posnetek zaslona okna emulatorja, ki prikazuje Letalsko Enoto z LED matrico, ki prikazuje sliko Letalske Enote](images/fu-pic.png)
+<mark>add an image with a different background colour not black</mark>
 
 --- task ---
 
-Na dnu svojega programa določite nekaj barvnih spremenljivk za barve, ki jih želite uporabiti v svojih slikah. Uporabite lahko poljubno veliko barv, vendar bomo v tem primeru uporabili le nekaj barv - rdečo (`r`), belo (`w`), črno (`b`) in dva odtenka sive (`g` in `s`). Upoštevajte, da lahko odtenke dosežete odtenki z zmanjšanjem količine svetlobe v vseh treh kanalih, pri čemer ohranite enaki razmerji.
+Find the # Setup the colour sensor comment.
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
-```
+Enter the code to set up the colour sensor.
 
-**Opomba:** V tem primeru je barvnim spremenljivkam priporočljivo dodeliti imena, sestavljena iz le ene črke, saj vam bo to prihranilo čas v naslednjem koraku, ko jih boste morali večkrat natipkati. Poleg tega bo zaradi uporabe enojnih črk sliko lažje videti.
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 2,3
+---
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken --- /code ---
 
 --- /task ---
 
 --- task ---
 
-
-
-Pod svojimi novimi spremenljivkami ustvarite seznam s 64 elementi. Vsak element predstavlja eno slikovno piko na matrici LED in ustreza eni izmed določenih barvnih spremenljivk. Svojo sliko narišete tako, da spremenljivko postavite na mesto, kjer želite, da se pojavi spremenljivki dodeljena barva. S črnimi (`b`) slikovnimi pikami na ozadju in belimi (`w`) slikovnimi pikami za kovinske dele ohišja smo narisali Astro Pi:
-
-```python
- picture = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
-```
---- /task ---
-
---- task ---
+Use the colour sensor to colour your background
 
 Da svojo sliko prikažete na zaslonu LED, dodajte vrstico kode.
 
-```python
-sense.set_pixels(picture)
-```
-
---- /task ---
-
---- task ---
-
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 1
+---
 Pritisnite **Run** (Zaženi), da bo vaša slika prikazana.
 
 --- /task ---
 
 --- task ---
 
-Dodate lahko kodo, s katero po prikazu slike vključite kratek zamik (ali `sleep`). Tako bodo imeli astronavti več časa, da si ogledajo vašo sliko, preden se pojavi naslednji del vašega sporočila. Na vrhu programa dodajte:
+**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change.
 
-```python
-from time import sleep
-```
+Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour.
 
-Za dodajanje zamika dveh sekund v vrstici pod tisto, ki prikazuje vašo sliko, dodajte naslednjo kodo:
+--- /task ---
 
-```python
-sleep(2)
-```
+## Loop your program
+
+The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.
+
+--- task ---
+
+**Find:** your `sense.set_pixels(image)` line of code
+
+**Add** code above it to set up your `for` loop for `28` repetitions.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 6
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Ustvarite svojo sliko ali vzorec in ju prikažite astronavtom!
+You now need to indent your function call so that it sits **inside** the `for` loop.
+
+To do this, Use the **Tab** character on your keyboard at the start of the `sense.set_pixels()` line.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+At the bottom of your code, add the following two lines to sense the colour and create a `sleep` of one second inside your loop:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 8,9
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image) c = sense.colour.colour[0:3] sleep(1)
+
+--- /code ---
+
+**Tip:** Make sure your last two lines of code are indented within your `for` loop.
+
+--- /task ---
+
+--- task ---
+
+**Test** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on it's next run of the animation.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** My code has a syntax error or doesn't run as expected!
+
+- Check that your code matches the code in the examples above
+- Check that you have indented the code in your for loop
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
 
 --- /task ---
