@@ -1,104 +1,143 @@
 ## Εμφάνιση μηνύματος και επιλογή ονόματος για τους νέους υπολογιστές Astro Pi
 
---- task ---
+The Astro Pi's LED matrix can display colours. In this step, you will specify a colour to be displayed by creating a variable and assigning it an RGB colour value.
 
-Άνοιξε τον [εξομοιωτή Sense HAT](https://trinket.io/mission-zero){:target="_blank"} για το έργο Mission Zero.
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the SenseHAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
 Θα δεις τρεις γραμμές κώδικα που έχουν προστεθεί αυτόματα:
 
-```python
-from sense_hat import SenseHat
-sense = SenseHat()
-sense.set_rotation(270)
-```
+You will see that four lines of code have been added for you automatically:
 
-![Ένα στιγμιότυπο οθόνης του εξομοιωτή Trinket Sense Hat με τρεις γραμμές κώδικα που εμφανίζονται στο αριστερό παράθυρο.](images/sense-hat-emulator2.png)
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν;
+---
+# Import the libraries
+from sense_hat import SenseHat from time import sleep
 
-Ο κώδικας αυτός συνδέεται στο Astro Pi και εξασφαλίζει ότι η οθόνη LED του Astro Pi εμφανίζεται στη σωστή κατεύθυνση. Άφησε αυτόν τον κώδικα εκεί, γιατί θα τον χρειαστείς.
+# Set up the SenseHAT
+sense = SenseHat() sense.set_rotation(270) --- /code ---
 
---- /task ---
+![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
 
---- task ---
-
-Μήπως θέλεις να στείλεις έναν χαιρετισμό στους αστροναύτες στον Διεθνή Διαστημικό Σταθμό που εργάζονται κοντά στον Astro Pi; Ας κυλήσουμε ένα μήνυμα στην οθόνη.
-
-Πρόσθεσε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
-
-```python
-sense.show_message("Astro Pi")
-```
+This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
 --- /task ---
-
---- task ---
 
 Πάτησε το κουμπί «**Run**» (Εκτέλεση) και παρακολούθησε το κυλιόμενο μήνυμα «`Astro Pi`» στην οθόνη LED.
 
-![Ο εξομοιωτής Trinket Sense HAT εκτελεί ένα δείγμα προγράμματος το οποίο μετακινεί το κείμενο "Astro PI" στη οθόνη LED με λευκά γράμματα](images/M0_1.gif)
+[[[generic-theory-simple-colours]]]
 
---- /task ---
-
-
+--- task ---
 
 Για να εμφανίσεις ένα διαφορετικό μήνυμα, μπορείτε να γράψεις ότι άλλο θέλεις μεταξύ των εισαγωγικών (`" "`).
 
 --- collapse ---
 
----
-title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν;
----
-
-Το Sense HAT μπορεί να εμφανίσει μόνο το σύνολο χαρακτήρων Latin 1, που σημαίνει ότι διατίθενται μόνο οι ακόλουθοι χαρακτήρες. Οποιοσδήποτε άλλος χαρακτήρας θα εμφανίζεται ως `?`.
-
-```
-+-*/!"#$><0123456789.=)(
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-abcdefghijklmnopqrstuvwxyz
-
-?,;:|@%[&_']\~
-```
-
---- /collapse ---
+--- /task ---
 
 --- task ---
 
-Μπορείς επίσης να αλλάξεις την ταχύτητα κύλισης του μηνύματος στην οθόνη. Πρόσθεσε την παράμετρο `scroll_speed` στη γραμμή κώδικα που έχεις ήδη, ως εξής:
+Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
 
-```python
-sense.show_message("Astro Pi", scroll_speed=0.05)
-```
-
-Η προεπιλεγμένη ταχύτητα του μηνύματος είναι `0.1`. Αν μειώσεις τον αριθμό, το μήνυμα θα κυλάει πιο γρήγορα. Αν τον αυξήσεις, το μήνυμα θα κυλάει πιο αργά.
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start:
+line_highlights: 2
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red --- /code ---
 
 --- /task ---
 
-### Επίλεξε ένα όνομα για τους νέους υπολογιστές Astro Pi
+--- task ---
 
---- task --- Θα ονομάσουμε τους υπολογιστές Astro Pi με ονόματα από δύο εμπνευσμένους Ευρωπαίους επιστήμονες. Υπάρχουν εκατοντάδες άνδρες και γυναίκες που έχουν συμβάλει στην επιστήμη και την τεχνολογία. Οι συμμετέχοντες μπορούν να προτείνουν τα δικά τους ονόματα ή να επιλέξουν από τη λίστα προτάσεών μας:
-
-
-[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
-[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
-[Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
-[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
-[Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
-[Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
-[John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
-[Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
-[Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
-[Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
-
-Για να ψηφίσεις, ξεκίνα το μήνυμά σου με τις λέξεις "My name should be". Για παράδειγμα, αν ένας συμμετέχων ή μια ομάδα θα ήθελε να ψηφίσει για την Ada Lovelace, ο κώδικάς τους θα μοιάζει κάπως έτσι:
-
-```python
-sense.show_message("My name should be Ada Lovelace")
-```
+You can now make your Sense HAT display the colour you picked, using the LED matrix.
 
 Εάν θέλεις να ψηφίσεις, το μήνυμά σου *πρέπει* να ξεκινά με αυτές τις λέξεις, διαφορετικά δεν θα μπορούμε να μετρήσουμε αυτόματα την καταχώρισή σου.
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 5
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red
+
+# Set LED colours
+sense.clear(v) --- /code ---
 
 --- /task ---
 
+--- task ---
 
+**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light in your chosen colour.
+
+<mark>update image </mark>
+
+![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+
+--- /task ---
+
+--- task ---
+
+**Choose:** a second colour to display on the Sense HAT LED matrix and set up the colour variable below your first colour variable.
+
+[[[ambient-colours]]]
+
+For example, if you picked forest green, your code would look like this:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 3
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red m = (34, 139, 34) # ForestGreen
+
+# Set LED colours
+sense.clear(v) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+You can use `sense.clear()` to show another colour of your choice. To see both colours you will need to pause inbetween the `sense.clear()` code so that you have time to see them:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7, 8, 9
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red m = (34, 139, 34) # ForestGreen
+
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light your first colour for one second then change to your second colour.
+
+<mark>update image </mark>
+
+![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+
+--- /task ---
+
+--- task ---
+
+**Debug:**
+
+My code doesn't run:
+- `NameError:` - have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code?
+- `SyntaxError bad input:` Make sure that your code matches the code above. It is important to use `,` and `.` when needed.
+
+My Sense HAT only shows my second colour:
+- Make sure you have added `sleep(1)` to pause your code for 1 second between changes.
+
+--- /task ---
 
