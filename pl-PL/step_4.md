@@ -16,17 +16,17 @@ The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 --- collapse ---
 
 ---
-title: Chick in an egg
+title: Chicken
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a chick in an egg.](images/chick.png)
 
 --- code ---
 ---
 language: python filename: main.py
 line_numbers: false
 ---
-red = (255,0,0)
+a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
 
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
@@ -40,7 +40,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 title: Crab
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a crab.](images/crab.png)
 
 --- code ---
 ---
@@ -48,10 +48,10 @@ language: python filename: main.py
 line_numbers: false
 ---
 
-red = (255,0,0) green = (0,255,0) sense.show_message("Astro Pi", text_colour=red, back_colour=green)
+a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
 
 
-Zmień tekst pozdrowienia i kolor - jaką wiadomość wyślesz do astronautów na pokładzie ISS?
+image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 --- /code ---
 
@@ -63,7 +63,7 @@ Zmień tekst pozdrowienia i kolor - jaką wiadomość wyślesz do astronautów n
 title: Crocodile
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a crocodile head.](images/croc.png)
 
 --- code ---
 ---
@@ -86,7 +86,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Snake
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a snake.](images/snake.png)
 
 --- code ---
 ---
@@ -108,7 +108,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Frog
 ---
 
-<mark>add image to show output on Sense HAT</mark>
+![A grid with 8x8 squares showing a frog.](images/frog.png)
 
 --- code ---
 ---
@@ -119,7 +119,7 @@ line_highlights:
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
 
 
-images/M0_2.gif
+image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m ] --- /code ---
 
 --- /collapse ---
 
