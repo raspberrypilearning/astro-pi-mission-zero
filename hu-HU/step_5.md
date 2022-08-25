@@ -1,79 +1,119 @@
-## Jeleníts meg egy képet!
+## Jeleníts meg egy képet
 
-Az Astro Pi LED mátrixán képeket is megjeleníthetsz. Az űrhajósoknak szóló üdvözleted akár még egy képet vagy mintát is tartalmazhat, egy írott üzenettel együtt vagy ahelyett!
+In this step, you will set up the colour sensor and use it to sense the colour in the environment. This colour will then be used to colour in your chosen image.
 
-![Képernyőkép az emulátorról, amely a Repülési Egységet mutatja, a LED-mátrixon magának a Repülési Egységnek a képével](images/fu-pic.png)
+<mark>add an image with a different background colour not black</mark>
 
 --- task ---
 
-A programod alján hozz létre néhány színváltozót, hogy meghatározd azokat a színeket, amelyekkel meg szeretnéd rajzolni a képedet. Bármennyi színt használhatsz, de ebben a példában csak egy pár színt fogunk használni - vörös (`r`), fehér (`w`), fekete (`b`), és két szürkeárnyalat (`g` és `s`). Figyeld meg, hogy az árnyalatokat úgy érjük el, hogy csökkentjük a fény erejét mindhárom csatornán, miközben megtartjuk az arányukat.
+Find the # Setup the colour sensor comment.
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
-```
+Enter the code to set up the colour sensor.
 
-**Megjegyzés:** Azt javasoljuk, hogy a színváltozóknak egybetűs nevet adj, mert azzal időt takaríthatsz meg a következő lépésben, amikor sokszor be kell majd őket gépelned. Továbbá, ha egyjegyű betűket használsz, akkor könnyebben láthatod a képet, amit rajzolsz.
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 2,3
+---
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken --- /code ---
 
 --- /task ---
 
 --- task ---
 
-
-
-Az új változóid alatt hozz létre egy 64 elemből álló listát. Minden egyes elem egy pixelt képvisel a LED mátrixban, és az egyik általad meghatározott színváltozónak felel majd meg. Rajzold meg a képedet úgy, hogy a színváltozó nevét írod arra a helyre, ahol szeretnéd, hogy a szín megjelenjen. Mi egy Astro Pi-t rajzoltunk úgy, hogy a fekete (`b`) pixeleket háttérként használtuk, a szürke (`g`) pixelekkel pedig megrajzoltuk az Astro Pi fémvázát:
-
-```python
- picture = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
-```
---- /task ---
-
---- task ---
+Use the colour sensor to colour your background
 
 Adj hozzá egy kódsort, hogy a képed megjelenjen a LED kijelzőn!
 
-```python
-sense.set_pixels(picture)
-```
-
---- /task ---
-
---- task ---
-
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 1
+---
 Nyomd meg a **Run** (Futtatás) gombot, hogy megláthasd a képed!
 
 --- /task ---
 
 --- task ---
 
-Akár hozzáadhatsz egy olyan kódot is, amellyel egy rövid szünetet vagy „szundit” (angolul `sleep`) tarthatsz a kép megjelenítése után. Ezzel egy kis időt hagysz az űrhajósok számára, hogy láthassák a képedet, mielőtt az üzeneted következő része megjelenik. A programod elejéhez add hozzá:
+**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change.
 
-```python
-from time import sleep
-```
+Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour.
 
-Majd az után a sor után, amelyik megjeleníti a képedet, gépeld be ezt egy két másodperces szünetért:
+--- /task ---
 
-```python
-sleep(2)
-```
+## Loop your program
+
+The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.
+
+--- task ---
+
+**Find:** your `sense.set_pixels(image)` line of code
+
+**Add** code above it to set up your `for` loop for `28` repetitions.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 6
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Hozd létre a saját képedet vagy mintádat, hogy megmutathasd az űrhajósoknak!
+You now need to indent your function call so that it sits **inside** the `for` loop.
+
+To do this, Use the **Tab** character on your keyboard at the start of the `sense.set_pixels()` line.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+At the bottom of your code, add the following two lines to sense the colour and create a `sleep` of one second inside your loop:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 8,9
+---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pixels(image) c = sense.colour.colour[0:3] sleep(1)
+
+--- /code ---
+
+**Tip:** Make sure your last two lines of code are indented within your `for` loop.
+
+--- /task ---
+
+--- task ---
+
+**Test** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on it's next run of the animation.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** My code has a syntax error or doesn't run as expected!
+
+- Check that your code matches the code in the examples above
+- Check that you have indented the code in your for loop
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
 
 --- /task ---
