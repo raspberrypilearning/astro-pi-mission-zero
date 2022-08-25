@@ -1,16 +1,25 @@
 ## Wyświetl wiadomość i wybierz nazwę dla nowych komputerów Astro Pi
 
---- task ---
+The Astro Pi's LED matrix can display colours. In this step, you will specify a colour to be displayed by creating a variable and assigning it an RGB colour value.
 
-Otwórz [emulator Sense HAT](https://trinket.io/mission-zero){:target="_blank"} dla projektu Misja Zero.
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the SenseHAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
 Zobaczysz, że trzy linie kodu zostały dodane automatycznie:
 
-```python
-from sense_hat import SenseHat
-sense = SenseHat()
-sense.set_rotation(270)
-```
+Dodaj ten wiersz pod innym kodem:
+
+--- /collapse ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+title: Jakich znaków można użyć?
+---
+# Import the libraries
+from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
+
+# Set up the SenseHAT
+sense.show_message("Astro Pi", scroll_speed=0.05)
 
 ![Zrzut ekranu emulatora Trinket Sense Hat z trzema liniami początkowego kodu wyświetlanymi w lewym panelu.](images/sense-hat-emulator2.png)
 
@@ -18,87 +27,117 @@ Kod ten łączy się z Astro Pi i zapewnia, że wyświetlacz LED Astro Pi jest p
 
 --- /task ---
 
---- task ---
-
-Może zamieścisz miłe pozdrowienia dla astronautów z ISS, którzy pracują w pobliżu Astro Pi? Dodajmy przewijaną wiadomość na wyświetlaczu.
-
-Dodaj ten wiersz pod innym kodem:
-
-```python
-sense.show_message("Astro Pi")
-```
-
---- /task ---
-
---- task ---
-
 Po naciśnięciu przycisku **Run** (Uruchom) zobaczysz, jak wiadomość `Astro Pi` przewija się na wyświetlaczu LED.
 
-![Emulator Trinket Sense HAT uruchamiający przykładowy program, który przewija tekst "Astro PI" po matrycy LED białymi literami](images/M0_1.gif)
+[[[generic-theory-simple-colours]]]
 
---- /task ---
-
-
+--- task ---
 
 Aby wyświetlić inną wiadomość, można napisać dowolną treść między znakami cudzysłowu (`""`).
 
 --- collapse ---
 
----
-title: Jakich znaków można użyć?
----
-
-Sense HAT może wyświetlać tylko zestaw znaków Latin 1, co oznacza, że ​​dostępne będą tylko następujące znaki. Inne znaki będą wyświetlane jako `?`.
-
-```
-+-*/!"#$><0123456789.=)(
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-abcdefghijklmnopqrstuvwxyz
-
-?,;:|@%[&_']\~
-```
-
---- /collapse ---
+--- /task ---
 
 --- task ---
 
-Możesz również zmienić prędkość przewijania wiadomości na ekranie. Dodaj `scroll_speed` (tempo_przewijania) do istniejącego wiersza kodu, na przykład tak:
+Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
 
-```python
-sense.show_message("Astro Pi", scroll_speed=0.05)
-```
-
-Domyślna prędkość przewijania wiadomości to `0.1`. Zmniejszenie liczby spowoduje, że wiadomość będzie przewijać się szybciej, a jej zwiększenie spowoduje, że wiadomość będzie przewijać się wolniej.
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start:
+line_highlights: 2
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red --- /code ---
 
 --- /task ---
 
-### Wybierz nazwę dla nowych komputerów Astro Pi
+--- task ---
 
---- task --- Komputery Astro Pi zostaną nazwane imionami dwóch inspirujących europejskich naukowców. Setki mężczyzn i kobiet przyczyniło się do rozwoju nauki i technologii; uczestnicy mogą sugerować swoje własne nazwy lub wybrać z listy naszych sugestii:
-
-
-[Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace){:target="_blank"} 
-[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing){:target="_blank"} 
-[Caroline Herschel](https://en.wikipedia.org/wiki/Caroline_Herschel){:target="_blank"} 
-[Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra){:target="_blank"} 
-[Hedy Lamarr](https://en.wikipedia.org/wiki/Hedy_Lamarr){:target="_blank"} 
-[Hypatia](https://en.wikipedia.org/wiki/Hypatia){:target="_blank"} 
-[John Edmonstone](https://en.wikipedia.org/wiki/John_Edmonstone){:target="_blank"} 
-[Maria Skłodowska-Curie](https://en.wikipedia.org/wiki/Marie_Curie){:target="_blank"} 
-[Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla){:target="_blank"} 
-[Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe){:target="_blank"}
-
-Aby zagłosować, zacznij swoją wiadomość od słów „My name should be”. Na przykład chcesz głosować na Ada Lovelace, twój kod wyglądałby tak:
-
-```python
-sense.show_message("My name should be Ada Lovelace")
-```
+You can now make your Sense HAT display the colour you picked, using the LED matrix.
 
 Jeśli chcesz zagłosować, Twoja wiadomość *musi* zaczynać się od tych słów (w języku angielskim), w przeciwnym razie nie będziemy mogli automatycznie policzyć Twojego wpisu.
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 5
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red
+
+# Set LED colours
+sense.clear(v) --- /code ---
 
 --- /task ---
 
+--- task ---
 
+**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light in your chosen colour.
+
+<mark>images/M0_1.gif </mark>
+
+![Emulator Trinket Sense HAT uruchamiający przykładowy program, który przewija tekst "Astro PI" po matrycy LED białymi literami](images/M0_2.gif)
+
+--- /task ---
+
+--- task ---
+
+**Choose:** a second colour to display on the Sense HAT LED matrix and set up the colour variable below your first colour variable.
+
+[[[ambient-colours]]]
+
+For example, if you picked forest green, your code would look like this:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 3
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red m = (34, 139, 34) # ForestGreen
+
+# Set LED colours
+sense.clear(v) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+You can use `sense.clear()` to show another colour of your choice. To see both colours you will need to pause inbetween the `sense.clear()` code so that you have time to see them:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7, 8, 9
+---
+# Add colour variables and image
+v = (255, 0, 0) # Red m = (34, 139, 34) # ForestGreen
+
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light your first colour for one second then change to your second colour.
+
+<mark>update image </mark>
+
+![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+
+--- /task ---
+
+--- task ---
+
+**Debug:**
+
+My code doesn't run:
+- `NameError:` - have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code?
+- `SyntaxError bad input:` Make sure that your code matches the code above. It is important to use `,` and `.` when needed.
+
+My Sense HAT only shows my second colour:
+- Make sure you have added `sleep(1)` to pause your code for 1 second between changes.
+
+--- /task ---
 
