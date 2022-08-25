@@ -2,36 +2,27 @@
 
 Πρόσφερε μια ευχάριστη νότα στην καθημερινή ρουτίνα των αστροναυτών στον Διεθνή Διαστημικό Σταθμό, δείχνοντάς τους ένα μήνυμα και την υγρασία περιβάλλοντος μέσα στον σταθμό, χρησιμοποιώντας το Sense ΗΑΤ του νέου υπολογιστή Astro Pi Mark II.
 
-Το Mark II Astro Pi είναι τόσο νέο που οι υπολογιστές δεν έχουν ακόμη ονόματα. Θα ονομάσουμε τους υπολογιστές Astro Pi με ονόματα από δύο εμπνευσμένους Ευρωπαίους επιστήμονες. Μπορείς να βοηθήσεις στην επιλογή του ονόματος ψηφίζοντας το αγαπημένο σου όνομα ως μέρος του προγράμματος Mission Zero.
+You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-Θα χρησιμοποιήσεις τον εξομοιωτή Sense HAT για να δημιουργήσεις το πρόγραμμά σου, οπότε δεν θα χρειαστείς επιπλέον εξοπλισμό — όλα γίνονται σε ένα πρόγραμμα περιήγησης Ιστού (φυλλομετρητή). *Εάν πληροί τα κριτήρια καταλληλότητας* το ολοκληρωμένο πρόγραμμά σου θα εκτελεστεί στο διάστημα στον Διεθνή Διαστημικό Σταθμό (ISS)! Θα λάβεις επίσης ένα ειδικό πιστοποιητικό που θα δείχνει που ακριβώς βρισκόταν ο Διεθνής Διαστημικός Σταθμός κατά την εκτέλεση του προγράμματός σου.
-
-Θα ανακοινώσουμε τα επιλεγμένα ονόματα για τους νέους υπολογιστές Astro Pi την άνοιξη του 2022.
-
+*If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### Τι θα φτιάξεις
 
-Παρακάτω είναι ένα παράδειγμα του προγράμματος που θα μπορούσες να φτιάξεις. Κάνε κλικ στο «**Run**» (Εκτέλεση) για να δεις το πρόγραμμα σε δράση.
+Here is an example of the kind of program you could make. <mark>change image here</mark>
 
-![Ο εξομοιωτής Trinket Sense HAT εκτελεί ένα δείγμα προγράμματος το οποίο εμφανίζει κυλιόμενα την τιμή της υγρασίας στο LED και στη συνέχεια εμφανίζει μια εικόνα ενός ψαριού](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
 
 
 --- collapse ---
-
-
 
 ---
 title: Τι θα μάθεις
 ---
 
-Θα μάθεις σχετικά με τη μονάδα AstroPi και το πώς μπορείς να την ελέγχεις, συμπεριλαμβανομένων και των εξής:
+You will learn about the Astro Pi unit and how to control it, including how to:
 + Εμφάνιση μηνυμάτων και χρωμάτων
 + Δημιουργία εικόνων
 + Μέτρηση υγρασίας με τη χρήση ενός Sense HAT
-
-Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -43,11 +34,12 @@ title: Τι θα χρειαστείς
 
 ### Υλικό (Hardware)
 
-+ Οποιοσδήποτε υπολογιστής με σύνδεση στο Διαδίκτυο
++ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
 
 ### Λογισμικό
 
-+ Ένα πρόγραμμα περιήγησης Ιστού (π.χ. Google Chrome) για να ανοίξεις το [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
+<mark> update to new editor link </mark>
++ Οποιοσδήποτε υπολογιστής με σύνδεση στο Διαδίκτυο
 
 --- /collapse ---
 
@@ -56,32 +48,18 @@ title: Τι θα χρειαστείς
 title: Σημειώσεις για εκπαιδευτικούς και συμβούλους (μέντορες)
 ---
 
+Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Αυτή η δραστηριότητα μπορεί να ολοκληρωθεί μέσα σε ένα απόγευμα. Χωρίστε τους μαθητές σας σε ομάδες από ένα έως τέσσερα άτομα και αφήστε μας να τους καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μικρού προγράμματος Python που θα εμφανίζει ένα προσωπικό μήνυμα και την υγρασία στο Astro Pi.
+Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board and create an image that uses that colour.
+
+<mark> update to new link </mark>
 
 Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
 
-Θα πρέπει να εγγραφείτε στην πρόκληση Mission Zero για να μπορέσουν οι ομάδες σας να συμμετέχουν.
+<mark> update to new link if this resource is being updated </mark>
 
-+ Μεταβείτε στη [σελίδα Mission Zero του εξομοιωτή Trinket](https://trinket.io/mission-zero){:target="_blank"}.
-
-+ Συμπληρώστε τη φόρμα και κάντε κλικ στο «**Submit**» (Υποβολή)\*.
-
-\* Παρακαλούμε, προσέξτε ότι αυτή η φόρμα εγγραφής είναι διαθέσιμη μόνο στα Αγγλικά.
-
-Τα πεδία της φόρμας περιλαμβάνουν:  
-Όνομα δασκάλου/μέντορα   
-Όνομα ομάδας  
-Αριθμός μελών ομάδας  
-Ονόματα και ηλικίες μελών ομάδας  
-Σε ποια γλώσσα είχατε πρόσβαση στις οδηγίες του Mission Zero;
-
-+ Θα δημιουργηθεί ένας λογαριασμός Trinket για εσάς (εάν δεν έχετε ήδη λογαριασμό ή δεν έχετε συνδεθεί). Μπορείτε να δημιουργήσετε έναν λογαριασμό ανά ηλεκτρονική διεύθυνση. Κάθε λογαριασμός έχει τον δικό του **κωδικό τάξης**, τον οποίον θα πρέπει να δώσετε στις ομάδες σας όταν είναι έτοιμες να υποβάλουν τα προγράμματά τους.
-
-+ Προβάλλετε σε κάποιο εμφανές σημείο τον κωδικό τάξης σας, για παράδειγμα σε έναν πίνακα ή χρησιμοποιώντας μια συσκευή προβολής και ξεκινήστε τη δραστηριότητα.
-
- We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+ Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-el.pdf){:target="_blank"} για το Mission Zero.
 
 --- /collapse ---
 
-![Εντοπισμός εικονοστοιχείου](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
