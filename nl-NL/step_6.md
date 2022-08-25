@@ -1,61 +1,53 @@
 ## Meet de luchtvochtigheid
 
-De luchtvochtigheidssensor in de Astro Pi kan de vochtigheid van de lucht eromheen meten, een handige functie om je te helpen gegevens te verzamelen over de omstandigheden in de ruimte.
+<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![De Trinket Sense HAT emulator draait een voorbeeldprogramma dat de tekst Astro PI in witte letters over de LED-matrix schuift](images/M0_3.gif)
+![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
 
 De Astro Pi meet de luchtvochtigheid in het ISS in procentuele waterconcentratie in de lucht.
 
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
+2. Avoid using any methods needing input
+3. Only import from the `sense_hat`, `time`, and `random` modules
 Een deel van je missie is om bij te dragen aan het dagelijks leven van de bemanning aan boord van het ISS, dus ze laten weten dat de luchtvochtigheid aan boord van het ruimtestation binnen een normaal bereik ligt, zal hen geruststellen.
 
-[[[generic-theory-what-is-humidity]]]
-
 --- task ---
+
+Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
 Voeg deze code toe om een luchtvochtigheidsmeting te doen:
 
-```python
-vochtigheid = sense.get_humidity()
-```
+--- /task ---
 
-Deze regel meet de huidige luchtvochtigheid en slaat de gemeten waarde op in de variabele `humid`.
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-De luchtvochtigheid wordt zeer nauwkeurig geregistreerd, d.w.z. de opgeslagen waarde heeft een groot aantal decimalen. Je kunt de waarde naar elk aantal decimalen afronden. In het voorbeeld hebben we afgerond op één plaats achter de komma, maar voor een ander niveau van precisie, wijzig je het cijfer `1` in het aantal decimalen dat je wilt zien.
-
-```python
-vochtigheid = round(sense.get_humidity(), 1)
-```
+Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Om de huidige luchtvochtigheid weer te geven als een scrollend bericht op het display, voeg je deze regel code toe:
-
-```python
-sense.show_message(str(vochtigheid))
-```
-
-Het `str()` gedeelte zet de luchtvochtigheid van een getal om naar tekst, zodat de Astro Pi het kan weergeven.
+Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
-
-Je kunt de luchtvochtigheid ook weergeven als onderdeel van een ander bericht door de delen van je bericht samen te voegen met een `+`.
-
-```python
-sense.show_message( "De luchtvochtigheid is " + str(vochtigheid) + " %" )
-```
-
---- /task ---
 
 De echte Astro Pi meet de luchtvochtigheid om zich heen, maar je kunt de luchtvochtigheidsschuifregelaar op de Sense HAT-emulator verplaatsen om luchtvochtigheidsveranderingen te simuleren en je code te testen.
 
-![Een gelabeld screenshot van de Sense HAT emulator met het codevenster aan de linkerkant en de emulator aan de rechterkant. De schuifregelaar die wordt gebruikt om de luchtvochtigheid aan te passen, is omcirkeld in de rechterbovenhoek](images/humidity-slider.png)
-
-**Opmerking:** Je vraagt ​​je misschien af ​​waarom de luchtvochtigheidsschuifregelaar de luchtvochtigheid als een geheel getal weergeeft, maar de waarde die je krijgt is een decimaal. De emulator simuleert de kleine onnauwkeurigheid van de echte sensor, dus de luchtvochtigheidsmeting die je ziet, is mogelijk iets groter of kleiner dan de waarde die je met de schuifregelaar hebt ingesteld.
+--- /task ---
