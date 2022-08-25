@@ -1,54 +1,167 @@
 ## Añade un poco de color
 
-Las pantallas LED de Astro Pi también pueden mostrar colores. Puedes especificar un color creando una variable y asignándole un valor de color RGB.
+In this step, you will display images on the Astro Pi's LED matrix.
 
-Puedes aprender a crear colores aquí usando distintas proporciones de rojo, verde y azul:
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
 
-[[[generic-theory-colours]]]
-
---- task ---
-
-Selecciona un color y averigua el valor RGB de dicho color. Puedes usar un [selector de colores](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} para que te ayude.
-
---- /task ---
+The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. Python stores this information in a list.
 
 --- task ---
 
-Crea una variable para guardar el color que has seleccionado. Por ejemplo, si has seleccionado el rojo, puedes escribir esta línea de código:
+**Choose:** pick an image to display from the options below. You will need to copy the new colour variables and the image list then add them to the end of your project beneath the line which says `# Add colour variables and image`.
 
-```python
+
+**Tip:** If you are not copying one of the images here make sure that you indent the code within the list like in the examples below. Indenting this code tells Python that the indented lines are part of the list. To indent a line, use the `Tab` character on your keyboard (usually above CAPSLOCK on the keyboard) at the start of the line.
+
+--- collapse ---
+
+---
+title: Chick in an egg
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
 red = (255,0,0)
-```
+
+
+image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Crab
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+
+red = (255,0,0) green = (0,255,0) sense.show_message("Astro Pi", text_colour=red, back_colour=green)
+
+
+image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+
+--- /code ---
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Crocodile
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
+
+
+image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+
+--- /code ---
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Snake
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+
+ c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+
+
+image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Frog
+---
+
+<mark>add image to show output on Sense HAT</mark>
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start:
+line_highlights:
+---
+
+c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+
+
+images/M0_2.gif
+
+--- /collapse ---
 
 --- /task ---
 
 --- task ---
 
-¡Ahora podrás ver tu texto en el color seleccionado! Para decirle al programa que use el color que has creado, añade un parámetro `text_colour` al código que muestra tu texto:
+Below your list, add a line of code to display your image on the LED matrix.
 
-```python
-red = (255,0,0)
-sense.show_message("Astro Pi", text_colour=red)
-```
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 16,17
+---
+image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
---- /task ---
+# Set LED colours
+sense.clear(v) sleep(1) sense.clear(m) sleep(1) sense.set_pixels(image)
 
-![El emulador HAT Trinket Sense ejecutando un programa de ejemplo que desplaza el texto "Astro PI" a través de la matriz LED en letras rojas](images/M0_2.gif)
-
---- task ---
-
-También puedes cambiar el color de fondo de la pantalla. Selecciona otro color y crea otra variable para guardar dicho color. Para decirle al programa que use el color de fondo que has seleccionado, añade el parámetro `back_colour` a tu código:
-
-```python
-red = (255,0,0)
-green = (0,255,0)
-sense.show_message("Astro Pi", text_colour=red, back_colour=green)
-```
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Cambia el texto y el color del saludo. ¿Qué mensaje enviarás a los astronautas de la ISS?
+Press **Run** to see your image displayed on the LED matrix.
 
 --- /task ---
+
+--- task ---
+
+My code has a syntax error!
+
+- Check that you code matches the code in the examples above
+- Check that you have indented the code in your list
+- Check that your list is surrounded by [ and ]
+- Check that each colour variable in the list is seperated by a comma.
+
+My image does not appear
+- Check that your `sense.set_pixels(image)` is not indented
+
+--- /task ---
+
+
+
