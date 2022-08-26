@@ -1,6 +1,6 @@
 ## Vad är en Astro Pi?
 
-En Astro Pi är en Raspberry Pi-dator monterad i en särskilt utformad låda för förutsättningarna i rymden. Den har även ett tilläggskort som heter Sense HAT, som är särskilt utvecklat för Astro Pi-uppdraget. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour and orientation.
+En Astro Pi är en Raspberry Pi-dator monterad i en särskilt utformad låda för förutsättningarna i rymden. Den har även ett tilläggskort som heter Sense HAT, som är särskilt utvecklat för Astro Pi-uppdraget. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 Här är en ursprunglig Mark I Astro Pi-enhet på den internationella rymdstationen, som kör någon kod skriven av studenter. Din kod kommer så småningom att köras på en ny version av Astro Pi-datorer!
 
