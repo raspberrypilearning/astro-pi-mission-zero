@@ -2,7 +2,7 @@
 
 <mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![A screenshot of the Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green ](images/validation.png)
+![The Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green.](images/validation.png)
 
 1. Take a colour sensor reading.
 2. Light up the LEDs.
@@ -31,7 +31,7 @@ Aggiungete questa riga di codice per misurare l'umidità:
 
 Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
 
-![Continue to form](images/continue-to-form.png)
+![Continue to form.](images/continue-to-form.png)
 
 --- /task ---
 
@@ -49,6 +49,6 @@ Press the **Submit** button to enter your code. Your teacher or mentor will get 
 
 --- task ---
 
-In realtà, il vero Astro Pi misurerà l'umidità effettiva intorno ad esso, ma voi, con l’emulatore Sense HAT, potete simulare cambiamenti d'umidità e provare il corretto funzionamento del codice semplicemente spostando il cursore relativo.
+If you want to, you can share the link to your code on social media to tell people that code that you wrote will be run in space!
 
 --- /task ---
