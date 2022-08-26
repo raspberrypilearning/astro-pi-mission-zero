@@ -110,7 +110,7 @@ You can use `sense.clear()` to show another colour of your choice. To see both c
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 7, 8, 9
 ---
-# Add colour variables and images
+# Add colour variables and image
 v = (255, 0, 0) # Red m = (34, 139, 34) # ForestGreen
 
 # Set LED colours
@@ -120,7 +120,7 @@ sense.clear(v) sleep(1) sense.clear(m) sleep(1) --- /code ---
 
 --- task ---
 
-**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light your first colour for one second then change to your second colour.
+**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light your first colour for one second, then change to your second colour.
 
 <mark>update image </mark>
 
@@ -130,7 +130,7 @@ sense.clear(v) sleep(1) sense.clear(m) sleep(1) --- /code ---
 
 --- task ---
 
-**Debug:**
+**Debug**
 
 My code doesn't run:
 - `NameError:` &mdash; have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code?
