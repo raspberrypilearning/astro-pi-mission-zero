@@ -6,7 +6,7 @@ In this step, you will set up the colour sensor and use it to sense the colour i
 
 --- task ---
 
-Find the `# Setup the colour sensor` comment. 
+Find the `# Set up the colour sensor` comment. 
 
 Enter the code to set up the colour sensor.
 
