@@ -231,7 +231,9 @@ Press **Run** to see your image displayed on the LED matrix.
 
 --- task ---
 
-My code has a syntax error!
+**Debug** 
+
+My code has a syntax error:
 
 - Check that you code matches the code in the examples above
 - Check that you have indented the code in your list
@@ -239,6 +241,7 @@ My code has a syntax error!
 - Check that each colour variable in the list is separated by a comma
 
 My image does not appear:
+
 - Check that your `sense.set_pixels(image)` is not indented
 
 --- /task ---
