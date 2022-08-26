@@ -4,7 +4,7 @@ Urozmaić codzienność astronautów na Międzynarodowej Stacji Kosmicznej, poka
 
 Program zostanie stworzony za pomocą internetowego emulatora Sense HAT, więc nie jest potrzebny żaden dodatkowy sprzęt - wszystko odbywa się w przeglądarce internetowej.
 
-*Jeśli spełnia kryteria kwalifikacyjne* Twój ukończony program zostanie uruchomiony w kosmosie na Międzynarodowej Stacji Kosmicznej (ISS)! Otrzymasz również specjalny certyfikat, który dokładnie pokaże, gdzie znajdował się ISS, kiedy Twój program został uruchomiony.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! Otrzymasz również specjalny certyfikat, który dokładnie pokaże, gdzie znajdował się ISS, kiedy Twój program został uruchomiony.
 
 ### Co zrobisz
 
