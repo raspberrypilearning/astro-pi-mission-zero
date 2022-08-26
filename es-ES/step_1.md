@@ -4,7 +4,7 @@ Alegra la rutina diaria de los astronautas en la Estación Espacial Internaciona
 
 Utilizarás el emulador Sense HAT en línea para crear tu programa, por lo que no se necesita hardware adicional; todo se hace en un navegador web.
 
-*¡Si cumple con los criterios de elegibilidad* tu programa se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### Lo que harás
 
