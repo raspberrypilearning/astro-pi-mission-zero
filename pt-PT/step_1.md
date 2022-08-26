@@ -4,7 +4,7 @@ Alegra a rotina diária dos astronautas da Estação Espacial Internacional most
 
 Você usará o emulador Sense HAT online para criar o seu programa, portanto, nenhum hardware extra é necessário - tudo é feito num navegador da web.
 
-*Se isso atender aos critérios de elegibilidade* o seu programa concluído será executado no espaço na Estação Espacial Internacional (EEI)! Receberá também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o seu programa foi executado.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! Receberá também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o seu programa foi executado.
 
 ### O que vais fazer
 
