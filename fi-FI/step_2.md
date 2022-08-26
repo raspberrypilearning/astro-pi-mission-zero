@@ -1,6 +1,6 @@
 ## Mikä on Astro Pi?
 
-Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu avaruusolosuhteisiin. Siinä on myös lisäkortti nimeltä Sense HAT, joka on tehty erityisesti Astro Pi -tehtävää varten. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour and orientation.
+Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu avaruusolosuhteisiin. Siinä on myös lisäkortti nimeltä Sense HAT, joka on tehty erityisesti Astro Pi -tehtävää varten. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 Tässä on alkuperäinen I-mallin Astro Pi -yksikkö Kansainvälisellä avaruusasemalla suorittamassa opiskelijoiden kirjoittamaa koodia. Koodisi tullaan lopulta suorittamaan Astro Pi -tietokoneen uudessa versiossa!
 
