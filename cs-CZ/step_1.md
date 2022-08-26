@@ -10,7 +10,7 @@ You will use the online Sense HAT emulator to create your program, so no extra h
 
 Here is an example of the kind of program you could make. <mark>change image here</mark>
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish.](images/M0_4.gif)
 
 
 --- collapse ---
@@ -48,7 +48,7 @@ title: Co budeš potřebovat
 title: Poznámky pro učitele a mentory
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
 Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board and create an image that uses that colour.
 
