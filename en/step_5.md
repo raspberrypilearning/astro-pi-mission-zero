@@ -6,7 +6,7 @@ In this step, you will set up the colour sensor and use it to sense the colour i
 
 --- task ---
 
-Find the # Setup the colour sensor comment. 
+Find the `# Setup the colour sensor` comment. 
 
 Enter the code to set up the colour sensor.
 
@@ -27,9 +27,9 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 --- task ---
 
-Use the colour sensor to colour your background
+Use the colour sensor to colour your background.
 
-**Find and Update:** your existing `c = (0, 0, 0) # Black` colour variable to use the colour sensed by the SenseHAT colour sensor instead of black.
+**Find and update** your existing `c = (0, 0, 0) # Black` colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
 
 --- code ---
 ---
@@ -54,11 +54,11 @@ Move the colour slider again to a new colour and run your code again. Your backg
 
 ## Loop your program
 
-The Asto Pi Mission Zero challenge needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.  
+The Asto Pi Mission Zero program needs to run for less than 30 seconds. Your image can be run repeatedly and sense the latest colour each time.  
 
 --- task ---
 
-**Find:** your `sense.set_pixels(image)` line of code
+**Find** your `sense.set_pixels(image)` line of code.
 
 **Add** code above it to set up your `for` loop for `28` repetitions.
 
@@ -86,7 +86,7 @@ sense.set_pixels(image)
 
 You now need to indent your function call so that it sits **inside** the `for` loop.
 
-To do this, Use the **Tab** character on your keyboard at the start of the `sense.set_pixels()` line.
+To do this, use the **Tab** key on your keyboard at the start of the `sense.set_pixels()` line.
 
 --- code ---
 ---
@@ -138,7 +138,7 @@ for i in range(28):
 
 --- task ---
 
-**Test** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on it's next run of the animation. 
+**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run of the animation. 
 
 --- /task ---
 
@@ -148,7 +148,7 @@ for i in range(28):
 
 - Check that your code matches the code in the examples above
 - Check that you have indented the code in your for loop
-- Check that your list is surrounded by [ and ]
-- Check that each colour variable in the list is seperated by a comma.
+- Check that your list is surrounded by `[` and `]`
+- Check that each colour variable in the list is separated by a comma
 
 --- /task ---
