@@ -48,7 +48,7 @@ c = sense.colour.colour[0:3] # Store the sensor readings
 
 **Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change. 
 
-Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour. 
+Move the colour slider again to a new colour. Run your code again. Your background colour will change to the new colour. 
 
 --- /task ---
 
@@ -147,7 +147,7 @@ for i in range(28):
 **Debug:** My code has a syntax error or doesn't run as expected!
 
 - Check that your code matches the code in the examples above
-- Check that you have indented the code in your for loop
+- Check that you have indented the code in your `for` loop
 - Check that your list is surrounded by `[` and `]`
 - Check that each colour variable in the list is separated by a comma
 
