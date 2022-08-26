@@ -1,6 +1,6 @@
 ## Hvad er en Astro Pi?
 
-En Astro Pi er en Raspberry Pi-computer indkapslet i et kabinet, der er specialdesignet til forhold i rummet. Den har også et add-on board, der kaldes Sense HAT og er specialfremstillet til Astro Pi-missionen. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour and orientation.
+En Astro Pi er en Raspberry Pi-computer indkapslet i et kabinet, der er specialdesignet til forhold i rummet. Den har også et add-on board, der kaldes Sense HAT og er specialfremstillet til Astro Pi-missionen. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 Her er en rigtig Mark I Astro Pi-enhed på den internationale rumstation, der kører noget kode skrevet af eleverne. Din kode vil i sidste ende blive kørt på en ny version af Astro Pi-computere!
 
