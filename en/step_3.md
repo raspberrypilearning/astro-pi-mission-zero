@@ -162,7 +162,7 @@ sleep(1)
 **Debug:**
 
 My code doesn't run:
-- `NameError:` - have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code? 
+- `NameError:` &mdash; have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code? 
 - `SyntaxError bad input:` Make sure that your code matches the code above. It is important to use `,` and `.` when needed. 
 
 My Sense HAT only shows my second colour:
