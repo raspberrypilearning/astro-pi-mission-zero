@@ -1,6 +1,6 @@
 ## Τι είναι το Astro Pi;
 
-Το Astro Pi είναι ένας υπολογιστής Raspberry Pi μέσα σε ένα περίβλημα που είναι ειδικά σχεδιασμένο για τις συνθήκες που υπάρχουν στο διάστημα. Διαθέτει επίσης μια επιπρόσθετη πλακέτα που ονομάζεται Sense HAT και είναι ειδικά κατασκευασμένη για την αποστολή Astro Pi. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour and orientation.
+Το Astro Pi είναι ένας υπολογιστής Raspberry Pi μέσα σε ένα περίβλημα που είναι ειδικά σχεδιασμένο για τις συνθήκες που υπάρχουν στο διάστημα. Διαθέτει επίσης μια επιπρόσθετη πλακέτα που ονομάζεται Sense HAT και είναι ειδικά κατασκευασμένη για την αποστολή Astro Pi. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 Παρακάτω φαίνεται μια πραγματική μονάδα Mark I Astro Pi στον Διεθνή Διαστημικό Σταθμό, στην οποία εκτελείται κάποιος κώδικας που έχει γραφτεί από μαθητές. Ο κώδικάς σου θα εκτελεστεί τελικά σε μια νέα έκδοση υπολογιστών Astro Pi!
 
