@@ -8,7 +8,7 @@ The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. You will need to copy the new colour variables and the image list then add them to the end of your project beneath the line which says `# Add colour variables and image`. 
+**Choose:** Pick an image to display from the options below. You will need to copy the new colour variables and the image list, and then add them to the end of your project beneath the line which says `# Add colour variables and image`. 
 
 
 **Tip:** If you are not copying one of the images here, make sure that you indent the code within the list like in the examples below. Indenting this code tells Python that the indented lines are part of the list. To indent a line, use the Tab key on your keyboard (usually above the Caps lock key on the keyboard) at the start of the line. 
