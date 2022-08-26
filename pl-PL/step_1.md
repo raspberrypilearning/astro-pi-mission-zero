@@ -22,7 +22,7 @@ title: Czego się nauczysz
 Dowiedz się więcej o jednostce Astro Pi i jak nią sterować, w tym:
 + Jak wyświetlać wiadomości i kolory
 + Jak tworzyć obrazki
-+ Jak zmierzyć wilgotność przy użyciu Sense HAT
++ Sense the colour of light on board the ISS
 
 --- /collapse ---
 
@@ -50,7 +50,7 @@ title: Uwagi dla nauczycieli i mentorów
 
 Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób. Następnie według naszych wskazówek napiszą oni krótki program Python wyświetlający osobistą wiadomość i temperaturę powietrza w Astro Pi.
+Organise your students into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
 
 <mark> update to new link </mark>
 
