@@ -1,6 +1,6 @@
 ## Kaj je Astro Pi?
 
-Astro Pi je računalnik Raspberry Pi z ohišjem, ki je bilo posebej zasnovano za razmere v vesolju. Ima tudi dodano ploščo, imenovano Sense HAT, izdelano posebej za misijo Astro Pi. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour and orientation.
+Astro Pi je računalnik Raspberry Pi z ohišjem, ki je bilo posebej zasnovano za razmere v vesolju. Ima tudi dodano ploščo, imenovano Sense HAT, izdelano posebej za misijo Astro Pi. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 Tukaj je prva enota Astro Pi Mark I na Mednarodni vesoljski postaji, ki prikazuje kodo, ki so jo napisali učenci. Vaša koda bo sčasoma zagnana v novi različici računalnikov Astro Pi!
 
