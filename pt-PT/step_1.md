@@ -10,7 +10,7 @@ Você usará o emulador Sense HAT online para criar o seu programa, portanto, ne
 
 Aqui está um exemplo do tipo de programa que você pode fazer. Clique em **Run** (Executar) para vê-lo em ação.
 
-![O emulador Trinket Sense HAT executando um programa de exemplo que mostra o valor da humidade a deslizar pela matriz de LED e, em seguida, mostra uma imagem de um peixe](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish.](images/M0_4.gif)
 
 
 --- collapse ---
@@ -48,7 +48,7 @@ title: O que vais precisar
 title: Notas para professores e mentores
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school aged children and can be completed in a single 60-minute session and on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
 Organize os seus alunos em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um programa em Python para mostrar uma mensagem pessoal e a temperatura do ar no Astro Pi.
 
