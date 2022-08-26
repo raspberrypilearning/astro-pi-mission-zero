@@ -236,7 +236,7 @@ My code has a syntax error!
 - Check that you code matches the code in the examples above
 - Check that you have indented the code in your list
 - Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is seperated by a comma.
+- Check that each colour variable in the list is separated by a comma
 
 My image does not appear:
 - Check that your `sense.set_pixels(image)` is not indented
