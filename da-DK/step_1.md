@@ -4,7 +4,7 @@ Lys op astronauternes daglige rutine på International Space Station ved at vise
 
 You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
 
-*If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### Hvad du vil lave
 
