@@ -12,7 +12,7 @@ Alternatively you might want to try out one of our other Astro Pi projects:
 
 + Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Create a [flappy astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
 + Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
