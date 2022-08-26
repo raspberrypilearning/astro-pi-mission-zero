@@ -159,7 +159,7 @@ sleep(1)
 
 --- task ---
 
-**Debug:**
+**Debug**
 
 My code doesn't run:
 - `NameError:` &mdash; have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code? 
