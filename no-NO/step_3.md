@@ -3,7 +3,7 @@
 The Astro Pi's LED matrix can display colours. In this step, you will specify a colour to be displayed by creating a variable and assigning it an RGB colour value.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the SenseHAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
 </p>
 
 Du vil se at tre kodelinjer er lagt til automatisk for deg:
@@ -21,7 +21,7 @@ from sense_hat import SenseHat from time import sleep
 # Set up the SenseHAT
 sense = SenseHat() sense.set_rotation(270) --- /code ---
 
-![A screenshot of the Trinket Sense Hat emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
 
 This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
@@ -76,13 +76,13 @@ sense.clear(v) --- /code ---
 
 <mark>update image </mark>
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters.](images/M0_2.gif)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** a second colour to display on the Sense HAT LED matrix and set up the colour variable below your first colour variable.
+**Choose** a second colour to display on the Sense HAT LED matrix and set up the colour variable below your first colour variable.
 
 [[[ambient-colours]]]
 
@@ -103,14 +103,14 @@ sense.clear(v) --- /code ---
 
 --- task ---
 
-You can use `sense.clear()` to show another colour of your choice. To see both colours you will need to pause inbetween the `sense.clear()` code so that you have time to see them:
+You can use `sense.clear()` to show another colour of your choice. To see both colours, you will need to pause in between the `sense.clear()` code so that you have time to see them:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 7, 8, 9
 ---
-# Add colour variables and image
+# Add colour variables and images
 v = (255, 0, 0) # Red m = (34, 139, 34) # ForestGreen
 
 # Set LED colours
@@ -124,7 +124,7 @@ sense.clear(v) sleep(1) sense.clear(m) sleep(1) --- /code ---
 
 <mark>update image </mark>
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters.](images/M0_2.gif)
 
 --- /task ---
 
@@ -133,7 +133,7 @@ sense.clear(v) sleep(1) sense.clear(m) sleep(1) --- /code ---
 **Debug:**
 
 My code doesn't run:
-- `NameError:` - have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code?
+- `NameError:` &mdash; have you checked that your colour variable is spelled correctly in `sense.clear()`and that it matches the variable earlier in your code?
 - `SyntaxError bad input:` Make sure that your code matches the code above. It is important to use `,` and `.` when needed.
 
 My Sense HAT only shows my second colour:
