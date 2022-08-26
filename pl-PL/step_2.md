@@ -1,6 +1,6 @@
 ## Czym jest Astro Pi?
 
-Astro Pi to komputer Raspberry Pi z obudową zaprojektowaną specjalnie do pracy w warunkach kosmicznych. Ma on również dodatkową płytkę-nakładkę o nazwie Sense HAT, stworzoną specjalnie dla misji Astro Pi. Ma on również dodatkową płytkę-nakładkę o nazwie Sense HAT, stworzoną specjalnie dla misji Astro Pi. Sense HAT ma joystick; wyświetlacz LED; oraz czujniki do rejestrowania warunków oświetlenia, temperatury, wilgotności, ciśnienia i orientacji.
+Astro Pi to komputer Raspberry Pi z obudową zaprojektowaną specjalnie do pracy w warunkach kosmicznych. Ma on również dodatkową płytkę-nakładkę o nazwie Sense HAT, stworzoną specjalnie dla misji Astro Pi. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 Oto oryginalne Astro Pi Mark I na Międzynarodowej Stacji Kosmicznej(ISS), z uruchomionym kodem napisanym przez uczniów. Twój kod zostanie ostatecznie uruchomiony na nowej wersji komputerów Astro Pi!
 
