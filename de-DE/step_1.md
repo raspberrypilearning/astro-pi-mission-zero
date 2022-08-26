@@ -4,7 +4,7 @@ Mache den Alltag der Astronauten auf der Internationalen Raumstation schöner, i
 
 Dein Programm erstellst du mit dem Online Sense HAT Emulator, so dass keine zusätzliche Hardware benötigt wird — alles geschieht in einem Webbrowser.
 
-*Wenn es die Anforderungen erfüllt*, wird Dein vollständiges Programm im Weltraum auf der Internationalen Raumstation (ISS) ausgeführt! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
 
 ### Was du machen wirst
 
