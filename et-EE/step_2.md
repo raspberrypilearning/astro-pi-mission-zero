@@ -1,6 +1,6 @@
 ## Mis on Astro Pi?
 
-Astro Pi on kapsliga ümbritsetud Raspberry Pi arvuti, mis on spetsiaalselt valmistatud kosmoses valitsevate tingimuste jaoks. Sellel on ka lisandmoodul Sense HAT, mis on spetsiaalselt Astro Pi missiooniks tehtud. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour and orientation.
+Astro Pi on kapsliga ümbritsetud Raspberry Pi arvuti, mis on spetsiaalselt valmistatud kosmoses valitsevate tingimuste jaoks. Sellel on ka lisandmoodul Sense HAT, mis on spetsiaalselt Astro Pi missiooniks tehtud. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 See on tõeline rahvusvahelises kosmosejaamas asuv Mark I Astro Pi kapsel, kus on käivitatud õpilaste poolt kirjutatud kood. Teie kood käivitatakse lõpuks Astro Pi arvutite uues versioonis!
 
