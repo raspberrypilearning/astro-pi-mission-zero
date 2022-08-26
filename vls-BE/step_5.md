@@ -6,7 +6,7 @@ In this step, you will set up the colour sensor and use it to sense the colour i
 
 --- task ---
 
-Find the `# Setup the colour sensor` comment.
+Find the `# Set up the colour sensor` comment.
 
 Onderaan je programma kun je wat kleurvariabelen maken om de kleuren waarmee je je tekening wil maken te definiëren. Je kan zoveel kleuren gebruiken als je wil, maar in dit voorbeeld zullen we maar een paar kleuren gebruiken - rood (`r`), wit (`w`), zwart (`b`), en twee tinten grijs (`g` en `s`). Merk op dat de tinten gemaakt worden door de hoeveelheid licht in alle drie de kanalen te verminderen terwijl de verhoudingen gelijk blijven.
 
@@ -39,7 +39,7 @@ Druk op **Run** om je tekening te zien verschijnen.
 
 **Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change.
 
-Move the colour slider again to a new colour and run your code again. Your background colour will change to the new colour.
+Move the colour slider again to a new colour. Run your code again. Your background colour will change to the new colour.
 
 --- /task ---
 
@@ -109,10 +109,12 @@ sense.clear(v) sleep(1) sense.clear(m) sleep(1) for i in range(28): sense.set_pi
 
 --- task ---
 
-**Debug:** My code has a syntax error or doesn't run as expected!
+**Debug**
+
+My code has a syntax error or doesn't run as expected:
 
 - Check that your code matches the code in the examples above
-- Check that you have indented the code in your for loop
+- Check that you have indented the code in your `for` loop
 - Check that your list is surrounded by `[` and `]`
 - Check that each colour variable in the list is separated by a comma
 
