@@ -1,6 +1,6 @@
 ## Mi az az Astro Pi?
 
-Az Astro Pi egy Raspberry Pi számítógép egy olyan burkolatban, amelyet kifejezetten az űrbeli körülményekre terveztek. Egy Sense HAT nevű kiegészítő alkatrész is van hozzá, amely kifejezetten az Astro Pi küldetéshez készült. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour and orientation.
+Az Astro Pi egy Raspberry Pi számítógép egy olyan burkolatban, amelyet kifejezetten az űrbeli körülményekre terveztek. Egy Sense HAT nevű kiegészítő alkatrész is van hozzá, amely kifejezetten az Astro Pi küldetéshez készült. The Sense HAT has a joystick; an LED display; and sensors for recording the lighting conditions, temperature, humidity, pressure, colour, and orientation.
 
 Itt van egy igazi 1-es jelzésű Astro Pi egység a Nemzetközi Űrállomáson, éppen a diákok által írt kód fut rajta. A te kódod majd egy újabb verziójú Astro Pi számítógépen fog futni!
 
