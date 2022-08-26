@@ -10,7 +10,7 @@ You will use the online Sense HAT emulator to create your program, so no extra h
 
 Here is an example of the kind of program you could make. <mark>change image here</mark>
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish.](images/M0_4.gif)
 
 
 --- collapse ---
