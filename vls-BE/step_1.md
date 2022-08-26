@@ -4,7 +4,7 @@ Fleur de dagelijkse routine van de astronauten in het internationaal ruimtestati
 
 De Mark II hardware van Astro Pi is zo nieuw dat de computers zelfs nog geen namen hebben. De namen die aan de Astro Pi computers gegeven zullen worden zijn geïnspireerd op twee inspirerende Europese wetenschappers. Je kan helpen kiezen hoe ze zullen heten door te stemmen op je favoriete naam als onderdeel van je Mission Zero-programma.
 
-*If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 ### Wat je gaat maken
 
