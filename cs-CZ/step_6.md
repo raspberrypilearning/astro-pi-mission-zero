@@ -7,7 +7,7 @@
 1. Take a colour sensor reading.
 2. Light up the LEDs.
 3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
-4. Test your code with a few different colour settings (using the picker) to make sure it will always run correctly.
+4. Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
 Astro Pi měří vlhkost na ISS v procentech koncentrace vody ve vzduchu.
 
@@ -36,7 +36,7 @@ Your teacher's name will appear. If it is the right name, click on the green **C
 
 --- task ---
 
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Enter your team name and the names of the team members. These names will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
@@ -48,6 +48,6 @@ Press the **Submit** button to enter your code. Your teacher or mentor will get 
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code that you wrote will be run in space!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
