@@ -238,7 +238,7 @@ My code has a syntax error!
 - Check that your list is surrounded by `[` and `]`
 - Check that each colour variable in the list is seperated by a comma.
 
-My image does not appear
+My image does not appear:
 - Check that your `sense.set_pixels(image)` is not indented
 
 --- /task ---
