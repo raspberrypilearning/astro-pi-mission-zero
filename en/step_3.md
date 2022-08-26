@@ -134,7 +134,7 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 7, 8, 9
 ---
-# Add colour variables and images
+# Add colour variables and image
 v = (255, 0, 0) # Red
 m = (34, 139, 34) # ForestGreen
 
