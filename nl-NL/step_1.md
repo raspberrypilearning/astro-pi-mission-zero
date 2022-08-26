@@ -4,7 +4,7 @@ Fleur de dagelijkse routine van de astronauten in het International Space Statio
 
 Je gebruikt de online Sense HAT emulator om je programma te maken, dus er is geen extra hardware nodig - alles gebeurt in een webbrowser.
 
-*Als het voldoet aan de geschiktheidscriteria* wordt jouw voltooide programma in de ruimte uitgevoerd op het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
 
 ### Wat ga je maken
 
