@@ -4,7 +4,7 @@
 
 Tu utiliseras l'émulateur en ligne Sense HAT pour créer ton programme, aucun matériel supplémentaire n'est nécessaire - tout se fait dans un navigateur Web.
 
-*S'il répond aux critères d'éligibilité,* ton programme terminé sera exécuté dans l'espace sur la Station spatiale internationale (ISS) ! Tu recevras également un certificat spécial qui indique exactement où se trouvait l'ISS lorsque ton programme a été exécuté.
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! Tu recevras également un certificat spécial qui indique exactement où se trouvait l'ISS lorsque ton programme a été exécuté.
 
 ### Ce que tu feras
 
