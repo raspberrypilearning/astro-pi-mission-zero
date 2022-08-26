@@ -149,7 +149,7 @@ sleep(1)
 
 --- task ---
 
-**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light your first colour for one second then change to your second colour. 
+**Test:** Run your code by .... <mark> add details of how to run code in the new editor here </mark>. The LED matrix on your Sense HAT will light your first colour for one second, then change to your second colour. 
 
 <mark>update image </mark>
 
