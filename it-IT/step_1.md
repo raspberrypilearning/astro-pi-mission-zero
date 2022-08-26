@@ -4,7 +4,7 @@ Smuovi la routine quotidiana degli astronauti sulla Stazione Spaziale Internazio
 
 Per creare il tuo programma, utilizzerai l’emulatore Sense HAT online. Non è quindi necessario nessun hardware aggiuntivo - basta un browser web.
 
-*Se soddisfa i criteri di ammissibilità* il tuo programma completato verrà eseguito nello spazio sulla Stazione Spaziale Internazionale (ISS)! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
+*If it meets the eligibility criteria*, your completed program will be run in space on the International Space Station (ISS)! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
 ### Che cosa creerai
 
