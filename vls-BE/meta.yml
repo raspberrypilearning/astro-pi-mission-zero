@@ -12,16 +12,14 @@ steps:
   - 
     title: Wat is een Astro Pi?
   - 
-    title: Laat een boodschap zien en kies een naam voor de nieuwe Astro Pi-computers
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Voeg er wat kleur aan toe
+    title: Sense a colour
   - 
-    title: Laat een beeld zien
-  - 
-    title: Meet de vochtigheid
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Reageer op vochtigheid
+    title: What next — more Astro Pi projects
