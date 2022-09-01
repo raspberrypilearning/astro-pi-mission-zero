@@ -1,53 +1,17 @@
-## Medir a humidade
+## What next — more Astro Pi projects
 
-<mark>check this with digital - is it the same?</mark> There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-![The Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green.](images/validation.png)
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help for your mission.
 
-1. Take a colour sensor reading.
-2. Light up the LEDs.
-3. Ensure your code runs all the way to the end without any errors occurring. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
-4. Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-O Astro Pi mede a humidade na EEI em percentagem da concentração de água no ar.
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
-Parte da sua missão é contribuir para o dia-a-dia da tripulação a bordo da EEI, por isso informá-los que a humidade a bordo da estação espacial está dentro da escala normal irá tranquilizá-los.
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
---- task ---
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-Adicione este código para fazer uma leitura da humidade:
-
---- /task ---
-
-<mark>Check with digital that this will all be the same</mark>
-
---- task ---
-
-Your teacher's name will appear. If it is the right name, click on the green **Continue to form** button.
-
-![Continue to form.](images/continue-to-form.png)
-
---- /task ---
-
---- task ---
-
-Enter your team name and the names of the team members. These names will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
-
---- /task ---
-
---- task ---
-
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
-
---- /task ---
-
---- task ---
-
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
