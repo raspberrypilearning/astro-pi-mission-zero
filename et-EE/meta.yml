@@ -12,16 +12,14 @@ steps:
   - 
     title: Mis on Astro Pi?
   - 
-    title: Kuva sõnum ja vali uutele Astro Pi arvutitele nimi
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Lisa värve
+    title: Sense a colour
   - 
-    title: Kuva pilt
-  - 
-    title: Mõõda õhuniiskust
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Reageeri õhuniiskusele
+    title: What next — more Astro Pi projects
