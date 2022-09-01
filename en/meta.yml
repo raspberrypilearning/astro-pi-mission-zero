@@ -9,10 +9,9 @@ last_tested: 2018-06-12
 steps:
 - title: Introduction
 - title: What is an Astro Pi?
-- title: Add some colour
+- title: Display an image
   completion:
   - engaged
-- title: Display an image
 - title: Sense a colour
 - title: Submit your entry
   completion:
