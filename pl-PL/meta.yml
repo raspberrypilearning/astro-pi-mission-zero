@@ -12,16 +12,14 @@ steps:
   - 
     title: Czym jest Astro Pi?
   - 
-    title: Wyświetl wiadomość i wybierz nazwę dla nowych komputerów Astro Pi
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Dodawanie koloru
+    title: Sense a colour
   - 
-    title: Wyświetlanie obrazków
-  - 
-    title: Pomiar wilgotności
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Zareaguj na wilgotność
+    title: What next — more Astro Pi projects
