@@ -12,16 +12,14 @@ steps:
   - 
     title: Hva er en Astro Pi?
   - 
-    title: Vise en melding og velge et navn for de nye Astro Pi datamaskinene
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Legge til farge
+    title: Sense a colour
   - 
-    title: Vise et bilde
-  - 
-    title: Måle luftfuktigheten
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Vise luftfuktigheten
+    title: What next — more Astro Pi projects
