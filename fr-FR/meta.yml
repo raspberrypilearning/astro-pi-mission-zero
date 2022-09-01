@@ -12,16 +12,14 @@ steps:
   - 
     title: Qu'est-ce qu'un Astro Pi ?
   - 
-    title: Add some colour
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Ajouter de la couleur
+    title: Sense a colour
   - 
-    title: Afficher une image
-  - 
-    title: Mesurer l'humidité
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Réagir à l'humidité
+    title: What next — more Astro Pi projects
