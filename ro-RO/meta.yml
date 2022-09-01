@@ -12,16 +12,14 @@ steps:
   - 
     title: Ce este Astro Pi?
   - 
-    title: Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Adaugă culoare
+    title: Sense a colour
   - 
-    title: Afișează o imagine
-  - 
-    title: Măsoară umiditatea
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Reacționează la umiditate
+    title: What next — more Astro Pi projects
