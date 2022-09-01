@@ -12,16 +12,14 @@ steps:
   - 
     title: '¿Qué es un Astro Pi?'
   - 
-    title: Muestra un mensaje y elige un nombre para los nuevos ordenadores Astro Pi
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Añade un poco de color
+    title: Sense a colour
   - 
-    title: Muestra una imagen
-  - 
-    title: Mide la humedad
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Muestra la humedad
+    title: What next — more Astro Pi projects
