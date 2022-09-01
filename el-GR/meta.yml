@@ -12,16 +12,14 @@ steps:
   - 
     title: Τι είναι το Astro Pi;
   - 
-    title: Add some colour
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Προσθήκη χρώματος
+    title: Sense a colour
   - 
-    title: Εμφάνιση εικόνας
-  - 
-    title: Μέτρηση της υγρασίας
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Αντίδραση στην υγρασία
+    title: What next — more Astro Pi projects
