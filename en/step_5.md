@@ -16,8 +16,8 @@ Your code should:
 Also make sure you have met the following criteria:
 
 1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
-2. Avoid using any methods needing input
-3. Only import from the `sense_hat`, `time`, and `random` modules
+2. Avoid using any methods needing input.
+3. Only import from the `sense_hat`, `time`, and `random` modules.
 
 Please make sure that your entry follows the Mission Zero [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"}. If it does not follow the guidelines, your program will not be able to run on the International Space Station. 
 
@@ -29,9 +29,6 @@ Please do not include any of the following in your team name or code:
 + Obscene images
 + Special characters, including emojis
 + Bad language or swearing
-
-Enter your team name and the names of the team members. These will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
-
 
 <mark> check with digital that this will be the same</mark>
 Once the rules are all green, you are ready to submit.
