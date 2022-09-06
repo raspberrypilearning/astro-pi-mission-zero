@@ -42,7 +42,7 @@ You can learn how all colours can be created using different proportions of red,
 
 [[[generic-theory-simple-colours]]]
 
-The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. We have created variables for 24 different colours. Python stores the information for an image in a list.  
+The LED matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. We have created variables for 24 different colours. Python stores the information for an image in a list.  
 
 [[[ambient-colours]]]
 
