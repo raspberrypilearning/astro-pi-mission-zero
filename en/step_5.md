@@ -23,7 +23,7 @@ Please make sure that your entry follows the Mission Zero [official guidelines d
 
 Please do not include any of the following in your team name or code:  
 
-+ Anything that could be interpreted as being of an illegal, political or sensitive nature
++ Anything that could be interpreted as being of an illegal, political, or sensitive nature
 + Anything that references unpleasantness or harm to another person
 + Personal data such as telephone numbers, social media handles, and email addresses
 + Obscene images
@@ -48,7 +48,7 @@ Enter your classroom code in the box at the bottom — your teacher or mentor wi
 
 --- task ---
 
-Your teacher or mentor's name will appear. If it is the right name, click on the green **Continue to form** button.
+Your teacher's or mentor's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Continue to form.](images/continue-to-form.png)
 
