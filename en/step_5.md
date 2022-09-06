@@ -23,7 +23,7 @@ Please make sure that your entry follows the Mission Zero [official guidelines d
 
 Please do not include any of the following in your team name or code:  
 
-+ Anything that could be interpreted as being of an illegal, political, or sensitive nature
++ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
 + Anything that references unpleasantness or harm to another person
 + Personal data such as telephone numbers, social media handles, and email addresses
 + Obscene images
