@@ -64,7 +64,7 @@ The Astro Pi Mission Zero program needs to run for less than 30 seconds. Your co
 
 --- task ---
 
-**Find** your `simage = [` line of code.
+**Find** your `image = [` line of code.
 
 **Add** code above it to set up your `for` loop for `28` repetitions.
 
@@ -89,7 +89,7 @@ image = [
 
 You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
 
-To do this, highlight the code you want to indent and use the **Tab** key on your keyboard to indent multiple lines at once.
+To do this, highlight the code you want to indent and use the <kbd>Tab</kbd> key on your keyboard to indent multiple lines at once.
 
 --- code ---
 ---
