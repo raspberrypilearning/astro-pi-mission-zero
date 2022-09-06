@@ -1,6 +1,6 @@
 ## Introductie
 
-Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space. Use the the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT and display a matching image on the LED matrix to brighten up the daily routine of the astronauts on board the International Space Station (ISS).
+Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space. Use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT and display a matching image on the LED matrix to brighten up the daily routine of the astronauts on board the International Space Station (ISS).
 
 **If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
