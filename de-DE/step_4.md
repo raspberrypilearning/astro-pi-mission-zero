@@ -1,6 +1,6 @@
 ## Sense a colour
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
 
 <mark>add an image with a different background colour not black</mark>
 
@@ -16,7 +16,7 @@ line_highlights: 2,3
 # Set up the colour sensor
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken --- /code ---
 
-**Tip:** You don't need to type the comments which start with '#', they are there to explain the code.
+**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
 
 --- /task ---
 
@@ -54,7 +54,7 @@ The Astro Pi Mission Zero program needs to run for less than 30 seconds. Your co
 
 --- task ---
 
-**Find** your `simage = [` line of code.
+**Find** your `image = [` line of code.
 
 **Add** code above it to set up your `for` loop for `28` repetitions.
 
@@ -73,7 +73,7 @@ for i in range(28): image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c,
 
 You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
 
-To do this, highlight the code you want to indent and use the **Tab** key on your keyboard to indent multiple lines at once.
+To do this, highlight the code you want to indent and use the <kbd>Tab</kbd> key on your keyboard to indent multiple lines at once.
 
 --- code ---
 ---
@@ -147,7 +147,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your animation has finished running the LED matrix will clear turning all the lights black (off).
+**Test:** Run your code again. When your animation has finished running the LED matrix will clear, turning all the lights black (off).
 
 --- /task ---
 
