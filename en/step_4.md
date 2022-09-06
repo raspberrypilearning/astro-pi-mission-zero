@@ -21,7 +21,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor
 sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 --- /code ---
 
-**Tip:** You don't need to type the comments which start with '#', they are there to explain the code. 
+**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code). 
 
 --- /task ---
 
@@ -192,7 +192,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your animation has finished running the LED matrix will clear turning all the lights black (off).  
+**Test:** Run your code again. When your animation has finished running the LED matrix will clear, turning all the lights black (off).  
 
 --- /task ---
 
