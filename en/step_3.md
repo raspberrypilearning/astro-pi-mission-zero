@@ -34,7 +34,7 @@ sense.set_rotation(270)
 sleep(1)
 --- /code ---
 
-![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -58,7 +58,7 @@ The LED matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 title: Chicken
 ---
 
-![A grid with 8x8 squares showing a chick in an egg.](images/chick.png)
+![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
 
 --- code ---
 ---
@@ -94,7 +94,7 @@ image = [
 title: Flower
 ---
 
-![A grid with 8x8 squares showing a pink flower on a green stem.](images/flower.png)
+![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
 
 --- code ---
 ---
@@ -129,7 +129,7 @@ image = [
 title: Crab
 ---
 
-![A grid with 8x8 squares showing a crab.](images/crab.png)
+![A grid with 8 x 8 squares showing a crab.](images/crab.png)
 
 --- code ---
 ---
@@ -162,7 +162,7 @@ image = [
 title: Crocodile
 ---
 
-![A grid with 8x8 squares showing a crocodile head.](images/croc.png)
+![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
 
 --- code ---
 ---
@@ -196,7 +196,7 @@ image = [
 title: Snake
 ---
 
-![A grid with 8x8 squares showing a snake.](images/snake.png)
+![A grid with 8 x 8 squares showing a snake.](images/snake.png)
 
 --- code ---
 ---
@@ -229,7 +229,7 @@ image = [
 title: Frog
 ---
 
-![A grid with 8x8 squares showing a frog.](images/frog.png)
+![A grid with 8 x 8 squares showing a frog.](images/frog.png)
 
 --- code ---
 ---
