@@ -40,7 +40,7 @@ Once the rules are all green, you are ready to submit.
 
 Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
 
-**Notes for educatorss** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Notes for educators** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
