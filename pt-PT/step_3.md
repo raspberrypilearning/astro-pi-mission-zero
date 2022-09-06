@@ -26,7 +26,7 @@ from sense_hat import SenseHat from time import sleep
 # Set up the Sense HAT
 sense = SenseHat() sense.set_rotation(270) sleep(1) --- /code ---
 
-![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left hand pane.](images/sense-hat-emulator2.png)
+![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -34,7 +34,7 @@ You can learn how all colours can be created using different proportions of red,
 
 [[[generic-theory-simple-colours]]]
 
-The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. We have created variables for 24 different colours. Python stores the information for an image in a list.
+The LED matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. We have created variables for 24 different colours. Python stores the information for an image in a list.
 
 --- collapse ---
 
@@ -50,7 +50,7 @@ The LED Matrix is an 8 x 8 grid. You can set each LED on the grid to a different
 title: Chicken
 ---
 
-![A grid with 8x8 squares showing a chick in an egg.](images/chick.png)
+![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
 
 --- code ---
 ---
@@ -72,7 +72,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 title: Flower
 ---
 
-![A grid with 8x8 squares showing a pink flower on a green stem.](images/flower.png)
+![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
 
 --- code ---
 ---
@@ -94,7 +94,7 @@ image = [ c, c, y, y,   y, y,   c, c, c, y, y, t,   t, y,   y, c, y, y, t, q,   
 title: Crab
 ---
 
-![A grid with 8x8 squares showing a crab.](images/crab.png)
+![A grid with 8 x 8 squares showing a crab.](images/crab.png)
 
 --- code ---
 ---
@@ -116,7 +116,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 title: Crocodile
 ---
 
-![A grid with 8x8 squares showing a crocodile head.](images/croc.png)
+![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
 
 --- code ---
 ---
@@ -138,7 +138,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Snake
 ---
 
-![A grid with 8x8 squares showing a snake.](images/snake.png)
+![A grid with 8 x 8 squares showing a snake.](images/snake.png)
 
 --- code ---
 ---
@@ -159,7 +159,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Frog
 ---
 
-![A grid with 8x8 squares showing a frog.](images/frog.png)
+![A grid with 8 x 8 squares showing a frog.](images/frog.png)
 
 --- code ---
 ---
