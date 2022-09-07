@@ -78,8 +78,14 @@ line_highlights: 1
 ---
 for i in range(28):
 image = [
-    c, c, c, q, q, q, c, c,
-    c, c, t, q, e, q, c, c,
+  c, c, c, q, q, q, c, c,
+  c, c, t, q, e, q, c, c,
+  c, c, c, q, q, q, c, c,
+  c, w, w, w, w, w, w, c,
+  c, w, a, a, a, a, w, c,
+  c, w, a, a, a, a, w, c,
+  c, c, w, a, a, w, c, c,
+  c, c, c, w, w, c, c, c]
   
 --- /code ---
 
@@ -203,5 +209,41 @@ sense.clear()
 The LED matrix turns black every second:
 
 - Check that you have not indented the `sense.clear()` code within your `for` loop
+
+--- /task ---
+
+--- task ---
+
+Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour. 
+
+You can mix your own colour or use the values from the list of colours to create your new `x`colour. 
+
+[[[generic-theory-simple-colours]]]
+[[[ambient-colours]]]
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7-8
+---
+  # Set LED colours
+  rgb = sense.color # read the colour from the sensor
+  c = (rgb.red, rgb.green, rgb.blue)
+  sense.set_pixels(image)
+  sleep(1) 
+
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255
+sense.clear(x)
+  
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code again. When your animation has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.  
 
 --- /task ---
