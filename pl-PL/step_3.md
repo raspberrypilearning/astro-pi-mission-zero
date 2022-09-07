@@ -9,6 +9,7 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 ![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself.](images/fu-pic.png)
 
 --- task ---
+
 <mark>change link to emulator</mark> Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
 
 You will see that six lines of code have been added for you automatically.
@@ -207,6 +208,7 @@ sense.set_pixels(image)
 --- /task ---
 
 --- task ---
+
 <mark> add details of how to run code in the new editor here </mark>
 
 Press **Run** to see your image displayed on the LED matrix.
