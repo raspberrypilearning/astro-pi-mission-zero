@@ -22,7 +22,7 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 2-3
 ---
-# Set LED colours
+# Display the image
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue)
 sense.set_pixels(image)
@@ -97,7 +97,7 @@ for i in range(28):
     c, c, w, a, a, w, c, c,
     c, c, c, w, w, c, c, c]
     
-  # Set LED colours
+  # Display the image
   rgb = sense.color # read the colour from the sensor
   c = (rgb.red, rgb.green, rgb.blue)
   sense.set_pixels(image)
@@ -118,7 +118,7 @@ line_numbers: false
 line_number_start: 1 
 line_highlights: 5
 ---
-  # Set LED colours
+  # Display the image
   rgb = sense.color # read the colour from the sensor
   c = (rgb.red, rgb.green, rgb.blue)
   sense.set_pixels(image)
@@ -132,7 +132,7 @@ line_highlights: 5
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run of the animation. 
+**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run. 
 
 The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds. 
 
@@ -165,7 +165,7 @@ line_numbers: false
 line_number_start: 1 
 line_highlights: 7
 ---
-  # Set LED colours
+  # Display the image
   rgb = sense.color # read the colour from the sensor
   c = (rgb.red, rgb.green, rgb.blue)
   sense.set_pixels(image)
@@ -179,7 +179,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your animation has finished running the LED matrix will clear, turning all the lights black (off).  
+**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).  
 
 --- /task ---
 
@@ -210,7 +210,7 @@ line_numbers: false
 line_number_start: 1 
 line_highlights: 7-8
 ---
-  # Set LED colours
+  # Display the image
   rgb = sense.color # read the colour from the sensor
   c = (rgb.red, rgb.green, rgb.blue)
   sense.set_pixels(image)
@@ -225,6 +225,6 @@ sense.clear(x)
 
 --- task ---
 
-**Test:** Run your code again. When your animation has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.  
+**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.  
 
 --- /task ---

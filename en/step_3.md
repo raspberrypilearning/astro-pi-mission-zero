@@ -273,7 +273,7 @@ image = [
 
 --- task ---
 
-**Find:** the line which says `# Set LED colours` and add a line of code to display your image on the LED matrix:
+**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
 
 --- code ---
 ---
@@ -293,7 +293,7 @@ image = [
   c, c, w, a, a, w, c, c,
   c, c, c, w, w, c, c, c]
 
-# Set LED colours
+# Display the image
 sense.set_pixels(image)
 
 --- /code ---
