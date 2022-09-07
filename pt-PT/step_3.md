@@ -1,6 +1,6 @@
 ## Display an image
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images on the Astro Pi's LED matrix.
+The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
@@ -11,9 +11,9 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 --- task ---
 <mark>change link to emulator</mark> Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
 
-You will see that four lines of code have been added for you automatically.
+You will see that six lines of code have been added for you automatically.
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
 
 --- code ---
 ---
@@ -25,6 +25,9 @@ from sense_hat import SenseHat from time import sleep
 
 # Set up the Sense HAT
 sense = SenseHat() sense.set_rotation(270)
+
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -38,7 +41,7 @@ Colours can be created using different proportions of red, green, and blue. You 
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour.Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
 
 [[[ambient-colours]]]
 
@@ -91,7 +94,7 @@ line_numbers: false
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
-image = [ c, c, y, y,   y, y,   c, c, c, y, y, t,   t, y,   y, c, y, y, t, q,   q, t,   y, y, c, y, y, t,   t, y,   y, c, c, c, y, y,   y, y,   c, c, m, c, c, m,   m, c,   c, m, c, m, m, m,   m, m,   m, c, c, c, c, m,   m, c,   c, c]
+image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
 --- /code ---
 
@@ -187,7 +190,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Set LED colours` and add a line of code to display your image on the LED matrix:
+**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
 
 --- code ---
 ---
@@ -196,7 +199,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Set LED colours
+# Display the image
 sense.set_pixels(image)
 
 --- /code ---
