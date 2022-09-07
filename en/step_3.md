@@ -302,6 +302,7 @@ sense.set_pixels(image)
 --- /task ---
 
 --- task ---
+
 <mark> add details of how to run code in the new editor here </mark>
 
 Press **Run** to see your image displayed on the LED matrix.
