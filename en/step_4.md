@@ -59,14 +59,14 @@ line_highlights: 1
 ---
 for i in range(28):
 image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  c, c, y, y, y, y, c, c,
+  c, y, y, t, t, y, y, c,
+  y, y, t, q, q, t, y, y,
+  c, y, y, t, t, y, y, c,
+  c, c, y, y, y, y, c, c,
+  m, c, c, m, m, c, c, m,
+  c, m, m, m, m, m, m, c,
+  c, c, c, m, m, c, c, c]
   
 --- /code ---
 
@@ -88,14 +88,14 @@ line_highlights: 2 - 14
 ---
 for i in range(28):
   image = [
-    c, c, c, q, q, q, c, c,
-    c, c, t, q, e, q, c, c,
-    c, c, c, q, q, q, c, c,
-    c, w, w, w, w, w, w, c,
-    c, w, a, a, a, a, w, c,
-    c, w, a, a, a, a, w, c,
-    c, c, w, a, a, w, c, c,
-    c, c, c, w, w, c, c, c]
+    c, c, y, y, y, y, c, c,
+    c, y, y, t, t, y, y, c,
+    y, y, t, q, q, t, y, y,
+    c, y, y, t, t, y, y, c,
+    c, c, y, y, y, y, c, c,
+    m, c, c, m, m, c, c, m,
+    c, m, m, m, m, m, m, c,
+    c, c, c, m, m, c, c, c]
     
   # Display the image
   rgb = sense.color # read the colour from the sensor
@@ -226,5 +226,67 @@ sense.clear(x)
 --- task ---
 
 **Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.  
+
+--- /task ---
+
+--- task ---
+
+--- collapse ---
+
+---
+title: Completed code example
+---
+
+![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Import the libraries
+from sense_hat import SenseHat
+from time import sleep
+
+# Set up the Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+
+# Add colour variables and image
+
+c = (0, 0, 0) # Black
+m = (34, 139, 34) # ForestGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+y = (255, 20, 147) # DeepPink
+
+for i in range(28):
+  image = [
+    c, c, y, y, y, y, c, c,
+    c, y, y, t, t, y, y, c,
+    y, y, t, q, q, t, y, y,
+    c, y, y, t, t, y, y, c,
+    c, c, y, y, y, y, c, c,
+    m, c, c, m, m, c, c, m,
+    c, m, m, m, m, m, m, c,
+    c, c, c, m, m, c, c, c]
+
+  # Set LED colours
+  rgb = sense.color # read the colour from the sensor
+  c = (rgb.red, rgb.green, rgb.blue)
+  sense.set_pixels(image)
+  sleep(1)
+
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255
+sense.clear(x)
+
+--- /code ---
+
+--- /collapse ---
 
 --- /task ---
