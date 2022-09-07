@@ -11,7 +11,7 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 --- task ---
 <mark>change link to emulator</mark> Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
 
-You will see that five lines of code have been added for you automatically.
+You will see that four lines of code have been added for you automatically.
 
 This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
 
@@ -24,23 +24,31 @@ title: Milyen karaktereket lehet használni?
 from sense_hat import SenseHat from time import sleep
 
 # Set up the Sense HAT
-sense = SenseHat() sense.set_rotation(270) sleep(1) --- /code ---
+sense = SenseHat() sense.set_rotation(270)
+
+--- /code ---
 
 ![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-You can learn how all colours can be created using different proportions of red, green, and blue here:
+### RGB Colours
+
+Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. You can set each LED on the grid to a different colour to create an image. We have created variables for 24 different colours. Python stores the information for an image in a list.
+The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour.Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
 
---- collapse ---
+[[[ambient-colours]]]
+
+### Choose an image
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. You will need to copy the new colour variables and the image list, and then paste them to the end of your project beneath the line which says `# Add colour variables and image`.
+**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+
+You will need to copy all of the code for your chosen image then paste it into your project beneath the line which says `# Add colour variables and image`.
 
 **Tip:** To indent a line, use the <kbd>Tab</kbd> key on your keyboard (usually above the Caps lock key on the keyboard) at the start of the line. The colour variables use single letters so the code lines up neatly.
 
@@ -169,7 +177,9 @@ line_highlights:
 # Add colour variables and image
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
 
-image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m ] --- /code ---
+image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
+
+--- /code ---
 
 --- /collapse ---
 
@@ -177,7 +187,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-Below your list, add a line of code to display your image on the LED matrix.
+**Find:** the line which says `# Set LED colours` and add a line of code to display your image on the LED matrix:
 
 --- code ---
 ---
