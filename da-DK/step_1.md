@@ -1,6 +1,8 @@
 ## Introduktion
 
-Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space. Use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT and display a matching image on the LED matrix to brighten up the daily routine of the astronauts on board the International Space Station (ISS).
+Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
+
+Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
 
 ### What you will make
 
@@ -10,13 +12,13 @@ Here is an example of the kind of program you could make to run on an Astro Pi i
 
 ### What you will need
 
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
+You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
 ### Astro Pi Mission Zero criteria
 
 **If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
-You will learn about the Astro Pi unit and how to control it, including how to:
+You will learn about the Astro Pi computer and how to control it, including how to:
 + Vis beskeder og farver
 + Lav billeder
 + Sense the colour of light on board the ISS
