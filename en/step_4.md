@@ -4,27 +4,6 @@ In this step, you will set up the colour luminosity sensor and use it to sense t
 
 <mark>add an image with a different background colour not black</mark>
 
---- task ---
-
-Find the `# Set up the colour sensor` comment and below it enter the code to set up the colour sensor.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 2,3
----
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor
-sense.color.integration_cycles = 64 # The interval at which the reading will be taken
---- /code ---
-
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code). 
-
---- /task ---
-
 Whichever image you chose, the background uses the `c` variable which is set to black. 
 
 --- task ---
@@ -32,6 +11,8 @@ Whichever image you chose, the background uses the `c` variable which is set to 
 Use the colour sensor to colour your background.
 
 Add code to update your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+
+**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code). 
 
 --- code ---
 ---

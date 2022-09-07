@@ -1,6 +1,6 @@
 ## Display an image
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images on the Astro Pi's LED matrix. 
+The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
@@ -12,9 +12,9 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 <mark>change link to emulator</mark>
 Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
 
-You will see that four lines of code have been added for you automatically.
+You will see that six lines of code have been added for you automatically.
 
-This code connects to the Astro Pi and makes sure the Astro Pi's LED display is shown the correct way around. Leave the code there, because you'll need it.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
 
 --- code ---
 ---
@@ -32,6 +32,10 @@ from time import sleep
 sense = SenseHat()
 sense.set_rotation(270)
 
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+
 --- /code ---
 
 ![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
@@ -44,7 +48,7 @@ Colours can be created using different proportions of red, green, and blue. You 
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour.Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
 
 [[[ambient-colours]]]
 
@@ -117,14 +121,14 @@ t = (255, 140, 0) # DarkOrange
 y = (255, 20, 147) # DeepPink
 
 image = [
-  c, c,	y, y,	y, y,	c, c,
-  c, y,	y, t,	t, y,	y, c,
-  y, y,	t, q,	q, t,	y, y,
-  c, y,	y, t,	t, y,	y, c,
-  c, c,	y, y,	y, y,	c, c,
-  m, c,	c, m,	m, c,	c, m,
-  c, m,	m, m,	m, m,	m, c,
-  c, c,	c, m,	m, c,	c, c]
+  c, c, y, y, y, y, c, c,
+  c, y, y, t, t, y, y, c,
+  y, y, t, q, q, t, y, y,
+  c, y, y, t, t, y, y, c,
+  c, c, y, y, y, y, c, c,
+  m, c, c, m, m, c, c, m,
+  c, m, m, m, m, m, m, c,
+  c, c, c, m, m, c, c, c]
 
 --- /code ---
 
