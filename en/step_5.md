@@ -19,15 +19,16 @@ Also make sure you have met the following criteria:
 2. Avoid using any methods needing input.
 3. Only import from the `sense_hat`, `time`, and `random` modules.
 
-Please make sure that your entry follows the Mission Zero [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"}. If it does not follow the guidelines, your program will not be able to run on the International Space Station. 
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station. 
 
 Please do not include any of the following in your team name or code:  
 
 + Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
++ Flags, as they can be considered politically sensitive
 + Anything that references unpleasantness or harm to another person
 + Personal data such as telephone numbers, social media handles, and email addresses
 + Obscene images
-+ Special characters, including emojis
++ Special characters or emojis
 + Bad language or swearing
 
 <mark> check with digital that this will be the same</mark>
@@ -35,9 +36,9 @@ Once the rules are all green, you are ready to submit.
 
 --- task ---
 
-Enter your classroom code in the box at the bottom — your teacher or mentor will tell you what your code is.
+Enter your classroom code in the box at the bottom — your mentor will tell you what your code is.
 
-**Notes for educators** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
@@ -45,7 +46,7 @@ Enter your classroom code in the box at the bottom — your teacher or mentor wi
 
 --- task ---
 
-Your teacher's or mentor's name will appear. If it is the right name, click on the green **Continue to form** button.
+Your mentor's name will appear. If it is the right name, click on the green **Continue to form** button.
 
 ![Continue to form.](images/continue-to-form.png)
 
@@ -53,13 +54,15 @@ Your teacher's or mentor's name will appear. If it is the right name, click on t
 
 --- task ---
 
-Enter your team name and the names of the team members. These names will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
+Enter your team name and the first names of the team members. Please do not include surnames. These names will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Press the **Submit** button to enter your code. Your teacher or mentor will get an email to confirm your entry.
+Press the **Submit** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+
+Your mentor will get an email to confirm your entry.
 
 --- /task ---
 
