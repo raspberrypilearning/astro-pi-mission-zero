@@ -6,11 +6,11 @@ The Astro Pi's LED matrix can display colours. In this step, you will display im
 An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself.](images/fu-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
 
 --- task ---
 
-Open the [rpf.io/mzcode]http://rpf.io/mzcode){:target="_blank"} for the Mission Zero project.
+Open the [rpf.io/mzcode](http://rpf.io/mzcode){:target="_blank"} for the Mission Zero project.
 
 You will see that a few lines of code have been added for you automatically.
 
