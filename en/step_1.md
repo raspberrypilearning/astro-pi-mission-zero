@@ -1,87 +1,38 @@
 ## Introduction
 
-Brighten up the daily routine of the astronauts on the International Space Station by showing them a message and the relative humidity on board using the new Mark II Astro Pi computer's Sense HAT.
+Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer. 
 
-
-You will use the online Sense HAT emulator to create your program, so no extra hardware is needed — everything is done in a web browser.
-*If it meets the eligibility criteria* your completed program will be run in space on the International Space Station (ISS)! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
-
-Please note: Mission Zero is now closed for the 2021/22 season. You can still complete the activity but won’t be able to submit it. The next Challenge will launch in Autumn 2022.
-We will announce the chosen names for the new Astro Pi computers in spring 2022.
-
+Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
 
 ### What you will make
 
-Here is an example of the kind of program you could make.
+Here is an example of the kind of program you could make to run on an Astro Pi in space. <mark>change image here</mark>
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish](images/M0_4.gif)
+![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish.](images/M0_4.gif)
 
+### What you will need
 
---- collapse ---
+You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
+### Astro Pi Mission Zero criteria
+ 
+**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
-
----
-title: What you will learn
----
-
-You will learn about the Astro Pi unit and how to control an it, including how to:
-+ Display messages and colours
-+ Create images
-+ Measure the humidity using a Sense HAT
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Use basic programming constructs to create simple programs](https://curriculum.raspberrypi.org/programming/creator/){:target="_blank"}
-
---- /collapse ---
-
---- collapse ---
-
----
-title: What you will need
----
-
-### Hardware
-
-+ Any computer with an internet connection
-
-### Software
-
-+ A web browser (e.g. Google Chrome) to open [https://trinket.io/mission-zero](https://trinket.io/mission-zero){:target="_blank"}
-
---- /collapse ---
+You will learn about the Astro Pi computer and how to control it, including how to:
++ Create colour **variables** to use in your image
++ Design and display an image on the Sense HAT
++ Sense the colour of light on board the ISS 
 
 --- collapse ---
 ---
-title: Notes for teachers and mentors
+title: Notes for mentors
 ---
 
+Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser. 
 
-This activity can be completed in an afternoon. Organise your students into teams of one to four, and let us guide them through writing a short Python program to show a personal message and the relative humidity on the Astro Pi.
+Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
 
-Read the [official guidelines document](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-en.pdf){:target="_blank"} for Mission Zero.
-
-You will need to register for the Mission Zero challenge to allow your team(s) to participate.
-
-+ Go to the [Trinket emulator Mission Zero page](https://trinket.io/mission-zero){:target="_blank"}.
-
-+ Fill out the form and click **Submit**\*.
-
-\* Please note that this registration form is available in English only.  
-
-The fields on the form include:  
-Teacher/mentor name   
-Team name  
-Number of team members  
-Names and ages of team members  
-In which language did you access the Mission Zero guidelines?
-
-+ A Trinket account will be created for you (if you don't already have one, or you're not logged in). You can create one account per email address. Each account has its own **classroom code**, and you will need to tell your team(s) what yours is when they are ready to submit their programs.
-
-+ Display your classroom code somewhere visible, for example on a whiteboard or using a projector, and begin the activity.
-
- We have created [a printable two-page handout](http://rpf.io/mz-printout){:target="_blank"} that covers the key points of Mission Zero and that students and young people can use together with this online project.
+Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
 

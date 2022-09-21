@@ -1,54 +1,312 @@
-## Add some colour
+## Sense a colour
 
-The Astro Pi's LEDs can also display colours. You can specify a colour by creating a variable and assigning it an RGB colour value.
+In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
 
-You can learn how all colours can be created using different proportions of red, green, and blue here:
+<mark>add an image with a different background colour not black</mark>
 
-[[[generic-theory-colours]]]
+Whichever image you chose, the background uses the `c` variable which is set to black. 
 
 --- task ---
 
-Choose a colour, and find out that colour's RGB value. You could use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you.
+Use the colour sensor to colour your background.
+
+Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+
+**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code). 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 9-10
+---
+# Add colour variables and image
+
+c = (0, 0, 0) # Black
+m = (34, 139, 34) # ForestGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+y = (255, 20, 147) # DeepPink
+
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue)
+
+image = [
+  c, c, y, y, y, y, c, c,
+  c, y, y, t, t, y, y, c,
+  y, y, t, q, q, t, y, y,
+  c, y, y, t, t, y, y, c,
+  c, c, y, y, y, y, c, c,
+  m, c, c, m, m, c, c, m,
+  c, m, m, m, m, m, m, c,
+  c, c, c, m, m, c, c, c]
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Create a variable to store your chosen colour. For example, if you picked red, you would write this line of code:
+**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change. 
 
-```python
-red = (255,0,0)
-```
+Move the colour slider again to a new colour. Run your code again. Your background colour will change to the new colour. 
+
+--- /task ---
+
+## Loop your program
+
+The Astro Pi Mission Zero program needs to run for less than 30 seconds. Your code will run repeatedly and sense the latest colour each time.  
+
+--- task ---
+
+**Find** your `rgb = sense.color` line of code.
+
+**Add** code above it to set up your `for` loop for `28` repetitions.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+for i in range(28):
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue)
+
+image = [
+  c, c, y, y, y, y, c, c,
+  c, y, y, t, t, y, y, c,
+  y, y, t, q, q, t, y, y,
+  c, y, y, t, t, y, y, c,
+  c, c, y, y, y, y, c, c,
+  m, c, c, m, m, c, c, m,
+  c, m, m, m, m, m, m, c,
+  c, c, c, m, m, c, c, c]
+  
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-You can now display your text in the colour of your choice! To tell the program to use the colour you created, add a `text_colour` parameter to the code which displays your text:
+You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
 
-```python
-red = (255,0,0)
-sense.show_message("Astro Pi", text_colour=red)
-```
+To do this, highlight the code you want to indent and use the <kbd>Tab</kbd> key on your keyboard to indent multiple lines at once.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 2 - 16
+---
+for i in range(28):
+  rgb = sense.color # get the colour from the sensor
+  c = (rgb.red, rgb.green, rgb.blue)
+
+  image = [
+    c, c, y, y, y, y, c, c,
+    c, y, y, t, t, y, y, c,
+    y, y, t, q, q, t, y, y,
+    c, y, y, t, t, y, y, c,
+    c, c, y, y, y, y, c, c,
+    m, c, c, m, m, c, c, m,
+    c, m, m, m, m, m, m, c,
+    c, c, c, m, m, c, c, c]
+    
+  # Display the image
+
+  sense.set_pixels(image)
+ 
+--- /code ---
 
 --- /task ---
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the text \"Astro Pi\" across the LED matrix using red letters](images/M0_2.gif)
-
 --- task ---
 
-You can also change the background colour of the display. Pick another colour, and create another variable to store that colour. To tell the program to use your chosen background colour, add the `back_colour` parameter to your code:
+At the bottom of your code, add a `sleep` of one second inside your loop:
 
-```python
-red = (255,0,0)
-green = (0,255,0)
-sense.show_message("Astro Pi", text_colour=red, back_colour=green)
-```
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 4
+---
+  # Display the image
+
+  sense.set_pixels(image)
+  sleep(1)  
+  
+--- /code ---
+
+**Tip:** Make sure this line of code is indented within your `for` loop. 
 
 --- /task ---
 
 --- task ---
 
-Change the greeting text and colour — what message will you send to the astronauts aboard the ISS?
+**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run. 
+
+The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds. 
+
+--- /task ---
+
+--- task ---
+
+**Debug** 
+
+My code has a syntax error or doesn't run as expected:
+
+- Check that your code matches the code in the examples above
+- Check that you have indented the code in your `for` loop
+- Check that your list is surrounded by `[` and `]`
+- Check that each colour variable in the list is separated by a comma
+
+--- /task ---
+
+--- task ---
+
+Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running. 
+
+**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 6
+---
+  # Display the image
+
+  sense.set_pixels(image)
+  sleep(1) 
+  
+sense.clear()
+  
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).  
+
+--- /task ---
+
+--- task ---
+
+**Debug** 
+
+The LED matrix turns black every second:
+
+- Check that you have not indented the `sense.clear()` code within your `for` loop
+
+--- /task ---
+
+--- task ---
+
+Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour. 
+
+You can mix your own colour or use the values from the list of colours to create your new `x`colour. 
+
+[[[generic-theory-simple-colours]]]
+[[[ambient-colours]]]
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 6-7
+---
+  # Display the image
+
+  sense.set_pixels(image)
+  sleep(1) 
+
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255
+sense.clear(x)
+  
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.  
+
+--- /task ---
+
+--- task ---
+
+--- collapse ---
+
+---
+title: Completed code example
+---
+
+![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Import the libraries
+from sense_hat import SenseHat
+from time import sleep
+
+# Set up the Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+
+# Add colour variables and image
+
+c = (0, 0, 0) # Black
+m = (34, 139, 34) # ForestGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+y = (255, 20, 147) # DeepPink
+
+for i in range(28):
+  rgb = sense.color # get the colour from the sensor
+  c = (rgb.red, rgb.green, rgb.blue)
+
+  image = [
+    c, c, y, y, y, y, c, c,
+    c, y, y, t, t, y, y, c,
+    y, y, t, q, q, t, y, y,
+    c, y, y, t, t, y, y, c,
+    c, c, y, y, y, y, c, c,
+    m, c, c, m, m, c, c, m,
+    c, m, m, m, m, m, m, c,
+    c, c, c, m, m, c, c, c]
+
+  # Display the image
+
+  sense.set_pixels(image)
+  sleep(1)
+
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255
+sense.clear(x)
+
+--- /code ---
+
+--- /collapse ---
 
 --- /task ---

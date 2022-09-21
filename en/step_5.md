@@ -1,80 +1,73 @@
-## Display an image
+## Submit your entry
 
-You can display pictures on the Astro Pi's LED matrix. Perhaps your greeting for the astronauts could include a picture or a pattern, as well as or instead of a written message?
+<mark>check this with digital - is it the same?</mark>
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](https://trinket.io/mission-zero) will light up in green when you run the program. <mark>update trinket link to emulator</mark>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself](images/fu-pic.png)
+![The Mission Zero Trinket pages showing the submission button and the criteria checks on the left. The top two ("read humidity" and "use the LEDs") are in orange text, the bottom one ("runs without any errors") is green.](images/validation.png)
+
+Your code should:
+
+1. Take a colour sensor reading.
+2. Light up the LEDs.
+3. Run all the way to the end without any errors occurring. 
+
+**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly. 
+
+Also make sure you have met the following criteria:
+
+1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
+2. Avoid using any methods needing input.
+3. Only import from the `sense_hat`, `time`, and `random` modules.
+
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station. 
+
+Please do not include any of the following in your team name or code:  
+
++ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
++ Flags, as they can be considered politically sensitive
++ Anything that references unpleasantness or harm to another person
++ Personal data such as telephone numbers, social media handles, and email addresses
++ Obscene images
++ Special characters or emojis
++ Bad language or swearing
+
+<mark> check with digital that this will be the same</mark>
+Once the rules are all green, you are ready to submit.
 
 --- task ---
 
-At the bottom of your program, create some colour variables to define the colours with which you want to draw your picture. You can use as many colours as you like, but in this example we'll use only a few colours — red (`r`), white (`w`), black (`b`), and two shades of grey (`g` and `s`). Notice that the shades are achieved by reducing the amount of light in all three channels while keeping the proportions the same. 
+Enter your classroom code in the box at the bottom — your mentor will tell you what your code is.
 
-```python
-w = (255, 255, 255)
-b = (0, 0, 0)
-g = (50,50,50)
-s = (200,255,200)
-r = (255,0,0)
-```
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
-**Note:** This time, it's a good idea to give the colour variables single-letter names, because that will save time in the next step, where you are going to be typing them out many times. Moreover, using single letters will make it easier to see the picture you'll draw.
+--- /task ---
+
+<mark>Check with digital that this will all be the same</mark>
+
+--- task ---
+
+Your mentor's name will appear. If it is the right name, click on the green **Continue to form** button.
+
+![Continue to form.](images/continue-to-form.png)
 
 --- /task ---
 
 --- task ---
 
-
-
-Below your new variables, create a list of 64 items. Each item represents one pixel on the LED matrix, and corresponds to one of the colour variables you defined.
-Draw your picture by putting a variable where you want its assigned colour to appear. We have drawn an Astro Pi by using the black (`b`) pixels as the background and the grey (`g`) pixels to draw the metal parts of the Astro Pi flight case:
-
-```python
- picture = [
-    g, b, b, b, b, b, b, g,
-    b, g, g, g, g, g, g, b,
-    b, g, b, b, g, w, g, g,
-    b, g, b, b, g, g, g, g,
-    b, g, g, g, s, s, g, g,
-    b, g, r, g, g, g, g, g,
-    b, g, g, g, g, g, g, b,
-    g, b, b, b, b, b, b, g
-    ]
-```
---- /task ---
-
---- task ---
-
-Below your list, add a line of code to display your picture on the LED display.
-
-```python
-sense.set_pixels(picture)
-```
+Enter your team name and the first names of the team members. Please do not include surnames. These names will be printed on the certificate once your code is run in space, so make sure you spell them correctly!
 
 --- /task ---
 
 --- task ---
 
-Press **Run** to see your picture displayed.
+Press the **Submit** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+
+Your mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
 
-You might want to add some code to include a short wait (or `sleep`) after the picture is displayed. This will give the astronauts time to see your picture before the next part of your message appears. At the top of your program, add:
-
-```python
-from time import sleep
-```
-
-Then, on the line after the one that displays your picture, add this code to wait for two seconds:
-
-```python
-sleep(2)
-```
-
---- /task ---
-
---- task ---
-
-Create your own picture or pattern to display to the astronauts!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
