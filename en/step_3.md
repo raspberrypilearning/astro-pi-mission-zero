@@ -38,7 +38,7 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 --- /code ---
 
-![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
