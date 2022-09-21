@@ -10,10 +10,9 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 
 --- task ---
 
-<mark>change link to emulator</mark>
-Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
+Open the [rpf.io/mzcode]http://rpf.io/mzcode){:target="_blank"} for the Mission Zero project.
 
-You will see that six lines of code have been added for you automatically.
+You will see that a few lines of code have been added for you automatically.
 
 This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
 
@@ -303,9 +302,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-<mark> add details of how to run code in the new editor here </mark>
-
-Press **Run** to see your image displayed on the LED matrix.
+Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
 
 --- /task ---
 

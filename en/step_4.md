@@ -2,7 +2,7 @@
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
 
-<mark>add an image with a different background colour not black</mark>
+![image displayed with a pink background on the LED matrix](images/colour_background.png)
 
 Whichever image you chose, the background uses the `c` variable which is set to black. 
 
