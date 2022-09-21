@@ -6,9 +6,9 @@ Your project will set the background colour of an image to the colour that the A
 
 ### What you will make
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space. <mark>change image here</mark>
+Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish.](images/M0_4.gif)
+![The Sense HAT emulator running a sample program which scrolls changes the colour background on a blinking face.](images/blink.gif)
 
 ### What you will need
 
