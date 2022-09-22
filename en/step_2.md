@@ -10,8 +10,6 @@ Astro Pi computers come with a set of sensors and gadgets that can be used to ru
 
 For this mission, you will be using the Sense HAT emulator which simulates the main functions of the Astro Pi in your web browser.
 
-![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
-
 
 
 
