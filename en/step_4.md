@@ -68,7 +68,7 @@ Your code will use a `for` loop to run 28 times. **Each** time it will:
 
 **Find** your `rgb = sense.color` line of code.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Add** code above it to set up your `for` loop for `28` repetitions, and then add 4 spaces to the start of each line below.
 
 --- code ---
 ---
@@ -79,18 +79,18 @@ line_number_start: 1
 line_highlights: 1
 ---
 for i in range(28):
-rgb = sense.color # get the colour from the sensor
-c = (rgb.red, rgb.green, rgb.blue)
+    rgb = sense.color # get the colour from the sensor
+    c = (rgb.red, rgb.green, rgb.blue)
 
-image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+    image = [
+      c, c, y, y, y, y, c, c,
+      c, y, y, t, t, y, y, c,
+      y, y, t, q, q, t, y, y,
+      c, y, y, t, t, y, y, c,
+      c, c, y, y, y, y, c, c,
+      m, c, c, m, m, c, c, m,
+      c, m, m, m, m, m, m, c,
+      c, c, c, m, m, c, c, c]
   
 --- /code ---
 
@@ -111,22 +111,22 @@ line_number_start: 1
 line_highlights: 2 - 17
 ---
 for i in range(28):
-  rgb = sense.color # get the colour from the sensor
-  c = (rgb.red, rgb.green, rgb.blue)
+    rgb = sense.color # get the colour from the sensor
+    c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    image = [
+      c, c, y, y, y, y, c, c,
+      c, y, y, t, t, y, y, c,
+      y, y, t, q, q, t, y, y,
+      c, y, y, t, t, y, y, c,
+      c, c, y, y, y, y, c, c,
+      m, c, c, m, m, c, c, m,
+      c, m, m, m, m, m, m, c,
+      c, c, c, m, m, c, c, c]
     
   # Display the image
-
-  sense.set_pixels(image)
+  
+      sense.set_pixels(image)
  
 --- /code ---
 
