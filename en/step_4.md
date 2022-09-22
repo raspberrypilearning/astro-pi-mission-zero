@@ -31,7 +31,7 @@ t = (255, 140, 0) # DarkOrange
 y = (255, 20, 147) # DeepPink
 
 rgb = sense.color # get the colour from the sensor
-c = (rgb.red, rgb.green, rgb.blue)
+c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
   c, c, y, y, y, y, c, c,
@@ -57,7 +57,12 @@ Move the colour slider again to a new colour. Run your code again. Your backgrou
 
 ## Loop your program
 
-The Astro Pi Mission Zero program needs to run for less than 30 seconds. Your code will run repeatedly and sense the latest colour each time.  
+The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+
+Your code will use a `for` loop to run 28 times. **Each** time it will:
++ sense the latest colour
++ update the background colour of the image
++ pause for one second
 
 --- task ---
 

@@ -8,7 +8,7 @@ Your project will set the background colour of an image to the colour that the A
 
 Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
-![The Sense HAT emulator running a sample program which scrolls changes the colour background on a blinking face.](images/blink.gif)
+![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
 ### What you will need
 

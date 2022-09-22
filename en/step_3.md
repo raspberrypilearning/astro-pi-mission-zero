@@ -10,7 +10,7 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 
 --- task ---
 
-Open the [rpf.io/mzcode](http://rpf.io/mzcode){:target="_blank"} for the Mission Zero project.
+Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
@@ -293,7 +293,7 @@ image = [
   c, c, w, a, a, w, c, c,
   c, c, c, w, w, c, c, c]
 
-# Display the image
+# Display the image 
 sense.set_pixels(image)
 
 --- /code ---
@@ -312,7 +312,7 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 My code has a syntax error:
 
-- Check that you code matches the code in the examples above
+- Check that your code matches the code in the examples above
 - Check that you have indented the code in your list
 - Check that your list is surrounded by `[` and `]`
 - Check that each colour variable in the list is separated by a comma
