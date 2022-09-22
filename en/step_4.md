@@ -49,9 +49,9 @@ image = [
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change. 
+**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
 
-Move the colour slider again to a new colour. Run your code again. Your background colour will change to the new colour. 
+**Tip:** You will need to click 'Run' every time you change the colour.
 
 --- /task ---
 
@@ -100,7 +100,7 @@ image = [
 
 You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
 
-To do this, highlight the code you want to indent and use the <kbd>Tab</kbd> key on your keyboard to indent multiple lines at once.
+**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard). 
 
 --- code ---
 ---
@@ -108,7 +108,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 16
+line_highlights: 2 - 17
 ---
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
