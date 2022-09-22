@@ -4,19 +4,7 @@ There are a few rules your code needs to follow so that you can submit it to be 
 
 ![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
-Your code should:
-
-1. Take a colour sensor reading.
-2. Light up the LEDs.
-3. Run all the way to the end without any errors occurring. 
-
 **Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly. 
-
-Also make sure you have met the following criteria:
-
-1. Make sure your program runs for no longer than 30 seconds, as this is how long your code will run for on the ISS. You should not include any `while True` loops in your code as this will keep your code running and prevent it from finishing.
-2. Avoid using any methods needing input.
-3. Only import from the `sense_hat`, `time`, and `random` modules.
 
 Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station. 
 

@@ -10,7 +10,7 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 
 --- task ---
 
-Open the [rpf.io/mzcode](http://rpf.io/mzcode){:target="_blank"} for the Mission Zero project.
+Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
@@ -58,9 +58,7 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 **Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.  
 
-You will need to copy all of the code for your chosen image then paste it into your project beneath the line which says `# Add colour variables and image`. 
-
-**Tip:** To indent a line, use the <kbd>Tab</kbd> key on your keyboard (usually above the Caps lock key on the keyboard) at the start of the line. The colour variables use single letters so the code lines up neatly.
+You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`. 
 
 --- collapse ---
 
@@ -76,7 +74,6 @@ language: python
 filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
 a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
 e = (0, 0, 205) # MediumBlue
@@ -112,8 +109,6 @@ language: python
 filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
-
 c = (0, 0, 0) # Black
 m = (34, 139, 34) # ForestGreen
 q = (255, 255, 0) # Yellow
@@ -147,7 +142,6 @@ language: python
 filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
 a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
 v = (255, 0, 0) # Red
@@ -180,7 +174,6 @@ language: python
 filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
 a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
 f = (25, 25, 112) # MidnightBlue
@@ -214,7 +207,6 @@ language: python
 filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
  c = (0, 0, 0) # Black
  m = (34, 139, 34) # ForestGreen
  q = (255, 255, 0) # Yellow
@@ -249,7 +241,6 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-# Add colour variables and image
 c = (0, 0, 0) # Black
 m = (34, 139, 34) # ForestGreen
 q = (255, 255, 0) # Yellow
@@ -293,7 +284,7 @@ image = [
   c, c, w, a, a, w, c, c,
   c, c, c, w, w, c, c, c]
 
-# Display the image
+# Display the image 
 sense.set_pixels(image)
 
 --- /code ---
@@ -312,7 +303,7 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 My code has a syntax error:
 
-- Check that you code matches the code in the examples above
+- Check that your code matches the code in the examples above
 - Check that you have indented the code in your list
 - Check that your list is surrounded by `[` and `]`
 - Check that each colour variable in the list is separated by a comma
