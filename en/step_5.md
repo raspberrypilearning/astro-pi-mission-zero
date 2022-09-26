@@ -1,6 +1,6 @@
 ## Submit your entry
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the [Sense HAT emulator](http://missions.astro-pi.org/mz/code_submissions/new) will light up in green when you run the program.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
 ![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
