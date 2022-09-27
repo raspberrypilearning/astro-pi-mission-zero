@@ -1,0 +1,39 @@
+Import the libraries
+
+Set up the Sense HAT
+
+Set up the colour sensor
+
+Set the sensitivity of the sensor
+
+The interval at which the reading will be take
+
+Add colour variables and image
+
+Display the image
+
+White
+
+Black
+
+MediumBlue
+
+Yellow
+
+DarkOrange
+
+Pink
+
+ForestGreen
+
+DeepPink
+
+Red
+
+MidnightBlue
+
+get the colour from the sensor
+
+use the sensed colour
+
+choose your own red, green, blue values between 0 - 255
