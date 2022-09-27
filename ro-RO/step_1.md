@@ -1,31 +1,29 @@
 ## Introducere
 
-Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
+Îmbunătățește rutina zilnică a astronauților de pe Stația Spațială Internațională, arătându-le un mesaj și umiditatea aerului ambiant la bord folosind Sense HAT-ul computerului Astro Pi.
 
 Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
 
-### What you will make
+Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space. <mark>change image here</mark>
+![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-![The Trinket Sense HAT emulator running a sample program which scrolls the humidity value across the LED matrix and then displays a picture of a fish.](images/M0_4.gif)
-
-### What you will need
+### Ce vei face
 
 You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
-### Astro Pi Mission Zero criteria
+### Hardware
 
 **If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
 You will learn about the Astro Pi computer and how to control it, including how to:
 + afișezi mesaje și culori
 + creezi imagini
-+ Sense the colour of light on board the ISS
++ măsori umiditatea folosind Sense HAT
 
 --- collapse ---
 ---
-title: Notes for mentors
+title: Ce vei învăța
 ---
 
 Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
