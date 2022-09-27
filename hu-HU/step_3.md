@@ -1,4 +1,4 @@
-## Display an image
+## Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -6,19 +6,19 @@ The Astro Pi's LED matrix can display colours. In this step, you will display im
 An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of the Flight Unit itself.](images/fu-pic.png)
+![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
 
 --- task ---
 
-<mark>change link to emulator</mark> Open the [Sense HAT emulator](https://trinket.io/mission-zero){:target="_blank"} for the Mission Zero project.
+Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that six lines of code have been added for you automatically.
+You will see that a few lines of code have been added for you automatically.
 
 This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: false line_number_start: 1
+Írd be ezt a sort a többi kód alá:
 title: Milyen karaktereket lehet használni?
 ---
 # Import the libraries
@@ -28,15 +28,15 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+Kattints a **Run** (Futtatás) gombra, és figyeld, hogy fut az `Astro Pi` üzenet keresztül a LED kijelzőn!
 
 --- /code ---
 
-![A screenshot of the Trinket Sense HAT emulator with three lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### RGB Colours
+### Válassz nevet az új Astro Pi számítógépeknek
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
@@ -52,9 +52,7 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 **Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
 
-You will need to copy all of the code for your chosen image then paste it into your project beneath the line which says `# Add colour variables and image`.
-
-**Tip:** To indent a line, use the <kbd>Tab</kbd> key on your keyboard (usually above the Caps lock key on the keyboard) at the start of the line. The colour variables use single letters so the code lines up neatly.
+You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
 
 --- collapse ---
 
@@ -66,10 +64,9 @@ title: Chicken
 
 --- code ---
 ---
-language: python filename: main.py
+Ha szeretnél szavazni, az üzenetednek *kötelezően* ezekkel a szavakkal kell kezdődnie, különben nem fogjuk tudni automatikusan beszámítani a szavazatodat.
 line_numbers: false
 ---
-# Add colour variables and image
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
@@ -91,8 +88,6 @@ title: Flower
 language: python filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
-
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -113,7 +108,6 @@ title: Crab
 language: python filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
 a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
 
 image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
@@ -135,7 +129,6 @@ title: Crocodile
 language: python filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
 a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
 image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
@@ -157,7 +150,6 @@ title: Snake
 language: python filename: main.py
 line_numbers: false
 ---
-# Add colour variables and image
  c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
 
 image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
@@ -178,7 +170,6 @@ title: Frog
 language: python filename: main.py line_numbers: false line_number_start:
 line_highlights:
 ---
-# Add colour variables and image
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
 
 image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
@@ -209,9 +200,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-<mark> add details of how to run code in the new editor here </mark>
-
-Press **Run** to see your image displayed on the LED matrix.
+Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
 
 --- /task ---
 
@@ -221,7 +210,7 @@ Press **Run** to see your image displayed on the LED matrix.
 
 My code has a syntax error:
 
-- Check that you code matches the code in the examples above
+- Check that your code matches the code in the examples above
 - Check that you have indented the code in your list
 - Check that your list is surrounded by `[` and `]`
 - Check that each colour variable in the list is separated by a comma
