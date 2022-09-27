@@ -12,14 +12,14 @@ steps:
   - 
     title: Co je Astro Pi?
   - 
-    title: Display an image
+    title: Zobraz zprávu a vyber název nových počítačů Astro Pi
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Přidej barvy
   - 
-    title: Submit your entry
+    title: Zobraz obrázek
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Změř vlhkost
