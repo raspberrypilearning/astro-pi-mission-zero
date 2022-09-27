@@ -2,7 +2,7 @@
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
 
-<mark>add an image with a different background colour not black</mark>
+![image displayed with a pink background on the LED matrix](images/colour_background.png)
 
 Whichever image you chose, the background uses the `c` variable which is set to black.
 
@@ -23,7 +23,7 @@ line_highlights: 9-10
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -33,15 +33,20 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and run your code. Your background colour will change.
+**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
 
-Move the colour slider again to a new colour. Run your code again. Your background colour will change to the new colour.
+**Tip:** You will need to click 'Run' every time you change the colour.
 
 --- /task ---
 
 ## Loop your program
 
-The Astro Pi Mission Zero program needs to run for less than 30 seconds. Your code will run repeatedly and sense the latest colour each time.
+The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+
+Your code will use a `for` loop to run 28 times. **Each** time it will:
++ sense the latest colour
++ update the background colour of the image
++ pause for one second
 
 --- task ---
 
@@ -66,12 +71,12 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
 
-To do this, highlight the code you want to indent and use the <kbd>Tab</kbd> key on your keyboard to indent multiple lines at once.
+**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 2 - 16
+line_highlights: 2 - 17
 ---
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -123,6 +128,11 @@ My code has a syntax error or doesn't run as expected:
 - Check that your list is surrounded by `[` and `]`
 - Check that each colour variable in the list is separated by a comma
 
+My code runs for longer than 30 seconds:
+
+- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
+- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+
 --- /task ---
 
 --- task ---
@@ -164,11 +174,11 @@ The LED matrix turns black every second:
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Add code to clear the LED matrix to a colour of your choice. Crea una variable para guardar el color que has seleccionado.
 
 You can mix your own colour or use the values from the list of colours to create your new `x`colour.
 
-\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
+[[[generic-theory-colours]]]
 
 --- code ---
 ---
