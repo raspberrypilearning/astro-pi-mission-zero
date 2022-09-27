@@ -12,14 +12,14 @@ steps:
   - 
     title: Mikä on Astro Pi?
   - 
-    title: Display an image
+    title: Näytä viesti ja valitse nimi uusille Astro Pi -tietokoneille
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Lisää jonkun verran väriä
   - 
-    title: Submit your entry
+    title: Näytä kuva
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Mittaa ilmankosteus
