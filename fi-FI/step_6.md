@@ -1,10 +1,10 @@
-## What next — more Astro Pi projects
+## Mittaa ilmankosteus
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Astro Pin ilmankosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
 
 If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Astro Pi mittaa ISS:n ilmankosteuden prosentteina veden pitoisuudesta ilmassa.
 
 + Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
