@@ -16,10 +16,10 @@ steps:
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Προσθήκη χρώματος
   - 
-    title: Submit your entry
+    title: Εμφάνιση εικόνας
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Μέτρηση της υγρασίας
