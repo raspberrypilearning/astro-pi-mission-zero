@@ -1,6 +1,6 @@
 ## Czym jest Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space.
+Astro Pi to komputer Raspberry Pi z obudową zaprojektowaną specjalnie do pracy w warunkach kosmicznych.
 
 ![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
 
@@ -8,9 +8,7 @@ Astro Pi computers come with a set of sensors and gadgets that can be used to ru
 
 ![Animated image of a Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
 
-For this mission, you will be using the Sense HAT emulator which simulates all of the functions of the Astro Pi in your web browser.
-
-<mark>change screenshot of emulator</mark> ![A labelled screenshot of the Sense HAT emulator with the code window on the left and the emulator on the right.](images/sense-hat-emulator.png)
+W tej misji będziesz używać emulatora Sense HAT. Emulator to oprogramowanie symulujące wszystkie funkcje Astro Pi w przeglądarce internetowej.
 
 
 
