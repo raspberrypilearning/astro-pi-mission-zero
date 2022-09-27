@@ -12,14 +12,14 @@ steps:
   - 
     title: Hvad er en Astro Pi?
   - 
-    title: Display an image
+    title: Vis en besked
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Tilføj noget farve
   - 
-    title: Submit your entry
+    title: Vis et billede
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Mål luftfugtigheden
