@@ -12,14 +12,14 @@ steps:
   - 
     title: Mi az az Astro Pi?
   - 
-    title: Display an image
+    title: Jeleníts meg egy üzenetet és válassz nevet az új Astro Pi számítógépeknek
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Adj hozzá egy kis színt
   - 
-    title: Submit your entry
+    title: Jeleníts meg egy képet
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Mérd meg a páratartalmat
