@@ -12,14 +12,14 @@ steps:
   - 
     title: Τι είναι το Astro Pi;
   - 
-    title: Display an image
+    title: Εμφάνιση εικόνας
     completion:
-      - engaged
+      - external
   - 
     title: Προσθήκη χρώματος
   - 
     title: Εμφάνιση εικόνας
     completion:
-      - internal
+      - εσωτερικός
   - 
     title: Μέτρηση της υγρασίας
