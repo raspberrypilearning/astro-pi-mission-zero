@@ -2,16 +2,16 @@
 
 Luftfuktighetssenorn i Astro Pi kan mäta den omgivande luftfuktighet, en användbar funktion som hjälper dig att samla in data om förhållandena i rymden.
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Om du känner dig självsäker kan du delta i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Skapa ett lag med två till sex personer och arbeta tillsammans som riktiga rymdforskare för att utforma ert eget experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
 Astro Pi mäter luftfuktigheten i ISS i procentuell vattenkoncentration i luften.
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Lär dig [mer om Sense HAT](https://projects.raspberrypi.org/sv-SE/projects/getting-started-with-the-sense-hat){:target="_blank"} och de andra sakerna den kan göra
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Skapa lite snyggt [slumpmässigt glitter](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-random-sparkles){:target="_blank"} på LED-displayen i Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Skapa spelet [Flappy Astronaut](https://projects.raspberrypi.org/sv-SE/projects/flappy-astronaut){:target="_blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Utmana dina vänner med spelet [marmorlabyrint](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-pong){:target="_blank"}
