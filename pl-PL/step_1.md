@@ -1,4 +1,4 @@
-## You will make
+## Wprowadzenie
 
 Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
 
@@ -8,7 +8,7 @@ Here is an example of the kind of program you could make to run on an Astro Pi i
 
 ![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-### You will need
+### Będziesz potrzebować
 
 You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
@@ -34,4 +34,4 @@ Przeczytaj [dokument z oficjalnymi wytycznymi ](https://astro-pi.org/media/missi
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Piksel śledzący](https://code.org/api/hour/begin_raspberrypi_astropi.png)
