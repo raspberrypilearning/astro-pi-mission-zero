@@ -1,6 +1,6 @@
 ## Prikažite sliko
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če jih vaša koda upošteva, bodo pravila na dnu **Sense HAT emulatorja** ob zagonu programa zasvetila zeleno.
 
 ![Posnetek zaslona okna emulatorja, ki prikazuje Letalsko Enoto z LED matrico, ki prikazuje sliko Letalske Enote](images/rules.png)
 
@@ -38,6 +38,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Če želite, lahko povezavo do svoje kode delite na družbenih omrežjih in tako ljudem poveste, da bo vaša koda zagnana v vesolju!
 
 --- /task ---
