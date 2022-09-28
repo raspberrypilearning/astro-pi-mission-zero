@@ -119,7 +119,7 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 --- task ---
 
-**Debug**
+**Εντοπισμός σφαλμάτων**
 
 My code has a syntax error or doesn't run as expected:
 
@@ -164,7 +164,7 @@ sense.clear()
 
 --- task ---
 
-**Debug**
+**Εντοπισμός σφαλμάτων**
 
 The LED matrix turns black every second:
 
