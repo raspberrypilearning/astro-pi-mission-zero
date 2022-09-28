@@ -10,15 +10,15 @@ The interval at which the reading will be take
 
 Add colour variables and image
 
-Display the image
+Εμφάνιση της εικόνας
 
-White
+Άσπρο
 
-Black
+Μαύρο
 
 MediumBlue
 
-Yellow
+Κίτρινο
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Red
+Κόκκινο
 
 MidnightBlue
 
