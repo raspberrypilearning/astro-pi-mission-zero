@@ -1,6 +1,6 @@
 ## Zobraz obrázek
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Pokud chceš svůj kód odeslat ke spuštění na Mezinárodní vesmírné stanici, musí se řídit několika pravidly. Pokud se jim řídí, tak se pravidla v dolní části **emulátoru Sense HAT** při spuštění programu rozsvítí zeleně.
 
 ![Snímek obrazovky emulátoru, který zobrazuje letovou jednotku s LED maticí zobrazující obrázek samotné letové jednotky](images/rules.png)
 
@@ -38,6 +38,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Jestli chcete, můžete odkaz na svůj kód sdílet na sociálních sítích, abyste se pochlubili, že kód, který jste napsali, poběží ve vesmíru!
 
 --- /task ---
