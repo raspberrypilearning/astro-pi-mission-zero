@@ -14,7 +14,7 @@ You will use the Astro Pi emulator in a web browser to create your program. You 
 
 ### Hardware
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
 
 You will learn about the Astro Pi computer and how to control it, including how to:
 + zobrazovat zprávy a barvy,
@@ -34,4 +34,4 @@ Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:ta
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sledovací pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
