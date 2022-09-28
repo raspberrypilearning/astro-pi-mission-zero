@@ -14,7 +14,7 @@ You will use the Astro Pi emulator in a web browser to create your program. You 
 
 ### Maskinvare
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
 
 You will learn about the Astro Pi computer and how to control it, including how to:
 + Viser meldinger og farger
@@ -34,4 +34,4 @@ Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:ta
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Sporingspiksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
