@@ -10,7 +10,7 @@ The interval at which the reading will be take
 
 Add colour variables and image
 
-Display the image
+Exibir a imagem
 
 White
 
@@ -18,7 +18,7 @@ Black
 
 MediumBlue
 
-Yellow
+Amarelo
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Red
+Vermelho
 
 MidnightBlue
 
