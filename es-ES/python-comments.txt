@@ -1,39 +1,39 @@
-Import the libraries
+Importar las bibliotecas
 
-Set up the Sense HAT
+Configurar el Sense HAT
 
-Set up the colour sensor
+Configurar el sensor de color
 
-Set the sensitivity of the sensor
+Establecer la sensibilidad del sensor
 
-The interval at which the reading will be take
+El intervalo en el que se tomará la lectura
 
-Add colour variables and image
+Agregar variables de color e imagen
 
-Muestra la imagen
+Mostrar la imagen
 
-White
+Blanco
 
-Black
+Negro
 
-MediumBlue
+Azul medio
 
-Yellow
+Amarillo
 
-DarkOrange
+Naranja oscuro
 
-Pink
+Rosado
 
-ForestGreen
+Verde bosque
 
-DeepPink
+Rosa profundo
 
 Rojo
 
-MidnightBlue
+Azul medianoche
 
-get the colour from the sensor
+obtener el color del sensor
 
-use the sensed colour
+usar el color detectado
 
-choose your own red, green, blue values between 0 - 255
+elige tus propios valores de rojo, verde y azul entre 0 y 255
