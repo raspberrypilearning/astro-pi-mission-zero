@@ -1,4 +1,4 @@
-## Sense a colour
+## Toon een afbeelding
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
 
@@ -119,7 +119,7 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 --- task ---
 
-**Debug**
+**Fouten oplossen (Debuggen)**
 
 My code has a syntax error or doesn't run as expected:
 
@@ -164,7 +164,7 @@ sense.clear()
 
 --- task ---
 
-**Debug**
+**Fouten oplossen (Debuggen)**
 
 The LED matrix turns black every second:
 
