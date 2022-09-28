@@ -1,34 +1,34 @@
 ## Lo que harás
 
-Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
+Completa este proyecto para entrar en [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} y haz que tu código se ejecute en el espacio en una computadora Astro Pi.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Tu proyecto establecerá el color de fondo de una imagen al color que detecta la Astro Pi. Esto hará que la Estación Espacial Internacional (ISS) sea más colorida para los astronautas a bordo. Tu código utilizará el sensor de luminosidad de color en el Sense HAT de la nueva computadora Mark II Astro Pi para lograr que esto suceda.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Aquí hay un ejemplo del tipo de programa que podrías hacer para ejecutarse en un Astro Pi en el espacio.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![El emulador Sense HAT ejecutando un programa de ejemplo con una serpiente cuyo color de fondo cambia al color detectado.](images/finished.gif)
 
 ### Necesitarás
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Utilizarás el emulador Astro Pi en un navegador web para crear tu programa. No necesitas una computadora Astro Pi.
 
-### Astro Pi Mission Zero criteria
+### Criterios de Astro Pi Mission Zero
 
-*¡Si cumple con los criterios de elegibilidad* tu programa se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
+*¡Si tu programa cumple con los criterios de elegibilidad* se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
 
 Aprenderás sobre la unidad Astro Pi y cómo controlarla, incluyendo cómo:
 + Mostrar mensajes y colores
 + Crear imágenes
-+ Sense the colour of light on board the ISS
++ Detectar el color de la luz a bordo de la ISS
 
 --- collapse ---
 ---
 title: Notas para los profesores y mentores
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero es adecuada para principiantes en programación y/o niños en edad escolar primaria y se puede completar en una sola sesión de 60 minutos en cualquier computadora con acceso a Internet. No se necesitan hardware especial ni habilidades previas de programación. Todo se puede hacer en un navegador web.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Organiza a tus jóvenes en equipos de uno a cuatro, y guiémoslos para escribir un programa corto en Python para percibir el color a bordo de la ISS y crear una imagen que use ese color.
 
 Lee el [documento con las directrices oficiales](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-es.pdf){:target="_blank"} de Mission Zero.
 
