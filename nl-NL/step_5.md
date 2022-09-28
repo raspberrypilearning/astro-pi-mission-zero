@@ -1,6 +1,6 @@
-## Submit your entry
+## Meet de luchtvochtigheid
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze volgt, lichten de regels onder aan de **Sense HAT emulator** groen op wanneer je het programma uitvoert.
 
 ![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
@@ -38,6 +38,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Als je wilt, kun je de link naar je code delen op sociale media om mensen te vertellen dat code die jij hebt geschreven in de ruimte wordt uitgevoerd!
 
 --- /task ---
