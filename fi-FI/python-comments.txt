@@ -18,7 +18,7 @@ Black
 
 MediumBlue
 
-Yellow
+Keltainen
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Red
+Punainen
 
 MidnightBlue
 
