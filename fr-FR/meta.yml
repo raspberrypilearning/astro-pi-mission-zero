@@ -12,14 +12,14 @@ steps:
   - 
     title: Qu'est-ce qu'un Astro Pi ?
   - 
-    title: Display an image
+    title: Ajouter de la couleur
     completion:
-      - engaged
+      - engagé
   - 
     title: Ajouter de la couleur
   - 
     title: Afficher une image
     completion:
-      - internal
+      - interne
   - 
     title: Mesurer l'humidité
