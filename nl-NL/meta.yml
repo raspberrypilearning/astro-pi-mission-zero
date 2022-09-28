@@ -14,12 +14,12 @@ steps:
   - 
     title: Toon een bericht en kies een naam voor de nieuwe Astro Pi computers
     completion:
-      - engaged
+      - gekoppeld
   - 
     title: Voeg wat kleur toe
   - 
     title: Toon een afbeelding
     completion:
-      - internal
+      - intern
   - 
     title: Meet de luchtvochtigheid
