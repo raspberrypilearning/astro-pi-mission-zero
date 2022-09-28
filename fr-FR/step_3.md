@@ -1,4 +1,4 @@
-## Display an image
+## Ajouter de la couleur
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -46,7 +46,7 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Choisis une image
 
 --- task ---
 
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Afficher l'image
 sense.set_pixels(image)
 
 --- /code ---
@@ -206,7 +206,7 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 --- task ---
 
-**Debug**
+**Déboguer**
 
 My code has a syntax error:
 
