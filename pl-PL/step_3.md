@@ -1,4 +1,4 @@
-## Display an image
+## Dodawanie koloru
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -36,7 +36,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /task ---
 
-### RGB Colours
+### Kolory RGB
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
@@ -46,7 +46,7 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Wybierz obraz
 
 --- task ---
 
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Wyświetl obraz
 sense.set_pixels(image)
 
 --- /code ---
@@ -206,7 +206,7 @@ Po naciśnięciu przycisku **Run** (Uruchom) zobaczysz, jak wiadomość `Astro P
 
 --- task ---
 
-**Debug**
+**Debugowanie**
 
 My code has a syntax error:
 
