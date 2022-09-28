@@ -14,7 +14,7 @@ Deze code maakt verbinding met de Astro Pi en zorgt ervoor de het LED-scherm van
 
 You will see that a few lines of code have been added for you automatically.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Laat de code staan, want je zal ze nodig hebben.
 
 Misschien kan je een leuke begroeting achterlaten voor de astronauten die in de buurt van de Astro Pi op het ISS werken? Laten we een boodschap over het scherm laten rollen.
 ---
