@@ -14,7 +14,7 @@ Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Άφησε αυτόν τον κώδικα εκεί, γιατί θα τον χρειαστείς.
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Επέλεξε μια εικόνα
 
 --- task ---
 
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Εμφάνιση της εικόνας
 sense.set_pixels(image)
 
 --- /code ---
@@ -206,7 +206,7 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 --- task ---
 
-**Debug**
+**Εντοπισμός σφαλμάτων**
 
 My code has a syntax error:
 
