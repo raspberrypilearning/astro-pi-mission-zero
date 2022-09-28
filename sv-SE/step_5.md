@@ -1,6 +1,6 @@
 ## Visa en bild
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem kommer reglerna längst ner i **Sense HAT-emulator** att lysa grönt när du kör programmet.
 
 ![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av själva flygenheten](images/rules.png)
 
@@ -38,6 +38,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Om du vill kan du dela länken till din kod på sociala medier för att berätta för människor att den kod som du skrev kommer att köras i rymden!
 
 --- /task ---
