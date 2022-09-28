@@ -1,4 +1,4 @@
-## Introduktion
+## Du kommer göra
 
 Förgyll vardagsrutinerna för astronauterna på den internationella rymdstationen genom att visa dem ett meddelande och den relativa luftfuktigheten ombord med hjälp av den nya Mark II Astro Pi-datorns Sense HAT.
 
