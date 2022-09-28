@@ -2,16 +2,16 @@
 
 Astro Pin ilmankosteusanturi voi mitata ympäröivän ilman kosteutta, mikä on hyödyllinen ominaisuus, jonka avulla voit kerätä tietoja avaruusolosuhteista.
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Jos tunnet olosi varmaksi, voit osallistua [Mission Space Labiin](https://astro-pi.org/missions/space-lab/)! Muodostakaa joukkue, jossa on kahdesta kuuteen henkilöä, ja työskennelkää yhdessä kuin oikeat avaruustieteilijät ja suunnitelkaa oma kokeenne. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
 Astro Pi mittaa ISS:n ilmankosteuden prosentteina veden pitoisuudesta ilmassa.
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Opi [lisää Sense HATistä](https://projects.raspberrypi.org/fi-FI/projects/getting-started-with-the-sense-hat){:target="_blank"} ja muista asioista, joita se voi tehdä
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Luo kauniita [satunnaisia kimalluksia](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} Sense HATin LED-näytöllä
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Luo [Flappy Astronaut](https://projects.raspberrypi.org/fi-FI/projects/flappy-astronaut){:target="_blank"} -peli
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Haasta ystäväsi [marmorilabyrintti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} -peliin
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Luo uudelleen klassinen [Pong](https://projects.raspberrypi.org/fi-FI/projects/sense-hat-pong){:target="_blank"}-peli
