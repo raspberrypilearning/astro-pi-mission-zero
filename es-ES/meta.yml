@@ -14,12 +14,12 @@ steps:
   - 
     title: Muestra un mensaje y elige un nombre para los nuevos ordenadores Astro Pi
     completion:
-      - engaged
+      - comprometido
   - 
     title: Añade un poco de color
   - 
     title: Muestra una imagen
     completion:
-      - internal
+      - interno
   - 
     title: Mide la humedad
