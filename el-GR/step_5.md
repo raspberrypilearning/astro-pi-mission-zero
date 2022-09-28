@@ -1,6 +1,6 @@
 ## Εμφάνιση εικόνας
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σου, ώστε να μπορείς να τον υποβάλεις για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. Εάν ο κώδικάς  σου τους ακολουθεί, οι κανόνες στο κάτω μέρος του **Sense HAT** θα ανάψουν με πράσινο χρώμα, όταν εκτελέσεις το πρόγραμμα.
 
 ![Ένα στιγμιότυπο οθόνης του παραθύρου εξομοιωτή που δείχνει τη Μονάδα Πτήσης με τη οθόνη LED που εμφανίζει μια εικόνα της ίδιας της Μονάδας Πτήσης](images/rules.png)
 
@@ -38,6 +38,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Αν θέλετε, μπορείτε να κοινοποιήσετε έναν σύνδεσμο προς τον κώδικά σας στα κοινωνικά μέσα, για να δημοσιεύσετε ότι ο κώδικας που γράψατε θα εκτελεστεί στο διάστημα!
 
 --- /task ---
