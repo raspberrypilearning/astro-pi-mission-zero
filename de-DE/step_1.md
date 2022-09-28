@@ -1,4 +1,4 @@
-## You will make
+## Einleitung
 
 Besuchen Sie die [Trinket emulator Mission Zero Seite](https://trinket.io/mission-zero){:target="_blank"}.
 
@@ -8,7 +8,7 @@ Here is an example of the kind of program you could make to run on an Astro Pi i
 
 ![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-### You will need
+### Was du noch brauchst
 
 You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
