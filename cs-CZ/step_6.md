@@ -1,17 +1,17 @@
 ## Změř vlhkost
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+A teď, když máš svoji misi za sebou, nechceš si zkusit nějaké další projekty, ve kterých se používají jiné senzory na Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Pokud se na to cítíš, můžeš se zúčastnit výzvy [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Dej dohromady tým o dvou až šesti lidí a spolupracujte jako skuteční vesmírní vědci na návrhu vlastního experimentu. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
 Astro Pi měří vlhkost na ISS v procentech koncentrace vody ve vzduchu.
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Zjisti [více o Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} a co dalšího dokáže.
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Vytvoř krásné [náhodné jiskření](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} na LED displeji Sense HAT.
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Vytvoř hru [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}.
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Vyzvi své kamarády v [mramorovém bludišti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}.
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Zkus si naprogramovat klasickou hru [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}.
