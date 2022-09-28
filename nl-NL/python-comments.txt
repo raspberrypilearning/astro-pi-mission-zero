@@ -10,15 +10,15 @@ The interval at which the reading will be take
 
 Add colour variables and image
 
-Display the image
+Geef de afbeelding weer
 
-White
+Wit
 
-Black
+Zwart
 
 MediumBlue
 
-Yellow
+Geel
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Red
+Rood
 
 MidnightBlue
 
