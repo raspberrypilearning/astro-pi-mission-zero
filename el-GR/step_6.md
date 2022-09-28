@@ -2,16 +2,16 @@
 
 Ο αισθητήρας υγρασίας στο Astro Pi μπορεί να μετρήσει την υγρασία του αέρα που τον περιβάλλει, μια χρήσιμη δυνατότητα που σε βοηθά να συλλέξεις δεδομένα για τις συνθήκες στο διάστημα.
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Αν αισθάνεσαι σίγουρος, μπορείς να πάρεις μέρος στην αποστολή [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Σχηματίστε μια ομάδα με δύο έως έξι άτομα και συνεργαστείτε σαν πραγματικοί διαστημικοί επιστήμονες για να σχεδιάσετε το δικό σας πείραμα. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
 Το Astro Pi μετράει την υγρασία στον Διεθνή Διαστημικό Σταθμό σαν ποσοστό συγκέντρωσης νερού στον αέρα.
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Μάθε περισσότερα σχετικά με το [Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} και όλα όσα μπορεί να κάνει
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Δημιούργησε όμορφες [τυχαίες λάμψεις](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} στην οθόνη LED του Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Δημιούργησε ένα παιχνίδι [Ιπτάμενος Αστροναύτης](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Προσκάλεσε τους φίλους σου σε ένα παιχνίδι [λαβύρινθου με μπίλιες](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Δημιούργησε το κλασικό παιχνίδι [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
