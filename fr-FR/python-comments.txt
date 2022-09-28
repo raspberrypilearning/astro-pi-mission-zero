@@ -8,17 +8,17 @@ Set the sensitivity of the sensor
 
 The interval at which the reading will be take
 
-Add colour variables and image
+Modifie le texte et la couleur du message de bienvenue - quel message veux-tu envoyer aux astronautes à bord de l'ISS ?
 
-Display the image
+Afficher l'image
 
-White
+Blanc
 
-Black
+Noir
 
 MediumBlue
 
-Yellow
+Jaune
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Red
+Rouge
 
 MidnightBlue
 
