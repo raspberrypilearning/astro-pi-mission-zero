@@ -8,13 +8,13 @@ Here is an example of the kind of program you could make to run on an Astro Pi i
 
 ![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-### You will need
+### Necesitarás
 
 You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
 ### Astro Pi Mission Zero criteria
 
-*¡Si cumple con los criterios de elegibilidad* tu programa se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+*¡Si cumple con los criterios de elegibilidad* tu programa se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
 
 Aprenderás sobre la unidad Astro Pi y cómo controlarla, incluyendo cómo:
 + Mostrar mensajes y colores
