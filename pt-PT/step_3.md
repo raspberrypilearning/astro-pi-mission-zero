@@ -1,4 +1,4 @@
-## Display an image
+## Adiciona um pouco de cor
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -36,7 +36,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /task ---
 
-### RGB Colours
+### Cores RGB
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Exibir a imagem
 sense.set_pixels(image)
 
 +-*/!"#$&gt;&lt;0123456789.=)(
