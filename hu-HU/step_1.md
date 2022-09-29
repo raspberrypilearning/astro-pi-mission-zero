@@ -1,29 +1,29 @@
-## Bevezetés
+## Amit el fogsz készíteni
 
-Hozz egy kis vidámságot az űrhajósok napi rutinjába a Nemzetközi Űrállomáson: küldj nekik egy üzenetet és mutasd meg a levegő páratartalmát a fedélzeten az Astro Pi számítógép Sense HAT-jének segítségével.
+Készítsd el a projektet, hogy részt vehess az [Astro Pi Mission Zerón](https://astro-pi.org/mission-zero), és hogy a kódod az űrben futhasson egy Astro Pi számítógépen.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez az új Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy Astro Pi számítógépen.
 
 ![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-### Amit el fogsz készíteni
+### Amire szükséged lesz
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+A programod elkészítéséhez az Astro Pi emulátort fogod használni egy webböngészőben. Nincs szükséged igazi Astro Pi számítógépre.
 
-### Hardver
+### Az Astro Pi Mission Zero feltételei
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
+**Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Üzenetek és színek megjelenítése
-+ Képek létrehozása
-+ Páratartalom mérése a Sense HAT segítségével
+Az Astro Pi számítógépről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
++ Szín**változók** létrehozása és használata képekben
++ Képek tervezése és megjelenítése a Sense HAT-on
++ A fény színének érzékelése az ISS-en
 
 --- collapse ---
 ---
-title: Amit meg fogsz tanulni
+title: Megjegyzések mentoroknak
 ---
 
 Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
