@@ -1,43 +1,43 @@
-## Jeleníts meg egy képet
+## Küldd be a munkádat
 
 Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy beküldhesd a Nemzetközi Űrállomáson való futtatásra. Ha a kódod betartja őket, akkor a **Sense HAT emulátor** alján a szabályok zölddel villannak fel, amikor futtatod a programodat.
 
-![Képernyőkép az emulátorról, amely a Repülési Egységet mutatja, a LED-mátrixon magának a Repülési Egységnek a képével](images/rules.png)
+![A Mission Zero oldal, amely a jelentkezési feltételek ellenőrzését mutatja.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Tipp:** Teszteld a kódodat különféle színbeállításokkal (használd a színválasztót), hogy megyőződj róla, hogy a programod mindig helyesn fut.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Kérjük, győződj meg róla, hogy a munkád betartja a Mission Zero [hivatalos irányelveit](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}. Ha nem tartja be az irányelveket, a programod nem futhat majd a Nemzetközi Űrállomáson.
 
-Please do not include any of the following in your team name or code:
+Kérjük, ne használd az alábbiakat a csapatod nevében vagy a kódodban:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Bármi, ami törvényellenesnek, politikainak vagy érzékenynek értelmezhető
++ Zászlók, mert azok politikailag érzékenynek tekinthetők
++ Bármi, ami más személy kellemetlenségére vagy kárára utal
++ Személyes adatok, pl. telefonszám, közösségi profilnév és e-mail cím
++ Obszcén képek
++ Speciális karakterek és emojik
++ Rossz nyelvezet vagy káromkodás
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Írd be az osztálytermi kódodat és a csapatod nevét a lenti mezőbe. A tanárod mondja meg majd a kódod.
 
-![Classroom code and team name submission form](images/submission.png)
+![Osztálytermi kód és csapatnév beküldésére szolgáló űrlap](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**A mentorok részére szóló jegyzetek** a [Bevezető](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) lépésben találhatók meg.
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Nyomd meg az **Add your team** (Csapatod hozzáadása) gombot a kódod beküldéséhez. Kérjük, figyelj rá, hogy a program beküldés után nem változtatható meg.
 
-Your mentor will get an email to confirm your entry.
+A mentorod egy e-mailt kap majd a jelentkezésedről.
 
 --- /task ---
 
 --- task ---
 
-Ha szerenéd, akár meg is oszthatod a kódodhoz tartozó linket a közösségi médián, hogy elújságold az embereknek, hogy a kód, amit írtál, az űrben fog futni!
+Ha szeretnéd, akár meg is oszthatod a kódodhoz tartozó linket a közösségi médián, hogy elújságold az embereknek, hogy a kód, amit írtál, az űrben fog futni!
 
 --- /task ---
