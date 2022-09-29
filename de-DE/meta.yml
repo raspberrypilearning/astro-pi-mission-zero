@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Einleitung
+    title: Das wirst du machen
   - 
     title: Was ist ein Astro Pi?
   - 
-    title: Zeige eine Nachricht und wähle einen Namen für die neuen Astro Pi Computer
+    title: Zeige ein Bild
     completion:
-      - engaged
+      - engagiert
   - 
-    title: Füge etwas Farbe hinzu
+    title: Bestimme eine Farbe
   - 
-    title: Anzeigen eines Bildes
+    title: Deinen Beitrag einsenden
     completion:
-      - internal
+      - intern
   - 
-    title: Miss die Luftfeuchtigkeit
+    title: Wie geht es weiter – weitere Astro Pi-Projekte
