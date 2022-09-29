@@ -6,31 +6,31 @@ Dein Projekt setzt die Hintergrundfarbe eines Bildes auf die Farbe, die der Astr
 
 Hier ist ein Beispiel für die Art von Programm, das du erstellen könntest, um es auf einem Astro Pi im Weltraum auszuführen.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Der Sense HAT-Emulator, der ein Beispielprogramm mit einer Schlange ausführt, deren Hintergrundfarbe sich mit dem Farbwähler ändert.](images/finished.gif)
 
 ### Was du brauchen wirst
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Du wirst den Astro Pi Emulator in einem Webbrowser verwenden, um dein Programm zu erstellen. Du brauchst keinen Astro Pi Computer.
 
-### Astro Pi Mission Zero criteria
+### Astro Pi Mission Zero Kriterien
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
+**Wenn dein Projekt die [Eignungskriterien](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**erfüllt, wird dein abgeschlossenes Programm auf der Internationalen Raumstation durchgeführt! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
 
 Du wirst mehr über den Astro Pi erfahren und wie du ihn steuern kannst, einschließlich:
-+ Anzeige von Nachrichten und Farben
-+ Erstellung von Bildern
-+ Sense the colour of light on board the ISS
++ Erstellen von **Variablen** für für Farbe für dein Bild
++ Entwerfen und anzeigen eines Bildes auf dem Sense HAT
++ Ermitteln der Lichtfarbe an Bord der ISS
 
 --- collapse ---
 ---
 title: Hinweise für Lehrer und Mentoren
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero ist für Programmieranfänger und/oder Kinder im Grundschulalter geeignet und kann in einer einzigen 60-minütigen Sitzung auf jedem Computer mit Internetzugang abgeschlossen werden. Es sind keine spezielle Hardware oder vorherige Programmierkenntnisse erforderlich. Alles kann in einem Webbrowser erledigt werden.
 
-Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, um eine persönliche Nachricht und die Luftfeuchtigkeit auf dem Astro Pi anzuzeigen.
+Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeigen ihnen wie man ein kurzes Python-Programm schreibt, um die Lichtfarbe an Bord der ISS zu ermitteln und ein Bild zu zeichnen, das diese Farbe verwendet.
 
-Lesen Sie das [Dokument offizieller Richtlinien](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-de.pdf){:target="_blank"} für Mission Zero.
+Lesen Sie die [offiziellen Richtlinien](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} für Mission Zero.
 
 --- /collapse ---
 
