@@ -1,25 +1,25 @@
-## Toon een afbeelding
+## Een kleur waarnemen
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+In deze stap ga je de kleurhelderheidssensor instellen en deze gebruiken om de hoeveelheid rood, groen en blauw die de sensor bereiken waar te nemen. Deze kleur zal dan worden gebruikt om je afbeelding in te kleuren. Een astronaut die in een blauw shirt naar de sensor loopt, ziet een ander beeld dan een astronaut in een rood shirt.
 
 ![image displayed with a pink background on the LED matrix](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+Welke afbeelding je ook kiest, de achtergrond gebruikt de variabele `c` die is ingesteld op zwart.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Gebruik de kleursensor om je achtergrond in te kleuren.
 
-Kies een andere kleur en maak een andere variabele om die kleur op te slaan. Om het programma te vertellen de door jou gekozen achtergrondkleur te gebruiken, voeg je de `back_colour` parameter toe aan je code:
+Voeg code toe voor je afbeelding lijst om de kleur van de sensor te krijgen en verander je `c` achtergrondkleurvariabele om de kleur te gebruiken die wordt gedetecteerd door de Sense HAT-kleurensensor in plaats van zwart.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Tip:**Je hoeft de opmerkingen die beginnen met '#' niet in te typen (ze zijn er om de code uit te leggen).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Kleurvariabelen en afbeelding toevoegen
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Je kunt de achtergrondkleur van het display ook wijzigen. Repeat this test again with a new colour.
+**Test:** Verplaats de kleur schuifregelaar naar een kleur van je keuze en voer **** je code uit. De achtergrondkleur zal veranderen. Herhaal deze test met een nieuwe kleur.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Tip:** Je moet elke keer als je de kleur wijzigt op 'Run' klikken.
 
 --- /task ---
 
-## Loop your program
+## Herhaal je programma
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Het Astro Pi Mission Zero-programma mag maximaal 30 seconden draaien. Deze tijd gebruik je om de kleursensor herhaaldelijk te controleren en de afbeelding bij te werken.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Je code gebruikt een `for` lus om 28 keer te worden uitgevoerd. **Elke** keer zal het:
++ de laatste kleur waarnemen
++ de achtergrondkleur van de afbeelding bijwerken
++ pauzeren gedurende een seconde
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Vind** je `rgb = sense.color` code regel.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Voeg** code hierboven toe om `for` lus in te stellen voor `28` herhalingen.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Je moet nu al je code hieronder de `for` lus inspringen zodat deze **in** de `for` lus wordt geplaatst.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Tip:** Meervoudige lijnen inspringen markeer de regels die je wilt inspringen en druk vervolgens op de <kbd>Tab</kbd> toets op je toetsenbord (meestal boven de <kbd>Caps Lock</kbd> toets op het toetsenbord).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Voeg onderaan je code een `sleep` van één seconde toe in je lus:
 
 --- code ---
 ---
@@ -105,15 +105,15 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Tip:** Zorg ervoor dat deze regel code wordt ingesprongen in je `for` lus.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test:** Voer je code uit en verander de kleurenkiezer meerdere keren terwijl je project wordt uitgevoerd. Controleer of je afbeeldingsupdates de waargenomen kleur bij de volgende keer worden gebruikt.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
+De afbeelding stopt met bijwerken wanneer de lus klaar is, zodat het programma niet langer dan 30 seconden wordt uitgevoerd.
 
 --- /task ---
 
@@ -121,25 +121,25 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 **Fouten oplossen (Debuggen)**
 
-My code has a syntax error or doesn't run as expected:
+Mijn code heeft een syntax fout of wordt niet uitgevoerd zoals verwacht:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Controleer of je code overeenkomt met de code in de bovenstaande voorbeelden
+- Controleer dat je je code in je `for`lus hebt ingesprongen
+- Controleer of je lijst is omgeven door `[` en `]`
+- Controleer of elke kleurvariabele in de lijst is gescheiden door een komma
 
-My code runs for longer than 30 seconds:
+Mijn code loopt langer dan 30 seconden:
 
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+- Verminder het aantal keren dat je for lus loopt, van 28 tot 25 of zelfs 20 keer.
+- Verminder de lengte van de sleep, van 1 seconde naar 0.5 seconde.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+Voeg `sense.clear()` aan het einde van de code toe om de afbeelding aan het einde van de lus te wissen. Dit zal je helpen te zien wanneer je animatie klaar is met draaien.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Tip:** Zorg ervoor dat je de `sense.clear()` code **niet** laat inspringen, aangezien je wilt dat deze slechts één keer wordt uitgevoerd aan het einde van je animatie.
 
 --- code ---
 ---
@@ -158,7 +158,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test:** Voer je code opnieuw uit. Wanneer je project klaar is met uitvoeren, zal de LED matrix worden leegemaakt, waardoor alle lichtjes op zwart gaan (uit).
 
 --- /task ---
 
@@ -166,17 +166,17 @@ sense.clear()
 
 **Fouten oplossen (Debuggen)**
 
-The LED matrix turns black every second:
+De LED-matrix wordt elke seconde zwart:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Controleer of je de `sense.clear()` code binnen je `for` lus niet hebt ingesprongen
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Voeg code toe om de LED-matrix te wissen in een kleur naar keuze. Maak een variabele met de naam `x` om je nieuwe kleur op te slaan.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Je kunt je eigen kleur mengen of de waarden uit de lijst met kleuren gebruiken om je nieuwe `x`kleur te maken.
 
 [[[generic-theory-colours]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Voer je code opnieuw uit. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
 
 --- /task ---
 
