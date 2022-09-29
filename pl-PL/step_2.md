@@ -4,7 +4,7 @@ Astro Pi to komputer Raspberry Pi z obudową zaprojektowaną specjalnie do pracy
 
 ![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers come with a set of sensors and gadgets that can be used to run great scientific experiments. This set of sensors is called a ‘Sense HAT’ (that stands for ‘Hardware Attached on Top’). The Sense HAT gives Astro Pi the ability to ‘sense’ and make many kinds of measurements, from temperature to movement, and to output information using an 8 x 8 LED matrix display. The Astro Pis also have a joystick and buttons, just like a video game console!
+Komputery Astro Pi są dostarczane z zestawem czujników i gadżetów, które można używać do przeprowadzenia wspaniałych eksperymentów naukowych. Ten zestaw czujników nazywa się „Sense HAT” (czyli „Hardware Attached on Top”, co oznacza „wyposażenie doczepione na wierzchu”). Sense HAT daje Astro Pi możliwość „wyczuwania” i wykonywania wielu rodzajów pomiarów, od temperatury po ruch, oraz wyświetlania informacji za pomocą matrycowego wyświetlacza LED 8x8. The Astro Pis also have a joystick and buttons, just like a video game console!
 
 ![Animated image of a Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
 
