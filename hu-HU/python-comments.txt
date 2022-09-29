@@ -1,39 +1,39 @@
-Import the libraries
+Programkönyvtárak importálása
 
-Set up the Sense HAT
+Sense HAT beállítása
 
-Set up the colour sensor
+Színérzékelő beállítása
 
-Set the sensitivity of the sensor
+Az érzékelő érzékenységének beállítása
 
-The interval at which the reading will be take
+Az egyes leolvasások között eltelt idő
 
-Add colour variables and image
+Színváltozók és kép hozzáadása
 
-Display the image
+Kép megjelenítése
 
-White
+White (fehér)
 
-Black
+Black (fekete)
 
-MediumBlue
+MediumBlue (kék)
 
-Sárga
+Yellow (sárga)
 
-DarkOrange
+DarkOrange (narancssárga)
 
-Pink
+Pink (rózsaszín)
 
-ForestGreen
+ForestGreen (sötétzöld)
 
-DeepPink
+DeepPink (sötét rózsaszín)
 
-Piros
+Red (piros)
 
-MidnightBlue
+MidnightBlue (éjkék)
 
-get the colour from the sensor
+szín lekérése az érzékelőtől
 
-use the sensed colour
+az érzékelt szín használata
 
-choose your own red, green, blue values between 0 - 255
+válassz saját vörös, zöld és kék értéket 0 és 255 között
