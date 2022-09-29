@@ -19,20 +19,20 @@ Deze code maakt verbinding met de Astro Pi en zorgt ervoor dat het LED-display v
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-title: Welke tekens kunnen worden gebruikt?
+line_highlights:
 ---
 # Importeer de bibliotheken
-Toon een bericht en kies een naam voor de nieuwe Astro Pi computers
+from sense_hat import SenseHat from time import sleep
 
 # Stel de Sense HAT in
-from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
+sense = SenseHat() sense.set_rotation(270)
 
-# De kleurensensor instellen
+# Stel de kleurensensor in
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
-![Een screenshot van de Sense Hat emulator met enkele regels startercode weergegeven in het linkervenster.](images/sense-hat-emulator2.png)
+![Een schermafbeelding van de Sense HAT emulator met enkele regels startcode weergegeven in het linkervenster.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -52,7 +52,7 @@ De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleu
 
 **Kies:** Kies een afbeelding om weer te geven uit de onderstaande opties. Python slaat de informatie voor een afbeelding op in een lijst. De code voor elke afbeelding bevat de gebruikte kleurvariabelen en de lijst.
 
-Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je project onder de regel `# Add colour variables and image`.
+Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je project onder de regel `# Voeg kleurvariablen en afbeelding toe`.
 
 --- collapse ---
 
@@ -119,7 +119,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: krokodil
+title: Krokodil
 ---
 
 ![Een raster met 8 x 8 vierkanten met een krokodillenkop.](images/croc.png)
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Zoek:** de regel `# Display the image` en voeg code toe om je afbeelding op de LED matrix weer te geven:
+**Zoek:** de regel `# Toon de afbeelding` en voeg code toe om je afbeelding op de LED matrix weer te geven:
 
 --- code ---
 ---
@@ -212,7 +212,7 @@ Mijn code heeft een syntax fout:
 
 - Controleer of je code overeenkomt met de code in de bovenstaande voorbeelden
 - Controleer of je de code in je lijst hebt ingesprongen
-- Controleer of je lijst is omgeven door `[` and `]`
+- Controleer of je lijst is omgeven door `[` en `]`
 - Controleer of elke kleurvariabele in de lijst is gescheiden door een komma
 
 Mijn afbeelding verschijnt niet:
