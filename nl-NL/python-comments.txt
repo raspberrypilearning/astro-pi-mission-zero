@@ -2,7 +2,7 @@ Importeer de bibliotheken
 
 Stel de Sense HAT in
 
-De kleurensensor instellen
+Stel kleurensensor in
 
 Stel de gevoeligheid van de sensor in
 
@@ -16,23 +16,23 @@ Wit
 
 Zwart
 
-Middel Blauw
+Middelblauw
 
 Geel
 
-Donker oranje
+Donkeroranje
 
 Roze
 
 Bosgroen
 
-Donker roze
+Donkerroze
 
 Rood
 
-Middernacht blauw
+Middernachtblauw
 
-kleuren waarnemen van de sensor
+haal de kleur uit de sensor
 
 gebruik de waargenomen kleur
 
