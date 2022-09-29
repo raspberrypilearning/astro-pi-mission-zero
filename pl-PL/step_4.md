@@ -1,18 +1,18 @@
-## Wyświetlanie obrazków
+## Wykrywanie koloru
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+W tym kroku przygotujesz czujnik jasności koloru i użyjesz go do wykrycia ilości czerwonego, zielonego i niebieskiego docierającego do czujnika. Ten kolor zostanie następnie użyty do pokolorowania wybranego obrazu. Astronauta podchodzący do czujnika w niebieskiej koszuli zobaczy inny obraz niż astronauta w czerwonej koszuli.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![obraz wyświetlany z różowym tłem na matrycy LED](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+Niezależnie jaki obrazek wybierzesz, tło używa zmiennej `c`, ustawionej na czerń.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Użyj czujnika koloru, aby pokolorować tło.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Dodaj kod przed listą obrazów, aby uzyskać kolor z czujnika i popraw zmienną koloru tła `c`, aby zamiast czerni użyć kolor wykrywany przez czujnik koloru Sense HAT.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Wskazówka:** Nie musisz wpisywać komentarzy zaczynających się od '#' (są tam, aby wyjaśnić kod).
 
 --- code ---
 ---
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Można również zmienić kolor tła wyświetlacza. Repeat this test again with a new colour.
+**Test:** Przesuń suwak koloru na wybrany kolor, a następnie **uruchom** swój kod. Twój kolor tła się zmieni. Powtórz ten test z innym kolorem.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Wskazówka:** Będziesz musiał kliknąć 'Uruchom' za każdym razem, gdy zmienisz kolor.
 
 --- /task ---
 
-## Loop your program
+## Zapętl swój program
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Program Astro Pi Misja Zero może działać maksymalnie 30 sekund. Wykorzystasz ten czas, aby wielokrotnie sprawdzać czujnik koloru i odświeżać obraz.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Twój kod użyje pętli `for`, aby uruchomić się 28 razy. **Za każdym** razem będzie:
++ odczytywał ostatni kolor
++ odświeżał kolor tła obrazka
++ zatrzymywał się na sekundę
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Znajdź** swoją linię kodu `rgb = sense.color`.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Dodaj** powyższy kod, aby ustawić pętlę `for` na `28` powtórzeń.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Teraz musisz zrobić wcięcie w całym kodzie poniżej pętli `for`, aby znajdował się **wewnątrz** pętli `for`.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Wskazówka:** Aby zrobić wcięcie wielu linii, zaznacz linie, które chcesz wciąć, a następnie naciśnij klawisz <kbd>Tab</kbd> na klawiaturze (zazwyczaj powyżej klawisza <kbd>Caps Lock</kbd>).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Na dole kodu w swojej pętli dodaj instrukcję `sleep` na jedną sekundę:
 
 --- code ---
 ---
@@ -105,41 +105,41 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Wskazówka:** Upewnij się, że ten wiersz kodu jest wcięty w pętli `for`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test:** Uruchom swój kod i zmieniaj wybór kolorów kilkakrotnie w trakcie działania projektu. Sprawdź, czy obraz zmienił się, aby użyć wykrytego koloru przy następnym uruchomieniu.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
-
---- /task ---
-
---- task ---
-
-**Debugowanie**
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+Obraz przestanie się odświeżać po zakończeniu pętli, aby program nie działał dłużej niż 30 sekund.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+**Debugowanie (usuwanie błędów)**
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+Mój kod zawiera błąd składni lub nie działa tak jak powinien:
+
+- Sprawdź, czy Twój kod pasuje do kodu w powyższych przykładach
+- Sprawdź, czy masz wcięcia w kodzie pętli `for`
+- Sprawdź, czy Twoja lista jest otoczona przez `[` i `]`
+- Sprawdź, czy każda zmienna koloru na liście jest oddzielona przecinkiem
+
+Mój kod działa dłużej niż 30 sekund:
+
+- Zmniejsz liczbę uruchomień pętli for z 28 do 25, a nawet 20.
+- Zmniejsz długość opóźnienia (sleep) z 1 sekundy do 0.5 sekundy.
+
+--- /task ---
+
+--- task ---
+
+Dodaj `sense.clear()` na końcu kodu, aby wyczyścić obraz na końcu pętli. Pomoże ci to zobaczyć, kiedy twoja animacja się zakończyła.
+
+**Wskazówka:** Upewnij się, że **nie** wciąłeś linii kodu `sense.clear()`, ponieważ chcesz uruchomić tą funkcję tylko raz na końcu animacji.
 
 --- code ---
 ---
@@ -158,7 +158,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test:** Uruchom kod ponownie. Po zakończeniu pracy projekt wyczyści matrycę LED, wyłączając (off) wszystkie diody.
 
 --- /task ---
 
@@ -166,17 +166,17 @@ sense.clear()
 
 **Debugowanie**
 
-The LED matrix turns black every second:
+Matryca LED staje się czarna co sekundę:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Sprawdź, czy nie masz wcięcia w kodzie `sense.clear()` w pętli `for`
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Dodaj kod, aby wyczyścić matrycę LED na wybrany kolor. Utwórz zmienną o nazwie `x`, aby przechować nowy kolor.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Możesz mieszać własny kolor lub użyć wartości z listy kolorów, aby utworzyć swój nowy kolor `x`.
 
 [[[generic-theory-colours]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Uruchom kod ponownie. Kiedy Twój projekt zakończy działanie, matryca LED zmieni kolor na wybrany przez Ciebie. Możesz zmienić, a następnie przetestować kolor tyle razy, ile chcesz.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Ukończony przykład kodu
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Siatka 8 x 8 kwadratów przedstawiająca różowy kwiat na zielonej łodydze.](images/flower.png)
 
 --- code ---
 ---
