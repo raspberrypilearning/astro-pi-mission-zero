@@ -1,48 +1,48 @@
-## Dodawanie koloru
+## Wyświetlanie obrazka
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+Diody LED Astro Pi mogą świecić się na kolorowo. W tym kroku będziesz wyświetlać obrazy z natury na matrycy LED Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**Matryca LED**</span> to siatka diod LED, które mogą być kontrolowane pojedynczo lub jako grupa, aby tworzyć różne efekty wyświetlania. Matryca LED na Sense HAT ma 64 diody LED wyświetlane w siatce 8 x 8. Diody LED mogą być zaprogramowane w celu uzyskania szerokiej gamy kolorów.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Zrzut ekranu okna emulatora przedstawiającego komputer z matrycą LED wyświetlającą obrazek kwiatka.](images/fu-pic.png)
 
 --- task ---
 
-Otwórz [emulator Sense HAT](https://trinket.io/mission-zero){:target="_blank"} dla projektu Misja Zero.
+Otwórz [Projekt startowy Misji Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-Zobaczysz, że trzy linie kodu zostały dodane automatycznie:
+Zobaczysz, że kilka linijek kodu zostało dla Ciebie dodanych automatycznie.
 
-Kod ten łączy się z Astro Pi i zapewnia, że wyświetlacz LED Astro Pi jest pokazany we właściwy sposób. Kod należy zostawić, gdyż będzie on potrzebny.
+Kod ten łączy się z Astro Pi, zapewnia odpowiedni sposób pracy wyświetlacza LED Astro Pi i przygotowuje czujnik koloru. Pozostaw ten kod, ponieważ będziesz go potrzebować.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 title: Jakich znaków można użyć?
 ---
-# Import the libraries
+# Wczytaj biblioteki
 Wyświetl wiadomość i wybierz nazwę dla nowych komputerów Astro Pi
 
-# Set up the Sense HAT
+# Przygotuj Sense HAT
 from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Przygotuj czujnik kolorów
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
-![Zrzut ekranu emulatora Trinket Sense Hat z trzema liniami początkowego kodu wyświetlanymi w lewym panelu.](images/sense-hat-emulator2.png)
+![Zrzut ekranu emulatora Sense HAT z wierszami kodu startowego wyświetlanymi w lewym panelu.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
 ### Kolory RGB
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Kolory można tworzyć przy użyciu różnych proporcji czerwieni, zieleni i niebieskiego. Dowiedz się więcej o kolorach RGB tutaj:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+Matryca LED to siatka 8 x 8. Każda dioda świecąca na siatce może być ustawiona na inny kolor. Oto lista zmiennych dla 24 różnych kolorów. Każdy kolor ma wartość dla czerwonego, zielonego i niebieskiego:
 
 [[[ambient-colours]]]
 
@@ -50,17 +50,17 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Wybór:** Wybierz obraz do wyświetlenia spośród poniższych opcji. Python przechowuje informacje o obrazie na liście. Kod każdego obrazu zawiera użyte zmienne kolorów i listę.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkleić** go do swojego projektu poniżej linii, która mówi `# Dodaj zmienne kolorów i obraz`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Kurczak
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Siatka 8 x 8 kwadratów przedstawiająca pisklę w jajku.](images/chick.png)
 
 --- code ---
 ---
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Kwiat
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Siatka 8 x 8 kwadratów przedstawiająca różowy kwiat na zielonej łodydze.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Krab
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Siatka 8 x 8 kwadratów przedstawiająca kraba.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Krokodyl
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Siatka 8 x 8 kwadratów przedstawiająca łeb krokodyla.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Wąż
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Siatka 8 x 8 kwadratów przedstawiająca węża.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Żaba
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Siatka 8 x 8 kwadratów przedstawiająca żabę.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Znajdź:** linię, która mówi `# Wyświetl obrazek` i dodaj linię kodu, aby wyświetlić obraz na matrycy LED:
 
 --- code ---
 ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Po naciśnięciu przycisku **Run** (Uruchom) zobaczysz, jak wiadomość `Astro Pi` przewija się na wyświetlaczu LED.
+Naciśnij **Uruchom** na dole edytora, aby zobaczyć obraz wyświetlany na matrycy LED.
 
 --- /task ---
 
 --- task ---
 
-**Debugowanie**
+**Debugowanie (usuwanie błędów)**
 
-My code has a syntax error:
+Mój kod zawiera błąd składni:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Sprawdź, czy Twój kod pasuje do kodu w powyższych przykładach
+- Sprawdź, czy masz wcięcia w kodzie na swojej liście
+- Sprawdź, czy Twoja lista jest otoczona przez `[` i `]`
+- Sprawdź, czy każda zmienna koloru na liście jest oddzielona przecinkiem
 
-My image does not appear:
+Mój obraz się nie pojawia:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Sprawdź, czy Twój `sense.set_pixels(image)` nie ma wciącia
 
 --- /task ---
 
