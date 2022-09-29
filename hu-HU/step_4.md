@@ -1,25 +1,25 @@
-## Adj hozzá egy kis színt
+## Érzékeld a színt
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+Ebben a lépésben be fogod állítani a színfényerősség-érzékelőt, és arra fogod használni, hogy érzékeld a vörös, zöld és kék fény erejét, amely eléri az érzékelőt. Ezután ezt a színt fogod használni a kiválaszott képed kiszínezésére. Ha egy kék inget viselő űrhajós áll az érzékelő elé, más képet fog látni, mint egy vörös inget viselő.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![megjelenített kép rózsaszín háttérrel a LED-mátrixon](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Bármelyik képet választottad is, a háttér a `c` változót használja, amely feketére van állítva.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Használd a színérzékelőt, hogy kiszínezd a hátteret.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Adj hozzá kódot a képet meghatározó lista elé, hogy kiolvasd a SenseHAT színérzékelőből a színt, majd a `c` változót állítsd be erre a színre fekete helyett.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Tipp:** Nem kell begépelned a megjegyzéseket, amelyek "#" karakterrel kezdődnek (ezek csak azért vannak ott, hogy elmagyarázzák kódot).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Adj hozzá színváltozókat és képet
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Tesztelés:** Mozgasd a színcsúszkát egy általad választott színre, majd **futtasd** a kódodat. A háttérszín meg fog változni. Ismételd meg a tesztet egy másik színnel.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Tipp:** Minden egyes alkalommal meg kell nyomnod a Futtatás gombot, ha megváltoztatod a színt.
 
 --- /task ---
 
-## Loop your program
+## Készíts egy ciklust
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Az Astro Pi Mission Zero program legfeljebb 30 másodpercig futhat. Ezt az időt arra fogod használni, hogy ismételten leolvasd az érzékelőt és frissítsd a képet.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+A kódod egy `for` ciklust fog használni, hogy 28-szor lefusson. Így **minden** alkalommal:
++ kiolvassa a legfrissebb színt
++ frissíti a kép háttérszínét
++ várakozik egy másodpercig
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Keresd meg** a kódodban az `rgb = sense.color` sort.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Add hozzá** a kódot egy sorral feljebb, hogy elkezdj egy `for` ciklust, amely `28` alkalommal ismétlődik.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Most be kell húznod az összes kódot a `for` ciklus alatt, hogy a `for` cikluson **belül** legyen.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Tipp:** Ha egyszerre több sort akarsz behúzni, jelöld ki az összeset, majd nyomd le a <kbd>Tab</kbd> billentyűt (általában a <kbd>Caps Lock</kbd> billentyű felett található).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+A kódod alján adj hozzá egy 1 másodperces `sleep` (alvás) parancsot a cikluson belül:
 
 --- code ---
 ---
@@ -105,41 +105,41 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Tipp:** Ellenőrizd, hogy ez a kód be van-e húzva, hogy a `for` cikluson belül legyen.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Tesztelés:** Futtasd a kódodat, és többször változtasd meg a színt, miközben fut a projekt. Figyled, hogy frissül-e a kép az érzékelt színnel a következő futásnál.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+A kép frissítése leáll, miután befejeződik a ciklus, hogy a program ne fusson 30 másodpercnél tovább.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+**Hibakeresés**
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+A kódomban szintaktikai hiba van, vagy nem úgy fut, ahogy kéne:
+
+- Ellenőrizd, hogy a kódod megegyezik-e a fenti példákban látható kóddal
+- Ellenőrizd, hogy beljebb kezdted-e a kódot a `for` ciklusban
+- Ellenőrizd, hogy a listád `[` és `]` között van-e
+- Ellenőrizd, hogy a listában minden színváltozó vesszővel van-e elválasztva
+
+A kódom 30 másodpercnél tovább fut:
+
+- Csökkentsd a ciklus ismétléseinek számát 28-ról 25-re vagy akár 20-ra.
+- Csökkentsd a várakozást 1 másodpercről fél (`0.5`) másodpercre.
+
+--- /task ---
+
+--- task ---
+
+Add hozzá a `sense.clear()` parancsot a kódod végére, hogy a kép kitörlődjön a ciklus végén. Így könnyebben láthatod, mikor fejeződött be az animáció.
+
+**Tipp:** Ellenőrizd, hogy a kód **nincs** behúzva, mert a `sense.clear()` sort csak egyszer szeretnéd futtatni, az animáció végén.
 
 --- code ---
 ---
@@ -158,25 +158,25 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Tesztelés:** Futtasd a kódodat még egyszer. Miután a projekt futása befejeződik, a LED-mátrix alaphelyzetbe áll, minden lámpa színe fekete lesz (kikapcsolt).
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Hibakeresés**
 
-The LED matrix turns black every second:
+A LED-mátrix minden másodpercben feketére vált:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Ellenőrizd, hogy a `sense.clear()` kód ne legyen behúzva a `for` ciklusba
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Adj hozzá kódot, hogy a LED-mátrix az általad választott színre váltson. Készíts egy `x` változót, amely az új színt tárolja.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Kikeverheted a színt, vagy a listán levő színek közül választhatsz egyet, hogy létrehozd az új `x` színt.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Tesztelés:** Futtasd a kódodat még egyszer. Miután a projekt futása befejeződik, a LED-mátrix minden lámpája az általad választott színre vált. Akárhányszor megváltoztathatod a színt, és újra tesztelheted a kódot.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Kész példakód
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Egy 8*8-as rács, amely egy zöld szárú rózsaszín virág képét mutatja.](images/flower.png)
 
 --- code ---
 ---
