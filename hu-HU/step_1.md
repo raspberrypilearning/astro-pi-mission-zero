@@ -6,7 +6,7 @@ A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által �
 
 Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy Astro Pi számítógépen.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![A Sense HAT emulátor egy példaprogramot futtat, amelyben a kígyó háttere az érzékelt színnek megfelelően változik.](images/finished.gif)
 
 ### Amire szükséged lesz
 
@@ -26,11 +26,11 @@ Az Astro Pi számítógépről tanulsz majd, és arról, hogyan irányítsd, bel
 title: Megjegyzések mentoroknak
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+A Mission Zero alkalmas kezdő programozóknak és/vagy általános iskolás korú gyerekeknek, és egyhuzamban 60 perc alatt teljesíthető egy internetkapcsolattal rendelkező számítógépen. Nincs szükség speciális hardverre vagy előzetes programozási tudásra. Minden teljesíthető egy webböngészőben.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Szervezd a fiatalokat egy-négy fős csapatokba, és engedd meg, hogy végigkísérjük őket egy rövid Python program megírásán, amely érzékeli a színt az ISS fedélzetén, és egy képet hoz létre a szín felhasználásával.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
 
