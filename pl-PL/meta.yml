@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Wprowadzenie
+    title: Co trzeba zrobić
   - 
     title: Czym jest Astro Pi?
   - 
-    title: Wyświetl wiadomość i wybierz nazwę dla nowych komputerów Astro Pi
+    title: Wyświetl obrazek
     completion:
-      - zaangażowana
+      - zaangażowany
   - 
-    title: Dodawanie koloru
+    title: Wykryj kolor
   - 
-    title: Wyświetlanie obrazków
+    title: Wyślij swój projekt
     completion:
       - wewnętrzny
   - 
-    title: Pomiar wilgotności
+    title: Co dalej — więcej projektów Astro Pi
