@@ -16,7 +16,7 @@ Je gebruikt de Astro Pi-emulator in een webbrowser om je programma te maken. Je 
 
 **Als je project voldoet aan de [criteria voor geschiktheid](https://astro-pi.org/mission-zero/eligibility){:target="_ blank"}**, zal je voltooide programma worden uitgevoerd op het International Space Station! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
 
-Je leert over de Astro Pi-eenheid en hoe je hem bestuurt, inclusief hoe je:
+Je leert over de Astro Pi-computer en hoe je hem bestuurt, inclusief hoe je:
 + Creëer kleur **variabelen** om te gebruiken in je afbeelding
 + Ontwerp en toon een afbeelding op de Sense HAT
 + Neem de kleur van het licht aan boord van het ISS waar
