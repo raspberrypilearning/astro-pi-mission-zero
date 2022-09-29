@@ -1,36 +1,36 @@
-## Wprowadzenie
+## Co będziesz robić
 
-Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
+Ukończ ten projekt, aby wziąć udział w [Misji Zero Astro Pi](https://astro-pi.org/mission-zero){:target="_blank"} i uruchomić kod w kosmosie na komputerze Astro Pi.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Twój projekt ustawi kolor tła obrazu na kolor, który Astro Pi wykryje. Dzięki temu Międzynarodowa Stacja Kosmiczna (ISS) będzie bardziej kolorowa dla astronautów na pokładzie. Twój kod wykorzysta do tego czujnik jasności koloru Sense HAT na nowym komputerze Mark II Astro Pi.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Emulator Sense HAT uruchamiający przykładowy program z wężem, którego kolor tła zmienia się wraz z wykrywanym kolorem.](images/finished.gif)
 
-### Będziesz potrzebować
+### Czego będziesz potrzebować
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Do stworzenia swojego programu będziesz używać emulatora Astro Pi w przeglądarce internetowej. Nie potrzebujesz komputera Astro Pi.
 
-### Astro Pi Mission Zero criteria
+### Kryteria Misji Zero Astro Pi
 
-*Jeśli spełnia kryteria kwalifikacyjne* Twój ukończony program zostanie uruchomiony w kosmosie na Międzynarodowej Stacji Kosmicznej (ISS)! Otrzymasz również specjalny certyfikat, który dokładnie pokaże, gdzie znajdował się ISS, kiedy Twój program został uruchomiony.
+**Jeśli Twój projekt spełni [kryteria kwalifikacyjne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, Twój ukończony program zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program został uruchomiony.
 
-Dowiedz się więcej o jednostce Astro Pi i jak nią sterować, w tym:
-+ Jak wyświetlać wiadomości i kolory
-+ Jak tworzyć obrazki
-+ Sense the colour of light on board the ISS
+Dowiesz się o komputerze Astro Pi i o tym, jak nim sterować, w tym jak:
++ Utworzyć **zmienne** kolorów do użycia w swoim obrazku
++ Zaprojektować i wyświetlić obrazek na Sense HAT
++ Wykryć kolor światła na pokładzie ISS
 
 --- collapse ---
 ---
-title: Czego się nauczysz
+title: Notatki dla mentorów
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Misja Zero jest odpowiednia dla początkujących programistów i/lub dzieci w wieku szkolnym i można ją ukończyć w ciągu jednej 60-minutowej sesji na dowolnym komputerze z dostępem do Internetu. Nie jest potrzebny żaden specjalny sprzęt ani wcześniejsze umiejętności programistyczne. Wszystko można zrobić w przeglądarce internetowej.
 
-Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób. Następnie według naszych wskazówek napiszą oni krótki program Python wyświetlający osobistą wiadomość i temperaturę powietrza w Astro Pi.
+Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób, które pokierowane według naszych wskazówek napiszą oni krótki program w języku Python, który wykryje kolor na pokładzie stacji ISS i utworzy obrazek z użyciem tego koloru.
 
-Przeczytaj [dokument z oficjalnymi wytycznymi ](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-pl.pdf){:target="_blank"} dla Misji Zero.
+Przeczytaj [oficjalne wytyczne](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} dla Misji Zero.
 
 --- /collapse ---
 
