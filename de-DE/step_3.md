@@ -6,7 +6,7 @@ Die LED-Matrix des Astro Pi kann Farben darstellen. In diesem Schritt zeigst du 
 Eine <span style="color: #0faeb0">**LED-Matrix**</span> ist ein Raster von LEDs, die einzeln oder als Gruppe gesteuert werden können, um verschiedene Lichteffekte zu erzeugen. Die LED-Matrix des Sense HAT verfügt über 64 LEDs, die in einem 8 x 8-Raster angeordnet sind. Die LEDs können so programmiert werden, dass sie eine breite Palette von Farben erzeugen.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Ein Screenshot des Emulatorfensters, das die Flugeinheit mit der LED-Matrix zeigt, die ein Bild einer Blume anzeigt.](images/fu-pic.png)
 
 --- task ---
 
@@ -32,7 +32,7 @@ sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein sense.color.i
 
 --- /code ---
 
-![Ein Screenshot des Trinket Sense Hat-Emulators mit drei Zeilen Anfangscode, der im linken Bereich angezeigt wird.](images/sense-hat-emulator2.png)
+![Ein Screenshot des Sense HAT-Emulators mit Startcodezeilen im linken Bereich.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 title: Huhn
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Ein Raster mit 8 x 8 Quadrate mit einem Kick in einem Ei.](images/chick.png)
 
 --- code ---
 ---
@@ -81,7 +81,7 @@ bild = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c,
 title: Blume
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Ein Raster mit 8 x 8 Quadraten, die eine rosa Blume auf einem grünen Stiel zeigen.](images/flower.png)
 
 --- code ---
 ---
@@ -101,7 +101,7 @@ bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y,
 title: Krabbe
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Ein Raster mit 8 x 8 Quadraten, die eine Krabbe zeigen.](images/crab.png)
 
 --- code ---
 ---
@@ -122,7 +122,7 @@ bild = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c,
 title: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Krokodilkopf zeigen.](images/croc.png)
 
 --- code ---
 ---
@@ -143,7 +143,7 @@ bild = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m,
 title: Schlange
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Ein Raster mit 8 x 8 Quadraten, die eine Schlange zeigen.](images/snake.png)
 
 --- code ---
 ---
@@ -163,7 +163,7 @@ bild = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c,
 title: Frosch
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Frosch zeigen.](images/frog.png)
 
 --- code ---
 ---
