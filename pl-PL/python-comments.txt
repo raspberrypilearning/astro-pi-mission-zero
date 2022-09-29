@@ -1,39 +1,39 @@
-Import the libraries
+Wczytaj biblioteki
 
-Set up the Sense HAT
+Przygotuj Sense HAT
 
-Set up the colour sensor
+Przygotuj czujnik kolorów
 
-Set the sensitivity of the sensor
+Ustaw czułość czujnika
 
-The interval at which the reading will be take
+Okres czasu, w którym będzie dokonywany odczyt
 
-Zmień tekst pozdrowienia i kolor - jaką wiadomość wyślesz do astronautów na pokładzie ISS?
+Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-White
+Biały
 
-Black
+Czarny
 
-MediumBlue
+Średni niebieski
 
 Żółty
 
-DarkOrange
+Ciemny pomarańczowy
 
-Pink
+Różowy
 
-ForestGreen
+Leśny zielony
 
-DeepPink
+Głęboki różowy
 
 Czerwony
 
-MidnightBlue
+Nocny niebieski
 
-get the colour from the sensor
+pobierz kolor z czujnika
 
-use the sensed colour
+użyj odczytany kolor
 
-choose your own red, green, blue values between 0 - 255
+wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
