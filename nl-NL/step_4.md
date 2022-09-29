@@ -2,7 +2,7 @@
 
 In deze stap ga je de kleurhelderheidssensor instellen en deze gebruiken om de hoeveelheid rood, groen en blauw die de sensor bereiken waar te nemen. Deze kleur zal dan worden gebruikt om je afbeelding in te kleuren. Een astronaut die in een blauw shirt naar de sensor loopt, ziet een ander beeld dan een astronaut in een rood shirt.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![afbeelding weergegeven met een roze achtergrond op de LED-matrix](images/colour_background.png)
 
 Welke afbeelding je ook kiest, de achtergrond gebruikt de variabele `c` die is ingesteld op zwart.
 
@@ -33,7 +33,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Verplaats de kleur schuifregelaar naar een kleur van je keuze en voer **** je code uit. De achtergrondkleur zal veranderen. Herhaal deze test met een nieuwe kleur.
+**Test:** Verplaats de kleurschuifregelaar naar een kleur van je keuze en voer **** je code uit. De achtergrondkleur zal veranderen. Herhaal deze test met een nieuwe kleur.
 
 **Tip:** Je moet elke keer als je de kleur wijzigt op 'Run' klikken.
 
@@ -71,7 +71,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 Je moet nu al je code hieronder de `for` lus inspringen zodat deze **in** de `for` lus wordt geplaatst.
 
-**Tip:** Meervoudige lijnen inspringen markeer de regels die je wilt inspringen en druk vervolgens op de <kbd>Tab</kbd> toets op je toetsenbord (meestal boven de <kbd>Caps Lock</kbd> toets op het toetsenbord).
+**Tip:** Om meerdere lijnen tegelijk te laten inspringen markeer je de regels die je wilt inspringen en druk vervolgens op de <kbd>Tab</kbd> toets op je toetsenbord (meestal boven de <kbd>Caps Lock</kbd> toets op het toetsenbord).
 
 --- code ---
 ---
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Voer je code opnieuw uit. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Voer je code opnieuw uit. Wanneer je project klaar is, wordt de LED-matrix gewist in de door jou gekozen kleur. Je kunt de kleur zo vaak veranderen en testen als je wil.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Voorbeeld van een voltooide code
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Een raster met 8 x 8 vierkanten met een roze bloem op een groene stengel.](images/flower.png)
 
 --- code ---
 ---
