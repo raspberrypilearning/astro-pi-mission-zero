@@ -6,7 +6,7 @@ Az Astro Pi LED-mátrixa színeket is meg tud jeleníteni. Ebben a lépésben a 
 A <span style="color: #0faeb0">**LED mátrix**</span> egy LED-ekből álló rács, amely egyenként vagy csoportosan vezérelhető, hogy létrehozz különféle fényhatásokat. A Sense HAT LED-mátrixa 64 LED-ből áll egy 8*8-as rácson elhelyezve. A LED-eket be lehet programozni, hogy a színek széles skáláját mustassák.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Képernyőkép az emulátorról, amely a Repülési Egységet mutatja, a LED-mátrixon egy virágnak a képével.](images/fu-pic.png)
 
 --- task ---
 
@@ -21,46 +21,46 @@ Ez a kód az Astro Pi-hoz kapcsolódik, és biztosítja, hogy az Astro Pi LED ki
 Írd be ezt a sort a többi kód alá:
 title: Milyen karaktereket lehet használni?
 ---
-# Import the libraries
+# Importáld a könyvtárakat
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Állítsd be a SenseHAT-et
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Állítsd be a színérzékelőt
 Kattints a **Run** (Futtatás) gombra, és figyeld, hogy fut az `Astro Pi` üzenet keresztül a LED kijelzőn!
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Képernyőkép a Sense Hat emulátorról a kezdőkóddal a bal oldali panelen.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### Válassz nevet az új Astro Pi számítógépeknek
+### RGB-színek
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Bármilyen színt létrehozhatsz a vörös, a zöld és a kék különböző arányainak használatával. Itt többet tudhatsz meg az RGB-színekről:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+A LED-mátrix egy 8*8-as rács. A rácson mindegyik LED más színre állítható be. Itt egy lista színváltozókból 24 különböző színhez. Mindegyik szín egy vörös, zöld és kék értékkel rendelkezik:
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Válassz egy képet
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Válassz:** Az alábbi képek között keress egyet, amely tetszik. A Python a kép információit egy listában tárolja. Mindegyik kép kódja tartalmazza a felhasznált színváltozókat és a listát.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a projektedbe a `Színváltozók és kép hozzáadása` sor alá.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Csirke
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Egy 8*8-as rács, amely egy tojás és egy csibe képét mutatja.](images/chick.png)
 
 --- code ---
 ---
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Virág
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Egy 8*8-as rács, amely egy zöld szárú rózsaszín virág képét mutatja.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Rák
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Egy 8*8-as rács, amely egy tojás és egy rák képét mutatja.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Egy 8*8-as rács, amely egy tojás és egy krokodil képét mutatja.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Kígyó
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Egy 8*8-as rács, amely egy tojás és egy kígyó képét mutatja.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Béka
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Egy 8*8-as rács, amely egy tojás és egy béka képét mutatja.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Keresd meg** a `# Kép megjelenítése` sort, majd adj hozzá egy új sor kódot, hogy megjelenítsd a képet a LED-mátrixon:
 
 --- code ---
 ---
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Jelenítsd meg a képet
 sense.set_pixels(image)
 
 --- /code ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Nyomd meg a **Run** (futtatás) gombot a szerkesztő alján, hogy láthasd, ahogy a képed megjelenik a LED-mátrixon.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Hibakeresés**
 
-My code has a syntax error:
+A kódom szintaxishibás ("Syntax error"):
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Ellenőrizd, hogy a kódod megegyezik-e a fenti példákban látható kóddal
+- Ellenőrizd, hogy beljebb kezdted-e a kódot a listádban
+- Ellenőrizd, hogy a listád `[` és `]` között van-e
+- Ellenőrizd, hogy a listában minden színváltozó vesszővel van-e elválasztva
 
-My image does not appear:
+Nem jelenik meg a képem:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Ellenőrizd, hogy a `sense.set_pixels(image)` ne legyen beljebb kezdve
 
 --- /task ---
 
