@@ -1,31 +1,31 @@
-## Anzeigen eines Bildes
+## Farbe ermitteln
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+In diesem Schritt richtest du den Farbsensor ein und verwendest ihn, um die Menge an Rot, Grün und Blau zu erfassen, die den Sensor erreicht. Diese Farbe wird dann verwendet, um dein ausgewähltes Bild einzufärben. Ein Astronaut, der in einem blauen Hemd auf den Sensor zugeht, würde ein anderes Bild sehen als ein Astronaut in einem roten Hemd.
 
 ![image displayed with a pink background on the LED matrix](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+Unabhängig davon, welches Bild du wählst, verwendet der Hintergrund die Variable `c`, die auf Schwarz gesetzt ist.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Verwende den Farbsensor, um deinen Hintergrund einzufärben.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Füge Code vor der Liste mit deinem Bild hinzu, um die Farbe vom Sensor zu erhalten und ändere deine `c` Hintergrundfarbenvariable, um die Farbe zu verwenden, die der Sense HAT Farbsensor anstelle von Schwarz erfasst.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Tipp:** Du musst keine Kommentare eingeben, die mit '#' beginnen (sie sind da, um den Code zu erklären).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Farbvariablen und Bild hinzufügen
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Schwarz m = (34, 139, 34) # Waldgrün q = (255, 255, 0) # Gelb t = (255, 140, 0) # Dunkelorange y = (255, 20, 147) # Dunkelrosa
 
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+rgb = sense.color # erhalte die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue) # verwende die Farbe
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
 --- /code ---
 
@@ -33,35 +33,35 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Test:** Bewege den Farbregler auf eine Farbe deiner Wahl und **starte** deinen Code. Deine Hintergrundfarbe ändert sich. Wiederhole diesen Test mit einer neuen Farbe.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Tipp:** Du musst jedes Mal auf 'Ausführen' klicken, wenn du die Farbe änderst.
 
 --- /task ---
 
-## Loop your program
+## Mache eine Programmschleife
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Das Programm Astro Pi Mission Zero darf bis zu 30 Sekunden laufen. Du wirst diese Zeit nutzen, um den Farbsensor wiederholt abzufragen und das Bild zu aktualisieren.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Ihr Code verwendet eine `-for-` -Schleife, um 28 Mal ausgeführt zu werden. **Jedes** mal wird es:
++ die neueste Farbe ermitteln
++ die Hintergrundfarbe des Bildes aktualisieren
++ eine Sekunde pausieren
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Finde** deine `rgb = sense.color` Codezeile.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+Code darüber **hinzufügen** um deine `for` -Schleife für `28` Wiederholungen einzurichten.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue)
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
 --- /code ---
 
@@ -69,22 +69,22 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Du musst jetzt deinen gesamten Code unter der `for` -Schleife einrücken, sodass er **innerhalb** der `for` -Schleife sitzt.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Tipp:** Um mehrere Zeilen einzurücken, markiere die Zeilen, die du einrücken möchtest, und drücke dann die Taste <kbd>Tab</kbd> auf deiner Tastatur (normalerweise über der Taste <kbd>Caps Lock</kbd> auf der Tastatur).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
-  # Display the image
+  # Das Bild anzeigen
 
-  sense.set_pixels(image)
+  sense.set_pixels(bild)
 
 --- /code ---
 
@@ -92,52 +92,52 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Füge am Ende deines Codes einen `Sleep`Befehl mit einer Sekunde innerhalb deiner Schleife hinzu:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
-  # Display the image
+  # Das Bild anzeigen
 
-  sense.set_pixels(image) sleep(1)
+  sense.set_pixels(bild) sleep(1)
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Tipp:** Stelle sicher, dass diese Codezeile innerhalb deiner `for` Schleife eingerückt ist.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test:** Führe deinen Code aus und ändere die Farbauswahl mehrmals während dein Projekt läuft. Überprüfe, ob dein Bild aktualisiert wird, und die erfasste Farbe beim nächsten Durchlauf verwendet.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+Das Bild wird nicht mehr aktualisiert, wenn die Schleife beendet ist, so dass das Programm nicht länger als 30 Sekunden läuft.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+**Fehlersuche**
+
+Mein Code hat einen Syntaxfehler oder läuft nicht wie erwartet:
+
+- Überprüfe, ob dein Code mit dem Code in den obigen Beispielen übereinstimmt
+- Überprüfe, ob du den Code in der `for`Schleife richtig eingerückt hast
+- Überprüfe, ob deine Liste von `[` und `]`umgeben ist
+- Überprüfe, ob die Farbvariablen in der Liste durch Kommas getrennt sind
+
+Mein Code läuft länger als 30 Sekunden:
+
+- Verringere die Anzahl der Durchläufe deiner for-Schleife von 28 auf 25 oder sogar 20.
+- Verringern Sie die Schlafdauer von 1 Sekunde auf 0,5 Sekunden.
+
+--- /task ---
+
+--- task ---
+
+Füge `sense.clear()` am Ende deines Codes hinzu, um das Bild am Ende deiner Schleife zu löschen. This will help you see when your animation has finished running.
 
 **Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
 
