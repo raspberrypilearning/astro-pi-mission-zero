@@ -1,10 +1,10 @@
-## Mérd meg a páratartalmat
+## Hogyan tovább: még több Astro Pi projekt
 
 Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
-Ha elég magabiztosnak érzed magad, akár a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)ben is részt vehetsz! Állíts össze minimum két, maximum hat emberből álló csapatot, és dolgozzatok együtt igazi űrkutatókként a saját kísérletetek megtervezésén. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Ha elég magabiztosnak érzed magad, akár a [Mission Space Lab](https://astro-pi.org/missions/space-lab/)ben is részt vehetsz! Állíts össze minimum két, maximum hat emberből álló csapatot, és dolgozzatok együtt igazi űrkutatókként a saját kísérletetek megtervezésén. A legjobb beküldött ötletek egy Astro Pi készletet kapnak, hogy segítse a küldetésüket.
 
-Az Astro Pi az ISS-en a páratartalmat a levegőben levő víz százalékos arányaként méri meg.
+Vagy kipróbálhatod valamelyik másik Sense HAT projektünket:
 
 + Tudj meg [többet a Sense HAT-ről](https://projects.raspberrypi.org/hu-HU/projects/getting-started-with-the-sense-hat){:target="_blank"} és arról, még mikre képes
 
