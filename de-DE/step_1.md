@@ -1,14 +1,14 @@
 ## Das wirst du machen
 
-Besuchen Sie die [Trinket emulator Mission Zero Seite](https://trinket.io/mission-zero){:target="_blank"}.
+Schließe dieses Projekt ab, um bei[Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} mit zu machen und deinen Code im Weltraum auf einem Astro Pi Computer laufen zu lassen.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Dein Projekt setzt die Hintergrundfarbe eines Bildes auf die Farbe, die der Astro Pi erkennt. Damit wird die Internationale Raumstation (ISS) für die Astronauten an Bord bunter. Dein Code verwendet den Farbsensor auf dem Sense HAT des neuen Mark II Astro Pi-Computers, um dies zu ermöglichen.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Hier ist ein Beispiel für die Art von Programm, das du erstellen könntest, um es auf einem Astro Pi im Weltraum auszuführen.
 
 ![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-### Was du noch brauchst
+### Was du brauchen wirst
 
 You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
