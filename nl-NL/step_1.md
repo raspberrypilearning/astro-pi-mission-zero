@@ -1,32 +1,32 @@
 ## Je gaat maken
 
-Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
+Voltooi dit project om [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} in te voeren en je code in de ruimte te laten draaien op een Astro Pi-computer.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Je project stelt de achtergrondkleur van een afbeelding in op de kleur die de Astro Pi waarneemt. Dit maakt het International Space Station (ISS) kleurrijker voor de astronauten aan boord. Je code gebruikt de kleurhelderheidssensor op de Sense HAT van de nieuwe Mark II Astro Pi-computer om dit mogelijk te maken.
 
 Hier is een voorbeeld van het soort programma dat je zou kunnen maken.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![De Sense HAT-emulator draait een voorbeeldprogramma met een slang waarvan de achtergrondkleur verandert in de waargenomen kleur.](images/finished.gif)
 
 ### Je hebt nodig
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Je gebruikt de Astro Pi-emulator in een webbrowser om je programma aan te maken. Je hebt geen Astro Pi computer nodig.
 
 ### Astro Pi Mission Zero criteria
 
-*Als het voldoet aan de geschiktheidscriteria* wordt jouw voltooide programma in de ruimte uitgevoerd op het International Space Station (ISS)! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
+**Als je project voldoet aan de [criteria voor geschiktheid](https://astro-pi.org/mission-zero/eligibility){:target="_ blank"}**, zal je voltooide programma worden uitgevoerd op het International Space Station! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
 
 Je leert over de Astro Pi-eenheid en hoe je hem bestuurt, inclusief hoe je:
 + berichten en kleuren laat zien
 + afbeeldingen maakt
-+ Sense the colour of light on board the ISS
++ Neem de kleur van het licht aan boord van het ISS waar
 
 --- collapse ---
 ---
 title: Notities voor leraren en mentoren
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero is geschikt voor beginners en/of basisschoolkinderen en kan worden voltooid in één sessie van een uur op elke computer met internettoegang. Er zijn geen speciale hardware of voorafgaande codeervaardigheden nodig. Alles kan in een webbrowser worden gedaan.
 
 Groepeer de leerlingen in teams van maximaal vier en laat ons hen begeleiden bij het schrijven van een kort Python-programma om een ​​persoonlijke boodschap en de luchtvochtigheid op de Astro Pi te laten zien.
 
