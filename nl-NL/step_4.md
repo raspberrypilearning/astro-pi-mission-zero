@@ -10,7 +10,7 @@ Welke afbeelding je ook kiest, de achtergrond gebruikt de variabele `c` die is i
 
 Gebruik de kleursensor om je achtergrond in te kleuren.
 
-Voeg code toe voor je afbeelding lijst om de kleur van de sensor te krijgen en verander je `c` achtergrondkleurvariabele om de kleur te gebruiken die wordt gedetecteerd door de Sense HAT-kleurensensor in plaats van zwart.
+Voeg code toe voor je afbeeldingenlijst om de kleur van de sensor te krijgen en verander je `c` achtergrondkleurvariabele om de kleur te gebruiken die wordt gedetecteerd door de Sense HAT-kleurensensor in plaats van zwart.
 
 **Tip:**Je hoeft de opmerkingen die beginnen met '#' niet in te typen (ze zijn er om de code uit te leggen).
 
@@ -178,7 +178,7 @@ Voeg code toe om de LED-matrix te wissen in een kleur naar keuze. Maak een varia
 
 Je kunt je eigen kleur mengen of de waarden uit de lijst met kleuren gebruiken om je nieuwe `x`kleur te maken.
 
-[[[generic-theory-colours]]]
+\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
 --- code ---
 ---
