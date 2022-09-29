@@ -2,7 +2,7 @@
 
 In diesem Schritt richtest du den Farbsensor ein und verwendest ihn, um die Menge an Rot, Grün und Blau zu erfassen, die den Sensor erreicht. Diese Farbe wird dann verwendet, um dein ausgewähltes Bild einzufärben. Ein Astronaut, der in einem blauen Hemd auf den Sensor zugeht, würde ein anderes Bild sehen als ein Astronaut in einem roten Hemd.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![Bild, das mit einem rosa Hintergrund auf der LED-Matrix angezeigt wird](images/colour_background.png)
 
 Unabhängig davon, welches Bild du wählst, verwendet der Hintergrund die Variable `c`, die auf Schwarz gesetzt ist.
 
@@ -137,18 +137,18 @@ Mein Code läuft länger als 30 Sekunden:
 
 --- task ---
 
-Füge `sense.clear()` am Ende deines Codes hinzu, um das Bild am Ende deiner Schleife zu löschen. This will help you see when your animation has finished running.
+Füge `sense.clear()` am Ende deines Codes hinzu, um das Bild am Ende deiner Schleife zu löschen. Damit siehst du, wenn deine Animation beendet ist.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Tipp:** Stelle sicher, dass du die Codezeile **sense.clear()** `nicht` einrückst, da diese nur einmal am Ende deiner Animation ausgeführt werden soll.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
-  # Display the image
+  # Das Bild anzeigen
 
-  sense.set_pixels(image) sleep(1)
+  sense.set_pixels(bild) sleep(1)
 
 sense.clear()
 
@@ -158,25 +158,25 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test:** Führe deinen Code erneut aus. Wenn dein Projekt fertig ist, wird die LED-Matrix gelöscht, wobei alle Lichter schwarz (aus) sind.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Fehlersuche**
 
-The LED matrix turns black every second:
+Die LED-Matrix wird jede Sekunde schwarz:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Stelle sicher, dass du den Code `sense.clear()` in deiner `-for-` -Schleife nicht eingerückt hast
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Erstelle eine Variable, um deine gewählte Farbe zu speichern.
+Füge Code hinzu, um die LED-Matrix auf eine Farbe deiner Wahl zu löschen. Erstelle eine Variable namens `x`, um deine gewählte Farbe zu speichern.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Du kannst deine eigene Farbe mischen oder die Werte aus der Farbliste verwenden, um deine neue `x`-Farbe zu erstellen.
 
 [[[generic-theory-colours]]]
 
@@ -185,11 +185,11 @@ You can mix your own colour or use the values from the list of colours to create
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6-7
 ---
-  # Display the image
+  # Das Bild anzeigen
 
-  sense.set_pixels(image) sleep(1)
+  sense.set_pixels(bild) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
+x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0 - 255 sense.clear(x)
 
 --- /code ---
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Führe deinen Code erneut aus. Wenn dein Projekt fertig ist, leuchtet die LED-Matrix in der von dir gewählten Farbe. Du kannst die Farbe beliebig oft ändern und dann testen.
 
 --- /task ---
 
@@ -206,38 +206,38 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Vollständiges Code-Beispiel
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Ein Raster mit 8 x 8 Quadraten, die eine rosa Blume auf einem grünen Stiel zeigen.](images/flower.png)
 
 --- code ---
 ---
 language: python filename: main.py
 line_numbers: false
 ---
-# Import the libraries
+# Bibliotheken importieren
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Einrichten des Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+# Farbsensor einrichten
+sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein sense.color.integration_cycles = 64 # Das Intervall in dem gemessen wird
 
-# Add colour variables and image
+# Farbvariablen und Bild hinzufügen
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Schwarz m = (34, 139, 34) # Waldgrün q = (255, 255, 0) # Gelb t = (255, 140, 0) # Dunkelorange y = (255, 20, 147) # Dunkelrosa
 
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
-  # Display the image
+  # Das Bild anzeigen
 
-  sense.set_pixels(image) sleep(1)
+  sense.set_pixels(bild) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
+x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0 - 255 sense.clear(x)
 
 --- /code ---
 
