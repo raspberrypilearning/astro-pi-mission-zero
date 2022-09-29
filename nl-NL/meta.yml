@@ -14,12 +14,12 @@ steps:
   - 
     title: Toon een afbeelding
     completion:
-      - gekoppeld
+      - engaged
   - 
     title: Een kleur waarnemen
   - 
     title: Verstuur je inzending
     completion:
-      - intern
+      - internal
   - 
     title: Wat nu - meer Astro Pi-projecten
