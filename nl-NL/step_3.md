@@ -1,18 +1,18 @@
 ## Toon een afbeelding
 
-De LED-matrix van de Astro Pi kan kleuren weergeven. In deze stap zul je afbeeldingen van de natuur weergeven van de LED-matrix van de Astro Pi.
+De LED-matrix van de Astro Pi kan kleuren weergeven. In deze stap zul je afbeeldingen van de natuur weergeven op de LED-matrix van de Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster van LED's die afzonderlijk of als groep kunnen worden aangestuurd om verschillende lichteffecten te creëren. De LED-matrix op de Sense HAT heeft 64 LED's die worden weergegeven in een 8 x 8 raster. De LED's kunnen worden geprogrammeerd om een breed scala aan kleuren te produceren.
 </p>
 
-![Een screenshot van het emulatorvenster met de Flight Unit met de LED-matrix met een afbeelding van een bloem.](images/fu-pic.png)
+![Een screenshot van het emulatorvenster van de Flight Unit met de LED-matrix waarop een afbeelding van een bloem te zien is.](images/fu-pic.png)
 
 --- task ---
 
 Open het [Mission Zero-startproject](http://rpf.io/mzcode){:target="_blank"}.
 
-Je zult zien dat er automatisch drie regels met code voor je zijn toegevoegd:
+Je zult zien dat er automatisch enkele regels met code voor je zijn toegevoegd.
 
 Deze code maakt verbinding met de Astro Pi en zorgt ervoor dat het LED-display van de Astro Pi op de juiste manier wordt weergegeven en doet de set up van de kleurensensor. Laat de code staan, want je hebt hem nodig.
 
@@ -42,7 +42,7 @@ Kleuren kunnen worden gemaakt met verschillende verhoudingen van rood, groen en 
 
 [[[generic-theory-simple-colours]]]
 
-De LED-matrix is een 8 x 8 raster. Elke LED op het rooster kan op een andere kleur worden ingesteld. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
+De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleur worden ingesteld. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
 
 [[[ambient-colours]]]
 
@@ -52,7 +52,7 @@ De LED-matrix is een 8 x 8 raster. Elke LED op het rooster kan op een andere kle
 
 **Kies:** Kies een afbeelding om weer te geven uit de onderstaande opties. Python slaat de informatie voor een afbeelding op in een lijst. De code voor elke afbeelding bevat de gebruikte kleurvariabelen en de lijst.
 
-Je moet **alle code** kopiëren voor je gekozen afbeelding en **plak** het in je project onder de regel met `# Add colour variables and image`.
+Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je project onder de regel `# Add colour variables and image`.
 
 --- collapse ---
 
