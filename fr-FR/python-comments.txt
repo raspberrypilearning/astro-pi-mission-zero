@@ -1,14 +1,14 @@
-Import the libraries
+Importer les bibliothèques
 
-Set up the Sense HAT
+Configuer le Sense HAT
 
-Set up the colour sensor
+Configurer le capteur de couleurs
 
-Set the sensitivity of the sensor
+Régler la sensibilité du capteur
 
-The interval at which the reading will be take
+L'intervalle auquel la mesure est effectuée
 
-Modifie le texte et la couleur du message de bienvenue - quel message veux-tu envoyer aux astronautes à bord de l'ISS ?
+Ajouter des variables de couleur et une image
 
 Afficher l'image
 
@@ -16,24 +16,24 @@ Blanc
 
 Noir
 
-MediumBlue
+Bleu moyen
 
 Jaune
 
-DarkOrange
+Orange foncé
 
-Pink
+Rose
 
-ForestGreen
+Vert forêt
 
-DeepPink
+Rose foncé
 
 Rouge
 
-MidnightBlue
+Bleu nuit
 
-get the colour from the sensor
+obtenir la couleur du capteur
 
-use the sensed colour
+utiliser la couleur détectée
 
-choose your own red, green, blue values between 0 - 255
+choisis tes propres valeurs de rouge, vert et bleu entre 0 et 255
