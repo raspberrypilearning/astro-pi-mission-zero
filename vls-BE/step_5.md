@@ -6,7 +6,7 @@ Er zijn enkele regels die je code moet volgen zodat je ze kan indienen om te wer
 
 **Tip:** Test je code met een aantal verschillende kleurinstellingen (gebruik de kiezer) om ervoor te zorgen dat het altijd juist werkt.
 
-Zorg ervoor dat je project voldoet aan de [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero. Als het niet voldoet aan de richtlijnen, zal je programma niet kunnen werken in het Internationaal Ruimtestation.
+Zorg ervoor dat je project voldoet aan de [officiele richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero. Als het niet voldoet aan de richtlijnen, zal je programma niet kunnen werken in het Internationaal Ruimtestation.
 
 Gelieve geen van de onderstaande te gebruiken in de naam van je team of in je code:
 
@@ -20,24 +20,24 @@ Gelieve geen van de onderstaande te gebruiken in de naam van je team of in je co
 
 --- task ---
 
-Voeg je klascode en teamnaam in het vakje onderaan in - je leraar zal je vertellen wat je code is.
+Voeg je klascode en teamnaam in het vakje onderaan in - je begeleider zal je vertellen wat je code is.
 
 ![Formulier voor het indienen van klascode en teamnaam](images/submission.png)
 
-**Notes for mentors** kunnen teruggevonden worden in de [introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) stap.
+**Opmerkingen voor begeleiders** kunnen teruggevonden worden in de [Introductie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) stap.
 
 --- /task ---
 
 --- task ---
 
-Klik op de **Add your team** toe om. je code in te dienen. Merk op dat een programme niet meer aangepast kan worden als het ingediend werd.
+Klik op de **Voeg je team toe** knop om je code in te dienen. Merk op dat een programma niet meer aangepast kan worden als het ingediend werd.
 
-Je leraar ontvangt een mail om je deelname te bevestigen.
+Je begeleider ontvangt een mail om je deelname te bevestigen.
 
 --- /task ---
 
 --- task ---
 
-Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in Space zal werken!
+Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in de ruimte zal werken!
 
 --- /task ---
