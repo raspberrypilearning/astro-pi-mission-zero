@@ -1,25 +1,25 @@
-## Προσθήκη χρώματος
+## Αίσθηση ενός χρώματος
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+Σε αυτό το βήμα, θα ρυθμίσεις τον αισθητήρα φωτεινότητας χρώματος και θα τον χρησιμοποιήσεις για να αντιληφθείς την ποσότητα του κόκκινου, πράσινου και μπλε που φτάνει στον αισθητήρα. Αυτό το χρώμα θα χρησιμοποιηθεί στη συνέχεια για να χρωματίσεις την εικόνα που έχεις επιλέξει. Ένας αστροναύτης που περπατούσε προς τον αισθητήρα με μπλε πουκάμισο θα έβλεπε μια διαφορετική εικόνα από έναν αστροναύτη με κόκκινο πουκάμισο.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![εικόνα που εμφανίζεται με ροζ φόντο στην οθόνη LED](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Για όποια εικόνα επέλεξες, το φόντο χρησιμοποιεί τη μεταβλητή `c` η οποία είναι ρυθμισμένη ως μαύρη.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Χρησιμοποίησε τον αισθητήρα χρώματος για να χρωματίσεις το φόντο σου.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Πρόσθεσε κώδικα πριν τη λίστα εικόνων για να πάρεις το χρώμα από τον αισθητήρα και να αλλάξεις το χρώμα της μεταβλητής φόντου `c` για να χρησιμοποιήσεις το χρώμα που ανίχνευσε ο αισθητήρας χρωμάτων Sense HAT αντί για το μαύρο.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Συμβουλή:** Δεν χρειάζεται να πληκτρολογήσεις τα σχόλια που ξεκινούν με '#' (βρίσκονται εκεί για να εξηγήσουν τον κώδικα).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Προσθήκη μεταβλητών χρωμάτων και εικόνας
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Δοκιμή:** Μετακίνησε τη γραμμή κύλισης χρώματος προς ένα χρώμα της επιλογής σου και μετά **εκτέλεσε** τον κώδικά σου. Το χρώμα του φόντου σου θα αλλάξει. Επανάλαβε αυτή τη δοκιμή ξανά με ένα νέο χρώμα.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Συμβουλή:** Θα πρέπει να κάνεις κλικ στο «Run» κάθε φορά που αλλάζεις το χρώμα.
 
 --- /task ---
 
-## Loop your program
+## Επανάληψη του προγράμματός σου
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Το πρόγραμμα Astro Pi Mission Zero επιτρέπεται να εκτελεστεί έως και για 30 δευτερόλεπτα. Θα χρησιμοποιήσεις αυτό το χρονικό διάστημα για να ελέγχεις επανειλημμένα τον αισθητήρα χρώματος και να ενημερώνεις την εικόνα.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Ο κώδικάς σου θα χρησιμοποιήσει ένα βρόχο `for` για να εκτελεστεί 28 φορές. **Κάθε** φορά θα:
++ ανιχνεύεις το πιο πρόσφατο χρώμα
++ ενημερώνεις το χρώμα φόντου της εικόνας
++ κάνεις παύση για ένα δευτερόλεπτο
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Βρες** τη δική σου γραμμή κώδικα `rgb = sense.color`.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Πρόσθεσε** κώδικα από πάνω για να ρυθμίσεις τον βρόχο `for` για `28` επαναλήψεις.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Τώρα πρέπει να κάνεις εσοχή σε όλο τον κώδικά σου κάτω από τον βρόχο `for`, έτσι ώστε να βρίσκεται **μέσα ** στον βρόχο `for`.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Συμβουλή:** Για να δημιουργήσεις εσοχές σε πολλές γραμμές, επισήμανε τις γραμμές που θέλεις να βάλεις σε εσοχή και στη συνέχεια, πάτα το πλήκτρο <kbd>Tab</kbd> στο πληκτρολόγιό σου (συνήθως πάνω από το πλήκτρο <kbd>Caps Lock</kbd> στο πληκτρολόγιο).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Στο κάτω μέρος του κώδικά σου, πρόσθεσε ένα `sleep` του ενός δευτερολέπτου στον βρόχο σου:
 
 --- code ---
 ---
@@ -105,15 +105,15 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Συμβουλή:** Βεβαιώσου ότι αυτή η γραμμή κώδικα έχει εσοχές μέσα στον βρόχο `for`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου και άλλαξε τον επιλογέα χρώματος πολλές φορές καθώς εκτελείται το έργο σου. Έλεγξε ότι η εικόνα σου ενημερώνει, ότι θα χρησιμοποιηθεί το χρώμα που ανιχνεύθηκε στην επόμενη εκτέλεση.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
+Η εικόνα θα σταματήσει να ενημερώνεται όταν τελειώσει ο βρόχος, έτσι ώστε το πρόγραμμα να μην εκτελείται για περισσότερο από 30 δευτερόλεπτα.
 
 --- /task ---
 
@@ -121,25 +121,25 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 **Εντοπισμός σφαλμάτων**
 
-My code has a syntax error or doesn't run as expected:
+Ο κώδικάς μου έχει συντακτικό λάθος ή δεν εκτελείται όπως αναμένεται:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Έλεγξε ότι ο κώδικάς σου ταιριάζει με τον κώδικα στα παραπάνω παραδείγματα
+- Βεβαιώσου ότι έχεις κάνει εσοχή στον κώδικα μέσα στον βρόχο `for`
+- Έλεγξε ότι η λίστα σου περιβάλλεται από `[` και `]`
+- Έλεγξε ότι κάθε μεταβλητή για τα χρώματα στη λίστα διαχωρίζεται με κόμμα
 
-My code runs for longer than 30 seconds:
+Ο κώδικάς μου εκτελείται για περισσότερο από 30 δευτερόλεπτα:
 
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+- Μείωσε τον αριθμό των φορών που εκτελείται ο βρόχος, από 28 σε 25 ή ακόμη και 20.
+- Μείωσε τη διάρκεια του sleep, από 1 δευτερόλεπτο σε 0,5 δευτερόλεπτα.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+Πρόσθεσε `sense.clear()` στο τέλος του κώδικα σου για να καθαρίσεις την εικόνα στο τέλος του βρόχου σου. Αυτό θα σε βοηθήσει να δεις πότε θα τελειώσει η εκτέλεση του κινούμενου σχεδίου.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Συμβουλή:** Βεβαιώσου ότι **δεν κάνεις** εσοχή στη γραμμή κώδικα `sense.clear()`, καθώς θέλεις να εκτελείται μόνο μία φορά στο τέλος της κινούμενης εικόνας σου.
 
 --- code ---
 ---
@@ -158,7 +158,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου πάλι. Όταν το έργο σου έχει τελειώσει την εκτέλεσή του, η οθόνη LED θα καθαρίσει, κάνοντας όλα τα φώτα μαύρα (σβηστά).
 
 --- /task ---
 
@@ -166,17 +166,17 @@ sense.clear()
 
 **Εντοπισμός σφαλμάτων**
 
-The LED matrix turns black every second:
+Ο οθόνη LED γίνεται μαύρη κάθε δευτερόλεπτο:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Έλεγξε ότι δεν έχεις βάλει σε εσοχή τον κώδικα `sense.clear()` μέσα στον βρόχο `for`
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Πρόσθεσε κώδικα για να καθαρίσεις την οθόνη LED σε ένα χρώμα της επιλογής σου. Δημιούργησε μια μεταβλητή που ονομάζεται `x` για να αποθηκεύσεις το νέο σου χρώμα.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Μπορείς να αναμίξεις το δικό σου χρώμα ή να χρησιμοποιήσεις τις τιμές από τη λίστα χρωμάτων για να δημιουργήσεις το νέο σου χρώμα `x`.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου πάλι. Όταν ολοκληρωθεί η εκτέλεση του έργου σου, η οθόνη LED θα καθαρίσει στο χρώμα που έχεις επιλέξει. Μπορείς να αλλάξεις και στη συνέχεια να δοκιμάσεις το χρώμα όσες φορές θέλεις.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Παράδειγμα ολοκληρωμένου κώδικα
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνει ένα ροζ λουλούδι σε ένα πράσινο μίσχο.](images/flower.png)
 
 --- code ---
 ---
