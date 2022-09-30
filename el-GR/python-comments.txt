@@ -1,14 +1,14 @@
-Import the libraries
+Εισαγωγή βιβλιοθηκών
 
-Set up the Sense HAT
+Σύνδεση του Sense HAT
 
-Set up the colour sensor
+Ρύθμιση του αισθητήρα χρωμάτων
 
-Set the sensitivity of the sensor
+Ρύθμιση της ευαισθησίας του αισθητήρα
 
-The interval at which the reading will be take
+Το διάστημα κατά το οποίο θα γίνεται η ανάγνωση
 
-Add colour variables and image
+Προσθήκη μεταβλητών χρωμάτων και εικόνας
 
 Εμφάνιση της εικόνας
 
@@ -16,24 +16,24 @@ Add colour variables and image
 
 Μαύρο
 
-MediumBlue
+Μεσαίο Μπλε
 
 Κίτρινο
 
-DarkOrange
+Σκούρο Πορτοκαλί
 
-Pink
+Ροζ
 
-ForestGreen
+Πράσινο του Δάσους
 
-DeepPink
+Σκούρο Ροζ
 
 Κόκκινο
 
-MidnightBlue
+Μπλε του Μεσονυκτίου
 
-get the colour from the sensor
+λήψη του χρώματος από τον αισθητήρα
 
-use the sensed colour
+χρήση του χρώματος του αισθητήρα
 
-choose your own red, green, blue values between 0 - 255
+επίλεξε τις δικές σου τιμές κόκκινου, πράσινου, μπλε μεταξύ 0 - 255
