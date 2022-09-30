@@ -1,43 +1,43 @@
-## Laat een beeld zien
+## Dien je project in
 
 Er zijn enkele regels die je code moet volgen zodat je ze kan indienen om te werken op het internationaal ruimtestation. Als je code hieraan voldoet, zullen de regels onderaan de **Sense HAT-emulator** groen oplichten als je het programma laat werken.
 
-![Een screenshot van het emulator-venster dat de vluchteenheid toont met de LED-matrix waarop een foto van de vluchteenheid zelf getoond wordt](images/rules.png)
+![De pagina van Mission Zero met de toelatingscriteria voor deelname.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Tip:** Test je code met een aantal verschillende kleurinstellingen (gebruik de kiezer) om ervoor te zorgen dat het altijd juist werkt.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Zorg ervoor dat je project voldoet aan de [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero. Als het niet voldoet aan de richtlijnen, zal je programma niet kunnen werken in het Internationaal Ruimtestation.
 
-**Opmerking:** Deze keer is het een goed idee om de kleurvariabelen namen met één letter te geven, omdat dit tijd zal besparen in de volgende stap, waar je ze vaak zal moeten typen. Bovendien maakt het gebruik van aparte letters het eenvoudiger om de tekening die je maakt te zien.
+Gelieve geen van de onderstaande te gebruiken in de naam van je team of in je code:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Alles wat geïnterpreteerd zou kunnen worden als iets van illegale, politieke of gevoelige aard
++ Vlaggen, omdat die als politiek gevoelig beschouwd kunnen worden
++ Alles wat verwijst naar onaangenaamheden of iemand anders kwetst
++ Persoonlijke gegevens zoals telefoonnummers, links naar sociale media en mailadressen
++ Obscene afbeeldingen
++ Speciale tekens of emoji's
++ Slecht taalgebruik of vloeken
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Voeg je klascode en teamnaam in het vakje onderaan in - je leraar zal je vertellen wat je code is.
 
-![Classroom code and team name submission form](images/submission.png)
+![Formulier voor het indienen van klascode en teamnaam](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Notes for mentors** kunnen teruggevonden worden in de [introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) stap.
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Klik op de **Add your team** toe om. je code in te dienen. Merk op dat een programme niet meer aangepast kan worden als het ingediend werd.
 
-Your mentor will get an email to confirm your entry.
+Je leraar ontvangt een mail om je deelname te bevestigen.
 
 --- /task ---
 
 --- task ---
 
-Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in Space zal runnen!
+Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in Space zal werken!
 
 --- /task ---
