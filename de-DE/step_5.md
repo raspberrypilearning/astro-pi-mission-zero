@@ -1,4 +1,4 @@
-## Miss die Luftfeuchtigkeit
+## Deinen Beitrag einsenden
 
 Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im **Sense HAT emulator** grün angezeigt.
 
