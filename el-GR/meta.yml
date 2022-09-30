@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Εισαγωγή
+    title: Θα φτιάξεις
   - 
     title: Τι είναι το Astro Pi;
   - 
     title: Εμφάνιση εικόνας
     completion:
-      - external
+      - αφοσιωμένος
   - 
-    title: Προσθήκη χρώματος
+    title: Αίσθηση ενός χρώματος
   - 
-    title: Εμφάνιση εικόνας
+    title: Υποβολή της καταχώρισής σου
     completion:
       - εσωτερικός
   - 
-    title: Μέτρηση της υγρασίας
+    title: Τι ακολουθεί — περισσότερα έργα Astro Pi
