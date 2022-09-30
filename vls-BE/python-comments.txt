@@ -1,39 +1,39 @@
-Import the libraries
+Importeer de bibliotheken
 
-Set up the Sense HAT
+Installeer de Sense HAT
 
-Set up the colour sensor
+Installeer de kleursensor
 
-Set the sensitivity of the sensor
+Stel de gevoeligheid van de sensor in
 
-The interval at which the reading will be take
+Het interval waarin het uitlezen gebeurt
 
-Add colour variables and image
+Voeg kleurvariabelen en beeld toe
 
-Display the image
+Toon de afbeelding
 
-White
+Wit
 
-Black
+Zwart
 
-MediumBlue
+Middenblauw
 
 Geel
 
-DarkOrange
+Donkeroranje
 
-Pink
+Roze
 
-ForestGreen
+Bosgroen
 
-DeepPink
+Dieproze
 
 Rood
 
-MidnightBlue
+Middernachtblauw
 
-get the colour from the sensor
+ontvang de kleur van de sensor
 
-use the sensed colour
+gebruik de waargenomen kleur
 
-choose your own red, green, blue values between 0 - 255
+kies je eigen rood-, groen-, blauw-waardes tussen 0 - 255
