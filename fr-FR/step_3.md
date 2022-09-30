@@ -1,33 +1,33 @@
-## Ajouter de la couleur
+## Afficher une image
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+La matrice LED de l'Astro Pi peut afficher des couleurs. Dans cette étape, tu vas afficher des images de la nature sur la matrice LED de l'Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Une <span style="color: #0faeb0">**matrice LED**</span> est une grille de LED qui peuvent être contrôlées individuellement ou en groupe pour créer différents effets d'éclairage. La matrice LED du Sense HAT comporte 64 LED affichées dans une grille de 8 x 8. Les LED peuvent être programmées pour produire une large gamme de couleurs.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Une capture d'écran de la fenêtre de l'émulateur montrant l'unité de vol avec la matrice LED qui affiche l'image d'une fleur.](images/fu-pic.png)
 
 --- task ---
 
-Ouvre [l'émulateur Sense HAT](https://trinket.io/mission-zero){:target="_blank"} pour le projet Mission Zero.
+Ouvre le [projet de démarrage de Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-Tu vas constater que trois lignes de code ont été ajoutées automatiquement :
+Tu verras que quelques lignes de code ont été ajoutées pour toi automatiquement.
 
-Ce code se connecte à l'Astro Pi et s'assure que l'écran LED de l'Astro Pi est affiché dans le bon sens. Laisse ce code ici car tu en auras besoin.
+Ce code se connecte à l'Astro Pi et fait en sorte que l'écran LED de l'Astro Pi s'affiche correctement et effectue la configuration du capteur de couleurs. Laisse ce code ici car tu en auras besoin.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 title: Quels caractères peuvent être utilisés ?
 ---
-# Import the libraries
+# Importer les bibliothèques
 Afficher un message et choisir un nom pour les nouveaux ordinateurs Astro Pi
 
-# Set up the Sense HAT
+# Configuer le Sense HAT
 from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Configurer le capteur de couleurs
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
@@ -36,13 +36,13 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /task ---
 
-### RGB Colours
+### Les couleurs RVB
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Tu peux créer des couleurs en utilisant différentes valeurs de rouge, vert et bleu. Tu peux découvrir les couleurs RVB ici :
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. Voici une liste de variables pour 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu :
 
 [[[ambient-colours]]]
 
@@ -50,14 +50,14 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Choisir :** Choisis une image à afficher parmi les options ci-dessous. Python stocke les informations d'une image dans une liste. Le code de chaque image comprend les variables de couleur utilisées et la liste.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller** dans ton projet sous la ligne indiquant `# Ajouter les variables de couleur et l'image`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Poulet
 ---
 
 ![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
@@ -78,7 +78,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Fleur
 ---
 
 ![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
@@ -98,7 +98,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Crabe
 ---
 
 ![A grid with 8 x 8 squares showing a crab.](images/crab.png)
@@ -140,7 +140,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Serpent
 ---
 
 ![A grid with 8 x 8 squares showing a snake.](images/snake.png)
@@ -160,7 +160,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Grenouille
 ---
 
 ![A grid with 8 x 8 squares showing a frog.](images/frog.png)
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Recherche :** la ligne indiquant `# Afficher l'image` et ajoute une ligne de code pour afficher ton image sur la matrice LED :
 
 --- code ---
 ---
@@ -200,7 +200,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Appuie sur **Run** en bas de l'éditeur, pour voir ton image s'afficher sur la matrice LED.
 
 --- /task ---
 
@@ -208,16 +208,16 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 **Déboguer**
 
-My code has a syntax error:
+Mon code a une erreur de syntaxe :
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Vérifie que ton code correspond au code des exemples ci-dessus
+- Vérifie que tu as bien indenté le code dans ta liste
+- Vérifie que ta liste est entourée de `[` et `]`
+- Vérifie que chaque variable de couleur de la liste est séparée par une virgule
 
-My image does not appear:
+Mon image n'apparaît pas :
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Vérifie que ton `sense.set_pixels(image)` n'est pas indenté
 
 --- /task ---
 
