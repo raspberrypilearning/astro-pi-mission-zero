@@ -14,12 +14,12 @@ steps:
   - 
     title: Afficher une image
     completion:
-      - engagé
+      - engaged
   - 
     title: Détecter une couleur
   - 
     title: Soumettre ton programme
     completion:
-      - interne
+      - internal
   - 
     title: Et ensuite — d’autres projets Astro Pi
