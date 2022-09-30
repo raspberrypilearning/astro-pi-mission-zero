@@ -1,36 +1,36 @@
-## Introductie
+## Je zal het volgende maken
 
-Fleur de dagelijkse routine van de astronauten in het internationaal ruimtestation op door hun een boodschap en de relatieve luchtvochtigheid te laten zien aan boord door gebruik te maken van de Sense Hat van de Astro Pi computer.
+Werk dit project af om mee te doen aan [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} en laat je code werken in de ruimte op een Astro Pi-computer.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Jouw project zal de achtergrondkleur van een afbeelding veranderen naar de kleur die de Astro Pi detecteert. Dit zal het internationaal ruimtestation (ISS) kleurrijker maken voor de astronauten aan boord. Je code zal de kleurintensiteitssensor op de Sense HAT van de nieuwe Mark II Astro Pi computer daarvoor gebruiken.
 
-Je zult de online Sense HAT emulator gebruiken om je programma te ontwerpen, er is dus geen extra hardware nodig - alles wordt gedaan in de web browser. *Als het voldoet aan de toelatingscriteria* zal je afgewerkte programma in de ruimte werken op het internationaal ruimtestation (ISS)! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
+Hier is een voorbeeld van het soort programma dat je zou kunnen maken op op een Astro Pi in de ruimte te laten werken.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![De Sense HAT-emulator draait een testprogramma met een slang waarvan de achtergrondkleur verandert volgens de kleurmeting.](images/finished.gif)
 
-### Wat je gaat maken
+### Wat je nodig hebt
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken. Je hebt geen Astr Pi computer nodig.
 
-### Hardware
+### Criteria voor de Astro Pi Mission Zero
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
+**Als je project voldoet aan de [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, zal je afgewerkt programma werken op het Internationaal Ruimtestation! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ hoe je boodschappen en kleuren kan tonen
-+ hoe je beelden kan ontwerpen
-+ Hoe je de vochtigheid kan meten met een Sense HAT
+Je komt vanalles te weten over de Astro Pi computer en hoe je ermee moet werken en ook hoe:
++ Kleur **variables** kan maken om te gebruiken in je afbeelding
++ Je beelden kan ontwerpen en tonen op de Sense HAT
++ Je de kleur van de lichten aan boord van het ISS kan meten
 
 --- collapse ---
 ---
-title: Wat je zal leren
+title: Opmerkingen voor mentors
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero is geschikt voor beginnende programmeurs en/of kinderen van lagere school-leeftijd en kunnen afgewerkt worden in één enkele sessie van 60 minuten op eender welke computer met internettoegang. Er is geen speciale hardware of voorgaande codeerkennis nodig. Alles kan in een webbrowser uitgevoerd worden.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Verdeel je jongeren in teams van 1 tot 4 en laat ons hen begeleiden bij het schrijven van een kort Python-programma om de kleur aan boord van het ISS te meten en een afbeelding te maken met die kleur.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Lees de [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
 
 --- /collapse ---
 
