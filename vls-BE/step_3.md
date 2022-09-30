@@ -1,16 +1,16 @@
-## Laat een boodschap zien en kies een naam voor de nieuwe Astro Pi-computers
+## Laat een afbeelding zien
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+De LED matrix van de Astro Pi kan kleuren laten zien. In deze stap zal je natuurafbeeldingen laten zien op de LED matrix van de Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Een <span style="color: #0faeb0">**LED matrix**</span> is een raster met LEDs die individueel of in groep bestuurd kunnen worden om verschillende lichteffecten te creëeren. De LED matrix op de Sense HAT heeft 64 LEDs die in een raster van 8 x 8 getoond worden. De LEDs kunnen geprogrammeerd worden om een breeder gamma van kleuren te maken.
 </p>
 
 ![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
 
 --- task ---
 
-Deze code maakt verbinding met de Astro Pi en zorgt ervoor de het LED-scherm van de Astro Pi op de juiste manier weergegeven wordt. Laat de code staan, want je zal ze nodig hebben.
+Open het [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
