@@ -32,7 +32,7 @@ sense = SenseHat() sense.set_rotation(270)
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Ένα στιγμιότυπο οθόνης του εξομοιωτή Sense HAT με γραμμές του αρχικού κώδικα να εμφανίζονται στο αριστερό παράθυρο.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -60,7 +60,7 @@ sense = SenseHat() sense.set_rotation(270)
 title: Κοτόπουλο
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κοτόπουλο σε ένα αυγό.](images/chick.png)
 
 --- code ---
 ---
@@ -81,7 +81,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 title: Λουλούδι
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνει ένα ροζ λουλούδι σε ένα πράσινο μίσχο.](images/flower.png)
 
 --- code ---
 ---
@@ -101,7 +101,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 title: Κάβουρας
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνουν ένα καβούρι.](images/crab.png)
 
 --- code ---
 ---
@@ -122,7 +122,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 title: Κροκόδειλος
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κεφάλι κροκόδειλου.](images/croc.png)
 
 --- code ---
 ---
@@ -143,7 +143,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Φίδι
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα φίδι.](images/snake.png)
 
 --- code ---
 ---
@@ -163,7 +163,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Βάτραχος
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν βάτραχο.](images/frog.png)
 
 --- code ---
 ---
