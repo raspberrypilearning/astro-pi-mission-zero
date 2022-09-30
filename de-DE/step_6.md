@@ -1,17 +1,17 @@
-## Reagiere auf die Luftfeuchtigkeit
+## Wie geht es weiter – weitere Astro Pi-Projekte
 
 Jetzt, wo du deine Mission beendet hast, hättest du doch sicher Lust noch ein paar Projekte mit den anderen Sensoren auf dem Astro Pi auszuprobieren?
 
-Wenn du es dir zutraust, könntest du an der [Mission Space Lab](https://astro-pi.org/missions/space-lab/) teilnehmen! Stellt ein Team von zwei bis sechs Personen zusammen und arbeitet wie echte Weltraumwissenschaftler zusammen, um euer eigenes Experiment zu entwerfen. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Wenn du es dir zutraust, könntest du an der [Mission Space Lab](https://astro-pi.org/missions/space-lab/) teilnehmen! Stelle ein Team von zwei bis sechs Personen zusammen und arbeitet wie echte Weltraumwissenschaftler zusammen, um euer eigenes Experiment zu entwerfen. Die besten eingereichten Ideen erhalten ein Astro Pi-Kit, das euch bei eurer Mission unterstützen könnte.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Alternativ möchtest du vielleicht eines unserer anderen Sense HAT-Projekte ausprobieren:
 
-+ Erfahre [mehr über den Sense HAT](https://projects.raspberrypi.org/de-DE/projects/getting-started-with-the-sense-hat){:target="_blank"} und was er noch alles kann
++ Erfahre [mehr über den Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} und die anderen Möglichkeiten, die es bietet
 
-+ Erstelle ein hübsches [willkürliches Glitzern](https://projects.raspberrypi.org/de-DE/projects/sense-hat-random-sparkles){:target="_blank"} auf dem LED-Bildschirm des Sense HAT
++ Erzeuge auf dem LED-Display des Sense HAT ein paar hübsche [zufällige Glitzer](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"}
 
-+ Entwickle ein [Flappy Astronaut](https://projects.raspberrypi.org/de-DE/projects/flappy-astronaut){:target="_blank"} Spiel
++ Erstelle ein [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}-Spiel
 
-+ Fordere deine Freunde zu einem [Murmel-Labyrinth](https://projects.raspberrypi.org/de-DE/projects/sense-hat-marble-maze){:target="_blank"} Spiel heraus
++ Fordere deine Freunde mit einem [-Murmel-Labyrinth-](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze)-{:target="_blank"}-Spiel heraus
 
-+ Bilde das klassische Spiel [Pong](https://projects.raspberrypi.org/de-DE/projects/sense-hat-pong){:target="_blank"} nach
++ Erstelle das klassische Spiel [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong)neu {:target="_blank"}
