@@ -1,33 +1,33 @@
-## Εμφάνιση μηνύματος και επιλογή ονόματος για τους νέους υπολογιστές Astro Pi
+## Εμφάνιση εικόνας
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+Τα LED του Astro Pi μπορούν εμφανίζουν χρώματα. Σε αυτό το βήμα, θα εμφανίσεις εικόνες από τη φύση στη οθόνη LED του Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED matrix**</span> είναι ένα πλέγμα από LED που μπορούν να ελεγχθούν μεμονωμένα ή ως ομάδα για να δημιουργήσουν διαφορετικά εφέ φωτισμού. Το LED matrix στο Sense HAT έχει 64 LED που εμφανίζονται σε ένα πλέγμα 8 x 8. Τα LED μπορούν να προγραμματιστούν ώστε να παράγουν μεγάλη γκάμα χρωμάτων.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Ένα στιγμιότυπο οθόνης του παραθύρου εξομοιωτή που δείχνει τη Μονάδα Πτήσης με την οθόνη LED να εμφανίζει μια εικόνα ενός λουλουδιού.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Άνοιξε το [αρχικό έργο Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Θα δεiw ότι μερικές γραμμές κώδικα έχουν ήδη προστεθεί αυτόματα για σένα.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Άφησε αυτόν τον κώδικα εκεί, γιατί θα τον χρειαστείς.
+Αυτός ο κώδικας συνδέεται με το Astro Pi, εξασφαλίζει ότι η οθόνη LED του Astro Pi εμφανίζεται με τον σωστό τρόπο και ρυθμίζει τον αισθητήρα χρώματος. Άφησε αυτόν τον κώδικα εκεί, γιατί θα τον χρειαστείς.
 
 --- code ---
 ---
 Πρόσθεσε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
 title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν;
 ---
-# Import the libraries
+# Εισαγωγή βιβλιοθηκών
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Σύνδεση του Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Ρύθμιση του αισθητήρα χρωμάτων
 Πάτησε το κουμπί «**Run**» (Εκτέλεση) και παρακολούθησε το κυλιόμενο μήνυμα «`Astro Pi`» στην οθόνη LED.
 
 --- /code ---
@@ -36,28 +36,28 @@ sense = SenseHat() sense.set_rotation(270)
 
 --- /task ---
 
-### Επίλεξε ένα όνομα για τους νέους υπολογιστές Astro Pi
+### Χρώματα RGB
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Τα χρώματα μπορούν να δημιουργηθούν χρησιμοποιώντας διαφορετικές αναλογίες κόκκινου, πράσινου και μπλε. Μπορείς να μάθεις για τα χρώματα RGB εδώ:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+Ο πίνακας LED matrix είναι ένα πλέγμα 8 x 8. Κάθε LED στο πλέγμα μπορεί να ρυθμιστεί σε διαφορετικό χρώμα. Εδώ είναι μια λίστα μεταβλητών για 24 διαφορετικά χρώματα. Κάθε χρώμα έχει μια τιμή για το κόκκινο, το πράσινο και το μπλε:
 
 [[[ambient-colours]]]
 
-### Επέλεξε μια εικόνα
+### Επίλεξε μια εικόνα
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Επίλεξε:** Από τις παρακάτω επιλογές διάλεξε μια εικόνα για να την εμφανίσεις. Η Python αποθηκεύει τις πληροφορίες για μια εικόνα σε μια λίστα. Ο κώδικας για κάθε εικόνα περιλαμβάνει τις μεταβλητές για τα χρώματα που χρησιμοποιούνται και τη λίστα.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Θα χρειαστεί να **αντιγράψεις** όλο τον κώδικα για την εικόνα που επέλεξες και στη συνέχεια **να τον επικολλήσεις** στο έργο σου κάτω από τη γραμμή που λέει `# Προσθήκη μεταβλητών χρώματος και εικόνας`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Κοτόπουλο
 ---
 
 ![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
@@ -78,7 +78,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Λουλούδι
 ---
 
 ![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
@@ -98,7 +98,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Κάβουρας
 ---
 
 ![A grid with 8 x 8 squares showing a crab.](images/crab.png)
@@ -119,7 +119,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Κροκόδειλος
 ---
 
 ![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
@@ -140,7 +140,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Φίδι
 ---
 
 ![A grid with 8 x 8 squares showing a snake.](images/snake.png)
@@ -160,7 +160,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Βάτραχος
 ---
 
 ![A grid with 8 x 8 squares showing a frog.](images/frog.png)
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Εύρεση:**η γραμμή που λέει `# Εμφάνιση εικόνας` και προσθέτει μια γραμμή κώδικα για να εμφανίσει την εικόνα σου στην οθόνη LED:
 
 --- code ---
 ---
@@ -200,7 +200,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Πάτα **Run (Εκτέλεση)** στο κάτω μέρος του επεξεργαστή, για να δεις την εικόνα σου να εμφανίζεται στην οθόνη LED.
 
 --- /task ---
 
@@ -208,16 +208,16 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 **Εντοπισμός σφαλμάτων**
 
-My code has a syntax error:
+Ο κώδικάς μου έχει ένα συντακτικό σφάλμα:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Έλεγξε ότι ο κώδικάς σου ταιριάζει με τον κώδικα στα παραπάνω παραδείγματα
+- Βεβαιώσου ότι έχεις στοιχίσει τον κώδικα στη λίστα σου
+- Έλεγξε ότι η λίστα σου περιβάλλεται από `[` και `]`
+- Έλεγξε ότι κάθε μεταβλητή για τα χρώματα στη λίστα διαχωρίζεται με κόμμα
 
-My image does not appear:
+Η εικόνα μου δεν εμφανίζεται:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Έλεγξε μήπως το `sense.set_pixels(image)` δεν είναι στοιχισμένο
 
 --- /task ---
 
