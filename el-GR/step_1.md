@@ -1,36 +1,36 @@
 ## Θα φτιάξεις
 
-Πρόσφερε μια ευχάριστη νότα στην καθημερινή ρουτίνα των αστροναυτών στον Διεθνή Διαστημικό Σταθμό, δείχνοντάς τους ένα μήνυμα και την υγρασία περιβάλλοντος μέσα στον σταθμό, χρησιμοποιώντας το Sense ΗΑΤ του νέου υπολογιστή Astro Pi Mark II.
+Ολοκλήρωσε αυτό το έργο για να μπεις στο [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} και να εκτελέσεις τον κώδικά σου στο διάστημα σε έναν υπολογιστή Astro Pi.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Το έργο σου θα ορίσει το χρώμα φόντου μιας εικόνας σύμφωνα με το χρώμα που ανιχνεύει το Astro Pi. Αυτό θα κάνει τον Διεθνή Διαστημικό Σταθμό (ISS) πιο πολύχρωμο για τους αστροναύτες που βρίσκονται στον σταθμό. Για να το κάνει αυτό, ο κώδικάς σου θα χρησιμοποιήσει τον αισθητήρα φωτεινότητας χρώματος στο νέο Sense HAT του υπολογιστή Mark II Astro Pi.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Εδώ είναι ένα παράδειγμα του είδους προγράμματος που θα μπορούσες να εκτελέσεις σε ένα Astro Pi στο διάστημα.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Ο εξομοιωτής Sense HAT εκτελεί ένα παράδειγμα προγράμματος με ένα φίδι στο οποίο το χρώμα του φόντου αλλάζει σύμφωνα με την αίσθηση χρώματος.](images/finished.gif)
 
-### Τι θα φτιάξεις
+### Θα χρειαστείς
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Θα χρησιμοποιήσεις τον εξομοιωτή Astro Pi σε ένα πρόγραμμα περιήγησης ιστού για να δημιουργήσεις το πρόγραμμά σου. Δεν χρειάζεσαι υπολογιστή Astro Pi.
 
-### Υλικό (Hardware)
+### Κριτήρια για το Astro Pi Mission Zero
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Θα λάβεις επίσης ένα ειδικό πιστοποιητικό που θα δείχνει πού ακριβώς βρισκόταν ο Διεθνής Διαστημικός Σταθμός κατά την εκτέλεση του προγράμματός σου.
+**Εάν το έργο σου πληροί τα [κριτήρια επιλεξιμότητας](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, το ολοκληρωμένο πρόγραμμά σαου θα εκτελεστεί στον Διεθνή Διαστημικό Σταθμό! Θα λάβεις επίσης ένα ειδικό πιστοποιητικό που θα δείχνει πού ακριβώς βρισκόταν ο ISS κατά την εκτέλεση του προγράμματός σου.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Εμφάνιση μηνυμάτων και χρωμάτων
-+ Δημιουργία εικόνων
-+ Μέτρηση υγρασίας με τη χρήση ενός Sense HAT
+Θα μάθεις σχετικά με τον υπολογιστή AstroPi και το πώς μπορείς να τον ελέγχεις, συμπεριλαμβανομένων και των εξής:
++ Δημιουργία **μεταβλητών** χρώματος για να χρησιμοποιήσεις στην εικόνα σου
++ Σχεδίαση και εμφάνιση μιας εικόνας στο Sense HAT
++ Αίσθηση του χρώματος του φωτός επί του ISS
 
 --- collapse ---
 ---
-title: Τι θα μάθεις
+title: Σημειώσεις για μέντορες
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Το Mission Zero είναι κατάλληλο για αρχάριους/ες στον προγραμματισμό και/ή παιδιά δημοτικού σχολείου και μπορεί να ολοκληρωθεί σε μία μόνο συνεδρία 60 λεπτών σε οποιονδήποτε υπολογιστή με πρόσβαση στο διαδίκτυο. Δεν απαιτείται ειδικό υλικό ή προηγούμενες δεξιότητες προγραμματισμού. Όλα μπορούν να γίνουν σε ένα πρόγραμμα περιήγησης ιστού.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Οργανώστε τους νέους/ες σε ομάδες των 1 έως τεσσάρων ατόμων, και αφήστε μας να τους καθοδηγήσουμε γράφοντας ένα σύντομο πρόγραμμα σε Python για να αισθανθούν το χρώμα στον ISS και να δημιουργήσουν μια εικόνα που χρησιμοποιεί αυτό το χρώμα.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} για το Mission Zero.
 
 --- /collapse ---
 
