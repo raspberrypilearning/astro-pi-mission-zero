@@ -1,38 +1,38 @@
 ## Deinen Beitrag einsenden
 
-Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln beim Ausführen des Programms unten im **Sense HAT emulator** grün angezeigt.
+Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die 4 Regeln unten im **Sense HAT emulator** nach dem Ausführen des Programms grün angezeigt.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![Die Mission Zero-Seite mit den Kriterienprüfungen für die Teilnahme.](images/rules.png)
 
-**Hinweis:** Es ist hier sinnvoll den Farbvariablen Namen aus nur einem Buchstaben zu geben, denn das spart Zeit im nächsten Schritt, wo du sie mehrmals tippen musst.
+**Tipp:** Teste deinen Code mit ein paar anderen Farbeinstellungen (mit dem Picker) um sicherzustellen, dass er immer korrekt läuft.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Bitte stelle sicher, dass dein Beitrag den [offiziellen Richtlinien](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} für Mission Zero entspricht. Wenn es den Richtlinien nicht entspricht, kann dein Programm nicht auf der Internationalen Raumstation ausgeführt werden.
 
-Please do not include any of the following in your team name or code:
+Bitte fügen Sie Folgendes nicht in Ihren Teamnamen oder Code ein:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Alles, was als illegal, politisch oder heikel interpretiert werden könnte
++ Flaggen, da sie als politisch sensibel angesehen werden können
++ Alles, was auf Unannehmlichkeiten oder Schaden für eine andere Person hinweist
++ Personenbezogene Daten wie Telefonnummern, Social-Media-Adressen und E-Mail-Adressen
++ Obszöne Bilder
++ Sonderzeichen oder Emojis
++ Schimpfwörter oder Fluchen
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Gib deinen Klassenraumcode und Teamnamen in das Feld unten ein – dein Mentor wird dir deinen Code mitteilen.
 
-![Classroom code and team name submission form](images/submission.png)
+![Formular zum Einreichen des Klassenraum-Codes und Teamnamens](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Hinweise für Mentoren** sind im Schritt [Einleitung](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) zu finden.
 
 --- /task ---
 
 --- task ---
 
-Klicke auf **Run** (Ausführen), um dein Bild angezeigt zu sehen. Please note that a program cannot be changed once it has been submitted.
+Drücke die Schaltfläche **Add your team** (Füge dein Team hinzu), um deinen Code einzureichen. Bitte beachte, dass ein Programm nach dem Absenden nicht geändert werden kann.
 
-Your mentor will get an email to confirm your entry.
+Dein Mentor wird eine E-Mail erhalten, um deine Einsendung zu bestätigen.
 
 --- /task ---
 
