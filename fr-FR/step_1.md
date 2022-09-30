@@ -1,36 +1,36 @@
-## Ce que tu feras
+## Ce que tu vas faire
 
-Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
+Termine ce projet pour participer à [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} et exécuter ton code dans l'espace sur un ordinateur Astro Pi.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Ton projet va définir la couleur d'arrière-plan d'une image à la couleur que l'Astro Pi détecte. La Station spatiale internationale (ISS) sera ainsi plus colorée pour les astronautes à bord. Ton code utilisera le capteur de luminosité des couleurs du nouveau Sense HAT de l'ordinateur Astro Pi Mark II pour y parvenir.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Voici un exemple du type de programme que tu pourrais créer.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![L'émulateur Sense HAT exécute un programme d'exemple avec un serpent dont la couleur de fond change en fonction de la couleur détectée.](images/finished.gif)
 
-### Tu auras besoin de :
+### Ce dont tu auras besoin
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Tu utiliseras l'émulateur Astro Pi dans un navigateur web pour créer ton programme. Tu n'as pas besoin d'un ordinateur Astro Pi.
 
-### Astro Pi Mission Zero criteria
+### Critères d'éligibilité de l'Astro Pi Mission Zero
 
-*S'il répond aux critères d'éligibilité,* ton programme terminé sera exécuté dans l'espace sur la Station spatiale internationale (ISS) ! Tu recevras également un certificat spécial qui indique exactement où se trouvait l'ISS lorsque ton programme a été exécuté.
+**Si ton projet répond aux [critères d'admissibilité](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, ton programme terminé sera exécuté sur la Station spatiale internationale ! Tu recevras également un certificat spécial qui indique exactement où se trouvait l'ISS lorsque ton programme a été exécuté.
 
 Tu découvriras l'Astro Pi et apprendras à l'utiliser et à faire les actions suivantes :
-+ afficher des messages et ajouter des couleurs
-+ créer des images
-+ Sense the colour of light on board the ISS
++ Créer des **variables** de couleur à utiliser dans ton image
++ Créer et afficher une image sur le Sense HAT
++ Détecter la couleur de la lumière à bord de l'ISS
 
 --- collapse ---
 ---
 title: Notes pour les enseignants et les mentors
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero est adapté aux débutants et/ou aux enfants de l'école primaire et peut être réalisé en une session d'une heure sur n'importe quel ordinateur avec accès à Internet. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
 
-Organisez vos élèves en équipes de deux à quatre personnes et laissez-nous les guider dans l'écriture d'un court programme Python pour afficher un message personnel et l'humidité relative sur l'Astro Pi.
+Regroupez les élèves en équipes de quatre au maximum et laissez-nous les guider dans l'écriture d'un court programme Python pour détecter la couleur à bord de l'ISS et créer une image qui utilise cette couleur.
 
-Consultez [les directives officielles](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-fr.pdf){:target="_blank"} pour Mission Zero.
+Consultez les [directives officielles](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
 --- /collapse ---
 
