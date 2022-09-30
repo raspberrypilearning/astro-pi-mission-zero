@@ -2,13 +2,13 @@
 
 Un Astro Pi est un ordinateur Raspberry Pi intégré dans un boîtier spécialement conçu pour les conditions spatiales.
 
-![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
+![Image animée d'un Sense HAT fixé au-dessus d'un ordinateur Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers come with a set of sensors and gadgets that can be used to run great scientific experiments. This set of sensors is called a ‘Sense HAT’ (that stands for ‘Hardware Attached on Top’). The Sense HAT gives Astro Pi the ability to ‘sense’ and make many kinds of measurements, from temperature to movement, and to output information using an 8 x 8 LED matrix display. The Astro Pis also have a joystick and buttons, just like a video game console!
+Les ordinateurs Astro Pi sont livrés avec un ensemble de capteurs et de gadgets qui peuvent être utilisés pour réaliser de grandes expériences scientifiques. Cet ensemble de capteurs est appelé « Sense HAT » (pour « Hardware Attached on Top »). Le Sense HAT permet à l'Astro Pi de « détecter » et d'effectuer de nombreux types de mesures, de la température au mouvement, et de fournir des informations à l'aide d'un écran matriciel à LED 8 x 8. Les Astro Pi disposent également d'un joystick et de boutons, comme une console de jeu vidéo !
 
-![Animated image of a Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+![Image animée d'un Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
 
-Pour cette mission, tu utiliseras l'émulateur Sense HAT. L'émulateur est un logiciel qui simule toutes les fonctions de l'Astro Pi dans ton navigateur Web.
+Pour cette mission, tu utiliseras l'émulateur Sense HAT qui simule les principales fonctions de l'Astro Pi dans ton navigateur web.
 
 
 
