@@ -3,7 +3,7 @@
 La matrice LED de l'Astro Pi peut afficher des couleurs. Dans cette étape, tu vas afficher des images de la nature sur la matrice LED de l'Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Une <span style="color: #0faeb0">**matrice LED**</span> est une grille de LED qui peuvent être contrôlées individuellement ou en groupe pour créer différents effets d'éclairage. La matrice LED du Sense HAT comporte 64 LED affichées dans une grille de 8 x 8. Les LED peuvent être programmées pour produire une large gamme de couleurs.
+Une <span style="color: #0faeb0">**matrice LED**</span> est une grille de LED qui peuvent être contrôlées individuellement ou en groupe pour créer différents effets de lumière. La matrice LED du Sense HAT comporte 64 LED affichées dans une grille de 8 x 8. Les LED peuvent être programmées pour produire une large gamme de couleurs.
 </p>
 
 ![Une capture d'écran de la fenêtre de l'émulateur montrant l'unité de vol avec la matrice LED qui affiche l'image d'une fleur.](images/fu-pic.png)
@@ -32,7 +32,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![Une capture d'écran de l'émulateur Trinket Sense Hat avec trois lignes de code de démarrage affichées dans le panneau de gauche.](images/sense-hat-emulator2.png)
+![Une capture d'écran de l'émulateur Sense HAT avec des lignes de code de démarrage affichées dans le panneau de gauche.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -52,7 +52,7 @@ La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée
 
 **Choisir :** Choisis une image à afficher parmi les options ci-dessous. Python stocke les informations d'une image dans une liste. Le code de chaque image comprend les variables de couleur utilisées et la liste.
 
-Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller** dans ton projet sous la ligne indiquant `# Ajouter les variables de couleur et l'image`.
+Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller** dans ton projet sous la ligne indiquant `# Ajouter des variables de couleur et une image`.
 
 --- collapse ---
 
@@ -60,7 +60,7 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 title: Poulet
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Une grille avec des carrés de 8 x 8 montrant un poussin dans un œuf.](images/chick.png)
 
 --- code ---
 ---
@@ -81,7 +81,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 title: Fleur
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Une grille avec des carrés de 8 x 8 montrant une fleur rose sur une tige verte.](images/flower.png)
 
 --- code ---
 ---
@@ -101,7 +101,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 title: Crabe
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Une grille avec des carrés de 8 x 8 montrant un crabe.](images/crab.png)
 
 --- code ---
 ---
@@ -122,7 +122,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 title: Crocodile
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Une grille avec des carrés de 8 x 8 montrant une tête de crocodile.](images/croc.png)
 
 --- code ---
 ---
@@ -143,7 +143,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Serpent
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Une grille avec des carrés de 8 x 8 montrant un serpant.](images/snake.png)
 
 --- code ---
 ---
@@ -163,7 +163,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Grenouille
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Une grille avec des carrés de 8 x 8 montrant une grenouille.](images/frog.png)
 
 --- code ---
 ---
