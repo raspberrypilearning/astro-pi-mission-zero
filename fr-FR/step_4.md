@@ -1,25 +1,25 @@
-## Afficher une image
+## Détecter une couleur
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+Dans cette étape, tu vas configurer le capteur de luminosité des couleurs et l'utiliser pour détecter la quantité de rouge, de vert et de bleu qui atteint le capteur. Cette couleur sera ensuite utilisée pour coloriser ton image. Un astronaute s'approchant du capteur en chemise bleue verrait une image différente de celle d'un astronaute en chemise rouge.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![image affichée avec un arrière-plan rose sur la matrice LED](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+Quelle que soit l'image choisie, l'arrière-plan utilise la variable `c` qui est définie sur le noir.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Utilise le capteur de couleurs pour coloriser ton arrière-plan.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Ajoute du code avant ta liste d'images pour obtenir la couleur du capteur et modifie ta variable de couleur d'arrière-plan `c` pour utiliser la couleur détectée par le capteur de couleur Sense HAT au lieu du noir.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Astuce :** tu n'as pas besoin de taper les commentaires qui commencent par « # » (ils sont là pour expliquer le code).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Ajouter de la couleur
+# Ajouter des variables de couleur et une image
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Test :** Déplace le curseur de couleur sur une couleur de ton choix, puis **exécute** ton code. Ta couleur de fond va changer. Répète ce test avec une nouvelle couleur.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Astuce :** tu devras cliquer sur « Exécuter » chaque fois que tu changeras la couleur.
 
 --- /task ---
 
-## Loop your program
+## Fais tourner ton programme en boucle
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Le programme Mission Zero de l'Astro Pi peut être exécuté pendant 30 secondes maximum. Tu utiliseras ce temps pour vérifier à plusieurs reprises le capteur de couleurs et actualiser l'image.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Ton code utilisera une boucle `for` pour s'exécuter 28 fois. À chaque **fois**, il va :
++ détecter la dernière couleur
++ mettre à jour la couleur d'arrière-plan de l'image
++ faire une pause d'une seconde
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Trouve** ta ligne de code `rgb = sense.color`.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Ajoute** du code juste au-dessus pour configurer ta boucle `for` pour `28` répétitions.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Tu dois maintenant indenter tout ton code sous la boucle `for` pour qu'il se trouve **à l'intérieur** de la boucle `for`.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Astuce :** pour indenter plusieurs lignes, mets en surbrillance les lignes que tu souhaites indenter puis appuie sur la touche <kbd>Tab</kbd> de ton clavier (généralement au-dessus de la touche <kbd>Verr Maj</kbd> du clavier).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Au bas de ton code, ajoute un `sleep` d'une seconde à l'intérieur de ta boucle :
 
 --- code ---
 ---
@@ -105,15 +105,15 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Astuce :** assure-toi que cette ligne de code est indentée dans ta boucle `for`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test :** Exécute ton code et modifie le sélecteur de couleur plusieurs fois lorsque ton projet est en cours d'exécution. Vérifie que ton image s'actualise pour utiliser la couleur détectée lors de sa prochaine exécution.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
+L'image cessera de s'actualiser lorsque la boucle se terminera afin que le programme ne dure pas plus de 30 secondes.
 
 --- /task ---
 
@@ -121,25 +121,25 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 **Déboguer**
 
-My code has a syntax error or doesn't run as expected:
+Mon code a une erreur de syntaxe ou ne s'exécute pas comme prévu :
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Vérifie que ton code correspond au code des exemples ci-dessus
+- Vérifie que tu as indenté le code dans ta boucle `for`
+- Vérifie que ta liste est entourée de `[` et `]`
+- Vérifie que chaque variable de couleur de la liste est séparée par une virgule
 
-My code runs for longer than 30 seconds:
+Mon code s'exécute pendant plus de 30 secondes :
 
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+- Diminue le nombre de fois où ta boucle « for » s'exécute, de 28 à 25 ou même 20.
+- Diminue la durée du « sleep », de 1 seconde à 0,5 seconde.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+Ajoute `sense.clear()` à la fin de ton code pour effacer l'image à la fin de ta boucle. Cela t'aidera à voir quand ton animation a fini de fonctionner.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Astuce :** assure-toi de **ne pas** indenter la ligne de code `sense.clear()` car tu veux que cela ne s'exécute qu'une fois à la fin de ton animation.
 
 --- code ---
 ---
@@ -158,7 +158,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test :** Exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED est effacée, ce qui fait que toutes les lumières deviennent noires (éteintes).
 
 --- /task ---
 
@@ -166,17 +166,17 @@ sense.clear()
 
 **Déboguer**
 
-The LED matrix turns black every second:
+La matrice LED devient noire toutes les secondes :
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Vérifie que tu n'as pas indenté le code `sense.clear()` dans ta boucle `for`
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Ajoute du code pour effacer la matrice de LED par une couleur de ton choix. Crée une variable appelée `x` pour stocker ta nouvelle couleur.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Tu peux mélanger ta propre couleur ou utiliser les valeurs de la liste de couleurs pour créer ta nouvelle couleur `x`.
 
 [[[generic-theory-colours]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test :** Exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Exemple de code terminé
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Une grille avec des carrés de 8 x 8 montrant une fleur rose sur une tige verte.](images/flower.png)
 
 --- code ---
 ---
