@@ -1,12 +1,12 @@
 ## Añade un poco de color
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+La matriz LED del Astro Pi puede mostrar colores. En este paso, mostrarás imágenes de la naturaleza en la matriz LED de Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de LEDs que se puede controlar individualmente o en grupo para crear diferentes efectos de iluminación. La matriz de LEDs del Sense HAT tiene 64 LEDs que se muestran en una cuadrícula de 8 x 8. Los LED se pueden programar para producir una amplia gama de colores.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Una captura de pantalla de la ventana del emulador que muestra la Unidad de vuelo con la matriz de LEDs mostrando una foto de una flor.](images/fu-pic.png)
 
 --- task ---
 
@@ -21,13 +21,13 @@ Este código se conecta al Astro Pi y se asegura de que la pantalla LED de Astro
 language: python filename: main.py line_numbers: false line_number_start: 1
 title: ¿Qué caracteres puedo utilizar?
 ---
-# Import the libraries
+# Importar las bibliotecas
 Muestra un mensaje y elige un nombre para los nuevos ordenadores Astro Pi
 
-# Set up the Sense HAT
+# Configurar el Sense HAT
 from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Configurar el sensor de color
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
@@ -38,11 +38,11 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 ### Colores RGB
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Los colores se pueden crear usando diferentes proporciones de rojo, verde y azul. Aquí puedes encotrar información sobre los colores RGB:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+La matriz de LEDs es una cuadrícula de 8 x 8. Cada LED de la cuadrícula se puede configurar en un color diferente. Aquí hay una lista de variables para 24 colores diferentes. Cada color tiene un valor para rojo, verde y azul:
 
 [[[ambient-colours]]]
 
@@ -50,17 +50,17 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Seleccionar:** Elije una imagen para mostrar entre las opciones a continuación. Python almacena la información de una imagen en una lista. El código para cada imagen incluye las variables de color utilizadas y la lista.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** en ru proyecto debajo de la línea que dice `# Agregar variables de color e imagen`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Pollo
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un pollito en un huevo.](images/chick.png)
 
 --- code ---
 ---
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Flor
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra una flor rosada con un tallo verde.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Cangrejo
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un cangrejo.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Cocodrilo
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra la cabeza de un cocodrilo.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Serpiente
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra una serpiente.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Rana
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra una rana.](images/frog.png)
 
 --- code ---
 ---
