@@ -1,4 +1,4 @@
-## Añade un poco de color
+## Muestra una imagen
 
 La matriz LED del Astro Pi puede mostrar colores. En este paso, mostrarás imágenes de la naturaleza en la matriz LED de Astro Pi.
 
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Buscar:** la línea que dice `# Mostrar la imagen` y añade una línea de código para mostrar la imagen en la matriz LED:
 
 --- code ---
 ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Pulsa **Ejecutar** en la parte inferior del editor, para ver tu imagen en la matriz de LEDs.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Depurar**
 
-My code has a syntax error:
+Mi código tiene un error de sintaxis:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Comprueba que tu código coincide con el código en los ejemplos anteriores
+- Comprueba que has indentado el código en tu lista
+- Compruebe que su lista está rodeada por `[` y `]`
+- Verifica que cada variable de color de la lista esté separada por una coma
 
-My image does not appear:
+Mi imagen no aparece:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Comprueba que tu `sense.set_pixels(image)` no esté indentado
 
 --- /task ---
 
