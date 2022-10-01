@@ -19,13 +19,13 @@ Ce code se connecte à l'Astro Pi et fait en sorte que l'écran LED de l'Astro�
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-title: Quels caractères peuvent être utilisés ?
+line_highlights:
 ---
 # Importer les bibliothèques
-Afficher un message et choisir un nom pour les nouveaux ordinateurs Astro Pi
+from sense_hat import SenseHat from time import sleep
 
 # Configuer le Sense HAT
-from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
+sense = SenseHat() sense.set_rotation(270)
 
 # Configurer le capteur de couleurs
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
@@ -143,7 +143,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Serpent
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant un serpant.](images/snake.png)
+![Une grille avec des carrés de 8 x 8 montrant un serpent.](images/snake.png)
 
 --- code ---
 ---
