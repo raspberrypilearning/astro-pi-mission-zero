@@ -6,7 +6,7 @@ La matrice LED di Astro Pi può visualizzare i colori. In questa fase, visualizz
 Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED che può essere controllata individualmente o in gruppo per creare diversi effetti di luce. La matrice LED del Sense HAT ha 64 LED visualizzati in una griglia 8 x 8. I LED possono essere programmati per produrre un'ampia gamma di colori.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Uno screenshot della finestra dell'emulatore che mostra l'unità di volo con la matrice LED che visualizza l'immagine di un fiore.](images/fu-pic.png)
 
 --- task ---
 
@@ -32,7 +32,7 @@ sense.color.gain = 60 # Imposta la sensibilità del sensore sense.color.integrat
 
 --- /code ---
 
-![Uno screenshot dell'emulatore Trinket Sense Hat con tre righe di codice di avvio visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
+![Uno screenshot dell'emulatore Sense HAT con linee di codice iniziale visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 title: Pollo
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Una griglia con 8 x 8 quadrati che mostra un pulcino in un uovo.](images/chick.png)
 
 --- code ---
 ---
@@ -81,7 +81,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 title: Fiore
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/flower.png)
 
 --- code ---
 ---
@@ -101,7 +101,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 title: Granchio
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Una griglia con 8 x 8 quadrati che mostra un granchio.](images/crab.png)
 
 --- code ---
 ---
@@ -122,7 +122,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 title: Coccodrillo
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Una griglia con 8 x 8 quadrati che mostra una testa di coccodrillo.](images/croc.png)
 
 --- code ---
 ---
@@ -143,7 +143,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Serpente
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Una griglia con 8 x 8 quadrati che mostra un serpente.](images/snake.png)
 
 --- code ---
 ---
@@ -163,7 +163,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Rana
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Una griglia con 8 x 8 quadrati che mostra una rana.](images/frog.png)
 
 --- code ---
 ---
@@ -217,7 +217,7 @@ Il mio codice ha un errore di sintassi:
 
 La mia immagine non viene visualizzata:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Verifica che il tuo `sense.set_pixels(image)` non sia indentato
 
 --- /task ---
 
