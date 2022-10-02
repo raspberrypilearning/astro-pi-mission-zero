@@ -1,73 +1,73 @@
-## Visa ett meddelande och välj ett namn för de nya Astro Pi -datorerna
+## Visa en bild
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+Astro Pis LED-matris kan visa färger. I det här steget kommer du att visa bilder från naturen på Astro Pis LED-matris.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+En <span style="color: #0faeb0">**LED-matris**</span> är ett rutnät av lysdioder som kan styras individuellt eller som en grupp för att skapa olika ljuseffekter. LED-matrisen på Sense HAT har 64 lysdioder som visas i ett 8 x 8 rutnät. Lysdioderna kan programmeras för att producera ett brett spektrum av färger.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av en blomma.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Öppna startprojektet [Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Du kommer att se att några rader kod har lagts till för dig automatiskt.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Lämna kvar koden där, för du kommer att behöva den.
+Den här koden ansluter till Astro Pi, ser till att Astro Pis LED-display visas på rätt sätt och ställer in färgsensorn. Lämna kvar koden där, för du kommer att behöva den.
 
 --- code ---
 ---
-Lägg till den här raden under de andra kodraderna:
-title: Vilka tecken går att använda?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
-# Import the libraries
+# Importera biblioteken
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Ställ in Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
-Tryck på knappen **Run** (Kör) och se meddelandet `Astro Pi` rullar över LED-displayen.
+# Ställ in färgsensorn
+sense.color.gain = 60 # Ställ in sensorns känslighet sense.color.integration_cycles = 64 # Intervallet med vilket avläsningen ska göras
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![En skärmdump av Sense HAT-emulatorn med rader med startkod som visas i den vänstra rutan.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### Välj ett namn för de nya Astro Pi-datorerna
+### RGB-färger
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Färger kan skapas med olika proportioner av rött, grönt och blått. Du kan läsa mer om RGB färger här:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+LED-matrisen är ett 8 x 8 rutnät. Varje lysdiod på nätet kan ställas in på olika färger. Här är en lista med variabler för 24 olika färger. Varje färg har ett värde för rött, grönt och blått:
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Välj en bild
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Välj:** Välj en bild att visa från alternativen nedan. Python lagrar informationen för en bild i en lista. Koden för varje bild inkluderar de färgvariabler som används och listan.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** den i ditt projekt under raden som säger `# Lägg till färgvariabler och bild`.
 
 --- collapse ---
 
 ---
-title: Chicken
+titel: Kyckling
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Ett rutnät med 8 x 8 rutor som visar en kyckling i ett ägg.](images/chick.png)
 
 --- code ---
 ---
-Om du vill rösta måste ditt meddelande börja med dessa ord, annars kommer vi inte automatiskt att kunna räkna ditt bidrag.
+language: python filename: main.py
 line_numbers: false
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
+a = (255, 255, 255) # Vit c = (0, 0, 0) # Svart e = (0, 0, 205) # MediumBlå q = (255, 255, 0) # Gul t = (255, 140, 0) # MörkOrange w = (255, 192, 203) # Rosa
 
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
@@ -78,17 +78,17 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+titel: Blomma
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Ett rutnät med 8 x 8 rutor som visar en rosa blomma på en grön stjälk.](images/flower.png)
 
 --- code ---
 ---
 language: python filename: main.py
 line_numbers: false
 ---
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Svart m = (34, 139, 34) # Skogsgrön q = (255, 255, 0) # Gul t = (255, 140, 0) # MörkOrange y = (255, 20, 147) # DeepPink
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -98,17 +98,17 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+titel: Krabba
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Ett rutnät med 8 x 8 rutor som visar en krabba.](images/crab.png)
 
 --- code ---
 ---
 language: python filename: main.py
 line_numbers: false
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
+a = (255, 255, 255) # Vit c = (0, 0, 0) # Svart v = (255, 0, 0) # Röd
 
 image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
@@ -119,17 +119,17 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+titel: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Ett rutnät med 8 x 8 rutor som visar ett krokodilhuvud.](images/croc.png)
 
 --- code ---
 ---
 language: python filename: main.py
 line_numbers: false
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
+a = (255, 255, 255) # Vit c = (0, 0, 0) # Svart f = (25, 25, 112) # Midnattsblå m = (34, 139, 34) # Skogsgrön
 
 image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
@@ -140,17 +140,17 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+titel: Orm
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Ett rutnät med 8 x 8 rutor som visar en orm.](images/snake.png)
 
 --- code ---
 ---
 language: python filename: main.py
 line_numbers: false
 ---
- c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+ c = (0, 0, 0) # Svart m = (34, 139, 34) # Skogsgrön q = (255, 255, 0) # Gul v = (255, 0, 0) # Röd
 
 image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
 
@@ -160,17 +160,17 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+titel: Groda
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Ett rutnät med 8 x 8 rutor som visar en groda.](images/frog.png)
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start:
 line_highlights:
 ---
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+c = (0, 0, 0) # Svart m = (34, 139, 34) # Skogsgrön q = (255, 255, 0) # Gul v = (255, 0, 0) # Röd
 
 image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
 
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Hitta:** raden som säger `# Visa bilden` och lägg till en kodrad för att visa din bild på LED-matrisen:
 
 --- code ---
 ---
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Visa bilden
 sense.set_pixels(image)
 
 --- /code ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Tryck på **Kör** längst ner i editorn för att se din bild visas på LED-matrisen.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Felsökning**
 
-My code has a syntax error:
+Min kod har ett syntaxfel:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Kontrollera att din kod matchar koden i exemplen ovan
+- Kontrollera att du har dragit in koden i din lista
+- Kontrollera att din lista är omgiven av `[` och `]`
+- Kontrollera att varje färgvariabel i listan är avgränsad med ett kommatecken
 
-My image does not appear:
+Min bild visas inte:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Kontrollera att din `sense.set_pixels(image)` inte är indragen
 
 --- /task ---
 
