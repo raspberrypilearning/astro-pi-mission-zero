@@ -1,29 +1,29 @@
-## Lägg till lite färg
+## Känn en färg
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+I det här steget kommer du att ställa in färgljussensorn och använda den för att känna av mängden rött, grönt och blått som når sensorn. Denna färg kommer sedan att användas för att färglägga din valda bild. En astronaut som går upp till sensorn i en blå skjorta skulle se en annan bild än en astronaut i en röd skjorta.
 
 ![image displayed with a pink background on the LED matrix](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Vilken bild du än väljer använder bakgrunden variabeln `c` som är inställd på svart.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Använd färgsensorn för att färga din bakgrund.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Lägg till kod före din bildlista för att få färgen från sensorn och ändra din `c` bakgrundsfärgvariabel för att använda färgen som avkänns av Sense HAT-färgsensorn istället för svart.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Tips:** Du behöver inte skriva kommentarerna som börjar med '#' (de är till för att förklara koden).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Lägg till färgvariabler och bild
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Svart m = (34, 139, 34) # Skogsgrön q = (255, 255, 0) # Gul t = (255, 140, 0) # MörkOrange y = (255, 20, 147) # DjupRosa
 
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue) # använd den avlästa färgen
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -33,15 +33,15 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Test:** Flytta färgreglaget till en färg som du väljer och sedan **kör** din kod. Din bakgrundsfärg kommer att ändras. Upprepa detta test igen med en ny färg.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Tips:** Du måste klicka på "Kör" varje gång du ändrar färg.
 
 --- /task ---
 
-## Loop your program
+## Loopa ditt program
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Astro Pi Mission Zero-programmet får köras i upp till 30 sekunder. You will use this time to repeatedly check the colour sensor and update the image.
 
 Your code will use a `for` loop to run 28 times. **Each** time it will:
 + sense the latest colour
