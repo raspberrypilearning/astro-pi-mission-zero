@@ -41,12 +41,12 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 ## Loopa ditt program
 
-Astro Pi Mission Zero-programmet får köras i upp till 30 sekunder. You will use this time to repeatedly check the colour sensor and update the image.
+Astro Pi Mission Zero-programmet får köras i upp till 30 sekunder. Du kommer att använda denna tid för att upprepade gånger kontrollera färgsensorn och uppdatera bilden.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Din kod kommer att använda en `for` loop för att köra 28 gånger. **Varje** gång kommer den att:
++ känna den senaste färgen
++ uppdatera bildens bakgrundsfärg
++ pausa i en sekund
 
 --- task ---
 
