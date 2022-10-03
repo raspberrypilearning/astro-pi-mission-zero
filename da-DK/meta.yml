@@ -14,12 +14,12 @@ steps:
   - 
     title: Vis en besked
     completion:
-      - engaged
+      - engagéret
   - 
     title: Tilføj noget farve
   - 
     title: Vis et billede
     completion:
-      - internal
+      - intern
   - 
     title: Mål luftfugtigheden
