@@ -8,7 +8,7 @@ Nastav citlivost senzoru
 
 The interval at which the reading will be take
 
-Přidej proměnné barev a obrázek
+Přidej proměnné s barvami a obrázek
 
 Zobraz obrázek
 
