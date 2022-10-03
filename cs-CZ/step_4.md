@@ -2,7 +2,7 @@
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![obrázek zobrazený s růžovým pozadím na LED matici](images/colour_background.png)
 
 [[[generic-theory-colours]]]
 
@@ -19,7 +19,7 @@ Add code before your image list to get the colour from the sensor and change you
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Přidej proměnné s barvami a obrázek
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -164,9 +164,9 @@ sense.clear()
 
 --- task ---
 
-**Debug**
+**Ladění**
 
-The LED matrix turns black every second:
+LED matice každou sekundu zčerná:
 
 - Check that you have not indented the `sense.clear()` code within your `for` loop
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Příklad dokončeného kódu
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Mřížka o velikosti 8 × 8, na které je fialová kytička se zeleným stonkem.](images/flower.png)
 
 --- code ---
 ---
