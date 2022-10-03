@@ -1,36 +1,36 @@
-## Úvod
+## Co budeš dělat
 
 Dokonči tento projekt a zapoj se do výzvy [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, díky které tvůj kód poběží ve vesmíru na počítači Astro Pi.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Tvůj projekt nastaví barvu pozadí obrázku na barvu, kterou rozpozná počítač Astro Pi. Díky tomu bude Mezinárodní vesmírná stanice (ISS) pro astronauty na palubě barevnější. Tvůj kód k tomu použije senzor barev a svítivosti na desce Sense HAT u nových počítačů Mark II Astro Pi.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Tady je ukázkový program, který by mohl běžet ve vesmíru na počítači Astro Pi a který zvládneš naprogramovat i ty.
 
 ![Emulátor Sense HAT, na kterém je spuštěný ukázkový program s hadem, kterému se mění pozadí v závislosti na senzoru barev.](images/finished.gif)
 
-### Co budeš dělat
+### Co budeš potřebovat
 
 Budeš používat emulátor Astro Pi ve webovém prohlížeči a vytvoříš program. Nepotřebuješ počítač Astro Pi.
 
-### Hardware
+### Kritéria výzvy Astro Pi Mission Zero
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
+**Pokud tvůj program splňuje [kritéria způsobilosti](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, poběží na Mezinárodní vesmírné stanici! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ zobrazovat zprávy a barvy,
-+ vytvářet obrázky,
-+ měřit vlhkost pomocí Sense HAT.
+Dozvíš se o počítači Astro Pi a naučíš se ho ovládat. Také se naučíš, jak:
++ vytvářet **proměnné** s barvami, které využiješ ve svém obrázku,
++ navrhnout a zobrazit obrázek na Sense HAT,
++ naměřit barvu světla na palubě ISS.
 
 --- collapse ---
 ---
-title: Co se naučíš
+title: Poznámky pro mentory
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Výzva Mission Zero je vhodná pro ty, kteří s programováním začínají, a/nebo děti ve školním věku a lze ji dokončit během jediného 60minutového sezení na jakémkoliv počítači s připojením k internetu. Není potřeba žádný speciální hardware ani předchozí znalosti programování. Vše se dá udělat ve webovém prohlížeči.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak napsat krátký program v jazyce Python, který naměří barvu na palubě ISS a za pomocí této barvy vytvoříme obrázek.
 
-Projdi si [oficiální pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro Mission Zero.
+Projděte si [oficiální pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro Mission Zero.
 
 --- /collapse ---
 
