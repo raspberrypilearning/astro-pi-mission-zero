@@ -6,7 +6,7 @@ LED obrazovka počítače Astro Pi umí zobrazovat barvy. V tomto kroku zobrazí
 <span style="color: #0faeb0">**LED matice**</span> je mřížka osazená LED diodami, které můžeš ovládat jednotlivě nebo jako skupinu, a můžeš tak docílit různých světelných efektů. LED matice na desce Sense HAT má 64 LED diod v mřížce o velikosti 8 × 8. Tyto LED diody můžeš naprogramovat tak, aby vyprodukovaly širokou škálu barev.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Snímek obrazovky emulátoru, který zobrazuje letovou jednotku s LED maticí zobrazující obrázek kytičky.](images/fu-pic.png)
 
 --- task ---
 
@@ -14,7 +14,7 @@ Otevři [startovací projekt výzvy Mission Zero](http://rpf.io/mzcode){:target=
 
 Uvidíš pár řádků kódu, které tam už budou automaticky přichystané.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Ten kód tam nech, protože ho budeš potřebovat.
+Tento kód slouží k připojení k počítači Astro Pi a zajistí, že se jeho LED displej bude zobrazovat správně, a také nastavuje senzor barev. Ten kód tam nech, protože ho budeš potřebovat.
 
 --- code ---
 ---
@@ -32,17 +32,17 @@ Stiskni tlačítko **Run** (spustit) a dívej se, jak zpráva `Astro Pi` běží
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Snímek obrazovky emulátoru Sense HAT s několika řádky startovacího kódu zobrazeným v levém panelu.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
 ### Barvy RGB
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Barvy se dají vytvořit pomocí různých poměrů červené, zelené a modré. O barvách RGB se můžeš dozvědět zde:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+LED matice je mřížka o velikost 8 × 8. Každou LED diodu na mřížce lze nastavit na jinou barvu. Tady je seznam proměnných pro 24 různých barev. Každá barva obsahuje hodnotu pro červenou, zelenou a modrou:
 
 [[[ambient-colours]]]
 
@@ -50,9 +50,9 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Vyber:** Zvol si obrázek, který chceš zobrazit, z příkladů uvedených níže. Python ukládá informaci o obrázku do seznamu. Kód každého obrázku obsahuje proměnné použitých barev a samotný seznam.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** ho do svého projektu pod řádek, na kterém je napsáno `# Přidej proměnné s barvami a obrázek`.
 
 --- collapse ---
 
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Najdi:** řádek, na kterém je napsáno `# Zobraz obrázek` a přidej řádek kódu, který zobrazí tvůj obrázek na LED matici:
 
 --- code ---
 ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Klepni na tlačítko **Run** v dolní části editoru a tvůj obrázek se zobrazí na LED matici.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Ladění**
 
-My code has a syntax error:
+Můj kód má chyby v syntaxi:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Zkontroluj si, jestli tvůj kód odpovídá kódu v příkladech uvedených výše.
+- Zkontroluj si, jestli je tvůj kód seznamu správně odsazený.
+- Zkontroluj si, jestli je tvůj seznam ohraničený závorkami `[` a `]`.
+- Zkontroluj si, jestli je každá proměnná s barvou oddělená čárkou.
 
-My image does not appear:
+Neukazuje se mi obrázek:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Zkontroluj si, jestli řádek `sense.set_pixels(image)` není odsazený.
 
 --- /task ---
 
