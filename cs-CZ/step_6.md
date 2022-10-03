@@ -1,4 +1,4 @@
-## Změř vlhkost
+## Co dál: Další projekty Astro Pi
 
 A teď, když máš svoji misi za sebou, nechceš si zkusit nějaké další projekty, ve kterých se používají jiné senzory na Astro Pi?
 
