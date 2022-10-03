@@ -1,16 +1,16 @@
 ## Tilføj noget farve
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+I dette trin vil du lære at indstille farvelysstyrkesensoren og bruge den til at 'fornemme' mængden af rød, grøn og blå, der rammer sensoren. Denne farve vil derefter blive brugt til at farve med i dit valgte billede. En astronaut, der går op til sensoren i en blå skjorte, vil se et andet billede end en astronaut i en rød skjorte.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![billede vist med en lyserød baggrund på LED-matrixen](images/colour_background.png)
 
 [[[generic-theory-colours]]]
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Brug farvesensoren til at farve din baggrund.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Tilføj kode før din liste med billeder for at få farven fra sensoren og ændre din `c` baggrundsfarvevariabel for at bruge den farve, som Sense HAT farvesensoren 'fornemmer', i stedet for sort.
 
 **Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
 
