@@ -71,7 +71,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 Všechen svůj kód teď musíš odsadit pod cyklus `for` tak, aby se nacházel **uvnitř** těla tohoto cyklu.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Tip:** Pokud chceš odsadit více řádků, označ řádky, které chceš odsadit, a poté stiskni klávesu <kbd>Tab</kbd> (většinou nad klávesou <kbd>Caps Lock</kbd>).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Na konec cyklu přidej funkci `sleep` s délkou trvání jedné sekundy:
 
 --- code ---
 ---
@@ -105,15 +105,15 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Tip:** Ujisti se, že tento řádek kódu je ve tvé smyčce `for` odsazený.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test:** Spusť svůj kód a pomocí nástroje pro výběr barvy několikrát změn barvu. Zkontroluj, jestli se tvůj obrázek změnil a jestli používá při dalším opakování naměřenou barvu.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
+Po dokončení cyklu se obrázek přestane aktualizovat, aby tvůj program neběžel déle než 30 sekund.
 
 --- /task ---
 
@@ -130,16 +130,16 @@ Můj kód má chyby v syntaxi nebo neběží, jak by měl:
 
 Můj kód běží déle než 30 sekund:
 
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
+- Sniž počet opakování cyklu „for“ z 28 na 25 nebo třeba i na 20.
 - Sniž dobu trvání funkce „sleep“ z 1 sekundy na 0,5 sekundy.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+Na konec svého kódu přidej řádek `sense.clear()`, který po dokončení cyklu obrázek vyklidí. Díky němu uvidíš, kdy tvoje animace skončila.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Tip:** Ujisti se, že řádek `sense.clear()` **není** odsazený, protože ho chceš spustit pouze jednou, a to na konci své animace.
 
 --- code ---
 ---
@@ -168,15 +168,15 @@ sense.clear()
 
 LED matice každou sekundu zčerná:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Zkontroluj si, jestli řádek `sense.clear()` není odsazený, a nenachází se tak v cyklu `for`.
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Přidej kód, který vyklidí LED matici na barvu dle tvého výběru. Vytvoř proměnnou `x`, do které uložíš novou barvu.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+K vytvoření proměnné `x` si můžeš namíchat svoji vlastní barvu nebo použít hodnoty ze seznamu barev.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí a nastaví tebou zvolenou barvu. Barvu můžeš měnit a testovat, kolikrát jen chceš.
+**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí na tebou zvolenou barvu. Barvu můžeš měnit a testovat, kolikrát jen chceš.
 
 --- /task ---
 
