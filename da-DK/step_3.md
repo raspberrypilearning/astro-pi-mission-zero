@@ -101,7 +101,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 titel: Krabbe
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Et gitter med 8 x 8 firkanter, der viser en krabbe.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+titel: Krokodille
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Et gitter med 8 x 8 firkanter, der viser et krokodillehoved.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+titel: Slange
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Et gitter med 8 x 8 firkanter, der viser en slange.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+titel: Frø
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Et gitter med 8 x 8 firkanter, der viser en frø.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Find:** den linje, der siger `# Vis billedet` og tilføj en linje kode for at vise dit billede på LED-matrixen:
 
 --- code ---
 ---
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Vis billedet
 sense.set_pixels(image)
 
 --- /code ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Tryk på **Kør** i bunden af editoren for at se dit billede vist på LED-matrixen.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Fejlsøgning**
 
-My code has a syntax error:
+Min kode har en syntaksfejl:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Tjek at din kode matcher koden i eksemplerne ovenfor
+- Tjek at du har indrykket koden i din liste
+- Tjek at din liste er omgivet af `[` og `]`
+- Tjek at hver farvevariabel i listen er adskilt af et komma
 
-My image does not appear:
+Mit billede vises ikke:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Tjek at din `sense.set_pixels(billede)` ikke er indrykket
 
 --- /task ---
 
