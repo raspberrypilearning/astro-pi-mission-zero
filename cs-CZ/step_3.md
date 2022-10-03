@@ -1,18 +1,18 @@
-## Zobraz zprávu a vyber název nových počítačů Astro Pi
+## Zobraz obrázek
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+LED obrazovka počítače Astro Pi umí zobrazovat barvy. V tomto kroku zobrazíš obrázky přírody na LED obrazovce počítače Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED matice**</span> je mřížka osazená LED diodami, které můžeš ovládat jednotlivě nebo jako skupinu, a můžeš tak docílit různých světelných efektů. LED matice na desce Sense HAT má 64 LED diod v mřížce o velikosti 8 × 8. Tyto LED diody můžeš naprogramovat tak, aby vyprodukovaly širokou škálu barev.
 </p>
 
 ![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Otevři [startovací projekt výzvy Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Uvidíš pár řádků kódu, které tam už budou automaticky přichystané.
 
 This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Ten kód tam nech, protože ho budeš potřebovat.
 
@@ -21,13 +21,13 @@ This code connects to the Astro Pi, makes sure the Astro Pi's LED display is sho
 Pod kód, který už tam je, přidej tenhle řádek:
 title: Jaké znaky můžeš použít?
 ---
-# Import the libraries
+# Importuj knihovny
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Nastav Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Nastav senzor barev
 Stiskni tlačítko **Run** (spustit) a dívej se, jak zpráva `Astro Pi` běží přes LED displej.
 
 --- /code ---
@@ -36,7 +36,7 @@ Stiskni tlačítko **Run** (spustit) a dívej se, jak zpráva `Astro Pi` běží
 
 --- /task ---
 
-### Vyber název nových počítačů Astro Pi
+### Barvy RGB
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
@@ -57,10 +57,10 @@ You will need to **copy** all of the code for your chosen image then **paste** i
 --- collapse ---
 
 ---
-title: Chicken
+title: Kuřátko
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Mřížka o velikosti 8 × 8, na které je kuřátko ve vajíčku.](images/chick.png)
 
 --- code ---
 ---
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Kytička
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Mřížka o velikosti 8 × 8, na které je fialová kytička se zeleným stonkem.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Krab
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Mřížka o velikosti 8 × 8, na které krab.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Krokodýl
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Mřížka o velikosti 8 × 8, na které je hlava krokodýla.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Had
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Mřížka o velikosti 8 × 8, na které je had.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Žabička
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Mřížka o velikosti 8 × 8, na které je žabička.](images/frog.png)
 
 --- code ---
 ---
