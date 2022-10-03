@@ -1,8 +1,8 @@
-Import the libraries
+Importuj knihovny
 
-Set up the Sense HAT
+Nastav Sense HAT
 
-Set up the colour sensor
+Nastav senzor barev
 
 Set the sensitivity of the sensor
 
