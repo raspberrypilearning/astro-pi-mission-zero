@@ -6,7 +6,7 @@ Nastav senzor barev
 
 Nastav citlivost senzoru
 
-The interval at which the reading will be take
+Interval, který udává frekvenci měření ze senzoru
 
 Přidej proměnné s barvami a obrázek
 
