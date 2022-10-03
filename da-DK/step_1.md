@@ -2,21 +2,21 @@
 
 Lys op astronauternes daglige rutine på International Space Station ved at vise dem en besked og den relative luftfugtighed ombord ved hjælp af Astro Pi-computerens Sense HAT.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Dit projekt vil indstille baggrundsfarven på et billede til den farve, som Astro Pi registrerer. Dette vil gøre den internationale rumstation (ISS) mere farverig for astronauterne om bord. Din kode vil bruge farvelysstyrkesensoren på den nye Mark II Astro Pi-computer Sense HAT til at få dette til at ske.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Her er et eksempel på den slags program, du kan lave til at køre på en Astro Pi i rummet.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Sense HAT emulatoren kører et prøveprogram med en slange, hvis baggrundsfarve ændrer farvesansen.](images/finished.gif)
 
 ### Hvad du vil lave
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Du skal bruge Astro Pi-emulatoren i en webbrowser til at oprette dit program. Du behøver ikke en Astro Pi-computer.
 
 ### Hardware
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program blev kørt.
+**Hvis dit projekt opfylder [adgangskriterierne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, vil dit færdige program blive kørt på den internationale rumstation! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program blev kørt.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
+Du kommer til at lære om AstroPi-computeren og styringen af den, herunder hvordan du:
 + Vis beskeder og farver
 + Lav billeder
 + Mål fugtigheden ved hjælp af en Sense HAT
@@ -26,11 +26,11 @@ You will learn about the Astro Pi computer and how to control it, including how 
 title: Du kommer til at lære følgende
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero egner sig til begyndere i programmering og/eller grundskolebørn og kan afsluttes i en enkelt 60 minutters session på enhver computer med internetadgang. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Organiser de unge i hold på en til fire og lad os guide dem gennem at skrive et kort Python-program til at fornemme farven om bord på ISS og skabe et billede, der bruger denne farve.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Læs de [officielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 \--- /collapse \---
 
