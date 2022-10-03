@@ -4,36 +4,36 @@ Nastav Sense HAT
 
 Nastav senzor barev
 
-Set the sensitivity of the sensor
+Nastav citlivost senzoru
 
 The interval at which the reading will be take
 
-Add colour variables and image
+Přidej proměnné barev a obrázek
 
 Zobraz obrázek
 
-White
+Bílá
 
-Black
+Černá
 
-MediumBlue
+Středně modrá
 
 Žlutá
 
-DarkOrange
+Tmavě oranžová
 
-Pink
+Růžová
 
-ForestGreen
+Lesní zelená
 
-DeepPink
+Tmavě růžová
 
 Červená
 
-MidnightBlue
+Půlnoční modrá
 
-get the colour from the sensor
+získej barvu ze senzoru
 
-use the sensed colour
+použij barvu získanou ze senzoru
 
-choose your own red, green, blue values between 0 - 255
+vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
