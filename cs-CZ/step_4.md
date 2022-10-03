@@ -1,18 +1,18 @@
 ## Přidej barvy
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+V tomto kroku nastavíš senzor barev a svítivosti, který ti řekne, kolik červené, zelené a modré dopadá na senzor. Touto barvou se poté vybarví tvůj obrázek. Astronaut, který přijde k senzoru v modrém tričku, uvidí jiný obrázek než astronaut v červeném tričku.
 
 ![obrázek zobrazený s růžovým pozadím na LED matici](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Ať už si vybereš jakýkoli obrázek, pozadí používá proměnnou `c`, která je nastavená na černou.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Použij senzor barev k vybarvení pozadí.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Před seznam s obrázkem přidej kód, díky němuž získáš barvu ze senzoru, a změň barvu pozadí proměnné `c` na barvu, kterou zachytil senzor barev desky Sense HAT.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Tip:** Nemusíš psát komentáře, které začínají „#“ (slouží pouze k vysvětlení daného kódu).
 
 --- code ---
 ---
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Test:** Na posuvníku s barvou si vyber barvu, která se ti líbí, a pak svůj kód **spusť**. Barva tvého pozadí se změní. Opakuj tento test s novou barvou.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Tip:** Po každé změně barvy musíš kliknout na tlačítko „Spustit“.
 
 --- /task ---
 
-## Loop your program
+## Přidej do svého programu cyklus
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Program výzvy Astro Pi Mission Zero může běžet po dobu až 30 sekund. Využij této doby a opakovaně kontroluj senzor barev, a aktualizuj tak svůj obrázek.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Tvůj kód použije cyklus `for`, aby se spustil 28krát. Během **každého** opakování:
++ naměří poslední barvu,
++ aktualizuje pozadí obrázku,
++ se zastaví na jednu sekundu.
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Najdi** řádek kódu obsahující `rgb = sense.color`.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Přidej** kód nad něj a nastav cyklus `for` na `28` opakování.
 
 --- code ---
 ---
@@ -69,7 +69,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Všechen svůj kód teď musíš odsadit pod cyklus `for` tak, aby se nacházel **uvnitř** těla tohoto cyklu.
 
 **Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
 
@@ -119,19 +119,19 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 --- task ---
 
-**Debug**
+**Ladění**
 
-My code has a syntax error or doesn't run as expected:
+Můj kód má chyby v syntaxi nebo neběží, jak by měl:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Zkontroluj si, jestli tvůj kód odpovídá kódu v příkladech uvedených výše.
+- Zkontroluj si, jestli je tvůj kód cyklu `for` správně odsazený.
+- Zkontroluj si, jestli je tvůj seznam ohraničený závorkami `[` a `]`.
+- Zkontroluj si, jestli je každá proměnná s barvou oddělená čárkou.
 
-My code runs for longer than 30 seconds:
+Můj kód běží déle než 30 sekund:
 
 - Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+- Sniž dobu trvání funkce „sleep“ z 1 sekundy na 0,5 sekundy.
 
 --- /task ---
 
@@ -158,7 +158,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí, čímž všechna světla zčernají (vypnou se).
 
 --- /task ---
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí a nastaví tebou zvolenou barvu. Barvu můžeš měnit a testovat, kolikrát jen chceš.
 
 --- /task ---
 
