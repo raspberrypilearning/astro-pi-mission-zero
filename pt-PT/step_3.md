@@ -1,4 +1,4 @@
-## Adiciona um pouco de cor
+## Display an image
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -10,33 +10,33 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 
 --- task ---
 
-Abra o [emulador Sense HAT](https://trinket.io/mission-zero){:target="_blank"} para o projeto Mission Zero.
+Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
-Irá ver três linhas de código que foram adicionadas automaticamente para si:
+You will see that a few lines of code have been added for you automatically.
 
-Este código liga-se ao Astro Pi e garante que o ecrã LED do Astro Pi seja visto da maneira correta. Deixe o código lá, porque você vai precisar.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-title: Que carateres podem ser usados?
+line_highlights:
 ---
 # Import the libraries
-Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
+from sense_hat import SenseHat from time import sleep
 
 # Set up the Sense HAT
-from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
+sense = SenseHat() sense.set_rotation(270)
 
 # Set up the colour sensor
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
-![Uma captura de ecrã do emulador Trinket do Sense Hat com três linhas de código inicial exibido no painel esquerdo.](images/sense-hat-emulator2.png)
+![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### Cores RGB
+### RGB Colours
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
@@ -191,16 +191,16 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Exibir a imagem
+# Display the image
 sense.set_pixels(image)
 
-+-*/!"#$&gt;&lt;0123456789.=)(
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Para executar, pressiona o botão **Run** (Executar) e vê a mensagem `Astro Pi` passar no ecrã LED.
+Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
 
 --- /task ---
 
