@@ -1,4 +1,4 @@
-## Näytä viesti ja valitse nimi uusille Astro Pi -tietokoneille
+## Display an image
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -14,12 +14,12 @@ Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Jätä koodi sinne, koska tulet tarvitsemaan sitä.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
 
 --- code ---
 ---
-Lisää tämä rivi muun koodin alapuolelle:
-title: Mitä merkkejä voidaan käyttää?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Import the libraries
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Set up the colour sensor
-Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierii LED-näytön poikki.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -36,7 +36,7 @@ Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierii LED
 
 --- /task ---
 
-### Valitse nimi uusille Astro Pi -tietokoneille
+### RGB Colours
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
@@ -64,7 +64,7 @@ title: Chicken
 
 --- code ---
 ---
-Jos haluat äänestää, viestisi *pitää* alkaa näillä sanoilla, muuten emme pysty automaattisesti laskemaan ääntäsi.
+language: python filename: main.py
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
