@@ -1,8 +1,8 @@
-## Afișează o imagine
+## Submit your entry
 
-Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi rulat pe Stația Spațială Internațională. Dacă codul tău le respectă, regulile din partea de jos a emulatorului **Sense HAT** se vor aprinde în verde atunci când rulezi programul.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-![O captură de ecran a ferestrei de emulator care arată Unitatea de zbor cu matricea LED care afișează o poză a Unității de zbor în sine](images/rules.png)
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
 **Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
@@ -38,6 +38,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-Dacă vrei, poți distribui linkul cu codul tău pe social media pentru a le spune tuturor că există cod scris de tine care va fi rulat în spațiu!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
