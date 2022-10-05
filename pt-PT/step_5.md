@@ -1,6 +1,6 @@
-## Medir a humidade
+## Submit your entry
 
-O seu código precisa de seguir algumas regras para que possa enviar a sua participação para ser executada na Estação Espacial Internacional. Se o seu código as seguir, as regras na parte inferior do **emulador Sense HAT** irão acender a verde quando executar o programa.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
 ![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
@@ -38,6 +38,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-Se quiseres, podes compartir o link para o teu código nas redes sociais para dizer às pessoas que o código que escreveste vai ser executado no espaço!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
