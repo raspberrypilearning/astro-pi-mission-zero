@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Farbsensor einrichten
-sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein sense.color.integration_cycles = 64 # Tas Intervall in dem gemessen wird
+sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein sense.color.integration_cycles = 64 # Das Intervall in dem gemessen wird
 
 --- /code ---
 
