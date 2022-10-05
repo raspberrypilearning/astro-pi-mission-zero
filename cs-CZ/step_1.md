@@ -10,7 +10,7 @@ Tady je ukázkový program, který by mohl běžet ve vesmíru na počítači As
 
 ### Co budeš potřebovat
 
-Budeš používat emulátor Astro Pi ve webovém prohlížeči a vytvoříš program. Nepotřebuješ počítač Astro Pi.
+K vytvoření programu budeš používat emulátor Astro Pi ve webovém prohlížeči. Nepotřebuješ počítač Astro Pi.
 
 ### Kritéria výzvy Astro Pi Mission Zero
 
@@ -18,7 +18,7 @@ Budeš používat emulátor Astro Pi ve webovém prohlížeči a vytvoříš pro
 
 Dozvíš se o počítači Astro Pi a naučíš se ho ovládat. Také se naučíš, jak:
 + vytvářet **proměnné** s barvami, které využiješ ve svém obrázku,
-+ navrhnout a zobrazit obrázek na Sense HAT,
++ navrhnout a zobrazit obrázek na desce Sense HAT,
 + naměřit barvu světla na palubě ISS.
 
 --- collapse ---
@@ -30,7 +30,7 @@ Výzva Mission Zero je vhodná pro ty, kteří s programováním začínají, a/
 
 Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak napsat krátký program v jazyce Python, který naměří barvu na palubě ISS a za pomocí této barvy vytvoříme obrázek.
 
-Projděte si [oficiální pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro Mission Zero.
+Přečtěte si [oficiální pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
 --- /collapse ---
 
