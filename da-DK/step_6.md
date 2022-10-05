@@ -1,17 +1,17 @@
-## Mål luftfugtigheden
+## What next — more Astro Pi projects
 
-Luftfugtighedssensoren i Astro Pi kan måle luftfugtigheden i luften omkring den og er en nyttig funktion, der kan hjælpe dig med at indsamle data om forholdene i rummet.
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-Hvis du har mod på det, kan du deltage i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Dan et hold på to til seks personer og arbejd sammen som rigtige rumforskere om at designe jeres eget eksperiment. De bedste indsendte ideer modtager et Astro Pi-kit, som du kan bruge til at hjælpe med din mission.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-Astro Pi måler fugtigheden i ISS i procent af vandkoncentrationen i luften.
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-+ Få [mere at vide om Sense HAT](https://projects.raspberrypi.org/da-DK/projects/getting-started-with-the-sense-hat){:target="_blank"} og de andre ting, den kan
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-+ Lav nogle smukke [tilfældige gnister](https://projects.raspberrypi.org/da-DK/projects/sense-hat-random-sparkles){:target="_blank"} på LED-displayet på Sense HAT
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-+ Lav et spil [Flappy Astronaut](https://projects.raspberrypi.org/da-DK/projects/flappy-astronaut){:target="_blank"}
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Du kan udfordre dine venner i et spil [marmorlabyrint](https://projects.raspberrypi.org/da-DK/projects/sense-hat-marble-maze){:target="_blank"}
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-+ Genskab det klassiske spil [Pong](https://projects.raspberrypi.org/da-DK/projects/sense-hat-pong){:target="_blank"}
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
