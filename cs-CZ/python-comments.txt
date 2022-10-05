@@ -26,7 +26,7 @@ Růžová
 
 Lesní zelená
 
-Tmavě růžová
+Sytě růžová
 
 Červená
 
@@ -34,6 +34,6 @@ Půlnoční modrá
 
 získej barvu ze senzoru
 
-použij barvu získanou ze senzoru
+použij barvu naměřenou ze senzoru
 
 vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
