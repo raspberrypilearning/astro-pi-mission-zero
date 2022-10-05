@@ -1,37 +1,37 @@
-## Introduktion
+## You will make
 
-Lys op astronauternes daglige rutine på International Space Station ved at vise dem en besked og den relative luftfugtighed ombord ved hjælp af Astro Pi-computerens Sense HAT.
+Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
 
-Dit projekt vil indstille baggrundsfarven på et billede til den farve, som Astro Pi registrerer. Dette vil gøre den internationale rumstation (ISS) mere farverig for astronauterne om bord. Din kode vil bruge farvelysstyrkesensoren på den nye Mark II Astro Pi-computer Sense HAT til at få dette til at ske.
+Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
 
-Her er et eksempel på den slags program, du kan lave til at køre på en Astro Pi i rummet.
+Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
-![Sense HAT emulatoren kører et prøveprogram med en slange, hvis baggrundsfarve ændrer farvesansen.](images/finished.gif)
+![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-### Hvad du vil lave
+### You will need
 
-Du skal bruge Astro Pi-emulatoren i en webbrowser til at oprette dit program. Du behøver ikke en Astro Pi-computer.
+You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
-### Hardware
+### Astro Pi Mission Zero criteria
 
-**Hvis dit projekt opfylder [adgangskriterierne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, vil dit færdige program blive kørt på den internationale rumstation! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program blev kørt.
+**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
-Du kommer til at lære om AstroPi-computeren og styringen af den, herunder hvordan du:
-+ Vis beskeder og farver
-+ Lav billeder
-+ Mål fugtigheden ved hjælp af en Sense HAT
+You will learn about the Astro Pi computer and how to control it, including how to:
++ Create colour **variables** to use in your image
++ Design and display an image on the Sense HAT
++ Sense the colour of light on board the ISS
 
 --- collapse ---
 ---
-title: Du kommer til at lære følgende
+title: Notes for mentors
 ---
 
-Mission Zero egner sig til begyndere i programmering og/eller grundskolebørn og kan afsluttes i en enkelt 60 minutters session på enhver computer med internetadgang. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
+Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Organiser de unge i hold på en til fire og lad os guide dem gennem at skrive et kort Python-program til at fornemme farven om bord på ISS og skabe et billede, der bruger denne farve.
+Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
 
-Læs de [officielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
-\--- /collapse \---
+--- /collapse ---
 
-![Sporingspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
