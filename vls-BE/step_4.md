@@ -1,29 +1,29 @@
-## Meet een kleur
+## Sense a colour
 
-In deze stap zal je de kleurintensiteitssensor installeren en hem gebruiken om de hoeveeldheid rood, groen en blauw te meten die de sensor bereikt. Deze kleur zal dan gebruikt worden om je gekozen afbeelding in te kleuren. Een astronaut die naar de sensor toeloopt met een blauw T-shirt zal een andere afbeelding zien dan een astronaut in een rood T-shirt.
+In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
 
-![afbeelding getoond met een roze achtergrond op de LED-matrix](images/colour_background.png)
+![image displayed with a pink background on the LED matrix](images/colour_background.png)
 
-Welke afbeelding je ook kiest, de achtergrond gebruikt de `c` variabele die ingesteld is op zwart.
+Whichever image you chose, the background uses the `c` variable which is set to black.
 
 --- task ---
 
-Gebruik de kleursensor om je achtergrond te kleuren.
+Use the colour sensor to colour your background.
 
-Voeg code toe voor je afbeeldingslijst om de kleur van de sensor te ontvangen en verander je `c` achtergrondkleur om de kleur te gebruiken die gemeten wordt door de kleursensor van de Sense HAT in plaats van zwart.
+Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
 
-**Tip:** je hoeft geen opmerkingen te typen die beginnen met '#' (die staan er om de code uit te leggen).
+**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
 
-Maak een variabele om je gekozen kleur op te slaan. Als je bijvoorbeeld rood koos, schrijf je deze code-regel:
+--- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Voeg kleurvariabelen en afbeeldingen toe
+# Add colour variables and image
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
-Je kan de tekst nu weergeven in de kleur van jouw keuze! Om het programma te laten weten dat het de kleur die je maakte moet gebruiken, voeg je een `text_colour` parameter toe aan de code die je tekst weergeeft:
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test** Beweeg de kleurschuiver naar een kleur naar keuze en start dan je code **start**. Je achtergrondkleur zal veranderen. Herhaal deze test nogmaals met een andere kleur.
+**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
 
-**Tip:** Je zal elke keer je de kleur verandert op 'Start' moeten klikken.
+**Tip:** You will need to click 'Run' every time you change the colour.
 
 --- /task ---
 
-## Herhaal je programma
+## Loop your program
 
-Het Astro Pi Mission Zero-programma mag tot 30 seconden werken. Je zal deze tijd gebruiken om verschillende keren de kleursensor te controleren en de afbeelding te actualiseren.
+The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
 
-Je code zal een `voor` lus gebruiken om 28 keer te werken. **Elke** keer zal het:
-+ de laatste kleur meten
-+ de achtergrondkleur van de afbeelding actualiseren
-+ pauzeer 1 seconde
+Your code will use a `for` loop to run 28 times. **Each** time it will:
++ sense the latest colour
++ update the background colour of the image
++ pause for one second
 
 --- task ---
 
-**Vind** je `rgb = meet.kleur` codelijn.
+**Find** your `rgb = sense.color` line of code.
 
-**Voeg** code hierboven toe om je `voor` lus voor `28` herhalingen in te stellen.
+**Add** code above it to set up your `for` loop for `28` repetitions.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-Je zal nu alle code onder de `voor` lus moeten opslaan zodat die bewaard wordt **binnen** de `voor` lus.
+You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
 
-**Tip:** Om meerdere lijnen op te slaan, markeer de lijnen die je wil opslaan en druk dan de <kbd>Tab</kbd> toets op je klavier (meestal boven de <kbd>Caps Lock</kbd> toets op je klavier).
+**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-Onderaan je code, voeg je een `slaap` van 1 seconde toe in je lus:
+At the bottom of your code, add a `sleep` of one second inside your loop:
 
 --- code ---
 ---
@@ -105,41 +105,41 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Zorg ervoor dat deze code lijn opgeslagen wordt in je `voor` lus.
+**Tip:** Make sure this line of code is indented within your `for` loop.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Start je code en verander de kleurkiezer verschillende keren terwijl je project werkt. Controleer dat je afbeelding geactualiseerd wordt met de gemeten kleur als het opnieuw start.
+**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
 
-De afbeelding zal niet meer geactualiseerd worden als de lus eindigt zodat het programma niet langer dan 30 seconden werkt.
-
---- /task ---
-
---- task ---
-
-**Problemen oplossen**
-
-Mijn code geeft een foutmelding en werkt niet zoals verwacht:
-
-- Controleer dat je code overeenkomt met de code in de voorbeelden hierboven
-- Controleer dat je de code opgeslagen hebt in je `voor` lus
-- Controleer dat je lijst omgeven wordt door `[` en `]`
-- Controleer dat elke kleurvariabele in de lijst gescheiden wordt door een komma
-
-Mijn code werkt langer dan 30 seconden:
-
-- Verlaag het aantal keren dat je lus werkt van 28 naar 25 of zelfs 20.
-- Verminder de duur van de slaap, van 1 seconde naar 0,5 seconden.
+The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
 
 --- /task ---
 
 --- task ---
 
-Voeg `sense.clear()` toe aan het einde van je code om de afbeelding te wissen aan het einde van je lus. Dit zal je helpen om te zien wanneer je animatie klaar is.
+**Debug**
 
-**Tip:** Zorg ervoor dat je **niet** de codelijn `sense.clear()` opslaat want je wil dit maar 1 keer laten gebeuren op het einde van je animatie.
+My code has a syntax error or doesn't run as expected:
+
+- Check that your code matches the code in the examples above
+- Check that you have indented the code in your `for` loop
+- Check that your list is surrounded by `[` and `]`
+- Check that each colour variable in the list is separated by a comma
+
+My code runs for longer than 30 seconds:
+
+- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
+- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+
+--- /task ---
+
+--- task ---
+
+Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+
+**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
 
 --- code ---
 ---
@@ -158,25 +158,25 @@ sense.clear()
 
 --- task ---
 
-**Test:** Start je code nog eens. Wanneer je project klaar is, zal de LED-matrix leeg worden door alle lichten op zwart (uit) te zetten.
+**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
 
 --- /task ---
 
 --- task ---
 
-**Problemen oplossen**
+**Debug**
 
-De LED-matrix wordt elke seconde zwart:
+The LED matrix turns black every second:
 
-- Controleer dat je de `sense.clear()` code niet in je `voor` lus opgeslagen hebt
+- Check that you have not indented the `sense.clear()` code within your `for` loop
 
 --- /task ---
 
 --- task ---
 
-Voeg code toe om de LED-matrix te wissen naar een kleur naar keuze. Creëer een variabele genaamd `x` om je nieuwe kleur op te slaan.
+Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
 
-Je kan je eigen kleur mengen door de waarden van de kleurenlijst te gebruiken om je nieuwe `x` kleur te maken.
+You can mix your own colour or use the values from the list of colours to create your new `x`colour.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Start je code nogmaals. Als je project klaar is, zal de LED-matrix oplichten in de gekozen kleur. Je kan dan de kleur zo vaak aanpassen als je wil om te testen.
+**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-titel: Afgewerkt codevoorbeeld
+title: Completed code example
 ---
 
-![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/flower.png)
+![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
 
 --- code ---
 ---
