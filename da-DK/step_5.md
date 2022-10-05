@@ -1,43 +1,43 @@
-## Vis et billede
+## Submit your entry
 
-Der er nogle få regler, som din kode skal følge, så du kan indsende den og den kan blive kørt på den internationale rumstation. Hvis din kode følger dem, så vil reglerne i bunden af **Sense HAT-emulatoren** lyse grønt, når du kører programmet.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-![Et skærmbillede af emulatorvinduet, der viser Flight Unit'en med LED-matricen, der viser et billede af selve Flight Unit'en](images/rules.png)
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
 **Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. Hvis det ikke følger retningslinjerne, vil dit program ikke være i stand til at køre på den internationale rumstation.
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
 
-Inkludér venligst ikke noget af det følgende i dit holdnavn eller kode:
+Please do not include any of the following in your team name or code:
 
-+ Alt hvad der kan fortolkes som værende ulovligt, politisk eller af følsom karakter
-+ Flag, da de kan betragtes som værende politisk følsomme
-+ Alt hvad der refererer til ubehageligheder eller skade mod en anden person
-+ Personlige oplysninger såsom telefonnumre, kaldenavne på sociale medier og e-mailadresser
-+ Sjofle billeder
-+ Specialtegn eller emojis
-+ Dårligt sprog eller bandeord
++ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
++ Flags, as they can be considered politically sensitive
++ Anything that references unpleasantness or harm to another person
++ Personal data such as telephone numbers, social media handles, and email addresses
++ Obscene images
++ Special characters or emojis
++ Bad language or swearing
 
 --- task ---
 
-Indtast dit klasseværelseskode og holdnavn i boksen nederst — din mentor vil fortælle dig, hvad din kode er.
+Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
 
-![Formular til indsendelse af klasseværelseskode og holdnavn](images/submission.png)
+![Classroom code and team name submission form](images/submission.png)
 
-**Bemærkninger til mentorer** kan findes i trinntet [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
 --- task ---
 
-Tryk på knappen **Tilføj dit hold** for at indtaste din kode. Bemærk venligst, at et program ikke kan ændres, når det først er indsendt.
+Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
 
-Din mentor vil modtage en e-mail for at bekræfte din tilmelding.
+Your mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
 
-Hvis du vil, kan du dele linket til din kode på de sociale medier for at fortælle folk, at den kode, du har skrevet, bliver kørt i rummet!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
