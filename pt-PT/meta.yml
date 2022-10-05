@@ -1,25 +1,25 @@
 ---
-title: 'Astro Pi: Missão Zero'
+title: 'Astro Pi: Mission Zero'
 hero_image: images/banner.png
-description: Prepara-te para a Mission Zero
+description: Prepare for Mission Zero
 listed: true
 copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Introdução
+    title: You will make
   - 
-    title: O que é um Astro Pi?
+    title: What is an Astro Pi?
   - 
-    title: Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Adiciona um pouco de cor
+    title: Sense a colour
   - 
-    title: Mostrar uma imagem
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Medir a humidade
+    title: What next — more Astro Pi projects
