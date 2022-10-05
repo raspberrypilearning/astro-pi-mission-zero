@@ -14,12 +14,12 @@ steps:
   - 
     title: Wyświetl obrazek
     completion:
-      - zaangażowany
+      - engaged
   - 
     title: Wykryj kolor
   - 
     title: Wyślij swój projekt
     completion:
-      - wewnętrzny
+      - internal
   - 
     title: Co dalej — więcej projektów Astro Pi
