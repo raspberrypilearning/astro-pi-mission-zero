@@ -200,7 +200,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Klepni na tlačítko **Run** v dolní části editoru a tvůj obrázek se zobrazí na LED matici.
+Klepni na tlačítko **Spustit** v dolní části editoru a tvůj obrázek se zobrazí na LED matici.
 
 --- /task ---
 
