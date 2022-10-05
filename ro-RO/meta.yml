@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Introducere
+    title: You will make
   - 
     title: Ce este Astro Pi?
   - 
-    title: Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
+    title: Display an image
     completion:
       - engaged
   - 
-    title: Adaugă culoare
+    title: Sense a colour
   - 
-    title: Afișează o imagine
+    title: Submit your entry
     completion:
       - internal
   - 
-    title: Măsoară umiditatea
+    title: What next — more Astro Pi projects
