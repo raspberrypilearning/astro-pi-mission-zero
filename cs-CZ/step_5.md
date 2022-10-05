@@ -4,9 +4,9 @@ Pokud chceš svůj kód odeslat ke spuštění na Mezinárodní vesmírné stani
 
 ![Stránka výzvy Mission Zero zobrazující kritéria pro odeslání.](images/rules.png)
 
-**Tip:** Otestuj svůj kód s různými hodnotami barev (pomocí kapátka) a ujisti se, že vždy funguje.
+**Tip:** Otestuj svůj kód s různými hodnotami barev (pomocí nástroje pro výběr barvy) a ujisti se, že vždy funguje.
 
-Ujisti se prosím, že se tvůj příspěvek řídí [oficiálními pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} výzvy Mission Zero. Pokud se jimi neřídí, tvůj program nebude spuštěn na Mezinárodní vesmírné stanici.
+Ujisti se prosím, že se tvůj příspěvek řídí [oficiálními pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero. Pokud se jimi neřídí, tvůj program nebude spuštěn na Mezinárodní vesmírné stanici.
 
 Neuváděj prosím do názvu týmu ani kódu:
 
@@ -30,7 +30,7 @@ Do rámečku dole zadej název týmu a kód třídy, který ti sdělí tvůj men
 
 --- task ---
 
-Stiskni tlačítko **Přidat tým** a zadej kód. Vezmi prosím na vědomí, že po odeslání nelze program upravit.
+Stiskni tlačítko **Přidat tým** a zadej kód. Vezmi prosím na vědomí, že po odeslání nebudeš moci program upravit.
 
 Tvůj mentor obdrží e-mail s potvrzením, že byl tvůj příspěvek odeslán.
 
