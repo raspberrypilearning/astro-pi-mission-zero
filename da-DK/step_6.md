@@ -2,7 +2,7 @@
 
 Luftfugtighedssensoren i Astro Pi kan måle luftfugtigheden i luften omkring den og er en nyttig funktion, der kan hjælpe dig med at indsamle data om forholdene i rummet.
 
-Hvis du har mod på det, kan du deltage i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Dan et hold på to til seks personer og arbejd sammen som rigtige rumforskere om at designe jeres eget eksperiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Hvis du har mod på det, kan du deltage i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Dan et hold på to til seks personer og arbejd sammen som rigtige rumforskere om at designe jeres eget eksperiment. De bedste indsendte ideer modtager et Astro Pi-kit, som du kan bruge til at hjælpe med din mission.
 
 Astro Pi måler fugtigheden i ISS i procent af vandkoncentrationen i luften.
 
