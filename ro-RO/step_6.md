@@ -1,17 +1,17 @@
-## Măsoară umiditatea
+## What next — more Astro Pi projects
 
-Senzorul de umiditate din Astro Pi poate măsura umiditatea aerului din jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-Dacă te simți încrezător, poți să participi la [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Formează o echipă din două până la șase persoane și lucrați împreună ca oameni de știință adevărați din spațiu pentru a vă crea propriul experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-Astro Pi măsoară umiditatea în cadrul ISS în procentajul concentrației de apă din aer.
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-+ Află [mai multe despre Sense HAT](https://projects.raspberrypi.org/ro-RO/projects/getting-started-with-the-sense-hat){:target="_blank"} și alte lucruri pe care le poate face
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-+ Creează niște [sclipiri aleatoare](https://projects.raspberrypi.org/ro-RO/projects/sense-hat-random-sparkles){:target="_blank"} pe afișajul cu LED-uri Sense HAT
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-+ Creează un joc [Flappy Astronaut](https://projects.raspberrypi.org/ro-RO/projects/flappy-astronaut){:target="_blank"}
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Provoacă-ți prietenii la un joc de genul [labirint cu bilă](https://projects.raspberrypi.org/ro-RO/projects/sense-hat-marble-maze){:target="_blank"}
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-+ Recreează jocul clasic [Pong](https://projects.raspberrypi.org/ro-RO/projects/sense-hat-pong){:target="_blank"}
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
