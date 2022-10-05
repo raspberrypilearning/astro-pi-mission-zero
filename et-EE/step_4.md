@@ -2,7 +2,7 @@
 
 Selles etapis installid värvide helenduse anduri ja kasutad seda andurini jõudva punase, rohelise ja sinise koguse tuvastamiseks. Seda värvi kasutatakse seejärel sinu valitud pildi värvimiseks. Anduri juurde kõndiv sinises särgis astronaut näeks teistsugust pilti kui punases särgis astronaut.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![LED-maatriksil kuvatav roosa taustaga pilt](images/colour_background.png)
 
 Mis tahes pildi sa valid, taust kasutab `c` muutujat, mis on seadistatud mustana.
 
@@ -41,7 +41,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 ## Silmusta oma programm
 
-Astro Pi Mission Zero programmil on lubatud käitada kuni 30 sekundit. Kasutad seda aega värvianduri korduvaks kontrollimiseks ja pildi värskendamiseks.
+Astro Pi Mission Zero programmil on lubatud jooksutada kuni 30 sekundit. Kasutad seda aega värvianduri korduvaks kontrollimiseks ja pildi värskendamiseks.
 
 Sinu kood kasutab `for` tsüklit 28 korda käitamiseks. **Iga** kord see:
 + tajub uusimat värvi
@@ -111,9 +111,9 @@ line_highlights: 4
 
 --- task ---
 
-**Test:** Käita oma kood ja muuda projekti käitamise ajal värvivalijat mitu korda. Kontrolli, kas sinu pilti värskendatakse, et kasutada tajutud värvi järgmisel käitamisel.
+**Test:** Käita oma kood ja muuda projekti jooksutamise ajal korduvalt värvivalijat. Kontrolli, kas sinu pilti värskendatakse, et kasutada tajutud värvi järgmisel käitamisel.
 
-Pildi värskendamine lõpetatakse, kui tsükkel lõpeb, nii et programm ei tööta kauem kui 30 sekundit.
+Pildi värskendamine lõpetatakse, kui tsükkel lõpeb, nii et programm ei jookse kauem kui 30 sekundit.
 
 --- /task ---
 
@@ -121,25 +121,25 @@ Pildi värskendamine lõpetatakse, kui tsükkel lõpeb, nii et programm ei töö
 
 **Silumine**
 
-Minu koodis on süntaksiviga või see ei käivitu ootuspäraselt:
+Minu koodis on süntaksiviga või see ei jookse ootuspäraselt:
 
 - Kontrolli, kas sinu kood ühtib ülaltoodud näidetes oleva koodiga
 - Kontrolli, kas oled oma `for` tsüklis koodi taandanud
 - Kontrolli, kas sinu loend on ümbritsetud `[` ja `]`-ga
-- Check that each colour variable in the list is separated by a comma
+- Kontrolli, kas iga värvi muutuja on loendis komaga eraldatud
 
-My code runs for longer than 30 seconds:
+Minu kood jookseb kauem kui 30 sekundit:
 
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+- Vähenda for-tsükli käitamise kordade arvu 28-lt 25-le või isegi 20-le.
+- Vähenda sleep-i pikkust 1 sekundilt 0,5 sekundini.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+Lisa oma koodi lõppu `sense.clear()`, et oma tsükli lõpus olev pilt tühjendada. See aitab sul näha, millal sinu animatsioon on ära jooksutanud.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Näpunäide:** Veendu, et sa **ei** taanda `sense.clear()` koodirida, kuna sinu eesmärgiks on see käitada vaid korra, animatsiooni lõpus.
 
 --- code ---
 ---
@@ -158,25 +158,25 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Testi:** Käita oma kood uuesti. Kui sinu projekt on ära jooksutanud, tühjeneb LED-maatriks, muutes kõik tuled mustaks (lülitab need välja).
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Silumine**
 
-The LED matrix turns black every second:
+LED-maatriks muutub iga sekundi järel mustaks:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Kontrolli, et sa pole oma `for` tsüklis `sense.clear()` koodi taandanud
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Lisa kood LED-maatriksi tühjendamiseks enda valitud värvile. Uue värvi salvestamiseks loo muutuja nimega `x`.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Saad oma värvi ise kokku segada või kasutada värvide loendis olevaid väärtusi, et luua uus `x`värv.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Testi:** Käita oma kood uuesti. Kui sinu projekt on ära jooksutanud, tühjeneb LED-maatriks sinu valitud värviks. Saad värvi muuta ja katsetada nii mitu korda kui soovid.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Valmis koodi näide
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![8 x 8 ruuduga võre, millel on roosa lill rohelisel varrel.](images/flower.png)
 
 --- code ---
 ---
