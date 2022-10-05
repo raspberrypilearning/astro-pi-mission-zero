@@ -14,12 +14,12 @@ steps:
   - 
     title: Zeige ein Bild
     completion:
-      - engagiert
+      - engaged
   - 
     title: Bestimme eine Farbe
   - 
     title: Deinen Beitrag einsenden
     completion:
-      - intern
+      - internal
   - 
     title: Wie geht es weiter – weitere Astro Pi-Projekte
