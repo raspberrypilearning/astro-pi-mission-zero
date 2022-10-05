@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Készülj fel a Mission Zeróra!
 listed: true
 copyedit: true
-version: 4.0.1
+version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
