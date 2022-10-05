@@ -1,4 +1,4 @@
-## Mostrar uma imagem
+## Sense a colour
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
 
@@ -33,7 +33,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Também pode alterar a cor de fundo do ecrã. Repeat this test again with a new colour.
+**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
 
 **Tip:** You will need to click 'Run' every time you change the colour.
 
@@ -174,11 +174,11 @@ The LED matrix turns black every second:
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Crie uma variável para armazenar a sua cor escolhida.
+Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
 
 You can mix your own colour or use the values from the list of colours to create your new `x`colour.
 
-[[[generic-theory-colours]]]
+\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
 --- code ---
 ---
