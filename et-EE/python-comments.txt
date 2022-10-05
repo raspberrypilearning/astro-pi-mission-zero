@@ -1,16 +1,16 @@
-Impordi teegid
+Import the libraries
 
-Installi Sense HAT
+Set up the Sense HAT
 
-Installi värviandur
+Set up the colour sensor
 
-Määra anduri tundlikkus
+Set the sensitivity of the sensor
 
-Intervall, millal näit võetakse
+The interval at which the reading will be take
 
-Lisa värvi muutujad ja pilt
+Add colour variables and image
 
-Kuva pilt
+Display the image
 
 White
 
@@ -32,8 +32,8 @@ Red
 
 MidnightBlue
 
-saa värv andurilt
+get the colour from the sensor
 
-kasuta anduriga määratud värvi
+use the sensed colour
 
-vali oma punase, rohelise ja sinise väärtused vahemikus 0–255
+choose your own red, green, blue values between 0 - 255
