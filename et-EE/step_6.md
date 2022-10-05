@@ -1,17 +1,17 @@
-## Mis edasi — rohkem Astro Pi projekte
+## What next — more Astro Pi projects
 
-Nüüd, kui oled lõpetanud selle missiooni, miks mitte proovida mõnda teist projekti kasutades teistsugust Astro Pi andurit?
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-Kui oled endas kindel, võiksid osaleda projektis [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Pane kokku kahest kuni kuuest liikmest koosnev meeskond ja tee päris oma enda eksperiment töötades koos täpselt nii nagu teevad seda päris kosmoseteadlased. Parimad esitatud ideed saavad Astro Pi komplekti, mida saate oma missiooni aitamiseks kasutada.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-Soovi korral võid proovida ka mõnd teistsugust Sense HAT projekti:
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-+ Saa [rohkem teada Sense HAT-i](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} ja teiste asjade kohta, mida see teha suudab
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-+ Loo mõned kenad [juhuslikud sätendused](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} Sense HAT-i LED-ekraanil
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-+ Loo mäng [Lehviv astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Esita oma sõpradele väljakutse mänguga [marmorlabürint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-+ Taasloo mänguklassika [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
