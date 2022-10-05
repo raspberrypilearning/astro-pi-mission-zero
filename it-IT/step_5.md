@@ -1,43 +1,43 @@
-## Misura l'umidità
+## Invia il tuo progetto
 
-Per poter essere inviato ed eseguito sulla Stazione Spaziale Internazionale, il programma deve soddisfare alcune regole. Se il vostro codice le soddisfa, le regole visualizzate in basso **sull’emulatore** si evidenziano di colore verde quando il programma viene eseguito.
+Ci sono alcune regole che il tuo codice deve rispettare per poter essere eseguito sulla Stazione Spaziale Internazionale. Se il tuo codice le segue, le regole nella parte inferiore dell'emulatore **Sense HAT** si illumineranno in verde quando esegui il programma.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![La pagina Mission Zero che mostra i criteri di verifica per la proposta.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Suggerimento:** prova il tuo codice con alcune impostazioni di colore diverse (usando il selettore) per assicurarti che funzioni sempre correttamente.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Assicurati che la tua voce segua le [linee guida ufficiali](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} per Mission Zero. Se non segue le linee guida, il tuo programma non potrà essere eseguito sulla Stazione Spaziale Internazionale.
 
-Please do not include any of the following in your team name or code:
+Si prega di non includere nessuno dei seguenti elementi nel nome o nel codice della squadra:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Tutto ciò che potrebbe essere interpretato come di natura illegale, politica o sensibile
++ Bandiere, in quanto possono essere considerate politicamente sensibili
++ Tutto ciò che fa riferimento a spiacevolezza o danno a un'altra persona
++ Dati personali come numeri di telefono, account social e indirizzi e-mail
++ Immagini oscene
++ Caratteri speciali o emoji
++ Linguaggio scurrile o parolacce
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Inserisci il codice della tua classe e il nome del team nella casella in basso: il tuo mentore ti dirà qual è il tuo codice.
 
-![Classroom code and team name submission form](images/submission.png)
+![Modulo di invio codice classe e nome squadra](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Note per i mentori** si possono trovare nel paragrafo [Introduzione](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Premi il pulsante **Aggiungi la tua squadra** per inserire il tuo codice. Tieni presente che un programma non può essere modificato una volta inviato.
 
-Your mentor will get an email to confirm your entry.
+Il tuo mentore riceverà un'e-mail che conferma la tua iscrizione.
 
 --- /task ---
 
 --- task ---
 
-Se volete, potete anche condividere il collegamento al codice sui social per dire ai vostri amici che il programma che avete scritto verrà eseguito nello spazio!
+Se lo desideri, puoi condividere il link al tuo codice sui social media per dire alle persone che il codice che hai scritto verrà eseguito nello spazio!
 
 --- /task ---
