@@ -6,33 +6,33 @@ Der er nogle få regler, som din kode skal følge, så du kan indsende den og de
 
 **Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. Hvis det ikke følger retningslinjerne, vil dit program ikke være i stand til at køre på den internationale rumstation.
 
-Please do not include any of the following in your team name or code:
+Inkludér venligst ikke noget af det følgende i dit holdnavn eller kode:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Alt hvad der kan fortolkes som værende ulovligt, politisk eller af følsom karakter
++ Flag, da de kan betragtes som værende politisk følsomme
++ Alt hvad der refererer til ubehageligheder eller skade mod en anden person
++ Personlige oplysninger såsom telefonnumre, kaldenavne på sociale medier og e-mailadresser
++ Sjofle billeder
++ Specialtegn eller emojis
++ Dårligt sprog eller bandeord
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Indtast dit klasseværelseskode og holdnavn i boksen nederst — din mentor vil fortælle dig, hvad din kode er.
 
-![Classroom code and team name submission form](images/submission.png)
+![Formular til indsendelse af klasseværelseskode og holdnavn](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Bemærkninger til mentorer** kan findes i trinntet [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Tryk på knappen **Tilføj dit hold** for at indtaste din kode. Bemærk venligst, at et program ikke kan ændres, når det først er indsendt.
 
-Your mentor will get an email to confirm your entry.
+Din mentor vil modtage en e-mail for at bekræfte din tilmelding.
 
 --- /task ---
 
