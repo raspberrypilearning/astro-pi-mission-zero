@@ -1,4 +1,4 @@
-## Farbe ermitteln
+## Bestimme eine Farbe
 
 In diesem Schritt richtest du den Farbsensor ein und verwendest ihn, um die Menge an Rot, Grün und Blau zu erfassen, die den Sensor erreicht. Diese Farbe wird dann verwendet, um dein ausgewähltes Bild einzufärben. Ein Astronaut, der in einem blauen Hemd auf den Sensor zugeht, würde ein anderes Bild sehen als ein Astronaut in einem roten Hemd.
 
@@ -43,7 +43,7 @@ bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y,
 
 Das Programm Astro Pi Mission Zero darf bis zu 30 Sekunden laufen. Du wirst diese Zeit nutzen, um den Farbsensor wiederholt abzufragen und das Bild zu aktualisieren.
 
-Ihr Code verwendet eine `-for-` -Schleife, um 28 Mal ausgeführt zu werden. **Jedes** mal wird es:
+Ihr Code verwendet eine `for`-Schleife, um 28 Mal ausgeführt zu werden. **Jedes** mal wird es:
 + die neueste Farbe ermitteln
 + die Hintergrundfarbe des Bildes aktualisieren
 + eine Sekunde pausieren
