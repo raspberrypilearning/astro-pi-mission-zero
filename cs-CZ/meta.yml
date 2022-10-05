@@ -1,0 +1,19 @@
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/banner.png
+description: Připrav se na Mission Zero
+listed: true
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+steps:
+  - title: Co budeš dělat
+  - title: Co je Astro Pi?
+  - title: Zobraz obrázek
+    completion:
+      - engaged
+  - title: Získej hodnoty ze senzoru
+  - title: Odešli svůj příspěvek
+    completion:
+      - internal
+  - title: 'Co dál: Další projekty Astro Pi'

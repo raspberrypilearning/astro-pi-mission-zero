@@ -1,0 +1,19 @@
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/banner.png
+description: Προετοιμάσου για το Mission Zero
+listed: true
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+steps:
+  - title: Θα φτιάξεις
+  - title: Τι είναι το Astro Pi;
+  - title: Εμφάνιση εικόνας
+    completion:
+      - αφοσιωμένος/η
+  - title: Ανίχνευση ενός χρώματος
+  - title: Υποβολή της συμμετοχής σου
+    completion:
+      - εσωτερικός
+  - title: Τι ακολουθεί — περισσότερα έργα Astro Pi

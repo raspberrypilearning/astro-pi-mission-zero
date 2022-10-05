@@ -1,0 +1,322 @@
+## Přidej barvy
+
+V tomto kroku nastavíš senzor barev a svítivosti, který ti řekne, kolik červené, zelené a modré dopadá na senzor. Touto barvou se poté vybarví tvůj obrázek. Astronaut, který přijde k senzoru v modrém tričku, uvidí jiný obrázek než astronaut v červeném tričku.
+
+![obrázek zobrazený s růžovým pozadím na LED matici](images/colour_background.png)
+
+Ať už si vybereš jakýkoli obrázek, pozadí používá proměnnou `c`, která je nastavená na černou.
+
+--- task ---
+
+Použij senzor barev k vybarvení pozadí.
+
+Před seznam s obrázkem přidej kód, díky němuž získáš naměřenou barvu ze senzoru, a změň barvu pozadí proměnné `c` na barvu, kterou zachytil senzor barev desky Sense HAT.
+
+**Tip:** Nemusíš psát komentáře, které začínají „#“ (slouží pouze k vysvětlení daného kódu).
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 9-10
+---
+# Přidej proměnné s barvami a obrázek
+
+c = (0, 0, 0) # Černá
+m = (34, 139, 34) # Lesní zelená
+q = (255, 255, 0) # Žlutá
+t = (255, 140, 0) # Tmavě oranžová
+y = (255, 20, 147) # Sytě růžová
+
+rgb = sense.color # získej barvu ze senzoru
+c = (rgb.red, rgb.green, rgb.blue) # použij barvu naměřenou ze senzoru
+
+obrazek = [
+  c, c, y, y, y, y, c, c,
+  c, y, y, t, t, y, y, c,
+  y, y, t, q, q, t, y, y,
+  c, y, y, t, t, y, y, c,
+  c, c, y, y, y, y, c, c,
+  m, c, c, m, m, c, c, m,
+  c, m, m, m, m, m, m, c,
+  c, c, c, m, m, c, c, c]
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Pomocí nástroje pro výběr barvy si zvol barvu, která se ti líbí, a pak svůj kód **spusť**. Barva tvého pozadí se změní. Opakuj tento test s novou barvou.
+
+**Tip:** Po každé změně barvy musíš kliknout na tlačítko „Spustit“.
+
+--- /task ---
+
+## Přidej do svého programu cyklus
+
+Program výzvy Astro Pi Mission Zero může běžet po dobu až 30 sekund. Využij této doby a opakovaně kontroluj senzor barev, a aktualizuj tak svůj obrázek.
+
+Tvůj kód použije cyklus `for`, aby se spustil 28krát. Během **každého** opakování:
++ naměří poslední barvu,
++ aktualizuje pozadí obrázku,
++ se zastaví na jednu sekundu.
+
+--- task ---
+
+**Najdi** řádek kódu obsahující `rgb = sense.color`.
+
+**Přidej** kód nad něj a nastav cyklus `for` na `28` opakování.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+for i in range(28):
+rgb = sense.color # získej barvu ze senzoru
+c = (rgb.red, rgb.green, rgb.blue)
+
+obrazek = [
+  c, c, y, y, y, y, c, c,
+  c, y, y, t, t, y, y, c,
+  y, y, t, q, q, t, y, y,
+  c, y, y, t, t, y, y, c,
+  c, c, y, y, y, y, c, c,
+  m, c, c, m, m, c, c, m,
+  c, m, m, m, m, m, m, c,
+  c, c, c, m, m, c, c, c]
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Všechen svůj kód teď musíš odsadit pod cyklus `for` tak, aby se nacházel **uvnitř** těla tohoto cyklu.
+
+**Tip:** Pokud chceš odsadit více řádků, označ řádky, které chceš odsadit, a poté stiskni klávesu <kbd>Tab</kbd> (většinou nad klávesou <kbd>Caps Lock</kbd>).
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 2 - 17
+---
+for i in range(28):
+  rgb = sense.color # získej barvu ze senzoru
+  c = (rgb.red, rgb.green, rgb.blue)
+
+  obrazek = [
+    c, c, y, y, y, y, c, c,
+    c, y, y, t, t, y, y, c,
+    y, y, t, q, q, t, y, y,
+    c, y, y, t, t, y, y, c,
+    c, c, y, y, y, y, c, c,
+    m, c, c, m, m, c, c, m,
+    c, m, m, m, m, m, m, c,
+    c, c, c, m, m, c, c, c]
+
+  # Zobraz obrázek
+
+  sense.set_pixels(obrazek)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Na konec cyklu přidej funkci `sleep` s délkou trvání jedné sekundy:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 4
+---
+  # Zobraz obrázek
+
+  sense.set_pixels(obrazek)
+  sleep(1) 
+
+--- /code ---
+
+**Tip:** Ujisti se, že tento řádek kódu je ve smyčce `for` odsazený.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Spusť svůj kód a pomocí nástroje pro výběr barvy několikrát změn barvu. Zkontroluj, jestli se tvůj obrázek změnil a jestli používá při dalším opakování naměřenou barvu.
+
+Po dokončení cyklu se obrázek přestane aktualizovat, aby tvůj program neběžel déle než 30 sekund.
+
+--- /task ---
+
+--- task ---
+
+**Ladění**
+
+Můj kód má chyby v syntaxi nebo neběží, jak by měl:
+
+- Zkontroluj si, jestli tvůj kód odpovídá kódu v příkladech uvedených výše.
+- Zkontroluj si, jestli je tvůj kód cyklu `for` správně odsazený.
+- Zkontroluj si, jestli je tvůj seznam ohraničený závorkami `[` a `]`.
+- Zkontroluj si, jestli je každá proměnná s barvou oddělená čárkou.
+
+Můj kód běží déle než 30 sekund:
+
+- Sniž počet opakování cyklu „for“ z 28 na 25 nebo třeba i na 20.
+- Sniž dobu trvání funkce „sleep“ z 1 sekundy na 0,5 sekundy.
+
+--- /task ---
+
+--- task ---
+
+Na konec svého kódu přidej řádek `sense.clear()`, který po dokončení cyklu obrázek vyklidí. Díky němu uvidíš, kdy tvoje animace skončila.
+
+**Tip:** Ujisti se, že řádek `sense.clear()` **není** odsazený, protože ho chceš spustit pouze jednou, a to na konci své animace.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 6
+---
+  # Zobraz obrázek
+
+  sense.set_pixels(obrazek)
+  sleep(1) 
+  
+sense.clear()
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí, čímž všechna světla zčernají (vypnou se).
+
+--- /task ---
+
+--- task ---
+
+**Ladění**
+
+LED matice každou sekundu zčerná:
+
+- Zkontroluj si, jestli řádek `sense.clear()` není odsazený, a nenachází se tak v cyklu `for`.
+
+--- /task ---
+
+--- task ---
+
+Přidej kód, který vyklidí LED matici na barvu dle tvého výběru. Vytvoř proměnnou `x`, do které uložíš novou barvu.
+
+K vytvoření proměnné `x` si můžeš namíchat svoji vlastní barvu nebo použít hodnoty ze seznamu barev.
+
+[[[generic-theory-simple-colours]]] 
+[[[ambient-colours]]]
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 6-7
+---
+  # Zobraz obrázek
+
+  sense.set_pixels(obrazek)
+  sleep(1) 
+
+x = (178, 34, 34)  # vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
+sense.clear(x)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí na tebou zvolenou barvu. Barvu můžeš měnit a testovat, kolikrát jen chceš.
+
+--- /task ---
+
+--- task ---
+
+--- collapse ---
+
+---
+title: Příklad dokončeného kódu
+---
+
+![Mřížka o velikosti 8 × 8, na které je fialová kytička se zeleným stonkem.](images/flower.png)
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Importuj knihovny
+from sense_hat import SenseHat
+from time import sleep
+
+# Nastav Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Nastav senzor barev
+sense.color.gain = 60 # Nastav citlivost senzoru
+sense.color.integration_cycles = 64 # Interval, který udává frekvenci měření ze senzoru
+
+# Přidej proměnné s barvami a obrázek
+
+c = (0, 0, 0) # Černá
+m = (34, 139, 34) # Lesní zelená
+q = (255, 255, 0) # Žlutá
+t = (255, 140, 0) # Tmavě oranžová
+y = (255, 20, 147) # Sytě růžová
+
+for i in range(28):
+  rgb = sense.color # získej barvu ze senzoru
+  c = (rgb.red, rgb.green, rgb.blue)
+
+  obrazek = [
+    c, c, y, y, y, y, c, c,
+    c, y, y, t, t, y, y, c,
+    y, y, t, q, q, t, y, y,
+    c, y, y, t, t, y, y, c,
+    c, c, y, y, y, y, c, c,
+    m, c, c, m, m, c, c, m,
+    c, m, m, m, m, m, m, c,
+    c, c, c, m, m, c, c, c]
+
+  # Zobraz obrázek
+
+  sense.set_pixels(obrazek)
+  sleep(1)
+
+x = (178, 34, 34)  # vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
+sense.clear(x)
+
+--- /code ---
+
+--- /collapse ---
+
+--- /task ---

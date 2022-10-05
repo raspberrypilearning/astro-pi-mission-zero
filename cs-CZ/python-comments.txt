@@ -1,0 +1,39 @@
+Importuj knihovny
+
+Nastav Sense HAT
+
+Nastav senzor barev
+
+Nastav citlivost senzoru
+
+Interval, který udává frekvenci měření ze senzoru
+
+Přidej proměnné s barvami a obrázek
+
+Zobraz obrázek
+
+Bílá
+
+Černá
+
+Středně modrá
+
+Žlutá
+
+Tmavě oranžová
+
+Růžová
+
+Lesní zelená
+
+Sytě růžová
+
+Červená
+
+Půlnoční modrá
+
+získej barvu ze senzoru
+
+použij barvu naměřenou ze senzoru
+
+vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255

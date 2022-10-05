@@ -1,0 +1,39 @@
+Bibliotheken importieren
+
+Einrichten des Sense HAT
+
+Farbsensor einrichten
+
+Empfindlichkeit des Sensors einstellen
+
+Das Intervall, in dem die Messung durchgeführt wird
+
+Farbvariablen und Bild hinzufügen
+
+Das Bild anzeigen
+
+Weiß
+
+Schwarz
+
+Mittelblau
+
+Gelb
+
+Dunkelorange
+
+Rosa
+
+Waldgrün
+
+Dunkelrosa
+
+Rot
+
+Mitternachtsblau
+
+Hole die Farbe vom Sensor
+
+Verwende die ermittelte Farbe
+
+Wähle deine eigenen Rot-, Grün- und Blauwerte zwischen 0 - 255
