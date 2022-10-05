@@ -178,7 +178,7 @@ Ajoute du code pour effacer la matrice de LED par une couleur de ton choix. Cré
 
 Tu peux mélanger ta propre couleur ou utiliser les valeurs de la liste de couleurs pour créer ta nouvelle couleur `x`.
 
-[[[generic-theory-colours]]]
+\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
 --- code ---
 ---
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test :** Exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
+**Test:** Run your code again. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
 
 --- /task ---
 
@@ -225,7 +225,7 @@ sense = SenseHat() sense.set_rotation(270)
 # Set up the colour sensor
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
-# Modifie le texte et la couleur du message de bienvenue - quel message veux-tu envoyer aux astronautes à bord de l'ISS ?
+# Add colour variables and image
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
