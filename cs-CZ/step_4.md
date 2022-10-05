@@ -10,7 +10,7 @@ Ať už si vybereš jakýkoli obrázek, pozadí používá proměnnou `c`, kter�
 
 Použij senzor barev k vybarvení pozadí.
 
-Před seznam s obrázkem přidej kód, díky němuž získáš barvu ze senzoru, a změň barvu pozadí proměnné `c` na barvu, kterou zachytil senzor barev desky Sense HAT.
+Před seznam s obrázkem přidej kód, díky němuž získáš naměřenou barvu ze senzoru, a změň barvu pozadí proměnné `c` na barvu, kterou zachytil senzor barev desky Sense HAT.
 
 **Tip:** Nemusíš psát komentáře, které začínají „#“ (slouží pouze k vysvětlení daného kódu).
 
@@ -33,7 +33,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Na posuvníku s barvou si vyber barvu, která se ti líbí, a pak svůj kód **spusť**. Barva tvého pozadí se změní. Opakuj tento test s novou barvou.
+**Test:** Pomocí nástroje pro výběr barvy si zvol barvu, která se ti líbí, a pak svůj kód **spusť**. Barva tvého pozadí se změní. Opakuj tento test s novou barvou.
 
 **Tip:** Po každé změně barvy musíš kliknout na tlačítko „Spustit“.
 
@@ -105,7 +105,7 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Ujisti se, že tento řádek kódu je ve tvé smyčce `for` odsazený.
+**Tip:** Ujisti se, že tento řádek kódu je ve smyčce `for` odsazený.
 
 --- /task ---
 
