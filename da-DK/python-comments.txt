@@ -1,39 +1,39 @@
-Import the libraries
+Importér bibliotekerne
 
-Set up the Sense HAT
+Konfigurer Sense HAT
 
-Set up the colour sensor
+Konfigurer farvesensoren
 
-Set the sensitivity of the sensor
+Indstil sensorens følsomhed
 
-The interval at which the reading will be take
+Intervallet, som aflæsningen vil blive taget med
 
-Add colour variables and image
+Tilføj farvevariabler og billede
 
-Display the image
+Vis billedet
 
-White
+Hvid
 
-Black
+Sort
 
-MediumBlue
+Mellemblå
 
 Gul
 
-DarkOrange
+Mørk orange
 
-Pink
+Lyserød
 
-ForestGreen
+Skovgrøn
 
-DeepPink
+Dyb lysserød
 
 Rød
 
-MidnightBlue
+Midnatsblå
 
-get the colour from the sensor
+få farven fra sensoren
 
-use the sensed colour
+brug den opfangede farve
 
-choose your own red, green, blue values between 0 - 255
+vælg dine egne røde, grønne eller blå værdier mellem 0 - 255
