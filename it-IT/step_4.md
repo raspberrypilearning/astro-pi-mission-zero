@@ -1,29 +1,29 @@
-## Mostra un'immagine
+## Leggi il colore
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+In questo passaggio, imposterai il sensore di luminosità del colore e lo utilizzerai per rilevare la quantità di rosso, verde e blu che raggiunge il sensore. Questo colore verrà quindi utilizzato per colorare l'immagine scelta. Un astronauta che si avvicina al sensore con una maglietta blu vedrebbe un'immagine diversa rispetto a un astronauta con una maglietta rossa.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![immagine visualizzata con sfondo rosa sulla matrice LED](images/colour_background.png)
 
-Per dire al programma di usare il colore di sfondo che avete scelto, aggiungete al codice il parametro `back_colour`:
+Qualunque sia l'immagine che hai scelto, lo sfondo utilizza la variabile `c` impostata sul nero.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Usa il sensore di colore per colorare il tuo sfondo.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Aggiungi il codice prima della lista contenente le immagini per ottenere il colore dal sensore e modifica la variabile del colore di sfondo `c` per utilizzare il colore rilevato dal sensore di colore Sense HAT, anziché il nero.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Suggerimento:** Non è necessario digitare i commenti che iniziano con '#' (sono inseriti per spiegare il codice).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Aggiungi un po’ di colore
+# Aggiungi variabili di colore e immagine
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo t = (255, 140, 0) # Arancio scuro y = (255, 20, 147) # Rosa scuro
 
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+rgb = sense.color # legge il colore dal sensore c = (rgb.red, rgb.green, rgb.blue) # usa il colore rilevato
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -33,33 +33,33 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Potete anche cambiare il colore di sfondo del display. Repeat this test again with a new colour.
+**Test:** Sposta il cursore del colore su un colore a tua scelta e poi **esegui** il tuo codice. Il colore dello sfondo cambierà. Ripeti questo test di nuovo con un colore differente.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Suggerimento:** Dovrai fare clic su "Esegui" ogni volta che cambi il colore.
 
 --- /task ---
 
-## Loop your program
+## Ripeti il tuo programma
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Il programma Astro Pi Mission Zero può funzionare per un massimo di 30 secondi. Utilizzerai questo tempo per controllare ripetutamente il sensore di colore e aggiornare l'immagine.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Il tuo codice utilizzerà un ciclo `for` per essere eseguito 28 volte. **Ogni** volta:
++ leggerà l'ultimo colore
++ aggiornerà il colore di sfondo dell'immagine
++ si fermerà per un secondo
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Trova** la tua riga di codice `rgb = sense.color`.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Aggiungi** codice al di sopra per impostare il tuo ciclo `for` a `28` ripetizioni.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -69,20 +69,20 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi **dentro** il ciclo `for`.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Suggerimento:** Per far rientrare più righe, evidenzia le righe che desideri indentare, quindi premi il tasto <kbd>Tab</kbd> sulla tastiera (di solito si trova sopra il tasto <kbd>Caps Lock</kbd> della tastiera).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
-  # Display the image
+  # Visualizza l'immagine
 
   sense.set_pixels(image)
 
@@ -92,28 +92,28 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Nella parte inferiore del codice, aggiungi uno `sleep` di un secondo all'interno del tuo ciclo:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
-  # Display the image
+  # Visualizza l'immagine
 
   sense.set_pixels(image) sleep(1)
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Suggerimento:** Assicurati che questa riga di codice sia indentata nel tuo ciclo `for`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test:** Esegui il tuo codice e cambia il selettore colore più volte mentre il tuo progetto è in esecuzione. Verifica che l'immagine si aggiorni utilizzando il colore rilevato nell'esecuzione successiva.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
+L'immagine smetterà di aggiornarsi al termine del ciclo in modo che il programma non venga eseguito per più di 30 secondi.
 
 --- /task ---
 
@@ -121,32 +121,32 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 **Debug**
 
-My code has a syntax error or doesn't run as expected:
+Il mio codice ha un errore di sintassi o non viene eseguito come previsto:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Verifica che il tuo codice corrisponda al codice degli esempi precedenti
+- Verifica di aver indentato il codice nel tuo ciclo `for`
+- Verifica che la tua lista sia racchiusa tra `[` e `]`
+- Verifica che ogni variabile di colore nell'elenco sia separata da una virgola
 
-My code runs for longer than 30 seconds:
+Il mio codice viene eseguito per più di 30 secondi:
 
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+- Riduci il numero di volte che il ciclo for viene eseguito, da 28 a 25 o anche 20.
+- Riduci la durata del la pausa sleep, da 1 secondo a 0,5 secondi.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+Aggiungi `sense.clear()` alla fine del tuo codice per cancellare l'immagine alla fine del tuo ciclo. Questo ti aiuterà a capire quando l'animazione termina.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Suggerimento:** Assicurati di **non** indentare la riga di codice `sense.clear()` perché deve essere eseguita solo una volta alla fine dell'animazione.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
-  # Display the image
+  # Visualizza l'immagine
 
   sense.set_pixels(image) sleep(1)
 
@@ -158,7 +158,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test:** Esegui di nuovo il codice. Quando il tuo progetto ha terminato l'esecuzione, la matrice LED si pulirà, annerendo tutte le luci (luci spente).
 
 --- /task ---
 
@@ -166,30 +166,30 @@ sense.clear()
 
 **Debug**
 
-The LED matrix turns black every second:
+La matrice LED diventa nera ogni secondo:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Verifica di non aver indentato il codice `sense.clear()` all'interno del tuo ciclo `for`
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create una variabile in cui memorizzare il colore che avete scelto.
+Aggiungi il codice per colorare la matrice LED a tua scelta. Crea una variabile chiamata `x` per memorizzare il tuo nuovo colore.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Puoi mescolare il tuo colore o utilizzare i valori della lista dei colori per creare il tuo nuovo colore `x`.
 
-[[[generic-theory-colours]]]
+\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6-7
 ---
-  # Display the image
+  # Visualizza l'immagine
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
+x = (178, 34, 34) # scegli i tuoi valori di rosso, verde, blu tra 0 - 255 sense.clear(x)
 
 --- /code ---
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Esegui di nuovo il codice. Al termine dell'esecuzione del progetto, la matrice LED assumerà il colore scelto. Puoi cambiare e testare il colore tutte le volte che vuoi.
 
 --- /task ---
 
@@ -206,38 +206,38 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+titolo: Esempio di codice completato
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/flower.png)
 
 --- code ---
 ---
 language: python filename: main.py
 line_numbers: false
 ---
-# Import the libraries
+# Importare le librerie
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Imposta il Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+# Configura il sensore di colore
+sense.color.gain = 60 # Imposta la sensibilità del sensore sense.color.integration_cycles = 64 # L'intervallo a cui verrà eseguita la lettura
 
-# Aggiungi un po’ di colore
+# Aggiungi variabili di colore e immagine
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo t = (255, 140, 0) # Arancio scuro y = (255, 20, 147) # Rosa scuro
 
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
-  # Display the image
+  # Visualizza l'immagine
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
+x = (178, 34, 34) # scegli i tuoi valori di rosso, verde, blu tra 0 - 255 sense.clear(x)
 
 --- /code ---
 
