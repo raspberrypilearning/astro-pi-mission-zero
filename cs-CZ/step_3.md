@@ -18,8 +18,8 @@ Tento kód slouží k připojení k počítači Astro Pi a zajistí, že se jeho
 
 --- code ---
 ---
-Pod kód, který už tam je, přidej tenhle řádek:
-title: Jaké znaky můžeš použít?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Importuj knihovny
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Nastav senzor barev
-Stiskni tlačítko **Run** (spustit) a dívej se, jak zpráva `Astro Pi` běží přes LED displej.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -64,7 +64,7 @@ title: Kuřátko
 
 --- code ---
 ---
-Pokud chceš hlasovat, *musí* tvoje zpráva začínat těmito slovy, jinak nebudeme moci tvůj příspěvek započítat.
+language: python filename: main.py
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
