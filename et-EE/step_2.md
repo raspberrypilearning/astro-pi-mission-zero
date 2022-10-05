@@ -1,14 +1,14 @@
-## Mis on Astro Pi?
+## What is an Astro Pi?
 
-Astro Pi on kapsliga ümbritsetud Raspberry Pi arvuti, mis on spetsiaalselt valmistatud kosmoses valitsevate tingimuste jaoks.
+An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space.
 
-![Animeeritud pilt Sense HAT-ist, mis on kinnitatud Raspberry Pi arvuti peale.](images/astro_pi_casing.jpeg)
+![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
 
-Astro Pi arvutitel on komplekt andureid ja vidinaid, mida saab kasutada suurepäraste teaduslike katsete läbiviimiseks. Seda andurite komplekti kutsutakse "Sense HAT-iks" (ingliskeelne lühend HAT tähendab "Hardware Attached on Top" ehk riistvara, mis on peale paigaldatud). Sense HAT annab Astro Pi-le võimaluse "tajuda" ja teha mitmesuguseid mõõtmisi alates temperatuurist kuni liikumiseni ja väljastada teavet 8 x 8 LED-maatriksekraani abil. Astro Pi-del on ka juhtkang ja nupud, just nagu videomängukonsoolil!
+Astro Pi computers come with a set of sensors and gadgets that can be used to run great scientific experiments. This set of sensors is called a ‘Sense HAT’ (that stands for ‘Hardware Attached on Top’). The Sense HAT gives Astro Pi the ability to ‘sense’ and make many kinds of measurements, from temperature to movement, and to output information using an 8 x 8 LED matrix display. The Astro Pis also have a joystick and buttons, just like a video game console!
 
-![Animeeritud pilt Sense HAT Mark II-st.](images/AP_spin.gif){:width: 400px"}
+![Animated image of a Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
 
-Selle missiooni jaoks kasutad Sense HAT-i emulaatorit, mis simuleerib sinu veebibrauseris Astro Pi põhifunktsioone.
+For this mission, you will be using the Sense HAT emulator which simulates the main functions of the Astro Pi in your web browser.
 
 
 
