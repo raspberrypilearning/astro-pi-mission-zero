@@ -30,7 +30,7 @@ Gib deinen Klassenraumcode und Teamnamen in das Feld unten ein – dein Mentor w
 
 --- task ---
 
-Drücke die Schaltfläche **Add your team** (Füge dein Team hinzu), um deinen Code einzureichen. Bitte beachte, dass ein Programm nach dem Absenden nicht geändert werden kann.
+Drücke die Schaltfläche **Füge dein Team hinzu**, um deinen Code einzureichen. Bitte beachte, dass ein Programm nach dem Absenden nicht geändert werden kann.
 
 Dein Mentor wird eine E-Mail erhalten, um deine Einsendung zu bestätigen.
 

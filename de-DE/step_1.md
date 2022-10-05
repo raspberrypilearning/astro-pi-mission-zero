@@ -1,4 +1,4 @@
-## Einleitung
+## Das wirst du machen
 
 Schließe dieses Projekt ab, um bei [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} mit zu machen und deinen Code im Weltraum auf einem Astro Pi Computer laufen zu lassen.
 

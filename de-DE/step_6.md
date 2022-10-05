@@ -12,9 +12,9 @@ Alternativ möchtest du vielleicht eines unserer anderen Sense HAT-Projekte ausp
 
 + Erstelle ein [Flappy Astronaut](https://projects.raspberrypi.org/de-DE/projects/flappy-astronaut){:target="_blank"}-Spiel
 
-+ Fordere deine Freunde mit einem [-Murmel-Labyrinth-](https://projects.raspberrypi.org/de-DE/projects/sense-hat-marble-maze)-{:target="_blank"}-Spiel heraus
++ Fordere deine Freunde mit einem [Murmel-Labyrinth](https://projects.raspberrypi.org/de-DE/projects/sense-hat-marble-maze){:target="_blank"}-Spiel heraus
 
-+ Erstelle das klassische Spiel [Pong](https://projects.raspberrypi.org/de-DE/projects/sense-hat-pong)neu{:target="_blank"}
++ Erstelle das klassische Spiel [Pong](https://projects.raspberrypi.org/de-DE/projects/sense-hat-pong){:target="_blank"} neu
 
 ***
 Dieses Projekt wurde von freiwilligen Helfern übersetzt:

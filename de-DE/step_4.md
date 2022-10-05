@@ -1,4 +1,4 @@
-## Farbe ermitteln
+## Bestimme eine Farbe
 
 In diesem Schritt richtest du den Farbsensor ein und verwendest ihn, um die Menge an Rot, Grün und Blau zu erfassen, die den Sensor erreicht. Diese Farbe wird dann verwendet, um dein ausgewähltes Bild einzufärben. Ein Astronaut, der in einem blauen Hemd auf den Sensor zugeht, würde ein anderes Bild sehen als ein Astronaut in einem roten Hemd.
 
@@ -59,7 +59,7 @@ bild = [
 
 Das Programm Astro Pi Mission Zero darf bis zu 30 Sekunden laufen. Du wirst diese Zeit nutzen, um den Farbsensor wiederholt abzufragen und das Bild zu aktualisieren.
 
-Ihr Code verwendet eine `-for-` -Schleife, um 28 Mal ausgeführt zu werden. **Jedes** mal wird es:
+Ihr Code verwendet eine `for`-Schleife, um 28 Mal ausgeführt zu werden. **Jedes** mal wird es:
 + die neueste Farbe ermitteln
 + die Hintergrundfarbe des Bildes aktualisieren
 + eine Sekunde pausieren
@@ -68,7 +68,7 @@ Ihr Code verwendet eine `-for-` -Schleife, um 28 Mal ausgeführt zu werden. **Je
 
 **Finde** deine `rgb = sense.color` Codezeile.
 
-Code darüber **hinzufügen** um deine `for` -Schleife für `28` Wiederholungen einzurichten.
+Code darüber **hinzufügen** um deine `for`-Schleife für `28` Wiederholungen einzurichten.
 
 --- code ---
 ---
@@ -98,7 +98,7 @@ bild = [
 
 --- task ---
 
-Du musst jetzt deinen gesamten Code unter der `for` -Schleife einrücken, sodass er **innerhalb** der `for` -Schleife sitzt.
+Du musst jetzt deinen gesamten Code unter der `for`-Schleife einrücken, sodass er **innerhalb** der `for`-Schleife sitzt.
 
 **Tipp:** Um mehrere Zeilen einzurücken, markiere die Zeilen, die du einrücken möchtest, und drücke dann die Taste <kbd>Tab</kbd> auf deiner Tastatur (normalerweise über der Taste <kbd>Caps Lock</kbd> auf der Tastatur).
 
@@ -151,7 +151,7 @@ line_highlights: 4
 
 --- /code ---
 
-**Tipp:** Stelle sicher, dass diese Codezeile innerhalb deiner `for` Schleife eingerückt ist.
+**Tipp:** Stelle sicher, dass diese Codezeile innerhalb deiner `for`-Schleife eingerückt ist.
 
 --- /task ---
 
@@ -170,7 +170,7 @@ Das Bild wird nicht mehr aktualisiert, wenn die Schleife beendet ist, so dass da
 Mein Code hat einen Syntaxfehler oder läuft nicht wie erwartet:
 
 - Überprüfe, ob dein Code mit dem Code in den obigen Beispielen übereinstimmt
-- Überprüfe, ob du den Code in der `for`Schleife richtig eingerückt hast
+- Überprüfe, ob du den Code in der `for`-Schleife richtig eingerückt hast
 - Überprüfe, ob deine Liste von `[` und `]`umgeben ist
 - Überprüfe, ob die Farbvariablen in der Liste durch Kommas getrennt sind
 
@@ -218,7 +218,7 @@ sense.clear()
 
 Die LED-Matrix wird jede Sekunde schwarz:
 
-- Stelle sicher, dass du den Code `sense.clear()` in deiner `-for-` -Schleife nicht eingerückt hast
+- Stelle sicher, dass du den Code `sense.clear()` in deiner `for`-Schleife nicht eingerückt hast
 
 --- /task ---
 

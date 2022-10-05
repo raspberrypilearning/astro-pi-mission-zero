@@ -1,4 +1,4 @@
-## Anzeigen eines Bildes
+## Zeige ein Bild
 
 Die LED-Matrix des Astro Pi kann Farben darstellen. In diesem Schritt zeigst du Bilder aus der Natur auf der LED-Matrix des Astro Pi an.
 
