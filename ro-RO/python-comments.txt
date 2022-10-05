@@ -18,7 +18,7 @@ Black
 
 MediumBlue
 
-Galben
+Yellow
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Roșu
+Red
 
 MidnightBlue
 
