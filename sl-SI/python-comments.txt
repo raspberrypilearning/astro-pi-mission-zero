@@ -10,7 +10,7 @@ The interval at which the reading will be take
 
 Add colour variables and image
 
-Prikaži sliko
+Display the image
 
 White
 
@@ -18,7 +18,7 @@ Black
 
 MediumBlue
 
-Rumena
+Yellow
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Rdeča
+Red
 
 MidnightBlue
 
