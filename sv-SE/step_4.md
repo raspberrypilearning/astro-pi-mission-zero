@@ -50,16 +50,16 @@ Din kod kommer att använda en `for` loop för att köra 28 gånger. **Varje** g
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Hitta** din `rgb = sense.color` kodrad.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Lägg till** kod ovanför den för att ställa in din `for` -loop för `28` repetitioner.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -69,20 +69,20 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Du måste nu indentera all din kod under `for` loopen så att den är **inuti** `for` loopen.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Tips:** För att indentera flera rader, markera de rader som du vill indentera och tryck sedan på <kbd>Tab</kbd> -tangenten på ditt tangentbord (vanligtvis ovanför <kbd>Caps Lock</kbd> -tangenten på tangentbordet).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
-  # Display the image
+  # Visa bilden
 
   sense.set_pixels(image)
 
@@ -92,61 +92,61 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Längst ned i koden lägger du till en `-sleep` på en sekund i din loop:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
-  # Display the image
+  # Visa bilden
 
   sense.set_pixels(image) sleep(1)
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Tips:** Se till att denna kodrad är indenterad i din `for` -loop.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Testa:** Kör din kod och ändra färgväljaren flera gånger medan ditt projekt körs. Kontrollera att din bild uppdateras för att använda den avkända färgen vid nästa körning.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+Bilden kommer att sluta uppdateras när loopen är klar så att programmet inte körs i mer än 30 sekunder.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+**Felsökning**
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+Min kod har ett syntaxfel eller fungerar inte som förväntat:
+
+- Kontrollera att din kod matchar koden i exemplen ovan
+- Kontrollera att du har indenterat koden i din `for` -loop
+- Kontrollera att din lista är omgiven av `[` och `]`
+- Kontrollera att varje färgvariabel i listan är avgränsad med ett kommatecken
+
+Min kod körs i längre än 30 sekunder:
+
+- Minska antalet gånger din for loop kör, från 28 till 25 eller till och med 20.
+- Minska längden på sleep, från 1 sekund till 0,5 sekunder.
+
+--- /task ---
+
+--- task ---
+
+Lägg till `sense.clear()` i slutet av din kod för att rensa bilden i slutet av din loop. Detta hjälper dig att se när din animation har körts färdigt.
+
+**Tips:** Se till att du **inte** indenterar raden `sense.clear()` eftersom du vill att den bara ska köras en gång i slutet av din animering.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
-  # Display the image
+  # Visa bilden
 
   sense.set_pixels(image) sleep(1)
 
@@ -158,23 +158,23 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Testa:** Kör din kod igen. När ditt projekt har körts klart försvinner LED-matrisen, vilket gör att alla lampor blir svarta (släckta).
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Felsökning**
 
-The LED matrix turns black every second:
+LED-matrisen blir svart varje sekund:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Kontrollera att du inte har indenterat koden `sense.clear()` i din `for` -loop
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Lägg till kod för att rensa LED-matrisen till en färg som du väljer. Skapa en variabel som heter `x` för att lagra din nya färg.
 
 You can mix your own colour or use the values from the list of colours to create your new `x`colour.
 
