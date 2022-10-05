@@ -1,17 +1,17 @@
-## Mät luftfuktigheten
+## Utmaning: fler Astro Pi-projekt
 
-Luftfuktighetssenorn i Astro Pi kan mäta den omgivande luftfuktighet, en användbar funktion som hjälper dig att samla in data om förhållandena i rymden.
+Nu när du har avslutat ditt uppdrag, varför inte prova några fler projekt med de andra sensorerna på Astro Pi?
 
-Om du känner dig självsäker kan du delta i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Skapa ett lag med två till sex personer och arbeta tillsammans som riktiga rymdforskare för att utforma ert eget experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Om du känner dig självsäker kan du delta i [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Skapa ett lag med två till sex personer och arbeta tillsammans som riktiga rymdforskare för att utforma ert eget experiment. De bästa idéerna som skickas in kommer att få ett Astro Pi-kit att använda för att hjälpa till med ditt uppdrag.
 
-Astro Pi mäter luftfuktigheten i ISS i procentuell vattenkoncentration i luften.
+Alternativt kanske du vill testa något av våra andra Sense HAT-projekt:
 
-+ Lär dig [mer om Sense HAT](https://projects.raspberrypi.org/sv-SE/projects/getting-started-with-the-sense-hat){:target="_blank"} och de andra sakerna den kan göra
++ Lär dig [mer om Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} och de andra sakerna den kan göra
 
-+ Skapa lite snyggt [slumpmässigt glitter](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-random-sparkles){:target="_blank"} på LED-displayen i Sense HAT
++ Skapa några vackra [slumpmässiga gnistor](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} på Sense HAT:s LED-skärm
 
-+ Skapa spelet [Flappy Astronaut](https://projects.raspberrypi.org/sv-SE/projects/flappy-astronaut){:target="_blank"}
++ Skapa ett [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}-spel
 
-+ Utmana dina vänner med spelet [marmorlabyrint](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-marble-maze){:target="_blank"}
++ Utmana dina vänner med en [marmorlabyrint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spel
 
-+ Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/sv-SE/projects/sense-hat-pong){:target="_blank"}
++ Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
