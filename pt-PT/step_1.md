@@ -1,37 +1,37 @@
-## Introdução
+## You will make
 
 Complete this project to enter [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} and have your code run in space on an Astro Pi computer.
 
 Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
 
-Aqui está um exemplo do tipo de programa que você pode fazer.
+Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
 ![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
 
-### Vais precisar
+### You will need
 
 You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
 ### Astro Pi Mission Zero criteria
 
-*Se isso atender aos critérios de elegibilidade* o seu programa concluído será executado no espaço na Estação Espacial Internacional (EEI)! Receberá também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o seu programa foi executado.
+**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
-Vais aprender sobre a unidade Astro Pi e como controlá-la, incluindo como:
-+ exibir mensagens e cores
-+ criar imagens
+You will learn about the Astro Pi computer and how to control it, including how to:
++ Create colour **variables** to use in your image
++ Design and display an image on the Sense HAT
 + Sense the colour of light on board the ISS
 
 --- collapse ---
 ---
-title: Notas para professores e mentores
+title: Notes for mentors
 ---
 
 Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
 
-Organize os seus alunos em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um programa em Python para mostrar uma mensagem pessoal e a temperatura do ar no Astro Pi.
+Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
 
-Leia o [documento com as diretrizes oficiais](https://astro-pi.org/media/mission-zero-guidelines/Astro_Pi_Mission_Zero_Guidelines_2021_22-pt.pdf){:target="_blank"} da Mission Zero.
+Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
 
-![Pixel de rastreio](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
