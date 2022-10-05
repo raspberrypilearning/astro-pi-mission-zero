@@ -1,17 +1,17 @@
-## Wat volgt er - meer Astro Pi-projecten
+## What next — more Astro Pi projects
 
-Nu je je missie afgewerkt hebt, waarom zou je geen andere projecten proberen om de andere sensors op de Astro Pi te gebruiken?
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-Als je je zelfzeker voelt, kan je deelnemen aan [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Stel een team samen van twee tot zes personen en werk samen zoals echte ruimtewetenschappers om je eigen experiment te ontwerpen. De beste ideëen die ingediend worden ontvangen een Astro Pi-kit die ze kunnen gebruiken om hen te helpen bij hun missie.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-Je kan ook één van onze andere Sense HAT-projecten proberen:
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-+ Kom [meer te weten over de Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-+ Maak wat mooie [willekeurige glitters](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op het led-scherm van de Sense HAT
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-+ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} spel
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Daag je vrienden uit met een [knikkerbaan](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spel
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
-+ Reconstrueer het klassieke spel van [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
