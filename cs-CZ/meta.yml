@@ -8,7 +8,7 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Úvod
+    title: Co budeš dělat
   - 
     title: Co je Astro Pi?
   - 
