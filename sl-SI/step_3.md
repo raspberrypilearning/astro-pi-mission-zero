@@ -1,4 +1,4 @@
-## Prikažite sporočilo in izberite ime za nove Astro Pi računalnike
+## Display an image
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -14,12 +14,12 @@ Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Kodo pustite, ker jo boste potrebovali.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
 
 --- code ---
 ---
-Pod kodo dodajte to vrstico:
-title: Katere znake lahko uporabite?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Import the libraries
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Set up the colour sensor
-Pritisnite gumb **Run** (Zaženi) in si oglejte, kako se sporočilo `Astro Pi` pomika po zaslonu LED.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -36,7 +36,7 @@ Pritisnite gumb **Run** (Zaženi) in si oglejte, kako se sporočilo `Astro Pi` p
 
 --- /task ---
 
-### Izberite ime za nove računalnike Astro Pi
+### RGB Colours
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
@@ -46,7 +46,7 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 [[[ambient-colours]]]
 
-### Izberi sliko
+### Choose an image
 
 --- task ---
 
@@ -64,7 +64,7 @@ title: Chicken
 
 --- code ---
 ---
-Če želite glasovati, morate sporočilo nujno začeti s temi besedami, sicer vaš glas ne bo upoštevan.
+language: python filename: main.py
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Prikaži sliko
+# Display the image
 sense.set_pixels(image)
 
 --- /code ---
