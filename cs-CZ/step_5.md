@@ -1,14 +1,16 @@
 ## Odešli svůj příspěvek
 
-Pokud chceš svůj kód odeslat ke spuštění na Mezinárodní vesmírné stanici, musí se řídit několika pravidly. Pokud se jimi řídí, tak se pravidla v dolní části **emulátoru Sense HAT** při spuštění programu rozsvítí zeleně.
+You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-![Stránka výzvy Mission Zero zobrazující kritéria pro odeslání.](images/rules.png)
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-**Tip:** Otestuj svůj kód s různými hodnotami barev (pomocí nástroje pro výběr barvy) a ujisti se, že vždy funguje.
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
-Ujisti se prosím, že se tvůj příspěvek řídí [oficiálními pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero. Pokud se jimi neřídí, tvůj program nebude spuštěn na Mezinárodní vesmírné stanici.
+**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-Neuváděj prosím do názvu týmu ani kódu:
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+
+Please do not include any of the following in your team name or code:
 
 + cokoli, co by mohlo být interpretováno jako nelegální, politické, nebo popudlivé,
 + vlajky, které mohou být považovány za politicky popudlivé,
@@ -20,24 +22,24 @@ Neuváděj prosím do názvu týmu ani kódu:
 
 --- task ---
 
-Do rámečku dole zadej název týmu a kód třídy, který ti sdělí tvůj mentor.
+Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
 
-![Formulář pro odeslání kódu s názvem týmu a kódem třídy](images/submission.png)
+![Classroom code and team name submission form](images/submission.png)
 
-**Poznámky pro mentory** jsou v [úvodním](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) kroku.
-
---- /task ---
-
---- task ---
-
-Stiskni tlačítko **Přidat tým** a zadej kód. Vezmi prosím na vědomí, že po odeslání nebudeš moci program upravit.
-
-Tvůj mentor obdrží e-mail s potvrzením, že byl tvůj příspěvek odeslán.
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
 --- task ---
 
-Jestli chceš, můžeš odkaz na svůj kód sdílet na sociálních sítích a pochlubit se tak, že tvůj kód poběží ve vesmíru!
+Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+
+Your mentor will get an email to confirm your entry.
+
+--- /task ---
+
+--- task ---
+
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
