@@ -1,14 +1,16 @@
 ## Soumettre ton programme
 
-Ton code doit respecter quelques règles pour que tu puisses le soumettre et l'exécuter dans la Station Spatiale Internationale. Si ton code les respecte, les règles situées en bas de l'**émulateur Sense HAT** s'allumeront en vert lorsque tu exécuteras le programme.
+You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-![La page de Mission Zero montrant les contrôles de critères pour l'inscription.](images/rules.png)
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-**Astuce :** teste ton code avec quelques paramètres de couleur différents (en utilisant le sélecteur) pour t'assurer qu'il fonctionne toujours correctement.
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
-Assure-toi que ton programme respecte les [directives officielles](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} de Mission Zero. Sinon, ton programme ne sera pas en mesure de fonctionner sur la Station spatiale internationale.
+**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-N'inclus aucun des éléments suivants dans le nom ou le code de ton équipe :
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+
+Please do not include any of the following in your team name or code:
 
 + Tout ce qui pourrait être interprété comme étant de nature illégale, politique ou sensible
 + Des drapeaux, car ils peuvent être considérés comme politiquement sensibles
@@ -20,24 +22,24 @@ N'inclus aucun des éléments suivants dans le nom ou le code de ton équipe :
 
 --- task ---
 
-Saisis ton code de classe et le nom de ton équipe dans la case en bas : ton mentor te dira quel est ton code.
+Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
 
-![Formulaire de soumission du code de classe et du nom de l'équipe](images/submission.png)
+![Classroom code and team name submission form](images/submission.png)
 
-**Les notes destinées aux mentors** se trouvent dans l'étape [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
-
---- /task ---
-
---- task ---
-
-Appuie sur le bouton **Ajouter ton équipe** pour saisir ton code. Sache qu'un programme ne peut pas être modifié après avoir été soumis.
-
-Ton mentor recevra un e-mail pour confirmer ton inscription.
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
 --- task ---
 
-Si tu veux, tu peux partager le lien vers ton code sur les réseaux sociaux pour informer les gens que le code que tu as écrit sera exécuté dans l'espace !
+Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+
+Your mentor will get an email to confirm your entry.
+
+--- /task ---
+
+--- task ---
+
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
