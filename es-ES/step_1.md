@@ -14,7 +14,7 @@ Utilizarás el emulador Astro Pi en un navegador web para crear tu programa. No 
 
 ### Criterios de Astro Pi Mission Zero
 
-*¡Si tu programa cumple con los criterios de elegibilidad* se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
+**¡Si tu programa cumple con [los criterios de elegibilidad](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}** se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
 
 Aprenderás sobre la unidad Astro Pi y cómo controlarla, incluyendo cómo:
 + Mostrar mensajes y colores

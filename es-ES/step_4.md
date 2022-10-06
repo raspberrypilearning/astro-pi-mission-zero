@@ -1,4 +1,4 @@
-## Muestra una imagen
+## Añade un poco de color
 
 En este paso, configurarás el sensor de luminosidad de color y lo utilizarás para detectar la cantidad de rojo, verde y azul que llega al sensor. Este color se usará para colorear la imagen que has elegido. Un astronauta caminando hacia el sensor con una camisa azul vería una imagen diferente a la de un astronauta con una camisa roja.
 
@@ -280,8 +280,8 @@ sense = SenseHat()
 sense.set_rotation(270)
 
 # Configurar el sensor de color
-sense.color.gain = 60 # Set the sensitivity of the sensor 
-sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+sense.color.gain = 60 # Establecer la sensibilidad del sensor 
+sense.color.integration_cycles = 64 # El intervalo en el que se tomará la lectura
 
 # Agregar variables de color e imagen
 
