@@ -1,14 +1,16 @@
 ## Verstuur je inzending
 
-Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze regels volgt, lichten de regels onder aan de **Sense HAT emulator** groen op wanneer je het programma uitvoert.
+You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-![De Mission Zero-pagina met de criteriacontroles voor deelname.](images/rules.png)
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-**Tip** Test je code met een aantal verschillende kleurinstellingen (gebruik daarbij de schuifregelaar) om er zeker van te zijn dat deze altijd correct werkt.
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
-Zorg ervoor dat je inzending de [officiële richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero volgt. Als je de richtlijnen niet volgt, kan je programma niet uitgevoerd worden op het International Space Station.
+**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-Vermeld geen van de volgende zaken in je teamnaam of code:
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+
+Please do not include any of the following in your team name or code:
 
 + Alles wat kan worden geïnterpreteerd als zijnde van illegale, politieke of gevoelige aard
 + Vlaggen, omdat ze als politiek gevoelig kunnen worden beschouwd
@@ -20,24 +22,24 @@ Vermeld geen van de volgende zaken in je teamnaam of code:
 
 --- task ---
 
-Voer je klascode en teamnaam in het vak onderaan in - je leraar of mentor vertelt je wat je code is.
+Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
 
-![Inzendingsformulier voor klascode en teamnaam](images/submission.png)
+![Classroom code and team name submission form](images/submission.png)
 
-**Opmerkingen voor mentoren** zijn te vinden in stap [Inleiding](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
-
---- /task ---
-
---- task ---
-
-Druk op de knop **Voeg je team toe **om je code in te sturen. Houd er rekening mee dat een programma niet kan worden gewijzigd nadat het is ingediend.
-
-Je leraar of mentor ontvangt een e-mail om je verzending te bevestigen.
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
 --- task ---
 
-Als je wilt, kun je de link naar je code delen op sociale media om mensen te vertellen dat code die jij hebt geschreven in de ruimte wordt uitgevoerd!
+Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+
+Your mentor will get an email to confirm your entry.
+
+--- /task ---
+
+--- task ---
+
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
