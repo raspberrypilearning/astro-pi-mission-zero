@@ -1,14 +1,16 @@
 ## Υποβολή της συμμετοχής σου
 
-Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σου, ώστε να μπορείς να τον υποβάλεις για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. Εάν ο κώδικάς σου τους ακολουθεί, οι κανόνες στο κάτω μέρος του εξομοιωτή **Sense HAT** θα ανάψουν με πράσινο χρώμα, όταν εκτελέσεις το πρόγραμμα.
+You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-![Η σελίδα Mission Zero που δείχνει τα κριτήρια ελέγχου για την υποβολή.](images/rules.png)
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-**Συμβουλή:** Δοκίμασε τον κώδικά σου με μερικές διαφορετικές ρυθμίσεις χρωμάτων (χρησιμοποιώντας τον επιλογέα) για να βεβαιωθείς ότι εκτελείται πάντα σωστά.
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
-Παρακαλούμε να βεβαιωθείς ότι η υποβολή σου ακολουθεί τις [επίσημες οδηγίες](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} για το Mission Zero. Εάν δεν ακολουθεί τις οδηγίες, το πρόγραμμά σου δεν θα μπορεί να εκτελεστεί στον Διεθνή Διαστημικό Σταθμό.
+**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-Παρακαλώ μην συμπεριλάβεις κανένα από τα ακόλουθα στο όνομα ή τον κώδικα της ομάδας σου:
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+
+Please do not include any of the following in your team name or code:
 
 + Οτιδήποτε θα μπορούσε να εκληφθεί ως παράνομο, πολιτικό ή ευαίσθητο δεδομένο
 + Σημαίες, καθώς μπορούν να θεωρηθούν πολιτικά ευαίσθητο δεδομένο
@@ -20,24 +22,24 @@
 
 --- task ---
 
-Δώσε τον κωδικό της τάξης σου και το όνομα της ομάδας σου στο πλαίσιο στο κάτω μέρος - ο μέντοράς σου θα σου πει ποιος είναι ο κωδικός σου.
+Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
 
-![Κωδικός τάξης και φόρμα υποβολής ονόματος ομάδας](images/submission.png)
+![Classroom code and team name submission form](images/submission.png)
 
-**Σημειώσεις για μέντορες** μπορούν να βρεθούν στο βήμα [Εισαγωγή](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
-
---- /task ---
-
---- task ---
-
-Πάτα το κουμπί **Add your team** για να δώσεις τον κωδικό σου. Παρακαλώ λάβε υπόψη ότι ένα πρόγραμμα δεν μπορεί να αλλάξει μετά την υποβολή του.
-
-Ο μέντοράς σου θα λάβει ένα email επιβεβαίωσης για την υποβολή σου.
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
 --- task ---
 
-Αν θέλεις, μπορείς να κοινοποιήσεις έναν σύνδεσμο προς τον κώδικά σου στα κοινωνικά μέσα, για να δημοσιεύσεις ότι ο κώδικας που έγραψες θα εκτελεστεί στο διάστημα!
+Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+
+Your mentor will get an email to confirm your entry.
+
+--- /task ---
+
+--- task ---
+
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
