@@ -1,0 +1,39 @@
+Importar las bibliotecas
+
+Configurar el Sense HAT
+
+Configurar el sensor de color
+
+Establecer la sensibilidad del sensor
+
+El intervalo en el que se tomará la lectura
+
+Agregar variables de color e imagen
+
+Mostrar la imagen
+
+Blanco
+
+Negro
+
+Azul medio
+
+Amarillo
+
+Naranja oscuro
+
+Rosado
+
+Verde bosque
+
+Rosa profundo
+
+Rojo
+
+Azul medianoche
+
+obtener el color del sensor
+
+usar el color detectado
+
+elige tus propios valores de rojo, verde y azul entre 0 y 255
