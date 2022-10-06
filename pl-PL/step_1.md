@@ -1,6 +1,6 @@
 ## Co będziesz robić
 
-Ukończ ten projekt, aby wziąć udział w [Misji Zero Astro Pi](https://astro-pi.org/mission-zero){:target="_blank"} i uruchomić kod w kosmosie na komputerze Astro Pi.
+Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
 
 Twój projekt ustawi kolor tła obrazu na kolor, który Astro Pi wykryje. Dzięki temu Międzynarodowa Stacja Kosmiczna (ISS) będzie bardziej kolorowa dla astronautów na pokładzie. Twój kod wykorzysta do tego czujnik jasności koloru Sense HAT na nowym komputerze Mark II Astro Pi.
 
