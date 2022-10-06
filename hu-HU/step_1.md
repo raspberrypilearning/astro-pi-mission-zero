@@ -1,6 +1,6 @@
 ## Amit el fogsz készíteni
 
-Készítsd el a projektet, hogy részt vehess az [Astro Pi Mission Zerón](https://astro-pi.org/mission-zero), és hogy a kódod az űrben futhasson egy Astro Pi számítógépen.
+Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
 
 A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez az új Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
 
