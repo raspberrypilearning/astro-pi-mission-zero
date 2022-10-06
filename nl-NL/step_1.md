@@ -1,6 +1,6 @@
 ## Je gaat maken
 
-Voltooi dit project om mee te doen aan [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} en je code in de ruimte te laten draaien op een Astro Pi-computer.
+Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
 
 Je project stelt de achtergrondkleur van een afbeelding in op de kleur die de Astro Pi waarneemt. Dit maakt het International Space Station (ISS) kleurrijker voor de astronauten aan boord. Je code gebruikt de kleurhelderheidssensor op de Sense HAT van de nieuwe Mark II Astro Pi-computer om dit mogelijk te maken.
 
