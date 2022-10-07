@@ -2,16 +2,16 @@
 
 Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Če ste dovolj samozavestni, lahko sodelujete v projektu [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Oblikujte skupino dveh do šestih oseb in sodelujte kot pravi raziskovalci vesolja ter oblikujte svoj eksperiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
 Alternatively you might want to try out one of our other Sense HAT projects:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Izvedite [več o emulatorju Sense HAT](https://projects.raspberrypi.org/sl-SI/projects/getting-started-with-the-sense-hat){:target="_blank"} in ostalih stvareh, ki jih ponuja.
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Na zaslonu LED emulatorja Sense Hat ustvarite [naključne vzorce utripajočih luči](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-random-sparkles){:target="_blank"}.
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Ustvarite igro [Flappy Astronaut](https://projects.raspberrypi.org/sl-SI/projects/flappy-astronaut){:target="_blank"}.
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Izzovite svoje prijatelje z igro [labirint](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-marble-maze){:target="_blank"}.
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Poustvarite klasično igro [Pong](https://projects.raspberrypi.org/sl-SI/projects/sense-hat-pong){:target="_blank"}.
