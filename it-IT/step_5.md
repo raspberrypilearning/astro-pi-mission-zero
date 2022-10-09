@@ -1,16 +1,16 @@
 ## Invia il tuo progetto
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Ora puoi partecipare alla sfida [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, usando il codice che hai scritto.
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Ci sono alcune regole che il tuo codice deve seguire per poterlo inviare ed eseguire sulla Stazione Spaziale Internazionale. Se il tuo codice le rispetta, le regole in fondo all'emulatore **Sense HAT** si illumineranno di verde quando esegui il programma.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![La pagina Mission Zero che mostra i criteri di verifica per il progetto.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Suggerimento:** prova il tuo codice con alcune impostazioni di colore diverse (usando il selettore) per assicurarti che funzioni sempre correttamente.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Assicurati che la tua proposta segua le [linee guida ufficiali](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} per Mission Zero. Se non segue le linee guida, il tuo programma non potrà essere eseguito sulla Stazione Spaziale Internazionale.
 
-Please do not include any of the following in your team name or code:
+Si prega di non includere nessuno dei seguenti elementi nel nome o nel codice della squadra:
 
 + Tutto ciò che potrebbe essere interpretato come di natura illegale, politica o sensibile
 + Bandiere, in quanto possono essere considerate politicamente sensibili
@@ -22,24 +22,24 @@ Please do not include any of the following in your team name or code:
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Inserisci il codice della tua classe e il nome del team nella casella in basso: il tuo mentore ti dirà qual è il tuo codice.
 
-![Classroom code and team name submission form](images/submission.png)
+![Modulo per l'invio del codice di classe e nome della squadra](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
-
---- /task ---
-
---- task ---
-
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
-
-Your mentor will get an email to confirm your entry.
+**Note per i mentori** si trovano nel passaggio [Introduzione](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Premi il pulsante **Aggiungi la tua squadra** per inserire il tuo codice. Tieni presente che un programma non può essere modificato una volta inviato.
+
+Il tuo mentore riceverà un'e-mail per confermare la tua iscrizione.
+
+--- /task ---
+
+--- task ---
+
+Se lo desideri, puoi condividere il link al tuo codice sui social media per dire alle persone che il codice che hai scritto verrà eseguito nello spazio!
 
 --- /task ---
