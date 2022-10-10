@@ -18,7 +18,7 @@ steps:
   - 
     title: Wykryj kolor
   - 
-    title: Wyślij swój projekt
+    title: Wyślij swoje zgłoszenie
     completion:
       - internal
   - 
