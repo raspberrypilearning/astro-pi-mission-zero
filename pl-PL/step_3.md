@@ -1,4 +1,4 @@
-## Wyświetlanie obrazka
+## Wyświetl obrazek
 
 Diody LED Astro Pi mogą świecić się na kolorowo. W tym kroku będziesz wyświetlać obrazy z natury na matrycy LED Astro Pi.
 

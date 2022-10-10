@@ -1,4 +1,4 @@
-## Wykrywanie koloru
+## Wykryj kolor
 
 W tym kroku przygotujesz czujnik jasności koloru i użyjesz go do wykrycia ilości czerwonego, zielonego i niebieskiego docierającego do czujnika. Ten kolor zostanie następnie użyty do pokolorowania wybranego obrazu. Astronauta podchodzący do czujnika w niebieskiej koszuli zobaczy inny obraz niż astronauta w czerwonej koszuli.
 
