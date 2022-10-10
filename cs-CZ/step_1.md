@@ -1,6 +1,6 @@
 ## Co budeš dělat
 
-Dokonči tento projekt a zapoj se do výzvy [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, díky které tvůj kód poběží ve vesmíru na počítači Astro Pi.
+Dokonči tento projekt a zapoj se do výzvy Astro Pi Mission Zero, díky které tvůj kód poběží ve vesmíru na počítači Astro Pi.
 
 Tvůj projekt nastaví barvu pozadí obrázku na barvu, kterou rozpozná počítač Astro Pi. Díky tomu bude Mezinárodní vesmírná stanice (ISS) pro astronauty na palubě barevnější. Tvůj kód k tomu použije senzor barev a svítivosti na desce Sense HAT u nových počítačů Mark II Astro Pi.
 

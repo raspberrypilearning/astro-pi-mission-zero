@@ -49,7 +49,7 @@ image = [
 
 --- task ---
 
-**Test :** Déplace le curseur de couleur sur une couleur de ton choix, puis **exécute** ton code. Ta couleur de fond va changer. Répète ce test avec une nouvelle couleur.
+**Test :** déplace le curseur de couleur sur une couleur de ton choix, puis **exécute** ton code. Ta couleur de fond va changer. Répète ce test avec une nouvelle couleur.
 
 **Astuce :** tu devras cliquer sur « Exécuter » chaque fois que tu changeras la couleur.
 
