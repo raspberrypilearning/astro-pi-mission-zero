@@ -1,6 +1,6 @@
 ## Co będziesz robić
 
-Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
+Ukończ ten projekt, aby wziąć udział w wyzwaniu Astro Pi Mission Zero i uruchomić kod w kosmosie na komputerze Astro Pi.
 
 Twój projekt ustawi kolor tła obrazu na kolor, który Astro Pi wykryje. Dzięki temu Międzynarodowa Stacja Kosmiczna (ISS) będzie bardziej kolorowa dla astronautów na pokładzie. Twój kod wykorzysta do tego czujnik jasności koloru Sense HAT na nowym komputerze Mark II Astro Pi.
 
@@ -12,7 +12,7 @@ Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
 
 Do stworzenia swojego programu będziesz używać emulatora Astro Pi w przeglądarce internetowej. Nie potrzebujesz komputera Astro Pi.
 
-### Astro Pi Mission Zero criteria
+### Kryteria Mission Zero Astro Pi
 
 **Jeśli Twój projekt spełni [kryteria kwalifikacyjne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, Twój ukończony program zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program został uruchomiony.
 
@@ -26,11 +26,11 @@ Dowiesz się o komputerze Astro Pi i o tym, jak nim sterować, w tym jak:
 title: Notatki dla mentorów
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. Nie jest potrzebny żaden specjalny sprzęt ani wcześniejsze umiejętności programistyczne. Wszystko można zrobić w przeglądarce internetowej.
+Mission Zero jest odpowiednie dla początkujących programistów i/lub dzieci w wieku szkolnym i można ją ukończyć w ciągu jednej 60-minutowej sesji na dowolnym komputerze z dostępem do Internetu. Nie jest potrzebny żaden specjalny sprzęt ani wcześniejsze umiejętności programistyczne. Wszystko można zrobić w przeglądarce internetowej.
 
 Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób, które pokierowane według naszych wskazówek napiszą oni krótki program w języku Python, który wykryje kolor na pokładzie stacji ISS i utworzy obrazek z użyciem tego koloru.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Przeczytaj [oficjalne wytyczne](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} dla Mission Zero.
 
 --- /collapse ---
 
