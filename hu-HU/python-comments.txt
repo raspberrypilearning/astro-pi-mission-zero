@@ -1,0 +1,39 @@
+Programkönyvtárak importálása
+
+Sense HAT beállítása
+
+Színérzékelő beállítása
+
+Az érzékelő érzékenységének beállítása
+
+Az egyes leolvasások között eltelt idő
+
+Színváltozók és kép hozzáadása
+
+Kép megjelenítése
+
+White (fehér)
+
+Black (fekete)
+
+MediumBlue (kék)
+
+Yellow (sárga)
+
+DarkOrange (narancssárga)
+
+Pink (rózsaszín)
+
+ForestGreen (sötétzöld)
+
+DeepPink (sötét rózsaszín)
+
+Red (piros)
+
+MidnightBlue (éjkék)
+
+szín lekérése az érzékelőtől
+
+az érzékelt szín használata
+
+válassz saját vörös, zöld és kék értéket 0 és 255 között

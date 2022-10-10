@@ -1,0 +1,19 @@
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/banner.png
+description: Készülj fel a Mission Zeróra!
+listed: true
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+steps:
+  - title: Amit el fogsz készíteni
+  - title: Mi az az Astro Pi?
+  - title: Jeleníts meg egy képet
+    completion:
+      - engaged
+  - title: Érzékeld a színt
+  - title: Küldd be a munkádat
+    completion:
+      - internal
+  - title: 'Hogyan tovább: még több Astro Pi projekt'

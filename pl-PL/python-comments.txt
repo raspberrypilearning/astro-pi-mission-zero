@@ -1,0 +1,39 @@
+Wczytaj biblioteki
+
+Przygotuj Sense HAT
+
+Przygotuj czujnik kolorów
+
+Ustaw czułość czujnika
+
+Okres czasu, w którym będzie dokonywany odczyt
+
+Dodaj zmienne kolorów i obraz
+
+Wyświetl obraz
+
+Biały
+
+Czarny
+
+Średni niebieski
+
+Żółty
+
+Ciemny pomarańczowy
+
+Różowy
+
+Leśny zielony
+
+Głęboki różowy
+
+Czerwony
+
+Nocny niebieski
+
+pobierz kolor z czujnika
+
+użyj odczytany kolor
+
+wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
