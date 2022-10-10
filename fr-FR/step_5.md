@@ -1,5 +1,7 @@
 ## Soumettre ton programme
 
+Tu pouvez maintenant entrer le défi [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} en utilisant le code que tu avez écrit.
+
 Ton code doit respecter quelques règles pour que tu puisses le soumettre et l'exécuter dans la Station Spatiale Internationale. Si ton code les respecte, les règles situées en bas de l'**émulateur Sense HAT** s'allumeront en vert lorsque tu exécuteras le programme.
 
 ![La page de Mission Zero montrant les contrôles de critères pour l'inscription.](images/rules.png)

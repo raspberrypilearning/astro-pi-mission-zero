@@ -1,6 +1,6 @@
 ## Ce que tu vas faire
 
-Termine ce projet pour participer à [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} et exécuter ton code dans l'espace sur un ordinateur Astro Pi.
+Termine ce projet pour participer au défi Astro Pi Mission Zero et exécuter ton code dans l'espace sur un ordinateur Astro Pi.
 
 Ton projet va définir la couleur d'arrière-plan d'une image à la couleur que l'Astro Pi détecte. La Station Spatiale Internationale (ISS) sera ainsi plus colorée pour les astronautes à bord. Ton code utilisera le capteur de luminosité des couleurs du nouveau Sense HAT de l'ordinateur Astro Pi Mark II pour y parvenir.
 
