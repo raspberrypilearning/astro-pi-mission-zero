@@ -1,16 +1,16 @@
 ## Wyślij swoje zgłoszenie
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Teraz możesz wziąć udział w wyzwaniu [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, używając kodu, który napisałeś.
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Jest kilka zasad, które kod musi spełniać, aby można było go zgłosić do uruchomienia na Międzynarodowej Stacji Kosmicznej. Jeśli twój kod je spełnia, zasady u dołu **emulatora Sense HAT** zaświecą się na zielono kiedy uruchomisz swój program.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![Strona Misji Zero przedstawiająca kryteria przyjmowania zgłoszeń.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Wskazówka:** Przetestuj swój kod z kilkoma różnymi ustawieniami kolorów (za pomocą selektora), aby upewnić się, że zawsze działa poprawnie.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Upewnij się, że Twoje zgłoszenie jest zgodne z [oficjalnymi wytycznymi](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} dotyczącymi Misji Zero. Jeśli Twój program nie będzie przestrzegał wytycznych, nie będzie mógł działać na Międzynarodowej Stacji Kosmicznej.
 
-Please do not include any of the following in your team name or code:
+Prosimy nie umieszczać niczego z poniższych w nazwie lub kodzie Twojego zespołu:
 
 + Wszystko, co można zinterpretować jako nielegalne, polityczne lub drażliwe
 + Flag, ponieważ można je uznać za wrażliwe politycznie
@@ -22,24 +22,24 @@ Please do not include any of the following in your team name or code:
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Wpisz kod swojej klasy i nazwę zespołu w polu na dole — Twój mentor powie Ci, jaki jest Twój kod.
 
-![Classroom code and team name submission form](images/submission.png)
+![Formularz zgłoszenia kodu zajęć i nazwy zespołu](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
-
---- /task ---
-
---- task ---
-
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
-
-Your mentor will get an email to confirm your entry.
+**Wskazówki dla mentorów** można znaleźć w kroku [Wprowadzenie](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Naciśnij przycisk **Dodaj swój zespół**, aby wprowadzić swój kod. Należy pamiętać, że programu nie można zmienić po przesłaniu.
+
+Twój mentor otrzyma e-mail z potwierdzeniem Waszego zgłoszenia.
+
+--- /task ---
+
+--- task ---
+
+Jeśli chcesz, możesz udostępnić link do swojego kodu w mediach społecznościowych, aby powiedzieć znajomym, że napisany przez ciebie kod zostanie uruchomiony w kosmosie!
 
 --- /task ---
