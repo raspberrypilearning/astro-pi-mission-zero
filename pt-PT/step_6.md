@@ -1,17 +1,17 @@
-## What next — more Astro Pi projects
+## O que vem a seguir - mais projetos Astro Pi
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Agora que completaste a tua missão, por que não experimentar mais alguns projetos usando os outros sensores do Astro Pi?
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+Se te sentires confiante, podes participar na [Missão Laboratório Espacial](https://astro-pi.org/missions/space-lab/)! Cria uma equipa de duas a seis pessoas e trabalhem em conjunto como cientistas espaciais de verdade, para desenhar a vossa própria experiência. As melhores ideias enviadas receberão um kit Astro Pi para ajudar na vossa missão.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Como alternativa, podes experimentar um dos nossos outros projetos Sense HAT:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Sabe [mais sobre o Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){: target = "_ blank"} e outras coisas que ele pode fazer
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Cria alguns [brilhos aleatórios](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} no ecrã LED do Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Cria um jogo [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){: target = "_ blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Desafia os teus amigos com um jogo de [labirinto de mármore ](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Recria o jogo clássico de [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){: target = "_ blank"}
