@@ -1,4 +1,4 @@
-## Vise en melding og velge et navn for de nye Astro Pi datamaskinene
+## Vise et bilde
 
 The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
 
@@ -14,7 +14,7 @@ Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. La koden være der, du vil trenge den senere.
+This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. La koden være, du vil trenge den senere.
 
 --- code ---
 ---
@@ -36,7 +36,7 @@ Trykk på **Run** (Kjør)-knappen og se meldingen `Astro Pi` rulle over LED-skje
 
 --- /task ---
 
-### Velg et navn for de nye Astro Pi-datamaskinene
+### RGB farger
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
