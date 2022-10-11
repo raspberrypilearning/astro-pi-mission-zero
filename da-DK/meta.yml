@@ -16,10 +16,10 @@ steps:
     completion:
       - engagéret
   - 
-    title: Tilføj noget farve
+    title: Sense en farve
   - 
-    title: Vis et billede
+    title: Indsend dit bidrag
     completion:
       - intern
   - 
-    title: Mål luftfugtigheden
+    title: Hvad næste — flere Astro Pi-projekter
