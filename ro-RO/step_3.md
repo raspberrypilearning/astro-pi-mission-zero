@@ -1,70 +1,70 @@
-## Display an image
+## Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+Matricea LED a Astro Pi poate afișa culori. În acest pas, vei afișa imagini din natură pe matricea LED a Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+O <span style="color: #0faeb0">**matrice LED**</span> este o grilă de LED-uri care poate fi controlată individual sau de un grup pentru a crea diferite efecte de iluminat. Matricea LED de pe Sense HAT are 64 de LED-uri afișate într-o grilă de 8 x 8. LED-urile pot fi programate pentru a produce o gamă largă de culori.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![O captură de ecran a ferestrei de emulator care arată Unitatea de zbor cu matricea LED care afișează o poză a unei flori.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Deschide proiectul [Mission Zero starter](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Vei vedea că au fost adăugate automat pentru tine câteva linii de cod.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+Acest cod se conectează la Astro Pi, se asigură că afișajul LED al lui Astro Pi este afișat corect și setează senzorul de culoare. Lasă codul acolo, pentru că vei avea nevoie de el.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights:
+Adaugă acest rând sub celelalte linii de cod:
+title: Ce caractere pot fi folosite?
 ---
-# Import the libraries
+# Importă bibliotecile
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Configurează Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+# Configurează senzorul de culoare
+Apasă pe butonul **Run** și urmărește cum mesajul `Astro Pi` se derulează pe ecranul LED.
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![O captură de ecran a emulatorului Sense HAT cu linii de cod de început afișate în panoul din stânga.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### RGB Colours
+### Culori RGB
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Culorile pot fi create folosind diferite proporții de roșu, verde și albastru. Poți afla mai multe despre culorile RGB aici:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+Matricea LED este o grilă de 8 x 8. Fiecare LED din grilă poate fi setat la o culoare diferită. Aici este o listă de variabile pentru 24 de culori diferite. Fiecare culoare are o valoare pentru roşu, verde şi albastru:
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Alege o imagine
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Alege:** Alege o imagine pentru a fi afișată din opțiunile de mai jos. Python stochează informația pentru o imagine într-o listă. Codul pentru fiecare imagine include variabilele de culoare folosite şi lista.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l** în proiect sub linia care spune `# Adăugă variabilele de culoare și imaginea`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Pui
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![O grilă cu 8 x 8 pătrate care arată un pui într-un ou.](images/chick.png)
 
 --- code ---
 ---
-language: python filename: main.py
+Dacă ai vrea să votezi, mesajul tău trebuie să înceapă cu aceste cuvinte, în caz contrar nu vom putea să îți luăm în calcul răspunsul.
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Floare
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/flower.png)
 
 --- code ---
 ---
@@ -101,7 +101,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 title: Crab
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![O grilă cu 8 x 8 pătrate care arată un crab.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Crocodil
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![O grilă cu 8 x 8 pătrate care arată un cap de crocodil.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Şarpe
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![O grilă cu 8 x 8 pătrate care arată un șarpe.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Broască
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![O grilă cu 8 x 8 pătrate care arată o broască.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Găsește:** linia care spune `# Afișează imaginea` și adaugă o linie de cod pentru a afișa imaginea ta pe matricea LED:
 
 --- code ---
 ---
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Afișează imaginea
 sense.set_pixels(image)
 
 --- /code ---
@@ -200,7 +200,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Apasă **Rulează** în partea de jos a editorului, pentru a vedea imaginea afișată pe matricea LED.
 
 --- /task ---
 
@@ -208,16 +208,16 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 **Debug**
 
-My code has a syntax error:
+Codul meu are o eroare de sintaxă:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Verifică dacă codul tău se potrivește cu codul din exemplele de mai sus
+- Verifică dacă ai indentat codul din lista ta
+- Verifică dacă lista ta este înconjurată de `[` și `]`
+- Verifică dacă fiecare variabilă de culoare din listă este separată de virgulă
 
-My image does not appear:
+Imaginea mea nu apare:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Verifică dacă `sense.set_pixels(image)` nu este indentat
 
 --- /task ---
 
