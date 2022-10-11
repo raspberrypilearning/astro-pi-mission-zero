@@ -1,4 +1,4 @@
-## Măsoară umiditatea
+## Ce urmează — mai multe proiecte Astro Pi
 
 Senzorul de umiditate din Astro Pi poate măsura umiditatea aerului din jurul acestuia, o funcție utilă care te ajută să obții date despre condițiile din spațiu.
 
