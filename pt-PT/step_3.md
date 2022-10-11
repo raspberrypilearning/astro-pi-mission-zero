@@ -1,66 +1,66 @@
-## Display an image
+## Mostrar uma imagem
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+A matriz de LED do Astro Pi pode mostrar cores. Neste passo, tu irás mostrar imagens da natureza na matriz LED do Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que podem ser controlados individualmente ou como um grupo para criar diferentes efeitos de iluminação. A matriz LED do Sense HAT possui 64 LEDs dispostos numa grelha de 8 x 8. Os LEDs podem ser programados para produzir uma ampla gama de cores.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Uma captura de ecrã da janela do emulador mostrando a Unidade de Voo com a matriz de LED a exibir a imagem de uma flor.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Abre o [projeto inicial Missão Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+Este código liga-se ao Astro Pi e garante que o ecrã LED do Astro Pi seja visto na orientação correta e configura o sensor de cor. Deixa o código lá, porque irás precisar.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights:
+title: Que carateres podem ser usados?
 ---
-# Import the libraries
-from sense_hat import SenseHat from time import sleep
+# Importar as bibliotecas
+Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
 
-# Set up the Sense HAT
-sense = SenseHat() sense.set_rotation(270)
+# Configura o Sense HAT
+from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Configura o sensor de cor
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Uma captura de ecrã do emulador Sense HAT com linhas de código inicial mostradas no painel esquerdo.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### RGB Colours
+### Cores RGB
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+As cores podem ser criadas usando diferentes proporções de vermelho, verde e azul. Podes descobrir mais sobre as cores RGB aqui:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+A matriz de LED é uma grelha de 8 x 8. Cada LED na grelha pode ser definido para uma cor diferente. Aqui está uma lista de variáveis para 24 cores diferentes. Cada cor tem um valor para vermelho, verde e azul:
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Escolhe uma imagem
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Escolhe:** Escolhe uma imagem para mostrar das as opções em baixo. O Python armazena as informações de uma imagem numa lista. O código para cada imagem inclui as variáveis de cor usadas e a lista.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo** no teu projeto abaixo da linha que diz `# Adicionar variáveis de cor e imagem`.
 
 --- collapse ---
 
 ---
-title: Chicken
+título: Galinha
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Uma grelha com quadrados de 8 x 8 mostrando um pintainho num ovo.](images/chick.png)
 
 --- code ---
 ---
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+título: Flor
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Uma grelha com quadrados de 8 x 8 mostrando uma flor cor-de-rosa com um caule verde.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+título: Caranguejo
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Uma grelha com quadrados de 8 x 8 mostrando um caranguejo.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+título: Crocodilo
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Uma grelha com quadrados de 8 x 8 mostrando uma cabeçao de crocodilo.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+título: Serpente
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Uma grelha com quadrados de 8 x 8 mostrando uma serpente.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+título: Sapo
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Uma grelha com quadrados de 8 x 8 mostrando um sapo.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Encontra:** a linha que diz `# Mostrar a imagem` e adiciona uma linha de código para mostrar a tua imagem na matriz de LEDs:
 
 --- code ---
 ---
@@ -191,33 +191,33 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Mostrar a imagem
 sense.set_pixels(image)
 
---- /code ---
++-*/!"#$&gt;&lt;0123456789.=)(
 
 --- /task ---
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Pressiona **Executar**no fundo do editor para ver a tua imagem mostrada na matriz de LEDs.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Depurar**
 
-My code has a syntax error:
+O meu código tem um erro de sintaxe:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Verifica que o teu código corresponde ao código nos exemplos acima
+- Verifica se indentaste o código na tua lista
+- Verifica se a tua lista está entre `[` e `]`
+- Verifica se cada variável de cor na lista é separada por uma vírgula
 
-My image does not appear:
+A minha imagem não aparece:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Verifica se o teu `sense.set_pixels(image)` não está indentado
 
 --- /task ---
 
