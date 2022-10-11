@@ -1,45 +1,45 @@
-## Submit your entry
+## Afișează o imagine
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Acum poți participa la provocarea [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, folosind codul pe care l-ai scris.
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi rulat pe Stația Spațială Internațională. Dacă codul tău le respectă, regulile din partea de jos a emulatorului **Sense HAT** se vor aprinde în verde atunci când rulezi programul.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![Pagina Mission Zero care indică criteriile de verificare a intrării.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Sfat:** Testează-ți codul cu câteva setări diferite de culori (folosind selectorul) pentru a te asigura că acesta rulează întotdeauna corect.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Te rugăm să te asiguri că intrarea ta respectă [recomandările oficiale](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pentru Mission Zero. Dacă nu urmează instrucțiunile, programul tău nu va putea rula pe Stația Spațială Internațională.
 
-Please do not include any of the following in your team name or code:
+Te rugăm să nu incluzi nimic din următoarele în numele sau codul echipei:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Orice ar putea fi interpretat ca fiind ilegal, politic sau sensibil
++ Steaguri, deoarece pot fi considerate sensibile din punct de vedere politic
++ Orice se referă la o neplăcere sau vătămare a unei alte persoane
++ Date cu caracter personal, cum ar fi numerele de telefon, handle-urile rețelelor sociale și adresele de e-mail
++ Imagini obscene
++ Caractere speciale sau emojis
++ Limbaj vulgar sau înjurături
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Introdu codul de clasă și numele echipei în căsuța de jos — mentorul îți va spune care este codul tău.
 
-![Classroom code and team name submission form](images/submission.png)
+![Formularul de trimitere a codului clasei și a numelui echipei](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Notele pentru mentori** pot fi găsite în pasul [Introducere](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Apasă butonul **Adaugă echipa** pentru a trimite codul tău. Un program nu poate fi schimbat după ce a fost trimis.
 
-Your mentor will get an email to confirm your entry.
+Mentorul tău va primi un e-mail pentru a-ți confirma intrarea.
 
 --- /task ---
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Dacă vrei, poți distribui linkul cu codul tău pe social media pentru a le spune tuturor că există cod scris de tine care va fi rulat în spațiu!
 
 --- /task ---
