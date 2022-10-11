@@ -1,36 +1,36 @@
-## You will make
+## Du kommer göra
 
-Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
+Slutför det här projektet för att delta i Astro Pi Mission Zero-utmaningen och få din kod att köra i rymden på en Astro Pi-dator.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Ditt projekt kommer att ställa in bakgrundsfärgen för en bild till den färg som Astro Pi upptäcker. Detta kommer att göra den internationella rymdstationen (ISS) mer färgstark för astronauterna ombord. Din kod kommer att använda färgljussensorn på den nya Mark II Astro Pi-datorns Sense HAT för att få detta att hända.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Här är ett exempel på den typ av program du kan göra för att köra på en Astro Pi i rymden.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Sense HAT-emulatorn kör ett exempelprogram med en orm vars bakgrundsfärg ändras till färgen identifierad av sensorn.](images/finished.gif)
 
-### You will need
+### Du kommer behöva
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Du kommer att använda Astro Pi-emulatorn i en webbläsare för att skapa ditt program. Du behöver ingen Astro Pi-dator.
 
-### Astro Pi Mission Zero criteria
+### Kriterier för Astro Pi Mission Zero
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Du kommer också att få ett särskilt certifikat som visar exakt var ISS var när ditt program körde.
+**Om ditt projekt uppfyller [kvalificeringskriterierna](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**kommer ditt avslutade program att köras på den internationella rymdstationen! Du kommer också att få ett särskilt certifikat som visar exakt var ISS var när ditt program körde.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Create colour **variables** to use in your image
-+ Design and display an image on the Sense HAT
-+ Sense the colour of light on board the ISS
+Du kommer att lära dig om Astro Pi enheten och hur man styr den, inklusive hur man:
++ Skapa färg **-variabler** att använda i din bild
++ Designa och visa en bild på Sense HAT
++ Känn ljusets färg ombord på ISS
 
 --- collapse ---
 ---
-title: Notes for mentors
+titel: Anteckningar för mentorer
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero är lämplig för nybörjare till programmering och/eller barn i grundskoleåldern och kan genomföras på en enda 60-minuters session på vilken dator som helst med internetuppkoppling. Ingen speciell hårdvara eller tidigare kodningskunskaper behövs. Allt kan göras i en webbläsare.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Organisera dina ungdomar i lag om en till fyra, och låt oss guida dem genom att skriva ett kort Python-program för att känna av färgen ombord på ISS och skapa en bild som använder den färgen.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Läs de [officiella riktlinjerna](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} för Mission Zero.
 
 --- /collapse ---
 
