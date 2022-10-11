@@ -1,4 +1,4 @@
-## Leggi il colore
+## Leggi un colore
 
 In questo passaggio, imposterai il sensore di luminosità del colore e lo utilizzerai per rilevare la quantità di rosso, verde e blu che raggiunge il sensore. Questo colore verrà quindi utilizzato per colorare l'immagine scelta. Un astronauta che si avvicina al sensore con una maglietta blu vedrebbe un'immagine diversa rispetto a un astronauta con una maglietta rossa.
 
@@ -261,7 +261,7 @@ x = (178, 34, 34) # scegli i tuoi valori di rosso, verde e blu compresi tra 0 e 
 --- collapse ---
 
 ---
-titolo: Esempio di codice completato
+title: Esempio di codice completato
 ---
 
 ![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/flower.png)

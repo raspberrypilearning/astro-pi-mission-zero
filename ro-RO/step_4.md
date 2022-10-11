@@ -1,4 +1,4 @@
-## Detectează o culoare
+## Simte o culoare
 
 În acest pas, vei configura senzorul luminozității culorii și îl vei folosi pentru a detecta cantitatea de roșu, verde și albastru care ajunge la senzor. Această culoare va fi apoi folosită pentru a colora în imaginea aleasă. Un astronaut care se apropie de senzor într-o cămașă albastră ar vedea o imagine diferită de un astronaut într-o cămașă roșie.
 
@@ -262,7 +262,7 @@ sense.clear(x)
 --- collapse ---
 
 ---
-titlu: Exemplu de cod completat
+title: Exemplu de cod completat
 ---
 
 ![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/flower.png)

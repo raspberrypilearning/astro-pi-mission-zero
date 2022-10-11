@@ -263,7 +263,7 @@ sense.clear(x)
 --- collapse ---
 
 ---
-titel: Afgewerkt codevoorbeeld
+title: Afgewerkt codevoorbeeld
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/flower.png)

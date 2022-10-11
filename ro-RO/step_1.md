@@ -1,4 +1,4 @@
-## Introducere
+## Vei face
 
 Finalizează acest proiect pentru a participa la provocarea Astro Pi Mission Zero și a rula codul tău în spațiu pe un computer Astro Pi.
 
@@ -23,7 +23,7 @@ Vei învăța despre computerul Astro Pi și cum să îl controlezi, inclusiv cu
 
 --- collapse ---
 ---
-title: Ce vei învăța
+title: Note pentru mentori
 ---
 
 Misiunea Zero este potrivită pentru începătorii în programare și/sau copiii de vârstă școlară primară și poate fi finalizată într-o singură sesiune de 60 de minute pe orice computer cu acces la internet. Nu sunt necesare hardware special sau abilități de programare anterioare. Totul poate fi făcut într-un browser web.

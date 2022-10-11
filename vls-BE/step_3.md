@@ -16,8 +16,6 @@ Je zal zien dat er enkele coderegels automatisch toegevoegd werden.
 
 Deze code maakt verbinding met de Astro Pi, zorgt ervoor dat de LED-display van de Astro Pi op de juiste manier getoond wordt en installeert de kleursensor. Laat de code staan, want je zal ze nodig hebben.
 
-Misschien kan je een leuke begroeting achterlaten voor de astronauten die in de buurt van de Astro Pi op het ISS werken? Laten we een boodschap over het scherm laten rollen.
-
 --- code ---
 ---
 language: python
@@ -48,7 +46,7 @@ sense.color.integration_cycles = 64 # Het interval waarin het uitlezen gebeurt
 
 Kleuren kunnen gemaakt worden door het gebruik van rood, groen en blauw in verschillende verhoudingen. Je kan hier meer info over RGB-kleuren vinden:
 
-De Sense HAT kan alleen de Latijnse tekenset met 1 karakter tonen, wat betekent dat alleen de volgende karakters beschikbaar zijn. Andere karakters zullen weergegeven worden als een `?`.
+[[[generic-theory-simple-colours]]]
 
 De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een ander kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
 
@@ -101,7 +99,7 @@ afbeelding = [
 --- collapse ---
 
 ---
-titel: Bloem
+title: Bloem
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/flower.png)
@@ -134,7 +132,7 @@ afbeelding = [
 
 --- collapse ---
 ---
-titel: Krab
+title: Krab
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een krab toont.](images/crab.png)
@@ -166,7 +164,7 @@ afbeelding = [
 
 --- collapse ---
 ---
-titel: Krokodil
+title: Krokodil
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een krokodil toont.](images/croc.png)
@@ -199,7 +197,7 @@ afbeelding = [
 
 --- collapse ---
 ---
-titel: Slang
+title: Slang
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een slang toont.](images/snake.png)

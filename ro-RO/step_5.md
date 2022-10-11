@@ -1,4 +1,4 @@
-## Afișează o imagine
+## Trimite programul tău
 
 Acum poți participa la provocarea [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, folosind codul pe care l-ai scris.
 

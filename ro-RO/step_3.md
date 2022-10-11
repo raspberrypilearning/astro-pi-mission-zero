@@ -1,4 +1,4 @@
-## Afișează un mesaj și alege un nume pentru noile calculatoare Astro Pi
+## Afișează o imagine
 
 Matricea LED a Astro Pi poate afișa culori. În acest pas, vei afișa imagini din natură pe matricea LED a Astro Pi.
 
