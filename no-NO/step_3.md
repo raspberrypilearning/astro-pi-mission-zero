@@ -1,66 +1,66 @@
 ## Vise et bilde
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+Astro Pi-matrisen kan vise farger. I dette trinnet vises bilder fra naturen på Astro Pi's LED-matrise.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+En <span style="color: #0faeb0">**LED-matrise**</span> er et rutenett av LED-pærer som kan styres individuelt eller som en gruppe for å skape forskjellige lyseffekter. LED-matrisen på Sense HAT har 64 LED'er som vises i 8 x 8 rutenett. LED-pærene kan programmeres til å produsere en lang rekke farger.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Et skjermbilde av emulatorvinduet som viser Flight Unit med LED-matrisen som viser et bilde av en blomst.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Åpne [Mission Zero startprosjektet](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Du vil se at et par kodelinjer er lagt til automatisk for deg.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. La koden være, du vil trenge den senere.
+Denne koden kobles til Astro Pi, sørge for at Astro Pi's LED-skjerm vises på riktig måte rundt og setter opp fargesensoren. La koden være, du vil trenge den senere.
 
 --- code ---
 ---
 Legg til denne linjen under den andre koden:
 title: Hvilke tegn kan brukes?
 ---
-# Import the libraries
+# Importer bibliotekene
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Sett opp Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
+# Sett opp fargesensoren
 Trykk på **Run** (Kjør)-knappen og se meldingen `Astro Pi` rulle over LED-skjermen.
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Et skjermbilde av Sense HAT-emulatoren med linjer med startkode vist i venstre panel.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
 ### RGB farger
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Farger kan lages ved hjelp av ulike deler av rød, grønn og blå. Du kan finne ut om RGB farger her:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+LED-matrisen er et 8 x 8-rutenett. Hver LED på rutenettet kan settes til en annen farge. Her er en liste over variabler for 24 forskjellige farger. Hver farge har en verdi for rød, grønn og blå:
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Velg et bilde
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Velg:** Velg et bilde for visning blant valgene nedenfor. Python lagrer informasjonen for et bilde i en liste. Koden for hvert bilde inneholder fargevariablene som er brukt, og listen.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i prosjektet under linjen som sier `# Legg til fargevariabler og bilde`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Kylling
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Et tall med 8 x 8 kvadrater som viser et kylling i et egg.](images/chick.png)
 
 --- code ---
 ---
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Blomst
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Et tall med 8 x 8 kvadrater som viser en rosa blomst på et grønt innlegg.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Krabbe
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Et tall med 8 x 8 kvadrater med krabbe.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Krokodille
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Et rutenett med 8 x 8 ruter med krokodilhode.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Slange
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Et rutenett med 8 x 8 firkanter med slange.](images/snake.png)
 
 --- code ---
 ---
@@ -163,7 +163,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 title: Frog
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Et rutenett med 8 x 8 kvadrater med frosk.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Finn:** linjen som sier `# Vis bilde` og legg til en kodelinje for å vise bildet på LED-matrisen:
 
 --- code ---
 ---
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Vis bildet
 sense.set_pixels(image)
 
 --- /code ---
@@ -200,7 +200,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Trykk **Kjør** nederst i editoren for å se bildet vist på LED-matrisen.
 
 --- /task ---
 
@@ -208,16 +208,16 @@ Press **Run** at the bottom of the editor, to see your image displayed on the LE
 
 **Debug**
 
-My code has a syntax error:
+Min kode har en syntaksfeil:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Kontroller at koden samsvarer med koden i eksemplene ovenfor
+- Sjekk at du har skrevet inn koden i listen din
+- Sjekk at listen din er omgitt av `[` and `]`
+- Kontroller at hver fargevariabel i listen er adskilt med et komma
 
-My image does not appear:
+Bildet mitt vises ikke:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Sjekk at din `sense.set_pixels(image)` ikke er innrykket
 
 --- /task ---
 
