@@ -178,7 +178,7 @@ Ajoute du code pour effacer la matrice de LED par une couleur de ton choix. Cré
 
 Tu peux mélanger ta propre couleur ou utiliser les valeurs de la liste de couleurs pour créer ta nouvelle couleur `x`.
 
-\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
+[[[generic-theory-colours]]]
 
 --- code ---
 ---
