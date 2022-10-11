@@ -16,7 +16,7 @@ Du vil bruke Astro Pi-emulatoren i en nettleser for å lage programmet ditt. Du 
 
 **Hvis prosjektet ditt oppfyller [kvalifikasjonskriterier](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, vil det ferdige programmet kjøres på den internasjonale romstasjonen! Dere vil også få en original attest som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
+Du vil lære om Astro Pi-datamaskinen og hvordan du styrer den, inkludert hvordan du:
 + Lager **fargevariabler** til bruk i bildet ditt
 + Design og vis et bilde på Sense HAT
 + Opplev fargen på lyset om bord på ISS
@@ -26,11 +26,11 @@ You will learn about the Astro Pi computer and how to control it, including how 
 tittel: Notater for veiledere
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero egner seg for programmering og/eller barn som er skoleeldre og kan fullføres i en enkelt 60-minutters sesjon på en datamaskin med internettilgang. Spesiell maskinvare eller tidligere kodingsevne er ikke nødvendig. Alt kan gjøres i en nettleser.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Organiser ungdommene dine i lag på en til fire, og la oss lede dem gjennom å skrive et kort Python-program som betyr fargen om bord i ISS og lage et bilde som bruker den fargen.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Les [offisielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
 
