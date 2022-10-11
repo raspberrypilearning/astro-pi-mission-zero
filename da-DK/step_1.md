@@ -1,4 +1,4 @@
-## Introduktion
+## Du vil gøre
 
 Gennemfør dette projekt for at deltage i Astro Pi Mission Zero-udfordringen og få din kode kørt i rummet på en Astro Pi-computer.
 
