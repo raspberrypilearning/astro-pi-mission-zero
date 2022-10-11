@@ -18,7 +18,7 @@ Black
 
 MediumBlue
 
-Žltá
+Yellow
 
 DarkOrange
 
@@ -28,7 +28,7 @@ ForestGreen
 
 DeepPink
 
-Červená
+Red
 
 MidnightBlue
 
