@@ -1,39 +1,39 @@
-Import the libraries
+Tuo kirjastot
 
-Set up the Sense HAT
+Määritä Sense HAT
 
-Set up the colour sensor
+Määritä värianturi
 
-Set the sensitivity of the sensor
+Aseta anturin herkkyys
 
-The interval at which the reading will be take
+Aikaväli, jolla lukema otetaan
 
-Add colour variables and image
+Lisää värimuuttujia ja kuva
 
-Display the image
+Näytä kuva
 
-White
+Valkoinen
 
-Black
+Musta
 
-MediumBlue
+Tummansininen
 
-Yellow
+Keltainen
 
-DarkOrange
+Tummanoranssi
 
-Pink
+Vaaleanpunainen
 
-ForestGreen
+Metsänvihreä
 
-DeepPink
+Tummanvaaleanpunainen
 
-Red
+Punainen
 
-MidnightBlue
+Yönsininen
 
-get the colour from the sensor
+hae väri anturista
 
-use the sensed colour
+käytä tunnistettua väriä
 
-choose your own red, green, blue values between 0 - 255
+valitse omat punaisen, vihreän ja sinisen arvot väliltä 0 - 255
