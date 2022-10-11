@@ -1,29 +1,29 @@
-## Sense a colour
+## Känn en färg
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+I det här steget kommer du att ställa in färgljussensorn och använda den för att känna av mängden rött, grönt och blått som når sensorn. Denna färg kommer sedan att användas för att färglägga din valda bild. En astronaut som går upp till sensorn i en blå skjorta skulle se en annan bild än en astronaut i en röd skjorta.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![bild visas med en rosa bakgrund på LED-matrisen](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+Vilken bild du än väljer använder bakgrunden variabeln `c` som är inställd på svart.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Använd färgsensorn för att färga din bakgrund.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Lägg till kod före din bildlista för att få färgen från sensorn och ändra din `c` bakgrundsfärgvariabel för att använda färgen som avkänns av Sense HAT-färgsensorn istället för svart.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Tips:** Du behöver inte skriva kommentarerna som börjar med '#' (de är till för att förklara koden).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Lägg till färgvariabler och bild
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Svart m = (34, 139, 34) # Skogsgrön q = (255, 255, 0) # Gul t = (255, 140, 0) # MörkOrange y = (255, 20, 147) # DjupRosa
 
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue) # använd den avlästa färgen
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -33,33 +33,33 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Test:** Flytta färgreglaget till en färg som du väljer och sedan **kör** din kod. Din bakgrundsfärg kommer att ändras. Upprepa detta test igen med en ny färg.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Tips:** Du måste klicka på "Kör" varje gång du ändrar färg.
 
 --- /task ---
 
-## Loop your program
+## Loopa ditt program
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Astro Pi Mission Zero-programmet får köras i upp till 30 sekunder. Du kommer att använda denna tid för att upprepade gånger kontrollera färgsensorn och uppdatera bilden.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Din kod kommer att använda en `for` loop för att köra 28 gånger. **Varje** gång kommer den att:
++ känna den senaste färgen
++ uppdatera bildens bakgrundsfärg
++ pausa i en sekund
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Hitta** din `rgb = sense.color` kodrad.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Lägg till** kod ovanför den för att ställa in din `for` -loop för `28` repetitioner.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
@@ -69,20 +69,20 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Du måste nu indentera all din kod under `for` loopen så att den är **inuti** `for` loopen.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Tips:** För att indentera flera rader, markera de rader som du vill indentera och tryck sedan på <kbd>Tab</kbd> -tangenten på ditt tangentbord (vanligtvis ovanför <kbd>Caps Lock</kbd> -tangenten på tangentbordet).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
-  # Display the image
+  # Visa bilden
 
   sense.set_pixels(image)
 
@@ -92,61 +92,61 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Längst ned i koden lägger du till en `-sleep` på en sekund i din loop:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
-  # Display the image
+  # Visa bilden
 
   sense.set_pixels(image) sleep(1)
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Tips:** Se till att denna kodrad är indenterad i din `for` -loop.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Testa:** Kör din kod och ändra färgväljaren flera gånger medan ditt projekt körs. Kontrollera att din bild uppdateras för att använda den avkända färgen vid nästa körning.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+Bilden kommer att sluta uppdateras när loopen är klar så att programmet inte körs i mer än 30 sekunder.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+**Felsökning**
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+Min kod har ett syntaxfel eller fungerar inte som förväntat:
+
+- Kontrollera att din kod matchar koden i exemplen ovan
+- Kontrollera att du har indenterat koden i din `for` -loop
+- Kontrollera att din lista är omgiven av `[` och `]`
+- Kontrollera att varje färgvariabel i listan är avgränsad med ett kommatecken
+
+Min kod körs i längre än 30 sekunder:
+
+- Minska antalet gånger din for loop kör, från 28 till 25 eller till och med 20.
+- Minska längden på sleep, från 1 sekund till 0,5 sekunder.
+
+--- /task ---
+
+--- task ---
+
+Lägg till `sense.clear()` i slutet av din kod för att rensa bilden i slutet av din loop. Detta hjälper dig att se när din animation har körts färdigt.
+
+**Tips:** Se till att du **inte** indenterar raden `sense.clear()` eftersom du vill att den bara ska köras en gång i slutet av din animering.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
-  # Display the image
+  # Visa bilden
 
   sense.set_pixels(image) sleep(1)
 
@@ -158,25 +158,25 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Testa:** Kör din kod igen. När ditt projekt har körts klart försvinner LED-matrisen, vilket gör att alla lampor blir svarta (släckta).
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Felsökning**
 
-The LED matrix turns black every second:
+LED-matrisen blir svart varje sekund:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Kontrollera att du inte har indenterat koden `sense.clear()` i din `for` -loop
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Lägg till kod för att rensa LED-matrisen till en färg som du väljer. Skapa en variabel som heter `x` för att lagra din nya färg.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Du kan blanda din egen färg eller använda värdena från listan över färger för att skapa din nya `x`-färg.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Kör din kod igen. När ditt projekt är klart kommer LED-matrisen att rensas till din valda färg. Du kan ändra och sedan testa färgen så många gånger du vill.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Färdigt kodexempel
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Ett rutnät med 8 x 8 rutor som visar en rosa blomma på en grön stjälk.](images/flower.png)
 
 --- code ---
 ---
