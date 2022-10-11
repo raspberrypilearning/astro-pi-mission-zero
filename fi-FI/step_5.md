@@ -1,10 +1,10 @@
-## Submit your entry
+## Näytä kuva
 
 You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi Kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, säännöt **Sense HAT -emulaattorin** alareunassa syttyvät vihreinä ohjelmaa ajaessasi.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![Ruutukaappaus emulaattori-ikkunasta, jossa näkyy lentoyksikön LED-matriisi näyttämässä omaa kuvaansa lentoyksiköstä](images/rules.png)
 
 **Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
@@ -13,12 +13,12 @@ Please make sure that your entry follows the [official guidelines](https://astro
 Please do not include any of the following in your team name or code:
 
 + Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Lippuja, koska niitä voidaan pitää poliittisesti arkaluonteisina
++ Kaikki mikä viittaa toisen henkilön haittaamiseen tai vahingoittamiseen
++ Henkilötietoja kuten puhelinnumeroita, sosiaalisen median tunnuksia tai sähköpostiosoitteita
++ Siveettömiä kuvia
++ Erikoismerkkejä tai hymiöitä
++ Huonoa kieltä tai kiroilua
 
 --- task ---
 
@@ -40,6 +40,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
 
 --- /task ---
