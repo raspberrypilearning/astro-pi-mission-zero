@@ -1,45 +1,45 @@
-## Submit your entry
+## Vis et billede
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Du kan nu deltage i [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}-udfordringen ved at bruge den kode, du har skrevet.
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Der er nogle få regler, som din kode skal følge, før du kan indsende den og få den kørt på den internationale rumstation. Hvis din kode følger dem, så vil reglerne i bunden af **Sense HAT-emulatoren** lyse grønt, når du kører programmet.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![Mission Zero-siden, der viser kriterierne, kontrollerer for adgang.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Tip:** Test din kode med et par forskellige farveindstillinger (ved hjælp af farvevælgeren) for at sikre, at den altid kører korrekt.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Sørg for, at dit bidrag følger de [officielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. Hvis det ikke følger retningslinjerne, vil dit program ikke være i stand til at blive kørt på den internationale rumstation.
 
-Please do not include any of the following in your team name or code:
+Vær venlig ikke at inkludere noget af følgende i dit holdnavn eller kode:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Alt hvad der kan fortolkes som værende ulovligt, politisk eller af følsom karakter
++ Flag, da de kan betragtes som værende politisk følsomme
++ Alt hvad der refererer til ubehageligheder eller skade mod en anden person
++ Personlige oplysninger såsom telefonnumre, kaldenavne på sociale medier og e-mailadresser
++ Sjofle billeder
++ Specialtegn eller emojis
++ Dårligt sprog eller bandeord
 
---- task ---
+--- opgave ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Indtast din klasseværelseskode og holdnavn i boksen nederst — din mentor vil fortælle dig, hvad din kode er.
 
-![Classroom code and team name submission form](images/submission.png)
+![Formular til indsendelse af klasseværelseskode og holdnavn](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Bemærkninger til mentorer** kan findes i trinntet [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Tryk på knappen **Tilføj dit hold** for at indtaste din kode. Bemærk venligst, at et program ikke kan ændres, når det først er indsendt.
 
-Your mentor will get an email to confirm your entry.
+Din mentor vil modtage en e-mail for at bekræfte din tilmelding.
 
---- /task ---
+--- /opgave ---
 
---- task ---
+--- opgave ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Hvis du vil, kan du dele linket til din kode på de sociale medier for at fortælle folk, at den kode, du har skrevet, bliver kørt i rummet!
 
---- /task ---
+--- /opgave ---
