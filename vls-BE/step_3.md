@@ -1,70 +1,70 @@
-## Display an image
+## Laat een afbeelding zien
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+De LED matrix van de Astro Pi kan kleuren laten zien. In deze stap zal je natuurafbeeldingen laten zien op de LED matrix van de Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster met LEDs die individueel of in groep bestuurd kunnen worden om verschillende lichteffecten te creëeren. De LED matrix op de Sense HAT heeft 64 LEDs die in een raster van 8 x 8 getoond worden. De LEDs kunnen geprogrammeerd worden om een breeder gamma van kleuren te maken.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Een screenshot van het emulatorscherm dat de vluchtunit toont met de LED-matrix met een foto van een bloem.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Open het [Mission Zero startproject](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Je zal zien dat er enkele coderegels automatisch toegevoegd werden.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+Deze code maakt verbinding met de Astro Pi, zorgt ervoor dat de LED-display van de Astro Pi op de juiste manier getoond wordt en installeert de kleursensor. Laat de code staan, want je zal ze nodig hebben.
 
---- code ---
+Misschien kan je een leuke begroeting achterlaten voor de astronauten die in de buurt van de Astro Pi op het ISS werken? Laten we een boodschap over het scherm laten rollen.
 ---
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights:
+Voeg deze lijn toe onder de andere code:
+title: Welke tekens kunnen worden gebruikt?
 ---
-# Import the libraries
+# Importeer de bibliotheken
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Installeer de Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+# Installeer de kleursensor
+Druk op de **Run** knop en zie de boodschap `Astro Pi` over het LED-scherm rollen.
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Een screenshot van de Sense HAT-emulator met de lijnen van de begincode die getoond wordt aande linkerkant.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### RGB Colours
+### RGB-kleuren
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Kleuren kunnen gemaakt worden door het gebruik van rood, groen en blauw in verschillende verhoudingen. Je kan hier meer info over RGB-kleuren vinden:
 
-[[[generic-theory-simple-colours]]]
+De Sense HAT kan alleen de Latijnse tekenset met 1 karakter tonen, wat betekent dat alleen de volgende karakters beschikbaar zijn. Andere karakters zullen weergegeven worden als een `?`.
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een ander kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Kies een afbeelding
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Kies** Kies een afbeelding om te tonen uit de opties hieronder. Python slaat de informatie voor een afbeelding op in een lijst. De code voor elke afbeelding bevat de kleurvariabelen die gebruikt worden en de lijst.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken** in je project onder de lijn waar staat `# Voeg kleurvariabelen en afbeelding toe`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Kip
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Een raster met 8 x 8 vierkanten dat een kip in een ei toont.](images/chick.png)
 
---- code ---
+Om te stemmen, begin je je boodschap met de woorden "My name should be" (in het Engels). Bijvoorbeeld, als je wil stemmen van Ada Lovelace, zal je code er als volgt uitzien:
 ---
-language: python filename: main.py
+Als je wil stemmen, moet je boodschpa beginnen met deze woorden, anders kunnen we je deelname niet registreren.
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+titel: Bloem
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+titel: Krab
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Een raster met 8 x 8 vierkanten dat een krab toont.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+titel: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Een raster met 8 x 8 vierkanten dat een krokodil toont.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+titel: Slang
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Een raster met 8 x 8 vierkanten dat een slang toont.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Kikker
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Een raster met 8 x 8 vierkanten dat een kikker toont.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Vind:** de lijn waar staat `# Toon de afbeelding` en voeg een coderegel toe om je afbeelding op de LED matrix te tonen:
 
 --- code ---
 ---
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Toon de afbeelding
 sense.set_pixels(image)
 
 --- /code ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Druk **Start** onderaan de editor om je afbeelding te zien op de LED-matrix.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Fouten oplossen**
 
-My code has a syntax error:
+Mijn code geeft een foutmelding:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Controleer dat je code overeenkomt met de code in de voorbeelden hierboven
+- Controleer dat je de code gecopieerd hebt in je lijst
+- Controleer dat je lijst omgeven wordt door `[` en `]`
+- Controleer dat elke kleurvariabele in de lijst gescheiden wordt door een komma
 
-My image does not appear:
+Mijn afbeelding wordt niet getoond:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Controleer dat je `sense.set_pixels(afbeelding)` niet opgeslagen werd
 
 --- /task ---
 
