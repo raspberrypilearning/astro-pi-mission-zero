@@ -1,45 +1,45 @@
 ## Send inn bidraget ditt
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Du kan nå skrive inn [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} utfordringen ved å bruke koden du har skrevet.
 
-Det er noen regler for hvordan koden må være for at den kan sendes til å bli kjørt på den internasjonale romstasjonen. Hvis koden din følger dem, vil reglene nederst i **Sense HAT -emulatoren** lyse grønt når du kjører programmet.
+Det er noen regler for at koden må følge, slik at du kan sende den til å bli kjørt på den internasjonale romstasjonen. Dersom koden din følger dem, reglene nederst på **Sense HAT-emulatoren** vil lyse opp i grønt når du kjører programmet.
 
-![Et skjermbilde av emulatorvinduet som viser flyenheten med LED -matrisen som viser et bilde av selve flyenhenten](images/rules.png)
+![Mission Zero-siden som viser kriteriene som kontrolleres for å komme inn.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Tips:** Test koden din med noen forskjellige fargeinnstillinger (ved bruk av velgeren) for å forsikre deg om at den alltid kjører riktig.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Sørg for at oppføringen din følger de [offisielle retningslinjene](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. Hvis den ikke følger retningslinjene, vil ikke programmet ditt kunne kjøre på den internasjonale romstasjonen.
 
-Please do not include any of the following in your team name or code:
+Vennligst ikke inkluder noen av de følgende i gruppens navn eller kode:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Alt som kan tolkes som ulovlig, politisk, eller sårbar natur
++ Flagg, som de kan betraktes som politisk følsomme
++ Alt som refererer til ubehagelig eller skader på en annen person
++ Personopplysninger som telefonnummer, sosiale medier og e-postadresser
++ Obscene bilder
++ Spesielle tegn eller emojier
++ Dårlig språk eller banneord
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Skriv inn klasseromskoden og teamnavnet ditt i boksen nederst – veilederen din vil fortelle deg hva din koden er.
 
-![Classroom code and team name submission form](images/submission.png)
+![Klasseromskode og teamnavn skjema](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Merknader om veiledere** kan bli funnet i [Introduksjon](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) trinn.
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Trykk på **Legg til lag** for å skrive inn koden. Vær oppmerksom på at et program ikke kan endres etter innlevering.
 
-Your mentor will get an email to confirm your entry.
+Din mentor vil få en e-post for å bekrefte oppføringen din.
 
 --- /task ---
 
 --- task ---
 
-Hvis dere vil, kan dere legge ut en lenke til koden på sosiale medier for å fortelle folk at koden dere skrev vil bli kjørt i verdensrommet!
+Hvis du vil, du kan dele lenken med koden på sosiale medier for å fortelle folk at koden du skrev vil bli kjørt i verdensrommet!
 
 --- /task ---
