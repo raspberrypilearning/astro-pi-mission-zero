@@ -1,45 +1,45 @@
-## Pošljite svoj prispevek
+## Submit your entry
 
-Zdaj lahko z uporabo kode, ki ste jo napisali, sodelujete v izzivu [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}.
+You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če jih vaša koda upošteva, bodo pravila na dnu **Sense HAT emulatorja** ob zagonu programa zasvetila zeleno.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-![Stran Mission Zero, ki prikazuje kriterije za vnos.](images/rules.png)
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
-**Namig:** Preizkusite kodo z nekaj različnimi nastavitvami barve (z izbirnikom), da zagotovite, da vedno deluje pravilno.
+**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-Prepričajte se, da vaš program ustreza [uradnimim smernicam](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} za Mission Zero. V nasprotnem primeru vaš program ne bo mogel delovati na Mednarodni vesoljski postaji.
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
 
-Prosimo, da v ime ali kodo svoje ekipe ne vključite ničesar od naslednjega:
+Please do not include any of the following in your team name or code:
 
-+ Vse, kar bi si lahko razlagali kot nezakonito, politično ali občutljivo
-+ Zastave, saj lahko veljajo za politično občutljive
-+ Vse, kar bi lahko bilo neprijetno ali škodilo drugi osebi
-+ Osebni podatki, kot so telefonske številke, naslovi družbenih medijev in e-poštni naslovi
-+ Nespodobne slike
-+ Posebni znaki ali emojiji
-+ Nespodoben jezik ali preklinjanje
++ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
++ Flags, as they can be considered politically sensitive
++ Anything that references unpleasantness or harm to another person
++ Personal data such as telephone numbers, social media handles, and email addresses
++ Obscene images
++ Special characters or emojis
++ Bad language or swearing
 
 --- task ---
 
-V polje na dnu vnesite kodo učilnice, ki vam jo bo sporočil vaš mentor, ter ime ekipe.
+Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
 
-![Obrazec za oddajo kode učilnice in imena ekipe](images/submission.png)
+![Classroom code and team name submission form](images/submission.png)
 
-**Navodila za mentorje** najdete v koraku [Uvod](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
 --- task ---
 
-Za pošiljanje svoje kode kliknite gumb **Submit** (Pošlji). Ko je program oddan, ga ni več mogoče spremeniti.
+Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
 
-Vaš učitelj bo prejel elektronsko sporočilo s potrdilom prejema vašega prispevka.
+Your mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
 
-Če želite, lahko povezavo do svoje kode delite na družbenih omrežjih in tako ljudem poveste, da bo vaša koda zagnana v vesolju!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
