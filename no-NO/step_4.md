@@ -1,10 +1,10 @@
-## Legge til farge
+## Sanse en farge
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
 
 ![image displayed with a pink background on the LED matrix](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Uansett hvilket bilde du velger, bruker bakgrunnen `c`-variabelen som er satt til svart.
 
 --- task ---
 
