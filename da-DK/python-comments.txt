@@ -1,0 +1,39 @@
+Importér bibliotekerne
+
+Konfigurer Sense HAT
+
+Konfigurer farvesensoren
+
+Indstil sensorens følsomhed
+
+Intervallet, som aflæsningen vil blive taget med
+
+Tilføj farvevariabler og billede
+
+Vis billedet
+
+Hvid
+
+Sort
+
+Mellemblå
+
+Gul
+
+Mørk orange
+
+Lyserød
+
+Skovgrøn
+
+Dyb lysserød
+
+Rød
+
+Midnatsblå
+
+få farven fra sensoren
+
+brug den opfangede farve
+
+vælg dine egne røde, grønne eller blå værdier mellem 0 - 255
