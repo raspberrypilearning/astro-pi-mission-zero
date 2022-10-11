@@ -34,4 +34,4 @@ Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:ta
 
 --- /collapse ---
 
-![Sledovací pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
