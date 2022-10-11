@@ -1,0 +1,39 @@
+Importa le librerie
+
+Imposta il Sense HAT
+
+Imposta il sensore di colore
+
+Imposta la sensibilità del sensore
+
+L'intervallo con cui verrà eseguita la lettura
+
+Aggiungi variabili per il colore e immagine
+
+Mostra l'immagine
+
+Bianco
+
+Nero
+
+Blu medio
+
+Giallo
+
+Arancione scuro
+
+Rosa
+
+Verde foresta
+
+Rosa scuro
+
+Rosso
+
+Blu notte
+
+ottenere il colore dal sensore
+
+usa il colore percepito
+
+scegli i tuoi valori di rosso, verde e blu compresi tra 0 e 255
