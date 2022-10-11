@@ -1,37 +1,37 @@
-## You will make
+## Introducere
 
-Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
+Finalizează acest proiect pentru a participa la provocarea Astro Pi Mission Zero și a rula codul tău în spațiu pe un computer Astro Pi.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Proiectul tău va seta culoarea de fundal a unei imagini la culoarea detectată de Astro Pi. Astfel, stația spațială internațională (ISS) va deveni mai colorată pentru astronauții de la bord. Codul tău va folosi senzorul de luminozitate de culoare pe noul calculator Sense HAT al lui Mark II Astro Pi pentru a realiza acest lucru.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Iată un exemplu de program pe care l-ai putea face pentru a rula pe un Astro Pi în spațiu.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Emulatorul Sense HAT care rulează un program demonstrativ cu un șarpe a cărui culoare de fundal se schimbă la culoarea detectată.](images/finished.gif)
 
-### You will need
+### Ce vei face
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Vei folosi emulatorul Astro Pi într-un browser web pentru a crea programul tău. Nu ai nevoie de un calculator Astro Pi.
 
-### Astro Pi Mission Zero criteria
+### Hardware
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+**Dacă proiectul tău îndeplinește [criteriile de eligibilitate](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, programul tău finalizat va fi executat pe Stația Spațială Internațională! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Create colour **variables** to use in your image
-+ Design and display an image on the Sense HAT
-+ Sense the colour of light on board the ISS
+Vei învăța despre computerul Astro Pi și cum să îl controlezi, inclusiv cum să:
++ afișezi mesaje și culori
++ creezi imagini
++ măsori umiditatea folosind Sense HAT
 
 --- collapse ---
 ---
-title: Notes for mentors
+title: Ce vei învăța
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Misiunea Zero este potrivită pentru începătorii în programare și/sau copiii de vârstă școlară primară și poate fi finalizată într-o singură sesiune de 60 de minute pe orice computer cu acces la internet. Nu sunt necesare hardware special sau abilități de programare anterioare. Totul poate fi făcut într-un browser web.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Organizați-vă tinerii în echipe de unul până la patru și lăsați-ne să-i ghidăm la scrierea unui scurt program Python pentru a detecta culoarea de la bordul ISS și a crea o imagine care să folosească acea culoare.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Citește [instrucțiunile oficiale](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
 
 --- /collapse ---
 
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
+![Urmărire de pixeli](https://code.org/api/hour/begin_raspberrypi_astropi.png)
