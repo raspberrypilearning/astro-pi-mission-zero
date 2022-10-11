@@ -1,39 +1,39 @@
-Import the libraries
+Importera biblioteken
 
-Set up the Sense HAT
+Ställ in Sense HAT
 
-Set up the colour sensor
+Ställ in färgsensorn
 
-Set the sensitivity of the sensor
+Ställ in sensorns känslighet
 
-The interval at which the reading will be take
+Intervallet med vilket avläsningen kommer att ske
 
-Add colour variables and image
+Lägg till färgvariabler och bild
 
-Display the image
+Visa bilden
 
-White
+Vit
 
-Black
+Svart
 
-MediumBlue
+MediumBlå
 
-Yellow
+Gul
 
-DarkOrange
+Mörkorange
 
-Pink
+Rosa
 
-ForestGreen
+Skogsgrön
 
-DeepPink
+Djuprosa
 
-Red
+Röd
 
-MidnightBlue
+Midnattsblå
 
-get the colour from the sensor
+hämta färgen från sensorn
 
-use the sensed colour
+använd den avkända färgen
 
-choose your own red, green, blue values between 0 - 255
+välj dina egna röda, gröna, blå värden mellan 0 - 255
