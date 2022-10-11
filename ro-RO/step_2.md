@@ -1,14 +1,14 @@
 ## Ce este Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space.
+Astro Pi este un calculator Raspberry Pi încapsulat într-o carcasă special concepută pentru condițiile din spațiu.
 
-![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
+![Imagine animată a unui Sense HAT atașat la partea superioară a unui computer Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers come with a set of sensors and gadgets that can be used to run great scientific experiments. This set of sensors is called a ‘Sense HAT’ (that stands for ‘Hardware Attached on Top’). The Sense HAT gives Astro Pi the ability to ‘sense’ and make many kinds of measurements, from temperature to movement, and to output information using an 8 x 8 LED matrix display. The Astro Pis also have a joystick and buttons, just like a video game console!
+Calculatoarele Astro Pi vin cu un set de senzori și gadget-uri care pot fi folosite pentru a face experimente științifice remarcabile. Acest set de senzori se numește „Sense HAT” (care reprezintă „Hardware-ul atașat în partea de sus”). Sense HAT îi conferă Astro Pi capacitatea de a „simți” și de a efectua multe măsurători, de la temperatură la mişcare şi la informaţii de ieşire utilizând o matrice de 8 x 8 LED. Astro Pi-urile au de asemenea un joystick și butoane, exact ca o consolă de jocuri video!
 
-![Animated image of a Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+![Imaginea animată a unui Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
 
-For this mission, you will be using the Sense HAT emulator which simulates the main functions of the Astro Pi in your web browser.
+Pentru această misiune, vei folosi emulatorul Sense HAT care simulează funcțiile principale ale Astro Pi în browser-ul tău.
 
 
 
