@@ -12,14 +12,14 @@ steps:
   - 
     title: Che cos'è un Astro Pi?
   - 
-    title: Visualizza un'immagine
+    title: Mostra un’immagine
     completion:
       - engaged
   - 
     title: Leggi un colore
   - 
-    title: Invia la tua proposta
+    title: Invia il tuo progetto
     completion:
       - internal
   - 
-    title: E dopo questo — altri progetti Astro Pi
+    title: 'E dopo questo: altri progetti Astro Pi'
