@@ -1,45 +1,45 @@
-## Envia a tua participação
+## Submit your entry
 
-Podes entrar no desafio [Astro Pi Missão Zero](https://astro-pi.org/mission-zero){:target="_blank"}, usando o código que tu escreveste.
+You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-Existem algumas regras que o teu código precisa de seguir para que possas submetê-lo para ser executado na Estação Espacial Internacional. Se o teu código as seguir, as regras na parte inferior do **emulador Sense HAT** irão acender a verde quando executar o programa.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-![A página da Missão Zero que mostra os critérios de verificação de entradas.](images/rules.png)
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
-**Dica:** Testa o teu código com algumas configurações de cores diferentes (usando o seletor) para garantir que seja sempre executado corretamente.
+**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
-Por favor, certifica-te de que a tua entrada segue as [diretrizes oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} para a Missão Zero. Se não seguir as diretrizes, o teu programa não poderá ser executado na Estação Espacial Internacional.
+Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
 
-Por favor não incluas nenhum dos seguintes no nome ou código da tua equipa:
+Please do not include any of the following in your team name or code:
 
-+ Qualquer coisa que possa ser interpretada como sendo de natureza ilegal, política ou sensível
-+ Bandeiras, pois podem ser consideradas politicamente sensíveis
-+ Qualquer coisa que faça referência a desagradável ou dano para outra pessoa
-+ Dados pessoais como números de telefone, redes sociais e endereços de e-mail
-+ Imagens obscenas
-+ Caracteres especiais ou emojis
-+ Linguagem imprópria ou palavrões
++ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
++ Flags, as they can be considered politically sensitive
++ Anything that references unpleasantness or harm to another person
++ Personal data such as telephone numbers, social media handles, and email addresses
++ Obscene images
++ Special characters or emojis
++ Bad language or swearing
 
 --- task ---
 
-Introduz o código da tua turma e nome da equipa no respetivo campo na parte inferior - o teu professor dir-te-á qual é o código.
+Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
 
-![Formulário de submissão de código de sala de aula e nome da equipa](images/submission.png)
+![Classroom code and team name submission form](images/submission.png)
 
-**Notas para mentores** podem ser encontradas no passo [Introdução](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
+**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
 
 --- /task ---
 
 --- task ---
 
-Pressiona o botão **Adicione a sua equipa** para inserir o teu código. Por favor, de notar que um programa não pode ser alterado assim que for enviado.
+Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
 
-O teu mentor receberá um email para confirmar a inscrição.
+Your mentor will get an email to confirm your entry.
 
 --- /task ---
 
 --- task ---
 
-Se quiseres, podes partilhar o link para o teu código nas redes sociais para dizer às pessoas que o código que escreveste vai ser executado no espaço!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
