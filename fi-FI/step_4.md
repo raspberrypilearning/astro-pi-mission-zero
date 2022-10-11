@@ -1,25 +1,25 @@
-## Lisää jonkun verran väriä
+## Tunnista väri
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+Tässä vaiheessa määrität värin kirkkausanturin ja käytät sitä tunnistaaksesi punaisen, vihreän ja sinisen määrät anturissa. Tätä väriä käytetään sitten valitsemasi kuvan värittämiseen. Astronautti, joka kävelee anturin luo sinisessä paidassa, näkisi erilaisen kuvan kuin punaisessa paidassa oleva astronautti.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![kuva näkyy vaaleanpunaisella taustalla LED-matriisissa](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Riippumatta valitsemastasi kuvasta, tausta käyttää `c` muuttujaa, joka on asetettu mustaksi.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Käytä värianturia värittääksesi taustasi.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Lisää koodi kuvalistasi eteen saadaksesi värin anturilta ja muuta taustavärisi muuttuja `c` käyttääksesi Sense HATin värianturin tunnistamaa väriä mustan sijasta.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Vinkki:** Sinun ei tarvitse kirjoittaa #-alkuisia kommentteja (ne ovat siellä koodin selittämiseksi).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Lisää värimuuttujia ja kuva
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Kokeile:** Siirrä värin liukusäädin valitsemaasi väriin ja sitten **aja** koodisi. Taustavärisi muuttuu. Toista tämä kokeilu uudella värillä.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Vinkki:** Sinun on napsautettava 'Aja' aina, kun muutat väriä.
 
 --- /task ---
 
-## Loop your program
+## Aja ohjelmaasi silmukassa
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Astro Pi Mission Zero -ohjelma saa olla ajossa enintään 30 sekuntia. Käytät tämän ajan toistuvasti värianturin tarkastamiseen ja kuvan päivittämiseen.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Koodisi käyttää `for`-silmukkaa ajaakseen 28 kertaa. **Joka** kerta se:
++ tunnistaa uusimman värin
++ päivittää kuvan taustavärin
++ odottaa yhden sekunnin
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Etsi** sinun `rgb = sense.color` koodirivi.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Lisää** koodi sen yläpuolelle määrittääksesi `for` -silmukan `28` toistolle.
 
 --- code ---
 ---
@@ -209,7 +209,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 title: Completed code example
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/flower.png)
 
 --- code ---
 ---
