@@ -1,25 +1,25 @@
-## Sense a colour
+## Detectează o culoare
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+În acest pas, vei configura senzorul luminozității culorii și îl vei folosi pentru a detecta cantitatea de roșu, verde și albastru care ajunge la senzor. Această culoare va fi apoi folosită pentru a colora în imaginea aleasă. Un astronaut care se apropie de senzor într-o cămașă albastră ar vedea o imagine diferită de un astronaut într-o cămașă roșie.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![imagine afișată cu un fundal roz pe matricea LED](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+Indiferent de imaginea pe care ai ales-o, fundalul folosește variabila `c` care este setată la negru.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Utilizează senzorul de culoare pentru a colora fundalul.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Adaugă cod înainte de lista ta de imagini pentru a obține culoarea de la senzor și a schimba variabila de culoare `c` de fundal pentru a utiliza culoarea simțită de către senzorul de culoare Sense HAT în loc de negru.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Sfat:** Nu trebuie să tastezi comentariile care încep cu '#' (sunt acolo pentru a explica codul).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Adaugă variabile de culoare și imagine
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Test:** Mută glisorul de culori la o culoare aleasă de tine și apoi **execută** codul tău. Culoarea de fundal se va schimba. Repetați acest test din nou cu o nouă culoare.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Sfat:** Va trebui să apeși pe 'Rulează' de fiecare dată când schimbi culoarea.
 
 --- /task ---
 
-## Loop your program
+## Repetă programul tău
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Programul Astro Pi Mission Zero poate rula până la 30 de secunde. Vei folosi acest timp pentru a verifica în mod repetat senzorul de culoare şi a actualiza imaginea.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Codul tău va folosi o buclă `for` pentru a rula de 28 de ori. De **fiecare** dată va:
++ detecta cea mai recentă culoare
++ actualiza culoarea de fundal a imaginii
++ face pauză o secundă
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Găsește** linia de cod `rgb = sense.color`.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Adaugă** codul deasupra lui pentru a configura bucla `for` să facă `28` de repetări.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Acum trebuie să indentezi tot codul de sub bucla `for` astfel încât să fie **în interiorul** buclei `for`.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Sfat:** Pentru a indenta mai multe linii, evidențiază liniile pe care vrei să le indentezi, apoi apasă tasta <kbd>Tab</kbd> de pe tastatură (de obicei deasupra tastei <kbd>Caps Lock</kbd> de pe tastatură).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+În partea de jos a codului tău, adaugă un `sleep` de o secundă în interiorul buclei tale:
 
 --- code ---
 ---
@@ -105,15 +105,15 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Sfat:** Asigură-te că această linie de cod este indentată în cadrul buclei `for`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test:** Execută codul și schimbă selectorul de culori de mai multe ori pe măsură ce proiectul rulează. Verifică dacă imaginea se actualizează pentru a utiliza culoarea detectată la următoarea sa execuție.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
+Imaginea va înceta să se actualizeze atunci când bucla se termină astfel încât programul să nu ruleze mai mult de 30 de secunde.
 
 --- /task ---
 
@@ -121,25 +121,25 @@ The image will stop updating when the loop finishes so that the program doesn't 
 
 **Debug**
 
-My code has a syntax error or doesn't run as expected:
+Codul meu are o eroare de sintaxă sau nu rulează conform așteptărilor:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Verifică dacă codul tău se potrivește cu codul din exemplele de mai sus
+- Verifică dacă ai indentat codul din bucla ta `for`
+- Verifică dacă lista ta este înconjurată de `[` și `]`
+- Verifică dacă fiecare variabilă de culoare din listă este separată de virgulă
 
-My code runs for longer than 30 seconds:
+Codul meu rulează mai mult de 30 de secunde:
 
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+- Redu numărul de rulări din bucla for, de la 28 la 25 sau chiar 20.
+- Scade durata sleep-ului, de la 1 secundă la 0,5 secunde.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+Adaugă `sense.clear()` la sfârșitul codului tău pentru a șterge imaginea de la sfârșitul buclei tale. Acest lucru te va ajuta să vezi când animația s-a terminat de executat.
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+**Sfat:** Asigură-te că **nu** indentezi linia de cod `sense.clear()` deoarece vrei ca aceasta să ruleze o singură dată la sfârșitul animației.
 
 --- code ---
 ---
@@ -158,7 +158,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test:** Rulează codul din nou. După ce proiectul a terminat de rulat, matricea LED se va șterge și se vor face toate luminile negre (oprite).
 
 --- /task ---
 
@@ -166,17 +166,17 @@ sense.clear()
 
 **Debug**
 
-The LED matrix turns black every second:
+Matricea LED devine neagră la fiecare secundă:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Verifică dacă nu ai indentat codul `sense.clear()` din cadrul buclei tale `for`
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Adaugă cod pentru a șterge matricea LED-urilor la o culoare la alegerea ta. Creează o variabilă numită `x` pentru a stoca noua ta culoare.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Poți să amesteci propria culoare sau să folosești valorile din lista de culori pentru a crea noua ta culoare `x`.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** Rulează codul din nou. După terminarea proiectului, matricea LED se va șterge după culoarea aleasă. Poți schimba apoi testa culoarea ori de câte ori vrei.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+titlu: Exemplu de cod completat
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/flower.png)
 
 --- code ---
 ---
