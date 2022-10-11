@@ -18,8 +18,8 @@
 
 --- code ---
 ---
-Πρόσθεσε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
-title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν;
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Εισαγωγή βιβλιοθηκών
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Ρύθμιση του αισθητήρα χρωμάτων
-Πάτησε το κουμπί «**Run**» (Εκτέλεση) και παρακολούθησε το κυλιόμενο μήνυμα «`Astro Pi`» στην οθόνη LED.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -64,7 +64,7 @@ title: Κοτόπουλο
 
 --- code ---
 ---
-Εάν θέλεις να ψηφίσεις, το μήνυμά σου *πρέπει* να ξεκινά με αυτές τις λέξεις, διαφορετικά δεν θα μπορούμε να μετρήσουμε αυτόματα την καταχώρισή σου.
+language: python filename: main.py
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
