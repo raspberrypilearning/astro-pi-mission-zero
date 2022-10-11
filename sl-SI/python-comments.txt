@@ -1,39 +1,39 @@
-Uvozi knjižnice
+Import the libraries
 
-Nastavi Sense HAT
+Set up the Sense HAT
 
-Nastavi barvni senzor
+Set up the colour sensor
 
-Nastavi občutljivost senzorja
+Set the sensitivity of the sensor
 
-Interval, v katerem bo opravljeno branje
+The interval at which the reading will be take
 
-Doda barvne spremenljivke in sliko
+Add colour variables and image
 
-Prikaže sliko
+Display the image
 
-Bela
+White
 
-Črna
+Black
 
-Modra
+MediumBlue
 
 Rumena
 
-Temnooranžna
+DarkOrange
 
-Roza
+Pink
 
-Drevesnozelena
+ForestGreen
 
-Temnoroza
+DeepPink
 
-Rdeča
+Red
 
-Nočnomodra
+MidnightBlue
 
-dobi barvo od senzorja
+get the colour from the sensor
 
-uporabi zaznano barvo
+use the sensed colour
 
-izberi svoje rdeče, zelene, modre vrednosti med 0 in 255
+choose your own red, green, blue values between 0 - 255
