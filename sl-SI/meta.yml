@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: You will make
+    title: Izdelali boste
   - 
     title: Kaj je Astro Pi?
   - 
-    title: Display an image
+    title: Prikažite sliko
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Zaznajte barve
   - 
-    title: Submit your entry
+    title: Pošljite svoj prispevek
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: 'Kaj zdaj: več projektov Astro Pi'
