@@ -1,39 +1,39 @@
-Import the libraries
+Importă bibliotecile
 
-Set up the Sense HAT
+Configurează Sense HAT
 
-Set up the colour sensor
+Configurează senzorul de culoare
 
-Set the sensitivity of the sensor
+Setează sensibilitatea senzorului
 
-The interval at which the reading will be take
+Intervalul la care va avea loc citirea
 
-Add colour variables and image
+Adaugă variabile de culoare și imagine
 
-Display the image
+Afișează imaginea
 
-White
+Alb
 
-Black
+Negru
 
-MediumBlue
+Albastru mediu
 
-Yellow
+Galben
 
-DarkOrange
+Portocaliu închis
 
-Pink
+Roz
 
-ForestGreen
+Verde pădure
 
-DeepPink
+Roz intens
 
-Red
+Roșu
 
-MidnightBlue
+Bleumarin
 
-get the colour from the sensor
+obține culoarea de la senzor
 
-use the sensed colour
+utilizează culoarea de la senzor
 
-choose your own red, green, blue values between 0 - 255
+alege-ți propriile valori roșu, verde, albastru între 0 - 255
