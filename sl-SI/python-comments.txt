@@ -1,0 +1,39 @@
+Uvozi knjižnice
+
+Nastavi Sense HAT
+
+Nastavi barvni senzor
+
+Nastavi občutljivost senzorja
+
+Interval, v katerem bo opravljeno branje
+
+Doda barvne spremenljivke in sliko
+
+Prikaže sliko
+
+Bela
+
+Črna
+
+Modra
+
+Rumena
+
+Temnooranžna
+
+Roza
+
+Drevesnozelena
+
+Temnoroza
+
+Rdeča
+
+Nočnomodra
+
+dobi barvo od senzorja
+
+uporabi zaznano barvo
+
+izberi svoje rdeče, zelene, modre vrednosti med 0 in 255

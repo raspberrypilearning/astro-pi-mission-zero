@@ -1,0 +1,19 @@
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/banner.png
+description: Pripravite se na Mission Zero
+listed: true
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+steps:
+  - title: Izdelali boste
+  - title: Kaj je Astro Pi?
+  - title: Prikažite sliko
+    completion:
+      - engaged
+  - title: Zaznajte barve
+  - title: Pošljite svoj prispevek
+    completion:
+      - internal
+  - title: 'Kaj zdaj: več projektov Astro Pi'
