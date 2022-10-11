@@ -1,36 +1,36 @@
-## Esittely
+## Sinä teet
 
-Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
+Suorita tämä projekti osallistuaksesi Astro Pi Mission Zero -haasteeseen ja koodisi ajetaan avaruudessa Astro Pi -tietokoneella.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Projektisi asettaa kuvan taustaväriksi sen värin, jonka Astro Pi havaitsee. Näin Kansainvälisestä avaruusasemasta (ISS) tulee entistä värikkäämpi aluksella oleville astronauteille. Koodisi käyttää uuden 2. sukupolven Astro Pi -tietokoneen Sense HATin värin kirkkausanturia tämän toteuttamiseksi.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Tässä on esimerkki ohjelmasta, jonka voit tehdä avaruudessa ajettavaksi Astro Pillä.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Sense HAT -emulaatori ajamassa esimerkkiohjelmaa, jossa on käärme ja tunnistetun värin perusteella vaihtuva taustaväri.](images/finished.gif)
 
-### Mitä tulet tekemään
+### Sinä tarvitset
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Käytät Astro Pi -emulaattoria verkkoselaimessa ohjelman luomiseen. Et tarvitse Astro Pi -tietokonetta.
 
-### Laitteisto
+### Astro Pi Mission Zero -kriteerit
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
+**Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Viestien ja värien näyttäminen
-+ Kuvien tekeminen
-+ Ilmankosteuden mittaaminen Sense HATia käyttäen
+Opit Astro Pi -tietokoneesta ja sen hallinnasta, mukaan lukien miten:
++ Luot väri**muuttujia** kuvassasi käytettäväksi
++ Suunnittelet ja näytät kuvan Sense HATissa
++ Tunnistat valon värin ISS:llä
 
 --- collapse ---
 ---
-title: Mitä tulet oppimaan
+title: Huomautuksia ohjaajille
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero sopii ohjelmoinnin aloittelijoille ja/tai peruskouluikäisillä lapsille, ja voidaan suorittaa kokonaisuudessaan yhden 60 minuutin istunnon aikana millä tahansa tietokoneella, jossa on internet-yhteys. Erikoislaitteistoja tai aikaisempia ohjelmointitaitoja ei tarvita. Kaikki voidaan tehdä verkkoselaimessa.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Muodosta joukkueita, joissa on enintään neljä nuorta, ja anna meidän opastaa heidät kirjoittamaan lyhyt Python-ohjelma, joka tunnistaa ISS:llä olevan värin ja luo sitä käyttävän kuvan.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Lue Mission Zeron [viralliset säännöt](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
 
