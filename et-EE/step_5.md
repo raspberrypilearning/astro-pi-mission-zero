@@ -1,45 +1,45 @@
-## Submit your entry
+## Esita oma võistlustöö
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Nüüd saate sisestatud koodi abil sisestada [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} väljakutse.
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Sinu koodi esitamiseks rahvusvahelises kosmosejaamas käivitamiseks peab see vastama mõnedele reeglitele. Kui sinu kood neile vastab, siis muutuvad programmi käitamisel **Sense HAT emulaatori** allosas asuvad reeglid roheliseks.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![Mission Zero leht näitamas võistlustöö esitamise nõudeid.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Näpunäide:** Testi oma koodi mitme eri värviseadega (kasutades valijat), et olla kindel, et see käitab alati õigesti.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Palun veendu, et sinu võistlustöö järgib Mission Zero [ametlikke juhiseid](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}. Kui see ei järgi juhiseid, ei saa sinu programmi rahvusvahelises kosmosejaamas käitada.
 
-Please do not include any of the following in your team name or code:
+Palun ära lisa oma meeskonna nimesse ega koodi järgmist:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Kõik, mida võib tõlgendada ebaseadusliku, poliitilise või delikaatsena
++ Lipud, kuna neid võib võtta poliitiliselt delikaatsetena
++ Kõik, mis viitab teisele inimesele ebameeldivuste valmistamisele või kahju tegemisele
++ Isikuandmed, nagu telefoninumbrid, sotsiaalmeedia kontod ja meiliaadressid
++ Ropud pildid
++ Erimärgid või emotikonid
++ Ebaviisakas keel või vandumine
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Sisesta oma klassiruumi kood ja meeskonna nimi allpool asuvasse kastikesse; sinu mentor ütleb sulle, mis sinu kood on.
 
-![Classroom code and team name submission form](images/submission.png)
+![Klassiruumi koodi ja meeskonna nime esitamise vorm](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Märkused mentoritele** on saadaval [Sissejuhatuses](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Oma koodi sisestamiseks vajuta **Lisa oma tiim** nuppu. Pea meeles, et peale esitamist ei ole programmi enam võimalik muuta.
 
-Your mentor will get an email to confirm your entry.
+Sinu mentorile saadetakse võistlustöö esitamist kinnitav meil.
 
 --- /task ---
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Soovi korral võid oma koodi linki jagada sotsiaalmeedias andmaks kõigile teada, et sinu kirjutatud koodi näidatakse kosmoses!
 
 --- /task ---
