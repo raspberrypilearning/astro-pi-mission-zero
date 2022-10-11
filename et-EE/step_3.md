@@ -1,70 +1,70 @@
-## Display an image
+## Kuva pilt
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+Astro Pi LED-maatriksid suudavad kuvada ka värve. Selles etapis kuvad Astro Pi LED-maatriksil pilte loodusest.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED-maatriks**</span> on LED-ide võre, mida saab juhtida üksikult või rühmana, et luua erinevaid valgusefekte. Sense HAT-i LED-maatriksil on 64 LED-i, mis kuvatakse 8 x 8 võrena. LED-e saab programmeerida tootma laias valikus värve.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Emulaatori akna kuvatõmmis, mis näitab lennuüksust, LED-maatriks kuvamas pilti lillest.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Ava [Mission Zero stardiprojekt](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Näed, et sulle on automaatselt lisatud mõned read koodi.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+See kood ühendub Astro Pi-ga ja tagab, et Astro Pi LED-ekraan kuvatakse õigesti ning unstallib värvianduri. Jäta kood sinna, sest sul läheb seda vaja.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights:
+Lisa see rida teise koodi alla:
+title: Milliseid tähemärke saab kasutada?
 ---
-# Import the libraries
+# Impordi teegid
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Installi Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+# Installi värviandur
+Vajuta **Run** (Käivita) nuppu ja vaata sõnumit `Astro Pi` LED-ekraanil.
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Sense HAT-i emulaatori kuvatõmmis algkoodi ridadega, kuvatud vasakus paanis.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### RGB Colours
+### RGB värvid
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Värve saab luua kasutades erinevaid punase, rohelise ja sinise proportsioone. RGB värvide kohta saad rohkem teada siin:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+LED-maatriks on 8 x 8 võre. Iga võre LED-i saab seadistada erinevat värvi. Siin on 24 erineva värvi muutujate loend. Igal värvil on väärtus punase, rohelise ja sinise jaoks:
 
 [[[ambient-colours]]]
 
-### Choose an image
+### Vali pilt
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Vali:** Vali allolevatest variantidest pilt, mida kuvada. Python salvestab pildi teabe loendisse. Iga pildi kood sisaldab kasutatud värvide muutujaid ja loendit.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma projekti selle rea alla, mis ütleb `# Lisa värvi muutujad ja pilt`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Kana
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![8 x 8 ruuduga võre, mis näitab tibu munas.](images/chick.png)
 
 --- code ---
 ---
-language: python filename: main.py
+Kui soovid anda oma hääle, *peab* sinu sõnum algama nende sõnadega, vastasel juhul ei saa me sinu pakkumist automaatselt arvesse võtta.
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Lill
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![8 x 8 ruuduga võre, millel on roosa lill rohelisel varrel.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Krabi
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![8 x 8 ruuduga võre, millel on kujutatud krabi.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Krokodill
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![8 x 8 ruuduga võre, millel on kujutatud krokodilli pead.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Madu
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![8 x 8 ruuduga võre, millel on kujutatud madu.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Konn
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![8 x 8 ruuduga võre, millel on kujutatud konn.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Leia:** rida, mis ütleb `# Kuva pilt` ja lisa koodirida, et kuvada oma pilt LED-maatriksil:
 
 --- code ---
 ---
@@ -191,7 +191,7 @@ line_highlights: 12
 ---
 image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
 
-# Display the image
+# Kuva pilt
 sense.set_pixels(image)
 
 --- /code ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Vajuta **Käivita** redaktori allosas, et näha oma pilti LED-maatriksil kuvatuna.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Silumine**
 
-My code has a syntax error:
+Minu koodis on süntaksiviga:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Kontrolli, kas sinu kood ühtib ülaltoodud näidetes oleva koodiga
+- Kontrolli, kas oled oma loendis koodi taandanud
+- Kontrolli, kas sinu loend on ümbritsetud `[` ja `]`-ga
+- Kontrollige, kas iga värvi muutuja on loendis komaga eraldatud
 
-My image does not appear:
+Minu pilt ei ilmu:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Kontrolli, ega sinu `sense.set_pixels(image)` ei ole taandega
 
 --- /task ---
 
