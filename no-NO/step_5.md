@@ -1,10 +1,10 @@
-## Vise et bilde
+## Submit your entry
 
 You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-Det er noen regler for hvordan koden må være for at den kan sendes til å bli kjørt på den internasjonale romstasjonen. Hvis koden din følger dem, vil reglene nederst i **Sense HAT -emulatoren** lyse grønt når du kjører programmet.
+There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
 
-![Et skjermbilde av emulatorvinduet som viser flyenheten med LED -matrisen som viser et bilde av selve flyenhenten](images/rules.png)
+![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
 
 **Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
 
@@ -40,6 +40,6 @@ Your mentor will get an email to confirm your entry.
 
 --- task ---
 
-Hvis dere vil, kan dere legge ut en lenke til koden på sosiale medier for å fortelle folk at koden dere skrev vil bli kjørt i verdensrommet!
+If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
 
 --- /task ---
