@@ -1,48 +1,48 @@
-## Display an image
+## Prikaže sliko
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix.
+LED matrika računalnika Astro Pi lahko prikazujejo barve. V tem koraku boste prikazali slike iz narave na LED matriki Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED matrika**</span> je mreža LED diod, ki jih je mogoče nadzorovati posamično ali kot skupino za ustvarjanje različnih svetlobnih učinkov. Matrika LED na Sense HAT ima 64 LED, postavljenih v 8x8 mrežo. Te diode je mogoče programirati za ustvarjanje širokega spektra barv.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![Posnetek zaslona okna emulatorja, ki prikazuje letalsko enoto z matriko LED, ki prikazuje sliko rože.](images/fu-pic.png)
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Odprite začetni projekt [Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Opazili boste, da je bilo nekaj vrstic kode dodanih samodejno.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Kodo pustite, ker jo boste potrebovali.
+Koda se poveže z računalnikom Astro Pi in poskrbi, da sta zaslon LED in senzor svetlobe računalnika Astro Pi nastavljena pravilno. Kodo pustite, ker jo boste potrebovali.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights:
+Pod kodo dodajte to vrstico:
+title: Katere znake lahko uporabite?
 ---
-# Import the libraries
+# Uvozi knjižnice
 from sense_hat import SenseHat from time import sleep
 
-# Set up the Sense HAT
+# Nastavi Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+# Nastavi barvni senzor
+Pritisnite gumb **Run** (Zaženi) in si oglejte, kako se sporočilo `Astro Pi` pomika po zaslonu LED.
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![Posnetek zaslona emulatorja Sense HAT z vrsticami začetne kode, prikazane v levem podoknu.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
-### RGB Colours
+### RGB barve
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Barve lahko ustvarite z različnimi razmerji rdeče, zelene in modre. O barvah RGB si lahko preberete tukaj:
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. Tukaj je seznam spremenljivk za 24 različnih barv. Vsaka barva ima vrednost za rdečo, zeleno in modro:
 
 [[[ambient-colours]]]
 
@@ -50,21 +50,21 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Izberite:** Med spodnjimi možnostmi izberite sliko za prikaz. Python shrani informacije za sliko na seznam. Koda za vsako sliko v seznamu vsebuje uporabljene barvne spremenljivke.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v svoj projekt pod vrstico, ki pravi `# Dodaj barvne spremenljivke in sliko`.
 
 --- collapse ---
 
 ---
-title: Chicken
+title: Piščanec
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo piščanca v jajcu.](images/chick.png)
 
 --- code ---
 ---
-language: python filename: main.py
+Če želite glasovati, morate sporočilo nujno začeti s temi besedami, sicer vaš glas ne bo upoštevan.
 line_numbers: false
 ---
 a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
@@ -78,10 +78,10 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-title: Flower
+title: Roža
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Mreža z 8x8 kvardraki, ki prikazujejp rožnato rožo na zelenem steblu.](images/flower.png)
 
 --- code ---
 ---
@@ -98,10 +98,10 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-title: Crab
+title: Rak
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo raka.](images/crab.png)
 
 --- code ---
 ---
@@ -119,10 +119,10 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-title: Crocodile
+title: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo krokodiljo glavo.](images/croc.png)
 
 --- code ---
 ---
@@ -140,10 +140,10 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-title: Snake
+title: Kača
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo kačo.](images/snake.png)
 
 --- code ---
 ---
@@ -160,10 +160,10 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-title: Frog
+title: Žaba
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo žabo.](images/frog.png)
 
 --- code ---
 ---
@@ -182,7 +182,7 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Poiščite:** vrstico, ki pravi `# Prikaži sliko` in dodajte vrstico kode za prikaz vaše slike na matriki LED:
 
 --- code ---
 ---
@@ -200,24 +200,24 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Pritisnite **Zaženi (Run)** na dnu urejevalnika, da vidite svojo sliko prikazano na matriki LED.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Razhroščevanje**
 
-My code has a syntax error:
+Moja koda ima sintaktično napako:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Preverite, ali se vaša koda ujema s kodo v zgornjih primerih
+- Preverite, ali ste zamaknili kodo na seznamu
+- Preverite, ali je vaš seznam obkrožen z `[` in `]`
+- Preverite, ali je vsaka barvna spremenljivka na seznamu ločena z vejico
 
-My image does not appear:
+Moja slika se ne prikaže:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Preverite, ali vaš `sense.set_pixels(image)` ni zamaknjen
 
 --- /task ---
 
