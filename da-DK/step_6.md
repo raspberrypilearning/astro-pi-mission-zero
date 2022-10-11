@@ -1,4 +1,4 @@
-## Mål luftfugtigheden
+## Hvad næste — flere Astro Pi-projekter
 
 Luftfugtighedssensoren i Astro Pi kan måle luftfugtigheden i luften omkring den og er en nyttig funktion, der kan hjælpe dig med at indsamle data om forholdene i rummet.
 
