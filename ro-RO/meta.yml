@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: You will make
+    title: Vei face
   - 
     title: Ce este Astro Pi?
   - 
-    title: Display an image
+    title: Afișează o imagine
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Simte o culoare
   - 
-    title: Submit your entry
+    title: Trimite programul tău
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Ce urmează — mai multe proiecte Astro Pi
