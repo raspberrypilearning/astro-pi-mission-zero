@@ -1,0 +1,39 @@
+Importă bibliotecile
+
+Configurează Sense HAT
+
+Configurează senzorul de culoare
+
+Setează sensibilitatea senzorului
+
+Intervalul la care va avea loc citirea
+
+Adaugă variabile de culoare și imagine
+
+Afișează imaginea
+
+Alb
+
+Negru
+
+Albastru mediu
+
+Galben
+
+Portocaliu închis
+
+Roz
+
+Verde pădure
+
+Roz intens
+
+Roșu
+
+Bleumarin
+
+obține culoarea de la senzor
+
+utilizează culoarea de la senzor
+
+alege-ți propriile valori roșu, verde, albastru între 0 - 255

@@ -1,0 +1,19 @@
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/banner.png
+description: Pregătește-te pentru Mission Zero
+listed: true
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+steps:
+  - title: Vei face
+  - title: Ce este Astro Pi?
+  - title: Afișează o imagine
+    completion:
+      - engaged
+  - title: Simte o culoare
+  - title: Trimite programul tău
+    completion:
+      - internal
+  - title: Ce urmează — mai multe proiecte Astro Pi
