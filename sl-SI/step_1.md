@@ -1,4 +1,4 @@
-## Uvod
+## Izdelali boste
 
 Dokončajte ta projekt, da sodelujete v izzivu Astro Pi Mission Zero in zagotovite, da se bo vaša koda izvedla v vesolju na računalniku Astro Pi.
 

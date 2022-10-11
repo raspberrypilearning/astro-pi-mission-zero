@@ -32,7 +32,7 @@ V polje na dnu vnesite kodo učilnice, ki vam jo bo sporočil vaš mentor, ter i
 
 --- task ---
 
-Za pošiljanje svoje kode kliknite gumb **Submit** (Pošlji). Ko je program oddan, ga ni več mogoče spremeniti.
+Za pošiljanje svoje kode kliknite gumb **Dodajte svojo ekipo**. Ko je program oddan, ga ni več mogoče spremeniti.
 
 Vaš učitelj bo prejel elektronsko sporočilo s potrdilom prejema vašega prispevka.
 

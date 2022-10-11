@@ -1,4 +1,4 @@
-## Vis en besked
+## Vis et billede
 
 Astro Pi'ens LED-matrix kan vise farver. I dette trin skal du vise billeder fra naturen på Astro Pi'ens LED-matrix.
 

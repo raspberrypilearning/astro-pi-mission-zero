@@ -1,4 +1,4 @@
-## Vis et billede
+## Indsend dit bidrag
 
 Du kan nu deltage i [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}-udfordringen ved at bruge den kode, du har skrevet.
 
