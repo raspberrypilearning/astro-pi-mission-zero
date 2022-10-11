@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: You will make
+    title: Introduktion
   - 
     title: Vad är en Astro Pi?
   - 
-    title: Display an image
+    title: Visa ett meddelande och välj ett namn för de nya Astro Pi -datorerna
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Lägg till lite färg
   - 
-    title: Submit your entry
+    title: Visa en bild
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Mät luftfuktigheten
