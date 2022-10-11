@@ -1,10 +1,10 @@
-## Kaj zdaj: več projektov Astro Pi
+## What next — more Astro Pi projects
 
-Zakaj se ne bi zdaj, ko ste izpolnili svojo misijo, preizkusili v drugih projektih, pri katerih bi uporabljali še druge senzorje Astro Pi?
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-Če ste dovolj samozavestni, lahko sodelujete v projektu [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Oblikujte skupino dveh do šestih oseb in sodelujte kot pravi raziskovalci vesolja ter oblikujte svoj eksperiment. Najboljše poslane ideje bodo prejele komplet Astro Pi, ki vam bo pomagal pri vaši misiji.
+Če ste dovolj samozavestni, lahko sodelujete v projektu [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Oblikujte skupino dveh do šestih oseb in sodelujte kot pravi raziskovalci vesolja ter oblikujte svoj eksperiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Sense HAT:
+Alternatively you might want to try out one of our other Sense HAT projects:
 
 + Izvedite [več o emulatorju Sense HAT](https://projects.raspberrypi.org/sl-SI/projects/getting-started-with-the-sense-hat){:target="_blank"} in ostalih stvareh, ki jih ponuja.
 
