@@ -8,11 +8,11 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Introduktion
+    title: Du vil gøre
   - 
     title: Hvad er en Astro Pi?
   - 
-    title: Vis en besked
+    title: Vis et billede
     completion:
       - engagéret
   - 
