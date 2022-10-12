@@ -4,9 +4,9 @@ Määritä Sense HAT
 
 Määritä värianturi
 
-Aseta anturin herkkyys
+Määritä anturin herkkyys
 
-Aikaväli, jolla lukema otetaan
+Aikaväli lukeman ottamiseksi
 
 Lisää värimuuttujia ja kuva
 
@@ -32,7 +32,7 @@ Punainen
 
 Yönsininen
 
-hae väri anturista
+hae väri anturilta
 
 käytä tunnistettua väriä
 
