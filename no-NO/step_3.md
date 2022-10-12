@@ -18,8 +18,8 @@ Denne koden kobles til Astro Pi, sørge for at Astro Pi's LED-skjerm vises på r
 
 --- code ---
 ---
-Legg til denne linjen under den andre koden:
-title: Hvilke tegn kan brukes?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Importer bibliotekene
 from sense_hat import SenseHat from time import sleep
