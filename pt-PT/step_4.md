@@ -1,4 +1,4 @@
-## Identificar uma cor
+## Sentir uma cor
 
 Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detectar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
 
@@ -51,7 +51,7 @@ imagem = [
 
 **Teste:** Move o controle deslizante de cores para uma cor da tua escolha e **executa** o teu código. A tua cor de fundo será alterada. Repete este teste novamente com uma nova cor.
 
-**Dica:** Tu precisas de clicar em 'Executar' todas as vezes que alterares a cor.
+**Dica:** Tu precisas de clicar em 'Run (Executar)' todas as vezes que alterares a cor.
 
 --- /task ---
 

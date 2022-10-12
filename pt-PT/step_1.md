@@ -17,7 +17,7 @@ Irás usar o emulador Astro Pi num navegador da web para criar o teu programa. T
 **Se o teu projeto corresponder aos [critérios de elegibilidade](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, o teu programa concluído será executado na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado.
 
 Vais aprender sobre o computador Astro Pi e como controlá-lo, incluindo como:
-+ Crie variáveis de cor **** para usar na tua imagem
++ Crie **variáveis** de cor para usar na tua imagem
 + Desenhar e mostrar uma imagem no Sense HAT
 + Identificar a cor da luz ambiente da EEI (ISS)
 

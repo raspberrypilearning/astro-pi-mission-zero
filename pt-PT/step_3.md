@@ -10,7 +10,7 @@ Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que
 
 --- task ---
 
-Abre o [projeto inicial Missão Zero](http://rpf.io/mzcode){:target="_blank"}.
+Abre o [projeto inicial Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
 Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
@@ -295,7 +295,7 @@ sense.set_pixels(imagem)
 
 --- task ---
 
-Pressiona **Executar** no fundo do editor para ver a tua imagem mostrada na matriz de LEDs.
+Pressiona **Run (Executar)** no fundo do editor para ver a tua imagem mostrada na matriz de LEDs.
 
 --- /task ---
 
