@@ -289,6 +289,8 @@ imagem = [
 # Mostrar a imagem 
 sense.set_pixels(imagem)
 
+--- /code ---
+
 --- /task ---
 
 --- task ---
