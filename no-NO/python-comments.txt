@@ -30,7 +30,7 @@ Mørket
 
 Rød
 
-MidnightBlue
+Midnatt blå
 
 hent fargen fra sensoren
 
