@@ -8,18 +8,18 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Esittely
+    title: Sinä teet
   - 
     title: Mikä on Astro Pi?
   - 
-    title: Näytä viesti ja valitse nimi uusille Astro Pi -tietokoneille
+    title: Näytä kuva
     completion:
       - engaged
   - 
-    title: Lisää jonkun verran väriä
+    title: Tunnista väri
   - 
-    title: Näytä kuva
+    title: Lähetä ohjelmasi
     completion:
       - internal
   - 
-    title: Mittaa ilmankosteus
+    title: Mitä seuraavaksi — lisää Astro Pi -projekteja
