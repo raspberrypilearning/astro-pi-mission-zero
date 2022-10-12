@@ -1,0 +1,19 @@
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/banner.png
+description: Forbered deg til Mission Zero
+listed: true
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+steps:
+  - title: Du kommer til å lage
+  - title: Hva er en Astro Pi?
+  - title: Vise et bilde
+    completion:
+      - engaged
+  - title: Sanse en farge
+  - title: Send inn bidraget ditt
+    completion:
+      - internal
+  - title: Hva kommer neste gang - flere Astro Pi-prosjekter
