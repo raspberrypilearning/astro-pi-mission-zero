@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+Koodisi loppuun lisää yhden sekunnin mittainen `sleep` silmukkasi sisälle:
 
 --- code ---
 ---
@@ -105,41 +105,41 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Vinkki:** Varmista, että tämä koodirivi on sisennettynä `for`-silmukassasi.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Kokeile:** Aja koodisi ja vaihda värivalitsinta useita kertoja projektisi suorituksen aikana. Tarkista, että kuvasi päivittyy havaitun värin mukaisesti seuraavalla suorituskerralla.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+Kuvan päivitys lopetetaan silmukan päätyttyä, jotta ohjelman ajo ei kestä yli 30 sekuntia.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+**Vianselvitys**
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+Koodissani on syntaksivirhe tai ei toimi odotetulla tavalla:
+
+- Tarkista, että koodisi vastaa yllä olevien esimerkkien koodia
+- Tarkista, että olet sisentänyt koodin `for`-silmukassasi
+- Tarkista, että luettelosi ympärillä on `[` ja `]`
+- Tarkista, että jokainen värimuuttuja luettelossa on erotettu pilkulla
+
+Koodini toimii yli 30 sekuntia:
+
+- Vähennä for-silmukan suorituskertojen lukumäärää 28:sta 25:een tai jopa 20:een.
+- Lyhennä sleepin kestoa 1 sekunnista 0.5 sekuntiin.
+
+--- /task ---
+
+--- task ---
+
+Lisää `sense.clear()` koodin loppuun kuvan tyhjentämiseksi silmukan lopussa. Tämä auttaa sinua näkemään, milloin animaatiosi on päättynyt.
+
+**Vinkki:** Varmista, että **et** sisennä `sense.clear()`-koodiriviä, koska haluat sen suoritettavan vain yhden kerran animaation lopussa.
 
 --- code ---
 ---
@@ -158,25 +158,25 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Kokeile:** Aja koodisi uudelleen. Kun projektisi on suoritettu, LED-matriisi tyhjenee kaikkien valojen vaihtuessa mustaksi (sammuvat).
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Vianselvitys**
 
-The LED matrix turns black every second:
+LED-matriisi muuttuu mustaksi joka sekunti:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Tarkista, että et ole sisentänyt `sense.clear()`-koodia `for`-silmukkasi sisälle
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Lisää koodia LED-matriisin tyhjentämiseksi valitsemallasi värillä. Luo muuttuja nimeltä `x` tallentaaksesi uuden värisi.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Voit sekoittaa oman värisi tai käyttää väriluettelon arvoja luodaksesi uuden `x`-värisi.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Kokeile:** Aja koodisi uudelleen. Kun projektisi on suoritettu, LED-matriisi tyhjenee valittuun väriisi. Voit vaihtaa ja kokeilla väriä niin monta kertaa kuin haluat.
 
 --- /task ---
 
@@ -206,7 +206,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Valmis koodiesimerkki
 ---
 
 ![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/flower.png)
