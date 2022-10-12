@@ -26,7 +26,7 @@ Enter your classroom code and team name in the box at the bottom — your mentor
 
 ![Classroom code and team name submission form](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Noteringar för lärare och mentorer** finns i steget [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
