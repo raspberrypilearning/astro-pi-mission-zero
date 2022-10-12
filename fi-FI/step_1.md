@@ -12,7 +12,7 @@ Tässä on esimerkki ohjelmasta, jonka voit tehdä avaruudessa ajettavaksi Astro
 
 Käytät Astro Pi -emulaattoria verkkoselaimessa ohjelman luomiseen. Et tarvitse Astro Pi -tietokonetta.
 
-### Astro Pi Mission Zero -kriteerit
+### Astro Pi Mission Zeron vaatimukset
 
 **Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
 
