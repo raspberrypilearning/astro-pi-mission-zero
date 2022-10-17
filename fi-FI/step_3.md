@@ -79,7 +79,7 @@ c = (0, 0, 0) # Musta
 e = (0, 0, 205) # Tummansininen
 q = (255, 255, 0) # Keltainen
 t = (255, 140, 0) # Tummanoranssi
-w = (255, 192, 203) # Pink
+w = (255, 192, 203) # Vaaleanpunainen
 
 kuva = [
   c, c, c, q, q, q, c, c,
