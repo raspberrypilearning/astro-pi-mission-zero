@@ -1,0 +1,39 @@
+Tuo kirjastot
+
+Määritä Sense HAT
+
+Määritä värianturi
+
+Määritä anturin herkkyys
+
+Aikaväli lukeman ottamiseksi
+
+Lisää värimuuttujia ja kuva
+
+Näytä kuva
+
+Valkoinen
+
+Musta
+
+Tummansininen
+
+Keltainen
+
+Tummanoranssi
+
+Vaaleanpunainen
+
+Metsänvihreä
+
+Tummanvaaleanpunainen
+
+Punainen
+
+Yönsininen
+
+hae väri anturilta
+
+käytä tunnistettua väriä
+
+valitse omat punaisen, vihreän ja sinisen arvot väliltä 0 - 255
