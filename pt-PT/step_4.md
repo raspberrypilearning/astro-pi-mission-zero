@@ -1,4 +1,4 @@
-## Identificar uma cor
+## Sentir uma cor
 
 Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detectar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
 
@@ -19,7 +19,7 @@ Adiciona código antes da tua lista de imagens para obter a cor do sensor e alte
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Adiciona variáveis de cor e imagem
+# Adicionar variáveis de cor e imagem
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -35,7 +35,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 **Teste:** Move o controle deslizante de cores para uma cor da tua escolha e **executa** o teu código. A tua cor de fundo será alterada. Repete este teste novamente com uma nova cor.
 
-**Dica:** Tu precisas de clicar em 'Executar' todas as vezes que alterares a cor.
+**Dica:** Tu precisas de clicar em 'Run (Executar)' todas as vezes que alterares a cor.
 
 --- /task ---
 
@@ -69,7 +69,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-Agora precisas de indentar todo o teu código abaixo do ciclo`for` para que fique **dentro** do ciclo `for`.
+Agora precisas de indentar todo o teu código abaixo do ciclo `for` para que fique **dentro** do ciclo `for`.
 
 **Dica:** Para indentar várias linhas, realça as linhas que desejas indentar e pressiona a tecla <kbd>Tab</kbd> no teclado (geralmente acima da tecla <kbd>Caps Lock</kbd> no teclado).
 
