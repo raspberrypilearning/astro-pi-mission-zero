@@ -1,18 +1,18 @@
-## Visa en bild
+## Skicka ditt bidrag
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Du kan nu gå in i [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}-utmaningen med koden du har skrivit.
 
 Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem kommer reglerna längst ner i **Sense HAT-emulator** att lysa grönt när du kör programmet.
 
 ![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av själva flygenheten](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Tips:** Testa din kod med några olika färginställningar (med väljaren) för att se till att den alltid fungerar korrekt.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Se till att ditt bidrag följer de [officiella riktlinjerna](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} för Mission Zero. Om det inte följer riktlinjerna kommer ditt program inte att kunna köras på den internationella rymdstationen.
 
-Please do not include any of the following in your team name or code:
+Vänligen inkludera inte något av följande i ditt lagnamn eller kod:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
++ Allt som kan tolkas som olagligt, politiskt eller känsligt
 + Flaggor, eftersom de kan anses vara politiskt känsliga
 + Allt som hänvisar till obehag eller skada på en annan person
 + Personuppgifter såsom telefonnummer, användarnamn till sociala medier och e-postadresser
@@ -22,9 +22,9 @@ Please do not include any of the following in your team name or code:
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Ange din klassrumskod och lagnamn i rutan längst ner - din mentor kommer att berätta vad din kod är.
 
-![Classroom code and team name submission form](images/submission.png)
+![Inlämningsformulär för klassrumskod och lagnamn](images/submission.png)
 
 **Noteringar för lärare och mentorer** finns i steget [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
@@ -32,9 +32,9 @@ Enter your classroom code and team name in the box at the bottom — your mentor
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Observera att ett program inte kan ändras när det väl har skickats in.
+Tryck på knappen **Lägg till ditt lag** för att ange din kod. Observera att ett program inte kan ändras när det väl har skickats in.
 
-Your mentor will get an email to confirm your entry.
+Din mentor kommer att få ett e-postmeddelande för att bekräfta din anmälan.
 
 --- /task ---
 
