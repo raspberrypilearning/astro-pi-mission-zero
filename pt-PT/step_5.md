@@ -1,14 +1,14 @@
 ## Envia a tua participação
 
-Podes entrar no desafio [Astro Pi Missão Zero](https://astro-pi.org/mission-zero){:target="_blank"}, usando o código que tu escreveste.
+Podes entrar no desafio [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, usando o código que tu escreveste.
 
 Existem algumas regras que o teu código precisa de seguir para que possas submetê-lo para ser executado na Estação Espacial Internacional. Se o teu código as seguir, as regras na parte inferior do **emulador Sense HAT** irão acender a verde quando executar o programa.
 
-![A página da Missão Zero que mostra os critérios de verificação de entradas.](images/rules.png)
+![A página da Mission Zero que mostra os critérios de verificação de entradas.](images/rules.png)
 
 **Dica:** Testa o teu código com algumas configurações de cores diferentes (usando o seletor) para garantir que seja sempre executado corretamente.
 
-Por favor, certifica-te de que a tua entrada segue as [diretrizes oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} para a Missão Zero. Se não seguir as diretrizes, o teu programa não poderá ser executado na Estação Espacial Internacional.
+Por favor, certifica-te de que a tua entrada segue as [diretrizes oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} para a Mission Zero. Se não seguir as diretrizes, o teu programa não poderá ser executado na Estação Espacial Internacional.
 
 Por favor não incluas nenhum dos seguintes no nome ou código da tua equipa:
 
@@ -26,7 +26,7 @@ Introduz o código da tua turma e nome da equipa no respetivo campo na parte inf
 
 ![Formulário de submissão de código de sala de aula e nome da equipa](images/submission.png)
 
-**Notas para mentores** podem ser encontradas no passo [Introdução](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
+**Notas para mentores** podem ser encontradas no passo [Introdução](https://projects.raspberrypi.org/pt-PT/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
