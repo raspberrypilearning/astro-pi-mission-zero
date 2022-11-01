@@ -1,0 +1,39 @@
+Importera biblioteken
+
+Ställ in Sense HAT
+
+Ställ in färgsensorn
+
+Ställ in sensorns känslighet
+
+Intervallet med vilket avläsningen kommer att ske
+
+Lägg till färgvariabler och bild
+
+Visa bilden
+
+Vit
+
+Svart
+
+MediumBlå
+
+Gul
+
+Mörkorange
+
+Rosa
+
+Skogsgrön
+
+Djuprosa
+
+Röd
+
+Midnattsblå
+
+hämta färgen från sensorn
+
+använd den avkända färgen
+
+välj dina egna röda, gröna, blå värden mellan 0 - 255
