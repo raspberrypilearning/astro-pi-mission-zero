@@ -1,4 +1,4 @@
-## Vis en besked
+## Vis et billede
 
 Astro Pi'ens LED-matrix kan vise farver. I dette trin skal du vise billeder fra naturen på Astro Pi'ens LED-matrix.
 
@@ -52,12 +52,12 @@ LED-matrixen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en an
 
 **Vælg:** Vælg et billede, der skal vises, blandt mulighederne nedenfor. Python gemmer informationen om et billede i en liste. Koden for hvert billede inkluderer de anvendte farvevariabler og listen.
 
-Du skal **kopiere**hele koden for dit valgte billede og derefter **indsætte** den i dit projekt under den linje, der siger `# Tilføj farvevariabler og billede`.
+Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** den i dit projekt under den linje, der siger `# Tilføj farvevariabler og billede`.
 
 --- collapse ---
 
 ---
-titel: Kylling
+title: Kylling
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser en kylling i et æg.](images/chick.png)
@@ -78,7 +78,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-titel: Blomst
+title: Blomst
 ---
 
 ![Et gitter med 8 x 8 firkanter, viser en lyserød blomst på en grøn stilk.](images/flower.png)
@@ -98,7 +98,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-titel: Krabbe
+title: Krabbe
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser en krabbe.](images/crab.png)
@@ -119,7 +119,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-titel: Krokodille
+title: Krokodille
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser et krokodillehoved.](images/croc.png)
@@ -140,7 +140,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-titel: Slange
+title: Slange
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser en slange.](images/snake.png)
@@ -160,7 +160,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-titel: Frø
+title: Frø
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser en frø.](images/frog.png)
