@@ -3,14 +3,14 @@
 A matriz de LED do Astro Pi pode mostrar cores. Neste passo, tu irás mostrar imagens da natureza na matriz LED do Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que podem ser controlados individualmente ou como um grupo para criar diferentes efeitos de iluminação. A matriz LED do Sense HAT possui 64 LEDs dispostos numa grelha de 8 x 8. Os LEDs podem ser programados para produzir uma ampla gama de cores.
+Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que podem ser controlados individualmente ou como um grupo para criar diferentes efeitos de iluminação. Os LEDs podem ser programados para produzir uma ampla gama de cores. A matriz LED do Sense HAT possui 64 LEDs dispostos numa grelha de 8 x 8.
 </p>
 
 ![Uma captura de ecrã da janela do emulador mostrando a Unidade de Voo com a matriz de LED a exibir a imagem de uma flor.](images/fu-pic.png)
 
 --- task ---
 
-Abre o [projeto inicial Missão Zero](http://rpf.io/mzcode){:target="_blank"}.
+Abre o [projeto inicial Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
 Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
@@ -24,10 +24,10 @@ title: Que carateres podem ser usados?
 # Importar as bibliotecas
 Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
 
-# Configura o Sense HAT
+# Configurar o Sense HAT
 from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
 
-# Configura o sensor de cor
+# Configurar o sensor de cor
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
@@ -57,7 +57,7 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 --- collapse ---
 
 ---
-título: Galinha
+title: Galinha
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando um pintainho num ovo.](images/chick.png)
@@ -78,7 +78,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-título: Flor
+title: Flor
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando uma flor cor-de-rosa com um caule verde.](images/flower.png)
@@ -98,7 +98,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-título: Caranguejo
+title: Caranguejo
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando um caranguejo.](images/crab.png)
@@ -119,7 +119,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-título: Crocodilo
+title: Crocodilo
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando uma cabeçao de crocodilo.](images/croc.png)
@@ -140,7 +140,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-título: Serpente
+title: Serpente
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando uma serpente.](images/snake.png)
@@ -160,7 +160,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-título: Sapo
+title: Sapo
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando um sapo.](images/frog.png)
@@ -200,7 +200,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Pressiona **Executar**no fundo do editor para ver a tua imagem mostrada na matriz de LEDs.
+Pressiona **Run (Executar)** no fundo do editor para ver a tua imagem mostrada na matriz de LEDs.
 
 --- /task ---
 
@@ -217,7 +217,7 @@ O meu código tem um erro de sintaxe:
 
 A minha imagem não aparece:
 
-- Verifica se o teu `sense.set_pixels(image)` não está indentado
+- Verifica se o teu `sense.set_pixels(imagem)` não está indentado
 
 --- /task ---
 
