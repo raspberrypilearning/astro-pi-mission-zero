@@ -35,7 +35,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 **Test:** Flytt fargegjenryteren til en farge du velger, og deretter **kjør** koden din. Bakgrunnsfargen din endres. Gjenta denne testen igjen med en ny farge.
 
-**Tips:** Du må klikke 'Kjør' hver gang du endrer fargen.
+**Tips:** Du må klikke 'Run (Kjør)' hver gang du endrer fargen.
 
 --- /task ---
 
@@ -52,7 +52,7 @@ Koden din skal bruke `` -sløyfe til å kjøre 28 ganger. **Hver** gang det vil:
 
 **Finn** din `rgb = sense.color` kodelinje.
 
-**Legg til** kode over for å sette opp `din` loop for `28` repetisjoner.
+**Legg til** kode over for å sette opp `for` loop for `28` repetisjoner.
 
 --- code ---
 ---
@@ -69,7 +69,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-Nå må du rykke inn all koden under `` i løkken slik at den sitter **inni** `for` løkke.
+Nå må du rykke inn all koden under `for` løkken slik at den sitter **inni** `for` løkke.
 
 **Tip:** Til innrykk flere linjer, uthev linjene du ønsker å rykke inn, og trykk deretter <kbd>fane</kbd> på tastaturet (vanligvis over <kbd>Caps Lock</kbd> -tasten på tastaturet).
 
@@ -168,7 +168,7 @@ sense.clear()
 
 LED-matrisen blir sort hvert sekund:
 
-- Sjekk at du ikke har skrevet inn `sense.clear()` koden i `for` loop
+- Sjekk at du ikke har skrevet inn `sense.clear()` koden i `for` løkke
 
 --- /task ---
 
@@ -176,7 +176,7 @@ LED-matrisen blir sort hvert sekund:
 
 Legg til kode for å fjerne LED matrisen til en farge du velger. Opprett en variabel kalt `x` for å lagre den nye fargen.
 
-Du kan blande din egen farge eller bruke verdiene fra fargelisten over farger for å lage din nye `x`farge.
+Du kan blande din egen farge eller bruke verdiene fra fargelisten over farger for å lage din nye `x` farge.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
