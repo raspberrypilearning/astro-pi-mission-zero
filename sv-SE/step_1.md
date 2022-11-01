@@ -23,7 +23,7 @@ Du kommer att lära dig om Astro Pi enheten och hur man styr den, inklusive hur 
 
 --- collapse ---
 ---
-titel: Anteckningar för mentorer
+title: Anteckningar för mentorer
 ---
 
 Mission Zero är lämplig för nybörjare till programmering och/eller barn i grundskoleåldern och kan genomföras på en enda 60-minuters session på vilken dator som helst med internetuppkoppling. Ingen speciell hårdvara eller tidigare kodningskunskaper behövs. Allt kan göras i en webbläsare.
