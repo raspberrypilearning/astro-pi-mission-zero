@@ -1,4 +1,4 @@
-## Utmaning: fler Astro Pi-projekt
+## Vad härnäst: fler Astro Pi-projekt
 
 Nu när du har avslutat ditt uppdrag, varför inte prova några fler projekt med de andra sensorerna på Astro Pi?
 
