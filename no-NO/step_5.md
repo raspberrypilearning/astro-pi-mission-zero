@@ -26,7 +26,7 @@ Skriv inn klasseromskoden og teamnavnet ditt i boksen nederst – veilederen din
 
 ![Klasseromskode og teamnavn skjema](images/submission.png)
 
-**Merknader om veiledere** kan bli funnet i [Introduksjon](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) trinn.
+**Merknader om veiledere** kan bli funnet i [Introduksjon](https://projects.raspberrypi.org/no-NO/projects/astro-pi-mission-zero/0) trinn.
 
 --- /task ---
 
