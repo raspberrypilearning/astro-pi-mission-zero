@@ -139,7 +139,7 @@ Moja koda se izvaja dlje kot 30 sekund:
 
 Dodajte `sense.clear()` na konec kode, da na koncu zanke počistite sliko. To vam bo pomagalo videti, kdaj se je vaša animacija končala.
 
-**Namig:** Prepričajte se, da **ne ** zamaknete vrstice `sense.clear()`, saj želite, da se zažene samo enkrat na koncu vaše animacije.
+**Namig:** Prepričajte se, da **ne** zamaknete vrstice `sense.clear()`, saj želite, da se zažene samo enkrat na koncu vaše animacije.
 
 --- code ---
 ---
