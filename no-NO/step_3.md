@@ -217,7 +217,7 @@ Min kode har en syntaksfeil:
 
 Bildet mitt vises ikke:
 
-- Sjekk at din `sense.set_pixels(image)` ikke er innrykket
+- Sjekk at din `sense.set_pixels(bilde)` ikke er innrykket
 
 --- /task ---
 
