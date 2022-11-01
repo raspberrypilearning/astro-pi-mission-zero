@@ -28,7 +28,7 @@ c = (0, 0, 0) # Svart
 m = (34, 139, 34) # Skogsgrön 
 q = (255, 255, 0) # Gul 
 t = (255, 140, 0) # MörkOrange 
-y = (255, 20, 147) # DjupRosa
+y = (255, 20, 147) # Djuprosa
 
 rgb = sense.color # hämta färgen från sensorn 
 c = (rgb.red, rgb.green, rgb.blue) # använd den avkända färgen
