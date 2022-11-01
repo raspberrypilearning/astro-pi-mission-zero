@@ -206,7 +206,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-titel: Fuldført kodeeksempel
+title: Fuldført kodeeksempel
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser en lyserød blomst på en grøn stilk.](images/flower.png)
