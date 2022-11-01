@@ -12,12 +12,12 @@ Aqui está um exemplo do tipo de programa que tu poderás fazer para executar nu
 
 Irás usar o emulador Astro Pi num navegador da web para criar o teu programa. Tu não precisas de um computador Astro Pi.
 
-### Critérios Astro Pi Missão Zero
+### Critérios Astro Pi Mission Zero
 
 **Se o teu projeto corresponder aos [critérios de elegibilidade](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, o teu programa concluído será executado na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado.
 
 Vais aprender sobre o computador Astro Pi e como controlá-lo, incluindo como:
-+ Crie variáveis de cor **** para usar na tua imagem
++ Crie **variáveis** de cor para usar na tua imagem
 + Desenhar e mostrar uma imagem no Sense HAT
 + Identificar a cor da luz ambiente da EEI (ISS)
 
@@ -26,11 +26,11 @@ Vais aprender sobre o computador Astro Pi e como controlá-lo, incluindo como:
 title: Notas para professores e mentores
 ---
 
-A missão Zero é adequada para iniciantes em programação e/ou crianças com idade escolar primária e pode ser concluída em uma única sessão de 60 minutos em qualquer computador com acesso à Internet. Nenhum hardware especial ou conhecimentos de programação são necessários. Tudo pode ser feito num navegador da web.
+A Mission Zero é adequada para iniciantes em programação e/ou crianças com idade escolar primária e pode ser concluída em uma única sessão de 60 minutos em qualquer computador com acesso à Internet. Nenhum hardware especial ou conhecimentos de programação são necessários. Tudo pode ser feito num navegador da web.
 
 Organize os seus jovens em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um pequeno programa em Python para identificar a cor ambiente na EEI (ISS) e criar uma imagem que use essa cor.
 
-Leia o [documento com as diretrizes oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} da Missão Zero.
+Leia o [documento com as diretrizes oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} da Mission Zero.
 
 --- /collapse ---
 
