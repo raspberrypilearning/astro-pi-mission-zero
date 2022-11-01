@@ -26,7 +26,7 @@ V polje na dnu vnesite kodo učilnice, ki vam jo bo sporočil vaš mentor, ter i
 
 ![Obrazec za oddajo kode učilnice in imena ekipe](images/submission.png)
 
-**Navodila za mentorje** najdete v koraku [Uvod](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
+**Navodila za mentorje** najdete v koraku [Uvod](https://projects.raspberrypi.org/sl-SI/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
