@@ -57,7 +57,7 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-titel: Kyckling
+title: Kyckling
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en kyckling i ett ägg.](images/chick.png)
@@ -78,7 +78,7 @@ image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c
 --- collapse ---
 
 ---
-titel: Blomma
+title: Blomma
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en rosa blomma på en grön stjälk.](images/flower.png)
@@ -98,7 +98,7 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- collapse ---
 ---
-titel: Krabba
+title: Krabba
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en krabba.](images/crab.png)
@@ -119,7 +119,7 @@ image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c
 
 --- collapse ---
 ---
-titel: Krokodil
+title: Krokodil
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar ett krokodilhuvud.](images/croc.png)
@@ -140,7 +140,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- collapse ---
 ---
-titel: Orm
+title: Orm
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en orm.](images/snake.png)
@@ -160,7 +160,7 @@ image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c
 
 --- collapse ---
 ---
-titel: Groda
+title: Groda
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en groda.](images/frog.png)
