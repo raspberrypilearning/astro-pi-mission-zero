@@ -217,7 +217,7 @@ Moja koda ima sintaktično napako:
 
 Moja slika se ne prikaže:
 
-- Preverite, ali vaš `sense.set_pixels(image)` ni zamaknjen
+- Preverite, ali vaš `sense.set_pixels(slika)` ni zamaknjen
 
 --- /task ---
 
