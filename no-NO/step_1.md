@@ -23,7 +23,7 @@ Du vil lære om Astro Pi-datamaskinen og hvordan du styrer den, inkludert hvorda
 
 --- collapse ---
 ---
-tittel: Notater for veiledere
+title: Notater for veiledere
 ---
 
 Mission Zero egner seg for programmering og/eller barn som er skoleeldre og kan fullføres i en enkelt 60-minutters sesjon på en datamaskin med internettilgang. Spesiell maskinvare eller tidligere kodingsevne er ikke nødvendig. Alt kan gjøres i en nettleser.
