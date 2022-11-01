@@ -26,7 +26,7 @@ Indtast din klasseværelseskode og holdnavn i boksen nederst — din mentor vil 
 
 ![Formular til indsendelse af klasseværelseskode og holdnavn](images/submission.png)
 
-**Bemærkninger til mentorer** kan findes i trinntet [Introduktion](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
+**Bemærkninger til mentorer** kan findes i trinntet [Introduktion](https://projects.raspberrypi.org/da-DK/projects/astro-pi-mission-zero/0).
 
 --- /opgave ---
 
