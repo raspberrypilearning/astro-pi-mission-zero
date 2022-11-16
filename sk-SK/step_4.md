@@ -1,25 +1,25 @@
-## Sense a colour
+## Snímanie farby
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt.
+V tomto kroku nastavíte snímač farebnej svietivosti a použijete ho na snímanie množstva červenej, zelenej a modrej, ktoré sa dostane na snímač. Táto farba sa potom použije na vyfarbenie zvoleného obrázka. Kozmonaut kráčajúci k snímaču v modrej košeli by videl iný obraz ako kozmonaut v červenej košeli.
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![obrázok zobrazený s ružovým pozadím na matici LED](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+Bez ohľadu na to, ktorý obrázok vyberiete, pozadie používa premennú `c`, ktorá je nastavená na čiernu.
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Na vyfarbenie pozadia použite farebný snímač.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Pridajte kód pred zoznam obrázkov, aby ste získali farbu zo snímača, a zmeňte premennú farby pozadia `c` tak, aby namiesto čiernej používala farbu snímanú farebným snímačom Sense HAT.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code).
+**Tip:** Nemusíte písať komentáre, ktoré začínajú znakom „#“ (sú tu na vysvetlenie kódu).
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
-# Add colour variables and image
+# Pridajte farebné premenné a obrázok
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
 
@@ -33,26 +33,26 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Test:** Posuňte posúvač farieb na farbu podľa vlastného výberu a potom **spustite**. Vaša farba pozadia sa zmení. Zopakujte tento test s novou farbou.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Tip:** pri každej zmene farby budete musieť kliknúť na „Spustiť“.
 
 --- /task ---
 
-## Loop your program
+## Zopakujte svoj program v slučke
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+Program Astro Pi Mission Zero môže bežať až 30 sekúnd. Tento čas využijete na opakovanú kontrolu farebného snímača a aktualizáciu snímky.
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+Váš kód použije slučku `for`, a spustí program 28-krát. **Zakaždým**:
++ snímajte najnovšiu farbu
++ aktualizujte farbu obrázka
++ pozastavte na jednu sekundu
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
+**Nájdite** svoj riadok kódu`rgb = sense.color`.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Pridajte** kód nad ním a nastavte slučku `for` pre `28` opakovaní.
 
 --- code ---
 ---
@@ -69,9 +69,9 @@ image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+Teraz musíte odsadiť celý kód pod slučkou `for` tak, aby sa nachádzal **vnútri** slučky `for`.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard).
+**Tip:** ak chcete odsadiť viacero riadkov, zvýraznite riadky, ktoré chcete odsadiť, a potom stlačte kláves <kbd>Tabulátor</kbd> na klávesnici (zvyčajne nad <kbd>Kláves Caps Lock</kbd> na klávesnici).
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-At the bottom of your code, add a `sleep` of one second inside your loop:
+V spodnej časti kódu pridajte do cyklu `spánok` v dĺžke jednej sekundy:
 
 --- code ---
 ---
@@ -105,41 +105,41 @@ line_highlights: 4
 
 --- /code ---
 
-**Tip:** Make sure this line of code is indented within your `for` loop.
+**Tip:** uistite sa, že tento riadok kódu je v rámci cyklu `for` odsadený.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run.
+**Test:** Spustite svoj kód a niekoľkokrát zmeňte výber farby počas behu projektu. Skontrolujte, či sa váš obrázok aktualizuje, aby pri ďalšom spustení použil nasnímanú farbu.
 
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
+Po dokončení cyklu sa obraz prestane aktualizovať, takže program nebude bežať dlhšie ako 30 sekúnd.
 
 --- /task ---
 
 --- task ---
 
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running.
+**Ladenie**
 
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
+Môj kód má chybu syntaxe alebo nefunguje podľa očakávania:
+
+- Skontrolujte, či sa váš kód zhoduje s kódom v príkladoch vyššie
+- Skontrolujte, či ste odsadili kód v slučke `for`
+- Skontrolujte, či je váš zoznam obklopený znakmi `[` a `]`
+- Skontrolujte, či sú jednotlivé farebné premenné v zozname oddelené čiarkou
+
+Môj kód beží dlhšie ako 30 sekúnd:
+
+- Znížte počet spustení slučky z 28 na 25 alebo dokonca na 20.
+- Znížte dĺžku spánku z 1 sekundy na 0,5 sekundy.
+
+--- /task ---
+
+--- task ---
+
+Pridajte `sense.clear()` na koniec kódu, aby ste vymazali obrázok na konci cyklu. To vám pomôže zistiť, kedy vaša animácia skončila.
+
+**Tip:** uistite sa, že ste **neodsadili** riadok `sense.clear()` kódu, pretože chcete, aby sa to spustilo iba raz na konci vašej animácie.
 
 --- code ---
 ---
@@ -158,25 +158,25 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).
+**Test:** znova spustite kód. Keď váš projekt skončí, matica LED sa vymaže a všetky svetlá budú čierne (vypnuté).
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Ladenie**
 
-The LED matrix turns black every second:
+Matrica LED každú sekundu sčernie:
 
-- Check that you have not indented the `sense.clear()` code within your `for` loop
+- Skontrolujte, či ste v slučke `for` neodsadili kód `sense.clear()`
 
 --- /task ---
 
 --- task ---
 
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour.
+Pridajte kód na vymazanie matice LED na farbu podľa vášho výberu. Vytvorte premennú s názvom `x` na uloženie novej farby.
 
-You can mix your own colour or use the values from the list of colours to create your new `x`colour.
+Môžete si namiešať vlastnú farbu alebo použiť hodnoty zo zoznamu farieb na vytvorenie novej farby `x`.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -197,7 +197,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.
+**Test:** znova spustite kód. Po dokončení vášho projektu sa matica LED zobrai vo vami zvolenej farbe. Farbu môžete zmeniť a potom otestovať toľkokrát, koľkokrát chcete.
 
 --- /task ---
 
@@ -206,10 +206,10 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 --- collapse ---
 
 ---
-title: Completed code example
+title: Dokončený príklad kódu
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca ružový kvet na zelenej stonke.](images/flower.png)
 
 --- code ---
 ---
