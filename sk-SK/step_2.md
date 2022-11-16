@@ -1,14 +1,14 @@
-## What is an Astro Pi?
+## Čo je Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space.
+Astro Pi je počítač Raspberry Pi zapuzdrený krytom špeciálne navrhnutým pre podmienky vo vesmíre.
 
-![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
+![Animovaný obrázok klobúka Sense HAT pripevneného k hornej časti počítača Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers come with a set of sensors and gadgets that can be used to run great scientific experiments. This set of sensors is called a ‘Sense HAT’ (that stands for ‘Hardware Attached on Top’). The Sense HAT gives Astro Pi the ability to ‘sense’ and make many kinds of measurements, from temperature to movement, and to output information using an 8 x 8 LED matrix display. The Astro Pis also have a joystick and buttons, just like a video game console!
+Počítače Astro Pi sa dodávajú so sadou snímačov a zariadení, ktoré možno použiť na veľké vedecké experimenty. Táto sada snímačov sa nazýva „Sense HAT“ (čo znamená „Hardvér pripojený navrchu“). Sense HAT umožňuje počítaču Astro Pi „snímať“ a vykonávať mnoho druhov meraní, od teploty po pohyb a odosielať informácie pomocou 8 x 8 LED maticového displeja. Počítač Astro Pi má tiež joystick a tlačidlá, rovnako ako videoherná konzola!
 
-![Animated image of a Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+![Animovaný obrázok Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
 
-For this mission, you will be using the Sense HAT emulator which simulates the main functions of the Astro Pi in your web browser.
+Pre túto misiu budete používať emulátor Sense HAT, ktorý simuluje hlavné funkcie Astro Pi vo vašom webovom prehliadači.
 
 
 
