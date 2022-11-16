@@ -1,39 +1,39 @@
-Import the libraries
+Importujte knižnice
 
-Set up the Sense HAT
+Nastavte Sense HAT
 
-Set up the colour sensor
+Nastavte snímač farieb
 
-Set the sensitivity of the sensor
+Nastavte citlivosť snímača
 
-The interval at which the reading will be take
+Interval, v ktorom sa bude realizovať snímanie
 
-Add colour variables and image
+Pridajte farebné premenné a obrázok
 
-Display the image
+Zobrazte obrázok
 
-White
+Biela
 
-Black
+Čierna
 
-MediumBlue
+Stredne modrá
 
 Žltá
 
-DarkOrange
+Tmavooranžová
 
-Pink
+Ružová
 
-ForestGreen
+Lesná zelená
 
-DeepPink
+Tmavo ružová
 
 Červená
 
-MidnightBlue
+Polnočná modrá
 
-get the colour from the sensor
+získajte farbu zo snímača
 
-use the sensed colour
+použite nasnímanú farbu
 
-choose your own red, green, blue values between 0 - 255
+vyberte si vlastné hodnoty červenej, zelenej a modrej medzi 0 - 255
