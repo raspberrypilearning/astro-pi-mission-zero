@@ -1,0 +1,39 @@
+Importujte knižnice
+
+Nastavte Sense HAT
+
+Nastavte snímač farieb
+
+Nastavte citlivosť snímača
+
+Interval, v ktorom sa bude realizovať snímanie
+
+Pridajte farebné premenné a obrázok
+
+Zobrazte obrázok
+
+Biela
+
+Čierna
+
+Stredne modrá
+
+Žltá
+
+Tmavooranžová
+
+Ružová
+
+Lesná zelená
+
+Tmavo ružová
+
+Červená
+
+Polnočná modrá
+
+získajte farbu zo snímača
+
+použite nasnímanú farbu
+
+vyberte si vlastné hodnoty červenej, zelenej a modrej medzi 0 - 255
