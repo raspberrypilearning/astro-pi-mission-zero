@@ -1,36 +1,36 @@
-## You will make
+## Urobíte
 
-Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer.
+Dokončite tento projekt, prihláste sa do výzvy Astro Pi Mission Zero a dosiahnite, aby kód vášho tímu bol spustený vo vesmíre na počítači Astro Pi.
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
+Váš projekt nastaví farbu pozadia obrázka na farbu, ktorú rozpozná počítač Astro Pi. Vďaka tomu bude Medzinárodná vesmírna stanica (ISS) farebnejšia pre kozmonautov na palube. Váš kód na nastavenie farby použije snímač farebnej svietivosti na novom počítači Mark II Astro Pi Sense HAT.
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Tu je príklad typu programu, ktorý by ste mohli spustiť na Astro Pi vo vesmíre.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![Emulátor Sense HAT spustený vzorovým programom s hadom, ktorého farba pozadia sa zmení podľa snímania farby.](images/finished.gif)
 
-### You will need
+### Budete potrebovať
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Na vytvorenie programu použijete emulátor Astro Pi vo webovom prehliadači. Nepotrebujete počítač Astro Pi.
 
-### Astro Pi Mission Zero criteria
+### Kritériá pre Mission Zero na počítači Astro Pi
 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
+**Ak váš projekt spĺňa [kritériá oprávnenosti](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, váš dokončený program bude spustený na Medzinárodnej vesmírnej stanici! Dostanete tiež špeciálne osvedčenie, ktoré presne ukazuje, kde sa ISS nachádzala, keď bol váš program spustený.
 
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Create colour **variables** to use in your image
-+ Design and display an image on the Sense HAT
-+ Sense the colour of light on board the ISS
+Dozviete sa o počítači Astro Pi a o tom, ako ho ovládať, vrátane toho, ako:
++ Vytvoriť farebné **premenné**, ktoré použijete vo svojom obrázku
++ Navrhnúť a zobraziť obrázok na Sense HAT
++ Snímať farbu svetla na palube ISS
 
 --- collapse ---
 ---
-title: Notes for mentors
+title: Poznámky pre mentorov
 ---
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero je vhodná pre začiatočníkov v programovaní a/alebo deti vo veku základných škôl a dá sa absolvovať v jednej 60-minútovej lekcii na akomkoľvek počítači s prístupom na internet. Nie je potrebný žiadny špeciálny hardvér ani predchádzajúce znalosti z oblasti kódovania. Všetko sa dá urobiť vo webovom prehliadači.
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+Zorganizujte svojich mladých ľudí do tímov po jednom až štyroch a poskytnite im našu príručku na napísanie krátkeho programu v jazyku Python na snímanie farby na palube ISS a vytvorili obrázok, ktorý túto farbu používa.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Prečítajte si [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines) pre Mission Zero.
 
 --- /collapse ---
 
