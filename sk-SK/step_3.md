@@ -76,7 +76,7 @@ line_numbers: false
 ---
 a = (255, 255, 255) # Biela
 c = (0, 0, 0) # Čierna
-e = (0, 0, 205) # StČervenáne modrá
+e = (0, 0, 205) # Stredne modrá
 q = (255, 255, 0) # Žltá
 t = (255, 140, 0) # Tmavo oranžová
 w = (255, 192, 203) # Ružová
@@ -264,7 +264,7 @@ obrazok = [
 
 --- task ---
 
-**Nájdite:** riadok s textom `# Zobraziť obrázok` a pridajte riadok kódu na zobrazenie obrázka na matici LED:
+**Nájdite:** riadok s textom `# Zobrazte obrázok` a pridajte riadok kódu na zobrazenie obrázka na matici LED:
 
 --- code ---
 ---
