@@ -1,45 +1,45 @@
-## Submit your entry
+## Odoslanie príspevku
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Teraz sa môžete zapojiť do výzvy [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} pomocou kódu, ktorý ste napísali.
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+Existuje niekoľko pravidiel, ktoré musí váš kód dodržiavať, aby ste ho mohli odoslať na spustenie na Medzinárodnej vesmírnej stanici. Ak sa nimi váš kód riadi, pravidlá v spodnej časti **emulátora Sense HAT** sa po spustení programu rozsvietia nazeleno.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+![Stránka Mission Zero zobrazujúca kontroly kritérií pre vstup.](images/rules.png)
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
+**Tip:** otestujte svoj kód pomocou niekoľkých rôznych nastavení farieb (pomocou nástroja na výber), aby ste sa uistili, že vždy funguje správne.
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
+Uistite sa, že váš príspevok spĺňa [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pre Mission Zero. Ak váš príspevok nespĺňa pokyny, váš program nebude môcť bežať na Medzinárodnej vesmírnej stanici.
 
-Please do not include any of the following in your team name or code:
+Do názvu alebo kódu tímu nezahŕňajte nič z nasledujúceho:
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Čokoľvek, čo by sa dalo interpretovať ako nezákonné, politické alebo citlivé
++ Vlajky, keďže ich možno považovať za politicky citlivé
++ Čokoľvek, čo odkazuje na nepríjemnosti alebo ujmu inej osobe
++ Osobné údaje, ako sú telefónne čísla, sociálne médiá a e-mailové adresy
++ Obscénne obrázky
++ Špeciálne znaky alebo emotikony
++ Vulgárny jazyk alebo nadávky
 
 --- task ---
 
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
+Zadajte kód svojej triedy a názov tímu do poľa v spodnej časti – váš mentor vám povie, aký je váš kód.
 
-![Classroom code and team name submission form](images/submission.png)
+![Formulár na odoslanie kódu triedy a názvu tímu](images/submission.png)
 
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
+**Poznámky pre mentorov** nájdete v kroku [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
 
 --- /task ---
 
 --- task ---
 
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
+Stlačením tlačidla **Pridať tím** zadajte svoj kód. Upozorňujeme, že po odoslaní už program nemožno zmeniť.
 
-Your mentor will get an email to confirm your entry.
+Váš mentor dostane e-mail na potvrdenie vášho vstupu.
 
 --- /task ---
 
 --- task ---
 
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
+Ak chcete, môžete zdieľať odkaz na svoj kód na sociálnych médiách a povedať ľuďom, že kód, ktorý ste napísali, sa spustí vo vesmíre!
 
 --- /task ---
