@@ -1,25 +1,25 @@
 ---
 title: 'Astro Pi: Mission Zero'
 hero_image: images/banner.png
-description: Prepare for Mission Zero
+description: Pripravte sa na Mission Zero
 listed: true
 copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: You will make
+    title: Urobíte
   - 
-    title: What is an Astro Pi?
+    title: Čo je Astro Pi?
   - 
-    title: Display an image
+    title: Zobraziť obrázok
     completion:
       - engaged
   - 
-    title: Sense a colour
+    title: Snímanie farby
   - 
-    title: Submit your entry
+    title: Odoslať príspevok
     completion:
       - internal
   - 
-    title: What next — more Astro Pi projects
+    title: Čo ďalej — ďalšie projekty Astro Pi
