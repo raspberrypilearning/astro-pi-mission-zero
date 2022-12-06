@@ -1,6 +1,6 @@
 ## Pošljite svoj prispevek
 
-Zdaj lahko z uporabo kode, ki ste jo napisali, sodelujete v izzivu [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}.
+Zdaj lahko z uporabo kode, ki ste jo napisali, sodelujete v izzivu [Astro Pi Mission Zero](https://astro-pi.org/sl/mission-zero){:target="_blank"}.
 
 Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če jih vaša koda upošteva, bodo pravila na dnu **Sense HAT emulatorja** ob zagonu programa zasvetila zeleno.
 
@@ -8,7 +8,7 @@ Zdaj lahko z uporabo kode, ki ste jo napisali, sodelujete v izzivu [Astro Pi Mis
 
 **Namig:** Preizkusite kodo z nekaj različnimi nastavitvami barve (z izbirnikom), da zagotovite, da vedno deluje pravilno.
 
-Prepričajte se, da vaš program ustreza [uradnimim smernicam](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} za Mission Zero. V nasprotnem primeru vaš program ne bo mogel delovati na Mednarodni vesoljski postaji.
+Prepričajte se, da vaš program ustreza [uradnimim smernicam](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero. V nasprotnem primeru vaš program ne bo mogel delovati na Mednarodni vesoljski postaji.
 
 Prosimo, da v ime ali kodo svoje ekipe ne vključite ničesar od naslednjega:
 

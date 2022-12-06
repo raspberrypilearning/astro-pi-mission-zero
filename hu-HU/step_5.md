@@ -1,6 +1,6 @@
 ## Küldd be a munkádat
 
-Most már jelentkezhet a [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} kihívásra az Ön által írt kóddal.
+Most már jelentkezhet a [Astro Pi Mission Zero](https://astro-pi.org/hu/mission-zero){:target="_blank"} kihívásra az Ön által írt kóddal.
 
 Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy beküldhesd a Nemzetközi Űrállomáson való futtatásra. Ha a kódod betartja őket, akkor a **Sense HAT emulátor** alján a szabályok zölddel villannak fel, amikor futtatod a programodat.
 
@@ -8,7 +8,7 @@ Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy 
 
 **Tipp:** Teszteld a kódodat különféle színbeállításokkal (használd a színválasztót), hogy megyőződj róla, hogy a programod mindig helyesn fut.
 
-Kérjük, győződj meg róla, hogy a munkád betartja a Mission Zero [hivatalos irányelveit](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}. Ha nem tartja be az irányelveket, a programod nem futhat majd a Nemzetközi Űrállomáson.
+Kérjük, győződj meg róla, hogy a munkád betartja a Mission Zero [hivatalos irányelveit](https://astro-pi.org/hu/mission-zero/guidelines){:target="_blank"}. Ha nem tartja be az irányelveket, a programod nem futhat majd a Nemzetközi Űrállomáson.
 
 Kérjük, ne használd az alábbiakat a csapatod nevében vagy a kódodban:
 

@@ -1,6 +1,6 @@
 ## Verstuur je inzending
 
-Je kunt nu de [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} uitdaging binnentreden, met behulp van de code die je hebt geschreven.
+Je kunt nu de [Astro Pi Mission Zero](https://astro-pi.org/nl/mission-zero){:target="_blank"} uitdaging binnentreden, met behulp van de code die je hebt geschreven.
 
 Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om uitgevoerd te worden op het internationale ruimtestation ISS. Als je code deze regels volgt, lichten de regels onder aan de **Sense HAT emulator** groen op wanneer je het programma uitvoert.
 
@@ -8,7 +8,7 @@ Er zijn een paar regels die je code moet volgen, zodat je deze kunt versturen om
 
 **Tip** Test je code met een aantal verschillende kleurinstellingen (gebruik daarbij de schuifregelaar) om er zeker van te zijn dat deze altijd correct werkt.
 
-Zorg ervoor dat je inzending de [officiële richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero volgt. Als je de richtlijnen niet volgt, kan je programma niet uitgevoerd worden op het International Space Station.
+Zorg ervoor dat je inzending de [officiële richtlijnen](https://astro-pi.org/nl/mission-zero/guidelines){:target="_blank"} voor Mission Zero volgt. Als je de richtlijnen niet volgt, kan je programma niet uitgevoerd worden op het International Space Station.
 
 Vermeld geen van de volgende zaken in je teamnaam of code:
 

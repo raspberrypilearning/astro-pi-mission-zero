@@ -14,7 +14,7 @@ Käytät Astro Pi -emulaattoria verkkoselaimessa ohjelman luomiseen. Et tarvitse
 
 ### Astro Pi Mission Zeron vaatimukset
 
-**Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
+**Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/fi/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
 
 Opit Astro Pi -tietokoneesta ja sen hallinnasta, mukaan lukien miten:
 + Luot väri **muuttujia** kuvassasi käytettäväksi
@@ -30,7 +30,7 @@ Mission Zero sopii ohjelmoinnin aloittelijoille ja/tai peruskouluikäisillä lap
 
 Muodosta joukkueita, joissa on enintään neljä nuorta, ja anna meidän opastaa heidät kirjoittamaan lyhyt Python-ohjelma, joka tunnistaa ISS:llä olevan värin ja luo sitä käyttävän kuvan.
 
-Lue Mission Zeron [viralliset säännöt](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
+Lue Mission Zeron [viralliset säännöt](https://astro-pi.org/fi/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
 

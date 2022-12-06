@@ -1,6 +1,6 @@
 ## Odešli svůj příspěvek
 
-Nyní můžete zadat výzvu [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} pomocí kódu, který jste napsali.
+Nyní můžete zadat výzvu [Astro Pi Mission Zero](https://astro-pi.org/cs/mission-zero/){:target="_blank"} pomocí kódu, který jste napsali.
 
 Pokud chceš svůj kód odeslat ke spuštění na Mezinárodní vesmírné stanici, musí se řídit několika pravidly. Pokud se jimi řídí, tak se pravidla v dolní části **emulátoru Sense HAT** při spuštění programu rozsvítí zeleně.
 
@@ -8,7 +8,7 @@ Pokud chceš svůj kód odeslat ke spuštění na Mezinárodní vesmírné stani
 
 **Tip:** Otestuj svůj kód s různými hodnotami barev (pomocí nástroje pro výběr barvy) a ujisti se, že vždy funguje.
 
-Ujisti se prosím, že se tvůj příspěvek řídí [oficiálními pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero. Pokud se jimi neřídí, tvůj program nebude spuštěn na Mezinárodní vesmírné stanici.
+Ujisti se prosím, že se tvůj příspěvek řídí [oficiálními pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero. Pokud se jimi neřídí, tvůj program nebude spuštěn na Mezinárodní vesmírné stanici.
 
 Neuváděj prosím do názvu týmu ani kódu:
 

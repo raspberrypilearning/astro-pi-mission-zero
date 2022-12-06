@@ -14,7 +14,7 @@ Vei folosi emulatorul Astro Pi într-un browser web pentru a crea programul tău
 
 ### Hardware
 
-**Dacă proiectul tău îndeplinește [criteriile de eligibilitate](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, programul tău finalizat va fi executat pe Stația Spațială Internațională! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău.
+**Dacă proiectul tău îndeplinește [criteriile de eligibilitate](https://astro-pi.org/ro/mission-zero/eligibility){:target="_blank"}**, programul tău finalizat va fi executat pe Stația Spațială Internațională! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău.
 
 Vei învăța despre computerul Astro Pi și cum să îl controlezi, inclusiv cum să:
 + afișezi mesaje și culori
@@ -30,7 +30,7 @@ Misiunea Zero este potrivită pentru începătorii în programare și/sau copiii
 
 Organizați-vă tinerii în echipe de unul până la patru și lăsați-ne să-i ghidăm la scrierea unui scurt program Python pentru a detecta culoarea de la bordul ISS și a crea o imagine care să folosească acea culoare.
 
-Citește [instrucțiunile oficiale](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
+Citește [instrucțiunile oficiale](https://astro-pi.org/ro/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
 
 --- /collapse ---
 

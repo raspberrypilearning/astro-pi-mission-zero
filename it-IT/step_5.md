@@ -1,6 +1,6 @@
 ## Invia il tuo progetto
 
-Ora puoi partecipare alla sfida [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, usando il codice che hai scritto.
+Ora puoi partecipare alla sfida [Astro Pi Mission Zero](https://astro-pi.org/it/mission-zero){:target="_blank"}, usando il codice che hai scritto.
 
 Ci sono alcune regole che il tuo codice deve seguire per poterlo inviare ed eseguire sulla Stazione Spaziale Internazionale. Se il tuo codice le rispetta, le regole in fondo all'emulatore **Sense HAT** si illumineranno di verde quando esegui il programma.
 
@@ -8,7 +8,7 @@ Ci sono alcune regole che il tuo codice deve seguire per poterlo inviare ed eseg
 
 **Suggerimento:** prova il tuo codice con alcune impostazioni di colore diverse (usando il selettore) per assicurarti che funzioni sempre correttamente.
 
-Assicurati che la tua proposta segua le [linee guida ufficiali](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} per Mission Zero. Se non segue le linee guida, il tuo programma non potrà essere eseguito sulla Stazione Spaziale Internazionale.
+Assicurati che la tua proposta segua le [linee guida ufficiali](https://astro-pi.org/it/mission-zero/guidelines){:target="_blank"} per Mission Zero. Se non segue le linee guida, il tuo programma non potrà essere eseguito sulla Stazione Spaziale Internazionale.
 
 Si prega di non includere nessuno dei seguenti elementi nel nome o nel codice della squadra:
 

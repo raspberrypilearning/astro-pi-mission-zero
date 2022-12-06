@@ -14,7 +14,7 @@ Za izdelavo programa boste potrebovali Astro Pi emulator v spletnem brskalniku. 
 
 ### Kriteriji
 
-**Če vaš projekt izpolnjuje [zahteve](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, se bo program izvedel na Mednarodni vesoljski postaji! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program.
+**Če vaš projekt izpolnjuje [zahteve](https://astro-pi.org/sl/mission-zero/eligibility){:target="_blank"}**, se bo program izvedel na Mednarodni vesoljski postaji! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program.
 
 Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
 + Ustvarjanjem barvnih **spremenljivk** za uporabo v sliki
@@ -30,7 +30,7 @@ Projekt Mission Zero je primeren za začetnike v programiranju in/ali osnovnošo
 
 Organizirajte svoje mlade v skupine od enega do štirih in dovolite nam, da jih vodimo skozi pisanje kratkega programa Python za zaznavanje barve na krovu ISS in ustvarjanje slike, ki jo uporablja.
 
-Preberite [dokument z uradnimi smernicami](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} za Mission Zero.
+Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
 --- /collapse ---
 

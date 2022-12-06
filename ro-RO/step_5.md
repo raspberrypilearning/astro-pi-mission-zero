@@ -1,6 +1,6 @@
 ## Trimite programul tău
 
-Acum poți participa la provocarea [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, folosind codul pe care l-ai scris.
+Acum poți participa la provocarea [Astro Pi Mission Zero](https://astro-pi.org/ro/mission-zero){:target="_blank"}, folosind codul pe care l-ai scris.
 
 Există câteva reguli pe care codul tău trebuie să le respecte, astfel încât să îl poți trimite pentru a fi rulat pe Stația Spațială Internațională. Dacă codul tău le respectă, regulile din partea de jos a emulatorului **Sense HAT** se vor aprinde în verde atunci când rulezi programul.
 
@@ -8,7 +8,7 @@ Există câteva reguli pe care codul tău trebuie să le respecte, astfel încâ
 
 **Sfat:** Testează-ți codul cu câteva setări diferite de culori (folosind selectorul) pentru a te asigura că acesta rulează întotdeauna corect.
 
-Te rugăm să te asiguri că intrarea ta respectă [recomandările oficiale](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pentru Mission Zero. Dacă nu urmează instrucțiunile, programul tău nu va putea rula pe Stația Spațială Internațională.
+Te rugăm să te asiguri că intrarea ta respectă [recomandările oficiale](https://astro-pi.org/ro/mission-zero/guidelines){:target="_blank"} pentru Mission Zero. Dacă nu urmează instrucțiunile, programul tău nu va putea rula pe Stația Spațială Internațională.
 
 Te rugăm să nu incluzi nimic din următoarele în numele sau codul echipei:
 

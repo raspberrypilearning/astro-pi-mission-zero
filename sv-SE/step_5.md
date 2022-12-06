@@ -1,6 +1,6 @@
 ## Skicka ditt bidrag
 
-Du kan nu gå in i [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}-utmaningen med koden du har skrivit.
+Du kan nu gå in i [Astro Pi Mission Zero](https://astro-pi.org/sv/mission-zero){:target="_blank"}-utmaningen med koden du har skrivit.
 
 Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem kommer reglerna längst ner i **Sense HAT-emulator** att lysa grönt när du kör programmet.
 
@@ -8,7 +8,7 @@ Det finns några regler som din kod måste följa för att du ska kunna skicka d
 
 **Tips:** Testa din kod med några olika färginställningar (med väljaren) för att se till att den alltid fungerar korrekt.
 
-Se till att ditt bidrag följer de [officiella riktlinjerna](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} för Mission Zero. Om det inte följer riktlinjerna kommer ditt program inte att kunna köras på den internationella rymdstationen.
+Se till att ditt bidrag följer de [officiella riktlinjerna](https://astro-pi.org/sv/mission-zero/guidelines){:target="_blank"} för Mission Zero. Om det inte följer riktlinjerna kommer ditt program inte att kunna köras på den internationella rymdstationen.
 
 Vänligen inkludera inte något av följande i ditt lagnamn eller kod:
 

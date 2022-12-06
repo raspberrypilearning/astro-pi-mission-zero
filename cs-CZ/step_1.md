@@ -14,7 +14,7 @@ K vytvoření programu budeš používat emulátor Astro Pi ve webovém prohlí�
 
 ### Kritéria výzvy Astro Pi Mission Zero
 
-**Pokud tvůj program splňuje [kritéria způsobilosti](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, poběží na Mezinárodní vesmírné stanici! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
+**Pokud tvůj program splňuje [kritéria způsobilosti](https://astro-pi.org/cs/mission-zero/eligibility){:target="_blank"}**, poběží na Mezinárodní vesmírné stanici! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
 
 Dozvíš se o počítači Astro Pi a naučíš se ho ovládat. Také se naučíš, jak:
 + vytvářet **proměnné** s barvami, které využiješ ve svém obrázku,
@@ -30,7 +30,7 @@ Výzva Mission Zero je vhodná pro ty, kteří s programováním začínají, a/
 
 Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak napsat krátký program v jazyce Python, který naměří barvu na palubě ISS a za pomocí této barvy vytvoříme obrázek.
 
-Přečtěte si [oficiální pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
+Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
 --- /collapse ---
 

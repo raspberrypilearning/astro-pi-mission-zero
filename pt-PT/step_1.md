@@ -14,7 +14,7 @@ Irás usar o emulador Astro Pi num navegador da web para criar o teu programa. T
 
 ### Critérios Astro Pi Mission Zero
 
-**Se o teu projeto corresponder aos [critérios de elegibilidade](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, o teu programa concluído será executado na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado.
+**Se o teu projeto corresponder aos [critérios de elegibilidade](https://astro-pi.org/pt/mission-zero/eligibility){:target="_blank"}**, o teu programa concluído será executado na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado.
 
 Vais aprender sobre o computador Astro Pi e como controlá-lo, incluindo como:
 + Crie **variáveis** de cor para usar na tua imagem
@@ -30,7 +30,7 @@ A Mission Zero é adequada para iniciantes em programação e/ou crianças com i
 
 Organize os seus jovens em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um pequeno programa em Python para identificar a cor ambiente na EEI (ISS) e criar uma imagem que use essa cor.
 
-Leia o [documento com as diretrizes oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} da Mission Zero.
+Leia o [documento com as diretrizes oficiais](https://astro-pi.org/pt/mission-zero/guidelines){:target="_blank"} da Mission Zero.
 
 --- /collapse ---
 
