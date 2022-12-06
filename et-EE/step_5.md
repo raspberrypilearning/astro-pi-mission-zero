@@ -1,6 +1,6 @@
 ## Esita oma võistlustöö
 
-Nüüd saate sisestatud koodi abil sisestada [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} väljakutse.
+Nüüd saate sisestatud koodi abil sisestada [Astro Pi Mission Zero](https://astro-pi.org/et/mission-zero){:target="_blank"} väljakutse.
 
 Sinu koodi esitamiseks rahvusvahelises kosmosejaamas käivitamiseks peab see vastama mõnedele reeglitele. Kui sinu kood neile vastab, siis muutuvad programmi käitamisel **Sense HAT emulaatori** allosas asuvad reeglid roheliseks.
 
@@ -8,7 +8,7 @@ Sinu koodi esitamiseks rahvusvahelises kosmosejaamas käivitamiseks peab see vas
 
 **Näpunäide:** Testi oma koodi mitme eri värviseadega (kasutades valijat), et olla kindel, et see käitab alati õigesti.
 
-Palun veendu, et sinu võistlustöö järgib Mission Zero [ametlikke juhiseid](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}. Kui see ei järgi juhiseid, ei saa sinu programmi rahvusvahelises kosmosejaamas käitada.
+Palun veendu, et sinu võistlustöö järgib Mission Zero [ametlikke juhiseid](https://astro-pi.org/et/mission-zero/guidelines){:target="_blank"}. Kui see ei järgi juhiseid, ei saa sinu programmi rahvusvahelises kosmosejaamas käitada.
 
 Palun ära lisa oma meeskonna nimesse ega koodi järgmist:
 

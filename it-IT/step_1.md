@@ -14,7 +14,7 @@ Utilizzerai l'emulatore Astro Pi in un browser web per creare il tuo programma. 
 
 ### Criteri di Astro Pi Mission Zero
 
-**Se il tuo progetto soddisfa i [criteri di ammissibilità](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, il tuo programma completato verrà eseguito sulla Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
+**Se il tuo progetto soddisfa i [criteri di ammissibilità](https://astro-pi.org/it/mission-zero/eligibility){:target="_blank"}**, il tuo programma completato verrà eseguito sulla Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
 Imparerai cos'è l'unità AstroPi e come controllarla, compreso come:
 + Creare **variabili** di colore da usare nella tua immagine
@@ -30,7 +30,7 @@ Mission Zero è adatto a principianti della programmazione e/o ai bambini in et�
 
 Organizza i tuoi giovani in squadre da uno a quattro e lascia che noi li guidiamo attraverso la scrittura di un breve programma Python per misurare il colore a bordo della ISS e creare un'immagine che utilizzi quel colore.
 
-Leggi le [le linee guida ufficiali](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} di Mission Zero.
+Leggi le [le linee guida ufficiali](https://astro-pi.org/it/mission-zero/guidelines){:target="_blank"} di Mission Zero.
 
 --- /collapse ---
 

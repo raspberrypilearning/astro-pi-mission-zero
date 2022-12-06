@@ -1,6 +1,6 @@
 ## Send inn bidraget ditt
 
-Du kan nå skrive inn [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} utfordringen ved å bruke koden du har skrevet.
+Du kan nå skrive inn [Astro Pi Mission Zero](https://astro-pi.org/nb/mission-zero){:target="_blank"} utfordringen ved å bruke koden du har skrevet.
 
 Det er noen regler for at koden må følge, slik at du kan sende den til å bli kjørt på den internasjonale romstasjonen. Dersom koden din følger dem, reglene nederst på **Sense HAT-emulatoren** vil lyse opp i grønt når du kjører programmet.
 
@@ -8,7 +8,7 @@ Det er noen regler for at koden må følge, slik at du kan sende den til å bli 
 
 **Tips:** Test koden din med noen forskjellige fargeinnstillinger (ved bruk av velgeren) for å forsikre deg om at den alltid kjører riktig.
 
-Sørg for at oppføringen din følger de [offisielle retningslinjene](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. Hvis den ikke følger retningslinjene, vil ikke programmet ditt kunne kjøre på den internasjonale romstasjonen.
+Sørg for at oppføringen din følger de [offisielle retningslinjene](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero. Hvis den ikke følger retningslinjene, vil ikke programmet ditt kunne kjøre på den internasjonale romstasjonen.
 
 Vennligst ikke inkluder noen av de følgende i gruppens navn eller kode:
 

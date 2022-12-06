@@ -14,7 +14,7 @@ Programmi loomiseks kasutad veebibrauseris Astro Pi emulaatorit. Sul ei ole vaja
 
 ### Astro Pi Mission Zero kriteeriumid
 
-**Kui sinu projekt vastab [vajalikele kriteeriumidele](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, käivitatakse sinu lõpetatud programm rahvusvahelises kosmosejaamas! Samuti antakse sulle spetsiaalne tunnistus, mis näitab kus täpselt ISS sinu programmi käivitamise ajal viibis.
+**Kui sinu projekt vastab [vajalikele kriteeriumidele](https://astro-pi.org/et/mission-zero/eligibility){:target="_blank"}**, käivitatakse sinu lõpetatud programm rahvusvahelises kosmosejaamas! Samuti antakse sulle spetsiaalne tunnistus, mis näitab kus täpselt ISS sinu programmi käivitamise ajal viibis.
 
 Õpid tundma Astro Pi-d ja selle juhtimist, sealhulgas kuidas:
 + Kuvada värvi **muutujaid**, mida oma pildil kasutada
@@ -30,7 +30,7 @@ Mission Zero sobib algajatele programmeerijatele ja/või algkooliealistele laste
 
 Jagage oma noored ühe- kuni neljaliikmelistesse meeskondadesse ja juhendage neid lühikese Pythoni programmi kirjutamisel, et tajuda ISS-i pardal olevat värvi ja luua seda värvi kasutav pilt.
 
-Lugege Mission Zero [ametlikke juhiseid](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
+Lugege Mission Zero [ametlikke juhiseid](https://astro-pi.org/et/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
 

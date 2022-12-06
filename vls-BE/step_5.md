@@ -1,6 +1,6 @@
 ## Dien je project in
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/vls/mission-zero){:target="_blank"} challenge, using the code you have written.
 
 Er zijn enkele regels waaraan je code moet voldoen zodat je ze kan indienen om te werken op het internationaal ruimtestation. Als je code hieraan voldoet, zullen de regels onderaan de **Sense HAT-emulator** groen oplichten als je het programma laat werken.
 
@@ -8,7 +8,7 @@ Er zijn enkele regels waaraan je code moet voldoen zodat je ze kan indienen om t
 
 **Tip:** Test je code met een aantal verschillende kleurinstellingen (gebruik de kiezer) om ervoor te zorgen dat het altijd juist werkt.
 
-Zorg ervoor dat je project voldoet aan de [officiele richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero. Als het niet voldoet aan de richtlijnen, zal je programma niet kunnen werken in het Internationaal Ruimtestation.
+Zorg ervoor dat je project voldoet aan de [officiele richtlijnen](https://astro-pi.org/vls/mission-zero/guidelines){:target="_blank"} voor Mission Zero. Als het niet voldoet aan de richtlijnen, zal je programma niet kunnen werken in het Internationaal Ruimtestation.
 
 Gelieve geen van de onderstaande te gebruiken in de naam van je team of in je code:
 

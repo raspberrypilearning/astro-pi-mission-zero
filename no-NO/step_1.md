@@ -14,7 +14,7 @@ Du vil bruke Astro Pi-emulatoren i en nettleser for å lage programmet ditt. Du 
 
 ### Astro Pi Mission Zero-kriterier
 
-**Hvis prosjektet ditt oppfyller [kvalifikasjonskriterier](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, vil det ferdige programmet kjøres på den internasjonale romstasjonen! Dere vil også få en original attest som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
+**Hvis prosjektet ditt oppfyller [kvalifikasjonskriterier](https://astro-pi.org/nb/mission-zero/eligibility){:target="_blank"}**, vil det ferdige programmet kjøres på den internasjonale romstasjonen! Dere vil også få en original attest som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
 
 Du vil lære om Astro Pi-datamaskinen og hvordan du styrer den, inkludert hvordan du:
 + Lager **fargevariabler** til bruk i bildet ditt
@@ -30,7 +30,7 @@ Mission Zero egner seg for programmering og/eller barn som er skoleeldre og kan 
 
 Organiser ungdommene dine i lag på en til fire, og la oss lede dem gjennom å skrive et kort Python-program som betyr fargen om bord i ISS og lage et bilde som bruker den fargen.
 
-Les [offisielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
 

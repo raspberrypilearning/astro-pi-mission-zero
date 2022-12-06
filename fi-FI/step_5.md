@@ -1,6 +1,6 @@
 ## Lähetä ohjelmasi
 
-Voit nyt osallistua [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} -haasteeseen kirjoittamallasi koodilla.
+Voit nyt osallistua [Astro Pi Mission Zero](https://astro-pi.org/fi/mission-zero){:target="_blank"} -haasteeseen kirjoittamallasi koodilla.
 
 On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi Kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, säännöt **Sense HAT -emulaattorin** alareunassa syttyvät vihreinä ohjelmaa ajaessasi.
 
@@ -8,7 +8,7 @@ On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lä
 
 **Vinkki:** Kokeile koodiasi muutamalla eri väriasetuksella (valitsimen avulla) varmistaaksesi, että se toimii aina oikein.
 
-Varmista, että työsi noudattaa Mission Zeron [virallisia sääntöjä](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}. Jos se ei noudata sääntöjä, ohjelmaasi ei voida ajaa Kansainvälisellä avaruusasemalla.
+Varmista, että työsi noudattaa Mission Zeron [virallisia sääntöjä](https://astro-pi.org/fi/mission-zero/guidelines){:target="_blank"}. Jos se ei noudata sääntöjä, ohjelmaasi ei voida ajaa Kansainvälisellä avaruusasemalla.
 
 Älä sisällytä joukkueesi nimeen tai koodiin mitään seuraavista:
 

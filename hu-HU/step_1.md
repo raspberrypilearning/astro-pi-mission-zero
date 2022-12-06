@@ -14,7 +14,7 @@ A programod elkészítéséhez az Astro Pi emulátort fogod használni egy webb�
 
 ### Az Astro Pi Mission Zero feltételei
 
-**Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
+**Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/hu/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
 
 Az Astro Pi számítógépről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
 + Szín**változók** létrehozása és használata képekben
@@ -30,7 +30,7 @@ A Mission Zero alkalmas kezdő programozóknak és/vagy általános iskolás kor
 
 Szervezd a fiatalokat egy-négy fős csapatokba, és engedd meg, hogy végigkísérjük őket egy rövid Python program megírásán, amely érzékeli a színt az ISS fedélzetén, és egy képet hoz létre a szín felhasználásával.
 
-Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
+Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/hu/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
 

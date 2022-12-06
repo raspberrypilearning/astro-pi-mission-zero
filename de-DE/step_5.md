@@ -1,6 +1,6 @@
 ## Deinen Beitrag einsenden
 
-Du kannst nun die [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} Herausforderung betreten, indem du den Code verwendest, den du geschrieben hast.
+Du kannst nun die [Astro Pi Mission Zero](https://astro-pi.org/de/mission-zero){:target="_blank"} Herausforderung betreten, indem du den Code verwendest, den du geschrieben hast.
 
 Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln unten im **Sense HAT emulator** nach dem Ausführen des Programms grün angezeigt.
 
@@ -8,7 +8,7 @@ Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf de
 
 **Tipp:** Teste deinen Code mit ein paar anderen Farbeinstellungen (mit dem Picker) um sicherzustellen, dass er immer korrekt läuft.
 
-Bitte stelle sicher, dass dein Beitrag den [offiziellen Richtlinien](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} für Mission Zero entspricht. Wenn es den Richtlinien nicht entspricht, kann dein Programm nicht auf der Internationalen Raumstation ausgeführt werden.
+Bitte stelle sicher, dass dein Beitrag den [offiziellen Richtlinien](https://astro-pi.org/de/mission-zero/guidelines){:target="_blank"} für Mission Zero entspricht. Wenn es den Richtlinien nicht entspricht, kann dein Programm nicht auf der Internationalen Raumstation ausgeführt werden.
 
 Bitte fügen Sie Folgendes nicht in Ihren Teamnamen oder Code ein:
 

@@ -1,6 +1,6 @@
 ## Envía tu proyecto
 
-Ahora puedes entrar en el desafío [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, usando el código que has escrito.
+Ahora puedes entrar en el desafío [Astro Pi Mission Zero](https://astro-pi.org/es/mission-zero){:target="_blank"}, usando el código que has escrito.
 
 Hay algunas reglas que tu código debe seguir para que puedas enviarlo en la Estación Espacial Internacional. Si tu código las cumple, las reglas de la parte inferior del **emulador** se iluminarán en verde cuando ejecutes el programa.
 
@@ -8,7 +8,7 @@ Hay algunas reglas que tu código debe seguir para que puedas enviarlo en la Est
 
 **Nota:** Es una buena idea dar a las variables de color nombres de una sola letra, puesto que te ahorrará tiempo en el siguiente paso, en donde vas a escribirlas muchas veces.
 
-Por favor, asegúrate de que tu entrada sigue las [directrices oficiales](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} para Mission Zero. Si no sigue las pautas, tu programa no podrá ejecutarse en la Estación Espacial Internacional.
+Por favor, asegúrate de que tu entrada sigue las [directrices oficiales](https://astro-pi.org/es/mission-zero/guidelines){:target="_blank"} para Mission Zero. Si no sigue las pautas, tu programa no podrá ejecutarse en la Estación Espacial Internacional.
 
 Por favor, no incluyas ninguno de los siguientes en su nombre de equipo o código:
 
