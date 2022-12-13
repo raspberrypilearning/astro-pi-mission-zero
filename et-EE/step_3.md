@@ -10,7 +10,7 @@ Astro Pi LED-maatriksid suudavad kuvada ka värve. Selles etapis kuvad Astro Pi 
 
 --- task ---
 
-Ava [Mission Zero stardiprojekt](http://rpf.io/mzcode){:target="_blank"}.
+Ava [Mission Zero stardiprojekt](https://missions.astro-pi.org/cs/et/code_submissions/new){:target="_blank"}.
 
 Näed, et sulle on automaatselt lisatud mõned read koodi.
 

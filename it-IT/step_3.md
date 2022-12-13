@@ -10,7 +10,7 @@ Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED ch
 
 --- task ---
 
-Apri [il progetto iniziale Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Apri [il progetto iniziale Mission Zero](https://missions.astro-pi.org/it/mz/code_submissions/new){:target="_blank"}.
 
 Vedrai che alcune righe di codice sono state aggiunte automaticamente per te.
 

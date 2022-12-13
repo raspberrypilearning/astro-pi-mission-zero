@@ -10,7 +10,7 @@ Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de
 
 --- task ---
 
-Abre el [emulador Sense HAT](https://trinket.io/mission-zero){:target="_blank"} para el proyecto Mission Zero.
+Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/es/mz/code_submissions/new){:target="_blank"} para el proyecto Mission Zero.
 
 Comprobarás que se han añadido automáticamente tres líneas de código.
 

@@ -10,7 +10,7 @@ En <span style="color: #0faeb0">**LED-matris**</span> är ett rutnät av lysdiod
 
 --- task ---
 
-Öppna startprojektet [Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Öppna [startprojektet Mission Zero](https://missions.astro-pi.org/sv/mz/code_submissions/new){:target="_blank"}.
 
 Du kommer att se att några rader kod har lagts till för dig automatiskt.
 
