@@ -10,7 +10,7 @@ O <span style="color: #0faeb0">**matrice LED**</span> este o grilă de LED-uri c
 
 --- task ---
 
-Deschide proiectul [Mission Zero starter](http://rpf.io/mzcode){:target="_blank"}.
+Deschide proiectul [Mission Zero starter](https://missions.astro-pi.org/ro/mz/code_submissions/new){:target="_blank"}.
 
 Vei vedea că au fost adăugate automat pentru tine câteva linii de cod.
 

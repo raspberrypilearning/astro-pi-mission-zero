@@ -10,7 +10,7 @@ A <span style="color: #0faeb0">**LED mátrix**</span> egy LED-ekből álló rác
 
 --- task ---
 
-Nyisd meg a [Mission Zero kezdőprojektet](http://rpf.io/mzcode){:target="_blank"}.
+Nyisd meg a [Mission Zero kezdőprojektet](https://missions.astro-pi.org/hu/mz/code_submissions/new){:target="_blank"}.
 
 Látni fogod, hogy néhány kódsort már automatikusan hozzáadtunk neked.
 

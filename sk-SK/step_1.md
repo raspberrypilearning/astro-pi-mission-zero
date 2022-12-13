@@ -14,7 +14,7 @@ Na vytvorenie programu použijete emulátor Astro Pi vo webovom prehliadači. Ne
 
 ### Kritériá pre Mission Zero na počítači Astro Pi
 
-**Ak váš projekt spĺňa [kritériá oprávnenosti](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, váš dokončený program bude spustený na Medzinárodnej vesmírnej stanici! Dostanete tiež špeciálne osvedčenie, ktoré presne ukazuje, kde sa ISS nachádzala, keď bol váš program spustený.
+**Ak váš projekt spĺňa [kritériá oprávnenosti](https://astro-pi.org/sk/mission-zero/eligibility){:target="_blank"}**, váš dokončený program bude spustený na Medzinárodnej vesmírnej stanici! Dostanete tiež špeciálne osvedčenie, ktoré presne ukazuje, kde sa ISS nachádzala, keď bol váš program spustený.
 
 Dozviete sa o počítači Astro Pi a o tom, ako ho ovládať, vrátane toho, ako:
 + Vytvoriť farebné **premenné**, ktoré použijete vo svojom obrázku
@@ -30,7 +30,7 @@ Mission Zero je vhodná pre začiatočníkov v programovaní a/alebo deti vo vek
 
 Zorganizujte svojich mladých ľudí do tímov po jednom až štyroch a poskytnite im našu príručku na napísanie krátkeho programu v jazyku Python na snímanie farby na palube ISS a vytvorili obrázok, ktorý túto farbu používa.
 
-Prečítajte si [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines) pre Mission Zero.
+Prečítajte si [oficiálne pokyny](https://astro-pi.org/sk/mission-zero/guidelines) pre Mission Zero.
 
 --- /collapse ---
 

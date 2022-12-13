@@ -10,7 +10,7 @@ Astro Pin LED-matriisi voi näyttää värejä. Tässä vaiheessa näytät luont
 
 --- task ---
 
-Avaa [Mission Zero -aloitusprojekti](http://rpf.io/mzcode){:target="_blank"}.
+Avaa [Mission Zero -aloitusprojekti](https://missions.astro-pi.org/fi/mz/code_submissions/new){:target="_blank"}.
 
 Näet, että muutama koodirivi on lisätty sinulle automaattisesti.
 

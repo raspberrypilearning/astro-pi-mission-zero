@@ -10,7 +10,7 @@ Matrica LED Astro Pi môže zobrazovať farby. V tomto kroku zobrazíte obrázky
 
 --- task ---
 
-Otvorte [úvodný projekt Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Otvorte [úvodný projekt Mission Zero](https://missions.astro-pi.org/sk/mz/code_submissions/new){:target="_blank"}.
 
 Uvidíte, že sa vám automaticky pridalo niekoľko riadkov kódu.
 
