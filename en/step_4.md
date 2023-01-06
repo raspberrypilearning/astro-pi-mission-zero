@@ -20,7 +20,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
 # Add colour variables and image
 
@@ -76,8 +76,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue)
@@ -108,7 +109,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
 ---
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
@@ -142,8 +143,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Display the image
 
   sense.set_pixels(image)
