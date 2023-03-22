@@ -13,7 +13,6 @@ steps:
   completion:
   - engaged
 - title: Sense a colour
-- title: Submit your entry
   completion:
   - internal
 - title: What next — more Astro Pi projects

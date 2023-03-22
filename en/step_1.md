@@ -1,6 +1,6 @@
 ## You will make
 
-Complete this project to enter the Astro Pi Mission Zero challenge and have your code run in space on an Astro Pi computer. 
+The 2022/23 Mission Zero Challenge has now closed. You can still complete this activity but won’t be able to submit your program for deployment on the ISS. The next Challenge will launch in September 2023. Check social media and sign up to the Astro Pi newsletter on the [website](https://astro-pi.org/mission-zero/) for updates.
 
 Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
 
