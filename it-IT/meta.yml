@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Leggi un colore
-  - 
-    title: Invia il tuo progetto
     completion:
       - internal
   - 
-    title: 'E dopo questo: altri progetti Astro Pi'
+    title: Invia il tuo progetto
