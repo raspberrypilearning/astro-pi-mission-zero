@@ -19,6 +19,7 @@ Lägg till kod före din bildlista för att få färgen från sensorn och ändra
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
+
 # Lägg till färgvariabler och bild
 
 c = (0, 0, 0) # Svart m = (34, 139, 34) # Skogsgrön q = (255, 255, 0) # Gul t = (255, 140, 0) # MörkOrange y = (255, 20, 147) # DjupRosa
@@ -59,6 +60,7 @@ Din kod kommer att använda en `for` loop för att köra 28 gånger. **Varje** g
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
+
 for i in range(28): rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -78,6 +80,7 @@ Du måste nu indentera all din kod under `for` loopen så att den är **inuti** 
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
+
 for i in range(28): rgb = sense.color # hämta färgen från sensorn c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -99,6 +102,7 @@ Längst ned i koden lägger du till en `-sleep` på en sekund i din loop:
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
+
   # Visa bilden
 
   sense.set_pixels(image) sleep(1)
@@ -146,6 +150,7 @@ Lägg till `sense.clear()` i slutet av din kod för att rensa bilden i slutet av
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
+
   # Visa bilden
 
   sense.set_pixels(image) sleep(1)
@@ -185,6 +190,7 @@ Du kan blanda din egen färg eller använda värdena från listan över färger 
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6-7
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
