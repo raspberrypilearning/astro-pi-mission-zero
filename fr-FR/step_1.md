@@ -1,6 +1,12 @@
-## Ce que tu vas faire
+### Mission Zero 2023/24 has now closed.
 
-Termine ce projet pour participer au défi Astro Pi Mission Zero et exécuter ton code dans l'espace sur un ordinateur Astro Pi.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Ce que tu vas faire
 
 Ton projet va définir la couleur d'arrière-plan d'une image à la couleur que l'Astro Pi détecte. La Station Spatiale Internationale (ISS) sera ainsi plus colorée pour les astronautes à bord. Ton code utilisera le capteur de luminosité des couleurs du nouveau Sense HAT de l'ordinateur Astro Pi Mark II pour y parvenir.
 
