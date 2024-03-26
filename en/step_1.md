@@ -1,3 +1,11 @@
+### Mission Zero 2023/24 has now closed.
+
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).   
+
+
+
 ## You will make
 
 Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the new Mark II Astro Pi computer’s Sense HAT to make this happen.
