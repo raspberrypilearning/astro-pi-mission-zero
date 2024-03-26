@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Simte o culoare
-  - 
-    title: Trimite programul tău
     completion:
       - internal
   - 
-    title: Ce urmează — mai multe proiecte Astro Pi
+    title: Trimite programul tău
