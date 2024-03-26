@@ -1,6 +1,12 @@
-## Amit el fogsz készíteni
+### Amire szükséged lesz
 
-Készítsd el a projektet, hogy részt vehess az Astro Pi Mission Zerón kihívás, és hogy a kódod az űrben futhasson egy Astro Pi számítógépen.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Amit el fogsz készíteni
 
 A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez az új Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
 
