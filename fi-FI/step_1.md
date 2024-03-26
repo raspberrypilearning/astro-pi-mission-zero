@@ -1,6 +1,12 @@
-## Sinä teet
+### Sinä tarvitset
 
-Suorita tämä projekti osallistuaksesi Astro Pi Mission Zero -haasteeseen ja koodisi ajetaan avaruudessa Astro Pi -tietokoneella.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Sinä teet
 
 Projektisi asettaa kuvan taustaväriksi sen värin, jonka Astro Pi havaitsee. Näin Kansainvälisestä avaruusasemasta (ISS) tulee entistä värikkäämpi aluksella oleville astronauteille. Koodisi käyttää uuden 2. sukupolven Astro Pi -tietokoneen Sense HATin värin kirkkausanturia tämän toteuttamiseksi.
 
