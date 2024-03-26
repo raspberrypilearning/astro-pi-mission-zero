@@ -1,45 +1,17 @@
 ## Odoslanie príspevku
 
-Teraz sa môžete zapojiť do výzvy [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} pomocou kódu, ktorý ste napísali.
+Teraz sa môžete zapojiť do výzvy [Astro Pi Mission Zero](https://astro-pi.org/sk/mission-zero){:target="_blank"} pomocou kódu, ktorý ste napísali.
 
-Existuje niekoľko pravidiel, ktoré musí váš kód dodržiavať, aby ste ho mohli odoslať na spustenie na Medzinárodnej vesmírnej stanici. Ak sa nimi váš kód riadi, pravidlá v spodnej časti **emulátora Sense HAT** sa po spustení programu rozsvietia nazeleno.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-![Stránka Mission Zero zobrazujúca kontroly kritérií pre vstup.](images/rules.png)
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-**Tip:** otestujte svoj kód pomocou niekoľkých rôznych nastavení farieb (pomocou nástroja na výber), aby ste sa uistili, že vždy funguje správne.
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-Uistite sa, že váš príspevok spĺňa [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pre Mission Zero. Ak váš príspevok nespĺňa pokyny, váš program nebude môcť bežať na Medzinárodnej vesmírnej stanici.
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-Do názvu alebo kódu tímu nezahŕňajte nič z nasledujúceho:
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Čokoľvek, čo by sa dalo interpretovať ako nezákonné, politické alebo citlivé
-+ Vlajky, keďže ich možno považovať za politicky citlivé
-+ Čokoľvek, čo odkazuje na nepríjemnosti alebo ujmu inej osobe
-+ Osobné údaje, ako sú telefónne čísla, sociálne médiá a e-mailové adresy
-+ Obscénne obrázky
-+ Špeciálne znaky alebo emotikony
-+ Vulgárny jazyk alebo nadávky
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
---- task ---
-
-Zadajte kód svojej triedy a názov tímu do poľa v spodnej časti – váš mentor vám povie, aký je váš kód.
-
-![Formulár na odoslanie kódu triedy a názvu tímu](images/submission.png)
-
-**Poznámky pre mentorov** nájdete v kroku [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
-
---- /task ---
-
---- task ---
-
-Stlačením tlačidla **Pridať tím** zadajte svoj kód. Upozorňujeme, že po odoslaní už program nemožno zmeniť.
-
-Váš mentor dostane e-mail na potvrdenie vášho vstupu.
-
---- /task ---
-
---- task ---
-
-Ak chcete, môžete zdieľať odkaz na svoj kód na sociálnych médiách a povedať ľuďom, že kód, ktorý ste napísali, sa spustí vo vesmíre!
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
