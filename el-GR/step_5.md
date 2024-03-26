@@ -1,45 +1,17 @@
 ## Υποβολή της συμμετοχής σου
 
-Τώρα μπορείτε να εισάγετε την πρόκληση [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"}, χρησιμοποιώντας τον κωδικό που έχετε γράψει.
+Τώρα μπορείτε να εισάγετε την πρόκληση [Astro Pi Mission Zero](https://astro-pi.org/el/mission-zero){:target="_blank"}, χρησιμοποιώντας τον κωδικό που έχετε γράψει.
 
-Υπάρχουν μερικοί κανόνες τους οποίους πρέπει να ακολουθεί ο κώδικάς σου, ώστε να μπορείς να τον υποβάλεις για εκτέλεση στον Διεθνή Διαστημικό Σταθμό. Εάν ο κώδικάς σου τους ακολουθεί, οι κανόνες στο κάτω μέρος του εξομοιωτή **Sense HAT** θα ανάψουν με πράσινο χρώμα, όταν εκτελέσεις το πρόγραμμα.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-![Η σελίδα Mission Zero που δείχνει τα κριτήρια ελέγχου για την υποβολή.](images/rules.png)
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-**Συμβουλή:** Δοκίμασε τον κώδικά σου με μερικές διαφορετικές ρυθμίσεις χρωμάτων (χρησιμοποιώντας τον επιλογέα) για να βεβαιωθείς ότι εκτελείται πάντα σωστά.
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-Παρακαλούμε να βεβαιωθείς ότι η υποβολή σου ακολουθεί τις [επίσημες οδηγίες](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} για το Mission Zero. Εάν δεν ακολουθεί τις οδηγίες, το πρόγραμμά σου δεν θα μπορεί να εκτελεστεί στον Διεθνή Διαστημικό Σταθμό.
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-Παρακαλώ μην συμπεριλάβεις κανένα από τα ακόλουθα στο όνομα ή τον κώδικα της ομάδας σου:
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Οτιδήποτε θα μπορούσε να εκληφθεί ως παράνομο, πολιτικό ή ευαίσθητο δεδομένο
-+ Σημαίες, καθώς μπορούν να θεωρηθούν πολιτικά ευαίσθητο δεδομένο
-+ Οτιδήποτε αναφέρεται σε δυσάρεστη συμπεριφορά ή είναι επιβλαβές για ένα άλλο άτομο
-+ Προσωπικά δεδομένα όπως αριθμοί τηλεφώνου, ψευδώνυμα μέσων κοινωνικής δικτύωσης και διευθύνσεις email
-+ Άσεμνες εικόνες
-+ Ειδικούς χαρακτήρες ή emojis
-+ Απρεπείς εκφράσεις ή βρισιές
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
---- task ---
-
-Δώσε τον κωδικό της τάξης σου και το όνομα της ομάδας σου στο πλαίσιο στο κάτω μέρος - ο μέντοράς σου θα σου πει ποιος είναι ο κωδικός σου.
-
-![Κωδικός τάξης και φόρμα υποβολής ονόματος ομάδας](images/submission.png)
-
-**Σημειώσεις για μέντορες** μπορούν να βρεθούν στο βήμα [Εισαγωγή](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0).
-
---- /task ---
-
---- task ---
-
-Πάτα το κουμπί **Add your team** για να δώσεις τον κωδικό σου. Λάβετε υπόψη ότι ένα πρόγραμμα δεν μπορεί να αλλάξει μετά την υποβολή του.
-
-Ο μέντοράς σου θα λάβει ένα email επιβεβαίωσης για την υποβολή σου.
-
---- /task ---
-
---- task ---
-
-Αν θέλετε, μπορείτε να κοινοποιήσετε έναν σύνδεσμο προς τον κώδικά σας στα κοινωνικά μέσα, για να δημοσιεύσετε ότι ο κώδικας που γράψατε θα εκτελεστεί στο διάστημα!
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
