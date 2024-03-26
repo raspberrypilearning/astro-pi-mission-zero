@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Wykryj kolor
-  - 
-    title: Wyślij swoje zgłoszenie
     completion:
       - internal
   - 
-    title: Co dalej — więcej projektów Astro Pi
+    title: Wyślij swoje zgłoszenie
