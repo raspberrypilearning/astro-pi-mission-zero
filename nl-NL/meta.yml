@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Een kleur waarnemen
-  - 
-    title: Verstuur je inzending
     completion:
       - internal
   - 
-    title: Wat nu - meer Astro Pi-projecten
+    title: Verstuur je inzending
