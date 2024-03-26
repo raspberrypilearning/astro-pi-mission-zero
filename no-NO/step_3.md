@@ -10,7 +10,7 @@ En <span style="color: #0faeb0">**LED-matrise**</span> er et rutenett av LED-pæ
 
 --- task ---
 
-Åpne [Mission Zero startprosjektet](http://rpf.io/mzcode){:target="_blank"}.
+Åpne [Mission Zero startprosjektet](https://missions.astro-pi.org/nb/mz/code_submissions/new){:target="_blank"}.
 
 Du vil se at et par kodelinjer er lagt til automatisk for deg.
 
@@ -150,9 +150,9 @@ title: Slange
 language: python filename: main.py
 line_numbers: false
 ---
- c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+  c = (0, 0, 0) # Svart m = (34, 139, 34) # Skoggrønn q = (255, 255, 0) # Gul v = (255, 0, 0) # Rød
 
-image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+  bilde = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
 
 --- /code ---
 
