@@ -1,45 +1,17 @@
 ## Küldd be a munkádat
 
-Most már jelentkezhet a [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} kihívásra az Ön által írt kóddal.
+Most már jelentkezhet a [Astro Pi Mission Zero](https://astro-pi.org/hu/mission-zero){:target="_blank"} kihívásra az Ön által írt kóddal.
 
-Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy beküldhesd a Nemzetközi Űrállomáson való futtatásra. Ha a kódod betartja őket, akkor a **Sense HAT emulátor** alján a szabályok zölddel villannak fel, amikor futtatod a programodat.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-![A Mission Zero oldal, amely a jelentkezési feltételek ellenőrzését mutatja.](images/rules.png)
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-**Tipp:** Teszteld a kódodat különféle színbeállításokkal (használd a színválasztót), hogy megyőződj róla, hogy a programod mindig helyesn fut.
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-Kérjük, győződj meg róla, hogy a munkád betartja a Mission Zero [hivatalos irányelveit](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}. Ha nem tartja be az irányelveket, a programod nem futhat majd a Nemzetközi Űrállomáson.
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-Kérjük, ne használd az alábbiakat a csapatod nevében vagy a kódodban:
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Bármi, ami törvényellenesnek, politikainak vagy érzékenynek értelmezhető
-+ Zászlók, mert azok politikailag érzékenynek tekinthetők
-+ Bármi, ami más személy kellemetlenségére vagy kárára utal
-+ Személyes adatok, pl. telefonszám, közösségi profilnév és e-mail cím
-+ Obszcén képek
-+ Speciális karakterek és emojik
-+ Rossz nyelvezet vagy káromkodás
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
---- task ---
-
-Írd be az osztálytermi kódodat a lenti mezőbe. A tanárod mondja meg majd a kódod.
-
-![Osztálytermi kód és csapatnév beküldésére szolgáló űrlap](images/submission.png)
-
-**A mentorok részére szóló jegyzetek** a [Bevezető](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) lépésben találhatók meg.
-
---- /task ---
-
---- task ---
-
-Nyomd meg az **Csapatod hozzáadása** gombot a kódod beküldéséhez. Kérjük, figyelj rá, hogy a program beküldés után nem változtatható meg.
-
-A mentorod egy e-mailt kap majd a jelentkezésedről.
-
---- /task ---
-
---- task ---
-
-Ha szerenéd, akár meg is oszthatod a kódodhoz tartozó linket a közösségi médián, hogy elújságold az embereknek, hogy a kód, amit írtál, az űrben fog futni!
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
