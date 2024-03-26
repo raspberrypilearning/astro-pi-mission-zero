@@ -1,6 +1,12 @@
-## Du vil gøre
+### Hvad du vil lave
 
-Gennemfør dette projekt for at deltage i Astro Pi Mission Zero-udfordringen og få din kode kørt i rummet på en Astro Pi-computer.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Du vil gøre
 
 Dit projekt vil indstille baggrundsfarven på et billede til den farve, som Astro Pi registrerer. Dette vil gøre den internationale rumstation (ISS) mere farverig for astronauterne om bord. Din kode vil bruge farvelysstyrkesensoren på den nye Mark II Astro Pi-computer Sense HAT til at få dette til at ske.
 
@@ -8,7 +14,7 @@ Her er et eksempel på den slags program, du kan lave til at køre på en Astro 
 
 ![Sense HAT emulatoren kører et prøveprogram med en slange, hvis baggrundsfarve ændrer farvesansen.](images/finished.gif)
 
-### Hvad du vil lave
+### Hardware
 
 Du skal bruge Astro Pi-emulatoren i en webbrowser til at oprette dit program. Du behøver ikke en Astro Pi-computer.
 
@@ -28,7 +34,7 @@ title: Du kommer til at lære følgende
 
 Mission Zero egner sig til begyndere i programmering og/eller grundskolebørn og kan afsluttes i en enkelt 60 minutters session på enhver computer med internetadgang. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
 
-Organiser de unge i hold på en til fire og lad os guide dem gennem at skrive et kort Python-program til at fornemme farven om bord på ISS og skabe et billede, der bruger denne farve.
+Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 Læs de [officielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
