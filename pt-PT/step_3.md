@@ -10,7 +10,7 @@ Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que
 
 --- task ---
 
-Abre o [projeto inicial Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Abre o [projeto inicial Mission Zero](https://missions.astro-pi.org/pt/mz/code_submissions/new){:target="_blank"}.
 
 Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
@@ -150,9 +150,9 @@ title: Serpente
 language: python filename: main.py
 line_numbers: false
 ---
- c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+  c = (0, 0, 0) # Preto m = (34, 139, 34) # Verde floresta q = (255, 255, 0) # Amarelo v = (255, 0, 0) # Vermelho
 
-image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+  imagem = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
 
 --- /code ---
 
