@@ -1,6 +1,12 @@
-## Sa hakkad tegema
+### Sul on vaja
 
-Vii see projekt lõpule, et osaleda Astro Pi Mission Zero väljakutse konkursil ja lasta oma kood Astro Pi arvutis kosmoses käitada.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Sa hakkad tegema
 
 Sinu projekt määrab pildi taustavärviks värvi, mille Astro Pi tuvastab. See muudab rahvusvahelise kosmosejaama (ISS) pardal viibivate astronautide jaoks värvilisemaks. Sinu kood kasutab selle saavutamiseks uue Mark II Astro Pi arvuti Sense HATi värvi heleduse andurit.
 
