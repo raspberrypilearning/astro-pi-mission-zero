@@ -10,7 +10,7 @@ LED matrika računalnika Astro Pi lahko prikazujejo barve. V tem koraku boste pr
 
 --- task ---
 
-Odprite začetni projekt [Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Odprite začetni projekt [Mission Zero](https://missions.astro-pi.org/sl/mz/code_submissions/new){:target="_blank"}.
 
 Opazili boste, da je bilo nekaj vrstic kode dodanih samodejno.
 
@@ -150,9 +150,9 @@ title: Kača
 language: python filename: main.py
 line_numbers: false
 ---
- c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+  c = (0, 0, 0) # Črna m = (34, 139, 34) # Drevesnozelena q = (255, 255, 0) # Rumena v = (255, 0, 0) # Rdeča
 
-image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+  slika = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
 
 --- /code ---
 
