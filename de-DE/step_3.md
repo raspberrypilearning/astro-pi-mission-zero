@@ -150,9 +150,9 @@ title: Schlange
 language: python filename: main.py
 line_numbers: false
 ---
- c = (0, 0, 0) # Schwarz m = (34, 139, 34) # Waldgrün q = (255, 255, 0) # Gelb v = (255, 0, 0) # Rot
+  c = (0, 0, 0) # Schwarz m = (34, 139, 34) # Waldgrün q = (255, 255, 0) # Gelb v = (255, 0, 0) # Rot
 
-bild = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+  bild = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
 
 --- /code ---
 
