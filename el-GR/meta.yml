@@ -17,9 +17,7 @@ steps:
       - αφοσιωμένος/η
   - 
     title: Ανίχνευση ενός χρώματος
+    completion:
+      - internal
   - 
     title: Υποβολή της συμμετοχής σου
-    completion:
-      - εσωτερικός
-  - 
-    title: Τι ακολουθεί — περισσότερα έργα Astro Pi
