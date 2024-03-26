@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Sentir uma cor
-  - 
-    title: Envia a tua participação
     completion:
       - internal
   - 
-    title: O que vem a seguir - mais projetos Astro Pi
+    title: Envia a tua participação
