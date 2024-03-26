@@ -1,45 +1,17 @@
 ## Lähetä ohjelmasi
 
-Voit nyt osallistua [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} -haasteeseen kirjoittamallasi koodilla.
+Voit nyt osallistua [Astro Pi Mission Zero](https://astro-pi.org/fi/mission-zero){:target="_blank"} -haasteeseen kirjoittamallasi koodilla.
 
-On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi Kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, säännöt **Sense HAT -emulaattorin** alareunassa syttyvät vihreinä ohjelmaa ajaessasi.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-![Ruutukaappaus emulaattori-ikkunasta, jossa näkyy lentoyksikön LED-matriisi näyttämässä omaa kuvaansa lentoyksiköstä](images/rules.png)
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-**Vinkki:** Kokeile koodiasi muutamalla eri väriasetuksella (valitsimen avulla) varmistaaksesi, että se toimii aina oikein.
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-Varmista, että työsi noudattaa Mission Zeron [virallisia sääntöjä](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}. Jos se ei noudata sääntöjä, ohjelmaasi ei voida ajaa Kansainvälisellä avaruusasemalla.
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-Älä sisällytä joukkueesi nimeen tai koodiin mitään seuraavista:
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Kaikki mikä voidaan tulkita laittomaksi, poliittiseksi tai arkaluonteiseksi
-+ Lippuja, koska niitä voidaan pitää poliittisesti arkaluonteisina
-+ Kaikki mikä viittaa toisen henkilön haittaamiseen tai vahingoittamiseen
-+ Henkilötietoja kuten puhelinnumeroita, sosiaalisen median tunnuksia tai sähköpostiosoitteita
-+ Siveettömiä kuvia
-+ Erikoismerkkejä tai hymiöitä
-+ Huonoa kieltä tai kiroilua
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
---- task ---
-
-Kirjoita luokkahuonekoodisi ja joukkueesi nimi alhaalla olevaan ruutuun — ohjaajasi kertoo sinulle, mikä koodisi on.
-
-![Luokkahuonekoodin ja joukkueen nimen lähetyslomake](images/submission.png)
-
-**Huomautuksia ohjaajille** löytyy [Johdanto](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0)-vaiheesta.
-
---- /task ---
-
---- task ---
-
-Paina **Lisää joukkueesi** -painiketta syöttääksesi koodisi. Huomioithan, että ohjelmaa ei voi muuttaa enää lähettämisen jälkeen.
-
-Ohjaajasi saa sähköpostin vahvistukseksi ilmoittautumisestasi.
-
---- /task ---
-
---- task ---
-
-Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
