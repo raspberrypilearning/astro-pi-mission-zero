@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Tunnista väri
-  - 
-    title: Lähetä ohjelmasi
     completion:
       - internal
   - 
-    title: Mitä seuraavaksi — lisää Astro Pi -projekteja
+    title: Lähetä ohjelmasi
