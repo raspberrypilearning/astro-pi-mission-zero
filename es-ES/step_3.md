@@ -10,7 +10,7 @@ Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de
 
 --- task ---
 
-Abre el [emulador Sense HAT](https://trinket.io/mission-zero){:target="_blank"} para el proyecto Mission Zero.
+Abre el [proyecto inicial de Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
 Comprobarás que se han añadido automáticamente tres líneas de código.
 
@@ -150,9 +150,9 @@ title: Serpiente
 language: python filename: main.py
 line_numbers: false
 ---
- c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+  c = (0, 0, 0) # Negro m = (34, 139, 34) # Verde bosque q = (255, 255, 0) # Amarillo v = (255, 0, 0) # Rojo
 
-image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+  imagen = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
 
 --- /code ---
 
