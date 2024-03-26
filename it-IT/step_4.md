@@ -19,6 +19,7 @@ Aggiungi il codice prima della lista contenente le immagini per ottenere il colo
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
+
 # Aggiungi variabili di colore e immagine
 
 c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo t = (255, 140, 0) # Arancio scuro y = (255, 20, 147) # Rosa scuro
@@ -59,6 +60,7 @@ Il tuo codice utilizzerà un ciclo `for` per essere eseguito 28 volte. **Ogni** 
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
+
 for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -78,6 +80,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
+
 for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -99,6 +102,7 @@ Nella parte inferiore del codice, aggiungi uno `sleep` di un secondo all'interno
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
+
   # Visualizza l'immagine
 
   sense.set_pixels(image) sleep(1)
@@ -146,6 +150,7 @@ Aggiungi `sense.clear()` alla fine del tuo codice per cancellare l'immagine alla
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
+
   # Visualizza l'immagine
 
   sense.set_pixels(image) sleep(1)
@@ -185,6 +190,7 @@ Puoi mescolare il tuo colore o utilizzare i valori della lista dei colori per cr
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6-7
 ---
+
   # Visualizza l'immagine
 
   sense.set_pixels(image) sleep(1)
