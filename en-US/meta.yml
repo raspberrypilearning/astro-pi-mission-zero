@@ -17,8 +17,6 @@ steps:
       - engaged
   - 
     title: Sense a colour
-  - 
-    title: Submit your entry
     completion:
       - internal
   - 
