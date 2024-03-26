@@ -1,45 +1,17 @@
-## Submit your entry
+## What next — more Astro Pi projects
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/mission-zero){:target="_blank"} challenge, using the code you have written.
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
-There are a few rules your code needs to follow so that you can submit it to be run on the International Space Station. If your code follows them, the rules at the bottom of the **Sense HAT emulator** will light up in green when you run the program.
+If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
 
-![The Mission Zero page showing the criteria checks for entry.](images/rules.png)
+Alternatively you might want to try out one of our other Sense HAT projects:
 
-**Tip:** Test your code with a few different colour settings (using the picker) to make sure it always runs correctly.
++ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
-Please make sure that your entry follows the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero. If it does not follow the guidelines, your program will not be able to run on the International Space Station.
++ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
 
-Please do not include any of the following in your team name or code:
++ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
 
-+ Anything that could be interpreted as being of an illegal, a political, or a sensitive nature
-+ Flags, as they can be considered politically sensitive
-+ Anything that references unpleasantness or harm to another person
-+ Personal data such as telephone numbers, social media handles, and email addresses
-+ Obscene images
-+ Special characters or emojis
-+ Bad language or swearing
++ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
 
---- task ---
-
-Enter your classroom code and team name in the box at the bottom — your mentor will tell you what your code is.
-
-![Classroom code and team name submission form](images/submission.png)
-
-**Notes for mentors** can be found in the [Introduction](https://projects.raspberrypi.org/en/projects/astro-pi-mission-zero/0) step.
-
---- /task ---
-
---- task ---
-
-Press the **Add your team** button to enter your code. Please note that a program cannot be changed once it has been submitted.
-
-Your mentor will get an email to confirm your entry.
-
---- /task ---
-
---- task ---
-
-If you want to, you can share the link to your code on social media to tell people that code which you wrote will be run in space!
-
---- /task ---
++ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
