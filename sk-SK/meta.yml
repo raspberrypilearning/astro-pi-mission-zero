@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Snímanie farby
-  - 
-    title: Odoslať príspevok
     completion:
       - internal
   - 
-    title: Čo ďalej — ďalšie projekty Astro Pi
+    title: Odoslanie príspevku
