@@ -19,6 +19,7 @@ Andurilt värvi saamiseks lisa pildiloendi ette kood ja muuda oma `c` taustavär
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
+
 # Lisa värvi muutujad ja pilt
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
@@ -59,6 +60,7 @@ Sinu kood kasutab `for` tsüklit 28 korda käitamiseks. **Iga** kord see:
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
+
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -78,6 +80,7 @@ Nüüd pead taandama kogu koodi `for` tsükli alla, nii et see paigutuks `for` t
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
+
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -99,6 +102,7 @@ Lisa koodi allossa oma tsüklisse ühe sekundi pikkune `sleep`:
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
@@ -146,6 +150,7 @@ Lisa oma koodi lõppu `sense.clear()`, et oma tsükli lõpus olev pilt tühjenda
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
@@ -185,6 +190,7 @@ Saad oma värvi ise kokku segada või kasutada värvide loendis olevaid väärtu
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6-7
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
