@@ -10,7 +10,7 @@ En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder,
 
 --- task ---
 
-Åbn [Mission Zero startprojektet](http://rpf.io/mzcode){:target="_blank"}.
+Åbn [Mission Zero startprojektet](https://missions.astro-pi.org/da/mz/code_submissions/new){:target="_blank"}.
 
 Her kan du se, at der automatisk er blevet tilføjet tre linjer kode for dig.
 
@@ -150,9 +150,9 @@ title: Slange
 language: python filename: main.py
 line_numbers: false
 ---
- c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+  c = (0, 0, 0) # Sort m = (34, 139, 34) # Skovgrøn q = (255, 255, 0) # Gul v = (255, 0, 0) # Rød
 
-image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+  billede = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
 
 --- /code ---
 
