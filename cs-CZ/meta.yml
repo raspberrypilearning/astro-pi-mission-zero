@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Získej hodnoty ze senzoru
-  - 
-    title: Odešli svůj příspěvek
     completion:
       - internal
   - 
-    title: 'Co dál: Další projekty Astro Pi'
+    title: Odešli svůj příspěvek
