@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Sanse en farge
-  - 
-    title: Send inn bidraget ditt
     completion:
       - internal
   - 
-    title: Hva kommer neste gang - flere Astro Pi-prosjekter
+    title: Send inn bidraget ditt
