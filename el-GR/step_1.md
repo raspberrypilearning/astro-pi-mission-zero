@@ -1,6 +1,12 @@
-## Θα φτιάξεις
+### Θα χρειαστείς
 
-Ολοκλήρωσε αυτό το έργο για να συμμετάσχεις στο Astro Pi Mission Zero και να εκτελέσεις τον κώδικά σου στο διάστημα σε έναν υπολογιστή Astro Pi.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Θα φτιάξεις
 
 Το έργο σου θα ορίσει το χρώμα του φόντου μιας εικόνας σύμφωνα με το χρώμα που ανιχνεύει το Astro Pi. Αυτό θα κάνει τον Διεθνή Διαστημικό Σταθμό (ISS) πιο πολύχρωμο για τους αστροναύτες που βρίσκονται στον σταθμό. Για να το κάνει αυτό, ο κώδικάς σου θα χρησιμοποιήσει τον αισθητήρα φωτεινότητας χρώματος στο νέο Sense HAT του υπολογιστή Mark II Astro Pi.
 
