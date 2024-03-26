@@ -1,6 +1,12 @@
-## Tu irás fazer
+### Mission Zero 2023/24 has now closed.
 
-Conclui este projeto para entrar no desafio Astro Pi Missão Zero e tem o teu código a executar no espaço num computador do Astro Pi.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Tu irás fazer
 
 O teu projeto irá definir a cor de fundo de uma imagem para a cor que o Astro Pi detecte. Isto tornará a Estação Espacial Internacional (ISS) mais colorida para os astronautas a bordo. O teu código vai usar o sensor de luminosidade de cor no novo Sense HAT do computador Mark II Astro Pi, para que isso aconteça.
 
@@ -14,7 +20,7 @@ Irás usar o emulador Astro Pi num navegador da web para criar o teu programa. T
 
 ### Critérios Astro Pi Mission Zero
 
-**Se o teu projeto corresponder aos [critérios de elegibilidade](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, o teu programa concluído será executado na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado.
+**Se o teu projeto corresponder aos [critérios de elegibilidade](https://astro-pi.org/pt/mission-zero/eligibility){:target="_blank"}**, o teu programa concluído será executado na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado.
 
 Vais aprender sobre o computador Astro Pi e como controlá-lo, incluindo como:
 + Crie **variáveis** de cor para usar na tua imagem
@@ -30,7 +36,7 @@ A Mission Zero é adequada para iniciantes em programação e/ou crianças com i
 
 Organize os seus jovens em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um pequeno programa em Python para identificar a cor ambiente na EEI (ISS) e criar uma imagem que use essa cor.
 
-Leia o [documento com as diretrizes oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} da Mission Zero.
+Leia o [documento com as diretrizes oficiais](https://astro-pi.org/pt/mission-zero/guidelines){:target="_blank"} da Mission Zero.
 
 --- /collapse ---
 
