@@ -1,6 +1,12 @@
-## Urobíte
+### Budete potrebovať
 
-Dokončite tento projekt, prihláste sa do výzvy Astro Pi Mission Zero a dosiahnite, aby kód vášho tímu bol spustený vo vesmíre na počítači Astro Pi.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Urobíte
 
 Váš projekt nastaví farbu pozadia obrázka na farbu, ktorú rozpozná počítač Astro Pi. Vďaka tomu bude Medzinárodná vesmírna stanica (ISS) farebnejšia pre kozmonautov na palube. Váš kód na nastavenie farby použije snímač farebnej svietivosti na novom počítači Mark II Astro Pi Sense HAT.
 
