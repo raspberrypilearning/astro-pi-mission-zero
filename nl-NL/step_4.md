@@ -19,6 +19,7 @@ Voeg code toe voor je afbeeldingenlijst om de kleur van de sensor te krijgen en 
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
+
 # Kleurvariabelen en afbeelding toevoegen
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
@@ -59,6 +60,7 @@ Je code gebruikt een `for` lus om 28 keer te worden uitgevoerd. **Elke** keer za
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
+
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -78,6 +80,7 @@ Je moet nu al je code hieronder de `for` lus inspringen zodat deze **in** de `fo
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
+
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -99,6 +102,7 @@ Voeg onderaan je code een `sleep` van één seconde toe in je lus:
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
@@ -146,6 +150,7 @@ Voeg `sense.clear()` aan het einde van de code toe om de afbeelding aan het eind
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
@@ -185,6 +190,7 @@ Je kunt je eigen kleur mengen of de waarden uit de lijst met kleuren gebruiken o
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6-7
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
