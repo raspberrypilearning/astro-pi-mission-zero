@@ -1,6 +1,12 @@
-## Je zal het volgende maken
+### Wat je nodig hebt
 
-Werk dit project af om mee te doen aan Astro Pi Mission Zero en laat je code werken in de ruimte op een Astro Pi-computer.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Jouw project zal de achtergrondkleur van een afbeelding veranderen naar de kleur die de Astro Pi detecteert. Dit zal het internationaal ruimtestation (ISS) kleurrijker maken voor de astronauten aan boord. Je code zal de kleurintensiteitssensor op de Sense HAT van de nieuwe Mark II Astro Pi computer daarvoor gebruiken.
+
+
+
+## Je zal het volgende maken
 
 Jouw project zal de achtergrondkleur van een afbeelding veranderen naar de kleur die de Astro Pi detecteert. Dit zal het internationaal ruimtestation (ISS) kleurrijker maken voor de astronauten aan boord. Je code zal de kleurintensiteitssensor op de Sense HAT van de nieuwe Mark II Astro Pi computer daarvoor gebruiken.
 
