@@ -1,6 +1,12 @@
-## Vei face
+### Ce vei face
 
-Finalizează acest proiect pentru a participa la provocarea Astro Pi Mission Zero și a rula codul tău în spațiu pe un computer Astro Pi.
+You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+
+Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+
+
+
+## Vei face
 
 Proiectul tău va seta culoarea de fundal a unei imagini la culoarea detectată de Astro Pi. Astfel, stația spațială internațională (ISS) va deveni mai colorată pentru astronauții de la bord. Codul tău va folosi senzorul de luminozitate de culoare pe noul calculator Sense HAT al lui Mark II Astro Pi pentru a realiza acest lucru.
 
