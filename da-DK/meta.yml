@@ -17,9 +17,7 @@ steps:
       - engagéret
   - 
     title: Sense en farve
+    completion:
+      - internal
   - 
     title: Indsend dit bidrag
-    completion:
-      - intern
-  - 
-    title: Hvad næste — flere Astro Pi-projekter
