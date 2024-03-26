@@ -19,6 +19,7 @@ Adaugă cod înainte de lista ta de imagini pentru a obține culoarea de la senz
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9-10
 ---
+
 # Adaugă variabile de culoare și imagine
 
 c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
@@ -59,6 +60,7 @@ Codul tău va folosi o buclă `for` pentru a rula de 28 de ori. De **fiecare** d
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 1
 ---
+
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
 image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -78,6 +80,7 @@ Acum trebuie să indentezi tot codul de sub bucla `for` astfel încât să fie *
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 2 - 17
 ---
+
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
@@ -99,6 +102,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 4
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
@@ -146,6 +150,7 @@ Adaugă `sense.clear()` la sfârșitul codului tău pentru a șterge imaginea de
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
@@ -185,6 +190,7 @@ Poți să amesteci propria culoare sau să folosești valorile din lista de culo
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 6-7
 ---
+
   # Display the image
 
   sense.set_pixels(image) sleep(1)
