@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Känn en färg
-  - 
-    title: Skicka ditt bidrag
     completion:
       - internal
   - 
-    title: 'Utmaning: fler Astro Pi-projekt'
+    title: Skicka ditt bidrag
