@@ -17,9 +17,7 @@ steps:
       - engaged
   - 
     title: Añade un poco de color
-  - 
-    title: Muestra una imagen
     completion:
       - internal
   - 
-    title: Mide la humedad
+    title: Envía tu proyecto
