@@ -1,3 +1,7 @@
+### A Missão Zero 2023/24 já foi encerrada.
+
+Ainda poderás concluir a atividade, mas não poderás enviar o teu programa para execução na EEI ( Estação Espacial Internacional). A próxima ronda de desafios será lançada em Setembro de 2024. Verifica as redes sociais e inscreve-te na newsletter do site [Astro Pi](https://astro-pi.org/mission-zero/) para atualizações.
+
 ## Tu irás fazer
 
 Conclui este projeto para entrar no desafio Astro Pi Mission Zero e tem o teu código a executar no espaço num computador do Astro Pi.

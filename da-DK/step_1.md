@@ -1,3 +1,7 @@
+### Mission Zero 2023/24 er nu afsluttet.
+
+Du kan stadig fuldføre aktiviteten, men vil ikke være i stand til at indsende dit program og få det kørt på ISS. Den næste runde af udfordringen lanceres i september 2024. Tjek sociale medier og tilmeld dig nyhedsbrevet på [Astro Pi's hjemmeside](https://astro-pi.org/mission-zero/) for opdateringer.
+
 ## Du vil gøre
 
 Gennemfør dette projekt for at deltage i Astro Pi Mission Zero-udfordringen og få din kode kørt i rummet på en Astro Pi-computer.

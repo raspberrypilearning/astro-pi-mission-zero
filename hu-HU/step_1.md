@@ -1,3 +1,7 @@
+### A 2023-24-es Mission Zero most lezárult.
+
+Továbbra is elvégezheted a tevékenységet, de már nem fogod tudni beküldeni a programodat, hogy az ISS-en fusson. A kihívás következő fordulója 2024 szeptemberében indul. Figyeld a közösségi médiát, és iratkozz fel a hírlevelünkre az [Astro Pi honlapon](https://astro-pi.org/mission-zero/).
+
 ## Amit el fogsz készíteni
 
 Készítsd el a projektet, hogy részt vehess az Astro Pi Mission Zerón kihívás, és hogy a kódod az űrben futhasson egy Astro Pi számítógépen.

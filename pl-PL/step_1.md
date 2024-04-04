@@ -1,3 +1,7 @@
+### Mission Zero 2023/24 zostało zamknięte.
+
+Nadal możesz ukończyć zadanie, ale nie będziesz mógł przesłać swojego programu do uruchomienia na ISS. Kolejna runda wyzwania rozpocznie się we wrześniu 2024 r. Sprawdź media społecznościowe i zapisz się do newslettera na stronie internetowej [Astro Pi](https://astro-pi.org/mission-zero/), aby otrzymywać nowości.
+
 ## Co będziesz robić
 
 Ukończ ten projekt, aby wziąć udział w wyzwaniu Astro Pi Mission Zero i uruchomić kod w kosmosie na komputerze Astro Pi.
