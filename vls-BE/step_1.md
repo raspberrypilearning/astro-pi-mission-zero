@@ -1,3 +1,7 @@
+### Mission Zero 2023/24 is nu afgesloten.
+
+Je kan de activiteit nog afwerken maar je kan je programma niet meer indienen om te werken op het ISS. De volgende ronde van de uitdaging zal starten in september 2024. Hou sociale media in de gaten en schrijf je in voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/mission-zero/) om updates te ontvangen.
+
 ## Je zal het volgende maken
 
 Werk dit project af om mee te doen aan Astro Pi Mission Zero en laat je code werken in de ruimte op een Astro Pi-computer.

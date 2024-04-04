@@ -1,3 +1,7 @@
+### Mission Zero 2023/24 è conclusa.
+
+Puoi ancora completare l'attività ma non sarai in grado di eseguire il tuo programma sulla ISS. La prossima fase della sfida inizierà a settembre 2024. Controlla i social media e iscriviti alla newsletter sul [sito Astro Pi](https://astro-pi.org/mission-zero/) per gli aggiornamenti.
+
 ## Quello che farai
 
 Completa questo progetto per entrare nella sfida Astro Pi Mission Zero e far girare il codice nello spazio su un computer Astro Pi.

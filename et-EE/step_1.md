@@ -1,3 +1,7 @@
+### Mission Zero 2023/24 on nüüd suletud.
+
+Saad tegevuse siiski lõpule viia, kuid sa ei saa oma programmi ISS-is käitamiseks esitada. Väljakutse järgmine voor algab 2024. aasta septembris. Jälgi värskeima teabe saamiseks sotsiaalmeediat ja registreeru [Astro Pi veebisaidil](https://astro-pi.org/mission-zero/) uudiskirja saamiseks.
+
 ## Sa hakkad tegema
 
 Vii see projekt lõpule, et osaleda Astro Pi Mission Zero väljakutse konkursil ja lasta oma kood Astro Pi arvutis kosmoses käitada.
