@@ -94,7 +94,7 @@ c, c, a, a, a, a, c, c]
 title: Elephant
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/flower.png)
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 ```python
 main.py 
@@ -120,25 +120,26 @@ image = [
 title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/crab.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 ```python
 Main.py
-y = (255, 255, 0) # yellow
-e = (0, 112, 192) # CornflowerBlue
-g = (112, 173, 71) # green
-w = (255, 255, 255) # white
-o =  (255, 192, 0)
+a = (255, 255, 255) # White
+c = (0, 0, 0 # Black
+n = (154, 205, 50) # YellowGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
  
-    image = [   
-      y, y, e, g, e, e, w, e,
-      y, e, e, g, e, w, w, w,
-      e, g, e, g, e, e, e, e,
-      e, g, g, g, e, g, e, e,
-      e, w, g, g, g, g, e, e,
-      w, w, w, g, e, w, e, e,
-      e, e, e, g, w, w, w, e,
-      o, o, o, o, o, o, o, o]
+image = [   
+  q, q, c n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
+
 
 ```
 
@@ -152,12 +153,8 @@ title: Crocodile
 
 ![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
 f = (25, 25, 112) # MidnightBlue
@@ -173,7 +170,7 @@ image = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
+```
  
  
 --- /collapse ---
@@ -183,7 +180,7 @@ image = [
 title: Rainbow
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/snake.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
 ```python
 Main.py.
@@ -215,7 +212,7 @@ rainbow = [
 title: Dragon
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/frog.png)
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 ```python
 main.py
@@ -246,28 +243,26 @@ image = [
 
 **Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
 image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Display the image 
 sense.set_pixels(image)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -295,4 +290,12 @@ My image does not appear:
 --- /task ---
 
 
+--- task --- 
 
+**Save your progress** 
+
+Now that you have displayed an image you can save your program on the Mission Starter project by entering your team name, members, and the classroom-code given to you. You can reload your program on any device with an internet connection by entering your team name and class-room code. 
+
+![Mission Zero Save button](images/savebutton.png)
+
+--- /task --- 
