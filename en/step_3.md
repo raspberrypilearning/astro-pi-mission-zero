@@ -63,37 +63,30 @@ You will need to **copy** all of the code for your chosen image then **paste** i
 --- collapse ---
 
 ---
-title: Chicken
+title: Fox
 ---
 
 ![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White
+```python
+main.py
 c = (0, 0, 0) # Black
-e = (0, 0, 205) # MediumBlue
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-w = (255, 192, 203) # Pink
+a = (255, 255, 255) # white
+t = (255, 140, 0) # dark orange
 
 image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, t, t, c, c, t, t, t,
+t, t, t, c, c, t, t, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
+
 
 --- collapse ---
 
