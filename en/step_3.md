@@ -66,7 +66,7 @@ You will need to **copy** all of the code for your chosen image then **paste** i
 title: Fox
 ---
 
-![A grid with 8 x 8 squares showing a chick in an egg.](images/chick.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz2.png)
 
 ```python
 main.py
