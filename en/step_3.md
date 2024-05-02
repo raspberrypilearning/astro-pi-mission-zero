@@ -66,7 +66,7 @@ You will need to **copy** all of the code for your chosen image then **paste** i
 title: Fox
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz2.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 ```python
 main.py
@@ -131,7 +131,7 @@ q = (255, 255, 0) # Yellow
 t = (255, 140, 0) # DarkOrange
  
 image = [   
-  q, q, c n, c, c, a, c,
+  q, q, c, n, c, c, a, c,
   q, c, c, n, c, a, a, a,
   c, n, c, n, c, c, c, c,
   c, n, n, n, c, n, c, c,
