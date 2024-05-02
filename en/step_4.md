@@ -273,7 +273,7 @@ sense.clear(x)
 title: Completed code example
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/crocodile.png)
+![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
 
 --- code ---
 ---
