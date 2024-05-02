@@ -69,14 +69,13 @@ title: Fox
 ![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 ```python
-main.py
 c = (0, 0, 0) # Black
 a = (255, 255, 255) # white
 t = (255, 140, 0) # dark orange
 
 image = [
-t, t, t, c, c, t, t, t,
-t, t, t, c, c, t, t, t,
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
 t, t, t, t, t, t, t, t,
 t, a, c, t, t, c, a, t,
 t, t, t, t, t, t, t, t,
@@ -97,7 +96,6 @@ title: Elephant
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 ```python
-main.py 
 c = (0, 0, 0) # Black
 b = (105, 105, 105) # dark grey
 a = (255, 255, 255) # white
@@ -123,7 +121,6 @@ title: Cactus
 ![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 ```python
-Main.py
 a = (255, 255, 255) # White
 c = (0, 0, 0 # Black
 n = (154, 205, 50) # YellowGreen
@@ -183,7 +180,7 @@ title: Rainbow
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
 ```python
-Main.py.
+
 ​​c = (0, 0, 0) # Black
 a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
@@ -215,8 +212,7 @@ title: Dragon
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 ```python
-main.py
-# Colour palette
+
 b = (105, 105, 105) # DimGray
 c = (0, 0, 0) # Black
 d = (100, 149, 237) # CornflowerBlue
