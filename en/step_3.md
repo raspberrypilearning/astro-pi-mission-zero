@@ -91,65 +91,56 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Flower
+title: Elephant
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![A grid with 8 x 8 squares showing an elephant.](images/flower.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+main.py 
 c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-y = (255, 20, 147) # DeepPink
-
+b = (105, 105, 105) # dark grey
+a = (255, 255, 255) # white
+    
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Crab
+title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a crab.](images/crab.png)
+![A grid with 8 x 8 squares showing a cactus.](images/crab.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-v = (255, 0, 0) # Red
-
-image = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+```python
+Main.py
+y = (255, 255, 0) # yellow
+e = (0, 112, 192) # CornflowerBlue
+g = (112, 173, 71) # green
+w = (255, 255, 255) # white
+o =  (255, 192, 0)
  
---- /code ---
+    image = [   
+      y, y, e, g, e, e, w, e,
+      y, e, e, g, e, w, w, w,
+      e, g, e, g, e, e, e, e,
+      e, g, g, g, e, g, e, e,
+      e, w, g, g, g, g, e, e,
+      w, w, w, g, e, w, e, e,
+      e, e, e, g, w, w, w, e,
+      o, o, o, o, o, o, o, o]
+
+```
 
 --- /collapse ---
  
@@ -189,67 +180,63 @@ image = [
  
 --- collapse ---
 ---
-title: Snake
+title: Rainbow
 ---
 
-![A grid with 8 x 8 squares showing a snake.](images/snake.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/snake.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-  c = (0, 0, 0) # Black
-  m = (34, 139, 34) # ForestGreen
-  q = (255, 255, 0) # Yellow
-  v = (255, 0, 0) # Red
+```python
+Main.py.
+​​c = (0, 0, 0) # Black
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+l = (0, 255, 127) # SpringGreen
+e = (0, 0, 205) # MediumBlue
 
-  image = [
-    c, c, c, c, c, c, c, m,
-    c, m, m, m, m, m, m, m,
-    c, m, c, c, c, c, c, c,
-    c, m, m, m, m, m, c, c,
-    c, c, c, c, c, m, c, c,
-    q, m, q, m, m, m, c, c,
-    m, m, m, c, c, c, c, c,
-    v, c, c, c, c, c, c, c]
-  
---- /code ---
+rainbow = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Frog
+title: Dragon
 ---
 
-![A grid with 8 x 8 squares showing a frog.](images/frog.png)
+![A grid with 8 x 8 squares showing a dragon.](images/frog.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
+```python
+main.py
+# Colour palette
+b = (105, 105, 105) # DimGray
 c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
+d = (100, 149, 237) # CornflowerBlue
 v = (255, 0, 0) # Red
+z = (153, 50, 204) # DarkOrchid
 
 image = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
