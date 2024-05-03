@@ -68,6 +68,8 @@ title: Fox
 
 ![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
+Created by team i_pupi, Italy
+
 ```python
 c = (0, 0, 0) # Black
 a = (255, 255, 255) # white
@@ -95,6 +97,8 @@ title: Elephant
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
+Created by team ILiFanT, Finland
+
 ```python
 c = (0, 0, 0) # Black
 b = (105, 105, 105) # dark grey
@@ -120,6 +124,8 @@ title: Cactus
 
 ![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
+Created by team 6TETHASI, The Netherlands
+
 ```python
 a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
@@ -136,7 +142,6 @@ image = [
   a, a, a, n, c, a, a, a,
   c, c, c, n, a, a, a, c,
   t, t, t, t, t, t, t, t]
-
 
 ```
 
@@ -169,7 +174,6 @@ image = [
 
 ```
  
- 
 --- /collapse ---
  
 --- collapse ---
@@ -179,9 +183,11 @@ title: Rainbow
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
+Created by team camrus_6, United Kingdom
+
 ```python
 
-​​c = (0, 0, 0) # Black
+c = (100, 149, 237) # CornflowerBlue
 a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
 t = (255, 140, 0) # DarkOrange
@@ -210,6 +216,8 @@ title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+
+Created by team hwplucyr, United Kingdom
 
 ```python
 
