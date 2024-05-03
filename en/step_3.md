@@ -122,7 +122,7 @@ title: Cactus
 
 ```python
 a = (255, 255, 255) # White
-c = (0, 0, 0 # Black
+c = (0, 0, 0) # Black
 n = (154, 205, 50) # YellowGreen
 q = (255, 255, 0) # Yellow
 t = (255, 140, 0) # DarkOrange
