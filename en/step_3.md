@@ -298,7 +298,7 @@ My image does not appear:
 
 **Save your progress** 
 
-Now that you have displayed an image you can save your program on the Mission Starter project by entering your team name, members, and the classroom-code given to you. You can reload your program on any device with an internet connection by entering your team name and class-room code. 
+Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code. 
 
 ![Mission Zero Save button](images/savebutton.png)
 
