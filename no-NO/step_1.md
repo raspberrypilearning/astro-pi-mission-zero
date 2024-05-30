@@ -1,8 +1,8 @@
-### Du vil trenge
+### Mission Zero 2023/24 er nå avsluttet.
 
 You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
 
-Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+Fullfør dette prosjektet for å gå inn i Astro Pi-Mission Zero-utfordringen og få din kode kjørt i verdensrommet på en Astro Pi-datamaskin.
 
 
 
@@ -36,7 +36,7 @@ Mission Zero egner seg for programmering og/eller barn som er skoleeldre og kan 
 
 Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
-Les [offisielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
 
