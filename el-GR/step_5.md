@@ -2,7 +2,7 @@
 
 Τώρα μπορείτε να εισάγετε την πρόκληση [Astro Pi Mission Zero](https://astro-pi.org/el/mission-zero){:target="_blank"}, χρησιμοποιώντας τον κωδικό που έχετε γράψει.
 
-If you're feeling confident, you could take part in [Mission Space Lab](https://astro-pi.org/missions/space-lab/)! Form a team of two to six people, and work together like real space scientists to design your own experiment. The best ideas submitted will receive an Astro Pi kit to use to help with your mission.
+If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
 
 Alternatively you might want to try out one of our other Sense HAT projects:
 
