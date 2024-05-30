@@ -2,7 +2,7 @@
 
 Voit silti tehdä haasteen loppuun, mutta et voi lähettää ohjelmaasi ISS:llä ajettavaksi. Seuraava kierros haasteesta alkaa syyskuussa 2024. Tarkista sosiaalinen media ja tilaa uutiskirje [Astro Pi -sivustolla](https://astro-pi.org/mission-zero/) saadaksesi päivityksiä.
 
-Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+Suorita tämä projekti osallistuaksesi Astro Pi Mission Zero -haasteeseen ja koodisi ajetaan avaruudessa Astro Pi -tietokoneella.
 
 
 
