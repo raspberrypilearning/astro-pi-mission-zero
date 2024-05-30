@@ -60,59 +60,61 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 title: Galinha
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando um pintainho num ovo.](images/chick.png)
+![Uma grelha com quadrados de 8 x 8 mostrando um pintainho num ovo.](images/fox_mz3.png)
 
---- code ---
+Created by team i_pupi, Italy
+
+```python
+a = (255, 255, 255) # Branco
+c = (0, 0, 0) # Preto
+v = (255, 0, 0) # Vermelho
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
 ---
-language: python filename: main.py
-line_numbers: false
+title: Sapo
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+![Uma grelha com quadrados de 8 x 8 mostrando um sapo.](images/elephant.png)
 
---- /code ---
+Created by team ILiFanT, Finland
+
+```python
+imagem = [
+  c, c, c, q, q, q, c, c,
+  c, c, t, q, e, q, c, c,
+  c, c, c, q, q, q, c, c,
+  c, w, w, w, w, w, w, c,
+  c, w, a, a, a, a, w, c,
+  c, w, a, a, a, a, w, c,
+  c, c, w, a, a, w, c, c,
+  c, c, c, w, w, c, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Flor
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando uma flor cor-de-rosa com um caule verde.](images/flower.png)
+![Uma grelha com quadrados de 8 x 8 mostrando uma flor cor-de-rosa com um caule verde.](images/cactus.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+Created by team 6TETHASI, The Netherlands
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+```python
+a = (255, 255, 255) # Branco
+c = (0, 0, 0) # Preto
+e = (0, 0, 205) # Azul Médio
+q = (255, 255, 0) # Amarelo
+t = (255, 140, 0) # Laranja escuro
+w = (255, 192, 203) # Cor de rosa
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Caranguejo
----
-
-![Uma grelha com quadrados de 8 x 8 mostrando um caranguejo.](images/crab.png)
-
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
-
-image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -124,17 +126,35 @@ title: Crocodilo
 
 ![Uma grelha com quadrados de 8 x 8 mostrando uma cabeçao de crocodilo.](images/croc.png)
 
---- code ---
+```python
+
+a = (255, 255, 255) # Branco
+c = (0, 0, 0) # Preto
+f = (25, 25, 112) # Azul da meia noite
+m = (34, 139, 34) # Verde floresta
+
+```
+
+--- /collapse ---
+
+--- collapse ---
 ---
-language: python filename: main.py
-line_numbers: false
+title: Caranguejo
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
-image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+![Uma grelha com quadrados de 8 x 8 mostrando uma serpente.](images/rainbow.png)
 
---- /code ---
+Created by team camrus_6, United Kingdom
 
+```python
+
+c = (0, 0, 0) # Preto
+m = (34, 139, 34) # Verde floresta
+q = (255, 255, 0) # Amarelo
+t = (255, 140, 0) # Laranja escuro
+y = (255, 20, 147) # Rosa escuro
+
+```
 
 --- /collapse ---
 
@@ -143,38 +163,29 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Serpente
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando uma serpente.](images/snake.png)
+![Uma grelha com quadrados de 8 x 8 mostrando um caranguejo.](images/dragon.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-  c = (0, 0, 0) # Preto m = (34, 139, 34) # Verde floresta q = (255, 255, 0) # Amarelo v = (255, 0, 0) # Vermelho
+Created by team hwplucyr, United Kingdom
 
-  imagem = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+```python
 
---- /code ---
+b = (105, 105, 105) # DimGray
+c = (0, 0, 0) # Black
+d = (100, 149, 237) # CornflowerBlue
+v = (255, 0, 0) # Red
+z = (153, 50, 204) # DarkOrchid
 
---- /collapse ---
+image = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- collapse ---
----
-title: Sapo
----
-
-![Uma grelha com quadrados de 8 x 8 mostrando um sapo.](images/frog.png)
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start:
-line_highlights:
----
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
-
-image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -184,17 +195,13 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 **Encontra:** a linha que diz `# Mostrar a imagem` e adiciona uma linha de código para mostrar a tua imagem na matriz de LEDs:
 
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 12
----
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+```python
+c = (0, 0, 0) # Preto
+m = (34, 139, 34) # Verde floresta
+q = (255, 255, 0) # Amarelo
+v = (255, 0, 0) # Vermelho
 
-# Mostrar a imagem
-sense.set_pixels(image)
-
-+-*/!"#$&gt;&lt;0123456789.=)(
+```
 
 --- /task ---
 
@@ -222,4 +229,12 @@ A minha imagem não aparece:
 --- /task ---
 
 
+--- task ---
 
+**Save your progress**
+
+Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button](images/savebutton.png)
+
+--- /task --- 
