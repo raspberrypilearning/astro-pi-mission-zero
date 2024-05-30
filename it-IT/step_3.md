@@ -60,59 +60,57 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 title: Pollo
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un pulcino in un uovo.](images/chick.png)
+![Una griglia con 8 x 8 quadrati che mostra un pulcino in un uovo.](images/fox_mz3.png)
 
---- code ---
+Created by team i_pupi, Italy
+
+```python
+c = (0, 0, 0) # Nero 
+m = (34, 139, 34) # Verde bosco 
+q = (255, 255, 0) # Giallo 
+t = (255, 140, 0) # Arancio scuro 
+y = (255, 20, 147) # Rosa scuro
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
 ---
-language: python filename: main.py
-line_numbers: false
+title: Serpente
 ---
-a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero e = (0, 0, 205) # Blu Medio q = (255, 255, 0) # Giallo t = (255, 140, 0) # Arancio scuro w = (255, 192, 203) # Rosa
 
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+![Una griglia con 8 x 8 quadrati che mostra una rana.](images/elephant.png)
 
---- /code ---
+Created by team ILiFanT, Finland
+
+```python
+a = (255, 255, 255) # Bianco 
+c = (0, 0, 0) # Nero 
+v = (255, 0, 0) # Rosso
+```
 
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Fiore
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/flower.png)
+![Una griglia con 8 x 8 quadrati che mostra un granchio.](images/cactus.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo t = (255, 140, 0) # Arancio scuro y = (255, 20, 147) # Rosa scuro
+Created by team 6TETHASI, The Netherlands
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+```python
+a = (255, 255, 255) # Bianco 
+c = (0, 0, 0) # Nero 
+e = (0, 0, 205) # Blu Medio 
+q = (255, 255, 0) # Giallo 
+t = (255, 140, 0) # Arancio scuro
+w = (255, 192, 203) # Rosa
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Granchio
----
-
-![Una griglia con 8 x 8 quadrati che mostra un granchio.](images/crab.png)
-
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero v = (255, 0, 0) # Rosso
-
-image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -124,37 +122,14 @@ title: Coccodrillo
 
 ![Una griglia con 8 x 8 quadrati che mostra una testa di coccodrillo.](images/croc.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero f = (25, 25, 112) # Blu notte m = (34, 139, 34) # Verde bosco
+```python
 
-image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+a = (255, 255, 255) # Bianco 
+c = (0, 0, 0) # Nero 
+f = (25, 25, 112) # Blu notte 
+m = (34, 139, 34) # Verde bosco
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Serpente
----
-
-![Una griglia con 8 x 8 quadrati che mostra un serpente.](images/snake.png)
-
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-  c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo v = (255, 0, 0) # Rosso
-
-  immagine = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -163,18 +138,49 @@ line_numbers: false
 title: Rana
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra una rana.](images/frog.png)
+![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/rainbow.png)
 
---- code ---
+Created by team camrus_6, United Kingdom
+
+```python
+
+c = (0, 0, 0) # Nero 
+ m = (34, 139, 34) # Verde bosco 
+ q = (255, 255, 0) # Giallo 
+ v = (255, 0, 0) # Rosso
+
+```
+
+--- /collapse ---
+
+--- collapse ---
 ---
-language: python filename: main.py line_numbers: false line_number_start:
-line_highlights:
+title: Granchio
 ---
-c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo v = (255, 0, 0) # Rosso
 
-image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
+![Una griglia con 8 x 8 quadrati che mostra un serpente.](images/dragon.png)
 
---- /code ---
+Created by team hwplucyr, United Kingdom
+
+```python
+
+b = (105, 105, 105) # DimGray
+c = (0, 0, 0) # Black
+d = (100, 149, 237) # CornflowerBlue
+v = (255, 0, 0) # Red
+z = (153, 50, 204) # DarkOrchid
+
+image = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
+
+```
 
 --- /collapse ---
 
@@ -184,17 +190,13 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 **Trova:** la riga che dice `# Visualizza l'immagine` e aggiungi una riga di codice per visualizzare la tua immagine sulla matrice LED:
 
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 12
----
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+```python
+c = (0, 0, 0) # Nero 
+m = (34, 139, 34) # Verde bosco 
+q = (255, 255, 0) # Giallo 
+v = (255, 0, 0) # Rosso
 
-# Mostra l'immagine
-sense.set_pixels(image)
-
---- /code ---
+```
 
 --- /task ---
 
@@ -222,4 +224,12 @@ La mia immagine non viene visualizzata:
 --- /task ---
 
 
+--- task ---
 
+**Save your progress**
+
+Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button](images/savebutton.png)
+
+--- /task --- 
