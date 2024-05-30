@@ -60,59 +60,57 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 title: Kip
 ---
 
-![Een raster met 8 x 8 vierkanten met een kuiken in een ei.](images/chick.png)
+![Een raster met 8 x 8 vierkanten met een kuiken in een ei.](images/fox_mz3.png)
 
---- code ---
+Created by team i_pupi, Italy
+
+```python
+a = (255, 255, 255) # Wit
+c = (0, 0, 0) # Zwart
+v = (255, 0, 0) # Rood
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
 ---
-language: python filename: main.py
-line_numbers: false
+title: Slang
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+![Een raster met 8 x 8 vierkanten met een slang.](images/elephant.png)
 
---- /code ---
+Created by team ILiFanT, Finland
+
+```python
+c = (0, 0, 0) # Zwart
+m = (34, 139, 34) # Bosgroen
+q = (255, 255, 0) # Geel
+t = (255, 140, 0) # Donkeroranje
+y = (255, 20, 147) # Donkerroze
+```
 
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Bloem
 ---
 
-![Een raster met 8 x 8 vierkanten met een roze bloem op een groene stengel.](images/flower.png)
+![Een raster met 8 x 8 vierkanten met een kikker.](images/cactus.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+Created by team 6TETHASI, The Netherlands
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+```python
+a = (255, 255, 255) # Wit
+c = (0, 0, 0) # Zwart
+e = (0, 0, 205) # Middelblauw
+q = (255, 255, 0) # Geel
+t = (255, 140, 0) # Donkeroranje
+w = (255, 192, 203) # Roze
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Krab
----
-
-![Een raster met 8 x 8 vierkanten met daarop een krab.](images/crab.png)
-
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
-
-image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -124,37 +122,34 @@ title: Krokodil
 
 ![Een raster met 8 x 8 vierkanten met een krokodillenkop.](images/croc.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
+```python
 
-image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+a = (255, 255, 255) # Wit
+c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # Bosgroen
 
---- /code ---
-
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Slang
+title: Krab
 ---
 
-![Een raster met 8 x 8 vierkanten met een slang.](images/snake.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-  c = (0, 0, 0) # Zwart m = (34, 139, 34) # Bosgroen q = (255, 255, 0) # Geel v = (255, 0, 0) # Rood
+Created by team camrus_6, United Kingdom
 
-  afbeelding = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+```python
 
---- /code ---
+c = (0, 0, 0) # Zwart
+m = (34, 139, 34) # Bosgroen
+q = (255, 255, 0) # Geel
+v = (255, 0, 0) # Rood
+
+```
 
 --- /collapse ---
 
@@ -163,18 +158,29 @@ line_numbers: false
 title: Kikker
 ---
 
-![Een raster met 8 x 8 vierkanten met een kikker.](images/frog.png)
+![Een raster met 8 x 8 vierkanten met daarop een krab.](images/dragon.png)
 
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start:
-line_highlights:
----
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
+Created by team hwplucyr, United Kingdom
 
-image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
+```python
 
---- /code ---
+b = (105, 105, 105) # DimGray
+c = (0, 0, 0) # Black
+d = (100, 149, 237) # CornflowerBlue
+v = (255, 0, 0) # Red
+z = (153, 50, 204) # DarkOrchid
+
+image = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
+
+```
 
 --- /collapse ---
 
@@ -184,17 +190,13 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 **Zoek:** de regel `# Toon de afbeelding` en voeg code toe om je afbeelding op de LED matrix weer te geven:
 
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 12
----
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+```python
+c = (0, 0, 0) # Zwart
+ m = (34, 139, 34) # Bosgroen
+ q = (255, 255, 0) # Geel
+ v = (255, 0, 0) # Rood
 
-# Geef de afbeelding weer
-sense.set_pixels(image)
-
---- /code ---
+```
 
 --- /task ---
 
@@ -222,4 +224,12 @@ Mijn afbeelding verschijnt niet:
 --- /task ---
 
 
+--- task ---
 
+**Save your progress**
+
+Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button](images/savebutton.png)
+
+--- /task --- 
