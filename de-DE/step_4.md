@@ -28,6 +28,7 @@ rgb = sense.color # erhalte die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.bl
 
 bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
+
 --- /code ---
 
 --- /task ---
@@ -65,6 +66,7 @@ for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, 
 
 bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
 
+
 --- /code ---
 
 --- /task ---
@@ -84,6 +86,7 @@ line_highlights: 2 - 17
 for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
   # Das Bild anzeigen
 
@@ -207,6 +210,18 @@ x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0
 
 --- /task ---
 
+
+--- task ---
+
+**Save your progress**
+
+You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button screengrab](images/save_button.png)
+
+--- /task ---
+
+
 --- task ---
 
 --- collapse ---
@@ -215,7 +230,7 @@ x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0
 title: Vollständiges Code-Beispiel
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die eine rosa Blume auf einem grünen Stiel zeigen.](images/flower.png)
+![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
 
 --- code ---
 ---
@@ -238,6 +253,7 @@ c = (0, 0, 0) # Schwarz m = (34, 139, 34) # Waldgrün q = (255, 255, 0) # Gelb t
 for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
   # Das Bild anzeigen
 
