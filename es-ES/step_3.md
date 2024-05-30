@@ -60,59 +60,57 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 title: Pollo
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un pollito en un huevo.](images/chick.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un pollito en un huevo.](images/fox_mz3.png)
 
---- code ---
+Created by team i_pupi, Italy
+
+```python
+c = (0, 0, 0) # Negro
+m = (34, 139, 34) # Verde bosque
+q = (255, 255, 0) # Amarillo
+t = (255, 140, 0) # Naranja oscuro
+y = (255, 20, 147) # Rosa profundo
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
 ---
-language: python filename: main.py
-line_numbers: false
+title: Rana
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+![Una cuadrícula con cuadrados de 8 x 8 que muestra una serpiente.](images/elephant.png)
 
---- /code ---
+Created by team ILiFanT, Finland
+
+```python
+a = (255, 255, 255) # Blanco
+c = (0, 0, 0) # Negro
+v = (255, 0, 0) # Rojo
+```
 
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Flor
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una flor rosada con un tallo verde.](images/flower.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra una flor rosada con un tallo verde.](images/cactus.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+Created by team 6TETHASI, The Netherlands
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+```python
+a = (255, 255, 255) # Blanco
+c = (0, 0, 0) # Negro
+e = (0, 0, 205) # Azul medio
+q = (255, 255, 0) # Amarillo
+t = (255, 140, 0) # Naranja oscuro
+w = (255, 192, 203) # Rosado
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Cangrejo
----
-
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un cangrejo.](images/crab.png)
-
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
-
-image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -124,17 +122,34 @@ title: Cocodrilo
 
 ![Una cuadrícula con cuadrados de 8 x 8 que muestra la cabeza de un cocodrilo.](images/croc.png)
 
---- code ---
+```python
+
+a = (255, 255, 255) # Blanco
+c = (0, 0, 0) # Negro
+f = (25, 25, 112) # Azul medianoche
+m = (34, 139, 34) # Verde bosque
+
+```
+
+--- /collapse ---
+
+--- collapse ---
 ---
-language: python filename: main.py
-line_numbers: false
+title: Cangrejo
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
-image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+![Una cuadrícula con cuadrados de 8 x 8 que muestra una rana.](images/rainbow.png)
 
---- /code ---
+Created by team camrus_6, United Kingdom
 
+```python
+
+c = (0, 0, 0) # Negro
+m = (34, 139, 34) # Verde bosque
+q = (255, 255, 0) # Amarillo
+v = (255, 0, 0) # Rojo
+
+```
 
 --- /collapse ---
 
@@ -143,38 +158,29 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 title: Serpiente
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una serpiente.](images/snake.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un cangrejo.](images/dragon.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-  c = (0, 0, 0) # Negro m = (34, 139, 34) # Verde bosque q = (255, 255, 0) # Amarillo v = (255, 0, 0) # Rojo
+Created by team hwplucyr, United Kingdom
 
-  imagen = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
+```python
 
---- /code ---
+b = (105, 105, 105) # DimGray
+c = (0, 0, 0) # Black
+d = (100, 149, 237) # CornflowerBlue
+v = (255, 0, 0) # Red
+z = (153, 50, 204) # DarkOrchid
 
---- /collapse ---
+image = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- collapse ---
----
-title: Rana
----
-
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una rana.](images/frog.png)
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start:
-line_highlights:
----
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
-
-image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -184,17 +190,13 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 **Buscar:** la línea que dice `# Mostrar la imagen` y añade una línea de código para mostrar la imagen en la matriz LED:
 
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 12
----
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+```python
+c = (0, 0, 0) # Negro
+ m = (34, 139, 34) # Verde bosque
+ q = (255, 255, 0) # Amarillo
+ v = (255, 0, 0) # Rojo
 
-# Muestra la imagen
-sense.set_pixels(image)
-
---- /code ---
+```
 
 --- /task ---
 
@@ -222,4 +224,12 @@ Mi imagen no aparece:
 --- /task ---
 
 
+--- task ---
 
+**Save your progress**
+
+Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button](images/savebutton.png)
+
+--- /task --- 
