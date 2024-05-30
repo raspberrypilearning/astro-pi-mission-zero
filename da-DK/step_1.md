@@ -2,7 +2,7 @@
 
 Du kan stadig fuldføre aktiviteten, men vil ikke være i stand til at indsende dit program og få det kørt på ISS. Den næste runde af udfordringen lanceres i september 2024. Tjek sociale medier og tilmeld dig nyhedsbrevet på [Astro Pi's hjemmeside](https://astro-pi.org/mission-zero/) for opdateringer.
 
-Eller brug dette projekt til at skabe noget, du elsker til [Coolest Projects!](https://online.coolestprojects.org/take-part)
+Gennemfør dette projekt for at deltage i Astro Pi Mission Zero-udfordringen og få din kode kørt i rummet på en Astro Pi-computer.
 
 
 
@@ -36,7 +36,7 @@ Mission Zero egner sig til begyndere i programmering og/eller grundskolebørn og
 
 Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
-Læs de [officielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 \--- /collapse \---
 
