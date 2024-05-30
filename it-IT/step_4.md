@@ -26,7 +26,8 @@ c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo 
 
 rgb = sense.color # legge il colore dal sensore c = (rgb.red, rgb.green, rgb.blue) # usa il colore rilevato
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+immagine = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
 --- /code ---
 
@@ -63,7 +64,8 @@ line_highlights: 1
 
 for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+immagine = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
 --- /code ---
 
@@ -83,7 +85,8 @@ line_highlights: 2 - 17
 
 for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  immagine = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
   # Visualizza l'immagine
 
@@ -207,6 +210,18 @@ x = (178, 34, 34) # scegli i tuoi valori di rosso, verde, blu tra 0 - 255 sense.
 
 --- /task ---
 
+
+--- task ---
+
+**Save your progress**
+
+You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button screengrab](images/save_button.png)
+
+--- /task ---
+
+
 --- task ---
 
 --- collapse ---
@@ -215,7 +230,7 @@ x = (178, 34, 34) # scegli i tuoi valori di rosso, verde, blu tra 0 - 255 sense.
 titolo: Esempio di codice completato
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/flower.png)
+![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
 
 --- code ---
 ---
@@ -237,7 +252,8 @@ c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo 
 
 for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  immagine = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
   # Visualizza l'immagine
 
