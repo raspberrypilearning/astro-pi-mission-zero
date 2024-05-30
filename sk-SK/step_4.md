@@ -22,11 +22,12 @@ line_highlights: 9-10
 
 # Pridajte farebné premenné a obrázok
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Čierna m = (34, 139, 34) # Lesná zelená q = (255, 255, 0) # Žltá t = (255, 140, 0) # Tmavo oranžová y = (255, 20, 147) # Tmavo ružová
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+obrazok = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
 --- /code ---
 
@@ -63,7 +64,8 @@ line_highlights: 1
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+obrazok = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
 --- /code ---
 
@@ -83,7 +85,8 @@ line_highlights: 2 - 17
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  obrazok = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+
 
   # Display the image
 
@@ -207,6 +210,18 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- /task ---
 
+
+--- task ---
+
+**Save your progress**
+
+You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button screengrab](images/save_button.png)
+
+--- /task ---
+
+
 --- task ---
 
 --- collapse ---
@@ -215,7 +230,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 title: Dokončený príklad kódu
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca ružový kvet na zelenej stonke.](images/flower.png)
+![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
 
 --- code ---
 ---
@@ -233,11 +248,12 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+x = (178, 34, 34)  # vyberte si vlastné hodnoty červenej, zelenej a modrej medzi 0 - 255 sense.clear(x)
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+
 
   # Display the image
 
