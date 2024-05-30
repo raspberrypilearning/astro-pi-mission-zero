@@ -1,6 +1,6 @@
-### Mission Zero 2023/24 has now closed.
+### A Missão Zero 2023/24 já foi encerrada.
 
-You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+Ainda poderás concluir a atividade, mas não poderás enviar o teu programa para execução na EEI ( Estação Espacial Internacional). A próxima ronda de desafios será lançada em Setembro de 2024. Verifica as redes sociais e inscreve-te na newsletter do site [Astro Pi](https://astro-pi.org/mission-zero/) para atualizações.
 
 Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
