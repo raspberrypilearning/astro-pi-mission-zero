@@ -60,59 +60,84 @@ sense = SenseHat() sense.set_rotation(270)
 title: Κοτόπουλο
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κοτόπουλο σε ένα αυγό.](images/chick.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κοτόπουλο σε ένα αυγό.](images/fox_mz3.png)
 
---- code ---
+Created by team i_pupi, Italy
+
+```python
+c = (0, 0, 0) # Black
+a = (255, 255, 255) # white
+t = (255, 140, 0) # dark orange
+
+image = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
 ---
-Εάν θέλεις να ψηφίσεις, το μήνυμά σου *πρέπει* να ξεκινά με αυτές τις λέξεις, διαφορετικά δεν θα μπορούμε να μετρήσουμε αυτόματα την καταχώρισή σου.
 line_numbers: false
 ---
-a = (255, 255, 255) # White c = (0, 0, 0) # Black e = (0, 0, 205) # MediumBlue q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange w = (255, 192, 203) # Pink
 
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
---- /code ---
+Created by team ILiFanT, Finland
+
+```python
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # dark grey
+a = (255, 255, 255) # white
+
+image = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Λουλούδι
 ---
 
-![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνει ένα ροζ λουλούδι σε ένα πράσινο μίσχο.](images/flower.png)
+![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνει ένα ροζ λουλούδι σε ένα πράσινο μίσχο.](images/cactus.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow t = (255, 140, 0) # DarkOrange y = (255, 20, 147) # DeepPink
+Created by team 6TETHASI, The Netherlands
 
-image = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+```python
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+n = (154, 205, 50) # YellowGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
 
---- /code ---
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /collapse ---
-
---- collapse ---
----
-title: Κάβουρας
----
-
-![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνουν έναν κάβουρα.](images/crab.png)
-
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White c = (0, 0, 0) # Black v = (255, 0, 0) # Red
-
-image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
@@ -124,57 +149,89 @@ title: Κροκόδειλος
 
 ![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κεφάλι κροκόδειλου.](images/croc.png)
 
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
+```python
 
-image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
 
---- /code ---
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
-
---- /collapse ---
-
---- collapse ---
----
-title: Φίδι
----
-
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα φίδι.](images/snake.png)
-
---- code ---
----
-language: python filename: main.py
-line_numbers: false
----
-  c = (0, 0, 0) # Μαύρο m = (34, 139, 34) # Πράσινο του Δάσους q = (255, 255, 0) # Κίτρινο v = (255, 0, 0) # Κόκκινο
-
-  image = [ c, c, c, c, c, c, c, m, c, m, m, m, m, m, m, m, c, m, c, c, c, c, c, c, c, m, m, m, m, m, c, c, c, c, c, c, c, m, c, c, q, m, q, m, m, m, c, c, m, m, m, c, c, c, c, c, v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Βάτραχος
+title: Κάβουρας
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν βάτραχο.](images/frog.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
---- code ---
+Created by team camrus_6, United Kingdom
+
+```python
+
+c = (100, 149, 237) # CornflowerBlue
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+l = (0, 255, 127) # SpringGreen
+e = (0, 0, 205) # MediumBlue
+
+rainbow = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
 ---
-language: python filename: main.py line_numbers: false line_number_start:
-line_highlights:
+line_numbers: false
 ---
-c = (0, 0, 0) # Black m = (34, 139, 34) # ForestGreen q = (255, 255, 0) # Yellow v = (255, 0, 0) # Red
 
-image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m, m, v, v, v, v, v, v, v, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, m, m, m, c, m]
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
---- /code ---
+image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+
+```python
+
+b = (105, 105, 105) # DimGray
+c = (0, 0, 0) # Black
+d = (100, 149, 237) # CornflowerBlue
+v = (255, 0, 0) # Red
+z = (153, 50, 204) # DarkOrchid
+
+image = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
+
+```
 
 --- /collapse ---
 
@@ -184,17 +241,26 @@ image = [ c, m, m, m, c, m, m, m, c, m, q, m, c, m, q, m, m, m, m, m, m, m, m, m
 
 **Βρες:**τη γραμμή που λέει `# Εμφάνιση εικόνας` και πρόσθεσε μια γραμμή κώδικα για να εμφανίσει την εικόνα σου στην οθόνη LED:
 
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 12
----
-image = [ c, c, c, q, q, q, c, c, c, c, t, q, e, q, c, c, c, c, c, q, q, q, c, c, c, w, w, w, w, w, w, c, c, w, a, a, a, a, w, c, c, w, a, a, a, a, w, c, c, c, w, a, a, w, c, c, c, c, c, w, w, c, c, c]
+```python
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
 
-# Εμφάνιση της εικόνας
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Display the image 
 sense.set_pixels(image)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -222,4 +288,12 @@ sense.set_pixels(image)
 --- /task ---
 
 
+--- task ---
 
+**Save your progress**
+
+Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+
+![Mission Zero Save button](images/savebutton.png)
+
+--- /task --- 
