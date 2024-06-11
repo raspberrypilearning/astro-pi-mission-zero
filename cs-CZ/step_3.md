@@ -57,10 +57,10 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 --- collapse ---
 
 ---
-title: Kuřátko
+title: Fox
 ---
 
-![Mřížka o velikosti 8 × 8, na které je kuřátko ve vajíčku.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
