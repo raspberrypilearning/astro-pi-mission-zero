@@ -60,7 +60,7 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 title: Fox
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un pulcino in un uovo.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -89,7 +89,7 @@ c, c, a, a, a, a, c, c]
 title: Elephant
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra una rana.](images/elephant.png)
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 Created by team ILiFanT, Finland
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un granchio.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -175,7 +175,7 @@ image = [
 title: Rainbow
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/rainbow.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
 Created by team camrus_6, United Kingdom
 
@@ -209,7 +209,7 @@ rainbow = [
 title: Dragon
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un serpente.](images/dragon.png)
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 Created by team hwplucyr, United Kingdom
 
