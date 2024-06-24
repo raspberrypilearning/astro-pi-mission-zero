@@ -12,25 +12,35 @@ Adaugă variabile de culoare și imagine
 
 Afișează imaginea
 
-Alb
-
 Negru
 
-Albastru mediu
+Alb
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Galben
 
 Portocaliu închis
 
-Roz
+Bleumarin
 
 Verde pădure
 
-Roz intens
+CornflowerBlue
 
 Roșu
 
-Bleumarin
+SpringGreen
+
+Albastru mediu
+
+DimGray
+
+DarkOrchid
 
 obține culoarea de la senzor
 
