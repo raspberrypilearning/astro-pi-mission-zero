@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Configura il sensore di colore
-sense.color.gain = 60 # Imposta la sensibilità del sensore sense.color.integration_cycles = 64 # L'intervallo con cui verrà eseguita la lettura
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -57,7 +57,7 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 --- collapse ---
 
 ---
-title: Pollo
+title: Fox
 ---
 
 ![Una griglia con 8 x 8 quadrati che mostra un pulcino in un uovo.](images/fox_mz3.png)
@@ -65,11 +65,19 @@ title: Pollo
 Created by team i_pupi, Italy
 
 ```python
-c = (0, 0, 0) # Nero 
-m = (34, 139, 34) # Verde bosco 
-q = (255, 255, 0) # Giallo 
-t = (255, 140, 0) # Arancio scuro 
-y = (255, 20, 147) # Rosa scuro
+c = (0, 0, 0) # Black
+a = (255, 255, 255) # white
+t = (255, 140, 0) # dark orange
+
+image = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 ```
 
 --- /collapse ---
@@ -78,7 +86,7 @@ y = (255, 20, 147) # Rosa scuro
 --- collapse ---
 
 ---
-title: Serpente
+title: Elephant
 ---
 
 ![Una griglia con 8 x 8 quadrati che mostra una rana.](images/elephant.png)
@@ -86,16 +94,26 @@ title: Serpente
 Created by team ILiFanT, Finland
 
 ```python
-a = (255, 255, 255) # Bianco 
-c = (0, 0, 0) # Nero 
-v = (255, 0, 0) # Rosso
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # dark grey
+a = (255, 255, 255) # white
+
+image = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Fiore
+title: Cactus
 ---
 
 ![Una griglia con 8 x 8 quadrati che mostra un granchio.](images/cactus.png)
@@ -103,12 +121,21 @@ title: Fiore
 Created by team 6TETHASI, The Netherlands
 
 ```python
-a = (255, 255, 255) # Bianco 
-c = (0, 0, 0) # Nero 
-e = (0, 0, 205) # Blu Medio 
-q = (255, 255, 0) # Giallo 
-t = (255, 140, 0) # Arancio scuro
-w = (255, 192, 203) # Rosa
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+n = (154, 205, 50) # YellowGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -124,10 +151,20 @@ title: Coccodrillo
 
 ```python
 
-a = (255, 255, 255) # Bianco 
-c = (0, 0, 0) # Nero 
-f = (25, 25, 112) # Blu notte 
-m = (34, 139, 34) # Verde bosco
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 ```
 
@@ -135,7 +172,7 @@ m = (34, 139, 34) # Verde bosco
 
 --- collapse ---
 ---
-title: Rana
+title: Rainbow
 ---
 
 ![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/rainbow.png)
@@ -144,10 +181,24 @@ Created by team camrus_6, United Kingdom
 
 ```python
 
-c = (0, 0, 0) # Nero 
- m = (34, 139, 34) # Verde bosco 
- q = (255, 255, 0) # Giallo 
- v = (255, 0, 0) # Rosso
+c = (100, 149, 237) # CornflowerBlue
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+l = (0, 255, 127) # SpringGreen
+e = (0, 0, 205) # MediumBlue
+
+rainbow = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -155,7 +206,7 @@ c = (0, 0, 0) # Nero
 
 --- collapse ---
 ---
-title: Granchio
+title: Dragon
 ---
 
 ![Una griglia con 8 x 8 quadrati che mostra un serpente.](images/dragon.png)
@@ -191,10 +242,23 @@ image = [
 **Trova:** la riga che dice `# Visualizza l'immagine` e aggiungi una riga di codice per visualizzare la tua immagine sulla matrice LED:
 
 ```python
-c = (0, 0, 0) # Nero 
-m = (34, 139, 34) # Verde bosco 
-q = (255, 255, 0) # Giallo 
-v = (255, 0, 0) # Rosso
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Display the image 
+sense.set_pixels(image)
 
 ```
 
