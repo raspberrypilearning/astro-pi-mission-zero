@@ -18,8 +18,8 @@ See kood ühendub Astro Pi-ga ja tagab, et Astro Pi LED-ekraan kuvatakse õigest
 
 --- code ---
 ---
-Lisa see rida teise koodi alla:
-title: Milliseid tähemärke saab kasutada?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Impordi teegid
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Installi värviandur
-Vajuta **Run** (Käivita) nuppu ja vaata sõnumit `Astro Pi` LED-ekraanil.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krabi
+title: Rainbow
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-pilt = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Created by team hwplucyr, United Kingdom
 
 ```python
 
