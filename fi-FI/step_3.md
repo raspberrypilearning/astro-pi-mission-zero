@@ -18,8 +18,8 @@ Tämä koodi ottaa yhteyden Astro Pihin, varmistaa Astro Pin LED-näytön olevan
 
 --- code ---
 ---
-Lisää tämä rivi muun koodin alapuolelle:
-title: Mitä merkkejä voidaan käyttää?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Tuo kirjastot
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Määritä värianturi
-Paina **Run** (Suorita) -painiketta ja katsele, kun viesti `Astro Pi` vierii LED-näytön poikki.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -57,7 +57,7 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 --- collapse ---
 
 ---
-title: Kana
+title: Fox
 ---
 
 ![8 x 8 neliön ruudukko esittämässä kananpoikasta munassa.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elephant
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kukka
+title: Cactus
 ---
 
 ![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Rapu
+title: Rainbow
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-kuva = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Created by team hwplucyr, United Kingdom
 
 ```python
 
