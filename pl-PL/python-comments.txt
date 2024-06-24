@@ -12,25 +12,35 @@ Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-Biały
-
 Czarny
 
-Średni niebieski
+Biały
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Żółty
 
 Ciemny pomarańczowy
 
-Różowy
+Nocny niebieski
 
 Leśny zielony
 
-Głęboki różowy
+CornflowerBlue
 
 Czerwony
 
-Nocny niebieski
+SpringGreen
+
+Średni niebieski
+
+DimGray
+
+DarkOrchid
 
 pobierz kolor z czujnika
 
