@@ -60,7 +60,7 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 title: Fox
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando um pintainho num ovo.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -89,7 +89,7 @@ c, c, a, a, a, a, c, c]
 title: Elephant
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando um sapo.](images/elephant.png)
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 Created by team ILiFanT, Finland
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando uma flor cor-de-rosa com um caule verde.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -175,7 +175,7 @@ image = [
 title: Rainbow
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando uma serpente.](images/rainbow.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
 Created by team camrus_6, United Kingdom
 
@@ -209,7 +209,7 @@ rainbow = [
 title: Dragon
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando um caranguejo.](images/dragon.png)
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 Created by team hwplucyr, United Kingdom
 
