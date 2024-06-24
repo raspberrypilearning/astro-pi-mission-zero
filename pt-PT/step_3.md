@@ -19,13 +19,13 @@ Este código liga-se ao Astro Pi e garante que o ecrã LED do Astro Pi seja vist
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-title: Que carateres podem ser usados?
+line_highlights:
 ---
 # Importar as bibliotecas
-Exibe uma mensagem e escolhe um nome para o novo computador do Astro Pi
+from sense_hat import SenseHat from time import sleep
 
 # Configurar o Sense HAT
-from sense_hat import SenseHat sense = SenseHat() sense.set_rotation(270)
+sense = SenseHat() sense.set_rotation(270)
 
 # Configurar o sensor de cor
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
@@ -57,7 +57,7 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 --- collapse ---
 
 ---
-title: Galinha
+title: Fox
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando um pintainho num ovo.](images/fox_mz3.png)
@@ -65,9 +65,19 @@ title: Galinha
 Created by team i_pupi, Italy
 
 ```python
-a = (255, 255, 255) # Branco
-c = (0, 0, 0) # Preto
-v = (255, 0, 0) # Vermelho
+c = (0, 0, 0) # Black
+a = (255, 255, 255) # white
+t = (255, 140, 0) # dark orange
+
+image = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 ```
 
 --- /collapse ---
@@ -76,7 +86,7 @@ v = (255, 0, 0) # Vermelho
 --- collapse ---
 
 ---
-title: Sapo
+title: Elephant
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando um sapo.](images/elephant.png)
@@ -84,22 +94,26 @@ title: Sapo
 Created by team ILiFanT, Finland
 
 ```python
-imagem = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # dark grey
+a = (255, 255, 255) # white
+
+image = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Flor
+title: Cactus
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando uma flor cor-de-rosa com um caule verde.](images/cactus.png)
@@ -107,12 +121,21 @@ title: Flor
 Created by team 6TETHASI, The Netherlands
 
 ```python
-a = (255, 255, 255) # Branco
-c = (0, 0, 0) # Preto
-e = (0, 0, 205) # Azul Médio
-q = (255, 255, 0) # Amarelo
-t = (255, 140, 0) # Laranja escuro
-w = (255, 192, 203) # Cor de rosa
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+n = (154, 205, 50) # YellowGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -128,10 +151,20 @@ title: Crocodilo
 
 ```python
 
-a = (255, 255, 255) # Branco
-c = (0, 0, 0) # Preto
-f = (25, 25, 112) # Azul da meia noite
-m = (34, 139, 34) # Verde floresta
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 ```
 
@@ -139,7 +172,7 @@ m = (34, 139, 34) # Verde floresta
 
 --- collapse ---
 ---
-title: Caranguejo
+title: Rainbow
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando uma serpente.](images/rainbow.png)
@@ -148,11 +181,24 @@ Created by team camrus_6, United Kingdom
 
 ```python
 
-c = (0, 0, 0) # Preto
-m = (34, 139, 34) # Verde floresta
-q = (255, 255, 0) # Amarelo
-t = (255, 140, 0) # Laranja escuro
-y = (255, 20, 147) # Rosa escuro
+c = (100, 149, 237) # CornflowerBlue
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+l = (0, 255, 127) # SpringGreen
+e = (0, 0, 205) # MediumBlue
+
+rainbow = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -160,7 +206,7 @@ y = (255, 20, 147) # Rosa escuro
 
 --- collapse ---
 ---
-title: Serpente
+title: Dragon
 ---
 
 ![Uma grelha com quadrados de 8 x 8 mostrando um caranguejo.](images/dragon.png)
@@ -196,10 +242,23 @@ image = [
 **Encontra:** a linha que diz `# Mostrar a imagem` e adiciona uma linha de código para mostrar a tua imagem na matriz de LEDs:
 
 ```python
-c = (0, 0, 0) # Preto
-m = (34, 139, 34) # Verde floresta
-q = (255, 255, 0) # Amarelo
-v = (255, 0, 0) # Vermelho
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Display the image 
+sense.set_pixels(image)
 
 ```
 
