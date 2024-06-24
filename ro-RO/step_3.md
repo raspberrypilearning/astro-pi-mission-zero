@@ -18,8 +18,8 @@ Acest cod se conectează la Astro Pi, se asigură că afișajul LED al lui Astro
 
 --- code ---
 ---
-Adaugă acest rând sub celelalte linii de cod:
-title: Ce caractere pot fi folosite?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Importă bibliotecile
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Configurează senzorul de culoare
-Apasă pe butonul **Run** și urmărește cum mesajul `Astro Pi` se derulează pe ecranul LED.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -57,7 +57,7 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Pui
+title: Fox
 ---
 
 ![O grilă cu 8 x 8 pătrate care arată un pui într-un ou.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elephant
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Floare
+title: Cactus
 ---
 
 ![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Crab
+title: Rainbow
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-imagine = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Created by team hwplucyr, United Kingdom
 
 ```python
 
