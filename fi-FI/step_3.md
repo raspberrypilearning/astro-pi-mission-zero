@@ -60,7 +60,7 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 title: Fox
 ---
 
-![8 x 8 neliön ruudukko esittämässä kananpoikasta munassa.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
