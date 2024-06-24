@@ -12,25 +12,35 @@ Tilføj farvevariabler og billede
 
 Vis billedet
 
-Hvid
-
 Sort
 
-Mellemblå
+Hvid
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Gul
 
 Mørk orange
 
-Lyserød
+Midnatsblå
 
 Skovgrøn
 
-Dyb lysserød
+CornflowerBlue
 
 Rød
 
-Midnatsblå
+SpringGreen
+
+Mellemblå
+
+DimGray
+
+DarkOrchid
 
 få farven fra sensoren
 
