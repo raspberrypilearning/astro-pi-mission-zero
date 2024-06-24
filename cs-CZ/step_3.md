@@ -60,7 +60,7 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 title: Fox
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Mřížka o velikosti 8 × 8, na které je kuřátko ve vajíčku.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elephant
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kytička
+title: Cactus
 ---
 
 ![Mřížka o velikosti 8 × 8, na které je fialová kytička se zeleným stonkem.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krab
+title: Rainbow
 ---
 
 ![Mřížka o velikosti 8 × 8, na které krab.](images/rainbow.png)
@@ -206,7 +206,7 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
