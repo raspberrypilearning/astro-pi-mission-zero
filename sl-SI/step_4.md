@@ -151,7 +151,7 @@ Dodajte `sense.clear()` na konec kode, da na koncu zanke počistite sliko. To va
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6
+line_highlights: 7
 ---
 
   # Display the image
@@ -191,7 +191,7 @@ Lahko zmešate svojo barvo ali uporabite vrednosti s seznama barv, da ustvarite 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
 
   # Display the image
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-x = (178, 34, 34)  # izberi svoje rdeče, zelene, modre vrednosti med 0 in 255 sense.clear(x)
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
