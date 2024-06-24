@@ -60,7 +60,7 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 title: Fox
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die eine Schlange zeigen.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -89,7 +89,7 @@ c, c, a, a, a, a, c, c]
 title: Elephant
 ---
 
-![Ein Raster mit 8 x 8 Quadrate mit einem Kick in einem Ei.](images/elephant.png)
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 Created by team ILiFanT, Finland
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die eine rosa Blume auf einem grünen Stiel zeigen.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -175,7 +175,7 @@ image = [
 title: Rainbow
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Frosch zeigen.](images/rainbow.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
 Created by team camrus_6, United Kingdom
 
@@ -209,7 +209,7 @@ rainbow = [
 title: Dragon
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die eine Krabbe zeigen.](images/dragon.png)
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 Created by team hwplucyr, United Kingdom
 
