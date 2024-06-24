@@ -36,7 +36,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /task ---
 
-### Vælg et navn til de nye Astro Pi -computere
+### RGB Colours
 
 Farver kan laves ved hjælp af forskellige blandinger af rød, grøn og blå. Du kan lære om RGB farver her:
 
@@ -144,7 +144,7 @@ image = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Krokodille
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser et krokodillehoved.](images/croc.png)
@@ -266,7 +266,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-a = (255, 255, 255) # Hvid c = (0, 0, 0) # Sort f = (25, 25, 112) # Midnatsblå m = (34, 139, 34) # Skovgrøn
+Tryk på **Kør** i bunden af editoren for at se dit billede vist på LED-matrixen.
 
 --- /task ---
 
