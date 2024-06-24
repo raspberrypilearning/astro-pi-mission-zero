@@ -57,7 +57,7 @@ Budete musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **pr
 --- collapse ---
 
 ---
-title: Kuriatko
+title: Fox
 ---
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúca kuriatko vo vajci.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elephant
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kvet
+title: Cactus
 ---
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúca ružový kvet na zelenej stonke.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krab
+title: Rainbow
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-obrazok = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Created by team hwplucyr, United Kingdom
 
 ```python
 
