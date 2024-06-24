@@ -12,25 +12,35 @@ Lisa värvi muutujad ja pilt
 
 Kuva pilt
 
-White
-
 Black
 
-MediumBlue
+White
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Yellow
 
 DarkOrange
 
-Pink
+MidnightBlue
 
 ForestGreen
 
-DeepPink
+CornflowerBlue
 
 Red
 
-MidnightBlue
+SpringGreen
+
+MediumBlue
+
+DimGray
+
+DarkOrchid
 
 saa värv andurilt
 
