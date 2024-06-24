@@ -12,25 +12,35 @@ Agregar variables de color e imagen
 
 Mostrar la imagen
 
-Blanco
-
 Negro
 
-Azul medio
+Blanco
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Amarillo
 
 Naranja oscuro
 
-Rosado
+Azul medianoche
 
 Verde bosque
 
-Rosa profundo
+CornflowerBlue
 
 Rojo
 
-Azul medianoche
+SpringGreen
+
+Azul medio
+
+DimGray
+
+DarkOrchid
 
 obtener el color del sensor
 
