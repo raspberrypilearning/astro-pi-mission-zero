@@ -18,8 +18,8 @@
 
 --- code ---
 ---
-Πρόσθεσε αυτή τη γραμμή κάτω από τον υπόλοιπο κώδικα:
-title: Τι χαρακτήρες μπορούν να χρησιμοποιηθούν;
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Εισαγωγή βιβλιοθηκών
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Ρύθμιση του αισθητήρα χρωμάτων
-Πάτησε το κουμπί «**Run**» (Εκτέλεση) και παρακολούθησε το κυλιόμενο μήνυμα «`Astro Pi`» στην οθόνη LED.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -57,7 +57,7 @@ sense = SenseHat() sense.set_rotation(270)
 --- collapse ---
 
 ---
-title: Κοτόπουλο
+title: Fox
 ---
 
 ![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κοτόπουλο σε ένα αυγό.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elephant
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Λουλούδι
+title: Cactus
 ---
 
 ![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνει ένα ροζ λουλούδι σε ένα πράσινο μίσχο.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Κάβουρας
+title: Rainbow
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-image = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Created by team hwplucyr, United Kingdom
 
 ```python
 
