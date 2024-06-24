@@ -12,25 +12,35 @@ Přidej proměnné s barvami a obrázek
 
 Zobraz obrázek
 
-Bílá
-
 Černá
 
-Středně modrá
+Bílá
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Žlutá
 
 Tmavě oranžová
 
-Růžová
+Půlnoční modrá
 
 Lesní zelená
 
-Sytě růžová
+CornflowerBlue
 
 Červená
 
-Půlnoční modrá
+SpringGreen
+
+Středně modrá
+
+DimGray
+
+DarkOrchid
 
 získej barvu ze senzoru
 
