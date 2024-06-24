@@ -151,7 +151,7 @@ Add hozzá a `sense.clear()` parancsot a kódod végére, hogy a kép kitörlőd
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6
+line_highlights: 7
 ---
 
   # Display the image
@@ -191,7 +191,7 @@ Kikeverheted a színt, vagy a listán levő színek közül választhatsz egyet,
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
 
   # Display the image
