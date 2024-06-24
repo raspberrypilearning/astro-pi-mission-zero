@@ -60,7 +60,7 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 title: Fox
 ---
 
-![Et tall med 8 x 8 kvadrater som viser et kylling i et egg.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Et tall med 8 x 8 kvadrater som viser en rosa blomst på et grønt innlegg.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
