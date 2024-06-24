@@ -60,7 +60,7 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 title: Fox
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant un poussin dans un œuf.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -89,7 +89,7 @@ c, c, a, a, a, a, c, c]
 title: Elephant
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant un serpent.](images/elephant.png)
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 Created by team ILiFanT, Finland
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant une fleur rose sur une tige verte.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -175,7 +175,7 @@ image = [
 title: Rainbow
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant une grenouille.](images/rainbow.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
 Created by team camrus_6, United Kingdom
 
@@ -209,7 +209,7 @@ rainbow = [
 title: Dragon
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant un crabe.](images/dragon.png)
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 Created by team hwplucyr, United Kingdom
 
