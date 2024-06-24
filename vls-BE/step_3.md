@@ -60,7 +60,7 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 title: Kip
 ---
 
-![Een raster met 8 x 8 vierkanten dat een kip in een ei toont.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Bloem
 ---
 
-![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
