@@ -60,7 +60,7 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 title: Fox
 ---
 
-![Et gitter med 8 x 8 firkanter, der viser en kylling i et æg.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Et gitter med 8 x 8 firkanter, viser en lyserød blomst på en grøn stilk.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
