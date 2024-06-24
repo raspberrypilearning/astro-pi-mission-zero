@@ -1,6 +1,6 @@
-## Indsend dit bidrag
+## Hvad næste — flere Astro Pi-projekter
 
-Du kan nu deltage i [Astro Pi Mission Zero](https://astro-pi.org/da/mission-zero){:target="_blank"}-udfordringen ved at bruge den kode, du har skrevet.
+Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
 
 If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
 
