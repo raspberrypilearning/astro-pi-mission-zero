@@ -17,16 +17,16 @@ Voeg code toe voor je afbeeldingenlijst om de kleur van de sensor te krijgen en 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
 
-# Kleurvariabelen en afbeelding toevoegen
+# Add colour variables and image
 
-c = (0, 0, 0) # Zwart m = (34, 139, 34) # Bosgroen q = (255, 255, 0) # Geel t = (255, 140, 0) # Donkeroranje y = (255, 20, 147) # Donkerroze
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
-afbeelding = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
 --- /code ---
@@ -59,12 +59,12 @@ Je code gebruikt een `for` lus om 28 keer te worden uitgevoerd. **Elke** keer za
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-afbeelding = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
 --- /code ---
@@ -80,12 +80,12 @@ Je moet nu al je code hieronder de `for` lus inspringen zodat deze **in** de `fo
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  afbeelding = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
   # Display the image
@@ -103,7 +103,7 @@ Voeg onderaan je code een `sleep` van één seconde toe in je lus:
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 4
+line_highlights: 5
 ---
 
   # Display the image
@@ -151,7 +151,7 @@ Voeg `sense.clear()` aan het einde van de code toe om de afbeelding aan het eind
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6
+line_highlights: 7
 ---
 
   # Display the image
@@ -191,7 +191,7 @@ Je kunt je eigen kleur mengen of de waarden uit de lijst met kleuren gebruiken o
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
 
   # Display the image
@@ -248,11 +248,11 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-c = (0, 0, 0) # Zwart m = (34, 139, 34) # Bosgroen q = (255, 255, 0) # Geel t = (255, 140, 0) # Donkeroranje y = (255, 20, 147) # Donkerroze
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  afbeelding = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
   # Display the image
