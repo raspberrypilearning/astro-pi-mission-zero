@@ -18,8 +18,8 @@ Denne kode opretter forbindelse til Astro Pi'en og sørger for, at LED-displayet
 
 --- code ---
 ---
-Tilføj denne linje under den anden kode:
-title: Hvilke tegn kan bruges?
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights:
 ---
 # Importér bibliotekerne
 from sense_hat import SenseHat from time import sleep
@@ -28,7 +28,7 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Konfigurer farvesensoren
-Tryk på knappen **Run** (Kør) og kig på, mens beskeden `Astro Pi` ruller hen over LED-displayet.
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
 
@@ -57,7 +57,7 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Kylling
+title: Fox
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser en kylling i et æg.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elephant
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Blomst
+title: Cactus
 ---
 
 ![Et gitter med 8 x 8 firkanter, viser en lyserød blomst på en grøn stilk.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krabbe
+title: Rainbow
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-billede = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Created by team hwplucyr, United Kingdom
 
 ```python
 
