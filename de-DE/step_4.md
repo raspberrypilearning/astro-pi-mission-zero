@@ -17,16 +17,16 @@ Füge Code vor der Liste mit deinem Bild hinzu, um die Farbe vom Sensor zu erhal
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
 
 # Farbvariablen und Bild hinzufügen
 
-c = (0, 0, 0) # Schwarz m = (34, 139, 34) # Waldgrün q = (255, 255, 0) # Gelb t = (255, 140, 0) # Dunkelorange y = (255, 20, 147) # Dunkelrosa
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
-rgb = sense.color # erhalte die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue) # verwende die Farbe
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
-bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
 --- /code ---
@@ -59,12 +59,12 @@ Code darüber **hinzufügen** um deine `for` -Schleife für `28` Wiederholungen 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
 
-for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
 --- /code ---
@@ -80,17 +80,17 @@ Du musst jetzt deinen gesamten Code unter der `for` -Schleife einrücken, sodass
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
 
-for i in range(28): rgb = sense.color # holt die Farbe vom Sensor c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  bild = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
-  # Das Bild anzeigen
+  # Display the image
 
-  sense.set_pixels(bild)
+  sense.set_pixels(image)
 
 --- /code ---
 
@@ -103,12 +103,12 @@ Füge am Ende deines Codes einen `Sleep`Befehl mit einer Sekunde innerhalb deine
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 4
+line_highlights: 5
 ---
 
-  # Das Bild anzeigen
+  # Display the image
 
-  sense.set_pixels(bild) sleep(1)
+  sense.set_pixels(image) sleep(1)
 
 --- /code ---
 
