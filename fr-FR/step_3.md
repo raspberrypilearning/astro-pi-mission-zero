@@ -57,7 +57,7 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Poulet
+title: Fox
 ---
 
 ![Une grille avec des carrés de 8 x 8 montrant un poussin dans un œuf.](images/fox_mz3.png)
@@ -65,9 +65,19 @@ title: Poulet
 Created by team i_pupi, Italy
 
 ```python
-a = (255, 255, 255) # Blanc
-c = (0, 0, 0) # Noir
-v = (255, 0, 0) # Rouge
+c = (0, 0, 0) # Black
+a = (255, 255, 255) # white
+t = (255, 140, 0) # dark orange
+
+image = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 ```
 
 --- /collapse ---
@@ -76,7 +86,7 @@ v = (255, 0, 0) # Rouge
 --- collapse ---
 
 ---
-title: Grenouille
+title: Elephant
 ---
 
 ![Une grille avec des carrés de 8 x 8 montrant un serpent.](images/elephant.png)
@@ -84,22 +94,26 @@ title: Grenouille
 Created by team ILiFanT, Finland
 
 ```python
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # dark grey
+a = (255, 255, 255) # white
+
 image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Fleur
+title: Cactus
 ---
 
 ![Une grille avec des carrés de 8 x 8 montrant une fleur rose sur une tige verte.](images/cactus.png)
@@ -107,12 +121,21 @@ title: Fleur
 Created by team 6TETHASI, The Netherlands
 
 ```python
-a = (255, 255, 255) # Blanc
-c = (0, 0, 0) # Noir
-e = (0, 0, 205) # Bleu moyen
-q = (255, 255, 0) # Jaune
-t = (255, 140, 0) # Orange foncé
-w = (255, 192, 203) # Rose
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+n = (154, 205, 50) # YellowGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -128,10 +151,20 @@ title: Crocodile
 
 ```python
 
-a = (255, 255, 255) # Blanc
-c = (0, 0, 0) # Noir
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
 f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # Vert forêt
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 ```
 
@@ -139,7 +172,7 @@ m = (34, 139, 34) # Vert forêt
 
 --- collapse ---
 ---
-title: Crabe
+title: Rainbow
 ---
 
 ![Une grille avec des carrés de 8 x 8 montrant une grenouille.](images/rainbow.png)
@@ -148,11 +181,24 @@ Created by team camrus_6, United Kingdom
 
 ```python
 
-c = (0, 0, 0) # Noir
-m = (34, 139, 34) # Vert forêt
-q = (255, 255, 0) # Jaune
-t = (255, 140, 0) # Orange foncé
-y = (255, 20, 147) # Rose foncé
+c = (100, 149, 237) # CornflowerBlue
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+l = (0, 255, 127) # SpringGreen
+e = (0, 0, 205) # MediumBlue
+
+rainbow = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -160,7 +206,7 @@ y = (255, 20, 147) # Rose foncé
 
 --- collapse ---
 ---
-title: Serpent
+title: Dragon
 ---
 
 ![Une grille avec des carrés de 8 x 8 montrant un crabe.](images/dragon.png)
@@ -196,10 +242,23 @@ image = [
 **Recherche :** la ligne indiquant `# Afficher l'image` et ajoute une ligne de code pour afficher ton image sur la matrice LED :
 
 ```python
-c = (0, 0, 0) # Noir
-m = (34, 139, 34) # Vert forêt
-q = (255, 255, 0) # Jaune
-v = (255, 0, 0) # Rouge
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Display the image 
+sense.set_pixels(image)
 
 ```
 
