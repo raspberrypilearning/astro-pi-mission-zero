@@ -57,10 +57,10 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-title: Kyckling
+title: Fox
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en kyckling i ett ägg.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Blomma
+title: Cactus
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en rosa blomma på en grön stjälk.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -290,7 +290,7 @@ Min bild visas inte:
 
 --- task ---
 
-**Save your progress**
+**Spara ditt projekt**
 
 Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
 
