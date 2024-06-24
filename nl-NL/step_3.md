@@ -60,7 +60,7 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 title: Fox
 ---
 
-![Een raster met 8 x 8 vierkanten met een kuiken in een ei.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -89,7 +89,7 @@ c, c, a, a, a, a, c, c]
 title: Elephant
 ---
 
-![Een raster met 8 x 8 vierkanten met een slang.](images/elephant.png)
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 Created by team ILiFanT, Finland
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Een raster met 8 x 8 vierkanten met een kikker.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -209,7 +209,7 @@ rainbow = [
 title: Dragon
 ---
 
-![Een raster met 8 x 8 vierkanten met daarop een krab.](images/dragon.png)
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 Created by team hwplucyr, United Kingdom
 
