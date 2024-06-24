@@ -57,7 +57,7 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 --- collapse ---
 
 ---
-title: Kip
+title: Fox
 ---
 
 ![Een raster met 8 x 8 vierkanten met een kuiken in een ei.](images/fox_mz3.png)
@@ -65,9 +65,19 @@ title: Kip
 Created by team i_pupi, Italy
 
 ```python
-a = (255, 255, 255) # Wit
-c = (0, 0, 0) # Zwart
-v = (255, 0, 0) # Rood
+c = (0, 0, 0) # Black
+a = (255, 255, 255) # white
+t = (255, 140, 0) # dark orange
+
+image = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 ```
 
 --- /collapse ---
@@ -76,7 +86,7 @@ v = (255, 0, 0) # Rood
 --- collapse ---
 
 ---
-title: Slang
+title: Elephant
 ---
 
 ![Een raster met 8 x 8 vierkanten met een slang.](images/elephant.png)
@@ -84,18 +94,26 @@ title: Slang
 Created by team ILiFanT, Finland
 
 ```python
-c = (0, 0, 0) # Zwart
-m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
-t = (255, 140, 0) # Donkeroranje
-y = (255, 20, 147) # Donkerroze
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # dark grey
+a = (255, 255, 255) # white
+
+image = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bloem
+title: Cactus
 ---
 
 ![Een raster met 8 x 8 vierkanten met een kikker.](images/cactus.png)
@@ -103,12 +121,21 @@ title: Bloem
 Created by team 6TETHASI, The Netherlands
 
 ```python
-a = (255, 255, 255) # Wit
-c = (0, 0, 0) # Zwart
-e = (0, 0, 205) # Middelblauw
-q = (255, 255, 0) # Geel
-t = (255, 140, 0) # Donkeroranje
-w = (255, 192, 203) # Roze
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+n = (154, 205, 50) # YellowGreen
+q = (255, 255, 0) # Yellow
+t = (255, 140, 0) # DarkOrange
+
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -124,10 +151,20 @@ title: Krokodil
 
 ```python
 
-a = (255, 255, 255) # Wit
-c = (0, 0, 0) # Zwart
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
 f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # Bosgroen
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 ```
 
@@ -135,7 +172,7 @@ m = (34, 139, 34) # Bosgroen
 
 --- collapse ---
 ---
-title: Krab
+title: Rainbow
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -144,10 +181,24 @@ Created by team camrus_6, United Kingdom
 
 ```python
 
-c = (0, 0, 0) # Zwart
-m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
-v = (255, 0, 0) # Rood
+c = (100, 149, 237) # CornflowerBlue
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+l = (0, 255, 127) # SpringGreen
+e = (0, 0, 205) # MediumBlue
+
+rainbow = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -155,7 +206,7 @@ v = (255, 0, 0) # Rood
 
 --- collapse ---
 ---
-title: Kikker
+title: Dragon
 ---
 
 ![Een raster met 8 x 8 vierkanten met daarop een krab.](images/dragon.png)
@@ -191,10 +242,23 @@ image = [
 **Zoek:** de regel `# Toon de afbeelding` en voeg code toe om je afbeelding op de LED matrix weer te geven:
 
 ```python
-c = (0, 0, 0) # Zwart
- m = (34, 139, 34) # Bosgroen
- q = (255, 255, 0) # Geel
- v = (255, 0, 0) # Rood
+a = (255, 255, 255) # White
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # ForestGreen
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Display the image 
+sense.set_pixels(image)
 
 ```
 
