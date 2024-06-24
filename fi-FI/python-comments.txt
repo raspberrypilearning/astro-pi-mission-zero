@@ -12,25 +12,35 @@ Lisää värimuuttujia ja kuva
 
 Näytä kuva
 
-Valkoinen
-
 Musta
 
-Tummansininen
+Valkoinen
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Keltainen
 
 Tummanoranssi
 
-Vaaleanpunainen
+Yönsininen
 
 Metsänvihreä
 
-Tummanvaaleanpunainen
+CornflowerBlue
 
 Punainen
 
-Yönsininen
+SpringGreen
+
+Tummansininen
+
+DimGray
+
+DarkOrchid
 
 hae väri anturilta
 
