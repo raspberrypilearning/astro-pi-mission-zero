@@ -60,7 +60,7 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 title: Fox
 ---
 
-![Egy 8*8-as rács, amely egy tojás és egy csibe képét mutatja.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Egy 8*8-as rács, amely egy zöld szárú rózsaszín virág képét mutatja.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
