@@ -60,7 +60,7 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 title: Fox
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un pui într-un ou.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
