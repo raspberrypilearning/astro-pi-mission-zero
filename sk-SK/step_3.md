@@ -60,7 +60,7 @@ Budete musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **pr
 title: Fox
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca kuriatko vo vajci.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca ružový kvet na zelenej stonke.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
