@@ -60,7 +60,7 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 title: Kana
 ---
 
-![8 x 8 ruuduga võre, mis näitab tibu munas.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Lill
 ---
 
-![8 x 8 ruuduga võre, millel on roosa lill rohelisel varrel.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
