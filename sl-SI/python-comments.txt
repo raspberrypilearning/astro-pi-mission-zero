@@ -12,25 +12,35 @@ Doda barvne spremenljivke in sliko
 
 Prikaže sliko
 
-Bela
-
 Črna
 
-Modra
+Bela
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Rumena
 
 Temnooranžna
 
-Roza
+Nočnomodra
 
 Drevesnozelena
 
-Temnoroza
+CornflowerBlue
 
 Rdeča
 
-Nočnomodra
+SpringGreen
+
+Modra
+
+DimGray
+
+DarkOrchid
 
 dobi barvo od senzorja
 
