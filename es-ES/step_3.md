@@ -60,7 +60,7 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 title: Fox
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un pollito en un huevo.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -89,7 +89,7 @@ c, c, a, a, a, a, c, c]
 title: Elephant
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una serpiente.](images/elephant.png)
+![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
 Created by team ILiFanT, Finland
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una flor rosada con un tallo verde.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -175,7 +175,7 @@ image = [
 title: Rainbow
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una rana.](images/rainbow.png)
+![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
 Created by team camrus_6, United Kingdom
 
@@ -209,7 +209,7 @@ rainbow = [
 title: Dragon
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un cangrejo.](images/dragon.png)
+![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
 Created by team hwplucyr, United Kingdom
 
