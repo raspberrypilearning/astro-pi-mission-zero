@@ -151,7 +151,7 @@ Dodaj `sense.clear()` na końcu kodu, aby wyczyścić obraz na końcu pętli. Po
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6
+line_highlights: 7
 ---
 
   # Display the image
@@ -186,12 +186,12 @@ Dodaj kod, aby wyczyścić matrycę LED na wybrany kolor. Utwórz zmienną o naz
 
 Możesz mieszać własny kolor lub użyć wartości z listy kolorów, aby utworzyć swój nowy kolor `x`.
 
-[[[generic-theory-colours]]]
+\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
 
   # Display the image
@@ -248,11 +248,11 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Zmień tekst pozdrowienia i kolor - jaką wiadomość wyślesz do astronautów na pokładzie ISS?
 
-c = (0, 0, 0) # Czarny m = (34, 139, 34) # Leśny zielony q = (255, 255, 0) # Żółty t = (255, 140, 0) # Ciemny pomarańczowy y = (255, 20, 147) # Głęboki różowy
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  obrazek = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
   # Display the image
