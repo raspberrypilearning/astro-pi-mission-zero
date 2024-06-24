@@ -12,25 +12,35 @@ Legg til fargevariabler og bilde
 
 Vis bildet
 
-Hvit
-
 Svart
 
-Middels blå
+Hvit
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Gul
 
 Mørk oransje
 
-Rosa
+Midnatt blå
 
 Skoggrønn
 
-Mørket
+CornflowerBlue
 
 Rød
 
-Midnatt blå
+SpringGreen
+
+Middels blå
+
+DimGray
+
+DarkOrchid
 
 hent fargen fra sensoren
 
