@@ -151,7 +151,7 @@ Legg til `sense.clear()` ved slutten av koden for å fjerne bildet på slutten a
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6
+line_highlights: 7
 ---
 
   # Display the image
@@ -191,7 +191,7 @@ Du kan blande din egen farge eller bruke verdiene fra fargelisten over farger fo
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
 
   # Display the image
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-x = (178, 34, 34)  # velg ditt eget, grønn, blå verdier mellom 0 - 255 sense.clear(x)
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
