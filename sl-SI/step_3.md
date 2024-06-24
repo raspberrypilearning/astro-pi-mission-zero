@@ -60,7 +60,7 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 title: Piščanec
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo piščanca v jajcu.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Mreža z 8x8 kvardraki, ki prikazujejp rožnato rožo na zelenem steblu.](images/cactus.png)
+![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
