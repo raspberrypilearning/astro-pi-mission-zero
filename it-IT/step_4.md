@@ -151,10 +151,10 @@ Aggiungi `sense.clear()` alla fine del tuo codice per cancellare l'immagine alla
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6
+line_highlights: 7
 ---
 
-  # Visualizza l'immagine
+  # Display the image
 
   sense.set_pixels(image) sleep(1)
 
@@ -191,14 +191,14 @@ Puoi mescolare il tuo colore o utilizzare i valori della lista dei colori per cr
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
 
-  # Visualizza l'immagine
+  # Display the image
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34) # scegli i tuoi valori di rosso, verde, blu tra 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
 
 --- /code ---
 
@@ -248,11 +248,11 @@ sense.color.gain = 60 # Imposta la sensibilità del sensore sense.color.integrat
 
 # Aggiungi variabili di colore e immagine
 
-c = (0, 0, 0) # Nero m = (34, 139, 34) # Verde bosco q = (255, 255, 0) # Giallo t = (255, 140, 0) # Arancio scuro y = (255, 20, 147) # Rosa scuro
+a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
 
-for i in range(28): rgb = sense.color # ottiene il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
+for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  immagine = [ c, c, y, y, y, y, c, c, c, y, y, t, t, y, y, c, y, y, t, q, q, t, y, y, c, y, y, t, t, y, y, c, c, c, y, y, y, y, c, c, m, c, c, m, m, c, c, m, c, m, m, m, m, m, m, c, c, c, c, m, m, c, c, c]
+  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
   # Visualizza l'immagine
