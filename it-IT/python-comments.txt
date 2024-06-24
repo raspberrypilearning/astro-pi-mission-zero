@@ -12,25 +12,35 @@ Aggiungi variabili per il colore e immagine
 
 Mostra l'immagine
 
-Bianco
-
 Nero
 
-Blu medio
+Bianco
+
+Dark orange
+
+Dark grey
+
+YellowGreen
 
 Giallo
 
 Arancione scuro
 
-Rosa
+Blu notte
 
 Verde foresta
 
-Rosa scuro
+CornflowerBlue
 
 Rosso
 
-Blu notte
+SpringGreen
+
+Blu medio
+
+DimGray
+
+DarkOrchid
 
 ottenere il colore dal sensore
 
