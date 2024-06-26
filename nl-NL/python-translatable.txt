@@ -2,4 +2,4 @@ afbeelding
 
 rgb
 
-rainbow
+regenboog
