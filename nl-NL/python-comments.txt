@@ -40,7 +40,7 @@ Middelblauw
 
 Matgrijs
 
-DarkOrchid
+Donkerorchidee
 
 haal de kleur uit de sensor
 
