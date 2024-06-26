@@ -57,12 +57,12 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 --- collapse ---
 
 ---
-title: Fox
+title: Vos
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Een raster met 8 x 8 vierkanten met een vossengezicht.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Gemaakt door team i_pupi, Italië
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Olifant
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Een raster met 8 x 8 vierkanten met een olifant.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Gemaakt door team ILiFanT, Finland
 
 ```python
 c = (0, 0, 0) # Black
@@ -116,9 +116,9 @@ image = [
 title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Een raster van 8 x 8 vierkanten met daarop een cactus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Gemaakt door team 6TETHASI, Nederland
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Regenboog
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Een raster met 8 x 8 vierkanten met een regenboog.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Gemaakt door team camrus_6, Verenigd Koninkrijk
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Draak
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Een raster met 8 x 8 vierkanten met daarop een draak.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Gemaakt door team hwplucyr, Verenigd Koninkrijk
 
 ```python
 
@@ -290,10 +290,10 @@ Mijn afbeelding verschijnt niet:
 
 --- task ---
 
-**Save your progress**
+**Sla je voortgang op**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Nu je een afbeelding hebt weergegeven, kun je je programma opslaan in het Mission Start-project door je teamnaam, de namen van de teamleden en de klascode die je hebt gekregen in te voeren. Je kunt je programma herladen op elk apparaat met een internetverbinding door je teamnaam en klascode in te voeren.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zero Save-knop](images/savebutton.png)
 
 --- /task --- 
