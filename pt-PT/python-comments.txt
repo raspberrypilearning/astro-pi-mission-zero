@@ -16,31 +16,31 @@ Preto
 
 Branco
 
-Dark orange
+Laranja escuro
 
-Dark grey
+Cinzento escuro
 
-YellowGreen
+Amarelo esverdeado
 
 Amarelo
 
 Laranja escuro
 
-Azul da meia noite
+Azul noturno
 
 Verde floresta
 
-CornflowerBlue
+Azul centáurea
 
 Vermelho
 
-SpringGreen
+Verde primavera
 
 Azul Médio
 
-DimGray
+Cinzento fosco
 
-DarkOrchid
+Orquídea Negra
 
 obter a cor do sensor
 
