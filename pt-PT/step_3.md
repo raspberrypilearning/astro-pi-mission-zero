@@ -1,16 +1,16 @@
 ## Mostrar uma imagem
 
-A matriz de LED do Astro Pi pode mostrar cores. Neste passo, tu irás mostrar imagens da natureza na matriz LED do Astro Pi.
+A matriz de LED do Astro Pi pode mostrar cores. Neste passo, irás mostrar imagens da natureza na matriz LED do Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que podem ser controlados individualmente ou como um grupo para criar diferentes efeitos de iluminação. Os LEDs podem ser programados para produzir uma ampla gama de cores. A matriz LED do Sense HAT possui 64 LEDs dispostos numa grelha de 8 x 8.
+Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que podem ser controlados individualmente ou como um grupo para criar diferentes efeitos de iluminação. A matriz LED do Sense HAT possui 64 LEDs dispostos numa grelha de 8 x 8. Os LEDs podem ser programados para produzir uma ampla gama de cores.
 </p>
 
 ![Uma captura de ecrã da janela do emulador mostrando a Unidade de Voo com a matriz de LED a exibir a imagem de uma flor.](images/fu-pic.png)
 
 --- task ---
 
-Abre o [projeto inicial Mission Zero](https://missions.astro-pi.org/pt/mz/code_submissions/new){:target="_blank"}.
+Abre o [projeto inicial Missão Zero](http://rpf.io/mzcode){:target="_blank"}.
 
 Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
@@ -50,19 +50,19 @@ A matriz de LED é uma grelha de 8 x 8. Cada LED na grelha pode ser definido par
 
 --- task ---
 
-**Escolhe:** Escolhe uma imagem para mostrar das as opções em baixo. O Python armazena as informações de uma imagem numa lista. O código para cada imagem inclui as variáveis de cor usadas e a lista.
+**Escolhe:** Das opções abaixo, escolhe uma imagem para exibir. O Python armazena as informações de uma imagem numa lista. O código para cada imagem inclui as variáveis de cor usadas e a lista.
 
 Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo** no teu projeto abaixo da linha que diz `# Adicionar variáveis de cor e imagem`.
 
 --- collapse ---
 
 ---
-title: Fox
+title: Raposa
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Uma grelha com 8 x 8 quadrados a exibir a cara de uma raposa.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Criado pela equipa i_pupi, Itália
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Elefante
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Uma grelha com 8 x 8 quadrados a exibir um elefante.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Criado pela equipa ILiFanT, Finlândia
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Cato
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Uma grelha com 8 x 8 quadrados a exibir um cato.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Criado pela equipa 6TETHASI, Países Baixos
 
 ```python
 a = (255, 255, 255) # White
@@ -147,7 +147,7 @@ image = [
 title: Crocodilo
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando uma cabeçao de crocodilo.](images/croc.png)
+![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um crocodilo.](images/croc.png)
 
 ```python
 
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Arco-Íris
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Uma grelha com 8 x 8 quadrados a exibir um arco-íris.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Criado pela equipa camrus_6, Reino Unido
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Dragão
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Uma grelha com 8 x 8 quadrados a exibir um dragão.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Criado pela equipa hwplucyr, Reino Unido
 
 ```python
 
@@ -266,7 +266,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Pressiona **Run (Executar)** no fundo do editor para ver a tua imagem mostrada na matriz de LEDs.
+Pressiona **Executar** no fundo do editor, para veres a tua imagem exibida na matriz de LEDs.
 
 --- /task ---
 
@@ -276,7 +276,7 @@ Pressiona **Run (Executar)** no fundo do editor para ver a tua imagem mostrada n
 
 O meu código tem um erro de sintaxe:
 
-- Verifica que o teu código corresponde ao código nos exemplos acima
+- Verifica se o teu código corresponde ao respetivo código nos exemplos acima
 - Verifica se indentaste o código na tua lista
 - Verifica se a tua lista está entre `[` e `]`
 - Verifica se cada variável de cor na lista é separada por uma vírgula
@@ -290,10 +290,10 @@ A minha imagem não aparece:
 
 --- task ---
 
-**Save your progress**
+**Guarda o teu progresso**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Agora que exibiste uma imagem, podes guardar o teu programa no projeto Inicio de Missão ao inserir o teu nome de equipa, os nomes dos elementos da equipa e o código de sala de aula que te foi dado. Podes recarregar o teu programa em qualquer dispositivo com conexão à Internet ao inserir o nome da tua equipa e o código de sala de aula.
 
-![Mission Zero Save button](images/savebutton.png)
+![Botão Guardar Missão Zero](images/savebutton.png)
 
 --- /task --- 
