@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Kaktusz
 ---
 
 ![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Készítette: 6TETHASI csapat, Hollandia
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Szivárvány
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Készítette: camrus_6 csapat, Egyesült Királyság
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Sárkány
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Készítette: hwplucyr csapat, Egyesült Királyság
 
 ```python
 
@@ -290,7 +290,7 @@ Nem jelenik meg a képem:
 
 --- task ---
 
-**Save your progress**
+**Mentsd el a munkádat!**
 
 Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
 
