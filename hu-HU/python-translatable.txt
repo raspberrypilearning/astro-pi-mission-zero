@@ -2,4 +2,4 @@ kep
 
 rgb
 
-rainbow
+szivarvany
