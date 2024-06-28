@@ -16,11 +16,11 @@ Black (fekete)
 
 White (fehér)
 
-Dark orange
+Sötét narancssárga
 
-Dark grey
+Sötétszürke
 
-YellowGreen
+YellowGreen (sárgászöld)
 
 Yellow (sárga)
 
@@ -30,17 +30,17 @@ MidnightBlue (éjkék)
 
 ForestGreen (sötétzöld)
 
-CornflowerBlue
+CornflowerBlue (búzavirágkék)
 
 Red (piros)
 
-SpringGreen
+SpringGreen (élénkzöld)
 
 MediumBlue (kék)
 
-DimGray
+DimGray (sötétszürke)
 
-DarkOrchid
+DarkOrchid (lila)
 
 szín lekérése az érzékelőtől
 
