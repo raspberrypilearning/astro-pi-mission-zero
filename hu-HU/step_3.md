@@ -57,12 +57,12 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Fox
+title: Róka
 ---
 
 ![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Készítette: team i_pupi csapat, Olaszország
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Elefánt
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Készítette: ILiFanT csapat, Finnország
 
 ```python
 c = (0, 0, 0) # Black
