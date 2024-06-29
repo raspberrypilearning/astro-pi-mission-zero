@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Mentsd el a munkádat!**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![A Mission Zero Mentés gomb képernyőképe](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Kész példakód
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Egy 8*8-as rács, amely egy krokodil képét mutatja.](images/croc.png)
 
 --- code ---
 ---
