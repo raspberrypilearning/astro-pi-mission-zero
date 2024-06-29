@@ -1,17 +1,17 @@
-## Küldd be a munkádat
+## Hogyan tovább: még több Astro Pi projekt
 
-Most már jelentkezhet a [Astro Pi Mission Zero](https://astro-pi.org/hu/mission-zero){:target="_blank"} kihívásra az Ön által írt kóddal.
+Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Ha elég magabiztosnak érzed magad, akár a Mission Space Labben is részt vehetsz. Alkossatok 2-6 fős csapatot, és dolgozzatok együtt, hogy megválaszoljatok egy valódi tudományos kérdést. Minden csapat, amely megfelelő programot küld be, meghívásra kerül egy virtuális beszélgetésre egy ESA-űrhajóssal az Astro Pi Kihívás ciklusának a végén.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Vagy kipróbálhatod valamelyik másik Sense HAT projektünket:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Tudj meg többet a [Sense HAT-ről](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} és arról, mi másra képes
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Hozz létre látványos [véletlenszerű csillogást](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} a Sense HAT LED-kijelzőjén
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Készíts [ugráló űrhajós](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} játékot
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Hívd ki barátaidat egy [golyólabirintus](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} játékra
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Alkosd újra a klasszikus [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} játékot
