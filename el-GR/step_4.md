@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Μπορείς να αποθηκεύσεις το πρόγραμμά σου στο έργο Mission Starter εισάγοντας το όνομα της ομάδας σου, τα ονόματα των μελών της ομάδας και τον κωδικό της τάξης που σου έχει δοθεί. Μπορείς να φορτώσεις ξανά το πρόγραμμά σου σε οποιαδήποτε συσκευή με σύνδεση στο Διαδίκτυο εισάγοντας το όνομα της ομάδας και τον κωδικό της τάξης σου.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Στιγμιότυπο οθόνης κουμπιού Αποθήκευσης Mission Zero](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 title: Παράδειγμα ολοκληρωμένου κώδικα
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν κροκόδειλο.](images/croc.png)
 
 --- code ---
 ---
