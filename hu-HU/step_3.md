@@ -60,7 +60,7 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 title: Róka
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Egy 8*8-as rács, amely egy róka képét mutatja.](images/fox_mz3.png)
 
 Készítette: team i_pupi csapat, Olaszország
 
@@ -89,7 +89,7 @@ c, c, a, a, a, a, c, c]
 title: Elefánt
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Egy 8*8-as rács, amely egy elefánt képét mutatja.](images/elephant.png)
 
 Készítette: ILiFanT csapat, Finnország
 
@@ -116,7 +116,7 @@ image = [
 title: Kaktusz
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Egy 8*8-as rács, amely egy kaktusz képét mutatja.](images/cactus.png)
 
 Készítette: 6TETHASI csapat, Hollandia
 
@@ -175,7 +175,7 @@ image = [
 title: Szivárvány
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Egy 8*8-as rács, amely egy szivárvány képét mutatja.](images/rainbow.png)
 
 Készítette: camrus_6 csapat, Egyesült Királyság
 
@@ -209,7 +209,7 @@ rainbow = [
 title: Sárkány
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Egy 8*8-as rács, amely egy sárkány képét mutatja.](images/dragon.png)
 
 Készítette: hwplucyr csapat, Egyesült Királyság
 
@@ -292,8 +292,8 @@ Nem jelenik meg a képem:
 
 **Mentsd el a munkádat!**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Most, hogy megjeenítettél egy képet, elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zero Mentés gomb](images/savebutton.png)
 
 --- /task --- 
