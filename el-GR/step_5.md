@@ -6,12 +6,12 @@
 
 Εναλλακτικά, μπορεί να θέλεις να δοκιμάσεις ένα από τα άλλα έργα μας Sense HAT:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Μάθε [περισσότερα για το Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} και όσα μπορεί να κάνει
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Δημιούργησε μερικές όμορφες [τυχαίες λάμψεις](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} στην οθόνη LED του Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Δημιούργησε ένα παιχνίδι [Ευέλικτος Αστροναύτης](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Προσκάλεσε τους φίλους σου με ένα παιχνίδι [λαβύρινθος με μπίλιες](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Ξαναδημιούργησε το κλασικό παιχνίδι [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
