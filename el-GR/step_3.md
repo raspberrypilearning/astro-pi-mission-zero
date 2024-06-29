@@ -57,12 +57,12 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 --- collapse ---
 
 ---
-title: Fox
+title: Αλεπού
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει το πρόσωπο μίας αλεπούς.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Δημιουργήθηκε από την ομάδα i_pupi, Ιταλία
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Ελέφαντας
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν ελέφαντα.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Δημιουργήθηκε από την ομάδα ILiFanT, Φινλανδία
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Κάκτος
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν κάκτο.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Δημιουργήθηκε από την ομάδα 6TETHASI, Ολλανδία
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Ουράνιο Τόξο
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα ουράνιο τόξο.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Δημιουργήθηκε από την ομάδα camrus_6, Ηνωμένο Βασίλειο
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Δράκος
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν δράκο.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Δημιουργήθηκε από την ομάδα hwplucyr, Ηνωμένο Βασίλειο
 
 ```python
 
@@ -290,10 +290,10 @@ sense.set_pixels(image)
 
 --- task ---
 
-**Save your progress**
+**Αποθήκευσε την πρόοδό σου**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Τώρα που εμφάνισες μια εικόνα, μπορείς να αποθηκεύσεις το πρόγραμμά σου στο έργο Mission Starter εισάγοντας το όνομα της ομάδας σου, τα ονόματα των μελών της ομάδας και τον κωδικό της τάξης που σου έχει δοθεί. Μπορείς να φορτώσεις ξανά το πρόγραμμά σου σε οποιαδήποτε συσκευή με σύνδεση στο Διαδίκτυο εισάγοντας το όνομα της ομάδας και τον κωδικό της τάξης σου.
 
-![Mission Zero Save button](images/savebutton.png)
+![Κουμπί αποθήκευσης Mission Zero](images/savebutton.png)
 
 --- /task --- 
