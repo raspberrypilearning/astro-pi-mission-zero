@@ -2,9 +2,9 @@
 
 Τώρα μπορείτε να εισάγετε την πρόκληση [Astro Pi Mission Zero](https://astro-pi.org/el/mission-zero){:target="_blank"}, χρησιμοποιώντας τον κωδικό που έχετε γράψει.
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Αν αισθάνεσαι σίγουρος/η, μπορείς να πάρεις μέρος στην αποστολή Mission Space Lab. Δημιούργησε μια ομάδα από δύο έως έξι άτομα και συνεργαστείτε για να απαντήσετε σε μια πραγματική επιστημονική ερώτηση. Όλες οι ομάδες που υποβάλλουν ένα έγκυρο πρόγραμμα θα προσκληθούν σε ένα εικονικό Q&A με έναν αστροναύτη της ESA στο τέλος του κύκλου Astro Pi Challenge.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Εναλλακτικά, μπορεί να θέλεις να δοκιμάσεις ένα από τα άλλα έργα μας Sense HAT:
 
 + Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
 
