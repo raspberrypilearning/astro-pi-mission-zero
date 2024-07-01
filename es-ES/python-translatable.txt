@@ -2,4 +2,4 @@ imagen
 
 rgb
 
-rainbow
+arco iris
