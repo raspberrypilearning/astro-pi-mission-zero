@@ -16,11 +16,11 @@ Negro
 
 Blanco
 
-Dark orange
+Naranja oscuro
 
-Dark grey
+Gris oscuro
 
-YellowGreen
+Verde amarillo
 
 Amarillo
 
@@ -30,17 +30,17 @@ Azul medianoche
 
 Verde bosque
 
-CornflowerBlue
+Azul Aciano
 
 Rojo
 
-SpringGreen
+Verde Primavera
 
 Azul medio
 
-DimGray
+Gris apagado
 
-DarkOrchid
+Orquídea Oscuro
 
 obtener el color del sensor
 
