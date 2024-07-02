@@ -1,8 +1,8 @@
-## What next — more Astro Pi projects
+## O que se segue — mais projetos Astro Pi
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Agora que completaste a tua missão, porque não experimentar mais alguns projetos com outros sensores do Astro Pi?
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Se te sentires confiante, podes participar no Laboratório Espacial da Missão. Forma uma equipa de duas a seis pessoas e trabalhem em conjunto para responder a uma verdadeira questão científica. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
 
 Alternatively you might want to try out one of our other Sense HAT projects:
 
