@@ -1,6 +1,6 @@
 ## Identificar uma cor
 
-Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detectar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
+Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detetar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
 
 ![imagem mostrada com fundo cor-de-rosa na matriz de LED](images/colour_background.png)
 
@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Guarda o teu progresso**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome de equipa, os nomes dos elementos e o código de sala de aula que te foi dado. Podes abrir o teu programa em qualquer dispositivo com conexão à Internet ao entrar com o nome da tua equipa e o código de sala de aula.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Captura de ecrã do botão Guardar Missão Zero](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Exemplo de código completo
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Uma grelha com 8 x 8 quadrados a exibir um crocodilo.](images/croc.png)
 
 --- code ---
 ---
