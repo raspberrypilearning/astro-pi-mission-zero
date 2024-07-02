@@ -3,14 +3,14 @@
 La matriz LED del Astro Pi puede mostrar colores. En este paso, mostrarás imágenes de la naturaleza en la matriz LED de Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de LEDs que se puede controlar individualmente o en grupo para crear diferentes efectos de iluminación. La matriz de LEDs del Sense HAT tiene 64 LEDs que se muestran en una cuadrícula de 8 x 8. Los LED se pueden programar para producir una amplia gama de colores.
+Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de LEDs que se puede controlar individualmente o en grupo para crear diferentes efectos de iluminación. Los LED se pueden programar para producir una amplia gama de colores. La matriz de LEDs del Sense HAT tiene 64 LEDs que se muestran en una cuadrícula de 8 x 8.
 </p>
 
 ![Una captura de pantalla de la ventana del emulador que muestra la Unidad de vuelo con la matriz de LEDs mostrando una foto de una flor.](images/fu-pic.png)
 
 --- task ---
 
-Abre el [proyecto inicial de Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/es/mz/code_submissions/new){:target="_blank"} para el proyecto Mission Zero.
 
 Comprobarás que se han añadido automáticamente tres líneas de código.
 
@@ -57,12 +57,12 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 --- collapse ---
 
 ---
-title: Fox
+title: Zorro
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra la cara de un zorro.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Creado por el equipo i_pupi, Italia
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Elefante
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un elefante.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Creado por el equipo ILiFanT, Finlandia
 
 ```python
 c = (0, 0, 0) # Black
@@ -116,9 +116,9 @@ image = [
 title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un cactus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Creado por el equipo 6TETHASI, Países Bajos
 
 ```python
 a = (255, 255, 255) # White
@@ -172,10 +172,10 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Arco iris
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un arco iris.](images/rainbow.png)
 
 Created by team camrus_6, United Kingdom
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Dragón
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un dragón.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Creado por el equipo hwplucyr, Reino Unido
 
 ```python
 
@@ -239,7 +239,7 @@ image = [
 
 --- task ---
 
-**Buscar:** la línea que dice `# Mostrar la imagen` y añade una línea de código para mostrar la imagen en la matriz LED:
+**Busca:** la línea que dice `# Mostrar la imagen` y añade una línea de código para mostrar la imagen en la matriz LED:
 
 ```python
 a = (255, 255, 255) # White
@@ -290,10 +290,10 @@ Mi imagen no aparece:
 
 --- task ---
 
-**Save your progress**
+**Guarda tu progreso**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Ahora que has mostrado una imagen, puedes guardar tu programa en el Proyecto Inicial de la Misión ingresando el nombre de tu equipo, los nombres de los miembros del equipo y el código de aula que te dieron. Puedes recargar tu programa en cualquier dispositivo con conexión a Internet ingresando el nombre de tu equipo y el código de aula.
 
-![Mission Zero Save button](images/savebutton.png)
+![Botón Guardar de Mission Zero](images/savebutton.png)
 
 --- /task --- 
