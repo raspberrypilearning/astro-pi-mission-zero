@@ -1,4 +1,4 @@
-## Sentir uma cor
+## Identificar uma cor
 
 Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detectar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
 
