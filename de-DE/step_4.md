@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Speichere deinen Fortschritt**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Du kannst dein Programm im Mission Starter-Projekt speichern, indem du deinen Teamnamen, die Namen der Teammitglieder und den dir zugewiesenen Klassen-Code eingibst. Du kannst dein Programm auf jedem Gerät mit Internetverbindung neu laden, indem du deinen Teamnamen und deinen Klassen-Code eingibst.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Mission Zero Speichern-Button Screengrab](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Vollständiges Code-Beispiel
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Ein Raster mit 8 x 8 Quadraten, die ein Krokodil zeigen.](images/croc.png)
 
 --- code ---
 ---
