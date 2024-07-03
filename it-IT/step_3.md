@@ -57,12 +57,12 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 --- collapse ---
 
 ---
-title: Fox
+title: Volpe
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Una griglia con 8 x 8 quadrati che mostrano una faccia di volpe.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Creato dal team i_pupi, Italia
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Elefante
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Una griglia con 8 x 8 quadrati che mostra un elefante.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Creato dal team ILiFanT, Finlandia
 
 ```python
 c = (0, 0, 0) # Black
@@ -116,9 +116,9 @@ image = [
 title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Una griglia con 8 x 8 quadrati che mostra un cactus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Creato dal team 6TETHASI, Paesi Bassi
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+titolo: Arcobaleno
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Una griglia con 8 x 8 quadrati che mostra un arcobaleno.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Creato da team camrus_6, Regno Unito
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Drago
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Una griglia con 8 x 8 quadrati che mostra un drago.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Creato dal team hwplucyr, Regno Unito
 
 ```python
 
@@ -290,10 +290,10 @@ La mia immagine non viene visualizzata:
 
 --- task ---
 
-**Save your progress**
+**Salva i tuoi progressi**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Ora che hai visualizzato un'immagine, puoi salvare il tuo programma sul progetto Mission Starter inserendo il tuo nome di squadra, i nomi dei membri del team e il codice dell'aula che ti è stato dato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice in aula.
 
-![Mission Zero Save button](images/savebutton.png)
+![Pulsante Salva Missione Zero](images/savebutton.png)
 
 --- /task --- 
