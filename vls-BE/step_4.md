@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Sla je voortgang op**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de namen van je teamleden en je klascode in te geven. Je kan je programma opnieuw laden op elk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Mission Zero opslaan knop screenshot](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 titel: Afgewerkt codevoorbeeld
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Een krokodil wordt getoond in een raster van 8 x 8 vierkanten.](images/croc.png)
 
 --- code ---
 ---
