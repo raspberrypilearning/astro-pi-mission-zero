@@ -177,7 +177,7 @@ titel: Regenboog
 
 ![Een regenboog wordt getoond in een raster van 8 x 8 vierkanten.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Gemaakt door team camrus_6, Verenigd Koninkrijk
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+titel: Draak
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Een draak wordt getoond in een raster van 8 x 8 vierkanten.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Gemaakt door team hwplucyr, Verenigd Koninkrijk
 
 ```python
 
@@ -290,10 +290,10 @@ Mijn afbeelding wordt niet getoond:
 
 --- task ---
 
-**Save your progress**
+**Sla je voortgang op**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Nu dat je een beeld getoond hebt, kan je je programma opslaan op het Mission Starter project door de naam van je team, de namen van de teamleden en de klascode die je ontving in te geven. Je kan je programma nu opnieuw laden op eender welk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zero opslaan-knop](images/savebutton.png)
 
 --- /task --- 
