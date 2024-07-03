@@ -41,7 +41,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- /task ---
 
-## Repite o teu programa
+## Repete o teu programa
 
 O programa Astro Pi Missão Zero é permitido executar até ao máximo de 30 segundos. Tu usarás este tempo para verificar repetidamente o sensor de cores e atualizar a imagem.
 
@@ -166,7 +166,7 @@ sense.clear()
 
 --- task ---
 
-**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz de LED irá desligar, tornando todas as luzes pretas (apagadas).
+**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz LED irá desligar, tornando todas as luzes pretas (apagadas).
 
 --- /task ---
 
@@ -174,7 +174,7 @@ sense.clear()
 
 **Depurar**
 
-A matriz de LED fica preta a cada segundo:
+A matriz LED fica preta a cada segundo:
 
 - Verifica que não indentaste o código `sense.clear()` dentro do teu ciclo `for`
 
@@ -182,7 +182,7 @@ A matriz de LED fica preta a cada segundo:
 
 --- task ---
 
-Adiciona código para limpar a matriz de LED para uma cor da tua escolha. Cria uma variável chamada `x` para armazenar a tua nova cor.
+Adiciona código para limpar a matriz LED para uma cor da tua escolha. Cria uma variável chamada `x` para armazenar a tua nova cor.
 
 Podes misturar a tua própria cor ou usar os valores da lista de cores para criar a tua nova cor `x`.
 
@@ -206,7 +206,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz de LED irá acender com a tua cor escolhida. Tu podes mudar e testar a cor quantas vezes quiseres.
+**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz LED irá acender com a tua cor escolhida. Tu podes mudar e testar a cor quantas vezes quiseres.
 
 --- /task ---
 
