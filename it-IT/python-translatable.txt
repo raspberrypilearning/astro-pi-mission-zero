@@ -2,4 +2,4 @@ immagine
 
 rgb
 
-rainbow
+arcobaleno
