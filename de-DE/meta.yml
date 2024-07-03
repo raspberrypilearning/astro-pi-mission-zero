@@ -8,7 +8,7 @@ version: 5.0.0
 last_tested: 2018-06-12
 steps:
   - 
-    title: Einleitung
+    title: Das wirst du machen
   - 
     title: Was ist ein Astro Pi?
   - 
@@ -20,4 +20,4 @@ steps:
     completion:
       - internal
   - 
-    title: Deinen Beitrag einsenden
+    title: Wie geht es weiter – weitere Astro Pi-Projekte
