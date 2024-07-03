@@ -35,9 +35,9 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Test :** Déplace le curseur de couleur sur une couleur de ton choix, puis **exécute** ton code. Ta couleur de fond va changer. Répète ce test avec une nouvelle couleur.
+**Test :** déplace le curseur de couleur sur une couleur de ton choix, puis **exécute** ton code. Ta couleur d'arrière-plan va changer. Répète ce test avec une nouvelle couleur.
 
-**Astuce :** tu devras cliquer sur « Exécuter » chaque fois que tu changeras la couleur.
+**Astuce :** tu devras cliquer sur « Run » chaque fois que tu changeras la couleur.
 
 --- /task ---
 
@@ -118,7 +118,7 @@ line_highlights: 5
 
 --- task ---
 
-**Test :** Exécute ton code et modifie le sélecteur de couleur plusieurs fois lorsque ton projet est en cours d'exécution. Vérifie que ton image s'actualise pour utiliser la couleur détectée lors de sa prochaine exécution.
+**Test :** exécute ton code et modifie le sélecteur de couleur plusieurs fois lorsque ton projet est en cours d'exécution. Vérifie que ton image s'actualise pour utiliser la couleur détectée lors de sa prochaine exécution.
 
 L'image cessera de s'actualiser lorsque la boucle se terminera afin que le programme ne dure pas plus de 30 secondes.
 
@@ -166,7 +166,7 @@ sense.clear()
 
 --- task ---
 
-**Test :** Exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED est effacée, ce qui fait que toutes les lumières deviennent noires (éteintes).
+**Test :** exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED est effacée, ce qui fait que toutes les lumières deviennent noires (éteintes).
 
 --- /task ---
 
@@ -206,18 +206,18 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test :** Exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
+**Test :** exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
 
 --- /task ---
 
 
 --- task ---
 
-**Save your progress**
+**Enregistre ta progression**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, le nom des membres de ton équipe et le code de classe qui t'est donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Capture d'écran du bouton Enregistrer Mission Zero](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Exemple de code terminé
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Une grille de 8 x 8 cases représentant un crocodile.](images/croc.png)
 
 --- code ---
 ---
