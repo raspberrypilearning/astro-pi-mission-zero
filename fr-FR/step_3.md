@@ -50,19 +50,19 @@ La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée
 
 --- task ---
 
-**Choisir :** Choisis une image à afficher parmi les options ci-dessous. Python stocke les informations d'une image dans une liste. Le code de chaque image comprend les variables de couleur utilisées et la liste.
+**Choisir :** choisis une image à afficher parmi les options ci-dessous. Python stocke les informations d'une image dans une liste. Le code de chaque image comprend les variables de couleur utilisées et la liste.
 
 Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller** dans ton projet sous la ligne indiquant `# Ajouter des variables de couleur et une image`.
 
 --- collapse ---
 
 ---
-title: Fox
+title: Renard
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Une grille de 8 x 8 cases représentant un visage de renard.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Créé par l'équipe i_pupi, Italie
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Éléphant
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Une grille de 8 x 8 cases représentant un éléphant.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Créé par l'équipe ILiFanT, Finlande
 
 ```python
 c = (0, 0, 0) # Black
@@ -116,9 +116,9 @@ image = [
 title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Une grille de 8 x 8 cases représentant un cactus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Créé par l'équipe 6TETHASI, Pays-Bas
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Arc-en-ciel
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Une grille de 8 x 8 carrés représentant un arc-en-ciel.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Créé par l'équipe camrus_6, Royaume-Uni
 
 ```python
 
@@ -209,9 +209,9 @@ rainbow = [
 title: Dragon
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Une grille de 8 x 8 cases représentant un dragon.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Créé par l'équipe hwplucyr, Royaume-Uni
 
 ```python
 
@@ -290,10 +290,10 @@ Mon image n'apparaît pas :
 
 --- task ---
 
-**Save your progress**
+**Enregistre ta progression**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Maintenant que tu as affiché une image, tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, les noms des membres de l'équipe et le code de classe qui t'a été donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
 
-![Mission Zero Save button](images/savebutton.png)
+![Bouton Enregistrer Mission Zero](images/savebutton.png)
 
 --- /task --- 
