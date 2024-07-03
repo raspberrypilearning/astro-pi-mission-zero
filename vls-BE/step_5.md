@@ -2,7 +2,7 @@
 
 You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/vls/mission-zero){:target="_blank"} challenge, using the code you have written.
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Als je je zelfverzekerd voelt, kan je deelnemen aan de Space Lab missie. Vorm een team van twee tot zes mensen en werk samen om een echte wetenschappelijk vraag te beantwoorden. Alle teams die een toegelaten programma indienen zullen uitgenodigd worden voor een virtueel Q&A met een ESA-astronaut op het einde van de cyclus van de Astro Pi uitdaging.
 
 Alternatively you might want to try out one of our other Sense HAT projects:
 
