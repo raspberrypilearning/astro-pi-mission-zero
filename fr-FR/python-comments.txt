@@ -16,11 +16,11 @@ Noir
 
 Blanc
 
-Dark orange
+Orange foncé
 
-Dark grey
+Gris foncé
 
-YellowGreen
+Jaune-vert
 
 Jaune
 
@@ -30,17 +30,17 @@ Bleu nuit
 
 Vert forêt
 
-CornflowerBlue
+Bleuet
 
 Rouge
 
-SpringGreen
+Vert printanier
 
 Bleu moyen
 
-DimGray
+FaibleGris
 
-DarkOrchid
+Orchidée Foncée
 
 obtenir la couleur du capteur
 
