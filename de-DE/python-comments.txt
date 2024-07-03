@@ -16,11 +16,11 @@ Schwarz
 
 Weiß
 
-Dark orange
+Dunkelorange
 
-Dark grey
+Dunkelgrau
 
-YellowGreen
+Gelbgrün
 
 Gelb
 
@@ -30,17 +30,17 @@ Mitternachtsblau
 
 Waldgrün
 
-CornflowerBlue
+Kornblumenblau
 
 Rot
 
-SpringGreen
+Frühlingsgrün
 
 Mittelblau
 
-DimGray
+Mittelgrau
 
-DarkOrchid
+Dunkle Orchidee
 
 Hole die Farbe vom Sensor
 
