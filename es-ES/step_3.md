@@ -177,7 +177,7 @@ title: Arco iris
 
 ![Una cuadrícula con cuadrados de 8 x 8 que muestra un arco iris.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Creado por el equipo camrus_6, Reino Unido
 
 ```python
 
