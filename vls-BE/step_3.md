@@ -60,9 +60,9 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 title: Kip
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Een vossengezicht wordt getoond in een raster van 8 x 8 vierkanten.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Gemaakt door team i_pupi, Italië
 
 ```python
 c = (0, 0, 0) # Black
@@ -89,9 +89,9 @@ c, c, a, a, a, a, c, c]
 line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Een olifant wordt getoond in een raster van 8 x 8 vierkanten.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Gemaakt door team ILiFanT, Finland
 
 ```python
 c = (0, 0, 0) # Black
@@ -116,9 +116,9 @@ image = [
 title: Bloem
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Een cactus wordt getoond in een raster met 8 x 8 vierkanten.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Gemaakt door team 6TETHASI, Nederland
 
 ```python
 a = (255, 255, 255) # White
@@ -172,10 +172,10 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+titel: Regenboog
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Een regenboog wordt getoond in een raster van 8 x 8 vierkanten.](images/rainbow.png)
 
 Created by team camrus_6, United Kingdom
 
