@@ -16,11 +16,11 @@ Nero
 
 Bianco
 
-Dark orange
+Arancione scuro
 
-Dark grey
+Grigio scuro
 
-YellowGreen
+GialloVerde
 
 Giallo
 
@@ -30,17 +30,17 @@ Blu notte
 
 Verde foresta
 
-CornflowerBlue
+Blu Fiordaliso
 
 Rosso
 
-SpringGreen
+Verde primavera
 
 Blu medio
 
 DimGray
 
-DarkOrchid
+DarkOrchidea
 
 ottenere il colore dal sensore
 
