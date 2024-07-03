@@ -2,7 +2,7 @@
 
 Tu peux toujours réaliser l'activité, mais tu ne pourras pas soumettre ton programme pour qu'il soit exécuté dans l'ISS. La prochaine édition du défi sera lancée en septembre 2024. Garde un œil sur les réseaux sociaux et inscris-toi à la newsletter sur le [site web d'Astro Pi](https://astro-pi.org/mission-zero/) pour les mises à jour.
 
-Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+Ou utilise ce projet pour créer quelque chose que tu aimes pour [Coolest Projects !](https://online.coolestprojects.org/take-part).
 
 
 
@@ -20,7 +20,7 @@ Tu vas utiliser l'émulateur Astro Pi dans un navigateur web pour créer ton pr
 
 ### Critères d'éligibilité de l'Astro Pi Mission Zero
 
-**Si ton projet répond aux [critères d'éligibilité](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, ton programme terminé sera exécuté sur la Station Spatiale Internationale ! Tu recevras également un certificat spécial qui indique exactement où se trouvait l'ISS lorsque ton programme a été exécuté.
+**Si ton projet répond aux [critères d'éligibilité](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, ton programme terminé sera exécuté dans la Station spatiale internationale ! Tu recevras également un certificat spécial qui indique exactement où se trouvait l'ISS lorsque ton programme a été exécuté.
 
 Tu découvriras l'Astro Pi et apprendras à l'utiliser et à faire les actions suivantes :
 + Créer des **variables** de couleur à utiliser dans ton image
@@ -32,7 +32,7 @@ Tu découvriras l'Astro Pi et apprendras à l'utiliser et à faire les actions s
 title: Notes pour les mentors
 ---
 
-Mission Zero est adapté aux débutants et/ou aux enfants de l'école primaire et peut être réalisé en une session d'une heure sur n'importe quel ordinateur avec accès à Internet. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
+Mission Zero convient aux débutants en programmation et/ou aux enfants en âge d'aller à l'école primaire et est réalisable en une seule session de 60 minutes sur n'importe quel ordinateur disposant d'un accès à Internet. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
 
 Regroupez les élèves en équipes de quatre au maximum et laissez-nous les guider dans l'écriture d'un court programme Python pour détecter la couleur à bord de l'ISS et créer une image qui utilise cette couleur.
 
