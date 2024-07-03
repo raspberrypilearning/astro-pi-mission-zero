@@ -2,4 +2,4 @@ image
 
 rvb
 
-rainbow
+arc-en-ciel
