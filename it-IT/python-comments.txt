@@ -8,7 +8,7 @@ Imposta la sensibilità del sensore
 
 L'intervallo con cui verrà eseguita la lettura
 
-Aggiungi variabili per il colore e immagine
+Aggiungi variabili per il colore e l'immagine
 
 Mostra l'immagine
 
@@ -20,7 +20,7 @@ Arancione scuro
 
 Grigio scuro
 
-GialloVerde
+Giallo verde
 
 Giallo
 
@@ -38,12 +38,12 @@ Verde primavera
 
 Blu medio
 
-DimGray
+Grigio medio
 
-DarkOrchidea
+Orchidea scura
 
 ottenere il colore dal sensore
 
-usa il colore percepito
+usa il colore rilevato
 
 scegli i tuoi valori di rosso, verde e blu compresi tra 0 e 255
