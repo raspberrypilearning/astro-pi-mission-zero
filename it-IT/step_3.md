@@ -1,9 +1,9 @@
 ## Mostra un’immagine
 
-La matrice LED di Astro Pi può visualizzare i colori. In questa fase, visualizzerai le immagini dalla natura sulla matrice LED di Astro Pi.
+La matrice LED di Astro Pi può visualizzare i colori. In questa fase, visualizzerai immagini prese dalla natura sulla matrice LED di Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED che può essere controllata individualmente o in gruppo per creare diversi effetti di luce. La matrice LED del Sense HAT ha 64 LED visualizzati in una griglia 8 x 8. I LED possono essere programmati per produrre un'ampia gamma di colori.
+Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED che può essere controllata individualmente o in gruppo per creare diversi effetti di luce. La matrice LED del Sense HAT ha 64 LED disposti in una griglia 8 x 8. I LED possono essere programmati per produrre un'ampia gamma di colori.
 </p>
 
 ![Uno screenshot della finestra dell'emulatore che mostra l'unità di volo con la matrice LED che visualizza l'immagine di un fiore.](images/fu-pic.png)
@@ -12,9 +12,9 @@ Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED ch
 
 Apri [il progetto iniziale Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-Vedrai che alcune righe di codice sono state aggiunte automaticamente per te.
+Vedrai che alcune righe di codice sono state aggiunte automaticamente per facilitarti.
 
-Questo codice esegue il collegamento all'Astro Pi, assicurando che il display a LED dell'Astro Pi sia mostrato nel modo corretto e imposta il sensore di colore. Lasciate stare questo codice, perché è necessario.
+Questo codice esegue il collegamento all'Astro Pi, assicurando che il display a LED dell'Astro Pi sia mostrato nel modo corretto e inoltre imposta il sensore di colore. Lasciate stare questo codice, perché ne avrete bisogno.
 
 --- code ---
 ---
@@ -32,13 +32,13 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![Uno screenshot dell'emulatore Sense HAT con linee di codice iniziale visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
+![Uno screenshot dell'emulatore Sense HAT con linee di codice iniziali visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
 ### Colori RGB
 
-I colori possono essere creati utilizzando diverse proporzioni di rosso, verde e blu. Puoi scoprire i colori RGB qui:
+I colori possono essere creati utilizzando diverse quantità di rosso, verde e blu. Puoi scoprire i colori RGB qui:
 
 [[[generic-theory-simple-colours]]]
 
@@ -50,7 +50,7 @@ La matrice LED è una griglia 8 x 8. Ciascun LED sulla griglia può essere impos
 
 --- task ---
 
-**Scegli:** Scegli un'immagine da visualizzare tra le seguenti opzioni. Python memorizza le informazioni per un'immagine in una lista. Il codice di ogni immagine include le variabili di colore utilizzate e la lista.
+**Scegli:** decidi quale immagine visualizzare tra le seguenti opzioni. Python memorizza le informazioni per un'immagine in una lista. Il codice di ogni immagine include le variabili di colore utilizzate e la lista.
 
 Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** nel tuo progetto sotto la riga che dice `# Aggiungi variabili di colore e immagine`.
 
@@ -60,7 +60,7 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 title: Volpe
 ---
 
-![Una griglia con 8 x 8 quadrati che mostrano una faccia di volpe.](images/fox_mz3.png)
+![Una griglia con 8 x 8 quadrati che mostra il muso di una volpe.](images/fox_mz3.png)
 
 Creato dal team i_pupi, Italia
 
@@ -292,8 +292,8 @@ La mia immagine non viene visualizzata:
 
 **Salva i tuoi progressi**
 
-Ora che hai visualizzato un'immagine, puoi salvare il tuo programma sul progetto Mission Starter inserendo il tuo nome di squadra, i nomi dei membri del team e il codice dell'aula che ti è stato dato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice in aula.
+Ora che hai visualizzato un'immagine, puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice dell'aula che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
 
-![Pulsante Salva Missione Zero](images/savebutton.png)
+![Pulsante Salva Mission Zero](images/savebutton.png)
 
 --- /task --- 
