@@ -36,7 +36,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /task ---
 
-### RGB Colours
+### Vælg et navn til de nye Astro Pi -computere
 
 Farver kan laves ved hjælp af forskellige blandinger af rød, grøn og blå. Du kan lære om RGB farver her:
 
@@ -57,12 +57,12 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Fox
+title: Kylling
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Et gitter med 8 x 8 firkanter, der viser en kylling i et æg.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Lavet af team i_pupi, Italien
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Et gitter med 8 x 8 kvadrater, der viser en elefant.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Lavet af team ILiFanT, Finland
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Blomst
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Et gitter med 8 x 8 firkanter, viser en lyserød blomst på en grøn stilk.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Lavet af team 6TETHASI, Holland
 
 ```python
 a = (255, 255, 255) # White
@@ -144,7 +144,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krokodille
+line_numbers: false
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser et krokodillehoved.](images/croc.png)
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Krabbe
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Et gitter med 8 x 8 kvadrater, der viser en regnbue.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Lavet af team camrus_6, Storbritannien
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Et gitter med 8 x 8 kvadrater, der viser en drage.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+billede = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
@@ -266,7 +266,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Tryk på **Kør** i bunden af editoren for at se dit billede vist på LED-matrixen.
+a = (255, 255, 255) # Hvid c = (0, 0, 0) # Sort f = (25, 25, 112) # Midnatsblå m = (34, 139, 34) # Skovgrøn
 
 --- /task ---
 
@@ -290,10 +290,10 @@ Mit billede vises ikke:
 
 --- task ---
 
-**Save your progress**
+**Gem dine fremskridt**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Nu hvor du har vist et billede, kan du gemme dit program på Mission Starter-projektet ved at indtaste dit holdnavn, holdmedlemmers navne og den klasseværelseskode, som du har fået. Du kan genindlæse dit program på enhver enhed med internetforbindelse ved at indtaste dit teamnavn og klasseværelseskode.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zero Gem-knap](images/savebutton.png)
 
 --- /task --- 
