@@ -16,11 +16,11 @@ Zobraz obrázek
 
 Bílá
 
-Dark orange
+Tmavě oranžová
 
-Dark grey
+Tmavě šedá
 
-YellowGreen
+Žlutozelená
 
 Žlutá
 
@@ -30,20 +30,20 @@ Půlnoční modrá
 
 Lesní zelená
 
-CornflowerBlue
+Chrpově modrá
 
 Červená
 
-SpringGreen
+Jarní zelená
 
 Středně modrá
 
-DimGray
+Tlumeně šedá
 
-DarkOrchid
+Tmavá orchidej
 
-získej barvu ze senzoru
+Získej barvu ze senzoru
 
-použij barvu naměřenou ze senzoru
+Použij barvu naměřenou ze senzoru
 
-vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
+Vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
