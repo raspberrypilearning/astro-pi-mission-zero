@@ -57,12 +57,12 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 --- collapse ---
 
 ---
-title: Fox
+title: Liška
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Mřížka o velikosti 8 × 8, na které je hlava lišky.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Vytvořil tým i_pupi z Itálie
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Slon
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Mřížka o velikosti 8 × 8, na které je slon.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Vytvořil tým ILiFanT z Finska
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Kaktus
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Mřížka o velikosti 8 × 8, na které je kaktus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Vytvořil tým 6TETHASI z Nizozemska
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Duha
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Mřížka o velikosti 8 × 8, na které je duha.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Vytvořil tým camrus_6 z Velké Británie
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Drak
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Mřížka o velikosti 8 × 8, na které je drak.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+Vytvořil tým hwplucyr z Velké Británie
 
 ```python
 
@@ -290,10 +290,10 @@ Neukazuje se mi obrázek:
 
 --- task ---
 
-**Save your progress**
+**Ulož si svůj postup**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Po zobrazení obrázku můžeš svůj program uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
 
-![Mission Zero Save button](images/savebutton.png)
+![Tlačítko výzvy Mission Zero pro uložení.](images/savebutton.png)
 
 --- /task --- 
