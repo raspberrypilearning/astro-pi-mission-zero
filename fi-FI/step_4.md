@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Tallenna kehityksesi**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Valmis koodiesimerkki
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![8 x 8 neliön ruudukko esittämässä krokotiiliä.](images/croc.png)
 
 --- code ---
 ---
