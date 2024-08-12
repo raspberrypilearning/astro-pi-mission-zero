@@ -60,7 +60,7 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 title: Kana
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![8 x 8 ruuduga võre, mis näitab tibu munas.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -116,7 +116,7 @@ image = [
 title: Lill
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![8 x 8 ruuduga võre, millel on roosa lill rohelisel varrel.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Krabi
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+line_numbers: false
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+pilt = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
