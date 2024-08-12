@@ -16,11 +16,11 @@ Sort
 
 Hvid
 
-Dark orange
+Mørk orange
 
-Dark grey
+Mørkegrå
 
-YellowGreen
+GulGrøn
 
 Gul
 
@@ -30,17 +30,17 @@ Midnatsblå
 
 Skovgrøn
 
-CornflowerBlue
+KornblomstBlå
 
 Rød
 
-SpringGreen
+ForårsGrøn
 
 Mellemblå
 
-DimGray
+MørkeGrå
 
-DarkOrchid
+MørkOrkidé
 
 få farven fra sensoren
 
