@@ -16,11 +16,11 @@ Negru
 
 Alb
 
-Dark orange
+Portocaliu închis
 
-Dark grey
+Gri închis
 
-YellowGreen
+GalbenVerde
 
 Galben
 
@@ -30,11 +30,11 @@ Bleumarin
 
 Verde pădure
 
-CornflowerBlue
+Floarea de colțAlbastru
 
 Roșu
 
-SpringGreen
+VerdePrimăvară
 
 Albastru mediu
 
