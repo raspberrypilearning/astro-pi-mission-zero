@@ -8,7 +8,7 @@ Alternativ möchtest du vielleicht eines unserer anderen Sense HAT-Projekte ausp
 
 + Erfahre [mehr über den Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} und die anderen Dinge, die er kann
 
-+ Erzeuge ein paar hübsche [zufällige Funken](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} auf dem LED-Display des Sense HAT
++ Erzeuge ein hübsches [zufälliges Funkeln](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} auf dem LED-Display des Sense HAT
 
 + Erstelle ein [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} Spiel
 
