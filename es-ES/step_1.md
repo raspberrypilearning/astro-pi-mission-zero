@@ -2,7 +2,7 @@
 
 Todavía puedes completar la actividad pero no podrás enviar tu programa para ejecutarlo en la ISS. La próxima ronda del desafío comenzará en septiembre del 2024. Revisa las redes sociales y regístrate al boletín del sitio web [Astro Pi](https://astro-pi.org/mission-zero/) para obtener actualizaciones.
 
-O utiliza este proyecto para crear algo que te guste por [Proyectos geniales!](https://online.coolestprojects.org/take-part).
+O utiliza este proyecto para crear algo que te guste para [Proyectos geniales!](https://online.coolestprojects.org/take-part).
 
 
 
@@ -20,7 +20,7 @@ Utilizarás el emulador Astro Pi en un navegador web para crear tu programa. No 
 
 ### Criterios de Astro Pi Mission Zero
 
-**¡Si tu programa cumple con [los criterios de elegibilidad](https://astro-pi.org/es/mission-zero/eligibility){:target="_blank"}** se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
+**¡Si tu programa cumple con [los criterios de elegibilidad](https://astro-pi.org/es/mission-zero/eligibility){:target="_blank"}** se ejecutará en el espacio de la Estación Espacial Internacional (Iss)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
 
 Aprenderás sobre la unidad Astro Pi y cómo controlarla, incluyendo cómo:
 + Mostrar mensajes y colores
