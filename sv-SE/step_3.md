@@ -57,10 +57,10 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-title: Fox
+title: Kyckling
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Ett rutnät med 8 x 8 rutor som visar en kyckling i ett ägg.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+line_numbers: false
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Blomma
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Ett rutnät med 8 x 8 rutor som visar en rosa blomma på en grön stjälk.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Krabba
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+line_numbers: false
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+bild = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
