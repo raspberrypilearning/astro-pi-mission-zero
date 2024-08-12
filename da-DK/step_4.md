@@ -4,7 +4,7 @@ I dette trin vil du lære at indstille farvelysstyrkesensoren og bruge den til a
 
 ![billede vist med en lyserød baggrund på LED-matrixen](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black.
+[[[generic-theory-colours]]]
 
 --- task ---
 
@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Gem dine fremskridt**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamnavn, teammedlemmers navne og klasseværelseskoden, som du har fået. Du kan genindlæse dit program på enhver enhed med internetforbindelse ved at indtaste dit teamnavn og klasseværelseskode.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Mission Zero Gem-knap skærmbillede](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Fuldført kodeeksempel
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Et gitter med 8 x 8 kvadrater, der viser en krokodille.](images/croc.png)
 
 --- code ---
 ---
