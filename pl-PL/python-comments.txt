@@ -16,11 +16,11 @@ Czarny
 
 Biały
 
-Dark orange
+Ciemnopomarańczowy
 
-Dark grey
+Czarny
 
-YellowGreen
+Żółty
 
 Żółty
 
@@ -30,17 +30,17 @@ Nocny niebieski
 
 Leśny zielony
 
-CornflowerBlue
+Chabrowy
 
 Czerwony
 
-SpringGreen
+Różowy
 
 Średni niebieski
 
-DimGray
+Ciemnoszary
 
-DarkOrchid
+Ciemna Orchidea
 
 pobierz kolor z czujnika
 
