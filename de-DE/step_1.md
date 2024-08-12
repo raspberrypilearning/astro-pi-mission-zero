@@ -2,7 +2,7 @@
 
 Du kannst die Aktivität zwar noch abschließen, dein Programm jedoch nicht zur Ausführung auf der ISS einreichen. Die nächste Runde der Challenge startet im September 2024. Schaue in den sozialen Medien nach und abonniere den Newsletter auf der [Astro Pi-Website](https://astro-pi.org/mission-zero/), um Updates zu erhalten.
 
-Oder verwende dieses Projekt, um etwas zu erstellen, das dir gefällt: [Coolste Projekte!](https://online.coolestprojects.org/take-part).
+Oder verwende dieses Projekt, um etwas für deine [Coolsten Projekte!](https://online.coolestprojects.org/take-part)zu erstellen.
 
 
 
