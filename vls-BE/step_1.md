@@ -2,7 +2,7 @@
 
 Je kan de activiteit nog afwerken maar je kan je programma niet meer indienen om te werken op het ISS. De volgende ronde van de uitdaging zal starten in september 2024. Hou sociale media in de gaten en schrijf je in voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/mission-zero/) om updates te ontvangen.
 
-Werk dit project af om mee te doen aan Astro Pi Mission Zero en laat je code werken in de ruimte op een Astro Pi-computer.
+Of gebruik dit project om iets te maken waar je van houdt voor [Coolste Projecten!](https://online.coolestprojects.org/take-part).
 
 
 
@@ -16,7 +16,7 @@ Hier is een voorbeeld van het soort programma dat je zou kunnen maken op op een 
 
 ### Wat je nodig hebt
 
-Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken. Je hebt geen Astr Pi computer nodig.
+Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken. Je hebt geen Astro Pi-computer nodig.
 
 ### Criteria voor de Astro Pi Mission Zero
 
@@ -25,7 +25,7 @@ Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken
 Je komt vanalles te weten over de Astro Pi computer en hoe je ermee moet werken en ook hoe:
 + Kleur **variabelen** kan maken om te gebruiken in je afbeelding
 + Je beelden kan ontwerpen en tonen op de Sense HAT
-+ Je de kleur van de lichten aan boord van het ISS kan meten
++ Meet de kleur van het licht aan boord van het ISS
 
 --- Minder tonen ---
 ---
