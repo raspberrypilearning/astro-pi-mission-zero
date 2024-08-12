@@ -16,11 +16,11 @@ Musta
 
 Valkoinen
 
-Dark orange
+Tummanoranssi
 
-Dark grey
+Tummanharmaa
 
-YellowGreen
+Keltavihreä
 
 Keltainen
 
@@ -30,17 +30,17 @@ Yönsininen
 
 Metsänvihreä
 
-CornflowerBlue
+Ruiskukansininen
 
 Punainen
 
-SpringGreen
+Keväänvihreä
 
 Tummansininen
 
 DimGray
 
-DarkOrchid
+Tummanorkidea
 
 hae väri anturilta
 
