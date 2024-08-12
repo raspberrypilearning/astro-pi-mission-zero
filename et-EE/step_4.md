@@ -213,7 +213,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Salvesta oma edusammud**
 
 You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
 
