@@ -2,4 +2,4 @@ kuva
 
 rgb
 
-rainbow
+sateenkaari
