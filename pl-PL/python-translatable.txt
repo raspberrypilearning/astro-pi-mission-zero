@@ -2,4 +2,4 @@ obrazek
 
 rgb
 
-rainbow
+tęcza
