@@ -2,4 +2,4 @@ bilde
 
 rgb
 
-rainbow
+regnbue
