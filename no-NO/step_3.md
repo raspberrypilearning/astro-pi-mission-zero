@@ -57,12 +57,12 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-title: Fox
+title: Kylling
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Et tall med 8 x 8 kvadrater som viser et kylling i et egg.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Laget av team i_pupi, Italia
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Et rutenett med 8 x 8 ruter som viser en elefant.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Laget av team ILiFanT, Finland
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Blomst
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Et tall med 8 x 8 kvadrater som viser en rosa blomst på et grønt innlegg.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Laget av team 6TETHASI, Nederland
 
 ```python
 a = (255, 255, 255) # White
@@ -144,10 +144,10 @@ image = [
 
 --- collapse ---
 ---
-line_numbers: false
+tittel: Krokodille
 ---
 
-![Et rutenett med 8 x 8 ruter med krokodilhode.](images/croc.png)
+![Et rutenett med 8 x 8 ruter som viser et krokodillehode.](images/croc.png)
 
 ```python
 
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Krabbe
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Et rutenett med 8 x 8 ruter som viser en regnbue.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Laget av team camrus_6, Storbritannia
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Et rutenett med 8 x 8 firkanter som viser en drage.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+bilde = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
@@ -290,10 +290,10 @@ Bildet mitt vises ikke:
 
 --- task ---
 
-**Save your progress**
+**Lagre fremgangen din**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Nå som du har vist et bilde, kan du lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zero Lagre-knapp](images/savebutton.png)
 
 --- /task --- 
