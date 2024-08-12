@@ -16,11 +16,11 @@ Zwart
 
 Wit
 
-Dark orange
+Donkeroranje
 
-Dark grey
+Donkergrijs
 
-YellowGreen
+Geelgroen
 
 Geel
 
@@ -30,17 +30,17 @@ Middernachtblauw
 
 Bosgroen
 
-CornflowerBlue
+Korenbloemblauw
 
 Rood
 
-SpringGreen
+Lentegroen
 
 Middenblauw
 
-DimGray
+Dimgrijs
 
-DarkOrchid
+Donkerorchidee
 
 ontvang de kleur van de sensor
 
