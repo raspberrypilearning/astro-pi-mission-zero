@@ -57,10 +57,10 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Fox
+title: Pui
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![O grilă cu 8 x 8 pătrate care arată un pui într-un ou.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+line_numbers: false
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Floare
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Crab
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+line_numbers: false
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+imagine = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
