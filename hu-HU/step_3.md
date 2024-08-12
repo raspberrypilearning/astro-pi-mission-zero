@@ -57,10 +57,10 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Róka
+title: Csirke
 ---
 
-![Egy 8*8-as rács, amely egy róka képét mutatja.](images/fox_mz3.png)
+![Egy 8*8-as rács, amely egy tojás és egy csibe képét mutatja.](images/fox_mz3.png)
 
 Készítette: team i_pupi csapat, Olaszország
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elefánt
+line_numbers: false
 ---
 
 ![Egy 8*8-as rács, amely egy elefánt képét mutatja.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Kaktusz
+title: Virág
 ---
 
-![Egy 8*8-as rács, amely egy kaktusz képét mutatja.](images/cactus.png)
+![Egy 8*8-as rács, amely egy zöld szárú rózsaszín virág képét mutatja.](images/cactus.png)
 
 Készítette: 6TETHASI csapat, Hollandia
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Szivárvány
+title: Rák
 ---
 
 ![Egy 8*8-as rács, amely egy szivárvány képét mutatja.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Sárkány
+line_numbers: false
 ---
 
 ![Egy 8*8-as rács, amely egy sárkány képét mutatja.](images/dragon.png)
 
-Készítette: hwplucyr csapat, Egyesült Királyság
+kep = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
