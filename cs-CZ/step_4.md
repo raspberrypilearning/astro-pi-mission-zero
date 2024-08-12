@@ -2,7 +2,7 @@
 
 V tomto kroku nastavíš senzor barev a svítivosti, který ti řekne, kolik červené, zelené a modré dopadá na senzor. Touto barvou se poté vybarví tvůj obrázek. Astronaut, který přijde k senzoru v modrém tričku, uvidí jiný obrázek než astronaut v červeném tričku.
 
-![obrázek zobrazený s růžovým pozadím na LED matici](images/colour_background.png)
+![Obrázek zobrazený s růžovým pozadím na LED matici.](images/colour_background.png)
 
 Ať už si vybereš jakýkoli obrázek, pozadí používá proměnnou `c`, která je nastavená na černou.
 
@@ -10,7 +10,7 @@ Ať už si vybereš jakýkoli obrázek, pozadí používá proměnnou `c`, kter�
 
 Použij senzor barev k vybarvení pozadí.
 
-Před seznam s obrázkem přidej kód, díky němuž získáš naměřenou barvu ze senzoru, a změň barvu pozadí proměnné `c` na barvu, kterou zachytil senzor barev desky Sense HAT.
+Před seznam s obrázkem přidej kód, díky němuž získáš naměřenou barvu ze senzoru, a změň proměnnou `c` s pozadím na barvu, kterou zachytil senzor barev desky Sense HAT.
 
 **Tip:** Nemusíš psát komentáře, které začínají „#“ (slouží pouze k vysvětlení daného kódu).
 
@@ -75,7 +75,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 Všechen svůj kód teď musíš odsadit pod cyklus `for` tak, aby se nacházel **uvnitř** těla tohoto cyklu.
 
-**Tip:** Pokud chceš odsadit více řádků, označ řádky, které chceš odsadit, a poté stiskni klávesu <kbd>Tab</kbd> (většinou nad klávesou <kbd>Caps Lock</kbd>).
+**Tip:** Pokud chceš odsadit více řádků, označ dané řádky a stiskni klávesu <kbd>Tab</kbd> (většinou nad klávesou <kbd>Caps Lock</kbd>).
 
 --- code ---
 ---
@@ -112,7 +112,7 @@ line_highlights: 5
 
 --- /code ---
 
-**Tip:** Ujisti se, že tento řádek kódu je ve smyčce `for` odsazený.
+**Tip:** Ujisti se, že tento řádek kódu je v cyklu `for` odsazený.
 
 --- /task ---
 
@@ -131,14 +131,14 @@ Po dokončení cyklu se obrázek přestane aktualizovat, aby tvůj program nebě
 Můj kód má chyby v syntaxi nebo neběží, jak by měl:
 
 - Zkontroluj si, jestli tvůj kód odpovídá kódu v příkladech uvedených výše.
-- Zkontroluj si, jestli je tvůj kód cyklu `for` správně odsazený.
+- Zkontroluj si, jestli je tvůj kód uvnitř cyklu `for` správně odsazený.
 - Zkontroluj si, jestli je tvůj seznam ohraničený závorkami `[` a `]`.
 - Zkontroluj si, jestli je každá proměnná s barvou oddělená čárkou.
 
 Můj kód běží déle než 30 sekund:
 
-- Sniž počet opakování cyklu „for“ z 28 na 25 nebo třeba i na 20.
-- Sniž dobu trvání funkce „sleep“ z 1 sekundy na 0,5 sekundy.
+- Sniž počet opakování cyklu `for` z 28 na 25 nebo třeba na 20.
+- Sniž dobu trvání funkce `sleep` z 1 sekundy na 0,5 sekundy.
 
 --- /task ---
 
@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Ulož si svůj postup**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Snímek obrazovky z výzvy Mission Zero s tlačítkem pro uložení.](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Příklad dokončeného kódu
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Mřížka o velikosti 8 × 8, na které je krokodýl.](images/croc.png)
 
 --- code ---
 ---
