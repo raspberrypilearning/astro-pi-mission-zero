@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Lagre fremgangen din**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Mission Zero Lagre-knapp skjermdump](images/save_button.png)
 
 --- /task ---
 
@@ -227,10 +227,10 @@ You can save your program on the Mission Starter project by entering your team n
 --- collapse ---
 
 ---
-title: Fullstendig kode eksempel
+title: Fullstendig kodeeksempel
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Et rutenett med 8 x 8 ruter som viser et krokodillehode.](images/croc.png)
 
 --- code ---
 ---
