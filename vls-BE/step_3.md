@@ -32,7 +32,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![Een screenshot van de Sense HAT-emulator met de lijnen van de begincode die getoond wordt aande linkerkant.](images/sense-hat-emulator2.png)
+![Een screenshot van de Sense HAT-emulator met de lijnen van de begincode die getoond wordt aan de linkerkant.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -42,7 +42,7 @@ Kleuren kunnen gemaakt worden door het gebruik van rood, groen en blauw in versc
 
 [[[generic-theory-simple-colours]]]
 
-De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een ander kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
+De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een andere kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
 
 [[[ambient-colours]]]
 
@@ -57,10 +57,10 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 --- collapse ---
 
 ---
-title: Kip
+title: Vos
 ---
 
-![Een vossengezicht wordt getoond in een raster van 8 x 8 vierkanten.](images/fox_mz3.png)
+![Een raster met 8 x 8 vierkanten dat een kip in een ei toont.](images/fox_mz3.png)
 
 Gemaakt door team i_pupi, Italië
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+titel: Olifant
 ---
 
 ![Een olifant wordt getoond in een raster van 8 x 8 vierkanten.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Bloem
+title: Cactus
 ---
 
-![Een cactus wordt getoond in een raster met 8 x 8 vierkanten.](images/cactus.png)
+![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/cactus.png)
 
 Gemaakt door team 6TETHASI, Nederland
 
@@ -147,7 +147,7 @@ image = [
 titel: Krokodil
 ---
 
-![Een raster met 8 x 8 vierkanten dat een krokodil toont.](images/croc.png)
+![Een raster met 8 x 8 vierkanten dat het hoofd van een krokodil toont.](images/croc.png)
 
 ```python
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-titel: Regenboog
+title: Krab
 ---
 
 ![Een regenboog wordt getoond in een raster van 8 x 8 vierkanten.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-titel: Draak
+line_numbers: false
 ---
 
 ![Een draak wordt getoond in een raster van 8 x 8 vierkanten.](images/dragon.png)
 
-Gemaakt door team hwplucyr, Verenigd Koninkrijk
+afbeelding = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
