@@ -2,4 +2,4 @@ slika
 
 rgb
 
-rainbow
+mavrica
