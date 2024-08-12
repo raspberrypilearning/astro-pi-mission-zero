@@ -57,12 +57,12 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 --- collapse ---
 
 ---
-title: Fox
+title: Kana
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![8 x 8 neliön ruudukko esittämässä kananpoikasta munassa.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Tehnyt joukkue i_pupi, Italia
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![8 x 8 neliön ruudukko esittämässä norsua.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Tehnyt joukkue ILiFanT, Suomi
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Kukka
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Tehnyt joukkue 6TETHASI, Alankomaat
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Rapu
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![8 x 8 neliön ruudukko esittämässä sateenkaarta.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Tehnyt joukkue camrus_6, Englanti
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![8 x 8 neliön ruudukko esittämässä lohikäärmettä.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+kuva = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
@@ -290,10 +290,10 @@ Kuvani ei näy:
 
 --- task ---
 
-**Save your progress**
+**Tallenna kehityksesi**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Nyt kun olet näyttänyt kuvan, voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zeron Tallennuspainike](images/savebutton.png)
 
 --- /task --- 
