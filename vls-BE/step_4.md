@@ -48,7 +48,7 @@ Het Astro Pi Mission Zero-programma mag tot 30 seconden werken. Je zal deze tijd
 Je code zal een `voor` lus gebruiken om 28 keer te werken. **Elke** keer zal het:
 + de laatste kleur meten
 + de achtergrondkleur van de afbeelding actualiseren
-+ pauzeer 1 seconde
++ 1 seconde pauzeren
 
 --- task ---
 
@@ -112,7 +112,7 @@ line_highlights: 5
 
 --- /code ---
 
-**Tip:** Zorg ervoor dat deze code lijn opgeslagen wordt in je `voor` lus.
+**Tip:** Zorg ervoor dat deze codelijn opgeslagen wordt in je `voor` lus.
 
 --- /task ---
 
