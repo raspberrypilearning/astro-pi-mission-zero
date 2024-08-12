@@ -2,7 +2,7 @@
 
 Nadal możesz ukończyć zadanie, ale nie będziesz mógł przesłać swojego programu do uruchomienia na ISS. Kolejna runda wyzwania rozpocznie się we wrześniu 2024 r. Sprawdź media społecznościowe i zapisz się do newslettera na stronie internetowej [Astro Pi](https://astro-pi.org/mission-zero/), aby otrzymywać nowości.
 
-Or use this project to create something you love for [Coolest Projects!](https://online.coolestprojects.org/take-part).
+Lub użyj tego projektu, aby stworzyć coś, co pokochasz dla [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
 
 
