@@ -1,17 +1,17 @@
-## What next — more Astro Pi projects
+## Co dalej — więcej projektów Astro Pi
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Teraz, gdy ukończyłeś swoją misję, może warto spróbować innych projektów, wykorzystujących inne czujniki Astro Pi?
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Jeśli czujesz się pewnie, możesz wziąć udział w Mission Space Lab. Zbierz zespół składający się z od dwóch do sześciu osób i wspólnie postarajcie się odpowiedzieć na prawdziwe wyzwanie naukowe. Wszystkie zespoły, które zgłoszą kwalifikujący się program, zostaną zaproszone do wirtualnego Q&A z astronautą ESA pod koniec cyklu Astro Pi Challenge.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Możesz też wypróbować jeden z naszych innych projektów Sense HAT:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Dowiedz się [więcej o Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} i innych rzeczach, które potrafi
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Stwórz kilka ładnych [losowych iskier](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} na wyświetlaczu LED Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Utwórz grę [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Rzuć wyzwanie znajomym w grze w [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Odtwórz klasyczną grę [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
