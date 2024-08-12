@@ -1,6 +1,6 @@
-## Prikaže sliko
+## Prikažite sliko
 
-LED matrika računalnika Astro Pi lahko prikazujejo barve. V tem koraku boste prikazali slike iz narave na LED matriki Astro Pi.
+LED matrika računalnika Astro Pi lahko prikazuje barve. V tem koraku boste prikazali slike iz narave na LED matriki Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED matrika**</span> je mreža LED diod, ki jih je mogoče nadzorovati posamično ali kot skupino za ustvarjanje različnih svetlobnih učinkov. Matrika LED na Sense HAT ima 64 LED, postavljenih v 8x8 mrežo. Te diode je mogoče programirati za ustvarjanje širokega spektra barv.
@@ -10,7 +10,7 @@ LED matrika računalnika Astro Pi lahko prikazujejo barve. V tem koraku boste pr
 
 --- task ---
 
-Odprite začetni projekt [Mission Zero](https://missions.astro-pi.org/sl/mz/code_submissions/new){:target="_blank"}.
+Odprite začetni projekt [Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
 Opazili boste, da je bilo nekaj vrstic kode dodanih samodejno.
 
@@ -57,12 +57,12 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 --- collapse ---
 
 ---
-title: Piščanec
+title: Lisica
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo piščanca v jajcu.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Ustvarila ekipa i_pupi, Italija
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo slona.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Ustvarila ekipa ILiFanT, Finska
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Roža
 ---
 
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
+![Mreža z 8x8 kvardraki, ki prikazujejp rožnato rožo na zelenem steblu.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Ustvarila ekipa 6TETHASI, Nizozemska
 
 ```python
 a = (255, 255, 255) # White
@@ -144,7 +144,7 @@ image = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Krokodil
 ---
 
 ![Mreža z 8x8 kvadratki, ki prikazujejo krokodiljo glavo.](images/croc.png)
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Rak
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo mavrico.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Ustvarila ekipa camrus_6, Združeno kraljestvo
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo zmaja.](images/dragon.png)
 
-Created by team hwplucyr, United Kingdom
+slika = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
 ```python
 
@@ -266,7 +266,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-a = (255, 255, 255) # Bela c = (0, 0, 0) # Črna f = (25, 25, 112) # Nočnomodra m = (34, 139, 34) # Drevesnozelena
+Pritisnite **Zaženi (Run)** na dnu urejevalnika, da vidite svojo sliko prikazano na matriki LED.
 
 --- /task ---
 
@@ -290,10 +290,10 @@ Moja slika se ne prikaže:
 
 --- task ---
 
-**Save your progress**
+**Shrani svoj napredek**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Zdaj, ko ste prikazali sliko, lahko shranite svoj program v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Mission Zero Save button](images/savebutton.png)
+![Gumb za shranjevanje Mission Zero](images/savebutton.png)
 
 --- /task --- 
