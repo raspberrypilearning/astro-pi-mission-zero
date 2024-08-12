@@ -16,34 +16,34 @@ Prikaže sliko
 
 Bela
 
-Dark orange
+Temno oranžna
 
-Dark grey
+Temno siva
 
-YellowGreen
+Rumenozelena
 
 Rumena
 
-Temnooranžna
+Temno oranžna
 
-Nočnomodra
+Nočno modra
 
-Drevesnozelena
+Drevesno zelena
 
-CornflowerBlue
+Sinje modra
 
 Rdeča
 
-SpringGreen
+Pomladno zelena
 
 Modra
 
-DimGray
+Temno siva
 
-DarkOrchid
+Svetlo vijolična
 
-dobi barvo od senzorja
+Preberi barvo iz senzorja
 
-uporabi zaznano barvo
+Uporabi zaznano barvo
 
-izberi svoje rdeče, zelene, modre vrednosti med 0 in 255
+Izberite svoje rdeče, zelene, modre vrednosti med 0 in 255
