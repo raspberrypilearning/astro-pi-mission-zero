@@ -1,8 +1,8 @@
 ### Mission Zero 2023/24 s-a închis acum.
 
-You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+Încă poți finaliza activitatea, dar nu vei putea trimite programul tău pentru a rula pe ISS. Următoarea rundă a provocării va fi lansată în septembrie 2024. Verifică rețelele sociale și înscrie-te la buletinul informativ de pe [site-ul Astro Pi](https://astro-pi.org/mission-zero/) pentru actualizări.
 
-Finalizează acest proiect pentru a participa la provocarea Astro Pi Mission Zero și a rula codul tău în spațiu pe un computer Astro Pi.
+Sau folosește acest proiect pentru a crea ceva ce îți place pentru [Cele mai tari proiecte!](https://online.coolestprojects.org/take-part).
 
 
 
