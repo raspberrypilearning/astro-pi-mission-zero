@@ -213,11 +213,11 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Save your progress**
+**Salvează-ți progresul**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Poți salva programul tău în proiectul Mission Starter introducând numele echipei, numele membrilor echipei și codul de clasă care ți-a fost dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Captură de ecran a butonului Mission Zero Salvare](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 titlu: Exemplu de cod completat
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![O grilă cu 8 x 8 pătrate care arată un crocodil.](images/croc.png)
 
 --- code ---
 ---
