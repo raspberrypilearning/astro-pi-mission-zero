@@ -62,7 +62,7 @@ title: Pui
 
 ![O grilă cu 8 x 8 pătrate care arată un pui într-un ou.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Creat de echipa i_pupi, Italia
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elefant
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![O grilă cu 8 x 8 pătrate care arată un elefant.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Creat de echipa ILiFanT, Finlanda
 
 ```python
 c = (0, 0, 0) # Black
@@ -118,7 +118,7 @@ title: Floare
 
 ![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Creat de echipa 6TETHASI, Olanda
 
 ```python
 a = (255, 255, 255) # White
@@ -175,9 +175,9 @@ image = [
 title: Crab
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![O grilă cu 8 x 8 pătrate care arată un curcubeu.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Creat de echipă camrus_6, Marea Britanie
 
 ```python
 
@@ -209,7 +209,7 @@ rainbow = [
 line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![O grilă cu 8 x 8 pătrate care arată un dragon.](images/dragon.png)
 
 imagine = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
@@ -290,10 +290,10 @@ Imaginea mea nu apare:
 
 --- task ---
 
-**Save your progress**
+**Salvează-ți progresul**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Acum că ai afișat o imagine, poți salva programul tău în proiectul Mission Starter introducând numele echipei tale, numele membrilor echipei şi codul de clasă care vi s-a dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![Mission Zero Save button](images/savebutton.png)
+![Butonul Mission Zero Salvare](images/savebutton.png)
 
 --- /task --- 
