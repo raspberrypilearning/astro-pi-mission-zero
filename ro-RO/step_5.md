@@ -2,16 +2,16 @@
 
 Acum poți participa la provocarea [Astro Pi Mission Zero](https://astro-pi.org/ro/mission-zero){:target="_blank"}, folosind codul pe care l-ai scris.
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Dacă te simți încrezător, poți să participi la Mission Space Lab. Formați o echipă de doi până la șase persoane și lucrați împreună pentru a răspunde la o întrebare științifică reală. Toate echipele care depun un program eligibil vor fi invitate la un Q&A virtual cu un astronaut ESA la sfârșitul ciclului Astro Pi Challenge.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Alternativ, ai putea vrea să încerci unul dintre celelalte proiecte Sense HAT:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Învață [mai multe despre Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} și despre celelalte lucruri pe care le poate face
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Creează niște sclipiri destul de [aleatoare](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} pe ecranul LED al Sense HAT
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Creează un joc [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Provoacă-ți prietenii cu un joc de tip [labirint de marmură](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Recrează jocul clasic al lui [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
