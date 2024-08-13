@@ -38,9 +38,9 @@ VerdePrimăvară
 
 Albastru mediu
 
-DimGray
+GriȘters
 
-DarkOrchid
+OrhideeÎntunecată
 
 obține culoarea de la senzor
 
