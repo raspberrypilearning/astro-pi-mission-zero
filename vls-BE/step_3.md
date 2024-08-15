@@ -60,7 +60,7 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 title: Vos
 ---
 
-![Een raster met 8 x 8 vierkanten dat een kip in een ei toont.](images/fox_mz3.png)
+![Een vossengezicht wordt getoond in een raster van 8 x 8 vierkanten.](images/fox_mz3.png)
 
 Gemaakt door team i_pupi, Italië
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-titel: Olifant
+title: Olifant
 ---
 
 ![Een olifant wordt getoond in een raster van 8 x 8 vierkanten.](images/elephant.png)
@@ -116,7 +116,7 @@ image = [
 title: Cactus
 ---
 
-![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/cactus.png)
+![Een cactus wordt getoond in een raster met 8 x 8 vierkanten.](images/cactus.png)
 
 Gemaakt door team 6TETHASI, Nederland
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krab
+titel: Regenboog
 ---
 
 ![Een regenboog wordt getoond in een raster van 8 x 8 vierkanten.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Draak
 ---
 
 ![Een draak wordt getoond in een raster van 8 x 8 vierkanten.](images/dragon.png)
 
-afbeelding = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Gemaakt door team hwplucyr, Verenigd Koninkrijk
 
 ```python
 
