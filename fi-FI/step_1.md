@@ -1,8 +1,8 @@
 ### Mission Zero 2023/24 on nyt suljettu.
 
-Voit silti tehdä haasteen loppuun, mutta et voi lähettää ohjelmaasi ISS:llä ajettavaksi. Seuraava kierros haasteesta alkaa syyskuussa 2024. Tarkista sosiaalinen media ja tilaa uutiskirje [Astro Pi -sivustolla](https://astro-pi.org/mission-zero/) saadaksesi päivityksiä.
+Voit silti tehdä haasteen loppuun, mutta et voi lähettää ohjelmaasi ISS:llä ajettavaksi. Seuraava kierros haasteesta alkaa syyskuussa 2024. Tarkista sosiaalinen media ja tilaa uutiskirje [Astro Pi -sivustolla](https://astro-pi.org/fi/mission-zero/) saadaksesi päivityksiä.
 
-Suorita tämä projekti osallistuaksesi Astro Pi Mission Zero -haasteeseen ja koodisi ajetaan avaruudessa Astro Pi -tietokoneella.
+Tai käytä tätä projektia luodaksesi jotain mistä pidät [tyylikkäimmille projekteille!](https://online.coolestprojects.org/take-part).
 
 
 
@@ -20,7 +20,7 @@ Käytät Astro Pi -emulaattoria verkkoselaimessa ohjelman luomiseen. Et tarvitse
 
 ### Astro Pi Mission Zeron vaatimukset
 
-**Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
+**Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/fi/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
 
 Opit Astro Pi -tietokoneesta ja sen hallinnasta, mukaan lukien miten:
 + Luot väri**muuttujia** kuvassasi käytettäväksi
