@@ -1,10 +1,10 @@
-## Sense en farve
+## Fornem en farve
 
 I dette trin vil du lære at indstille farvelysstyrkesensoren og bruge den til at 'fornemme' mængden af rød, grøn og blå, der rammer sensoren. Denne farve vil derefter blive brugt til at farve med i dit valgte billede. En astronaut, der går op til sensoren i en blå skjorte, vil se et andet billede end en astronaut i en rød skjorte.
 
 ![billede vist med en lyserød baggrund på LED-matrixen](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Uanset hvilket billede du vælger, bruger baggrunden `c` -variablen, som er sat til sort.
 
 --- task ---
 
@@ -75,7 +75,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 Du skal nu indrykke al din kode under `for`-løkken, så den er **inde under** `for` løkken.
 
-**Tip:** For at indrykke flere linjer skal du fremhæve de linjer, du vil indrykke og derefter trykke på <kbd>Tab</kbd> -tasten på dit tastatur (normalt over <kbd>Caps Lock</kbd> -tasten på tastaturet).
+**Tip:** For at indrykke flere linjer skal du fremhæve de linjer, du vil indrykke og derefter trykke på <kbd>Tab</kbd>-tasten på dit tastatur (normalt over <kbd>Caps Lock</kbd> -tasten på tastaturet).
 
 --- code ---
 ---
@@ -144,7 +144,7 @@ Min kode kører i mere end 30 sekunder:
 
 --- task ---
 
-Tilføj `sense.clear ()` i slutningen af din kode for at resette billedet i slutningen af din løkke. Dette vil hjælpe dig med at se, når din animation er færdig med at køre.
+Tilføj `sense.clear()` i slutningen af din kode for at resette billedet i slutningen af din løkke. Dette vil hjælpe dig med at se, når din animation er færdig med at køre.
 
 **Tip:** Sørg for, at du **ikke** indrykker `sense.clear()` kodelinjen, da du gerne vil have, at den kun skal køre én gang i slutningen af din animation.
 
@@ -176,7 +176,7 @@ sense.clear()
 
 LED-matrixen bliver sort hvert sekund:
 
-- Tjek, at du ikke har indrykket `sense.clear()` -koden i din `for` -løkke
+- Tjek, at du ikke har indrykket `sense.clear()`-koden i din `for`-løkke
 
 --- /task ---
 
