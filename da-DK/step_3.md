@@ -60,7 +60,7 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 title: Ræv
 ---
 
-![Et gitter med 8 x 8 firkanter, der viser en kylling i et æg.](images/fox_mz3.png)
+![Et gitter med 8 x 8 kvadrater, der viser et ræveansigt.](images/fox_mz3.png)
 
 Lavet af team i_pupi, Italien
 
@@ -116,7 +116,7 @@ image = [
 title: Kaktus
 ---
 
-![Et gitter med 8 x 8 firkanter, viser en lyserød blomst på en grøn stilk.](images/cactus.png)
+![Et gitter med 8 x 8 kvadrater, der viser en kaktus.](images/cactus.png)
 
 Lavet af team 6TETHASI, Holland
 
@@ -211,7 +211,7 @@ title: Drage
 
 ![Et gitter med 8 x 8 kvadrater, der viser en drage.](images/dragon.png)
 
-billede = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Lavet af team hwplucyr, Storbritannien
 
 ```python
 
@@ -266,7 +266,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-a = (255, 255, 255) # Hvid c = (0, 0, 0) # Sort f = (25, 25, 112) # Midnatsblå m = (34, 139, 34) # Skovgrøn
+Tryk på **Kør** i bunden af editoren for at se dit billede vist på LED-matrixen.
 
 --- /task ---
 
