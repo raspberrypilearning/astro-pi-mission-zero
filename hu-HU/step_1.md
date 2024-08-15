@@ -2,7 +2,7 @@
 
 Továbbra is elvégezheted a tevékenységet, de már nem fogod tudni beküldeni a programodat, hogy az ISS-en fusson. A kihívás következő fordulója 2024 szeptemberében indul. Figyeld a közösségi médiát, és iratkozz fel a hírlevelünkre az [Astro Pi honlapon](https://astro-pi.org/mission-zero/).
 
-Készítsd el a projektet, hogy részt vehess az Astro Pi Mission Zerón kihívás, és hogy a kódod az űrben futhasson egy Astro Pi számítógépen.
+Vagy használja ezt a projektet, hogy létrehozzon valamit, amit szeret a [legmenőbb projektekhez!](https://online.coolestprojects.org/take-part).
 
 
 
