@@ -57,10 +57,10 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 --- collapse ---
 
 ---
-title: Kana
+title: Kettu
 ---
 
-![8 x 8 neliön ruudukko esittämässä kananpoikasta munassa.](images/fox_mz3.png)
+![8 x 8 neliön ruudukko esittämässä ketun naamaa.](images/fox_mz3.png)
 
 Tehnyt joukkue i_pupi, Italia
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Norsu
 ---
 
 ![8 x 8 neliön ruudukko esittämässä norsua.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Kukka
+title: Kaktus
 ---
 
-![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/cactus.png)
+![8 x 8 neliön ruudukko esittämässä kaktusta.](images/cactus.png)
 
 Tehnyt joukkue 6TETHASI, Alankomaat
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Rapu
+title: Sateenkaari
 ---
 
 ![8 x 8 neliön ruudukko esittämässä sateenkaarta.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Lohikäärme
 ---
 
 ![8 x 8 neliön ruudukko esittämässä lohikäärmettä.](images/dragon.png)
 
-kuva = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Tehnyt joukkue hwplucyr, Englanti
 
 ```python
 
