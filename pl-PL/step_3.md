@@ -57,10 +57,10 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 --- collapse ---
 
 ---
-title: Wąż
+title: Lis
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca węża.](images/fox_mz3.png)
+![Siatka kwadratów 8 x 8 przedstawiających twarz lisa.](images/fox_mz3.png)
 
 Stworzone przez zespół i_pupi, Włochy
 
@@ -86,10 +86,10 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Kurczak
+title: Słoń
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca pisklę w jajku.](images/elephant.png)
+![Siatka kwadratów 8 x 8 przedstawiających słonia.](images/elephant.png)
 
 Stworzone przez zespół ILiFanT, Finlandia
 
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Kwiat
+title: Kaktus
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca różowy kwiat na zielonej łodydze.](images/cactus.png)
+![Siatka kwadratów 8 x 8 przedstawiających kaktus.](images/cactus.png)
 
 Stworzone przez zespół 6TETHASI, Holandia
 
@@ -172,10 +172,10 @@ image = [
 
 --- collapse ---
 ---
-title: Krab
+title: Tęcza
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca żabę.](images/rainbow.png)
+![Siatka kwadratów 8 x 8 przedstawiających tęczę.](images/rainbow.png)
 
 Stworzone przez zespół camrus_6, Wielka Brytania
 
@@ -206,10 +206,10 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Żaba
+title: Smok
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca kraba.](images/dragon.png)
+![Siatka kwadratów 8 x 8 przedstawiających smoka.](images/dragon.png)
 
 Stworzone przez zespół hwplucyr, Wielka Brytania
 
