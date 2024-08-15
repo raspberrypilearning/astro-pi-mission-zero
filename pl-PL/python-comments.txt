@@ -18,9 +18,9 @@ Biały
 
 Ciemnopomarańczowy
 
-Czarny
+Ciemnoszary
 
-Żółty
+Żółto-zielony
 
 Żółty
 
@@ -34,7 +34,7 @@ Chabrowy
 
 Czerwony
 
-Różowy
+Wiosenna Zieleń
 
 Średni niebieski
 
