@@ -36,7 +36,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /task ---
 
-### Vælg et navn til de nye Astro Pi -computere
+### RGB farver
 
 Farver kan laves ved hjælp af forskellige blandinger af rød, grøn og blå. Du kan lære om RGB farver her:
 
@@ -57,7 +57,7 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Kylling
+title: Ræv
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser en kylling i et æg.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elefant
 ---
 
 ![Et gitter med 8 x 8 kvadrater, der viser en elefant.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Blomst
+title: Kaktus
 ---
 
 ![Et gitter med 8 x 8 firkanter, viser en lyserød blomst på en grøn stilk.](images/cactus.png)
@@ -144,7 +144,7 @@ image = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Krokodille
 ---
 
 ![Et gitter med 8 x 8 firkanter, der viser et krokodillehoved.](images/croc.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krabbe
+title: Regnbue
 ---
 
 ![Et gitter med 8 x 8 kvadrater, der viser en regnbue.](images/rainbow.png)
@@ -206,7 +206,7 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Drage
 ---
 
 ![Et gitter med 8 x 8 kvadrater, der viser en drage.](images/dragon.png)
