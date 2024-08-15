@@ -2,7 +2,7 @@
 
 Je kan de activiteit nog afwerken maar je kan je programma niet meer indienen om te werken op het ISS. De volgende ronde van de uitdaging zal starten in september 2024. Hou sociale media in de gaten en schrijf je in voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/mission-zero/) om updates te ontvangen.
 
-Of gebruik dit project om iets te maken waar je van houdt voor [Coolste Projecten!](https://online.coolestprojects.org/take-part).
+Of gebruik dit project om iets te maken waar je van houdt voor [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
 
 
