@@ -1,6 +1,6 @@
 ### Mission Zero 2023/24 er nå avsluttet.
 
-Du kan fortsatt fullføre, men du vil ikke kunne sende inn koden din og få programmet ditt kjørt på den internasjonale romstasjonen (ISS). Neste runde av utfordringen starter i september 2024. Sjekk sosiale medier og abonner på nyhetsbrevet via [Astro Pis nettside](https://astro-pi.org/mission-zero/) for oppdateringer.
+Du kan fortsatt fullføre, men du vil ikke kunne sende inn koden din og få programmet ditt kjørt på den internasjonale romstasjonen (ISS). Neste runde av utfordringen starter i september 2024. Sjekk sosiale medier og abonner på nyhetsbrevet via [Astro Pis nettside](https://astro-pi.org/nb/mission-zero/) for oppdateringer.
 
 Eller bruk dette prosjektet til å lage noe du elsker for [kuleste prosjekter!](https://online.coolestprojects.org/take-part).
 
@@ -14,13 +14,13 @@ Her er et eksempel på den typen program du kan lage for å kjøre på en Astro 
 
 ![Sense HAT-emulatoren kjører et eksempelprogram med en slange som gir bakgrunnsfarge endringer i fargemetoden.](images/finished.gif)
 
-### Astro Pi Mission Zero-kriterier
+### Du vil trenge
 
 Du vil bruke Astro Pi-emulatoren i en nettleser for å lage programmet ditt. Du trenger ikke en Astro Pi-datamaskin.
 
 ### Astro Pi Mission Zero-kriterier
 
-**Hvis prosjektet ditt oppfyller [kvalifikasjonskriterier](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, vil det ferdige programmet kjøres på den internasjonale romstasjonen! Dere vil også få en original attest som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
+**Hvis prosjektet ditt oppfyller [kvalifikasjonskriterier](https://astro-pi.org/nb/mission-zero/eligibility){:target="_blank"}**, vil det ferdige programmet kjøres på den internasjonale romstasjonen! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
 
 Du vil lære om Astro Pi-datamaskinen og hvordan du styrer den, inkludert hvordan du:
 + Lager **fargevariabler** til bruk i bildet ditt
@@ -34,7 +34,7 @@ title: Notater for veiledere
 
 Mission Zero egner seg for programmering og/eller barn som er skoleeldre og kan fullføres i en enkelt 60-minutters sesjon på en datamaskin med internettilgang. Spesiell maskinvare eller tidligere kodingsevne er ikke nødvendig. Alt kan gjøres i en nettleser.
 
-Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Organiser ungdommene dine i lag på en til fire, og la oss lede dem gjennom å skrive et kort Python-program som betyr fargen om bord i ISS og lage et bilde som bruker den fargen.
 
 Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
