@@ -10,7 +10,7 @@ Eine <span style="color: #0faeb0">**LED-Matrix**</span> ist ein Raster von LEDs,
 
 --- task ---
 
-Öffne das [Mission Zero-Starterprojekt](http://rpf.io/mzcode){:target="_blank"}.
+Öffne das [Mission Zero-Starterprojekt](https://missions.astro-pi.org/de/mz/code_submissions/new){:target="_blank"}.
 
 Du wirst sehen, dass einige Zeilen Code bereits automatisch erscheinen.
 
@@ -283,7 +283,7 @@ Mein Code hat einen Syntaxfehler:
 
 Mein Bild wird nicht angezeigt:
 
-- Überzeuge dich, dass dein `sense.set_pixels(image)` nicht eingerückt ist
+- Überzeuge dich, dass dein `sense.set_pixels(bild)` nicht eingerückt ist
 
 --- /task ---
 
