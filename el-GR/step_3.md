@@ -10,7 +10,7 @@
 
 --- task ---
 
-Άνοιξε το [αρχικό έργο Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Άνοιξε το [αρχικό έργο Mission Zero](https://missions.astro-pi.org/el/mz/code_submissions/new){:target="_blank"}.
 
 Θα δεις ότι μερικές γραμμές κώδικα έχουν ήδη προστεθεί αυτόματα για σένα.
 
