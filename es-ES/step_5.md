@@ -2,7 +2,7 @@
 
 Ahora que has completado tu misión, ¿por qué no probar algunos proyectos más usando los otros sensores del Astro Pi?
 
-Si te sientes seguro de ti mismo, ¡puedes participar en Mission Space Lab! Forma un equipo de dos a seis personas y trabajen juntos como verdaderos científicos espaciales para diseñar su propio experimento. Forma un equipo de dos a seis personas y trabajen juntos para responder una pregunta científica real. Todos los equipos que envíen un programa elegible serán invitados a una Q&A (preguntas y respuestas) virtual con un astronauta de la ESA al final del ciclo del desafío Astro Pi.
+Si te sientes seguro, podrías participar en Mission Space Lab. Forma un equipo de dos a seis personas y trabajen juntos para responder una pregunta científica real. Todos los equipos que envíen un programa elegible serán invitados a una Q&A (preguntas y respuestas) virtual con un astronauta de la ESA al final del ciclo del desafío Astro Pi.
 
 Alternativamente, puedes intentar uno de los otros proyectos Sense HAT:
 
