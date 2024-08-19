@@ -54,7 +54,7 @@ Tu código usará un bucle `for` para que se ejecute 28 veces. **Cada** vez:
 
 **Encuentra** tu línea de código `rgb = sense.color`.
 
-**Agrega** código por encima para configurar tu bucle`for` para `28` repeticiones.
+**Agrega** código por encima para configurar tu bucle `for` para `28` repeticiones.
 
 --- code ---
 ---
