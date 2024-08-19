@@ -2,4 +2,4 @@ imagen
 
 rgb
 
-arco iris
+arco_iris
