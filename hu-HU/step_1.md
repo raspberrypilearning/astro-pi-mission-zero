@@ -23,7 +23,7 @@ A programod elkészítéséhez az Astro Pi emulátort fogod használni egy webb�
 **Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/hu/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
 
 Az Astro Pi számítógépről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
-+ Szín**változók** létrehozása és használata képekben
++ Szín **változók** létrehozása és használata képekben
 + Képek tervezése és megjelenítése a Sense HAT-on
 + A fény színének érzékelése az ISS-en
 
