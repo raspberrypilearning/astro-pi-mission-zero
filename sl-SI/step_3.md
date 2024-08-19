@@ -10,7 +10,7 @@ LED matrika računalnika Astro Pi lahko prikazuje barve. V tem koraku boste prik
 
 --- task ---
 
-Odprite začetni projekt [Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Odprite začetni projekt [Mission Zero](https://missions.astro-pi.org/sl/mz/code_submissions/new){:target="_blank"}.
 
 Opazili boste, da je bilo nekaj vrstic kode dodanih samodejno.
 
@@ -60,7 +60,7 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 title: Lisica
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo piščanca v jajcu.](images/fox_mz3.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo lisico.](images/fox_mz3.png)
 
 Ustvarila ekipa i_pupi, Italija
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Slon
 ---
 
 ![Mreža z 8x8 kvadratki, ki prikazujejo slona.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Roža
+title: Kaktus
 ---
 
-![Mreža z 8x8 kvardraki, ki prikazujejp rožnato rožo na zelenem steblu.](images/cactus.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo kaktus.](images/cactus.png)
 
 Ustvarila ekipa 6TETHASI, Nizozemska
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Rak
+title: Mavrica
 ---
 
 ![Mreža z 8x8 kvadratki, ki prikazujejo mavrico.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Zmaj
 ---
 
 ![Mreža z 8x8 kvadratki, ki prikazujejo zmaja.](images/dragon.png)
 
-slika = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Ustvarila ekipa hwplucyr, Združeno kraljestvo
 
 ```python
 
