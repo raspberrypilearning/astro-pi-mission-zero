@@ -23,7 +23,7 @@ Käytät Astro Pi -emulaattoria verkkoselaimessa ohjelman luomiseen. Et tarvitse
 **Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/fi/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
 
 Opit Astro Pi -tietokoneesta ja sen hallinnasta, mukaan lukien miten:
-+ Luot väri**muuttujia** kuvassasi käytettäväksi
++ Luot väri **muuttujia** kuvassasi käytettäväksi
 + Suunnittelet ja näytät kuvan Sense HATissa
 + Tunnistat valon värin ISS:llä
 
