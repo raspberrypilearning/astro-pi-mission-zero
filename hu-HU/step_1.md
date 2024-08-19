@@ -1,6 +1,6 @@
 ### A 2023-24-es Mission Zero most lezárult.
 
-Továbbra is elvégezheted a tevékenységet, de már nem fogod tudni beküldeni a programodat, hogy az ISS-en fusson. A kihívás következő fordulója 2024 szeptemberében indul. Figyeld a közösségi médiát, és iratkozz fel a hírlevelünkre az [Astro Pi honlapon](https://astro-pi.org/mission-zero/).
+Továbbra is elvégezheted a tevékenységet, de már nem fogod tudni beküldeni a programodat, hogy az ISS-en fusson. A kihívás következő fordulója 2024 szeptemberében indul. Figyeld a közösségi médiát, és iratkozz fel a hírlevelünkre az [Astro Pi honlapon](https://astro-pi.org/hu/mission-zero/).
 
 Vagy használja ezt a projektet, hogy létrehozzon valamit, amit szeret a [legmenőbb projektekhez!](https://online.coolestprojects.org/take-part).
 
@@ -20,7 +20,7 @@ A programod elkészítéséhez az Astro Pi emulátort fogod használni egy webb�
 
 ### Az Astro Pi Mission Zero feltételei
 
-**Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
+**Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/hu/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
 
 Az Astro Pi számítógépről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
 + Szín**változók** létrehozása és használata képekben
