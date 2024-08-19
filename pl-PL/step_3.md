@@ -10,7 +10,7 @@ Diody LED Astro Pi mogą świecić się na kolorowo. W tym kroku będziesz wyśw
 
 --- task ---
 
-Otwórz [Projekt startowy Misji Zero](http://rpf.io/mzcode){:target="_blank"}.
+Otwórz [Projekt startowy Mission Zero](https://missions.astro-pi.org/pl/mz/code_submissions/new){:target="_blank"}.
 
 Zobaczysz, że kilka linijek kodu zostało dla Ciebie dodanych automatycznie.
 
@@ -283,7 +283,7 @@ Mój kod zawiera błąd składni:
 
 Mój obraz się nie pojawia:
 
-- Sprawdź, czy Twój `sense.set_pixels(image)` nie ma wciącia
+- Sprawdź, czy Twój `sense.set_pixels(obrazek)` nie ma wciącia
 
 --- /task ---
 
