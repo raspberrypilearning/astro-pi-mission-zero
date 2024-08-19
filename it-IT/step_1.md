@@ -1,6 +1,6 @@
 ### Mission Zero 2023/24 è conclusa.
 
-Puoi ancora completare l'attività ma non sarai in grado di eseguire il tuo programma sulla ISS. La prossima fase della sfida inizierà a settembre 2024. Controlla i social media e iscriviti alla newsletter dal [sito Astro Pi](https://astro-pi.org/mission-zero/) per gli aggiornamenti.
+Puoi ancora completare l'attività ma non sarai in grado di eseguire il tuo programma sulla ISS. La prossima fase della sfida inizierà a settembre 2024. Controlla i social media e iscriviti alla newsletter dal [sito Astro Pi](https://astro-pi.org/it/mission-zero/) per gli aggiornamenti.
 
 Oppure usa questo progetto per creare qualcosa che ami per i progetti [più cool!](https://online.coolestprojects.org/take-part).
 
@@ -20,7 +20,7 @@ Utilizzerai l'emulatore Astro Pi in un browser web per creare il tuo programma. 
 
 ### Requisiti di Astro Pi Mission Zero
 
-**Se il tuo progetto soddisfa i [criteri di idoneità](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, il tuo programma completato verrà eseguito sulla Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
+**Se il tuo progetto soddisfa i [criteri di idoneità](https://astro-pi.org/it/mission-zero/eligibility){:target="_blank"}**, il tuo programma completato verrà eseguito sulla Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
 Imparerai cos'è l'unità AstroPi e come controllarla, compreso come:
 + Creare **variabili** di colore da usare nella tua immagine
