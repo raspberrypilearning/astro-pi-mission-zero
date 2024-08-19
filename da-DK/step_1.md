@@ -1,6 +1,6 @@
 ### Mission Zero 2023/24 er nu afsluttet.
 
-Du kan stadig fuldføre aktiviteten, men vil ikke være i stand til at indsende dit program og få det kørt på ISS. Den næste runde af udfordringen lanceres i september 2024. Tjek sociale medier og tilmeld dig nyhedsbrevet på [Astro Pi's hjemmeside](https://astro-pi.org/mission-zero/) for opdateringer.
+Du kan stadig fuldføre aktiviteten, men vil ikke være i stand til at indsende dit program og få det kørt på ISS. Den næste runde af udfordringen lanceres i september 2024. Tjek sociale medier og tilmeld dig nyhedsbrevet på [Astro Pi's hjemmeside](https://astro-pi.org/da/mission-zero/) for opdateringer.
 
 Eller brug dette projekt til at skabe noget, du elsker til [Coolest Projects!](https://online.coolestprojects.org/take-part)
 
@@ -20,7 +20,7 @@ Du skal bruge Astro Pi-emulatoren i en webbrowser til at oprette dit program. Du
 
 ### Astro Pi Mission Zero kriterier
 
-**Hvis dit projekt opfylder [adgangskriterierne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, vil dit færdige program blive kørt på den internationale rumstation! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program blev kørt.
+**Hvis dit projekt opfylder [adgangskriterierne](https://astro-pi.org/da/mission-zero/eligibility){:target="_blank"}**, vil dit færdige program blive kørt på den internationale rumstation! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program blev kørt.
 
 Du kommer til at lære om AstroPi-computeren og styringen af den, herunder hvordan du:
 + Opret farve **variabler** til brug i dit billede
@@ -38,6 +38,6 @@ Organiser de unge i hold på en til fire og lad os guide dem gennem at skrive et
 
 Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
-\--- /collapse \---
+--- /collapse ---
 
 ![Sporingspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
