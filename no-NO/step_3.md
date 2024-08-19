@@ -57,10 +57,10 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-title: Kylling
+title: Rev
 ---
 
-![Et tall med 8 x 8 kvadrater som viser et kylling i et egg.](images/fox_mz3.png)
+![Et rutenett med 8 x 8 ruter som viser et revefjes.](images/fox_mz3.png)
 
 Laget av team i_pupi, Italia
 
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elefant
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en elefant.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Blomst
+title: Kaktus
 ---
 
-![Et tall med 8 x 8 kvadrater som viser en rosa blomst på et grønt innlegg.](images/cactus.png)
+![Et rutenett med 8 x 8 ruter som viser en kaktus.](images/cactus.png)
 
 Laget av team 6TETHASI, Nederland
 
@@ -144,7 +144,7 @@ image = [
 
 --- collapse ---
 ---
-tittel: Krokodille
+title: Krokodille
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser et krokodillehode.](images/croc.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krabbe
+title: Regnbue
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en regnbue.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Drage
 ---
 
 ![Et rutenett med 8 x 8 firkanter som viser en drage.](images/dragon.png)
 
-bilde = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Laget av team hwplucyr, Storbritannia
 
 ```python
 
@@ -266,7 +266,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-a = (255, 255, 255) # Hvit c = (0, 0, 0) # Svart f = (25, 25, 112) # Midnatt blå m = (34, 139, 34) # Skoggrønn
+Trykk **Kjør** nederst i editoren for å se bildet vist på LED-matrisen.
 
 --- /task ---
 
