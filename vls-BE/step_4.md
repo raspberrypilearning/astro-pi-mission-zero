@@ -35,9 +35,9 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Test** Beweeg de kleurschuiver naar een kleur naar keuze en start dan je code **start**. Je achtergrondkleur zal veranderen. Herhaal deze test nogmaals met een andere kleur.
+**Test** Beweeg de kleurschuiver naar een kleur naar keuze en laat dan je code **run**. Je achtergrondkleur zal veranderen. Herhaal deze test nogmaals met een andere kleur.
 
-**Tip:** Je zal elke keer je de kleur verandert op 'Start' moeten klikken.
+**Tip:** Je zal elke keer je de kleur verandert op 'Run' moeten klikken.
 
 --- /task ---
 
@@ -45,16 +45,16 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 Het Astro Pi Mission Zero-programma mag tot 30 seconden werken. Je zal deze tijd gebruiken om verschillende keren de kleursensor te controleren en de afbeelding te actualiseren.
 
-Je code zal een `voor` lus gebruiken om 28 keer te werken. **Elke** keer zal het:
+Je code zal een `for` lus gebruiken om 28 keer te werken. **Elke** keer zal het:
 + de laatste kleur meten
 + de achtergrondkleur van de afbeelding actualiseren
 + 1 seconde pauzeren
 
 --- task ---
 
-**Vind** je `rgb = meet.kleur` codelijn.
+**Vind** je `rgb = sense.color` codelijn.
 
-**Voeg** code hierboven toe om je `voor` lus voor `28` herhalingen in te stellen.
+**Voeg** code hierboven toe om je `for` lus voor `28` herhalingen in te stellen.
 
 --- code ---
 ---
@@ -73,7 +73,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-Je zal nu alle code onder de `voor` lus moeten opslaan zodat die bewaard wordt **binnen** de `voor` lus.
+Je zal nu alle code onder de `for` lus moeten opslaan zodat die bewaard wordt **binnen** de `for` lus.
 
 **Tip:** Om meerdere lijnen op te slaan, markeer de lijnen die je wil opslaan en druk dan de <kbd>Tab</kbd> toets op je klavier (meestal boven de <kbd>Caps Lock</kbd> toets op je klavier).
 
@@ -98,7 +98,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-Onderaan je code, voeg je een `slaap` van 1 seconde toe in je lus:
+Onderaan je code, voeg je een `sleep` van 1 seconde toe in je lus:
 
 --- code ---
 ---
@@ -112,7 +112,7 @@ line_highlights: 5
 
 --- /code ---
 
-**Tip:** Zorg ervoor dat deze codelijn opgeslagen wordt in je `voor` lus.
+**Tip:** Zorg ervoor dat deze codelijn opgeslagen wordt in je `for` lus.
 
 --- /task ---
 
@@ -131,7 +131,7 @@ De afbeelding zal niet meer geactualiseerd worden als de lus eindigt zodat het p
 Mijn code geeft een foutmelding en werkt niet zoals verwacht:
 
 - Controleer dat je code overeenkomt met de code in de voorbeelden hierboven
-- Controleer dat je de code opgeslagen hebt in je `voor` lus
+- Controleer dat je de code opgeslagen hebt in je `for` lus
 - Controleer dat je lijst omgeven wordt door `[` en `]`
 - Controleer dat elke kleurvariabele in de lijst gescheiden wordt door een komma
 
@@ -176,7 +176,7 @@ sense.clear()
 
 De LED-matrix wordt elke seconde zwart:
 
-- Controleer dat je de `sense.clear()` code niet in je `voor` lus opgeslagen hebt
+- Controleer dat je de `sense.clear()` code niet in je `for` lus opgeslagen hebt
 
 --- /task ---
 
@@ -227,7 +227,7 @@ Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de 
 --- collapse ---
 
 ---
-titel: Afgewerkt codevoorbeeld
+title: Afgewerkt codevoorbeeld
 ---
 
 ![Een krokodil wordt getoond in een raster van 8 x 8 vierkanten.](images/croc.png)
