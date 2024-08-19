@@ -1,4 +1,4 @@
-## Muestra una imagen
+## Identifica un color
 
 En este paso, configurarás el sensor de luminosidad de color y lo utilizarás para detectar la cantidad de rojo, verde y azul que llega al sensor. Este color se usará para colorear la imagen que has elegido. Un astronauta caminando hacia el sensor con una camisa azul vería una imagen diferente a la de un astronauta con una camisa roja.
 
@@ -182,7 +182,7 @@ La matriz de LEDs se vuelve negra cada segundo:
 
 --- task ---
 
-Agrega código para borrar la matriz de LEDs a un color de su elección. Crea una variable para guardar el color que has seleccionado.
+Agrega código para borrar la matriz de LEDs a un color de su elección. Crea una variable `x` para guardar el color que has seleccionado.
 
 Puedes mezclar tu propio color o usar los valores de la lista de colores para crear tu nuevo color `x`.
 
