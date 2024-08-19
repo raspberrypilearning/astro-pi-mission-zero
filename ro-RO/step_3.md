@@ -10,7 +10,7 @@ O <span style="color: #0faeb0">**matrice LED**</span> este o grilă de LED-uri c
 
 --- task ---
 
-Deschide proiectul [Mission Zero starter](http://rpf.io/mzcode){:target="_blank"}.
+Deschide proiectul [Mission Zero starter](https://missions.astro-pi.org/ro/mz/code_submissions/new){:target="_blank"}.
 
 Vei vedea că au fost adăugate automat pentru tine câteva linii de cod.
 
@@ -57,10 +57,10 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Pui
+title: Vulpe
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un pui într-un ou.](images/fox_mz3.png)
+![O grilă cu 8 x 8 pătrate care arată o față de vulpe.](images/fox_mz3.png)
 
 Creat de echipa i_pupi, Italia
 
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Floare
+title: Cactus
 ---
 
-![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/cactus.png)
+![O grilă cu 8 x 8 pătrate care arată un cactus.](images/cactus.png)
 
 Creat de echipa 6TETHASI, Olanda
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Crab
+title: Curcubeu
 ---
 
 ![O grilă cu 8 x 8 pătrate care arată un curcubeu.](images/rainbow.png)
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Dragon
 ---
 
 ![O grilă cu 8 x 8 pătrate care arată un dragon.](images/dragon.png)
 
-imagine = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Creat de echipă hwplucyr, Marea Britanie
 
 ```python
 
@@ -283,7 +283,7 @@ Codul meu are o eroare de sintaxă:
 
 Imaginea mea nu apare:
 
-- Verifică dacă `sense.set_pixels(image)` nu este indentat
+- Verifică dacă `sense.set_pixels(imagine)` nu este indentat
 
 --- /task ---
 
