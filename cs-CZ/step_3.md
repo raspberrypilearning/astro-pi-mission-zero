@@ -10,7 +10,7 @@ LED obrazovka počítače Astro Pi umí zobrazovat barvy. V tomto kroku zobrazí
 
 --- task ---
 
-Otevři [startovací projekt výzvy Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Otevři [startovací projekt výzvy Mission Zero](https://missions.astro-pi.org/cs/mz/code_submissions/new){:target="_blank"}.
 
 Uvidíš pár řádků kódu, které tam už budou automaticky přichystané.
 
@@ -283,7 +283,7 @@ Můj kód má chyby v syntaxi:
 
 Neukazuje se mi obrázek:
 
-- Zkontroluj si, jestli řádek `sense.set_pixels(image)` není odsazený.
+- Zkontroluj si, jestli řádek `sense.set_pixels(obrazek)` není odsazený.
 
 --- /task ---
 
