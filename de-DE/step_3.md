@@ -57,7 +57,7 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-Titel: Fuchs
+title: Fuchs
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die ein Fuchsgesicht zeigen.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-Titel: Elefant
+title: Elefant
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Elefanten zeigen.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-Titel: Kaktus
+title: Kaktus
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Kaktus zeigen.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-Titel: Regenbogen
+title: Regenbogen
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Regenbogen zeigen.](images/rainbow.png)
@@ -206,7 +206,7 @@ rainbow = [
 
 --- collapse ---
 ---
-Titel: Drache
+title: Drache
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/dragon.png)
