@@ -381,7 +381,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 
 <hr />
 <h2 spaces-before="0">
-  titolo: Esempio di codice completato
+  title: Esempio di codice completato
 </h2>
 
 <p spaces-before="0">
