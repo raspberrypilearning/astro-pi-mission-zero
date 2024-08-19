@@ -54,7 +54,7 @@ Ihr Code verwendet eine `for`-Schleife, um 28 Mal ausgeführt zu werden. **Jedes
 
 **Finde** deine `rgb = sense.color` Codezeile.
 
-Code darüber **hinzufügen** um deine `for` -Schleife für `28` Wiederholungen einzurichten.
+Code darüber **hinzufügen** um deine `for`-Schleife für `28` Wiederholungen einzurichten.
 
 --- code ---
 ---
@@ -73,7 +73,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-Du musst jetzt deinen gesamten Code unter der `for` -Schleife einrücken, sodass er **innerhalb** der `for` -Schleife sitzt.
+Du musst jetzt deinen gesamten Code unter der `for`-Schleife einrücken, sodass er **innerhalb** der `for`-Schleife sitzt.
 
 **Tipp:** Um mehrere Zeilen einzurücken, markiere die Zeilen, die du einrücken möchtest, und drücke dann die Taste <kbd>Tab</kbd> auf deiner Tastatur (normalerweise über der Taste <kbd>Caps Lock</kbd> auf der Tastatur).
 
@@ -98,7 +98,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-Füge am Ende deines Codes einen `Sleep`Befehl mit einer Sekunde innerhalb deiner Schleife hinzu:
+Füge am Ende deines Codes einen `Sleep` Befehl mit einer Sekunde innerhalb deiner Schleife hinzu:
 
 --- code ---
 ---
@@ -112,7 +112,7 @@ line_highlights: 5
 
 --- /code ---
 
-**Tipp:** Stelle sicher, dass diese Codezeile innerhalb deiner `for` Schleife eingerückt ist.
+**Tipp:** Stelle sicher, dass diese Codezeile innerhalb deiner `for`-Schleife eingerückt ist.
 
 --- /task ---
 
@@ -131,7 +131,7 @@ Das Bild wird nicht mehr aktualisiert, wenn die Schleife beendet ist, so dass da
 Mein Code hat einen Syntaxfehler oder läuft nicht wie erwartet:
 
 - Überprüfe, ob dein Code mit dem Code in den obigen Beispielen übereinstimmt
-- Überprüfe, ob du den Code in der `for`Schleife richtig eingerückt hast
+- Überprüfe, ob du den Code in der `for`-Schleife richtig eingerückt hast
 - Überprüfe, ob deine Liste von `[` und `]`umgeben ist
 - Überprüfe, ob die Farbvariablen in der Liste durch Kommas getrennt sind
 
@@ -176,7 +176,7 @@ sense.clear()
 
 Die LED-Matrix wird jede Sekunde schwarz:
 
-- Stelle sicher, dass du den Code `sense.clear()` in deiner `-for-` -Schleife nicht eingerückt hast
+- Stelle sicher, dass du den Code `sense.clear()` in deiner `for`-Schleife nicht eingerückt hast
 
 --- /task ---
 
