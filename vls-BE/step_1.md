@@ -1,6 +1,6 @@
 ### Mission Zero 2023/24 is nu afgesloten.
 
-Je kan de activiteit nog afwerken maar je kan je programma niet meer indienen om te werken op het ISS. De volgende ronde van de uitdaging zal starten in september 2024. Hou sociale media in de gaten en schrijf je in voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/mission-zero/) om updates te ontvangen.
+Je kan de activiteit nog afwerken maar je kan je programma niet meer indienen om te werken op het ISS. De volgende ronde van de uitdaging zal starten in september 2024. Hou sociale media in de gaten en schrijf je in voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/vls/mission-zero/) om updates te ontvangen.
 
 Of gebruik dit project om iets te maken waar je van houdt voor [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
@@ -20,14 +20,14 @@ Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken
 
 ### Criteria voor de Astro Pi Mission Zero
 
-**Als je project voldoet aan de [toelatingscriteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, zal je afgewerkt programma werken op het Internationaal Ruimtestation! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
+**Als je project voldoet aan de [toelatingscriteria](https://astro-pi.org/vls/mission-zero/eligibility){:target="_blank"}**, zal je afgewerkt programma werken op het Internationaal Ruimtestation! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
 
 Je komt vanalles te weten over de Astro Pi computer en hoe je ermee moet werken en ook hoe:
 + Kleur **variabelen** kan maken om te gebruiken in je afbeelding
 + Je beelden kan ontwerpen en tonen op de Sense HAT
 + Meet de kleur van het licht aan boord van het ISS
 
---- Minder tonen ---
+--- collapse ---
 ---
 title: Opmerkingen voor begeleiders
 ---
@@ -36,8 +36,8 @@ Mission Zero is geschikt voor beginnende programmeurs en/of kinderen van lagere 
 
 Verdeel je jongeren in teams van 1 tot 4 en laat ons hen begeleiden bij het schrijven van een kort Python-programma om de kleur aan boord van het ISS te meten en een afbeelding te maken met die kleur.
 
-Lees de [officiele richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
+Lees de [officiele richtlijnen](https://astro-pi.org/vls/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
 
---- /minder tonen ---
+--- /collapse ---
 
 ![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
