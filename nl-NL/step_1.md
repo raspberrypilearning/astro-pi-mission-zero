@@ -1,6 +1,6 @@
 ### Mission Zero 2023/24 is nu gesloten.
 
-Je kunt de activiteit nog steeds voltooien, maar je kunt je programma niet indienen om in het ISS uit te laten voeren. De volgende ronde van de uitdaging begint in september 2024. Houd sociale media in de gaten en meld je aan voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/mission-zero/) voor updates.
+Je kunt de activiteit nog steeds voltooien, maar je kunt je programma niet indienen om in het ISS uit te laten voeren. De volgende ronde van de uitdaging begint in september 2024. Houd sociale media in de gaten en meld je aan voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/nl/mission-zero/) voor updates.
 
 Of gebruik dit project om iets te maken waar je van houdt voor [Coolest Projects!](https://online.coolestprojects.org/take-part)
 
@@ -20,7 +20,7 @@ Je gebruikt de Astro Pi-emulator in een webbrowser om je programma te maken. Je 
 
 ### Astro Pi Mission Zero criteria
 
-**Als je project voldoet aan de [criteria voor geschiktheid](https://astro-pi.org/mission-zero/eligibility){:target="_ blank"}**, zal je voltooide programma worden uitgevoerd op het International Space Station! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
+**Als je project voldoet aan de [criteria voor geschiktheid](https://astro-pi.org/nl/mission-zero/eligibility){:target="_ blank"}**, zal je voltooide programma worden uitgevoerd op het International Space Station! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
 
 Je leert over de Astro Pi-computer en hoe je hem bestuurt, inclusief hoe je:
 + Creëer kleur **variabelen** om te gebruiken in je afbeelding
