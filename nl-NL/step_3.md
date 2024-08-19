@@ -10,7 +10,7 @@ Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster van LED's d
 
 --- task ---
 
-Open het [Mission Zero-startproject](http://rpf.io/mzcode){:target="_blank"}.
+Open het [Mission Zero-startproject](https://missions.astro-pi.org/nl-NL/mz/code_submissions/new){:target="_blank"}.
 
 Je zult zien dat er automatisch enkele regels met code voor je zijn toegevoegd.
 
@@ -283,7 +283,7 @@ Mijn code heeft een syntax fout:
 
 Mijn afbeelding verschijnt niet:
 
-- Controleer of je `sense.set_pixels(image)` niet ingesprongen is
+- Controleer of je `sense.set_pixels(afbeelding)` niet ingesprongen is
 
 --- /task ---
 
