@@ -1,6 +1,6 @@
 ### Mission Zero 2023/24 ist nun abgeschlossen.
 
-Du kannst die Aktivität zwar noch abschließen, dein Programm jedoch nicht zur Ausführung auf der ISS einreichen. Die nächste Runde der Challenge startet im September 2024. Schaue in den sozialen Medien nach und abonniere den Newsletter auf der [Astro Pi-Website](https://astro-pi.org/mission-zero/), um Updates zu erhalten.
+Du kannst die Aktivität zwar noch abschließen, dein Programm jedoch nicht zur Ausführung auf der ISS einreichen. Die nächste Runde der Challenge startet im September 2024. Schaue in den sozialen Medien nach und abonniere den Newsletter auf der [Astro Pi-Website](https://astro-pi.org/de/mission-zero/), um Updates zu erhalten.
 
 Oder verwende dieses Projekt, um etwas für deine [Coolsten Projekte!](https://online.coolestprojects.org/take-part)zu erstellen.
 
@@ -20,7 +20,7 @@ Du wirst den Astro Pi Emulator in einem Webbrowser verwenden, um dein Programm z
 
 ### Astro Pi Mission Zero Kriterien
 
-**Wenn dein Projekt die [Eignungskriterien](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**erfüllt, wird dein abgeschlossenes Programm auf der Internationalen Raumstation durchgeführt! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
+**Wenn dein Projekt die [Eignungskriterien](https://astro-pi.org/de/mission-zero/eligibility){:target="_blank"}**erfüllt, wird dein abgeschlossenes Programm auf der Internationalen Raumstation durchgeführt! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
 
 Du wirst mehr über den Astro Pi erfahren und wie du ihn steuern kannst, einschließlich:
 + Erstellen von **Variablen** für für Farbe für dein Bild
