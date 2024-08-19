@@ -227,7 +227,7 @@ Poți salva programul tău în proiectul Mission Starter introducând numele ech
 --- collapse ---
 
 ---
-titlu: Exemplu de cod completat
+title: Exemplu de cod completat
 ---
 
 ![O grilă cu 8 x 8 pătrate care arată un crocodil.](images/croc.png)
