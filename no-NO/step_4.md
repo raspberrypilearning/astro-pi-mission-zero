@@ -45,7 +45,7 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 Astro Pi-Mission Zero-programmet tillates å løpe i opptil 30 sekunder. Du vil bruke denne tiden til å sjekke fargesensoren flere ganger og oppdatere bildet.
 
-Koden din skal bruke `` -sløyfe til å kjøre 28 ganger. **Hver** gang det vil:
+Koden din vil bruke en `for` løkke for å kjøre 28 ganger. **Hver** gang det vil:
 + fornemme den nyeste fargen
 + oppdatere bakgrunnsfargen på bildet
 + pause i ett sekund
