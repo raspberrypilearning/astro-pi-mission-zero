@@ -20,7 +20,7 @@ Do stworzenia swojego programu będziesz używać emulatora Astro Pi w przegląd
 
 ### Kryteria Mission Zero Astro Pi
 
-**Jeśli Twój projekt spełni [kryteria kwalifikacyjne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, Twój ukończony program zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program został uruchomiony.
+**Jeśli Twój projekt spełni [kryteria kwalifikacyjne](https://astro-pi.org/pl/mission-zero/eligibility){:target="_blank"}**, Twój ukończony program zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program został uruchomiony.
 
 Dowiesz się o komputerze Astro Pi i o tym, jak nim sterować, w tym jak:
 + Utworzyć **zmienne** kolorów do użycia w swoim obrazku
