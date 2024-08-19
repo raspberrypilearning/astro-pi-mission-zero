@@ -10,7 +10,7 @@ Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que
 
 --- task ---
 
-Abre o [projeto inicial Missão Zero](http://rpf.io/mzcode){:target="_blank"}.
+Abre o [projeto inicial Mission Zero](https://missions.astro-pi.org/pt/mz/code_submissions/new){:target="_blank"}.
 
 Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
