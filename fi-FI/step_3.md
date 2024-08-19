@@ -283,7 +283,7 @@ Koodissani on syntaksivirhe:
 
 Kuvani ei näy:
 
-- Tarkista, että `sense.set_pixels(image)` ei ole sisennetty
+- Tarkista, että `sense.set_pixels(kuva)` ei ole sisennetty
 
 --- /task ---
 
