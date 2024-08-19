@@ -1,8 +1,8 @@
 ### Projekt Mission Zero 2023/24 je zdaj zaključen.
 
-Še vedno lahko dokončate dejavnost, vendar ne boste mogli oddati svojega programa za izvajanje na ISS. Naslednji krog izziva se bo začel septembra 2024. Za posodobitve preverite družbena omrežja in se prijavite na glasilo na spletnem mestu [Astro Pi](https://astro-pi.org/mission-zero/).
+Še vedno lahko dokončate dejavnost, vendar ne boste mogli oddati svojega programa za izvajanje na ISS. Naslednji krog izziva se bo začel septembra 2024. Za posodobitve preverite družbena omrežja in se prijavite na glasilo na spletnem mestu [Astro Pi](https://astro-pi.org/sl/mission-zero/).
 
-Dokončajte ta projekt, da sodelujete v izzivu Astro Pi Mission Zero in zagotovite, da se bo vaša koda izvedla v vesolju na računalniku Astro Pi.
+Ali pa uporabite ta projekt, da ustvarite nekaj, kar vam je všeč za [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
 
 
@@ -18,9 +18,9 @@ Tukaj je primer programa, ki bi ga lahko naredili za Astro Pi v vesolju.
 
 Za izdelavo programa boste potrebovali Astro Pi emulator v spletnem brskalniku. Računalnika Astro Pi ne potrebujete.
 
-### Kriteriji
+### Kriteriji Astro Pi Mission Zero
 
-**Če vaš projekt izpolnjuje [zahteve](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, se bo program izvedel na Mednarodni vesoljski postaji! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program.
+**Če vaš projekt izpolnjuje [zahteve](https://astro-pi.org/sl/mission-zero/eligibility){:target="_blank"}**, se bo program izvedel na Mednarodni vesoljski postaji! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program.
 
 Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
 + Ustvarjanjem barvnih **spremenljivk** za uporabo v sliki
@@ -36,7 +36,7 @@ Projekt Mission Zero je primeren za začetnike v programiranju in/ali osnovnošo
 
 Organizirajte svoje mlade v skupine od enega do štirih in dovolite nam, da jih vodimo skozi pisanje kratkega programa Python za zaznavanje barve na krovu ISS in ustvarjanje slike, ki jo uporablja.
 
-Preberite [dokument z uradnimi smernicami](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} za Mission Zero.
+Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
 --- /collapse ---
 
