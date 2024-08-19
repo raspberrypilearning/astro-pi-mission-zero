@@ -1,6 +1,6 @@
 ### A Missão Zero 2023/24 já foi encerrada.
 
-Ainda poderás concluir a atividade, mas não poderás enviar o teu programa para execução na EEI ( Estação Espacial Internacional). A próxima ronda de desafios será lançada em setembro de 2024. Verifica as redes sociais e inscreve-te na newsletter do site [Astro Pi](https://astro-pi.org/mission-zero/) para atualizações.
+Ainda poderás concluir a atividade, mas não poderás enviar o teu programa para execução na EEI ( Estação Espacial Internacional). A próxima ronda de desafios será lançada em setembro de 2024. Verifica as redes sociais e inscreve-te na newsletter do site [Astro Pi](https://astro-pi.org/pt/mission-zero/) para atualizações.
 
 Ou usa este projeto para criar algo que gostas para o [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
