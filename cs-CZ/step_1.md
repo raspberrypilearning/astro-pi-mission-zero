@@ -1,6 +1,6 @@
 ### Výzva Mission Zero 2023/24 je nyní ukončena.
 
-Aktivitu můžeš nadále dokončit, avšak svůj program již nebudeš moci odeslat ke spuštění na ISS. Další kolo výzvy bude zahájeno v září roku 2024. Navštiv naše stránky na sociálních sítích a přihlas se k odběru newsletteru [na stránce Astro Pi](https://astro-pi.org/mission-zero/), aby ti neunikly žádné novinky.
+Aktivitu můžeš nadále dokončit, avšak svůj program již nebudeš moci odeslat ke spuštění na ISS. Další kolo výzvy bude zahájeno v září roku 2024. Navštiv naše stránky na sociálních sítích a přihlas se k odběru newsletteru [na stránce Astro Pi](https://astro-pi.org/cs/mission-zero/Astro Pi), aby ti neunikly žádné novinky.
 
 Nebo použij tento projekt k vytvoření něčeho, co se ti líbí, do přehlídky [Coolest Projects](https://online.coolestprojects.org/take-part)!
 
