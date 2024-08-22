@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-titolo: Arcobaleno
+title: Arcobaleno
 ---
 
 ![Una griglia con 8 x 8 quadrati che mostra un arcobaleno.](images/rainbow.png)
