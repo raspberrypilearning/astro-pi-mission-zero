@@ -1,6 +1,6 @@
-## Esita oma võistlustöö
+## Mis edasi — rohkem Astro Pi projekte
 
-Nüüd saate sisestatud koodi abil sisestada [Astro Pi Mission Zero](https://astro-pi.org/et/mission-zero){:target="_blank"} väljakutse.
+Nüüd, kui olete oma missiooni täitnud, siis miks mitte proovida veel mõnda projekti, kasutades Astro Pi teisi andureid?
 
 If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
 
