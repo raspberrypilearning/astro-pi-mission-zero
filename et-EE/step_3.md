@@ -57,12 +57,12 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 --- collapse ---
 
 ---
-title: Kana
+pealkiri: Rebane
 ---
 
-![8 x 8 ruuduga võre, mis näitab tibu munas.](images/fox_mz3.png)
+![8 x 8 ruuduga ruudustik, mis näitab rebase nägu.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Loonud meeskond i_pupi, Itaalia
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+pealkiri: Elevant
 ---
 
 ![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Lill
+pealkiri: Kaktus
 ---
 
-![8 x 8 ruuduga võre, millel on roosa lill rohelisel varrel.](images/cactus.png)
+![8 x 8 ruuduga ruudustik, millel on kujutatud kaktus.](images/cactus.png)
 
 Created by team 6TETHASI, The Netherlands
 
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krabi
+pealkiri: Vikerkaar
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
@@ -206,7 +206,7 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+pealkiri: Draakon
 ---
 
 ![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
