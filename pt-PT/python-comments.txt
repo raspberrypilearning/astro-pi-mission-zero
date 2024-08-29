@@ -36,11 +36,11 @@ Vermelho
 
 Verde primavera
 
-Azul Médio
+Azul médio
 
 Cinzento fosco
 
-Orquídea Negra
+Orquídea negra
 
 obter a cor do sensor
 
