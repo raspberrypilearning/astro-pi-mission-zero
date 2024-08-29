@@ -1,30 +1,30 @@
-### Výzva Mission Zero 2023/24 je ukončená.
+### Výzva Mission Zero 2023/24 je už ukončená.
 
-You can still complete the activity but will not be able to submit your program to run on the ISS. The next round of the challenge will launch in September 2024. Check social media and sign up to the newsletter on the [Astro Pi website](https://astro-pi.org/mission-zero/) for updates.
+Aktivitu ešte môžeš dokončiť, ale svoj program už nebudeš môcť odoslať, aby sa spustil na ISS. Ďalšie kolo výzvy sa spustí v septembri 2024. Sleduj sociálne siete a prihlás sa na odber noviniek na [webovej stránke Astro Pi](https://astro-pi.org/mission-zero/), kde budeme zverejňovať aktualizácie.
 
-Dokončite tento projekt, prihláste sa do výzvy Astro Pi Mission Zero a dosiahnite, aby kód vášho tímu bol spustený vo vesmíre na počítači Astro Pi.
+Alebo pomocou tohto projektu vytvor niečo špeciálne pre [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
 
 
-## Urobíte
+## Čo urobíš
 
-Váš projekt nastaví farbu pozadia obrázka na farbu, ktorú rozpozná počítač Astro Pi. Vďaka tomu bude Medzinárodná vesmírna stanica (ISS) farebnejšia pre kozmonautov na palube. Váš kód na nastavenie farby použije snímač farebnej svietivosti na novom počítači Mark II Astro Pi Sense HAT.
+Tvoj projekt nastaví farbu pozadia obrázka na farbu, ktorú rozpozná počítač Astro Pi. Vďaka tomu bude Medzinárodná vesmírna stanica (ISS) farebnejšia pre astronautov na palube. Tvoj kód použije snímač farebnej svietivosti na novom module Sense HAT počítača Mark II Astro Pi.
 
-Tu je príklad typu programu, ktorý by ste mohli spustiť na Astro Pi vo vesmíre.
+Tu je príklad typu programu, ktorý by sa mohol spustiť na Astro Pi vo vesmíre.
 
-![Emulátor Sense HAT spustený vzorovým programom s hadom, ktorého farba pozadia sa zmení podľa snímania farby.](images/finished.gif)
+![Emulátor modulu Sense HAT so spusteným vzorovým programom s hadom, ktorého farba pozadia sa zmení podľa snímania farby.](images/finished.gif)
 
-### Budete potrebovať
+### Budeš potrebovať
 
-Na vytvorenie programu použijete emulátor Astro Pi vo webovom prehliadači. Nepotrebujete počítač Astro Pi.
+Na vytvorenie programu použiješ emulátor počítača Astro Pi vo webovom prehliadači. Nepotrebuješ počítač Astro Pi.
 
-### Kritériá pre Mission Zero na počítači Astro Pi
+### Kritériá pre Astro Pi Mission Zero
 
-**Ak váš projekt spĺňa [kritériá oprávnenosti](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, váš dokončený program bude spustený na Medzinárodnej vesmírnej stanici! Dostanete tiež špeciálne osvedčenie, ktoré presne ukazuje, kde sa ISS nachádzala, keď bol váš program spustený.
+**Ak tvoj projekt spĺňa [kritériá spôsobilosti](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, tvoj dokončený program bude spustený na Medzinárodnej vesmírnej stanici! Dostaneš tiež špeciálne osvedčenie s presnou polohou ISS, keď bol tvoj program spustený.
 
-Dozviete sa o počítači Astro Pi a o tom, ako ho ovládať, vrátane toho, ako:
-+ Vytvoriť farebné **premenné**, ktoré použijete vo svojom obrázku
-+ Navrhnúť a zobraziť obrázok na Sense HAT
+Dozvieš sa o počítači Astro Pi a o tom, ako ho ovládať, vrátane toho, ako:
++ Vytvoriť **premenné** farieb, ktoré použiješ vo svojom obrázku
++ Navrhnúť a zobraziť obrázok na module Sense HAT
 + Snímať farbu svetla na palube ISS
 
 --- collapse ---
@@ -32,7 +32,7 @@ Dozviete sa o počítači Astro Pi a o tom, ako ho ovládať, vrátane toho, ako
 title: Poznámky pre mentorov
 ---
 
-Mission Zero je vhodná pre začiatočníkov v programovaní a/alebo deti vo veku základných škôl a dá sa absolvovať v jednej 60-minútovej lekcii na akomkoľvek počítači s prístupom na internet. Nie je potrebný žiadny špeciálny hardvér ani predchádzajúce znalosti z oblasti kódovania. Všetko sa dá urobiť vo webovom prehliadači.
+Mission Zero je vhodná pre začiatočníkov v programovaní a/alebo deti vo veku základných škôl a dá sa absolvovať v jednej 60-minútovej lekcii na akomkoľvek počítači s prístupom na internet. Nie je potrebný žiadny špeciálny hardvér ani predchádzajúce znalosti programovania. Všetko sa dá urobiť vo webovom prehliadači.
 
 Zorganizujte svojich mladých ľudí do tímov po jednom až štyroch a poskytnite im našu príručku na napísanie krátkeho programu v jazyku Python na snímanie farby na palube ISS a vytvorili obrázok, ktorý túto farbu používa.
 
