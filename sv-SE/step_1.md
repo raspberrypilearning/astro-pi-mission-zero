@@ -14,7 +14,7 @@ Här är ett exempel på den typ av program du kan göra för att köra på en A
 
 ![Sense HAT-emulatorn kör ett exempelprogram med en orm vars bakgrundsfärg ändras till färgen identifierad av sensorn.](images/finished.gif)
 
-### Du kommer behöva
+### Kriterier för Astro Pi Mission Zero
 
 Du kommer att använda Astro Pi-emulatorn i en webbläsare för att skapa ditt program. Du behöver ingen Astro Pi-dator.
 
