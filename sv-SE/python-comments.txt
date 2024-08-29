@@ -16,11 +16,11 @@ Svart
 
 Vit
 
-Dark orange
+Mörkorange
 
-Dark grey
+Mörkgrå
 
-YellowGreen
+Gulgrön
 
 Gul
 
@@ -30,17 +30,17 @@ Midnattsblå
 
 Skogsgrön
 
-CornflowerBlue
+Blåklintblå
 
 Röd
 
-SpringGreen
+Vårgrön
 
-MediumBlå
+Mediumblå
 
-DimGray
+Dimgrå
 
-DarkOrchid
+Mörkorkidé
 
 hämta färgen från sensorn
 
