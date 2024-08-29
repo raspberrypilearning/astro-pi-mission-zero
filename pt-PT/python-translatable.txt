@@ -2,4 +2,4 @@ imagem
 
 rgb
 
-arco-íris
+arco-iris
