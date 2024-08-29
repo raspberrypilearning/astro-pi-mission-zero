@@ -23,7 +23,7 @@ Na vytvorenie programu použiješ emulátor počítača Astro Pi vo webovom preh
 **Ak tvoj projekt spĺňa [kritériá spôsobilosti](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, tvoj dokončený program bude spustený na Medzinárodnej vesmírnej stanici! Dostaneš tiež špeciálne osvedčenie s presnou polohou ISS, keď bol tvoj program spustený.
 
 Dozvieš sa o počítači Astro Pi a o tom, ako ho ovládať, vrátane toho, ako:
-+ Vytvoriť **premenné** farieb, ktoré použiješ vo svojom obrázku
++ Vytvoriť farebné **premenné**, ktoré použiješ vo svojom obrázku
 + Navrhnúť a zobraziť obrázok na module Sense HAT
 + Snímať farbu svetla na palube ISS
 
@@ -34,7 +34,7 @@ title: Poznámky pre mentorov
 
 Mission Zero je vhodná pre začiatočníkov v programovaní a/alebo deti vo veku základných škôl a dá sa absolvovať v jednej 60-minútovej lekcii na akomkoľvek počítači s prístupom na internet. Nie je potrebný žiadny špeciálny hardvér ani predchádzajúce znalosti programovania. Všetko sa dá urobiť vo webovom prehliadači.
 
-Zorganizujte svojich mladých ľudí do tímov po jednom až štyroch a poskytnite im našu príručku na napísanie krátkeho programu v jazyku Python na snímanie farby na palube ISS a vytvorili obrázok, ktorý túto farbu používa.
+Usporiadajte svojich mladých ľudí do tímov po jednom až štyroch členov a poskytnite im našu príručku na napísanie krátkeho programu v jazyku Python na nasnímanie farby na palube ISS a vytvorenie obrázka, ktorý túto farbu používa.
 
 Prečítajte si [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines) pre Mission Zero.
 
