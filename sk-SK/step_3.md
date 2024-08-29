@@ -1,20 +1,20 @@
-## Zobraziť obrázok
+## Zobrazenie obrázka
 
-Matrica LED Astro Pi môže zobrazovať farby. V tomto kroku zobrazíte obrázky z prírody na LED matrici Astro Pi.
+LED matrica počítača Astro Pi môže zobrazovať farby. V tomto kroku zobrazíš obrázky z prírody na LED matrici počítača Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**LED matrica**</span> je mriežka LED diód, ktoré možno ovládať jednotlivo alebo ako skupinu a vytvárať tak rôzne svetelné efekty. Matrica LED na Sense HAT má 64 LED zobrazených v mriežke 8 x 8. LED diódy môžu byť naprogramované tak, aby produkovali širokú škálu farieb.
+<span style="color: #0faeb0">**LED matrica**</span> je mriežka LED diód, ktoré možno ovládať jednotlivo alebo ako skupinu a vytvárať tak rôzne svetelné efekty. LED matrica LED na module Sense HAT má 64 LED diód zobrazených v mriežke 8 x 8. LED diódy môžu byť naprogramované tak, aby produkovali širokú škálu farieb.
 </p>
 
-![Snímka obrazovky okna emulátora zobrazujúca letovú jednotku s maticou LED zobrazujúcou obrázok kvetu.](images/fu-pic.png)
+![Snímka obrazovky okna emulátora zobrazujúca letovú jednotku s LED maticou zobrazujúcou obrázok kvetu.](images/fu-pic.png)
 
 --- task ---
 
-Otvorte [úvodný projekt Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
+Otvor [úvodný projekt Mission Zero](http://rpf.io/mzcode){:target="_blank"}.
 
-Uvidíte, že sa vám automaticky pridalo niekoľko riadkov kódu.
+Automaticky sa ti pridá niekoľko riadkov kódu.
 
-Tento kód sa pripája k počítaču Astro Pi, zaisťuje, že sa LED displej Astro Pi zobrazuje správnym smerom a nastavuje snímač farieb. Tento kód nechajte na mieste, pretože ho budete potrebovať.
+Tento kód sa pripája k počítaču Astro Pi, zaisťuje, že sa LED displej počítača Astro Pi zobrazuje správnym smerom, a nastavuje snímač farieb. Tento kód tam nechaj, pretože ho budeš potrebovať.
 
 --- code ---
 ---
@@ -32,27 +32,27 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![Snímka obrazovky emulátora Sense HAT s riadkami štartovacieho kódu zobrazenými v ľavom paneli.](images/sense-hat-emulator2.png)
+![Snímka obrazovky emulátora modulu Sense HAT s riadkami úvodného kódu zobrazenými v ľavom paneli.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
 ### RGB farby
 
-Farby môžu byť vytvorené pomocou rôznych pomerov červenej, zelenej a modrej. O farbách RGB sa môžete dozvedieť tu:
+Farby môžu byť vytvorené pomocou rôznych pomerov červenej, zelenej a modrej. Viac informácií o RGB farbách nájdeš tu:
 
 [[[generic-theory-simple-colours]]]
 
-Matrica LED je mriežka 8 x 8. Každá LED na mriežke môže byť nastavená na inú farbu. Tu je zoznam premenných pre 24 rôznych farieb. Každá farba má hodnotu pre červenú, zelenú a modrú:
+LED matrica je mriežka 8 x 8. Každá LED dióda na mriežke môže byť nastavená na inú farbu. Tu je zoznam premenných pre 24 rôznych farieb. Každá farba má hodnotu pre červenú, zelenú a modrú:
 
 [[[ambient-colours]]]
 
-### Vyberte obrázok
+### Vyber obrázok
 
 --- task ---
 
-**Vyberte:** z možností nižšie vyberte obrázok, ktorý sa má zobraziť. Program Python uloží informácie o obrázku do zoznamu. Kód pre každý obrázok obsahuje použité farebné premenné a zoznam.
+**Vyber:** z možností nižšie vyber obrázok, ktorý sa má zobraziť. Program Python uloží informácie o obrázku do zoznamu. Kód pre každý obrázok obsahuje použité farebné premenné a zoznam.
 
-Budete musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **prilepiť** do svojho projektu pod riadok ktorý znie `# Add colour variables and image (Pridať farebné premenné a obrázok)`.
+Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **prilepiť** do svojho projektu pod riadok s textom `# Pridajte farebné premenné a obrázok`.
 
 --- collapse ---
 
@@ -62,7 +62,7 @@ title: Kuriatko
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúca kuriatko vo vajci.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Autor: tím i_pupi, Taliansko
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,12 +86,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Slon
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca slona.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Autor: tím ILiFanT, Fínsko
 
 ```python
 c = (0, 0, 0) # Black
@@ -118,7 +118,7 @@ title: Kvet
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúca ružový kvet na zelenej stonke.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Autor: tím 6TETHASI, Holandsko
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Krab
+title: Dúha
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi dúhu.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Autor: tím camrus_6, Spojené kráľovstvo
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+title: Drak
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi draka.](images/dragon.png)
 
-obrazok = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Autor: tím hwplucyr, Spojené kráľovstvo
 
 ```python
 
@@ -266,7 +266,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Stlačením tlačidla **Spustiť** v dolnej časti editora zobrazíte obrázok zobrazený na matici LED.
+Stlačením tlačidla **Spustiť** v dolnej časti editora zobrazíte obrázok zobrazený na LED matrici.
 
 --- /task ---
 
@@ -276,24 +276,24 @@ Stlačením tlačidla **Spustiť** v dolnej časti editora zobrazíte obrázok z
 
 Môj kód má chybu syntaxe:
 
-- Skontrolujte, či sa váš kód zhoduje s kódom v príkladoch vyššie
-- Skontrolujte, či ste odsadili kód vo svojom zozname
-- Skontrolujte, či je váš zoznam obklopený znakmi `[` a `]`
+- Skontroluj, či sa kód zhoduje s kódom v príkladoch vyššie
+- Skontroluj, či máš kód vo svojom zozname odsadený
+- Skontroluj, či je zoznam uzavretý v znakoch `[` a `]`
 - Skontrolujte, či sú jednotlivé farebné premenné v zozname oddelené čiarkou
 
 Môj obrázok sa nezobrazuje:
 
-- Skontrolujte, či váš `sense.set_pixels(image)` nie je odsadený
+- Skontroluj, či riadok `sense.set_pixels(image)` nie je odsadený
 
 --- /task ---
 
 
 --- task ---
 
-**Save your progress**
+**Ukladaj si priebeh**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Po zobrazení obrázka si môžeš svoj program uložiť do projektu Mission Starter zadaním názvu tímu, mien členov tímu a kódu triedy, ktorý si dostal/-a. Svoj program môžeš znova načítať na akomkoľvek zariadení s internetovým pripojením zadaním názvu tímu a kódu triedy.
 
-![Mission Zero Save button](images/savebutton.png)
+![Tlačidlo Uložiť v Mission Zero](images/savebutton.png)
 
 --- /task --- 
