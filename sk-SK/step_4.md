@@ -1,18 +1,18 @@
-## Snímanie farby
+## Nasnímanie farby
 
-V tomto kroku nastavíte snímač farebnej svietivosti a použijete ho na snímanie množstva červenej, zelenej a modrej, ktoré sa dostane na snímač. Táto farba sa potom použije na vyfarbenie zvoleného obrázka. Kozmonaut kráčajúci k snímaču v modrej košeli by videl iný obraz ako kozmonaut v červenej košeli.
+V tomto kroku nastavíš snímač farebnej svietivosti a použiješ ho na nasnímanie množstva červenej, zelenej a modrej, ktoré sa dostáva na snímač. Táto farba sa potom použije na vyfarbenie zvoleného obrázka. Astronaut kráčajúci k snímaču v modrej košeli by videl iný obrázok ako astronaut v červenej košeli.
 
-![obrázok zobrazený s ružovým pozadím na matici LED](images/colour_background.png)
+![Obrázok zobrazený s ružovým pozadím na LED matrici](images/colour_background.png)
 
-Bez ohľadu na to, ktorý obrázok vyberiete, pozadie používa premennú `c`, ktorá je nastavená na čiernu.
+Bez ohľadu na to, ktorý obrázok vyberieš, pozadie používa premennú `c`, ktorá je nastavená na čiernu.
 
 --- task ---
 
-Na vyfarbenie pozadia použite farebný snímač.
+Na vyfarbenie pozadia použi snímač farieb.
 
-Pridajte kód pred zoznam obrázkov, aby ste získali farbu zo snímača, a zmeňte premennú farby pozadia `c` tak, aby namiesto čiernej používala farbu snímanú farebným snímačom Sense HAT.
+Pridaj kód pred zoznam obrázkov, aby si získal/-a farbu zo snímača, a zmeň premennú farby pozadia `c` tak, aby namiesto čiernej používala farbu nasnímanú snímačom farieb modulu Sense HAT.
 
-**Tip:** Nemusíte písať komentáre, ktoré začínajú znakom „#“ (sú tu na vysvetlenie kódu).
+**Tip:** Nemusíš písať komentáre, ktoré sa začínajú znakom „#“ (sú tu na vysvetlenie kódu).
 
 --- code ---
 ---
@@ -35,26 +35,26 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-**Test:** Posuňte posúvač farieb na farbu podľa vlastného výberu a potom **spustite**. Vaša farba pozadia sa zmení. Zopakujte tento test s novou farbou.
+**Test:** Posuň posúvač farieb na farbu podľa vlastného výberu a potom **spusti**. Farba pozadia sa zmení. Zopakuj tento test s novou farbou.
 
-**Tip:** pri každej zmene farby budete musieť kliknúť na „Spustiť“.
+**Tip:** Pri každej zmene farby treba kliknúť na „Spustiť“.
 
 --- /task ---
 
-## Zopakujte svoj program v slučke
+## Zopakuj svoj program v slučke
 
-Program Astro Pi Mission Zero môže bežať až 30 sekúnd. Tento čas využijete na opakovanú kontrolu farebného snímača a aktualizáciu snímky.
+Program Astro Pi Mission Zero môže bežať až 30 sekúnd. Tento čas využiješ na opakovanú kontrolu snímača farieb a aktualizáciu obrázka.
 
-Váš kód použije slučku `for`, a spustí program 28-krát. **Zakaždým**:
-+ snímajte najnovšiu farbu
-+ aktualizujte farbu obrázka
-+ pozastavte na jednu sekundu
+Tvoj kód použije slučku `for` a spustí sa 28-krát. **Zakaždým**:
++ Nasníma najnovšiu farbu
++ Aktualizuje farbu obrázka
++ Pozastaví sa na jednu sekundu
 
 --- task ---
 
-**Nájdite** svoj riadok kódu`rgb = sense.color`.
+**Nájdi** riadok kódu`rgb = sense.color`.
 
-**Pridajte** kód nad ním a nastavte slučku `for` pre `28` opakovaní.
+**Pridaj** kód nadeň a nastav slučku `for` na `28` opakovaní.
 
 --- code ---
 ---
@@ -73,9 +73,9 @@ image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m
 
 --- task ---
 
-Teraz musíte odsadiť celý kód pod slučkou `for` tak, aby sa nachádzal **vnútri** slučky `for`.
+Teraz musíš odsadiť celý kód pod slučkou `for` tak, aby sa nachádzal **vnútri** slučky `for`.
 
-**Tip:** ak chcete odsadiť viacero riadkov, zvýraznite riadky, ktoré chcete odsadiť, a potom stlačte kláves <kbd>Tabulátor</kbd> na klávesnici (zvyčajne nad <kbd>Kláves Caps Lock</kbd> na klávesnici).
+**Tip:** Ak chceš odsadiť viacero riadkov, zvýrazni riadky, ktoré chceš odsadiť, a potom stlač kláves <kbd>Tab</kbd> na klávesnici (zvyčajne nad klávesom <kbd>Caps Lock</kbd> na klávesnici).
 
 --- code ---
 ---
@@ -98,7 +98,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-V spodnej časti kódu pridajte do cyklu `spánok` v dĺžke jednej sekundy:
+V spodnej časti kódu pridaj do slučky príkaz `sleep` v dĺžke jednej sekundy:
 
 --- code ---
 ---
@@ -112,15 +112,15 @@ line_highlights: 5
 
 --- /code ---
 
-**Tip:** uistite sa, že tento riadok kódu je v rámci cyklu `for` odsadený.
+**Tip:** Uisti sa, že tento riadok kódu je odsadený v rámci slučky `for`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Spustite svoj kód a niekoľkokrát zmeňte výber farby počas behu projektu. Skontrolujte, či sa váš obrázok aktualizuje, aby pri ďalšom spustení použil nasnímanú farbu.
+**Test:** Spusti svoj kód a niekoľkokrát zmeň výber farby počas behu projektu. Skontroluj, či sa obrázok aktualizuje a pri ďalšom spustení použije nasnímanú farbu.
 
-Po dokončení cyklu sa obraz prestane aktualizovať, takže program nebude bežať dlhšie ako 30 sekúnd.
+Po dokončení slučky sa obrázok prestane aktualizovať, aby program nebežal dlhšie ako 30 sekúnd.
 
 --- /task ---
 
@@ -130,23 +130,23 @@ Po dokončení cyklu sa obraz prestane aktualizovať, takže program nebude bež
 
 Môj kód má chybu syntaxe alebo nefunguje podľa očakávania:
 
-- Skontrolujte, či sa váš kód zhoduje s kódom v príkladoch vyššie
-- Skontrolujte, či ste odsadili kód v slučke `for`
-- Skontrolujte, či je váš zoznam obklopený znakmi `[` a `]`
-- Skontrolujte, či sú jednotlivé farebné premenné v zozname oddelené čiarkou
+- Skontroluj, či sa kód zhoduje s kódom v príkladoch vyššie
+- Skontroluj, či je kód v slučke `for` odsadený
+- Skontroluj, či je zoznam uzavretý v znakoch `[` a `]`
+- Skontroluj, či sú jednotlivé farebné premenné v zozname oddelené čiarkou
 
 Môj kód beží dlhšie ako 30 sekúnd:
 
-- Znížte počet spustení slučky z 28 na 25 alebo dokonca na 20.
-- Znížte dĺžku spánku z 1 sekundy na 0,5 sekundy.
+- Zníž počet spustení slučky z 28 na 25 alebo dokonca na 20.
+- Skráť pauzu z 1 sekundy na 0,5 sekundy.
 
 --- /task ---
 
 --- task ---
 
-Pridajte `sense.clear()` na koniec kódu, aby ste vymazali obrázok na konci cyklu. To vám pomôže zistiť, kedy vaša animácia skončila.
+Pridaj príkaz `sense.clear()` na koniec kódu, aby sa na konci cyklu obrázok vymazal. Vďaka tomu zistíš, kedy sa animácia skončila.
 
-**Tip:** uistite sa, že ste **neodsadili** riadok `sense.clear()` kódu, pretože chcete, aby sa to spustilo iba raz na konci vašej animácie.
+**Tip:** Dávaj pozor, aby riadok kódu `sense.clear()` **nebol odsadený**, pretože chceš, aby sa spustil iba raz na konci animácie.
 
 --- code ---
 ---
@@ -166,7 +166,7 @@ sense.clear()
 
 --- task ---
 
-**Test:** znova spustite kód. Keď váš projekt skončí, matica LED sa vymaže a všetky svetlá budú čierne (vypnuté).
+**Test:** Znova spusti kód. Keď sa projekt skončí, LED matrica sa vymaže a všetky svetlá budú čierne (zhasnuté).
 
 --- /task ---
 
@@ -174,17 +174,17 @@ sense.clear()
 
 **Ladenie**
 
-Matrica LED každú sekundu sčernie:
+LED matrica každú sekundu sčernie:
 
-- Skontrolujte, či ste v slučke `for` neodsadili kód `sense.clear()`
+- Skontroluj, či v slučke `for` nie je kód `sense.clear()` odsadený
 
 --- /task ---
 
 --- task ---
 
-Pridajte kód na vymazanie matice LED na farbu podľa vášho výberu. Vytvorte premennú s názvom `x` na uloženie novej farby.
+Pridaj kód na vymazanie LED matrice na farbu podľa svojho výberu. Vytvor premennú s názvom `x` na uloženie novej farby.
 
-Môžete si namiešať vlastnú farbu alebo použiť hodnoty zo zoznamu farieb na vytvorenie novej farby `x`.
+Môžeš si namiešať vlastnú farbu alebo použiť hodnoty zo zoznamu farieb na vytvorenie novej farby `x`.
 
 \[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
 
@@ -206,18 +206,18 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Test:** znova spustite kód. Po dokončení vášho projektu sa matica LED zobrai vo vami zvolenej farbe. Farbu môžete zmeniť a potom otestovať toľkokrát, koľkokrát chcete.
+**Test:** Znova spusti kód. Po dokončení projektu sa LED matrica zobrazí v tebou zvolenej farbe. Farbu môžete zmeniť a potom otestovať, koľkokrát chcete.
 
 --- /task ---
 
 
 --- task ---
 
-**Save your progress**
+**Ukladaj si priebeh**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu tímu, mien členov tímu a kódu triedy, ktorý si dostal/-a. Svoj program môžeš znova načítať na akomkoľvek zariadení s internetovým pripojením zadaním názvu tímu a kódu triedy.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Snímka obrazovky tlačidla Uložiť v Mission Zero](images/save_button.png)
 
 --- /task ---
 
@@ -227,10 +227,10 @@ You can save your program on the Mission Starter project by entering your team n
 --- collapse ---
 
 ---
-title: Dokončený príklad kódu
+title: Príklad hotového kódu
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi krokodíla.](images/croc.png)
 
 --- code ---
 ---
