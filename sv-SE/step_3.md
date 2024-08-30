@@ -57,10 +57,10 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-title: Kyckling
+title: Räv
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en kyckling i ett ägg.](images/fox_mz3.png)
+![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fox_mz3.png)
 
 Created by team i_pupi, Italy
 
@@ -89,9 +89,9 @@ c, c, a, a, a, a, c, c]
 line_numbers: false
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![Ett rutnät med 8 x 8 rutor som visar en elefant.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Skapad av team ILiFanT, Finland
 
 ```python
 c = (0, 0, 0) # Black
@@ -113,12 +113,12 @@ image = [
 
 --- collapse ---
 ---
-title: Blomma
+title: Kaktus
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en rosa blomma på en grön stjälk.](images/cactus.png)
+![Ett rutnät med 8 x 8 rutor som visar en kaktus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Skapad av team 6TETHASI, Nederländerna
 
 ```python
 a = (255, 255, 255) # White
@@ -172,12 +172,12 @@ image = [
 
 --- collapse ---
 ---
-title: Krabba
+rubrik: Regnbåge
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![Ett rutnät med 8 x 8 rutor som visar en regnbåge.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Skapad av team camrus_6, Storbritannien
 
 ```python
 
@@ -206,12 +206,12 @@ rainbow = [
 
 --- collapse ---
 ---
-line_numbers: false
+rubrik: Drake
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![Ett rutnät med 8 x 8 rutor som visar en drake.](images/dragon.png)
 
-bild = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+Skapat av team hwplucyr, Storbritannien
 
 ```python
 
@@ -290,10 +290,10 @@ Min bild visas inte:
 
 --- task ---
 
-**Spara ditt projekt**
+**Spara dina framsteg**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Nu när du har visat en bild kan du spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden som du fått. Du kan ladda om programmet på vilken enhet som helst med en internetanslutning genom att ange teamets namn och klassrumskod.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zero Spara-knapp](images/savebutton.png)
 
 --- /task --- 
