@@ -2,7 +2,7 @@
 
 Du kan fortfarande slutföra aktiviteten men kommer inte att kunna skicka in ditt program för att köra på ISS. Nästa omgång av utmaningen kommer att lanseras i september 2024. Kolla sociala medier och registrera dig för nyhetsbrevet på [Astro Pi-webbplatsen](https://astro-pi.org/mission-zero/) för uppdateringar.
 
-Slutför det här projektet för att delta i Astro Pi Mission Zero-utmaningen och få din kod att köra i rymden på en Astro Pi-dator.
+Eller använd det här projektet för att skapa någonting du gillar för [Coolest Projects!](https://online.coolestprojects.org/take-part).
 
 
 
@@ -14,7 +14,7 @@ Här är ett exempel på den typ av program du kan göra för att köra på en A
 
 ![Sense HAT-emulatorn kör ett exempelprogram med en orm vars bakgrundsfärg ändras till färgen identifierad av sensorn.](images/finished.gif)
 
-### Kriterier för Astro Pi Mission Zero
+### Det här behöver du
 
 Du kommer att använda Astro Pi-emulatorn i en webbläsare för att skapa ditt program. Du behöver ingen Astro Pi-dator.
 
