@@ -235,7 +235,7 @@ Dodaj kod, aby wyczyścić matrycę LED na wybrany kolor. Utwórz zmienną o naz
 
 Możesz mieszać własny kolor lub użyć wartości z listy kolorów, aby utworzyć swój nowy kolor `x`.
 
-[[[generic-theory-colours]]]
+[[[generic-theory-simple-colours]]]
 [[[ambient-colours]]]
 
 --- code ---

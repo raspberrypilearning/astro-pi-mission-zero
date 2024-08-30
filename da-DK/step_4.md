@@ -233,12 +233,12 @@ LED-matrixen bliver sort hvert sekund:
 
 Tilføj kode for at resette LED-matrixen til en farve efter eget valg. Opret en variabel kaldet `x` til at gemme din nye farve.
 
-Du kan blande din egen farve eller bruge værdierne fra farvelisten til at oprette din nye `x`farve.
+Du kan blande din egen farve eller bruge værdierne fra farvelisten til at oprette din nye `x` farve.
 
 [[[generic-theory-simple-colours]]] 
 [[[ambient-colours]]]
 
--- code ---
+--- code ---
 ---
 language: python
 filename: main.py

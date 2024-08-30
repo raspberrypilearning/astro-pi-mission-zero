@@ -268,13 +268,23 @@ sense.clear(x)
 
 --- task ---
 
+**Salva i tuoi progressi**
+
+Puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice classe che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
+
+![Mission Zero Save button screengrab](images/save_button.png)
+
+--- /task --- 
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Esempio di codice completato
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un coccodrillo.](images/flower.png)
+![Una griglia con 8 x 8 quadrati che mostra un coccodrillo.](images/croc.png)
 
 --- code ---
 ---

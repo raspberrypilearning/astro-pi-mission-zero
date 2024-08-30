@@ -6,7 +6,7 @@ Als je je zelfverzekerd voelt, kan je deelnemen aan de Space Lab missie. Vorm ee
 
 Als alternatief kan je ook een van onze andere Sense HAT-projecten proberen:
 
-+ Kom [meer te weten over de Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){target="_blank"} en de andere dingen die het kan doen
++ Kom [meer te weten over de Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
 
 + Creeer wat mooie [willekeurige glinsteringen](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op de LED-display van de Sense HAT
 

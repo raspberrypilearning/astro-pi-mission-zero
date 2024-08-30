@@ -235,7 +235,7 @@ Füge Code hinzu, um die LED-Matrix auf eine Farbe deiner Wahl zu löschen. Erst
 
 Du kannst deine eigene Farbe mischen oder die Werte aus der Farbliste verwenden, um deine neue `x`-Farbe zu erstellen.
 
-[[[generic-theory-colours]]]
+[[[generic-theory-simple-colours]]]
 [[[ambient-colours]]]
 
 --- code ---
