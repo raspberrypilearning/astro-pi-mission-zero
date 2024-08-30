@@ -1,17 +1,17 @@
 ## Skicka ditt bidrag
 
-Du kan nu gå in i [Astro Pi Mission Zero](https://astro-pi.org/sv/mission-zero){:target="_blank"}-utmaningen med koden du har skrivit.
+Nu när du har slutfört ditt uppdrag, varför inte testa några fler projekt med hjälp av de andra sensorerna på Astro Pi?
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Om du känner dig självsäker kan du delta i Mission Space Lab. Bilda ett team på två till sex personer och arbeta tillsammans för att svara på en riktig vetenskaplig fråga. Alla lag som skickar in ett kvalificerat program kommer att bjudas in till en virtuell Q&A med en ESA-astronaut i slutet av Astro Pi Challenge-cykeln.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Alternativt kanske du vill testa något av våra andra Sense HAT-projekt:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Lär dig [mer om Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} och de andra sakerna den kan göra
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Skapa några vackra [slumpmässiga gnistrar](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} på Sense HAT:s LED-skärm
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Skapa ett [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}-spel
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Utmana dina vänner med ett [marmorlabyrint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}-spel
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
