@@ -1,10 +1,4 @@
-### Mission Zero 2023/24 er nå avsluttet.
-
-Du kan fortsatt fullføre, men du vil ikke kunne sende inn koden din og få programmet ditt kjørt på den internasjonale romstasjonen (ISS). Neste omgang av utfordringen starter i september 2024. Sjekk sosiale medier og abonner på nyhetsbrevet via [nettsiden til Astro Pi](https://astro-pi.org/mission-zero/) for oppdateringer.
-
 ## Du kommer til å lage
-
-Fullfør dette prosjektet for å gå inn i Astro Pi-Mission Zero-utfordringen og få din kode kjørt i verdensrommet på en Astro Pi-datamaskin.
 
 Ditt prosjekt vil velge en bakgrunnsfarge til et bilde for fargen som Astro Pi oppdager. Dette vil gjøre den internasjonale romstasjonen (ISS) mer fargerik for astronautene om bord. Koden din vil bruke fargelysensoren på den nye Mark II Astro Pi datamaskinens Sense HAT for å få dette til å skje.
 
@@ -18,7 +12,7 @@ Du vil bruke Astro Pi-emulatoren i en nettleser for å lage programmet ditt. Du 
 
 ### Astro Pi Mission Zero-kriterier
 
-**Hvis prosjektet ditt oppfyller [kvalifikasjonskriterier](https://astro-pi.org/nb/mission-zero/eligibility){:target="_blank"}**, vil det ferdige programmet kjøres på den internasjonale romstasjonen! Dere vil også få en original attest som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
+**Hvis prosjektet ditt oppfyller [kvalifikasjonskriterier](https://astro-pi.org/nb/mission-zero/eligibility){:target="_blank"}**, vil det ferdige programmet kjøres på den internasjonale romstasjonen! Dere vil også få et spesialdiplom som viser nøyaktig hvor ISS var da programmet deres ble kjørt.
 
 Du vil lære om Astro Pi-datamaskinen og hvordan du styrer den, inkludert hvordan du:
 + Lager **fargevariabler** til bruk i bildet ditt

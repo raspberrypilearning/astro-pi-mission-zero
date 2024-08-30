@@ -1,4 +1,4 @@
-## Añade un poco de color
+## Identifica un color
 
 En este paso, configurarás el sensor de luminosidad de color y lo utilizarás para detectar la cantidad de rojo, verde y azul que llega al sensor. Este color se usará para colorear la imagen que has elegido. Un astronauta caminando hacia el sensor con una camisa azul vería una imagen diferente a la de un astronauta con una camisa roja.
 
@@ -16,32 +16,33 @@ Añade código antes de tu lista de imágenes para obtener el color del sensor y
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Agregar variables de color e imagen
 
+a = (255, 255, 255) # Blanco
 c = (0, 0, 0) # Negro
+f = (25, 25, 112) # Azul medianoche
 m = (34, 139, 34) # Verde bosque
-q = (255, 255, 0) # Amarillo
-t = (255, 140, 0) # Naranja oscuro
-y = (255, 20, 147) # Rosa profundo
 
 rgb = sense.color # obtener el color del sensor
 c = (rgb.red, rgb.green, rgb.blue) # usar el color detectado
 
 imagen = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -72,26 +73,28 @@ Tu código usará un bucle `for` para que se ejecute 28 veces. **Cada** vez:
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # obtener el color del sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 imagen = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -104,30 +107,32 @@ Ahora necesitas indentar todo tu código debajo del bucle `for` para que quede *
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # obtener el color del sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagen = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Mostrar la imagen
 
   sense.set_pixels(imagen)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -138,17 +143,18 @@ En la parte inferior de tu código, añade un `sleep` de un segundo dentro de tu
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 4
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 5
 ---
+  
   # Mostrar la imagen
 
-  sense.set_pixels(imagen) 
-  sleep(1)
-
+  sense.set_pixels(imagen)
+  sleep(1)  
+  
 --- /code ---
 
 **Consejo:** Asegúrate de que esta línea de código está indentada dentro de tu bucle `for`.
@@ -189,19 +195,20 @@ Añade `sense.clear()` al final de tu código para borrar la imagen al final de 
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7
 ---
+  
   # Mostrar la imagen
 
-  sense.set_pixels(imagen) 
-  sleep(1)
-
+  sense.set_pixels(imagen)
+  sleep(1) 
+  
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -224,27 +231,30 @@ La matriz de LEDs se vuelve negra cada segundo:
 
 --- task ---
 
-Agrega código para borrar la matriz de LEDs a un color de su elección. Crea una variable para guardar el color que has seleccionado.
+Agrega código para borrar la matriz de LEDs a un color de su elección. Crea una variable `x` para guardar el color que has seleccionado.
 
 Puedes mezclar tu propio color o usar los valores de la lista de colores para crear tu nuevo color `x`.
 
-[[[generic-theory-colours]]]
+[[[generic-theory-simple-colours]]]
+[[[ambient-colours]]]
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6-7
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7, 8
 ---
+  
   # Mostrar la imagen
 
-  sense.set_pixels(imagen) 
-  sleep(1)
+  sense.set_pixels(imagen)
+  sleep(1) 
 
 x = (178, 34, 34)  # elige tus propios valores de rojo, verde y azul entre 0 y 255
-
+sense.clear(x)
+  
 --- /code ---
 
 --- /task ---
@@ -255,6 +265,18 @@ x = (178, 34, 34)  # elige tus propios valores de rojo, verde y azul entre 0 y 2
 
 --- /task ---
 
+
+--- task ---
+
+**Guarda tu progreso**
+
+Puedes guardar tu programa en el proyecto de inicio de la misión introduciendo el nombre de tu equipo, los nombres de los miembros del equipo y el código que recibiste. Puedes recargar tu programa en cualquier dispositivo con conexión a Internet ingresando el nombre de tu equipo y el código de aula.
+
+![Captura de pantalla del botón Guardar de Mission Zero](images/save_button.png)
+
+--- /task ---
+
+
 --- task ---
 
 --- collapse ---
@@ -263,54 +285,55 @@ x = (178, 34, 34)  # elige tus propios valores de rojo, verde y azul entre 0 y 2
 title: Ejemplo de código terminado
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una flor rosada con un tallo verde.](images/flower.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un cocodrilo.](images/croc.png)
 
 --- code ---
 ---
-language: python 
+language: python
 filename: main.py
 line_numbers: false
 ---
 # Importar las bibliotecas
-from sense_hat import SenseHat 
+from sense_hat import SenseHat
 from time import sleep
 
 # Configurar el Sense HAT
-sense = SenseHat() 
+sense = SenseHat()
 sense.set_rotation(270)
 
 # Configurar el sensor de color
-sense.color.gain = 60 # Establecer la sensibilidad del sensor 
+sense.color.gain = 60 # Establecer la sensibilidad del sensor
 sense.color.integration_cycles = 64 # El intervalo en el que se tomará la lectura
 
 # Agregar variables de color e imagen
 
+a = (255, 255, 255) # Blanco
 c = (0, 0, 0) # Negro
+f = (25, 25, 112) # Azul medianoche
 m = (34, 139, 34) # Verde bosque
-q = (255, 255, 0) # Amarillo
-t = (255, 140, 0) # Naranja oscuro
-y = (255, 20, 147) # Rosa profundo
 
 for i in range(28):
   rgb = sense.color # obtener el color del sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagen = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Mostrar la imagen
 
-  sense.set_pixels(imagen) 
+  sense.set_pixels(imagen)
   sleep(1)
 
 x = (178, 34, 34)  # elige tus propios valores de rojo, verde y azul entre 0 y 255
+sense.clear(x)
 
 --- /code ---
 

@@ -1,45 +1,25 @@
-## Lähetä ohjelmasi
+## Mitä seuraavaksi — lisää Astro Pi -projekteja
 
-Voit nyt osallistua [Astro Pi Mission Zero](https://astro-pi.org/fi/mission-zero){:target="_blank"} -haasteeseen kirjoittamallasi koodilla.
+Nyt kun olet suorittanut tehtäväsi, miksi et kokeilisi muita projekteja käyttämällä Astro Pi:n muita antureita?
 
-On olemassa muutamia sääntöjä, joita koodisi on noudatettava, jotta voit lähettää sen suoritettavaksi Kansainvälisellä avaruusasemalla. Jos koodisi noudattaa niitä, säännöt **Sense HAT -emulaattorin** alareunassa syttyvät vihreinä ohjelmaa ajaessasi.
+Jos tunnet olosi varmaksi, voit osallistua Mission Space Labiin. Muodosta 2–6 hengen ryhmä ja työskentele yhdessä vastataksesi todelliseen tieteelliseen kysymykseen. Kaikki kelvollisen ohjelman lähettäneet joukkueet kutsutaan virtuaaliseen Q&A:han ESAn astronautin kanssa Astro Pi -haasteen kauden lopussa.
 
-![Ruutukaappaus emulaattori-ikkunasta, jossa näkyy lentoyksikön LED-matriisi näyttämässä omaa kuvaansa lentoyksiköstä](images/rules.png)
+Vaihtoehtoisesti voit kokeilla joitain muita Sense HAT -projektejamme:
 
-**Vinkki:** Kokeile koodiasi muutamalla eri väriasetuksella (valitsimen avulla) varmistaaksesi, että se toimii aina oikein.
++ Opi [lisää Sense HATista](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} ja muista asioista, joita se pystyy tekemään
 
-Varmista, että työsi noudattaa Mission Zeron [virallisia sääntöjä](https://astro-pi.org/fi/mission-zero/guidelines){:target="_blank"}. Jos se ei noudata sääntöjä, ohjelmaasi ei voida ajaa Kansainvälisellä avaruusasemalla.
++ Luo kauniita [satunnaisia kipinöitä](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} Sense HATin LED-näytölle
 
-Älä sisällytä joukkueesi nimeen tai koodiin mitään seuraavista:
++ Tee [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} -peli
 
-+ Kaikki mikä voidaan tulkita laittomaksi, poliittiseksi tai arkaluonteiseksi
-+ Lippuja, koska niitä voidaan pitää poliittisesti arkaluonteisina
-+ Kaikki mikä viittaa toisen henkilön haittaamiseen tai vahingoittamiseen
-+ Henkilötietoja kuten puhelinnumeroita, sosiaalisen median tunnuksia tai sähköpostiosoitteita
-+ Siveettömiä kuvia
-+ Erikoismerkkejä tai hymiöitä
-+ Huonoa kieltä tai kiroilua
++ Haasta ystäväsi [marmorilabyrintti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} -pelillä
 
---- task ---
++ Luo uudelleen klassinen [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} -peli
 
-Kirjoita luokkahuonekoodisi ja joukkueesi nimi alhaalla olevaan ruutuun — ohjaajasi kertoo sinulle, mikä koodisi on.
+***
 
-![Luokkahuonekoodin ja joukkueen nimen lähetyslomake](images/submission.png)
+Tämän projektin ovat kääntäneet vapaaehtoiset:
 
-**Huomautuksia ohjaajille** löytyy [Johdanto](https://projects.raspberrypi.org/fi-FI/projects/astro-pi-mission-zero/0)-vaiheesta.
+Erno Pentzin
 
---- /task ---
-
---- task ---
-
-Paina **Lisää joukkueesi** -painiketta syöttääksesi koodisi. Huomioithan, että ohjelmaa ei voi muuttaa enää lähettämisen jälkeen.
-
-Ohjaajasi saa sähköpostin vahvistukseksi ilmoittautumisestasi.
-
---- /task ---
-
---- task ---
-
-Jos haluat, voit jakaa linkin koodiisi sosiaalisessa mediassa kertoaksesi, että koodia, jonka kirjoitit, käytetään avaruudessa!
-
---- /task ---
+Vapaaehtoisten ansiosta ihmisillä ympäri maailma on mahdollisuus oppia omalla kielellään. Voit auttaa meitä tavoittamaan enemmän ihmisiä vapaaehtoistyönä kääntämällä - lisätietoja osoitteessa [rpf.io/translate](rpf.io/translate).

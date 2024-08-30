@@ -12,25 +12,35 @@ Voeg kleurvariabelen en beeld toe
 
 Toon de afbeelding
 
-Wit
-
 Zwart
 
-Middenblauw
+Wit
+
+Donkeroranje
+
+Donkergrijs
+
+Geelgroen
 
 Geel
 
 Donkeroranje
 
-Roze
+Middernachtblauw
 
 Bosgroen
 
-Dieproze
+Korenbloemblauw
 
 Rood
 
-Middernachtblauw
+Lentegroen
+
+Middenblauw
+
+Vaalgrijs
+
+Donkerorchidee
 
 ontvang de kleur van de sensor
 

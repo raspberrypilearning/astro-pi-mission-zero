@@ -43,7 +43,7 @@ sense.color.integration_cycles = 64 # Intervallet, som aflæsningen vil blive ta
 
 --- /task ---
 
-### Vælg et navn til de nye Astro Pi -computere
+### RGB farver
 
 Farver kan laves ved hjælp af forskellige blandinger af rød, grøn og blå. Du kan lære om RGB farver her:
 
@@ -64,100 +64,86 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Kylling
+title: Ræv
 ---
 
-![Et gitter med 8 x 8 firkanter, der viser en kylling i et æg.](images/chick.png)
+![Et gitter med 8 x 8 kvadrater, der viser et ræveansigt.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Hvid
+Lavet af team i_pupi, Italien
+
+```python
 c = (0, 0, 0) # Sort
-e = (0, 0, 205) # Mellemblå
-q = (255, 255, 0) # Gul
+a = (255, 255, 255) # Hvid
 t = (255, 140, 0) # Mørk orange
-w = (255, 192, 203) # Lyserød
 
 billede = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Blomst
+title: Elefant
 ---
 
-![Et gitter med 8 x 8 firkanter, viser en lyserød blomst på en grøn stilk.](images/flower.png)
+![Et gitter med 8 x 8 kvadrater, der viser en elefant.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Lavet af team ILiFanT, Finland
+
+```python
 c = (0, 0, 0) # Sort
-m = (34, 139, 34) # Skovgrøn
-q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mørk orange
-y = (255, 20, 147) # Dyb lysserød
+b = (105, 105, 105) # Mørkegrå
+a = (255, 255, 255) # Hvid
 
 billede = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Krabbe
+title: Kaktus
 ---
 
-![Et gitter med 8 x 8 firkanter, der viser en krabbe.](images/crab.png)
+![Et gitter med 8 x 8 kvadrater, der viser en kaktus.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Lavet af team 6TETHASI, Holland
+
+```python
 a = (255, 255, 255) # Hvid
 c = (0, 0, 0) # Sort
-v = (255, 0, 0) # Rød
+n = (154, 205, 50) # GulGrøn
+q = (255, 255, 0) # Gul
+t = (255, 140, 0) # Mørk orange
 
-billede = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+billede = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -169,12 +155,8 @@ title: Krokodille
 
 ![Et gitter med 8 x 8 firkanter, der viser et krokodillehoved.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Hvid
 c = (0, 0, 0) # Sort
 f = (25, 25, 112) # Midnatsblå
@@ -190,74 +172,72 @@ billede = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Slange
----
-
-![Et gitter med 8 x 8 firkanter, der viser en slange.](images/snake.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Sort
- m = (34, 139, 34) # Skovgrøn
- q = (255, 255, 0) # Gul
- v = (255, 0, 0) # Rød
-
-billede = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Frø
+title: Regnbue
 ---
 
-![Et gitter med 8 x 8 firkanter, der viser en frø.](images/frog.png)
+![Et gitter med 8 x 8 kvadrater, der viser en regnbue.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Sort
-m = (34, 139, 34) # Skovgrøn
-q = (255, 255, 0) # Gul
+Lavet af team camrus_6, Storbritannien
+
+```python
+
+c = (100, 149, 237) # KornblomstBlå
+a = (255, 255, 255) # Hvid
 v = (255, 0, 0) # Rød
+t = (255, 140, 0) # Mørk orange
+q = (255, 255, 0) # Gul
+l = (0, 255, 127) # ForårsGrøn
+e = (0, 0, 205) # Mellemblå
+
+regnbue = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Drage
+---
+
+![Et gitter med 8 x 8 kvadrater, der viser en drage.](images/dragon.png)
+
+Lavet af team hwplucyr, Storbritannien
+
+```python
+
+b = (105, 105, 105) # MørkeGrå
+c = (0, 0, 0) # Sort
+d = (100, 149, 237) # KornblomstBlå
+v = (255, 0, 0) # Rød
+z = (153, 50, 204) # MørkOrkidé
 
 billede = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -267,28 +247,26 @@ billede = [
 
 **Find:** den linje, der siger `# Vis billedet` og tilføj en linje kode for at vise dit billede på LED-matrixen:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
-billede = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+```python
+a = (255, 255, 255) # Hvid
+c = (0, 0, 0) # Sort
+f = (25, 25, 112) # Midnatsblå
+m = (34, 139, 34) # Skovgrøn
 
-# Vis billedet 
+billede = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Vis billedet
 sense.set_pixels(billede)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -316,4 +294,12 @@ Mit billede vises ikke:
 --- /task ---
 
 
+--- task ---
 
+**Gem dine fremskridt**
+
+Nu hvor du har vist et billede, kan du gemme dit program på Mission Starter-projektet ved at indtaste dit holdnavn, holdmedlemmers navne og den klasseværelseskode, som du har fået. Du kan genindlæse dit program på enhver enhed med internetforbindelse ved at indtaste dit teamnavn og klasseværelseskode.
+
+![Mission Zero Gem-knap](images/savebutton.png)
+
+--- /task --- 

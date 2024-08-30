@@ -12,25 +12,35 @@ Tilføj farvevariabler og billede
 
 Vis billedet
 
-Hvid
-
 Sort
 
-Mellemblå
+Hvid
+
+Mørk orange
+
+Mørkegrå
+
+GulGrøn
 
 Gul
 
 Mørk orange
 
-Lyserød
+Midnatsblå
 
 Skovgrøn
 
-Dyb lysserød
+KornblomstBlå
 
 Rød
 
-Midnatsblå
+ForårsGrøn
+
+Mellemblå
+
+MørkeGrå
+
+MørkOrkidé
 
 få farven fra sensoren
 

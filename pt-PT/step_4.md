@@ -1,6 +1,6 @@
-## Sentir uma cor
+## Identificar uma cor
 
-Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detectar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
+Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detetar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
 
 ![imagem mostrada com fundo cor-de-rosa na matriz de LED](images/colour_background.png)
 
@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Adicionar variáveis de cor e imagem
 
+a = (255, 255, 255) # Branco
 c = (0, 0, 0) # Preto
+f = (25, 25, 112) # Azul noturno
 m = (34, 139, 34) # Verde floresta
-q = (255, 255, 0) # Amarelo
-t = (255, 140, 0) # Laranja escuro
-y = (255, 20, 147) # Rosa escuro
 
 rgb = sense.color # obter a cor do sensor
 c = (rgb.red, rgb.green, rgb.blue) # usa a cor detetada
 
 imagem = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -55,7 +56,7 @@ imagem = [
 
 --- /task ---
 
-## Repite o teu programa
+## Repete o teu programa
 
 O programa Astro Pi Missão Zero é permitido executar até ao máximo de 30 segundos. Tu usarás este tempo para verificar repetidamente o sensor de cores e atualizar a imagem.
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # obter a cor do sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 imagem = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,26 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # obter a cor do sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagem = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Mostrar a imagem
 
   sense.set_pixels(imagem)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,13 +147,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Mostrar a imagem
 
   sense.set_pixels(imagem)
-  sleep(1) 
-
+  sleep(1)  
+  
 --- /code ---
 
 **Dica:** Certifica-te de que esta linha de código é indentada dentro do teu ciclo `for`.
@@ -193,22 +199,23 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Mostrar a imagem
 
   sense.set_pixels(imagem)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz de LED irá desligar, tornando todas as luzes pretas (apagadas).
+**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz LED irá desligar, tornando todas as luzes pretas (apagadas).
 
 --- /task ---
 
@@ -216,7 +223,7 @@ sense.clear()
 
 **Depurar**
 
-A matriz de LED fica preta a cada segundo:
+A matriz LED fica preta a cada segundo:
 
 - Verifica que não indentaste o código `sense.clear()` dentro do teu ciclo `for`
 
@@ -224,11 +231,12 @@ A matriz de LED fica preta a cada segundo:
 
 --- task ---
 
-Adiciona código para limpar a matriz de LED para uma cor da tua escolha. Cria uma variável chamada `x` para armazenar a tua nova cor.
+Adiciona código para limpar a matriz LED para uma cor da tua escolha. Cria uma variável chamada `x` para armazenar a tua nova cor.
 
 Podes misturar a tua própria cor ou usar os valores da lista de cores para criar a tua nova cor `x`.
 
-[[[generic-theory-colours]]]
+[[[generic-theory-simple-colours]]]
+[[[ambient-colours]]]
 
 --- code ---
 ---
@@ -236,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Mostrar a imagem
 
   sense.set_pixels(imagem)
@@ -245,16 +254,27 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # escolhe os teus próprios valores de vermelho, verde e azul entre 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz de LED irá acender com a tua cor escolhida. Tu podes mudar e testar a cor quantas vezes quiseres.
+**Teste:** Executa o teu código novamente. Quando o teu projeto terminar de executar a matriz LED irá acender com a tua cor escolhida. Tu podes mudar e testar a cor quantas vezes quiseres.
 
 --- /task ---
+
+--- task ---
+
+**Guarda o teu progresso**
+
+Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome de equipa, os nomes dos elementos e o código de sala de aula que te foi dado. Podes abrir o teu programa em qualquer dispositivo com conexão à Internet ao entrar com o nome da tua equipa e o código de sala de aula.
+
+![Captura de ecrã do botão Guardar Missão Zero](images/save_button.png)
+
+--- /task ---
+
 
 --- task ---
 
@@ -264,7 +284,7 @@ sense.clear(x)
 title: Exemplo de código completo
 ---
 
-![Uma grelha com quadrados de 8 x 8 mostrando uma flor cor-de-rosa com um caule verde.](images/flower.png)
+![Uma grelha com 8 x 8 quadrados a exibir um crocodilo.](images/croc.png)
 
 --- code ---
 ---
@@ -286,25 +306,25 @@ sense.color.integration_cycles = 64 # O intervalo em que a leitura será feita
 
 # Adicionar variáveis de cor e imagem
 
+a = (255, 255, 255) # Branco
 c = (0, 0, 0) # Preto
+f = (25, 25, 112) # Azul noturno
 m = (34, 139, 34) # Verde floresta
-q = (255, 255, 0) # Amarelo
-t = (255, 140, 0) # Laranja escuro
-y = (255, 20, 147) # Rosa escuro
 
 for i in range(28):
   rgb = sense.color # obter a cor do sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagem = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Mostrar a imagem
 

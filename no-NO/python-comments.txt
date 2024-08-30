@@ -12,25 +12,35 @@ Legg til fargevariabler og bilde
 
 Vis bildet
 
-Hvit
-
 Svart
 
-Middels blå
+Hvit
+
+Mørk oransje
+
+Mørk grå
+
+Gulgrønn
 
 Gul
 
 Mørk oransje
 
-Rosa
+Midnatt blå
 
 Skoggrønn
 
-Mørket
+Kornblomstblå
 
 Rød
 
-MidnightBlue
+Vårgrønn
+
+Middels blå
+
+Dimgrå
+
+Mørk orkidé
 
 hent fargen fra sensoren
 

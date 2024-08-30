@@ -63,100 +63,86 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Csirke
+title: Róka
 ---
 
-![Egy 8*8-as rács, amely egy tojás és egy csibe képét mutatja.](images/chick.png)
+![Egy 8*8-as rács, amely egy róka képét mutatja.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White (fehér)
+Készítette: team i_pupi csapat, Olaszország
+
+```python
 c = (0, 0, 0) # Black (fekete)
-e = (0, 0, 205) # MediumBlue (kék)
-q = (255, 255, 0) # Yellow (sárga)
-t = (255, 140, 0) # DarkOrange (narancssárga)
-w = (255, 192, 203) # Pink (rózsaszín)
+a = (255, 255, 255) # White (fehér)
+t = (255, 140, 0) # Sötét narancssárga
 
 kep = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Virág
+title: Elefánt
 ---
 
-![Egy 8*8-as rács, amely egy zöld szárú rózsaszín virág képét mutatja.](images/flower.png)
+![Egy 8*8-as rács, amely egy elefánt képét mutatja.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Készítette: ILiFanT csapat, Finnország
+
+```python
 c = (0, 0, 0) # Black (fekete)
-m = (34, 139, 34) # ForestGreen (sötétzöld)
-q = (255, 255, 0) # Yellow (sárga)
-t = (255, 140, 0) # DarkOrange (narancssárga)
-y = (255, 20, 147) # DeepPink (sötét rózsaszín)
+b = (105, 105, 105) # Sötétszürke
+a = (255, 255, 255) # White (fehér)
 
 kep = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Rák
+title: Kaktusz
 ---
 
-![Egy 8*8-as rács, amely egy tojás és egy rák képét mutatja.](images/crab.png)
+![Egy 8*8-as rács, amely egy kaktusz képét mutatja.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Készítette: 6TETHASI csapat, Hollandia
+
+```python
 a = (255, 255, 255) # White (fehér)
 c = (0, 0, 0) # Black (fekete)
-v = (255, 0, 0) # Red (piros)
+n = (154, 205, 50) # YellowGreen (sárgászöld)
+q = (255, 255, 0) # Yellow (sárga)
+t = (255, 140, 0) # DarkOrange (narancssárga)
 
-kep = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -168,12 +154,8 @@ title: Krokodil
 
 ![Egy 8*8-as rács, amely egy tojás és egy krokodil képét mutatja.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # White (fehér)
 c = (0, 0, 0) # Black (fekete)
 f = (25, 25, 112) # MidnightBlue (éjkék)
@@ -189,74 +171,73 @@ kep = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
+```
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Kígyó
+title: Szivárvány
 ---
 
-![Egy 8*8-as rács, amely egy tojás és egy kígyó képét mutatja.](images/snake.png)
+![Egy 8*8-as rács, amely egy szivárvány képét mutatja.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Black (fekete)
- m = (34, 139, 34) # ForestGreen (sötétzöld)
- q = (255, 255, 0) # Yellow (sárga)
- v = (255, 0, 0) # Red (piros)
+Készítette: camrus_6 csapat, Egyesült Királyság
 
-kep = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-  
---- /code ---
+```python
 
---- /collapse ---
-
---- collapse ---
----
-title: Béka
----
-
-![Egy 8*8-as rács, amely egy tojás és egy béka képét mutatja.](images/frog.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Black (fekete)
-m = (34, 139, 34) # ForestGreen (sötétzöld)
-q = (255, 255, 0) # Yellow (sárga)
+c = (100, 149, 237) # CornflowerBlue (búzavirágkék)
+a = (255, 255, 255) # White (fehér)
 v = (255, 0, 0) # Red (piros)
+t = (255, 140, 0) # DarkOrange (narancssárga)
+q = (255, 255, 0) # Yellow (sárga)
+l = (0, 255, 127) # SpringGreen (élénkzöld)
+e = (0, 0, 205) # MediumBlue (kék)
+
+szivarvany = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Sárkány
+---
+
+![Egy 8*8-as rács, amely egy sárkány képét mutatja.](images/dragon.png)
+
+Készítette: hwplucyr csapat, Egyesült Királyság
+
+```python
+
+b = (105, 105, 105) # DimGray (sötétszürke)
+c = (0, 0, 0) # Black (fekete)
+d = (100, 149, 237) # CornflowerBlue (búzavirágkék)
+v = (255, 0, 0) # Red (piros)
+z = (153, 50, 204) # DarkOrchid (lila)
 
 kep = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,28 +247,26 @@ kep = [
 
 **Keresd meg** a `# Kép megjelenítése` sort, majd adj hozzá egy új sor kódot, hogy megjelenítsd a képet a LED-mátrixon:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # White (fehér)
+c = (0, 0, 0) # Black (fekete)
+f = (25, 25, 112) # MidnightBlue (éjkék)
+m = (34, 139, 34) # ForestGreen (sötétzöld)
+
 kep = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Kép megjelenítése 
 sense.set_pixels(kep)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -315,4 +294,12 @@ Nem jelenik meg a képem:
 --- /task ---
 
 
+--- task ---
 
+**Mentsd el a munkádat!**
+
+Most, hogy megjeenítettél egy képet, elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
+
+![Mission Zero Mentés gomb](images/savebutton.png)
+
+--- /task --- 

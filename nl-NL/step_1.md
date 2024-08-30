@@ -1,10 +1,4 @@
-### Mission Zero 2023/24 is nu gesloten.
-
-Je kunt de activiteit nog steeds voltooien, maar je kan je programma niet meer indienen om in het ISS uit te laten voeren. De volgende ronde van de uitdaging begint in september 2024. Houd sociale media in de gaten en meld je aan voor de nieuwsbrief op de [Astro Pi-website](https://astro-pi.org/mission-zero/) voor updates.
-
 ## Je gaat maken
-
-Voltooi dit project om mee te doen aan Astro Pi Mission Zero uitdaging en je code in de ruimte te laten draaien op een Astro Pi-computer.
 
 Je project stelt de achtergrondkleur van een afbeelding in op de kleur die de Astro Pi waarneemt. Dit maakt het International Space Station (ISS) kleurrijker voor de astronauten aan boord. Je code gebruikt de kleurhelderheidssensor op de Sense HAT van de nieuwe Mark II Astro Pi-computer om dit mogelijk te maken.
 

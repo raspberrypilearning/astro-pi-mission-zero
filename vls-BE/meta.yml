@@ -13,7 +13,6 @@ steps:
     completion:
       - engaged
   - title: Meet een kleur
-  - title: Dien je project in
     completion:
       - internal
-  - title: Wat volgt er - meer Astro Pi-projecten
+  - title: Wat nu - meer Astro Pi-projecten

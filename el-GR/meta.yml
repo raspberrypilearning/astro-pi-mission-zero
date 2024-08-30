@@ -11,9 +11,8 @@ steps:
   - title: Τι είναι το Astro Pi;
   - title: Εμφάνιση εικόνας
     completion:
-      - αφοσιωμένος/η
+      - engaged
   - title: Ανίχνευση ενός χρώματος
-  - title: Υποβολή της συμμετοχής σου
     completion:
-      - εσωτερικός
+      - internal
   - title: Τι ακολουθεί — περισσότερα έργα Astro Pi

@@ -56,107 +56,93 @@ La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée
 
 --- task ---
 
-**Choisir :** Choisis une image à afficher parmi les options ci-dessous. Python stocke les informations d'une image dans une liste. Le code de chaque image comprend les variables de couleur utilisées et la liste.
+**Choisir :** choisis une image à afficher parmi les options ci-dessous. Python stocke les informations d'une image dans une liste. Le code de chaque image comprend les variables de couleur utilisées et la liste.
 
 Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller** dans ton projet sous la ligne indiquant `# Ajouter des variables de couleur et une image`.
 
 --- collapse ---
 
 ---
-title: Poulet
+title: Renard
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant un poussin dans un œuf.](images/chick.png)
+![Une grille de 8 x 8 cases représentant un visage de renard.](images/fox_mz3.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Blanc
+Créé par l'équipe i_pupi, Italie
+
+```python
 c = (0, 0, 0) # Noir
-e = (0, 0, 205) # Bleu moyen
-q = (255, 255, 0) # Jaune
+a = (255, 255, 255) # Blanc
 t = (255, 140, 0) # Orange foncé
-w = (255, 192, 203) # Rose
 
 image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Fleur
+title: Éléphant
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant une fleur rose sur une tige verte.](images/flower.png)
+![Une grille de 8 x 8 cases représentant un éléphant.](images/elephant.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
+Créé par l'équipe ILiFanT, Finlande
+
+```python
 c = (0, 0, 0) # Noir
-m = (34, 139, 34) # Vert forêt
-q = (255, 255, 0) # Jaune
-t = (255, 140, 0) # Orange foncé
-y = (255, 20, 147) # Rose foncé
+b = (105, 105, 105) # Gris foncé
+a = (255, 255, 255) # Blanc
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Crabe
+title: Cactus
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant un crabe.](images/crab.png)
+![Une grille de 8 x 8 cases représentant un cactus.](images/cactus.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
+Créé par l'équipe 6TETHASI, Pays-Bas
+
+```python
 a = (255, 255, 255) # Blanc
 c = (0, 0, 0) # Noir
-v = (255, 0, 0) # Rouge
+n = (154, 205, 50) # Jaune-vert
+q = (255, 255, 0) # Jaune
+t = (255, 140, 0) # Orange foncé
 
-image = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -168,15 +154,11 @@ title: Crocodile
 
 ![Une grille avec des carrés de 8 x 8 montrant une tête de crocodile.](images/croc.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Blanc
 c = (0, 0, 0) # Noir
-f = (25, 25, 112) # MidnightBlue
+f = (25, 25, 112) # Bleu nuit
 m = (34, 139, 34) # Vert forêt
 
 image = [
@@ -189,74 +171,72 @@ image = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Serpent
----
-
-![Une grille avec des carrés de 8 x 8 montrant un serpent.](images/snake.png)
-
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Noir
- m = (34, 139, 34) # Vert forêt
- q = (255, 255, 0) # Jaune
- v = (255, 0, 0) # Rouge
-
-image = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Grenouille
+title: Arc-en-ciel
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant une grenouille.](images/frog.png)
+![Une grille de 8 x 8 carrés représentant un arc-en-ciel.](images/rainbow.png)
 
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start:
-line_highlights:
----
-c = (0, 0, 0) # Noir
-m = (34, 139, 34) # Vert forêt
-q = (255, 255, 0) # Jaune
+Créé par l'équipe camrus_6, Royaume-Uni
+
+```python
+
+c = (100, 149, 237) # Bleuet
+a = (255, 255, 255) # Blanc
 v = (255, 0, 0) # Rouge
+t = (255, 140, 0) # Orange foncé
+q = (255, 255, 0) # Jaune
+l = (0, 255, 127) # Vert printanier
+e = (0, 0, 205) # Bleu moyen
+
+arc-en-ciel = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Dragon
+---
+
+![Une grille de 8 x 8 cases représentant un dragon.](images/dragon.png)
+
+Créé par l'équipe hwplucyr, Royaume-Uni
+
+```python
+
+b = (105, 105, 105) # FaibleGris
+c = (0, 0, 0) # Noir
+d = (100, 149, 237) # Bleuet
+v = (255, 0, 0) # Rouge
+z = (153, 50, 204) # Orchidée Foncée
 
 image = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,28 +246,26 @@ image = [
 
 **Recherche :** la ligne indiquant `# Afficher l'image` et ajoute une ligne de code pour afficher ton image sur la matrice LED :
 
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # Blanc
+c = (0, 0, 0) # Noir
+f = (25, 25, 112) # Bleu nuit
+m = (34, 139, 34) # Vert forêt
+
 image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Afficher l'image
 sense.set_pixels(image)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -314,5 +292,12 @@ Mon image n'apparaît pas :
 
 --- /task ---
 
+--- task ---
 
+**Enregistre ta progression**
 
+Maintenant que tu as affiché une image, tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, les noms des membres de l'équipe et le code de classe qui t'a été donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
+
+![Bouton Enregistrer Mission Zero](images/savebutton.png)
+
+--- /task --- 

@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Lisää värimuuttujia ja kuva
 
+a = (255, 255, 255) # Valkoinen
 c = (0, 0, 0) # Musta
+f = (25, 25, 112) # Yönsininen
 m = (34, 139, 34) # Metsänvihreä
-q = (255, 255, 0) # Keltainen
-t = (255, 140, 0) # Tummanoranssi
-y = (255, 20, 147) # Tummanvaaleanpunainen
 
 rgb = sense.color # hae väri anturilta
 c = (rgb.red, rgb.green, rgb.blue) # käytä tunnistettua väriä
 
 kuva = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # hae väri anturilta
 c = (rgb.red, rgb.green, rgb.blue)
 
 kuva = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,27 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # hae väri anturilta
   c = (rgb.red, rgb.green, rgb.blue)
 
   kuva = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Näytä kuva
 
   sense.set_pixels(kuva)
  
-
 --- /code ---
 
 --- /task ---
@@ -143,14 +147,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Näytä kuva
 
   sense.set_pixels(kuva)
   sleep(1)  
   
-
 --- /code ---
 
 **Vinkki:** Varmista, että tämä koodirivi on sisennettynä `for`-silmukassasi.
@@ -195,15 +199,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Näytä kuva
 
   sense.set_pixels(kuva)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -239,16 +244,17 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Näytä kuva
 
   sense.set_pixels(kuva)
   sleep(1) 
 
-x = (178, 34, 34)  # valitse omat punaisen, vihreän ja sinisen arvot väliltä 0 - 255
+x = (178, 34, 34)  # cvalitse omat punaisen, vihreän ja sinisen arvot väliltä 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -261,13 +267,24 @@ sense.clear(x)
 
 --- task ---
 
+**Tallenna kehityksesi**
+
+Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
+
+![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/save_button.png)
+
+--- /task ---
+
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Valmis koodiesimerkki
 ---
 
-![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/flower.png)
+![8 x 8 neliön ruudukko esittämässä krokotiiliä.](images/croc.png)
 
 --- code ---
 ---
@@ -289,32 +306,32 @@ sense.color.integration_cycles = 64 # Aikaväli lukeman ottamiseksi
 
 # Lisää värimuuttujia ja kuva
 
+a = (255, 255, 255) # Valkoinen
 c = (0, 0, 0) # Musta
+f = (25, 25, 112) # Yönsininen
 m = (34, 139, 34) # Metsänvihreä
-q = (255, 255, 0) # Keltainen
-t = (255, 140, 0) # Tummanoranssi
-y = (255, 20, 147) # Tummanvaaleanpunainen
 
 for i in range(28):
   rgb = sense.color # hae väri anturilta
   c = (rgb.red, rgb.green, rgb.blue)
 
   kuva = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Näytä kuva
 
   sense.set_pixels(kuva)
   sleep(1)
 
-x = (178, 34, 34)  # valitse omat punaisen, vihreän ja sinisen arvot väliltä 0 - 255
+x = (178, 34, 34)  # cvalitse omat punaisen, vihreän ja sinisen arvot väliltä 0 - 255
 sense.clear(x)
 
 --- /code ---

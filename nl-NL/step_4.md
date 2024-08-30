@@ -20,28 +20,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Kleurvariabelen en afbeelding toevoegen
 
+a = (255, 255, 255) # Wit
 c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # Middernachtblauw
 m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
-t = (255, 140, 0) # Donkeroranje
-y = (255, 20, 147) # Donkerroze
 
 rgb = sense.color # haal de kleur uit de sensor
 c = (rgb.red, rgb.green, rgb.blue) # gebruik de waargenomen kleur
 
 afbeelding = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 --- /code ---
 
@@ -76,21 +76,22 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
 for i in range(28):
 rgb = sense.color # haal de kleur uit de sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 afbeelding = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
   
 --- /code ---
 
@@ -108,21 +109,23 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # haal de kleur uit de sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   afbeelding = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Geef de afbeelding weer
 
@@ -142,8 +145,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Geef de afbeelding weer
 
   sense.set_pixels(afbeelding)
@@ -193,15 +197,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Geef de afbeelding weer
 
   sense.set_pixels(afbeelding)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -237,8 +242,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Geef de afbeelding weer
 
   sense.set_pixels(afbeelding)
@@ -246,7 +252,7 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # kies je eigen rode, groene en blauwe waarden tussen 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -259,13 +265,24 @@ sense.clear(x)
 
 --- task ---
 
+**Sla je voortgang op**
+
+Je kunt je programma opslaan in het Mission Start-project door je teamnaam, de namen van de teamleden en de klascode die je hebt gekregen in te voeren. Je kunt je programma herladen op elk apparaat met een internetverbinding door je teamnaam en klascode in te voeren.
+
+![Mission Zero Save-knop schermafbeelding](images/save_button.png)
+
+--- /task ---
+
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Voorbeeld van een voltooide code
 ---
 
-![Een raster met 8 x 8 vierkanten met een roze bloem op een groene stengel.](images/flower.png)
+[Een raster met 8 x 8 vierkanten met een krokodil.](images/croc.png)
 
 --- code ---
 ---
@@ -287,25 +304,25 @@ sense.color.integration_cycles = 64 # Het interval waarmee de meting wordt uitge
 
 # Kleurvariabelen en afbeelding toevoegen
 
+a = (255, 255, 255) # Wit
 c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # Middernachtblauw
 m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
-t = (255, 140, 0) # Donkeroranje
-y = (255, 20, 147) # Donkerroze
 
 for i in range(28):
   rgb = sense.color # haal de kleur uit de sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   afbeelding = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Geef de afbeelding weer
 

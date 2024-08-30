@@ -13,7 +13,6 @@ steps:
     completion:
       - engaged
   - title: Érzékeld a színt
-  - title: Küldd be a munkádat
     completion:
       - internal
   - title: 'Hogyan tovább: még több Astro Pi projekt'

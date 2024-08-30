@@ -1,45 +1,26 @@
-## Deinen Beitrag einsenden
+## Wie geht es weiter – weitere Astro Pi-Projekte
 
-Du kannst nun die [Astro Pi Mission Zero](https://astro-pi.org/de/mission-zero){:target="_blank"} Herausforderung betreten, indem du den Code verwendest, den du geschrieben hast.
+Jetzt, wo du deine Mission beendet hast, hättest du doch sicher Lust noch ein paar Projekte mit den anderen Sensoren auf dem Astro Pi auszuprobieren?
 
-Dein Code muss einige Regeln einhalten, damit du ihn einreichen kannst um auf der Internationalen Raumstation ausgeführt zu werden. Wenn du sie richtig befolgst, werden die Regeln unten im **Sense HAT emulator** nach dem Ausführen des Programms grün angezeigt.
+Wenn du es dir zutraust, könntest du an der Mission Space Lab teilnehmen. Bilde ein Team aus zwei bis sechs Personen und arbeite gemeinsam an der Beantwortung einer echten wissenschaftlichen Frage. Alle Teams, die ein zulässiges Programm einreichen, werden am Ende des Astro Pi Challenge-Zyklus zu einem virtuellen Q&A mit einem ESA-Astronauten eingeladen.
 
-![Die Mission Zero-Seite mit den Kriterienprüfungen für die Teilnahme.](images/rules.png)
+Alternativ möchtest du vielleicht eines unserer anderen Sense HAT-Projekte ausprobieren:
 
-**Tipp:** Teste deinen Code mit ein paar anderen Farbeinstellungen (mit dem Picker) um sicherzustellen, dass er immer korrekt läuft.
++ Erfahre [mehr über den Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} und die anderen Dinge, die er kann
 
-Bitte stelle sicher, dass dein Beitrag den [offiziellen Richtlinien](https://astro-pi.org/de/mission-zero/guidelines){:target="_blank"} für Mission Zero entspricht. Wenn es den Richtlinien nicht entspricht, kann dein Programm nicht auf der Internationalen Raumstation ausgeführt werden.
++ Erzeuge ein hübsches [zufälliges Funkeln](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} auf dem LED-Display des Sense HAT
 
-Bitte fügen Sie Folgendes nicht in Ihren Teamnamen oder Code ein:
++ Erstelle ein [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} Spiel
 
-+ Alles, was als illegal, politisch oder heikel interpretiert werden könnte
-+ Flaggen, da sie als politisch sensibel angesehen werden können
-+ Alles, was auf Unannehmlichkeiten oder Schaden für eine andere Person hinweist
-+ Personenbezogene Daten wie Telefonnummern, Social-Media-Adressen und E-Mail-Adressen
-+ Obszöne Bilder
-+ Sonderzeichen oder Emojis
-+ Schimpfwörter oder Fluchen
++ Fordere deine Freunde mit einem [Murmellabyrinth](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}-Spiel heraus
 
---- task ---
++ Erstelle das klassische Spiel [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} neu. 
 
-Gib deinen Klassenraumcode und Teamnamen in das Feld unten ein – dein Mentor wird dir deinen Code mitteilen.
+***
 
-![Formular zum Einreichen des Klassenraum-Codes und Teamnamens](images/submission.png)
+Dieses Projekt wurde von freiwilligen Helfern übersetzt:
 
-**Hinweise für Mentoren** sind im Schritt [Einleitung](https://projects.raspberrypi.org/de-DE/projects/astro-pi-mission-zero/0) zu finden.
+Karl Schuh
+Lars Reime
 
---- /task ---
-
---- task ---
-
-Drücke die Schaltfläche **Füge dein Team hinzu**, um deinen Code einzureichen. Bitte beachte, dass ein Programm nach dem Absenden nicht geändert werden kann.
-
-Dein Mentor wird eine E-Mail erhalten, um deine Einsendung zu bestätigen.
-
---- /task ---
-
---- task ---
-
-Wenn du möchtest, kannst du den Link zu deinem Code auf sozialen Netzwerken teilen, um allen zu berichten, dass der Code, den du geschrieben hast, im Weltraum ausgeführt wird!
-
---- /task ---
+Dank freiwilliger Helfer können wir Menschen auf der ganzen Welt die Möglichkeit geben, in ihrer eigenen Sprache zu lernen. Du kannst uns helfen, mehr Menschen zu erreichen, indem Du dich freiwillig zum Übersetzen meldest - weitere Informationen unter [rpf.io/translate](https://rpf.io/translate).

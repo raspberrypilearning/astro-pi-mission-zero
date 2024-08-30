@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Dodaj zmienne kolorów i obraz
 
+a = (255, 255, 255) # Biały
 c = (0, 0, 0) # Czarny
+f = (25, 25, 112) # Nocny niebieski
 m = (34, 139, 34) # Leśny zielony
-q = (255, 255, 0) # Żółty
-t = (255, 140, 0) # Ciemny pomarańczowy
-y = (255, 20, 147) # Głęboki różowy
 
 rgb = sense.color # pobierz kolor z czujnika
 c = (rgb.red, rgb.green, rgb.blue) # użyj odczytany kolor
 
 obrazek = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # pobierz kolor z czujnika
 c = (rgb.red, rgb.green, rgb.blue)
 
 obrazek = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,21 +111,23 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # pobierz kolor z czujnika
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazek = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Wyświetl obraz
 
@@ -142,13 +147,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Wyświetl obraz
 
   sense.set_pixels(obrazek)
   sleep(1)  
-
+  
 --- /code ---
 
 **Wskazówka:** Upewnij się, że ten wiersz kodu jest wcięty w pętli `for`.
@@ -193,8 +199,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Wyświetl obraz
 
   sense.set_pixels(obrazek)
@@ -202,7 +209,6 @@ line_highlights: 6
   
 sense.clear()
   
-
 --- /code ---
 
 --- /task ---
@@ -230,6 +236,7 @@ Dodaj kod, aby wyczyścić matrycę LED na wybrany kolor. Utwórz zmienną o naz
 Możesz mieszać własny kolor lub użyć wartości z listy kolorów, aby utworzyć swój nowy kolor `x`.
 
 [[[generic-theory-colours]]]
+[[[ambient-colours]]]
 
 --- code ---
 ---
@@ -237,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Wyświetl obraz
 
   sense.set_pixels(obrazek)
@@ -246,8 +254,9 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
 sense.clear(x)
-
+  
 --- /code ---
+
 
 --- /task ---
 
@@ -259,13 +268,23 @@ sense.clear(x)
 
 --- task ---
 
+**Zapisz swoje postępy**
+
+Możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swojego zespołu, imiona członków zespołu i otrzymany kod klasy. Możesz ponownie załadować swój program na dowolnym urządzeniu z dostępem do Internetu, wpisując nazwę swojego zespołu i kod klasy.
+
+![Zrzut ekranu z przyciskiem „Zapisz” w Mission Zero](images/save_button.png)
+
+--- /task ---
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Ukończony przykład kodu
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca różowy kwiat na zielonej łodydze.](images/flower.png)
+![Siatka złożona z kwadratów 8 x 8 przedstawiających krokodyla.](images/croc.png)
 
 --- code ---
 ---
@@ -282,30 +301,30 @@ sense = SenseHat()
 sense.set_rotation(270)
 
 # Przygotuj czujnik kolorów
-sense.color.gain = 60 # Ustaw czułość czujnika
+sense.color.gain = 60 # Przygotuj czujnik kolorów
 sense.color.integration_cycles = 64 # Okres czasu, w którym będzie dokonywany odczyt
 
 # Dodaj zmienne kolorów i obraz
 
+a = (255, 255, 255) # Biały
 c = (0, 0, 0) # Czarny
+f = (25, 25, 112) # Nocny niebieski
 m = (34, 139, 34) # Leśny zielony
-q = (255, 255, 0) # Żółty
-t = (255, 140, 0) # Ciemny pomarańczowy
-y = (255, 20, 147) # Głęboki różowy
 
 for i in range(28):
   rgb = sense.color # pobierz kolor z czujnika
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazek = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Wyświetl obraz
 
@@ -314,7 +333,6 @@ for i in range(28):
 
 x = (178, 34, 34)  # wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
 sense.clear(x)
-
 
 --- /code ---
 

@@ -63,100 +63,86 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 --- collapse ---
 
 ---
-title: Kurczak
+title: Lis
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca pisklę w jajku.](images/chick.png)
+![Siatka kwadratów 8 x 8 przedstawiających twarz lisa.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Biały
+Stworzone przez zespół i_pupi, Włochy
+
+```python
 c = (0, 0, 0) # Czarny
-e = (0, 0, 205) # ŚCzerwonyni niebieski
-q = (255, 255, 0) # Żółty
-t = (255, 140, 0) # Ciemny pomarańczowy
-w = (255, 192, 203) # Różowy
+a = (255, 255, 255) # Biały
+t = (255, 140, 0) # Ciemnopomarańczowy
 
 obrazek = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Kwiat
+title: Słoń
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca różowy kwiat na zielonej łodydze.](images/flower.png)
+![Siatka kwadratów 8 x 8 przedstawiających słonia.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Stworzone przez zespół ILiFanT, Finlandia
+
+```python
 c = (0, 0, 0) # Czarny
-m = (34, 139, 34) # Leśny zielony
-q = (255, 255, 0) # Żółty
-t = (255, 140, 0) # Ciemny pomarańczowy
-y = (255, 20, 147) # Głęboki różowy
+b = (105, 105, 105) # Ciemnoszary
+a = (255, 255, 255) # Biały
 
 obrazek = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Krab
+title: Kaktus
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca kraba.](images/crab.png)
+![Siatka kwadratów 8 x 8 przedstawiających kaktus.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Stworzone przez zespół 6TETHASI, Holandia
+
+```python
 a = (255, 255, 255) # Biały
 c = (0, 0, 0) # Czarny
-v = (255, 0, 0) # Czerwony
+n = (154, 205, 50) # Żółto-zielony
+q = (255, 255, 0) # Żółty
+t = (255, 140, 0) # Ciemny pomarańczowy
 
-obrazek = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+obrazek = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -168,12 +154,8 @@ title: Krokodyl
 
 ![Siatka 8 x 8 kwadratów przedstawiająca łeb krokodyla.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Biały
 c = (0, 0, 0) # Czarny
 f = (25, 25, 112) # Nocny niebieski
@@ -189,74 +171,72 @@ obrazek = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Wąż
----
-
-![Siatka 8 x 8 kwadratów przedstawiająca węża.](images/snake.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Czarny
- m = (34, 139, 34) # Leśny zielony
- q = (255, 255, 0) # Żółty
- v = (255, 0, 0) # Czerwony
-
-obrazek = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Żaba
+title: Tęcza
 ---
 
-![Siatka 8 x 8 kwadratów przedstawiająca żabę.](images/frog.png)
+![Siatka kwadratów 8 x 8 przedstawiających tęczę.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Czarny
-m = (34, 139, 34) # Leśny zielony
-q = (255, 255, 0) # Żółty
+Stworzone przez zespół camrus_6, Wielka Brytania
+
+```python
+
+c = (100, 149, 237) # Chabrowy
+a = (255, 255, 255) # Biały
 v = (255, 0, 0) # Czerwony
+t = (255, 140, 0) # Ciemny pomarańczowy
+q = (255, 255, 0) # Żółty
+l = (0, 255, 127) # Wiosenna zieleń
+e = (0, 0, 205) # Średni niebieski
+
+tecza = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Smok
+---
+
+![Siatka kwadratów 8 x 8 przedstawiających smoka.](images/dragon.png)
+
+Stworzone przez zespół hwplucyr, Wielka Brytania
+
+```python
+
+b = (105, 105, 105) # Ciemnoszary
+c = (0, 0, 0) # Czarny
+d = (100, 149, 237) # Chabrowy
+v = (255, 0, 0) # Czerwony
+z = (153, 50, 204) # Ciemna orchidea
 
 obrazek = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,28 +246,26 @@ obrazek = [
 
 **Znajdź:** linię, która mówi `# Wyświetl obrazek` i dodaj linię kodu, aby wyświetlić obraz na matrycy LED:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # Biały
+c = (0, 0, 0) # Czarny
+f = (25, 25, 112) # Nocny niebieski
+m = (34, 139, 34) # Leśny zielony
+
 obrazek = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Wyświetl obraz 
 sense.set_pixels(obrazek)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -314,5 +292,12 @@ Mój obraz się nie pojawia:
 
 --- /task ---
 
+--- task ---
 
+**Zapisz swoje postępy**
 
+Teraz, gdy wyświetliłeś obraz, możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swojego zespołu, imiona członków zespołu i otrzymany kod klasy. Możesz ponownie załadować swój program na dowolnym urządzeniu z dostępem do Internetu, wpisując nazwę swojego zespołu i kod klasy.
+
+![Przycisk Zapisz Mission Zero](images/savebutton.png)
+
+--- /task --- 

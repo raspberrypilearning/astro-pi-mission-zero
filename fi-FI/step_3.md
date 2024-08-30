@@ -63,101 +63,85 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 --- collapse ---
 
 ---
-title: Kana
+title: Kettu
 ---
 
-![8 x 8 neliön ruudukko esittämässä kananpoikasta munassa.](images/chick.png)
+![8 x 8 neliön ruudukko esittämässä ketun naamaa.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Valkoinen
+Tehnyt joukkue i_pupi, Italia
+
+```python
 c = (0, 0, 0) # Musta
-e = (0, 0, 205) # Tummansininen
-q = (255, 255, 0) # Keltainen
+a = (255, 255, 255) # Valkoinen
 t = (255, 140, 0) # Tummanoranssi
-w = (255, 192, 203) # Vaaleanpunainen
-
 kuva = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Kukka
+title: Norsu
 ---
 
-![8 x 8 neliön ruudukko esittämässä vaaleanpunaista kukkaa vihreässä varressa.](images/flower.png)
+![8 x 8 neliön ruudukko esittämässä norsua.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Tehnyt joukkue ILiFanT, Suomi
+
+```python
 c = (0, 0, 0) # Musta
-m = (34, 139, 34) # Metsänvihreä
-q = (255, 255, 0) # Keltainen
-t = (255, 140, 0) # Tummanoranssi
-y = (255, 20, 147) # Tummanvaaleanpunainen
+b = (105, 105, 105) # Tummanharmaa
+a = (255, 255, 255) # Valkoinen
 
 kuva = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Rapu
+title: Kaktus
 ---
 
-![8 x 8 neliön ruudukko esittämässä rapua.](images/crab.png)
+![8 x 8 neliön ruudukko esittämässä kaktusta.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Tehnyt joukkue 6TETHASI, Alankomaat
+
+```python
 a = (255, 255, 255) # Valkoinen
 c = (0, 0, 0) # Musta
-v = (255, 0, 0) # Punainen
+n = (154, 205, 50) # Keltavihreä
+q = (255, 255, 0) # Keltainen
+t = (255, 140, 0) # Tummanoranssi
 
-kuva = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
- 
+kuva = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -169,12 +153,8 @@ title: Krokotiili
 
 ![8 x 8 neliön ruudukko esittämässä krokotiilin päätä.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Valkoinen
 c = (0, 0, 0) # Musta
 f = (25, 25, 112) # Yönsininen
@@ -190,74 +170,73 @@ kuva = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
+```
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Käärme
+title: Sateenkaari
 ---
 
-![8 x 8 neliön ruudukko esittämässä käärmettä.](images/snake.png)
+![8 x 8 neliön ruudukko esittämässä sateenkaarta.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Musta
- m = (34, 139, 34) # Metsänvihreä
- q = (255, 255, 0) # Keltainen
- v = (255, 0, 0) # Punainen
+Tehnyt joukkue camrus_6, Englanti
 
-kuva = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-  
---- /code ---
+```python
 
---- /collapse ---
-
---- collapse ---
----
-title: Sammakko
----
-
-![8 x 8 neliön ruudukko esittämässä sammakkoa.](images/frog.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Musta
-m = (34, 139, 34) # Metsänvihreä
-q = (255, 255, 0) # Keltainen
+c = (100, 149, 237) # Ruiskukansininen
+a = (255, 255, 255) # Valkoinen
 v = (255, 0, 0) # Punainen
+t = (255, 140, 0) # Tummanoranssi
+q = (255, 255, 0) # Keltainen
+l = (0, 255, 127) # Keväänvihreä
+e = (0, 0, 205) # Tummansininen
+
+sateenkaari = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Lohikäärme
+---
+
+![8 x 8 neliön ruudukko esittämässä lohikäärmettä.](images/dragon.png)
+
+Tehnyt joukkue hwplucyr, Englanti
+
+```python
+
+b = (105, 105, 105) # DimGray
+c = (0, 0, 0) # Musta
+d = (100, 149, 237) # Ruiskukansininen
+v = (255, 0, 0) # Punainen
+z = (153, 50, 204) # Tummanorkidea
 
 kuva = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -267,28 +246,26 @@ kuva = [
 
 **Etsi:** rivi, jossa lukee `# Näytä kuva` ja lisää koodirivi näyttääksesi kuvasi LED-matriisissa:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
-kuva = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+```python
+a = (255, 255, 255) # Valkoinen
+c = (0, 0, 0) # Musta
+f = (25, 25, 112) # Yönsininen
+m = (34, 139, 34) # Metsänvihreä
 
-# Näytä kuva 
+kuva = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Näytä kuva
 sense.set_pixels(kuva)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -315,5 +292,12 @@ Kuvani ei näy:
 
 --- /task ---
 
+--- task ---
 
+**Tallenna kehityksesi**
 
+Nyt kun olet näyttänyt kuvan, voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
+
+![Mission Zeron Tallennuspainike](images/savebutton.png)
+
+--- /task --- 

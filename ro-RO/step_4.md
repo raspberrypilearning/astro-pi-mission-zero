@@ -1,4 +1,4 @@
-## Simte o culoare
+## Detectează o culoare
 
 În acest pas, vei configura senzorul luminozității culorii și îl vei folosi pentru a detecta cantitatea de roșu, verde și albastru care ajunge la senzor. Această culoare va fi apoi folosită pentru a colora în imaginea aleasă. Un astronaut care se apropie de senzor într-o cămașă albastră ar vedea o imagine diferită de un astronaut într-o cămașă roșie.
 
@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Adaugă variabile de culoare și imagine
 
+a = (255, 255, 255) # Alb
 c = (0, 0, 0) # Negru
+f = (25, 25, 112) # Bleumarin
 m = (34, 139, 34) # Verde pădure
-q = (255, 255, 0) # Galben
-t = (255, 140, 0) # Portocaliu închis
-y = (255, 20, 147) # Roz intens
 
 rgb = sense.color # obține culoarea de la senzor
 c = (rgb.red, rgb.green, rgb.blue) # utilizează culoarea de la senzor
 
 imagine = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # obține culoarea de la senzor
 c = (rgb.red, rgb.green, rgb.blue)
 
 imagine = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,26 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # obține culoarea de la senzor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagine = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Afișează imaginea
 
   sense.set_pixels(imagine)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,8 +147,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Afișează imaginea
 
   sense.set_pixels(imagine)
@@ -193,15 +199,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Afișează imaginea
 
   sense.set_pixels(imagine)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -237,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Afișează imaginea
 
   sense.set_pixels(imagine)
@@ -246,7 +254,7 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # alege-ți propriile valori roșu, verde, albastru între 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -259,13 +267,23 @@ sense.clear(x)
 
 --- task ---
 
+**Salvează-ți progresul**
+
+Poți salva programul tău în proiectul Mission Starter introducând numele echipei, numele membrilor echipei și codul de clasă care ți-a fost dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
+
+![Captură de ecran a butonului Mission Zero Salvare](images/save_button.png)
+
+--- /task ---
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Exemplu de cod completat
 ---
 
-![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/flower.png)
+![O grilă cu 8 x 8 pătrate care arată un crocodil.](images/croc.png)
 
 --- code ---
 ---
@@ -287,25 +305,25 @@ sense.color.integration_cycles = 64 # Intervalul la care va avea loc citirea
 
 # Adaugă variabile de culoare și imagine
 
+a = (255, 255, 255) # Alb
 c = (0, 0, 0) # Negru
+f = (25, 25, 112) # Bleumarin
 m = (34, 139, 34) # Verde pădure
-q = (255, 255, 0) # Galben
-t = (255, 140, 0) # Portocaliu închis
-y = (255, 20, 147) # Roz intens
 
 for i in range(28):
   rgb = sense.color # obține culoarea de la senzor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagine = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Afișează imaginea
 

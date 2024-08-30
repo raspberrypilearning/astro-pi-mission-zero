@@ -16,32 +16,33 @@ Füge Code vor der Liste mit deinem Bild hinzu, um die Farbe vom Sensor zu erhal
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Farbvariablen und Bild hinzufügen
 
-c = (0, 0, 0) # Schwarz 
-m = (34, 139, 34) # Waldgrün 
-q = (255, 255, 0) # Gelb 
-t = (255, 140, 0) # Dunkelorange 
-y = (255, 20, 147) # Dunkelrosa
+a = (255, 255, 255) # Weiß
+c = (0, 0, 0) # Schwarz
+f = (25, 25, 112) # Mitternachtsblau
+m = (34, 139, 34) # Waldgrün
 
-rgb = sense.color # erhalte die Farbe vom Sensor 
-c = (rgb.red, rgb.green, rgb.blue) # verwende die Farbe
+rgb = sense.color # Hole die Farbe vom Sensor
+c = (rgb.red, rgb.green, rgb.blue) # Verwende die ermittelte Farbe
 
-bild = [ 
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+bild = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -72,26 +73,28 @@ Code darüber **hinzufügen** um deine `for`-Schleife für `28` Wiederholungen e
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
-for i in range(28): 
-rgb = sense.color # holt die Farbe vom Sensor 
+
+for i in range(28):
+rgb = sense.color # Hole die Farbe vom Sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
-bild = [ 
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+bild = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -104,30 +107,32 @@ Du musst jetzt deinen gesamten Code unter der `for`-Schleife einrücken, sodass 
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
-for i in range(28): 
-  rgb = sense.color # holt die Farbe vom Sensor 
+
+for i in range(28):
+  rgb = sense.color # Hole die Farbe vom Sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
-  bild = [ 
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+  bild = [
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
 
+    
   # Das Bild anzeigen
 
   sense.set_pixels(bild)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -138,17 +143,18 @@ Füge am Ende deines Codes einen `Sleep` Befehl mit einer Sekunde innerhalb dein
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 4
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 5
 ---
+  
   # Das Bild anzeigen
 
-  sense.set_pixels(bild) 
-  sleep(1)
-
+  sense.set_pixels(bild)
+  sleep(1)  
+  
 --- /code ---
 
 **Tipp:** Stelle sicher, dass diese Codezeile innerhalb deiner `for`-Schleife eingerückt ist.
@@ -189,19 +195,20 @@ Füge `sense.clear()` am Ende deines Codes hinzu, um das Bild am Ende deiner Sch
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7
 ---
+  
   # Das Bild anzeigen
 
-  sense.set_pixels(bild) 
-  sleep(1)
-
+  sense.set_pixels(bild)
+  sleep(1) 
+  
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -229,22 +236,25 @@ Füge Code hinzu, um die LED-Matrix auf eine Farbe deiner Wahl zu löschen. Erst
 Du kannst deine eigene Farbe mischen oder die Werte aus der Farbliste verwenden, um deine neue `x`-Farbe zu erstellen.
 
 [[[generic-theory-colours]]]
+[[[ambient-colours]]]
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6-7
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7, 8
 ---
+  
   # Das Bild anzeigen
 
-  sense.set_pixels(bild) 
-  sleep(1)
+  sense.set_pixels(bild)
+  sleep(1) 
 
-x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0 - 255 sense.clear(x)
-
+x = (178, 34, 34)  # Wähle deine eigenen Rot-, Grün- und Blauwerte zwischen 0 - 255
+sense.clear(x)
+  
 --- /code ---
 
 --- /task ---
@@ -255,6 +265,18 @@ x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0
 
 --- /task ---
 
+
+--- task ---
+
+**Speichere deinen Fortschritt**
+
+Du kannst dein Programm im Mission Starter-Projekt speichern, indem du deinen Teamnamen, die Namen der Teammitglieder und den dir zugewiesenen Klassen-Code eingibst. Du kannst dein Programm auf jedem Gerät mit Internetverbindung neu laden, indem du deinen Teamnamen und deinen Klassen-Code eingibst.
+
+![Screenshot der Schaltfläche „Speichern“ von Mission Zero](images/save_button.png)
+
+--- /task ---
+
+
 --- task ---
 
 --- collapse ---
@@ -263,54 +285,55 @@ x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0
 title: Vollständiges Code-Beispiel
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die eine rosa Blume auf einem grünen Stiel zeigen.](images/flower.png)
+![Ein Raster mit 8 x 8 Quadraten, die ein Krokodil zeigen.](images/croc.png)
 
 --- code ---
 ---
-language: python 
+language: python
 filename: main.py
 line_numbers: false
 ---
 # Bibliotheken importieren
-from sense_hat import SenseHat 
+from sense_hat import SenseHat
 from time import sleep
 
 # Einrichten des Sense HAT
-sense = SenseHat() 
+sense = SenseHat()
 sense.set_rotation(270)
 
 # Farbsensor einrichten
-sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein 
-sense.color.integration_cycles = 64 # Das Intervall in dem gemessen wird
+sense.color.gain = 60 # Empfindlichkeit des Sensors einstellen
+sense.color.integration_cycles = 64 # Das Intervall, in dem die Messung durchgeführt wird
 
 # Farbvariablen und Bild hinzufügen
 
-c = (0, 0, 0) # Schwarz 
-m = (34, 139, 34) # Waldgrün 
-q = (255, 255, 0) # Gelb 
-t = (255, 140, 0) # Dunkelorange 
-y = (255, 20, 147) # Dunkelrosa
+a = (255, 255, 255) # Weiß
+c = (0, 0, 0) # Schwarz
+f = (25, 25, 112) # Mitternachtsblau
+m = (34, 139, 34) # Waldgrün
 
-for i in range(28): 
-  rgb = sense.color # holt die Farbe vom Sensor 
+for i in range(28):
+  rgb = sense.color # Hole die Farbe vom Sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
-  bild = [ 
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+  bild = [
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Das Bild anzeigen
 
-  sense.set_pixels(bild) 
+  sense.set_pixels(bild)
   sleep(1)
 
-x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # Wähle deine eigenen Rot-, Grün- und Blauwerte zwischen 0 - 255
+sense.clear(x)
 
 --- /code ---
 
