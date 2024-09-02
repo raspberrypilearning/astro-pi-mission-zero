@@ -217,8 +217,6 @@ title: Draakon
 
 ![8 x 8 ruuduga võre, millel on kujutatud draakonit.](images/dragon.png)
 
-pilt = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
-
 ```python
 
 b = (105, 105, 105) # Tuhmhall
