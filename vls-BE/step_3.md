@@ -294,6 +294,6 @@ Mijn afbeelding wordt niet getoond:
 
 Nu dat je een beeld getoond hebt, kan je je programma opslaan op het Mission Starter project door de naam van je team, de namen van de teamleden en de klascode die je ontving in te geven. Je kan je programma nu opnieuw laden op eender welk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
 
-![Mission Zero opslaan-knop](images/savebutton.png)
+![Mission Zero opslaan-knop](images/mz_savebutton_v2.png)
 
 --- /task --- 
