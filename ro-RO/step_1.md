@@ -1,11 +1,3 @@
-### Mission Zero 2023/24 s-a închis acum.
-
-Încă poți finaliza activitatea, dar nu vei putea trimite programul tău pentru a rula pe ISS. Următoarea rundă a provocării va fi lansată în septembrie 2024. Verifică rețelele sociale și înscrie-te la buletinul informativ de pe [site-ul Astro Pi](https://astro-pi.org/ro/mission-zero/) pentru actualizări.
-
-Sau folosește acest proiect pentru a crea ceva ce îți place pentru [Cele mai tari proiecte!](https://online.coolestprojects.org/take-part).
-
-
-
 ## Vei face
 
 Proiectul tău va seta culoarea de fundal a unei imagini la culoarea detectată de Astro Pi. Astfel, stația spațială internațională (ISS) va deveni mai colorată pentru astronauții de la bord. Codul tău va folosi senzorul de luminozitate de culoare pe noul calculator Sense HAT al lui Mark II Astro Pi pentru a realiza acest lucru.
