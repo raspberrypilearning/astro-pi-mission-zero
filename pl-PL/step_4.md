@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swojego zespołu, imiona członków zespołu i otrzymany kod klasy. Możesz ponownie załadować swój program na dowolnym urządzeniu z dostępem do Internetu, wpisując nazwę swojego zespołu i kod klasy.
 
-![Zrzut ekranu z przyciskiem „Zapisz” w Mission Zero](images/save_button.png)
+![Zrzut ekranu z przyciskiem „Zapisz” w Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task ---
 
