@@ -294,6 +294,6 @@ Bildet mitt vises ikke:
 
 Nå som du har vist et bilde, kan du lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Mission Zero Lagre-knapp](images/savebutton.png)
+![Mission Zero Lagre-knapp](images/mz_savebutton_v2.png)
 
 --- /task --- 
