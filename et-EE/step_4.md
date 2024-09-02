@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![Mission Zero salvestamisnupu ekraanipilt](images/save_button.png)
+![Mission Zero salvestamisnupu ekraanipilt](images/mz_savebutton_v2.png)
 
 --- /task ---
 
