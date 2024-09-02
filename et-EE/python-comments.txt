@@ -16,11 +16,11 @@ Black
 
 White
 
-Dark orange
+Tumeoranž
 
-Dark grey
+Tumehall
 
-YellowGreen
+Kollakasroheline
 
 Yellow
 
@@ -30,17 +30,17 @@ MidnightBlue
 
 ForestGreen
 
-CornflowerBlue
+Rukkilillesinine
 
 Red
 
-SpringGreen
+Kevadroheline
 
 MediumBlue
 
-DimGray
+Tuhmhall
 
-DarkOrchid
+Tume orhidee
 
 saa värv andurilt
 
