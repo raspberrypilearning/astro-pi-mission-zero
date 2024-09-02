@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Poți salva programul tău în proiectul Mission Starter introducând numele echipei, numele membrilor echipei și codul de clasă care ți-a fost dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![Captură de ecran a butonului Mission Zero Salvare](images/save_button.png)
+![Captură de ecran a butonului Mission Zero Salvare](images/mz_savebutton_v2.png)
 
 --- /task ---
 
