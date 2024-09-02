@@ -57,7 +57,7 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 --- collapse ---
 
 ---
-pealkiri: Rebane
+title: Rebane
 ---
 
 ![8 x 8 ruuduga võre, mis näitab rebase nägu.](images/fox_mz3.png)
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-pealkiri: Elevant
+title: Elevant
 ---
 
 ![8 x 8 ruuduga võre, millel on kujutatud elevanti.](images/elephant.png)
@@ -113,7 +113,7 @@ image = [
 
 --- collapse ---
 ---
-title: Lill
+title: Kaktus
 ---
 
 ![8 x 8 ruuduga võre, millel on kujutatud kaktus.](images/cactus.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-pealkiri: Vikerkaar
+title: Vikerkaar
 ---
 
 ![8 x 8 ruuduga võre, millel on kujutatud vikerkaart.](images/rainbow.png)
@@ -206,7 +206,7 @@ rainbow = [
 
 --- collapse ---
 ---
-pealkiri: Draakon
+title: Draakon
 ---
 
 ![8 x 8 ruuduga võre, millel on kujutatud draakonit.](images/dragon.png)
