@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Posnetek zaslona gumba za shranjevanje Mission Zero](images/save_button.png)
+![Posnetek zaslona gumba za shranjevanje Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task ---
 
