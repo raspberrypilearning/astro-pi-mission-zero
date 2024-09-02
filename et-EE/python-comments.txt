@@ -12,9 +12,9 @@ Lisa värvi muutujad ja pilt
 
 Kuva pilt
 
-Black
+Must
 
-White
+Valge
 
 Tumeoranž
 
@@ -24,15 +24,15 @@ Kollakasroheline
 
 Kollane
 
-DarkOrange
+Tumeoranž
 
 MidnightBlue
 
-ForestGreen
+Metsaroheline
 
 Rukkilillesinine
 
-Red
+Punane
 
 Kevadroheline
 
