@@ -1,11 +1,3 @@
-### Projekt Mission Zero 2023/24 je zdaj zaključen.
-
-Še vedno lahko dokončate dejavnost, vendar ne boste mogli oddati svojega programa za izvajanje na ISS. Naslednji krog izziva se bo začel septembra 2024. Za posodobitve preverite družbena omrežja in se prijavite na glasilo na spletnem mestu [Astro Pi](https://astro-pi.org/sl/mission-zero/).
-
-Ali pa uporabite ta projekt, da ustvarite nekaj, kar vam je všeč za [Coolest Projects!](https://online.coolestprojects.org/take-part).
-
-
-
 ## Izdelali boste
 
 Vaš projekt bo nastavil barvo ozadja slike na barvo, ki jo zazna Astro Pi. Tako bo Mednarodna vesoljska postaja (ISS) postala bolj barvita za astronavte na krovu. Vaša koda bo to storila z uporabo senzorja barvne svetilnosti na Sense HAT novega računalnika Mark II Astro Pi.
