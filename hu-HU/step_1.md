@@ -1,11 +1,3 @@
-### A 2023-24-es Mission Zero most lezárult.
-
-Továbbra is elvégezheted a tevékenységet, de már nem fogod tudni beküldeni a programodat, hogy az ISS-en fusson. A kihívás következő fordulója 2024 szeptemberében indul. Figyeld a közösségi médiát, és iratkozz fel a hírlevelünkre az [Astro Pi honlapon](https://astro-pi.org/hu/mission-zero/).
-
-Vagy használja ezt a projektet, hogy létrehozzon valamit, amit szeret a [legmenőbb projektekhez!](https://online.coolestprojects.org/take-part).
-
-
-
 ## Amit el fogsz készíteni
 
 A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez az új Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
