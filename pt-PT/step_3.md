@@ -294,6 +294,6 @@ A minha imagem não aparece:
 
 Agora que exibiste uma imagem, podes guardar o teu programa no projeto Inicio de Missão ao inserir o teu nome de equipa, os nomes dos elementos da equipa e o código de sala de aula que te foi dado. Podes recarregar o teu programa em qualquer dispositivo com conexão à Internet ao inserir o nome da tua equipa e o código de sala de aula.
 
-![Botão Guardar Missão Zero](images/savebutton.png)
+![Botão Guardar Missão Zero](images/mz_savebutton_v2.png)
 
 --- /task --- 
