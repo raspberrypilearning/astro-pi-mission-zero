@@ -2,4 +2,4 @@ pilt
 
 rgb
 
-rainbow
+vikerkaar
