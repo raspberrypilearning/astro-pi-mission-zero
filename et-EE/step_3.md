@@ -294,6 +294,6 @@ Minu pilt ei ilmu:
 
 Nüüd, kui oled pildi kuvanud, saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![Mission Zero salvestusnupp](images/savebutton.png)
+![Mission Zero salvestusnupp](images/mz_savebutton_v2.png)
 
 --- /task --- 
