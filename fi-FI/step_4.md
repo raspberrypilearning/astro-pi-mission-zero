@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/save_button.png)
+![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/mz_savebutton_v2.png)
 
 --- /task ---
 
