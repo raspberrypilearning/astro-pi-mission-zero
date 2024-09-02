@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![A Mission Zero Mentés gomb képernyőképe](images/save_button.png)
+![A Mission Zero Mentés gomb képernyőképe](images/mz_savebutton_v2.png)
 
 --- /task ---
 
