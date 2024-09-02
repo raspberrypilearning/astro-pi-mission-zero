@@ -215,9 +215,9 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 **Salvesta oma edusammud**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Mission Zero salvestamisnupu ekraanipilt](images/save_button.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Valmis koodi näide
 ---
 
-![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
+![8 x 8 ruuduga võre, millel on kujutatud krokodilli.](images/croc.png)
 
 --- code ---
 ---
