@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamnavn, teammedlemmers navne og klasseværelseskoden, som du har fået. Du kan genindlæse dit program på enhver enhed med internetforbindelse ved at indtaste dit teamnavn og klasseværelseskode.
 
-![Mission Zero Gem-knap skærmbillede](images/save_button.png)
+![Mission Zero Gem-knap skærmbillede](images/mz_savebutton_v2.png)
 
 --- /task ---
 
