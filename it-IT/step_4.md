@@ -364,7 +364,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="0">
-  <img src="images/save_button.png" alt="Schermata del pulsante Salva in Mission Zero" />
+  <img src="images/mz_savebutton_v2.png" alt="Schermata del pulsante Salva in Mission Zero" />
 </p>
 
 <p spaces-before="0">
