@@ -62,7 +62,7 @@ title: Räv
 
 ![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fox_mz3.png)
 
-Created by team i_pupi, Italy
+Skapad av team i_pupi, Italien
 
 ```python
 c = (0, 0, 0) # Black
@@ -86,7 +86,7 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-line_numbers: false
+title: Elefant
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en elefant.](images/elephant.png)
@@ -172,7 +172,7 @@ image = [
 
 --- collapse ---
 ---
-rubrik: Regnbåge
+title: Regnbåge
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en regnbåge.](images/rainbow.png)
@@ -206,7 +206,7 @@ rainbow = [
 
 --- collapse ---
 ---
-rubrik: Drake
+title: Drake
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en drake.](images/dragon.png)
