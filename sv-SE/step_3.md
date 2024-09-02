@@ -294,6 +294,6 @@ Min bild visas inte:
 
 Nu när du har visat en bild kan du spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden som du fått. Du kan ladda om programmet på vilken enhet som helst med en internetanslutning genom att ange teamets namn och klassrumskod.
 
-![Mission Zero Spara-knapp](images/savebutton.png)
+![Mission Zero Spara-knapp](images/mz_savebutton_v2.png)
 
 --- /task --- 
