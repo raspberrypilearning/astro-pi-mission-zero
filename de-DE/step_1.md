@@ -1,11 +1,3 @@
-### Mission Zero 2023/24 ist nun abgeschlossen.
-
-Du kannst die Aktivität zwar noch abschließen, dein Programm jedoch nicht zur Ausführung auf der ISS einreichen. Die nächste Runde der Challenge startet im September 2024. Schaue in den sozialen Medien nach und abonniere den Newsletter auf der [Astro Pi-Website](https://astro-pi.org/de/mission-zero/), um Updates zu erhalten.
-
-Oder verwende dieses Projekt, um etwas für deine [Coolsten Projekte!](https://online.coolestprojects.org/take-part)zu erstellen.
-
-
-
 ## Das wirst du machen
 
 Dein Projekt setzt die Hintergrundfarbe eines Bildes auf die Farbe, die der Astro Pi erkennt. Damit wird die Internationale Raumstation (ISS) für die Astronauten an Bord bunter. Dein Code verwendet den Farbsensor auf dem Sense HAT des neuen Mark II Astro Pi-Computers, um dies zu ermöglichen.
