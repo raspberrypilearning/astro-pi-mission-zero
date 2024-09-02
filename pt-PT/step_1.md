@@ -1,11 +1,3 @@
-### A Missão Zero 2023/24 já foi encerrada.
-
-Ainda poderás concluir a atividade, mas não poderás enviar o teu programa para execução na EEI ( Estação Espacial Internacional). A próxima ronda de desafios será lançada em setembro de 2024. Verifica as redes sociais e inscreve-te na newsletter do site [Astro Pi](https://astro-pi.org/pt/mission-zero/) para atualizações.
-
-Ou usa este projeto para criar algo que gostas para o [Coolest Projects!](https://online.coolestprojects.org/take-part).
-
-
-
 ## Vais fazer
 
 O teu projeto irá definir a cor de fundo de uma imagem para a cor que o Astro Pi detecte. Isto tornará a Estação Espacial Internacional (ISS) mais colorida para os astronautas a bordo. O teu código vai usar o sensor de luminosidade de cor no novo Sense HAT do computador Mark II Astro Pi, para que isso aconteça.
