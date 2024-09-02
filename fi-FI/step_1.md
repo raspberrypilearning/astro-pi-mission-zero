@@ -1,11 +1,3 @@
-### Mission Zero 2023/24 on nyt suljettu.
-
-Voit silti tehdä haasteen loppuun, mutta et voi lähettää ohjelmaasi ISS:llä ajettavaksi. Seuraava kierros haasteesta alkaa syyskuussa 2024. Tarkista sosiaalinen media ja tilaa uutiskirje [Astro Pi -sivustolla](https://astro-pi.org/fi/mission-zero/) saadaksesi päivityksiä.
-
-Tai käytä tätä projektia luodaksesi jotain mistä pidät [tyylikkäimmille projekteille!](https://online.coolestprojects.org/take-part).
-
-
-
 ## Sinä teet
 
 Projektisi asettaa kuvan taustaväriksi sen värin, jonka Astro Pi havaitsee. Näin Kansainvälisestä avaruusasemasta (ISS) tulee entistä värikkäämpi aluksella oleville astronauteille. Koodisi käyttää uuden 2. sukupolven Astro Pi -tietokoneen Sense HATin värin kirkkausanturia tämän toteuttamiseksi.
