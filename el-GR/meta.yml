@@ -14,7 +14,7 @@ steps:
   - 
     title: Εμφάνιση εικόνας
     completion:
-      - αφοσιωμένος/η
+      - engaged
   - 
     title: Ανίχνευση ενός χρώματος
     completion:
