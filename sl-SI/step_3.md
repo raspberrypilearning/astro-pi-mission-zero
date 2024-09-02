@@ -294,6 +294,6 @@ Moja slika se ne prikaže:
 
 Zdaj, ko ste prikazali sliko, lahko shranite svoj program v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Gumb za shranjevanje Mission Zero](images/savebutton.png)
+![Gumb za shranjevanje Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task --- 
