@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, le nom des membres de ton équipe et le code de classe qui t'est donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
 
-![Capture d'écran du bouton Enregistrer Mission Zero](images/save_button.png)
+![Capture d'écran du bouton Enregistrer Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task ---
 
