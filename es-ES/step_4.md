@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Puedes guardar tu programa en el proyecto de inicio de la misión introduciendo el nombre de tu equipo, los nombres de los miembros del equipo y el código que recibiste. Puedes recargar tu programa en cualquier dispositivo con conexión a Internet ingresando el nombre de tu equipo y el código de aula.
 
-![Captura de pantalla del botón Guardar de Mission Zero](images/save_button.png)
+![Captura de pantalla del botón Guardar de Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task ---
 
