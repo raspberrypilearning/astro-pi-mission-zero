@@ -2,4 +2,4 @@ bild
 
 rgb
 
-regnbåge
+regnbage
