@@ -294,6 +294,6 @@ Mon image n'apparaît pas :
 
 Maintenant que tu as affiché une image, tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, les noms des membres de l'équipe et le code de classe qui t'a été donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
 
-![Bouton Enregistrer Mission Zero](images/savebutton.png)
+![Bouton Enregistrer Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task --- 
