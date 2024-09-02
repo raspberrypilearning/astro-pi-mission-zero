@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome de equipa, os nomes dos elementos e o código de sala de aula que te foi dado. Podes abrir o teu programa em qualquer dispositivo com conexão à Internet ao entrar com o nome da tua equipa e o código de sala de aula.
 
-![Captura de ecrã do botão Guardar Missão Zero](images/save_button.png)
+![Captura de ecrã do botão Guardar Missão Zero](images/mz_savebutton_v2.png)
 
 --- /task ---
 
