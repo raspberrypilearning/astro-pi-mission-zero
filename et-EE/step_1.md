@@ -1,11 +1,3 @@
-### Mission Zero 2023/24 on nüüd suletud.
-
-Saad tegevuse siiski lõpule viia, kuid sa ei saa oma programmi ISS-is käitamiseks esitada. Väljakutse järgmine voor algab 2024. aasta septembris. Jälgi värskeima teabe saamiseks sotsiaalmeediat ja registreeru [Astro Pi veebisaidil](https://astro-pi.org/mission-zero/) uudiskirja saamiseks.
-
-Või kasutage seda projekti, et luua midagi, mida armastate [Coolest Projects](https://online.coolestprojects.org/take-part) jaoks.
-
-
-
 ## Sa hakkad tegema
 
 Sinu projekt määrab pildi taustavärviks värvi, mille Astro Pi tuvastab. See muudab rahvusvahelise kosmosejaama (ISS) pardal viibivate astronautide jaoks värvilisemaks. Sinu kood kasutab selle saavutamiseks uue Mark II Astro Pi arvuti Sense HATi värvi heleduse andurit.
