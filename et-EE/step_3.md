@@ -89,9 +89,9 @@ c, c, a, a, a, a, c, c]
 pealkiri: Elevant
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![8 x 8 ruuduga võre, millel on kujutatud elevanti.](images/elephant.png)
 
-Created by team ILiFanT, Finland
+Loonud meeskond ILiFanT, Soome
 
 ```python
 c = (0, 0, 0) # Black
@@ -118,7 +118,7 @@ pealkiri: Kaktus
 
 ![8 x 8 ruuduga ruudustik, millel on kujutatud kaktus.](images/cactus.png)
 
-Created by team 6TETHASI, The Netherlands
+Loonud meeskond 6TETHASI, Holland
 
 ```python
 a = (255, 255, 255) # White
@@ -175,9 +175,9 @@ image = [
 pealkiri: Vikerkaar
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![8 x 8 ruuduga võre, millel on kujutatud vikerkaart.](images/rainbow.png)
 
-Created by team camrus_6, United Kingdom
+Loonud meeskond camrus_6, Ühendkuningriik
 
 ```python
 
@@ -209,7 +209,7 @@ rainbow = [
 pealkiri: Draakon
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![8 x 8 ruuduga võre, millel on kujutatud draakonit.](images/dragon.png)
 
 pilt = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
 
@@ -290,10 +290,10 @@ Minu pilt ei ilmu:
 
 --- task ---
 
-**Save your progress**
+**Salvesta oma edusammud**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Nüüd, kui oled pildi kuvanud, saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![Mission Zero Save button](images/savebutton.png)
+![Mission Zero salvestusnupp](images/savebutton.png)
 
 --- /task --- 
