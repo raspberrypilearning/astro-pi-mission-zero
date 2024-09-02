@@ -60,7 +60,7 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 pealkiri: Rebane
 ---
 
-![8 x 8 ruuduga ruudustik, mis näitab rebase nägu.](images/fox_mz3.png)
+![8 x 8 ruuduga võre, mis näitab rebase nägu.](images/fox_mz3.png)
 
 Loonud meeskond i_pupi, Itaalia
 
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-pealkiri: Kaktus
+title: Lill
 ---
 
-![8 x 8 ruuduga ruudustik, millel on kujutatud kaktus.](images/cactus.png)
+![8 x 8 ruuduga võre, millel on kujutatud kaktus.](images/cactus.png)
 
 Loonud meeskond 6TETHASI, Holland
 
