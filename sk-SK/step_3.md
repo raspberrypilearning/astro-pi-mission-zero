@@ -57,10 +57,10 @@ Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **pr
 --- collapse ---
 
 ---
-title: Kuriatko
+title: Líška
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca kuriatko vo vajci.](images/fox_mz3.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca tvár líšky.](images/fox_mz3.png)
 
 Autor: tím i_pupi, Taliansko
 
@@ -113,10 +113,10 @@ image = [
 
 --- collapse ---
 ---
-title: Kvet
+title: Kaktus
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca ružový kvet na zelenej stonke.](images/cactus.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca kaktus.](images/cactus.png)
 
 Autor: tím 6TETHASI, Holandsko
 
