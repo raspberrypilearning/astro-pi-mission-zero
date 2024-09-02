@@ -1,11 +1,3 @@
-### Výzva Mission Zero 2023/24 je nyní ukončena.
-
-Aktivitu můžeš nadále dokončit, avšak svůj program již nebudeš moci odeslat ke spuštění na ISS. Další kolo výzvy bude zahájeno v září roku 2024. Navštiv naše stránky na sociálních sítích a přihlas se k odběru newsletteru <a href="https://astro-pi.org/cs/mission-zero/>na stránce Astro Pi</a>, aby ti neunikly žádné novinky.
-
-Nebo použij tento projekt k vytvoření něčeho, co se ti líbí, do přehlídky [Coolest Projects](https://online.coolestprojects.org/take-part)!
-
-
-
 ## Co budeš dělat
 
 Tvůj projekt nastaví pozadí tvého obrázku na barvu, kterou rozpozná počítač Astro Pi. Díky tomu bude Mezinárodní vesmírná stanice (ISS) pro astronauty na palubě o něco barevnější. Tvůj kód k tomu použije senzor barev a svítivosti na desce Sense HAT u nových počítačů Mark II Astro Pi.
