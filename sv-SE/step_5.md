@@ -1,45 +1,25 @@
 ## Skicka ditt bidrag
 
-Du kan nu gå in i [Astro Pi Mission Zero](https://astro-pi.org/sv/mission-zero){:target="_blank"}-utmaningen med koden du har skrivit.
+Nu när du har slutfört ditt uppdrag, varför inte testa några fler projekt med hjälp av de andra sensorerna på Astro Pi?
 
-Det finns några regler som din kod måste följa för att du ska kunna skicka den så att den körs på den internationella rymdstationen. Om din kod följer dem kommer reglerna längst ner i **Sense HAT-emulator** att lysa grönt när du kör programmet.
+Om du känner dig självsäker kan du delta i Mission Space Lab. Bilda ett team på två till sex personer och arbeta tillsammans för att svara på en riktig vetenskaplig fråga. Alla lag som skickar in ett kvalificerat program kommer att bjudas in till en virtuell Q&A med en ESA-astronaut i slutet av Astro Pi Challenge-cykeln.
 
-![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av själva flygenheten](images/rules.png)
+Alternativt kanske du vill testa något av våra andra Sense HAT-projekt:
 
-**Tips:** Testa din kod med några olika färginställningar (med väljaren) för att se till att den alltid fungerar korrekt.
++ Lär dig [mer om Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} och de andra sakerna den kan göra
 
-Se till att ditt bidrag följer de [officiella riktlinjerna](https://astro-pi.org/sv/mission-zero/guidelines){:target="_blank"} för Mission Zero. Om det inte följer riktlinjerna kommer ditt program inte att kunna köras på den internationella rymdstationen.
++ Skapa några vackra [slumpmässiga gnistrar](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} på Sense HAT:s LED-skärm
 
-Vänligen inkludera inte något av följande i ditt lagnamn eller kod:
++ Skapa ett [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}-spel
 
-+ Allt som kan tolkas som olagligt, politiskt eller känsligt
-+ Flaggor, eftersom de kan anses vara politiskt känsliga
-+ Allt som hänvisar till obehag eller skada på en annan person
-+ Personuppgifter såsom telefonnummer, användarnamn till sociala medier och e-postadresser
-+ Obscena bilder
-+ Specialtecken eller emojis
-+ Dåligt språk eller svordomar
++ Utmana dina vänner med ett [marmorlabyrint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}-spel
 
---- task ---
++ Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
 
-Ange din klassrumskod och lagnamn i rutan längst ner - din mentor kommer att berätta vad din kod är.
+***
 
-![Inlämningsformulär för klassrumskod och lagnamn](images/submission.png)
+Detta projekt översattes av frivilliga:
 
-**Noteringar för lärare och mentorer** finns i steget [Introduktion](https://projects.raspberrypi.org/sv-SE/projects/astro-pi-mission-zero/0).
+David Norlin
 
---- /task ---
-
---- task ---
-
-Tryck på knappen **Lägg till ditt lag** för att ange din kod. Observera att ett program inte kan ändras när det väl har skickats in.
-
-Din mentor kommer att få ett e-postmeddelande för att bekräfta din anmälan.
-
---- /task ---
-
---- task ---
-
-Om du vill kan du dela länken till din kod på sociala medier för att berätta för människor att den kod som du skrev kommer att köras i rymden!
-
---- /task ---
+Tack vare frivilliga kan vi ge människor runt om i världen möjligheten att lära på sitt eget språk. Du kan hjälpa oss att nå ut till fler personer genom att bli frivillig översättare - läs mer på [rpf.io/translate](https://rpf.io/translate).

@@ -1,45 +1,26 @@
-## Esita oma võistlustöö
+## Mis edasi — rohkem Astro Pi projekte
 
-Nüüd saate sisestatud koodi abil sisestada [Astro Pi Mission Zero](https://astro-pi.org/et/mission-zero){:target="_blank"} väljakutse.
+Nüüd, kui olete oma missiooni täitnud, siis miks mitte proovida veel mõnda projekti, kasutades Astro Pi teisi andureid?
 
-Sinu koodi esitamiseks rahvusvahelises kosmosejaamas käivitamiseks peab see vastama mõnedele reeglitele. Kui sinu kood neile vastab, siis muutuvad programmi käitamisel **Sense HAT emulaatori** allosas asuvad reeglid roheliseks.
+Kui oled endas kindel, võiksid osaleda projektis Mission Space Lab. Moodusta kahest kuni kuuest inimesest koosnev meeskond ja töötage koos, et vastata tõelisele teaduslikule küsimusele. Kõik meeskonnad, kes esitavad sobiva programmi, kutsutakse Astro Pi Challenge tsükli lõpus ESA virtuaalsele Q&A kohtumisele astronaudiga.
 
-![Mission Zero leht näitamas võistlustöö esitamise nõudeid.](images/rules.png)
+Soovi korral võid proovida ka mõnd teistsugust Sense HAT projekti:
 
-**Näpunäide:** Testi oma koodi mitme eri värviseadega (kasutades valijat), et olla kindel, et see käitab alati õigesti.
++ Vaata [lisateavet Sense HATi](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} ja muude asjade kohta, mida see saab teha
 
-Palun veendu, et sinu võistlustöö järgib Mission Zero [ametlikke juhiseid](https://astro-pi.org/et/mission-zero/guidelines){:target="_blank"}. Kui see ei järgi juhiseid, ei saa sinu programmi rahvusvahelises kosmosejaamas käitada.
++ Loo Sense HATi LED-ekraanil ilusaid [juhuslikke sädemeid](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"}
 
-Palun ära lisa oma meeskonna nimesse ega koodi järgmist:
++ Loo mäng [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Kõik, mida võib tõlgendada ebaseadusliku, poliitilise või delikaatsena
-+ Lipud, kuna neid võib võtta poliitiliselt delikaatsetena
-+ Kõik, mis viitab teisele inimesele ebameeldivuste valmistamisele või kahju tegemisele
-+ Isikuandmed, nagu telefoninumbrid, sotsiaalmeedia kontod ja meiliaadressid
-+ Ropud pildid
-+ Erimärgid või emotikonid
-+ Ebaviisakas keel või vandumine
++ Esita oma sõpradele väljakutse [marmorlabürindi](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} mänguga
 
---- task ---
++ Loo uuesti klassikaline mäng [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
 
-Sisesta oma klassiruumi kood ja meeskonna nimi allpool asuvasse kastikesse; sinu mentor ütleb sulle, mis sinu kood on.
+***
 
-![Klassiruumi koodi ja meeskonna nime esitamise vorm](images/submission.png)
+Selle projekti tõlkisid vabatahtlikud:
 
-**Märkused mentoritele** on saadaval [Sissejuhatuses](https://projects.raspberrypi.org/et-EE/projects/astro-pi-mission-zero/0).
+Kärt Roomäe
 
---- /task ---
+Tänu vabatahtlikele saame anda inimestele kogu maailmas võimaluse õppida oma emakeeles. Võite aidata meil jõuda rohkemate inimesteni, alustades vabatahtliku tõlkijana - lisateavet leiate saidilt [rpf.io/translate](https://rpf.io/translate).
 
---- task ---
-
-Oma koodi sisestamiseks vajuta **Lisa oma tiim** nuppu. Pea meeles, et peale esitamist ei ole programmi enam võimalik muuta.
-
-Sinu mentorile saadetakse võistlustöö esitamist kinnitav meil.
-
---- /task ---
-
---- task ---
-
-Soovi korral võid oma koodi linki jagada sotsiaalmeedias andmaks kõigile teada, et sinu kirjutatud koodi näidatakse kosmoses!
-
---- /task ---

@@ -13,7 +13,6 @@ steps:
     completion:
       - engaged
   - title: Känn en färg
-  - title: Skicka ditt bidrag
     completion:
       - internal
-  - title: 'Vad härnäst: fler Astro Pi-projekt'
+    title: 'Vad kommer sen: fler Astro Pi-projekt'

@@ -20,28 +20,28 @@ language: python
 filename: main.py 
 line_numbers: false 
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
 # Lägg till färgvariabler och bild
 
-c = (0, 0, 0) # Svart 
-m = (34, 139, 34) # Skogsgrön 
-q = (255, 255, 0) # Gul 
-t = (255, 140, 0) # MörkOrange 
-y = (255, 20, 147) # Djuprosa
+a = (255, 255, 255) # Vit
+c = (0, 0, 0) # Svart
+f = (25, 25, 112) # Midnattsblå
+m = (34, 139, 34) # Skogsgrön
 
-rgb = sense.color # hämta färgen från sensorn 
+rgb = sense.color # hämta färgen från sensorn
 c = (rgb.red, rgb.green, rgb.blue) # använd den avkända färgen
 
 bild = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -68,30 +68,32 @@ Din kod kommer att använda en `for` loop för att köra 28 gånger. **Varje** g
 
 **Hitta** din `rgb = sense.color` kodrad.
 
-**Lägg till** kod ovanför den för att ställa in din `for` -loop för `28` repetitioner.
+**Lägg till** kod ovanför den för att ställa in din `for` loop för `28` repetitioner.
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
-for i in range(28): 
-rgb = sense.color # hämta färgen från sensorn 
+
+for i in range(28):
+rgb = sense.color # hämta färgen från sensorn
 c = (rgb.red, rgb.green, rgb.blue)
 
 bild = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -104,30 +106,32 @@ Du måste nu indentera all din kod under `for` loopen så att den är **inuti** 
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
-for i in range(28): 
-  rgb = sense.color # hämta färgen från sensorn 
+
+for i in range(28):
+  rgb = sense.color # hämta färgen från sensorn
   c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
 
+    
   # Visa bilden
 
   sense.set_pixels(bild)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -138,17 +142,18 @@ Längst ned i koden lägger du till en `-sleep` på en sekund i din loop:
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 4
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 5
 ---
+  
   # Visa bilden
 
-  sense.set_pixels(bild) 
-  sleep(1)
-
+  sense.set_pixels(bild)
+  sleep(1)  
+  
 --- /code ---
 
 **Tips:** Se till att denna kodrad är indenterad i din `for` -loop.
@@ -189,19 +194,20 @@ Lägg till `sense.clear()` i slutet av din kod för att rensa bilden i slutet av
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7
 ---
+  
   # Visa bilden
 
-  sense.set_pixels(bild) 
-  sleep(1)
-
+  sense.set_pixels(bild)
+  sleep(1) 
+  
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -233,20 +239,21 @@ Du kan blanda din egen färg eller använda värdena från listan över färger 
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6-7
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7, 8
 ---
+  
   # Visa bilden
 
-  sense.set_pixels(bild) 
-  sleep(1)
+  sense.set_pixels(bild)
+  sleep(1) 
 
 x = (178, 34, 34)  # välj dina egna röda, gröna, blå värden mellan 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -259,57 +266,68 @@ sense.clear(x)
 
 --- task ---
 
+**Spara dina framsteg**
+
+Du kan spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden du fått. Du kan ladda om ditt program på vilken enhet som helst med en internetanslutning genom att ange ditt teamnamn och klassrumskod.
+
+![Mission Zero Spara skärmgrepp](images/mz_savebutton_v2.png)
+
+--- /task ---
+
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Färdigt kodexempel
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en rosa blomma på en grön stjälk.](images/flower.png)
+![Ett rutnät med 8 x 8 rutor som visar en krokodill.](images/croc.png)
 
 --- code ---
 ---
-language: python 
+language: python
 filename: main.py
 line_numbers: false
 ---
 # Importera biblioteken
-from sense_hat import SenseHat 
+from sense_hat import SenseHat
 from time import sleep
 
 # Ställ in Sense HAT
-sense = SenseHat() 
+sense = SenseHat()
 sense.set_rotation(270)
 
 # Ställ in färgsensorn
-sense.color.gain = 60 # Set the sensitivity of the sensor 
-sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+sense.color.gain = 60 # Ställ in sensorns känslighet
+sense.color.integration_cycles = 64 # Intervallet med vilket avläsningen kommer att ske
 
 # Lägg till färgvariabler och bild
 
-c = (0, 0, 0) # Svart 
-m = (34, 139, 34) # Skogsgrön 
-q = (255, 255, 0) # Gul 
-t = (255, 140, 0) # Mörkorange 
-y = (255, 20, 147) # Djuprosa
+a = (255, 255, 255) # Vit
+c = (0, 0, 0) # Svart
+f = (25, 25, 112) # Midnattsblå
+m = (34, 139, 34) # Skogsgrön
 
-for i in range(28): 
-  rgb = sense.color # hämta färgen från sensornr 
+for i in range(28):
+  rgb = sense.color # hämta färgen från sensorn
   c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Visa bilden
 
-  sense.set_pixels(bild) 
+  sense.set_pixels(bild)
   sleep(1)
 
 x = (178, 34, 34)  # välj dina egna röda, gröna, blå värden mellan 0 - 255

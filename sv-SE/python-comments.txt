@@ -12,25 +12,35 @@ Lägg till färgvariabler och bild
 
 Visa bilden
 
-Vit
-
 Svart
 
-MediumBlå
+Vit
+
+Mörkorange
+
+Mörkgrå
+
+Gulgrön
 
 Gul
 
 Mörkorange
 
-Rosa
+Midnattsblå
 
 Skogsgrön
 
-Djuprosa
+Blåklintblå
 
 Röd
 
-Midnattsblå
+Vårgrön
+
+Mediumblå
+
+Dimgrå
+
+Mörkorkidé
 
 hämta färgen från sensorn
 

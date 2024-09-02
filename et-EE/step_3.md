@@ -10,7 +10,7 @@ Astro Pi LED-maatriksid suudavad kuvada ka värve. Selles etapis kuvad Astro Pi 
 
 --- task ---
 
-Ava [Mission Zero stardiprojekt](https://missions.astro-pi.org/cs/et/code_submissions/new){:target="_blank"}.
+Ava [Mission Zero stardiprojekt](https://missions.astro-pi.org/et/mz/code_submissions/new){:target="_blank"}.
 
 Näed, et sulle on automaatselt lisatud mõned read koodi.
 
@@ -62,101 +62,88 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 
 --- collapse ---
 
+
 ---
-title: Kana
+title: Rebane
 ---
 
-![8 x 8 ruuduga võre, mis näitab tibu munas.](images/chick.png)
+![8 x 8 ruuduga võre, mis näitab rebase nägu.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-e = (0, 0, 205) # MediumBlue
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-w = (255, 192, 203) # Pink
+Loonud meeskond i_pupi, Itaalia
+
+```python
+c = (0, 0, 0) # Must
+a = (255, 255, 255) # Valge
+t = (255, 140, 0) # Tumeoranž
 
 pilt = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Lill
+title: Elevant
 ---
 
-![8 x 8 ruuduga võre, millel on roosa lill rohelisel varrel.](images/flower.png)
+![8 x 8 ruuduga võre, millel on kujutatud elevanti.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-y = (255, 20, 147) # DeepPink
+Loonud meeskond ILiFanT, Soome
+
+```python
+c = (0, 0, 0) # Must
+b = (105, 105, 105) # Tumehall
+a = (255, 255, 255) # Valge
 
 pilt = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Krabi
+title: Kaktus
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud krabi.](images/crab.png)
+![8 x 8 ruuduga võre, millel on kujutatud kaktus.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-v = (255, 0, 0) # Red
+Loonud meeskond 6TETHASI, Holland
 
-pilt = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+```python
+a = (255, 255, 255) # Valge
+c = (0, 0, 0) # Must
+n = (154, 205, 50) # Kollakasroheline
+q = (255, 255, 0) # Kollane
+t = (255, 140, 0) # Tumeoranž
 
---- /code ---
+pilt = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
+
+```
 
 --- /collapse ---
 
@@ -168,16 +155,12 @@ title: Krokodill
 
 ![8 x 8 ruuduga võre, millel on kujutatud krokodilli pead.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
+```python
+
+a = (255, 255, 255) # Valge
+c = (0, 0, 0) # Must
 f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+m = (34, 139, 34) # Metsaroheline
 
 pilt = [
   m, m, m, m, m, c, c, c,
@@ -189,74 +172,72 @@ pilt = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Madu
----
-
-![8 x 8 ruuduga võre, millel on kujutatud madu.](images/snake.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Black
- m = (34, 139, 34) # ForestGreen
- q = (255, 255, 0) # Yellow
- v = (255, 0, 0) # Red
-
-pilt = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Konn
+title: Vikerkaar
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud konn.](images/frog.png)
+![8 x 8 ruuduga võre, millel on kujutatud vikerkaart.](images/rainbow.png)
 
---- code ---
+Loonud meeskond camrus_6, Ühendkuningriik
+
+```python
+
+c = (100, 149, 237) # Rukkilillesinine
+a = (255, 255, 255) # Valge
+v = (255, 0, 0) # Punane
+t = (255, 140, 0) # Tumeoranž
+q = (255, 255, 0) # Kollane
+l = (0, 255, 127) # Kevadroheline
+e = (0, 0, 205) # MediumBlue
+
+vikerkaar = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
 ---
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
+title: Draakon
 ---
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
-v = (255, 0, 0) # Red
+
+![8 x 8 ruuduga võre, millel on kujutatud draakonit.](images/dragon.png)
+
+pilt = [ c, a, a, c, a, a, c, c, c, a, c, c, a, c, c, c, c, v, c, c, v, c, c, c, c, v, c, c, v, c, c, c, v, v, v, v, v, c, v, v, v, v, c, c, v, v, v, c, v, v, v, v, v, c, v, v, v, c, v, c, v, c, c, c]
+
+```python
+
+b = (105, 105, 105) # Tuhmhall
+c = (0, 0, 0) # Must
+d = (100, 149, 237) # Rukkilillesinine
+v = (255, 0, 0) # Punane
+z = (153, 50, 204) # Tume orhidee
 
 pilt = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,34 +247,32 @@ pilt = [
 
 **Leia:** rida, mis ütleb `# Kuva pilt` ja lisa koodirida, et kuvada oma pilt LED-maatriksil:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
-pilt = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+```python
+a = (255, 255, 255) # Valge
+c = (0, 0, 0) # Must
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # Metsaroheline
 
-# Kuva pilt 
+pilt = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Kuva pilt
 sense.set_pixels(pilt)
 
---- /code ---
+```
 
 --- /task ---
 
 --- task ---
 
-Vajuta **Käivita** redaktori allosas, et näha oma pilti LED-maatriksil kuvatuna.
+Vajuta **Käivita** Punaneaktori allosas, et näha oma pilti LED-maatriksil kuvatuna.
 
 --- /task ---
 
@@ -315,4 +294,12 @@ Minu pilt ei ilmu:
 --- /task ---
 
 
+--- task ---
 
+**Salvesta oma edusammud**
+
+Nüüd, kui oled pildi kuvanud, saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
+
+![Mission Zero salvestusnupp](images/mz_savebutton_v2.png)
+
+--- /task --- 
