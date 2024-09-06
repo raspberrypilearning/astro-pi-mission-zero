@@ -299,6 +299,6 @@ Môj obrázok sa nezobrazuje:
 
 Po zobrazení obrázka si môžeš svoj program uložiť do projektu Mission Starter zadaním názvu tímu, mien členov tímu a kódu triedy, ktorý si dostal/-a. Svoj program môžeš znova načítať na akomkoľvek zariadení s internetovým pripojením zadaním názvu tímu a kódu triedy.
 
-![Tlačidlo Uložiť v Mission Zero](images/mz_savebutton_v2.png)
+![Tlačidlo Uložiť v Mission Zero](images/savebutton_sk.png)
 
 --- /task --- 
