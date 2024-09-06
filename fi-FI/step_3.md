@@ -298,6 +298,6 @@ Kuvani ei näy:
 
 Nyt kun olet näyttänyt kuvan, voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![Mission Zeron Tallennuspainike](images/savebutton.png)
+![Mission Zeron Tallennuspainike](images/savebutton_fi.png)
 
 --- /task --- 
