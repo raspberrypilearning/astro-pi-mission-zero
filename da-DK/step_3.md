@@ -300,6 +300,6 @@ Mit billede vises ikke:
 
 Nu hvor du har vist et billede, kan du gemme dit program på Mission Starter-projektet ved at indtaste dit holdnavn, holdmedlemmers navne og den klasseværelseskode, som du har fået. Du kan genindlæse dit program på enhver enhed med internetforbindelse ved at indtaste dit teamnavn og klasseværelseskode.
 
-![Mission Zero Gem-knap](images/savebutton.png)
+![Mission Zero Gem-knap](images/savebutton_dk.png)
 
 --- /task --- 
