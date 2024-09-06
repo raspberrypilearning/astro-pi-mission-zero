@@ -271,7 +271,7 @@ sense.clear(x)
 
 Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome de equipa, os nomes dos elementos e o código de sala de aula que te foi dado. Podes abrir o teu programa em qualquer dispositivo com conexão à Internet ao entrar com o nome da tua equipa e o código de sala de aula.
 
-![Captura de ecrã do botão Guardar Missão Zero](images/save_button.png)
+![Captura de ecrã do botão Guardar Missão Zero](images/savebutton_pt.png)
 
 --- /task ---
 
