@@ -271,7 +271,7 @@ sense.clear(x)
 
 Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![Mission Zero salvestamisnupu ekraanipilt](images/mz_savebutton_v2.png)
+![Mission Zero salvestamisnupu ekraanipilt](images/savebutton_ee.png)
 
 --- /task ---
 
