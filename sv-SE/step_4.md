@@ -270,7 +270,7 @@ sense.clear(x)
 
 Du kan spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden du fått. Du kan ladda om ditt program på vilken enhet som helst med en internetanslutning genom att ange ditt teamnamn och klassrumskod.
 
-![Mission Zero Spara skärmgrepp](images/mz_savebutton_v2.png)
+![Mission Zero Spara skärmgrepp](images/savebutton_se.png)
 
 --- /task ---
 
