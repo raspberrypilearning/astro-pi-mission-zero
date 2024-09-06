@@ -300,6 +300,6 @@ Mi imagen no aparece:
 
 Ahora que has mostrado una imagen, puedes guardar tu programa en el Proyecto Inicial de la Misión ingresando el nombre de tu equipo, los nombres de los miembros del equipo y el código de aula que te dieron. Puedes recargar tu programa en cualquier dispositivo con conexión a Internet ingresando el nombre de tu equipo y el código de aula.
 
-![Botón Guardar de Mission Zero](images/savebutton.png)
+![Botón Guardar de Mission Zero](images/savebutton_es.png)
 
 --- /task --- 
