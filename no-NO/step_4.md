@@ -271,7 +271,7 @@ sense.clear(x)
 
 Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Mission Zero Lagre-knapp skjermdump](images/save_button.png)
+![Mission Zero Lagre-knapp skjermdump](images/savebutton_no.png)
 
 --- /task ---
 
