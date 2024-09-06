@@ -271,7 +271,7 @@ sense.clear(x)
 
 Elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![A Mission Zero Mentés gomb képernyőképe](images/save_button.png)
+![A Mission Zero Mentés gomb képernyőképe](images/savebutton_hu.png)
 
 --- /task ---
 
