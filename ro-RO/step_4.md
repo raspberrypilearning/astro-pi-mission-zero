@@ -271,8 +271,6 @@ sense.clear(x)
 
 Poți salva programul tău în proiectul Mission Starter introducând numele echipei, numele membrilor echipei și codul de clasă care ți-a fost dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![Captură de ecran a butonului Mission Zero Salvare](images/save_button.png)
-
 --- /task ---
 
 --- task ---
