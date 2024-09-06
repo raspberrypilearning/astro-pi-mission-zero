@@ -272,7 +272,7 @@ sense.clear(x)
 
 Puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice classe che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
 
-![Mission Zero Save button screengrab](images/save_button.png)
+![Mission Zero Save button screengrab](images/savebutton_it.png)
 
 --- /task --- 
 
