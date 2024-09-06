@@ -300,6 +300,6 @@ Neukazuje se mi obrázek:
 
 Po zobrazení obrázku můžeš svůj program uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
 
-![Tlačítko výzvy Mission Zero pro uložení.](images/savebutton.png)
+![Tlačítko výzvy Mission Zero pro uložení.](images/savebutton_cz.png)
 
 --- /task --- 
