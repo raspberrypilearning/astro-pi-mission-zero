@@ -271,7 +271,7 @@ sense.clear(x)
 
 Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/save_button.png)
+![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/savebutton_fi.png)
 
 --- /task ---
 
