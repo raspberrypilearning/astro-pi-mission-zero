@@ -300,6 +300,6 @@ Nem jelenik meg a képem:
 
 Most, hogy megjeenítettél egy képet, elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![Mission Zero Mentés gomb](images/savebutton.png)
+![Mission Zero Mentés gomb](images/savebutton_hu.png)
 
 --- /task --- 
