@@ -298,6 +298,6 @@ Mój obraz się nie pojawia:
 
 Teraz, gdy wyświetliłeś obraz, możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swojego zespołu, imiona członków zespołu i otrzymany kod klasy. Możesz ponownie załadować swój program na dowolnym urządzeniu z dostępem do Internetu, wpisując nazwę swojego zespołu i kod klasy.
 
-![Przycisk Zapisz Mission Zero](images/savebutton.png)
+![Przycisk Zapisz Mission Zero](images/savebutton_pl.png)
 
 --- /task --- 
