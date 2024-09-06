@@ -271,7 +271,7 @@ sense.clear(x)
 
 Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu tímu, mien členov tímu a kódu triedy, ktorý si dostal/-a. Svoj program môžeš znova načítať na akomkoľvek zariadení s internetovým pripojením zadaním názvu tímu a kódu triedy.
 
-![Snímka obrazovky tlačidla Uložiť v Mission Zero](images/mz_savebutton_v2.png)
+![Snímka obrazovky tlačidla Uložiť v Mission Zero](images/savebutton_sk.png)
 
 --- /task ---
 
