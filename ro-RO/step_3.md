@@ -299,6 +299,6 @@ Imaginea mea nu apare:
 
 Acum că ai afișat o imagine, poți salva programul tău în proiectul Mission Starter introducând numele echipei tale, numele membrilor echipei şi codul de clasă care vi s-a dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![Butonul Mission Zero Salvare](images/savebutton.png)
+![Butonul Mission Zero Salvare](images/savebutton_ro.png)
 
 --- /task --- 
