@@ -299,6 +299,6 @@ Mein Bild wird nicht angezeigt:
 
 Nachdem du nun ein Bild angezeigt hast, kannst du dein Programm im Mission Starter-Projekt speichern, indem du deinen Teamnamen, die Namen der Teammitglieder und den dir zugewiesenen Klassen-Code eingibst. Du kannst dein Programm auf jedem Gerät mit Internetverbindung neu laden, indem du deinen Teamnamen und deinen Klassen-Code eingibst.
 
-![Mission Zero Speichern-Button](images/savebutton.png)
+![Mission Zero Speichern-Button](images/savebutton_de.png)
 
 --- /task --- 
