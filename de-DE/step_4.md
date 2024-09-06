@@ -272,7 +272,7 @@ sense.clear(x)
 
 Du kannst dein Programm im Mission Starter-Projekt speichern, indem du deinen Teamnamen, die Namen der Teammitglieder und den dir zugewiesenen Klassen-Code eingibst. Du kannst dein Programm auf jedem Gerät mit Internetverbindung neu laden, indem du deinen Teamnamen und deinen Klassen-Code eingibst.
 
-![Screenshot der Schaltfläche „Speichern“ von Mission Zero](images/save_button.png)
+![Screenshot der Schaltfläche „Speichern“ von Mission Zero](images/savebutton_de.png)
 
 --- /task ---
 
