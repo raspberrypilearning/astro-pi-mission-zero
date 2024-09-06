@@ -299,6 +299,6 @@ La mia immagine non viene visualizzata:
 
 Ora che hai visualizzato un'immagine, puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice dell'aula che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
 
-![Pulsante Salva Mission Zero](images/savebutton.png)
+![Pulsante Salva Mission Zero](images/savebutton_it.png)
 
 --- /task --- 
