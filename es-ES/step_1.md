@@ -1,10 +1,4 @@
-### Mission Zero 2023/24 ha cerrado.
-
-Todavía puedes completar la actividad pero no podrás enviar tu programa para ejecutarlo en la ISS. La próxima ronda del desafío comenzará en septiembre del 2024. Revisa las redes sociales y regístrate al boletín del sitio web [Astro Pi](https://astro-pi.org/mission-zero/) para obtener actualizaciones.
-
 ## Lo que harás
-
-Completa este proyecto para entrar en el desafío Astro Pi Mission Zero y haz que tu código se ejecute en el espacio en una computadora Astro Pi.
 
 Tu proyecto establecerá el color de fondo de una imagen al color que detecta la Astro Pi. Esto hará que la Estación Espacial Internacional (ISS) sea más colorida para los astronautas a bordo. Tu código utilizará el sensor de luminosidad de color en el Sense HAT de la nueva computadora Mark II Astro Pi para lograr que esto suceda.
 
@@ -18,11 +12,11 @@ Utilizarás el emulador Astro Pi en un navegador web para crear tu programa. No 
 
 ### Criterios de Astro Pi Mission Zero
 
-**¡Si tu programa cumple con [los criterios de elegibilidad](https://astro-pi.org/es/mission-zero/eligibility){:target="_blank"}** se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código. ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
+**¡Si tu programa cumple con [los criterios de elegibilidad](https://astro-pi.org/es/mission-zero/eligibility){:target="_blank"}** se ejecutará en el espacio de la Estación Espacial Internacional (ISS)! ¡También recibirás un certificado especial en el que se indica dónde exactamente estaba la ISS cuando se ejecutó tu código.
 
 Aprenderás sobre la unidad Astro Pi y cómo controlarla, incluyendo cómo:
-+ Mostrar mensajes y colores
-+ Crear imágenes
++ Crea **variables** de color para usar en tu imagen
++ Diseñar y mostrar una imagen en el Sense HAT
 + Detectar el color de la luz a bordo de la ISS
 
 --- collapse ---

@@ -1,45 +1,26 @@
-## Dien je project in
+## Wat nu - meer Astro Pi-projecten
 
-You can now enter the [Astro Pi Mission Zero](https://astro-pi.org/vls/mission-zero){:target="_blank"} challenge, using the code you have written.
+Nu je je missie afgerond hebt, kan je een ander project proberen door gebruik te maken van de andere sensors op de Astro Pi?
 
-Er zijn enkele regels waaraan je code moet voldoen zodat je ze kan indienen om te werken op het internationaal ruimtestation. Als je code hieraan voldoet, zullen de regels onderaan de **Sense HAT-emulator** groen oplichten als je het programma laat werken.
+Als je je zelfverzekerd voelt, kan je deelnemen aan de Space Lab missie. Vorm een team van twee tot zes mensen en werk samen om een echte wetenschappelijk vraag te beantwoorden. Alle teams die een toegelaten programma indienen zullen uitgenodigd worden voor een virtueel Q&A met een ESA-astronaut op het einde van de cyclus van de Astro Pi uitdaging.
 
-![De pagina van Mission Zero met de toelatingscriteria voor deelname.](images/rules.png)
+Als alternatief kan je ook een van onze andere Sense HAT-projecten proberen:
 
-**Tip:** Test je code met een aantal verschillende kleurinstellingen (gebruik de kiezer) om ervoor te zorgen dat het altijd juist werkt.
++ Kom [meer te weten over de Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} en de andere dingen die het kan doen
 
-Zorg ervoor dat je project voldoet aan de [officiele richtlijnen](https://astro-pi.org/vls/mission-zero/guidelines){:target="_blank"} voor Mission Zero. Als het niet voldoet aan de richtlijnen, zal je programma niet kunnen werken in het Internationaal Ruimtestation.
++ Creeer wat mooie [willekeurige glinsteringen](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} op de LED-display van de Sense HAT
 
-Gelieve geen van de onderstaande te gebruiken in de naam van je team of in je code:
++ Maak een [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} spel
 
-+ Alles wat geïnterpreteerd zou kunnen worden als iets van illegale, politieke of gevoelige aard
-+ Vlaggen, omdat die als politiek gevoelig beschouwd kunnen worden
-+ Alles wat verwijst naar onaangenaamheden of iemand anders kwetst
-+ Persoonlijke gegevens zoals telefoonnummers, links naar sociale media en mailadressen
-+ Obscene afbeeldingen
-+ Speciale tekens of emoji's
-+ Slecht taalgebruik of vloeken
++ Daag je vrienden uit met een [knikkerdoolhof](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spel
 
---- task ---
++ Recreër het klassieke [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} spel
 
-Voeg je klascode en teamnaam in het vakje onderaan in - je begeleider zal je vertellen wat je code is.
+***
 
-![Formulier voor het indienen van klascode en teamnaam](images/submission.png)
+Dit project werd vertaald door vrijwilligers:
 
-**Opmerkingen voor begeleiders** kunnen teruggevonden worden in de [Introductie](https://projects.raspberrypi.org/vls-BE/projects/astro-pi-mission-zero/0) stap.
+Lieve Cox
+Iny van Beuningen
 
---- /task ---
-
---- task ---
-
-Klik op de **Voeg je team toe** knop om je code in te dienen. Merk op dat een programma niet meer aangepast kan worden als het ingediend werd.
-
-Je begeleider ontvangt een mail om je deelname te bevestigen.
-
---- /task ---
-
---- task ---
-
-Als je wilt, kun je de link naar je code delen op sociaal media om aan mensen te zeggen dat de code die je hebt geschreven in Space zal runnen!
-
---- /task ---
+Dankzij vrijwilligers kunnen we mensen overal ter wereld de kans geven om in hun eigen taal te leren. Je kan ons helpen meer mensen te bereiken door je op te geven als vrijwilliger om te vertalen - meer info op [rpf.io/translate](https://rpf.io/translate).

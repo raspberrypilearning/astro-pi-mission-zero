@@ -63,99 +63,86 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 --- collapse ---
 
 ---
-title: Kuřátko
+title: Liška
 ---
 
-![Mřížka o velikosti 8 × 8, na které je kuřátko ve vajíčku.](images/chick.png)
+![Mřížka o velikosti 8 × 8, na které je hlava lišky.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Vytvořil tým i_pupi z Itálie
+
+```python
+c = (0, 0, 0) # Černá
 a = (255, 255, 255) # Bílá
-c = (0, 0, 0) # Bílá
-e = (0, 0, 205) # Středně modrá
-q = (255, 255, 0) # Žlutá
 t = (255, 140, 0) # Tmavě oranžová
-w = (255, 192, 203) # Růžová
 
 obrazek = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Kytička
+title: Slon
 ---
 
-![Mřížka o velikosti 8 × 8, na které je fialová kytička se zeleným stonkem.](images/flower.png)
+![Mřížka o velikosti 8 × 8, na které je slon.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Vytvořil tým ILiFanT z Finska
+
+```python
 c = (0, 0, 0) # Černá
-m = (34, 139, 34) # Lesní zelená
-q = (255, 255, 0) # Žlutá
-t = (255, 140, 0) # Tmavě oranžová
-y = (255, 20, 147) # Sytě růžová
+b = (105, 105, 105) # Tmavě šedá
+a = (255, 255, 255) # Bílá
 
 obrazek = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Krab
+title: Kaktus
 ---
 
-![Mřížka o velikosti 8 × 8, na které krab.](images/crab.png)
+![Mřížka o velikosti 8 × 8, na které je kaktus.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Vytvořil tým 6TETHASI z Nizozemska
+
+```python
 a = (255, 255, 255) # Bílá
 c = (0, 0, 0) # Černá
-v = (255, 0, 0) # Červená
+n = (154, 205, 50) # Žlutozelená
+q = (255, 255, 0) # Žlutá
+t = (255, 140, 0) # Tmavě oranžová
 
-obrazek = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+obrazek = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -167,12 +154,8 @@ title: Krokodýl
 
 ![Mřížka o velikosti 8 × 8, na které je hlava krokodýla.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Bílá
 c = (0, 0, 0) # Černá
 f = (25, 25, 112) # Půlnoční modrá
@@ -188,73 +171,73 @@ obrazek = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
+```
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Had
+title: Duha
 ---
 
-![Mřížka o velikosti 8 × 8, na které je had.](images/snake.png)
+![Mřížka o velikosti 8 × 8, na které je duha.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Černá
- m = (34, 139, 34) # Lesní zelená
- q = (255, 255, 0) # Žlutá
- v = (255, 0, 0) # Červená
+Vytvořil tým camrus_6 z Velké Británie
 
-obrazek = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
+```python
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Žabička
----
-
-![Mřížka o velikosti 8 × 8, na které je žabička.](images/frog.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Černá
-m = (34, 139, 34) # Lesní zelená
-q = (255, 255, 0) # Žlutá
+c = (100, 149, 237) # Chrpově modrá
+a = (255, 255, 255) # Bílá
 v = (255, 0, 0) # Červená
+t = (255, 140, 0) # Tmavě oranžová
+q = (255, 255, 0) # Žlutá
+l = (0, 255, 127) # Jarní zelená
+e = (0, 0, 205) # Středně modrá
+
+duha = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Drak
+---
+
+![Mřížka o velikosti 8 × 8, na které je drak.](images/dragon.png)
+
+Vytvořil tým hwplucyr z Velké Británie
+
+```python
+
+b = (105, 105, 105) # Tlumeně šedá
+c = (0, 0, 0) # Černá
+d = (100, 149, 237) # Chrpově modrá
+v = (255, 0, 0) # Červená
+z = (153, 50, 204) # Tmavá orchidej
 
 obrazek = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
---- /code ---
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
+
+```
 
 --- /collapse ---
 
@@ -264,29 +247,26 @@ obrazek = [
 
 **Najdi:** řádek, na kterém je napsáno `# Zobraz obrázek` a přidej řádek kódu, který zobrazí tvůj obrázek na LED matici:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
-obrazek = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+```python
+a = (255, 255, 255) # Bílá
+c = (0, 0, 0) # Černá
+f = (25, 25, 112) # Půlnoční modrá
+m = (34, 139, 34) # Lesní zelená
 
+obrazek = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Zobraz obrázek
 sense.set_pixels(obrazek)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -314,4 +294,12 @@ Neukazuje se mi obrázek:
 --- /task ---
 
 
+--- task ---
 
+**Ulož si svůj postup**
+
+Po zobrazení obrázku můžeš svůj program uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
+
+![Tlačítko výzvy Mission Zero pro uložení.](images/savebutton_cz.png)
+
+--- /task --- 

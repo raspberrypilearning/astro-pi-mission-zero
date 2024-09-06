@@ -20,28 +20,30 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Színváltozók és kép hozzáadása
 
+a = (255, 255, 255) # White (fehér)
 c = (0, 0, 0) # Black (fekete)
+f = (25, 25, 112) # MidnightBlue (éjkék)
 m = (34, 139, 34) # ForestGreen (sötétzöld)
-q = (255, 255, 0) # Yellow (sárga)
-t = (255, 140, 0) # DarkOrange (narancssárga)
-y = (255, 20, 147) # DeepPink (sötét rózsaszín)
 
 rgb = sense.color # szín lekérése az érzékelőtől
 c = (rgb.red, rgb.green, rgb.blue) # az érzékelt szín használata
 
 kep = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+
 --- /code ---
 
 --- /task ---
@@ -75,21 +77,23 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # szín lekérése az érzékelőtől
 c = (rgb.red, rgb.green, rgb.blue)
 
 kep = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
   
 --- /code ---
 
@@ -107,21 +111,23 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # szín lekérése az érzékelőtől
   c = (rgb.red, rgb.green, rgb.blue)
 
   kep = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Kép megjelenítése
 
@@ -141,13 +147,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Kép megjelenítése
 
   sense.set_pixels(kep)
   sleep(1)  
-
+  
 --- /code ---
 
 **Tipp:** Ellenőrizd, hogy ez a kód be van-e húzva, hogy a `for` cikluson belül legyen.
@@ -192,15 +199,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Kép megjelenítése
 
   sense.set_pixels(kep)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -236,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Kép megjelenítése
 
   sense.set_pixels(kep)
@@ -245,7 +254,7 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # válassz saját vörös, zöld és kék értéket 0 és 255 között
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -258,13 +267,24 @@ sense.clear(x)
 
 --- task ---
 
+**Mentsd el a munkádat!**
+
+Elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
+
+![A Mission Zero Mentés gomb képernyőképe](images/savebutton_hu.png)
+
+--- /task ---
+
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Kész példakód
 ---
 
-![Egy 8*8-as rács, amely egy zöld szárú rózsaszín virág képét mutatja.](images/flower.png)
+![Egy 8*8-as rács, amely egy krokodil képét mutatja.](images/croc.png)
 
 --- code ---
 ---
@@ -286,25 +306,25 @@ sense.color.integration_cycles = 64 # Az egyes leolvasások között eltelt idő
 
 # Színváltozók és kép hozzáadása
 
+a = (255, 255, 255) # White (fehér)
 c = (0, 0, 0) # Black (fekete)
+f = (25, 25, 112) # MidnightBlue (éjkék)
 m = (34, 139, 34) # ForestGreen (sötétzöld)
-q = (255, 255, 0) # Yellow (sárga)
-t = (255, 140, 0) # DarkOrange (narancssárga)
-y = (255, 20, 147) # DeepPink (sötét rózsaszín)
 
 for i in range(28):
   rgb = sense.color # szín lekérése az érzékelőtől
   c = (rgb.red, rgb.green, rgb.blue)
 
   kep = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Kép megjelenítése
 

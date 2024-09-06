@@ -12,8 +12,7 @@ steps:
   - title: Vis et billede
     completion:
       - engaged
-  - title: Sense en farve
-  - title: Indsend dit bidrag
+  - title: Fornem en farve
     completion:
       - internal
   - title: Hvad næste — flere Astro Pi-projekter

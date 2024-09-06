@@ -12,25 +12,35 @@ Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-Biały
-
 Czarny
 
-Średni niebieski
+Biały
+
+Ciemnopomarańczowy
+
+Ciemnoszary
+
+Żółto-zielony
 
 Żółty
 
 Ciemny pomarańczowy
 
-Różowy
+Nocny niebieski
 
 Leśny zielony
 
-Głęboki różowy
+Chabrowy
 
 Czerwony
 
-Nocny niebieski
+Wiosenna Zieleń
+
+Średni niebieski
+
+Ciemnoszary
+
+Ciemna Orchidea
 
 pobierz kolor z czujnika
 

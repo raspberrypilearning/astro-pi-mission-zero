@@ -12,28 +12,38 @@ Doda barvne spremenljivke in sliko
 
 Prikaže sliko
 
-Bela
-
 Črna
 
-Modra
+Bela
+
+Temno oranžna
+
+Temno siva
+
+Rumenozelena
 
 Rumena
 
-Temnooranžna
+Temno oranžna
 
-Roza
+Nočno modra
 
-Drevesnozelena
+Drevesno zelena
 
-Temnoroza
+Sinje modra
 
 Rdeča
 
-Nočnomodra
+Pomladno zelena
 
-dobi barvo od senzorja
+Modra
 
-uporabi zaznano barvo
+Temno siva
 
-izberi svoje rdeče, zelene, modre vrednosti med 0 in 255
+Svetlo vijolična
+
+Preberi barvo iz senzorja
+
+Uporabi zaznano barvo
+
+Izberite svoje rdeče, zelene, modre vrednosti med 0 in 255

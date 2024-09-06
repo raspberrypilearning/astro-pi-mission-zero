@@ -1,4 +1,4 @@
-## Zeige ein Bild
+## Anzeigen eines Bildes
 
 Die LED-Matrix des Astro Pi kann Farben darstellen. In diesem Schritt zeigst du Bilder aus der Natur auf der LED-Matrix des Astro Pi an.
 
@@ -63,100 +63,86 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-title: Huhn
+title: Fuchs
 ---
 
-![Ein Raster mit 8 x 8 Quadrate mit einem Kick in einem Ei.](images/chick.png)
+![Ein Raster mit 8 x 8 Quadraten, die ein Fuchsgesicht zeigen.](images/fox_mz3.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Weiß 
-c = (0, 0, 0) # Schwarz 
-e = (0, 0, 205) # Mittelblau 
-q = (255, 255, 0) # Gelb 
-t = (255, 140, 0) # Dunkelorange 
-w = (255, 192, 203) # Rosa
+Erstellt vom Team i_pupi, Italien
 
-bild = [ 
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+```python
+c = (0, 0, 0) # Schwarz
+a = (255, 255, 255) # Weiß
+t = (255, 140, 0) # Dunkelorange
 
---- /code ---
+bild = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Blume
+title: Elefant
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die eine rosa Blume auf einem grünen Stiel zeigen.](images/flower.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Elefanten zeigen.](images/elephant.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Schwarz 
-m = (34, 139, 34) # Waldgrün 
-q = (255, 255, 0) # Gelb 
-t = (255, 140, 0) # Dunkelorange 
-y = (255, 20, 147) # Dunkelrosa
+Erstellt vom Team ILiFanT, Finnland
 
-bild = [ 
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+```python
+c = (0, 0, 0) # Schwarz
+b = (105, 105, 105) # Dunkelgrau
+a = (255, 255, 255) # Weiß
 
---- /code ---
+bild = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Krabbe
+title: Kaktus
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die eine Krabbe zeigen.](images/crab.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Kaktus zeigen.](images/cactus.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Weiß 
-c = (0, 0, 0) # Schwarz 
-v = (255, 0, 0) # Rot
+Erstellt vom Team 6TETHASI, Niederlande
 
-bild = [ 
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+```python
+a = (255, 255, 255) # Weiß
+c = (0, 0, 0) # Schwarz
+n = (154, 205, 50) # Gelbgrün
+q = (255, 255, 0) # Gelb
+t = (255, 140, 0) # Dunkelorange
 
---- /code ---
+bild = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
+
+```
 
 --- /collapse ---
 
@@ -168,15 +154,11 @@ title: Krokodil
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Krokodilkopf zeigen.](images/croc.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Weiß 
-c = (0, 0, 0) # Schwarz 
-f = (25, 25, 112) # Mitternachtsblau 
+```python
+
+a = (255, 255, 255) # Weiß
+c = (0, 0, 0) # Schwarz
+f = (25, 25, 112) # Mitternachtsblau
 m = (34, 139, 34) # Waldgrün
 
 bild = [
@@ -189,74 +171,72 @@ bild = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Schlange
----
-
-![Ein Raster mit 8 x 8 Quadraten, die eine Schlange zeigen.](images/snake.png)
-
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Schwarz 
- m = (34, 139, 34) # Waldgrün 
- q = (255, 255, 0) # Gelb 
- v = (255, 0, 0) # Rot
-
-bild = [ 
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Frosch
+title: Regenbogen
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Frosch zeigen.](images/frog.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Regenbogen zeigen.](images/rainbow.png)
 
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start:
-line_highlights:
----
-c = (0, 0, 0) # Schwarz 
-m = (34, 139, 34) # Waldgrün 
-q = (255, 255, 0) # Gelb 
+Erstellt von Team camrus_6, Vereinigtes Königreich
+
+```python
+
+c = (100, 149, 237) # Kornblumenblau
+a = (255, 255, 255) # Weiß
 v = (255, 0, 0) # Rot
+t = (255, 140, 0) # Dunkelorange
+q = (255, 255, 0) # Gelb
+l = (0, 255, 127) # Frühlingsgrün
+e = (0, 0, 205) # Mittelblau
 
-bild = [ 
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+regenbogen = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
---- /code ---
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Drache
+---
+
+![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/dragon.png)
+
+Erstellt vom Team hwplucyr, Vereinigtes Königreich
+
+```python
+
+b = (105, 105, 105) # Mittelgrau
+c = (0, 0, 0) # Schwarz
+d = (100, 149, 237) # Kornblumenblau
+v = (255, 0, 0) # Rot
+z = (153, 50, 204) # Dunkle Orchidee
+
+bild = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
+
+```
 
 --- /collapse ---
 
@@ -266,28 +246,26 @@ bild = [
 
 **Suche:** die Zeile `# das Bild anzeigen` und füge eine Zeile Code hinzu, um dein Bild auf der LED-Matrix anzuzeigen:
 
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 12
----
-bild = [ 
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+```python
+a = (255, 255, 255) # Weiß
+c = (0, 0, 0) # Schwarz
+f = (25, 25, 112) # Mitternachtsblau
+m = (34, 139, 34) # Waldgrün
+
+bild = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Das Bild anzeigen
 sense.set_pixels(bild)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -315,4 +293,12 @@ Mein Bild wird nicht angezeigt:
 --- /task ---
 
 
+--- task ---
 
+**Speichere deinen Fortschritt**
+
+Nachdem du nun ein Bild angezeigt hast, kannst du dein Programm im Mission Starter-Projekt speichern, indem du deinen Teamnamen, die Namen der Teammitglieder und den dir zugewiesenen Klassen-Code eingibst. Du kannst dein Programm auf jedem Gerät mit Internetverbindung neu laden, indem du deinen Teamnamen und deinen Klassen-Code eingibst.
+
+![Mission Zero Speichern-Button](images/savebutton_de.png)
+
+--- /task --- 

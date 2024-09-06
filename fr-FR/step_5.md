@@ -1,45 +1,26 @@
-## Soumettre ton programme
+## Et ensuite — plus de projets Astro Pi
 
-Tu pouvez maintenant entrer le défi [Astro Pi Mission Zero](https://astro-pi.org/fr/mission-zero){:target="_blank"} en utilisant le code que tu avez écrit.
+Maintenant que tu as terminé ta mission, pourquoi ne pas essayer d'autres projets en utilisant les autres capteurs de l'Astro Pi ?
 
-Ton code doit respecter quelques règles pour que tu puisses le soumettre et l'exécuter dans la Station Spatiale Internationale. Si ton code les respecte, les règles situées en bas de l'**émulateur Sense HAT** s'allumeront en vert lorsque tu exécuteras le programme.
+Si tu te sens confiant, tu pourrais participer à la Mission Space Lab. Forme une équipe de deux à six personnes, et travaillez ensemble pour répondre à une vraie question scientifique. Toutes les équipes qui soumettent un programme éligible seront invitées à une séance de questions-réponses virtuelle avec un astronaute de l'ESA à la fin du cycle de l'Astro Pi Challenge.
 
-![La page de Mission Zero montrant les contrôles de critères pour l'inscription.](images/rules.png)
+Tu peux aussi essayer l'un de nos autres projets Sense HAT :
 
-**Astuce :** teste ton code avec quelques paramètres de couleur différents (en utilisant le sélecteur) pour t'assurer qu'il fonctionne toujours correctement.
++ Apprends [plus sur le Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} et les autres choses qu'il peut faire
 
-Assure-toi que ton programme respecte les [directives officielles](https://astro-pi.org/fr/mission-zero/guidelines){:target="_blank"} de Mission Zero. Sinon, ton programme ne sera pas en mesure de fonctionner sur la Station spatiale internationale.
++ Crée de jolies [étincelles aléatoires](https://projects.raspberrypi.org/fr-FR/projects/sense-hat-random-sparkles){:target="_blank"} sur l'écran LED du Sense HAT
 
-N'inclus aucun des éléments suivants dans le nom ou le code de ton équipe :
++ Crée un jeu [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Tout ce qui pourrait être interprété comme étant de nature illégale, politique ou sensible
-+ Des drapeaux, car ils peuvent être considérés comme politiquement sensibles
-+ Des choses qui sont désagréables ou qui pourraient heurter une autre personne
-+ Des données personnelles telles que des numéros de téléphone, des liens vers les réseaux sociaux, et des adresses e-mail
-+ Des images obscènes
-+ Des caractères spéciaux ou des émojis
-+ Des gros mots ou des injures
++ Défie tes amis avec un jeu [labyrinthe avec des billes](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
---- task ---
++ Recrée le jeu classique [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
 
-Saisis ton code de classe et le nom de ton équipe dans la case en bas : ton mentor te dira quel est ton code.
+***
 
-![Formulaire de soumission du code de classe et du nom de l'équipe](images/submission.png)
+Ce projet a été traduit par des bénévoles:
 
-**Les notes destinées aux mentors** se trouvent dans l'étape [Introduction](https://projects.raspberrypi.org/fr-FR/projects/astro-pi-mission-zero/0).
+Jonathan Vannieuwkerke
+Michel Arnols
 
---- /task ---
-
---- task ---
-
-Appuie sur le bouton **Ajouter ton équipe** pour saisir ton code. Sache qu'un programme ne peut pas être modifié après avoir été soumis.
-
-Ton mentor recevra un e-mail pour confirmer ton inscription.
-
---- /task ---
-
---- task ---
-
-Si tu veux, tu peux partager le lien vers ton code sur les réseaux sociaux pour informer les gens que le code que tu as écrit sera exécuté dans l'espace !
-
---- /task ---
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

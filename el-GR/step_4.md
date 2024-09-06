@@ -1,6 +1,6 @@
 ## Ανίχνευση ενός χρώματος
 
-Σε αυτό το βήμα, θα ρυθμίσεις τον αισθητήρα φωτεινότητας χρώματος και θα τον χρησιμοποιήσεις για να ανιχνεύσεις την ποσότητα του κόκκινου, πράσινου και μπλε που φτάνει στον αισθητήρα. Αυτό το χρώμα θα χρησιμοποιηθεί στη συνέχεια για να χρωματίσεις την εικόνα που έχεις επιλέξει. Ένας αστροναύτης που θα περπατούσε προς τον αισθητήρα με μπλε πουκάμισο θα έβλεπε μια διαφορετική εικόνα από έναν αστροναύτη με κόκκινο πουκάμισο.
+Σε αυτό το βήμα, θα ρυθμίσεις τον αισθητήρα φωτεινότητας χρώματος και θα τον χρησιμοποιήσεις για να ανιχνεύσεις την ποσότητα του κόκκινου, πράσινου και μπλε που φτάνει στον αισθητήρα. Αυτό το χρώμα θα χρησιμοποιηθεί στη συνέχεια για να χρωματίσεις την εικόνα που έχεις επιλέξει. Ένας/Μια αστροναύτης/τισσα που θα περπατούσε προς τον αισθητήρα με μπλε πουκάμισο θα έβλεπε μια διαφορετική εικόνα από έναν/μια αστροναύτη/τισσα με κόκκινο πουκάμισο.
 
 ![εικόνα που εμφανίζεται με ροζ φόντο στην οθόνη LED](images/colour_background.png)
 
@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Προσθήκη μεταβλητών χρωμάτων και εικόνας
 
+a = (255, 255, 255) # Άσπρο
 c = (0, 0, 0) # Μαύρο
+f = (25, 25, 112) # Μπλε του Μεσονυκτίου
 m = (34, 139, 34) # Πράσινο του Δάσους
-q = (255, 255, 0) # Κίτρινο
-t = (255, 140, 0) # Σκούρο Πορτοκαλί
-y = (255, 20, 147) # Σκούρο Ροζ
 
 rgb = sense.color # λήψη του χρώματος από τον αισθητήρα
 c = (rgb.red, rgb.green, rgb.blue) # χρήση του χρώματος που ανίχνευσε ο αισθητήρας
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -49,7 +50,7 @@ image = [
 
 --- task ---
 
-**Δοκιμή:** Μετακίνησε τη γραμμή κύλισης χρώματος προς ένα χρώμα της επιλογής σου και μετά κάνε **run** τον κώδικά σου. Το χρώμα του φόντου σου θα αλλάξει. Επανάλαβε αυτή τη δοκιμή ξανά με ένα νέο χρώμα.
+**Δοκιμή:** Μετακίνησε τη γραμμή κύλισης χρώματος προς ένα χρώμα της επιλογής σου και μετά κάνε **εκτέλεση(run)** τον κώδικά σου. Το χρώμα του φόντου σου θα αλλάξει. Επανάλαβε αυτή τη δοκιμή ξανά με ένα νέο χρώμα.
 
 **Συμβουλή:** Θα πρέπει να κάνεις κλικ στο «Run» κάθε φορά που αλλάζεις το χρώμα.
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # λήψη του χρώματος από τον αισθητήρα
 c = (rgb.red, rgb.green, rgb.blue)
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,26 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # λήψη του χρώματος από τον αισθητήρα
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Εμφάνιση της εικόνας
 
   sense.set_pixels(image)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,8 +147,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Εμφάνιση της εικόνας
 
   sense.set_pixels(image)
@@ -193,8 +199,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Εμφάνιση της εικόνας
 
   sense.set_pixels(image)
@@ -202,7 +209,6 @@ line_highlights: 6
   
 sense.clear()
   
-
 --- /code ---
 
 --- /task ---
@@ -238,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Εμφάνιση της εικόνας
 
   sense.set_pixels(image)
@@ -260,13 +267,24 @@ sense.clear(x)
 
 --- task ---
 
+**Αποθήκευσε την πρόοδό σου**
+
+Μπορείς να αποθηκεύσεις το πρόγραμμά σου στο έργο Mission Starter εισάγοντας το όνομα της ομάδας σου, τα ονόματα των μελών της ομάδας και τον κωδικό της τάξης που σου έχει δοθεί. Μπορείς να φορτώσεις ξανά το πρόγραμμά σου σε οποιαδήποτε συσκευή με σύνδεση στο Διαδίκτυο εισάγοντας το όνομα της ομάδας και τον κωδικό της τάξης σου.
+
+![Στιγμιότυπο οθόνης κουμπιού Αποθήκευσης Mission Zero](images/savebutton_gr.png)
+
+--- /task ---
+
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Παράδειγμα ολοκληρωμένου κώδικα
 ---
 
-![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνει ένα ροζ λουλούδι σε ένα πράσινο μίσχο.](images/flower.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν κροκόδειλο.](images/croc.png)
 
 --- code ---
 ---
@@ -288,25 +306,25 @@ sense.color.integration_cycles = 64 # Το μεσοδιάστημα κατά τ�
 
 # Προσθήκη μεταβλητών χρωμάτων και εικόνας
 
+a = (255, 255, 255) # Άσπρο
 c = (0, 0, 0) # Μαύρο
+f = (25, 25, 112) # Μπλε του Μεσονυκτίου
 m = (34, 139, 34) # Πράσινο του Δάσους
-q = (255, 255, 0) # Κίτρινο
-t = (255, 140, 0) # Σκούρο Πορτοκαλί
-y = (255, 20, 147) # Σκούρο Ροζ
 
 for i in range(28):
   rgb = sense.color # λήψη του χρώματος από τον αισθητήρα
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Εμφάνιση της εικόνας
 

@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Doda barvne spremenljivke in sliko
 
+a = (255, 255, 255) # Bela
 c = (0, 0, 0) # Črna
-m = (34, 139, 34) # Drevesnozelena
-q = (255, 255, 0) # Rumena
-t = (255, 140, 0) # Temnooranžna
-y = (255, 20, 147) # Temnoroza
+f = (25, 25, 112) # Nočno modra
+m = (34, 139, 34) # Drevesno zelena
 
-rgb = sense.color # dobi barvo od senzorja
-c = (rgb.red, rgb.green, rgb.blue) # uporabi zaznano barvo
+rgb = sense.color # Preberi barvo iz senzorja
+c = (rgb.red, rgb.green, rgb.blue) # Uporabi zaznano barvo
 
 slika = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
-rgb = sense.color # dobi barvo od senzorja
+rgb = sense.color # Preberi barvo iz senzorja
 c = (rgb.red, rgb.green, rgb.blue)
 
 slika = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,26 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
-  rgb = sense.color # dobi barvo od senzorja
+  rgb = sense.color # Preberi barvo iz senzorja
   c = (rgb.red, rgb.green, rgb.blue)
 
   slika = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
-  # Prikaži sliko
+  # Prikaže sliko
 
   sense.set_pixels(slika)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,13 +147,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
-  # Prikaži sliko
+  
+  # Prikaže sliko
 
   sense.set_pixels(slika)
   sleep(1)  
-
+  
 --- /code ---
 
 **Namig:** Prepričajte se, da je ta vrstica kode zamaknjena znotraj zanke `for`.
@@ -193,15 +199,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
-  # Prikaži sliko
+  
+  # Prikaže sliko
 
   sense.set_pixels(slika)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -237,16 +244,17 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
-  # Prikaži sliko
+  
+  # Prikaže sliko
 
   sense.set_pixels(slika)
   sleep(1) 
 
-x = (178, 34, 34)  # izberi svoje rdeče, zelene, modre vrednosti med 0 in 255
+x = (178, 34, 34)  # Izberite svoje rdeče, zelene, modre vrednosti med 0 in 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -259,13 +267,23 @@ sense.clear(x)
 
 --- task ---
 
+**Shrani svoj napredek**
+
+Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
+
+![Posnetek zaslona gumba za shranjevanje Mission Zero](images/savebutton_sl.png)
+
+--- /task ---
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Primer dokončane kode
 ---
 
-![Mreža z 8x8 kvardraki, ki prikazujejp rožnato rožo na zelenem steblu.](images/flower.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo krokodila.](images/croc.png)
 
 --- code ---
 ---
@@ -287,32 +305,32 @@ sense.color.integration_cycles = 64 # Interval, v katerem bo opravljeno branje
 
 # Doda barvne spremenljivke in sliko
 
+a = (255, 255, 255) # Bela
 c = (0, 0, 0) # Črna
-m = (34, 139, 34) # Drevesnozelena
-q = (255, 255, 0) # Rumena
-t = (255, 140, 0) # Temnooranžna
-y = (255, 20, 147) # Temnoroza
+f = (25, 25, 112) # Nočno modra
+m = (34, 139, 34) # Drevesno zelena
 
 for i in range(28):
-  rgb = sense.color # dobi barvo od senzorja
+  rgb = sense.color # Preberi barvo iz senzorja
   c = (rgb.red, rgb.green, rgb.blue)
 
   slika = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
 
-  # Prikaži sliko
+
+  # Prikaže sliko
 
   sense.set_pixels(slika)
   sleep(1)
 
-x = (178, 34, 34)  # izberi svoje rdeče, zelene, modre vrednosti med 0 in 255
+x = (178, 34, 34)  # Izberite svoje rdeče, zelene, modre vrednosti med 0 in 255
 sense.clear(x)
 
 --- /code ---

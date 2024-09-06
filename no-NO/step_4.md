@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Legg til fargevariabler og bilde
 
+a = (255, 255, 255) # Hvit
 c = (0, 0, 0) # Svart
+f = (25, 25, 112) # Midnatt blå
 m = (34, 139, 34) # Skoggrønn
-q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mørk oransje
-y = (255, 20, 147) # Mørket
 
 rgb = sense.color # hent fargen fra sensoren
 c = (rgb.red, rgb.green, rgb.blue) # bruke den sansede fargen
 
 bilde = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -59,7 +60,7 @@ bilde = [
 
 Astro Pi-Mission Zero-programmet tillates å løpe i opptil 30 sekunder. Du vil bruke denne tiden til å sjekke fargesensoren flere ganger og oppdatere bildet.
 
-Koden din skal bruke `for`-sløyfe til å kjøre 28 ganger. **Hver** gang det vil:
+Koden din vil bruke en `for` løkke for å kjøre 28 ganger. **Hver** gang det vil:
 + fornemme den nyeste fargen
 + oppdatere bakgrunnsfargen på bildet
 + pause i ett sekund
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # hent fargen fra sensoren
 c = (rgb.red, rgb.green, rgb.blue)
 
 bilde = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,26 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # hent fargen fra sensoren
   c = (rgb.red, rgb.green, rgb.blue)
 
   bilde = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Vis bildet
 
   sense.set_pixels(bilde)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,8 +147,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Vis bildet
 
   sense.set_pixels(bilde)
@@ -193,15 +199,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Vis bildet
 
   sense.set_pixels(bilde)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -228,7 +235,7 @@ Legg til kode for å fjerne LED matrisen til en farge du velger. Opprett en vari
 
 Du kan blande din egen farge eller bruke verdiene fra fargelisten over farger for å lage din nye `x` farge.
 
-[[[generic-theory-simple-colours]]] 
+[[[generic-theory-simple-colours]]]
 [[[ambient-colours]]]
 
 --- code ---
@@ -237,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Vis bildet
 
   sense.set_pixels(bilde)
@@ -246,7 +254,7 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # velg ditt eget, grønn, blå verdier mellom 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -259,13 +267,23 @@ sense.clear(x)
 
 --- task ---
 
+**Lagre fremgangen din**
+
+Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
+
+![Mission Zero Lagre-knapp skjermdump](images/savebutton_no.png)
+
+--- /task ---
+
+--- task ---
+
 --- collapse ---
 
 ---
-title: Fullstendig kode eksempel
+title: Fullstendig kodeeksempel
 ---
 
-![Et tall med 8 x 8 kvadrater som viser en rosa blomst på et grønt innlegg.](images/flower.png)
+![Et rutenett med 8 x 8 ruter som viser et krokodillehode.](images/croc.png)
 
 --- code ---
 ---
@@ -287,25 +305,25 @@ sense.color.integration_cycles = 64 # Intervallet hvor avlesningen vil ta
 
 # Legg til fargevariabler og bilde
 
+a = (255, 255, 255) # Hvit
 c = (0, 0, 0) # Svart
+f = (25, 25, 112) # Midnatt blå
 m = (34, 139, 34) # Skoggrønn
-q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mørk oransje
-y = (255, 20, 147) # Mørket
 
 for i in range(28):
   rgb = sense.color # hent fargen fra sensoren
   c = (rgb.red, rgb.green, rgb.blue)
 
   bilde = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Vis bildet
 

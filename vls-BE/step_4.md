@@ -21,28 +21,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Voeg kleurvariabelen en beeld toe
 
+a = (255, 255, 255) # Wit
 c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # Middernachtblauw
 m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
-t = (255, 140, 0) # Donkeroranje
-y = (255, 20, 147) # Dieproze
 
 rgb = sense.color # ontvang de kleur van de sensor
 c = (rgb.red, rgb.green, rgb.blue) # gebruik de waargenomen kleur
 
 afbeelding = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -50,9 +51,9 @@ afbeelding = [
 
 --- task ---
 
-**Test** Beweeg de kleurschuiver naar een kleur naar keuze en start dan je code **start**. Je achtergrondkleur zal veranderen. Herhaal deze test nogmaals met een andere kleur.
+**Test** Beweeg de kleurschuiver naar een kleur naar keuze en laat dan je code **run**. Je achtergrondkleur zal veranderen. Herhaal deze test nogmaals met een andere kleur.
 
-**Tip:** Je zal elke keer je de kleur verandert op 'Start' moeten klikken.
+**Tip:** Je zal elke keer je de kleur verandert op 'Run' moeten klikken.
 
 --- /task ---
 
@@ -63,11 +64,11 @@ Het Astro Pi Mission Zero-programma mag tot 30 seconden werken. Je zal deze tijd
 Je code zal een `for` lus gebruiken om 28 keer te werken. **Elke** keer zal het:
 + de laatste kleur meten
 + de achtergrondkleur van de afbeelding actualiseren
-+ pauzeer 1 seconde
++ 1 seconde pauzeren
 
 --- task ---
 
-**Vind** je `rgb = meet.kleur` codelijn.
+**Vind** je `rgb = sense.color` codelijn.
 
 **Voeg** code hierboven toe om je `for` lus voor `28` herhalingen in te stellen.
 
@@ -77,22 +78,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # ontvang de kleur van de sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 afbeelding = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -109,26 +112,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # ontvang de kleur van de sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   afbeelding = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Toon de afbeelding
 
   sense.set_pixels(afbeelding)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -143,16 +148,17 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Toon de afbeelding
 
   sense.set_pixels(afbeelding)
   sleep(1)  
-
+  
 --- /code ---
 
-**Tip:** Zorg ervoor dat deze code lijn opgeslagen wordt in je `for` lus.
+**Tip:** Zorg ervoor dat deze codelijn opgeslagen wordt in je `for` lus.
 
 --- /task ---
 
@@ -194,15 +200,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Toon de afbeelding
 
   sense.set_pixels(afbeelding)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -238,8 +245,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Toon de afbeelding
 
   sense.set_pixels(afbeelding)
@@ -247,8 +255,9 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # kies je eigen rood-, groen-, blauw-waardes tussen 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
+
 
 --- /task ---
 
@@ -260,13 +269,23 @@ sense.clear(x)
 
 --- task ---
 
+**Sla je voortgang op**
+
+Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de namen van je teamleden en je klascode in te geven. Je kan je programma opnieuw laden op elk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
+
+![Mission Zero opslaan knop screenshot](images/savebutton_be.png)
+
+--- /task ---
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Afgewerkt codevoorbeeld
 ---
 
-![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/flower.png)
+![Een krokodil wordt getoond in een raster van 8 x 8 vierkanten.](images/croc.png)
 
 --- code ---
 ---
@@ -282,31 +301,31 @@ from time import sleep
 sense = SenseHat()
 sense.set_rotation(270)
 
-# Installeer de kleursensor
+# SInstalleer de kleursensor
 sense.color.gain = 60 # Stel de gevoeligheid van de sensor in
 sense.color.integration_cycles = 64 # Het interval waarin het uitlezen gebeurt
 
 # Voeg kleurvariabelen en beeld toe
 
+a = (255, 255, 255) # Wit
 c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # Middernachtblauw
 m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
-t = (255, 140, 0) # Donkeroranje
-y = (255, 20, 147) # Dieproze
 
 for i in range(28):
   rgb = sense.color # ontvang de kleur van de sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   afbeelding = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Toon de afbeelding
 

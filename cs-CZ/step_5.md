@@ -1,45 +1,25 @@
-## Odešli svůj příspěvek
+## Co dál: Další projekty Astro Pi
 
-Nyní můžete zadat výzvu [Astro Pi Mission Zero](https://astro-pi.org/cs/mission-zero/){:target="_blank"} pomocí kódu, který jste napsali.
+A teď, když máš svoji misi za sebou, nechceš si zkusit nějaké další projekty, ve kterých se používají jiné senzory počítače Astro Pi?
 
-Pokud chceš svůj kód odeslat ke spuštění na Mezinárodní vesmírné stanici, musí se řídit několika pravidly. Pokud se jimi řídí, tak se pravidla v dolní části **emulátoru Sense HAT** při spuštění programu rozsvítí zeleně.
+Pokud se na to cítíš, můžeš se zúčastnit výzvy Mission Space Lab. Dej dohromady tým o dvou až šesti členů a společně vyřešte opravdové problémy vědců. Všechny týmy, které odešlou způsobilý program, budou na konci cyklu výzvy Astro Pi pozvány na virtuální diskuzní panel s astronautem ESA.
 
-![Stránka výzvy Mission Zero zobrazující kritéria pro odeslání.](images/rules.png)
+Také si můžeš zkusit některé z našich dalších projektů Sense HAT:
 
-**Tip:** Otestuj svůj kód s různými hodnotami barev (pomocí nástroje pro výběr barvy) a ujisti se, že vždy funguje.
++ Zjisti [více o Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} a co dalšího dokáže.
 
-Ujisti se prosím, že se tvůj příspěvek řídí [oficiálními pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero. Pokud se jimi neřídí, tvůj program nebude spuštěn na Mezinárodní vesmírné stanici.
++ Vytvoř krásné [náhodné jiskření](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} na LED displeji Sense HAT.
 
-Neuváděj prosím do názvu týmu ani kódu:
++ Vytvoř hru [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}.
 
-+ cokoli, co by mohlo být interpretováno jako nelegální, politické, nebo popudlivé,
-+ vlajky, které mohou být považovány za politicky popudlivé,
-+ cokoli, co odkazuje na nepříjemnost nebo újmu způsobenou jiné osobě,
-+ osobní údaje, jako jsou telefonní čísla, odkazy na sociální média nebo e-mailové adresy,
-+ neslušné obrázky,
-+ speciální znaky nebo emotikony,
-+ vulgární výrazy nebo nadávky.
++ Vyzvi své kamarády v [kuličkovém bludišti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}.
 
---- task ---
++ Zkus si naprogramovat klasickou hru [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}.
 
-Do rámečku dole zadej název týmu a kód třídy, který ti sdělí tvůj mentor.
+***
 
-![Formulář pro odeslání kódu s názvem týmu a kódem třídy](images/submission.png)
+Tento projekt byl přeložen dobrovolníky:
 
-**Poznámky pro mentory** jsou v [úvodním](https://projects.raspberrypi.org/cs-CZ/projects/astro-pi-mission-zero/0) kroku.
+Tomáš Branda
 
---- /task ---
-
---- task ---
-
-Stiskni tlačítko **Přidat tým** a zadej kód. Vezmi prosím na vědomí, že po odeslání nebudeš moci program upravit.
-
-Tvůj mentor obdrží e-mail s potvrzením, že byl tvůj příspěvek odeslán.
-
---- /task ---
-
---- task ---
-
-Jestli chceš, můžeš odkaz na svůj kód sdílet na sociálních sítích a pochlubit se tak, že tvůj kód poběží ve vesmíru!
-
---- /task ---
+Díky dobrovolníkům můžeme dát lidem po celém světě šanci se učit ve svém vlastním jazyce. Můžete nám pomoci oslovit více lidí dobrovolným překládáním - více informací na [rpf.io/translate](https://rpf.io/translate).

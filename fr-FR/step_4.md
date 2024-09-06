@@ -20,28 +20,27 @@ language: python
 filename: main.py 
 line_numbers: false 
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
 # Ajouter des variables de couleur et une image
 
+a = (255, 255, 255) # Blanc
 c = (0, 0, 0) # Noir
+f = (25, 25, 112) # Bleu nuit
 m = (34, 139, 34) # Vert forêt
-q = (255, 255, 0) # Jaune
-t = (255, 140, 0) # Orange foncé
-y = (255, 20, 147) # Rose foncé
 
 rvb = sense.color # obtenir la couleur du capteur
-c = (rvb.red, rvb.green, rvb.blue) # utiliser la couleur détectée
+c = (rvb.red, rvb.green, rvb.blue) # use the sensed colour
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 --- /code ---
 
@@ -49,9 +48,9 @@ image = [
 
 --- task ---
 
-**Test :** déplace le curseur de couleur sur une couleur de ton choix, puis **exécute** ton code. Ta couleur de fond va changer. Répète ce test avec une nouvelle couleur.
+**Test :** déplace le curseur de couleur sur une couleur de ton choix, puis **exécute** ton code. Ta couleur d'arrière-plan va changer. Répète ce test avec une nouvelle couleur.
 
-**Astuce :** tu devras cliquer sur « Exécuter » chaque fois que tu changeras la couleur.
+**Astuce :** tu devras cliquer sur « Run » chaque fois que tu changeras la couleur.
 
 --- /task ---
 
@@ -76,21 +75,22 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rvb = sense.color # obtenir la couleur du capteur
 c = (rvb.red, rvb.green, rvb.blue)
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 --- /code ---
 
@@ -108,26 +108,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rvb = sense.color # obtenir la couleur du capteur
   c = (rvb.red, rvb.green, rvb.blue)
 
   image = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Afficher l'image
 
   sense.set_pixels(image)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,8 +144,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Afficher l'image
 
   sense.set_pixels(image)
@@ -157,7 +160,7 @@ line_highlights: 4
 
 --- task ---
 
-**Test :** Exécute ton code et modifie le sélecteur de couleur plusieurs fois lorsque ton projet est en cours d'exécution. Vérifie que ton image s'actualise pour utiliser la couleur détectée lors de sa prochaine exécution.
+**Test :** exécute ton code et modifie le sélecteur de couleur plusieurs fois lorsque ton projet est en cours d'exécution. Vérifie que ton image s'actualise pour utiliser la couleur détectée lors de sa prochaine exécution.
 
 L'image cessera de s'actualiser lorsque la boucle se terminera afin que le programme ne dure pas plus de 30 secondes.
 
@@ -189,26 +192,27 @@ Ajoute `sense.clear()` à la fin de ton code pour effacer l'image à la fin de t
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7
 ---
+  
   # Afficher l'image
 
-  sense.set_pixels(image) 
-  sleep(1)
-
+  sense.set_pixels(image)
+  sleep(1) 
+  
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Test :** Exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED est effacée, ce qui fait que toutes les lumières deviennent noires (éteintes).
+**Test :** exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED est effacée, ce qui fait que toutes les lumières deviennent noires (éteintes).
 
 --- /task ---
 
@@ -228,32 +232,47 @@ Ajoute du code pour effacer la matrice de LED par une couleur de ton choix. Cré
 
 Tu peux mélanger ta propre couleur ou utiliser les valeurs de la liste de couleurs pour créer ta nouvelle couleur `x`.
 
-[[[generic-theory-colours]]]
+[[[generic-theory-simple-colours]]]
+[[[ambient-colours]]]
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 6-7
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1 
+line_highlights: 7, 8
 ---
+  
   # Afficher l'image
 
-  sense.set_pixels(image) 
-  sleep(1)
+  sense.set_pixels(image)
+  sleep(1) 
 
-x = (178, 34, 34)  # choisis tes propres valeurs de rouge, vert et bleu entre 0 et 255 sense.clear(x)
-
+x = (178, 34, 34)  # choisis tes propres valeurs de rouge, vert et bleu entre 0 et 255
+sense.clear(x)
+  
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Test :** Exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
+**Test :** exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
 
 --- /task ---
+
+
+--- task ---
+
+**Enregistre ta progression**
+
+Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, le nom des membres de ton équipe et le code de classe qui t'est donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
+
+![Capture d'écran du bouton Enregistrer Mission Zero](images/savebutton_fr.png)
+
+--- /task ---
+
 
 --- task ---
 
@@ -263,47 +282,47 @@ x = (178, 34, 34)  # choisis tes propres valeurs de rouge, vert et bleu entre 0 
 title: Exemple de code terminé
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant une fleur rose sur une tige verte.](images/flower.png)
+![Une grille de 8 x 8 cases représentant un crocodile.](images/croc.png)
 
 --- code ---
 ---
-language: python 
+language: python
 filename: main.py
 line_numbers: false
 ---
-# Importer les bibliothèques
-from sense_hat import SenseHat 
+# Import the libraries
+from sense_hat import SenseHat
 from time import sleep
 
-# Configuer le Sense HAT
-sense = SenseHat() 
+# Set up the Sense HAT
+sense = SenseHat()
 sense.set_rotation(270)
 
-# Configurer le capteur de couleurs
-sense.color.gain = 60 # Régler la sensibilité du capteur 
+# Set up the colour sensor
+sense.color.gain = 60 # Régler la sensibilité du capteur
 sense.color.integration_cycles = 64 # L'intervalle auquel la mesure est effectuée
 
-# Ajouter des variables de couleur et une image
+# Add colour variables and image
 
-c = (0, 0, 0) # Noir
+a = (255, 255, 255) # Blanc
+c = (0, 0, 0) # Black
+f = (25, 25, 112) # Bleu nuit
 m = (34, 139, 34) # Vert forêt
-q = (255, 255, 0) # Jaune
-t = (255, 140, 0) # Orange foncé
-y = (255, 20, 147) # Rose foncé
 
 for i in range(28):
   rvb = sense.color # obtenir la couleur du capteur
   c = (rvb.red, rvb.green, rvb.blue)
 
   image = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Afficher l'image
 

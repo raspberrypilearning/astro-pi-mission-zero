@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Lisa värvi muutujad ja pilt
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-y = (255, 20, 147) # DeepPink
+a = (255, 255, 255) # Valge
+c = (0, 0, 0) # Must
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # Metsaroheline
 
 rgb = sense.color # saa värv andurilt
 c = (rgb.red, rgb.green, rgb.blue) # kasuta anduriga määratud värvi
 
 pilt = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # saa värv andurilt
 c = (rgb.red, rgb.green, rgb.blue)
 
 pilt = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,26 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # saa värv andurilt
   c = (rgb.red, rgb.green, rgb.blue)
 
   pilt = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Kuva pilt
 
   sense.set_pixels(pilt)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,8 +147,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Kuva pilt
 
   sense.set_pixels(pilt)
@@ -193,15 +199,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Kuva pilt
 
   sense.set_pixels(pilt)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -228,7 +235,7 @@ Lisa kood LED-maatriksi tühjendamiseks enda valitud värvile. Uue värvi salves
 
 Saad oma värvi ise kokku segada või kasutada värvide loendis olevaid väärtusi, et luua uus `x`värv.
 
-[[[generic-theory-simple-colours]]] 
+[[[generic-theory-simple-colours]]]
 [[[ambient-colours]]]
 
 --- code ---
@@ -237,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Kuva pilt
 
   sense.set_pixels(pilt)
@@ -246,7 +254,7 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # vali oma punase, rohelise ja sinise väärtused vahemikus 0–255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -259,13 +267,23 @@ sense.clear(x)
 
 --- task ---
 
+**Salvesta oma edusammud**
+
+Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
+
+![Mission Zero salvestamisnupu ekraanipilt](images/savebutton_ee.png)
+
+--- /task ---
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Valmis koodi näide
 ---
 
-![8 x 8 ruuduga võre, millel on roosa lill rohelisel varrel.](images/flower.png)
+![8 x 8 ruuduga võre, millel on kujutatud krokodilli.](images/croc.png)
 
 --- code ---
 ---
@@ -281,31 +299,31 @@ from time import sleep
 sense = SenseHat()
 sense.set_rotation(270)
 
-# Installi värviandur
+# SInstalli värviandur
 sense.color.gain = 60 # Määra anduri tundlikkus
-sense.color.integration_cycles = 64 # Määra anduri tundlikkus
+sense.color.integration_cycles = 64 # Intervall, millal näit võetakse
 
 # Lisa värvi muutujad ja pilt
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-y = (255, 20, 147) # DeepPink
+a = (255, 255, 255) # Valge
+c = (0, 0, 0) # Must
+f = (25, 25, 112) # MidnightBlue
+m = (34, 139, 34) # Metsaroheline
 
 for i in range(28):
   rgb = sense.color # saa värv andurilt
   c = (rgb.red, rgb.green, rgb.blue)
 
   pilt = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Kuva pilt
 

@@ -13,7 +13,6 @@ steps:
     completion:
       - engaged
   - title: Wykryj kolor
-  - title: Wyślij swoje zgłoszenie
     completion:
       - internal
   - title: Co dalej — więcej projektów Astro Pi

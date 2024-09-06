@@ -1,45 +1,25 @@
-## Pošljite svoj prispevek
+## Kaj zdaj: Več projektov Astro Pi
 
-Zdaj lahko z uporabo kode, ki ste jo napisali, sodelujete v izzivu [Astro Pi Mission Zero](https://astro-pi.org/sl/mission-zero){:target="_blank"}.
+Zdaj, ko ste končali svojo misijo, zakaj ne bi poskusili še nekaj drugih projektov z uporabo drugih senzorjev na Astro Pi?
 
-Če želite, da bo prikazana na Mednarodni vesoljski postaji, morate pri pisanju kode upoštevati nekaj pravil. Če jih vaša koda upošteva, bodo pravila na dnu **Sense HAT emulatorja** ob zagonu programa zasvetila zeleno.
+Če ste dovolj samozavestni, lahko sodelujete v projektu Mission Space Lab. Sestavite ekipo dveh do šestih ljudi in skupaj odgovorite na pravo znanstveno vprašanje. Vse ekipe, ki oddajo primeren program, bodo povabljene na virtualni Q&A z astronavtom ESA ob koncu izziva Astro Pi Challenge.
 
-![Stran Mission Zero, ki prikazuje kriterije za vnos.](images/rules.png)
+Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Sense HAT:
 
-**Namig:** Preizkusite kodo z nekaj različnimi nastavitvami barve (z izbirnikom), da zagotovite, da vedno deluje pravilno.
++ Izvedite [več o Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} in drugih stvareh, ki jih lahko naredi
 
-Prepričajte se, da vaš program ustreza [uradnimim smernicam](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero. V nasprotnem primeru vaš program ne bo mogel delovati na Mednarodni vesoljski postaji.
++ Ustvarite nekaj lepih [naključnih iskric](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} na LED zaslonu naprave Sense HAT
 
-Prosimo, da v ime ali kodo svoje ekipe ne vključite ničesar od naslednjega:
++ Ustvarite igro [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
-+ Vse, kar bi si lahko razlagali kot nezakonito, politično ali občutljivo
-+ Zastave, saj lahko veljajo za politično občutljive
-+ Vse, kar bi lahko bilo neprijetno ali škodilo drugi osebi
-+ Osebni podatki, kot so telefonske številke, naslovi družbenih medijev in e-poštni naslovi
-+ Nespodobne slike
-+ Posebni znaki ali emojiji
-+ Nespodoben jezik ali preklinjanje
++ Izzovite svoje prijatelje z igro [marmorni labirint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
---- task ---
++ Ponovno ustvarite klasično igro [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
 
-V polje na dnu vnesite kodo učilnice, ki vam jo bo sporočil vaš mentor, ter ime ekipe.
+***
 
-![Obrazec za oddajo kode učilnice in imena ekipe](images/submission.png)
+Ta projekt so prevedli prostovoljci:
 
-**Navodila za mentorje** najdete v koraku [Uvod](https://projects.raspberrypi.org/sl-SI/projects/astro-pi-mission-zero/0).
+Filip Štamcar
 
---- /task ---
-
---- task ---
-
-Za pošiljanje svoje kode kliknite gumb **Dodajte svojo ekipo**. Ko je program oddan, ga ni več mogoče spremeniti.
-
-Vaš učitelj bo prejel elektronsko sporočilo s potrdilom prejema vašega prispevka.
-
---- /task ---
-
---- task ---
-
-Če želite, lahko povezavo do svoje kode delite na družbenih omrežjih in tako ljudem poveste, da bo vaša koda zagnana v vesolju!
-
---- /task ---
+Zahvaljujoč prostovoljcem, lahko ljudem po vsem svetu omogočimo, da se učijo v svojem jeziku. S prostovoljnim prevajanjem nam lahko pomagate, da dosežemo več ljudi - več informacij na [rpf.io/translate](https://rpf.io/translate).

@@ -12,8 +12,7 @@ steps:
   - title: Afișează o imagine
     completion:
       - engaged
-  - title: Simte o culoare
-  - title: Trimite programul tău
+  - title: Detectează o culoare
     completion:
       - internal
   - title: Ce urmează — mai multe proiecte Astro Pi

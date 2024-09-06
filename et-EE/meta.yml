@@ -13,7 +13,6 @@ steps:
     completion:
       - engaged
   - title: Taju värvi
-  - title: Esita oma võistlustöö
     completion:
       - internal
   - title: Mis edasi — rohkem Astro Pi projekte

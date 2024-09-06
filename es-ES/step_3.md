@@ -12,9 +12,9 @@ Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de
 
 Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/es/mz/code_submissions/new){:target="_blank"} para el proyecto Mission Zero.
 
-Comprobarás que se han añadido automáticamente tres líneas de código.
+Comprobarás que se han añadido automáticamente unas líneas de código.
 
-Este código se conecta al Astro Pi y se asegura de que la pantalla LED de Astro Pi se muestre en la orientación correcta. Deja estas líneas de código, ya que las necesitarás más adelante.
+Este código se conecta al Astro Pi, se asegura de que la pantalla LED de Astro Pi se muestre en la orientación correcta e inicializa el sensor de color. Deja estas líneas de código, ya que las necesitarás más adelante.
 
 --- code ---
 ---
@@ -38,7 +38,7 @@ sense.color.integration_cycles = 64 # El intervalo en el que se tomará la lectu
 
 --- /code ---
 
-![Una captura de pantalla del emulador Trinket Sense Hat con tres líneas de código de inicio que se muestran en el panel de la izquierda.](images/sense-hat-emulator2.png)
+![Una captura de pantalla del emulador Sense Hat con las líneas de código de inicio que se muestran en el panel de la izquierda.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -63,100 +63,86 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 --- collapse ---
 
 ---
-title: Pollo
+title: Zorro
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un pollito en un huevo.](images/chick.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra la cara de un zorro.](images/fox_mz3.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Blanco
+Creado por el equipo i_pupi, Italia
+
+```python
 c = (0, 0, 0) # Negro
-e = (0, 0, 205) # Azul medio
-q = (255, 255, 0) # Amarillo
+a = (255, 255, 255) # Blanco
 t = (255, 140, 0) # Naranja oscuro
-w = (255, 192, 203) # Rosado
 
 imagen = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Flor
+title: Elefante
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una flor rosada con un tallo verde.](images/flower.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un elefante.](images/elephant.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
+Creado por el equipo ILiFanT, Finlandia
+
+```python
 c = (0, 0, 0) # Negro
-m = (34, 139, 34) # Verde bosque
-q = (255, 255, 0) # Amarillo
-t = (255, 140, 0) # Naranja oscuro
-y = (255, 20, 147) # Rosa profundo
+b = (105, 105, 105) # Gris oscuro
+a = (255, 255, 255) # Blanco
 
 imagen = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Cangrejo
+title: Cactus
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un cangrejo.](images/crab.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un cactus.](images/cactus.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
+Creado por el equipo 6TETHASI, Países Bajos
+
+```python
 a = (255, 255, 255) # Blanco
 c = (0, 0, 0) # Negro
-v = (255, 0, 0) # Rojo
+n = (154, 205, 50) # Verde amarillo
+q = (255, 255, 0) # Amarillo
+t = (255, 140, 0) # Naranja oscuro
 
-imagen = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+imagen = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -168,12 +154,8 @@ title: Cocodrilo
 
 ![Una cuadrícula con cuadrados de 8 x 8 que muestra la cabeza de un cocodrilo.](images/croc.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Blanco
 c = (0, 0, 0) # Negro
 f = (25, 25, 112) # Azul medianoche
@@ -189,74 +171,73 @@ imagen = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
+```
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Serpiente
+title: Arco iris
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una serpiente.](images/snake.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un arco iris.](images/rainbow.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Negro
- m = (34, 139, 34) # Verde bosque
- q = (255, 255, 0) # Amarillo
- v = (255, 0, 0) # Rojo
+Creado por el equipo camrus_6, Reino Unido
 
-imagen = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
+```python
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Rana
----
-
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una rana.](images/frog.png)
-
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start:
-line_highlights:
----
-c = (0, 0, 0) # Negro
-m = (34, 139, 34) # Verde bosque
-q = (255, 255, 0) # Amarillo
+c = (100, 149, 237) # Azul Aciano
+a = (255, 255, 255) # Blanco
 v = (255, 0, 0) # Rojo
+t = (255, 140, 0) # Naranja oscuro
+q = (255, 255, 0) # Amarillo
+l = (0, 255, 127) # Verde Primavera
+e = (0, 0, 205) # Azul medio
+
+arco_iris = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Dragón
+---
+
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un dragón.](images/dragon.png)
+
+Creado por el equipo hwplucyr, Reino Unido
+
+```python
+
+b = (105, 105, 105) # Gris apagado
+c = (0, 0, 0) # Negro
+d = (100, 149, 237) # Azul Aciano
+v = (255, 0, 0) # Rojo
+z = (153, 50, 204) # Orquídea Oscuro
 
 imagen = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -264,30 +245,28 @@ imagen = [
 
 --- task ---
 
-**Buscar:** la línea que dice `# Mostrar la imagen` y añade una línea de código para mostrar la imagen en la matriz LED:
+**Busca:** la línea que dice `# Mostrar la imagen` y añade una línea de código para mostrar la imagen en la matriz LED:
 
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # Blanco
+c = (0, 0, 0) # Negro
+f = (25, 25, 112) # Azul medianoche
+m = (34, 139, 34) # Verde bosque
+
 imagen = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
-# Muestra la imagen
+# Mostrar la imagen
 sense.set_pixels(imagen)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -310,9 +289,17 @@ Mi código tiene un error de sintaxis:
 
 Mi imagen no aparece:
 
-- Comprueba que tu `sense.set_pixels(image)` no esté indentado
+- Comprueba que tu `sense.set_pixels(imagen)` no esté indentado
 
 --- /task ---
 
 
+--- task ---
 
+**Guarda tu progreso**
+
+Ahora que has mostrado una imagen, puedes guardar tu programa en el Proyecto Inicial de la Misión ingresando el nombre de tu equipo, los nombres de los miembros del equipo y el código de aula que te dieron. Puedes recargar tu programa en cualquier dispositivo con conexión a Internet ingresando el nombre de tu equipo y el código de aula.
+
+![Botón Guardar de Mission Zero](images/savebutton_es.png)
+
+--- /task --- 

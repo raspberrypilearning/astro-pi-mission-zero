@@ -20,29 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 10, 11
+line_highlights: 9, 10
 ---
 
 # Add colour variables and image
 
+a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
 m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-y = (255, 20, 147) # DeepPink
 
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -85,14 +85,15 @@ rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
   
 --- /code ---
 
@@ -118,14 +119,15 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Display the image
 
@@ -263,6 +265,18 @@ sense.clear(x)
 
 --- /task ---
 
+
+--- task ---
+
+**Save your progress**
+
+You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code. 
+
+![Mission Zero Save button screengrab](images/mz_savebutton_v2.png)
+
+--- /task --- 
+
+
 --- task ---
 
 --- collapse ---
@@ -271,7 +285,7 @@ sense.clear(x)
 title: Completed code example
 ---
 
-![A grid with 8 x 8 squares showing a pink flower on a green stem.](images/flower.png)
+![A grid with 8 x 8 squares showing a crocodile.](images/croc.png)
 
 --- code ---
 ---
@@ -293,25 +307,25 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 # Add colour variables and image
 
+a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
+f = (25, 25, 112) # MidnightBlue
 m = (34, 139, 34) # ForestGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-y = (255, 20, 147) # DeepPink
 
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Display the image
 

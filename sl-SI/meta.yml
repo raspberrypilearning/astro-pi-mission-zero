@@ -13,7 +13,6 @@ steps:
     completion:
       - engaged
   - title: Zaznajte barve
-  - title: Pošljite svoj prispevek
     completion:
       - internal
   - title: 'Kaj zdaj: več projektov Astro Pi'

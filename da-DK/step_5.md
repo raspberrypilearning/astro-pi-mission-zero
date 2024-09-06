@@ -1,45 +1,25 @@
-## Indsend dit bidrag
+## Hvad næste — flere Astro Pi-projekter
 
-Du kan nu deltage i [Astro Pi Mission Zero](https://astro-pi.org/da/mission-zero){:target="_blank"}-udfordringen ved at bruge den kode, du har skrevet.
+Nu hvor du har fuldført din mission, hvorfor så ikke prøve nogle flere projekter ved hjælp af de andre sensorer på Astro Pi?
 
-Der er nogle få regler, som din kode skal følge, før du kan indsende den og få den kørt på den internationale rumstation. Hvis din kode følger dem, så vil reglerne i bunden af **Sense HAT-emulatoren** lyse grønt, når du kører programmet.
+Hvis du har mod på det, kan du deltage i Mission Space Lab. Lav et hold på to til seks personer og arbejd sammen for at besvare et rigtigt videnskabeligt spørgsmål. Alle hold, der indsender et kvalificeret program, vil blive inviteret til en virtuel Q&A med en ESA-astronaut i slutningen af Astro Pi Challenge cyklussen.
 
-![Mission Zero-siden, der viser kriterierne, kontrollerer for adgang.](images/rules.png)
+Alternativt har du måske lyst til at prøve kræfter med et af vores andre Astro Pi-projekter:
 
-**Tip:** Test din kode med et par forskellige farveindstillinger (ved hjælp af farvevælgeren) for at sikre, at den altid kører korrekt.
++ Lær [mere om Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} og de andre ting, den kan gøre
 
-Sørg for, at dit bidrag følger de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero. Hvis det ikke følger retningslinjerne, vil dit program ikke være i stand til at blive kørt på den internationale rumstation.
++ Lav noget smukt [glitter](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} på Sense HAT's LED-display
 
-Vær venlig ikke at inkludere noget af følgende i dit holdnavn eller kode:
++ Lav et [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} spil
 
-+ Alt hvad der kan fortolkes som værende ulovligt, politisk eller af følsom karakter
-+ Flag, da de kan betragtes som værende politisk følsomme
-+ Alt hvad der refererer til ubehageligheder eller skade mod en anden person
-+ Personlige oplysninger såsom telefonnumre, kaldenavne på sociale medier og e-mailadresser
-+ Sjofle billeder
-+ Specialtegn eller emojis
-+ Dårligt sprog eller bandeord
++ Udfordr dine venner med et [marmorlabyrint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spil
 
---- task ---
++ Genskab det klassiske spil [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
 
-Indtast din klasseværelseskode og holdnavn i boksen nederst — din mentor vil fortælle dig, hvad din kode er.
+***
 
-![Formular til indsendelse af klasseværelseskode og holdnavn](images/submission.png)
+Dette projekt blev oversat af frivillige:
 
-**Bemærkninger til mentorer** kan findes i trinntet [Introduktion](https://projects.raspberrypi.org/da-DK/projects/astro-pi-mission-zero/0).
+Ulrik Kruse
 
---- /task ---
-
---- task ---
-
-Tryk på knappen **Tilføj dit hold** for at indtaste din kode. Bemærk venligst, at et program ikke kan ændres, når det først er indsendt.
-
-Din mentor vil modtage en e-mail for at bekræfte din tilmelding.
-
---- /task ---
-
---- task ---
-
-Hvis du vil, kan du dele linket til din kode på de sociale medier for at fortælle folk, at den kode, du har skrevet, bliver kørt i rummet!
-
---- /task ---
+Takket være frivillige kan vi give mennesker over hele verden chancen for at lære på deres eget sprog. Du kan hjælpe os med at nå endnu flere mennesker ved at melde dig som frivillig oversætter - få mere information på [rpf.io/translate](https://rpf.io/translate).

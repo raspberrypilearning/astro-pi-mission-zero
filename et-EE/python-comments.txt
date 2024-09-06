@@ -12,25 +12,35 @@ Lisa värvi muutujad ja pilt
 
 Kuva pilt
 
-White
-
 Black
 
-MediumBlue
+White
 
-Yellow
+Tumeoranž
+
+Tumehall
+
+Kollakasroheline
+
+Kollane
 
 DarkOrange
 
-Pink
+MidnightBlue
 
 ForestGreen
 
-DeepPink
+Rukkilillesinine
 
 Red
 
-MidnightBlue
+Kevadroheline
+
+MediumBlue
+
+Tuhmhall
+
+Tume orhidee
 
 saa värv andurilt
 

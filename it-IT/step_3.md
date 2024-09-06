@@ -1,9 +1,9 @@
 ## Mostra un’immagine
 
-La matrice LED di Astro Pi può visualizzare i colori. In questa fase, visualizzerai le immagini dalla natura sulla matrice LED di Astro Pi.
+La matrice LED di Astro Pi può visualizzare i colori. In questa fase, visualizzerai immagini prese dalla natura sulla matrice LED di Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED che può essere controllata individualmente o in gruppo per creare diversi effetti di luce. La matrice LED del Sense HAT ha 64 LED visualizzati in una griglia 8 x 8. I LED possono essere programmati per produrre un'ampia gamma di colori.
+Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED che può essere controllata individualmente o in gruppo per creare diversi effetti di luce. La matrice LED del Sense HAT ha 64 LED disposti in una griglia 8 x 8. I LED possono essere programmati per produrre un'ampia gamma di colori.
 </p>
 
 ![Uno screenshot della finestra dell'emulatore che mostra l'unità di volo con la matrice LED che visualizza l'immagine di un fiore.](images/fu-pic.png)
@@ -12,9 +12,9 @@ Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED ch
 
 Apri [il progetto iniziale Mission Zero](https://missions.astro-pi.org/it/mz/code_submissions/new){:target="_blank"}.
 
-Vedrai che alcune righe di codice sono state aggiunte automaticamente per te.
+Vedrai che alcune righe di codice sono state aggiunte automaticamente per facilitarti.
 
-Questo codice esegue il collegamento all'Astro Pi, assicurando che il display a LED dell'Astro Pi sia mostrato nel modo corretto e imposta il sensore di colore. Lasciate stare questo codice, perché è necessario.
+Questo codice esegue il collegamento all'Astro Pi, assicurando che il display a LED dell'Astro Pi sia mostrato nel modo corretto e inoltre imposta il sensore di colore. Lasciate stare questo codice, perché ne avrete bisogno.
 
 --- code ---
 ---
@@ -32,19 +32,19 @@ from time import sleep
 sense = SenseHat() 
 sense.set_rotation(270)
 
-# Imposta il sensore di colore
+# Configura il sensore di colore
 sense.color.gain = 60 # Imposta la sensibilità del sensore 
 sense.color.integration_cycles = 64 # L'intervallo con cui verrà eseguita la lettura
 
 --- /code ---
 
-![Uno screenshot dell'emulatore Sense HAT con linee di codice iniziale visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
+![Uno screenshot dell'emulatore Sense HAT con linee di codice iniziali visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
 ### Colori RGB
 
-I colori possono essere creati utilizzando diverse proporzioni di rosso, verde e blu. Puoi scoprire i colori RGB qui:
+I colori possono essere creati utilizzando diverse quantità di rosso, verde e blu. Puoi scoprire i colori RGB qui:
 
 [[[generic-theory-simple-colours]]]
 
@@ -56,107 +56,93 @@ La matrice LED è una griglia 8 x 8. Ciascun LED sulla griglia può essere impos
 
 --- task ---
 
-**Scegli:** Scegli un'immagine da visualizzare tra le seguenti opzioni. Python memorizza le informazioni per un'immagine in una lista. Il codice di ogni immagine include le variabili di colore utilizzate e la lista.
+**Scegli:** decidi quale immagine visualizzare tra le seguenti opzioni. Python memorizza le informazioni per un'immagine in una lista. Il codice di ogni immagine include le variabili di colore utilizzate e la lista.
 
 Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** nel tuo progetto sotto la riga che dice `# Aggiungi variabili di colore e immagine`.
 
 --- collapse ---
 
 ---
-title: Pollo
+title: Volpe
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un pulcino in un uovo.](images/chick.png)
+![Una griglia con 8 x 8 quadrati che mostra il muso di una volpe.](images/fox_mz3.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Bianco 
-c = (0, 0, 0) # Nero 
-e = (0, 0, 205) # Blu Medio 
-q = (255, 255, 0) # Giallo 
-t = (255, 140, 0) # Arancio scuro
-w = (255, 192, 203) # Rosa
+Creato dal team i_pupi, Italia
+
+```python
+c = (0, 0, 0) # Nero
+a = (255, 255, 255) # Bianco
+t = (255, 140, 0) # Arancione scuro
 
 immagine = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Fiore
+title: Elefante
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un fiore rosa su uno stelo verde.](images/flower.png)
+![Una griglia con 8 x 8 quadrati che mostra un elefante.](images/elephant.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-c = (0, 0, 0) # Nero 
-m = (34, 139, 34) # Verde bosco 
-q = (255, 255, 0) # Giallo 
-t = (255, 140, 0) # Arancio scuro 
-y = (255, 20, 147) # Rosa scuro
+Creato dal team ILiFanT, Finlandia
+
+```python
+c = (0, 0, 0) # Nero
+b = (105, 105, 105) # Grigio scuro
+a = (255, 255, 255) # Bianco
 
 immagine = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Granchio
+title: Cactus
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un granchio.](images/crab.png)
+![Una griglia con 8 x 8 quadrati che mostra un cactus.](images/cactus.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Bianco 
-c = (0, 0, 0) # Nero 
-v = (255, 0, 0) # Rosso
+Creato dal team 6TETHASI, Paesi Bassi
 
-immagine = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+```python
+a = (255, 255, 255) # Bianco
+c = (0, 0, 0) # Nero
+n = (154, 205, 50) # Giallo verde
+q = (255, 255, 0) # Giallo
+t = (255, 140, 0) # Arancione scuro
 
---- /code ---
+immagine = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
+
+```
 
 --- /collapse ---
 
@@ -168,12 +154,8 @@ title: Coccodrillo
 
 ![Una griglia con 8 x 8 quadrati che mostra una testa di coccodrillo.](images/croc.png)
 
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Bianco 
 c = (0, 0, 0) # Nero 
 f = (25, 25, 112) # Blu notte 
@@ -189,74 +171,72 @@ immagine = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Serpente
----
-
-![Una griglia con 8 x 8 quadrati che mostra un serpente.](images/snake.png)
-
---- code ---
----
-language: python 
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Nero 
- m = (34, 139, 34) # Verde bosco 
- q = (255, 255, 0) # Giallo 
- v = (255, 0, 0) # Rosso
-
-immagine = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Rana
+title: Arcobaleno
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra una rana.](images/frog.png)
+![Una griglia con 8 x 8 quadrati che mostra un arcobaleno.](images/rainbow.png)
 
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start:
-line_highlights:
----
-c = (0, 0, 0) # Nero 
-m = (34, 139, 34) # Verde bosco 
-q = (255, 255, 0) # Giallo 
+Creato da team camrus_6, Regno Unito
+
+```python
+
+c = (100, 149, 237) # Blu Fiordaliso
+a = (255, 255, 255) # Bianco
 v = (255, 0, 0) # Rosso
+t = (255, 140, 0) # Arancione scuro
+q = (255, 255, 0) # Giallo
+l = (0, 255, 127) # Verde primavera
+e = (0, 0, 205) # Blu medio
+
+arcobaleno = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Drago
+---
+
+![Una griglia con 8 x 8 quadrati che mostra un drago.](images/dragon.png)
+
+Creato dal team hwplucyr, Regno Unito
+
+```python
+
+b = (105, 105, 105) # Grigio medio
+c = (0, 0, 0) # Nero
+d = (100, 149, 237) # Blu Fiordaliso
+v = (255, 0, 0) # Rosso
+z = (153, 50, 204) # Orchidea scura
 
 immagine = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,28 +246,26 @@ immagine = [
 
 **Trova:** la riga che dice `# Mostra l'immagine` e aggiungi una riga di codice per visualizzare la tua immagine sulla matrice LED:
 
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: false 
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # Bianco
+c = (0, 0, 0) # Nero
+f = (25, 25, 112) # Blu notte
+m = (34, 139, 34) # Verde foresta
+
 immagine = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Mostra l'immagine
 sense.set_pixels(immagine)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -315,4 +293,12 @@ La mia immagine non viene visualizzata:
 --- /task ---
 
 
+--- task ---
 
+**Salva i tuoi progressi**
+
+Ora che hai visualizzato un'immagine, puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice dell'aula che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
+
+![Pulsante Salva Mission Zero](images/savebutton_it.png)
+
+--- /task --- 

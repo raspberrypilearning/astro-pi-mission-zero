@@ -3,10 +3,10 @@
 Ο πίνακας LED του Astro Pi μπορεί να εμφανίζει χρώματα. Σε αυτό το βήμα, θα εμφανίσεις εικόνες από τη φύση στη οθόνη LED του Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Ένα <span style="color: #0faeb0">**LED matrix**</span> είναι ένα πλέγμα από LED που μπορούν να ελεγχθούν μεμονωμένα ή ως ομάδα για να δημιουργήσουν διαφορετικά εφέ φωτισμού. Ο πίνακας LED matrix στο Sense HAT έχει 64 LED που εμφανίζονται σε ένα πλέγμα 8 x 8. Τα LED μπορούν να προγραμματιστούν ώστε να παραγάγουν μεγάλη γκάμα χρωμάτων.
+Ένα <span style="color: #0faeb0">**LED matrix**</span> είναι ένα πλέγμα από LED που μπορούν να ελεγχθούν μεμονωμένα ή ως ομάδα για να δημιουργήσουν διαφορετικά εφέ φωτισμού. Ο πίνακας LED matrix στο Sense HAT έχει 64 LED που εμφανίζονται σε ένα πλέγμα 8 x 8. Τα LED μπορούν να προγραμματιστούν ώστε να παράγουν μεγάλη γκάμα χρωμάτων.
 </p>
 
-![Ένα στιγμιότυπο οθόνης του παραθύρου εξομοιωτή που δείχνει τη Μονάδα Πτήσης με την οθόνη LED να εμφανίζει μια εικόνα ενός λουλουδιού.](images/fu-pic.png)
+![Ένα στιγμιότυπο οθόνης του παραθύρου προσομοιωτή που δείχνει τη Μονάδα Πτήσης με την οθόνη LED να εμφανίζει μια εικόνα ενός λουλουδιού.](images/fu-pic.png)
 
 --- task ---
 
@@ -38,7 +38,7 @@ sense.color.integration_cycles = 64 # Το μεσοδιάστημα κατά τ�
 
 --- /code ---
 
-![Ένα στιγμιότυπο οθόνης του εξομοιωτή Sense HAT με γραμμές του αρχικού κώδικα να εμφανίζονται στο αριστερό παράθυρο.](images/sense-hat-emulator2.png)
+![Ένα στιγμιότυπο οθόνης του προσομοιωτή Sense HAT με γραμμές του αρχικού κώδικα να εμφανίζονται στο αριστερό παράθυρο.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -63,100 +63,87 @@ sense.color.integration_cycles = 64 # Το μεσοδιάστημα κατά τ�
 --- collapse ---
 
 ---
-title: Κοτόπουλο
+title: Αλεπού
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κοτόπουλο σε ένα αυγό.](images/chick.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει το πρόσωπο μιας αλεπούς.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Άσπρο
+Δημιουργήθηκε από την ομάδα i_pupi, Ιταλία
+
+```python
 c = (0, 0, 0) # Μαύρο
-e = (0, 0, 205) # Μεσαίο Μπλε
-q = (255, 255, 0) # Κίτρινο
-t = (255, 140, 0) # Σκούρο Πορτοκαλί
-w = (255, 192, 203) # Ροζ
+a = (255, 255, 255) # Άσπρο
+t = (255, 140, 0) # Σκούρο πορτοκαλί
 
 image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
+
 
 --- collapse ---
 
 ---
-title: Λουλούδι
+title: Ελέφαντας
 ---
 
-![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνει ένα ροζ λουλούδι σε ένα πράσινο μίσχο.](images/flower.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν ελέφαντα.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Δημιουργήθηκε από την ομάδα ILiFanT, Φινλανδία
+
+```python
 c = (0, 0, 0) # Μαύρο
-m = (34, 139, 34) # Πράσινο του Δάσους
-q = (255, 255, 0) # Κίτρινο
-t = (255, 140, 0) # Σκούρο Πορτοκαλί
-y = (255, 20, 147) # Σκούρο Ροζ
+b = (105, 105, 105) # Σκούρο γκρι
+a = (255, 255, 255) # Άσπρο
 
 image = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Κάβουρας
+title: Κάκτος
 ---
 
-![Ένα πλέγμα με 8 x 8 τετράγωνα που δείχνουν έναν κάβουρα.](images/crab.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν κάκτο.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Δημιουργήθηκε από την ομάδα 6TETHASI, Ολλανδία
+
+```python
 a = (255, 255, 255) # Άσπρο
 c = (0, 0, 0) # Μαύρο
-v = (255, 0, 0) # Κόκκινο
+n = (154, 205, 50) # Κιτρινοπράσινο
+q = (255, 255, 0) # Κίτρινο
+t = (255, 140, 0) # Σκούρο Πορτοκαλί
 
-image = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -168,12 +155,8 @@ title: Κροκόδειλος
 
 ![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κεφάλι κροκόδειλου.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Άσπρο
 c = (0, 0, 0) # Μαύρο
 f = (25, 25, 112) # Μπλε του Μεσονυκτίου
@@ -189,74 +172,72 @@ image = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Φίδι
----
-
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα φίδι.](images/snake.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Μαύρο
- m = (34, 139, 34) # Πράσινο του Δάσους
- q = (255, 255, 0) # Κίτρινο
- v = (255, 0, 0) # Κόκκινο
-
-image = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Βάτραχος
+title: Ουράνιο Τόξο
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν βάτραχο.](images/frog.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα ουράνιο τόξο.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Μαύρο
-m = (34, 139, 34) # Πράσινο του Δάσους
-q = (255, 255, 0) # Κίτρινο
+Δημιουργήθηκε από την ομάδα camrus_6, Ηνωμένο Βασίλειο
+
+```python
+
+c = (100, 149, 237) # Μπλε του Άνθους Αραβοσίτου
+a = (255, 255, 255) # Άσπρο
 v = (255, 0, 0) # Κόκκινο
+t = (255, 140, 0) # Σκούρο Πορτοκαλί
+q = (255, 255, 0) # Κίτρινο
+l = (0, 255, 127) # Πράσινο της Άνοιξης
+e = (0, 0, 205) # Μεσαίο Μπλε
+
+rainbow = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Δράκος
+---
+
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν δράκο.](images/dragon.png)
+
+Δημιουργήθηκε από την ομάδα hwplucyr, Ηνωμένο Βασίλειο
+
+```python
+
+b = (105, 105, 105) # Αχνό Γκρι
+c = (0, 0, 0) # Μαύρο
+d = (100, 149, 237) # Μπλε του Άνθους Αραβοσίτου
+v = (255, 0, 0) # Κόκκινο
+z = (153, 50, 204) # Σκοτεινή Ορχιδέα
 
 image = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,28 +247,26 @@ image = [
 
 **Βρες:**τη γραμμή που λέει `# Εμφάνιση εικόνας` και πρόσθεσε μια γραμμή κώδικα για να εμφανίσει την εικόνα σου στην οθόνη LED:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
-image = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+```python
+a = (255, 255, 255) # Άσπρο
+c = (0, 0, 0) # Μαύρο
+f = (25, 25, 112) # Μπλε του Μεσονυκτίου
+m = (34, 139, 34) # Πράσινο του Δάσους
 
-# Display the image 
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Εμφάνιση της εικόνας
 sense.set_pixels(image)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -315,4 +294,12 @@ sense.set_pixels(image)
 --- /task ---
 
 
+--- task ---
 
+**Αποθήκευσε την πρόοδό σου**
+
+Τώρα που εμφάνισες μια εικόνα, μπορείς να αποθηκεύσεις το πρόγραμμά σου στο έργο Mission Starter εισάγοντας το όνομα της ομάδας σου, τα ονόματα των μελών της ομάδας και τον κωδικό της τάξης που σου έχει δοθεί. Μπορείς να φορτώσεις ξανά το πρόγραμμά σου σε οποιαδήποτε συσκευή με σύνδεση στο Διαδίκτυο εισάγοντας το όνομα της ομάδας και τον κωδικό της τάξης σου.
+
+![Κουμπί Αποθήκευσης Mission Zero](images/savebutton_gr.png)
+
+--- /task --- 

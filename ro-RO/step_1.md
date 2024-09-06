@@ -1,10 +1,4 @@
-### Mission Zero 2023/24 s-a închis acum.
-
-Încă poți finaliza activitatea, dar nu vei putea trimite programul tău pentru a rula pe ISS. Următoarea rundă a provocării va fi lansată în septembrie 2024. Verificați rețelele sociale și înscrieți-vă la buletinul informativ de pe site-ul web [Astro Pi](https://astro-pi.org/mission-zero/) pentru actualizări.
-
 ## Vei face
-
-Finalizează acest proiect pentru a participa la provocarea Astro Pi Mission Zero și a rula codul tău în spațiu pe un computer Astro Pi.
 
 Proiectul tău va seta culoarea de fundal a unei imagini la culoarea detectată de Astro Pi. Astfel, stația spațială internațională (ISS) va deveni mai colorată pentru astronauții de la bord. Codul tău va folosi senzorul de luminozitate de culoare pe noul calculator Sense HAT al lui Mark II Astro Pi pentru a realiza acest lucru.
 
@@ -16,14 +10,14 @@ Iată un exemplu de program pe care l-ai putea face pentru a rula pe un Astro Pi
 
 Vei folosi emulatorul Astro Pi într-un browser web pentru a crea programul tău. Nu ai nevoie de un calculator Astro Pi.
 
-### Hardware
+### Criteriile Astro Pi Mission Zero
 
 **Dacă proiectul tău îndeplinește [criteriile de eligibilitate](https://astro-pi.org/ro/mission-zero/eligibility){:target="_blank"}**, programul tău finalizat va fi executat pe Stația Spațială Internațională! Vei primi, de asemenea, un certificat special care arată exact unde a fost ISS atunci când a rulat programul tău.
 
 Vei învăța despre computerul Astro Pi și cum să îl controlezi, inclusiv cum să:
-+ afișezi mesaje și culori
-+ creezi imagini
-+ măsori umiditatea folosind Sense HAT
++ Creați **variabile** de culoare pentru a le utiliza în imaginea dvs
++ Proiectați și afișați o imagine pe Sense HAT
++ Simțiți culoarea luminii la bordul ISS
 
 --- collapse ---
 ---

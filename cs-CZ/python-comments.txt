@@ -12,28 +12,38 @@ Přidej proměnné s barvami a obrázek
 
 Zobraz obrázek
 
-Bílá
-
 Černá
 
-Středně modrá
+Bílá
+
+Tmavě oranžová
+
+Tmavě šedá
+
+Žlutozelená
 
 Žlutá
 
 Tmavě oranžová
 
-Růžová
+Půlnoční modrá
 
 Lesní zelená
 
-Sytě růžová
+Chrpově modrá
 
 Červená
 
-Půlnoční modrá
+Jarní zelená
 
-získej barvu ze senzoru
+Středně modrá
 
-použij barvu naměřenou ze senzoru
+Tlumeně šedá
 
-vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
+Tmavá orchidej
+
+Získej barvu ze senzoru
+
+Použij barvu naměřenou ze senzoru
+
+Vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255

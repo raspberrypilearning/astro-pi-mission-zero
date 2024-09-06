@@ -63,100 +63,86 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-title: Kylling
+title: Rev
 ---
 
-![Et tall med 8 x 8 kvadrater som viser et kylling i et egg.](images/chick.png)
+![Et rutenett med 8 x 8 ruter som viser et revefjes.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Hvit
+Laget av team i_pupi, Italia
+
+```python
 c = (0, 0, 0) # Svart
-e = (0, 0, 205) # Middels blå
-q = (255, 255, 0) # Gul
+a = (255, 255, 255) # Hvit
 t = (255, 140, 0) # Mørk oransje
-w = (255, 192, 203) # Rosa
 
 bilde = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Blomst
+title: Elefant
 ---
 
-![Et tall med 8 x 8 kvadrater som viser en rosa blomst på et grønt innlegg.](images/flower.png)
+![Et rutenett med 8 x 8 ruter som viser en elefant.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Laget av team ILiFanT, Finland
+
+```python
 c = (0, 0, 0) # Svart
-m = (34, 139, 34) # Skoggrønn
-q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mørk oransje
-y = (255, 20, 147) # Mørket
+b = (105, 105, 105) # Mørk grå
+a = (255, 255, 255) # Hvit
 
 bilde = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Krabbe
+title: Kaktus
 ---
 
-![Et tall med 8 x 8 kvadrater med krabbe.](images/crab.png)
+![Et rutenett med 8 x 8 ruter som viser en kaktus.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Laget av team 6TETHASI, Nederland
+
+```python
 a = (255, 255, 255) # Hvit
 c = (0, 0, 0) # Svart
-v = (255, 0, 0) # Rød
+n = (154, 205, 50) # Gulgrønn
+q = (255, 255, 0) # Gul
+t = (255, 140, 0) # Mørk oransje
 
-bilde = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+bilde = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -166,14 +152,10 @@ bilde = [
 title: Krokodille
 ---
 
-![Et rutenett med 8 x 8 ruter med krokodilhode.](images/croc.png)
+![Et rutenett med 8 x 8 ruter som viser et krokodillehode.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Hvit
 c = (0, 0, 0) # Svart
 f = (25, 25, 112) # Midnatt blå
@@ -189,74 +171,72 @@ bilde = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Slange
----
-
-![Et rutenett med 8 x 8 firkanter med slange.](images/snake.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Svart
- m = (34, 139, 34) # Skoggrønn
- q = (255, 255, 0) # Gul
- v = (255, 0, 0) # Rød
-
-bilde = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
-
---- /code ---
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Frog
+title: Regnbue
 ---
 
-![Et rutenett med 8 x 8 kvadrater med frosk.](images/frog.png)
+![Et rutenett med 8 x 8 ruter som viser en regnbue.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Svart
-m = (34, 139, 34) # Skoggrønn
-q = (255, 255, 0) # Gul
+Laget av team camrus_6, Storbritannia
+
+```python
+
+c = (100, 149, 237) # Kornblomstblå
+a = (255, 255, 255) # Hvit
 v = (255, 0, 0) # Rød
+t = (255, 140, 0) # Mørk oransje
+q = (255, 255, 0) # Gul
+l = (0, 255, 127) # Vårgrønn
+e = (0, 0, 205) # Middels blå
+
+regnbue = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Drage
+---
+
+![Et rutenett med 8 x 8 firkanter som viser en drage.](images/dragon.png)
+
+Laget av team hwplucyr, Storbritannia
+
+```python
+
+b = (105, 105, 105) # Dimgrå
+c = (0, 0, 0) # Svart
+d = (100, 149, 237) # Kornblomstblå
+v = (255, 0, 0) # Rød
+z = (153, 50, 204) # Mørk orkidé
 
 bilde = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,29 +246,26 @@ bilde = [
 
 **Finn:** linjen som sier `# Vis bilde` og legg til en kodelinje for å vise bildet på LED-matrisen:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # Hvit
+c = (0, 0, 0) # Svart
+f = (25, 25, 112) # Midnatt blå
+m = (34, 139, 34) # Skoggrønn
+
 bilde = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Vis bildet 
 sense.set_pixels(bilde)
 
-
---- /code ---
+```
 
 --- /task ---
 
@@ -316,4 +293,12 @@ Bildet mitt vises ikke:
 --- /task ---
 
 
+--- task ---
 
+**Lagre fremgangen din**
+
+Nå som du har vist et bilde, kan du lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
+
+![Mission Zero Lagre-knapp](images/savebutton_no.png)
+
+--- /task --- 

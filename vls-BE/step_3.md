@@ -10,7 +10,7 @@ Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster met LEDs di
 
 --- task ---
 
-Open het [Mission Zero startproject](https://missions.astro-pi.org/nl-BE/mz/code_submissions/new){:target="_blank"}.
+Open het [Mission Zero startproject](https://missions.astro-pi.org/nl/mz/code_submissions/new){:target="_blank"}.
 
 Je zal zien dat er enkele coderegels automatisch toegevoegd werden.
 
@@ -38,7 +38,7 @@ sense.color.integration_cycles = 64 # Het interval waarin het uitlezen gebeurt
 
 --- /code ---
 
-![Een screenshot van de Sense HAT-emulator met de lijnen van de begincode die getoond wordt aande linkerkant.](images/sense-hat-emulator2.png)
+![Een screenshot van de Sense HAT-emulator met de lijnen van de begincode die getoond wordt aan de linkerkant.](images/sense-hat-emulator2.png)
 
 --- /task ---
 
@@ -48,7 +48,7 @@ Kleuren kunnen gemaakt worden door het gebruik van rood, groen en blauw in versc
 
 [[[generic-theory-simple-colours]]]
 
-De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een ander kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
+De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een andere kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
 
 [[[ambient-colours]]]
 
@@ -63,101 +63,86 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 --- collapse ---
 
 ---
-title: Kip
+title: Vos
 ---
 
-![Een raster met 8 x 8 vierkanten dat een kip in een ei toont.](images/chick.png)
+![Een vossengezicht wordt getoond in een raster van 8 x 8 vierkanten.](images/fox_mz3.png)
 
+Gemaakt door team i_pupi, Italië
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Wit
+```python
 c = (0, 0, 0) # Zwart
-e = (0, 0, 205) # Middenblauw
-q = (255, 255, 0) # Geel
+a = (255, 255, 255) # Wit
 t = (255, 140, 0) # Donkeroranje
-w = (255, 192, 203) # Roze
 
 afbeelding = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Bloem
+title: Olifant
 ---
 
-![Een raster met 8 x 8 vierkanten dat een roze bloem op een groene stengel toont.](images/flower.png)
+![Een olifant wordt getoond in een raster van 8 x 8 vierkanten.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Gemaakt door team ILiFanT, Finland
+
+```python
 c = (0, 0, 0) # Zwart
-m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
-t = (255, 140, 0) # Donkeroranje
-y = (255, 20, 147) # Dieproze
+b = (105, 105, 105) # Donkergrijs
+a = (255, 255, 255) # Wit
 
 afbeelding = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Krab
+title: Cactus
 ---
 
-![Een raster met 8 x 8 vierkanten dat een krab toont.](images/crab.png)
+![Een cactus wordt getoond in een raster met 8 x 8 vierkanten.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Gemaakt door team 6TETHASI, Nederland
+
+```python
 a = (255, 255, 255) # Wit
 c = (0, 0, 0) # Zwart
-v = (255, 0, 0) # Rood
+n = (154, 205, 50) # Geelgroen
+q = (255, 255, 0) # Geel
+t = (255, 140, 0) # Donkeroranje
 
-afbeelding = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+afbeelding = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -167,14 +152,10 @@ afbeelding = [
 title: Krokodil
 ---
 
-![Een raster met 8 x 8 vierkanten dat een krokodil toont.](images/croc.png)
+![Een raster met 8 x 8 vierkanten dat het hoofd van een krokodil toont.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
+
 a = (255, 255, 255) # Wit
 c = (0, 0, 0) # Zwart
 f = (25, 25, 112) # Middernachtblauw
@@ -190,74 +171,73 @@ afbeelding = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
+```
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Slang
+title: Regenboog
 ---
 
-![Een raster met 8 x 8 vierkanten dat een slang toont.](images/snake.png)
+![Een regenboog wordt getoond in een raster van 8 x 8 vierkanten.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Zwart
- m = (34, 139, 34) # Bosgroen
- q = (255, 255, 0) # Geel
- v = (255, 0, 0) # Rood
+Gemaakt door team camrus_6, Verenigd Koninkrijk
 
-afbeelding = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
+```python
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Kikker
----
-
-![Een raster met 8 x 8 vierkanten dat een kikker toont.](images/frog.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Zwart
-m = (34, 139, 34) # Bosgroen
-q = (255, 255, 0) # Geel
+c = (100, 149, 237) # Korenbloemblauw
+a = (255, 255, 255) # Wit
 v = (255, 0, 0) # Rood
+t = (255, 140, 0) # Donkeroranje
+q = (255, 255, 0) # Geel
+l = (0, 255, 127) # Lentegroen
+e = (0, 0, 205) # Middenblauw
+
+regenboog = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Draak
+---
+
+![Een draak wordt getoond in een raster van 8 x 8 vierkanten.](images/dragon.png)
+
+Gemaakt door team hwplucyr, Verenigd Koninkrijk
+
+```python
+
+b = (105, 105, 105) # Vaalgrijs
+c = (0, 0, 0) # Zwart
+d = (100, 149, 237) # Korenbloemblauw
+v = (255, 0, 0) # Rood
+z = (153, 50, 204) # Donkerorchidee
 
 afbeelding = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -267,34 +247,32 @@ afbeelding = [
 
 **Vind:** de lijn waar staat `# Toon de afbeelding` en voeg een coderegel toe om je afbeelding op de LED matrix te tonen:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # Wit
+c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # Middernachtblauw
+m = (34, 139, 34) # Bosgroen
+
 afbeelding = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Toon de afbeelding 
 sense.set_pixels(afbeelding)
 
---- /code ---
+```
 
 --- /task ---
 
 --- task ---
 
-Druk **Start** onderaan de editor om je afbeelding te zien op de LED-matrix.
+Druk **Run** onderaan de editor om je afbeelding te zien op de LED-matrix.
 
 --- /task ---
 
@@ -315,5 +293,12 @@ Mijn afbeelding wordt niet getoond:
 
 --- /task ---
 
+--- task ---
 
+**Sla je voortgang op**
 
+Nu dat je een beeld getoond hebt, kan je je programma opslaan op het Mission Starter project door de naam van je team, de namen van de teamleden en de klascode die je ontving in te geven. Je kan je programma nu opnieuw laden op eender welk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
+
+![Mission Zero opslaan-knop](images/savebutton_be.png)
+
+--- /task --- 

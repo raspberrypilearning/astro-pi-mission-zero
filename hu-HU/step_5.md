@@ -1,45 +1,25 @@
-## Küldd be a munkádat
+## Hogyan tovább: még több Astro Pi projekt
 
-Most már jelentkezhet a [Astro Pi Mission Zero](https://astro-pi.org/hu/mission-zero){:target="_blank"} kihívásra az Ön által írt kóddal.
+Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
-Van egy pár olyan szabály, amelynek a kódodnak meg kell felelnie ahhoz, hogy beküldhesd a Nemzetközi Űrállomáson való futtatásra. Ha a kódod betartja őket, akkor a **Sense HAT emulátor** alján a szabályok zölddel villannak fel, amikor futtatod a programodat.
+Ha elég magabiztosnak érzed magad, akár a Mission Space Labben is részt vehetsz. Alkossatok 2-6 fős csapatot, és dolgozzatok együtt, hogy megválaszoljatok egy valódi tudományos kérdést. Minden csapat, amely megfelelő programot küld be, meghívásra kerül egy virtuális beszélgetésre egy ESA-űrhajóssal az Astro Pi Kihívás ciklusának a végén.
 
-![A Mission Zero oldal, amely a jelentkezési feltételek ellenőrzését mutatja.](images/rules.png)
+Vagy kipróbálhatod valamelyik másik Sense HAT projektünket:
 
-**Tipp:** Teszteld a kódodat különféle színbeállításokkal (használd a színválasztót), hogy megyőződj róla, hogy a programod mindig helyesn fut.
++ Tudj meg többet a [Sense HAT-ről](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} és arról, mi másra képes
 
-Kérjük, győződj meg róla, hogy a munkád betartja a Mission Zero [hivatalos irányelveit](https://astro-pi.org/hu/mission-zero/guidelines){:target="_blank"}. Ha nem tartja be az irányelveket, a programod nem futhat majd a Nemzetközi Űrállomáson.
++ Hozz létre látványos [véletlenszerű csillogást](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} a Sense HAT LED-kijelzőjén
 
-Kérjük, ne használd az alábbiakat a csapatod nevében vagy a kódodban:
++ Készíts [ugráló űrhajós](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} játékot
 
-+ Bármi, ami törvényellenesnek, politikainak vagy érzékenynek értelmezhető
-+ Zászlók, mert azok politikailag érzékenynek tekinthetők
-+ Bármi, ami más személy kellemetlenségére vagy kárára utal
-+ Személyes adatok, pl. telefonszám, közösségi profilnév és e-mail cím
-+ Obszcén képek
-+ Speciális karakterek és emojik
-+ Rossz nyelvezet vagy káromkodás
++ Hívd ki barátaidat egy [golyólabirintus](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} játékra
 
---- task ---
++ Alkosd újra a klasszikus [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} játékot
 
-Írd be az osztálytermi kódodat a lenti mezőbe. A tanárod mondja meg majd a kódod.
+***
 
-![Osztálytermi kód és csapatnév beküldésére szolgáló űrlap](images/submission.png)
+A projektet önkéntesek fordították le:
 
-**A mentorok részére szóló jegyzetek** a [Bevezető](https://projects.raspberrypi.org/hu-HU/projects/astro-pi-mission-zero/0) lépésben találhatók meg.
+Péter Györök
 
---- /task ---
-
---- task ---
-
-Nyomd meg az **Csapatod hozzáadása** gombot a kódod beküldéséhez. Kérjük, figyelj rá, hogy a program beküldés után nem változtatható meg.
-
-A mentorod egy e-mailt kap majd a jelentkezésedről.
-
---- /task ---
-
---- task ---
-
-Ha szerenéd, akár meg is oszthatod a kódodhoz tartozó linket a közösségi médián, hogy elújságold az embereknek, hogy a kód, amit írtál, az űrben fog futni!
-
---- /task ---
+Az önkénteseknek köszönhetően lehetőséget biztosítunk az embereknek a világ minden tájáról, hogy saját nyelvükön tanulhassanak. Segíthetsz minél több ember elérésében, ha önkéntesen részt veszel a fordításban - további információ az [rpf.io/translate](https://rpf.io/translate) oldalon.

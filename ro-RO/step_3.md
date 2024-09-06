@@ -63,100 +63,86 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Pui
+title: Vulpe
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un pui într-un ou.](images/chick.png)
+![O grilă cu 8 x 8 pătrate care arată o față de vulpe.](images/fox_mz3.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-a = (255, 255, 255) # Alb
+Creat de echipa i_pupi, Italia
+
+```python
 c = (0, 0, 0) # Negru
-e = (0, 0, 205) # Albastru mediu
-q = (255, 255, 0) # Galben
+a = (255, 255, 255) # Alb
 t = (255, 140, 0) # Portocaliu închis
-w = (255, 192, 203) # Roz
 
 imagine = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
-
---- /code ---
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
+```
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Floare
+title: Elefant
 ---
 
-![O grilă cu 8 x 8 pătrate care arată o floare roz pe o tulpină verde.](images/flower.png)
+![O grilă cu 8 x 8 pătrate care arată un elefant.](images/elephant.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Creat de echipa ILiFanT, Finlanda
+
+```python
 c = (0, 0, 0) # Negru
-m = (34, 139, 34) # Verde pădure
-q = (255, 255, 0) # Galben
-t = (255, 140, 0) # Portocaliu închis
-y = (255, 20, 147) # Roz intens
+b = (105, 105, 105) # Gri închis
+a = (255, 255, 255) # Alb
 
 imagine = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
-
---- /code ---
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Crab
+title: Cactus
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un crab.](images/crab.png)
+![O grilă cu 8 x 8 pătrate care arată un cactus.](images/cactus.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+Creat de echipa 6TETHASI, Olanda
+
+```python
 a = (255, 255, 255) # Alb
 c = (0, 0, 0) # Negru
-v = (255, 0, 0) # Roșu
+n = (154, 205, 50) # GalbenVerde
+q = (255, 255, 0) # Galben
+t = (255, 140, 0) # Portocaliu închis
 
-imagine = [
-  c, a, a, c, a, a, c, c,
-  c, a, c, c, a, c, c, c,
-  c, v, c, c, v, c, c, c,
-  c, v, c, c, v, c, c, c,
-  v, v, v, v, v, c, v, v,
-  v, v, c, c, v, v, v, c,
-  v, v, v, v, v, c, v, v,
-  v, c, v, c, v, c, c, c]
+imagine = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -168,12 +154,7 @@ title: Crocodil
 
 ![O grilă cu 8 x 8 pătrate care arată un cap de crocodil.](images/croc.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
+```python
 a = (255, 255, 255) # Alb
 c = (0, 0, 0) # Negru
 f = (25, 25, 112) # Bleumarin
@@ -189,74 +170,73 @@ imagine = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
---- /code ---
+```
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Şarpe
+title: Curcubeu
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un șarpe.](images/snake.png)
+![O grilă cu 8 x 8 pătrate care arată un curcubeu.](images/rainbow.png)
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
- c = (0, 0, 0) # Negru
- m = (34, 139, 34) # Verde pădure
- q = (255, 255, 0) # Galben
- v = (255, 0, 0) # Roșu
+Creat de echipă camrus_6, Marea Britanie
 
-imagine = [
-  c, c, c, c, c, c, c, m,
-  c, m, m, m, m, m, m, m,
-  c, m, c, c, c, c, c, c,
-  c, m, m, m, m, m, c, c,
-  c, c, c, c, c, m, c, c,
-  q, m, q, m, m, m, c, c,
-  m, m, m, c, c, c, c, c,
-  v, c, c, c, c, c, c, c]
+```python
 
---- /code ---
-
---- /collapse ---
-
---- collapse ---
----
-title: Broască
----
-
-![O grilă cu 8 x 8 pătrate care arată o broască.](images/frog.png)
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-c = (0, 0, 0) # Negru
-m = (34, 139, 34) # Verde pădure
-q = (255, 255, 0) # Galben
+c = (100, 149, 237) # Floarea de colțAlbastru
+a = (255, 255, 255) # Alb
 v = (255, 0, 0) # Roșu
+t = (255, 140, 0) # Portocaliu închis
+q = (255, 255, 0) # Galben
+l = (0, 255, 127) # VerdePrimăvară
+e = (0, 0, 205) # Albastru mediu
+
+curcubeu = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Dragon
+---
+
+![O grilă cu 8 x 8 pătrate care arată un dragon.](images/dragon.png)
+
+Creat de echipă hwplucyr, Marea Britanie
+
+```python
+
+b = (105, 105, 105) # GriȘters
+c = (0, 0, 0) # Negru
+d = (100, 149, 237) # Floarea de colțAlbastru
+v = (255, 0, 0) # Roșu
+z = (153, 50, 204) # OrhideeÎntunecată
 
 imagine = [
-  c, m, m, m, c, m, m, m,
-  c, m, q, m, c, m, q, m,
-  m, m, m, m, m, m, m, m,
-  m, v, v, v, v, v, v, v,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, m, m, m, c, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
---- /code ---
+```
 
 --- /collapse ---
 
@@ -266,28 +246,26 @@ imagine = [
 
 **Găsește:** linia care spune `# Afișează imaginea` și adaugă o linie de cod pentru a afișa imaginea ta pe matricea LED:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 12
----
+```python
+a = (255, 255, 255) # Alb
+c = (0, 0, 0) # Negru
+f = (25, 25, 112) # Bleumarin
+m = (34, 139, 34) # Verde pădure
+
 imagine = [
-  c, c, c, q, q, q, c, c,
-  c, c, t, q, e, q, c, c,
-  c, c, c, q, q, q, c, c,
-  c, w, w, w, w, w, w, c,
-  c, w, a, a, a, a, w, c,
-  c, w, a, a, a, a, w, c,
-  c, c, w, a, a, w, c, c,
-  c, c, c, w, w, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 # Afișează imaginea 
 sense.set_pixels(imagine)
 
---- /code ---
+```
 
 --- /task ---
 
@@ -315,4 +293,12 @@ Imaginea mea nu apare:
 --- /task ---
 
 
+--- task ---
 
+**Salvează-ți progresul**
+
+Acum că ai afișat o imagine, poți salva programul tău în proiectul Mission Starter introducând numele echipei tale, numele membrilor echipei şi codul de clasă care vi s-a dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
+
+![Butonul Mission Zero Salvare](images/savebutton_ro.png)
+
+--- /task --- 

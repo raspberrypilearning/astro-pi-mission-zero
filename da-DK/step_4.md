@@ -1,10 +1,10 @@
-## Sense en farve
+## Fornem en farve
 
 I dette trin vil du lære at indstille farvelysstyrkesensoren og bruge den til at 'fornemme' mængden af rød, grøn og blå, der rammer sensoren. Denne farve vil derefter blive brugt til at farve med i dit valgte billede. En astronaut, der går op til sensoren i en blå skjorte, vil se et andet billede end en astronaut i en rød skjorte.
 
 ![billede vist med en lyserød baggrund på LED-matrixen](images/colour_background.png)
 
-[[[generic-theory-colours]]]
+Uanset hvilket billede du vælger, bruger baggrunden `c` -variablen, som er sat til sort.
 
 --- task ---
 
@@ -20,28 +20,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 9, 10
 ---
+
 # Tilføj farvevariabler og billede
 
+a = (255, 255, 255) # Hvid
 c = (0, 0, 0) # Sort
+f = (25, 25, 112) # Midnatsblå
 m = (34, 139, 34) # Skovgrøn
-q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mørk orange
-y = (255, 20, 147) # Dyb lysserød
 
 rgb = sense.color # få farven fra sensoren
 c = (rgb.red, rgb.green, rgb.blue) # brug den opfangede farve
 
 billede = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
 
 --- /code ---
 
@@ -76,22 +77,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 1
+line_highlights: 2
 ---
+
 for i in range(28):
 rgb = sense.color # få farven fra sensoren
 c = (rgb.red, rgb.green, rgb.blue)
 
 billede = [
-  c, c, y, y, y, y, c, c,
-  c, y, y, t, t, y, y, c,
-  y, y, t, q, q, t, y, y,
-  c, y, y, t, t, y, y, c,
-  c, c, y, y, y, y, c, c,
-  m, c, c, m, m, c, c, m,
-  c, m, m, m, m, m, m, c,
-  c, c, c, m, m, c, c, c]
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
+  
 --- /code ---
 
 --- /task ---
@@ -100,7 +103,7 @@ billede = [
 
 Du skal nu indrykke al din kode under `for`-løkken, så den er **inde under** `for` løkken.
 
-**Tip:** For at indrykke flere linjer skal du fremhæve de linjer, du vil indrykke og derefter trykke på <kbd>Tab</kbd> -tasten på dit tastatur (normalt over <kbd>Caps Lock</kbd> -tasten på tastaturet).
+**Tip:** For at indrykke flere linjer skal du fremhæve de linjer, du vil indrykke og derefter trykke på <kbd>Tab</kbd>-tasten på dit tastatur (normalt over <kbd>Caps Lock</kbd> -tasten på tastaturet).
 
 --- code ---
 ---
@@ -108,26 +111,28 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2 - 17
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 ---
+
 for i in range(28):
   rgb = sense.color # få farven fra sensoren
   c = (rgb.red, rgb.green, rgb.blue)
 
   billede = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
     
   # Vis billedet
 
   sense.set_pixels(billede)
-
+ 
 --- /code ---
 
 --- /task ---
@@ -142,13 +147,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 4
+line_highlights: 5
 ---
+  
   # Vis billedet
 
   sense.set_pixels(billede)
   sleep(1)  
-
+  
 --- /code ---
 
 **Tip:** Sørg for, at denne kodelinje er indrykket i din `for`-løkke.
@@ -183,7 +189,7 @@ Min kode kører i mere end 30 sekunder:
 
 --- task ---
 
-Tilføj `sense.clear ()` i slutningen af din kode for at resette billedet i slutningen af din løkke. Dette vil hjælpe dig med at se, når din animation er færdig med at køre.
+Tilføj `sense.clear()` i slutningen af din kode for at resette billedet i slutningen af din løkke. Dette vil hjælpe dig med at se, når din animation er færdig med at køre.
 
 **Tip:** Sørg for, at du **ikke** indrykker `sense.clear()` kodelinjen, da du gerne vil have, at den kun skal køre én gang i slutningen af din animation.
 
@@ -193,15 +199,16 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6
+line_highlights: 7
 ---
+  
   # Vis billedet
 
   sense.set_pixels(billede)
   sleep(1) 
   
 sense.clear()
-
+  
 --- /code ---
 
 --- /task ---
@@ -218,7 +225,7 @@ sense.clear()
 
 LED-matrixen bliver sort hvert sekund:
 
-- Tjek, at du ikke har indrykket `sense.clear()` -koden i din `for` -løkke
+- Tjek, at du ikke har indrykket `sense.clear()`-koden i din `for`-løkke
 
 --- /task ---
 
@@ -226,7 +233,7 @@ LED-matrixen bliver sort hvert sekund:
 
 Tilføj kode for at resette LED-matrixen til en farve efter eget valg. Opret en variabel kaldet `x` til at gemme din nye farve.
 
-Du kan blande din egen farve eller bruge værdierne fra farvelisten til at oprette din nye `x`farve.
+Du kan blande din egen farve eller bruge værdierne fra farvelisten til at oprette din nye `x` farve.
 
 [[[generic-theory-simple-colours]]] 
 [[[ambient-colours]]]
@@ -237,8 +244,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1 
-line_highlights: 6-7
+line_highlights: 7, 8
 ---
+  
   # Vis billedet
 
   sense.set_pixels(billede)
@@ -246,7 +254,7 @@ line_highlights: 6-7
 
 x = (178, 34, 34)  # vælg dine egne røde, grønne eller blå værdier mellem 0 - 255
 sense.clear(x)
-
+  
 --- /code ---
 
 --- /task ---
@@ -259,13 +267,24 @@ sense.clear(x)
 
 --- task ---
 
+**Gem dine fremskridt**
+
+Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamnavn, teammedlemmers navne og klasseværelseskoden, som du har fået. Du kan genindlæse dit program på enhver enhed med internetforbindelse ved at indtaste dit teamnavn og klasseværelseskode.
+
+![Mission Zero Gem-knap skærmbillede](images/savebutton_dk.png)
+
+--- /task ---
+
+
+--- task ---
+
 --- collapse ---
 
 ---
 title: Fuldført kodeeksempel
 ---
 
-![Et gitter med 8 x 8 firkanter, der viser en lyserød blomst på en grøn stilk.](images/flower.png)
+![Et gitter med 8 x 8 kvadrater, der viser en krokodille.](images/croc.png)
 
 --- code ---
 ---
@@ -287,25 +306,25 @@ sense.color.integration_cycles = 64 # Intervallet, som aflæsningen vil blive ta
 
 # Tilføj farvevariabler og billede
 
+a = (255, 255, 255) # Hvid
 c = (0, 0, 0) # Sort
+f = (25, 25, 112) # Midnatsblå
 m = (34, 139, 34) # Skovgrøn
-q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mørk orange
-y = (255, 20, 147) # Dyb lysserød
 
 for i in range(28):
   rgb = sense.color # få farven fra sensoren
   c = (rgb.red, rgb.green, rgb.blue)
 
   billede = [
-    c, c, y, y, y, y, c, c,
-    c, y, y, t, t, y, y, c,
-    y, y, t, q, q, t, y, y,
-    c, y, y, t, t, y, y, c,
-    c, c, y, y, y, y, c, c,
-    m, c, c, m, m, c, c, m,
-    c, m, m, m, m, m, m, c,
-    c, c, c, m, m, c, c, c]
+    m, m, m, m, m, c, c, c,
+    m, f, m, f, m, m, m, m,
+    m, m, m, m, m, m, m, m,
+    m, m, c, a, c, c, c, a,
+    m, m, c, c, c ,c ,c ,c,
+    m, m, c, c, c, a, c, c,
+    m, m, m, m, m, m, m, m,
+    m, m, m, m, m, m, m, m]
+
 
   # Vis billedet
 
