@@ -271,7 +271,7 @@ sense.clear(x)
 
 Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Posnetek zaslona gumba za shranjevanje Mission Zero](images/save_button.png)
+![Posnetek zaslona gumba za shranjevanje Mission Zero](images/savebutton_sl.png)
 
 --- /task ---
 
