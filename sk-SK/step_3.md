@@ -10,7 +10,7 @@ LED matrica počítača Astro Pi môže zobrazovať farby. V tomto kroku zobraz�
 
 --- task ---
 
-Otvor [úvodný projekt Mission Zero](https://missions.astro-pi.org/sk/mz/code_submissions/new){:target="_blank"}.
+Otvor [úvodný projekt Mission Zero](https://missions.astro-pi.org/sk/mz/code_submissions/){:target="_blank"}.
 
 Automaticky sa ti pridá niekoľko riadkov kódu.
 
