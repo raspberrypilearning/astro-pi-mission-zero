@@ -10,7 +10,7 @@ En <span style="color: #0faeb0">**LED-matrise**</span> er et rutenett av LED-pæ
 
 --- task ---
 
-Åpne [Mission Zero startprosjektet](https://missions.astro-pi.org/nb/mz/code_submissions/new){:target="_blank"}.
+Åpne [Mission Zero startprosjektet](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Du vil se at et par kodelinjer er lagt til automatisk for deg.
 

@@ -10,7 +10,7 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Open the [Mission Zero starter project](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 

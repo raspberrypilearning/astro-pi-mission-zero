@@ -10,7 +10,7 @@ LED matrika računalnika Astro Pi lahko prikazuje barve. V tem koraku boste prik
 
 --- task ---
 
-Odprite začetni projekt [Mission Zero](https://missions.astro-pi.org/sl/mz/code_submissions/new){:target="_blank"}.
+Odprite začetni projekt [Mission Zero](https://missions.astro-pi.org/sl/mz/code_submissions/){:target="_blank"}.
 
 Opazili boste, da je bilo nekaj vrstic kode dodanih samodejno.
 

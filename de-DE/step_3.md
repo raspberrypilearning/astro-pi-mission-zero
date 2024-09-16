@@ -10,7 +10,7 @@ Eine <span style="color: #0faeb0">**LED-Matrix**</span> ist ein Raster von LEDs,
 
 --- task ---
 
-Öffne das [Mission Zero-Starterprojekt](https://missions.astro-pi.org/de/mz/code_submissions/new){:target="_blank"}.
+Öffne das [Mission Zero-Starterprojekt](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Du wirst sehen, dass einige Zeilen Code bereits automatisch erscheinen.
 

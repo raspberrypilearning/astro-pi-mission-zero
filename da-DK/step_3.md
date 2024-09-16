@@ -10,7 +10,7 @@ En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder,
 
 --- task ---
 
-Åbn [Mission Zero startprojektet](https://missions.astro-pi.org/da/mz/code_submissions/new){:target="_blank"}.
+Åbn [Mission Zero startprojektet](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Her kan du se, at der automatisk er blevet tilføjet tre linjer kode for dig.
 
