@@ -10,7 +10,7 @@ Diody LED Astro Pi mogą świecić się na kolorowo. W tym kroku będziesz wyśw
 
 --- task ---
 
-Otwórz [Projekt startowy Mission Zero](https://missions.astro-pi.org/pl/mz/code_submissions/new){:target="_blank"}.
+Otwórz [Projekt startowy Mission Zero](https://missions.astro-pi.org/pl/mz/code_submissions/){:target="_blank"}.
 
 Zobaczysz, że kilka linijek kodu zostało dla Ciebie dodanych automatycznie.
 
