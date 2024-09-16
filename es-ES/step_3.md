@@ -10,7 +10,7 @@ Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de
 
 --- task ---
 
-Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/es/mz/code_submissions/new){:target="_blank"} para el proyecto Mission Zero.
+Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"} para el proyecto Mission Zero.
 
 Comprobarás que se han añadido automáticamente unas líneas de código.
 
