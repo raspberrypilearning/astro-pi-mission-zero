@@ -81,18 +81,18 @@ line_highlights: 2
 ---
 
 for i in range(28):
-  rgb = sense.color # get the colour from the sensor
-  c = (rgb.red, rgb.green, rgb.blue)
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue)
 
-  image = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
   
 --- /code ---
