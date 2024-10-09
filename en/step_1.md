@@ -31,5 +31,3 @@ Organise your young people into teams of one to four, and let us guide them thro
 Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
-
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
