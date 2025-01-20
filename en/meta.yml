@@ -16,3 +16,5 @@ steps:
   completion:
   - internal
 - title: What next — more Astro Pi projects
+  completion:
+  - external
