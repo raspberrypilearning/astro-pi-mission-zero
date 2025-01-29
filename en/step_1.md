@@ -16,7 +16,7 @@ You will use the Astro Pi emulator in a web browser to create your program. You 
 
 You will learn about the Astro Pi computer and how to control it, including how to:
 + Create colour **variables** to use in your image
-+ Design and display an image on the Sense HAT
++ Design and display a pixelart image on the Sense HAT
 + Sense the colour of light on board the ISS 
 
 --- collapse ---
