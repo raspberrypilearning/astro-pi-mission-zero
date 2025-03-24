@@ -195,7 +195,7 @@ q = (255, 255, 0) # Yellow
 l = (0, 255, 127) # SpringGreen
 e = (0, 0, 205) # MediumBlue
 
-rainbow = [
+image = [
   c, c, c, c, c, c, c, c, 
   v, v, v, v, c, c, c, c,
   t, t, t, t, v, v, c, c,
