@@ -247,26 +247,34 @@ image = [
 
 **Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
 
-```python
-a = (255, 255, 255) # White
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 258
+line_highlights: 274-276
+---
+b = (105, 105, 105) # DimGray
 c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+d = (100, 149, 237) # CornflowerBlue
+v = (255, 0, 0) # Red
+z = (153, 50, 204) # DarkOrchid
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
-# Display the image 
+# Display the image
 sense.set_pixels(image)
 
-```
+--- /code ---
 
 --- /task ---
 
