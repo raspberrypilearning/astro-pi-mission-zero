@@ -252,8 +252,8 @@ image = [
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 258
-line_highlights: 274-276
+line_number_start: 1
+line_highlights: 16, 17
 ---
 b = (105, 105, 105) # DimGray
 c = (0, 0, 0) # Black
