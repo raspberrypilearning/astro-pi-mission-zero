@@ -297,11 +297,10 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 18, 19
 ---
-b = (105, 105, 105) # DimGray
-c = (0, 0, 0) # Black
-d = (100, 149, 237) # CornflowerBlue
-v = (255, 0, 0) # Red
-z = (153, 50, 204) # DarkOrchid
+n = (204, 0, 204) # magenta
+y = (255, 255, 0) # yellow
+b = (51, 153, 255) # blue
+k = (0, 0, 0) # black
 
 image = [
   b, b, n, b, b, b, b, b,
