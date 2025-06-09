@@ -304,14 +304,14 @@ v = (255, 0, 0) # Red
 z = (153, 50, 204) # DarkOrchid
 
 image = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+  b, b, n, b, b, b, b, b,
+  b, b, b, n, n, b, b, b,
+  n, b, y, y, y, y, b, b,
+  n, n, y, y, y, k, y, b,
+  n, n, n, y, y, y, y, b,
+  n, n, y, y, y, y, y, b,
+  n, b, y, n, n, y, b, b,
+  b, b, b, n, b, b, b, b,]
 
 # Display the image
 sense.set_pixels(image)
