@@ -225,7 +225,7 @@ title: Kite
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
 
-Created by team Slepicky, Czech Republic
+Created by team Val, Greece
 
 ```python
 
@@ -257,7 +257,7 @@ title: Chicken
 
 ![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
 
-Created by team Val, Greece
+Created by team Slepicky, Czech Republic
 
 ```python
 
