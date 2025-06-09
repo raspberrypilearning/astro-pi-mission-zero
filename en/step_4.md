@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Add colour variables and image
 
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+n = (204, 0, 204) # magenta
+y = (255, 255, 0) # yellow
+b = (51, 153, 255) # blue
+k = (0, 0, 0) # black
 
 rgb = sense.color # get the colour from the sensor
-c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+b = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+b, b, n, b, b, b, b, b,
+b, b, b, n, n, b, b, b,
+n, b, y, y, y, y, b, b,
+n, n, y, y, y, k, y, b,
+n, n, n, y, y, y, y, b,
+n, n, y, y, y, y, y, b,
+n, b, y, n, n, y, b, b,
+b, b, b, n, b, b, b, b,]
 
 
 --- /code ---
@@ -82,17 +82,17 @@ line_highlights: 2
 
 for i in range(28):
 rgb = sense.color # get the colour from the sensor
-c = (rgb.red, rgb.green, rgb.blue)
+b = (rgb.red, rgb.green, rgb.blue)
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+b, b, n, b, b, b, b, b,
+b, b, b, n, n, b, b, b,
+n, b, y, y, y, y, b, b,
+n, n, y, y, y, k, y, b,
+n, n, n, y, y, y, y, b,
+n, n, y, y, y, y, y, b,
+n, b, y, n, n, y, b, b,
+b, b, b, n, b, b, b, b,]
 
   
 --- /code ---
@@ -116,17 +116,17 @@ line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
-  c = (rgb.red, rgb.green, rgb.blue)
+  b = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+  b, b, n, b, b, b, b, b,
+  b, b, b, n, n, b, b, b,
+  n, b, y, y, y, y, b, b,
+  n, n, y, y, y, k, y, b,
+  n, n, n, y, y, y, y, b,
+  n, n, y, y, y, y, y, b,
+  n, b, y, n, n, y, b, b,
+  b, b, b, n, b, b, b, b,]
 
     
   # Display the image
@@ -314,17 +314,17 @@ m = (34, 139, 34) # ForestGreen
 
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
-  c = (rgb.red, rgb.green, rgb.blue)
+  b = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    b, b, n, b, b, b, b, b,
+    b, b, b, n, n, b, b, b,
+    n, b, y, y, y, y, b, b,
+    n, n, y, y, y, k, y, b,
+    n, n, n, y, y, y, y, b,
+    n, n, y, y, y, y, y, b,
+    n, b, y, n, n, y, b, b,
+    b, b, b, n, b, b, b, b,]
 
 
   # Display the image
