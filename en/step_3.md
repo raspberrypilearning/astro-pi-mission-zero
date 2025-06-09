@@ -71,20 +71,20 @@ title: Fish
 Created by team chalka, Poland
 
 ```python
-n = (204, 0, 204) # magenta
-y = (255, 255, 0) # yellow
-b = (51, 153, 255) # blue
+z = (204, 0, 204) # magenta
+q = (255, 255, 0) # yellow
+d = (51, 153, 255) # blue
 c = (0, 0, 0) # black
 
 image = [
-b, b, n, b, b, b, b, b,
-b, b, b, n, n, b, b, b,
-n, b, y, y, y, y, b, b,
-n, n, y, y, y, c, y, b,
-n, n, n, y, y, y, y, b,
-n, n, y, y, y, y, y, b,
-n, b, y, n, n, y, b, b,
-b, b, b, n, b, b, b, b,]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -102,21 +102,21 @@ title: Walrus
 Created by team Walrus, Finland
 
 ```python
- k = (0, 255, 255)
- c = (0, 0, 0)
- r = (139, 69, 19)
- w = (255, 255, 255)
- y = (184, 134, 11)   
+h = (0, 255, 255)
+c = (0, 0, 0)
+s = (139, 69, 19)
+a = (255, 255, 255)
+r = (184, 134, 11)   
 
- image = [
- h, h, h, h, h, h, h, h,
- h, h, r, r, r, h, h, h,
- h, r, r, r, r, r, h, h,
- h, r, c, r, c, r, r, r,
- h, y, y, y, y, y, r, r,
- h, k, w, r, w, r, r, r,
- h, k, w, r, w, r, r, r,
- y, y, r, r, r, r, r, r]
+image = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -132,21 +132,21 @@ title: Paxi
 Created by team tony_pi, Italy
 
 ```python
-p = (255, 0, 0) # Red
-d = (34, 139, 34) # ForestGreen
+v = (255, 0, 0) # Red
+j = (34, 139, 34) # ForestGreen
 c = (0, 0, 0) # Black 
-b = (100, 149, 237) # CornflowerBlue
-g = (0, 255, 0) # Green
+e = (100, 149, 237) # CornflowerBlue
+l = (0, 255, 0) # Green
 
 image = [
-  c, p, d, c, c, d, p, c,
-	c, c, p, p, p, p, c, c,
-	c, p, c, b, g, b, p, c,
-	c, p, c, g, g, g, p, c,
-	c, p, c, g, c, g, p, c,
-	c, c, p, p, p, p, c, c,
-	c, c, g, c, c, g, c, c,
-	c, d, d, c, c, d, d, c]
+    c, v, j, c, c, j, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, j, j, c, c, j, j, c]
 
 ```
 
@@ -164,19 +164,20 @@ Created by team ptpr_07, Spain
 ```python
 
 c = (0, 0, 0) # Black
-d = (86, 71, 0) # Light Brown
-o = (123, 61, 0) # Orange Brown
-g = (155, 0, 134) # Deep Pink
+r = (86, 71, 0) # Light Brown
+s = (123, 61, 0) # Orange Brown
+y = (155, 0, 134) # Deep Pink
 
 image = [
-    c, d, d, c, c, d, d, c,
-    c, d, o, o, o, o, d, c,
-    c, d, c, o, o, c, d, c,
-    c, o, o, o, o, o, o, c,
-    c, o, o, o, o, o, o, c,
-    c, o, o, c, c, o, o, c,
-    c, c, o, g, g, o, c, c,
-    c, c, c, g, g, c, c, c]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
 
 ```
  
@@ -194,25 +195,25 @@ Created by team The_ETs, United Kingdom
 ```python
 
 c = (0, 0, 0) # Black
-b = (95, 65, 0) # Brown
-w = (255, 255, 255) # white
-r = (255, 0, 0) # Red
-o = (255, 153, 28) # Orange
-y = (255, 255, 0) # Yellow
-g = (0, 255, 0) # Green
-c = (0, 255, 255) # Cyan
-p = (128, 0, 255) # Purple
-m = (191, 0, 255) # Magenta
+s = (95, 65, 0) # Brown
+a = (255, 255, 255) # white
+v = (255, 0, 0) # Red
+t = (255, 153, 28) # Orange
+q = (255, 255, 0) # Yellow
+m = (0, 255, 0) # Green
+h = (0, 255, 255) # Cyan
+z = (128, 0, 255) # Purple
+y = (191, 0, 255) # Magenta
 
 image = [
-    w, w, r, r, o, w, w, w,
-    w, r, r, o, o, y, w, w,
-    r, c, o, o, y, y, g, w,
-    r, o, o, y, y, g, g, c,
-    b, b, y, b, b, g, b, c,
-    w, w, w, w, w, w, w, p,
-    w, w, w, w, m, w, w, p,
-    w, w, w, w, w, m, p, w]
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -230,18 +231,18 @@ Created by team Val, Greece
 ```python
 
 c = (0, 0, 0) # Black
-g = (0, 255, 0) # Green
-r = (255, 0, 0) # Red
-y = (255, 255, 0) # Yellow
-b = (0, 0, 255) # Blue
+m = (0, 255, 0) # Green
+v = (255, 0, 0) # Red
+q = (255, 255, 0) # Yellow
+e = (0, 0, 255) # Blue
 h = (0, 255, 255) # Cyan
 
 image = [
     h, h, h, h, h, h, h, h, 
-    h, h, h, b, b, r, r, h, 
-    h, h, h, b, b, r, r, h, 
-    h, h, h, y, y, g, g, h, 
-    h, h, h, y, y, g, g, h,
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
     h, h, c, h, h, h, h, h, 
     h, c, h, h, h, h, h, h, 
     c, h, h, h, h, h, h, h]
@@ -262,22 +263,22 @@ Created by team Slepicky, Czech Republic
 ```python
 
 w = (255, 255, 255) #  White                                                    			
-r = (255, 0, 0) # Red
+v = (255, 0, 0) # Red
 c = (0, 0, 0) # Black
-q = (105, 105, 105) # Light Grey
-y = (255, 255, 0) # Yellow
-z = (79, 79, 79) # Dark Grey
+b = (105, 105, 105) # Light Grey
+q = (255, 255, 0) # Yellow
+k = (79, 79, 79) # Dark Grey
 
 
 image =  [
-    w, w, r, r, r, w, w, w,
-    w, r, q, q, z, w, w, z,
-    w, q, c, q, q, w, z, q,
-    y, z, q, q, q, q, q, z,
-    w, r, q, q, q, q, z, q,
-    w, r, q, z, z, z, q, z,
-    w, w, w, z, q, y, z, w,
-    w, w, w, w, y, y, w, w]
+    a, a, v, v, v, a, a, a,
+    a, v, b, b, k, a, a, k,
+    a, b, c, b, b, a, k, b,
+    q, k, b, b, b, b, b, k,
+    a, v, b, b, b, b, k, b,
+    a, v, b, k, k, k, b, k,
+    a, a, a, k, b, q, k, a,
+    a, a, a, a, q, q, a, a]
 
 ```
 
@@ -297,20 +298,20 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 18, 19
 ---
-n = (204, 0, 204) # magenta
-y = (255, 255, 0) # yellow
-b = (51, 153, 255) # blue
+z = (204, 0, 204) # magenta
+q = (255, 255, 0) # yellow
+d = (51, 153, 255) # blue
 c = (0, 0, 0) # black
 
 image = [
-  b, b, n, b, b, b, b, b,
-  b, b, b, n, n, b, b, b,
-  n, b, y, y, y, y, b, b,
-  n, n, y, y, y, c, y, b,
-  n, n, n, y, y, y, y, b,
-  n, n, y, y, y, y, y, b,
-  n, b, y, n, n, y, b, b,
-  b, b, b, n, b, b, b, b,]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 # Display the image
 sense.set_pixels(image)
