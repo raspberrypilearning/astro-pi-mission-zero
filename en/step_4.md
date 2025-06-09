@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Add colour variables and image
 
-n = (204, 0, 204) # magenta
-y = (255, 255, 0) # yellow
-b = (51, 153, 255) # blue
+z = (204, 0, 204) # magenta
+q = (255, 255, 0) # yellow
+d = (51, 153, 255) # blue
 c = (0, 0, 0) # black
 
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
-b, b, n, b, b, b, b, b,
-b, b, b, n, n, b, b, b,
-n, b, y, y, y, y, b, b,
-n, n, y, y, y, c, y, b,
-n, n, n, y, y, y, y, b,
-n, n, y, y, y, y, y, b,
-n, b, y, n, n, y, b, b,
-b, b, b, n, b, b, b, b,]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 image = [
-b, b, n, b, b, b, b, b,
-b, b, b, n, n, b, b, b,
-n, b, y, y, y, y, b, b,
-n, n, y, y, y, c, y, b,
-n, n, n, y, y, y, y, b,
-n, n, y, y, y, y, y, b,
-n, b, y, n, n, y, b, b,
-b, b, b, n, b, b, b, b,]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-  b, b, n, b, b, b, b, b,
-  b, b, b, n, n, b, b, b,
-  n, b, y, y, y, y, b, b,
-  n, n, y, y, y, c, y, b,
-  n, n, n, y, y, y, y, b,
-  n, n, y, y, y, y, y, b,
-  n, b, y, n, n, y, b, b,
-  b, b, b, n, b, b, b, b,]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Display the image
@@ -307,9 +307,9 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 # Add colour variables and image
 
-n = (204, 0, 204) # magenta
-y = (255, 255, 0) # yellow
-b = (51, 153, 255) # blue
+z = (204, 0, 204) # magenta
+q = (255, 255, 0) # yellow
+d = (51, 153, 255) # blue
 c = (0, 0, 0) # black
 
 for i in range(28):
@@ -317,14 +317,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    b, b, n, b, b, b, b, b,
-    b, b, b, n, n, b, b, b,
-    n, b, y, y, y, y, b, b,
-    n, n, y, y, y, c, y, b,
-    n, n, n, y, y, y, y, b,
-    n, n, y, y, y, y, y, b,
-    n, b, y, n, n, y, b, b,
-    b, b, b, n, b, b, b, b,]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Display the image
