@@ -28,16 +28,16 @@ line_highlights: 9, 10
 n = (204, 0, 204) # magenta
 y = (255, 255, 0) # yellow
 b = (51, 153, 255) # blue
-k = (0, 0, 0) # black
+c = (0, 0, 0) # black
 
 rgb = sense.color # get the colour from the sensor
-b = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
 b, b, n, b, b, b, b, b,
 b, b, b, n, n, b, b, b,
 n, b, y, y, y, y, b, b,
-n, n, y, y, y, k, y, b,
+n, n, y, y, y, c, y, b,
 n, n, n, y, y, y, y, b,
 n, n, y, y, y, y, y, b,
 n, b, y, n, n, y, b, b,
@@ -82,13 +82,13 @@ line_highlights: 2
 
 for i in range(28):
 rgb = sense.color # get the colour from the sensor
-b = (rgb.red, rgb.green, rgb.blue)
+c = (rgb.red, rgb.green, rgb.blue)
 
 image = [
 b, b, n, b, b, b, b, b,
 b, b, b, n, n, b, b, b,
 n, b, y, y, y, y, b, b,
-n, n, y, y, y, k, y, b,
+n, n, y, y, y, c, y, b,
 n, n, n, y, y, y, y, b,
 n, n, y, y, y, y, y, b,
 n, b, y, n, n, y, b, b,
@@ -116,13 +116,13 @@ line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
-  b = (rgb.red, rgb.green, rgb.blue)
+  c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
   b, b, n, b, b, b, b, b,
   b, b, b, n, n, b, b, b,
   n, b, y, y, y, y, b, b,
-  n, n, y, y, y, k, y, b,
+  n, n, y, y, y, c, y, b,
   n, n, n, y, y, y, y, b,
   n, n, y, y, y, y, y, b,
   n, b, y, n, n, y, b, b,
@@ -307,20 +307,20 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 # Add colour variables and image
 
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+n = (204, 0, 204) # magenta
+y = (255, 255, 0) # yellow
+b = (51, 153, 255) # blue
+c = (0, 0, 0) # black
 
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
-  b = (rgb.red, rgb.green, rgb.blue)
+  c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
     b, b, n, b, b, b, b, b,
     b, b, b, n, n, b, b, b,
     n, b, y, y, y, y, b, b,
-    n, n, y, y, y, k, y, b,
+    n, n, y, y, y, c, y, b,
     n, n, n, y, y, y, y, b,
     n, n, y, y, y, y, y, b,
     n, b, y, n, n, y, b, b,
