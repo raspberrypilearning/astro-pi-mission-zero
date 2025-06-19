@@ -31,5 +31,3 @@ Organizza i tuoi partecipanti in squadre da uno a quattro e lascia che li guidia
 Leggi le [le linee guida ufficiali](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} di Mission Zero.
 
 --- /collapse ---
-
-![Tracciamento dei pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
