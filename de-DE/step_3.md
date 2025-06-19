@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Drache
+title: Kite
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/kite.png)
@@ -224,20 +224,22 @@ Created by team Val, Greece
 
 ```python
 
-a = (255, 255, 255) # Weiß
-c = (0, 0, 0) # Schwarz
-f = (25, 25, 112) # Mitternachtsblau
-m = (34, 139, 34) # Waldgrün
+c = (0, 0, 0) # Black
+m = (0, 255, 0) # Green
+v = (255, 0, 0) # Red
+q = (255, 255, 0) # Yellow
+e = (0, 0, 255) # Blue
+h = (0, 255, 255) # Cyan
 
-bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+image = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -254,23 +256,23 @@ Created by team Slepicky, Czech Republic
 
 ```python
 
-a = (255, 255, 255) # Weiß
-c = (0, 0, 0) # Schwarz
-f = (25, 25, 112) # Mitternachtsblau
-m = (34, 139, 34) # Waldgrün
+w = (255, 255, 255) #  White                                                                
+v = (255, 0, 0) # Red
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # Light Grey
+q = (255, 255, 0) # Yellow
+k = (79, 79, 79) # Dark Grey
 
-bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
 
-# Das Bild anzeigen
-sense.set_pixels(bild)
+image =  [
+    a, a, v, v, v, a, a, a,
+    a, v, b, b, k, a, a, k,
+    a, b, c, b, b, a, k, b,
+    q, k, b, b, b, b, b, k,
+    a, v, b, b, b, b, k, b,
+    a, v, b, k, k, k, b, k,
+    a, a, a, k, b, q, k, a,
+    a, a, a, a, q, q, a, a]
 
 ```
 
