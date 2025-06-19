@@ -1,6 +1,6 @@
 ---
 title: 'Astro Pi: Mission Zero'
-hero_image: images/banner.png
+hero_image: images/MZ_banner_2024_V4.png
 description: Készülj fel a Mission Zeróra!
 listed: true
 copyedit: true
@@ -21,3 +21,5 @@ steps:
       - internal
   - 
     title: 'Hogyan tovább: még több Astro Pi projekt'
+    completion:
+      - external
