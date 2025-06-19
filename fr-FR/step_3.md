@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Arc-en-ciel
+title: Chameleon
 ---
 
 ![Une grille de 8 x 8 carrés représentant un arc-en-ciel.](images/chameleon.png)
@@ -188,24 +188,26 @@ Créé par l'équipe camrus_6, Royaume-Uni
 
 ```python
 
-c = (100, 149, 237) # Bleuet
-a = (255, 255, 255) # Blanc
-v = (255, 0, 0) # Rouge
-t = (255, 140, 0) # Orange foncé
-q = (255, 255, 0) # Jaune
-l = (0, 255, 127) # Vert printanier
-e = (0, 0, 205) # Bleu moyen
+c = (0, 0, 0) # Black
+s = (95, 65, 0) # Brown
+a = (255, 255, 255) # white
+v = (255, 0, 0) # Red
+t = (255, 153, 28) # Orange
+q = (255, 255, 0) # Yellow
+m = (0, 255, 0) # Green
+h = (0, 255, 255) # Cyan
+z = (128, 0, 255) # Purple
+y = (191, 0, 255) # Magenta
 
-arc-en-ciel = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+image = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -213,7 +215,7 @@ arc-en-ciel = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Kite
 ---
 
 ![Une grille de 8 x 8 cases représentant un dragon.](images/kite.png)
@@ -222,20 +224,22 @@ Created by team Val, Greece
 
 ```python
 
-a = (255, 255, 255) # Blanc
-c = (0, 0, 0) # Noir
-f = (25, 25, 112) # Bleu nuit
-m = (34, 139, 34) # Vert forêt
+c = (0, 0, 0) # Black
+m = (0, 255, 0) # Green
+v = (255, 0, 0) # Red
+q = (255, 255, 0) # Yellow
+e = (0, 0, 255) # Blue
+h = (0, 255, 255) # Cyan
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -252,23 +256,23 @@ Created by team Slepicky, Czech Republic
 
 ```python
 
-a = (255, 255, 255) # Blanc
-c = (0, 0, 0) # Noir
-f = (25, 25, 112) # Bleu nuit
-m = (34, 139, 34) # Vert forêt
+w = (255, 255, 255) #  White                                                                
+v = (255, 0, 0) # Red
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # Light Grey
+q = (255, 255, 0) # Yellow
+k = (79, 79, 79) # Dark Grey
 
-image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
 
-# Afficher l'image
-sense.set_pixels(image)
+image =  [
+    a, a, v, v, v, a, a, a,
+    a, v, b, b, k, a, a, k,
+    a, b, c, b, b, a, k, b,
+    q, k, b, b, b, b, b, k,
+    a, v, b, b, b, b, k, b,
+    a, v, b, k, k, k, b, k,
+    a, a, a, k, b, q, k, a,
+    a, a, a, a, q, q, a, a]
 
 ```
 
