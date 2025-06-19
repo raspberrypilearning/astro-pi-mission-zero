@@ -21,3 +21,5 @@ steps:
       - internal
   - 
     title: 'Qué sigue: más proyectos de Astro Pi'
+    completion:
+      - external
