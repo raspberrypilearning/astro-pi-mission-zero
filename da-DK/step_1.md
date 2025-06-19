@@ -31,5 +31,3 @@ Organiser de unge i hold på en til fire og lad os guide dem gennem at skrive et
 Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
-
-![Sporingspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
