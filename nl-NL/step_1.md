@@ -31,5 +31,3 @@ Groepeer de leerlingen in teams van maximaal vier en laat ons hen begeleiden bij
 Lees de [officiële richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero door.
 
 --- /collapse ---
-
-![Trackingpixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
