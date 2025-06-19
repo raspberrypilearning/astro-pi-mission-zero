@@ -31,5 +31,3 @@ Organiser ungdommene dine i lag på en til fire, og la oss lede dem gjennom å s
 Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
-
-![Sporingspiksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
