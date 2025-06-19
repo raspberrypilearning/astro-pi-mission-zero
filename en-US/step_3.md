@@ -10,7 +10,7 @@ An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can
 
 --- task ---
 
-Open the [Mission Zero starter project](http://rpf.io/mzcode){:target="_blank"}.
+Open the [Mission Zero starter project](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 You will see that a few lines of code have been added for you automatically.
 
@@ -57,27 +57,29 @@ You will need to **copy** all of the code for your chosen image then **paste** i
 --- collapse ---
 
 ---
-title: Fox
+title: Fish
 ---
 
-![A grid with 8 x 8 squares showing a fox face.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Created by team i_pupi, Italy
+Created by team chalka, Poland
 
 ```python
-c = (0, 0, 0) # Black
-a = (255, 255, 255) # white
-t = (255, 140, 0) # dark orange
+z = (204, 0, 204) # magenta
+q = (255, 255, 0) # yellow
+d = (51, 153, 255) # blue
+c = (0, 0, 0) # black
 
 image = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
+
 ```
 
 --- /collapse ---
@@ -86,85 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elephant
+title: Walrus
 ---
 
-![A grid with 8 x 8 squares showing an elephant.](images/elephant.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Created by team ILiFanT, Finland
+Created by team Walrus, Finland
 
 ```python
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # dark grey
-a = (255, 255, 255) # white
+h = (0, 255, 255)
+c = (0, 0, 0)
+s = (139, 69, 19)
+a = (255, 255, 255)
+r = (184, 134, 11)   
 
 image = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Cactus
----
-
-![A grid with 8 x 8 squares showing a cactus.](images/cactus.png)
-
-Created by team 6TETHASI, The Netherlands
-
-```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-n = (154, 205, 50) # YellowGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
-
-image = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
----
-title: Crocodile
----
-
-![A grid with 8 x 8 squares showing a crocodile head.](images/croc.png)
-
-```python
-
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
-
-image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -172,33 +118,60 @@ image = [
 
 --- collapse ---
 ---
-title: Rainbow
+title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing a rainbow.](images/rainbow.png)
+![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Created by team camrus_6, United Kingdom
+Created by team tony_pi, Italy
 
 ```python
-
-c = (100, 149, 237) # CornflowerBlue
-a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-l = (0, 255, 127) # SpringGreen
-e = (0, 0, 205) # MediumBlue
+j = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Black 
+e = (100, 149, 237) # CornflowerBlue
+l = (0, 255, 0) # Green
 
-rainbow = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+image = [
+    c, v, j, c, c, j, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, j, j, c, c, j, j, c]
+
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Dog
+---
+
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+
+Created by team ptpr_07, Spain
+```python
+
+c = (0, 0, 0) # Black
+r = (86, 71, 0) # Light Brown
+s = (123, 61, 0) # Orange Brown
+y = (155, 0, 134) # Deep Pink
+
+image = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
 
 ```
 
@@ -206,30 +179,100 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Chameleon
 ---
 
-![A grid with 8 x 8 squares showing a dragon.](images/dragon.png)
+![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
 
-Created by team hwplucyr, United Kingdom
+Created by team The_ETs, United Kingdom
 
 ```python
 
-b = (105, 105, 105) # DimGray
 c = (0, 0, 0) # Black
-d = (100, 149, 237) # CornflowerBlue
+s = (95, 65, 0) # Brown
+a = (255, 255, 255) # white
 v = (255, 0, 0) # Red
-z = (153, 50, 204) # DarkOrchid
+t = (255, 153, 28) # Orange
+q = (255, 255, 0) # Yellow
+m = (0, 255, 0) # Green
+h = (0, 255, 255) # Cyan
+z = (128, 0, 255) # Purple
+y = (191, 0, 255) # Magenta
 
 image = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Kite
+---
+
+![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+
+Created by team Val, Greece
+
+```python
+
+c = (0, 0, 0) # Black
+m = (0, 255, 0) # Green
+v = (255, 0, 0) # Red
+q = (255, 255, 0) # Yellow
+e = (0, 0, 255) # Blue
+h = (0, 255, 255) # Cyan
+
+image = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Chicken
+---
+
+![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+
+Created by team Slepicky, Czech Republic
+
+```python
+
+w = (255, 255, 255) #  White                                                                
+v = (255, 0, 0) # Red
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # Light Grey
+q = (255, 255, 0) # Yellow
+k = (79, 79, 79) # Dark Grey
+
+
+image =  [
+    a, a, v, v, v, a, a, a,
+    a, v, b, b, k, a, a, k,
+    a, b, c, b, b, a, k, b,
+    q, k, b, b, b, b, b, k,
+    a, v, b, b, b, b, k, b,
+    a, v, b, k, k, k, b, k,
+    a, a, a, k, b, q, k, a,
+    a, a, a, a, q, q, a, a]
 
 ```
 
@@ -241,26 +284,19 @@ image = [
 
 **Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
 
-```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 18, 19
+---
+z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
 
-image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image 
+# Display the image
 sense.set_pixels(image)
 
-```
+--- /code ---
 
 --- /task ---
 
