@@ -22,11 +22,11 @@ line_highlights: 9, 10
 
 # Aggiungi variabili di colore e immagine
 
-a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
+a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero f = (25, 25, 112) # Blu notte m = (34, 139, 34) # Verde foresta
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
-image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+immagine = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
 --- /code ---
@@ -64,7 +64,7 @@ line_highlights: 2
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+immagine = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 
 
 --- /code ---
@@ -94,7 +94,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="2">
-  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+  immagine = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 </p>
 
 <p spaces-before="2">
@@ -385,7 +385,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </h2>
 
 <p spaces-before="0">
-  <img src="images/croc.png" alt="Una griglia con 8 x 8 quadrati che mostra un coccodrillo." />
+  <img src="images/fish.png" alt="A grid with 8 x 8 squares showing a fish." />
 </p>
 
 <p spaces-before="0">
@@ -428,7 +428,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </h1>
 
 <p spaces-before="0">
-  a = (255, 255, 255) # White c = (0, 0, 0) # Black f = (25, 25, 112) # MidnightBlue m = (34, 139, 34) # ForestGreen
+  a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero f = (25, 25, 112) # Blu notte m = (34, 139, 34) # Verde foresta
 </p>
 
 <p spaces-before="0">
@@ -436,7 +436,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="2">
-  image = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
+  immagine = [ m, m, m, m, m, c, c, c, m, f, m, f, m, m, m, m, m, m, m, m, m, m, m, m, m, m, c, a, c, c, c, a, m, m, c, c, c ,c ,c ,c, m, m, c, c, c, a, c, c, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]
 </p>
 
 <p spaces-before="2">
