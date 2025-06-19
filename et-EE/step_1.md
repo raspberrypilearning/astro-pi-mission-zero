@@ -31,5 +31,3 @@ Jagage oma noored ühe- kuni neljaliikmelistesse meeskondadesse ja juhendage nei
 Lugege Mission Zero [ametlikke juhiseid](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
-
-![Jälgimispiksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
