@@ -31,5 +31,3 @@ Organisera dina ungdomar i lag om en till fyra, och låt oss guida dem genom att
 Läs de [officiella riktlinjerna](https://astro-pi.org/sv/mission-zero/guidelines){:target="_blank"} för Mission Zero.
 
 --- /collapse ---
-
-![Spårningspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
