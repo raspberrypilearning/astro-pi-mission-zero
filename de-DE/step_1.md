@@ -31,5 +31,3 @@ Teilen Sie Ihre Schüler in Teams von ein bis zu vier Personen ein und wir zeige
 Lesen Sie die [offiziellen Richtlinien](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} für Mission Zero.
 
 --- /collapse ---
-
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
