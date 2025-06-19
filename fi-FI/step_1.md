@@ -31,5 +31,3 @@ Muodosta joukkueita, joissa on enintään neljä nuorta, ja anna meidän opastaa
 Lue Mission Zeron [viralliset säännöt](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
-
-![Seurantapikseli](https://code.org/api/hour/begin_raspberrypi_astropi.png)
