@@ -31,5 +31,3 @@ Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób, k
 Przeczytaj [oficjalne wytyczne](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} dla Mission Zero.
 
 --- /collapse ---
-
-![Piksel śledzący](https://code.org/api/hour/begin_raspberrypi_astropi.png)
