@@ -10,7 +10,7 @@ O <span style="color: #0faeb0">**matrice LED**</span> este o grilă de LED-uri c
 
 --- task ---
 
-Deschide proiectul [Mission Zero starter](https://missions.astro-pi.org/ro/mz/code_submissions/new){:target="_blank"}.
+Deschide proiectul [Mission Zero starter](https://missions.astro-pi.org/ro/mz/code_submissions/){:target="_blank"}.
 
 Vei vedea că au fost adăugate automat pentru tine câteva linii de cod.
 
@@ -60,16 +60,16 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 title: Vulpe
 ---
 
-![O grilă cu 8 x 8 pătrate care arată o față de vulpe.](images/fox_mz3.png)
+![O grilă cu 8 x 8 pătrate care arată o față de vulpe.](images/fish.png)
 
 Creat de echipa i_pupi, Italia
 
 ```python
-c = (0, 0, 0) # Black
-a = (255, 255, 255) # white
-t = (255, 140, 0) # dark orange
+c = (0, 0, 0) # Negru
+a = (255, 255, 255) # Alb
+t = (255, 140, 0) # Portocaliu închis
 
-image = [
+imagine = [
 t, a, t, c, c, t, a, t,
 t, a, t, c, c, t, a, t,
 t, t, t, t, t, t, t, t,
@@ -78,6 +78,7 @@ t, t, t, t, t, t, t, t,
 a, a, a, c, c, a, a, a,
 c, a, a, a, a, a, a, c,
 c, c, a, a, a, a, c, c]
+
 ```
 
 --- /collapse ---
@@ -89,16 +90,16 @@ c, c, a, a, a, a, c, c]
 title: Elefant
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un elefant.](images/elephant.png)
+![O grilă cu 8 x 8 pătrate care arată un elefant.](images/walrus.png)
 
 Creat de echipa ILiFanT, Finlanda
 
 ```python
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # dark grey
-a = (255, 255, 255) # white
+c = (0, 0, 0) # Negru
+b = (105, 105, 105) # Gri închis
+a = (255, 255, 255) # Alb
 
-image = [
+imagine = [
     c, c, c, c, c, c, c, c,
     c, b, b, b, c, c, c, c,
     c, b, c, b, c, c, b, b,
@@ -107,6 +108,7 @@ image = [
     c, b, b, b, b, b, b, b,
     c, c, b, b, a, b, b, b,
     c, c, c, c, a, b, b, b]
+
 ```
 
 --- /collapse ---
@@ -116,18 +118,18 @@ image = [
 title: Cactus
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un cactus.](images/cactus.png)
+![O grilă cu 8 x 8 pătrate care arată un cactus.](images/paxi.png)
 
 Creat de echipa 6TETHASI, Olanda
 
 ```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-n = (154, 205, 50) # YellowGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
+a = (255, 255, 255) # Alb
+c = (0, 0, 0) # Negru
+n = (154, 205, 50) # GalbenVerde
+q = (255, 255, 0) # Galben
+t = (255, 140, 0) # Portocaliu închis
 
-image = [   
+imagine = [   
   q, q, c, n, c, c, a, c,
   q, c, c, n, c, a, a, a,
   c, n, c, n, c, c, c, c,
@@ -147,16 +149,17 @@ image = [
 title: Crocodil
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un cap de crocodil.](images/croc.png)
+![O grilă cu 8 x 8 pătrate care arată un cap de crocodil.](images/dog.png)
 
+Created by team ptpr_07, Spain
 ```python
 
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+a = (255, 255, 255) # Alb
+c = (0, 0, 0) # Negru
+f = (25, 25, 112) # Bleumarin
+m = (34, 139, 34) # Verde pădure
 
-image = [
+imagine = [
   m, m, m, m, m, c, c, c,
   m, f, m, f, m, m, m, m,
   m, m, m, m, m, m, m, m,
@@ -165,6 +168,7 @@ image = [
   m, m, c, c, c, a, c, c,
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
+
 
 ```
 
@@ -175,21 +179,21 @@ image = [
 title: Curcubeu
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un curcubeu.](images/rainbow.png)
+![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
 
-Creat de echipă camrus_6, Marea Britanie
+Created by team The_ETs, United Kingdom
 
 ```python
 
-c = (100, 149, 237) # CornflowerBlue
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-l = (0, 255, 127) # SpringGreen
-e = (0, 0, 205) # MediumBlue
+c = (100, 149, 237) # Floarea de colțAlbastru
+a = (255, 255, 255) # Alb
+v = (255, 0, 0) # Roșu
+t = (255, 140, 0) # Portocaliu închis
+q = (255, 255, 0) # Galben
+l = (0, 255, 127) # VerdePrimăvară
+e = (0, 0, 205) # Albastru mediu
 
-rainbow = [
+curcubeu = [
   c, c, c, c, c, c, c, c, 
   v, v, v, v, c, c, c, c,
   t, t, t, t, v, v, c, c,
@@ -209,19 +213,19 @@ rainbow = [
 title: Dragon
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un dragon.](images/dragon.png)
+![A grid with 8 x 8 squares showing a kite.](images/kite.png)
 
-Creat de echipă hwplucyr, Marea Britanie
+Created by team Val, Greece
 
 ```python
 
-b = (105, 105, 105) # DimGray
-c = (0, 0, 0) # Black
-d = (100, 149, 237) # CornflowerBlue
-v = (255, 0, 0) # Red
-z = (153, 50, 204) # DarkOrchid
+b = (105, 105, 105) # GriȘters
+c = (0, 0, 0) # Negru
+d = (100, 149, 237) # Floarea de colțAlbastru
+v = (255, 0, 0) # Roșu
+z = (153, 50, 204) # OrhideeÎntunecată
 
-image = [
+imagine = [
     c, c, v, c, v, c, c, c,
     c, z, z, z, z, v, c, c,
     z, b, z, b, z, c, c, c,
@@ -235,19 +239,23 @@ image = [
 
 --- /collapse ---
 
---- /task ---
+--- collapse ---
+---
+title: Chicken
+---
 
---- task ---
+![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
 
-**Găsește:** linia care spune `# Afișează imaginea` și adaugă o linie de cod pentru a afișa imaginea ta pe matricea LED:
+Created by team Slepicky, Czech Republic
 
 ```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
 
-image = [
+a = (255, 255, 255) # Alb
+c = (0, 0, 0) # Negru
+f = (25, 25, 112) # Bleumarin
+m = (34, 139, 34) # Verde pădure
+
+imagine = [
   m, m, m, m, m, c, c, c,
   m, f, m, f, m, m, m, m,
   m, m, m, m, m, m, m, m,
@@ -257,10 +265,32 @@ image = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
-# Display the image 
-sense.set_pixels(image)
+# Afișează imaginea 
+sense.set_pixels(imagine)
 
 ```
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Găsește:** linia care spune `# Afișează imaginea` și adaugă o linie de cod pentru a afișa imaginea ta pe matricea LED:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 18, 19
+---
+Imaginea mea nu apare:
+
+image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+
+# Display the image
+sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
