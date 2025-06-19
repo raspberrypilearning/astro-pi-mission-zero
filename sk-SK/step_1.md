@@ -31,5 +31,3 @@ Usporiadajte svojich mladých ľudí do tímov po jednom až štyroch členov a 
 Prečítajte si [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines) pre Mission Zero.
 
 --- /collapse ---
-
-![Sledovací pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
