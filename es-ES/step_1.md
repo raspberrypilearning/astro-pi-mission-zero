@@ -31,5 +31,3 @@ Organiza a tus jóvenes en equipos de uno a cuatro, y guiémoslos para escribir 
 Lee el [documento con las directrices oficiales](https://astro-pi.org/es/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
 --- /collapse ---
-
-![Píxel de seguimiento](https://code.org/api/hour/begin_raspberrypi_astropi.png)
