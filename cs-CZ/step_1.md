@@ -31,5 +31,3 @@ Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak n
 Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
 --- /collapse ---
-
-![Sledovací pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
