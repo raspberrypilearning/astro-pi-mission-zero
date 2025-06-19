@@ -31,5 +31,3 @@ title: Σημειώσεις για μέντορες
 Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} για το Mission Zero.
 
 --- /collapse ---
-
-![Παρακολούθηση εικονοστοιχείου](https://code.org/api/hour/begin_raspberrypi_astropi.png)
