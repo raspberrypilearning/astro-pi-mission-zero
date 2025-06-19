@@ -57,12 +57,12 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-title: Räv
+title: Fish
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Skapad av team i_pupi, Italien
+Created by team chalka, Poland
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Elefant
+title: Walrus
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en elefant.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Skapad av team ILiFanT, Finland
+Created by team Walrus, Finland
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en kaktus.](images/paxi.png)
+![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Skapad av team 6TETHASI, Nederländerna
+Created by team tony_pi, Italy
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Krokodil
+title: Dog
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar ett krokodilhuvud.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Regnbåge
+title: Chameleon
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Drake
+title: Kite
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
