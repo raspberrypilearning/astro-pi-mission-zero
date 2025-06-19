@@ -21,3 +21,5 @@ steps:
       - internal
   - 
     title: Et ensuite — plus de projets Astro Pi
+    completion:
+      - external
