@@ -57,12 +57,12 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 --- collapse ---
 
 ---
-title: Volpe
+title: Fish
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra il muso di una volpe.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Creato dal team 6TETHASI, Paesi Bassi
+Created by team chalka, Poland
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Elefante
+title: Walrus
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un elefante.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Creato dal team ILiFanT, Finlandia
+Created by team Walrus, Finland
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Cactus
+title: Paxi
 ---
 
 ![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Creato dal team i_pupi, Italia
+Created by team tony_pi, Italy
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,12 +149,12 @@ image = [
 
 --- collapse ---
 ---
-title: Coccodrillo
+title: Dog
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra una testa di coccodrillo.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
-Creato dal team hwplucyr, Regno Unito
+Created by team ptpr_07, Spain
 ```python
 
 c = (0, 0, 0) # Black
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Arcobaleno
+title: Chameleon
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un arcobaleno.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
 
-Creato da team camrus_6, Regno Unito
+Created by team The_ETs, United Kingdom
 
 ```python
 
@@ -215,10 +215,10 @@ image = [
 
 --- collapse ---
 ---
-title: Drago
+title: Kite
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un drago.](images/kite.png)
+![A grid with 8 x 8 squares showing a kite.](images/kite.png)
 
 Created by team Val, Greece
 
@@ -250,7 +250,7 @@ image = [
 title: Chicken
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un cactus.](images/chicken.png)
+![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
 
 Created by team Slepicky, Czech Republic
 
