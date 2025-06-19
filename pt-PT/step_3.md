@@ -57,12 +57,12 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 --- collapse ---
 
 ---
-title: Raposa
+title: Fish
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir a cara de uma raposa.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Criado pela equipa i_pupi, Itália
+Created by team chalka, Poland
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Elefante
+title: Walrus
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um elefante.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Criado pela equipa ILiFanT, Finlândia
+Created by team Walrus, Finland
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-Depurar
+title: Paxi
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um cato.](images/paxi.png)
+![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Criado pela equipa 6TETHASI, Países Baixos
+Created by team tony_pi, Italy
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,12 +149,12 @@ image = [
 
 --- collapse ---
 ---
-title: Crocodilo
+title: Dog
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um crocodilo.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
-Criado pela equipa camrus_6, Reino Unido
+Created by team ptpr_07, Spain
 ```python
 
 c = (0, 0, 0) # Black
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Arco-Íris
+title: Chameleon
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um arco-íris.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
 
-Criado pela equipa hwplucyr, Reino Unido
+Created by team The_ETs, United Kingdom
 
 ```python
 
@@ -215,10 +215,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dragão
+title: Kite
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um dragão.](images/kite.png)
+![A grid with 8 x 8 squares showing a kite.](images/kite.png)
 
 Created by team Val, Greece
 
@@ -247,7 +247,7 @@ image = [
 
 --- collapse ---
 ---
-title: Cato
+title: Chicken
 ---
 
 ![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
