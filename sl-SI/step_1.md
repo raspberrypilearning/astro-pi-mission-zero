@@ -31,5 +31,3 @@ Organizirajte svoje mlade v skupine od enega do štirih in dovolite nam, da jih 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
 --- /collapse ---
-
-![Sledilni piksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
