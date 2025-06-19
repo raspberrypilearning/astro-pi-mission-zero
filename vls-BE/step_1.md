@@ -31,5 +31,3 @@ Verdeel je jongeren in teams van 1 tot 4 en laat ons hen begeleiden bij het schr
 Lees de [officiele richtlijnen](https://astro-pi.org/vls/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
 
 --- /collapse ---
-
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
