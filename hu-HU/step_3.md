@@ -57,12 +57,12 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Róka
+title: Fish
 ---
 
-![Egy 8*8-as rács, amely egy róka képét mutatja.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Készítette: team i_pupi csapat, Olaszország
+Created by team chalka, Poland
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Elefánt
+title: Walrus
 ---
 
-![Egy 8*8-as rács, amely egy elefánt képét mutatja.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Készítette: ILiFanT csapat, Finnország
+Created by team Walrus, Finland
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Kaktusz
+title: Paxi
 ---
 
-![Egy 8*8-as rács, amely egy kaktusz képét mutatja.](images/paxi.png)
+![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Készítette: 6TETHASI csapat, Hollandia
+Created by team tony_pi, Italy
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Krokodil
+title: Dog
 ---
 
-![Egy 8*8-as rács, amely egy tojás és egy krokodil képét mutatja.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Szivárvány
+title: Chameleon
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Sárkány
+title: Kite
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
