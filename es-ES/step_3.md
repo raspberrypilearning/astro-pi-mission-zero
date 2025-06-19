@@ -57,27 +57,28 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 --- collapse ---
 
 ---
-title: Zorro
+title: Fish
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra la cara de un zorro.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
 Created by team chalka, Poland
 
 ```python
-c = (0, 0, 0) # Negro
-a = (255, 255, 255) # Blanco
-t = (255, 140, 0) # Naranja oscuro
+z = (204, 0, 204) # magenta
+q = (255, 255, 0) # yellow
+d = (51, 153, 255) # blue
+c = (0, 0, 0) # black
 
-imagen = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+image = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,12 +88,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elefante
+title: Walrus
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un elefante.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Creado por el equipo ILiFanT, Finlandia
+Created by team Walrus, Finland
 
 ```python
 h = (0, 255, 255)
@@ -117,29 +118,29 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Cactus
+title: Paxi
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un cactus.](images/paxi.png)
+![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Creado por el equipo i_pupi, Italia
+Created by team tony_pi, Italy
 
 ```python
-a = (255, 255, 255) # Blanco
-c = (0, 0, 0) # Negro
-n = (154, 205, 50) # Verde amarillo
-q = (255, 255, 0) # Amarillo
-t = (255, 140, 0) # Naranja oscuro
+v = (255, 0, 0) # Red
+j = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Black 
+e = (100, 149, 237) # CornflowerBlue
+l = (0, 255, 0) # Green
 
-imagen = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+image = [
+    c, v, j, c, c, j, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, j, j, c, c, j, j, c]
 
 ```
 
@@ -148,29 +149,28 @@ imagen = [
 
 --- collapse ---
 ---
-title: Cocodrilo
+title: Dog
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra la cabeza de un cocodrilo.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
-Creado por el equipo camrus_6, Reino Unido
+Created by team ptpr_07, Spain
 ```python
 
-b = (105, 105, 105) # Gris apagado
-c = (0, 0, 0) # Negro
-d = (100, 149, 237) # Azul Aciano
-v = (255, 0, 0) # Rojo
-z = (153, 50, 204) # Orquídea Oscuro
+c = (0, 0, 0) # Black
+r = (86, 71, 0) # Light Brown
+s = (123, 61, 0) # Orange Brown
+y = (155, 0, 134) # Deep Pink
 
-imagen = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+image = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 
 ```
@@ -179,33 +179,35 @@ imagen = [
 
 --- collapse ---
 ---
-title: Arco iris
+title: Chameleon
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un arco iris.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
 
-Creado por el equipo hwplucyr, Reino Unido
+Created by team The_ETs, United Kingdom
 
 ```python
 
-c = (100, 149, 237) # Azul Aciano
-a = (255, 255, 255) # Blanco
-v = (255, 0, 0) # Rojo
-t = (255, 140, 0) # Naranja oscuro
-q = (255, 255, 0) # Amarillo
-l = (0, 255, 127) # Verde Primavera
-e = (0, 0, 205) # Azul medio
+c = (0, 0, 0) # Black
+s = (95, 65, 0) # Brown
+a = (255, 255, 255) # white
+v = (255, 0, 0) # Red
+t = (255, 153, 28) # Orange
+q = (255, 255, 0) # Yellow
+m = (0, 255, 0) # Green
+h = (0, 255, 255) # Cyan
+z = (128, 0, 255) # Purple
+y = (191, 0, 255) # Magenta
 
-arco_iris = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+image = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -213,29 +215,31 @@ arco_iris = [
 
 --- collapse ---
 ---
-title: Dragón
+title: Kite
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un dragón.](images/kite.png)
+![A grid with 8 x 8 squares showing a kite.](images/kite.png)
 
 Created by team Val, Greece
 
 ```python
 
-a = (255, 255, 255) # Blanco
-c = (0, 0, 0) # Negro
-f = (25, 25, 112) # Azul medianoche
-m = (34, 139, 34) # Verde bosque
+c = (0, 0, 0) # Black
+m = (0, 255, 0) # Green
+v = (255, 0, 0) # Red
+q = (255, 255, 0) # Yellow
+e = (0, 0, 255) # Blue
+h = (0, 255, 255) # Cyan
 
-imagen = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+image = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -246,41 +250,29 @@ imagen = [
 title: Chicken
 ---
 
-![c = (0, 0, 0) # Negro
-b = (105, 105, 105) # Gris oscuro
-a = (255, 255, 255) # Blanco
-
-imagen = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]](images/chicken.png)
+![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
 
 Created by team Slepicky, Czech Republic
 
 ```python
 
-a = (255, 255, 255) # Blanco
-c = (0, 0, 0) # Negro
-f = (25, 25, 112) # Azul medianoche
-m = (34, 139, 34) # Verde bosque
+w = (255, 255, 255) #  White                                                                
+v = (255, 0, 0) # Red
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # Light Grey
+q = (255, 255, 0) # Yellow
+k = (79, 79, 79) # Dark Grey
 
-imagen = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
 
-# Mostrar la imagen
-sense.set_pixels(imagen)
+image =  [
+    a, a, v, v, v, a, a, a,
+    a, v, b, b, k, a, a, k,
+    a, b, c, b, b, a, k, b,
+    q, k, b, b, b, b, b, k,
+    a, v, b, b, b, b, k, b,
+    a, v, b, k, k, k, b, k,
+    a, a, a, k, b, q, k, a,
+    a, a, a, a, q, q, a, a]
 
 ```
 
