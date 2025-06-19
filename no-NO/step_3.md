@@ -57,12 +57,12 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-title: Rev
+title: Fish
 ---
 
-![Et rutenett med 8 x 8 ruter som viser et revefjes.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Laget av team i_pupi, Italia
+Created by team chalka, Poland
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Elefant
+title: Walrus
 ---
 
-![Et rutenett med 8 x 8 ruter som viser en elefant.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Laget av team ILiFanT, Finland
+Created by team Walrus, Finland
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Kaktus
+title: Paxi
 ---
 
-![Et rutenett med 8 x 8 ruter som viser en kaktus.](images/paxi.png)
+![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Laget av team 6TETHASI, Nederland
+Created by team tony_pi, Italy
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Krokodille
+title: Dog
 ---
 
-![Et rutenett med 8 x 8 ruter som viser et krokodillehode.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Regnbue
+title: Chameleon
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Drage
+title: Kite
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
