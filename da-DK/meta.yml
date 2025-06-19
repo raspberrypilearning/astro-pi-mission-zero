@@ -21,3 +21,5 @@ steps:
       - internal
   - 
     title: Hvad næste — flere Astro Pi-projekter
+    completion:
+      - external
