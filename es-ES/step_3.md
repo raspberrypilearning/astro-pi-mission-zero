@@ -10,7 +10,7 @@ Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de
 
 --- task ---
 
-Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/es/mz/code_submissions/new){:target="_blank"} para el proyecto Mission Zero.
+Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"} para el proyecto Mission Zero.
 
 Comprobarás que se han añadido automáticamente unas líneas de código.
 
@@ -60,16 +60,16 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 title: Zorro
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra la cara de un zorro.](images/fox_mz3.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra la cara de un zorro.](images/fish.png)
 
-Creado por el equipo i_pupi, Italia
+Created by team chalka, Poland
 
 ```python
-c = (0, 0, 0) # Black
-a = (255, 255, 255) # white
-t = (255, 140, 0) # dark orange
+c = (0, 0, 0) # Negro
+a = (255, 255, 255) # Blanco
+t = (255, 140, 0) # Naranja oscuro
 
-image = [
+imagen = [
 t, a, t, c, c, t, a, t,
 t, a, t, c, c, t, a, t,
 t, t, t, t, t, t, t, t,
@@ -78,6 +78,7 @@ t, t, t, t, t, t, t, t,
 a, a, a, c, c, a, a, a,
 c, a, a, a, a, a, a, c,
 c, c, a, a, a, a, c, c]
+
 ```
 
 --- /collapse ---
@@ -89,24 +90,27 @@ c, c, a, a, a, a, c, c]
 title: Elefante
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un elefante.](images/elephant.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un elefante.](images/walrus.png)
 
 Creado por el equipo ILiFanT, Finlandia
 
 ```python
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # dark grey
-a = (255, 255, 255) # white
+h = (0, 255, 255)
+c = (0, 0, 0)
+s = (139, 69, 19)
+a = (255, 255, 255)
+r = (184, 134, 11)   
 
 image = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
+
 ```
 
 --- /collapse ---
@@ -116,18 +120,18 @@ image = [
 title: Cactus
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un cactus.](images/cactus.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un cactus.](images/paxi.png)
 
-Creado por el equipo 6TETHASI, Países Bajos
+Creado por el equipo i_pupi, Italia
 
 ```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-n = (154, 205, 50) # YellowGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
+a = (255, 255, 255) # Blanco
+c = (0, 0, 0) # Negro
+n = (154, 205, 50) # Verde amarillo
+q = (255, 255, 0) # Amarillo
+t = (255, 140, 0) # Naranja oscuro
 
-image = [   
+imagen = [   
   q, q, c, n, c, c, a, c,
   q, c, c, n, c, a, a, a,
   c, n, c, n, c, c, c, c,
@@ -147,24 +151,27 @@ image = [
 title: Cocodrilo
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra la cabeza de un cocodrilo.](images/croc.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra la cabeza de un cocodrilo.](images/dog.png)
 
+Creado por el equipo camrus_6, Reino Unido
 ```python
 
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+b = (105, 105, 105) # Gris apagado
+c = (0, 0, 0) # Negro
+d = (100, 149, 237) # Azul Aciano
+v = (255, 0, 0) # Rojo
+z = (153, 50, 204) # Orquídea Oscuro
 
-image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+imagen = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
+
 
 ```
 
@@ -175,21 +182,21 @@ image = [
 title: Arco iris
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un arco iris.](images/rainbow.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un arco iris.](images/chameleon.png)
 
-Creado por el equipo camrus_6, Reino Unido
+Creado por el equipo hwplucyr, Reino Unido
 
 ```python
 
-c = (100, 149, 237) # CornflowerBlue
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-l = (0, 255, 127) # SpringGreen
-e = (0, 0, 205) # MediumBlue
+c = (100, 149, 237) # Azul Aciano
+a = (255, 255, 255) # Blanco
+v = (255, 0, 0) # Rojo
+t = (255, 140, 0) # Naranja oscuro
+q = (255, 255, 0) # Amarillo
+l = (0, 255, 127) # Verde Primavera
+e = (0, 0, 205) # Azul medio
 
-rainbow = [
+arco_iris = [
   c, c, c, c, c, c, c, c, 
   v, v, v, v, c, c, c, c,
   t, t, t, t, v, v, c, c,
@@ -209,27 +216,71 @@ rainbow = [
 title: Dragón
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un dragón.](images/dragon.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un dragón.](images/kite.png)
 
-Creado por el equipo hwplucyr, Reino Unido
+Created by team Val, Greece
 
 ```python
 
-b = (105, 105, 105) # DimGray
-c = (0, 0, 0) # Black
-d = (100, 149, 237) # CornflowerBlue
-v = (255, 0, 0) # Red
-z = (153, 50, 204) # DarkOrchid
+a = (255, 255, 255) # Blanco
+c = (0, 0, 0) # Negro
+f = (25, 25, 112) # Azul medianoche
+m = (34, 139, 34) # Verde bosque
 
-image = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+imagen = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Chicken
+---
+
+![c = (0, 0, 0) # Negro
+b = (105, 105, 105) # Gris oscuro
+a = (255, 255, 255) # Blanco
+
+imagen = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]](images/chicken.png)
+
+Created by team Slepicky, Czech Republic
+
+```python
+
+a = (255, 255, 255) # Blanco
+c = (0, 0, 0) # Negro
+f = (25, 25, 112) # Azul medianoche
+m = (34, 139, 34) # Verde bosque
+
+imagen = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Mostrar la imagen
+sense.set_pixels(imagen)
 
 ```
 
@@ -241,26 +292,19 @@ image = [
 
 **Busca:** la línea que dice `# Mostrar la imagen` y añade una línea de código para mostrar la imagen en la matriz LED:
 
-```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 18, 19
+---
+z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
 
-image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image 
+# Display the image
 sense.set_pixels(image)
 
-```
+--- /code ---
 
 --- /task ---
 
