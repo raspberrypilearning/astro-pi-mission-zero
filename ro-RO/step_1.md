@@ -31,5 +31,3 @@ Organizați-vă tinerii în echipe de unul până la patru și lăsați-ne să-i
 Citește [instrucțiunile oficiale](https://astro-pi.org/ro/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
 
 --- /collapse ---
-
-![Urmărire de pixeli](https://code.org/api/hour/begin_raspberrypi_astropi.png)
