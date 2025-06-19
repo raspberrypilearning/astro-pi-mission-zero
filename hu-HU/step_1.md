@@ -31,5 +31,3 @@ Szervezd a fiatalokat egy-négy fős csapatokba, és engedd meg, hogy végigkís
 Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
-
-![Követő pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
