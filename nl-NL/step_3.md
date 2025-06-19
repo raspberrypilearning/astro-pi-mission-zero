@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Draak
+title: Kite
 ---
 
 ![Een raster met 8 x 8 vierkanten met een krokodillenkop.](images/kite.png)
