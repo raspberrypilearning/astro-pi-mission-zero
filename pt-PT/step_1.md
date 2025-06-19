@@ -31,5 +31,3 @@ Organize os seus jovens em equipas de uma até quatro pessoas, e deixe-nos guiá
 Leia as [orientações oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} da Missão Zero.
 
 --- /collapse ---
-
-![Pixel de rastreio](https://code.org/api/hour/begin_raspberrypi_astropi.png)
