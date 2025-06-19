@@ -31,5 +31,3 @@ Regroupez les élèves en équipes de quatre au maximum et laissez-nous les guid
 Consultez les [directives officielles](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
 --- /collapse ---
-
-![Pixel de suivi](https://code.org/api/hour/begin_raspberrypi_astropi.png)
