@@ -10,7 +10,7 @@ Une <span style="color: #0faeb0">**matrice LED**</span> est une grille de LED qu
 
 --- task ---
 
-Ouvre le [projet de démarrage de Mission Zero](https://missions.astro-pi.org/fr/mz/code_submissions/new){:target="_blank"}.
+Ouvre le [projet de démarrage de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Tu verras que quelques lignes de code ont été ajoutées pour toi automatiquement.
 
@@ -42,7 +42,7 @@ Tu peux créer des couleurs en utilisant différentes valeurs de rouge, vert et 
 
 [[[generic-theory-simple-colours]]]
 
-La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. Voici une liste de variables pour 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu :
+The LED matrix is an 8 x 8 grid. Chaque LED de la grille peut être réglée sur une couleur différente. Voici une liste de variables pour 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu :
 
 [[[ambient-colours]]]
 
@@ -57,27 +57,29 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Renard
+title: Fish
 ---
 
-![Une grille de 8 x 8 cases représentant un visage de renard.](images/fox_mz3.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Créé par l'équipe i_pupi, Italie
+Created by team chalka, Poland
 
 ```python
-c = (0, 0, 0) # Black
-a = (255, 255, 255) # white
-t = (255, 140, 0) # dark orange
+z = (204, 0, 204) # magenta
+q = (255, 255, 0) # yellow
+d = (51, 153, 255) # blue
+c = (0, 0, 0) # black
 
 image = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
+
 ```
 
 --- /collapse ---
@@ -86,56 +88,59 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Éléphant
+title: Walrus
 ---
 
-![Une grille de 8 x 8 cases représentant un éléphant.](images/elephant.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Créé par l'équipe ILiFanT, Finlande
+Created by team Walrus, Finland
 
 ```python
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # dark grey
-a = (255, 255, 255) # white
+h = (0, 255, 255)
+c = (0, 0, 0)
+s = (139, 69, 19)
+a = (255, 255, 255)
+r = (184, 134, 11)   
 
 image = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
+
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Cactus
+title: Paxi
 ---
 
-![Une grille de 8 x 8 cases représentant un cactus.](images/cactus.png)
+![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Créé par l'équipe 6TETHASI, Pays-Bas
+Created by team tony_pi, Italy
 
 ```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-n = (154, 205, 50) # YellowGreen
-q = (255, 255, 0) # Yellow
-t = (255, 140, 0) # DarkOrange
+v = (255, 0, 0) # Red
+j = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Black 
+e = (100, 149, 237) # CornflowerBlue
+l = (0, 255, 0) # Green
 
-image = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+image = [
+    c, v, j, c, c, j, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, j, j, c, c, j, j, c]
 
 ```
 
@@ -144,27 +149,29 @@ image = [
 
 --- collapse ---
 ---
-title: Crocodile
+title: Dog
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant une tête de crocodile.](images/croc.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
+Créé par l'équipe hwplucyr, Royaume-Uni
 ```python
 
-a = (255, 255, 255) # White
 c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+r = (86, 71, 0) # Light Brown
+s = (123, 61, 0) # Orange Brown
+y = (155, 0, 134) # Deep Pink
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
 
 ```
 
@@ -175,21 +182,21 @@ image = [
 title: Arc-en-ciel
 ---
 
-![Une grille de 8 x 8 carrés représentant un arc-en-ciel.](images/rainbow.png)
+![Une grille de 8 x 8 carrés représentant un arc-en-ciel.](images/chameleon.png)
 
 Créé par l'équipe camrus_6, Royaume-Uni
 
 ```python
 
-c = (100, 149, 237) # CornflowerBlue
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-l = (0, 255, 127) # SpringGreen
-e = (0, 0, 205) # MediumBlue
+c = (100, 149, 237) # Bleuet
+a = (255, 255, 255) # Blanc
+v = (255, 0, 0) # Rouge
+t = (255, 140, 0) # Orange foncé
+q = (255, 255, 0) # Jaune
+l = (0, 255, 127) # Vert printanier
+e = (0, 0, 205) # Bleu moyen
 
-rainbow = [
+arc-en-ciel = [
   c, c, c, c, c, c, c, c, 
   v, v, v, v, c, c, c, c,
   t, t, t, t, v, v, c, c,
@@ -209,43 +216,16 @@ rainbow = [
 title: Dragon
 ---
 
-![Une grille de 8 x 8 cases représentant un dragon.](images/dragon.png)
+![Une grille de 8 x 8 cases représentant un dragon.](images/kite.png)
 
-Créé par l'équipe hwplucyr, Royaume-Uni
-
-```python
-
-b = (105, 105, 105) # DimGray
-c = (0, 0, 0) # Black
-d = (100, 149, 237) # CornflowerBlue
-v = (255, 0, 0) # Red
-z = (153, 50, 204) # DarkOrchid
-
-image = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
-
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Recherche :** la ligne indiquant `# Afficher l'image` et ajoute une ligne de code pour afficher ton image sur la matrice LED :
+Created by team Val, Greece
 
 ```python
-a = (255, 255, 255) # White
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # ForestGreen
+
+a = (255, 255, 255) # Blanc
+c = (0, 0, 0) # Noir
+f = (25, 25, 112) # Bleu nuit
+m = (34, 139, 34) # Vert forêt
 
 image = [
   m, m, m, m, m, c, c, c,
@@ -257,10 +237,62 @@ image = [
   m, m, m, m, m, m, m, m,
   m, m, m, m, m, m, m, m]
 
-# Display the image 
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Chicken
+---
+
+![Une grille de 8 x 8 cases représentant un visage de renard.](images/chicken.png)
+
+Created by team Slepicky, Czech Republic
+
+```python
+
+a = (255, 255, 255) # Blanc
+c = (0, 0, 0) # Noir
+f = (25, 25, 112) # Bleu nuit
+m = (34, 139, 34) # Vert forêt
+
+image = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Afficher l'image
 sense.set_pixels(image)
 
 ```
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Recherche :** la ligne indiquant `# Afficher l'image` et ajoute une ligne de code pour afficher ton image sur la matrice LED :
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 18, 19
+---
+z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+
+image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+
+# Display the image
+sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
