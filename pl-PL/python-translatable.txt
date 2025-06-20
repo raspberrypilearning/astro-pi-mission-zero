@@ -1,5 +1,3 @@
 obrazek
 
 rgb
-
-tęcza
