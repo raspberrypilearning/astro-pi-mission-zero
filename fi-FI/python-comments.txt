@@ -12,35 +12,49 @@ Lisää värimuuttujia ja kuva
 
 Näytä kuva
 
-Musta
+magenta
 
-Valkoinen
+yellow
 
-Tummanoranssi
+blue
 
-Tummanharmaa
-
-Keltavihreä
-
-Keltainen
-
-Tummanoranssi
-
-Yönsininen
-
-Metsänvihreä
-
-Ruiskukansininen
+black
 
 Punainen
 
-Keväänvihreä
+Metsänvihreä
 
-Tummansininen
+Musta
 
-DimGray
+Ruiskukansininen
 
-Tummanorkidea
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+Valkoinen
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 hae väri anturilta
 
