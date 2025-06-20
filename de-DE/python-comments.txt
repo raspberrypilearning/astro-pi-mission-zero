@@ -12,35 +12,49 @@ Farbvariablen und Bild hinzufügen
 
 Das Bild anzeigen
 
+magenta
+
+Gelb
+
+Mittelblau
+
 Schwarz
+
+Rot
+
+Waldgrün
+
+Schwarz
+
+Kornblumenblau
+
+Gelbgrün
+
+Mitternachtsblau
+
+Dunkelorange
+
+Deep Pink
+
+Weiß
 
 Weiß
 
 Dunkelorange
 
-Dunkelgrau
+Yellow
 
-Gelbgrün
-
-Gelb
-
-Dunkelorange
-
-Mitternachtsblau
-
-Waldgrün
-
-Kornblumenblau
-
-Rot
+Cyan
 
 Frühlingsgrün
 
-Mittelblau
+Magenta
+
+Blue
 
 Mittelgrau
 
-Dunkle Orchidee
+Dunkelgrau
 
 Hole die Farbe vom Sensor
 
