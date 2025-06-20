@@ -57,12 +57,12 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 --- collapse ---
 
 ---
-title: Fish
+title: Volpe
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Una griglia con 8 x 8 quadrati che mostra il muso di una volpe.](images/fish.png)
 
-Created by team chalka, Poland
+Creato dal team 6TETHASI, Paesi Bassi
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Elefante
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Una griglia con 8 x 8 quadrati che mostra un elefante.](images/walrus.png)
 
-Created by team Walrus, Finland
+Creato dal team ILiFanT, Finlandia
 
 ```python
 h = (0, 255, 255)
@@ -123,7 +123,7 @@ title: Paxi
 
 ![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Creato dal team i_pupi, Italia
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,12 +149,12 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Coccodrillo
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Una griglia con 8 x 8 quadrati che mostra una testa di coccodrillo.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Creato dal team hwplucyr, Regno Unito
 ```python
 
 c = (0, 0, 0) # Black
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Arcobaleno
 ---
 
-![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
+![Una griglia con 8 x 8 quadrati che mostra un arcobaleno.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Creato da team camrus_6, Regno Unito
 
 ```python
 
@@ -215,10 +215,10 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Drago
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Una griglia con 8 x 8 quadrati che mostra un drago.](images/kite.png)
 
 Created by team Val, Greece
 
@@ -247,10 +247,10 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![Una griglia con 8 x 8 quadrati che mostra un cactus.](images/chicken.png)
 
 Created by team Slepicky, Czech Republic
 
