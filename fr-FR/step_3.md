@@ -42,7 +42,7 @@ Tu peux créer des couleurs en utilisant différentes valeurs de rouge, vert et 
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Chaque LED de la grille peut être réglée sur une couleur différente. Voici une liste de variables pour 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu :
+La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. Voici une liste de variables pour 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu :
 
 [[[ambient-colours]]]
 
@@ -57,10 +57,10 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Fish
+title: Renard
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Créé par l'équipe 6TETHASI, Pays-Bas](images/fish.png)
 
 Created by team chalka, Poland
 
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Éléphant
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Une grille de 8 x 8 cases représentant un éléphant.](images/walrus.png)
 
-Created by team Walrus, Finland
+Créé par l'équipe ILiFanT, Finlande
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Paxi
+Déboguer
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Une grille de 8 x 8 cases représentant un cactus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Créé par l'équipe i_pupi, Italie
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Crocodile
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Une grille avec des carrés de 8 x 8 montrant une tête de crocodile.](images/dog.png)
 
 Créé par l'équipe hwplucyr, Royaume-Uni
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Arc-en-ciel
 ---
 
 ![Une grille de 8 x 8 carrés représentant un arc-en-ciel.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Dragon
 ---
 
 ![Une grille de 8 x 8 cases représentant un dragon.](images/kite.png)
@@ -247,7 +247,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Cactus
 ---
 
 ![Une grille de 8 x 8 cases représentant un visage de renard.](images/chicken.png)
