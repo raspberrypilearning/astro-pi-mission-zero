@@ -57,12 +57,12 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Fish
+title: Vulpe
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![O grilă cu 8 x 8 pătrate care arată o față de vulpe.](images/fish.png)
 
-Created by team chalka, Poland
+Creat de echipa i_pupi, Italia
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Elefant
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![O grilă cu 8 x 8 pătrate care arată un elefant.](images/walrus.png)
 
-Created by team Walrus, Finland
+Creat de echipa ILiFanT, Finlanda
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![O grilă cu 8 x 8 pătrate care arată un cactus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Creat de echipa 6TETHASI, Olanda
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Crocodil
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![O grilă cu 8 x 8 pătrate care arată un cap de crocodil.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Curcubeu
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Dragon
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
