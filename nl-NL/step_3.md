@@ -57,12 +57,12 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 --- collapse ---
 
 ---
-title: Vos
+title: Vis
 ---
 
-![Een raster met 8 x 8 vierkanten met een vossengezicht.](images/fish.png)
+![Een raster met 8 x 8 vierkanten met een vis.](images/fish.png)
 
-Gemaakt door team 6TETHASI, Nederland
+Gemaakt door team chalka, Polen
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Olifant
+title: Walrus
 ---
 
-![Een raster met 8 x 8 vierkanten met een olifant.](images/walrus.png)
+![Een raster met 8 x 8 vierkanten met een walrus.](images/walrus.png)
 
-Gemaakt door team ILiFanT, Finland
+Gemaakt door team Walrus, Finland
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![Een raster van 8 x 8 vierkanten met daarop een cactus.](images/paxi.png)
+![Een raster van 8 x 8 vierkanten met paxi.](images/paxi.png)
 
-Gemaakt door team i_pupi, Italië
+Gemaakt door team tony_pi, Italië
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,12 +149,12 @@ image = [
 
 --- collapse ---
 ---
-title: Krokodil
+title: Hond
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Een raster met 8 x 8 vierkanten met een hondenkop.](images/dog.png)
 
-Gemaakt door team camrus_6, Verenigd Koninkrijk
+Gemaakt door team ptpr_07, Spanje
 ```python
 
 c = (0, 0, 0) # Black
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Regenboog
+title: Kameleon
 ---
 
-![Een raster met 8 x 8 vierkanten met een regenboog.](images/chameleon.png)
+![Een raster met 8 x 8 vierkanten met een regenboogkleurige kameleon.](images/chameleon.png)
 
-Gemaakt door team hwplucyr, Verenigd Koninkrijk
+Gemaakt door team The_ETs, Verenigd Koninkrijk
 
 ```python
 
@@ -215,12 +215,12 @@ image = [
 
 --- collapse ---
 ---
-title: Draak
+title: Vlieger
 ---
 
-![Een raster met 8 x 8 vierkanten met een krokodillenkop.](images/kite.png)
+![Een raster met 8 x 8 vierkanten met een vlieger.](images/kite.png)
 
-Created by team Val, Greece
+Gemaakt door team Val, Griekenland
 
 ```python
 
@@ -247,12 +247,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Kip
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![Een raster met 8 x 8 vierkanten met een kip.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Gemaakt door team Slepicky, Tsjechië
 
 ```python
 
@@ -293,7 +293,7 @@ z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Geef de afbeelding weer
 sense.set_pixels(image)
 
 --- /code ---
