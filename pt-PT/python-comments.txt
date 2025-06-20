@@ -12,35 +12,49 @@ Adicionar variáveis de cor e imagem
 
 Mostrar a imagem
 
+magenta
+
+Amarelo
+
+Azul Médio
+
 Preto
+
+Vermelho
+
+Verde floresta
+
+Preto
+
+Azul centáurea
+
+Verde primavera
+
+Light Brown
+
+Laranja escuro
+
+Deep Pink
+
+Branco
 
 Branco
 
 Laranja escuro
 
-Cinzento escuro
+Yellow
+
+Cyan
 
 Amarelo esverdeado
 
-Amarelo
+Magenta
 
-Laranja escuro
+Blue
 
 Azul noturno
 
-Verde floresta
-
-Azul centáurea
-
-Vermelho
-
-Verde primavera
-
-Azul médio
-
-Cinzento fosco
-
-Orquídea negra
+Cinzento escuro
 
 obter a cor do sensor
 
