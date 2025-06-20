@@ -12,35 +12,49 @@ Doda barvne spremenljivke in sliko
 
 Prikaže sliko
 
-Črna
+magenta
 
-Bela
+yellow
 
-Temno oranžna
+blue
 
-Temno siva
-
-Rumenozelena
-
-Rumena
-
-Temno oranžna
-
-Nočno modra
-
-Drevesno zelena
-
-Sinje modra
+black
 
 Rdeča
 
-Pomladno zelena
+Drevesno zelena
 
-Modra
+Črna
 
-Temno siva
+Sinje modra
 
-Svetlo vijolična
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+Bela
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 Preberi barvo iz senzorja
 
