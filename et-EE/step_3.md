@@ -57,12 +57,12 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 --- collapse ---
 
 ---
-title: Fish
+title: Rebane
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![8 x 8 ruuduga võre, mis näitab rebase nägu.](images/fish.png)
 
-Created by team chalka, Poland
+Loonud meeskond i_pupi, Itaalia
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Elevant
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![8 x 8 ruuduga võre, millel on kujutatud elevanti.](images/walrus.png)
 
-Created by team Walrus, Finland
+Loonud meeskond ILiFanT, Soome
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![8 x 8 ruuduga võre, millel on kujutatud kaktus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Loonud meeskond 6TETHASI, Holland
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodill
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![8 x 8 ruuduga võre, millel on kujutatud krokodilli pead.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Vikerkaar
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Draakon
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
