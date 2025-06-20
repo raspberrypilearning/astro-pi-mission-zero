@@ -57,10 +57,10 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 --- collapse ---
 
 ---
-title: Fish
+title: Zorro
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra la cara de un zorro.](images/fish.png)
 
 Created by team chalka, Poland
 
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Elefante
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un elefante.](images/walrus.png)
 
-Created by team Walrus, Finland
+Creado por el equipo ILiFanT, Finlandia
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Paxi
+Depurar
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un cactus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Creado por el equipo i_pupi, Italia
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,12 +149,12 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Cocodrilo
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra la cabeza de un cocodrilo.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Creado por el equipo camrus_6, Reino Unido
 ```python
 
 c = (0, 0, 0) # Black
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Arco iris
 ---
 
-![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un arco iris.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Creado por el equipo hwplucyr, Reino Unido
 
 ```python
 
@@ -215,10 +215,10 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Dragón
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un dragón.](images/kite.png)
 
 Created by team Val, Greece
 
@@ -247,10 +247,10 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Cactus
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![Creado por el equipo 6TETHASI, Países Bajos](images/chicken.png)
 
 Created by team Slepicky, Czech Republic
 
