@@ -12,35 +12,49 @@ Adaugă variabile de culoare și imagine
 
 Afișează imaginea
 
-Negru
+magenta
 
-Alb
+yellow
 
-Portocaliu închis
+blue
 
-Gri închis
-
-GalbenVerde
-
-Galben
-
-Portocaliu închis
-
-Bleumarin
-
-Verde pădure
-
-Floarea de colțAlbastru
+black
 
 Roșu
 
-VerdePrimăvară
+Verde pădure
 
-Albastru mediu
+Negru
 
-GriȘters
+Floarea de colțAlbastru
 
-OrhideeÎntunecată
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+Alb
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 obține culoarea de la senzor
 
