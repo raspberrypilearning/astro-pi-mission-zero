@@ -12,13 +12,13 @@
 
 Εμφάνιση της εικόνας
 
-magenta
+φούξια
 
-yellow
+κίτρινο
 
-blue
+μπλε
 
-black
+μαύρο
 
 Κόκκινο
 
@@ -28,33 +28,33 @@ black
 
 Μπλε του Άνθους Αραβοσίτου
 
-Green
+Πράσινο
 
-Light Brown
+Ανοιχτό Καφέ
 
-Orange Brown
+Πορτοκαλί Καφέ
 
-Deep Pink
+Βαθύ Ροζ
 
-Brown
+Καφέ
 
 Άσπρο
 
-Orange
+Πορτοκαλί
 
 Yellow
 
-Cyan
+Γαλάζιο
 
-Purple
+Μωβ
 
-Magenta
+Φούξια
 
 Blue
 
-Light Grey
+Ανοιχτό γκρι
 
-Dark Grey
+Σκούρο Γκρι
 
 λήψη του χρώματος από τον αισθητήρα
 
