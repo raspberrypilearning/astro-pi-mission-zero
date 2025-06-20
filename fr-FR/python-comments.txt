@@ -12,35 +12,49 @@ Ajouter des variables de couleur et une image
 
 Afficher l'image
 
-Noir
+magenta
 
-Blanc
-
-Orange foncé
-
-Gris foncé
-
-Jaune-vert
-
-Jaune
-
-Orange foncé
-
-Bleu nuit
-
-Vert forêt
-
-Bleuet
-
-Rouge
-
-Vert printanier
+obtenir la couleur du capteur
 
 Bleu moyen
 
-FaibleGris
+Noir
 
-Orchidée Foncée
+Rouge
+
+Vert forêt
+
+Noir
+
+Bleuet
+
+utiliser la couleur détectée
+
+Light Brown
+
+Orange foncé
+
+Rose foncé
+
+Blanc
+
+Blanc
+
+Jaune
+
+Yellow
+
+Cyan
+
+Rose
+
+Magenta
+
+Blue
+
+Light Grey
+
+Bleu nuit
 
 obtenir la couleur du capteur
 
