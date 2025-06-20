@@ -1,5 +1,3 @@
 imagem
 
 rgb
-
-arco-iris
