@@ -42,11 +42,15 @@ White
 
 Orange
 
+Yellow
+
 Cyan
 
 Purple
 
 Magenta
+
+Blue
 
 Light Grey
 
