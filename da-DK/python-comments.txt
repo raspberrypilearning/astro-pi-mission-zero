@@ -12,35 +12,49 @@ Tilføj farvevariabler og billede
 
 Vis billedet
 
-Sort
+magenta
 
-Hvid
+yellow
 
-Mørk orange
+blue
 
-Mørkegrå
-
-GulGrøn
-
-Gul
-
-Mørk orange
-
-Midnatsblå
-
-Skovgrøn
-
-KornblomstBlå
+black
 
 Rød
 
-ForårsGrøn
+Skovgrøn
 
-Mellemblå
+Sort
 
-MørkeGrå
+KornblomstBlå
 
-MørkOrkidé
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+Hvid
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 få farven fra sensoren
 
