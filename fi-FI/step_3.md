@@ -57,12 +57,12 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 --- collapse ---
 
 ---
-title: Fish
+title: Kettu
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![8 x 8 neliön ruudukko esittämässä ketun naamaa.](images/fish.png)
 
-Created by team chalka, Poland
+Tehnyt joukkue i_pupi, Italia
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Norsu
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![8 x 8 neliön ruudukko esittämässä norsua.](images/walrus.png)
 
-Created by team Walrus, Finland
+Tehnyt joukkue ILiFanT, Suomi
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![8 x 8 neliön ruudukko esittämässä kaktusta.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Tehnyt joukkue 6TETHASI, Alankomaat
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokotiili
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![8 x 8 neliön ruudukko esittämässä krokotiilin päätä.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Sateenkaari
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Lohikäärme
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
