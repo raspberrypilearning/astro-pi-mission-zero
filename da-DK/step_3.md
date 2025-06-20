@@ -57,12 +57,12 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Fish
+title: Ræv
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Et gitter med 8 x 8 kvadrater, der viser et ræveansigt.](images/fish.png)
 
-Created by team chalka, Poland
+Lavet af team i_pupi, Italien
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Elefant
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Et gitter med 8 x 8 kvadrater, der viser en elefant.](images/walrus.png)
 
-Created by team Walrus, Finland
+Lavet af team ILiFanT, Finland
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Et gitter med 8 x 8 kvadrater, der viser en kaktus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Lavet af team 6TETHASI, Holland
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodille
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Et gitter med 8 x 8 firkanter, der viser et krokodillehoved.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Regnbue
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Drage
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
