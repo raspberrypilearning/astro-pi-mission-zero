@@ -57,10 +57,10 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 --- collapse ---
 
 ---
-title: Fish
+title: Lis
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Siatka kwadratów 8 x 8 przedstawiających twarz lisa.](images/fish.png)
 
 Created by team chalka, Poland
 
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Słoń
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Siatka kwadratów 8 x 8 przedstawiających słonia.](images/walrus.png)
 
-Created by team Walrus, Finland
+Stworzone przez zespół ILiFanT, Finlandia
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Siatka kwadratów 8 x 8 przedstawiających kaktus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Stworzone przez zespół i_pupi, Włochy
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,7 +149,7 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodyl
 ---
 
 ![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Tęcza
 ---
 
-![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
+![Siatka kwadratów 8 x 8 przedstawiających tęczę.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Stworzone przez zespół hwplucyr, Wielka Brytania
 
 ```python
 
@@ -215,10 +215,10 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Smok
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Siatka 8 x 8 kwadratów przedstawiająca łeb krokodyla.](images/kite.png)
 
 Created by team Val, Greece
 
@@ -247,10 +247,10 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Kaktus
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![Siatka kwadratów 8 x 8 przedstawiających smoka.](images/chicken.png)
 
 Created by team Slepicky, Czech Republic
 
