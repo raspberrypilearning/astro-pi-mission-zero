@@ -1,5 +1,3 @@
 imagen
 
 rgb
-
-arco_iris
