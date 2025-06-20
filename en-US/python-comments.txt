@@ -12,35 +12,49 @@ Add colour variables and image
 
 Display the image
 
-Black
+magenta
 
-White
+yellow
 
-Dark orange
+blue
 
-Dark grey
-
-YellowGreen
-
-Yellow
-
-DarkOrange
-
-MidnightBlue
-
-ForestGreen
-
-CornflowerBlue
+black
 
 Red
 
-SpringGreen
+ForestGreen
 
-MediumBlue
+Black
 
-DimGray
+CornflowerBlue
 
-DarkOrchid
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+White
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 get the colour from the sensor
 
