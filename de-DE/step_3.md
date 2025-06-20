@@ -42,7 +42,7 @@ Alle Farben können mit unterschiedlichen Anteilen von rot, grün und blau erzeu
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Jede LED am Raster kann auf eine andere Farbe eingestellt werden. Hier ist eine Liste von Variablen für 24 verschiedene Farben. Jede Farbe hat einen Wert für Rot, Grün und Blau:
+Die LED-Matrix ist ein 8 x 8 Raster. Jede LED am Raster kann auf eine andere Farbe eingestellt werden. Hier ist eine Liste von Variablen für 24 verschiedene Farben. Jede Farbe hat einen Wert für Rot, Grün und Blau:
 
 [[[ambient-colours]]]
 
@@ -57,7 +57,7 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-title: Fish
+title: Fuchs
 ---
 
 ![A grid with 8 x 8 squares showing a fish.](images/fish.png)
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Elefant
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Elefanten zeigen.](images/walrus.png)
 
-Created by team Walrus, Finland
+Erstellt vom Team ILiFanT, Finnland
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Kaktus zeigen.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Erstellt vom Team i_pupi, Italien
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Ein Raster mit 8 x 8 Quadraten, die ein Fuchsgesicht zeigen.](images/dog.png)
 
 Erstellt vom Team 6TETHASI, Niederlande
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Regenbogen
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Regenbogen zeigen.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Drache
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/kite.png)
