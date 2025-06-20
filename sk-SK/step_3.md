@@ -57,12 +57,12 @@ Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **pr
 --- collapse ---
 
 ---
-title: Fish
+title: Líška
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca tvár líšky.](images/fish.png)
 
-Created by team chalka, Poland
+Autor: tím i_pupi, Taliansko
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Slon
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca slona.](images/walrus.png)
 
-Created by team Walrus, Finland
+Autor: tím ILiFanT, Fínsko
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca kaktus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Autor: tím 6TETHASI, Holandsko
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodíl
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi krokodíliu hlavu.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Dúha
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Drak
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
