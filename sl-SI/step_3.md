@@ -57,12 +57,12 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 --- collapse ---
 
 ---
-title: Fish
+title: Lisica
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo lisico.](images/fish.png)
 
-Created by team chalka, Poland
+Ustvarila ekipa i_pupi, Italija
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Slon
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo slona.](images/walrus.png)
 
-Created by team Walrus, Finland
+Ustvarila ekipa ILiFanT, Finska
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo kaktus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Ustvarila ekipa 6TETHASI, Nizozemska
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo krokodiljo glavo.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Mavrica
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Zmaj
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
