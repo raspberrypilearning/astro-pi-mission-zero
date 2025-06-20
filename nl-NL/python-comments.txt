@@ -12,35 +12,49 @@ Kleurvariabelen en afbeelding toevoegen
 
 Geef de afbeelding weer
 
-Zwart
-
-Wit
-
-Donkeroranje
-
-Donkergrijs
-
-Geelgroen
+magenta
 
 Geel
 
-Donkeroranje
+blauw
 
-Middernachtblauw
-
-Bosgroen
-
-Korenbloemblauw
+Zwart
 
 Rood
 
-Lentegroen
+Bosgroen
 
-Middelblauw
+Zwart
 
-Matgrijs
+Korenbloemblauw
 
-Donkerorchidee
+Groen
+
+Lichtbruin
+
+Oranjebruin
+
+Donkerroze
+
+Bruin
+
+Wit
+
+Oranje
+
+Yellow
+
+Cyaan
+
+Paars
+
+Magenta
+
+Blue
+
+Lichtgrijs
+
+Donkergrijs
 
 haal de kleur uit de sensor
 
