@@ -57,12 +57,12 @@ The LED matrix is an 8 x 8 grid. Κάθε LED στο πλέγμα μπορεί �
 --- collapse ---
 
 ---
-title: Fish
+title: Αλεπού
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει το πρόσωπο μιας αλεπούς.](images/fish.png)
 
-Created by team chalka, Poland
+Δημιουργήθηκε από την ομάδα i_pupi, Ιταλία
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Ελέφαντας
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν ελέφαντα.](images/walrus.png)
 
-Created by team Walrus, Finland
+Δημιουργήθηκε από την ομάδα ILiFanT, Φινλανδία
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν κάκτο.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Δημιουργήθηκε από την ομάδα 6TETHASI, Ολλανδία
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Κροκόδειλος
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κεφάλι κροκόδειλου.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Ουράνιο Τόξο
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Δράκος
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
