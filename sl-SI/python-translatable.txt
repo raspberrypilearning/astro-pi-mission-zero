@@ -1,5 +1,3 @@
 slika
 
 rgb
-
-mavrica
