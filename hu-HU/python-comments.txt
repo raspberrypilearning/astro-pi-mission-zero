@@ -12,35 +12,49 @@ Színváltozók és kép hozzáadása
 
 Kép megjelenítése
 
-Black (fekete)
+bíborvörös
 
-White (fehér)
+sárga
 
-Sötét narancssárga
+kék
 
-Sötétszürke
-
-YellowGreen (sárgászöld)
-
-Yellow (sárga)
-
-DarkOrange (narancssárga)
-
-MidnightBlue (éjkék)
-
-ForestGreen (sötétzöld)
-
-CornflowerBlue (búzavirágkék)
+fekete
 
 Red (piros)
 
-SpringGreen (élénkzöld)
+ForestGreen (sötétzöld)
 
-MediumBlue (kék)
+Black (fekete)
 
-DimGray (sötétszürke)
+CornflowerBlue (búzavirágkék)
 
-DarkOrchid (lila)
+Zöld
+
+Világosbarna
+
+Narancssárga-barna
+
+Sötét rózsaszín
+
+Barna
+
+White (fehér)
+
+Narancssárga
+
+Yellow
+
+Cián
+
+Lila
+
+Bíborvörös
+
+Blue
+
+Világosszürke
+
+Sötétszürke
 
 szín lekérése az érzékelőtől
 
