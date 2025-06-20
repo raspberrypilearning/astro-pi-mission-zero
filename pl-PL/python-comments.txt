@@ -12,35 +12,49 @@ Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-Czarny
-
-Biały
-
-Ciemnopomarańczowy
-
-Ciemnoszary
-
-Żółto-zielony
+magenta
 
 Żółty
 
-Ciemny pomarańczowy
+Średni niebieski
 
-Nocny niebieski
-
-Leśny zielony
-
-Chabrowy
+Czarny
 
 Czerwony
 
-Wiosenna zieleń
+Leśny zielony
 
-Średni niebieski
+Czarny
+
+Chabrowy
+
+Leśny zielony
+
+Light Brown
+
+Ciemnopomarańczowy
+
+Deep Pink
+
+Biały
+
+Biały
+
+Ciemny pomarańczowy
+
+Yellow
 
 Ciemnoszary
 
-Ciemna Orchidea
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Nocny niebieski
 
 pobierz kolor z czujnika
 
