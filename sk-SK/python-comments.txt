@@ -12,35 +12,49 @@ Pridajte farebné premenné a obrázok
 
 Zobrazte obrázok
 
-Čierna
+magenta
 
-Biela
+yellow
 
-Tmavooranžová
+blue
 
-Tmavosivá
-
-Žltozelená
-
-Žltá
-
-Tmavooranžová
-
-Polnočná modrá
-
-Lesná zelená
-
-Nevädzová modrá
+black
 
 Červená
 
-Jarná zelená
+Lesná zelená
 
-Stredne modrá
+Čierna
 
-Tmavosivá
+Nevädzová modrá
 
-Tmavoorchideová
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+Biela
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 získajte farbu zo snímača
 
