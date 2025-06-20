@@ -60,9 +60,9 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 title: Vos
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Een vossengezicht wordt getoond in een raster van 8 x 8 vierkanten.](images/fish.png)
 
-Created by team chalka, Poland
+Gemaakt door team i_pupi, Italië
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Olifant
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Een olifant wordt getoond in een raster van 8 x 8 vierkanten.](images/walrus.png)
 
-Created by team Walrus, Finland
+Gemaakt door team ILiFanT, Finland
 
 ```python
 h = (0, 255, 255)
@@ -121,9 +121,9 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![Een cactus wordt getoond in een raster met 8 x 8 vierkanten.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Gemaakt door team 6TETHASI, Nederland
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodil
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Een raster met 8 x 8 vierkanten dat het hoofd van een krokodil toont.](images/dog.png)
 
 Created by team ptpr_07, Spain
 ```python
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Regenboog
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Draak
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
