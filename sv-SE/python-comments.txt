@@ -12,35 +12,49 @@ Lägg till färgvariabler och bild
 
 Visa bilden
 
-Svart
+magenta
 
-Vit
+yellow
 
-Mörkorange
+blue
 
-Mörkgrå
-
-Gulgrön
-
-Gul
-
-Mörkorange
-
-Midnattsblå
-
-Skogsgrön
-
-Blåklintblå
+black
 
 Röd
 
-Vårgrön
+Skogsgrön
 
-Mediumblå
+Svart
 
-Dimgrå
+Blåklintblå
 
-Mörkorkidé
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+Vit
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 hämta färgen från sensorn
 
