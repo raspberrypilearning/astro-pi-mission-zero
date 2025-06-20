@@ -12,35 +12,49 @@ Aggiungi variabili per il colore e l'immagine
 
 Mostra l'immagine
 
+magenta
+
+Giallo
+
+Blu medio
+
 Nero
+
+Rosso
+
+Verde foresta
+
+Nero
+
+Blu Fiordaliso
+
+Giallo verde
+
+Blu notte
+
+Arancione scuro
+
+Deep Pink
+
+Bianco
 
 Bianco
 
 Arancione scuro
 
-Grigio scuro
+Yellow
 
-Giallo verde
-
-Giallo
-
-Arancione scuro
-
-Blu notte
-
-Verde foresta
-
-Blu Fiordaliso
-
-Rosso
+Cyan
 
 Verde primavera
 
-Blu medio
+Magenta
+
+Blue
 
 Grigio medio
 
-Orchidea scura
+Grigio scuro
 
 ottenere il colore dal sensore
 
