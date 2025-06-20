@@ -12,35 +12,49 @@ Přidej proměnné s barvami a obrázek
 
 Zobraz obrázek
 
-Černá
+magenta
 
-Bílá
+yellow
 
-Tmavě oranžová
+blue
 
-Tmavě šedá
-
-Žlutozelená
-
-Žlutá
-
-Tmavě oranžová
-
-Půlnoční modrá
-
-Lesní zelená
-
-Chrpově modrá
+black
 
 Červená
 
-Jarní zelená
+Lesní zelená
 
-Středně modrá
+Černá
 
-Tlumeně šedá
+Chrpově modrá
 
-Tmavá orchidej
+Green
+
+Light Brown
+
+Orange Brown
+
+Deep Pink
+
+Brown
+
+Bílá
+
+Orange
+
+Yellow
+
+Cyan
+
+Purple
+
+Magenta
+
+Blue
+
+Light Grey
+
+Dark Grey
 
 Získej barvu ze senzoru
 
