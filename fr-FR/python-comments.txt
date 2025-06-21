@@ -14,9 +14,9 @@ Afficher l'image
 
 magenta
 
-obtenir la couleur du capteur
+jaune
 
-Bleu moyen
+bleu
 
 Noir
 
@@ -28,33 +28,33 @@ Noir
 
 Bleuet
 
-utiliser la couleur détectée
+Vert
 
-Light Brown
+Marron Clair
 
-Orange foncé
+Marron orangé
 
 Rose foncé
 
-Blanc
+Brun
 
 Blanc
+
+Orange
 
 Jaune
 
-Yellow
-
 Cyan
 
-Rose
+Violet
 
 Magenta
 
-Blue
+Bleu
 
-Light Grey
+Gris clair
 
-Bleu nuit
+Gris foncé
 
 obtenir la couleur du capteur
 
