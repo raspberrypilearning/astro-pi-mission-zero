@@ -57,12 +57,12 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Renard
+title: Poisson
 ---
 
-![Créé par l'équipe 6TETHASI, Pays-Bas](images/fish.png)
+![Une grille de 8 x 8 cases représentant un poisson.](images/fish.png)
 
-Created by team chalka, Poland
+Créé par l'équipe chalka, Pologne
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Éléphant
+titre : Morse
 ---
 
-![Une grille de 8 x 8 cases représentant un éléphant.](images/walrus.png)
+![Une grille de 8 x 8 cases représentant un morse.](images/walrus.png)
 
-Créé par l'équipe ILiFanT, Finlande
+Créé par l'équipe Walrus, Finlande
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-Déboguer
+title: Paxi
 ---
 
-![Une grille de 8 x 8 cases représentant un cactus.](images/paxi.png)
+![Une grille de 8 x 8 cases représentant un paxi.](images/paxi.png)
 
-Créé par l'équipe i_pupi, Italie
+Créé par l'équipe tony_pi, Italie
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,12 +149,12 @@ image = [
 
 --- collapse ---
 ---
-title: Crocodile
+title: Chien
 ---
 
-![Une grille avec des carrés de 8 x 8 montrant une tête de crocodile.](images/dog.png)
+![Une grille avec des carrés de 8 x 8 montrant une tête de chien.](images/dog.png)
 
-Créé par l'équipe hwplucyr, Royaume-Uni
+Créé par l'équipe ptpr_07, Espagne
 ```python
 
 c = (0, 0, 0) # Black
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Arc-en-ciel
+title: Caméléon
 ---
 
-![Une grille de 8 x 8 carrés représentant un arc-en-ciel.](images/chameleon.png)
+![Une grille de 8 x 8 carrés représentant un caméléon aux couleurs de l'arc-en-ciel.](images/chameleon.png)
 
-Créé par l'équipe camrus_6, Royaume-Uni
+Créé par l'équipe The_ETs, Royaume-Uni
 
 ```python
 
@@ -215,12 +215,12 @@ image = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Cerf-volant
 ---
 
-![Une grille de 8 x 8 cases représentant un dragon.](images/kite.png)
+![Une grille de 8 x 8 cases représentant un cerf-volant.](images/kite.png)
 
-Created by team Val, Greece
+Créé par l'équipe Val, Grèce
 
 ```python
 
@@ -247,12 +247,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cactus
+title: Poulet
 ---
 
-![Une grille de 8 x 8 cases représentant un visage de renard.](images/chicken.png)
+![Une grille de 8 x 8 cases représentant un poulet.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Créé par l'équipe Slepicky, République Tchèque
 
 ```python
 
@@ -293,7 +293,7 @@ z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Afficher l'image
 sense.set_pixels(image)
 
 --- /code ---
