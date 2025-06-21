@@ -230,7 +230,7 @@ Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le no
 title: Exemple de code terminé
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Une grille de 8 x 8 cases représentant un poisson.](images/fish.png)
 
 --- code ---
 ---
