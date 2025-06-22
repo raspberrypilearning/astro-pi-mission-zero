@@ -14,11 +14,11 @@ Toon de afbeelding
 
 magenta
 
-yellow
+geel
 
-blue
+blauw
 
-black
+zwart
 
 Rood
 
@@ -28,9 +28,9 @@ Zwart
 
 Korenbloemblauw
 
-Green
+Groen
 
-Light Brown
+Licht bruin
 
 Orange Brown
 
