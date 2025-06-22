@@ -32,29 +32,29 @@ Groen
 
 Licht bruin
 
-Orange Brown
+Oranje bruin
 
-Deep Pink
+Donker roze
 
-Brown
+Bruin
 
 Wit
 
-Orange
+Oranje
 
 Yellow
 
-Cyan
+Cyaan
 
-Purple
+Paars
 
 Magenta
 
 Blue
 
-Light Grey
+Licht grijs
 
-Dark Grey
+Donker grijs
 
 ontvang de kleur van de sensor
 
