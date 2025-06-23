@@ -16,7 +16,7 @@ Programmi loomiseks kasutad veebibrauseris Astro Pi emulaatorit. Sul ei ole vaja
 
 Õpid tundma Astro Pi-d ja selle juhtimist, sealhulgas kuidas:
 + Kuvada värvi **muutujaid**, mida oma pildil kasutada
-+ Sense HAT-is pilti disainida ja kuvada
++ Disaini ja kuva Sense HAT-is pikselgraafika pilt
 + Tajuda valguse värvi ISS-i pardal
 
 --- collapse ---
