@@ -57,12 +57,12 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 --- collapse ---
 
 ---
-title: Rebane
+title: Kala
 ---
 
 ![Ruudustik 8x8 ruutudega, millel on kujutatud kala.](images/fish.png)
 
-Loonud meeskond i_pupi, Itaalia
+Loonud meeskond i_pupi Itaaliast
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Elevant
+title: Morsk
 ---
 
 ![Ruudustik 8x8 ruutudega, millel on kujutatud morska.](images/walrus.png)
 
-Loonud meeskond ILiFanT, Soome
+Loonud meeskond Walrus Soomest
 
 ```python
 h = (0, 255, 255)
@@ -123,7 +123,7 @@ title: Paxi
 
 ![Ruudustik 8x8 ruutudega, millel on kujutatud paxit.](images/paxi.png)
 
-Loonud meeskond 6TETHASI, Holland
+Loonud meeskond tony_pi Hollandist
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,7 +149,7 @@ image = [
 
 --- collapse ---
 ---
-title: Krokodill
+title: Koer
 ---
 
 ![Ruudustik 8x8 ruutudega, millel on kujutatud koerapead.](images/dog.png)
@@ -179,7 +179,7 @@ image = [
 
 --- collapse ---
 ---
-title: Vikerkaar
+title: Kameeleon
 ---
 
 ![Ruudustik 8x8 ruutudega, millel on kujutatud vikerkaarevärvilist kameeleoni.](images/chameleon.png)
@@ -215,7 +215,7 @@ image = [
 
 --- collapse ---
 ---
-title: Draakon
+title: Lohe
 ---
 
 ![Ruudustik 8x8 ruutudega, millel on kujutatud lohet.](images/kite.png)
@@ -293,7 +293,7 @@ z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Kuva pilt
 sense.set_pixels(image)
 
 --- /code ---
