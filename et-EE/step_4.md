@@ -230,7 +230,7 @@ Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna
 title: Valmis koodi näide
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud krokodilli.](images/fish.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud kala.](images/fish.png)
 
 --- code ---
 ---
