@@ -42,7 +42,7 @@ Värve saab luua kasutades erinevaid punase, rohelise ja sinise proportsioone. R
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Iga võre LED-i saab seadistada erinevat värvi. Siin on 24 erineva värvi muutujate loend. Igal värvil on väärtus punase, rohelise ja sinise jaoks:
+LED-maatriks on 8x8-ruudustik. Iga võre LED-i saab seadistada erinevat värvi. Siin on 24 erineva värvi muutujate loend. Igal värvil on väärtus punase, rohelise ja sinise jaoks:
 
 [[[ambient-colours]]]
 
@@ -60,7 +60,7 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 title: Rebane
 ---
 
-![8 x 8 ruuduga võre, mis näitab rebase nägu.](images/fish.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud kala.](images/fish.png)
 
 Loonud meeskond i_pupi, Itaalia
 
@@ -91,7 +91,7 @@ d, d, d, z, d, d, d, d]
 title: Elevant
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud elevanti.](images/walrus.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud morska.](images/walrus.png)
 
 Loonud meeskond ILiFanT, Soome
 
@@ -121,7 +121,7 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud kaktus.](images/paxi.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud paxit.](images/paxi.png)
 
 Loonud meeskond 6TETHASI, Holland
 
@@ -152,9 +152,9 @@ image = [
 title: Krokodill
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud krokodilli pead.](images/dog.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud koerapead.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Loonud meeskond ptpr_07 Hispaaniast
 ```python
 
 c = (0, 0, 0) # Black
@@ -182,9 +182,9 @@ image = [
 title: Vikerkaar
 ---
 
-![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud vikerkaarevärvilist kameeleoni.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Loonud meeskond The_ETs Ühendkuningriigist
 
 ```python
 
@@ -218,9 +218,9 @@ image = [
 title: Draakon
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud lohet.](images/kite.png)
 
-Created by team Val, Greece
+Loonud meeskond Val Kreekast
 
 ```python
 
@@ -247,12 +247,12 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Kana
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![Ruudustik 8x8 ruutudega, millel on kujutatud kana.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Loonud meeskond Slepicky Tšehhi Vabariigist
 
 ```python
 
