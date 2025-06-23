@@ -12,13 +12,13 @@ Lisa värvi muutujad ja pilt
 
 Kuva pilt
 
-magenta
+Magenta
 
-yellow
+Yellow
 
-blue
+Blue
 
-black
+Black
 
 Punane
 
