@@ -32,27 +32,27 @@ Verde
 
 Castanho Claro
 
-Laranja escuro
+Castanho-alaranjado
 
-Deep Pink
+Rosa Profundo
+
+Castanho
 
 Branco
 
-Branco
+Laranja
 
-Laranja escuro
+Amarelo
 
-Yellow
+Ciano
 
-Cyan
-
-Amarelo esverdeado
+Roxo
 
 Magenta
 
-Blue
+Azul
 
-Azul noturno
+Cinzento Claro
 
 Cinzento escuro
 
