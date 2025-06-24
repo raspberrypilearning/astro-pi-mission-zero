@@ -230,7 +230,7 @@ Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome d
 title: Exemplo de código completo
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um crocodilo.](images/fish.png)
+![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/fish.png)
 
 --- code ---
 ---
