@@ -10,7 +10,7 @@ Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que
 
 --- task ---
 
-Abre o [projeto inicial Mission Zero](https://missions.astro-pi.org/pt/mz/code_submissions/){:target="_blank"}.
+Abre o [Projeto Inicial Missão Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
@@ -57,12 +57,12 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 --- collapse ---
 
 ---
-title: Raposa
+title: Peixe
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir a cara de uma raposa.](images/fish.png)
+![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/fish.png)
 
-Criado pela equipa i_pupi, Itália
+Criado pela equipa chalka, Polónia
 
 ```python
 z = (204, 0, 204) # magenta
@@ -88,12 +88,12 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Elefante
+title: Morsa
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um elefante.](images/walrus.png)
+![Uma grelha com 8 x 8 quadrados a exibir uma morsa.](images/walrus.png)
 
-Criado pela equipa ILiFanT, Finlândia
+Criado pela equipa Walrus, Finlândia
 
 ```python
 h = (0, 255, 255)
@@ -118,12 +118,12 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-Depurar
+title: Paxi
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um cato.](images/paxi.png)
+![Uma grelha com 8 x 8 quadrados a exibir o Paxi.](images/paxi.png)
 
-Criado pela equipa 6TETHASI, Países Baixos
+Criado pela equipa tony_pi, Itália
 
 ```python
 v = (255, 0, 0) # Red
@@ -149,12 +149,12 @@ image = [
 
 --- collapse ---
 ---
-title: Crocodilo
+title: Cão
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um crocodilo.](images/dog.png)
+![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um cão.](images/dog.png)
 
-Criado pela equipa camrus_6, Reino Unido
+Criado pela equipa ptpr_07, Espanha
 ```python
 
 c = (0, 0, 0) # Black
@@ -179,12 +179,12 @@ image = [
 
 --- collapse ---
 ---
-title: Arco-Íris
+title: Camaleão
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um arco-íris.](images/chameleon.png)
+![Uma grelha com 8 x 8 quadrados a exibir um camaleão colorido como um arco-íris.](images/chameleon.png)
 
-Criado pela equipa hwplucyr, Reino Unido
+Criado pela equipa The_ETs, Reino Unido
 
 ```python
 
@@ -215,12 +215,12 @@ image = [
 
 --- collapse ---
 ---
-title: Dragão
+title: Papagaio
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um dragão.](images/kite.png)
+![Uma grelha com 8 x 8 quadrados a exibir um papagaio.](images/kite.png)
 
-Created by team Val, Greece
+Criado pela equipa Val, Grécia
 
 ```python
 
@@ -247,12 +247,12 @@ image = [
 
 --- collapse ---
 ---
-title: Cato
+title: Galinha
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![Uma grelha com 8 x 8 quadrados a exibir uma galinha.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Criado pela equipa Slepicky, República Checa
 
 ```python
 
@@ -293,7 +293,7 @@ z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Mostrar a imagem
 sense.set_pixels(image)
 
 --- /code ---
