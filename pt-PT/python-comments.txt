@@ -14,11 +14,11 @@ Mostrar a imagem
 
 magenta
 
-Amarelo
+amarelo
 
-Azul Médio
+azul
 
-Preto
+preto
 
 Vermelho
 
@@ -28,9 +28,9 @@ Preto
 
 Azul centáurea
 
-Verde primavera
+Verde
 
-Light Brown
+Castanho Claro
 
 Laranja escuro
 
