@@ -2,9 +2,9 @@
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
 
-![image displayed with a pink background on the LED matrix](images/colour_background.png)
+![An image displayed with a pink background on the LED matrix.](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable which is set to black. 
+Whichever image you chose, the background uses the `c` variable, which is set to black. 
 
 --- task ---
 
@@ -12,7 +12,7 @@ Use the colour sensor to colour your background.
 
 Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
 
-**Tip:** You don't need to type the comments which start with '#' (they are there to explain the code). 
+**Tip:** You don't need to type the comments that start with '#' (they are there to explain the code). 
 
 --- code ---
 ---
@@ -272,7 +272,7 @@ sense.clear(x)
 
 You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code. 
 
-![Mission Zero Save button screengrab](images/mz_savebutton_v2.png)
+![The Mission Zero Save button.](images/mz_savebutton_v2.png)
 
 --- /task --- 
 
@@ -332,7 +332,7 @@ for i in range(28):
   sense.set_pixels(image)
   sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255
 sense.clear(x)
 
 --- /code ---

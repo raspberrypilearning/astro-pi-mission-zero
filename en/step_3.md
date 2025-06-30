@@ -127,7 +127,7 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
 
 Created by team tony_pi, Italy
 
@@ -161,6 +161,7 @@ title: Dog
 ![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
 Created by team ptpr_07, Spain
+
 ```python
 
 c = (0, 0, 0) # Black
@@ -188,7 +189,7 @@ image = [
 title: Chameleon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
 
 Created by team The_ETs, United Kingdom
 
@@ -256,13 +257,13 @@ image = [
 title: Chicken
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Created by team Slepicky, Czechia
 
 ```python
 
-w = (255, 255, 255) #  White                                                    			
+a = (255, 255, 255) #  White                                                    			
 v = (255, 0, 0) # Red
 c = (0, 0, 0) # Black
 b = (105, 105, 105) # Light Grey
@@ -288,7 +289,7 @@ image =  [
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
 
 --- code ---
 ---
@@ -350,6 +351,6 @@ My image does not appear:
 
 Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code. 
 
-![Mission Zero Save button](images/mz_savebutton_v2.png)
+![The Mission Zero Save button.](images/mz_savebutton_v2.png)
 
 --- /task --- 

@@ -4,7 +4,7 @@ Your project will set the background colour of an image to the colour that the A
 
 Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
-![The Sense HAT emulator running a sample program with a snake that's background colour changes to the colour sense.](images/finished.gif)
+![The Sense HAT emulator running a sample program with a snake where the background colour changes to the colour sensed.](images/finished.gif)
 
 ### You will need
 
@@ -16,7 +16,7 @@ You will use the Astro Pi emulator in a web browser to create your program. You 
 
 You will learn about the Astro Pi computer and how to control it, including how to:
 + Create colour **variables** to use in your image
-+ Design and display a pixelart image on the Sense HAT
++ Design and display a pixel art image on the Sense HAT
 + Sense the colour of light on board the ISS 
 
 --- collapse ---

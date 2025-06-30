@@ -6,7 +6,7 @@ Set up the colour sensor
 
 Set the sensitivity of the sensor
 
-The interval at which the reading will be take
+The interval at which the reading will be taken
 
 Add colour variables and image
 
@@ -60,4 +60,4 @@ get the colour from the sensor
 
 use the sensed colour
 
-choose your own red, green, blue values between 0 - 255
+choose your own red, green, blue values between 0 and 255
