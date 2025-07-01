@@ -72,9 +72,9 @@ Created by team chalka, Poland
 
 ```python
 z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
+q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Black
 
 image = [
 d, d, z, d, d, d, d, d,
@@ -102,11 +102,11 @@ title: Walrus
 Created by team Walrus, Finland
 
 ```python
-h = (0, 255, 255)
-c = (0, 0, 0)
-s = (139, 69, 19)
-a = (255, 255, 255)
-r = (184, 134, 11)   
+h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Black
+s = (139, 69, 19) # SaddleBrown
+a = (255, 255, 255) # White
+r = (184, 134, 11) # DarkGoldenrod
 
 image = [
 h, h, h, h, h, h, h, h,
@@ -197,7 +197,7 @@ Created by team The_ETs, United Kingdom
 
 c = (0, 0, 0) # Black
 s = (95, 65, 0) # Brown
-a = (255, 255, 255) # white
+a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
 t = (255, 153, 28) # Orange
 q = (255, 255, 0) # Yellow
@@ -263,10 +263,10 @@ Created by team Slepicky, Czechia
 
 ```python
 
-a = (255, 255, 255) #  White                                                    			
+a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
 c = (0, 0, 0) # Black
-b = (105, 105, 105) # Light Grey
+b = (105, 105, 105) # DimGray
 q = (255, 255, 0) # Yellow
 k = (79, 79, 79) # Dark Grey
 
@@ -300,9 +300,9 @@ line_number_start: 1
 line_highlights: 18, 19
 ---
 z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
+q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Black
 
 image = [
 d, d, z, d, d, d, d, d,
