@@ -71,7 +71,7 @@ title: Fish
 Created by team chalka, Poland
 
 ```python
-z = (204, 0, 204) # magenta
+z = (153, 50, 204) # DarkOrchid
 q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
 c = (0, 0, 0) # Black
@@ -133,20 +133,20 @@ Created by team tony_pi, Italy
 
 ```python
 v = (255, 0, 0) # Red
-j = (34, 139, 34) # ForestGreen
+m = (34, 139, 34) # ForestGreen
 c = (0, 0, 0) # Black 
 e = (100, 149, 237) # CornflowerBlue
 l = (0, 255, 0) # Green
 
 image = [
-    c, v, j, c, c, j, v, c,
+    c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
     c, v, c, l, l, l, v, c,
     c, v, c, l, c, l, v, c,
     c, c, v, v, v, v, c, c,
     c, c, l, c, c, l, c, c,
-    c, j, j, c, c, j, j, c]
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -165,9 +165,9 @@ Created by team ptpr_07, Spain
 ```python
 
 c = (0, 0, 0) # Black
-r = (86, 71, 0) # Light Brown
-s = (123, 61, 0) # Orange Brown
-y = (155, 0, 134) # Deep Pink
+r = (184, 134, 11) # DarkGoldenrod
+s = (139, 69, 19) # SaddleBrown
+y = (255, 20, 147) # DeepPink
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -196,15 +196,15 @@ Created by team The_ETs, United Kingdom
 ```python
 
 c = (0, 0, 0) # Black
-s = (95, 65, 0) # Brown
+s = (139, 69, 19) # SaddleBrown
 a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
-t = (255, 153, 28) # Orange
+t = (255, 140, 0) # DarkOrange
 q = (255, 255, 0) # Yellow
-m = (0, 255, 0) # Green
+m = (34, 139, 34) # ForestGreen
 h = (0, 255, 255) # Cyan
-z = (128, 0, 255) # Purple
-y = (191, 0, 255) # Magenta
+z = (153, 50, 204) # DarkOrchid
+y = (255, 20, 147) # DeepPink
 
 image = [
     a, a, v, v, t, a, a, a,
@@ -232,10 +232,10 @@ Created by team Val, Greece
 ```python
 
 c = (0, 0, 0) # Black
-m = (0, 255, 0) # Green
+m = (34, 139, 34) # ForestGreen
 v = (255, 0, 0) # Red
 q = (255, 255, 0) # Yellow
-e = (0, 0, 255) # Blue
+e = (0, 0, 205) # MediumBlue
 h = (0, 255, 255) # Cyan
 
 image = [
@@ -263,23 +263,21 @@ Created by team Slepicky, Czechia
 
 ```python
 
-a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
 c = (0, 0, 0) # Black
 b = (105, 105, 105) # DimGray
 q = (255, 255, 0) # Yellow
-k = (79, 79, 79) # Dark Grey
-
+r = (184, 134, 11) # DarkGoldenrod
 
 image =  [
-    a, a, v, v, v, a, a, a,
-    a, v, b, b, k, a, a, k,
-    a, b, c, b, b, a, k, b,
-    q, k, b, b, b, b, b, k,
-    a, v, b, b, b, b, k, b,
-    a, v, b, k, k, k, b, k,
-    a, a, a, k, b, q, k, a,
-    a, a, a, a, q, q, a, a]
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
