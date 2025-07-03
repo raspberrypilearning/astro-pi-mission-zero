@@ -12,13 +12,19 @@ Add colour variables and image
 
 Display the image
 
-magenta
+DarkOrchid
 
-yellow
+Yellow
 
 blue
 
-black
+Black
+
+Cyan
+
+SaddleBrown
+
+DarkGoldenrod
 
 Red
 
@@ -30,31 +36,15 @@ CornflowerBlue
 
 Green
 
-Light Brown
+DeepPink
 
-Orange Brown
-
-Deep Pink
-
-Brown
+DarkOrange
 
 White
 
-Orange
+MediumBlue
 
-Yellow
-
-Cyan
-
-Purple
-
-Magenta
-
-Blue
-
-Light Grey
-
-Dark Grey
+DimGray
 
 get the colour from the sensor
 
