@@ -297,7 +297,7 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (204, 0, 204) # magenta
+z = (153, 50, 204) # DarkOrchid
 q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
 c = (0, 0, 0) # Black

@@ -25,10 +25,10 @@ line_highlights: 9, 10
 
 # Add colour variables and image
 
-z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Black
 
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
@@ -307,10 +307,10 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 # Add colour variables and image
 
-z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Black
 
 for i in range(28):
   rgb = sense.color # get the colour from the sensor
