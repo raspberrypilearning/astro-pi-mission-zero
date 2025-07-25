@@ -12,13 +12,19 @@ Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-magenta
+DarkOrchid
 
 Żółty
 
-Średni niebieski
+Nocny niebieski
 
 Czarny
+
+Ciemnoszary
+
+SaddleBrown
+
+DarkGoldenrod
 
 Czerwony
 
@@ -30,31 +36,15 @@ Chabrowy
 
 Leśny zielony
 
-Light Brown
-
-Ciemnopomarańczowy
-
-Deep Pink
-
-Biały
-
-Biały
+DeepPink
 
 Ciemny pomarańczowy
 
-Yellow
+Biały
 
-Ciemnoszary
+Średni niebieski
 
-Purple
-
-Magenta
-
-Blue
-
-Light Grey
-
-Nocny niebieski
+DimGray
 
 pobierz kolor z czujnika
 
