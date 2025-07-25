@@ -12,13 +12,19 @@ Farbvariablen und Bild hinzufügen
 
 Das Bild anzeigen
 
-magenta
+DarkOrchid
 
 Gelb
 
 Mittelblau
 
 Schwarz
+
+Cyan
+
+SaddleBrown
+
+DarkGoldenrod
 
 Rot
 
@@ -30,27 +36,11 @@ Kornblumenblau
 
 Gelbgrün
 
-Mitternachtsblau
+DeepPink
 
 Dunkelorange
 
-Deep Pink
-
 Weiß
-
-Weiß
-
-Dunkelorange
-
-Yellow
-
-Cyan
-
-Frühlingsgrün
-
-Magenta
-
-Blue
 
 Mittelgrau
 
