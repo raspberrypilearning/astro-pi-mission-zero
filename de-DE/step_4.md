@@ -248,7 +248,7 @@ sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein sense.color.i
 
 # Farbvariablen und Bild hinzufügen
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # Weiß c = (0, 0, 0) # Schwarz f = (25, 25, 112) # Mitternachtsblau m = (34, 139, 34) # Waldgrün
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(bild) sleep(1)
 
-x = (178, 34, 34) # wähle deine eigenen roten, grünen, blauen Werte zwischen 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # Wähle deine eigenen Rot-, Grün- und Blauwerte zwischen 0 - 255 sense.clear(x)
 
 --- /code ---
 
