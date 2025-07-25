@@ -22,7 +22,7 @@ line_highlights: 9, 10
 
 # Adj hozzá színváltozókat és képet
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # White (fehér) c = (0, 0, 0) # Black (fekete) f = (25, 25, 112) # MidnightBlue (éjkék) m = (34, 139, 34) # ForestGreen (sötétzöld)
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # White (fehér) c = (0, 0, 0) # Black (fekete) f = (25, 25, 112) # MidnightBlue (éjkék) m = (34, 139, 34) # ForestGreen (sötétzöld)
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # válassz saját vörös, zöld és kék értéket 0 és 255 között sense.clear(x)
 
 --- /code ---
 
