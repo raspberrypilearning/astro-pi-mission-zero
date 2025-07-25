@@ -1,6 +1,6 @@
 ## Vei face
 
-Proiectul tău va seta culoarea de fundal a unei imagini la culoarea detectată de Astro Pi. Astfel, stația spațială internațională (ISS) va deveni mai colorată pentru astronauții de la bord. Codul tău va folosi senzorul de luminozitate de culoare pe noul calculator Sense HAT al lui Mark II Astro Pi pentru a realiza acest lucru.
+Proiectul tău va seta culoarea de fundal a unei imagini la culoarea detectată de Astro Pi. Astfel, stația spațială internațională (ISS) va deveni mai colorată pentru astronauții de la bord. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
 
 Iată un exemplu de program pe care l-ai putea face pentru a rula pe un Astro Pi în spațiu.
 
