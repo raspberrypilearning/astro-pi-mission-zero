@@ -22,7 +22,7 @@ line_highlights: 9, 10
 
 # Agregar variables de color e imagen
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # Blanco c = (0, 0, 0) # Negro f = (25, 25, 112) # Azul medianoche m = (34, 139, 34) # Verde bosque
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -230,7 +230,7 @@ Puedes guardar tu programa en el proyecto de inicio de la misión introduciendo 
 title: Ejemplo de código terminado
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un cocodrilo.](images/fish.png)
+![Una cuadrícula con cuadrados de 8 x 8 que muestra un pez.](images/fish.png)
 
 --- code ---
 ---
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # Blanco c = (0, 0, 0) # Negro f = (25, 25, 112) # Azul medianoche m = (34, 139, 34) # Verde bosque
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # elige tus propios valores de rojo, verde y azul entre 0 y 255 sense.clear(x)
 
 --- /code ---
 
