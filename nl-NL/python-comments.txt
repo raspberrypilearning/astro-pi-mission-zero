@@ -12,13 +12,19 @@ Kleurvariabelen en afbeelding toevoegen
 
 Geef de afbeelding weer
 
-magenta
+Donkerorchidee
 
 Geel
 
 blauw
 
 Zwart
+
+Cyaan
+
+SaddleBrown
+
+Donkeroranje
 
 Rood
 
@@ -30,29 +36,13 @@ Korenbloemblauw
 
 Groen
 
-Lichtbruin
+DeepPink
 
-Oranjebruin
-
-Donkerroze
-
-Bruin
+Donkeroranje
 
 Wit
 
-Oranje
-
-Yellow
-
-Cyaan
-
-Paars
-
-Magenta
-
-Blue
-
-Lichtgrijs
+Middernachtblauw
 
 Donkergrijs
 
