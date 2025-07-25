@@ -32,7 +32,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator2.png)
+![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
@@ -65,10 +65,10 @@ title: Fish
 Created by team chalka, Poland
 
 ```python
-z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Black
 
 image = [
 d, d, z, d, d, d, d, d,
@@ -96,11 +96,11 @@ title: Walrus
 Created by team Walrus, Finland
 
 ```python
-h = (0, 255, 255)
-c = (0, 0, 0)
-s = (139, 69, 19)
-a = (255, 255, 255)
-r = (184, 134, 11)   
+h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Black
+s = (139, 69, 19) # SaddleBrown
+a = (255, 255, 255) # White
+r = (184, 134, 11) # DarkGoldenrod
 
 image = [
 h, h, h, h, h, h, h, h,
@@ -121,26 +121,26 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
 
 Created by team tony_pi, Italy
 
 ```python
 v = (255, 0, 0) # Red
-j = (34, 139, 34) # ForestGreen
+m = (34, 139, 34) # ForestGreen
 c = (0, 0, 0) # Black 
 e = (100, 149, 237) # CornflowerBlue
 l = (0, 255, 0) # Green
 
 image = [
-    c, v, j, c, c, j, v, c,
+    c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
     c, v, c, l, l, l, v, c,
     c, v, c, l, c, l, v, c,
     c, c, v, v, v, v, c, c,
     c, c, l, c, c, l, c, c,
-    c, j, j, c, c, j, j, c]
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -155,12 +155,13 @@ title: Dog
 ![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
 Created by team ptpr_07, Spain
+
 ```python
 
 c = (0, 0, 0) # Black
-r = (86, 71, 0) # Light Brown
-s = (123, 61, 0) # Orange Brown
-y = (155, 0, 134) # Deep Pink
+r = (184, 134, 11) # DarkGoldenrod
+s = (139, 69, 19) # SaddleBrown
+y = (255, 20, 147) # DeepPink
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -182,22 +183,22 @@ image = [
 title: Chameleon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
 
 Created by team The_ETs, United Kingdom
 
 ```python
 
 c = (0, 0, 0) # Black
-s = (95, 65, 0) # Brown
-a = (255, 255, 255) # white
+s = (139, 69, 19) # SaddleBrown
+a = (255, 255, 255) # White
 v = (255, 0, 0) # Red
-t = (255, 153, 28) # Orange
+t = (255, 140, 0) # DarkOrange
 q = (255, 255, 0) # Yellow
-m = (0, 255, 0) # Green
+m = (34, 139, 34) # ForestGreen
 h = (0, 255, 255) # Cyan
-z = (128, 0, 255) # Purple
-y = (191, 0, 255) # Magenta
+z = (153, 50, 204) # DarkOrchid
+y = (255, 20, 147) # DeepPink
 
 image = [
     a, a, v, v, t, a, a, a,
@@ -225,10 +226,10 @@ Created by team Val, Greece
 ```python
 
 c = (0, 0, 0) # Black
-m = (0, 255, 0) # Green
+m = (34, 139, 34) # ForestGreen
 v = (255, 0, 0) # Red
 q = (255, 255, 0) # Yellow
-e = (0, 0, 255) # Blue
+e = (0, 0, 205) # MediumBlue
 h = (0, 255, 255) # Cyan
 
 image = [
@@ -250,29 +251,27 @@ image = [
 title: Chicken
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Created by team Slepicky, Czechia
 
 ```python
 
-w = (255, 255, 255) #  White                                                                
 v = (255, 0, 0) # Red
 c = (0, 0, 0) # Black
-b = (105, 105, 105) # Light Grey
+b = (105, 105, 105) # DimGray
 q = (255, 255, 0) # Yellow
-k = (79, 79, 79) # Dark Grey
-
+r = (184, 134, 11) # DarkGoldenrod
 
 image =  [
-    a, a, v, v, v, a, a, a,
-    a, v, b, b, k, a, a, k,
-    a, b, c, b, b, a, k, b,
-    q, k, b, b, b, b, b, k,
-    a, v, b, b, b, b, k, b,
-    a, v, b, k, k, k, b, k,
-    a, a, a, k, b, q, k, a,
-    a, a, a, a, q, q, a, a]
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -282,14 +281,14 @@ image =  [
 
 --- task ---
 
-**Find:** the line which says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
@@ -330,6 +329,6 @@ My image does not appear:
 
 Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
 
-![Mission Zero Save button](images/mz_savebutton_v2.png)
+![The Mission Zero Save button.](images/mz_savebutton_v2.png)
 
 --- /task --- 
