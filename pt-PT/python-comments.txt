@@ -12,13 +12,19 @@ Adicionar variáveis de cor e imagem
 
 Mostrar a imagem
 
-magenta
+Cinzento escuro
 
-amarelo
+Amarelo
 
 azul
 
-preto
+Preto
+
+Ciano
+
+SaddleBrown
+
+DarkGoldenrod
 
 Vermelho
 
@@ -30,31 +36,15 @@ Azul centáurea
 
 Verde
 
-Castanho Claro
+DeepPink
 
-Castanho-alaranjado
-
-Rosa Profundo
-
-Castanho
+Laranja escuro
 
 Branco
 
-Laranja
+Azul Médio
 
-Amarelo
-
-Ciano
-
-Roxo
-
-Magenta
-
-Azul
-
-Cinzento Claro
-
-Cinzento escuro
+DimGray
 
 obter a cor do sensor
 
