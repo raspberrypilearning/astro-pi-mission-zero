@@ -1,6 +1,6 @@
 ## Čo urobíš
 
-Tvoj projekt nastaví farbu pozadia obrázka na farbu, ktorú rozpozná počítač Astro Pi. Vďaka tomu bude Medzinárodná vesmírna stanica (ISS) farebnejšia pre astronautov na palube. Tvoj kód použije snímač farebnej svietivosti na novom module Sense HAT počítača Mark II Astro Pi.
+Tvoj projekt nastaví farbu pozadia obrázka na farbu, ktorú rozpozná počítač Astro Pi. Vďaka tomu bude Medzinárodná vesmírna stanica (ISS) farebnejšia pre astronautov na palube. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
 
 Tu je príklad typu programu, ktorý by sa mohol spustiť na Astro Pi vo vesmíre.
 
