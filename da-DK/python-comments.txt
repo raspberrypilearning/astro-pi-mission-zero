@@ -6,58 +6,48 @@ Konfigurer farvesensoren
 
 Indstil sensorens følsomhed
 
-Intervallet, som aflæsningen vil blive taget med
+The interval at which the reading will be taken
 
 Tilføj farvevariabler og billede
 
 Vis billedet
 
-magenta
+DarkOrchid
 
-yellow
+Yellow
 
 blue
 
-black
+Sort
+
+Cyan
+
+SaddleBrown
+
+DarkGoldenrod
 
 Rød
 
 Skovgrøn
 
-Sort
+Black
 
 KornblomstBlå
 
 Green
 
-Light Brown
+DeepPink
 
-Orange Brown
-
-Deep Pink
-
-Brown
+DarkOrange
 
 Hvid
 
-Orange
+MediumBlue
 
-Yellow
-
-Cyan
-
-Purple
-
-Magenta
-
-Blue
-
-Light Grey
-
-Dark Grey
+DimGray
 
 få farven fra sensoren
 
 brug den opfangede farve
 
-vælg dine egne røde, grønne eller blå værdier mellem 0 - 255
+choose your own red, green, blue values between 0 and 255
