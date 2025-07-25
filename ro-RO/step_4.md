@@ -22,7 +22,7 @@ line_highlights: 9, 10
 
 # Adaugă variabile de culoare și imagine
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # Alb c = (0, 0, 0) # Negru f = (25, 25, 112) # Bleumarin m = (34, 139, 34) # Verde pădure
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Poți salva programul tău în proiectul Mission Starter introducând numele echipei, numele membrilor echipei și codul de clasă care ți-a fost dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![Captură de ecran a butonului Mission Zero Salvare](images/mz_savebutton_v2.png)
+![Butonul Mission Zero Salvare](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # Alb c = (0, 0, 0) # Negru f = (25, 25, 112) # Bleumarin m = (34, 139, 34) # Verde pădure
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # alege-ți propriile valori roșu, verde, albastru între 0 - 255 sense.clear(x)
 
 --- /code ---
 
