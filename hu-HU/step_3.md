@@ -32,7 +32,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![Képernyőkép a Sense Hat emulátorról a kezdőkóddal a bal oldali panelen.](images/sense-hat-emulator2.png)
+![Képernyőkép a Sense Hat emulátorról a kezdőkóddal a bal oldali panelen.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
@@ -65,20 +65,19 @@ title: Róka
 Készítette: team i_pupi csapat, Olaszország
 
 ```python
-z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Black (fekete)
+a = (255, 255, 255) # White (fehér)
+t = (255, 140, 0) # Sötét narancssárga
 
-image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+kep = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 
 ```
 
@@ -96,21 +95,19 @@ title: Elefánt
 Készítette: ILiFanT csapat, Finnország
 
 ```python
-h = (0, 255, 255)
-c = (0, 0, 0)
-s = (139, 69, 19)
-a = (255, 255, 255)
-r = (184, 134, 11)   
+c = (0, 0, 0) # Black (fekete)
+b = (105, 105, 105) # Sötétszürke
+a = (255, 255, 255) # White (fehér)
 
-image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+kep = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 
 ```
 
@@ -126,21 +123,21 @@ title: Paxi
 Készítette: 6TETHASI csapat, Hollandia
 
 ```python
-v = (255, 0, 0) # Red
-j = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+a = (255, 255, 255) # White (fehér)
+c = (0, 0, 0) # Black (fekete)
+n = (154, 205, 50) # YellowGreen (sárgászöld)
+q = (255, 255, 0) # Yellow (sárga)
+t = (255, 140, 0) # DarkOrange (narancssárga)
 
-image = [
-    c, v, j, c, c, j, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, j, j, c, c, j, j, c]
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -155,22 +152,23 @@ title: Krokodil
 ![Egy 8*8-as rács, amely egy tojás és egy krokodil képét mutatja.](images/dog.png)
 
 Created by team ptpr_07, Spain
+
 ```python
 
-c = (0, 0, 0) # Black
-r = (86, 71, 0) # Light Brown
-s = (123, 61, 0) # Orange Brown
-y = (155, 0, 134) # Deep Pink
+a = (255, 255, 255) # White (fehér)
+c = (0, 0, 0) # Black (fekete)
+f = (25, 25, 112) # MidnightBlue (éjkék)
+m = (34, 139, 34) # ForestGreen (sötétzöld)
 
-image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+kep = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 
 ```
@@ -182,32 +180,30 @@ image = [
 title: Szivárvány
 ---
 
-![A grid with 8 x 8 squares showing a rainbow coloured chameleon.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
 
 Created by team The_ETs, United Kingdom
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (95, 65, 0) # Brown
-a = (255, 255, 255) # white
-v = (255, 0, 0) # Red
-t = (255, 153, 28) # Orange
-q = (255, 255, 0) # Yellow
-m = (0, 255, 0) # Green
-h = (0, 255, 255) # Cyan
-z = (128, 0, 255) # Purple
-y = (191, 0, 255) # Magenta
+c = (100, 149, 237) # CornflowerBlue (búzavirágkék)
+a = (255, 255, 255) # White (fehér)
+v = (255, 0, 0) # Red (piros)
+t = (255, 140, 0) # DarkOrange (narancssárga)
+q = (255, 255, 0) # Yellow (sárga)
+l = (0, 255, 127) # SpringGreen (élénkzöld)
+e = (0, 0, 205) # MediumBlue (kék)
 
-image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+szivarvany = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -224,22 +220,21 @@ Created by team Val, Greece
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (0, 255, 0) # Green
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 255) # Blue
-h = (0, 255, 255) # Cyan
+b = (105, 105, 105) # DimGray (sötétszürke)
+c = (0, 0, 0) # Black (fekete)
+d = (100, 149, 237) # CornflowerBlue (búzavirágkék)
+v = (255, 0, 0) # Red (piros)
+z = (153, 50, 204) # DarkOrchid (lila)
 
-image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+kep = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
 ```
 
@@ -250,29 +245,29 @@ image = [
 title: Chicken
 ---
 
-![A grid with 8 x 8 squares showing a Chicken.](images/chicken.png)
+![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Created by team Slepicky, Czechia
 
 ```python
 
-w = (255, 255, 255) #  White                                                                
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # Light Grey
-q = (255, 255, 0) # Yellow
-k = (79, 79, 79) # Dark Grey
+a = (255, 255, 255) # White (fehér)
+c = (0, 0, 0) # Black (fekete)
+f = (25, 25, 112) # MidnightBlue (éjkék)
+m = (34, 139, 34) # ForestGreen (sötétzöld)
 
+kep = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
-image =  [
-    a, a, v, v, v, a, a, a,
-    a, v, b, b, k, a, a, k,
-    a, b, c, b, b, a, k, b,
-    q, k, b, b, b, b, b, k,
-    a, v, b, b, b, b, k, b,
-    a, v, b, k, k, k, b, k,
-    a, a, a, k, b, q, k, a,
-    a, a, a, a, q, q, a, a]
+# Kép megjelenítése 
+sense.set_pixels(kep)
 
 ```
 
@@ -282,14 +277,14 @@ image =  [
 
 --- task ---
 
-**Keresd meg** a `# Kép megjelenítése` sort, majd adj hozzá egy új sor kódot, hogy megjelenítsd a képet a LED-mátrixon:
+**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+Nem jelenik meg a képem:
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
@@ -330,6 +325,6 @@ Nem jelenik meg a képem:
 
 Most, hogy megjeenítettél egy képet, elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![Mission Zero Mentés gomb](images/mz_savebutton_v2.png)
+![The Mission Zero Save button.](images/mz_savebutton_v2.png)
 
 --- /task --- 
