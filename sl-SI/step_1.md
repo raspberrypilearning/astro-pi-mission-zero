@@ -1,6 +1,6 @@
 ## Izdelali boste
 
-Vaš projekt bo nastavil barvo ozadja slike na barvo, ki jo zazna Astro Pi. Tako bo Mednarodna vesoljska postaja (ISS) postala bolj barvita za astronavte na krovu. Vaša koda bo to storila z uporabo senzorja barvne svetilnosti na Sense HAT novega računalnika Mark II Astro Pi.
+Vaš projekt bo nastavil barvo ozadja slike na barvo, ki jo zazna Astro Pi. Tako bo Mednarodna vesoljska postaja (ISS) postala bolj barvita za astronavte na krovu. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
 
 Tukaj je primer programa, ki bi ga lahko naredili za Astro Pi v vesolju.
 
