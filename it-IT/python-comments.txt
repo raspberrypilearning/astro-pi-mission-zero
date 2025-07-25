@@ -12,13 +12,19 @@ Aggiungi variabili per il colore e l'immagine
 
 Mostra l'immagine
 
-magenta
+DarkOrchid
 
 Giallo
 
-Blu medio
+Blu notte
 
 Nero
+
+Cyan
+
+SaddleBrown
+
+DarkGoldenrod
 
 Rosso
 
@@ -30,31 +36,15 @@ Blu Fiordaliso
 
 Giallo verde
 
-Blu notte
+DeepPink
 
 Arancione scuro
 
-Deep Pink
-
 Bianco
 
-Bianco
+Blu medio
 
-Arancione scuro
-
-Yellow
-
-Cyan
-
-Verde primavera
-
-Magenta
-
-Blue
-
-Grigio medio
-
-Grigio scuro
+DimGray
 
 ottenere il colore dal sensore
 
