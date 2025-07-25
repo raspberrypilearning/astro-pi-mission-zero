@@ -32,7 +32,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![Uno screenshot dell'emulatore Sense HAT con linee di codice iniziali visualizzate nel riquadro di sinistra.](images/sense-hat-emulator2.png)
+![Uno screenshot dell'emulatore Sense HAT con linee di codice iniziali visualizzate nel riquadro di sinistra.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
@@ -65,20 +65,19 @@ title: Volpe
 Creato dal team 6TETHASI, Paesi Bassi
 
 ```python
-z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Nero
+a = (255, 255, 255) # Bianco
+t = (255, 140, 0) # Arancione scuro
 
-image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+immagine = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 
 ```
 
@@ -96,21 +95,19 @@ title: Elefante
 Creato dal team ILiFanT, Finlandia
 
 ```python
-h = (0, 255, 255)
-c = (0, 0, 0)
-s = (139, 69, 19)
-a = (255, 255, 255)
-r = (184, 134, 11)   
+c = (0, 0, 0) # Nero
+b = (105, 105, 105) # Grigio scuro
+a = (255, 255, 255) # Bianco
 
-image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+immagine = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 
 ```
 
@@ -121,26 +118,26 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing paxi.](images/paxi.png)
+![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
 
 Creato dal team i_pupi, Italia
 
 ```python
-v = (255, 0, 0) # Red
-j = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+a = (255, 255, 255) # Bianco
+c = (0, 0, 0) # Nero
+n = (154, 205, 50) # Giallo verde
+q = (255, 255, 0) # Giallo
+t = (255, 140, 0) # Arancione scuro
 
-image = [
-    c, v, j, c, c, j, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, j, j, c, c, j, j, c]
+immagine = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -155,12 +152,13 @@ title: Coccodrillo
 ![Una griglia con 8 x 8 quadrati che mostra una testa di coccodrillo.](images/dog.png)
 
 Creato dal team hwplucyr, Regno Unito
+
 ```python
 
 c = (0, 0, 0) # Black
-r = (86, 71, 0) # Light Brown
-s = (123, 61, 0) # Orange Brown
-y = (155, 0, 134) # Deep Pink
+r = (184, 134, 11) # DarkGoldenrod
+s = (139, 69, 19) # SaddleBrown
+y = (255, 20, 147) # DeepPink
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -188,26 +186,24 @@ Creato da team camrus_6, Regno Unito
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (95, 65, 0) # Brown
-a = (255, 255, 255) # white
-v = (255, 0, 0) # Red
-t = (255, 153, 28) # Orange
-q = (255, 255, 0) # Yellow
-m = (0, 255, 0) # Green
-h = (0, 255, 255) # Cyan
-z = (128, 0, 255) # Purple
-y = (191, 0, 255) # Magenta
+c = (100, 149, 237) # Blu Fiordaliso
+a = (255, 255, 255) # Bianco
+v = (255, 0, 0) # Rosso
+t = (255, 140, 0) # Arancione scuro
+q = (255, 255, 0) # Giallo
+l = (0, 255, 127) # Verde primavera
+e = (0, 0, 205) # Blu medio
 
-image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+arcobaleno = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -218,28 +214,27 @@ image = [
 title: Drago
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un drago.](images/kite.png)
+![Una griglia con 8 x 8 quadrati che mostra un cactus.](images/kite.png)
 
 Created by team Val, Greece
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (0, 255, 0) # Green
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 255) # Blue
-h = (0, 255, 255) # Cyan
+b = (105, 105, 105) # Grigio medio
+c = (0, 0, 0) # Nero
+d = (100, 149, 237) # Blu Fiordaliso
+v = (255, 0, 0) # Rosso
+z = (153, 50, 204) # Orchidea scura
 
-image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+immagine = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
 ```
 
@@ -250,29 +245,29 @@ image = [
 title: Cactus
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un cactus.](images/chicken.png)
+![Una griglia con 8 x 8 quadrati che mostra un drago.](images/chicken.png)
 
-Created by team Slepicky, Czech Republic
+Created by team Slepicky, Czechia
 
 ```python
 
-w = (255, 255, 255) #  White                                                                
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # Light Grey
-q = (255, 255, 0) # Yellow
-k = (79, 79, 79) # Dark Grey
+a = (255, 255, 255) # Bianco
+c = (0, 0, 0) # Nero
+f = (25, 25, 112) # Blu notte
+m = (34, 139, 34) # Verde foresta
 
+immagine = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
-image =  [
-    a, a, v, v, v, a, a, a,
-    a, v, b, b, k, a, a, k,
-    a, b, c, b, b, a, k, b,
-    q, k, b, b, b, b, b, k,
-    a, v, b, b, b, b, k, b,
-    a, v, b, k, k, k, b, k,
-    a, a, a, k, b, q, k, a,
-    a, a, a, a, q, q, a, a]
+# Mostra l'immagine
+sense.set_pixels(immagine)
 
 ```
 
@@ -282,14 +277,14 @@ image =  [
 
 --- task ---
 
-**Trova:** la riga che dice `# Visualizza l'immagine` e aggiungi una riga di codice per visualizzare la tua immagine sulla matrice LED:
+**Trova:** la riga che dice `# Mostra l'immagine` e aggiungi una riga di codice per visualizzare la tua immagine sulla matrice LED:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
