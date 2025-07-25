@@ -32,7 +32,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![Een schermafbeelding van de Sense HAT emulator met enkele regels startcode weergegeven in het linkervenster.](images/sense-hat-emulator2.png)
+![Een schermafbeelding van de Sense HAT emulator met enkele regels startcode weergegeven in het linkervenster.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
@@ -65,20 +65,19 @@ title: Vis
 Gemaakt door team chalka, Polen
 
 ```python
-z = (204, 0, 204) # magenta
-q = (255, 255, 0) # yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # black
+c = (0, 0, 0) # Zwart
+a = (255, 255, 255) # Wit
+t = (255, 140, 0) # Donkeroranje
 
-image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+afbeelding = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 
 ```
 
@@ -96,21 +95,19 @@ title: Walrus
 Gemaakt door team Walrus, Finland
 
 ```python
-h = (0, 255, 255)
-c = (0, 0, 0)
-s = (139, 69, 19)
-a = (255, 255, 255)
-r = (184, 134, 11)   
+c = (0, 0, 0) # Zwart
+b = (105, 105, 105) # Donkergrijs
+a = (255, 255, 255) # Wit
 
-image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+afbeelding = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 
 ```
 
@@ -121,26 +118,26 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![Een raster van 8 x 8 vierkanten met paxi.](images/paxi.png)
+![Een raster van 8 x 8 vierkanten met daarop een cactus.](images/paxi.png)
 
 Gemaakt door team tony_pi, Italië
 
 ```python
-v = (255, 0, 0) # Red
-j = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+a = (255, 255, 255) # Wit
+c = (0, 0, 0) # Zwart
+n = (154, 205, 50) # Geelgroen
+q = (255, 255, 0) # Geel
+t = (255, 140, 0) # Donkeroranje
 
-image = [
-    c, v, j, c, c, j, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, j, j, c, c, j, j, c]
+afbeelding = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -155,22 +152,24 @@ title: Hond
 ![Een raster met 8 x 8 vierkanten met een hondenkop.](images/dog.png)
 
 Gemaakt door team ptpr_07, Spanje
+
 ```python
 
-c = (0, 0, 0) # Black
-r = (86, 71, 0) # Light Brown
-s = (123, 61, 0) # Orange Brown
-y = (155, 0, 134) # Deep Pink
+b = (105, 105, 105) # Matgrijs
+c = (0, 0, 0) # Zwart
+d = (100, 149, 237) # Korenbloemblauw
+v = (255, 0, 0) # Rood
+z = (153, 50, 204) # Donkerorchidee
 
-image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+afbeelding = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
 
 ```
@@ -182,32 +181,30 @@ image = [
 title: Kameleon
 ---
 
-![Een raster met 8 x 8 vierkanten met een regenboogkleurige kameleon.](images/chameleon.png)
+![Een raster met 8 x 8 vierkanten met een regenboog.](images/chameleon.png)
 
 Gemaakt door team The_ETs, Verenigd Koninkrijk
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (95, 65, 0) # Brown
-a = (255, 255, 255) # white
-v = (255, 0, 0) # Red
-t = (255, 153, 28) # Orange
-q = (255, 255, 0) # Yellow
-m = (0, 255, 0) # Green
-h = (0, 255, 255) # Cyan
-z = (128, 0, 255) # Purple
-y = (191, 0, 255) # Magenta
+c = (100, 149, 237) # Korenbloemblauw
+a = (255, 255, 255) # Wit
+v = (255, 0, 0) # Rood
+t = (255, 140, 0) # Donkeroranje
+q = (255, 255, 0) # Geel
+l = (0, 255, 127) # Lentegroen
+e = (0, 0, 205) # Middelblauw
 
-image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+regenboog = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -224,22 +221,20 @@ Gemaakt door team Val, Griekenland
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (0, 255, 0) # Green
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 255) # Blue
-h = (0, 255, 255) # Cyan
+a = (255, 255, 255) # Wit
+c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # Middernachtblauw
+m = (34, 139, 34) # Bosgroen
 
-image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+afbeelding = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 ```
 
@@ -250,29 +245,29 @@ image = [
 title: Kip
 ---
 
-![Een raster met 8 x 8 vierkanten met een kip.](images/chicken.png)
+![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
 
-Gemaakt door team Slepicky, Tsjechië
+Created by team Slepicky, Czechia
 
 ```python
 
-w = (255, 255, 255) #  White                                                                
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # Light Grey
-q = (255, 255, 0) # Yellow
-k = (79, 79, 79) # Dark Grey
+a = (255, 255, 255) # Wit
+c = (0, 0, 0) # Zwart
+f = (25, 25, 112) # Middernachtblauw
+m = (34, 139, 34) # Bosgroen
 
+afbeelding = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
-image =  [
-    a, a, v, v, v, a, a, a,
-    a, v, b, b, k, a, a, k,
-    a, b, c, b, b, a, k, b,
-    q, k, b, b, b, b, b, k,
-    a, v, b, b, b, b, k, b,
-    a, v, b, k, k, k, b, k,
-    a, a, a, k, b, q, k, a,
-    a, a, a, a, q, q, a, a]
+# Geef de afbeelding weer
+sense.set_pixels(afbeelding)
 
 ```
 
@@ -289,7 +284,7 @@ image =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
