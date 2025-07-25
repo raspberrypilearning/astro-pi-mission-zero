@@ -6,58 +6,48 @@ Installi värviandur
 
 Määra anduri tundlikkus
 
-Intervall, millal näit võetakse
+The interval at which the reading will be taken
 
 Lisa värvi muutujad ja pilt
 
 Kuva pilt
 
-Magenta
+DarkOrchid
 
 Yellow
 
 Blue
 
-Black
+Must
+
+Cyan
+
+SaddleBrown
+
+DarkGoldenrod
 
 Punane
 
 Metsaroheline
 
-Must
+Black
 
 Rukkilillesinine
 
 Green
 
-Light Brown
+DeepPink
 
-Orange Brown
-
-Deep Pink
-
-Brown
+DarkOrange
 
 Valge
 
-Orange
+MediumBlue
 
-Yellow
-
-Cyan
-
-Purple
-
-Magenta
-
-Blue
-
-Light Grey
-
-Dark Grey
+DimGray
 
 saa värv andurilt
 
 kasuta anduriga määratud värvi
 
-vali oma punase, rohelise ja sinise väärtused vahemikus 0–255
+choose your own red, green, blue values between 0 and 255
