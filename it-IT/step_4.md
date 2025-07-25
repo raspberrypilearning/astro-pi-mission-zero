@@ -22,7 +22,7 @@ line_highlights: 9, 10
 
 # Aggiungi variabili di colore e immagine
 
-z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero f = (25, 25, 112) # Blu notte m = (34, 139, 34) # Verde foresta
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -364,7 +364,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="0">
-  <img src="images/mz_savebutton_v2.png" alt="Schermata del pulsante Salva in Mission Zero" />
+  <img src="images/mz_savebutton_v2.png" alt="Mission Zero Save button screengrab" />
 </p>
 
 <p spaces-before="0">
@@ -428,7 +428,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </h1>
 
 <p spaces-before="0">
-  z = (204, 0, 204) # magenta q = (255, 255, 0) # yellow d = (51, 153, 255) # blue c = (0, 0, 0) # black
+  a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero f = (25, 25, 112) # Blu notte m = (34, 139, 34) # Verde foresta
 </p>
 
 <p spaces-before="0">
@@ -448,7 +448,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="0">
-  x = (178, 34, 34) # scegli i tuoi valori di rosso, verde, blu tra 0 - 255 sense.clear(x)
+  x = (178, 34, 34)  # scegli i tuoi valori di rosso, verde e blu compresi tra 0 e 255 sense.clear(x)
 </p>
 
 <p spaces-before="0">
