@@ -12,13 +12,19 @@ Agregar variables de color e imagen
 
 Mostrar la imagen
 
-magenta
+Orquídea Oscuro
 
-Verde amarillo
+Amarillo
 
-Azul medio
+azul
 
 Negro
+
+Cian
+
+SaddleBrown
+
+DarkGoldenrod
 
 Rojo
 
@@ -28,31 +34,15 @@ Negro
 
 Azul Aciano
 
-Verde Primavera
+Verde
 
-Azul medianoche
-
-Naranja oscuro
-
-Deep Pink
-
-Blanco
-
-Blanco
+DeepPink
 
 Naranja oscuro
 
-Yellow
+Blanco
 
-Cyan
-
-Amarillo
-
-Magenta
-
-Blue
-
-Gris apagado
+Azul medio
 
 Gris oscuro
 
