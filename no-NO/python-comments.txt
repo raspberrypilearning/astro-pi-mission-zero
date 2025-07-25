@@ -6,58 +6,48 @@ Sett opp fargesensoren
 
 Angi følsomheten til sensoren
 
-Intervallet hvor avlesningen vil ta
+The interval at which the reading will be taken
 
 Legg til fargevariabler og bilde
 
 Vis bildet
 
-magenta
+DarkOrchid
 
-yellow
+Yellow
 
 blue
 
-black
+Svart
+
+Cyan
+
+SaddleBrown
+
+DarkGoldenrod
 
 Rød
 
 Skoggrønn
 
-Svart
+Black
 
 Kornblomstblå
 
 Green
 
-Light Brown
+DeepPink
 
-Orange Brown
-
-Deep Pink
-
-Brown
+DarkOrange
 
 Hvit
 
-Orange
+MediumBlue
 
-Yellow
-
-Cyan
-
-Purple
-
-Magenta
-
-Blue
-
-Light Grey
-
-Dark Grey
+DimGray
 
 hent fargen fra sensoren
 
 bruke den sansede fargen
 
-velg ditt eget, grønn, blå verdier mellom 0 - 255
+choose your own red, green, blue values between 0 and 255
