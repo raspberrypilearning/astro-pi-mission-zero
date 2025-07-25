@@ -6,19 +6,25 @@ Configurer le capteur de couleurs
 
 Régler la sensibilité du capteur
 
-L'intervalle auquel la mesure est effectuée
+The interval at which the reading will be taken
 
 Ajouter des variables de couleur et une image
 
 Afficher l'image
 
-magenta
+DarkOrchid
 
-jaune
+Jaune
 
 bleu
 
 Noir
+
+Cyan
+
+SaddleBrown
+
+DarkGoldenrod
 
 Rouge
 
@@ -30,31 +36,15 @@ Bleuet
 
 Vert
 
-Marron Clair
+Rose
 
-Marron orangé
-
-Rose foncé
-
-Brun
+Orange foncé
 
 Blanc
 
-Orange
+Bleu moyen
 
-Jaune
-
-Cyan
-
-Violet
-
-Magenta
-
-Bleu
-
-Gris clair
-
-Gris foncé
+DimGray
 
 obtenir la couleur du capteur
 
