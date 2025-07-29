@@ -230,7 +230,7 @@ Je kunt je programma opslaan in het Mission Start-project door je teamnaam, de n
 title: Voorbeeld van een voltooide code
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Een raster met 8 x 8 vierkanten met een vis.](images/fish.png)
 
 --- code ---
 ---
