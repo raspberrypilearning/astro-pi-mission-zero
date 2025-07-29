@@ -57,27 +57,28 @@ The LED matrix is an 8 x 8 grid. Κάθε LED στο πλέγμα μπορεί �
 --- collapse ---
 
 ---
-title: Αλεπού
+title: Fish
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει το πρόσωπο μιας αλεπούς.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Δημιουργήθηκε από την ομάδα i_pupi, Ιταλία
+Created by team chalka, Poland
 
 ```python
-c = (0, 0, 0) # Μαύρο
-a = (255, 255, 255) # Άσπρο
-t = (255, 140, 0) # Σκούρο πορτοκαλί
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Yellow
+d = (51, 153, 255) # blue
+c = (0, 0, 0) # Black
 
 image = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Ελέφαντας
+title: Walrus
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν ελέφαντα.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Δημιουργήθηκε από την ομάδα ILiFanT, Φινλανδία
+Created by team Walrus, Finland
 
 ```python
-c = (0, 0, 0) # Μαύρο
-b = (105, 105, 105) # Σκούρο γκρι
-a = (255, 255, 255) # Άσπρο
+h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Black
+s = (139, 69, 19) # SaddleBrown
+a = (255, 255, 255) # White
+r = (184, 134, 11) # DarkGoldenrod
 
 image = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -118,26 +121,26 @@ image = [
 title: Paxi
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν κάκτο.](images/paxi.png)
+![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
 
-Δημιουργήθηκε από την ομάδα 6TETHASI, Ολλανδία
+Created by team tony_pi, Italy
 
 ```python
-a = (255, 255, 255) # Άσπρο
-c = (0, 0, 0) # Μαύρο
-n = (154, 205, 50) # Κιτρινοπράσινο
-q = (255, 255, 0) # Κίτρινο
-t = (255, 140, 0) # Σκούρο Πορτοκαλί
+v = (255, 0, 0) # Red
+m = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Black 
+e = (100, 149, 237) # CornflowerBlue
+l = (0, 255, 0) # Green
 
-image = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+image = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -146,29 +149,29 @@ image = [
 
 --- collapse ---
 ---
-title: Κροκόδειλος
+title: Dog
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα κεφάλι κροκόδειλου.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
 Created by team ptpr_07, Spain
 
 ```python
 
-a = (255, 255, 255) # Άσπρο
-c = (0, 0, 0) # Μαύρο
-f = (25, 25, 112) # Μπλε του Μεσονυκτίου
-m = (34, 139, 34) # Πράσινο του Δάσους
+c = (0, 0, 0) # Black
+r = (184, 134, 11) # DarkGoldenrod
+s = (139, 69, 19) # SaddleBrown
+y = (255, 20, 147) # DeepPink
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 
 ```
@@ -177,7 +180,7 @@ image = [
 
 --- collapse ---
 ---
-title: Ουράνιο Τόξο
+title: Chameleon
 ---
 
 ![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
@@ -186,24 +189,26 @@ Created by team The_ETs, United Kingdom
 
 ```python
 
-c = (100, 149, 237) # Μπλε του Άνθους Αραβοσίτου
-a = (255, 255, 255) # Άσπρο
-v = (255, 0, 0) # Κόκκινο
-t = (255, 140, 0) # Σκούρο Πορτοκαλί
-q = (255, 255, 0) # Κίτρινο
-l = (0, 255, 127) # Πράσινο της Άνοιξης
-e = (0, 0, 205) # Μεσαίο Μπλε
+c = (0, 0, 0) # Black
+s = (139, 69, 19) # SaddleBrown
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+m = (34, 139, 34) # ForestGreen
+h = (0, 255, 255) # Cyan
+z = (153, 50, 204) # DarkOrchid
+y = (255, 20, 147) # DeepPink
 
-rainbow = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+image = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -211,7 +216,7 @@ rainbow = [
 
 --- collapse ---
 ---
-title: Δράκος
+title: Kite
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
@@ -220,21 +225,22 @@ Created by team Val, Greece
 
 ```python
 
-b = (105, 105, 105) # Αχνό Γκρι
-c = (0, 0, 0) # Μαύρο
-d = (100, 149, 237) # Μπλε του Άνθους Αραβοσίτου
-v = (255, 0, 0) # Κόκκινο
-z = (153, 50, 204) # Σκοτεινή Ορχιδέα
+c = (0, 0, 0) # Black
+m = (34, 139, 34) # ForestGreen
+v = (255, 0, 0) # Red
+q = (255, 255, 0) # Yellow
+e = (0, 0, 205) # MediumBlue
+h = (0, 255, 255) # Cyan
 
 image = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -251,23 +257,21 @@ Created by team Slepicky, Czechia
 
 ```python
 
-a = (255, 255, 255) # Άσπρο
-c = (0, 0, 0) # Μαύρο
-f = (25, 25, 112) # Μπλε του Μεσονυκτίου
-m = (34, 139, 34) # Πράσινο του Δάσους
+v = (255, 0, 0) # Red
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # DimGray
+q = (255, 255, 0) # Yellow
+r = (184, 134, 11) # DarkGoldenrod
 
-image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
-
-# Εμφάνιση της εικόνας
-sense.set_pixels(image)
+image =  [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -284,7 +288,7 @@ sense.set_pixels(image)
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-Η εικόνα μου δεν εμφανίζεται:
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
