@@ -230,7 +230,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 title: Παράδειγμα ολοκληρωμένου κώδικα
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα ψάρι.](images/fish.png)
 
 --- code ---
 ---
