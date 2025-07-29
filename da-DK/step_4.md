@@ -20,9 +20,9 @@ language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9, 10
 ---
 
-# Tilføj farvevariabler og billede
+# Add colour variables and image
 
-a = (255, 255, 255) # Hvid c = (0, 0, 0) # Sort f = (25, 25, 112) # Midnatsblå m = (34, 139, 34) # Skovgrøn
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -80,7 +80,7 @@ Du skal nu indrykke al din kode under `for`-løkken, så den er **inde under** `
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
@@ -230,7 +230,7 @@ Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamn
 title: Fuldført kodeeksempel
 ---
 
-![Et gitter med 8 x 8 kvadrater, der viser en krokodille.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
 --- code ---
 ---
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-a = (255, 255, 255) # Hvid c = (0, 0, 0) # Sort f = (25, 25, 112) # Midnatsblå m = (34, 139, 34) # Skovgrøn
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # vælg dine egne røde, grønne eller blå værdier mellem 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
 
 --- /code ---
 
