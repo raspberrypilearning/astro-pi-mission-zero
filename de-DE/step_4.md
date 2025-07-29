@@ -20,9 +20,9 @@ language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9, 10
 ---
 
-# Farbvariablen und Bild hinzufügen
+# Add colour variables and image
 
-a = (255, 255, 255) # Weiß c = (0, 0, 0) # Schwarz f = (25, 25, 112) # Mitternachtsblau m = (34, 139, 34) # Waldgrün
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -80,7 +80,7 @@ Du musst jetzt deinen gesamten Code unter der `for`-Schleife einrücken, sodass 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
@@ -237,29 +237,29 @@ title: Vollständiges Code-Beispiel
 language: python filename: main.py
 line_numbers: false
 ---
-# Bibliotheken importieren
+# Import the libraries
 from sense_hat import SenseHat from time import sleep
 
-# Einrichten des Sense HAT
+# Set up the Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Farbsensor einrichten
-sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein sense.color.integration_cycles = 64 # Das Intervall in dem gemessen wird
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
-# Farbvariablen und Bild hinzufügen
+# Add colour variables and image
 
-a = (255, 255, 255) # Weiß c = (0, 0, 0) # Schwarz f = (25, 25, 112) # Mitternachtsblau m = (34, 139, 34) # Waldgrün
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
   image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 
-  # Das Bild anzeigen
+  # Display the image
 
-  sense.set_pixels(bild) sleep(1)
+  sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # Wähle deine eigenen Rot-, Grün- und Blauwerte zwischen 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
 
 --- /code ---
 
