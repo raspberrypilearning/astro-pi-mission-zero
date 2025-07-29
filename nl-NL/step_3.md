@@ -152,20 +152,20 @@ afbeelding = [
 title: Hond
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Een raster met 8 x 8 vakjes waarop een hondenkop is afgebeeld.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Gemaakt door team ptpr_07, Spanje
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Zwart
+r = (184, 134, 11) # Donkergoudenroede
+s = (139, 69, 19) # Zadelbruin
+y = (255, 20, 147) # Dieproze
 
-image = [
+afbeelding = [
     c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
+    c, r, s, s, s, r, c,
     c, r, c, s, s, c, r, c,
     c, s, s, s, s, s, s, c,
     c, s, s, s, s, s, s, c,
@@ -180,27 +180,27 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Kameleon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Een raster met 8 x 8 vierkanten met een regenboogkleurige kameleon.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Gemaakt door team The_ETs, Verenigd Koninkrijk
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
-h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Zwart
+s = (139, 69, 19) # Zadelbruin
+a = (255, 255, 255) # Wit
+v = (255, 0, 0) # Rood
+t = (255, 140, 0) # Donkeroranje
+q = (255, 255, 0) # Geel
+m = (34, 139, 34) # Bosgroen
+h = (0, 255, 255) # Cyaan
 z = (153, 50, 204) # DarkOrchid
 y = (255, 20, 147) # DeepPink
 
-image = [
+afbeelding = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -216,30 +216,30 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Vlieger
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Een raster met 8 x 8 vakjes waarop een vlieger is afgebeeld.](images/kite.png)
 
-Created by team Val, Greece
+Gemaakt door team Val, Griekenland
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
-h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Zwart
+m = (34, 139, 34) # Bosgroen
+v = (255, 0, 0) # Rood
+q = (255, 255, 0) # Geel
+e = (0, 0, 205) # Middelblauw
+h = (0, 255, 255) # Cyaan
 
-image = [
+afbeelding = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, q, q, m, m, h, 
     h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
+    h, h, c, h, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, h, 
     c, h, h, h, h, h, h, h]
 
 ```
@@ -248,22 +248,22 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Kip
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Een raster met 8 x 8 vierkanten met een kip.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Gemaakt door team Slepicky, Tsjechië
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 0, 0) # Rood
+c = (0, 0, 0) # Zwart
+b = (105, 105, 105) # Zachtgrijs
+q = (255, 255, 0) # Geel
+r = (184, 134, 11) # DonkerGoudenroede
 
-image =  [
+afbeelding = [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -281,14 +281,14 @@ image =  [
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Zoek:** de regel `# Toon de afbeelding` en voeg code toe om je afbeelding op de LED matrix weer te geven:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # Donker orchidee q = (255, 255, 0) # Geel d = (51, 153, 255) # blauw c = (0, 0, 0) # Zwart
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
