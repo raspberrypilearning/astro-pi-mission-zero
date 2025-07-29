@@ -20,9 +20,9 @@ language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9, 10
 ---
 
-# Aggiungi variabili di colore e immagine
+# Add colour variables and image
 
-a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero f = (25, 25, 112) # Blu notte m = (34, 139, 34) # Verde foresta
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -86,7 +86,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
   language: python filename: main.py line_numbers: false line_number_start: 1
 </p>
 <h2 spaces-before="0">
-  line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+  line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 </h2>
 
 <p spaces-before="0">
@@ -400,7 +400,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
   line_numbers: false
 </h2>
 <h1 spaces-before="0">
-  Importare le librerie
+  Import the libraries
 </h1>
 
 <p spaces-before="0">
@@ -408,7 +408,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <h1 spaces-before="0">
-  Imposta il Sense HAT
+  Set up the Sense HAT
 </h1>
 
 <p spaces-before="0">
@@ -416,19 +416,19 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <h1 spaces-before="0">
-  Configura il sensore di colore
+  Set up the colour sensor
 </h1>
 
 <p spaces-before="0">
-  sense.color.gain = 60 # Imposta la sensibilità del sensore sense.color.integration_cycles = 64 # L'intervallo a cui verrà eseguita la lettura
+  sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 </p>
 
 <h1 spaces-before="0">
-  Aggiungi variabili di colore e immagine
+  Add colour variables and image
 </h1>
 
 <p spaces-before="0">
-  a = (255, 255, 255) # Bianco c = (0, 0, 0) # Nero f = (25, 25, 112) # Blu notte m = (34, 139, 34) # Verde foresta
+  z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 </p>
 
 <p spaces-before="0">
@@ -440,7 +440,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="2">
-  # Visualizza l'immagine
+  # Display the image
 </p>
 
 <p spaces-before="2">
@@ -448,7 +448,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="0">
-  x = (178, 34, 34)  # scegli i tuoi valori di rosso, verde e blu compresi tra 0 e 255 sense.clear(x)
+  x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
 </p>
 
 <p spaces-before="0">
