@@ -20,9 +20,9 @@ language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9, 10
 ---
 
-# Προσθήκη μεταβλητών χρωμάτων και εικόνας
+# Add colour variables and image
 
-a = (255, 255, 255) # Άσπρο c = (0, 0, 0) # Μαύρο f = (25, 25, 112) # Μπλε του Μεσονυκτίου m = (34, 139, 34) # Πράσινο του Δάσους
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -80,7 +80,7 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
@@ -230,7 +230,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 title: Παράδειγμα ολοκληρωμένου κώδικα
 ---
 
-![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει έναν κροκόδειλο.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
 --- code ---
 ---
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-a = (255, 255, 255) # Άσπρο c = (0, 0, 0) # Μαύρο f = (25, 25, 112) # Μπλε του Μεσονυκτίου m = (34, 139, 34) # Πράσινο του Δάσους
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # επίλεξε τις δικές σου τιμές μεταξύ 0 - 255 για το κόκκινο, το πράσινο, το μπλε sense.clear(x)
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
 
 --- /code ---
 
