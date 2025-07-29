@@ -41,7 +41,7 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 --- /task ---
 
-## Fais tourner ton programme en boucle
+## Faire tourner ton programme en boucle
 
 Le programme Mission Zero de l'Astro Pi peut être exécuté pendant 30 secondes maximum. Tu utiliseras ce temps pour vérifier à plusieurs reprises le capteur de couleurs et actualiser l'image.
 
@@ -213,7 +213,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 --- task ---
 
-**Enregistre ta progression**
+**Enregistrer ta progression**
 
 Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, le nom des membres de ton équipe et le code de classe qui t'est donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
 
@@ -230,7 +230,7 @@ Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le no
 title: Exemple de code terminé
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Une grille de 8 x 8 cases représentant un poisson.](images/fish.png)
 
 --- code ---
 ---
