@@ -21,10 +21,10 @@ Tu découvriras l'Astro Pi et apprendras à l'utiliser et à faire les actions s
 
 --- collapse ---
 ---
-title: Notes pour les mentors
+title: Notes pour les mentor·e·s
 ---
 
-Mission Zero convient aux débutants en programmation et/ou aux enfants en âge d'aller à l'école primaire et est réalisable en une seule session de 60 minutes sur n'importe quel ordinateur disposant d'un accès à Internet. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
+Mission Zero convient aux débutant·e·s en programmation et/ou aux enfants en âge d'aller à l'école primaire et est réalisable en une seule session de 60 minutes sur n'importe quel ordinateur disposant d'un accès à Internet. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
 
 Regroupez les élèves en équipes de quatre au maximum et laissez-nous les guider dans l'écriture d'un court programme Python pour détecter la couleur à bord de l'ISS et créer une image qui utilise cette couleur.
 
