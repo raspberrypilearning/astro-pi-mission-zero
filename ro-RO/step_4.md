@@ -20,9 +20,9 @@ language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9, 10
 ---
 
-# Adaugă variabile de culoare și imagine
+# Add colour variables and image
 
-a = (255, 255, 255) # Alb c = (0, 0, 0) # Negru f = (25, 25, 112) # Bleumarin m = (34, 139, 34) # Verde pădure
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
@@ -80,7 +80,7 @@ Acum trebuie să indentezi tot codul de sub bucla `for` astfel încât să fie *
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
@@ -230,7 +230,7 @@ Poți salva programul tău în proiectul Mission Starter introducând numele ech
 title: Exemplu de cod completat
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un crocodil.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
 --- code ---
 ---
@@ -248,7 +248,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 # Add colour variables and image
 
-a = (255, 255, 255) # Alb c = (0, 0, 0) # Negru f = (25, 25, 112) # Bleumarin m = (34, 139, 34) # Verde pădure
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # alege-ți propriile valori roșu, verde, albastru între 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
 
 --- /code ---
 
