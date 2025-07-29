@@ -57,7 +57,7 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-title: Fuchs
+title: Fish
 ---
 
 ![A grid with 8 x 8 squares showing a fish.](images/fish.png)
@@ -65,19 +65,20 @@ title: Fuchs
 Created by team chalka, Poland
 
 ```python
-c = (0, 0, 0) # Schwarz
-a = (255, 255, 255) # Weiß
-t = (255, 140, 0) # Dunkelorange
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Yellow
+d = (51, 153, 255) # blue
+c = (0, 0, 0) # Black
 
-bild = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+image = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elefant
+title: Walrus
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Elefanten zeigen.](images/walrus.png)
+![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Erstellt vom Team ILiFanT, Finnland
+Created by team Walrus, Finland
 
 ```python
-c = (0, 0, 0) # Schwarz
-b = (105, 105, 105) # Dunkelgrau
-a = (255, 255, 255) # Weiß
+h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Black
+s = (139, 69, 19) # SaddleBrown
+a = (255, 255, 255) # White
+r = (184, 134, 11) # DarkGoldenrod
 
-bild = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+image = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -120,24 +123,24 @@ title: Paxi
 
 ![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
 
-Erstellt vom Team i_pupi, Italien
+Created by team tony_pi, Italy
 
 ```python
-a = (255, 255, 255) # Weiß
-c = (0, 0, 0) # Schwarz
-n = (154, 205, 50) # Gelbgrün
-q = (255, 255, 0) # Gelb
-t = (255, 140, 0) # Dunkelorange
+v = (255, 0, 0) # Red
+m = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Black 
+e = (100, 149, 237) # CornflowerBlue
+l = (0, 255, 0) # Green
 
-bild = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+image = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -146,12 +149,12 @@ bild = [
 
 --- collapse ---
 ---
-title: Krokodil
+title: Dog
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die ein Fuchsgesicht zeigen.](images/dog.png)
+![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
-Erstellt vom Team hwplucyr, Vereinigtes Königreich
+Created by team ptpr_07, Spain
 
 ```python
 
@@ -177,33 +180,35 @@ image = [
 
 --- collapse ---
 ---
-title: Regenbogen
+title: Chameleon
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Regenbogen zeigen.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
 
-Erstellt von Team camrus_6, Vereinigtes Königreich
+Created by team The_ETs, United Kingdom
 
 ```python
 
-c = (100, 149, 237) # Kornblumenblau
-a = (255, 255, 255) # Weiß
-v = (255, 0, 0) # Rot
-t = (255, 140, 0) # Dunkelorange
-q = (255, 255, 0) # Gelb
-l = (0, 255, 127) # Frühlingsgrün
-e = (0, 0, 205) # Mittelblau
+c = (0, 0, 0) # Black
+s = (139, 69, 19) # SaddleBrown
+a = (255, 255, 255) # White
+v = (255, 0, 0) # Red
+t = (255, 140, 0) # DarkOrange
+q = (255, 255, 0) # Yellow
+m = (34, 139, 34) # ForestGreen
+h = (0, 255, 255) # Cyan
+z = (153, 50, 204) # DarkOrchid
+y = (255, 20, 147) # DeepPink
 
-regenbogen = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+image = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -211,30 +216,31 @@ regenbogen = [
 
 --- collapse ---
 ---
-title: Drache
+title: Kite
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/kite.png)
+![A grid with 8 x 8 squares showing a kite.](images/kite.png)
 
 Created by team Val, Greece
 
 ```python
 
-b = (105, 105, 105) # Mittelgrau
-c = (0, 0, 0) # Schwarz
-d = (100, 149, 237) # Kornblumenblau
-v = (255, 0, 0) # Rot
-z = (153, 50, 204) # Dunkle Orchidee
+c = (0, 0, 0) # Black
+m = (34, 139, 34) # ForestGreen
+v = (255, 0, 0) # Red
+q = (255, 255, 0) # Yellow
+e = (0, 0, 205) # MediumBlue
+h = (0, 255, 255) # Cyan
 
-bild = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+image = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -242,32 +248,30 @@ bild = [
 
 --- collapse ---
 ---
-title: Kaktus
+title: Chicken
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Krokodilkopf zeigen.](images/chicken.png)
+![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
 
 Created by team Slepicky, Czechia
 
 ```python
 
-a = (255, 255, 255) # Weiß
-c = (0, 0, 0) # Schwarz
-f = (25, 25, 112) # Mitternachtsblau
-m = (34, 139, 34) # Waldgrün
+v = (255, 0, 0) # Red
+c = (0, 0, 0) # Black
+b = (105, 105, 105) # DimGray
+q = (255, 255, 0) # Yellow
+r = (184, 134, 11) # DarkGoldenrod
 
-bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
-
-# Das Bild anzeigen
-sense.set_pixels(bild)
+image =  [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -277,7 +281,7 @@ sense.set_pixels(bild)
 
 --- task ---
 
-**Suche:** die Zeile `# das Bild anzeigen` und füge eine Zeile Code hinzu, um dein Bild auf der LED-Matrix anzuzeigen:
+**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
 
 --- code ---
 ---
