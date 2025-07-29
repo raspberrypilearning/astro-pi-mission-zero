@@ -6,13 +6,13 @@ Configurer le capteur de couleurs
 
 Régler la sensibilité du capteur
 
-The interval at which the reading will be taken
+L'intervalle auquel la lecture sera effectuée
 
 Ajouter des variables de couleur et une image
 
 Afficher l'image
 
-DarkOrchid
+Orchideefoncee
 
 Jaune
 
@@ -22,9 +22,9 @@ Noir
 
 Cyan
 
-SaddleBrown
+Brunfonce
 
-DarkGoldenrod
+Jaunedorefonce
 
 Rouge
 
@@ -38,13 +38,13 @@ Vert
 
 Rose
 
-Orange foncé
+Orangefoncé
 
 Blanc
 
-Bleu moyen
+Bleumoyen
 
-DimGray
+Grismat
 
 obtenir la couleur du capteur
 
