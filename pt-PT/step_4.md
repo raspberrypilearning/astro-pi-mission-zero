@@ -20,7 +20,7 @@ language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 9, 10
 ---
 
-# Adicionar variáveis de cor e imagem
+# Add colour variables and image
 
 z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
 
@@ -80,7 +80,7 @@ Agora precisas de indentar todo o teu código abaixo do ciclo `for` para que fiq
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
@@ -230,7 +230,7 @@ Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome d
 title: Exemplo de código completo
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/fish.png)
+![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
 --- code ---
 ---
@@ -259,7 +259,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
   sense.set_pixels(image) sleep(1)
 
-x = (178, 34, 34)  # escolhe os teus próprios valores de vermelho, verde e azul entre 0 - 255 sense.clear(x)
+x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
 
 --- /code ---
 
