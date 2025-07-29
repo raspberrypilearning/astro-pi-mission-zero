@@ -36,7 +36,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /task ---
 
-### Les couleurs RVB
+### Couleurs RVB
 
 Tu peux créer des couleurs en utilisant différentes valeurs de rouge, vert et bleu. Tu peux découvrir les couleurs RVB ici :
 
@@ -46,7 +46,7 @@ La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée
 
 [[[ambient-colours]]]
 
-### Choisis une image
+### Choisir une image
 
 --- task ---
 
@@ -57,18 +57,18 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Fish
+title: Poisson
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Une grille de 8 x 8 cases représentant un poisson.](images/fish.png)
 
-Created by team chalka, Poland
+Créé par l'équipe chalka, Pologne
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # Orchideefoncee
+q = (255, 255, 0) # Jaune
+d = (51, 153, 255) # bleu
+c = (0, 0, 0) # Noir
 
 image = [
 d, d, z, d, d, d, d, d,
@@ -88,19 +88,19 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Morse
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Une grille de 8 x 8 cases représentant un morse.](images/walrus.png)
 
-Created by team Walrus, Finland
+Créé par l'équipe Walrus, Finlande
 
 ```python
 h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+c = (0, 0, 0) # Noir
+s = (139, 69, 19) # Brunfonce
+a = (255, 255, 255) # Blanc
+r = (184, 134, 11) # Jaunedorefonce
 
 image = [
 h, h, h, h, h, h, h, h,
@@ -121,16 +121,16 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Une grille de 8 x 8 cases représentant un Paxi.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Créé par l'équipe tony_pi, Italie
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # Rouge
+m = (34, 139, 34) # Vertforet
+c = (0, 0, 0) # Noir 
+e = (100, 149, 237) # Bleubleuet
+l = (0, 255, 0) # Vert
 
 image = [
     c, v, m, c, c, m, v, c,
@@ -149,19 +149,19 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Chien
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Une grille de 8 x 8 cases représentant une tête de chien.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Créé par l'équipe ptpr_07, Espagne
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Noir
+r = (184, 134, 11) # Jaunedorefonce
+s = (139, 69, 19) # Brunfonce
+y = (255, 20, 147) # Fuchsiavif
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -180,25 +180,25 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Caméléon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Une grille de 8 x 8 carrés représentant un caméléon aux couleurs de l'arc-en-ciel.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Créé par l'équipe The_ETs, Royaume-Uni
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Noir
+s = (139, 69, 19) # Brunfonce
+a = (255, 255, 255) # Blanc
+v = (255, 0, 0) # Rouge
+t = (255, 140, 0) # Orangefonce
+q = (255, 255, 0) # Jaune
+m = (34, 139, 34) # Vertfonce
 h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+z = (153, 50, 204) # Orchideefoncee
+y = (255, 20, 147) # Fuchsiavif
 
 image = [
     a, a, v, v, t, a, a, a,
@@ -216,20 +216,20 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Cerf-volant
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Une grille de 8 x 8 cases représentant un cerf-volant.](images/kite.png)
 
-Created by team Val, Greece
+Créé par l'équipe Val, Grèce
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
+c = (0, 0, 0) # Noir
+m = (34, 139, 34) # Vertforet
+v = (255, 0, 0) # Rouge
+q = (255, 255, 0) # Jaune
+e = (0, 0, 205) # Bleumoyen
 h = (0, 255, 255) # Cyan
 
 image = [
@@ -248,20 +248,20 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Poulet
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Une grille de 8 x 8 cases représentant un poulet.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Créé par l'équipe Slepicky, Tchéquie
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 0, 0) # Rouge
+c = (0, 0, 0) # Noir
+b = (105, 105, 105) # Grismat
+q = (255, 255, 0) # Jaune
+r = (184, 134, 11) # Jaunedorefonce
 
 image =  [
     c, c, v, v, v, c, c, c,
@@ -281,14 +281,14 @@ image =  [
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Trouver :** la ligne qui indique`# Afficher l'image` et ajoute une ligne de code pour afficher ton image sur la matrice LED :
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # Orchideefoncee q = (255, 255, 0) # Jaune d = (51, 153, 255) # bleu c = (0, 0, 0) # Noir
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
