@@ -57,26 +57,26 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 --- collapse ---
 
 ---
-title: Fish
+title: Vis
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Een raster met 8 x 8 vierkanten met daarop een vis.](images/fish.png)
 
-Created by team chalka, Poland
+Gemaakt door team Chalka, Polen
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # Donker orchidee 
+q = (255, 255, 0) # Geel
+d = (51, 153, 255) # blauw
+c = (0, 0, 0) # Zwart
 
-image = [
+afbeelding = [
 d, d, z, d, d, d, d, d,
 d, d, d, z, z, d, d, d,
 z, d, q, q, q, q, d, d,
 z, z, q, q, q, c, q, d,
 z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
+z, z, q, q, q, q, q, q, d,
 z, d, q, z, z, q, d, d,
 d, d, d, z, d, d, d, d]
 
@@ -91,18 +91,18 @@ d, d, d, z, d, d, d, d]
 title: Walrus
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Een raster van 8 x 8 vierkanten met daarop een walrus.](images/walrus.png)
 
-Created by team Walrus, Finland
+Gemaakt door team Walrus, Finland
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+h = (0, 255, 255) # Cyaan
+c = (0, 0, 0) # Zwart
+s = (139, 69, 19) # Zadelbruin
+a = (255, 255, 255) # Wit
+r = (184, 134, 11) # Donkergoudenroede
 
-image = [
+afbeelding = [
 h, h, h, h, h, h, h, h,
 h, h, s, s, s, h, h, h,
 h, s, s, s, s, s, h, h,
@@ -121,18 +121,18 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Een raster van 8 x 8 vierkanten met Paxi.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Gemaakt door team tony_pi, Italië
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # Rood
+m = (34, 139, 34) # Bosgroen
+c = (0, 0, 0) # Zwart 
+e = (100, 149, 237) # Korenbloemblauw
+l = (0, 255, 0) # Groen
 
-image = [
+afbeelding = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -149,7 +149,7 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Hond
 ---
 
 ![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
