@@ -42,7 +42,7 @@ Barvy se dají vytvořit pomocí různých poměrů červené, zelené a modré.
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Každou LED diodu na mřížce lze nastavit na jinou barvu. Tady je seznam proměnných pro 24 různých barev. Každá barva obsahuje hodnotu pro červenou, zelenou a modrou:
+LED matice je mřížka o velikosti 8 × 8. Každou LED diodu na mřížce lze nastavit na jinou barvu. Tady je seznam proměnných pro 24 různých barev. Každá barva obsahuje hodnotu pro červenou, zelenou a modrou:
 
 [[[ambient-colours]]]
 
@@ -57,20 +57,20 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 --- collapse ---
 
 ---
-title: Fish
+title: Ryba
 ---
 
 ![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Created by team chalka, Poland
+Vytvořil tým chalka z Polska
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # Tmavá orchidej
+q = (255, 255, 0) # Žlutá
+d = (51, 153, 255) # Modrá
+c = (0, 0, 0) # Černá
 
-image = [
+obrazek = [
 d, d, z, d, d, d, d, d,
 d, d, d, z, z, d, d, d,
 z, d, q, q, q, q, d, d,
@@ -88,21 +88,21 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Mrož
 ---
 
 ![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Created by team Walrus, Finland
+Vytvořil tým Walrus z Finska
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+h = (0, 255, 255) # Modrozelená
+c = (0, 0, 0) # Černá
+s = (139, 69, 19) # Sedlově hnědá
+a = (255, 255, 255) # Bílá
+r = (184, 134, 11) # Tmavý zlatobýl
 
-image = [
+obrazek = [
 h, h, h, h, h, h, h, h,
 h, h, s, s, s, h, h, h,
 h, s, s, s, s, s, h, h,
@@ -123,16 +123,16 @@ title: Paxi
 
 ![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Vytvořil tým tony_pi z Itálie
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # Červená
+m = (34, 139, 34) # Lesní zelená
+c = (0, 0, 0) # Černá 
+e = (100, 149, 237) # Chrpově modrá
+l = (0, 255, 0) # Zelená
 
-image = [
+obrazek = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -149,21 +149,21 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Pes
 ---
 
 ![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Vytvořil tým ptpr_07 ze Španělska
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Černá
+r = (184, 134, 11) # Tmavý zlatobýl
+s = (139, 69, 19) # Sedlově hnědá
+y = (255, 20, 147) # Sytě růžová
 
-image = [
+obrazek = [
     c, r, r, c, c, r, r, c,
     c, r, s, s, s, s, r, c,
     c, r, c, s, s, c, r, c,
@@ -185,22 +185,22 @@ title: Chameleon
 
 ![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Vytvořil tým The_ETs z Velké Británie
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Černá
+s = (139, 69, 19) # Sedlově hnědá
+a = (255, 255, 255) # Bílá
+v = (255, 0, 0) # Červená
+t = (255, 140, 0) # Tmavě oranžová
+q = (255, 255, 0) # Žlutá
+m = (34, 139, 34) # Lesní zelená
+h = (0, 255, 255) # Modrozelená
+z = (153, 50, 204) # Tmavá orchidej
+y = (255, 20, 147) # Sytě růžová
 
-image = [
+obrazek = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -216,23 +216,23 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Drak
 ---
 
 ![A grid with 8 x 8 squares showing a kite.](images/kite.png)
 
-Created by team Val, Greece
+Vytvořil tým Val z Řecka
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
-h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Černá
+m = (34, 139, 34) # Lesní zelená
+v = (255, 0, 0) # Červená
+q = (255, 255, 0) # Žlutá
+e = (0, 0, 205) # Středně modrá
+h = (0, 255, 255) # Modrozelená
 
-image = [
+obrazek = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
