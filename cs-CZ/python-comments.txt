@@ -6,48 +6,48 @@ Nastav senzor barev
 
 Nastav citlivost senzoru
 
-The interval at which the reading will be taken
+Interval, který udává frekvenci měření ze senzoru
 
 Přidej proměnné s barvami a obrázek
 
 Zobraz obrázek
 
-DarkOrchid
+Tmavá orchidej
 
-Yellow
+Žlutá
 
-blue
+Modrá
 
 Černá
 
-Cyan
+Modrozelená
 
-SaddleBrown
+Sedlově hnědá
 
-DarkGoldenrod
+Tmavý zlatobýl
 
 Červená
 
 Lesní zelená
 
-Black
+Černá
 
 Chrpově modrá
 
-Green
+Zelená
 
-DeepPink
+Sytě růžová
 
-DarkOrange
+Tmavě oranžová
 
 Bílá
 
-MediumBlue
+Středně modrá
 
-DimGray
+Tlumeně šedá
 
 Získej barvu ze senzoru
 
 Použij barvu naměřenou ze senzoru
 
-choose your own red, green, blue values between 0 and 255
+Vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0 až 255
