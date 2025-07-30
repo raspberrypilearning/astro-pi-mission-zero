@@ -60,7 +60,7 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 title: Ryba
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Mřížka o velikosti 8 × 8, na které je ryba.](images/fish.png)
 
 Vytvořil tým chalka z Polska
 
@@ -91,7 +91,7 @@ d, d, d, z, d, d, d, d]
 title: Mrož
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Mřížka o velikosti 8 × 8, na které je mrož.](images/walrus.png)
 
 Vytvořil tým Walrus z Finska
 
@@ -121,7 +121,7 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Mřížka o velikosti 8 × 8, na které je Paxi.](images/paxi.png)
 
 Vytvořil tým tony_pi z Itálie
 
@@ -152,7 +152,7 @@ obrazek = [
 title: Pes
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Mřížka o velikosti 8 × 8, na které je hlava psa.](images/dog.png)
 
 Vytvořil tým ptpr_07 ze Španělska
 
@@ -183,7 +183,7 @@ obrazek = [
 title: Chameleon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Mřížka o velikosti 8 × 8, na které je duhový chameleon.](images/chameleon.png)
 
 Vytvořil tým The_ETs z Velké Británie
 
@@ -219,7 +219,7 @@ obrazek = [
 title: Drak
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Mřížka o velikosti 8 × 8, na které je drak.](images/kite.png)
 
 Vytvořil tým Val z Řecka
 
@@ -248,22 +248,22 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Slepice
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Mřížka o velikosti 8 × 8, na které je slepice.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Vytvořil tým Slepicky z Česka
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 0, 0) # Červená
+c = (0, 0, 0) # Černá
+b = (105, 105, 105) # Tlumeně šedá
+q = (255, 255, 0) # Žlutá
+r = (184, 134, 11) # Tmavý zlatobýl
 
-image =  [
+obrazek =  [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -281,18 +281,18 @@ image =  [
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Najdi:** řádek, na kterém je napsáno `# Zobraz obrázek` a přidej řádek kódu, který zobrazí tvůj obrázek na LED matici:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # Tmavá orchidej q = (255, 255, 0) # Žlutá d = (51, 153, 255) # Modrá c = (0, 0, 0) # Černá
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Zobraz obrázek
 sense.set_pixels(image)
 
 --- /code ---
@@ -329,6 +329,6 @@ Neukazuje se mi obrázek:
 
 Po zobrazení obrázku můžeš svůj program uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Tlačítko výzvy Mission Zero pro uložení.](images/mz_savebutton_v2.png)
 
 --- /task --- 
