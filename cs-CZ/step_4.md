@@ -230,7 +230,7 @@ Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu
 title: Příklad dokončeného kódu
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Mřížka o velikosti 8 × 8, na které je ryba.](images/fish.png)
 
 --- code ---
 ---
