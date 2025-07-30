@@ -65,9 +65,9 @@ title: Vis
 Gemaakt door team Chalka, Polen
 
 ```python
-z = (153, 50, 204) # Donker orchidee 
+z = (153, 50, 204) # Donkerorchidee 
 q = (255, 255, 0) # Geel
-d = (51, 153, 255) # blauw
+d = (51, 153, 255) # Blauw
 c = (0, 0, 0) # Zwart
 
 afbeelding = [
@@ -197,8 +197,8 @@ t = (255, 140, 0) # Donkeroranje
 q = (255, 255, 0) # Geel
 m = (34, 139, 34) # Bosgroen
 h = (0, 255, 255) # Cyaan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+z = (153, 50, 204) # Donkerorchidee
+y = (255, 20, 147) # Dieproze
 
 afbeelding = [
     a, a, v, v, t, a, a, a,
@@ -259,9 +259,9 @@ Gemaakt door team Slepicky, Tsjechië
 
 v = (255, 0, 0) # Rood
 c = (0, 0, 0) # Zwart
-b = (105, 105, 105) # Zachtgrijs
+b = (105, 105, 105) # Matgrijs
 q = (255, 255, 0) # Geel
-r = (184, 134, 11) # DonkerGoudenroede
+r = (184, 134, 11) # Donkergoudenroede
 
 afbeelding = [
     c, c, v, v, v, c, c, c,
@@ -281,14 +281,14 @@ afbeelding = [
 
 --- task ---
 
-**Zoek:** de regel `# Toon de afbeelding` en voeg code toe om je afbeelding op de LED matrix weer te geven:
+**Zoek:** de regel `# Toon de afbeelding` en voeg een regel code toe om je afbeelding op de LED-matrix weer te geven:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # Donker orchidee q = (255, 255, 0) # Geel d = (51, 153, 255) # blauw c = (0, 0, 0) # Zwart
+z = (153, 50, 204) # Donkerorchidee q = (255, 255, 0) # Geel d = (51, 153, 255) # Blauw c = (0, 0, 0) # Zwart
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
