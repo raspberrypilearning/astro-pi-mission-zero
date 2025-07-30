@@ -24,7 +24,7 @@ Cyaan
 
 Zadelbruin
 
-Donkeroranje
+Donkergoudenroede
 
 Rood
 
@@ -36,18 +36,18 @@ Korenbloemblauw
 
 Groen
 
-Donkerroze
+Dieproze
 
 Donkeroranje
 
 Wit
 
-Middernachtblauw
+Middelblauw
 
-Donkergrijs
+Matgrijs
 
 haal de kleur uit de sensor
 
 gebruik de waargenomen kleur
 
-kies je eigen rode, groene en blauwe waarden tussen 0 - 255
+kies je eigen rood-, groen- en blauwwaarden tussen 0 en 255
