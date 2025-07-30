@@ -2,7 +2,7 @@
 
 In deze stap ga je de kleurhelderheidssensor instellen en deze gebruiken om de hoeveelheid rood, groen en blauw die de sensor bereiken waar te nemen. Deze kleur zal dan worden gebruikt om je afbeelding in te kleuren. Een astronaut die in een blauw shirt naar de sensor loopt, ziet een ander beeld dan een astronaut in een rood shirt.
 
-![afbeelding weergegeven met een roze achtergrond op de LED-matrix](images/colour_background.png)
+![Een afbeelding weergegeven met een roze achtergrond op de LED-matrix.](images/colour_background.png)
 
 Welke afbeelding je ook kiest, de achtergrond gebruikt de variabele `c` die is ingesteld op zwart.
 
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Je kunt je programma opslaan in het Mission Start-project door je teamnaam, de namen van de teamleden en de klascode die je hebt gekregen in te voeren. Je kunt je programma herladen op elk apparaat met een internetverbinding door je teamnaam en klascode in te voeren.
 
-![Mission Zero Save-knop schermafbeelding](images/mz_savebutton_v2.png)
+![De Mission Zero Save-knop.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
