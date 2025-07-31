@@ -1,6 +1,6 @@
 ## Détecter une couleur
 
-Dans cette étape, tu vas configurer le capteur de luminosité des couleurs et l'utiliser pour détecter la quantité de rouge, de vert et de bleu qui atteint le capteur. Cette couleur sera ensuite utilisée pour coloriser ton image. Un astronaute s'approchant du capteur en chemise bleue verrait une image différente de celle d'un astronaute en chemise rouge.
+Dans cette étape, tu vas configurer le capteur de luminosité des couleurs et l'utiliser pour détecter la quantité de rouge, de vert et de bleu qui atteint le capteur. Cette couleur sera ensuite utilisée pour coloriser ton image. Un·e astronaute s'approchant du capteur en chemise bleue verrait une image différente de celle d'un·e astronaute en chemise rouge.
 
 ![image affichée avec un arrière-plan rose sur la matrice LED](images/colour_background.png)
 
