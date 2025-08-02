@@ -57,18 +57,18 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Fish
+title: Hal
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Egy 8*8-as rács, amely egy hal képét mutatja.](images/fish.png)
 
-Created by team chalka, Poland
+Készítette: chalka csapat, Lengyelország
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # DarkOrchid - lila
+q = (255, 255, 0) # sárga
+d = (51, 153, 255) # kék
+c = (0, 0, 0) # fekete
 
 image = [
 d, d, z, d, d, d, d, d,
@@ -88,19 +88,19 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Rozmár
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Egy 8*8-as rács, amely egy rozmár képét mutatja.](images/walrus.png)
 
-Created by team Walrus, Finland
+Készítette: Walrus csapat, Finnország
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+h = (0, 255, 255) # cián
+c = (0, 0, 0) # fekete
+s = (139, 69, 19) # SaddleBrown - barna
+a = (255, 255, 255) # fehér
+r = (184, 134, 11) # DarkGoldenrod - arany
 
 image = [
 h, h, h, h, h, h, h, h,
@@ -121,16 +121,16 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Egy 8*8-as rács, amely Paxi képét mutatja.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Készítette: tony_pi csapat, Olaszország
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # vörös
+m = (34, 139, 34) # ForestGreen - sötétzöld
+c = (0, 0, 0) # fekete
+e = (100, 149, 237) # CornflowerBlue - világoskék
+l = (0, 255, 0) # zöld
 
 image = [
     c, v, m, c, c, m, v, c,
@@ -149,19 +149,19 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Kutya
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Egy 8*8-as rács, amely egy kutya képét mutatja.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Készítette: ptpr_07 csapat, Spanyolország
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # fekete
+r = (184, 134, 11) # DarkGoldenrod - arany
+s = (139, 69, 19) # SaddleBrown - barna
+y = (255, 20, 147) # DeepPink - rózsaszín
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -180,25 +180,25 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Kaméleon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Egy 8*8-as rács, amely egy szivárványszínű kaméleon képét mutatja.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Készítette: The_ETs csapat, Egyesült Királyság
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # fekete
+s = (139, 69, 19) # SaddleBrown - barna
+a = (255, 255, 255) # fehér
+v = (255, 0, 0) # vörös
+t = (255, 140, 0) # DarkOrange - sötét narancssárga
+q = (255, 255, 0) # sárga
+m = (34, 139, 34) # ForestGreen - sötétzölds
+h = (0, 255, 255) # cián
+z = (153, 50, 204) # DarkOrchid - lila
+y = (255, 20, 147) # DeepPink - rózsaszín
 
 image = [
     a, a, v, v, t, a, a, a,
@@ -216,21 +216,21 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Papírsárkány
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Egy 8*8-as rács, amely egy papírsárkány képét mutatja.](images/kite.png)
 
-Created by team Val, Greece
+Készítette: Val csapat, Görögország
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
-h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # fekete
+m = (34, 139, 34) # ForestGreen - sötétzöld
+v = (255, 0, 0) # vörös
+q = (255, 255, 0) # sárga
+e = (0, 0, 205) # MediumBlue - sötétkék
+h = (0, 255, 255) # cián
 
 image = [
     h, h, h, h, h, h, h, h, 
@@ -248,20 +248,20 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Csirke
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Egy 8*8-as rács, amely egy csirke képét mutatja.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Készítette: Slepicky csapat, Csehország
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 0, 0) # vörös
+c = (0, 0, 0) # fekete
+b = (105, 105, 105) # DimGray - szürke
+q = (255, 255, 0) # sárga
+r = (184, 134, 11) # DarkGoldenrod - arany
 
 image =  [
     c, c, v, v, v, c, c, c,
@@ -281,18 +281,18 @@ image =  [
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Keresd meg** a sort, ahol ez áll `# Kép megjelenítése`, és add hozzá ezt a sort, amely megjeleníti a képet a LED-mátrixon:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # DarkOrchid - lila q = (255, 255, 0) # sárga d = (51, 153, 255) # kék c = (0, 0, 0) # fekete
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# A kép megjelenítése
 sense.set_pixels(image)
 
 --- /code ---
@@ -329,6 +329,6 @@ Nem jelenik meg a képem:
 
 Most, hogy megjeenítettél egy képet, elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![A Mission Zero mentés gombja.](images/mz_savebutton_v2.png)
 
 --- /task --- 
