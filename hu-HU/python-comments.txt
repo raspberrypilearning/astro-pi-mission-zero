@@ -6,15 +6,15 @@ Színérzékelő beállítása
 
 Az érzékelő érzékenységének beállítása
 
-The interval at which the reading will be taken
+Az egyes leolvasások között eltelt idő
 
 Színváltozók és kép hozzáadása
 
 Kép megjelenítése
 
-DarkOrchid
+DarkOrchid (lila)
 
-Yellow
+Yellow (Sárga)
 
 kék
 
@@ -22,32 +22,32 @@ Black (fekete)
 
 Cián
 
-SaddleBrown
+SaddleBrown (barna)
 
-DarkGoldenrod
+DarkGoldenrod (arany)
 
 Red (piros)
 
 ForestGreen (sötétzöld)
 
-Black
+Black (fekete)
 
 CornflowerBlue (búzavirágkék)
 
 Zöld
 
-DeepPink
+DeepPink (sötét rózsaszín)
 
-DarkOrange
+DarkOrange (narancssárga)
 
 White (fehér)
 
-MediumBlue
+MediumBlue (kék)
 
-DimGray
+DimGray (sötétszürke)
 
 szín lekérése az érzékelőtől
 
 az érzékelt szín használata
 
-choose your own red, green, blue values between 0 and 255
+válassz saját vörös, zöld és kék értéket 0 és 255 között
