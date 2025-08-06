@@ -6,7 +6,7 @@ La matrice LED di Astro Pi può visualizzare i colori. In questa fase, visualizz
 Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED che può essere controllata individualmente o in gruppo per creare diversi effetti di luce. La matrice LED del Sense HAT ha 64 LED disposti in una griglia 8 x 8. I LED possono essere programmati per produrre un'ampia gamma di colori.
 </p>
 
-![Uno screenshot della finestra dell'emulatore che mostra l'unità di volo con la matrice LED che visualizza l'immagine di un fiore.](images/fu-pic.png)
+![Uno screenshot della finestra dell'emulatore che mostra l'unità di volo con la matrice LED che mostra l'immagine di un fiore.](images/fu-pic.png)
 
 --- task ---
 
