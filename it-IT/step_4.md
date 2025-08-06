@@ -2,7 +2,7 @@
 
 In questo passaggio, imposterai il sensore di luminosità del colore e lo utilizzerai per rilevare la quantità di rosso, verde e blu letta dal sensore. Questo colore verrà quindi utilizzato per colorare l'immagine scelta. Un astronauta che si avvicina al sensore con una maglietta blu vedrebbe un'immagine diversa rispetto a un astronauta con una maglietta rossa.
 
-![immagine visualizzata con sfondo rosa sulla matrice LED](images/colour_background.png)
+![Immagine visualizzata con sfondo rosa sulla matrice LED.](images/colour_background.png)
 
 Qualunque sia l'immagine che hai scelto, lo sfondo utilizza la variabile `c` impostata sul nero.
 
@@ -12,7 +12,7 @@ Usa il sensore di colore per colorare il tuo sfondo.
 
 Aggiungi il codice prima della lista contenente le immagini per ottenere il colore dal sensore e modifica la variabile del colore di sfondo `c` per utilizzare il colore rilevato dal sensore di colore Sense HAT, al posto del nero.
 
-**Suggerimento:** Non è necessario digitare i commenti che iniziano con '#' (sono inseriti per spiegare il codice).
+**Suggerimento:** Non è necessario digitare i commenti che iniziano con '#' (sono commenti inseriti per spiegare il codice).
 
 --- code ---
 ---
@@ -37,7 +37,7 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 **Test:** Sposta il cursore del colore su un colore a tua scelta e poi **esegui** il tuo codice. Il colore dello sfondo cambierà. Ripeti questo test di nuovo con un colore differente.
 
-**Suggerimento:** Dovrai fare clic su "Esegui" ogni volta che cambi il colore.
+**Suggerimento:** Dovrai fare clic su "Run (esegui)" ogni volta che cambi il colore.
 
 --- /task ---
 
@@ -364,7 +364,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </p>
 
 <p spaces-before="0">
-  <img src="images/mz_savebutton_v2.png" alt="Mission Zero Save button screengrab" />
+  <img src="images/mz_savebutton_v2.png" alt="Il pulsante Salva di Mission Zero." />
 </p>
 
 <p spaces-before="0">
@@ -385,7 +385,7 @@ Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi
 </h2>
 
 <p spaces-before="0">
-  <img src="images/fish.png" alt="A grid with 8 x 8 squares showing a fish." />
+  <img src="images/fish.png" alt="Una griglia con 8 x 8 quadrati che mostra un pesce." />
 </p>
 
 <p spaces-before="0">
