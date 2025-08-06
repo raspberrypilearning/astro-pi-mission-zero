@@ -12,7 +12,7 @@ Aggiungi variabili per il colore e l'immagine
 
 Mostra l'immagine
 
-DarkOrchid
+Orchidea scura
 
 Giallo
 
@@ -20,11 +20,11 @@ Blu notte
 
 Nero
 
-Cyan
+Ciano
 
-SaddleBrown
+Marrone sella
 
-DarkGoldenrod
+Asta oro scuro
 
 Rosso
 
@@ -36,7 +36,7 @@ Blu Fiordaliso
 
 Giallo verde
 
-DeepPink
+Rosa scuro
 
 Arancione scuro
 
@@ -44,7 +44,7 @@ Bianco
 
 Blu medio
 
-DimGray
+Grigio medio
 
 ottenere il colore dal sensore
 
