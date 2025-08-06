@@ -60,7 +60,7 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 title: Pesce
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Una griglia con 8 x 8 quadrati che mostra un pesce.](images/fish.png)
 
 Creato dal team chalka, Polonia
 
@@ -91,7 +91,7 @@ d, d, d, z, d, d, d, d]
 title: Tricheco
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Una griglia con 8 x 8 quadrati che raffigura un tricheco.](images/walrus.png)
 
 Creato dal team Walrus, Finlandia
 
@@ -121,7 +121,7 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Una griglia con 8 x 8 quadrati che mostra Paxi.](images/paxi.png)
 
 Creato dal team tony_pi, Italia
 
@@ -149,21 +149,21 @@ immagine = [
 
 --- collapse ---
 ---
-title: Dog
+title: Cane
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Una griglia con 8 x 8 quadrati che mostra la testa di un cane.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Creato dal team ptpr_07, Spagna
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Nero
+r = (184, 134, 11) # Asta oro scuro
+s = (139, 69, 19) # Marrone sella
+y = (255, 20, 147) # Rosa scurp
 
-image = [
+immagine = [
     c, r, r, c, c, r, r, c,
     c, r, s, s, s, s, r, c,
     c, r, c, s, s, c, r, c,
@@ -180,27 +180,27 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Camaleonte
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Una griglia con 8 x 8 quadrati che mostra un camaleonte color arcobaleno.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Creato dal team The_ETs, Regno Unito
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Nero
+s = (139, 69, 19) # Marrone sella
+a = (255, 255, 255) # Bianco
+v = (255, 0, 0) # Rosso
+t = (255, 140, 0) # Arancione scuro
+q = (255, 255, 0) # Giallo
+m = (34, 139, 34) # Verde foresta
+h = (0, 255, 255) # Ciano
+z = (153, 50, 204) # Orchidea scura
+y = (255, 20, 147) # Rosa scuro
 
-image = [
+immagine = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -216,31 +216,31 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Aquilone
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Una griglia con 8 x 8 quadrati che mostra un aquilone.](images/kite.png)
 
-Created by team Val, Greece
+Creato dal team Val, Grecia
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
-h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Nero
+m = (34, 139, 34) # Verde Foresta
+v = (255, 0, 0) # Rosso
+q = (255, 255, 0) # Giallo
+e = (0, 0, 205) # Blu Medio
+h = (0, 255, 255) # Ciano
 
-image = [
+immagine = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, q, q, m, m, h, 
     h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+    h, h, c, h, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h, h]
 
 ```
 
@@ -248,27 +248,27 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Gallina
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Una griglia con 8 x 8 quadrati che mostra un pollo.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Creato dal team Slepicky, Repubblica Ceca
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 0, 0) # Rosso
+c = (0, 0, 0) # Nero
+b = (105, 105, 105) # Grigio medio
+q = (255, 255, 0) # Giallo
+r = (184, 134, 11) # Asta oro scuro
 
-image =  [
-    c, c, v, v, v, c, c, c,
+immagine = [
+    c, c, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
     q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
+    c, v, b, b, b, r, b,
     c, v, b, r, r, r, b, r,
     c, c, c, r, b, q, r, c,
     c, c, c, c, q, q, c, c]
@@ -288,11 +288,11 @@ image =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # Orchidea scura q = (255, 255, 0) # Giallo d = (51, 153, 255) # Blu c = (0, 0, 0) # Nero
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Mostra l'immagine
 sense.set_pixels(image)
 
 --- /code ---
@@ -301,7 +301,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Premi **Esegui** nella parte inferiore dell'editor per vedere la tua immagine visualizzata sulla matrice LED.
+Premi **Run (esegui)** nella parte inferiore dell'editor per vedere la tua immagine visualizzata sulla matrice LED.
 
 --- /task ---
 
@@ -329,6 +329,6 @@ La mia immagine non viene visualizzata:
 
 Ora che hai visualizzato un'immagine, puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice dell'aula che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
 
-![Pulsante Salva Mission Zero](images/mz_savebutton_v2.png)
+![Pulsante per salvare Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task --- 
