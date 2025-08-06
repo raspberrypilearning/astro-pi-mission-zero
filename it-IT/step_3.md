@@ -14,7 +14,7 @@ Apri [il progetto iniziale Mission Zero](https://missions.astro-pi.org/mz/code_s
 
 Vedrai che alcune righe di codice sono state aggiunte automaticamente per facilitarti.
 
-Questo codice esegue il collegamento all'Astro Pi, assicurando che il display a LED dell'Astro Pi sia mostrato nel modo corretto e inoltre imposta il sensore di colore. Lasciate stare questo codice, perché ne avrete bisogno.
+Questo codice esegue il collegamento all'Astro Pi, assicurando che il display a LED dell'Astro Pi sia mostrato nel modo corretto e inoltre imposta il sensore di colore. Non modificate questo codice, perché ne avrete bisogno.
 
 --- code ---
 ---
@@ -42,7 +42,7 @@ I colori possono essere creati utilizzando diverse quantità di rosso, verde e b
 
 [[[generic-theory-simple-colours]]]
 
-La matrice LED è una griglia 8 x 8. Ciascun LED sulla griglia può essere impostato ad un colore diverso. Ecco un elenco di variabili per 24 diversi colori. Ogni colore ha un valore per rosso, verde e blu:
+La matrice LED è una griglia 8 x 8. Ciascun LED sulla griglia può essere impostato a un colore diverso. Ecco un elenco di variabili per 24 diversi colori. Ogni colore ha un valore per rosso, verde e blu:
 
 [[[ambient-colours]]]
 
@@ -57,22 +57,22 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 --- collapse ---
 
 ---
-title: Fish
+title: Pesce
 ---
 
 ![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
-Created by team chalka, Poland
+Creato dal team chalka, Polonia
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # Orchidea sura
+q = (255, 255, 0) # Giallo
+d = (51, 153, 255) # Blu
+c = (0, 0, 0) # Nero
 
-image = [
+immagine = [
 d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
+d, d, d, z, z, d, d, d, d,
 z, d, q, q, q, q, d, d,
 z, z, q, q, q, c, q, d,
 z, z, z, q, q, q, q, d,
@@ -88,26 +88,26 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Tricheco
 ---
 
 ![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
 
-Created by team Walrus, Finland
+Creato dal team Walrus, Finlandia
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+h = (0, 255, 255) # Ciano
+c = (0, 0, 0) # Nero
+s = (139, 69, 19) # Marrone sella
+a = (255, 255, 255) # Bianco
+r = (184, 134, 11) # Asta oro scuro
 
-image = [
-h, h, h, h, h, h, h, h,
+immagine = [
+h, h, h, h, h, h, h, h, h,
 h, h, s, s, s, h, h, h,
 h, s, s, s, s, s, h, h,
 h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
+h, r, r, r, r, s, s,
 h, h, a, s, a, s, s, s,
 h, h, a, s, a, s, s, s,
 r, r, s, s, s, s, s, s]
@@ -123,16 +123,16 @@ title: Paxi
 
 ![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Creato dal team tony_pi, Italia
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # Rosso
+m = (34, 139, 34) # Verde Foresta
+c = (0, 0, 0) # Nero 
+e = (100, 149, 237) # Blu Fiordaliso
+l = (0, 255, 0) # Verde
 
-image = [
+immagine = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
