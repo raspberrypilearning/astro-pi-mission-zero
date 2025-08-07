@@ -230,7 +230,7 @@ Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn la
 title: Fullstendig kodeeksempel
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Et rutenett med 8 x 8 ruter som viser en fisk.](images/fish.png)
 
 --- code ---
 ---
