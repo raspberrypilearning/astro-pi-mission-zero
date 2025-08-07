@@ -57,18 +57,18 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-title: Fish
+tittel: Fisk
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Et rutenett med 8 x 8 ruter som viser en fisk.](images/fish.png)
 
-Created by team chalka, Poland
+Laget av Team Chalka fra Polen
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # Mørk orkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
+c = (0, 0, 0) # Svart
 
 image = [
 d, d, z, d, d, d, d, d,
@@ -88,19 +88,19 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+tittel: Hvalross
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Et rutenett med 8 x 8 ruter som viser en hvalross.](images/walrus.png)
 
-Created by team Walrus, Finland
+Laget av Team Walrus fra Finland
 
 ```python
 h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+c = (0, 0, 0) # Svart
+s = (139, 69, 19) # Lærbrun
+a = (255, 255, 255) # Hvit
+r = (184, 134, 11) # Mørk gullris
 
 image = [
 h, h, h, h, h, h, h, h,
@@ -118,19 +118,19 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Paxi
+tittel: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Et rutenett med 8 x 8 ruter som viser Paxi.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Laget av team tony_pi fra Italia
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # Rød
+m = (34, 139, 34) # Skogsgrønn
+c = (0, 0, 0) # Svart
+e = (100, 149, 237) # Kornblom-blå
+l = (0, 255, 0) # Grønn
 
 image = [
     c, v, m, c, c, m, v, c,
@@ -149,19 +149,19 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+tittel: Hund
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Et rutenett med 8 x 8 ruter som viser et hundehode.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Laget av Team ptpr_07 fra Spania
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Svart
+r = (184, 134, 11) # Mørk gullris
+s = (139, 69, 19) # Lærbrun
+y = (255, 20, 147) # Dyprosa
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -180,25 +180,25 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+tittel: Kameleon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Et rutenett med 8 x 8 ruter som viser en regnbuefarget kameleon.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Laget av Team The_ETs fra Storbritannia
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Svart
+s = (139, 69, 19) # Lærbrun
+a = (255, 255, 255) # Hvit
+v = (255, 0, 0) # Rød
+t = (255, 140, 0) # Mørk oransje
+q = (255, 255, 0) # Gul
+m = (34, 139, 34) # Skogsgrønn
 h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+z = (153, 50, 204) # Mørk orkidé
+y = (255, 20, 147) # Dyprosa
 
 image = [
     a, a, v, v, t, a, a, a,
@@ -216,20 +216,20 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+tittel: Drage
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Et rutenett med 8 x 8 ruter som viser en drage.](images/kite.png)
 
-Created by team Val, Greece
+Laget av Team Val fra Hellas
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
+c = (0, 0, 0) # Svart
+m = (34, 139, 34) # Skogsgrønn
+v = (255, 0, 0) # Rød
+q = (255, 255, 0) # Gul
+e = (0, 0, 205) # Mellomblå
 h = (0, 255, 255) # Cyan
 
 image = [
@@ -248,20 +248,20 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+tittel: Høne
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Et rutenett med 8 x 8 ruter som viser en kylling.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Laget av Team Slepicky fra Tsjekkia
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 0, 0) # Rød
+c = (0, 0, 0) # Svart
+b = (105, 105, 105) # Blekgrå
+q = (255, 255, 0) # Gul
+r = (184, 134, 11) # Mørk gullris
 
 image =  [
     c, c, v, v, v, c, c, c,
@@ -281,18 +281,18 @@ image =  [
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Finn:** linjen som sier `# Vis bildet` og legg til en kodelinje for å vise bildet på LED-matrisen:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # Mørk orkidé q = (255, 255, 0) # Gul d = (51, 153, 255) # Blå c = (0, 0, 0) # Svart
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Vis bildet
 sense.set_pixels(image)
 
 --- /code ---
@@ -329,6 +329,6 @@ Bildet mitt vises ikke:
 
 Nå som du har vist et bilde, kan du lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Lagreknappen for Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task --- 
