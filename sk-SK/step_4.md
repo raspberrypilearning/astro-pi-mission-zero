@@ -230,7 +230,7 @@ Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu t�
 title: Príklad hotového kódu
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi krokodíla.](images/fish.png)
 
 --- code ---
 ---
