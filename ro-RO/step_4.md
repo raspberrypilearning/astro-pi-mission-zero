@@ -230,7 +230,7 @@ Poți salva programul tău în proiectul Mission Starter introducând numele ech
 title: Exemplu de cod completat
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![O grilă cu 8 x 8 pătrate care arată un crocodil.](images/fish.png)
 
 --- code ---
 ---
