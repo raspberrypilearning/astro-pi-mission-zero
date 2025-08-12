@@ -57,28 +57,27 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Hal
+title: Róka
 ---
 
-![Egy 8*8-as rács, amely egy hal képét mutatja.](images/fish.png)
+![Egy 8*8-as rács, amely egy róka képét mutatja.](images/fish.png)
 
-Készítette: chalka csapat, Lengyelország
+Készítette: team i_pupi csapat, Olaszország
 
 ```python
-z = (153, 50, 204) # DarkOrchid - lila
-q = (255, 255, 0) # sárga
-d = (51, 153, 255) # kék
-c = (0, 0, 0) # fekete
+c = (0, 0, 0) # Black (fekete)
+a = (255, 255, 255) # White (fehér)
+t = (255, 140, 0) # Sötét narancssárga
 
-image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+kep = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 
 ```
 
@@ -88,29 +87,27 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Rozmár
+title: Elefánt
 ---
 
-![Egy 8*8-as rács, amely egy rozmár képét mutatja.](images/walrus.png)
+![Egy 8*8-as rács, amely egy elefánt képét mutatja.](images/walrus.png)
 
-Készítette: Walrus csapat, Finnország
+Készítette: ILiFanT csapat, Finnország
 
 ```python
-h = (0, 255, 255) # cián
-c = (0, 0, 0) # fekete
-s = (139, 69, 19) # SaddleBrown - barna
-a = (255, 255, 255) # fehér
-r = (184, 134, 11) # DarkGoldenrod - arany
+c = (0, 0, 0) # Black (fekete)
+b = (105, 105, 105) # Sötétszürke
+a = (255, 255, 255) # White (fehér)
 
-image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+kep = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 
 ```
 
@@ -121,26 +118,26 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![Egy 8*8-as rács, amely Paxi képét mutatja.](images/paxi.png)
+![Egy 8*8-as rács, amely egy kaktusz képét mutatja.](images/paxi.png)
 
-Készítette: tony_pi csapat, Olaszország
+Készítette: 6TETHASI csapat, Hollandia
 
 ```python
-v = (255, 0, 0) # vörös
-m = (34, 139, 34) # ForestGreen - sötétzöld
-c = (0, 0, 0) # fekete
-e = (100, 149, 237) # CornflowerBlue - világoskék
-l = (0, 255, 0) # zöld
+a = (255, 255, 255) # White (fehér)
+c = (0, 0, 0) # Black (fekete)
+n = (154, 205, 50) # YellowGreen (sárgászöld)
+q = (255, 255, 0) # Yellow (sárga)
+t = (255, 140, 0) # DarkOrange (narancssárga)
 
-image = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+image = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -149,29 +146,29 @@ image = [
 
 --- collapse ---
 ---
-title: Kutya
+title: Krokodil
 ---
 
-![Egy 8*8-as rács, amely egy kutya képét mutatja.](images/dog.png)
+![Egy 8*8-as rács, amely egy tojás és egy krokodil képét mutatja.](images/dog.png)
 
 Készítette: ptpr_07 csapat, Spanyolország
 
 ```python
 
-c = (0, 0, 0) # fekete
-r = (184, 134, 11) # DarkGoldenrod - arany
-s = (139, 69, 19) # SaddleBrown - barna
-y = (255, 20, 147) # DeepPink - rózsaszín
+a = (255, 255, 255) # White (fehér)
+c = (0, 0, 0) # Black (fekete)
+f = (25, 25, 112) # MidnightBlue (éjkék)
+m = (34, 139, 34) # ForestGreen (sötétzöld)
 
-image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+kep = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 
 ```
@@ -180,7 +177,7 @@ image = [
 
 --- collapse ---
 ---
-title: Kaméleon
+title: Szivárvány
 ---
 
 ![Egy 8*8-as rács, amely egy szivárványszínű kaméleon képét mutatja.](images/chameleon.png)
@@ -189,26 +186,24 @@ Készítette: The_ETs csapat, Egyesült Királyság
 
 ```python
 
-c = (0, 0, 0) # fekete
-s = (139, 69, 19) # SaddleBrown - barna
-a = (255, 255, 255) # fehér
-v = (255, 0, 0) # vörös
-t = (255, 140, 0) # DarkOrange - sötét narancssárga
-q = (255, 255, 0) # sárga
-m = (34, 139, 34) # ForestGreen - sötétzölds
-h = (0, 255, 255) # cián
-z = (153, 50, 204) # DarkOrchid - lila
-y = (255, 20, 147) # DeepPink - rózsaszín
+c = (100, 149, 237) # CornflowerBlue (búzavirágkék)
+a = (255, 255, 255) # White (fehér)
+v = (255, 0, 0) # Red (piros)
+t = (255, 140, 0) # DarkOrange (narancssárga)
+q = (255, 255, 0) # Yellow (sárga)
+l = (0, 255, 127) # SpringGreen (élénkzöld)
+e = (0, 0, 205) # MediumBlue (kék)
 
-image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+szivarvany = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -216,7 +211,7 @@ image = [
 
 --- collapse ---
 ---
-title: Papírsárkány
+title: Sárkány
 ---
 
 ![Egy 8*8-as rács, amely egy papírsárkány képét mutatja.](images/kite.png)
@@ -225,22 +220,21 @@ Készítette: Val csapat, Görögország
 
 ```python
 
-c = (0, 0, 0) # fekete
-m = (34, 139, 34) # ForestGreen - sötétzöld
-v = (255, 0, 0) # vörös
-q = (255, 255, 0) # sárga
-e = (0, 0, 205) # MediumBlue - sötétkék
-h = (0, 255, 255) # cián
+b = (105, 105, 105) # DimGray (sötétszürke)
+c = (0, 0, 0) # Black (fekete)
+d = (100, 149, 237) # CornflowerBlue (búzavirágkék)
+v = (255, 0, 0) # Red (piros)
+z = (153, 50, 204) # DarkOrchid (lila)
 
-image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+kep = [
+    c, c, v, c, v, c, c, c,
+    c, z, z, z, z, v, c, c,
+    z, b, z, b, z, c, c, c,
+    z, z, z, z, z, v, c, c,
+    c, c, d, d, d, c, c, z,
+    c, z, d, z, z, z, z, c,
+    c, c, d, d, z, c, c, c,
+    c, c, z, c, z, c, c, c]
 
 ```
 
@@ -257,21 +251,23 @@ Készítette: Slepicky csapat, Csehország
 
 ```python
 
-v = (255, 0, 0) # vörös
-c = (0, 0, 0) # fekete
-b = (105, 105, 105) # DimGray - szürke
-q = (255, 255, 0) # sárga
-r = (184, 134, 11) # DarkGoldenrod - arany
+a = (255, 255, 255) # White (fehér)
+c = (0, 0, 0) # Black (fekete)
+f = (25, 25, 112) # MidnightBlue (éjkék)
+m = (34, 139, 34) # ForestGreen (sötétzöld)
 
-image =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+kep = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Kép megjelenítése 
+sense.set_pixels(kep)
 
 ```
 
@@ -288,7 +284,7 @@ image =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid - lila q = (255, 255, 0) # sárga d = (51, 153, 255) # kék c = (0, 0, 0) # fekete
+Nem jelenik meg a képem:
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
