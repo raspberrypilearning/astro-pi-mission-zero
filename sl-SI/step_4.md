@@ -2,7 +2,7 @@
 
 V tem koraku boste nastavili senzor barvne svetilnosti in ga uporabili za zaznavanje količine rdeče, zelene in modre, ki doseže senzor. Ta barva bo nato uporabljena za barvanje izbrane slike. Astronavt, ki bi stopil do senzorja v modri srajci, bi videl drugačno sliko kot astronavt v rdeči srajci.
 
-![slika, prikazana z rožnatim ozadjem na matriki LED](images/colour_background.png)
+![Slika z rožnatim ozadjem na matriki LED.](images/colour_background.png)
 
 Ne glede na to, katero sliko izberete, ozadje uporablja spremenljivko `c`, ki je nastavljena na črno.
 
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Posnetek zaslona gumba za shranjevanje Mission Zero](images/mz_savebutton_v2.png)
+![Gumb za shranjevanje Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje
 title: Primer dokončane kode
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo ribo.](images/fish.png)
 
 --- code ---
 ---
