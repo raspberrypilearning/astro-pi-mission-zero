@@ -57,28 +57,27 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 --- collapse ---
 
 ---
-title: Fish
+title: Lis
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Siatka kwadratów 8 x 8 przedstawiających twarz lisa.](images/fish.png)
 
 Created by team chalka, Poland
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+c = (0, 0, 0) # Czarny
+a = (255, 255, 255) # Biały
+t = (255, 140, 0) # Ciemnopomarańczowy
 
-image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+obrazek = [
+t, a, t, c, c, t, a, t,
+t, a, t, c, c, t, a, t,
+t, t, t, t, t, t, t, t,
+t, a, c, t, t, c, a, t,
+t, t, t, t, t, t, t, t,
+a, a, a, c, c, a, a, a,
+c, a, a, a, a, a, a, c,
+c, c, a, a, a, a, c, c]
 
 ```
 
@@ -88,29 +87,27 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Słoń
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![Siatka kwadratów 8 x 8 przedstawiających słonia.](images/walrus.png)
 
-Created by team Walrus, Finland
+Stworzone przez zespół ILiFanT, Finlandia
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+c = (0, 0, 0) # Czarny
+b = (105, 105, 105) # Ciemnoszary
+a = (255, 255, 255) # Biały
 
-image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+obrazek = [
+    c, c, c, c, c, c, c, c,
+    c, b, b, b, c, c, c, c,
+    c, b, c, b, c, c, b, b,
+    c, b, c, c, c, b, b, b,
+    c, b, b, c, c, b, c, b,
+    c, b, b, b, b, b, b, b,
+    c, c, b, b, a, b, b, b,
+    c, c, c, c, a, b, b, b]
 
 ```
 
@@ -121,26 +118,26 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Siatka kwadratów 8 x 8 przedstawiających kaktus.](images/paxi.png)
 
-Created by team tony_pi, Italy
+Stworzone przez zespół i_pupi, Włochy
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+a = (255, 255, 255) # Biały
+c = (0, 0, 0) # Czarny
+n = (154, 205, 50) # Żółto-zielony
+q = (255, 255, 0) # Żółty
+t = (255, 140, 0) # Ciemny pomarańczowy
 
-image = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+obrazek = [   
+  q, q, c, n, c, c, a, c,
+  q, c, c, n, c, a, a, a,
+  c, n, c, n, c, c, c, c,
+  c, n, n, n, c, n, c, c,
+  c, a, n, n, n, n, c, c,
+  a, a, a, n, c, a, a, a,
+  c, c, c, n, a, a, a, c,
+  t, t, t, t, t, t, t, t]
 
 ```
 
@@ -149,7 +146,7 @@ image = [
 
 --- collapse ---
 ---
-title: Dog
+title: Krokodyl
 ---
 
 ![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
@@ -158,20 +155,7 @@ Created by team ptpr_07, Spain
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
-
-image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+Siatka kwadratów 8 x 8 przedstawiających smoka.
 
 
 ```
@@ -180,35 +164,33 @@ image = [
 
 --- collapse ---
 ---
-title: Chameleon
+title: Tęcza
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Siatka kwadratów 8 x 8 przedstawiających tęczę.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Stworzone przez zespół hwplucyr, Wielka Brytania
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+c = (100, 149, 237) # Chabrowy
+a = (255, 255, 255) # Biały
+v = (255, 0, 0) # Czerwony
+t = (255, 140, 0) # Ciemny pomarańczowy
+q = (255, 255, 0) # Żółty
+l = (0, 255, 127) # Wiosenna zieleń
+e = (0, 0, 205) # Średni niebieski
 
-image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+tecza = [
+  c, c, c, c, c, c, c, c, 
+  v, v, v, v, c, c, c, c,
+  t, t, t, t, v, v, c, c,
+  q, q, q, q, t, v, c, c,
+  l, l, l, l, q, t, v, c,
+  e, e, e, l, q, t, v, c,
+  c, c, e, a, a, a, a, c,
+  c, a, a, a, a, a, a, a
+]
 
 ```
 
@@ -216,31 +198,29 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Smok
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Siatka 8 x 8 kwadratów przedstawiająca łeb krokodyla.](images/kite.png)
 
 Created by team Val, Greece
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
-h = (0, 255, 255) # Cyan
+a = (255, 255, 255) # Biały
+c = (0, 0, 0) # Czarny
+f = (25, 25, 112) # Nocny niebieski
+m = (34, 139, 34) # Leśny zielony
 
-image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+obrazek = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
 
 ```
 
@@ -248,7 +228,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Kaktus
 ---
 
 ![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
@@ -257,21 +237,23 @@ Created by team Slepicky, Czechia
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+a = (255, 255, 255) # Biały
+c = (0, 0, 0) # Czarny
+f = (25, 25, 112) # Nocny niebieski
+m = (34, 139, 34) # Leśny zielony
 
-image =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+obrazek = [
+  m, m, m, m, m, c, c, c,
+  m, f, m, f, m, m, m, m,
+  m, m, m, m, m, m, m, m,
+  m, m, c, a, c, c, c, a,
+  m, m, c, c, c ,c ,c ,c,
+  m, m, c, c, c, a, c, c,
+  m, m, m, m, m, m, m, m,
+  m, m, m, m, m, m, m, m]
+
+# Wyświetl obraz 
+sense.set_pixels(obrazek)
 
 ```
 
@@ -288,7 +270,7 @@ image =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+b = (105, 105, 105) # Ciemnoszary c = (0, 0, 0) # Czarny d = (100, 149, 237) # Chabrowy v = (255, 0, 0) # Czerwony z = (153, 50, 204) # Ciemna orchidea obrazek = [ c, c, v, c, v, c, c, c, c, z, z, z, z, v, c, c, z, b, z, b, z, c, c, c, z, z, z, z, z, v, c, c, c, c, d, d, d, c, c, z, c, z, d, z, z, z, z, c, c, c, d, d, z, c, c, c, c, c, z, c, z, c, c, c]
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
