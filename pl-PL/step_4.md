@@ -230,7 +230,7 @@ Możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swo
 title: Ukończony przykład kodu
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Siatka złożona z kwadratów 8 x 8 przedstawiających krokodyla.](images/fish.png)
 
 --- code ---
 ---
