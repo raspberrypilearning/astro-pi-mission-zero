@@ -230,7 +230,7 @@ Du kan spara ditt program i Mission Starter-projektet genom att ange ditt teamna
 title: Färdigt kodexempel
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Ett rutnät med 8 x 8 rutor som visar en krokodill.](images/fish.png)
 
 --- code ---
 ---
