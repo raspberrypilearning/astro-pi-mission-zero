@@ -230,7 +230,7 @@ Elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod
 title: Kész példakód
 ---
 
-![Egy 8*8-as rács, amely egy hal képét mutatja.](images/fish.png)
+![Egy 8*8-as rács, amely egy krokodil képét mutatja.](images/fish.png)
 
 --- code ---
 ---
