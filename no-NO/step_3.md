@@ -129,7 +129,7 @@ Laget av team tony_pi fra Italia
 v = (255, 0, 0) # Rød
 m = (34, 139, 34) # Skogsgrønn
 c = (0, 0, 0) # Svart
-e = (100, 149, 237) # Kornblom-blå
+e = (100, 149, 237) # Kornblomstblå
 l = (0, 255, 0) # Grønn
 
 image = [
@@ -281,7 +281,7 @@ image =  [
 
 --- task ---
 
-**Finn:** linjen som sier `# Vis bildet` og legg til en kodelinje for å vise bildet på LED-matrisen:
+**Finn:** linjen med teksten `# Vis bildet`, og legg til en kodelinje for å vise bildet på LED-matrisen:
 
 --- code ---
 ---
