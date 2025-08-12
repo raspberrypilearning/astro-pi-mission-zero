@@ -6,48 +6,48 @@ Nastavi barvni senzor
 
 Nastavi občutljivost senzorja
 
-The interval at which the reading will be taken
+Interval, v katerem bo opravljeno branje
 
 Doda barvne spremenljivke in sliko
 
 Prikaže sliko
 
-DarkOrchid
+Svetlo vijolična
 
-Yellow
+Rumena
 
-blue
+Modra
 
 Črna
 
-Cyan
+Cian
 
-SaddleBrown
+Rjava
 
-DarkGoldenrod
+Temno zlata
 
 Rdeča
 
 Drevesno zelena
 
-Black
+Črna
 
 Sinje modra
 
-Green
+Zelena
 
-DeepPink
+Temno roza
 
-DarkOrange
+Temno oranžna
 
 Bela
 
-MediumBlue
+Modra
 
-DimGray
+Temno siva
 
 Preberi barvo iz senzorja
 
 Uporabi zaznano barvo
 
-choose your own red, green, blue values between 0 and 255
+Izberite svoje rdeče, zelene, modre vrednosti med 0 in 255
