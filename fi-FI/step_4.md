@@ -230,7 +230,7 @@ Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkuees
 title: Valmis koodiesimerkki
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![8 x 8 neliön ruudukko esittämässä krokotiiliä.](images/fish.png)
 
 --- code ---
 ---
