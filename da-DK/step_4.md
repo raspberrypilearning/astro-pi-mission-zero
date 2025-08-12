@@ -1,4 +1,4 @@
-## Fornem en farve
+## Registrer en farve
 
 I dette trin vil du lære at indstille farvelysstyrkesensoren og bruge den til at 'fornemme' mængden af rød, grøn og blå, der rammer sensoren. Denne farve vil derefter blive brugt til at farve med i dit valgte billede. En astronaut, der går op til sensoren i en blå skjorte, vil se et andet billede end en astronaut i en rød skjorte.
 
@@ -230,7 +230,7 @@ Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamn
 title: Fuldført kodeeksempel
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Et gitter med 8 x 8 kvadrater, der viser en krokodille.](images/fish.png)
 
 --- code ---
 ---
