@@ -4,7 +4,7 @@ I dette trinnet vil du sette opp fargens lysstyrke og bruke den til å forstå m
 
 ![bilde som vises med en rosa bakgrunn på LED-matrisen](images/colour_background.png)
 
-Uansett hvilket bilde du velger, bruker bakgrunnen `c`-variabelen som er satt til svart.
+Uansett hvilket bilde du velger, bruker bakgrunnen `c`-variabelen, som er satt til svart.
 
 --- task ---
 
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Mission Zero Lagre-knapp skjermdump](images/mz_savebutton_v2.png)
+![Lagre-knappen for Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
