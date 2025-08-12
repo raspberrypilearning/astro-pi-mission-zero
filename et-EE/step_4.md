@@ -230,7 +230,7 @@ Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna
 title: Valmis koodi näide
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![8 x 8 ruuduga võre, millel on kujutatud krokodilli.](images/fish.png)
 
 --- code ---
 ---
