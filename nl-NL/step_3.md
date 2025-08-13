@@ -38,7 +38,7 @@ sense.color.integration_cycles = 64 # Het interval waarmee de meting wordt uitge
 
 --- /code ---
 
-![Een schermafbeelding van de Sense HAT emulator met enkele regels startcode weergegeven in het linkervenster.](images/sense-hat-emulator2.png)
+![Een schermafbeelding van de Sense HAT emulator met enkele regels startcode weergegeven in het linkervenster.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
