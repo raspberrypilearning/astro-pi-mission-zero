@@ -1,6 +1,6 @@
 ## Sa hakkad tegema
 
-Sinu projekt määrab pildi taustavärviks värvi, mille Astro Pi tuvastab. See muudab rahvusvahelise kosmosejaama (ISS) pardal viibivate astronautide jaoks värvilisemaks. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
+Sinu projekt määrab pildi taustavärviks värvi, mille Astro Pi tuvastab. See muudab rahvusvahelise kosmosejaama (ISS) pardal viibivate astronautide jaoks värvilisemaks. Sinu kood kasutab selle saavutamiseks uue Mark II Astro Pi arvuti Sense HATi värvi heleduse andurit.
 
 Siin on näide sellest, millise programmi saad teha Astro Pi peal kosmoses käitamiseks.
 
@@ -16,7 +16,7 @@ Programmi loomiseks kasutad veebibrauseris Astro Pi emulaatorit. Sul ei ole vaja
 
 Õpid tundma Astro Pi-d ja selle juhtimist, sealhulgas kuidas:
 + Kuvada värvi **muutujaid**, mida oma pildil kasutada
-+ Sense HAT-is pilti disainida ja kuvada
++ Kujundage ja kuvage Sense HAT-il pikslikunsti pilti
 + Tajuda valguse värvi ISS-i pardal
 
 --- collapse ---
