@@ -151,7 +151,7 @@ title: Crocodil
 
 ![O grilă cu 8 x 8 pătrate care arată un cap de crocodil.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Creat de echipa ptpr_07, Spania
 
 ```python
 
@@ -180,9 +180,9 @@ imagine = [
 title: Curcubeu
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![O grilă cu 8 x 8 pătrate care prezintă un cameleon în culorile curcubeului.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Creat de echipa The_ETs, Marea Britanie
 
 ```python
 
@@ -214,9 +214,9 @@ curcubeu = [
 title: Dragon
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![O grilă cu 8 x 8 pătrate care arată un zmeu.](images/kite.png)
 
-Created by team Val, Greece
+Creat de echipa Val, Grecia
 
 ```python
 
@@ -242,12 +242,12 @@ imagine = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Pui
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![O grilă cu 8 x 8 pătrate care arată un pui.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Creat de echipa Slepicky, Cehia
 
 ```python
 
@@ -277,7 +277,7 @@ sense.set_pixels(imagine)
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Găsește:** linia care spune `# Afișează imaginea` și adaugă o linie de cod pentru a afișa imaginea ta pe matricea LED:
 
 --- code ---
 ---
@@ -288,7 +288,7 @@ Imaginea mea nu apare:
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Afișează imaginea
 sense.set_pixels(image)
 
 --- /code ---
@@ -325,6 +325,6 @@ Imaginea mea nu apare:
 
 Acum că ai afișat o imagine, poți salva programul tău în proiectul Mission Starter introducând numele echipei tale, numele membrilor echipei şi codul de clasă care vi s-a dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Butonul de salvare Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task --- 
