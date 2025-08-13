@@ -6,21 +6,21 @@ Configurează senzorul de culoare
 
 Setează sensibilitatea senzorului
 
-The interval at which the reading will be taken
+Intervalul la care va avea loc citirea
 
 Adaugă variabile de culoare și imagine
 
 Afișează imaginea
 
-DarkOrchid
+OrhideeÎntunecată
 
-Yellow
+Galben
 
-blue
+albastru
 
 Negru
 
-Cyan
+Turcoaz
 
 SaddleBrown
 
@@ -30,24 +30,24 @@ Roșu
 
 Verde pădure
 
-Black
+Negru
 
 Floarea de colțAlbastru
 
-Green
+Verde
 
-DeepPink
+Roz intens
 
-DarkOrange
+Portocaliu închis
 
 Alb
 
-MediumBlue
+Albastru mediu
 
-DimGray
+GriȘters
 
 obține culoarea de la senzor
 
 utilizează culoarea de la senzor
 
-choose your own red, green, blue values between 0 and 255
+alegeți propriile valori pentru roșu, verde, albastru între 0 și 255
