@@ -14,9 +14,9 @@ Kuva pilt
 
 Tume orhidee
 
-Yellow
+Kollane
 
-Blue
+sinine
 
 Must
 
@@ -34,15 +34,15 @@ Must
 
 Rukkilillesinine
 
-Green
+Roheline
 
-DeepPink
+Sügavroosa
 
 Tumeoranž
 
 Valge
 
-MediumBlue
+Keskmine sinine
 
 Tuhmhall
 
@@ -50,4 +50,4 @@ saa värv andurilt
 
 kasuta anduriga määratud värvi
 
-choose your own red, green, blue values between 0 and 255
+vali oma punase, rohelise ja sinise väärtused vahemikus 0–255
