@@ -57,27 +57,28 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 --- collapse ---
 
 ---
-title: Rebane
+title: Kala
 ---
 
-![8 x 8 ruuduga võre, mis näitab rebase nägu.](images/fish.png)
+![Ruudustik 8 x 8 ruutudega, mis näitab kala.](images/fish.png)
 
-Loonud meeskond i_pupi, Itaalia
+Loonud meeskond chalka, Poola
 
 ```python
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Kollane
+d = (51, 153, 255) # sinine
 c = (0, 0, 0) # Must
-a = (255, 255, 255) # Valge
-t = (255, 140, 0) # Tumeoranž
 
-pilt = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+image = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elevant
+title: Morsk
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud elevanti.](images/walrus.png)
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud morska.](images/walrus.png)
 
-Loonud meeskond ILiFanT, Soome
+Loonud meeskond Walrus, Soome
 
 ```python
+h = (0, 255, 255) # Tsüaan
 c = (0, 0, 0) # Must
-b = (105, 105, 105) # Tumehall
+s = (139, 69, 19) # SaddleBrown
 a = (255, 255, 255) # Valge
+r = (184, 134, 11) # Tume kuldvits
 
-pilt = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+image = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -118,57 +121,57 @@ pilt = [
 title: Paxi
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud kaktus.](images/paxi.png)
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud Paxi.](images/paxi.png)
 
-Loonud meeskond 6TETHASI, Holland
-
-```python
-a = (255, 255, 255) # Valge
-c = (0, 0, 0) # Must
-n = (154, 205, 50) # Kollakasroheline
-q = (255, 255, 0) # Kollane
-t = (255, 140, 0) # Tumeoranž
-
-pilt = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
----
-title: Krokodill
----
-
-![8 x 8 ruuduga võre, millel on kujutatud krokodilli pead.](images/dog.png)
-
-Created by team ptpr_07, Spain
+Loonud meeskond tony_pi, Itaalia
 
 ```python
-
-a = (255, 255, 255) # Valge
-c = (0, 0, 0) # Must
-f = (25, 25, 112) # MidnightBlue
+v = (255, 0, 0) # Punane
 m = (34, 139, 34) # Metsaroheline
+c = (0, 0, 0) # Must 
+e = (100, 149, 237) # Rukkilillesinine
+l = (0, 255, 0) # Roelline
 
-pilt = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+image = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
+
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Koer
+---
+
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud koera pead.](images/dog.png)
+
+Loonud meeskond ptpr_07, Hispaania
+
+```python
+
+c = (0, 0, 0) # Must
+r = (184, 134, 11) # Tume kuldvits
+s = (139, 69, 19) # SaddleBrown
+y = (255, 20, 147) # Sügavroosa
+
+image = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 
 ```
@@ -177,33 +180,35 @@ pilt = [
 
 --- collapse ---
 ---
-title: Vikerkaar
+title: Kameeleon
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud vikerkaarevärvilist kameeleoni.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Loonud meeskond The_ETs, Ühendkuningriik
 
 ```python
 
-c = (100, 149, 237) # Rukkilillesinine
+c = (0, 0, 0) # Must
+s = (139, 69, 19) # SaddleBrown
 a = (255, 255, 255) # Valge
 v = (255, 0, 0) # Punane
 t = (255, 140, 0) # Tumeoranž
 q = (255, 255, 0) # Kollane
-l = (0, 255, 127) # Kevadroheline
-e = (0, 0, 205) # MediumBlue
+m = (34, 139, 34) # Metsaroheline
+h = (0, 255, 255) # Tsüaan
+z = (153, 50, 204) # DarkOrchid
+y = (255, 20, 147) # Sügavroosa
 
-vikerkaar = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+image = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -211,63 +216,62 @@ vikerkaar = [
 
 --- collapse ---
 ---
-title: Draakon
+title: Tuulelohe
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud tuulelohe.](images/kite.png)
 
-Created by team Val, Greece
+Loonud meeskond Val, Kreeka
 
 ```python
 
+c = (0, 0, 0) # Must
+m = (34, 139, 34) # Metsaroheline
+v = (255, 0, 0) # Punane
+q = (255, 255, 0) # Kollane
+e = (0, 0, 205) # Keskminesinine
+h = (0, 255, 255) # Tsüaan
+
+image = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Kana
+---
+
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud kana.](images/chicken.png)
+
+Loonud meeskond Slepicky, Tšehhi
+
+```python
+
+v = (255, 0, 0) # Punane
+c = (0, 0, 0) # Must
 b = (105, 105, 105) # Tuhmhall
-c = (0, 0, 0) # Must
-d = (100, 149, 237) # Rukkilillesinine
-v = (255, 0, 0) # Punane
-z = (153, 50, 204) # Tume orhidee
+q = (255, 255, 0) # Kollane
+r = (184, 134, 11) # Tume kuldvits
 
-pilt = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Chicken
----
-
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
-
-Created by team Slepicky, Czechia
-
-```python
-
-a = (255, 255, 255) # Valge
-c = (0, 0, 0) # Must
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # Metsaroheline
-
-pilt = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
-
-# Kuva pilt
-sense.set_pixels(pilt)
+image =  [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -277,14 +281,14 @@ sense.set_pixels(pilt)
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Leia:** rida, mis ütleb `# Kuva pilt` ja lisa koodirida, et kuvada oma pilt LED-maatriksil:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Kollane d = (51, 153, 255) # Sinine c = (0, 0, 0) # Must
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
@@ -325,6 +329,6 @@ Minu pilt ei ilmu:
 
 Nüüd, kui oled pildi kuvanud, saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Mission Zero salvestusnupp.](images/mz_savebutton_v2.png)
 
 --- /task --- 
