@@ -2,7 +2,7 @@
 
 Selles etapis installid värvide helenduse anduri ja kasutad seda andurini jõudva punase, rohelise ja sinise koguse tuvastamiseks. Seda värvi kasutatakse seejärel sinu valitud pildi värvimiseks. Anduri juurde kõndiv sinises särgis astronaut näeks teistsugust pilti kui punases särgis astronaut.
 
-![LED-maatriksil kuvatav roosa taustaga pilt](images/colour_background.png)
+![LED-maatriksil kuvatav roosa taustaga pilt.](images/colour_background.png)
 
 Mis tahes pildi sa valid, taust kasutab `c` muutujat, mis on seadistatud mustana.
 
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![Mission Zero salvestamisnupu ekraanipilt](images/mz_savebutton_v2.png)
+![Mission Zero salvestamisnupp.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna
 title: Valmis koodi näide
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud krokodilli.](images/fish.png)
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud kala.](images/fish.png)
 
 --- code ---
 ---
