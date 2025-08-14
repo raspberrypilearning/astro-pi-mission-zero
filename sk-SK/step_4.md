@@ -2,7 +2,7 @@
 
 V tomto kroku nastavíš snímač farebnej svietivosti a použiješ ho na nasnímanie množstva červenej, zelenej a modrej, ktoré sa dostáva na snímač. Táto farba sa potom použije na vyfarbenie zvoleného obrázka. Astronaut kráčajúci k snímaču v modrej košeli by videl iný obrázok ako astronaut v červenej košeli.
 
-![Obrázok zobrazený s ružovým pozadím na LED matrici](images/colour_background.png)
+![Obrázok zobrazený s ružovým pozadím na LED matrici.](images/colour_background.png)
 
 Bez ohľadu na to, ktorý obrázok vyberieš, pozadie používa premennú `c`, ktorá je nastavená na čiernu.
 
@@ -52,7 +52,7 @@ Tvoj kód použije slučku `for` a spustí sa 28-krát. **Zakaždým**:
 
 --- task ---
 
-**Nájdi** riadok kódu`rgb = sense.color`.
+**Nájdi** riadok kódu `rgb = sense.color`.
 
 **Pridaj** kód nadeň a nastav slučku `for` na `28` opakovaní.
 
@@ -98,7 +98,7 @@ for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.
 
 --- task ---
 
-V spodnej časti kódu pridaj do slučky príkaz `sleep` v dĺžke jednej sekundy:
+Na konci kódu pridaj do slučky príkaz `sleep` v dĺžke jednej sekundy:
 
 --- code ---
 ---
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu tímu, mien členov tímu a kódu triedy, ktorý si dostal/-a. Svoj program môžeš znova načítať na akomkoľvek zariadení s internetovým pripojením zadaním názvu tímu a kódu triedy.
 
-![Snímka obrazovky tlačidla Uložiť v Mission Zero](images/mz_savebutton_v2.png)
+![Tlačidlo Uložiť v Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu t�
 title: Príklad hotového kódu
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúcimi krokodíla.](images/fish.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi rybu.](images/fish.png)
 
 --- code ---
 ---
