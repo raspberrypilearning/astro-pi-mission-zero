@@ -1,9 +1,9 @@
 ## Zobrazenie obrázka
 
-LED matrica počítača Astro Pi môže zobrazovať farby. V tomto kroku zobrazíš obrázky z prírody na LED matrici počítača Astro Pi.
+LED matrica počítača Astro Pi dokáže zobrazovať farby. V tomto kroku zobrazíš obrázky z prírody na LED matrici počítača Astro Pi.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**LED matrica**</span> je mriežka LED diód, ktoré možno ovládať jednotlivo alebo ako skupinu a vytvárať tak rôzne svetelné efekty. LED matrica LED na module Sense HAT má 64 LED diód zobrazených v mriežke 8 x 8. LED diódy môžu byť naprogramované tak, aby produkovali širokú škálu farieb.
+<span style="color: #0faeb0">**LED matrica**</span> je mriežka LED diód, ktoré možno ovládať jednotlivo alebo ako skupinu a vytvárať tak rôzne svetelné efekty. LED matrica na module Sense HAT má 64 LED diód zobrazených v mriežke 8 x 8. LED diódy môžu byť naprogramované tak, aby produkovali širokú škálu farieb.
 </p>
 
 ![Snímka obrazovky okna emulátora zobrazujúca letovú jednotku s LED maticou zobrazujúcou obrázok kvetu.](images/fu-pic.png)
@@ -50,7 +50,7 @@ LED matrica je mriežka 8 x 8. Každá LED dióda na mriežke môže byť nastav
 
 --- task ---
 
-**Vyber:** z možností nižšie vyber obrázok, ktorý sa má zobraziť. Program Python uloží informácie o obrázku do zoznamu. Kód pre každý obrázok obsahuje použité farebné premenné a zoznam.
+**Vyber:** Z možností nižšie vyber obrázok, ktorý sa má zobraziť. Program Python uloží informácie o obrázku do zoznamu. Kód pre každý obrázok obsahuje použité farebné premenné a zoznam.
 
 Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **prilepiť** do svojho projektu pod riadok s textom `# Pridajte farebné premenné a obrázok`.
 
@@ -70,7 +70,7 @@ q = (255, 255, 0) # Žltá
 d = (51, 153, 255) # Modrá
 c = (0, 0, 0) # Čierna
 
-image = [
+obrazok = [
 d, d, z, d, d, d, d, d,
 d, d, d, z, z, d, d, d,
 z, d, q, q, q, q, d, d,
@@ -88,7 +88,7 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-názov: Mrož
+title: Mrož
 ---
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúca mroža.](images/walrus.png)
@@ -102,7 +102,7 @@ s = (139, 69, 19) # Sedlová hnedá
 a = (255, 255, 255) # Biela
 r = (184, 134, 11) # Tmavožltá
 
-image = [
+obrazok = [
 h, h, h, h, h, h, h, h,
 h, h, s, s, s, h, h, h,
 h, s, s, s, s, s, h, h,
@@ -118,7 +118,7 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-názov: Paxi
+title: Paxi
 ---
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúca Paxiho.](images/paxi.png)
@@ -132,7 +132,7 @@ c = (0, 0, 0) # Čierna
 e = (100, 149, 237) # Nevädzová modrá
 l = (0, 255, 0) # Zelená
 
-image = [
+obrazok = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -149,10 +149,10 @@ image = [
 
 --- collapse ---
 ---
-Názov: Pes
+title: Pes
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúcimi krokodíliu hlavu.](images/dog.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi hlavu psa.](images/dog.png)
 
 Autor: tím ptpr_07, Španielsko
 
@@ -163,7 +163,7 @@ r = (184, 134, 11) # Tmavožltá
 s = (139, 69, 19) # Sedlová hnedá
 y = (255, 20, 147) # Tmavoružová
 
-image = [
+obrazok = [
     c, r, r, c, c, r, r, c,
     c, r, s, s, s, s, r, c,
     c, r, c, s, s, c, r, c,
@@ -200,7 +200,7 @@ h = (0, 255, 255) # Azúrová
 z = (153, 50, 204) # Tmavoorchideová
 y = (255, 20, 147) # Tmavoružová
 
-image = [
+obrazok = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -216,7 +216,7 @@ image = [
 
 --- collapse ---
 ---
-Názov: Šarkan
+title: Šarkan
 ---
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúcimi šarkana.](images/kite.png)
@@ -232,7 +232,7 @@ q = (255, 255, 0) # Žltá
 e = (0, 0, 205) # Stredne modrá
 h = (0, 255, 255) # Azúrová
 
-image = [
+obrazok = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
@@ -248,10 +248,10 @@ image = [
 
 --- collapse ---
 ---
-Názov: Kuriatko
+title: Kuriatko
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca kura.](images/chicken.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúca kuriatko.](images/chicken.png)
 
 Autor: tím Slepičky, Česko
 
@@ -263,7 +263,7 @@ b = (105, 105, 105) # Tmavosivá
 q = (255, 255, 0) # Žltá
 r = (184, 134, 11) # Tmavožltá
 
-image =  [
+obrazok =  [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -281,14 +281,14 @@ image =  [
 
 --- task ---
 
-**Nájdite:** riadok s textom `# Zobraziť obrázok` a pridajte riadok kódu na zobrazenie obrázka na matrici LED:
+**Nájdite:** riadok s textom `# Zobraziť obrázok` a pridajte riadok kódu na zobrazenie obrázka na LED matrici:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-Môj obrázok sa nezobrazuje:
+z = (153, 50, 204) # Tmavoorchideová q = (255, 255, 0) # Žltá d = (51, 153, 255) # Modrá c = (0, 0, 0) # Čierna
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
@@ -314,7 +314,7 @@ Môj kód má chybu syntaxe:
 - Skontroluj, či sa kód zhoduje s kódom v príkladoch vyššie
 - Skontroluj, či máš kód vo svojom zozname odsadený
 - Skontroluj, či je zoznam uzavretý v znakoch `[` a `]`
-- Skontrolujte, či sú jednotlivé farebné premenné v zozname oddelené čiarkou
+- Skontroluj, či sú jednotlivé farebné premenné v zozname oddelené čiarkou
 
 Môj obrázok sa nezobrazuje:
 
