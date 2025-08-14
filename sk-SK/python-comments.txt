@@ -6,48 +6,48 @@ Nastavte snímač farieb
 
 Nastavte citlivosť snímača
 
-The interval at which the reading will be taken
+Interval, v ktorom sa bude vykonávať snímanie
 
 Pridajte farebné premenné a obrázok
 
 Zobrazte obrázok
 
-DarkOrchid
+Tmavoorchideová
 
-Yellow
+Žltá
 
-blue
+Modrá
 
 Čierna
 
-Cyan
+Azúrová
 
-SaddleBrown
+Sedlová hnedá
 
-DarkGoldenrod
+Tmavožltá
 
 Červená
 
 Lesná zelená
 
-Black
+Čierna
 
 Nevädzová modrá
 
-Green
+Zelená
 
-DeepPink
+Tmavoružová
 
-DarkOrange
+Tmavooranžová
 
 Biela
 
-MediumBlue
+Stredne modrá
 
-DimGray
+Tmavosivá
 
 získajte farbu zo snímača
 
 použite nasnímanú farbu
 
-choose your own red, green, blue values between 0 and 255
+vyberte si vlastné hodnoty červenej, zelenej a modrej medzi 0 a 255
