@@ -230,7 +230,7 @@ Du kannst dein Programm im Mission Starter-Projekt speichern, indem du deinen Te
 title: Vollständiges Code-Beispiel
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Ein Raster mit 8 x 8 Quadraten, das einen Fisch zeigt.](images/fish.png)
 
 --- code ---
 ---
