@@ -57,27 +57,28 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-title: Fuchs
+title: Fisch
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Fisch zeigen.](images/fish.png)
 
-Created by team chalka, Poland
+Erstellt vom Team Chalka, Polen
 
 ```python
-c = (0, 0, 0) # Schwarz
-a = (255, 255, 255) # Weiß
-t = (255, 140, 0) # Dunkelorange
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Yellow
+d = (51, 153, 255) # blue
+c = (0, 0, 0) # Black
 
-bild = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+image = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -115,10 +116,10 @@ bild = [
 
 --- collapse ---
 ---
-title: Paxi
+Titel: Paxi
 ---
 
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
+![Ein Raster mit 8 x 8 Quadraten, die ein Paxi zeigen.](images/paxi.png)
 
 Erstellt vom Team i_pupi, Italien
 
@@ -216,7 +217,7 @@ title: Drache
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/kite.png)
 
-Created by team Val, Greece
+Erstellt vom Team Val, Griechenland
 
 ```python
 
@@ -247,7 +248,7 @@ title: Kaktus
 
 ![Ein Raster mit 8 x 8 Quadraten, die einen Krokodilkopf zeigen.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Erstellt vom Team Slepicky, Tschechien
 
 ```python
 
@@ -288,7 +289,7 @@ z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # 
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Das Bild anzeigen
 sense.set_pixels(image)
 
 --- /code ---
