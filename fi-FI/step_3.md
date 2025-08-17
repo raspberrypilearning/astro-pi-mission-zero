@@ -42,7 +42,7 @@ Värejä voidaan luoda käyttämällä punaista, vihreää ja sinistä eri suhte
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Jokainen ruudukon LED-valo voidaan asettaa eri väriin. Tässä on luettelo muuttujista 24 eri värille. Jokaisella värillä on arvo punaiselle, vihreälle ja siniselle:
+LED-matriisi on 8 x 8 -ruudukko. Jokainen ruudukon LED-valo voidaan asettaa eri väriin. Tässä on luettelo muuttujista 24 eri värille. Jokaisella värillä on arvo punaiselle, vihreälle ja siniselle:
 
 [[[ambient-colours]]]
 
