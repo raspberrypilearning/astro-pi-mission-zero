@@ -1,6 +1,6 @@
 ## Sinä teet
 
-Projektisi asettaa kuvan taustaväriksi sen värin, jonka Astro Pi havaitsee. Näin Kansainvälisestä avaruusasemasta (ISS) tulee entistä värikkäämpi aluksella oleville astronauteille. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
+Projektisi asettaa kuvan taustaväriksi sen värin, jonka Astro Pi havaitsee. Näin Kansainvälisestä avaruusasemasta (ISS) tulee entistä värikkäämpi aluksella oleville astronauteille. Tämän toteuttamiseksi koodisi käyttää 2. sukupolven Astro Pi -tietokoneen Sense HATin värin kirkkausanturia.
 
 Tässä on esimerkki ohjelmasta, jonka voit tehdä avaruudessa ajettavaksi Astro Pillä.
 
