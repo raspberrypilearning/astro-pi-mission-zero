@@ -62,21 +62,23 @@ title: Kala
 
 ![8 x 8 neliön ruudukko esittämässä ketun naamaa.](images/fish.png)
 
-Tehnyt joukkue i_pupi, Italia
+Tehnyt joukkue chalka, Puola
 
 ```python
+z = (153, 50, 204) # DarkOrchid
+q = (255, 255, 0) # Keltainen
+d = (51, 153, 255) # sininen
 c = (0, 0, 0) # Musta
-a = (255, 255, 255) # Valkoinen
-t = (255, 140, 0) # Tummanoranssi
+
 kuva = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+d, d, z, d, d, d, d, d, d, d, d,
+d, d, z, z, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, z, d, d, d, d]
 
 ```
 
@@ -86,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Norsu
+title: Mursu
 ---
 
 ![8 x 8 neliön ruudukko esittämässä norsua.](images/walrus.png)
 
-Tehnyt joukkue ILiFanT, Suomi
+Tehnyt joukkue Mursu, Suomi
 
 ```python
+h = (0, 255, 255) # Syaani
 c = (0, 0, 0) # Musta
-b = (105, 105, 105) # Tummanharmaa
+s = (139, 69, 19) # Satulanruskea
 a = (255, 255, 255) # Valkoinen
+r = (184, 134, 11) # TummaKultapiisku
 
 kuva = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -119,24 +123,24 @@ title: Paxi
 
 ![8 x 8 neliön ruudukko esittämässä kaktusta.](images/paxi.png)
 
-Tehnyt joukkue 6TETHASI, Alankomaat
+Tehnyt joukkue tony_pi, Italia
 
 ```python
-a = (255, 255, 255) # Valkoinen
-c = (0, 0, 0) # Musta
-n = (154, 205, 50) # Keltavihreä
-q = (255, 255, 0) # Keltainen
-t = (255, 140, 0) # Tummanoranssi
+v = (255, 0, 0) # Punainen
+m = (34, 139, 34) # Metsänvihreä
+c = (0, 0, 0) # Musta 
+e = (100, 149, 237) # Ruiskukansininen
+l = (0, 255, 0) # Vihreä
 
-kuva = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+kuva = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -145,29 +149,29 @@ kuva = [
 
 --- collapse ---
 ---
-title: Krokotiili
+title: Koira
 ---
 
 ![8 x 8 neliön ruudukko esittämässä krokotiilin päätä.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Tehnyt joukkue ptpr_07, Espanja
 
 ```python
 
-a = (255, 255, 255) # Valkoinen
 c = (0, 0, 0) # Musta
-f = (25, 25, 112) # Yönsininen
-m = (34, 139, 34) # Metsänvihreä
+r = (184, 134, 11) # Tummankultapiisku
+s = (139, 69, 19) # Satulanruskea
+y = (255, 20, 147) # Syvänvaaleanpunainen
 
 kuva = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c]
 
 
 ```
