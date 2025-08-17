@@ -6,48 +6,48 @@ Määritä värianturi
 
 Määritä anturin herkkyys
 
-The interval at which the reading will be taken
+Aikaväli lukeman ottamiseksi
 
 Lisää värimuuttujia ja kuva
 
 Näytä kuva
 
-DarkOrchid
+Tummanorkidea
 
-Yellow
+Keltainen
 
-blue
+sininen
 
 Musta
 
-Cyan
+Sinivihreä
 
-SaddleBrown
+Satulanruskea
 
-DarkGoldenrod
+TummaKultapiisku
 
 Punainen
 
 Metsänvihreä
 
-Black
+Musta
 
 Ruiskukansininen
 
-Green
+Vihreä
 
-DeepPink
+Syvänvaaleanpunainen
 
-DarkOrange
+Tummanoranssi
 
 Valkoinen
 
-MediumBlue
+Keskisininen
 
-DimGray
+Himmeänharmaa
 
 hae väri anturilta
 
 käytä tunnistettua väriä
 
-choose your own red, green, blue values between 0 and 255
+valitse omat punaisen, vihreän ja sinisen arvot 0:n ja 255:n väliltä
