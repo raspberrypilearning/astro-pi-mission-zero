@@ -57,7 +57,7 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 --- collapse ---
 
 ---
-title: Kettu
+title: Kala
 ---
 
 ![8 x 8 neliön ruudukko esittämässä ketun naamaa.](images/fish.png)
