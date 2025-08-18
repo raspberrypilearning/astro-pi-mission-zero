@@ -60,7 +60,7 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 title: Kala
 ---
 
-![8 x 8 neliön ruudukko esittämässä ketun naamaa.](images/fish.png)
+![8 x 8 neliön ruudukko esittämässä kalaa.](images/fish.png)
 
 Tehnyt joukkue chalka, Puola
 
@@ -91,7 +91,7 @@ d, d, z, d, d, d, d]
 title: Mursu
 ---
 
-![8 x 8 neliön ruudukko esittämässä norsua.](images/walrus.png)
+![8 x 8 neliön ruudukko esittämässä mursua.](images/walrus.png)
 
 Tehnyt joukkue Mursu, Suomi
 
@@ -121,7 +121,7 @@ r, r, s, s, s, s, s, s]
 title: Paxi
 ---
 
-![8 x 8 neliön ruudukko esittämässä kaktusta.](images/paxi.png)
+![8 x 8 neliön ruudukko esittämässä Paxia.](images/paxi.png)
 
 Tehnyt joukkue tony_pi, Italia
 
@@ -152,7 +152,7 @@ kuva = [
 title: Koira
 ---
 
-![8 x 8 neliön ruudukko esittämässä krokotiilin päätä.](images/dog.png)
+![8 x 8 neliön ruudukko esittämässä koiran päätä.](images/dog.png)
 
 Tehnyt joukkue ptpr_07, Espanja
 
@@ -180,97 +180,98 @@ kuva = [
 
 --- collapse ---
 ---
-title: Sateenkaari
+title: Kameleontti
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![8 x 8 neliön ruudukko esittämässä sateenkaarenväristä kameleonttia.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Tehnyt joukkue The_ETs, Englanti
 
 ```python
 
-c = (100, 149, 237) # Ruiskukansininen
+c = (0, 0, 0) # Musta
+s = (139, 69, 19) # Satulanruskea
 a = (255, 255, 255) # Valkoinen
 v = (255, 0, 0) # Punainen
 t = (255, 140, 0) # Tummanoranssi
 q = (255, 255, 0) # Keltainen
-l = (0, 255, 127) # Keväänvihreä
-e = (0, 0, 205) # Tummansininen
-
-sateenkaari = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Lohikäärme
----
-
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
-
-Created by team Val, Greece
-
-```python
-
-b = (105, 105, 105) # DimGray
-c = (0, 0, 0) # Musta
-d = (100, 149, 237) # Ruiskukansininen
-v = (255, 0, 0) # Punainen
-z = (153, 50, 204) # Tummanorkidea
-
-kuva = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Chicken
----
-
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
-
-Created by team Slepicky, Czechia
-
-```python
-
-a = (255, 255, 255) # Valkoinen
-c = (0, 0, 0) # Musta
-f = (25, 25, 112) # Yönsininen
 m = (34, 139, 34) # Metsänvihreä
+h = (0, 255, 255) # Syaani
+z = (153, 50, 204) # Tummanorkidea
+y = (255, 20, 147) # Syvänvaaleanpunainen
 
 kuva = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    a, a, v, v, t, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
-# Näytä kuva
-sense.set_pixels(kuva)
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Leija
+---
+
+![8 x 8 neliön ruudukko esittämässä leijaa.](images/kite.png)
+
+Tehnyt joukkue Val, Kreikka
+
+```python
+
+c = (0, 0, 0) # Musta
+m = (34, 139, 34) # Metsänvihreä
+v = (255, 0, 0) # Punainen
+q = (255, 255, 0) # Keltainen
+e = (0, 0, 205) # Keskisininen
+h = (0, 255, 255) # Syaani
+
+kuva = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h, h]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Kana
+---
+
+![8 x 8 neliön ruudukko esittämässä kanaa.](images/chicken.png)
+
+Tehnyt joukkue Slepicky, Tšekki
+
+```python
+
+v = (255, 0, 0) # Punainen
+c = (0, 0, 0) # Musta
+b = (105, 105, 105) # Himmeänharmaa
+q = (255, 255, 0) # Keltainen
+r = (184, 134, 11) # Tummanpiisku
+
+kuva = [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -280,18 +281,18 @@ sense.set_pixels(kuva)
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Etsi:** rivi, jossa lukee `# Näytä kuva` ja lisää koodirivi näyttääksesi kuvasi LED-matriisissa:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-Kuvani ei näy:
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Keltainen d = (51, 153, 255) # sininen c = (0, 0, 0) # Musta
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Näytä kuva
 sense.set_pixels(image)
 
 --- /code ---
@@ -328,6 +329,6 @@ Kuvani ei näy:
 
 Nyt kun olet näyttänyt kuvan, voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Mission Zeron Tallennuspainike.](images/mz_savebutton_v2.png)
 
 --- /task --- 
