@@ -2,7 +2,7 @@
 
 V tomto kroku nastavíš snímač farebnej svietivosti a použiješ ho na nasnímanie množstva červenej, zelenej a modrej, ktoré sa dostáva na snímač. Táto farba sa potom použije na vyfarbenie zvoleného obrázka. Astronaut kráčajúci k snímaču v modrej košeli by videl iný obrázok ako astronaut v červenej košeli.
 
-![Obrázok zobrazený s ružovým pozadím na LED matrici](images/colour_background.png)
+![Obrázok zobrazený s ružovým pozadím na LED matrici.](images/colour_background.png)
 
 Bez ohľadu na to, ktorý obrázok vyberieš, pozadie používa premennú `c`, ktorá je nastavená na čiernu.
 
@@ -24,23 +24,23 @@ line_highlights: 9, 10
 ---
 # Pridajte farebné premenné a obrázok
 
-a = (255, 255, 255) # Biela
+z = (153, 50, 204) # Tmavoorchideová
+q = (255, 255, 0) # Žltá
+d = (51, 153, 255) # Modrá
 c = (0, 0, 0) # Čierna
-f = (25, 25, 112) # Polnočná modrá
-m = (34, 139, 34) # Lesná zelená
 
 rgb = sense.color # získajte farbu zo snímača
 c = (rgb.red, rgb.green, rgb.blue) # použite nasnímanú farbu
 
 obrazok = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -84,14 +84,14 @@ rgb = sense.color # získajte farbu zo snímača
 c = (rgb.red, rgb.green, rgb.blue)
 
 obrazok = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -110,7 +110,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -118,14 +118,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazok = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Zobrazte obrázok
@@ -271,7 +271,7 @@ sense.clear(x)
 
 Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu tímu, mien členov tímu a kódu triedy, ktorý si dostal/-a. Svoj program môžeš znova načítať na akomkoľvek zariadení s internetovým pripojením zadaním názvu tímu a kódu triedy.
 
-![Snímka obrazovky tlačidla Uložiť v Mission Zero](images/savebutton_sk.png)
+![Snímka obrazovky tlačidla Uložiť v Mission Zero.](images/savebutton_sk.png)
 
 --- /task ---
 
@@ -283,7 +283,7 @@ Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu t�
 title: Príklad hotového kódu
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúcimi krokodíla.](images/croc.png)
+![Mriežka s 8 x 8 štvorcami zobrazujúcimi rybu.](images/fish.png)
 
 --- code ---
 ---
@@ -305,24 +305,24 @@ sense.color.integration_cycles = 64 # Interval, v ktorom sa bude vykonávať sn�
 
 # Pridajte farebné premenné a obrázok
 
-a = (255, 255, 255) # Biela
+z = (153, 50, 204) # Tmavoorchideová
+q = (255, 255, 0) # Žltá
+d = (51, 153, 255) # Modrá
 c = (0, 0, 0) # Čierna
-f = (25, 25, 112) # Polnočná modrá
-m = (34, 139, 34) # Lesná zelená
 
 for i in range(28):
   rgb = sense.color # získajte farbu zo snímača
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazok = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Zobrazte obrázok

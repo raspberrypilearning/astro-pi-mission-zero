@@ -2,7 +2,7 @@
 
 Selles etapis installid värvide helenduse anduri ja kasutad seda andurini jõudva punase, rohelise ja sinise koguse tuvastamiseks. Seda värvi kasutatakse seejärel sinu valitud pildi värvimiseks. Anduri juurde kõndiv sinises särgis astronaut näeks teistsugust pilti kui punases särgis astronaut.
 
-![LED-maatriksil kuvatav roosa taustaga pilt](images/colour_background.png)
+![LED-maatriksil kuvatav roosa taustaga pilt.](images/colour_background.png)
 
 Mis tahes pildi sa valid, taust kasutab `c` muutujat, mis on seadistatud mustana.
 
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Lisa värvi muutujad ja pilt
 
-a = (255, 255, 255) # Valge
+z = (153, 50, 204) # Tume orhidee
+q = (255, 255, 0) # Kollane
+d = (51, 153, 255) # Sinine
 c = (0, 0, 0) # Must
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # Metsaroheline
 
 rgb = sense.color # saa värv andurilt
 c = (rgb.red, rgb.green, rgb.blue) # kasuta anduriga määratud värvi
 
 pilt = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # saa värv andurilt
 c = (rgb.red, rgb.green, rgb.blue)
 
 pilt = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   pilt = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Kuva pilt
@@ -233,7 +233,7 @@ LED-maatriks muutub iga sekundi järel mustaks:
 
 Lisa kood LED-maatriksi tühjendamiseks enda valitud värvile. Uue värvi salvestamiseks loo muutuja nimega `x`.
 
-Saad oma värvi ise kokku segada või kasutada värvide loendis olevaid väärtusi, et luua uus `x`värv.
+Saad oma värvi ise kokku segada või kasutada värvide loendis olevaid väärtusi, et luua uus `x` värv.
 
 [[[generic-theory-simple-colours]]]
 [[[ambient-colours]]]
@@ -271,7 +271,7 @@ sense.clear(x)
 
 Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna nime, meeskonnaliikmete nimed ja sulle antud klassiruumi koodi. Saad oma programmi uuesti laadida mis tahes internetiühendusega seadmesse, sisestades oma meeskonna nime ja klassiruumi koodi.
 
-![Mission Zero salvestamisnupu ekraanipilt](images/savebutton_ee.png)
+![Mission Zero salvestamisnupp.](images/savebutton_ee.png)
 
 --- /task ---
 
@@ -283,7 +283,7 @@ Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna
 title: Valmis koodi näide
 ---
 
-![8 x 8 ruuduga võre, millel on kujutatud krokodilli.](images/croc.png)
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud kala.](images/fish.png)
 
 --- code ---
 ---
@@ -301,28 +301,28 @@ sense.set_rotation(270)
 
 # SInstalli värviandur
 sense.color.gain = 60 # Määra anduri tundlikkus
-sense.color.integration_cycles = 64 # Intervall, millal näit võetakse
+sense.color.integration_cycles = 64 # Intervall, millega näit võetakse
 
 # Lisa värvi muutujad ja pilt
 
-a = (255, 255, 255) # Valge
+z = (153, 50, 204) # Tume orhidee
+q = (255, 255, 0) # Kollane
+d = (51, 153, 255) # Sinine
 c = (0, 0, 0) # Must
-f = (25, 25, 112) # MidnightBlue
-m = (34, 139, 34) # Metsaroheline
 
 for i in range(28):
   rgb = sense.color # saa värv andurilt
   c = (rgb.red, rgb.green, rgb.blue)
 
   pilt = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Kuva pilt

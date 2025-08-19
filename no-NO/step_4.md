@@ -4,7 +4,7 @@ I dette trinnet vil du sette opp fargens lysstyrke og bruke den til å forstå m
 
 ![bilde som vises med en rosa bakgrunn på LED-matrisen](images/colour_background.png)
 
-Uansett hvilket bilde du velger, bruker bakgrunnen `c`-variabelen som er satt til svart.
+Uansett hvilket bilde du velger, bruker bakgrunnen `c`-variabelen, som er satt til svart.
 
 --- task ---
 
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Legg til fargevariabler og bilde
 
-a = (255, 255, 255) # Hvit
+z = (153, 50, 204) # Mørk orkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnatt blå
-m = (34, 139, 34) # Skoggrønn
 
 rgb = sense.color # hent fargen fra sensoren
 c = (rgb.red, rgb.green, rgb.blue) # bruke den sansede fargen
 
 bilde = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # hent fargen fra sensoren
 c = (rgb.red, rgb.green, rgb.blue)
 
 bilde = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   bilde = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Vis bildet
@@ -271,7 +271,7 @@ sense.clear(x)
 
 Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Mission Zero Lagre-knapp skjermdump](images/savebutton_no.png)
+![Lagre-knappen for Mission Zero.](images/savebutton_no.png)
 
 --- /task ---
 
@@ -283,7 +283,7 @@ Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn la
 title: Fullstendig kodeeksempel
 ---
 
-![Et rutenett med 8 x 8 ruter som viser et krokodillehode.](images/croc.png)
+![Et rutenett med 8 x 8 ruter som viser en fisk.](images/fish.png)
 
 --- code ---
 ---
@@ -301,28 +301,28 @@ sense.set_rotation(270)
 
 # Sett opp fargesensoren
 sense.color.gain = 60 # Angi følsomheten til sensoren
-sense.color.integration_cycles = 64 # Intervallet hvor avlesningen vil ta
+sense.color.integration_cycles = 64 # Intervallet som avlesningens skal utføres i
 
 # Legg til fargevariabler og bilde
 
-a = (255, 255, 255) # Hvit
+z = (153, 50, 204) # Mørk orkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnatt blå
-m = (34, 139, 34) # Skoggrønn
 
 for i in range(28):
   rgb = sense.color # hent fargen fra sensoren
   c = (rgb.red, rgb.green, rgb.blue)
 
   bilde = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Vis bildet
