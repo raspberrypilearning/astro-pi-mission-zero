@@ -57,7 +57,7 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-tittel: Fisk
+title: Fisk
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en fisk.](images/fish.png)
@@ -88,7 +88,7 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-tittel: Hvalross
+title: Hvalross
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en hvalross.](images/walrus.png)
@@ -118,7 +118,7 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-tittel: Paxi
+title: Paxi
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser Paxi.](images/paxi.png)
@@ -149,7 +149,7 @@ image = [
 
 --- collapse ---
 ---
-tittel: Hund
+title: Hund
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser et hundehode.](images/dog.png)
@@ -180,7 +180,7 @@ image = [
 
 --- collapse ---
 ---
-tittel: Kameleon
+title: Kameleon
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en regnbuefarget kameleon.](images/chameleon.png)
@@ -216,7 +216,7 @@ image = [
 
 --- collapse ---
 ---
-tittel: Drage
+title: Drage
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en drage.](images/kite.png)
@@ -248,7 +248,7 @@ image = [
 
 --- collapse ---
 ---
-tittel: Høne
+title: Høne
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en kylling.](images/chicken.png)
