@@ -123,21 +123,21 @@ title: Paxi
 Skapad av team 6TETHASI, Nederländerna
 
 ```python
-a = (255, 255, 255) # Vit
-c = (0, 0, 0) # Svart
-n = (154, 205, 50) # Gulgrön
-q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mörkorange
+v = (255, 0, 0) # Red
+m = (34, 139, 34) # ForestGreen
+c = (0, 0, 0) # Black 
+e = (100, 149, 237) # CornflowerBlue
+l = (0, 255, 0) # Green
 
-bild = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+image = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
