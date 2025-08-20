@@ -2,7 +2,7 @@
 
 In deze stap zal je de kleurintensiteitssensor installeren en hem gebruiken om de hoeveeldheid rood, groen en blauw te meten die de sensor bereikt. Deze kleur zal dan gebruikt worden om je gekozen afbeelding in te kleuren. Een astronaut die naar de sensor toeloopt met een blauw T-shirt zal een andere afbeelding zien dan een astronaut in een rood T-shirt.
 
-![afbeelding getoond met een roze achtergrond op de LED-matrix](images/colour_background.png)
+![Een afbeelding met een roze achtergrond wordt getoond op de LED-matrix.](images/colour_background.png)
 
 Welke afbeelding je ook kiest, de achtergrond gebruikt de `c` variabele die ingesteld is op zwart.
 
