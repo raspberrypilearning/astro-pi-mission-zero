@@ -22,9 +22,9 @@ Preto
 
 Ciano
 
-SaddleBrown
+Castanho sela
 
-DarkGoldenrod
+Dourado Escuro
 
 Vermelho
 
@@ -36,7 +36,7 @@ Azul centáurea
 
 Verde
 
-DeepPink
+Rosa Profundo
 
 Laranja escuro
 
@@ -44,7 +44,7 @@ Branco
 
 Azul Médio
 
-DimGray
+Cinzento fosco
 
 obter a cor do sensor
 
