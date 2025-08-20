@@ -230,7 +230,7 @@ Puedes guardar tu programa en el proyecto de inicio de la misión introduciendo 
 title: Ejemplo de código terminado
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un cocodrilo.](images/fish.png)
+![Una cuadrícula de 8 x 8 cuadrados que muestra un pez.](images/fish.png)
 
 --- code ---
 ---
