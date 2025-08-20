@@ -57,27 +57,28 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 --- collapse ---
 
 ---
-title: Raposa
+title: Peixe
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir a cara de uma raposa.](images/fish.png)
+![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/fish.png)
 
-Criado pela equipa i_pupi, Itália
+Criado pela equipa chalka, Polónia
 
 ```python
+z = (153, 50, 204) # Orquídea Escura
+q = (255, 255, 0) # Amarelo
+d = (51, 153, 255) # Azul
 c = (0, 0, 0) # Preto
-a = (255, 255, 255) # Branco
-t = (255, 140, 0) # Laranja escuro
 
-imagem = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+image = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elefante
+title: Morsa
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um elefante.](images/walrus.png)
+![Uma grelha com 8 x 8 quadrados a exibir uma morsa.](images/walrus.png)
 
-Criado pela equipa ILiFanT, Finlândia
+Criado pela equipa Walrus, Finlândia
 
 ```python
+h = (0, 255, 255) # Ciano
 c = (0, 0, 0) # Preto
-b = (105, 105, 105) # Cinzento escuro
+s = (139, 69, 19) # Castanho Sela
 a = (255, 255, 255) # Branco
+r = (184, 134, 11) # Dourado Escuro
 
-imagem = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+image = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -118,26 +121,26 @@ imagem = [
 title: Paxi
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um cato.](images/paxi.png)
+![Uma grelha com 8 x 8 quadrados a exibir o Paxi.](images/paxi.png)
 
-Criado pela equipa 6TETHASI, Países Baixos
+Criado pela equipa tony_pi, Itália
 
 ```python
-a = (255, 255, 255) # Branco
-c = (0, 0, 0) # Preto
-n = (154, 205, 50) # Amarelo esverdeado
-q = (255, 255, 0) # Amarelo
-t = (255, 140, 0) # Laranja escuro
+v = (255, 0, 0) # Vermelho
+m = (34, 139, 34) # Verde Floresta
+c = (0, 0, 0) # Preto 
+e = (100, 149, 237) # Azul-Centáurea
+l = (0, 255, 0) # Verde
 
-imagem = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+image = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -146,19 +149,19 @@ imagem = [
 
 --- collapse ---
 ---
-title: Crocodilo
+title: Cão
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um crocodilo.](images/dog.png)
+![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um cão.](images/dog.png)
 
-Criado pela equipa camrus_6, Reino Unido
+Criado pela equipa ptpr_07, Espanha
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Preto
+r = (184, 134, 11) # Dourado Escuro
+s = (139, 69, 19) # Castanho Sela
+y = (255, 20, 147) # Rosa Profundo
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -177,63 +180,35 @@ image = [
 
 --- collapse ---
 ---
-title: Arco-Íris
+title: Camaleão
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um arco-íris.](images/chameleon.png)
+![Uma grelha com 8 x 8 quadrados a exibir um camaleão colorido como um arco-íris.](images/chameleon.png)
 
-Criado pela equipa hwplucyr, Reino Unido
+Criado pela equipa The_ETs, Reino Unido
 
 ```python
 
-c = (100, 149, 237) # Azul centáurea
+c = (0, 0, 0) # Preto
+s = (139, 69, 19) # Castanho Sela
 a = (255, 255, 255) # Branco
 v = (255, 0, 0) # Vermelho
-t = (255, 140, 0) # Laranja escuro
+t = (255, 140, 0) # Laranja Escuro
 q = (255, 255, 0) # Amarelo
-l = (0, 255, 127) # Verde primavera
-e = (0, 0, 205) # Azul médio
+m = (34, 139, 34) # Verde Floresta
+h = (0, 255, 255) # Ciano
+z = (153, 50, 204) # Orquídea Escura
+y = (255, 20, 147) # Rosa Profundo
 
-arco-iris = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Dragão
----
-
-![Uma grelha com 8 x 8 quadrados a exibir um dragão.](images/kite.png)
-
-Created by team Val, Greece
-
-```python
-
-a = (255, 255, 255) # Branco
-c = (0, 0, 0) # Preto
-f = (25, 25, 112) # Azul noturno
-m = (34, 139, 34) # Verde floresta
-
-imagem = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+image = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -241,32 +216,62 @@ imagem = [
 
 --- collapse ---
 ---
-title: Cato
+title: Papagaio
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Uma grelha com 8 x 8 quadrados a exibir um Papagaio.](images/kite.png)
 
-Created by team Slepicky, Czechia
+Criado pela equipa Val, Grécia
 
 ```python
 
-a = (255, 255, 255) # Branco
 c = (0, 0, 0) # Preto
-f = (25, 25, 112) # Azul noturno
-m = (34, 139, 34) # Verde floresta
+m = (34, 139, 34) # Verde Floresta
+v = (255, 0, 0) # Vermelho
+q = (255, 255, 0) # Amarelo
+e = (0, 0, 205) # Azul Médio
+h = (0, 255, 255) # Ciano
 
-imagem = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+image = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
-# Mostrar a imagem 
-sense.set_pixels(imagem)
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Galinha
+---
+
+![Uma grelha com 8 x 8 quadrados a exibir uma galinha.](images/chicken.png)
+
+Criado pela equipa Slepicky, República Checa
+
+```python
+
+v = (255, 0, 0) # Vermelho
+c = (0, 0, 0) # Preto
+b = (105, 105, 105) # Cinzento Fosco
+q = (255, 255, 0) # Amarelo
+r = (184, 134, 11) # Dourado Escuro
+
+image =  [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -283,7 +288,7 @@ sense.set_pixels(imagem)
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-b = (105, 105, 105) # Cinzento fosco c = (0, 0, 0) # Preto d = (100, 149, 237) # Azul centáurea v = (255, 0, 0) # Vermelho z = (153, 50, 204) # Orquídea negra imagem = [ c, c, v, c, v, c, c, c, c, z, z, z, z, v, c, c, z, b, z, b, z, c, c, c, z, z, z, z, z, v, c, c, c, c, d, d, d, c, c, z, c, z, d, z, z, z, z, c, c, c, d, d, z, c, c, c, c, c, z, c, z, c, c, c]
+z = (153, 50, 204) # Orquídea Escuro q = (255, 255, 0) # Amarelo d = (51, 153, 255) # Azul c = (0, 0, 0) # Preto
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
