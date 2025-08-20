@@ -10,7 +10,7 @@ LED obrazovka počítače Astro Pi umí zobrazovat barvy. V tomto kroku zobrazí
 
 --- task ---
 
-Otevři [startovací projekt výzvy Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Otevři [startovací projekt výzvy Mission Zero](https://missions.astro-pi.org/cs/mz/code_submissions/){:target="_blank"}.
 
 Uvidíš pár řádků kódu, které tam už budou automaticky přichystané.
 
@@ -57,27 +57,28 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 --- collapse ---
 
 ---
-title: Liška
+title: Ryba
 ---
 
-![Mřížka o velikosti 8 × 8, na které je hlava lišky.](images/fish.png)
+![Mřížka o velikosti 8 × 8, na které je ryba.](images/fish.png)
 
-Vytvořil tým i_pupi z Itálie
+Vytvořil tým chalka z Polska
 
 ```python
+z = (153, 50, 204) # Tmavá orchidej
+q = (255, 255, 0) # Žlutá
+d = (51, 153, 255) # Modrá
 c = (0, 0, 0) # Černá
-a = (255, 255, 255) # Bílá
-t = (255, 140, 0) # Tmavě oranžová
 
 obrazek = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Slon
+title: Mrož
 ---
 
-![Mřížka o velikosti 8 × 8, na které je slon.](images/walrus.png)
+![Mřížka o velikosti 8 × 8, na které je mrož.](images/walrus.png)
 
-Vytvořil tým ILiFanT z Finska
+Vytvořil tým Walrus z Finska
 
 ```python
+h = (0, 255, 255) # Modrozelená
 c = (0, 0, 0) # Černá
-b = (105, 105, 105) # Tmavě šedá
+s = (139, 69, 19) # Sedlově hnědá
 a = (255, 255, 255) # Bílá
+r = (184, 134, 11) # Tmavý zlatobýl
 
 obrazek = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -118,26 +121,26 @@ obrazek = [
 title: Paxi
 ---
 
-![Mřížka o velikosti 8 × 8, na které je kaktus.](images/paxi.png)
+![Mřížka o velikosti 8 × 8, na které je Paxi.](images/paxi.png)
 
-Vytvořil tým 6TETHASI z Nizozemska
+Vytvořil tým tony_pi z Itálie
 
 ```python
-a = (255, 255, 255) # Bílá
-c = (0, 0, 0) # Černá
-n = (154, 205, 50) # Žlutozelená
-q = (255, 255, 0) # Žlutá
-t = (255, 140, 0) # Tmavě oranžová
+v = (255, 0, 0) # Červená
+m = (34, 139, 34) # Lesní zelená
+c = (0, 0, 0) # Černá 
+e = (100, 149, 237) # Chrpově modrá
+l = (0, 255, 0) # Zelená
 
-obrazek = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+obrazek = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -146,29 +149,29 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Krokodýl
+title: Pes
 ---
 
-![Mřížka o velikosti 8 × 8, na které je hlava krokodýla.](images/dog.png)
+![Mřížka o velikosti 8 × 8, na které je hlava psa.](images/dog.png)
 
 Vytvořil tým ptpr_07 ze Španělska
 
 ```python
 
-a = (255, 255, 255) # Bílá
 c = (0, 0, 0) # Černá
-f = (25, 25, 112) # Půlnoční modrá
-m = (34, 139, 34) # Lesní zelená
+r = (184, 134, 11) # Tmavý zlatobýl
+s = (139, 69, 19) # Sedlově hnědá
+y = (255, 20, 147) # Sytě růžová
 
 obrazek = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 
 ```
@@ -177,7 +180,7 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Duha
+title: Chameleon
 ---
 
 ![Mřížka o velikosti 8 × 8, na které je duhový chameleon.](images/chameleon.png)
@@ -186,24 +189,26 @@ Vytvořil tým The_ETs z Velké Británie
 
 ```python
 
-c = (100, 149, 237) # Chrpově modrá
+c = (0, 0, 0) # Černá
+s = (139, 69, 19) # Sedlově hnědá
 a = (255, 255, 255) # Bílá
 v = (255, 0, 0) # Červená
 t = (255, 140, 0) # Tmavě oranžová
 q = (255, 255, 0) # Žlutá
-l = (0, 255, 127) # Jarní zelená
-e = (0, 0, 205) # Středně modrá
+m = (34, 139, 34) # Lesní zelená
+h = (0, 255, 255) # Modrozelená
+z = (153, 50, 204) # Tmavá orchidej
+y = (255, 20, 147) # Sytě růžová
 
-duha = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+obrazek = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -220,21 +225,22 @@ Vytvořil tým Val z Řecka
 
 ```python
 
-b = (105, 105, 105) # Tlumeně šedá
 c = (0, 0, 0) # Černá
-d = (100, 149, 237) # Chrpově modrá
+m = (34, 139, 34) # Lesní zelená
 v = (255, 0, 0) # Červená
-z = (153, 50, 204) # Tmavá orchidej
+q = (255, 255, 0) # Žlutá
+e = (0, 0, 205) # Středně modrá
+h = (0, 255, 255) # Modrozelená
 
 obrazek = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -251,23 +257,21 @@ Vytvořil tým Slepicky z Česka
 
 ```python
 
-a = (255, 255, 255) # Bílá
+v = (255, 0, 0) # Červená
 c = (0, 0, 0) # Černá
-f = (25, 25, 112) # Půlnoční modrá
-m = (34, 139, 34) # Lesní zelená
+b = (105, 105, 105) # Tlumeně šedá
+q = (255, 255, 0) # Žlutá
+r = (184, 134, 11) # Tmavý zlatobýl
 
-obrazek = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
-
-# Zobraz obrázek
-sense.set_pixels(obrazek)
+obrazek =  [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -284,7 +288,7 @@ sense.set_pixels(obrazek)
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-Neukazuje se mi obrázek:
+z = (153, 50, 204) # Tmavá orchidej q = (255, 255, 0) # Žlutá d = (51, 153, 255) # Modrá c = (0, 0, 0) # Černá
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
