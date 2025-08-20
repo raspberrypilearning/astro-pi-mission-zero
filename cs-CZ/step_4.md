@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
 
-![Snímek obrazovky z výzvy Mission Zero s tlačítkem pro uložení.](images/mz_savebutton_v2.png)
+![Tlačítko výzvy Mission Zero pro uložení.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu
 title: Příklad dokončeného kódu
 ---
 
-![Mřížka o velikosti 8 × 8, na které je krokodýl.](images/fish.png)
+![Mřížka o velikosti 8 × 8, na které je ryba.](images/fish.png)
 
 --- code ---
 ---
