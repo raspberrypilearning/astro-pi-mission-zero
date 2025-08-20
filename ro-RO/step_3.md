@@ -57,27 +57,28 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Vulpe
+title: Pește
 ---
 
-![O grilă cu 8 x 8 pătrate care arată o față de vulpe.](images/fish.png)
+![O grilă cu 8 x 8 pătrate care arată un pește.](images/fish.png)
 
-Creat de echipa i_pupi, Italia
+Creat de echipa chalka, Polonia
 
 ```python
+z = (153, 50, 204) # OrhideeÎntunecată
+q = (255, 255, 0) # Galben
+d = (51, 153, 255) # Albastru
 c = (0, 0, 0) # Negru
-a = (255, 255, 255) # Alb
-t = (255, 140, 0) # Portocaliu închis
 
 imagine = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+d, d, z, d, d, d, d,
+d, d, d, z, z, d, d,
+z, d, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elefant
+title: Morsă
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un elefant.](images/walrus.png)
+![O grilă cu 8 x 8 pătrate care arată o morsǎ.](images/walrus.png)
 
-Creat de echipa ILiFanT, Finlanda
+Creat de echipa Walrus, Finlanda
 
 ```python
+h = (0, 255, 255) # Turcoaz
 c = (0, 0, 0) # Negru
-b = (105, 105, 105) # Gri închis
+s = (139, 69, 19) # SaddleBrown
 a = (255, 255, 255) # Alb
+r = (184, 134, 11) # DarkGoldenrod
 
 imagine = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
@@ -118,26 +121,26 @@ imagine = [
 title: Paxi
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un cactus.](images/paxi.png)
+![O grilă cu 8 x 8 pătrate care arată Paxi.](images/paxi.png)
 
-Creat de echipa 6TETHASI, Olanda
+Creat de echipa tony_pi, Italia
 
 ```python
-a = (255, 255, 255) # Alb
-c = (0, 0, 0) # Negru
-n = (154, 205, 50) # GalbenVerde
-q = (255, 255, 0) # Galben
-t = (255, 140, 0) # Portocaliu închis
+v = (255, 0, 0) # Roșu
+m = (34, 139, 34) # Verde pădure
+c = (0, 0, 0) # Negru 
+e = (100, 149, 237) # Floarea de colțAlbastru
+l = (0, 255, 0) # Verde
 
-imagine = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+imagine = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
@@ -146,29 +149,29 @@ imagine = [
 
 --- collapse ---
 ---
-title: Crocodil
+title: Câine
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un cap de crocodil.](images/dog.png)
+![O grilă cu 8 x 8 pătrate care arată un cap de câine.](images/dog.png)
 
 Creat de echipa ptpr_07, Spania
 
 ```python
 
-a = (255, 255, 255) # Alb
 c = (0, 0, 0) # Negru
-f = (25, 25, 112) # Bleumarin
-m = (34, 139, 34) # Verde pădure
+r = (184, 134, 11) # DarkGoldenrod
+s = (139, 69, 19) # SaddleBrown
+y = (255, 20, 147) # Roz intens
 
 imagine = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 
 ```
@@ -177,33 +180,35 @@ imagine = [
 
 --- collapse ---
 ---
-title: Curcubeu
+title: Cameleon
 ---
 
-![O grilă cu 8 x 8 pătrate care prezintă un cameleon în culorile curcubeului.](images/chameleon.png)
+![O grilă cu 8 x 8 pătrate care arată un cameleon în culorile curcubeului.](images/chameleon.png)
 
 Creat de echipa The_ETs, Marea Britanie
 
 ```python
 
-c = (100, 149, 237) # Floarea de colțAlbastru
+c = (0, 0, 0) # Negru
+s = (139, 69, 19) # SaddleBrown
 a = (255, 255, 255) # Alb
 v = (255, 0, 0) # Roșu
 t = (255, 140, 0) # Portocaliu închis
 q = (255, 255, 0) # Galben
-l = (0, 255, 127) # VerdePrimăvară
-e = (0, 0, 205) # Albastru mediu
+m = (34, 139, 34) # Verde pădure
+h = (0, 255, 255) # Turcoaz
+z = (153, 50, 204) # OrhideeÎntunecată
+y = (255, 20, 147) # Roz intens
 
-curcubeu = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+imagine = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -211,7 +216,7 @@ curcubeu = [
 
 --- collapse ---
 ---
-title: Dragon
+title: Zmeu
 ---
 
 ![O grilă cu 8 x 8 pătrate care arată un zmeu.](images/kite.png)
@@ -220,21 +225,22 @@ Creat de echipa Val, Grecia
 
 ```python
 
-b = (105, 105, 105) # GriȘters
 c = (0, 0, 0) # Negru
-d = (100, 149, 237) # Floarea de colțAlbastru
+m = (34, 139, 34) # Verde pădure
 v = (255, 0, 0) # Roșu
-z = (153, 50, 204) # OrhideeÎntunecată
+q = (255, 255, 0) # Galben
+e = (0, 0, 205) # Albastru mediu
+h = (0, 255, 255) # Turcoaz
 
 imagine = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -251,23 +257,21 @@ Creat de echipa Slepicky, Cehia
 
 ```python
 
-a = (255, 255, 255) # Alb
+v = (255, 0, 0) # Roșu
 c = (0, 0, 0) # Negru
-f = (25, 25, 112) # Bleumarin
-m = (34, 139, 34) # Verde pădure
+b = (105, 105, 105) # GriȘters
+q = (255, 255, 0) # Galben
+r = (184, 134, 11) # DarkGoldenrod
 
 imagine = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
-
-# Afișează imaginea 
-sense.set_pixels(imagine)
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -284,7 +288,7 @@ sense.set_pixels(imagine)
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-Imaginea mea nu apare:
+z = (153, 50, 204) # OrhideeÎntunecată q = (255, 255, 0) # Galben d = (51, 153, 255) # Albastru c = (0, 0, 0) # Negru
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
