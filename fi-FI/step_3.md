@@ -10,7 +10,7 @@ Astro Pin LED-matriisi voi näyttää värejä. Tässä vaiheessa näytät luont
 
 --- task ---
 
-Avaa [Mission Zero -aloitusprojekti](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Avaa [Mission Zero -aloitusprojekti](https://missions.astro-pi.org/fi/mz/code_submissions/){:target="_blank"}.
 
 Näet, että muutama koodirivi on lisätty sinulle automaattisesti.
 
@@ -288,7 +288,7 @@ kuva = [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Keltainen d = (51, 153, 255) # sininen c = (0, 0, 0) # Musta
+z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Keltainen d = (51, 153, 255) # Sininen c = (0, 0, 0) # Musta
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
