@@ -6,15 +6,15 @@ Installeer de kleursensor
 
 Stel de gevoeligheid van de sensor in
 
-The interval at which the reading will be taken
+Het interval waarin het uitlezen zal gebeuren
 
 Voeg kleurvariabelen en beeld toe
 
 Toon de afbeelding
 
-DarkOrchid
+Donkerorichidee
 
-Yellow
+Geel
 
 blauw
 
@@ -22,32 +22,32 @@ Zwart
 
 Cyaan
 
-SaddleBrown
+Zadelbruin
 
-DarkGoldenrod
+Donkergoudenstaaf
 
 Rood
 
 Bosgroen
 
-Black
+Zwart
 
 Korenbloemblauw
 
 Groen
 
-DeepPink
+Dieproze
 
-DarkOrange
+Donkeroranje
 
 Wit
 
-MediumBlue
+Mediumblauw
 
-DimGray
+Donkergrijs
 
 ontvang de kleur van de sensor
 
 gebruik de waargenomen kleur
 
-choose your own red, green, blue values between 0 and 255
+kies je eigen rood, groen, blauw-waarden tussen 0 en 255
