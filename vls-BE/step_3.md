@@ -42,7 +42,7 @@ Kleuren kunnen gemaakt worden door het gebruik van rood, groen en blauw in versc
 
 [[[generic-theory-simple-colours]]]
 
-The LED matrix is an 8 x 8 grid. Elke LED op het raster kan in een andere kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
+De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een andere kleur ingesteld worden. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
 
 [[[ambient-colours]]]
 
@@ -115,7 +115,7 @@ afbeelding = [
 
 --- collapse ---
 ---
-title: Paxi
+titel: Paxi
 ---
 
 ![Een cactus wordt getoond in een raster met 8 x 8 vierkanten.](images/paxi.png)
@@ -151,7 +151,7 @@ title: Krokodil
 
 ![Een raster met 8 x 8 vierkanten dat het hoofd van een krokodil toont.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Gemaakt door team ptpr_07, Spanje
 
 ```python
 
@@ -180,9 +180,9 @@ afbeelding = [
 title: Regenboog
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Een raster met 8 x 8 vierkanten toont een regenboogkleurige cameleon.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Gemaakt door team The_ETs, Verenigd Koninkrijk
 
 ```python
 
@@ -214,9 +214,9 @@ regenboog = [
 title: Draak
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Een raster met 8 x 8 vierkanten toont een vlieger.](images/kite.png)
 
-Created by team Val, Greece
+Gemaakt door team Val, Griekenland
 
 ```python
 
@@ -242,12 +242,12 @@ afbeelding = [
 
 --- collapse ---
 ---
-title: Chicken
+titel: Kip
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Een raster met 8 x 8 vierkanten toont een kip.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Gemaakt door team Slepicky, Tsjechië
 
 ```python
 
@@ -277,7 +277,7 @@ sense.set_pixels(afbeelding)
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Vind:** de regel die zegt `# Toon de afbeelding` en voeg een codelijn toe om je afbeelding op de LED-matrix weer te geven:
 
 --- code ---
 ---
@@ -288,7 +288,7 @@ Mijn afbeelding wordt niet getoond:
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Toon de afbeelding
 sense.set_pixels(image)
 
 --- /code ---
@@ -325,6 +325,6 @@ Mijn afbeelding wordt niet getoond:
 
 Nu dat je een beeld getoond hebt, kan je je programma opslaan op het Mission Starter project door de naam van je team, de namen van de teamleden en de klascode die je ontving in te geven. Je kan je programma nu opnieuw laden op eender welk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Knop om Mission Zero op te slaan.](images/mz_savebutton_v2.png)
 
 --- /task --- 
