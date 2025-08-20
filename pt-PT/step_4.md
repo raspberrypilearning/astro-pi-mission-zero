@@ -2,9 +2,9 @@
 
 Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detetar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
 
-![imagem mostrada com fundo cor-de-rosa na matriz de LED](images/colour_background.png)
+![Uma imagem exibida com fundo cor-de-rosa na matriz de LED.](images/colour_background.png)
 
-Qualquer que seja a imagem que escolheres, o plano fundo usa a variável `c` que é definida para preta.
+Independentemente da imagem que escolheres, o plano fundo usa a variável `c` definida para preto.
 
 --- task ---
 
@@ -12,7 +12,7 @@ Usa o sensor de cor para colorir o teu plano de fundo.
 
 Adiciona código antes da tua lista de imagens para obter a cor do sensor e alterar a tua variável de cor de fundo `c` para usar a cor detectada pelo sensor de cores Sense HAT em vez de preto.
 
-**Dica:** tu não precisas de escrever os comentários que começam com '#' (eles estão lá para explicar o código).
+**Dica:** Não precisas de escrever os comentários que começam com '#' (eles estão lá para explicar o código).
 
 --- code ---
 ---
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome de equipa, os nomes dos elementos e o código de sala de aula que te foi dado. Podes abrir o teu programa em qualquer dispositivo com conexão à Internet ao entrar com o nome da tua equipa e o código de sala de aula.
 
-![Captura de ecrã do botão Guardar Missão Zero](images/mz_savebutton_v2.png)
+![Botão Guardar Missão Zero.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome d
 title: Exemplo de código completo
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um crocodilo.](images/fish.png)
+![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/fish.png)
 
 --- code ---
 ---
