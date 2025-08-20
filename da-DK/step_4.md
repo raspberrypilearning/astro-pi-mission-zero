@@ -4,7 +4,7 @@ I dette trin vil du lære at indstille farvelysstyrkesensoren og bruge den til a
 
 ![billede vist med en lyserød baggrund på LED-matrixen](images/colour_background.png)
 
-Uanset hvilket billede du vælger, bruger baggrunden `c` -variablen, som er sat til sort.
+Uanset hvilket billede du vælger, bruger baggrunden `c`-variablen, som er sat til sort.
 
 --- task ---
 
@@ -230,7 +230,7 @@ Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamn
 title: Fuldført kodeeksempel
 ---
 
-![Et gitter med 8 x 8 kvadrater, der viser en krokodille.](images/fish.png)
+![Et gitter med 8 × 8 felter, der viser en fisk.](images/fish.png)
 
 --- code ---
 ---
