@@ -186,7 +186,7 @@ obrazok = [
 
 --- collapse ---
 ---
-Názov: Chameleón
+title: Chameleón
 ---
 
 ![Mriežka s 8 x 8 štvorcami zobrazujúca dúhového chameleóna.](images/chameleon.png)
