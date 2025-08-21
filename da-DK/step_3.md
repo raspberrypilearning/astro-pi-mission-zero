@@ -95,7 +95,7 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-titel: Hvalros
+title: Hvalros
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en hvalros.](images/walrus.png)
@@ -156,7 +156,7 @@ billede = [
 
 --- collapse ---
 ---
-titel: Hund
+title: Hund
 ---
 
 ![Et gitter med 8 × 8 felter, der viser et hundehoved.](images/dog.png)
@@ -187,7 +187,7 @@ billede = [
 
 --- collapse ---
 ---
-titel: Kamæleon
+title: Kamæleon
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en regnbuefarvet kamæleon.](images/chameleon.png)
@@ -223,7 +223,7 @@ billede = [
 
 --- collapse ---
 ---
-titel: Drage
+title: Drage
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en drage.](images/kite.png)
