@@ -20,11 +20,11 @@ blau
 
 Schwarz
 
-Cyan
+Zyan
 
-SaddleBrown
+SattelBraun
 
-DarkGoldenrod
+DunkleGoldrute
 
 Rot
 
@@ -34,15 +34,15 @@ Schwarz
 
 Kornblumenblau
 
-Gelbgrün
+Grün
 
-DeepPink
+TiefesPink
 
 Dunkelorange
 
 Weiß
 
-Mittelgrau
+MittelBlau
 
 Dunkelgrau
 
