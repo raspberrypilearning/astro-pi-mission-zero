@@ -1,6 +1,6 @@
 ## Co budeš dělat
 
-Tvůj projekt nastaví pozadí tvého obrázku na barvu, kterou rozpozná počítač Astro Pi. Díky tomu bude Mezinárodní vesmírná stanice (ISS) pro astronauty na palubě o něco barevnější. Tvůj kód k tomu použije senzor barev a svítivosti na desce Sense HAT u nových počítačů Mark II Astro Pi.
+Tvůj projekt nastaví pozadí tvého obrázku na barvu, kterou rozpozná počítač Astro Pi. Díky tomu bude Mezinárodní vesmírná stanice (ISS) pro astronauty na palubě o něco barevnější. Tvůj kód k tomu použije senzor barev a svítivosti na desce Sense HAT u počítačů Mark II Astro Pi.
 
 Tady je ukázka programu, který by mohl běžet ve vesmíru na počítači Astro Pi a který zvládneš naprogramovat i ty.
 
@@ -31,5 +31,3 @@ Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak n
 Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
 --- /collapse ---
-
-![Sledovací pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
