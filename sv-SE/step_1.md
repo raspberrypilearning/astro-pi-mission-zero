@@ -1,6 +1,6 @@
 ## Du kommer göra
 
-Ditt projekt kommer att ställa in bakgrundsfärgen för en bild till den färg som Astro Pi upptäcker. Detta kommer att göra den internationella rymdstationen (ISS) mer färgstark för astronauterna ombord. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
+Ditt projekt kommer att ställa in bakgrundsfärgen för en bild till den färg som Astro Pi upptäcker. Detta kommer att göra den internationella rymdstationen (ISS) mer färgstark för astronauterna ombord. Din kod kommer att använda färgljussensorn på Mark II Astro Pi-datorns Sense HAT för att få detta att hända.
 
 Här är ett exempel på den typ av program du kan göra för att köra på en Astro Pi i rymden.
 
