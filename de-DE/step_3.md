@@ -65,10 +65,10 @@ title: Fisch
 Erstellt vom Team Chalka, Polen
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # DunkelOrchidee
+q = (255, 255, 0) # Gelb
+d = (51, 153, 255) # Blau
+c = (0, 0, 0) # Schwarz
 
 image = [
 d, d, z, d, d, d, d, d,
@@ -96,11 +96,11 @@ Titel: Walross
 Erstellt vom Team Walrus, Finnland
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+h = (0, 255, 255) # Zyan
+c = (0, 0, 0) # Schwarz
+s = (139, 69, 19) # Sattelbraun
+a = (255, 255, 255) # Weiß
+r = (184, 134, 11) # DunkleGoldrute
 
 image = [
 h, h, h, h, h, h, h, h,
@@ -121,16 +121,16 @@ r, r, s, s, s, s, s, s]
 Titel: Paxi
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die ein Paxi zeigen.](images/paxi.png)
+![Ein Raster mit 8 x 8 Quadraten, die Paxi zeigen.](images/paxi.png)
 
 Erstellt vom Team tony_pi, Italien
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # Rot
+m = (34, 139, 34) # Waldgrün
+c = (0, 0, 0) # Schwarz 
+e = (100, 149, 237) # Kornblumenblau
+l = (0, 255, 0) # Grün
 
 image = [
     c, v, m, c, c, m, v, c,
@@ -159,9 +159,9 @@ Erstellt vom Team ptpr_07, Spanien
 ```python
 
 c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+r = (184, 134, 11) # DunkleGoldrute
+s = (139, 69, 19) # Sattelbraun
+y = (255, 20, 147) # TiefesPink
 
 image = [
     c, r, r, c, c, r, r, c,
@@ -180,7 +180,7 @@ image = [
 
 --- collapse ---
 ---
-title: Chamäleon
+Titel: Chamäleon
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, das ein regenbogenfarbenes Chamäleon zeigt.](images/chameleon.png)
@@ -189,16 +189,16 @@ Erstellt vom Team The_ETs, Vereinigtes Königreich
 
 ```python
 
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0) # Schwarz
+s = (139, 69, 19) # Sattelbraun
+a = (255, 255, 255) # Weiß
+v = (255, 0, 0) # Rot
+t = (255, 140, 0) # DunkelOrange
+q = (255, 255, 0) # Gelb
+m = (34, 139, 34) # Waldgrün
+h = (0, 255, 255) # Zyan
+z = (153, 50, 204) # DunkleOrchidee
+y = (255, 20, 147) # TiefesPink
 
 image = [
     a, a, v, v, t, a, a, a,
@@ -225,12 +225,12 @@ Erstellt vom Team Val, Griechenland
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
-h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Schwarz
+m = (34, 139, 34) # Waldgrün
+v = (255, 0, 0) # Rot
+q = (255, 255, 0) # Gelb
+e = (0, 0, 205) # MittelBlau
+h = (0, 255, 255) # Zyan
 
 image = [
     h, h, h, h, h, h, h, h, 
@@ -248,7 +248,7 @@ image = [
 
 --- collapse ---
 ---
-title: Huhn
+Titel: Huhn
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, das ein Huhn zeigt.](images/chicken.png)
@@ -257,11 +257,11 @@ Erstellt vom Team Slepicky, Tschechien
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 0, 0) # Rot
+c = (0, 0, 0) # Schwarz
+b = (105, 105, 105) # DunklesGrau
+q = (255, 255, 0) # Gelb
+r = (184, 134, 11) # DunkleGoldrute
 
 image =  [
     c, c, v, v, v, c, c, c,
@@ -288,7 +288,7 @@ image =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+z = (153, 50, 204) # DunkleOrchidee q = (255, 255, 0) # Gelb d = (51, 153, 255) # Blau c = (0, 0, 0) # Schwarz
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
