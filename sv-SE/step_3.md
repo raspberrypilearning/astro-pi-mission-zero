@@ -57,7 +57,7 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-title: Räv
+titel: Räv
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fish.png)
@@ -115,21 +115,21 @@ bild = [
 
 --- collapse ---
 ---
-title: Paxi
+titel: Paxi
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en kaktus.](images/paxi.png)
+![Ett rutnät med 8 x 8 rutor som visar Paxi.](images/paxi.png)
 
 Skapad av team 6TETHASI, Nederländerna
 
 ```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
+v = (255, 0, 0) # Röd
+m = (34, 139, 34) # Skogsgrön
+c = (0, 0, 0) # Svart 
+e = (100, 149, 237) # Blåklintblå
+l = (0, 255, 0) # Grön
 
-image = [
+bild = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -151,7 +151,7 @@ title: Krokodil
 
 ![Ett rutnät med 8 x 8 rutor som visar ett krokodilhuvud.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Skapad av team ptpr_07, Spanien
 
 ```python
 
@@ -180,9 +180,9 @@ bild = [
 title: Regnbåge
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![Ett rutnät med 8 x 8 rutor som visar en regnbågsfärgad kameleont.](images/chameleon.png)
 
-Created by team The_ETs, United Kingdom
+Skapad av teamet The_ETs, Storbritannien
 
 ```python
 
@@ -214,9 +214,9 @@ regnbage = [
 title: Drake
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![Ett rutnät med 8 x 8 rutor som visar en drake.](images/kite.png)
 
-Created by team Val, Greece
+Skapad av team Val, Grekland
 
 ```python
 
@@ -242,12 +242,12 @@ bild = [
 
 --- collapse ---
 ---
-title: Chicken
+titel: Kyckling
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Ett rutnät med 8 x 8 rutor som visar en kyckling.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Skapad av teamet Slepicky, Tjeckien
 
 ```python
 
@@ -277,7 +277,7 @@ sense.set_pixels(bild)
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Hitta:** den linje som säger `# Visa bilden` och lägg till en rad kod för att visa din bild på LED-matrisen:
 
 --- code ---
 ---
@@ -288,7 +288,7 @@ Min bild visas inte:
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Visa bilden
 sense.set_pixels(image)
 
 --- /code ---
@@ -325,6 +325,6 @@ Min bild visas inte:
 
 Nu när du har visat en bild kan du spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden som du fått. Du kan ladda om programmet på vilken enhet som helst med en internetanslutning genom att ange teamets namn och klassrumskod.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Mission Zero Spara-knapp.](images/mz_savebutton_v2.png)
 
 --- /task --- 
