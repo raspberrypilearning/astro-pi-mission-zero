@@ -2,7 +2,7 @@
 
 I det här steget kommer du att ställa in färgljussensorn och använda den för att känna av mängden rött, grönt och blått som når sensorn. Denna färg kommer sedan att användas för att färglägga din valda bild. En astronaut som går upp till sensorn i en blå skjorta skulle se en annan bild än en astronaut i en röd skjorta.
 
-![bild visas med en rosa bakgrund på LED-matrisen](images/colour_background.png)
+![En bild visas med en rosa bakgrund på LED-matrisen.](images/colour_background.png)
 
 Vilken bild du än väljer använder bakgrunden variabeln `c` som är inställd på svart.
 
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Du kan spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden du fått. Du kan ladda om ditt program på vilken enhet som helst med en internetanslutning genom att ange ditt teamnamn och klassrumskod.
 
-![Mission Zero Spara skärmgrepp](images/mz_savebutton_v2.png)
+![Mission Zero Spara skärmgrepp.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
