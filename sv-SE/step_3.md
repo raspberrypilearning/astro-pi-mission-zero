@@ -65,19 +65,20 @@ titel: Räv
 Skapad av team i_pupi, Italien
 
 ```python
+z = (153, 50, 204) # MörkOrkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # blå
 c = (0, 0, 0) # Svart
-a = (255, 255, 255) # Vit
-t = (255, 140, 0) # Mörkorange
 
 bild = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+d, d, z, d, d, d, d,
+d, d, d, z, z, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d]
 
 ```
 
@@ -87,27 +88,29 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Elefant
+titel: Valross
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en elefant.](images/walrus.png)
+![Ett rutnät med 8 x 8 rutor som visar en valross.](images/walrus.png)
 
-Skapad av team ILiFanT, Finland
+Skapad av team Walrus, Finland
 
 ```python
+h = (0, 255, 255) # Cyan
 c = (0, 0, 0) # Svart
-b = (105, 105, 105) # Mörkgrå
+s = (139, 69, 19) # Sadelbrun
 a = (255, 255, 255) # Vit
+r = (184, 134, 11) # MörkGuldris
 
 bild = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s, s]
 
 ```
 
@@ -120,7 +123,7 @@ titel: Paxi
 
 ![Ett rutnät med 8 x 8 rutor som visar Paxi.](images/paxi.png)
 
-Skapad av team 6TETHASI, Nederländerna
+Skapad av teamet tony_pi, Italien
 
 ```python
 v = (255, 0, 0) # Röd
@@ -146,29 +149,29 @@ bild = [
 
 --- collapse ---
 ---
-title: Krokodil
+titel: Hund
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar ett krokodilhuvud.](images/dog.png)
+![Ett rutnät med 8 x 8 rutor som visar ett hundhuvud.](images/dog.png)
 
 Skapad av team ptpr_07, Spanien
 
 ```python
 
-a = (255, 255, 255) # Vit
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnattsblå
-m = (34, 139, 34) # Skogsgrön
+r = (184, 134, 11) # MörkGuldris
+s = (139, 69, 19) # Sadelbrun
+y = (255, 20, 147) # Mörkrosa
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 
 ```
@@ -177,7 +180,7 @@ bild = [
 
 --- collapse ---
 ---
-title: Regnbåge
+titel: Kameleont
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en regnbågsfärgad kameleont.](images/chameleon.png)
@@ -186,24 +189,26 @@ Skapad av teamet The_ETs, Storbritannien
 
 ```python
 
-c = (100, 149, 237) # Blåklintblå
+c = (0, 0, 0) # Svart
+s = (139, 69, 19) # Sadelbrun
 a = (255, 255, 255) # Vit
 v = (255, 0, 0) # Röd
 t = (255, 140, 0) # Mörkorange
 q = (255, 255, 0) # Gul
-l = (0, 255, 127) # Vårgrön
-e = (0, 0, 205) # Mediumblå
+m = (34, 139, 34) # Skogsgrön
+h = (0, 255, 255) # Cyan
+z = (153, 50, 204) # Mörkorkidé
+y = (255, 20, 147) # Mörkrosa
 
-regnbage = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+bild = [
+    a, a, v, v, t, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, a, y, z, a]
 
 ```
 
@@ -211,7 +216,7 @@ regnbage = [
 
 --- collapse ---
 ---
-title: Drake
+titel: Drake
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en drake.](images/kite.png)
@@ -220,21 +225,22 @@ Skapad av team Val, Grekland
 
 ```python
 
-b = (105, 105, 105) # Dimgrå
 c = (0, 0, 0) # Svart
-d = (100, 149, 237) # Blåklintblå
+m = (34, 139, 34) # Skogsgrön
 v = (255, 0, 0) # Röd
-z = (153, 50, 204) # Mörkorkidé
+q = (255, 255, 0) # Gul
+e = (0, 0, 205) # Mellanblå
+h = (0, 255, 255) # Cyan
 
 bild = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h, h]
 
 ```
 
@@ -251,23 +257,21 @@ Skapad av teamet Slepicky, Tjeckien
 
 ```python
 
-a = (255, 255, 255) # Vit
+v = (255, 0, 0) # Röd
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnattsblå
-m = (34, 139, 34) # Skogsgrön
+b = (105, 105, 105) # Dimgrå
+q = (255, 255, 0) # Gul
+r = (184, 134, 11) # MörkGuldris
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
-
-# Visa bilden
-sense.set_pixels(bild)
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, c, b, c, r, b,
+    q, r, b, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -284,7 +288,7 @@ sense.set_pixels(bild)
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-Min bild visas inte:
+z = (153, 50, 204) # MörkOrkidé q = (255, 255, 0) # Gul d = (51, 153, 255) # blå c = (0, 0, 0) # Svart
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
