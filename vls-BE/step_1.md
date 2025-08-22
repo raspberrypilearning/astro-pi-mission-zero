@@ -16,7 +16,7 @@ Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken
 
 Je komt vanalles te weten over de Astro Pi computer en hoe je ermee moet werken en ook hoe:
 + Kleur **variabelen** kan maken om te gebruiken in je afbeelding
-+ Je beelden kan ontwerpen en tonen op de Sense HAT
++ Ontwerp en toon een pixel art afbeelding op de Sense HAT
 + Meet de kleur van het licht aan boord van het ISS
 
 --- collapse ---
