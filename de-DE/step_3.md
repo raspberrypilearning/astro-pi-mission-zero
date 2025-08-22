@@ -94,7 +94,7 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-Titel: Walross
+title: Walross
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die ein Walross zeigen.](images/walrus.png)
@@ -124,7 +124,7 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-Titel: Paxi
+title: Paxi
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, die Paxi zeigen.](images/paxi.png)
@@ -186,7 +186,7 @@ bild = [
 
 --- collapse ---
 ---
-Titel: Chamäleon
+title: Chamäleon
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, das ein regenbogenfarbenes Chamäleon zeigt.](images/chameleon.png)
@@ -254,7 +254,7 @@ bild = [
 
 --- collapse ---
 ---
-Titel: Huhn
+title: Huhn
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, das ein Huhn zeigt.](images/chicken.png)
