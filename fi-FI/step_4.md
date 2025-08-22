@@ -2,7 +2,7 @@
 
 Tässä vaiheessa määrität värin kirkkausanturin ja käytät sitä tunnistaaksesi punaisen, vihreän ja sinisen määrät anturissa. Tätä väriä käytetään sitten valitsemasi kuvan värittämiseen. Astronautti, joka kävelee anturin luo sinisessä paidassa, näkisi erilaisen kuvan kuin punaisessa paidassa oleva astronautti.
 
-![kuva näkyy vaaleanpunaisella taustalla LED-matriisissa](images/colour_background.png)
+![Kuva näkyy vaaleanpunaisella taustalla LED-matriisissa.](images/colour_background.png)
 
 Riippumatta valitsemastasi kuvasta, tausta käyttää `c` muuttujaa, joka on asetettu mustaksi.
 
@@ -10,7 +10,7 @@ Riippumatta valitsemastasi kuvasta, tausta käyttää `c` muuttujaa, joka on ase
 
 Käytä värianturia värittääksesi taustasi.
 
-Lisää koodi kuvalistasi eteen saadaksesi värin anturilta ja muuta taustavärisi muuttuja `c` käyttääksesi Sense HATin värianturin tunnistamaa väriä mustan sijasta.
+Lisää koodi kuvalistasi eteen saadaksesi värin anturilta ja muuta taustavärisi muuttujaa `c` käyttääksesi Sense HATin värianturin tunnistamaa väriä mustan sijasta.
 
 **Vinkki:** Sinun ei tarvitse kirjoittaa #-alkuisia kommentteja (ne ovat siellä koodin selittämiseksi).
 
@@ -43,9 +43,9 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 ## Aja ohjelmaasi silmukassa
 
-Astro Pi Mission Zero -ohjelma saa olla ajossa enintään 30 sekuntia. Käytät tämän ajan toistuvasti värianturin tarkastamiseen ja kuvan päivittämiseen.
+Astro Pi Mission Zero -ohjelman ajo saa kestää enintään 30 sekuntia. Käytät tämän ajan toistuvasti värianturin tarkastamiseen ja kuvan päivittämiseen.
 
-Koodisi käyttää `for`-silmukkaa ajaakseen 28 kertaa. **Joka** kerta se:
+Koodisi käyttää `for`-silmukkaa 28 ajokertaan. **Joka** kerta se:
 + tunnistaa uusimman värin
 + päivittää kuvan taustavärin
 + odottaa yhden sekunnin
@@ -144,9 +144,9 @@ Koodini toimii yli 30 sekuntia:
 
 --- task ---
 
-Lisää `sense.clear()` koodin loppuun kuvan tyhjentämiseksi silmukan lopussa. Tämä auttaa sinua näkemään, milloin animaatiosi on päättynyt.
+Lisää `sense.clear()` koodisi loppuun kuvan tyhjentämiseksi silmukkasi päätteeksi. Tämä auttaa sinua näkemään, milloin animaatiosi suoritus on päättynyt.
 
-**Vinkki:** Varmista, että **et** sisennä `sense.clear()`-koodiriviä, koska haluat sen suoritettavan vain yhden kerran animaation lopussa.
+**Vinkki:** Varmista, että **et** sisennä `sense.clear()`-koodiriviä, koska haluat sen suoritettavan vain yhden kerran animaatiosi lopuksi.
 
 --- code ---
 ---
@@ -166,7 +166,7 @@ sense.clear()
 
 --- task ---
 
-**Kokeile:** Aja koodisi uudelleen. Kun projektisi on suoritettu, LED-matriisi tyhjenee kaikkien valojen vaihtuessa mustaksi (sammuvat).
+**Kokeile:** Aja koodisi uudelleen. Kun projektisi on suoritettu, LED-matriisi tyhjenee kaikkien valojen vaihtuessa mustaksi (pois päältä).
 
 --- /task ---
 
@@ -217,7 +217,7 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/mz_savebutton_v2.png)
+![Mission Zeron Tallennuspainike.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -230,7 +230,7 @@ Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkuees
 title: Valmis koodiesimerkki
 ---
 
-![8 x 8 neliön ruudukko esittämässä krokotiiliä.](images/fish.png)
+![8 x 8 neliön ruudukko esittämässä kalaa.](images/fish.png)
 
 --- code ---
 ---
