@@ -2,7 +2,7 @@
 
 Nyt kun olet suorittanut tehtäväsi, miksi et kokeilisi muita projekteja käyttämällä Astro Pi:n muita antureita?
 
-Jos tunnet olosi varmaksi, voit osallistua Mission Space Labiin. Muodosta 2–6 hengen ryhmä ja työskentele yhdessä vastataksesi todelliseen tieteelliseen kysymykseen. Kaikki kelvollisen ohjelman lähettäneet joukkueet kutsutaan virtuaaliseen Q&A:han ESAn astronautin kanssa Astro Pi -haasteen kauden lopussa.
+Jos tunnet olosi itsevarmaksi, voisit osallistua Mission Space Labiin. Muodosta 2–6 hengen ryhmä ja työskennelkää yhdessä vastataksenne todelliseen tieteelliseen kysymykseen. Kaikki kelvollisen ohjelman lähettäneet joukkueet kutsutaan virtuaaliseen Q&A:han ESAn astronautin kanssa Astro Pi -haasteen kauden lopussa.
 
 Vaihtoehtoisesti voit kokeilla joitain muita Sense HAT -projektejamme:
 
@@ -12,6 +12,6 @@ Vaihtoehtoisesti voit kokeilla joitain muita Sense HAT -projektejamme:
 
 + Tee [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} -peli
 
-+ Haasta ystäväsi [marmorilabyrintti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} -pelillä
++ Haasta ystäväsi [marmorilabyrintti](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}-pelillä
 
 + Luo uudelleen klassinen [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}-peli
