@@ -10,7 +10,7 @@ Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster met LEDs di
 
 --- task ---
 
-Open het [Mission ZeroMission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Open het [Mission ZeroMission Zero start project](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Je zal zien dat er enkele coderegels automatisch toegevoegd werden.
 
@@ -67,7 +67,7 @@ Gemaakt door team chalka, Polen
 ```python
 z = (153, 50, 204) # Donkerorchidee
 q = (255, 255, 0) # Geel
-d = (51, 153, 255) # blauw
+d = (51, 153, 255) # Blauw
 c = (0, 0, 0) # Zwart
 
 afbeelding= [
@@ -100,7 +100,7 @@ h = (0, 255, 255) # Cyaan
 c = (0, 0, 0) # Zwart
 s = (139, 69, 19) # Zadelbruin
 a = (255, 255, 255) # Wit
-r = (184, 134, 11) # Donkergoudenstaaf
+r = (184, 134, 11) # Donkerguldenroede
 
 afbeelding= [
 h, h, h, h, h, h, h, h,
@@ -118,7 +118,7 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-titel: Paxi
+title: Paxi
 ---
 
 ![Een raster met 8 x 8 vierkanten toont Paxi.](images/paxi.png)
@@ -152,14 +152,14 @@ afbeelding= [
 title: Hond
 ---
 
-![Een raster met 8 x 8 vierkanten toont het hoofd van een hond.](images/dog.png)
+![Een raster met 8 x 8 vierkanten toont een kop van een hond.](images/dog.png)
 
 Gemaakt door team ptpr_07, Spanje
 
 ```python
 
 c = (0, 0, 0) # Zwart
-r = (184, 134, 11) # Donkergoudenstaaf
+r = (184, 134, 11) # Donkerguldenroede
 s = (139, 69, 19) # Zadelbruin
 y = (255, 20, 147) # Dieproze
 
@@ -180,10 +180,10 @@ afbeelding= [
 
 --- collapse ---
 ---
-title: Cameleon
+title: Kameleon
 ---
 
-![Een raster met 8 x 8 vierkanten toont een regenboogkleurige cameleon.](images/chameleon.png)
+![Een raster met 8 x 8 vierkanten toont een regenboogkleurige kameleon.](images/chameleon.png)
 
 Gemaakt door team The_ETs, Verenigd Koninkrijk
 
@@ -248,7 +248,7 @@ afbeelding = [
 
 --- collapse ---
 ---
-titel: Kip
+title: Kip
 ---
 
 ![Een raster met 8 x 8 vierkanten toont een kip.](images/chicken.png)
@@ -261,7 +261,7 @@ v = (255, 0, 0) # Rood
 c = (0, 0, 0) # Zwart
 b = (105, 105, 105) # Donkergrijs
 q = (255, 255, 0) # Geel
-r = (184, 134, 11) # Donkergoudenstaaf
+r = (184, 134, 11) # Donkerguldenroede
 
 afbeelding =  [
     c, c, v, v, v, c, c, c,
@@ -288,7 +288,7 @@ afbeelding =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # Donkerorchidee q = (255, 255, 0) # Geel d = (51, 153, 255) # blauw c = (0, 0, 0) # Zwart
+z = (153, 50, 204) # Donkerorchidee q = (255, 255, 0) # Geel d = (51, 153, 255) # Blauw c = (0, 0, 0) # Zwart
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
