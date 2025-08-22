@@ -2,7 +2,7 @@
 
 In questo passaggio, imposterai il sensore di luminosità del colore e lo utilizzerai per rilevare la quantità di rosso, verde e blu letta dal sensore. Questo colore verrà quindi utilizzato per colorare l'immagine scelta. Un astronauta che si avvicina al sensore con una maglietta blu vedrebbe un'immagine diversa rispetto a un astronauta con una maglietta rossa.
 
-![immagine visualizzata con sfondo rosa sulla matrice LED](images/colour_background.png)
+![Immagine visualizzata con sfondo rosa sulla matrice LED.](images/colour_background.png)
 
 Qualunque sia l'immagine che hai scelto, lo sfondo utilizza la variabile `c` impostata sul nero.
 
@@ -12,7 +12,7 @@ Usa il sensore di colore per colorare il tuo sfondo.
 
 Aggiungi il codice prima della lista contenente le immagini per ottenere il colore dal sensore e modifica la variabile del colore di sfondo `c` per utilizzare il colore rilevato dal sensore di colore Sense HAT, al posto del nero.
 
-**Suggerimento:** Non è necessario digitare i commenti che iniziano con '#' (sono inseriti per spiegare il codice).
+**Suggerimento:** Non è necessario digitare i commenti che iniziano con '#' (sono commenti inseriti per spiegare il codice).
 
 --- code ---
 ---
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Aggiungi variabili per il colore e l'immagine
 
-a = (255, 255, 255) # Bianco
+z = (153, 50, 204) # Orchidea scura
+q = (255, 255, 0) # Giallo
+d = (51, 153, 255) # Blu
 c = (0, 0, 0) # Nero
-f = (25, 25, 112) # Blu notte
-m = (34, 139, 34) # Verde foresta
 
 rgb = sense.color # ottenere il colore dal sensore
 c = (rgb.red, rgb.green, rgb.blue) # usa il colore rilevato
 
 immagine = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -52,7 +52,7 @@ immagine = [
 
 **Test:** Sposta il cursore del colore su un colore a tua scelta e poi **esegui** il tuo codice. Il colore dello sfondo cambierà. Ripeti questo test di nuovo con un colore differente.
 
-**Suggerimento:** Dovrai fare clic su "Esegui" ogni volta che cambi il colore.
+**Suggerimento:** Dovrai fare clic su "Run (esegui)" ogni volta che cambi il colore.
 
 --- /task ---
 
@@ -85,14 +85,14 @@ rgb = sense.color # ottenere il colore dal sensore
 c = (rgb.red, rgb.green, rgb.blue)
 
 immagine = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -103,7 +103,7 @@ immagine = [
 
 Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi **dentro** il ciclo `for`.
 
-**Suggerimento:** Per far rientrare più righe, evidenzia le righe che desideri indentare, quindi premi il tasto <kbd>Tab</kbd> sulla tastiera (di solito si trova sopra il tasto <kbd>Caps Lock</kbd> della tastiera).
+**Suggerimento:** Per far rientrare più righe, evidenzia le righe che desideri indentare, quindi premi il tasto <kbd>Tab</kbd> sulla tastiera (di solito si trova sopra il tasto <kbd>Maiuscole</kbd> della tastiera).
 
 --- code ---
 ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   immagine = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Mostra l'immagine
@@ -272,7 +272,7 @@ sense.clear(x)
 
 Puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice classe che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
 
-![Mission Zero Save button screengrab](images/savebutton_it.png)
+![Il pulsante Salva di Mission Zero.](images/savebutton_it.png)
 
 --- /task --- 
 
@@ -284,7 +284,7 @@ Puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome del
 title: Esempio di codice completato
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un coccodrillo.](images/croc.png)
+![Una griglia con 8 x 8 quadrati che mostra un pesce.](images/fish.png)
 
 --- code ---
 ---
@@ -306,24 +306,24 @@ sense.color.integration_cycles = 64 # L'intervallo con cui verrà eseguita la le
 
 # Aggiungi variabili per il colore e l'immagine
 
-a = (255, 255, 255) # Bianco
+z = (153, 50, 204) # Orchidea scura
+q = (255, 255, 0) # Giallo
+d = (51, 153, 255) # Blu
 c = (0, 0, 0) # Nero
-f = (25, 25, 112) # Blu notte
-m = (34, 139, 34) # Verde foresta
 
 for i in range(28):
   rgb = sense.color # ottenere il colore dal sensore
   c = (rgb.red, rgb.green, rgb.blue)
 
   immagine = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Mostra l'immagine

@@ -1,6 +1,6 @@
 ## Amit el fogsz készíteni
 
-A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez az új Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
+A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez a Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
 
 Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy Astro Pi számítógépen.
 
@@ -31,5 +31,3 @@ Szervezd a fiatalokat egy-négy fős csapatokba, és engedd meg, hogy végigkís
 Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/hu/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
-
-![Követő pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
