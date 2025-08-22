@@ -1,6 +1,6 @@
 ---
 title: 'Astro Pi: Mission Zero'
-hero_image: images/banner.png
+hero_image: images/MZ_banner_2024_V4.png
 description: Pripravite se na Mission Zero
 listed: true
 copyedit: true
@@ -15,4 +15,6 @@ steps:
   - title: Zaznajte barve
     completion:
       - internal
-  - title: 'Kaj zdaj: več projektov Astro Pi'
+  - title: 'Kaj zdaj: Več projektov Astro Pi'
+    completion:
+      - external

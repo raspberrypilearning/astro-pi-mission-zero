@@ -2,7 +2,7 @@
 
 V tem koraku boste nastavili senzor barvne svetilnosti in ga uporabili za zaznavanje količine rdeče, zelene in modre, ki doseže senzor. Ta barva bo nato uporabljena za barvanje izbrane slike. Astronavt, ki bi stopil do senzorja v modri srajci, bi videl drugačno sliko kot astronavt v rdeči srajci.
 
-![slika, prikazana z rožnatim ozadjem na matriki LED](images/colour_background.png)
+![Slika z rožnatim ozadjem na matriki LED.](images/colour_background.png)
 
 Ne glede na to, katero sliko izberete, ozadje uporablja spremenljivko `c`, ki je nastavljena na črno.
 
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Doda barvne spremenljivke in sliko
 
-a = (255, 255, 255) # Bela
+z = (153, 50, 204) # Svetlo vijolična
+q = (255, 255, 0) # Rumena
+d = (51, 153, 255) # Modra
 c = (0, 0, 0) # Črna
-f = (25, 25, 112) # Nočno modra
-m = (34, 139, 34) # Drevesno zelena
 
 rgb = sense.color # Preberi barvo iz senzorja
 c = (rgb.red, rgb.green, rgb.blue) # Uporabi zaznano barvo
 
 slika = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # Preberi barvo iz senzorja
 c = (rgb.red, rgb.green, rgb.blue)
 
 slika = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   slika = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Prikaže sliko
@@ -271,7 +271,7 @@ sense.clear(x)
 
 Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Posnetek zaslona gumba za shranjevanje Mission Zero](images/savebutton_sl.png)
+![Gumb za shranjevanje Mission Zero.](images/savebutton_sl.png)
 
 --- /task ---
 
@@ -283,7 +283,7 @@ Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje
 title: Primer dokončane kode
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo krokodila.](images/croc.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo ribo.](images/fish.png)
 
 --- code ---
 ---
@@ -305,24 +305,24 @@ sense.color.integration_cycles = 64 # Interval, v katerem bo opravljeno branje
 
 # Doda barvne spremenljivke in sliko
 
-a = (255, 255, 255) # Bela
+z = (153, 50, 204) # Svetlo vijolična
+q = (255, 255, 0) # Rumena
+d = (51, 153, 255) # Modra
 c = (0, 0, 0) # Črna
-f = (25, 25, 112) # Nočno modra
-m = (34, 139, 34) # Drevesno zelena
 
 for i in range(28):
   rgb = sense.color # Preberi barvo iz senzorja
   c = (rgb.red, rgb.green, rgb.blue)
 
   slika = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Prikaže sliko
