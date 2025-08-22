@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Farbvariablen und Bild hinzufügen
 
-a = (255, 255, 255) # Weiß
+z = (153, 50, 204) # Dunkle Orchidee
+q = (255, 255, 0) # Gelb
+d = (51, 153, 255) # Blau
 c = (0, 0, 0) # Schwarz
-f = (25, 25, 112) # Mitternachtsblau
-m = (34, 139, 34) # Waldgrün
 
 rgb = sense.color # Hole die Farbe vom Sensor
 c = (rgb.red, rgb.green, rgb.blue) # Verwende die ermittelte Farbe
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # Hole die Farbe vom Sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Das Bild anzeigen
@@ -272,7 +272,7 @@ sense.clear(x)
 
 Du kannst dein Programm im Mission Starter-Projekt speichern, indem du deinen Teamnamen, die Namen der Teammitglieder und den dir zugewiesenen Klassen-Code eingibst. Du kannst dein Programm auf jedem Gerät mit Internetverbindung neu laden, indem du deinen Teamnamen und deinen Klassen-Code eingibst.
 
-![Screenshot der Schaltfläche „Speichern“ von Mission Zero](images/savebutton_de.png)
+![Mission Zero Speichern-Button](images/savebutton_de.png)
 
 --- /task ---
 
@@ -285,7 +285,7 @@ Du kannst dein Programm im Mission Starter-Projekt speichern, indem du deinen Te
 title: Vollständiges Code-Beispiel
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die ein Krokodil zeigen.](images/croc.png)
+![Ein Raster mit 8 x 8 Quadraten, das einen Fisch zeigt.](images/fish.png)
 
 --- code ---
 ---
@@ -307,24 +307,24 @@ sense.color.integration_cycles = 64 # Das Intervall, in dem die Messung durchgef
 
 # Farbvariablen und Bild hinzufügen
 
-a = (255, 255, 255) # Weiß
+z = (153, 50, 204) # Dunkle Orchidee
+q = (255, 255, 0) # Gelb
+d = (51, 153, 255) # Blau
 c = (0, 0, 0) # Schwarz
-f = (25, 25, 112) # Mitternachtsblau
-m = (34, 139, 34) # Waldgrün
 
 for i in range(28):
   rgb = sense.color # Hole die Farbe vom Sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Das Bild anzeigen
