@@ -10,9 +10,9 @@ Astro Pin LED-matriisi voi näyttää värejä. Tässä vaiheessa näytät luont
 
 --- task ---
 
-Avaa [Mission Zero -aloitusprojekti](https://missions.astro-pi.org/fi/mz/code_submissions/){:target="_blank"}.
+Avaa [Mission Zero -aloitusprojekti](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
-Näet, että muutama koodirivi on lisätty sinulle automaattisesti.
+Näet, että sinua varten on lisätty muutama koodirivi automaattisesti.
 
 Tämä koodi ottaa yhteyden Astro Pihin, varmistaa Astro Pin LED-näytön olevan oikein päin ja määrittää värianturin. Jätä koodi sinne, koska tulet tarvitsemaan sitä.
 
