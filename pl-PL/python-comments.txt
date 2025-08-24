@@ -6,13 +6,13 @@ Przygotuj czujnik kolorów
 
 Ustaw czułość czujnika
 
-Okres czasu, w którym będzie dokonywany odczyt
+Interwał, w którym będzie wykonywany odczyt
 
 Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-Ciemna Orchidea
+Ciemna orchidea
 
 Żółty
 
@@ -20,7 +20,7 @@ Nocny niebieski
 
 Czarny
 
-Ciemnoszary
+Cyjan
 
 Kasztanowy brąz
 
@@ -34,9 +34,9 @@ Czarny
 
 Chabrowy
 
-Leśny zielony
+Zielony
 
-DeepPink
+Intensywny róż
 
 Ciemny pomarańczowy
 
@@ -44,7 +44,7 @@ Biały
 
 Średni niebieski
 
-DimGray
+Ciemnoszary
 
 pobierz kolor z czujnika
 
