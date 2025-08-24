@@ -12,7 +12,7 @@ Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-DarkOrchid
+Ciemna Orchidea
 
 Żółty
 
@@ -22,9 +22,9 @@ Czarny
 
 Ciemnoszary
 
-SaddleBrown
+Kasztanowy brąz
 
-DarkGoldenrod
+Ciemny złotawy
 
 Czerwony
 
