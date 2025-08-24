@@ -62,7 +62,7 @@ title: Lis
 
 ![Siatka kwadratów 8 x 8 przedstawiających twarz lisa.](images/fish.png)
 
-Created by team chalka, Poland
+Stworzone przez zespół chalka, Polska
 
 ```python
 c = (0, 0, 0) # Czarny
@@ -149,9 +149,9 @@ obrazek = [
 title: Krokodyl
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![Siatka kwadratów 8 x 8 przedstawiających głowę psa.](images/dog.png)
 
-Created by team ptpr_07, Spain
+Stworzone przez zespół ptpr_07, Hiszpania
 
 ```python
 
@@ -203,7 +203,7 @@ title: Smok
 
 ![Siatka 8 x 8 kwadratów przedstawiająca łeb krokodyla.](images/kite.png)
 
-Created by team Val, Greece
+Stworzone przez zespół Val, Grecja
 
 ```python
 
@@ -231,9 +231,9 @@ obrazek = [
 title: Kaktus
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![Siatka kwadratów 8 x 8 przedstawiających kurczaka.](images/chicken.png)
 
-Created by team Slepicky, Czechia
+Stworzone przez zespół Slepicky, Czechy
 
 ```python
 
@@ -274,7 +274,7 @@ b = (105, 105, 105) # Ciemnoszary c = (0, 0, 0) # Czarny d = (100, 149, 237) # C
 
 image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Display the image
+# Wyświetl obraz
 sense.set_pixels(image)
 
 --- /code ---
