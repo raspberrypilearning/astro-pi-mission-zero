@@ -57,7 +57,7 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-titel: Räv
+title: Fisk
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fish.png)
@@ -88,7 +88,7 @@ d, d, d, z, d, d, d]
 --- collapse ---
 
 ---
-titel: Valross
+title: Valross
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en valross.](images/walrus.png)
@@ -149,7 +149,7 @@ bild = [
 
 --- collapse ---
 ---
-titel: Hund
+title: Hund
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar ett hundhuvud.](images/dog.png)
@@ -248,7 +248,7 @@ bild = [
 
 --- collapse ---
 ---
-titel: Kyckling
+title: Kyckling
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en kyckling.](images/chicken.png)
