@@ -118,7 +118,7 @@ r, r, s, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-titel: Paxi
+title: Paxi
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar Paxi.](images/paxi.png)
@@ -180,7 +180,7 @@ bild = [
 
 --- collapse ---
 ---
-titel: Kameleont
+title: Kameleont
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en regnbågsfärgad kameleont.](images/chameleon.png)
