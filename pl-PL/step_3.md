@@ -57,7 +57,7 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 --- collapse ---
 
 ---
-title: Lis
+title: Ryba
 ---
 
 ![Siatka kwadratów 8 x 8 przedstawiających twarz lisa.](images/fish.png)
@@ -65,19 +65,20 @@ title: Lis
 Stworzone przez zespół chalka, Polska
 
 ```python
+z = (153, 50, 204) # CiemnaOrchidea
+q = (255, 255, 0) # Żółty
+d = (51, 153, 255) # Niebieski
 c = (0, 0, 0) # Czarny
-a = (255, 255, 255) # Biały
-t = (255, 140, 0) # Ciemnopomarańczowy
 
-obrazek = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
+obraz = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -87,12 +88,12 @@ c, c, a, a, a, a, c, c]
 --- collapse ---
 
 ---
-title: Słoń
+title: Mors
 ---
 
 ![Siatka kwadratów 8 x 8 przedstawiających słonia.](images/walrus.png)
 
-Stworzone przez zespół ILiFanT, Finlandia
+Stworzone przez zespół Walrus, Finlandia
 
 ```python
 c = (0, 0, 0) # Czarny
