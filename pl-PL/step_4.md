@@ -2,9 +2,9 @@
 
 W tym kroku przygotujesz czujnik jasności koloru i użyjesz go do wykrycia ilości czerwonego, zielonego i niebieskiego docierającego do czujnika. Ten kolor zostanie następnie użyty do pokolorowania wybranego obrazu. Astronauta podchodzący do czujnika w niebieskiej koszuli zobaczy inny obraz niż astronauta w czerwonej koszuli.
 
-![obraz wyświetlany z różowym tłem na matrycy LED](images/colour_background.png)
+![Obraz wyświetlany z różowym tłem na matrycy LED.](images/colour_background.png)
 
-Niezależnie jaki obrazek wybierzesz, tło używa zmiennej `c`, ustawionej na czerń.
+Niezależnie od wybranego obrazu tło używa zmiennej `c`, ustawionej na kolor czarny.
 
 --- task ---
 
@@ -12,7 +12,7 @@ Użyj czujnika koloru, aby pokolorować tło.
 
 Dodaj kod przed listą obrazów, aby uzyskać kolor z czujnika i popraw zmienną koloru tła `c`, aby zamiast czerni użyć kolor wykrywany przez czujnik koloru Sense HAT.
 
-**Wskazówka:** Nie musisz wpisywać komentarzy zaczynających się od '#' (są tam, aby wyjaśnić kod).
+**Wskazówka:** Nie musisz wpisywać komentarzy zaczynających się od znaku „#” (są tam po to, aby wyjaśnić kod).
 
 --- code ---
 ---
@@ -230,7 +230,7 @@ Możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swo
 title: Ukończony przykład kodu
 ---
 
-![Siatka złożona z kwadratów 8 x 8 przedstawiających krokodyla.](images/fish.png)
+![Siatka kwadratów 8 x 8 przedstawiających rybę.](images/fish.png)
 
 --- code ---
 ---
