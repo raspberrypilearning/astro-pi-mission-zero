@@ -16,7 +16,7 @@ Ciemna orchidea
 
 Żółty
 
-Nocny niebieski
+Niebieski
 
 Czarny
 
@@ -24,7 +24,7 @@ Cyjan
 
 Kasztanowy brąz
 
-Ciemny złotawy
+Ciemna nawłoć
 
 Czerwony
 
@@ -36,7 +36,7 @@ Chabrowy
 
 Zielony
 
-Intensywny róż
+Ciemny róż
 
 Ciemny pomarańczowy
 
