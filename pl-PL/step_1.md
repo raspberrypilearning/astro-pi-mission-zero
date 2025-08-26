@@ -4,7 +4,7 @@ Twój projekt ustawi kolor tła obrazu na kolor, który Astro Pi wykryje. Dzięk
 
 Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
 
-![Emulator Sense HAT uruchamiający przykładowy program z wężem, którego kolor tła zmienia się wraz z wykrywanym kolorem.](images/finished.gif)
+![Emulator Sense HAT uruchamiający przykładowy program z wężem, w którym kolor tła zmienia się wraz z wykrywanym kolorem.](images/finished.gif)
 
 ### Czego będziesz potrzebować
 
