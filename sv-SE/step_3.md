@@ -38,7 +38,7 @@ sense.color.integration_cycles = 64 # Intervallet med vilket avläsningen kommer
 
 --- /code ---
 
-![En skärmdump av Sense HAT-emulatorn med rader med startkod som visas i den vänstra rutan.](images/sense-hat-emulator2.png)
+![En skärmdump av Sense HAT-emulatorn med rader med startkod som visas i den vänstra rutan.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
@@ -63,84 +63,28 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-title: Räv
+title: Fisk
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fox_mz3.png)
+![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fish.png)
 
 Skapad av team i_pupi, Italien
 
 ```python
-c = (0, 0, 0) # Svart
-a = (255, 255, 255) # Vit
-t = (255, 140, 0) # Mörkorange
-
-bild = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
-```
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Elefant
----
-
-![Ett rutnät med 8 x 8 rutor som visar en elefant.](images/elephant.png)
-
-Skapad av team ILiFanT, Finland
-
-```python
-c = (0, 0, 0) # Svart
-b = (105, 105, 105) # Mörkgrå
-a = (255, 255, 255) # Vit
-
-bild = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Kaktus
----
-
-![Ett rutnät med 8 x 8 rutor som visar en kaktus.](images/cactus.png)
-
-Skapad av team 6TETHASI, Nederländerna
-
-```python
-a = (255, 255, 255) # Vit
-c = (0, 0, 0) # Svart
-n = (154, 205, 50) # Gulgrön
+z = (153, 50, 204) # MörkOrkidé
 q = (255, 255, 0) # Gul
-t = (255, 140, 0) # Mörkorange
+d = (51, 153, 255) # blå
+c = (0, 0, 0) # Svart
 
-bild = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
+bild = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -148,63 +92,129 @@ bild = [
 
 
 --- collapse ---
+
 ---
-title: Krokodil
+title: Valross
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar ett krokodilhuvud.](images/croc.png)
+![Ett rutnät med 8 x 8 rutor som visar en valross.](images/walrus.png)
+
+Skapad av team Walrus, Finland
 
 ```python
-
-a = (255, 255, 255) # Vit
+h = (0, 255, 255) # Cyan
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnattsblå
+s = (139, 69, 19) # Sadelbrun
+a = (255, 255, 255) # Vit
+r = (184, 134, 11) # MörkGuldris
+
+bild = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Paxi
+---
+
+![Ett rutnät med 8 x 8 rutor som visar Paxi.](images/paxi.png)
+
+Skapad av teamet tony_pi, Italien
+
+```python
+v = (255, 0, 0) # Röd
 m = (34, 139, 34) # Skogsgrön
+c = (0, 0, 0) # Svart 
+e = (100, 149, 237) # Blåklintblå
+l = (0, 255, 0) # Grön
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Hund
+---
+
+![Ett rutnät med 8 x 8 rutor som visar ett hundhuvud.](images/dog.png)
+
+Skapad av team ptpr_07, Spanien
+
+```python
+
+c = (0, 0, 0) # Svart
+r = (184, 134, 11) # MörkGuldris
+s = (139, 69, 19) # Sadelbrun
+y = (255, 20, 147) # Mörkrosa
+
+bild = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
+
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Regnbåge
+title: Kameleont
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en regnbåge.](images/rainbow.png)
+![Ett rutnät med 8 x 8 rutor som visar en regnbågsfärgad kameleont.](images/chameleon.png)
 
-Skapad av team camrus_6, Storbritannien
+Skapad av teamet The_ETs, Storbritannien
 
 ```python
 
-c = (100, 149, 237) # Blåklintblå
+c = (0, 0, 0) # Svart
+s = (139, 69, 19) # Sadelbrun
 a = (255, 255, 255) # Vit
 v = (255, 0, 0) # Röd
 t = (255, 140, 0) # Mörkorange
 q = (255, 255, 0) # Gul
-l = (0, 255, 127) # Vårgrön
-e = (0, 0, 205) # Mediumblå
+m = (34, 139, 34) # Skogsgrön
+h = (0, 255, 255) # Cyan
+z = (153, 50, 204) # Mörkorkidé
+y = (255, 20, 147) # Mörkrosa
 
-regnbage = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+bild = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -212,30 +222,62 @@ regnbage = [
 
 --- collapse ---
 ---
-title: Drake
+titel: Drake
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en drake.](images/dragon.png)
+![Ett rutnät med 8 x 8 rutor som visar en drake.](images/kite.png)
 
-Skapat av team hwplucyr, Storbritannien
+Skapad av team Val, Grekland
 
 ```python
 
-b = (105, 105, 105) # Dimgrå
 c = (0, 0, 0) # Svart
-d = (100, 149, 237) # Blåklintblå
+m = (34, 139, 34) # Skogsgrön
 v = (255, 0, 0) # Röd
-z = (153, 50, 204) # Mörkorkidé
+q = (255, 255, 0) # Gul
+e = (0, 0, 205) # Mellanblå
+h = (0, 255, 255) # Cyan
 
 bild = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Kyckling
+---
+
+![Ett rutnät med 8 x 8 rutor som visar en kyckling.](images/chicken.png)
+
+Skapad av teamet Slepicky, Tjeckien
+
+```python
+
+v = (255, 0, 0) # Röd
+c = (0, 0, 0) # Svart
+b = (105, 105, 105) # Dimgrå
+q = (255, 255, 0) # Gul
+r = (184, 134, 11) # MörkGuldris
+
+bild = [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -245,34 +287,41 @@ bild = [
 
 --- task ---
 
-**Hitta:** raden som säger `# Visa bilden` och lägg till en kodrad för att visa din bild på LED-matrisen:
+**Hitta:** den linje som säger `# Visa bilden` och lägg till en rad kod för att visa din bild på LED-matrisen:
 
-```python
-a = (255, 255, 255) # Vit
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 18, 19
+---
+z = (153, 50, 204) # Mörkorkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnattsblå
-m = (34, 139, 34) # Skogsgrön
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 # Visa bilden
 sense.set_pixels(bild)
 
-```
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Tryck på **Run** längst ner i editorn för att se din bild visas på LED-matrisen.
+Tryck på **Run** (Kör) längst ner i editorn för att se din bild visas på LED-matrisen.
 
 --- /task ---
 
@@ -300,6 +349,6 @@ Min bild visas inte:
 
 Nu när du har visat en bild kan du spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden som du fått. Du kan ladda om programmet på vilken enhet som helst med en internetanslutning genom att ange teamets namn och klassrumskod.
 
-![Mission Zero Spara-knapp](images/savebutton_se.png)
+![Mission Zero Spara-knapp.](images/savebutton_se.png)
 
 --- /task --- 

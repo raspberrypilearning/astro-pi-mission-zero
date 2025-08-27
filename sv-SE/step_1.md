@@ -1,6 +1,6 @@
 ## Du kommer göra
 
-Ditt projekt kommer att ställa in bakgrundsfärgen för en bild till den färg som Astro Pi upptäcker. Detta kommer att göra den internationella rymdstationen (ISS) mer färgstark för astronauterna ombord. Din kod kommer att använda färgljussensorn på den nya Mark II Astro Pi-datorns Sense HAT för att få detta att hända.
+Ditt projekt kommer att ställa in bakgrundsfärgen för en bild till den färg som Astro Pi upptäcker. Detta kommer att göra den internationella rymdstationen (ISS) mer färgstark för astronauterna ombord. Din kod kommer att använda färgljussensorn på Mark II Astro Pi-datorns Sense HAT för att få detta att hända.
 
 Här är ett exempel på den typ av program du kan göra för att köra på en Astro Pi i rymden.
 
@@ -31,5 +31,3 @@ Organisera dina ungdomar i lag om en till fyra, och låt oss guida dem genom att
 Läs de [officiella riktlinjerna](https://astro-pi.org/sv/mission-zero/guidelines){:target="_blank"} för Mission Zero.
 
 --- /collapse ---
-
-![Spårningspixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)
