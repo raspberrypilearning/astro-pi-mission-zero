@@ -12,7 +12,7 @@ Du kommer att använda Astro Pi-emulatorn i en webbläsare för att skapa ditt p
 
 ### Kriterier för Astro Pi Mission Zero
 
-**Om ditt projekt uppfyller [kvalificeringskriterierna](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**kommer ditt färdiga program att köras på den internationella rymdstationen! Du kommer också att få ett särskilt certifikat som visar exakt var ISS var när ditt program körde.
+**Om ditt projekt uppfyller [kvalificeringskriterierna](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}** kommer ditt färdiga program att köras på den internationella rymdstationen! Du kommer också att få ett särskilt certifikat som visar exakt var ISS var när ditt program körde.
 
 Du kommer att lära dig om Astro Pi enheten och hur man styr den, inklusive hur man:
 + Skapa färg **-variabler** att använda i din bild
@@ -21,7 +21,7 @@ Du kommer att lära dig om Astro Pi enheten och hur man styr den, inklusive hur 
 
 --- collapse ---
 ---
-rubrik: Anteckningar för mentorertitle
+title: Anteckningar för mentorer
 ---
 
 Mission Zero är lämplig för nybörjare till programmering och/eller barn i grundskoleåldern och kan genomföras på en enda 60-minuters session på vilken dator som helst med internetuppkoppling. Ingen speciell hårdvara eller tidigare kodningskunskaper behövs. Allt kan göras i en webbläsare.
