@@ -43,7 +43,7 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 ## Zapętl swój program
 
-Program Astro Pi Misja Zero może działać maksymalnie 30 sekund. Wykorzystasz ten czas, aby wielokrotnie sprawdzać czujnik koloru i odświeżać obraz.
+Program Astro Pi Mission Zero może działać maksymalnie 30 sekund. Wykorzystasz ten czas, aby wielokrotnie sprawdzać czujnik koloru i odświeżać obraz.
 
 Twój kod użyje pętli `for`, aby uruchomić się 28 razy. **Za każdym** razem będzie:
 + odczytywał ostatni kolor
