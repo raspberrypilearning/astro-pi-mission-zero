@@ -230,7 +230,7 @@ Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de 
 title: Afgewerkt codevoorbeeld
 ---
 
-![Een krokodil wordt getoond in een raster van 8 x 8 vierkanten.](images/fish.png)
+![Een vis wordt getoond in een raster van 8 x 8 vierkanten.](images/fish.png)
 
 --- code ---
 ---
