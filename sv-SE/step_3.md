@@ -222,7 +222,7 @@ bild = [
 
 --- collapse ---
 ---
-titel: Drake
+title: Drake
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en drake.](images/kite.png)
