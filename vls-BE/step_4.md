@@ -273,7 +273,7 @@ sense.clear(x)
 
 Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de namen van je teamleden en je klascode in te geven. Je kan je programma opnieuw laden op elk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
 
-![Knop om Mission Zero op te slaan.](images/savebutton_be.png)
+![Knop om Mission Zero op te slaan.](images/mz_savebutton_v2.png)
 
 --- /task ---
 

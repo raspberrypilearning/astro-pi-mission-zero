@@ -2,9 +2,9 @@
 
 Neste passo, irás configurar o sensor de luminosidade de cor e usá-lo para detetar a quantidade de vermelho, verde e azul que chegam ao sensor. Esta cor será então usada para colorir a imagem escolhida. Um astronauta a caminhar até o sensor com uma camisa azul verá uma imagem diferente de um astronauta com uma camisa vermelha.
 
-![imagem mostrada com fundo cor-de-rosa na matriz de LED](images/colour_background.png)
+![Uma imagem exibida com fundo cor-de-rosa na matriz de LED.](images/colour_background.png)
 
-Qualquer que seja a imagem que escolheres, o plano fundo usa a variável `c` que é definida para preta.
+Independentemente da imagem que escolheres, o plano fundo usa a variável `c` definida para preto.
 
 --- task ---
 
@@ -12,7 +12,7 @@ Usa o sensor de cor para colorir o teu plano de fundo.
 
 Adiciona código antes da tua lista de imagens para obter a cor do sensor e alterar a tua variável de cor de fundo `c` para usar a cor detectada pelo sensor de cores Sense HAT em vez de preto.
 
-**Dica:** tu não precisas de escrever os comentários que começam com '#' (eles estão lá para explicar o código).
+**Dica:** Não precisas de escrever os comentários que começam com '#' (eles estão lá para explicar o código).
 
 --- code ---
 ---
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Adicionar variáveis de cor e imagem
 
-a = (255, 255, 255) # Branco
+z = (153, 50, 204) # Orquídea escura
+q = (255, 255, 0) # Amarelo
+d = (51, 153, 255) # Azul
 c = (0, 0, 0) # Preto
-f = (25, 25, 112) # Azul noturno
-m = (34, 139, 34) # Verde floresta
 
 rgb = sense.color # obter a cor do sensor
 c = (rgb.red, rgb.green, rgb.blue) # usa a cor detetada
 
 imagem = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # obter a cor do sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 imagem = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagem = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Mostrar a imagem
@@ -271,7 +271,7 @@ sense.clear(x)
 
 Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome de equipa, os nomes dos elementos e o código de sala de aula que te foi dado. Podes abrir o teu programa em qualquer dispositivo com conexão à Internet ao entrar com o nome da tua equipa e o código de sala de aula.
 
-![Captura de ecrã do botão Guardar Missão Zero](images/savebutton_pt.png)
+![Botão Guardar Missão Zero.](images/savebutton_pt.png)
 
 --- /task ---
 
@@ -284,7 +284,7 @@ Podes guardar o teu programa no projeto Inicio de Missão ao entrar com o nome d
 title: Exemplo de código completo
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um crocodilo.](images/croc.png)
+![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/fish.png)
 
 --- code ---
 ---
@@ -306,24 +306,24 @@ sense.color.integration_cycles = 64 # O intervalo em que a leitura será feita
 
 # Adicionar variáveis de cor e imagem
 
-a = (255, 255, 255) # Branco
+z = (153, 50, 204) # Orquídea escura
+q = (255, 255, 0) # Amarelo
+d = (51, 153, 255) # Azul
 c = (0, 0, 0) # Preto
-f = (25, 25, 112) # Azul noturno
-m = (34, 139, 34) # Verde floresta
 
 for i in range(28):
   rgb = sense.color # obter a cor do sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagem = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Mostrar a imagem

@@ -4,13 +4,13 @@ Twój projekt ustawi kolor tła obrazu na kolor, który Astro Pi wykryje. Dzięk
 
 Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
 
-![Emulator Sense HAT uruchamiający przykładowy program z wężem, którego kolor tła zmienia się wraz z wykrywanym kolorem.](images/finished.gif)
+![Emulator Sense HAT uruchamiający przykładowy program z wężem, w którym kolor tła zmienia się wraz z wykrywanym kolorem.](images/finished.gif)
 
 ### Czego będziesz potrzebować
 
 Do stworzenia swojego programu będziesz używać emulatora Astro Pi w przeglądarce internetowej. Nie potrzebujesz komputera Astro Pi.
 
-### Kryteria Astro Pi Mission Zero 
+### Kryteria Mission Zero Astro Pi
 
 **Jeśli Twój projekt spełni [kryteria kwalifikacyjne](https://astro-pi.org/pl/mission-zero/eligibility){:target="_blank"}**, Twój ukończony program zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program został uruchomiony.
 
@@ -31,5 +31,3 @@ Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób, k
 Przeczytaj [oficjalne wytyczne](https://astro-pi.org/pl/mission-zero/guidelines){:target="_blank"} dla Mission Zero.
 
 --- /collapse ---
-
-![Piksel śledzący](https://code.org/api/hour/begin_raspberrypi_astropi.png)
