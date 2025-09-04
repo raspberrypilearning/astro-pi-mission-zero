@@ -1,6 +1,6 @@
 ## Lo que harás
 
-Tu proyecto establecerá el color de fondo de una imagen al color que detecta la Astro Pi. Esto hará que la Estación Espacial Internacional (ISS) sea más colorida para los astronautas a bordo. Tu código utilizará el sensor de luminosidad de color en el Sense HAT de la nueva computadora Mark II Astro Pi para lograr que esto suceda.
+Tu proyecto establecerá el color de fondo de una imagen al color que detecta la Astro Pi. Esto hará que la Estación Espacial Internacional (ISS) sea más colorida para los astronautas a bordo. Tu código utilizará el sensor de luminosidad de color en el Sense HAT de la computadora Mark II Astro Pi para lograr que esto suceda.
 
 Aquí hay un ejemplo del tipo de programa que podrías hacer para ejecutarse en un Astro Pi en el espacio.
 
@@ -31,5 +31,3 @@ Organiza a tus jóvenes en equipos de uno a cuatro, y guiémoslos para escribir 
 Lee el [documento con las directrices oficiales](https://astro-pi.org/es/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
 --- /collapse ---
-
-![Píxel de seguimiento](https://code.org/api/hour/begin_raspberrypi_astropi.png)

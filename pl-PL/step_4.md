@@ -2,9 +2,9 @@
 
 W tym kroku przygotujesz czujnik jasności koloru i użyjesz go do wykrycia ilości czerwonego, zielonego i niebieskiego docierającego do czujnika. Ten kolor zostanie następnie użyty do pokolorowania wybranego obrazu. Astronauta podchodzący do czujnika w niebieskiej koszuli zobaczy inny obraz niż astronauta w czerwonej koszuli.
 
-![obraz wyświetlany z różowym tłem na matrycy LED](images/colour_background.png)
+![Obraz wyświetlany z różowym tłem na matrycy LED.](images/colour_background.png)
 
-Niezależnie jaki obrazek wybierzesz, tło używa zmiennej `c`, ustawionej na czerń.
+Niezależnie od wybranego obrazu tło używa zmiennej `c`, ustawionej na kolor czarny.
 
 --- task ---
 
@@ -12,7 +12,7 @@ Użyj czujnika koloru, aby pokolorować tło.
 
 Dodaj kod przed listą obrazów, aby uzyskać kolor z czujnika i popraw zmienną koloru tła `c`, aby zamiast czerni użyć kolor wykrywany przez czujnik koloru Sense HAT.
 
-**Wskazówka:** Nie musisz wpisywać komentarzy zaczynających się od '#' (są tam, aby wyjaśnić kod).
+**Wskazówka:** Nie musisz wpisywać komentarzy zaczynających się od znaku „#” (są tam po to, aby wyjaśnić kod).
 
 --- code ---
 ---
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Dodaj zmienne kolorów i obraz
 
-a = (255, 255, 255) # Biały
+z = (153, 50, 204) # Ciemna orchidea
+q = (255, 255, 0) # Żółty
+d = (51, 153, 255) # Niebieski
 c = (0, 0, 0) # Czarny
-f = (25, 25, 112) # Nocny niebieski
-m = (34, 139, 34) # Leśny zielony
 
 rgb = sense.color # pobierz kolor z czujnika
 c = (rgb.red, rgb.green, rgb.blue) # użyj odczytany kolor
 
 obrazek = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # pobierz kolor z czujnika
 c = (rgb.red, rgb.green, rgb.blue)
 
 obrazek = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazek = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Wyświetl obraz
@@ -284,7 +284,7 @@ Możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swo
 title: Ukończony przykład kodu
 ---
 
-![Siatka złożona z kwadratów 8 x 8 przedstawiających krokodyla.](images/croc.png)
+![Siatka kwadratów 8 x 8 przedstawiających rybę.](images/fish.png)
 
 --- code ---
 ---
@@ -306,24 +306,24 @@ sense.color.integration_cycles = 64 # Okres czasu, w którym będzie dokonywany 
 
 # Dodaj zmienne kolorów i obraz
 
-a = (255, 255, 255) # Biały
+z = (153, 50, 204) # Ciemna orchidea
+q = (255, 255, 0) # Żółty
+d = (51, 153, 255) # Niebieski
 c = (0, 0, 0) # Czarny
-f = (25, 25, 112) # Nocny niebieski
-m = (34, 139, 34) # Leśny zielony
 
 for i in range(28):
   rgb = sense.color # pobierz kolor z czujnika
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazek = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Wyświetl obraz

@@ -16,7 +16,7 @@ Programmi loomiseks kasutad veebibrauseris Astro Pi emulaatorit. Sul ei ole vaja
 
 Õpid tundma Astro Pi-d ja selle juhtimist, sealhulgas kuidas:
 + Kuvada värvi **muutujaid**, mida oma pildil kasutada
-+ Sense HAT-is pilti disainida ja kuvada
++ Kujundage ja kuvage Sense HAT-il pikslikunsti pilti
 + Tajuda valguse värvi ISS-i pardal
 
 --- collapse ---
@@ -31,5 +31,3 @@ Jagage oma noored ühe- kuni neljaliikmelistesse meeskondadesse ja juhendage nei
 Lugege Mission Zero [ametlikke juhiseid](https://astro-pi.org/et/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---
-
-![Jälgimispiksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

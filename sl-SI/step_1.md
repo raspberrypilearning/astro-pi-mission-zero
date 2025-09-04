@@ -1,6 +1,6 @@
 ## Izdelali boste
 
-Vaš projekt bo nastavil barvo ozadja slike na barvo, ki jo zazna Astro Pi. Tako bo Mednarodna vesoljska postaja (ISS) postala bolj barvita za astronavte na krovu. Vaša koda bo to storila z uporabo senzorja barvne svetilnosti na Sense HAT novega računalnika Mark II Astro Pi.
+Vaš projekt bo nastavil barvo ozadja slike na barvo, ki jo zazna Astro Pi. Tako bo Mednarodna vesoljska postaja (ISS) postala bolj barvita za astronavte na krovu. Vaša koda bo to storila z uporabo senzorja barvne svetilnosti na Sense HAT računalnika Mark II Astro Pi.
 
 Tukaj je primer programa, ki bi ga lahko naredili za Astro Pi v vesolju.
 
@@ -16,7 +16,7 @@ Za izdelavo programa boste potrebovali Astro Pi emulator v spletnem brskalniku. 
 
 Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
 + Ustvarjanjem barvnih **spremenljivk** za uporabo v sliki
-+ Oblikovanjem in prikazom slik na Sense HAT
++ Oblikovanjem in prikazovanjem slik na Sense HAT
 + Zaznavanjem svetlosti barve na krovu ISS
 
 --- collapse ---
@@ -31,5 +31,3 @@ Organizirajte svoje mlade v skupine od enega do štirih in dovolite nam, da jih 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
 --- /collapse ---
-
-![Sledilni piksel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

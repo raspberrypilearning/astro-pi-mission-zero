@@ -1,6 +1,6 @@
 ---
 title: 'Astro Pi: Mission Zero'
-hero_image: images/banner.png
+hero_image: images/MZ_banner_2024_V4.png
 description: Gør klar til Mission Zero
 listed: true
 copyedit: true
@@ -16,3 +16,5 @@ steps:
     completion:
       - internal
   - title: Hvad næste — flere Astro Pi-projekter
+    completion:
+      - external

@@ -2,7 +2,7 @@
 
 In deze stap zal je de kleurintensiteitssensor installeren en hem gebruiken om de hoeveeldheid rood, groen en blauw te meten die de sensor bereikt. Deze kleur zal dan gebruikt worden om je gekozen afbeelding in te kleuren. Een astronaut die naar de sensor toeloopt met een blauw T-shirt zal een andere afbeelding zien dan een astronaut in een rood T-shirt.
 
-![afbeelding getoond met een roze achtergrond op de LED-matrix](images/colour_background.png)
+![Een afbeelding met een roze achtergrond wordt getoond op de LED-matrix.](images/colour_background.png)
 
 Welke afbeelding je ook kiest, de achtergrond gebruikt de `c` variabele die ingesteld is op zwart.
 
@@ -26,23 +26,23 @@ line_highlights: 9, 10
 
 # Voeg kleurvariabelen en beeld toe
 
-a = (255, 255, 255) # Wit
+z = (153, 50, 204) # Donkerorichidee
+q = (255, 255, 0) # Geel
+d = (51, 153, 255) # Blauw
 c = (0, 0, 0) # Zwart
-f = (25, 25, 112) # Middernachtblauw
-m = (34, 139, 34) # Bosgroen
 
 rgb = sense.color # ontvang de kleur van de sensor
 c = (rgb.red, rgb.green, rgb.blue) # gebruik de waargenomen kleur
 
 afbeelding = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -86,14 +86,14 @@ rgb = sense.color # ontvang de kleur van de sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 afbeelding = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -112,7 +112,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -120,14 +120,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   afbeelding = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Toon de afbeelding
@@ -273,7 +273,7 @@ sense.clear(x)
 
 Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de namen van je teamleden en je klascode in te geven. Je kan je programma opnieuw laden op elk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
 
-![Mission Zero opslaan knop screenshot](images/savebutton_be.png)
+![Knop om Mission Zero op te slaan.](images/mz_savebutton_v2.png)
 
 --- /task ---
 
@@ -285,7 +285,7 @@ Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de 
 title: Afgewerkt codevoorbeeld
 ---
 
-![Een krokodil wordt getoond in een raster van 8 x 8 vierkanten.](images/croc.png)
+![Een vis wordt getoond in een raster van 8 x 8 vierkanten.](images/fish.png)
 
 --- code ---
 ---
@@ -307,24 +307,24 @@ sense.color.integration_cycles = 64 # Het interval waarin het uitlezen gebeurt
 
 # Voeg kleurvariabelen en beeld toe
 
-a = (255, 255, 255) # Wit
+z = (153, 50, 204) # Donkerorichidee
+q = (255, 255, 0) # Geel
+d = (51, 153, 255) # Blauw
 c = (0, 0, 0) # Zwart
-f = (25, 25, 112) # Middernachtblauw
-m = (34, 139, 34) # Bosgroen
 
 for i in range(28):
   rgb = sense.color # ontvang de kleur van de sensor
   c = (rgb.red, rgb.green, rgb.blue)
 
   afbeelding = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Toon de afbeelding

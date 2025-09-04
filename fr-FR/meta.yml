@@ -1,6 +1,6 @@
 ---
 title: 'Astro Pi : Mission Zero'
-hero_image: images/banner.png
+hero_image: images/MZ_banner_2024_V4.png
 description: Se préparer pour Mission Zero
 listed: true
 copyedit: true
@@ -15,4 +15,6 @@ steps:
   - title: Détecter une couleur
     completion:
       - internal
-  - title: Et ensuite — d’autres projets Astro Pi
+  - title: Et ensuite — plus de projets Astro Pi
+    completion:
+      - external

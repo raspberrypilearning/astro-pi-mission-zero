@@ -1,6 +1,6 @@
 ## Je zal het volgende maken
 
-Jouw project zal de achtergrondkleur van een afbeelding veranderen naar de kleur die de Astro Pi detecteert. Dit zal het internationaal ruimtestation (ISS) kleurrijker maken voor de astronauten aan boord. Je code zal de kleurintensiteitssensor op de Sense HAT van de nieuwe Mark II Astro Pi computer daarvoor gebruiken.
+Jouw project zal de achtergrondkleur van een afbeelding veranderen naar de kleur die de Astro Pi detecteert. Dit zal het internationaal ruimtestation (ISS) kleurrijker maken voor de astronauten aan boord. Je code zal de kleurintensiteitssensor op de Sense HAT van de Mark II Astro Pi computer daarvoor gebruiken.
 
 Hier is een voorbeeld van het soort programma dat je zou kunnen maken op op een Astro Pi in de ruimte te laten werken.
 
@@ -16,7 +16,7 @@ Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken
 
 Je komt vanalles te weten over de Astro Pi computer en hoe je ermee moet werken en ook hoe:
 + Kleur **variabelen** kan maken om te gebruiken in je afbeelding
-+ Je beelden kan ontwerpen en tonen op de Sense HAT
++ Ontwerp en toon een pixel art afbeelding op de Sense HAT
 + Meet de kleur van het licht aan boord van het ISS
 
 --- collapse ---
@@ -31,5 +31,3 @@ Verdeel je jongeren in teams van 1 tot 4 en laat ons hen begeleiden bij het schr
 Lees de [officiele richtlijnen](https://astro-pi.org/vls/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
 
 --- /collapse ---
-
-![Tracking pixel](https://code.org/api/hour/begin_raspberrypi_astropi.png)

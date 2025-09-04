@@ -1,6 +1,6 @@
 ---
 title: 'Astro Pi: Mission Zero'
-hero_image: images/banner.png
+hero_image: images/MZ_banner_2024_V4.png
 description: Pregătește-te pentru Mission Zero
 listed: true
 copyedit: true
@@ -12,7 +12,9 @@ steps:
   - title: Afișează o imagine
     completion:
       - engaged
-  - title: Detectează o culoare
+  - title: Simte o culoare
     completion:
       - internal
   - title: Ce urmează — mai multe proiecte Astro Pi
+    completion:
+      - external

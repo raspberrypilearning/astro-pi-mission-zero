@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Színváltozók és kép hozzáadása
 
-a = (255, 255, 255) # White (fehér)
+z = (153, 50, 204) # DarkOrchid (lila)
+q = (255, 255, 0) # Yellow (Sárga)
+d = (51, 153, 255) # kék
 c = (0, 0, 0) # Black (fekete)
-f = (25, 25, 112) # MidnightBlue (éjkék)
-m = (34, 139, 34) # ForestGreen (sötétzöld)
 
 rgb = sense.color # szín lekérése az érzékelőtől
 c = (rgb.red, rgb.green, rgb.blue) # az érzékelt szín használata
 
 kep = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # szín lekérése az érzékelőtől
 c = (rgb.red, rgb.green, rgb.blue)
 
 kep = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   kep = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Kép megjelenítése
@@ -284,7 +284,7 @@ Elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod
 title: Kész példakód
 ---
 
-![Egy 8*8-as rács, amely egy krokodil képét mutatja.](images/croc.png)
+![Egy 8*8-as rács, amely egy hal képét mutatja.](images/fish.png)
 
 --- code ---
 ---
@@ -306,24 +306,24 @@ sense.color.integration_cycles = 64 # Az egyes leolvasások között eltelt idő
 
 # Színváltozók és kép hozzáadása
 
-a = (255, 255, 255) # White (fehér)
+z = (153, 50, 204) # DarkOrchid (lila)
+q = (255, 255, 0) # Yellow (Sárga)
+d = (51, 153, 255) # kék
 c = (0, 0, 0) # Black (fekete)
-f = (25, 25, 112) # MidnightBlue (éjkék)
-m = (34, 139, 34) # ForestGreen (sötétzöld)
 
 for i in range(28):
   rgb = sense.color # szín lekérése az érzékelőtől
   c = (rgb.red, rgb.green, rgb.blue)
 
   kep = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Kép megjelenítése

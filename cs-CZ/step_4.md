@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Přidej proměnné s barvami a obrázek
 
-a = (255, 255, 255) # Bílá
+z = (153, 50, 204) # Tmavá orchidej
+q = (255, 255, 0) # Žlutá
+d = (51, 153, 255) # Modrá
 c = (0, 0, 0) # Černá
-f = (25, 25, 112) # Půlnoční modrá
-m = (34, 139, 34) # Lesní zelená
 
 rgb = sense.color # Získej barvu ze senzoru
 c = (rgb.red, rgb.green, rgb.blue) # Použij barvu naměřenou ze senzoru
 
 obrazek = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -84,14 +84,14 @@ rgb = sense.color # Získej barvu ze senzoru
 c = (rgb.red, rgb.green, rgb.blue)
 
 obrazek = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 --- /code ---
 
@@ -109,7 +109,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -117,14 +117,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazek = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Zobraz obrázek
@@ -270,7 +270,7 @@ sense.clear(x)
 
 Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
 
-![Snímek obrazovky z výzvy Mission Zero s tlačítkem pro uložení.](images/savebutton_cz.png)
+![Tlačítko výzvy Mission Zero pro uložení.](images/savebutton_cz.png)
 
 --- /task ---
 
@@ -283,7 +283,7 @@ Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu
 title: Příklad dokončeného kódu
 ---
 
-![Mřížka o velikosti 8 × 8, na které je krokodýl.](images/croc.png)
+![Mřížka o velikosti 8 × 8, na které je ryba.](images/fish.png)
 
 --- code ---
 ---
@@ -305,24 +305,24 @@ sense.color.integration_cycles = 64 # Interval, který udává frekvenci měřen
 
 # Přidej proměnné s barvami a obrázek
 
-a = (255, 255, 255) # Bílá
+z = (153, 50, 204) # Tmavá orchidej
+q = (255, 255, 0) # Žlutá
+d = (51, 153, 255) # Modrá
 c = (0, 0, 0) # Černá
-f = (25, 25, 112) # Půlnoční modrá
-m = (34, 139, 34) # Lesní zelená
 
 for i in range(28):
   rgb = sense.color # Získej barvu ze senzoru
   c = (rgb.red, rgb.green, rgb.blue)
 
   obrazek = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
   # Zobraz obrázek
 

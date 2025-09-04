@@ -1,6 +1,6 @@
 ## Détecter une couleur
 
-Dans cette étape, tu vas configurer le capteur de luminosité des couleurs et l'utiliser pour détecter la quantité de rouge, de vert et de bleu qui atteint le capteur. Cette couleur sera ensuite utilisée pour coloriser ton image. Un astronaute s'approchant du capteur en chemise bleue verrait une image différente de celle d'un astronaute en chemise rouge.
+Dans cette étape, tu vas configurer le capteur de luminosité des couleurs et l'utiliser pour détecter la quantité de rouge, de vert et de bleu qui atteint le capteur. Cette couleur sera ensuite utilisée pour coloriser ton image. Un·e astronaute s'approchant du capteur en chemise bleue verrait une image différente de celle d'un·e astronaute en chemise rouge.
 
 ![image affichée avec un arrière-plan rose sur la matrice LED](images/colour_background.png)
 
@@ -24,23 +24,24 @@ line_highlights: 9, 10
 ---
 # Ajouter des variables de couleur et une image
 
-a = (255, 255, 255) # Blanc
+z = (153, 50, 204) # Orchideefoncee
+q = (255, 255, 0) # Jaune
+d = (51, 153, 255) # bleu
 c = (0, 0, 0) # Noir
-f = (25, 25, 112) # Bleu nuit
-m = (34, 139, 34) # Vert forêt
 
-rvb = sense.color # obtenir la couleur du capteur
-c = (rvb.red, rvb.green, rvb.blue) # use the sensed colour
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
+
 
 --- /code ---
 
@@ -54,7 +55,7 @@ image = [
 
 --- /task ---
 
-## Fais tourner ton programme en boucle
+## Faire tourner ton programme en boucle
 
 Le programme Mission Zero de l'Astro Pi peut être exécuté pendant 30 secondes maximum. Tu utiliseras ce temps pour vérifier à plusieurs reprises le capteur de couleurs et actualiser l'image.
 
@@ -65,7 +66,7 @@ Ton code utilisera une boucle `for` pour s'exécuter 28 fois. À chaque **fois*
 
 --- task ---
 
-**Trouve** ta ligne de code `rvb = sense.color`.
+**Trouve** ta ligne de code rvb = sense.color`.
 
 **Ajoute** du code juste au-dessus pour configurer ta boucle `for` pour `28` répétitions.
 
@@ -83,15 +84,16 @@ rvb = sense.color # obtenir la couleur du capteur
 c = (rvb.red, rvb.green, rvb.blue)
 
 image = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
+  
 --- /code ---
 
 --- /task ---
@@ -108,7 +110,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -116,14 +118,14 @@ for i in range(28):
   c = (rvb.red, rvb.green, rvb.blue)
 
   image = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Afficher l'image
@@ -282,7 +284,7 @@ Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le no
 title: Exemple de code terminé
 ---
 
-![Une grille de 8 x 8 cases représentant un crocodile.](images/croc.png)
+![Une grille de 8 x 8 cases représentant un poisson.](images/fish.png)
 
 --- code ---
 ---
@@ -300,28 +302,28 @@ sense.set_rotation(270)
 
 # Set up the colour sensor
 sense.color.gain = 60 # Régler la sensibilité du capteur
-sense.color.integration_cycles = 64 # L'intervalle auquel la mesure est effectuée
+sense.color.integration_cycles = 64 # L'intervalle auquel la lecture sera effectuée
 
 # Add colour variables and image
 
-a = (255, 255, 255) # Blanc
-c = (0, 0, 0) # Black
-f = (25, 25, 112) # Bleu nuit
-m = (34, 139, 34) # Vert forêt
+z = (153, 50, 204) # Orchideefoncee
+q = (255, 255, 0) # Jaune
+d = (51, 153, 255) # bleu
+c = (0, 0, 0) # Noir
 
 for i in range(28):
   rvb = sense.color # obtenir la couleur du capteur
   c = (rvb.red, rvb.green, rvb.blue)
 
   image = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Afficher l'image

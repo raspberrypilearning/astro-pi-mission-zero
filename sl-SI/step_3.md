@@ -38,7 +38,7 @@ sense.color.integration_cycles = 64 # Interval, v katerem bo opravljeno branje
 
 --- /code ---
 
-![Posnetek zaslona emulatorja Sense HAT z vrsticami začetne kode, prikazane v levem podoknu.](images/sense-hat-emulator2.png)
+![Posnetek zaslona emulatorja Sense HAT z vrsticami začetne kode, prikazane v levem podoknu.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
@@ -63,148 +63,158 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 --- collapse ---
 
 ---
-title: Lisica
+title: Riba
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo lisico.](images/fox_mz3.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo ribo.](images/fish.png)
 
-Ustvarila ekipa i_pupi, Italija
+Ustvarila ekipa chalka, Poljska
 
 ```python
-c = (0, 0, 0) # Črna
-a = (255, 255, 255) # Bela
-t = (255, 140, 0) # Temno oranžna
-
-slika = [
-t, a, t, c, c, t, a, t,
-t, a, t, c, c, t, a, t,
-t, t, t, t, t, t, t, t,
-t, a, c, t, t, c, a, t,
-t, t, t, t, t, t, t, t,
-a, a, a, c, c, a, a, a,
-c, a, a, a, a, a, a, c,
-c, c, a, a, a, a, c, c]
-```
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Slon
----
-
-![Mreža z 8x8 kvadratki, ki prikazujejo slona.](images/elephant.png)
-
-Ustvarila ekipa ILiFanT, Finska
-
-```python
-c = (0, 0, 0) # Črna
-b = (105, 105, 105) # Temno siva
-a = (255, 255, 255) # Bela
-
-slika = [
-    c, c, c, c, c, c, c, c,
-    c, b, b, b, c, c, c, c,
-    c, b, c, b, c, c, b, b,
-    c, b, c, c, c, b, b, b,
-    c, b, b, c, c, b, c, b,
-    c, b, b, b, b, b, b, b,
-    c, c, b, b, a, b, b, b,
-    c, c, c, c, a, b, b, b]
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Kaktus
----
-
-![Mreža z 8x8 kvadratki, ki prikazujejo kaktus.](images/cactus.png)
-
-Ustvarila ekipa 6TETHASI, Nizozemska
-
-```python
-a = (255, 255, 255) # Bela
-c = (0, 0, 0) # Črna
-n = (154, 205, 50) # Rumenozelena
+z = (153, 50, 204) # Svetlo vijolična
 q = (255, 255, 0) # Rumena
-t = (255, 140, 0) # Temno oranžna
-
-slika = [   
-  q, q, c, n, c, c, a, c,
-  q, c, c, n, c, a, a, a,
-  c, n, c, n, c, c, c, c,
-  c, n, n, n, c, n, c, c,
-  c, a, n, n, n, n, c, c,
-  a, a, a, n, c, a, a, a,
-  c, c, c, n, a, a, a, c,
-  t, t, t, t, t, t, t, t]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
----
-title: Krokodil
----
-
-![Mreža z 8x8 kvadratki, ki prikazujejo krokodiljo glavo.](images/croc.png)
-
-```python
-
-a = (255, 255, 255) # Bela
+d = (51, 153, 255) # Modra
 c = (0, 0, 0) # Črna
-f = (25, 25, 112) # Nočnomodra
-m = (34, 139, 34) # Drevesnozelena
 
 slika = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
+--- /collapse ---
+
+
+--- collapse ---
+
+---
+title: Mrož
+---
+
+![Mreža z 8x8 kvadratki, ki prikazujejo mroža.](images/walrus.png)
+
+Ustvarila ekipa Mrož, Finska
+
+```python
+h = (0, 255, 255) # Cian
+c = (0, 0, 0) # Črna
+s = (139, 69, 19) # Rjava
+a = (255, 255, 255) # Bela
+r = (184, 134, 11) # Temno zlata
+
+slika = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
+
+```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Mavrica
+title: Paxi
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo mavrico.](images/rainbow.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo Paxija.](images/paxi.png)
 
-Ustvarila ekipa camrus_6, Združeno kraljestvo
+Ustvarila ekipa tony_pi, Italija
+
+```python
+v = (255, 0, 0) # Rdeča
+m = (34, 139, 34) # Drevesno zelena
+c = (0, 0, 0) # Črna
+e = (100, 149, 237) # Sinje modra
+l = (0, 255, 0) # Zelena
+
+slika = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
+
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Pes
+---
+
+![Mreža z 8x8 kvadratki, ki prikazujejo glavo psa.](images/dog.png)
+
+Ustvarila ekipa ptpr_07, Španija
 
 ```python
 
-c = (100, 149, 237) # Sinje modra
+c = (0, 0, 0) # Črna
+r = (184, 134, 11) # Temno zlata
+s = (139, 69, 19) # Rjava
+y = (255, 20, 147) # Temno roza
+
+slika = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Kameleon
+---
+
+![Mreža z 8x8 kvadratki, ki prikazujejo mavrično obarvanega kameleona.](images/chameleon.png)
+
+Ustvarila ekipa The_ETs, Združeno kraljestvo
+
+```python
+
+c = (0, 0, 0) # Črna
+s = (139, 69, 19) # Rjava
 a = (255, 255, 255) # Bela
 v = (255, 0, 0) # Rdeča
 t = (255, 140, 0) # Temno oranžna
 q = (255, 255, 0) # Rumena
-l = (0, 255, 127) # Pomladno zelena
-e = (0, 0, 205) # Modra
+m = (34, 139, 34) # Drevesno zelena
+h = (0, 255, 255) # Cian
+z = (153, 50, 204) # Svetlo vijolična
+y = (255, 20, 147) # Temno roza
 
-mavrica = [
-  c, c, c, c, c, c, c, c, 
-  v, v, v, v, c, c, c, c,
-  t, t, t, t, v, v, c, c,
-  q, q, q, q, t, v, c, c,
-  l, l, l, l, q, t, v, c,
-  e, e, e, l, q, t, v, c,
-  c, c, e, a, a, a, a, c,
-  c, a, a, a, a, a, a, a
-]
+slika = [
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -215,27 +225,59 @@ mavrica = [
 title: Zmaj
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo zmaja.](images/dragon.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo zmaja.](images/kite.png)
 
-Ustvarila ekipa hwplucyr, Združeno kraljestvo
+Ustvarila ekipa Val, Grčija
 
 ```python
 
-b = (105, 105, 105) # Temno siva
 c = (0, 0, 0) # Črna
-d = (100, 149, 237) # Sinje modra
+m = (34, 139, 34) # Drevesno zelena
 v = (255, 0, 0) # Rdeča
-z = (153, 50, 204) # Svetlo vijolična
+q = (255, 255, 0) # Rumena
+e = (0, 0, 205) # Modra
+h = (0, 255, 255) # Cian
 
 slika = [
-    c, c, v, c, v, c, c, c,
-    c, z, z, z, z, v, c, c,
-    z, b, z, b, z, c, c, c,
-    z, z, z, z, z, v, c, c,
-    c, c, d, d, d, c, c, z,
-    c, z, d, z, z, z, z, c,
-    c, c, d, d, z, c, c, c,
-    c, c, z, c, z, c, c, c]
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Piščanec
+---
+
+![Mreža z 8x8 kvadratki, ki prikazujejo piščanca.](images/chicken.png)
+
+Ustvarila ekipa Slepicky, Češka
+
+```python
+
+v = (255, 0, 0) # Rdeča
+c = (0, 0, 0) # Črna
+b = (105, 105, 105) # Temno siva
+q = (255, 255, 0) # Rumena
+r = (184, 134, 11) # Temno zlata
+
+slika =  [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -247,27 +289,34 @@ slika = [
 
 **Poiščite:** vrstico, ki pravi `# Prikaži sliko` in dodajte vrstico kode za prikaz vaše slike na matriki LED:
 
-```python
-a = (255, 255, 255) # Bela
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 18, 19
+---
+z = (153, 50, 204) # Svetlo vijolična
+q = (255, 255, 0) # Rumena
+d = (51, 153, 255) # Modra
 c = (0, 0, 0) # Črna
-f = (25, 25, 112) # Nočno modra
-m = (34, 139, 34) # Drevesno zelena
 
 slika = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 # Prikaži sliko 
 sense.set_pixels(slika)
 
 
-```
+--- /code ---
 
 --- /task ---
 
@@ -301,6 +350,6 @@ Moja slika se ne prikaže:
 
 Zdaj, ko ste prikazali sliko, lahko shranite svoj program v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Gumb za shranjevanje Mission Zero](images/savebutton_sl.png)
+![Gumb za shranjevanje Mission Zero.](images/savebutton_sl.png)
 
 --- /task --- 

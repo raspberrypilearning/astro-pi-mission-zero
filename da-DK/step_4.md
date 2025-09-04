@@ -1,10 +1,10 @@
-## Fornem en farve
+## Registrer en farve
 
 I dette trin vil du lære at indstille farvelysstyrkesensoren og bruge den til at 'fornemme' mængden af rød, grøn og blå, der rammer sensoren. Denne farve vil derefter blive brugt til at farve med i dit valgte billede. En astronaut, der går op til sensoren i en blå skjorte, vil se et andet billede end en astronaut i en rød skjorte.
 
 ![billede vist med en lyserød baggrund på LED-matrixen](images/colour_background.png)
 
-Uanset hvilket billede du vælger, bruger baggrunden `c` -variablen, som er sat til sort.
+Uanset hvilket billede du vælger, bruger baggrunden `c`-variablen, som er sat til sort.
 
 --- task ---
 
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Tilføj farvevariabler og billede
 
-a = (255, 255, 255) # Hvid
+z = (153, 50, 204) # MørkOrkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
 c = (0, 0, 0) # Sort
-f = (25, 25, 112) # Midnatsblå
-m = (34, 139, 34) # Skovgrøn
 
 rgb = sense.color # få farven fra sensoren
 c = (rgb.red, rgb.green, rgb.blue) # brug den opfangede farve
 
 billede = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # få farven fra sensoren
 c = (rgb.red, rgb.green, rgb.blue)
 
 billede = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   billede = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Vis billedet
@@ -252,7 +252,7 @@ line_highlights: 7, 8
   sense.set_pixels(billede)
   sleep(1) 
 
-x = (178, 34, 34)  # vælg dine egne røde, grønne eller blå værdier mellem 0 - 255
+x = (178, 34, 34)  # vælg dine egne rød-, grøn- og blåværdier mellem 0 og 255
 sense.clear(x)
   
 --- /code ---
@@ -284,7 +284,7 @@ Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamn
 title: Fuldført kodeeksempel
 ---
 
-![Et gitter med 8 x 8 kvadrater, der viser en krokodille.](images/croc.png)
+![Et gitter med 8 × 8 felter, der viser en fisk.](images/fish.png)
 
 --- code ---
 ---
@@ -306,24 +306,24 @@ sense.color.integration_cycles = 64 # Intervallet, som aflæsningen vil blive ta
 
 # Tilføj farvevariabler og billede
 
-a = (255, 255, 255) # Hvid
+z = (153, 50, 204) # MørkOrkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
 c = (0, 0, 0) # Sort
-f = (25, 25, 112) # Midnatsblå
-m = (34, 139, 34) # Skovgrøn
 
 for i in range(28):
   rgb = sense.color # få farven fra sensoren
   c = (rgb.red, rgb.green, rgb.blue)
 
   billede = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Vis billedet
@@ -331,7 +331,7 @@ for i in range(28):
   sense.set_pixels(billede)
   sleep(1)
 
-x = (178, 34, 34)  # vælg dine egne røde, grønne eller blå værdier mellem 0 - 255
+x = (178, 34, 34)  # vælg dine egne rød-, grøn- og blåværdier mellem 0 og 255
 sense.clear(x)
 
 --- /code ---

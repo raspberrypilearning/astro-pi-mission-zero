@@ -1,6 +1,6 @@
 ---
 title: 'Astro Pi: Mission Zero'
-hero_image: images/banner.png
+hero_image: images/MZ_banner_2024_V4.png
 description: Prepárate para Mission Zero
 listed: true
 copyedit: true
@@ -16,3 +16,5 @@ steps:
     completion:
       - internal
   - title: 'Qué sigue: más proyectos de Astro Pi'
+    completion:
+      - external

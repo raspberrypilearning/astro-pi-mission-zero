@@ -18,8 +18,6 @@ Alternativt kanske du vill testa något av våra andra Sense HAT-projekt:
 
 ***
 
-Detta projekt översattes av frivilliga:
-
-David Norlin
+Detta projekt översattes av frivilliga.
 
 Tack vare frivilliga kan vi ge människor runt om i världen möjligheten att lära på sitt eget språk. Du kan hjälpa oss att nå ut till fler personer genom att bli frivillig översättare - läs mer på [rpf.io/translate](https://rpf.io/translate).

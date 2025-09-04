@@ -2,7 +2,7 @@
 
 Tässä vaiheessa määrität värin kirkkausanturin ja käytät sitä tunnistaaksesi punaisen, vihreän ja sinisen määrät anturissa. Tätä väriä käytetään sitten valitsemasi kuvan värittämiseen. Astronautti, joka kävelee anturin luo sinisessä paidassa, näkisi erilaisen kuvan kuin punaisessa paidassa oleva astronautti.
 
-![kuva näkyy vaaleanpunaisella taustalla LED-matriisissa](images/colour_background.png)
+![Kuva näkyy vaaleanpunaisella taustalla LED-matriisissa.](images/colour_background.png)
 
 Riippumatta valitsemastasi kuvasta, tausta käyttää `c` muuttujaa, joka on asetettu mustaksi.
 
@@ -10,7 +10,7 @@ Riippumatta valitsemastasi kuvasta, tausta käyttää `c` muuttujaa, joka on ase
 
 Käytä värianturia värittääksesi taustasi.
 
-Lisää koodi kuvalistasi eteen saadaksesi värin anturilta ja muuta taustavärisi muuttuja `c` käyttääksesi Sense HATin värianturin tunnistamaa väriä mustan sijasta.
+Lisää koodi kuvalistasi eteen saadaksesi värin anturilta ja muuta taustavärisi muuttujaa `c` käyttääksesi Sense HATin värianturin tunnistamaa väriä mustan sijasta.
 
 **Vinkki:** Sinun ei tarvitse kirjoittaa #-alkuisia kommentteja (ne ovat siellä koodin selittämiseksi).
 
@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Lisää värimuuttujia ja kuva
 
-a = (255, 255, 255) # Valkoinen
+z = (153, 50, 204) # Tummanorkidea
+q = (255, 255, 0) # Keltainen
+d = (51, 153, 255) # Sininen
 c = (0, 0, 0) # Musta
-f = (25, 25, 112) # Yönsininen
-m = (34, 139, 34) # Metsänvihreä
 
 rgb = sense.color # hae väri anturilta
 c = (rgb.red, rgb.green, rgb.blue) # käytä tunnistettua väriä
 
 kuva = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -58,9 +58,9 @@ kuva = [
 
 ## Aja ohjelmaasi silmukassa
 
-Astro Pi Mission Zero -ohjelma saa olla ajossa enintään 30 sekuntia. Käytät tämän ajan toistuvasti värianturin tarkastamiseen ja kuvan päivittämiseen.
+Astro Pi Mission Zero -ohjelman ajo saa kestää enintään 30 sekuntia. Käytät tämän ajan toistuvasti värianturin tarkastamiseen ja kuvan päivittämiseen.
 
-Koodisi käyttää `for`-silmukkaa ajaakseen 28 kertaa. **Joka** kerta se:
+Koodisi käyttää `for`-silmukkaa 28 ajokertaan. **Joka** kerta se:
 + tunnistaa uusimman värin
 + päivittää kuvan taustavärin
 + odottaa yhden sekunnin
@@ -69,7 +69,7 @@ Koodisi käyttää `for`-silmukkaa ajaakseen 28 kertaa. **Joka** kerta se:
 
 **Etsi** sinun `rgb = sense.color` koodirivi.
 
-**Lisää** koodi sen yläpuolelle määrittääksesi `for`-silmukan `28` toistolle.
+**Lisää** koodi sen yläpuolelle määrittääksesi `for` -silmukan `28` toistolle.
 
 --- code ---
 ---
@@ -85,14 +85,14 @@ rgb = sense.color # hae väri anturilta
 c = (rgb.red, rgb.green, rgb.blue)
 
 kuva = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   kuva = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Näytä kuva
@@ -189,9 +189,9 @@ Koodini toimii yli 30 sekuntia:
 
 --- task ---
 
-Lisää `sense.clear()` koodin loppuun kuvan tyhjentämiseksi silmukan lopussa. Tämä auttaa sinua näkemään, milloin animaatiosi on päättynyt.
+Lisää `sense.clear()` koodisi loppuun kuvan tyhjentämiseksi silmukkasi päätteeksi. Tämä auttaa sinua näkemään, milloin animaatiosi suoritus on päättynyt.
 
-**Vinkki:** Varmista, että **et** sisennä `sense.clear()`-koodiriviä, koska haluat sen suoritettavan vain yhden kerran animaation lopussa.
+**Vinkki:** Varmista, että **et** sisennä `sense.clear()`-koodiriviä, koska haluat sen suoritettavan vain yhden kerran animaatiosi lopuksi.
 
 --- code ---
 ---
@@ -215,7 +215,7 @@ sense.clear()
 
 --- task ---
 
-**Kokeile:** Aja koodisi uudelleen. Kun projektisi on suoritettu, LED-matriisi tyhjenee kaikkien valojen vaihtuessa mustaksi (sammuvat).
+**Kokeile:** Aja koodisi uudelleen. Kun projektisi on suoritettu, LED-matriisi tyhjenee kaikkien valojen vaihtuessa mustaksi (pois päältä).
 
 --- /task ---
 
@@ -271,7 +271,7 @@ sense.clear(x)
 
 Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkueesi nimen, joukkueen jäsenten nimet ja saamasi luokkahuonekoodin. Voit ladata ohjelman uudelleen millä tahansa laitteella, jossa on Internet-yhteys, syöttämällä joukkuenimen ja luokkahuonekoodin.
 
-![Mission Zeron Tallennuspainikkeen kuvakaappaus](images/savebutton_fi.png)
+![Mission Zeron Tallennuspainike.](images/savebutton_fi.png)
 
 --- /task ---
 
@@ -284,7 +284,7 @@ Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkuees
 title: Valmis koodiesimerkki
 ---
 
-![8 x 8 neliön ruudukko esittämässä krokotiiliä.](images/croc.png)
+![8 x 8 neliön ruudukko esittämässä kalaa.](images/fish.png)
 
 --- code ---
 ---
@@ -306,24 +306,24 @@ sense.color.integration_cycles = 64 # Aikaväli lukeman ottamiseksi
 
 # Lisää värimuuttujia ja kuva
 
-a = (255, 255, 255) # Valkoinen
+z = (153, 50, 204) # Tummanorkidea
+q = (255, 255, 0) # Keltainen
+d = (51, 153, 255) # Sininen
 c = (0, 0, 0) # Musta
-f = (25, 25, 112) # Yönsininen
-m = (34, 139, 34) # Metsänvihreä
 
 for i in range(28):
   rgb = sense.color # hae väri anturilta
   c = (rgb.red, rgb.green, rgb.blue)
 
   kuva = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Näytä kuva

@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Adaugă variabile de culoare și imagine
 
-a = (255, 255, 255) # Alb
+z = (153, 50, 204) # OrhideeÎntunecată
+q = (255, 255, 0) # Galben
+d = (51, 153, 255) # Albastru
 c = (0, 0, 0) # Negru
-f = (25, 25, 112) # Bleumarin
-m = (34, 139, 34) # Verde pădure
 
 rgb = sense.color # obține culoarea de la senzor
 c = (rgb.red, rgb.green, rgb.blue) # utilizează culoarea de la senzor
 
 imagine = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # obține culoarea de la senzor
 c = (rgb.red, rgb.green, rgb.blue)
 
 imagine = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -111,7 +111,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagine = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Afișează imaginea
@@ -284,7 +284,7 @@ Poți salva programul tău în proiectul Mission Starter introducând numele ech
 title: Exemplu de cod completat
 ---
 
-![O grilă cu 8 x 8 pătrate care arată un crocodil.](images/croc.png)
+![O grilă cu 8 x 8 pătrate care arată un pește.](images/fish.png)
 
 --- code ---
 ---
@@ -306,24 +306,24 @@ sense.color.integration_cycles = 64 # Intervalul la care va avea loc citirea
 
 # Adaugă variabile de culoare și imagine
 
-a = (255, 255, 255) # Alb
+z = (153, 50, 204) # OrhideeÎntunecată
+q = (255, 255, 0) # Galben
+d = (51, 153, 255) # Albastru
 c = (0, 0, 0) # Negru
-f = (25, 25, 112) # Bleumarin
-m = (34, 139, 34) # Verde pădure
 
 for i in range(28):
   rgb = sense.color # obține culoarea de la senzor
   c = (rgb.red, rgb.green, rgb.blue)
 
   imagine = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Afișează imaginea

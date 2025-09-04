@@ -2,7 +2,7 @@
 
 I det här steget kommer du att ställa in färgljussensorn och använda den för att känna av mängden rött, grönt och blått som når sensorn. Denna färg kommer sedan att användas för att färglägga din valda bild. En astronaut som går upp till sensorn i en blå skjorta skulle se en annan bild än en astronaut i en röd skjorta.
 
-![bild visas med en rosa bakgrund på LED-matrisen](images/colour_background.png)
+![En bild visas med en rosa bakgrund på LED-matrisen.](images/colour_background.png)
 
 Vilken bild du än väljer använder bakgrunden variabeln `c` som är inställd på svart.
 
@@ -24,23 +24,23 @@ line_highlights: 9, 10
 ---
 # Lägg till färgvariabler och bild
 
-a = (255, 255, 255) # Vit
+z = (153, 50, 204) # Mörkorkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnattsblå
-m = (34, 139, 34) # Skogsgrön
 
 rgb = sense.color # hämta färgen från sensorn
 c = (rgb.red, rgb.green, rgb.blue) # använd den avkända färgen
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
 
 --- /code ---
@@ -68,7 +68,7 @@ Din kod kommer att använda en `for` loop för att köra 28 gånger. **Varje** g
 
 **Hitta** din `rgb = sense.color` kodrad.
 
-**Lägg till** kod ovanför den för att ställa in din `for` loop för `28` repetitioner.
+**Lägg till** kod ovanför den för att ställa in din `for` -loop för `28` repetitioner.
 
 --- code ---
 ---
@@ -84,14 +84,14 @@ rgb = sense.color # hämta färgen från sensorn
 c = (rgb.red, rgb.green, rgb.blue)
 
 bild = [
-  m, m, m, m, m, c, c, c,
-  m, f, m, f, m, m, m, m,
-  m, m, m, m, m, m, m, m,
-  m, m, c, a, c, c, c, a,
-  m, m, c, c, c ,c ,c ,c,
-  m, m, c, c, c, a, c, c,
-  m, m, m, m, m, m, m, m,
-  m, m, m, m, m, m, m, m]
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d]
 
   
 --- /code ---
@@ -110,7 +110,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
 
 for i in range(28):
@@ -118,14 +118,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
     
   # Visa bilden
@@ -270,7 +270,7 @@ sense.clear(x)
 
 Du kan spara ditt program i Mission Starter-projektet genom att ange ditt teamnamn, teammedlemmarnas namn och klassrumskoden du fått. Du kan ladda om ditt program på vilken enhet som helst med en internetanslutning genom att ange ditt teamnamn och klassrumskod.
 
-![Mission Zero Spara skärmgrepp](images/savebutton_se.png)
+![Mission Zero Spara skärmgrepp.](images/savebutton_se.png)
 
 --- /task ---
 
@@ -283,7 +283,7 @@ Du kan spara ditt program i Mission Starter-projektet genom att ange ditt teamna
 title: Färdigt kodexempel
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en krokodill.](images/croc.png)
+![Ett rutnät med 8 x 8 rutor som visar en fisk.](images/fish.png)
 
 --- code ---
 ---
@@ -305,24 +305,24 @@ sense.color.integration_cycles = 64 # Intervallet med vilket avläsningen kommer
 
 # Lägg till färgvariabler och bild
 
-a = (255, 255, 255) # Vit
+z = (153, 50, 204) # Mörkorkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
 c = (0, 0, 0) # Svart
-f = (25, 25, 112) # Midnattsblå
-m = (34, 139, 34) # Skogsgrön
 
 for i in range(28):
   rgb = sense.color # hämta färgen från sensorn
   c = (rgb.red, rgb.green, rgb.blue)
 
   bild = [
-    m, m, m, m, m, c, c, c,
-    m, f, m, f, m, m, m, m,
-    m, m, m, m, m, m, m, m,
-    m, m, c, a, c, c, c, a,
-    m, m, c, c, c ,c ,c ,c,
-    m, m, c, c, c, a, c, c,
-    m, m, m, m, m, m, m, m,
-    m, m, m, m, m, m, m, m]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
 
   # Visa bilden
