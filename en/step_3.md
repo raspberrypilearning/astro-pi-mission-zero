@@ -56,6 +56,8 @@ The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different 
 
 --- task ---
 
+You can either choose one of the example images below or create your own original design. Feel free to draw anything you like - such as an animal, plant, or imaginary creature - as long as it follows the Mission Zero guidelines.
+
 **Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.  
 
 You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`. 
