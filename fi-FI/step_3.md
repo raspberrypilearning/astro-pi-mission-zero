@@ -30,7 +30,7 @@ from time import sleep
 
 # Määritä Sense HAT
 sense = SenseHat()
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Määritä värianturi
 sense.color.gain = 60 # Määritä anturin herkkyys
