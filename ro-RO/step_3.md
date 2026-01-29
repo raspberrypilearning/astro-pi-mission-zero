@@ -30,7 +30,7 @@ from time import sleep
 
 # Configurează Sense HAT
 sense = SenseHat()
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Configurează senzorul de culoare
 sense.color.gain = 60 # Setează sensibilitatea senzorului
