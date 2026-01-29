@@ -30,7 +30,7 @@ from time import sleep
 
 # Ρύθμιση του Sense HAT
 sense = SenseHat() 
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Ρύθμιση του αισθητήρα χρωμάτων
 sense.color.gain = 60 # Ρύθμιση της ευαισθησίας του αισθητήρα
