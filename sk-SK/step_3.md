@@ -30,7 +30,7 @@ from time import sleep
 
 # Nastavte Sense HAT
 sense = SenseHat() 
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Nastavte snímač farieb
 sense.color.gain = 60 # Nastavte citlivosť snímača 
