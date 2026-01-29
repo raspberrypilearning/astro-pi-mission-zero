@@ -30,7 +30,7 @@ from time import sleep
 
 # Set up the Sense HAT
 sense = SenseHat()
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Set up the colour sensor
 sense.color.gain = 60 # Set the sensitivity of the sensor
