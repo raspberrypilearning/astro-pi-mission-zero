@@ -30,7 +30,7 @@ from time import sleep
 
 # Ställ in Sense HAT
 sense = SenseHat() 
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Ställ in färgsensorn
 sense.color.gain = 60 # Ställ in sensorns känslighet 
