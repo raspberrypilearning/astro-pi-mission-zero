@@ -25,23 +25,23 @@ line_highlights: 9, 10
 
 # Add colour variables and image
 
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+a, g, a, g, a, a, a, a,
+a, a, g, a, a, f, f, f,
+a, f, f, f, a, a, f, a,
+f, f, c, f, f, a, f, a,
+f, f, f, f, f, a, f, a,
+g, f, f, f, f, f, f, a,
+g, g, g, g, g, g, a, a,
+a, g, g, g, g, a, a, a]
 
 
 --- /code ---
@@ -85,14 +85,14 @@ rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+a, g, a, g, a, a, a, a,
+a, a, g, a, a, f, f, f,
+a, f, f, f, a, a, f, a,
+f, f, c, f, f, a, f, a,
+f, f, f, f, f, a, f, a,
+g, f, f, f, f, f, f, a,
+g, g, g, g, g, g, a, a,
+a, g, g, g, g, a, a, a]
 
   
 --- /code ---
@@ -119,14 +119,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+      a, g, a, g, a, a, a, a,
+      a, a, g, a, a, f, f, f,
+      a, f, f, f, a, a, f, a,
+      f, f, c, f, f, a, f, a,
+      f, f, f, f, f, a, f, a,
+      g, f, f, f, f, f, f, a,
+      g, g, g, g, g, g, a, a,
+      a, g, g, g, g, a, a, a]
 
     
   # Display the image
