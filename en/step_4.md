@@ -321,7 +321,7 @@ You can save your program on the Mission Starter project by entering your team n
 title: Completed code example
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
 --- code ---
 ---
