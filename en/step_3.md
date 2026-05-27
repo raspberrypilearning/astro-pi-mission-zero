@@ -143,14 +143,14 @@ k = (46, 139, 33)   # Leaf Green
 t = (255, 255, 0)   # Pure Yellow
 
 image = [
-a, a, a, k, k, a, a, a,
-a, a, k, a, k, a, a, a,
-a, k, a, t, t, a, a, a,
-a, a, t, t, t, t, a, a,
-a, a, t, t, t, t, a, a,
-a, a, t, t, t, t, a, a,
-a, a, t, t, t, t, a, a,
-a, a, a, t, t, a, a, a,]
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c,]
 
 ```
 
@@ -173,14 +173,14 @@ o = (179, 96, 65)   # Terracotta Brown
 c = (0, 0, 0)       # Black
 
 image = [
-a, a, u, a, a, u, a, a,
-a, u, u, u, u, u, u, a,
-a, u, c, u, c, u, u, u,
-v, v, v, v, v, u, u, u,
-v, o, v, o, v, u, u, u,
-v, v, v, v, v, u, u, u,
-a, u, u, u, u, u, u, u,
-a, a, u, a, a, a, u, a]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
