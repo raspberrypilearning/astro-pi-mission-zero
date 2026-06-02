@@ -150,11 +150,59 @@ Save your progress
 You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
 
 --- /task ---
+--- collapse ---
+
+title: Completed code example
+
+--- code ---
+language: python
+filename: main.py
+line_numbers: false
+Import the libraries
+from sense_hat import SenseHat
+from time import sleep
+
+Set up the Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+
+Add colour variables and image
+a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue)
+
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+Display the image
+sense.set_pixels(image)
+sleep(1)
+
+--- /code ---
+
+--- /collapse ---
 
 --- collapse ---
 
 title: Completed code example (with Animation)
+
 --- code ---
+
 language: python
 filename: main.py
 line_numbers: false
@@ -202,13 +250,13 @@ c, g, g, g, g, c, c, c]
 Loop 14 times (14 * 2 seconds = 28 seconds total animation)
 for i in range(14):
 
-Display the first image
-sense.set_pixels(image)
-sleep(1)
-
-Display the second image
-sense.set_pixels(image1)
-sleep(1)
+  Display the first image
+  sense.set_pixels(image)
+  sleep(1)
+  
+  Display the second image
+  sense.set_pixels(image1)
+  sleep(1)
 
 --- /code ---
 
