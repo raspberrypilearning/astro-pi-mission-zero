@@ -4,8 +4,6 @@ In this step, you will set up the colour luminosity sensor and use it to sense t
 
 ![An image displayed with a pink background on the LED matrix.](images/colour_background.png)
 
-Whichever image you chose, the background uses the `c` variable, which is set to black. 
-
 --- task ---
 
 Use the colour sensor to colour your background.
@@ -34,14 +32,14 @@ rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
-a, g, a, g, a, a, a, a,
-a, a, g, a, a, f, f, f,
-a, f, f, f, a, a, f, a,
-f, f, c, f, f, a, f, a,
-f, f, f, f, f, a, f, a,
-g, f, f, f, f, f, f, a,
-g, g, g, g, g, g, a, a,
-a, g, g, g, g, a, a, a]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 
 --- /code ---
@@ -85,14 +83,14 @@ rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 image = [
-a, g, a, g, a, a, a, a,
-a, a, g, a, a, f, f, f,
-a, f, f, f, a, a, f, a,
-f, f, c, f, f, a, f, a,
-f, f, f, f, f, a, f, a,
-g, f, f, f, f, f, f, a,
-g, g, g, g, g, g, a, a,
-a, g, g, g, g, a, a, a]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
   
 --- /code ---
@@ -119,14 +117,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-      a, g, a, g, a, a, a, a,
-      a, a, g, a, a, f, f, f,
-      a, f, f, f, a, a, f, a,
-      f, f, c, f, f, a, f, a,
-      f, f, f, f, f, a, f, a,
-      g, f, f, f, f, f, f, a,
-      g, g, g, g, g, g, a, a,
-      a, g, g, g, g, a, a, a]
+      c, g, c, g, c, c, c, c,
+      c, c, g, c, c, f, f, f,
+      c, f, f, f, c, c, f, c,
+      f, f, c, f, f, c, f, c,
+      f, f, f, f, f, c, f, c,
+      g, f, f, f, f, f, f, c,
+      g, g, g, g, g, g, c, c,
+      c, g, g, g, g, c, c, c]
 
     
   # Display the image
@@ -353,14 +351,14 @@ for i in range(28):
   c = (rgb.red, rgb.green, rgb.blue)
 
   image = [
-      a, g, a, g, a, a, a, a,
-      a, a, g, a, a, f, f, f,
-      a, f, f, f, a, a, f, a,
-      f, f, c, f, f, a, f, a,
-      f, f, f, f, f, a, f, a,
-      g, f, f, f, f, f, f, a,
-      g, g, g, g, g, g, a, a,
-      a, g, g, g, g, a, a, a]
+      c, g, c, g, c, c, c, c,
+      c, c, g, c, c, f, f, f,
+      c, f, f, f, c, c, f, c,
+      f, f, c, f, f, c, f, c,
+      f, f, f, f, f, c, f, c,
+      g, f, f, f, f, f, f, c,
+      g, g, g, g, g, g, c, c,
+      c, g, g, g, g, c, c, c]
 
 
 
