@@ -18,7 +18,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 8, 9, 21
+line_highlights: 8, 9,
 ---
 # Add colour variables and image
 
@@ -77,9 +77,21 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 13
 ---
+image = [
+  d, d, z, d, d, d, d, d,
+  d, d, d, z, z, d, d, d,
+  z, d, q, q, q, q, d, d,
+  z, z, q, q, q, c, q, d,
+  z, z, z, q, q, q, q, d,
+  z, z, q, q, q, q, q, d,
+  z, d, q, z, z, q, d, d,
+  d, d, d, z, d, d, d, d
+]
+
 sense.set_pixels(image)
 
 # Extra images / frames go here:
+
 image2 = [
   d, d, d, z, d, d, d, d,
   d, d, d, d, z, z, d, d,
