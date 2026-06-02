@@ -4,7 +4,7 @@ In this step, you will set up the colour luminosity sensor and use it to sense t
 
 ![An image displayed with a pink background on the LED matrix.](images/colour_background.png)
 
---- task ---
+---task---
 
 Use the colour sensor to colour your background.
 
@@ -12,7 +12,7 @@ Add code before your image list to get the colour from the sensor and change you
 
 **Tip:** You don't need to type the comments that start with '#' (they are there to explain the code). 
 
---- code ---
+---code---
 ---
 language: python
 filename: main.py
@@ -41,17 +41,17 @@ g, f, f, f, f, f, f, c,
 g, g, g, g, g, g, c, c,
 c, g, g, g, g, c, c, c]
 
---- /code ---
+---/code---
 
---- /task ---
+---/task---
 
---- task ---
+---task---
 
 **Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
 
 **Tip:** You will need to click 'Run' every time you change the colour.
 
---- /task ---
+---/task---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Now you have sensed a colour and used it in your program, and your code is ready for submission! You can save and submit your program using the form at the bottom of the code editor.
@@ -65,11 +65,11 @@ The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You ca
 
 Your code will use a `for` loop to run 14 times. Because each loop takes 2 seconds (1 second per image), running it 14 times means your animation lasts exactly 28 seconds—perfectly under the 30-second limit!
 
---- task ---
+---task---
 
 **Add** a second image right below your first one. Give it the variable name `image1` and change a few pixels to make it look slightly different for your animation.
 
---- code ---
+---code---
 ---
 language: python
 filename: main.py
@@ -98,17 +98,17 @@ g, f, f, f, f, f, f, c,
 g, g, g, g, g, g, c, c,
 c, g, g, g, g, c, c, c]
 
---- /code ---
+---/code---
 
---- /task ---
+---/task---
 
---- task ---
+---task---
 
 At the bottom of your code, set up your `for` loop to repeat `14` times and add the code to display your animation frame by frame.
 
 **Tip:** Make sure the lines of code underneath `for i in range(14):` are indented so they sit **inside** the loop.
 
---- code ---
+---code---
 ---
 language: python
 filename: main.py
@@ -127,11 +127,11 @@ for i in range(14):
   sense.set_pixels(image1)
   sleep(1)
   
---- /code ---
+---/code---
 
---- /task ---
+---/task---
 
---- task ---
+---task---
 
 Debug My code has a syntax error or doesn't run as expected:
 
@@ -141,20 +141,22 @@ Check that both image and image1 lists are surrounded by [ and ].
 
 Check that your sleep times are set to exactly 1 second so it doesn't overrun the 30-second limit.
 
---- /task ---
+---/task --
 
---- task ---
+---task---
 
 Save your progress
 
 You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
 
---- /task ---
---- collapse ---
+---/task---
+
+---collapse---
 
 title: Completed code example
 
---- code ---
+---code---
+
 language: python
 filename: main.py
 line_numbers: false
@@ -193,15 +195,15 @@ Display the image
 sense.set_pixels(image)
 sleep(1)
 
---- /code ---
+---/code---
 
---- /collapse ---
+---/collapse---
 
---- collapse ---
+---collapse---
 
 title: Completed code example (with Animation)
 
---- code ---
+---code---
 
 language: python
 filename: main.py
@@ -258,8 +260,8 @@ for i in range(14):
   sense.set_pixels(image1)
   sleep(1)
 
---- /code ---
+---/code---
 
---- /collapse ---
+---/collapse---
 
---- /task ---
+---/task---
