@@ -95,8 +95,8 @@ sense.set_pixels(image)
 image2 = [
 c, c, c, c, c, c, c, c,
 c, c, c, c, c, f, f, f,
-c, f, f, f, c, f, f, c,
-f, f, c, f, f, f, f, c,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
 f, f, f, f, f, c, f, c,
 g, f, f, f, f, f, f, c,
 g, g, g, g, g, g, c, c,
@@ -124,8 +124,8 @@ line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 image2 = [
 c, c, c, c, c, c, c, c,
 c, c, c, c, c, f, f, f,
-c, f, f, f, c, f, f, c,
-f, f, c, f, f, f, f, c,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
 f, f, f, f, f, c, f, c,
 g, f, f, f, f, f, f, c,
 g, g, g, g, g, g, c, c,
@@ -153,6 +153,9 @@ for i in range(14):
 --- /task ---
 
 --- task ---
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 9 images that each display for 1 second, you must change your `for` loop to repeat 3 times (9 * 3 = 27 seconds)
+</p>
 
 **Debug**
 
@@ -224,8 +227,8 @@ sense.set_pixels(image)
 image2 = [
 c, c, c, c, c, c, c, c,
 c, c, c, c, c, f, f, f,
-c, f, f, f, c, f, f, c,
-f, f, c, f, f, f, f, c,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
 f, f, f, f, f, c, f, c,
 g, f, f, f, f, f, f, c,
 g, g, g, g, g, g, c, c,
