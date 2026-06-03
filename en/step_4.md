@@ -18,13 +18,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 8, 9, 10
+line_highlights: 9, 10, 11
 ---
 # Add colour variables and image
 
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
+a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
 # Sense a colour
 rgb = sense.color # get the colour from the sensor
@@ -75,7 +76,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
 image = [
 c, g, c, g, c, c, c, c,
@@ -118,7 +119,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 13, 14, 15, 16, 17, 18, 19, 20, 21
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
 image2 = [
 c, c, c, c, c, c, c, c,
@@ -196,9 +197,10 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 # Add colour variables and image
 
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
+a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
 # Sense a colour
 rgb = sense.color # get the colour from the sensor
