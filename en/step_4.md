@@ -2,7 +2,7 @@
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
 
-Whichever image you chose, the background uses the `c` variable, which is set to black.
+This tutorial uses the `c` variable, which is set to black, as the colour chosen to change to the whatever the colour sensor senses.
 
 --- task ---
 
@@ -151,11 +151,11 @@ for i in range(14):
 
 --- /task ---
 
---- task ---
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 9 images that each display for 1 second, you must change your `for` loop to repeat 3 times (9 * 3 = 27 seconds)
 </p>
 
+--- task ---
 **Debug**
 
 My code has a syntax error or doesn't change frames:
