@@ -8,7 +8,7 @@ Whichever image you chose, the background uses the `c` variable, which is set to
 
 Use the colour sensor to colour your background.
 
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Add this code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
 
 **Tip:** You don't need to type the comments that start with '#' (they are there to explain the code). 
 
@@ -18,7 +18,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 8, 9,
+line_highlights: 8, 9, 10
 ---
 # Add colour variables and image
 
@@ -26,19 +26,19 @@ z = (153, 50, 204) # DarkOrchid
 q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
 
+# Sense a colour
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
 image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d
-]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 sense.set_pixels(image)
 --- /code ---
@@ -56,18 +56,18 @@ sense.set_pixels(image)
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Now you have sensed a colour and used it in your program, and your code is ready for submission! You can save and submit your program using the form at the bottom of the code editor.
   
-However, you may wish to add more images to your project, or make it come to life with animation!
+However, you may wish to add more images to your project, or make it come to life with animation.
 </p>
 
 ## Animate your project (Optional)
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You can use this time to create a moving animation on your LED matrix by switching back and forth between two different images!
+The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You can use this time to create a moving animation on your LED matrix by switching back and forth between two different images.
 
-Your code will use a `for` loop to run 14 times. Because each loop takes 2 seconds (1 second per image frame), running it 14 times keeps your animation safely under the 30-second limit.
+The following code will use a `for` loop to run 14 times. Because each loop takes 2 seconds (1 second per image frame), running it 14 times keeps your animation safely under the 30-second limit.
 
 --- task ---
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and shift a few pixels over to make your animation frame look different. Then add a short pause after it.
+**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
 
 --- code ---
 ---
@@ -75,33 +75,31 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 13
+line_highlights: 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 
 ---
 image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d
-]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 sense.set_pixels(image)
 
 # Extra images / frames go here:
 
 image2 = [
-  d, d, d, z, d, d, d, d,
-  d, d, d, d, z, z, d, d,
-  d, z, d, q, q, q, q, d,
-  d, z, z, q, q, q, c, q,
-  d, z, z, z, q, q, q, q,
-  d, z, z, q, q, q, q, q,
-  d, z, d, q, z, z, q, d,
-  d, d, d, d, z, d, d, d
-]
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, f, f, c,
+f, f, c, f, f, f, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 sleep(1)
 --- /code ---
@@ -120,8 +118,20 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2, 4, 5, 7, 8
+line_highlights: 13, 14, 15, 16, 17, 18, 19, 20, 21
 ---
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, f, f, c,
+f, f, c, f, f, f, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sleep(1)
+
 # Loop 14 times (14 * 2 seconds = 28 seconds total animation)
 for i in range(14):
   # Display the second image
@@ -190,19 +200,19 @@ z = (153, 50, 204) # DarkOrchid
 q = (255, 255, 0) # Yellow
 d = (51, 153, 255) # blue
 
+# Sense a colour
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue)
 
 image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d
-]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 sense.set_pixels(image)
 
@@ -210,15 +220,14 @@ sense.set_pixels(image)
 
 # Extra images / frames go here:
 image2 = [
-  d, d, d, z, d, d, d, d,
-  d, d, d, d, z, z, d, d,
-  d, z, d, q, q, q, q, d,
-  d, z, z, q, q, q, c, q,
-  d, z, z, z, q, q, q, q,
-  d, z, z, q, q, q, q, q,
-  d, z, d, q, z, z, q, d,
-  d, d, d, d, z, d, d, d
-]
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, f, f, c,
+f, f, c, f, f, f, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 sleep(1)
 
