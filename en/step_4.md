@@ -18,10 +18,9 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9, 10, 11
+line_highlights: 8, 9, 10,
 ---
 # Add colour variables and image
-
 a = (255, 255, 255) # White
 c = (0, 0, 0)       # Black
 f = (36, 128, 200)  # Ocean Blue
@@ -199,7 +198,6 @@ sense.color.gain = 60 # Set the sensitivity of the sensor
 sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 # Add colour variables and image
-
 a = (255, 255, 255) # White
 c = (0, 0, 0)       # Black
 f = (36, 128, 200)  # Ocean Blue
