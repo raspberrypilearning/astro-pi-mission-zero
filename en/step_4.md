@@ -2,7 +2,7 @@
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
 
-This tutorial uses the `c` variable, which is set to black, as the colour chosen to change to the whatever the colour sensor senses.
+This tutorial uses the variable c (initially set to black) to store the color detected by the color sensor.
 
 --- task ---
 
