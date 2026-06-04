@@ -241,8 +241,19 @@ for i in range(14):
   sense.set_pixels(image)
   sleep(1)
 --- /code ---
+
 --- /collapse ---
 --- collapse ---
+---
+title: Completed Storm code example (with Animation)
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
 # Import the libraries
 from sense_hat import SenseHat
 from time import sleep
