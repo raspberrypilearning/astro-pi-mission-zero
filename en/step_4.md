@@ -241,8 +241,8 @@ for i in range(14):
   sense.set_pixels(image)
   sleep(1)
 --- /code ---
-
 --- /collapse ---
+
 --- collapse ---
 ---
 title: Completed Storm code example (with Animation)
@@ -271,8 +271,10 @@ f = (36, 128, 200)  # Ocean Blue
 g = (0, 204, 255)   # Sky Blue
 t = (255, 255, 0)   # Pure Yellow
 
+# Sense a colour
 rgb = sense.color # get the colour from the sensor
 t = (rgb.red, rgb.green, rgb.blue)
+
 image = [
 c, c, c, c, c, c, c, c,
 c, c, f, f, f, f, c, c,
@@ -355,5 +357,6 @@ for i in range(15):
   sleep(0.3)
   sense.set_pixels(image5)
   sleep(0.3)
+--- /code ---
 --- /collapse ---
 --- /task ---
