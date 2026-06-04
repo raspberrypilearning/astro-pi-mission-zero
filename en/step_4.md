@@ -6,9 +6,9 @@ This tutorial uses the variable c (initially set to black) to store the color de
 
 --- task ---
 
-Use the colour sensor to colour your background.
+Use the colour sensor to change one of your colours.
 
-Add this code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
+Add this code before your image list to get the colour from the sensor and change your `c` variable to use the colour sensed by the Sense HAT colour sensor instead of black.
 
 **Tip:** You don't need to type the comments that start with '#' (they are there to explain the code). 
 
@@ -54,16 +54,14 @@ sense.set_pixels(image)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have sensed a colour and used it in your program, and your code is ready for submission! You can save and submit your program using the form at the bottom of the code editor.
+Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! You can save and submit your program using the form at the bottom of the code editor.
   
 However, you may wish to add more images to your project, or make it come to life with animation.
 </p>
 
 ## Animate your project (Optional)
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You can use this time to create a moving animation on your LED matrix by switching back and forth between two different images.
-
-The following code will use a `for` loop to run 14 times. Because each loop takes 2 seconds (1 second per image frame), running it 14 times keeps your animation safely under the 30-second limit.
+The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You can use this time to create an animation on your LED matrix by switching back and forth between two different images.
 
 --- task ---
 
@@ -101,16 +99,15 @@ g, f, f, f, f, f, f, c,
 g, g, g, g, g, g, c, c,
 c, g, g, g, g, c, c, c]
 
-sleep(1)
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image2` and `image`.
+At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with spaces so they sit **inside** the loop block.
+**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
 
 --- code ---
 ---
@@ -147,16 +144,16 @@ for i in range(14):
 
 --- task ---
 
-**Test:** Run your code again. Your program will light up with your sensed color instantly, and then loop smoothly back and forth for an animated display!
+**Test:** Run your code again. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 9 images that each display for 1 second, you must change your `for` loop to repeat 3 times (9 * 3 = 27 seconds)
+If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
 </p>
 
 --- task ---
-**Debug**
+**Check for errors**
 
 My code has a syntax error or doesn't change frames:
 - Check that your `for` loop code matches the indentation in the example.
@@ -176,7 +173,7 @@ You can save your program on the Mission Starter project by entering your team n
 --- task ---
 --- collapse ---
 ---
-title: Completed code example (with Animation)
+title: Completed Whale code example (with Animation)
 ---
 
 --- code ---
@@ -244,5 +241,108 @@ for i in range(14):
   sense.set_pixels(image)
   sleep(1)
 --- /code ---
+--- /collapse ---
+--- collapse ---
+# Import the libraries
+from sense_hat import SenseHat
+from time import sleep
+
+# Set up the Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+t = (255, 255, 0)   # Pure Yellow
+
+rgb = sense.color # get the colour from the sensor
+t = (rgb.red, rgb.green, rgb.blue)
+image = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, c, c, c, c,
+c, c, c, c, c, g, c, c,
+c, c, c, c, c, c, c, c,
+c, c, g, c, c, c, c, c,
+c, g, c, c, c, c, c, c]
+
+sense.set_pixels(image)
+
+# BASIC SUBMISSION is done by now
+
+# Extra images / frames go here:
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, c, c, c, c, c, c, c,
+c, g, c, g, c, c, c, c,
+c, c, c, c, c, g, c, c,
+c, c, c, c, c, c, c, c,
+c, c, g, c, c, c, c, c]
+
+image3 = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, c, g, c, c, c, c, c,
+c, c, c, c, c, c, c, c,
+c, g, c, g, c, c, c, c,
+c, c, c, c, c, g, c, c,
+c, c, c, c, c, c, c, c]
+
+image3l = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, c, g, c, t, c, c, c,
+c, c, c, t, t, c, c, c,
+c, g, t, t, c, c, c, c,
+c, c, t, c, c, g, c, c,
+c, c, c, c, c, c, c, c]
+
+image4 = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, c, c, c, c, c, c, c,
+c, c, g, c, c, c, c, c,
+c, c, c, c, c, c, c, c,
+c, g, c, g, c, c, c, c,
+c, c, c, c, c, g, c, c]
+
+image5 = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, c, c, c, c, g, c, c,
+c, c, c, c, c, c, c, c,
+c, c, g, c, c, c, c, c,
+c, c, c, c, c, c, c, c,
+c, g, c, g, c, c, c, c]
+
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(15):
+  # Display the second image
+  sense.set_pixels(image)
+  sleep(0.3)
+
+  # Display the first image
+  sense.set_pixels(image2)
+  sleep(0.3)
+  sense.set_pixels(image3)
+  sleep(0.3)
+  sense.set_pixels(image3l)
+  sleep(0.2)
+  sense.set_pixels(image4)
+  sleep(0.3)
+  sense.set_pixels(image5)
+  sleep(0.3)
 --- /collapse ---
 --- /task ---
