@@ -6,7 +6,7 @@ Here is an example of the kind of program you could make to run on an Astro Pi i
 
 ![The Sense HAT emulator running a sample program with a snake where the background colour changes to the colour sensed.](images/finished.gif)
 
-[Click here to see a mozaic made up from real examples made by last year's teams.](https://mz-25-26-mozaic.astro-pi.org/){:target="_blank"}**
+[Click here to see a mozaic made up from real examples made by last year's teams.](https://mz-25-26-mozaic.astro-pi.org/){:target="_blank"}
 
 ### You will need
 
