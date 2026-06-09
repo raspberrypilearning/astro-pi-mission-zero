@@ -2,7 +2,7 @@
 
 In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
 
-This tutorial uses the variable c (initially set to black) to store the color detected by the color sensor.
+This tutorial uses the variable `c` (initially set to black) to store the color detected by the color sensor.
 
 --- task ---
 
@@ -173,6 +173,52 @@ You can save your program on the Mission Starter project by entering your team n
 --- task ---
 --- collapse ---
 ---
+title: Completed Whale code example
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Import the libraries
+from sense_hat import SenseHat
+from time import sleep
+
+# Set up the Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+
+# Add colour variables and image
+a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+
+# Sense a colour
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue)
+
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(image)
+--- /code ---
+--- /collapse ---
+--- collapse ---
+---
 title: Completed Whale code example (with Animation)
 ---
 
@@ -240,123 +286,6 @@ for i in range(14):
   # Display the first image
   sense.set_pixels(image)
   sleep(1)
---- /code ---
---- /collapse ---
-
---- collapse ---
----
-title: Completed Storm code example (with Animation)
----
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
----
-# Import the libraries
-from sense_hat import SenseHat
-from time import sleep
-
-# Set up the Sense HAT
-sense = SenseHat()
-sense.set_rotation(270)
-
-# Set up the colour sensor
-sense.color.gain = 60 # Set the sensitivity of the sensor
-sense.color.integration_cycles = 64 # The interval at which the reading will be taken
-
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-t = (255, 255, 0)   # Pure Yellow
-
-# Sense a colour
-rgb = sense.color # get the colour from the sensor
-t = (rgb.red, rgb.green, rgb.blue)
-
-image = [
-c, c, c, c, c, c, c, c,
-c, c, f, f, f, f, c, c,
-c, f, f, f, f, f, f, c,
-c, g, c, g, c, c, c, c,
-c, c, c, c, c, g, c, c,
-c, c, c, c, c, c, c, c,
-c, c, g, c, c, c, c, c,
-c, g, c, c, c, c, c, c]
-
-sense.set_pixels(image)
-
-# BASIC SUBMISSION is done by now
-
-# Extra images / frames go here:
-image2 = [
-c, c, c, c, c, c, c, c,
-c, c, f, f, f, f, c, c,
-c, f, f, f, f, f, f, c,
-c, c, c, c, c, c, c, c,
-c, g, c, g, c, c, c, c,
-c, c, c, c, c, g, c, c,
-c, c, c, c, c, c, c, c,
-c, c, g, c, c, c, c, c]
-
-image3 = [
-c, c, c, c, c, c, c, c,
-c, c, f, f, f, f, c, c,
-c, f, f, f, f, f, f, c,
-c, c, g, c, c, c, c, c,
-c, c, c, c, c, c, c, c,
-c, g, c, g, c, c, c, c,
-c, c, c, c, c, g, c, c,
-c, c, c, c, c, c, c, c]
-
-image3l = [
-c, c, c, c, c, c, c, c,
-c, c, f, f, f, f, c, c,
-c, f, f, f, f, f, f, c,
-c, c, g, c, t, c, c, c,
-c, c, c, t, t, c, c, c,
-c, g, t, t, c, c, c, c,
-c, c, t, c, c, g, c, c,
-c, c, c, c, c, c, c, c]
-
-image4 = [
-c, c, c, c, c, c, c, c,
-c, c, f, f, f, f, c, c,
-c, f, f, f, f, f, f, c,
-c, c, c, c, c, c, c, c,
-c, c, g, c, c, c, c, c,
-c, c, c, c, c, c, c, c,
-c, g, c, g, c, c, c, c,
-c, c, c, c, c, g, c, c]
-
-image5 = [
-c, c, c, c, c, c, c, c,
-c, c, f, f, f, f, c, c,
-c, f, f, f, f, f, f, c,
-c, c, c, c, c, g, c, c,
-c, c, c, c, c, c, c, c,
-c, c, g, c, c, c, c, c,
-c, c, c, c, c, c, c, c,
-c, g, c, g, c, c, c, c]
-
-# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
-for i in range(15):
-  # Display the second image
-  sense.set_pixels(image)
-  sleep(0.3)
-
-  # Display the first image
-  sense.set_pixels(image2)
-  sleep(0.3)
-  sense.set_pixels(image3)
-  sleep(0.3)
-  sense.set_pixels(image3l)
-  sleep(0.2)
-  sense.set_pixels(image4)
-  sleep(0.3)
-  sense.set_pixels(image5)
-  sleep(0.3)
 --- /code ---
 --- /collapse ---
 --- /task ---
