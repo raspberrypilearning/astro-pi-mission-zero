@@ -1,25 +1,24 @@
 ## You will make
 
-You will create an image and use a sensor to change one of the colours. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
+
++ Design and display a pixel art image on an Astro Pi computer
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
++ Create a simple animation
 
 Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
 ![The Sense HAT emulator running a sample program with a snake where the background colour changes to the colour sensed.](images/finished.gif)
 
-[Click here to see a mozaic made up from real examples made by last year's teams.](https://mz-25-26-mozaic.astro-pi.org/){:target="_blank"}
-
 ### You will need
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Astro Pi Mission Zero criteria
  
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
-
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Design and display a pixel art image on the Sense HAT
-+ Create **variables** to represent colours in your image
-+ Sense the colour of light on board the ISS 
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}** will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
