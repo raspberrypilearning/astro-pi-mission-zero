@@ -1,16 +1,22 @@
 ## Sense a colour
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
+In this step, you will set up the colour and brightness sensor and use it to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
 
-This tutorial uses the variable `c` (initially set to black) to store the color detected by the color sensor.
+This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+
+In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+
+--- code ---
+---
+c = (0, 0, 0)
+--- /code ---
+
 
 --- task ---
 
 Use the colour sensor to change one of your colours.
 
-Add this code before your image list to get the colour from the sensor and change your `c` variable to use the colour sensed by the Sense HAT colour sensor instead of black.
-
-**Tip:** You don't need to type the comments that start with '#' (they are there to explain the code). 
+Underneath the lines where you define the colours, add the following code:
 
 --- code ---
 ---
@@ -18,32 +24,17 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 8, 9, 10,
+line_highlights: 2, 3
 ---
-# Add colour variables and image
-a = (255, 255, 255) # White
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-
 # Sense a colour
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
-
-image = [
-c, g, c, g, c, c, c, c,
-c, c, g, c, c, f, f, f,
-c, f, f, f, c, c, f, c,
-f, f, c, f, f, c, f, c,
-f, f, f, f, f, c, f, c,
-g, f, f, f, f, f, f, c,
-g, g, g, g, g, g, c, c,
-c, g, g, g, g, c, c, c]
-
-sense.set_pixels(image)
 --- /code ---
-
 --- /task ---
+
+This code replaces the RGB values stored in c with the values for the colour detected by the sensor.
+
+Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
 
 --- task ---
 
@@ -54,16 +45,19 @@ sense.set_pixels(image)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! You can save and submit your program using the form at the bottom of the code editor.
+Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+
+You can save and submit your program using the form at the bottom of the code editor.
   
-However, you may wish to add more images to your project, or make it come to life with animation.
+However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
 </p>
 
 ## Animate your project (Optional)
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You can use this time to create an animation on your LED matrix by switching back and forth between two different images.
+Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
 --- task ---
+
 
 **Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
 
