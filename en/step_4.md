@@ -8,6 +8,11 @@ In the whale image we used in the previous step, the background colour was black
 
 --- code ---
 ---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+---
 c = (0, 0, 0)
 --- /code ---
 
