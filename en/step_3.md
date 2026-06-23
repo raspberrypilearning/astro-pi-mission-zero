@@ -53,9 +53,9 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
-![Three sliders demonstrating RGB colour values](rgbsliders.gif)
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue:
 
 --- collapse ---
 
