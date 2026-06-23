@@ -29,7 +29,7 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2, 3
+line_highlights: 3, 4
 ---
 # Sense a colour
 rgb = sense.color # get the colour from the sensor
