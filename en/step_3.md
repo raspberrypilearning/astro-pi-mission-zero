@@ -156,7 +156,7 @@ c, c, t, t, t, t, c, c,
 c, c, t, t, t, t, c, c,
 c, c, t, t, t, t, c, c,
 c, c, t, t, t, t, c, c,
-c, c, c, t, t, c, c, c,]
+c, c, c, t, t, c, c, c]
 
 ```
 
@@ -335,22 +335,21 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-a = (255, 255, 255) # White
 c = (0, 0, 0)       # Black
 f = (36, 128, 200)  # Ocean Blue
 g = (0, 204, 255)   # Sky Blue
 
 image = [
-a, g, a, g, a, a, a, a,
-a, a, g, a, a, f, f, f,
-a, f, f, f, a, a, f, a,
-f, f, c, f, f, a, f, a,
-f, f, f, f, f, a, f, a,
-g, f, f, f, f, f, f, a,
-g, g, g, g, g, g, a, a,
-a, g, g, g, g, a, a, a]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 # Display the image
 sense.set_pixels(image)
