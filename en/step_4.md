@@ -37,7 +37,7 @@ c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 --- /code ---
 --- /task ---
 
-This code replaces the RGB values stored in c with the values for the colour detected by the sensor.
+This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
 
 Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
 
