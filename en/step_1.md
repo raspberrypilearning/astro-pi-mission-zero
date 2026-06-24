@@ -18,7 +18,7 @@ You will write and test your program in a web browser such as Google Chrome. You
 
 ### Astro Pi Mission Zero criteria
  
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}** will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
