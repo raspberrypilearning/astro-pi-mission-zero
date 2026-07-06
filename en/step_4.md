@@ -1,6 +1,6 @@
 ## Sense a colour
 
-In this step, you will set up the colour and brightness sensor and use it to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
 
 This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
 
@@ -57,7 +57,7 @@ You can save and submit your program using the form at the bottom of the code ed
 However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
 </p>
 
-## Animate your project (Optional)
+## Animate your project (optional)
 
 Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
