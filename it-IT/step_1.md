@@ -1,6 +1,12 @@
 ## Quello che farai
 
-Il tuo progetto imposterà il colore di sfondo di un'immagine in base al colore rilevato da Astro Pi. Questo renderà la Stazione Spaziale Internazionale (ISS) più colorata per gli astronauti a bordo. Perchè ciò accada, il tuo codice utilizzerà il sensore di luminosità del colore sul Sense HAT del nuovo computer Mark II Astro Pi.
+Il tuo progetto imposterà il colore di sfondo di un'immagine in base al colore rilevato da Astro Pi. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
+
++ Design and display a pixel art image on an Astro Pi computer
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
++ Create a simple animation
 
 Ecco un esempio del tipo di programma che potresti eseguire su un Astro Pi nello spazio.
 
@@ -14,11 +20,6 @@ Utilizzerai l'emulatore Astro Pi in un browser web per creare il tuo programma. 
 
 **Se il tuo progetto soddisfa i [criteri di idoneità](https://astro-pi.org/it/mission-zero/eligibility){:target="_blank"}**, il tuo programma completato verrà eseguito sulla Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
 
-Imparerai cos'è l'unità AstroPi e come controllarla, compreso come:
-+ Creare **variabili** di colore da usare nella tua immagine
-+ Progettare e visualizzare un'immagine sul Sense HAT
-+ Misurare il colore della luce a bordo della ISS
-
 --- collapse ---
 ---
 title: Note per insegnanti e tutor
@@ -26,7 +27,7 @@ title: Note per insegnanti e tutor
 
 Mission Zero è adatto a novizi della programmazione e/o ai bambini in età scolare e può essere completato in un'unica sessione di 60 minuti su qualsiasi computer con accesso a Internet. Non sono necessari hardware speciali o abilità di programmazione preliminari. Tutto può essere svolto con un browser web.
 
-Organizza i tuoi partecipanti in squadre da uno a quattro e lascia che li guidiamo attraverso la scrittura di un breve programma Python per misurare il colore a bordo della ISS per creare un'immagine che utilizzi quel colore.
+ Misson Zero can be done individually or in teams of up to 4 people.
 
 Leggi le [le linee guida ufficiali](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} di Mission Zero.
 
