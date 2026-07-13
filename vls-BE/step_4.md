@@ -1,37 +1,36 @@
 ## Meet een kleur
 
-In deze stap zal je de kleurintensiteitssensor installeren en hem gebruiken om de hoeveeldheid rood, groen en blauw te meten die de sensor bereikt. Deze kleur zal dan gebruikt worden om je gekozen afbeelding in te kleuren. Een astronaut die naar de sensor toeloopt met een blauw T-shirt zal een andere afbeelding zien dan een astronaut in een rood T-shirt.
+In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
 
-![Een afbeelding met een roze achtergrond wordt getoond op de LED-matrix.](images/colour_background.png)
+This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
 
-Welke afbeelding je ook kiest, de achtergrond gebruikt de `c` variabele die ingesteld is op zwart.
+In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+
+--- code ---
+---
+Gebruik de kleursensor om je achtergrond te kleuren.
+line_highlights: 9, 10
+---
+Voeg code toe voor je afbeeldingslijst om de kleur van de sensor te ontvangen en verander je `c` achtergrondkleur om de kleur te gebruiken die gemeten wordt door de kleursensor van de Sense HAT in plaats van zwart.
+
 
 --- task ---
 
-Gebruik de kleursensor om je achtergrond te kleuren.
+Use the colour sensor to change one of your colours.
 
-Voeg code toe voor je afbeeldingslijst om de kleur van de sensor te ontvangen en verander je `c` achtergrondkleur om de kleur te gebruiken die gemeten wordt door de kleursensor van de Sense HAT in plaats van zwart.
-
-**Tip:** je hoeft geen opmerkingen te typen die beginnen met '#' (die staan er om de code uit te leggen).
+Underneath the lines where you define the colours, add the following code:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 9, 10
+Herhaal je programma
 ---
+# Voeg kleurvariabelen en beeld toe
+afbeelding = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Add colour variables and image
+This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
 
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
-
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
-
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
-
-
---- /code ---
-
---- /task ---
+Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
 
 --- task ---
 
@@ -41,31 +40,35 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 --- /task ---
 
-## Herhaal je programma
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
 
-Het Astro Pi Mission Zero-programma mag tot 30 seconden werken. Je zal deze tijd gebruiken om verschillende keren de kleursensor te controleren en de afbeelding te actualiseren.
+You can save and submit your program using the form at the bottom of the code editor.
+  
+However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+</p>
 
-Je code zal een `for` lus gebruiken om 28 keer te werken. **Elke** keer zal het:
-+ de laatste kleur meten
-+ de achtergrondkleur van de afbeelding actualiseren
-+ 1 seconde pauzeren
+## line_highlights: 2
+
+Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
 --- task ---
 
-**Vind** je `rgb = sense.color` codelijn.
 
-**Voeg** code hierboven toe om je `for` lus voor `28` herhalingen in te stellen.
+**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 2
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+sense.set_pixels(image)
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+# Importeer de bibliotheken
 
+afbeelding = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 --- /code ---
 
@@ -80,136 +83,37 @@ Je zal nu alle code onder de `for` lus moeten opslaan zodat die bewaard wordt **
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
----
-
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
-
-  image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
-
-
-  # Display the image
-
-  sense.set_pixels(image)
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Onderaan je code, voeg je een `sleep` van 1 seconde toe in je lus:
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 5
 ---
+for i in range(28): rgb = sense.color # ontvang de kleur van de sensor c = (rgb.red, rgb.green, rgb.blue)
 
-  # Display the image
+afbeelding = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-  sense.set_pixels(image) sleep(1)
+# Installeer de Sense HAT
+# Toon de afbeelding
 
---- /code ---
-
-**Tip:** Zorg ervoor dat deze codelijn opgeslagen wordt in je `for` lus.
-
---- /task ---
-
---- task ---
-
-**Test:** Start je code en verander de kleurkiezer verschillende keren terwijl je project werkt. Controleer dat je afbeelding geactualiseerd wordt met de gemeten kleur als het opnieuw start.
-
-De afbeelding zal niet meer geactualiseerd worden als de lus eindigt zodat het programma niet langer dan 30 seconden werkt.
+  sense.set_pixels(afbeelding)
 
 --- /task ---
 
 --- task ---
 
-**Problemen oplossen**
-
-Mijn code geeft een foutmelding en werkt niet zoals verwacht:
-
-- Controleer dat je code overeenkomt met de code in de voorbeelden hierboven
-- Controleer dat je de code opgeslagen hebt in je `for` lus
-- Controleer dat je lijst omgeven wordt door `[` en `]`
-- Controleer dat elke kleurvariabele in de lijst gescheiden wordt door een komma
-
-Mijn code werkt langer dan 30 seconden:
-
-- Verlaag het aantal keren dat je lus werkt van 28 naar 25 of zelfs 20.
-- Verminder de duur van de slaap, van 1 seconde naar 0,5 seconden.
+**Test:** Start je code nog eens. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
 
 --- /task ---
 
---- task ---
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+</p>
 
-Voeg `sense.clear()` toe aan het einde van je code om de afbeelding te wissen aan het einde van je lus. Dit zal je helpen om te zien wanneer je animatie klaar is.
+--- task --- **Check for errors**
 
-**Tip:** Zorg ervoor dat je **niet** de codelijn `sense.clear()` opslaat want je wil dit maar 1 keer laten gebeuren op het einde van je animatie.
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 7
----
-
-  # Display the image
-
-  sense.set_pixels(image) sleep(1)
-
-sense.clear()
-
---- /code ---
+# Toon de afbeelding
+- de laatste kleur meten
+- de achtergrondkleur van de afbeelding actualiseren
+- 1 seconde pauzeren
 
 --- /task ---
-
---- task ---
-
-**Test:** Start je code nog eens. Wanneer je project klaar is, zal de LED-matrix leeg worden door alle lichten op zwart (uit) te zetten.
-
---- /task ---
-
---- task ---
-
-**Problemen oplossen**
-
-De LED-matrix wordt elke seconde zwart:
-
-- Controleer dat je de `sense.clear()` code niet in je `for` lus opgeslagen hebt
-
---- /task ---
-
---- task ---
-
-Voeg code toe om de LED-matrix te wissen naar een kleur naar keuze. Creëer een variabele genaamd `x` om je nieuwe kleur op te slaan.
-
-Je kan je eigen kleur mengen door de waarden van de kleurenlijst te gebruiken om je nieuwe `x` kleur te maken.
-
-\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 7, 8
----
-
-  # Display the image
-
-  sense.set_pixels(image) sleep(1)
-
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test:** Start je code nogmaals. Als je project klaar is, zal de LED-matrix oplichten in de gekozen kleur. Je kan dan de kleur zo vaak aanpassen als je wil om te testen.
-
---- /task ---
-
 
 --- task ---
 
@@ -217,20 +121,12 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de namen van je teamleden en je klascode in te geven. Je kan je programma opnieuw laden op elk apparaat met een internetverbinding door je teamnaam en klascode in te geven.
 
-![Mission Zero opslaan knop screenshot](images/mz_savebutton_v2.png)
-
 --- /task ---
 
-
---- task ---
-
---- collapse ---
-
+**Test:** Start je code en verander de kleurkiezer verschillende keren terwijl je project werkt. Controleer dat je afbeelding geactualiseerd wordt met de gemeten kleur als het opnieuw start.
 ---
-title: Afgewerkt codevoorbeeld
+line_highlights: 7
 ---
-
-![Een vis wordt getoond in een raster van 8 x 8 vierkanten.](images/fish.png)
 
 --- code ---
 ---
@@ -247,22 +143,50 @@ sense = SenseHat() sense.set_rotation(270)
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 # Add colour variables and image
+Mijn code werkt langer dan 30 seconden:
 
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+# Sense a colour
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-  image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+Voeg `sense.clear()` toe aan het einde van je code om de afbeelding te wissen aan het einde van je lus. Dit zal je helpen om te zien wanneer je animatie klaar is.
+---
+title: Afgewerkt codevoorbeeld
+---
 
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+# Import the libraries
+from sense_hat import SenseHat from time import sleep
 
-  # Display the image
+# Set up the Sense HAT
+sense = SenseHat() sense.set_rotation(270)
 
-  sense.set_pixels(image) sleep(1)
+# Set up the colour sensor
+sense.set_pixels(afbeelding) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
+# Add colour variables and image
+sense.clear()
 
---- /code ---
+# Sense a colour
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
---- /collapse ---
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
---- /task ---
+sense.set_pixels(image)
+
+# BASIC SUBMISSION is done by now
+
+# Extra images / frames go here:
+**Test:** Start je code nog eens. Wanneer je project klaar is, zal de LED-matrix leeg worden door alle lichten op zwart (uit) te zetten.
+
+sleep(1)
+
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
+
+  # Display the first image sense.set_pixels(image) sleep(1) --- /code --- --- /collapse --- --- /task ---
