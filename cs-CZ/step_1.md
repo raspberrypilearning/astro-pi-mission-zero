@@ -1,6 +1,12 @@
 ## Co budeš dělat
 
-Tvůj projekt nastaví pozadí tvého obrázku na barvu, kterou rozpozná počítač Astro Pi. Díky tomu bude Mezinárodní vesmírná stanice (ISS) pro astronauty na palubě o něco barevnější. Tvůj kód k tomu použije senzor barev a svítivosti na desce Sense HAT u počítačů Mark II Astro Pi.
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
+
++ vytvářet **proměnné** s barvami, které využiješ ve svém obrázku,
++ navrhnout a zobrazit obrázek na desce Sense HAT,
++ naměřit barvu světla na palubě ISS.
 
 Tady je ukázka programu, který by mohl běžet ve vesmíru na počítači Astro Pi a který zvládneš naprogramovat i ty.
 
@@ -8,16 +14,11 @@ Tady je ukázka programu, který by mohl běžet ve vesmíru na počítači Astr
 
 ### Co budeš potřebovat
 
-K vytvoření programu budeš používat emulátor Astro Pi ve webovém prohlížeči. Nepotřebuješ počítač Astro Pi.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Kritéria výzvy Astro Pi Mission Zero
 
-**Pokud tvůj program splňuje [kritéria způsobilosti](https://astro-pi.org/cs/mission-zero/eligibility){:target="_blank"}**, poběží na Mezinárodní vesmírné stanici! Také dostaneš speciální certifikát s přesnou polohou ISS v okamžiku, kdy byl na ní tvůj program spuštěný.
-
-Dozvíš se o počítači Astro Pi a naučíš se ho ovládat. Také se naučíš, jak:
-+ vytvářet **proměnné** s barvami, které využiješ ve svém obrázku,
-+ navrhnout a zobrazit obrázek na desce Sense HAT,
-+ naměřit barvu světla na palubě ISS.
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
@@ -26,7 +27,7 @@ title: Poznámky pro mentory
 
 Výzva Mission Zero je vhodná pro ty, kteří s programováním začínají, a/nebo pro děti ve školním věku a lze ji dokončit během jediného 60minutového sezení na jakémkoliv počítači s připojením k internetu. Není potřeba žádný speciální hardware ani předchozí znalosti programování. Vše se dá udělat ve webovém prohlížeči.
 
-Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak napsat krátký program v jazyce Python, který naměří barvu na palubě ISS a použije ji k vytvoření obrázku.
+ Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak napsat krátký program v jazyce Python, který naměří barvu na palubě ISS a použije ji k vytvoření obrázku.
 
 Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
