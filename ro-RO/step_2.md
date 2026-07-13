@@ -4,12 +4,10 @@ Astro Pi este un calculator Raspberry Pi încapsulat într-o carcasă special co
 
 ![Imagine animată a unui Sense HAT atașat la partea superioară a unui computer Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Calculatoarele Astro Pi vin cu un set de senzori și gadget-uri care pot fi folosite pentru a face experimente științifice remarcabile. Acest set de senzori se numește „Sense HAT” (care reprezintă „Hardware-ul atașat în partea de sus”). Sense HAT îi conferă Astro Pi capacitatea de a „simți” și de a efectua multe măsurători, de la temperatură la mişcare şi la informaţii de ieşire utilizând o matrice de 8 x 8 LED. Astro Pi-urile au de asemenea un joystick și butoane, exact ca o consolă de jocuri video!
+Astro Pi computers have a set of sensors called the ‘Sense HAT’ that astronauts and children can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such as temperature, motion and the colour of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
 
-![Imaginea animată a unui Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
-Pentru această misiune, vei folosi emulatorul Sense HAT care simulează funcțiile principale ale Astro Pi în browser-ul tău.
-
-
-
-
+![an 8x8 pixel art image of a whale](images/whaleblank.png)
