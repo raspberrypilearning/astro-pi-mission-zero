@@ -1,12 +1,18 @@
 ## Näytä kuva
 
-Astro Pin LED-matriisi voi näyttää värejä. Tässä vaiheessa näytät luontokuvia Astro Pin LED-matriisilla.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED-matriisi**</span> on ruudukko LEDejä, joita voidaan ohjata yhdessä tai erikseen erilaisten valotehosteiden luomiseksi. Sense HATin LED-matriisissa on 64 LEDiä 8 x 8 -ruudukossa. LEDit voidaan ohjelmoida tuottamaan laaja valikoima värejä.
 </p>
 
-![Ruutukaappaus emulaattorin ikkunasta, jossa näkyy lentoyksikön LED-matriisi näyttämässä kukan kuvaa.](images/fu-pic.png)
+![Ruutukaappaus emulaattorin ikkunasta, jossa näkyy lentoyksikön LED-matriisi näyttämässä kukan kuvaa.](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ Tarkista, että koodisi vastaa yllä olevien esimerkkien koodia
++ Tarkista, että olet sisentänyt koodin luettelossasi
++ Tarkista, että luettelosi ympärillä on `[` ja `]`
+
 
 --- task ---
 
@@ -40,19 +46,9 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Värejä voidaan luoda käyttämällä punaista, vihreää ja sinistä eri suhteissa. Voit tutustua RGB-väreihin täältä:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-LED-matriisi on 8 x 8 -ruudukko. Jokainen ruudukon LED-valo voidaan asettaa eri väriin. Tässä on luettelo muuttujista 24 eri värille. Jokaisella värillä on arvo punaiselle, vihreälle ja siniselle:
-
-[[[ambient-colours]]]
-
-### Valitse kuva
-
---- task ---
-
-**Valitse:** Valitse näytettävä kuva alla olevista vaihtoehdoista. Python tallentaa kuvan tiedot luetteloon. Jokaisen kuvan koodi sisältää käytetyt värimuuttujat ja luettelon.
-
-Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä** se projektiisi alapuolelle riviä, jolla lukee `# Lisää värimuuttujia ja kuva`.
+LED-matriisi on 8 x 8 -ruudukko. Jokainen ruudukon LED-valo voidaan asettaa eri väriin. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
 --- collapse ---
 
@@ -60,9 +56,7 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 title: Kala
 ---
 
-![8 x 8 neliön ruudukko esittämässä kalaa.](images/fish.png)
-
-Tehnyt joukkue chalka, Puola
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
 
 ```python
 z = (153, 50, 204) # DarkOrchid
@@ -84,6 +78,13 @@ d, d, z, d, d, d, d]
 
 --- /collapse ---
 
+### Valitse kuva
+
+--- task ---
+
+**Valitse:** Valitse näytettävä kuva alla olevista vaihtoehdoista. Python tallentaa kuvan tiedot luetteloon. Jokaisen kuvan koodi sisältää käytetyt värimuuttujat ja luettelon.
+
+Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä** se projektiisi alapuolelle riviä, jolla lukee `# Lisää värimuuttujia ja kuva`.
 
 --- collapse ---
 
@@ -91,9 +92,9 @@ d, d, z, d, d, d, d]
 title: Mursu
 ---
 
-![8 x 8 neliön ruudukko esittämässä mursua.](images/walrus.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Tehnyt joukkue Mursu, Suomi
+Created by Team Naicom, Italy
 
 ```python
 h = (0, 255, 255) # Syaani
@@ -116,14 +117,16 @@ r, r, s, s, s, s, s, s]
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![8 x 8 neliön ruudukko esittämässä Paxia.](images/paxi.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Tehnyt joukkue tony_pi, Italia
+Created by team g4lemoni, Greece
 
 ```python
 v = (255, 0, 0) # Punainen
@@ -146,18 +149,16 @@ kuva = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Koira
 ---
 
-![8 x 8 neliön ruudukko esittämässä koiran päätä.](images/dog.png)
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Tehnyt joukkue ptpr_07, Espanja
+Created by Gary, United Kingdom
 
 ```python
-
 c = (0, 0, 0) # Musta
 r = (184, 134, 11) # Tummankultapiisku
 s = (139, 69, 19) # Satulanruskea
@@ -173,19 +174,19 @@ kuva = [
     c, c, s, y, y, s, c, c,
     c, c, c, y, y, c, c]
 
-
 ```
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
 title: Kameleontti
 ---
 
-![8 x 8 neliön ruudukko esittämässä sateenkaarenväristä kameleonttia.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Tehnyt joukkue The_ETs, Englanti
+Created by team hop2p023, Spain
 
 ```python
 
@@ -210,6 +211,7 @@ kuva = [
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
 
+
 ```
 
 --- /collapse ---
@@ -219,9 +221,9 @@ kuva = [
 title: Leija
 ---
 
-![8 x 8 neliön ruudukko esittämässä leijaa.](images/kite.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Tehnyt joukkue Val, Kreikka
+Created by Peter, Ireland
 
 ```python
 
@@ -251,9 +253,9 @@ kuva = [
 title: Kana
 ---
 
-![8 x 8 neliön ruudukko esittämässä kanaa.](images/chicken.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Tehnyt joukkue Slepicky, Tšekki
+Created by team Jmeno, Czech Republic
 
 ```python
 
@@ -277,6 +279,40 @@ kuva = [
 
 --- /collapse ---
 
+--- collapse ---
+---
+line_highlights: 18, 19
+---
+
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+
+Created by team Zssh14, Slovakia
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
+
+```
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -286,11 +322,11 @@ kuva = [
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Keltainen d = (51, 153, 255) # Sininen c = (0, 0, 0) # Musta
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Näytä kuva
 sense.set_pixels(image)
