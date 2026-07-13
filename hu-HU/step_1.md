@@ -1,6 +1,12 @@
 ## Amit el fogsz készíteni
 
-A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez a Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
+
++ Szín **változók** létrehozása és használata képekben
++ Képek tervezése és megjelenítése a Sense HAT-on
++ A fény színének érzékelése az ISS-en
 
 Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy Astro Pi számítógépen.
 
@@ -8,16 +14,11 @@ Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy 
 
 ### Amire szükséged lesz
 
-A programod elkészítéséhez az Astro Pi emulátort fogod használni egy webböngészőben. Nincs szükséged igazi Astro Pi számítógépre.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Az Astro Pi Mission Zero feltételei
 
-**Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/hu/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
-
-Az Astro Pi számítógépről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
-+ Szín **változók** létrehozása és használata képekben
-+ Képek tervezése és megjelenítése a Sense HAT-on
-+ A fény színének érzékelése az ISS-en
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
@@ -26,7 +27,7 @@ title: Megjegyzések mentoroknak
 
 A Mission Zero alkalmas kezdő programozóknak és/vagy általános iskolás korú gyerekeknek, és egyhuzamban 60 perc alatt teljesíthető egy internetkapcsolattal rendelkező számítógépen. Nincs szükség speciális hardverre vagy előzetes programozási tudásra. Minden teljesíthető egy webböngészőben.
 
-Szervezd a fiatalokat egy-négy fős csapatokba, és engedd meg, hogy végigkísérjük őket egy rövid Python program megírásán, amely érzékeli a színt az ISS fedélzetén, és egy képet hoz létre a szín felhasználásával.
+ Szervezd a fiatalokat egy-négy fős csapatokba, és engedd meg, hogy végigkísérjük őket egy rövid Python program megírásán, amely érzékeli a színt az ISS fedélzetén, és egy képet hoz létre a szín felhasználásával.
 
 Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
