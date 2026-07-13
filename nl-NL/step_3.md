@@ -1,12 +1,18 @@
 ## Toon een afbeelding
 
-De LED-matrix van de Astro Pi kan kleuren weergeven. In deze stap zul je afbeeldingen van de natuur weergeven op de LED-matrix van de Astro Pi.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster van LED's die afzonderlijk of als groep kunnen worden aangestuurd om verschillende lichteffecten te creëren. De LED-matrix op de Sense HAT heeft 64 LED's die worden weergegeven in een 8 x 8 raster. De LED's kunnen worden geprogrammeerd om een breed scala aan kleuren te produceren.
 </p>
 
-![Een screenshot van het emulatorvenster van de Flight Unit met de LED-matrix waarop een afbeelding van een bloem te zien is.](images/fu-pic.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ c = black
++ f = midnight blue
++ g = deep sky blue
+
 
 --- task ---
 
@@ -40,155 +46,19 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Kleuren kunnen worden gemaakt met verschillende verhoudingen van rood, groen en blauw. Meer informatie over de RGB kleuren vind je hier:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
 De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleur worden ingesteld. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
 
-[[[ambient-colours]]]
-
-### Kies een afbeelding
-
---- task ---
-
-**Kies:** Kies een afbeelding om weer te geven uit de onderstaande opties. Python slaat de informatie voor een afbeelding op in een lijst. De code voor elke afbeelding bevat de gebruikte kleurvariabelen en de lijst.
-
-Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je project onder de regel `# Voeg kleurvariablen en afbeelding toe`.
-
 --- collapse ---
 
 ---
-title: Vis
+title: List of Colour Variables
 ---
 
-![Een raster met 8 x 8 vierkanten met daarop een vis.](images/fish.png)
-
-Gemaakt door team Chalka, Polen
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
 
 ```python
-z = (153, 50, 204) # Donkerorchidee 
-q = (255, 255, 0) # Geel
-d = (51, 153, 255) # Blauw
-c = (0, 0, 0) # Zwart
-
-afbeelding = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
-title: Walrus
----
-
-![Een raster van 8 x 8 vierkanten met daarop een walrus.](images/walrus.png)
-
-Gemaakt door team Walrus, Finland
-
-```python
-h = (0, 255, 255) # Cyaan
-c = (0, 0, 0) # Zwart
-s = (139, 69, 19) # Zadelbruin
-a = (255, 255, 255) # Wit
-r = (184, 134, 11) # Donkergoudenroede
-
-afbeelding = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Een raster van 8 x 8 vierkanten met Paxi.](images/paxi.png)
-
-Gemaakt door team tony_pi, Italië
-
-```python
-v = (255, 0, 0) # Rood
-m = (34, 139, 34) # Bosgroen
-c = (0, 0, 0) # Zwart 
-e = (100, 149, 237) # Korenbloemblauw
-l = (0, 255, 0) # Groen
-
-afbeelding = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
----
-title: Hond
----
-
-![Een raster met 8 x 8 vakjes waarop een hondenkop is afgebeeld.](images/dog.png)
-
-Gemaakt door team ptpr_07, Spanje
-
-```python
-
-c = (0, 0, 0) # Zwart
-r = (184, 134, 11) # Donkergoudenroede
-s = (139, 69, 19) # Zadelbruin
-y = (255, 20, 147) # Dieproze
-
-afbeelding = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
-
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Kameleon
----
-
-![Een raster met 8 x 8 vierkanten met een regenboogkleurige kameleon.](images/chameleon.png)
-
-Gemaakt door team The_ETs, Verenigd Koninkrijk
-
-```python
-
 c = (0, 0, 0) # Zwart
 s = (139, 69, 19) # Zadelbruin
 a = (255, 255, 255) # Wit
@@ -214,14 +84,136 @@ afbeelding = [
 
 --- /collapse ---
 
+### Kies een afbeelding
+
+--- task ---
+
+**Kies:** Kies een afbeelding om weer te geven uit de onderstaande opties. Python slaat de informatie voor een afbeelding op in een lijst. De code voor elke afbeelding bevat de gebruikte kleurvariabelen en de lijst.
+
+Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je project onder de regel `# Voeg kleurvariablen en afbeelding toe`.
+
+--- collapse ---
+
+---
+title: Walrus
+---
+
+![Een raster van 8 x 8 vierkanten met daarop een walrus.](images/whale.png)
+
+Gemaakt door team tony_pi, Italië
+
+```python
+c = (0, 0, 0) # Zwart
+r = (184, 134, 11) # Donkergoudenroede
+s = (139, 69, 19) # Zadelbruin
+y = (255, 20, 147) # Dieproze
+
+afbeelding = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
+---
+title: Paxi
+---
+
+![Een raster met 8 x 8 vierkanten met daarop een vis.](images/lemon.png)
+
+Gemaakt door team Val, Griekenland
+
+```python
+v = (255, 0, 0) # Rood
+m = (34, 139, 34) # Bosgroen
+c = (0, 0, 0) # Zwart 
+e = (100, 149, 237) # Korenbloemblauw
+l = (0, 255, 0) # Groen
+
+afbeelding = [
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Hond
+---
+
+![Een raster met 8 x 8 vakjes waarop een hondenkop is afgebeeld.](images/pig.png)
+
+Created by Gary, United Kingdom
+
+```python
+h = (0, 255, 255) # Cyaan
+c = (0, 0, 0) # Zwart
+s = (139, 69, 19) # Zadelbruin
+a = (255, 255, 255) # Wit
+r = (184, 134, 11) # Donkergoudenroede
+
+afbeelding = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
+
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Kameleon
+---
+
+![Een raster met 8 x 8 vakjes waarop een vlieger is afgebeeld.](images/storm.png)
+
+Gemaakt door team ptpr_07, Spanje
+
+```python
+
+z = (153, 50, 204) # Donkerorchidee
+q = (255, 255, 0) # Geel
+d = (51, 153, 255) # blauw
+c = (0, 0, 0) # Zwart
+
+
+```
+
+--- /collapse ---
+
 --- collapse ---
 ---
 title: Vlieger
 ---
 
-![Een raster met 8 x 8 vakjes waarop een vlieger is afgebeeld.](images/kite.png)
+![Een raster met 8 x 8 vierkanten met een kip.](images/duck.png)
 
-Gemaakt door team Val, Griekenland
+Created by Peter, Ireland
 
 ```python
 
@@ -251,7 +243,7 @@ afbeelding = [
 title: Kip
 ---
 
-![Een raster met 8 x 8 vierkanten met een kip.](images/chicken.png)
+![Een raster met 8 x 8 vierkanten met een regenboogkleurige kameleon.](images/frog.png)
 
 Gemaakt door team Slepicky, Tsjechië
 
@@ -277,6 +269,36 @@ afbeelding = [
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Blossom Tree
+---
+
+![Een raster van 8 x 8 vierkanten met Paxi.](images/blossom.png)
+
+Gemaakt door team Chalka, Polen
+
+```python
+
+z = (153, 50, 204) # Donkerorchidee 
+q = (255, 255, 0) # Geel
+d = (51, 153, 255) # Blauw
+c = (0, 0, 0) # Zwart
+
+afbeelding = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
+
+```
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -288,9 +310,9 @@ afbeelding = [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # Donkerorchidee q = (255, 255, 0) # Geel d = (51, 153, 255) # Blauw c = (0, 0, 0) # Zwart
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+afbeelding = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 # Geef de afbeelding weer
 sense.set_pixels(image)
