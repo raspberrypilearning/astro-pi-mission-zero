@@ -1,12 +1,18 @@
 ## Visa en bild
 
-Astro Pis LED-matris kan visa färger. I det här steget kommer du att visa bilder från naturen på Astro Pis LED-matris.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 En <span style="color: #0faeb0">**LED-matris**</span> är ett rutnät av lysdioder som kan styras individuellt eller som en grupp för att skapa olika ljuseffekter. LED-matrisen på Sense HAT har 64 lysdioder som visas i ett 8 x 8 rutnät. Lysdioderna kan programmeras för att producera ett brett spektrum av färger.
 </p>
 
-![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av en blomma.](images/fu-pic.png)
+![En skärmdump av emulatorfönstret som visar flygenheten med LED-matrisen som visar en bild av en blomma.](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ Kontrollera att din kod matchar koden i exemplen ovan
++ Kontrollera att du har dragit in koden i din lista
++ Kontrollera att din lista är omgiven av `[` och `]`
+
 
 --- task ---
 
@@ -40,11 +46,37 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Färger kan skapas med olika proportioner av rött, grönt och blått. Du kan läsa mer om RGB färger här:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-LED-matrisen är ett 8 x 8 rutnät. Varje lysdiod på nätet kan ställas in på olika färger. Här är en lista med variabler för 24 olika färger. Varje färg har ett värde för rött, grönt och blått:
+LED-matrisen är ett 8 x 8 rutnät. Varje lysdiod på nätet kan ställas in på olika färger. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Fisk
+---
+
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+
+```python
+z = (153, 50, 204) # MörkOrkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # blå
+c = (0, 0, 0) # Svart
+
+bild = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
+
+```
+
+--- /collapse ---
 
 ### Välj en bild
 
@@ -57,43 +89,12 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-title: Fisk
----
-
-![Ett rutnät med 8 x 8 rutor som visar ett rävansikte.](images/fish.png)
-
-Skapad av team i_pupi, Italien
-
-```python
-z = (153, 50, 204) # MörkOrkidé
-q = (255, 255, 0) # Gul
-d = (51, 153, 255) # blå
-c = (0, 0, 0) # Svart
-
-bild = [
-d, d, z, d, d, d, d,
-d, d, d, z, z, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
 title: Valross
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en valross.](images/walrus.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Skapad av team Walrus, Finland
+Created by Team Naicom, Italy
 
 ```python
 h = (0, 255, 255) # Cyan
@@ -110,20 +111,22 @@ h, s, c, s, c, s, s, s,
 h, r, r, r, r, r, s, s,
 h, h, a, s, a, s, s, s,
 h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s, s]
+r, r, s, s, s, s, s, s]
 
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar Paxi.](images/paxi.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Skapad av teamet tony_pi, Italien
+Created by team g4lemoni, Greece
 
 ```python
 v = (255, 0, 0) # Röd
@@ -146,18 +149,16 @@ bild = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Hund
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar ett hundhuvud.](images/dog.png)
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Skapad av team ptpr_07, Spanien
+Created by Gary, United Kingdom
 
 ```python
-
 c = (0, 0, 0) # Svart
 r = (184, 134, 11) # MörkGuldris
 s = (139, 69, 19) # Sadelbrun
@@ -173,19 +174,19 @@ bild = [
     c, c, s, y, y, s, c, c,
     c, c, c, y, y, c, c, c]
 
-
 ```
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
 title: Kameleont
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en regnbågsfärgad kameleont.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Skapad av teamet The_ETs, Storbritannien
+Created by team hop2p023, Spain
 
 ```python
 
@@ -201,14 +202,15 @@ z = (153, 50, 204) # Mörkorkidé
 y = (255, 20, 147) # Mörkrosa
 
 bild = [
-    a, a, v, v, t, a, a,
+    a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
     v, t, t, q, q, m, m, h,
     s, s, q, s, s, m, s, h,
     a, a, a, a, a, a, a, z,
     a, a, a, a, y, a, a, z,
-    a, a, a, a, a, a, y, z, a]
+    a, a, a, a, a, y, z, a]
+
 
 ```
 
@@ -216,12 +218,12 @@ bild = [
 
 --- collapse ---
 ---
-titel: Drake
+title: Drake
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en drake.](images/kite.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Skapad av team Val, Grekland
+Created by Peter, Ireland
 
 ```python
 
@@ -240,7 +242,7 @@ bild = [
     h, h, h, q, q, m, m, h,
     h, h, c, h, h, h, h, h, 
     h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h, h]
+    c, h, h, h, h, h, h, h]
 
 ```
 
@@ -251,9 +253,9 @@ bild = [
 title: Kyckling
 ---
 
-![Ett rutnät med 8 x 8 rutor som visar en kyckling.](images/chicken.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Skapad av teamet Slepicky, Tjeckien
+Created by team Jmeno, Czech Republic
 
 ```python
 
@@ -266,12 +268,46 @@ r = (184, 134, 11) # MörkGuldris
 bild = [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
-    c, b, c, b, c, b, c, r, b,
-    q, r, b, b, b, b, b, b, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
     c, v, b, b, b, b, r, b,
     c, v, b, r, r, r, b, r,
     c, c, c, r, b, q, r, c,
     c, c, c, c, q, q, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+line_highlights: 18, 19
+---
+
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+
+Created by team Zssh14, Slovakia
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -286,11 +322,11 @@ bild = [
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # MörkOrkidé q = (255, 255, 0) # Gul d = (51, 153, 255) # blå c = (0, 0, 0) # Svart
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Visa bilden
 sense.set_pixels(image)
