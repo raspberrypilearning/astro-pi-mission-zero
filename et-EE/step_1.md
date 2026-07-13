@@ -1,6 +1,12 @@
 ## Sa hakkad tegema
 
-Sinu projekt määrab pildi taustavärviks värvi, mille Astro Pi tuvastab. See muudab rahvusvahelise kosmosejaama (ISS) pardal viibivate astronautide jaoks värvilisemaks. Sinu kood kasutab selle saavutamiseks uue Mark II Astro Pi arvuti Sense HATi värvi heleduse andurit.
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
+
++ Kuvada värvi **muutujaid**, mida oma pildil kasutada
++ Kujundage ja kuvage Sense HAT-il pikslikunsti pilti
++ Tajuda valguse värvi ISS-i pardal
 
 Siin on näide sellest, millise programmi saad teha Astro Pi peal kosmoses käitamiseks.
 
@@ -8,16 +14,11 @@ Siin on näide sellest, millise programmi saad teha Astro Pi peal kosmoses käit
 
 ### Sul on vaja
 
-Programmi loomiseks kasutad veebibrauseris Astro Pi emulaatorit. Sul ei ole vaja Astro Pi arvutit.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Astro Pi Mission Zero kriteeriumid
 
-**Kui sinu projekt vastab [vajalikele kriteeriumidele](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, käivitatakse sinu lõpetatud programm rahvusvahelises kosmosejaamas! Samuti antakse sulle spetsiaalne tunnistus, mis näitab kus täpselt ISS sinu programmi käivitamise ajal viibis.
-
-Õpid tundma Astro Pi-d ja selle juhtimist, sealhulgas kuidas:
-+ Kuvada värvi **muutujaid**, mida oma pildil kasutada
-+ Kujundage ja kuvage Sense HAT-il pikslikunsti pilti
-+ Tajuda valguse värvi ISS-i pardal
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
@@ -26,7 +27,7 @@ title: Märkused mentoritele
 
 Mission Zero sobib algajatele programmeerijatele ja/või algkooliealistele lastele ning selle saab läbida ühe 60-minutilise seansina mis tahes Interneti-ühendusega arvutis. Spetsiaalset riistvara ega eelnevaid kodeerimisoskusi pole vaja. Kõike saab teha veebibrauseris.
 
-Jagage oma noored ühe- kuni neljaliikmelistesse meeskondadesse ja juhendage neid lühikese Pythoni programmi kirjutamisel, et tajuda ISS-i pardal olevat värvi ja luua seda värvi kasutav pilt.
+ Jagage oma noored ühe- kuni neljaliikmelistesse meeskondadesse ja juhendage neid lühikese Pythoni programmi kirjutamisel, et tajuda ISS-i pardal olevat värvi ja luua seda värvi kasutav pilt.
 
 Lugege Mission Zero [ametlikke juhiseid](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
