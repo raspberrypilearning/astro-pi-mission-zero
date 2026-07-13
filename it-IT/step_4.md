@@ -1,37 +1,36 @@
 ## Leggi il colore
 
-In questo passaggio, imposterai il sensore di luminosità del colore e lo utilizzerai per rilevare la quantità di rosso, verde e blu letta dal sensore. Questo colore verrà quindi utilizzato per colorare l'immagine scelta. Un astronauta che si avvicina al sensore con una maglietta blu vedrebbe un'immagine diversa rispetto a un astronauta con una maglietta rossa.
+In this step, you will set up the colour and brightness sensor. In questo passaggio, imposterai il sensore di luminosità del colore e lo utilizzerai per rilevare la quantità di rosso, verde e blu letta dal sensore. Questo colore verrà quindi utilizzato per colorare l'immagine scelta.
 
-![Immagine visualizzata con sfondo rosa sulla matrice LED.](images/colour_background.png)
+This means that the image can change depending on what the sensor sees. Un astronauta che si avvicina al sensore con una maglietta blu vedrebbe un'immagine diversa rispetto a un astronauta con una maglietta rossa.
 
-Qualunque sia l'immagine che hai scelto, lo sfondo utilizza la variabile `c` impostata sul nero.
+In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: false
+line_number_start: 1
+---
+c = (0, 0, 0) --- /code ---
+
 
 --- task ---
 
 Usa il sensore di colore per colorare il tuo sfondo.
 
-Aggiungi il codice prima della lista contenente le immagini per ottenere il colore dal sensore e modifica la variabile del colore di sfondo `c` per utilizzare il colore rilevato dal sensore di colore Sense HAT, al posto del nero.
-
-**Suggerimento:** Non è necessario digitare i commenti che iniziano con '#' (sono commenti inseriti per spiegare il codice).
+Underneath the lines where you define the colours, add the following code:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 9, 10
+line_highlights: 2
 ---
+# Sense a colour
+rgb = sense.color # ottenere il colore dal sensore c = (rgb.red, rgb.green, rgb.blue) # usa il colore rilevato
 
-# Add colour variables and image
+This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
 
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
-
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
-
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
-
-
---- /code ---
-
---- /task ---
+Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
 
 --- task ---
 
@@ -41,31 +40,35 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 --- /task ---
 
-## Ripeti il tuo programma
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+
+You can save and submit your program using the form at the bottom of the code editor.
+  
+However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+</p>
+
+## Animate your project (optional)
 
 Il programma Astro Pi Mission Zero può funzionare per un massimo di 30 secondi. Utilizzerai questo tempo per controllare ripetutamente il sensore di colore e aggiornare l'immagine.
 
-Il tuo codice utilizzerà un ciclo `for` per essere eseguito 28 volte. **Ogni** volta:
-+ leggerà l'ultimo colore
-+ aggiornerà il colore di sfondo dell'immagine
-+ si fermerà per un secondo
-
 --- task ---
 
-**Trova** la tua riga di codice `rgb = sense.color`.
 
-**Aggiungi** codice al di sopra per impostare il tuo ciclo `for` a `28` ripetizioni.
+**Trova** la tua riga di codice `rgb = sense.color`. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 2
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
+immagine = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+sense.set_pixels(image)
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+# Extra images / frames go here:
 
+immagine = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 --- /code ---
 
@@ -73,392 +76,117 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 --- task ---
 
-Ora devi indentare tutto il tuo codice sotto il ciclo `for` in modo che si trovi **dentro** il ciclo `for`.
+At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
 
-**Suggerimento:** Per far rientrare più righe, evidenzia le righe che desideri indentare, quindi premi il tasto <kbd>Tab</kbd> sulla tastiera (di solito si trova sopra il tasto <kbd>Maiuscole/1> della tastiera). </p> 
+**Suggerimento:** Per far rientrare più righe, evidenzia le righe che desideri indentare, quindi premi il tasto <kbd>Tab</kbd> sulla tastiera (di solito si trova sopra il tasto <kbd>Maiuscole</kbd> della tastiera).
 
-<p spaces-before="0">
-  --- code ---
-</p>
-<hr />
-
-<p spaces-before="0">
-  language: python filename: main.py line_numbers: false line_number_start: 1
-</p>
-<h2 spaces-before="0">
-  line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-</h2>
-
-<p spaces-before="0">
-  for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
-</p>
-
-<p spaces-before="2">
-  image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
-</p>
-
-<p spaces-before="2">
-  # Display the image
-</p>
-
-<p spaces-before="2">
-  sense.set_pixels(image)
-</p>
-
-<p spaces-before="0">
-  --- /code ---
-</p>
-
-<p spaces-before="0">
-  --- /task ---
-</p>
-
-<p spaces-before="0">
-  --- task ---
-</p>
-
-<p spaces-before="0">
-  Nella parte inferiore del codice, aggiungi uno <code>sleep</code> di un secondo all'interno del tuo ciclo:
-</p>
-
-<p spaces-before="0">
-  --- code ---
-</p>
-<hr />
-
-<p spaces-before="0">
-  language: python filename: main.py line_numbers: false line_number_start: 1
-</p>
-<h2 spaces-before="0">
-  line_highlights: 5
-</h2>
-
-<p spaces-before="2">
-  # Display the image
-</p>
-
-<p spaces-before="2">
-  sense.set_pixels(image) sleep(1)
-</p>
-
-<p spaces-before="0">
-  --- /code ---
-</p>
-
-<p spaces-before="0">
-  <strong x-id="1">Suggerimento:</strong> Assicurati che questa riga di codice sia indentata nel tuo ciclo <code>for</code>.
-</p>
-
-<p spaces-before="0">
-  --- /task ---
-</p>
-
-<p spaces-before="0">
-  --- task ---
-</p>
-
-<p spaces-before="0">
-  <strong x-id="1">Test:</strong> Esegui il tuo codice e cambia il selettore del colore più volte mentre il tuo progetto è in esecuzione. Verifica che l'immagine si aggiorni utilizzando il colore rilevato nell'esecuzione successiva.
-</p>
-
-<p spaces-before="0">
-  L'immagine smetterà di aggiornarsi al termine del ciclo in modo che il programma non venga eseguito per più di 30 secondi.
-</p>
-
-<p spaces-before="0">
-  --- /task ---
-</p>
-
-<p spaces-before="0">
-  --- task ---
-</p>
-
-<p spaces-before="0">
-  <strong x-id="1">Debug</strong>
-</p>
-
-<p spaces-before="0">
-  Il mio codice ha un errore di sintassi o non viene eseguito come previsto:
-</p>
-
-<ul>
-  <li>
-    Verifica che il tuo codice corrisponda al codice degli esempi precedenti
-  </li>
-  <li>
-    Verifica di aver indentato il codice nel tuo ciclo <code>for</code>
-  </li>
-  <li>
-    Verifica che la tua lista sia racchiusa tra <code>[</code> e <code>]</code>
-  </li>
-  <li>
-    Verifica che ogni variabile di colore nell'elenco sia separata da una virgola
-  </li>
-</ul>
-
-<p spaces-before="0">
-  Il mio codice viene eseguito per più di 30 secondi:
-</p>
-
-<ul>
-  <li>
-    Riduci il numero di volte che il ciclo for viene eseguito, da 28 a 25 o anche 20.
-  </li>
-  <li>
-    Riduci la durata della pausa sleep, da 1 secondo a 0.5 secondi.
-  </li>
-</ul>
-
-<p spaces-before="0">
-  --- /task ---
-</p>
-
-<p spaces-before="0">
-  --- task ---
-</p>
-
-<p spaces-before="0">
-  Aggiungi <code>sense.clear()</code> alla fine del tuo codice per cancellare l'immagine alla fine del tuo ciclo. Questo ti aiuterà a capire quando l'animazione termina.
-</p>
-
-<p spaces-before="0">
-  <strong x-id="1">Suggerimento:</strong> Assicurati di <strong x-id="1">non</strong> indentare la riga di codice <code>sense.clear()</code> perché deve essere eseguita solo una volta alla fine dell'animazione.
-</p>
-
-<p spaces-before="0">
-  --- code ---
-</p>
-<hr />
-
-<p spaces-before="0">
-  language: python filename: main.py line_numbers: false line_number_start: 1
-</p>
-<h2 spaces-before="0">
-  line_highlights: 7
-</h2>
-
-<p spaces-before="2">
-  # Display the image
-</p>
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 7, 8
+---
+images/colour_background.png
 
-<p spaces-before="2">
-  sense.set_pixels(image) sleep(1)
-</p>
-
-<p spaces-before="0">
-  sense.clear()
-</p>
-
-<p spaces-before="0">
-  --- /code ---
-</p>
-
-<p spaces-before="0">
-  --- /task ---
-</p>
-
-<p spaces-before="0">
-  --- task ---
-</p>
-
-<p spaces-before="0">
-  <strong x-id="1">Test:</strong> Esegui di nuovo il codice. Quando il tuo progetto ha terminato l'esecuzione, la matrice LED si pulirà, annerendo tutte le luci (luci spente).
-</p>
-
-<p spaces-before="0">
-  --- /task ---
-</p>
-
-<p spaces-before="0">
-  --- task ---
-</p>
+sense.set_pixels(immagine) sleep(1)
 
-<p spaces-before="0">
-  <strong x-id="1">Debug</strong>
-</p>
-
-<p spaces-before="0">
-  La matrice LED diventa nera ogni secondo:
-</p>
-
-<ul>
-  <li>
-    Verifica di non aver indentato il codice <code>sense.clear()</code> all'interno del tuo ciclo <code>for</code>
-  </li>
-</ul>
-
-<p spaces-before="0">
-  --- /task ---
-</p>
-
-<p spaces-before="0">
-  --- task ---
-</p>
-
-<p spaces-before="0">
-  Aggiungi il codice per colorare la matrice LED a tua scelta. Crea una variabile chiamata <code>x</code> per memorizzare il tuo nuovo colore.
-</p>
-
-<p spaces-before="0">
-  Puoi mescolare il tuo colore o utilizzare i valori della lista dei colori per creare il tuo nuovo colore <code>x</code>.
-</p>
-
-<p spaces-before="0">
-  [[[generic-theory-simple-colours]]] [[[ambient-colours]]]
-</p>
-
-<p spaces-before="0">
-  --- code ---
-</p>
-<hr />
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
-<p spaces-before="0">
-  language: python filename: main.py line_numbers: false line_number_start: 1
-</p>
-<h2 spaces-before="0">
-  line_highlights: 7, 8
-</h2>
-
-<p spaces-before="2">
-  # Display the image
-</p>
+  sense.set_pixels(immagine) sleep(1)
 
-<p spaces-before="2">
-  sense.set_pixels(image) sleep(1)
-</p>
+--- /task ---
 
-<p spaces-before="0">
-  x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
-</p>
+--- task ---
 
-<p spaces-before="0">
-  --- /code ---
-</p>
+**Test:** Esegui di nuovo il codice. Quando il tuo progetto ha terminato l'esecuzione, la matrice LED si pulirà, annerendo tutte le luci (luci spente).
 
-<p spaces-before="0">
-  --- /task ---
-</p>
+--- /task ---
 
-<p spaces-before="0">
-  --- task ---
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
 </p>
 
-<p spaces-before="0">
-  <strong x-id="1">Test:</strong> Esegui di nuovo il codice. Al termine dell'esecuzione del progetto, la matrice LED assumerà il colore scelto. Puoi cambiare e testare il colore tutte le volte che vuoi.
-</p>
+**Test:** Esegui di nuovo il codice.
 
-<p spaces-before="0">
-  --- /task ---
-</p>
+Il mio codice ha un errore di sintassi o non viene eseguito come previsto:
+- Verifica di aver indentato il codice nel tuo ciclo `for`
+- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
+- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
 
-<p spaces-before="0">
-  --- task ---
-</p>
+--- /task ---
 
-<p spaces-before="0">
-  <strong x-id="1">Salva i tuoi progressi</strong>
-</p>
+--- task ---
 
-<p spaces-before="0">
-  Puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice classe che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
-</p>
+**Salva i tuoi progressi**
 
-<p spaces-before="0">
-  <img src="images/mz_savebutton_v2.png" alt="Il pulsante Salva di Mission Zero." />
-</p>
+Puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome della tua squadra, i nomi dei membri del team e il codice classe che ti è stato comunicato. È possibile ricaricare il programma su qualsiasi dispositivo con una connessione internet inserendo il nome del team e il codice aula.
 
-<p spaces-before="0">
-  --- /task ---
-</p>
+--- /task ---
 
-<p spaces-before="0">
-  --- task ---
-</p>
+--- collapse ---
+---
+title: Completed Whale code example
+---
 
-<p spaces-before="0">
-  --- collapse ---
-</p>
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+# Import the libraries
+from sense_hat import SenseHat from time import sleep
 
-<hr />
-<h2 spaces-before="0">
-  title: Esempio di codice completato
-</h2>
+# Set up the Sense HAT
+sense = SenseHat() sense.set_rotation(270)
 
-<p spaces-before="0">
-  <img src="images/fish.png" alt="Una griglia con 8 x 8 quadrati che mostra un pesce." />
-</p>
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
-<p spaces-before="0">
-  --- code ---
-</p>
-<hr />
+# Add colour variables and image
+z = (153, 50, 204) # Orchidea scura q = (255, 255, 0) # Giallo d = (51, 153, 255) # Blu c = (0, 0, 0) # Nero
 
-<p spaces-before="0">
-  language: python filename: main.py
-</p>
-<h2 spaces-before="0">
-  line_numbers: false
-</h2>
-<h1 spaces-before="0">
-  Import the libraries
-</h1>
-
-<p spaces-before="0">
-  from sense_hat import SenseHat from time import sleep
-</p>
+# Sense a colour
+for i in range(28): rgb = sense.color # ottenere il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
-<h1 spaces-before="0">
-  Set up the Sense HAT
-</h1>
+immagine = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-<p spaces-before="0">
-  sense = SenseHat() sense.set_rotation(270)
-</p>
+--- /collapse ---
+---
+title: Esempio di codice completato
+---
 
-<h1 spaces-before="0">
-  Set up the colour sensor
-</h1>
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+# Importa le librerie
+from sense_hat import SenseHat from time import sleep
 
-<p spaces-before="0">
-  sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
-</p>
+# Imposta il Sense HAT
+sense = SenseHat() sense.set_rotation(270)
 
-<h1 spaces-before="0">
-  Add colour variables and image
-</h1>
+# Aggiungi il codice prima della lista contenente le immagini per ottenere il colore dal sensore e modifica la variabile del colore di sfondo `c` per utilizzare il colore rilevato dal sensore di colore Sense HAT, al posto del nero.
+for i in range(28): rgb = sense.color # ottenere il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
-<p spaces-before="0">
-  z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
-</p>
+# Add colour variables and image
+z = (153, 50, 204) # Orchidea scura q = (255, 255, 0) # Giallo d = (51, 153, 255) # Blu c = (0, 0, 0) # Nero
 
-<p spaces-before="0">
-  for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
-</p>
+# Sense a colour
+for i in range(28): rgb = sense.color # ottenere il colore dal sensore c = (rgb.red, rgb.green, rgb.blue)
 
-<p spaces-before="2">
-  image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
-</p>
+immagine = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-<p spaces-before="2">
-  # Display the image
-</p>
+sense.set_pixels(immagine)
 
-<p spaces-before="2">
-  sense.set_pixels(image) sleep(1)
-</p>
+# BASIC SUBMISSION is done by now
 
-<p spaces-before="0">
-  x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
-</p>
+# Extra images / frames go here:
+images/savebutton_it.png
 
-<p spaces-before="0">
-  --- /code ---
-</p>
+sense.set_pixels(immagine) sleep(1)
 
-<p spaces-before="0">
-  --- /collapse ---
-</p>
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
-<p spaces-before="0">
-  --- /task ---
-</p>
+  sense.set_pixels(immagine) sleep(1)
