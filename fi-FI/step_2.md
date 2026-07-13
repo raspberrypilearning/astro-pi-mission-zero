@@ -4,12 +4,10 @@ Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu ava
 
 ![Animoitu kuva Sense HATista, joka on kiinnitetty Raspberry Pi -tietokoneen päälle.](images/astro_pi_casing.jpeg)
 
-Astro Pi -tietokoneissa on joukko antureita ja vempaimia, joita voidaan käyttää suorittamaan hienoja tieteellisiä kokeita. Tätä antureiden joukkoa kutsutaan 'Sense HAT':ksi (se tarkoittaa 'Hardware Attached on Top' eli päällekiinnitettyä laitteistoa). Sense HAT antaa Astro Pille kyvyn 'aistia' ja tehdä monenlaisia mittauksia, lämpötilasta liikkeeseen, ja näyttää tietoa 8 x 8 LED -matriisia käyttäen. Astro Pissä on myös ohjaussauva ja painikkeita aivan kuten videopelikonsolissa!
+Astro Pi computers have a set of sensors called the ‘Sense HAT’ that astronauts and children can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such as temperature, motion and the colour of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
 
-![Animoitu kuva 2. sukupolven Sense HATista.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
-Tätä tehtävää varten käytät Sense HAT -emulaattoria, joka simuloi Astro Pin päätoimintoja verkkoselaimessasi.
-
-
-
-
+![an 8x8 pixel art image of a whale](images/whaleblank.png)
