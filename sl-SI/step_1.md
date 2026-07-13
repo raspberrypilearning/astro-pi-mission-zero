@@ -1,6 +1,12 @@
 ## Izdelali boste
 
-Vaš projekt bo nastavil barvo ozadja slike na barvo, ki jo zazna Astro Pi. Tako bo Mednarodna vesoljska postaja (ISS) postala bolj barvita za astronavte na krovu. Vaša koda bo to storila z uporabo senzorja barvne svetilnosti na Sense HAT računalnika Mark II Astro Pi.
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
+
++ Ustvarjanjem barvnih **spremenljivk** za uporabo v sliki
++ Oblikovanjem in prikazovanjem slik na Sense HAT
++ Zaznavanjem svetlosti barve na krovu ISS
 
 Tukaj je primer programa, ki bi ga lahko naredili za Astro Pi v vesolju.
 
@@ -8,16 +14,11 @@ Tukaj je primer programa, ki bi ga lahko naredili za Astro Pi v vesolju.
 
 ### Kaj boste potrebovali
 
-Za izdelavo programa boste potrebovali Astro Pi emulator v spletnem brskalniku. Računalnika Astro Pi ne potrebujete.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Kriteriji Astro Pi Mission Zero
 
-**Če vaš projekt izpolnjuje [zahteve](https://astro-pi.org/sl/mission-zero/eligibility){:target="_blank"}**, se bo program izvedel na Mednarodni vesoljski postaji! Prejeli boste tudi poseben certifikat, na katerem bo zapisano, kje točno se je postaja ISS nahajala, ko je bil zagnan vaš program.
-
-Naučili se boste o enoti Astro Pi in o tem, kako jo nadzirati, vključno z naslednjim:
-+ Ustvarjanjem barvnih **spremenljivk** za uporabo v sliki
-+ Oblikovanjem in prikazovanjem slik na Sense HAT
-+ Zaznavanjem svetlosti barve na krovu ISS
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
@@ -26,7 +27,7 @@ title: Opombe za mentorje
 
 Projekt Mission Zero je primeren za začetnike v programiranju in/ali osnovnošolske otroke in ga je mogoče dokončati v eni uri na katerem koli računalniku z dostopom do interneta. Posebna strojna oprema ali predhodno znanje kodiranja nista potrebna. Vse je mogoče narediti v spletnem brskalniku.
 
-Organizirajte svoje mlade v skupine od enega do štirih in dovolite nam, da jih vodimo skozi pisanje kratkega programa Python za zaznavanje barve na krovu ISS in ustvarjanje slike, ki jo uporablja.
+ Organizirajte svoje mlade v skupine od enega do štirih in dovolite nam, da jih vodimo skozi pisanje kratkega programa Python za zaznavanje barve na krovu ISS in ustvarjanje slike, ki jo uporablja.
 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
