@@ -1,12 +1,18 @@
 ## Zobrazenie obrázka
 
-LED matrica počítača Astro Pi dokáže zobrazovať farby. V tomto kroku zobrazíš obrázky z prírody na LED matrici počítača Astro Pi.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED matrica**</span> je mriežka LED diód, ktoré možno ovládať jednotlivo alebo ako skupinu a vytvárať tak rôzne svetelné efekty. LED matrica na module Sense HAT má 64 LED diód zobrazených v mriežke 8 x 8. LED diódy môžu byť naprogramované tak, aby produkovali širokú škálu farieb.
 </p>
 
-![Snímka obrazovky okna emulátora zobrazujúca letovú jednotku s LED maticou zobrazujúcou obrázok kvetu.](images/fu-pic.png)
+![Snímka obrazovky okna emulátora zobrazujúca letovú jednotku s LED maticou zobrazujúcou obrázok kvetu.](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ Skontroluj, či sa kód zhoduje s kódom v príkladoch vyššie
++ Skontroluj, či máš kód vo svojom zozname odsadený
++ Skontroluj, či je zoznam uzavretý v znakoch `[` a `]`
+
 
 --- task ---
 
@@ -40,19 +46,9 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Farby môžu byť vytvorené pomocou rôznych pomerov červenej, zelenej a modrej. Viac informácií o RGB farbách nájdeš tu:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-LED matrica je mriežka 8 x 8. Každá LED dióda na mriežke môže byť nastavená na inú farbu. Tu je zoznam premenných pre 24 rôznych farieb. Každá farba má hodnotu pre červenú, zelenú a modrú:
-
-[[[ambient-colours]]]
-
-### Vyber obrázok
-
---- task ---
-
-**Vyber:** Z možností nižšie vyber obrázok, ktorý sa má zobraziť. Program Python uloží informácie o obrázku do zoznamu. Kód pre každý obrázok obsahuje použité farebné premenné a zoznam.
-
-Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **prilepiť** do svojho projektu pod riadok s textom `# Pridajte farebné premenné a obrázok`.
+LED matrica je mriežka 8 x 8. Každá LED dióda na mriežke môže byť nastavená na inú farbu. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
 --- collapse ---
 
@@ -60,9 +56,7 @@ Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **pr
 title: Ryba
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca rybu.](images/fish.png)
-
-Autor: tím chalka, Poľsko
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
 
 ```python
 z = (153, 50, 204) # Tmavoorchideová
@@ -84,6 +78,13 @@ d, d, d, z, d, d, d, d]
 
 --- /collapse ---
 
+### Vyber obrázok
+
+--- task ---
+
+**Vyber:** Z možností nižšie vyber obrázok, ktorý sa má zobraziť. Program Python uloží informácie o obrázku do zoznamu. Kód pre každý obrázok obsahuje použité farebné premenné a zoznam.
+
+Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **prilepiť** do svojho projektu pod riadok s textom `# Pridajte farebné premenné a obrázok`.
 
 --- collapse ---
 
@@ -91,9 +92,9 @@ d, d, d, z, d, d, d, d]
 title: Mrož
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca mroža.](images/walrus.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Autor: tím Walrus, Fínsko
+Created by Team Naicom, Italy
 
 ```python
 h = (0, 255, 255) # Azúrová
@@ -116,14 +117,16 @@ r, r, s, s, s, s, s, s]
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca Paxiho.](images/paxi.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Autor: tím tony_pi, Taliansko
+Created by team g4lemoni, Greece
 
 ```python
 v = (255, 0, 0) # Červená
@@ -146,18 +149,16 @@ obrazok = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Pes
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúcimi hlavu psa.](images/dog.png)
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Autor: tím ptpr_07, Španielsko
+Created by Gary, United Kingdom
 
 ```python
-
 c = (0, 0, 0) # Čierna
 r = (184, 134, 11) # Tmavožltá
 s = (139, 69, 19) # Sedlová hnedá
@@ -173,19 +174,19 @@ obrazok = [
     c, c, s, y, y, s, c, c,
     c, c, c, y, y, c, c, c]
 
-
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
 ---
-Názov: Chameleón
+title: Chameleón
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca dúhového chameleóna.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Autor: tím The_ETs, Spojené kráľovstvo
+Created by team hop2p023, Spain
 
 ```python
 
@@ -210,6 +211,7 @@ obrazok = [
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
 
+
 ```
 
 --- /collapse ---
@@ -219,9 +221,9 @@ obrazok = [
 title: Šarkan
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúcimi šarkana.](images/kite.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Autor: tím Val, Grécko
+Created by Peter, Ireland
 
 ```python
 
@@ -251,9 +253,9 @@ obrazok = [
 title: Kuriatko
 ---
 
-![Mriežka s 8 x 8 štvorcami zobrazujúca kuriatko.](images/chicken.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Autor: tím Slepičky, Česko
+Created by team Jmeno, Czech Republic
 
 ```python
 
@@ -277,6 +279,40 @@ obrazok =  [
 
 --- /collapse ---
 
+--- collapse ---
+---
+line_highlights: 18, 19
+---
+
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+
+Created by team Zssh14, Slovakia
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
+
+```
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -286,11 +322,11 @@ obrazok =  [
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Tmavoorchideová q = (255, 255, 0) # Žltá d = (51, 153, 255) # Modrá c = (0, 0, 0) # Čierna
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Zobraziť obrázok
 sense.set_pixels(image)
