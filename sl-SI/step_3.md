@@ -1,12 +1,18 @@
 ## Prikažite sliko
 
-LED matrika računalnika Astro Pi lahko prikazuje barve. V tem koraku boste prikazali slike iz narave na LED matriki Astro Pi.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED matrika**</span> je mreža LED diod, ki jih je mogoče nadzorovati posamično ali kot skupino za ustvarjanje različnih svetlobnih učinkov. Matrika LED na Sense HAT ima 64 LED, postavljenih v 8x8 mrežo. Te diode je mogoče programirati za ustvarjanje širokega spektra barv.
 </p>
 
-![Posnetek zaslona okna emulatorja, ki prikazuje letalsko enoto z matriko LED, ki prikazuje sliko rože.](images/fu-pic.png)
+![Posnetek zaslona okna emulatorja, ki prikazuje letalsko enoto z matriko LED, ki prikazuje sliko rože.](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ Preverite, ali se vaša koda ujema s kodo v zgornjih primerih
++ Preverite, ali ste zamaknili kodo na seznamu
++ Preverite, ali je vaš seznam obkrožen z `[` in `]`
+
 
 --- task ---
 
@@ -40,19 +46,9 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Barve lahko ustvarite z različnimi razmerji rdeče, zelene in modre. O barvah RGB si lahko preberete tukaj:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. Tukaj je seznam spremenljivk za 24 različnih barv. Vsaka barva ima vrednost za rdečo, zeleno in modro:
-
-[[[ambient-colours]]]
-
-### Izberi sliko
-
---- task ---
-
-**Izberite:** Med spodnjimi možnostmi izberite sliko za prikaz. Python shrani informacije za sliko na seznam. Koda za vsako sliko v seznamu vsebuje uporabljene barvne spremenljivke.
-
-Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v svoj projekt pod vrstico, ki pravi `# Dodaj barvne spremenljivke in sliko`.
+LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
 --- collapse ---
 
@@ -60,9 +56,7 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 title: Riba
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo ribo.](images/fish.png)
-
-Ustvarila ekipa chalka, Poljska
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
 
 ```python
 z = (153, 50, 204) # Svetlo vijolična
@@ -70,7 +64,7 @@ q = (255, 255, 0) # Rumena
 d = (51, 153, 255) # Modra
 c = (0, 0, 0) # Črna
 
-image = [
+slika = [
 d, d, z, d, d, d, d, d,
 d, d, d, z, z, d, d, d,
 z, d, q, q, q, q, d, d,
@@ -84,6 +78,13 @@ d, d, d, z, d, d, d, d]
 
 --- /collapse ---
 
+### Izberi sliko
+
+--- task ---
+
+**Izberite:** Med spodnjimi možnostmi izberite sliko za prikaz. Python shrani informacije za sliko na seznam. Koda za vsako sliko v seznamu vsebuje uporabljene barvne spremenljivke.
+
+Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v svoj projekt pod vrstico, ki pravi `# Dodaj barvne spremenljivke in sliko`.
 
 --- collapse ---
 
@@ -91,9 +92,9 @@ d, d, d, z, d, d, d, d]
 title: Mrož
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo mroža.](images/walrus.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Ustvarila ekipa Mrož, Finska
+Created by Team Naicom, Italy
 
 ```python
 h = (0, 255, 255) # Cian
@@ -102,7 +103,7 @@ s = (139, 69, 19) # Rjava
 a = (255, 255, 255) # Bela
 r = (184, 134, 11) # Temno zlata
 
-image = [
+slika = [
 h, h, h, h, h, h, h, h,
 h, h, s, s, s, h, h, h,
 h, s, s, s, s, s, h, h,
@@ -116,14 +117,16 @@ r, r, s, s, s, s, s, s]
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo Paxija.](images/paxi.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Ustvarila ekipa tony_pi, Italija
+Created by team g4lemoni, Greece
 
 ```python
 v = (255, 0, 0) # Rdeča
@@ -132,7 +135,7 @@ c = (0, 0, 0) # Črna
 e = (100, 149, 237) # Sinje modra
 l = (0, 255, 0) # Zelena
 
-image = [
+slika = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -146,24 +149,22 @@ image = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Pes
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo glavo psa.](images/dog.png)
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Ustvarila ekipa ptpr_07, Španija
+Created by Gary, United Kingdom
 
 ```python
-
 c = (0, 0, 0) # Črna
 r = (184, 134, 11) # Temno zlata
 s = (139, 69, 19) # Rjava
 y = (255, 20, 147) # Temno roza
 
-image = [
+slika = [
     c, r, r, c, c, r, r, c,
     c, r, s, s, s, s, r, c,
     c, r, c, s, s, c, r, c,
@@ -173,19 +174,19 @@ image = [
     c, c, s, y, y, s, c, c,
     c, c, c, y, y, c, c, c]
 
-
 ```
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
 title: Kameleon
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo mavrično obarvanega kameleona.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Ustvarila ekipa The_ETs, Združeno kraljestvo
+Created by team hop2p023, Spain
 
 ```python
 
@@ -200,7 +201,7 @@ h = (0, 255, 255) # Cian
 z = (153, 50, 204) # Svetlo vijolična
 y = (255, 20, 147) # Temno roza
 
-image = [
+slika = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -209,6 +210,7 @@ image = [
     a, a, a, a, a, a, a, z,
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
+
 
 ```
 
@@ -219,9 +221,9 @@ image = [
 title: Zmaj
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo zmaja.](images/kite.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Ustvarila ekipa Val, Grčija
+Created by Peter, Ireland
 
 ```python
 
@@ -232,7 +234,7 @@ q = (255, 255, 0) # Rumena
 e = (0, 0, 205) # Modra
 h = (0, 255, 255) # Cian
 
-image = [
+slika = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
@@ -251,9 +253,9 @@ image = [
 title: Piščanec
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo piščanca.](images/chicken.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Ustvarila ekipa Slepicky, Češka
+Created by team Jmeno, Czech Republic
 
 ```python
 
@@ -263,7 +265,7 @@ b = (105, 105, 105) # Temno siva
 q = (255, 255, 0) # Rumena
 r = (184, 134, 11) # Temno zlata
 
-image =  [
+slika =  [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -272,6 +274,40 @@ image =  [
     c, v, b, r, r, r, b, r,
     c, c, c, r, b, q, r, c,
     c, c, c, c, q, q, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+line_highlights: 18, 19
+---
+
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+
+Created by team Zssh14, Slovakia
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -286,11 +322,11 @@ image =  [
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Svetlo vijolična q = (255, 255, 0) # Rumena d = (51, 153, 255) # Modra c = (0, 0, 0) # Črna
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Prikažite sliko
 sense.set_pixels(image)
