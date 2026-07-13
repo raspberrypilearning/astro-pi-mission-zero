@@ -1,12 +1,18 @@
 ## Jeleníts meg egy képet
 
-Az Astro Pi LED-mátrixa színeket is meg tud jeleníteni. Ebben a lépésben a természetről szóló képeket fogsz megjeleníteni az Astro Pi LED-mátrixán.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">**LED mátrix**</span> egy LED-ekből álló rács, amely egyenként vagy csoportosan vezérelhető, hogy létrehozz különféle fényhatásokat. A Sense HAT LED-mátrixa 64 LED-ből áll egy 8*8-as rácson elhelyezve. A LED-eket be lehet programozni, hogy a színek széles skáláját mustassák.
 </p>
 
-![Képernyőkép az emulátorról, amely a Repülési Egységet mutatja, a LED-mátrixon egy virágnak a képével.](images/fu-pic.png)
+![Képernyőkép az emulátorról, amely a Repülési Egységet mutatja, a LED-mátrixon egy virágnak a képével.](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ Ellenőrizd, hogy a kódod megegyezik-e a fenti példákban látható kóddal
++ Ellenőrizd, hogy beljebb kezdted-e a kódot a listádban
++ Ellenőrizd, hogy a listád `[` és `]` között van-e
+
 
 --- task ---
 
@@ -40,19 +46,9 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Bármilyen színt létrehozhatsz a vörös, a zöld és a kék különböző arányainak használatával. Itt többet tudhatsz meg az RGB-színekről:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-A LED-mátrix egy 8*8-as rács. A rácson mindegyik LED más színre állítható be. Itt egy lista színváltozókból 24 különböző színhez. Mindegyik szín egy vörös, zöld és kék értékkel rendelkezik:
-
-[[[ambient-colours]]]
-
-### Válassz egy képet
-
---- task ---
-
-**Válassz:** Az alábbi képek között keress egyet, amely tetszik. A Python a kép információit egy listában tárolja. Mindegyik kép kódja tartalmazza a felhasznált színváltozókat és a listát.
-
-Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a projektedbe a `Színváltozók és kép hozzáadása` sor alá.
+A LED-mátrix egy 8*8-as rács. A rácson mindegyik LED más színre állítható be. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
 --- collapse ---
 
@@ -60,9 +56,7 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 title: Hal
 ---
 
-![Egy 8*8-as rács, amely egy hal képét mutatja.](images/fish.png)
-
-Készítette: chalka csapat, Lengyelország
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
 
 ```python
 z = (153, 50, 204) # DarkOrchid - lila
@@ -70,7 +64,7 @@ q = (255, 255, 0) # sárga
 d = (51, 153, 255) # kék
 c = (0, 0, 0) # fekete
 
-image = [
+kep = [
 d, d, z, d, d, d, d, d,
 d, d, d, z, z, d, d, d,
 z, d, q, q, q, q, d, d,
@@ -84,6 +78,13 @@ d, d, d, z, d, d, d, d]
 
 --- /collapse ---
 
+### Válassz egy képet
+
+--- task ---
+
+**Válassz:** Az alábbi képek között keress egyet, amely tetszik. A Python a kép információit egy listában tárolja. Mindegyik kép kódja tartalmazza a felhasznált színváltozókat és a listát.
+
+Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a projektedbe a `Színváltozók és kép hozzáadása` sor alá.
 
 --- collapse ---
 
@@ -91,9 +92,9 @@ d, d, d, z, d, d, d, d]
 title: Rozmár
 ---
 
-![Egy 8*8-as rács, amely egy rozmár képét mutatja.](images/walrus.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Készítette: Walrus csapat, Finnország
+Created by Team Naicom, Italy
 
 ```python
 h = (0, 255, 255) # cián
@@ -102,7 +103,7 @@ s = (139, 69, 19) # SaddleBrown - barna
 a = (255, 255, 255) # fehér
 r = (184, 134, 11) # DarkGoldenrod - arany
 
-image = [
+kep = [
 h, h, h, h, h, h, h, h,
 h, h, s, s, s, h, h, h,
 h, s, s, s, s, s, h, h,
@@ -116,14 +117,16 @@ r, r, s, s, s, s, s, s]
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Egy 8*8-as rács, amely Paxi képét mutatja.](images/paxi.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Készítette: tony_pi csapat, Olaszország
+Created by team g4lemoni, Greece
 
 ```python
 v = (255, 0, 0) # vörös
@@ -132,7 +135,7 @@ c = (0, 0, 0) # fekete
 e = (100, 149, 237) # CornflowerBlue - világoskék
 l = (0, 255, 0) # zöld
 
-image = [
+kep = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -146,24 +149,22 @@ image = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Kutya
 ---
 
-![Egy 8*8-as rács, amely egy kutya képét mutatja.](images/dog.png)
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Készítette: ptpr_07 csapat, Spanyolország
+Created by Gary, United Kingdom
 
 ```python
-
 c = (0, 0, 0) # fekete
 r = (184, 134, 11) # DarkGoldenrod - arany
 s = (139, 69, 19) # SaddleBrown - barna
 y = (255, 20, 147) # DeepPink - rózsaszín
 
-image = [
+kep = [
     c, r, r, c, c, r, r, c,
     c, r, s, s, s, s, r, c,
     c, r, c, s, s, c, r, c,
@@ -173,19 +174,19 @@ image = [
     c, c, s, y, y, s, c, c,
     c, c, c, y, y, c, c, c]
 
-
 ```
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
 title: Kaméleon
 ---
 
-![Egy 8*8-as rács, amely egy szivárványszínű kaméleon képét mutatja.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Készítette: The_ETs csapat, Egyesült Királyság
+Created by team hop2p023, Spain
 
 ```python
 
@@ -200,7 +201,7 @@ h = (0, 255, 255) # cián
 z = (153, 50, 204) # DarkOrchid - lila
 y = (255, 20, 147) # DeepPink - rózsaszín
 
-image = [
+kep = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -209,6 +210,7 @@ image = [
     a, a, a, a, a, a, a, z,
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
+
 
 ```
 
@@ -219,9 +221,9 @@ image = [
 title: Papírsárkány
 ---
 
-![Egy 8*8-as rács, amely egy papírsárkány képét mutatja.](images/kite.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Készítette: Val csapat, Görögország
+Created by Peter, Ireland
 
 ```python
 
@@ -232,7 +234,7 @@ q = (255, 255, 0) # sárga
 e = (0, 0, 205) # MediumBlue - sötétkék
 h = (0, 255, 255) # cián
 
-image = [
+kep = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
@@ -251,9 +253,9 @@ image = [
 title: Csirke
 ---
 
-![Egy 8*8-as rács, amely egy csirke képét mutatja.](images/chicken.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Készítette: Slepicky csapat, Csehország
+Created by team Jmeno, Czech Republic
 
 ```python
 
@@ -263,7 +265,7 @@ b = (105, 105, 105) # DimGray - szürke
 q = (255, 255, 0) # sárga
 r = (184, 134, 11) # DarkGoldenrod - arany
 
-image =  [
+kep =  [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -272,6 +274,40 @@ image =  [
     c, v, b, r, r, r, b, r,
     c, c, c, r, b, q, r, c,
     c, c, c, c, q, q, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+line_highlights: 18, 19
+---
+
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+
+Created by team Zssh14, Slovakia
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -286,11 +322,11 @@ image =  [
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # DarkOrchid - lila q = (255, 255, 0) # sárga d = (51, 153, 255) # kék c = (0, 0, 0) # fekete
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # A kép megjelenítése
 sense.set_pixels(image)
