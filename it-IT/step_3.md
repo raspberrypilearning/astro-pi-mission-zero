@@ -1,12 +1,18 @@
 ## Mostra un’immagine
 
-La matrice LED di Astro Pi può visualizzare i colori. In questa fase, visualizzerai immagini prese dalla natura sulla matrice LED di Astro Pi.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Una <span style="color: #0faeb0">**matrice LED**</span> è una griglia di LED che può essere controllata individualmente o in gruppo per creare diversi effetti di luce. La matrice LED del Sense HAT ha 64 LED disposti in una griglia 8 x 8. I LED possono essere programmati per produrre un'ampia gamma di colori.
 </p>
 
-![Uno screenshot della finestra dell'emulatore che mostra l'unità di volo con la matrice LED che mostra l'immagine di un fiore.](images/fu-pic.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ c = black
++ f = midnight blue
++ g = deep sky blue
+
 
 --- task ---
 
@@ -40,11 +46,47 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 I colori possono essere creati utilizzando diverse quantità di rosso, verde e blu. Puoi scoprire i colori RGB qui:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
 La matrice LED è una griglia 8 x 8. Ciascun LED sulla griglia può essere impostato a un colore diverso. Ecco un elenco di variabili per 24 diversi colori. Ogni colore ha un valore per rosso, verde e blu:
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: List of Colour Variables
+---
+
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+
+```python
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+d = (25, 25, 113)   # Navy Blue
+e = (0, 0, 255)     # Pure Blue
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+h = (86, 255, 255)  # Electric Cyan
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+p = (180, 34, 34)   # Brick Red
+q = (255, 0, 0)     # Pure Red
+r = (232, 118, 5)   # Orange
+s = (241, 231, 100) # Pale Yellow
+t = (255, 255, 0)   # Pure Yellow
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+
+```
+
+--- /collapse ---
 
 ### Scegli un'immagine
 
@@ -57,73 +99,43 @@ Dovrai **copiare** tutto il codice per l'immagine scelta, quindi **incollarlo** 
 --- collapse ---
 
 ---
-title: Pesce
----
-
-![Una griglia con 8 x 8 quadrati che mostra un pesce.](images/fish.png)
-
-Creato dal team chalka, Polonia
-
-```python
-z = (153, 50, 204) # Orchidea sura
-q = (255, 255, 0) # Giallo
-d = (51, 153, 255) # Blu
-c = (0, 0, 0) # Nero
-
-immagine = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
 title: Tricheco
 ---
 
-![Una griglia con 8 x 8 quadrati che raffigura un tricheco.](images/walrus.png)
+![Una griglia con 8 x 8 quadrati che mostra un pesce.](images/whale.png)
 
-Creato dal team Walrus, Finlandia
+Creato dal team tony_pi, Italia
 
 ```python
-h = (0, 255, 255) # Ciano
 c = (0, 0, 0) # Nero
-s = (139, 69, 19) # Marrone sella
-a = (255, 255, 255) # Bianco
 r = (184, 134, 11) # Asta oro scuro
+s = (139, 69, 19) # Marrone sella
+y = (255, 20, 147) # Rosa scurp
 
 immagine = [
-h, h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra Paxi.](images/paxi.png)
+![Una griglia con 8 x 8 quadrati che mostra un aquilone.](images/lemon.png)
 
-Creato dal team tony_pi, Italia
+Creato dal team Val, Grecia
 
 ```python
 v = (255, 0, 0) # Rosso
@@ -146,46 +158,45 @@ immagine = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Cane
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra la testa di un cane.](images/dog.png)
+![Una griglia con 8 x 8 quadrati che mostra un pollo.](images/pig.png)
 
-Creato dal team ptpr_07, Spagna
+Created by Gary, United Kingdom
 
 ```python
-
+h = (0, 255, 255) # Ciano
 c = (0, 0, 0) # Nero
-r = (184, 134, 11) # Asta oro scuro
 s = (139, 69, 19) # Marrone sella
-y = (255, 20, 147) # Rosa scurp
+a = (255, 255, 255) # Bianco
+r = (184, 134, 11) # Asta oro scuro
 
 immagine = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
-
+h, h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
 title: Camaleonte
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un camaleonte color arcobaleno.](images/chameleon.png)
+![Una griglia con 8 x 8 quadrati che raffigura un tricheco.](images/storm.png)
 
-Creato dal team The_ETs, Regno Unito
+Creato dal team ptpr_07, Spagna
 
 ```python
 
@@ -210,6 +221,7 @@ immagine = [
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
 
+
 ```
 
 --- /collapse ---
@@ -219,9 +231,9 @@ immagine = [
 title: Aquilone
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un aquilone.](images/kite.png)
+![Una griglia con 8 x 8 quadrati che mostra la testa di un cane.](images/duck.png)
 
-Creato dal team Val, Grecia
+Created by Peter, Ireland
 
 ```python
 
@@ -251,7 +263,7 @@ immagine = [
 title: Gallina
 ---
 
-![Una griglia con 8 x 8 quadrati che mostra un pollo.](images/chicken.png)
+![Una griglia con 8 x 8 quadrati che mostra un camaleonte color arcobaleno.](images/frog.png)
 
 Creato dal team Slepicky, Repubblica Ceca
 
@@ -277,6 +289,36 @@ immagine = [
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Blossom Tree
+---
+
+![Una griglia con 8 x 8 quadrati che mostra Paxi.](images/blossom.png)
+
+Creato dal team chalka, Polonia
+
+```python
+
+z = (153, 50, 204) # Orchidea sura
+q = (255, 255, 0) # Giallo
+d = (51, 153, 255) # Blu
+c = (0, 0, 0) # Nero
+
+immagine = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
+
+```
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -288,9 +330,9 @@ immagine = [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # Orchidea scura q = (255, 255, 0) # Giallo d = (51, 153, 255) # Blu c = (0, 0, 0) # Nero
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+immagine = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 # Mostra l'immagine
 sense.set_pixels(image)
