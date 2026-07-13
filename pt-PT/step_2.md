@@ -4,12 +4,10 @@ Um Astro Pi é um computador Raspberry Pi envolto numa caixa especialmente proje
 
 ![Imagem animada de um Sense HAT a ser ligado ao topo de um computador Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Os computadores Astro Pi vêm com um conjunto de sensores e gadgets que podem ser usados para realizar grandes experiências científicas. Este conjunto de sensores chama-se "Sense HAT" (que significa "Hardware Conectado (attached) no Topo"). O Sense HAT dá ao Astro Pi a capacidade de “sentir” e fazer muitos tipos de medições, de temperatura a movimento, e até informação de saída usando um ecrã de matriz LED de 8 x 8. Os Astro Pi também tem joystick e botões, como uma consola de videojogos!
+Os computadores Astro Pi vêm com um conjunto de sensores e gadgets que podem ser usados para realizar grandes experiências científicas. Este conjunto de sensores chama-se "Sense HAT" (que significa "Hardware Conectado (attached) no Topo"). A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such as temperature, motion and the colour of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
 
-![Imagem animada de um Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
-Para esta missão, vai usar o emulador Sense HAT, que simula as funções principais do Astro Pi no teu navegador de Internet.
-
-
-
-
+![an 8x8 pixel art image of a whale](images/whaleblank.png)
