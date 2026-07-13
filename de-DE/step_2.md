@@ -4,12 +4,10 @@ Ein Astro Pi ist ein Raspberry Pi Computer, in einem Gehäuse, das speziell für
 
 ![Animiertes Bild eines Sense HAT, das an der Oberseite eines Raspberry Pi-Computers angebracht ist.](images/astro_pi_casing.jpeg)
 
-Astro Pi Computer verfügen über eine Reihe von Sensoren und Gadgets, mit denen man großartige wissenschaftliche Experimente durchführen kann. Dieser Satz von Sensoren wird als „Sense HAT“ bezeichnet (was für „Hardware Attached on Top“ steht). Das Sense HAT gibt Astro Pi die Möglichkeit, viele Daten zu „erfassen“ und verschiedene Arten von Messungen durchzuführen, von Temperatur bis zu Bewegung, und Informationen über ein 8 x 8 LED-Matrix-Display auszugeben. Die Astro Pis haben auch einen Joystick und Tasten, genau wie eine Videospielkonsole!
+Astro Pi Computer verfügen über eine Reihe von Sensoren und Gadgets, mit denen man großartige wissenschaftliche Experimente durchführen kann. Dieser Satz von Sensoren wird als „Sense HAT“ bezeichnet (was für „Hardware Attached on Top“ steht). A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such as temperature, motion and the colour of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
 
-![Animiertes Bild eines Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
-Für diese Mission wirst du den Sense HAT Emulator verwenden. Der Emulator ist eine Software, die alle Funktionen des Astro Pi in deinem Webbrowser simuliert.
-
-
-
-
+![an 8x8 pixel art image of a whale](images/whaleblank.png)
