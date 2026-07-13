@@ -4,12 +4,10 @@ Astro Pi je počítač od společnosti Raspberry Pi, který je uzavřený v pouz
 
 ![Animovaný obrázek obsahující desku Sense HAT, která je připevněná k vrchní části počítače Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Počítače Astro Pi jsou dodávány se sadou senzorů a pomůcek, které lze použít k provádění důležitých vědeckých experimentů. Tato sada senzorů se nazývá „Sense HAT“ (což znamená „Hardware Attached on Top’“, tedy „hardware připevněný navrchu“). Sense HAT nabízí počítači Astro Pi možnost „snímat“ a provádět různá měření od pohybu po teplotu a předává tuto informaci pomocí maticové LED obrazovky o velikosti 8 × 8. Počítače Astro Pi mají také joystick a tlačítka stejně jako herní konzole!
+Astro Pi computers have a set of sensors called the ‘Sense HAT’ that astronauts and children can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such as temperature, motion and the colour of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
 
-![Animovaný obrázek obsahující desku Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
-V této misi budeš využívat emulátor Sense HAT, který simuluje hlavní funkce počítače Astro Pi ve tvém webovém prohlížeči.
-
-
-
-
+![an 8x8 pixel art image of a whale](images/whaleblank.png)
