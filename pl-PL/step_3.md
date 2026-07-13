@@ -1,12 +1,18 @@
 ## Wyświetl obrazek
 
-Diody LED Astro Pi mogą świecić się na kolorowo. W tym kroku będziesz wyświetlać obrazy z natury na matrycy LED Astro Pi.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Matryca LED**</span> to siatka diod LED, które mogą być kontrolowane pojedynczo lub jako grupa, aby tworzyć różne efekty wyświetlania. Matryca LED na Sense HAT ma 64 diody LED wyświetlane w siatce 8 x 8. Diody LED mogą być zaprogramowane w celu uzyskania szerokiej gamy kolorów.
 </p>
 
-![Zrzut ekranu okna emulatora przedstawiającego komputer z matrycą LED wyświetlającą obrazek kwiatka.](images/fu-pic.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ c = black
++ f = midnight blue
++ g = deep sky blue
+
 
 --- task ---
 
@@ -40,11 +46,47 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Kolory można tworzyć przy użyciu różnych proporcji czerwieni, zieleni i niebieskiego. Dowiedz się więcej o kolorach RGB tutaj:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
 Matryca LED to siatka 8 x 8. Każda dioda świecąca na siatce może być ustawiona na inny kolor. Oto lista zmiennych dla 24 różnych kolorów. Każdy kolor ma wartość dla czerwonego, zielonego i niebieskiego:
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: List of Colour Variables
+---
+
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+
+```python
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+d = (25, 25, 113)   # Navy Blue
+e = (0, 0, 255)     # Pure Blue
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+h = (86, 255, 255)  # Electric Cyan
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+p = (180, 34, 34)   # Brick Red
+q = (255, 0, 0)     # Pure Red
+r = (232, 118, 5)   # Orange
+s = (241, 231, 100) # Pale Yellow
+t = (255, 255, 0)   # Pure Yellow
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+
+```
+
+--- /collapse ---
 
 ### Wybierz obraz
 
@@ -57,73 +99,43 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 --- collapse ---
 
 ---
-title: Ryba
----
-
-![Siatka kwadratów 8 x 8 przedstawiających rybę.](images/fish.png)
-
-Stworzone przez zespół chalka, Polska
-
-```python
-z = (153, 50, 204) # CiemnaOrchidea
-q = (255, 255, 0) # Żółty
-d = (51, 153, 255) # Niebieski
-c = (0, 0, 0) # Czarny
-
-obraz = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
 title: Mors
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających morsa.](images/walrus.png)
+![Siatka kwadratów 8 x 8 przedstawiających rybę.](images/whale.png)
 
-Stworzone przez zespół Walrus, Finlandia
+Stworzone przez zespół tony_pi, Włochy
 
 ```python
-h = (0, 255, 255) # Cyjan
 c = (0, 0, 0) # Czarny
-s = (139, 69, 19) # Kasztanowy brąz
-a = (255, 255, 255) # Biały
 r = (184, 134, 11) # Ciemna nawłoć
+s = (139, 69, 19) # Kasztanowy brąz
+y = (255, 20, 147) # Ciemny róż
 
-obraz = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+obrazek = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających Paxi.](images/paxi.png)
+![Siatka kwadratów 8 x 8 przedstawiających morsa.](images/lemon.png)
 
-Stworzone przez zespół tony_pi, Włochy
+Stworzone przez zespół Val, Grecja
 
 ```python
 v = (255, 0, 0) # Czerwony
@@ -132,7 +144,7 @@ c = (0, 0, 0) # Czarny
 e = (100, 149, 237) # Chabrowy
 l = (0, 255, 0) # Zielony
 
-obraz = [
+obrazek = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -146,46 +158,45 @@ obraz = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Pies
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających głowę psa.](images/dog.png)
+![Siatka kwadratów 8 x 8 przedstawiających kurczaka.](images/pig.png)
 
-Stworzone przez zespół ptpr_07, Hiszpania
+Created by Gary, United Kingdom
 
 ```python
-
+h = (0, 255, 255) # Cyjan
 c = (0, 0, 0) # Czarny
-r = (184, 134, 11) # Ciemna nawłoć
 s = (139, 69, 19) # Kasztanowy brąz
-y = (255, 20, 147) # Ciemny róż
+a = (255, 255, 255) # Biały
+r = (184, 134, 11) # Ciemna nawłoć
 
-obraz = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
-
+obrazek = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
 title: Kameleon
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających kameleona w kolorach tęczy.](images/chameleon.png)
+![Siatka kwadratów 8 x 8 przedstawiających latawiec.](images/storm.png)
 
-Stworzone przez zespół The_ETs, Wielka Brytania
+Stworzone przez zespół ptpr_07, Hiszpania
 
 ```python
 
@@ -200,7 +211,7 @@ h = (0, 255, 255) # Cyjan
 z = (153, 50, 204) # Ciemna orchidea
 y = (255, 20, 147) # Ciemny róż
 
-obraz = [
+obrazek = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -209,6 +220,7 @@ obraz = [
     a, a, a, a, a, a, a, z,
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
+
 
 ```
 
@@ -219,9 +231,9 @@ obraz = [
 title: Latawiec
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających latawiec.](images/kite.png)
+![Siatka kwadratów 8 x 8 przedstawiających Paxi.](images/duck.png)
 
-Stworzone przez zespół Val, Grecja
+Created by Peter, Ireland
 
 ```python
 
@@ -232,7 +244,7 @@ q = (255, 255, 0) # Żółty
 e = (0, 0, 205) # Średni niebieski
 h = (0, 255, 255) # Cyjan
 
-obraz = [
+obrazek = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
@@ -251,7 +263,7 @@ obraz = [
 title: Kurczak
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających kurczaka.](images/chicken.png)
+![Siatka kwadratów 8 x 8 przedstawiających kameleona w kolorach tęczy.](images/frog.png)
 
 Stworzone przez zespół Slepicky, Czechy
 
@@ -263,7 +275,7 @@ b = (105, 105, 105) # Ciemnoszary
 q = (255, 255, 0) # Żółty
 r = (184, 134, 11) # Ciemna nawłoć
 
-obraz =  [
+obrazek =  [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -272,6 +284,36 @@ obraz =  [
     c, v, b, r, r, r, b, r,
     c, c, c, r, b, q, r, c,
     c, c, c, c, q, q, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Blossom Tree
+---
+
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+
+Created by team Zssh14, Slovakia
+
+```python
+
+z = (153, 50, 204) # CiemnaOrchidea
+q = (255, 255, 0) # Żółty
+d = (51, 153, 255) # Niebieski
+c = (0, 0, 0) # Czarny
+
+obrazek = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -288,9 +330,9 @@ obraz =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # Ciemna orchidea q = (255, 255, 0) # Żółty d = (51, 153, 255) # Niebieski c = (0, 0, 0) # Czarny
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+obrazek = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 # Wyświetl obraz
 sense.set_pixels(image)
