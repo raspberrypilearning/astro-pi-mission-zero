@@ -1,12 +1,18 @@
 ## Mostrar uma imagem
 
-A matriz de LED do Astro Pi pode mostrar cores. Neste passo, irás mostrar imagens da natureza na matriz LED do Astro Pi.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Uma <span style="color: #0faeb0">**matriz LED**</span> é uma grelha de LEDs que podem ser controlados individualmente ou como um grupo para criar diferentes efeitos de iluminação. A matriz LED do Sense HAT possui 64 LEDs dispostos numa grelha de 8 x 8. Os LEDs podem ser programados para produzir uma ampla gama de cores.
 </p>
 
-![Uma captura de ecrã da janela do emulador mostrando a Unidade de Voo com a matriz de LED a exibir a imagem de uma flor.](images/fu-pic.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ c = black
++ f = midnight blue
++ g = deep sky blue
+
 
 --- task ---
 
@@ -40,11 +46,47 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 As cores podem ser criadas usando diferentes proporções de vermelho, verde e azul. Podes descobrir mais sobre as cores RGB aqui:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
 A matriz de LED é uma grelha de 8 x 8. Cada LED na grelha pode ser definido para uma cor diferente. Aqui está uma lista de variáveis para 24 cores diferentes. Cada cor tem um valor para vermelho, verde e azul:
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: List of Colour Variables
+---
+
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+
+```python
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+d = (25, 25, 113)   # Navy Blue
+e = (0, 0, 255)     # Pure Blue
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+h = (86, 255, 255)  # Electric Cyan
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+p = (180, 34, 34)   # Brick Red
+q = (255, 0, 0)     # Pure Red
+r = (232, 118, 5)   # Orange
+s = (241, 231, 100) # Pale Yellow
+t = (255, 255, 0)   # Pure Yellow
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+
+```
+
+--- /collapse ---
 
 ### Escolhe uma imagem
 
@@ -57,73 +99,43 @@ Tu irás precisar de **copiar** todo o código da imagem escolhida e **colá-lo*
 --- collapse ---
 
 ---
-title: Peixe
----
-
-![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/fish.png)
-
-Criado pela equipa chalka, Polónia
-
-```python
-z = (153, 50, 204) # Orquídea Escura
-q = (255, 255, 0) # Amarelo
-d = (51, 153, 255) # Azul
-c = (0, 0, 0) # Preto
-
-image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
 title: Morsa
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir uma morsa.](images/walrus.png)
+![Uma grelha com 8 x 8 quadrados a exibir um peixe.](images/whale.png)
 
-Criado pela equipa Walrus, Finlândia
+Criado pela equipa tony_pi, Itália
 
 ```python
-h = (0, 255, 255) # Ciano
 c = (0, 0, 0) # Preto
-s = (139, 69, 19) # Castanho Sela
-a = (255, 255, 255) # Branco
 r = (184, 134, 11) # Dourado Escuro
+s = (139, 69, 19) # Castanho Sela
+y = (255, 20, 147) # Rosa Profundo
 
-image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+imagem = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
 
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir o Paxi.](images/paxi.png)
+![Uma grelha com 8 x 8 quadrados a exibir uma morsa.](images/lemon.png)
 
-Criado pela equipa tony_pi, Itália
+Criado pela equipa Val, Grécia
 
 ```python
 v = (255, 0, 0) # Vermelho
@@ -132,7 +144,7 @@ c = (0, 0, 0) # Preto
 e = (100, 149, 237) # Azul-Centáurea
 l = (0, 255, 0) # Verde
 
-image = [
+imagem = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -146,46 +158,45 @@ image = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Cão
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um cão.](images/dog.png)
+![Uma grelha com 8 x 8 quadrados a exibir a cabeça de um cão.](images/pig.png)
 
-Criado pela equipa ptpr_07, Espanha
+Criado pela equipa The_ETs, Reino Unido
 
 ```python
-
+h = (0, 255, 255) # Ciano
 c = (0, 0, 0) # Preto
-r = (184, 134, 11) # Dourado Escuro
 s = (139, 69, 19) # Castanho Sela
-y = (255, 20, 147) # Rosa Profundo
+a = (255, 255, 255) # Branco
+r = (184, 134, 11) # Dourado Escuro
 
-image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
-
+imagem = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
 title: Camaleão
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um camaleão colorido como um arco-íris.](images/chameleon.png)
+![Uma grelha com 8 x 8 quadrados a exibir um camaleão colorido como um arco-íris.](images/storm.png)
 
-Criado pela equipa The_ETs, Reino Unido
+Criado pela equipa ptpr_07, Espanha
 
 ```python
 
@@ -200,7 +211,7 @@ h = (0, 255, 255) # Ciano
 z = (153, 50, 204) # Orquídea Escura
 y = (255, 20, 147) # Rosa Profundo
 
-image = [
+imagem = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -209,6 +220,7 @@ image = [
     a, a, a, a, a, a, a, z,
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
+
 
 ```
 
@@ -219,9 +231,9 @@ image = [
 title: Papagaio
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir um Papagaio.](images/kite.png)
+![Uma grelha com 8 x 8 quadrados a exibir um Papagaio.](images/duck.png)
 
-Criado pela equipa Val, Grécia
+Created by Peter, Ireland
 
 ```python
 
@@ -232,7 +244,7 @@ q = (255, 255, 0) # Amarelo
 e = (0, 0, 205) # Azul Médio
 h = (0, 255, 255) # Ciano
 
-image = [
+imagem = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
@@ -251,7 +263,7 @@ image = [
 title: Galinha
 ---
 
-![Uma grelha com 8 x 8 quadrados a exibir uma galinha.](images/chicken.png)
+![Uma grelha com 8 x 8 quadrados a exibir uma galinha.](images/frog.png)
 
 Criado pela equipa Slepicky, República Checa
 
@@ -263,7 +275,7 @@ b = (105, 105, 105) # Cinzento Fosco
 q = (255, 255, 0) # Amarelo
 r = (184, 134, 11) # Dourado Escuro
 
-image =  [
+imagem =  [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -272,6 +284,40 @@ image =  [
     c, v, b, r, r, r, b, r,
     c, c, c, r, b, q, r, c,
     c, c, c, c, q, q, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Blossom Tree
+---
+
+![Uma grelha com 8 x 8 quadrados a exibir o Paxi.](images/blossom.png)
+
+Criado pela equipa chalka, Polónia
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -288,9 +334,9 @@ image =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # Orquídea Escuro q = (255, 255, 0) # Amarelo d = (51, 153, 255) # Azul c = (0, 0, 0) # Preto
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+imagem = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 # Mostrar a imagem
 sense.set_pixels(image)
