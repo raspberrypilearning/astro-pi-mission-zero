@@ -1,37 +1,36 @@
 ## Nasnímanie farby
 
-V tomto kroku nastavíš snímač farebnej svietivosti a použiješ ho na nasnímanie množstva červenej, zelenej a modrej, ktoré sa dostáva na snímač. Táto farba sa potom použije na vyfarbenie zvoleného obrázka. Astronaut kráčajúci k snímaču v modrej košeli by videl iný obrázok ako astronaut v červenej košeli.
+In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
 
-![Obrázok zobrazený s ružovým pozadím na LED matrici.](images/colour_background.png)
+This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
 
-Bez ohľadu na to, ktorý obrázok vyberieš, pozadie používa premennú `c`, ktorá je nastavená na čiernu.
+In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+
+--- code ---
+---
+Na vyfarbenie pozadia použi snímač farieb.
+line_highlights: 9, 10
+---
+Pridaj kód pred zoznam obrázkov, aby si získal/-a farbu zo snímača, a zmeň premennú farby pozadia `c` tak, aby namiesto čiernej používala farbu nasnímanú snímačom farieb modulu Sense HAT.
+
 
 --- task ---
 
-Na vyfarbenie pozadia použi snímač farieb.
+Use the colour sensor to change one of your colours.
 
-Pridaj kód pred zoznam obrázkov, aby si získal/-a farbu zo snímača, a zmeň premennú farby pozadia `c` tak, aby namiesto čiernej používala farbu nasnímanú snímačom farieb modulu Sense HAT.
-
-**Tip:** Nemusíš písať komentáre, ktoré sa začínajú znakom „#“ (sú tu na vysvetlenie kódu).
+Underneath the lines where you define the colours, add the following code:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 9, 10
+Zopakuj svoj program v slučke
 ---
+# Pridajte farebné premenné a obrázok
+obrazok = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-# Add colour variables and image
+This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
 
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
-
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
-
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
-
-
---- /code ---
-
---- /task ---
+Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
 
 --- task ---
 
@@ -41,31 +40,35 @@ image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d
 
 --- /task ---
 
-## Zopakuj svoj program v slučke
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
 
-Program Astro Pi Mission Zero môže bežať až 30 sekúnd. Tento čas využiješ na opakovanú kontrolu snímača farieb a aktualizáciu obrázka.
+You can save and submit your program using the form at the bottom of the code editor.
+  
+However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+</p>
 
-Tvoj kód použije slučku `for` a spustí sa 28-krát. **Zakaždým**:
-+ Nasníma najnovšiu farbu
-+ Aktualizuje farbu obrázka
-+ Pozastaví sa na jednu sekundu
+## line_highlights: 2
+
+Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
 --- task ---
 
-**Nájdi** riadok kódu `rgb = sense.color`.
 
-**Pridaj** kód nadeň a nastav slučku `for` na `28` opakovaní.
+**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 2
+line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ---
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+sense.set_pixels(image)
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+# Importujte knižnice
 
+obrazok = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 --- /code ---
 
@@ -80,136 +83,37 @@ Teraz musíš odsadiť celý kód pod slučkou `for` tak, aby sa nachádzal **vn
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
----
-
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
-
-  image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
-
-
-  # Display the image
-
-  sense.set_pixels(image)
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Na konci kódu pridaj do slučky príkaz `sleep` v dĺžke jednej sekundy:
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 5
 ---
+for i in range(28): rgb = sense.color # získajte farbu zo snímača c = (rgb.red, rgb.green, rgb.blue)
 
-  # Display the image
+obrazok = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
-  sense.set_pixels(image) sleep(1)
+# Nastavte Sense HAT
+# Zobrazte obrázok
 
---- /code ---
-
-**Tip:** Uisti sa, že tento riadok kódu je odsadený v rámci slučky `for`.
-
---- /task ---
-
---- task ---
-
-**Test:** Spusti svoj kód a niekoľkokrát zmeň výber farby počas behu projektu. Skontroluj, či sa obrázok aktualizuje a pri ďalšom spustení použije nasnímanú farbu.
-
-Po dokončení slučky sa obrázok prestane aktualizovať, aby program nebežal dlhšie ako 30 sekúnd.
+  sense.set_pixels(obrazok)
 
 --- /task ---
 
 --- task ---
 
-**Ladenie**
-
-Môj kód má chybu syntaxe alebo nefunguje podľa očakávania:
-
-- Skontroluj, či sa kód zhoduje s kódom v príkladoch vyššie
-- Skontroluj, či je kód v slučke `for` odsadený
-- Skontroluj, či je zoznam uzavretý v znakoch `[` a `]`
-- Skontroluj, či sú jednotlivé farebné premenné v zozname oddelené čiarkou
-
-Môj kód beží dlhšie ako 30 sekúnd:
-
-- Zníž počet spustení slučky z 28 na 25 alebo dokonca na 20.
-- Skráť pauzu z 1 sekundy na 0,5 sekundy.
+**Test:** Znova spusti kód. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
 
 --- /task ---
 
---- task ---
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+</p>
 
-Pridaj príkaz `sense.clear()` na koniec kódu, aby sa na konci cyklu obrázok vymazal. Vďaka tomu zistíš, kedy sa animácia skončila.
+--- task --- **Check for errors**
 
-**Tip:** Dávaj pozor, aby riadok kódu `sense.clear()` **nebol odsadený**, pretože chceš, aby sa spustil iba raz na konci animácie.
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 7
----
-
-  # Display the image
-
-  sense.set_pixels(image) sleep(1)
-
-sense.clear()
-
---- /code ---
+# Zobrazte obrázok
+- Nasníma najnovšiu farbu
+- Aktualizuje farbu obrázka
+- Pozastaví sa na jednu sekundu
 
 --- /task ---
-
---- task ---
-
-**Test:** Znova spusti kód. Keď sa projekt skončí, LED matrica sa vymaže a všetky svetlá budú čierne (zhasnuté).
-
---- /task ---
-
---- task ---
-
-**Ladenie**
-
-LED matrica každú sekundu sčernie:
-
-- Skontroluj, či v slučke `for` nie je kód `sense.clear()` odsadený
-
---- /task ---
-
---- task ---
-
-Pridaj kód na vymazanie LED matrice na farbu podľa svojho výberu. Vytvor premennú s názvom `x` na uloženie novej farby.
-
-Môžeš si namiešať vlastnú farbu alebo použiť hodnoty zo zoznamu farieb na vytvorenie novej farby `x`.
-
-\[[[generic-theory-simple-colours]]\] \[[[ambient-colours\]]]
-
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 7, 8
----
-
-  # Display the image
-
-  sense.set_pixels(image) sleep(1)
-
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sense.clear(x)
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test:** Znova spusti kód. Po dokončení projektu sa LED matrica zobrazí v tebou zvolenej farbe. Farbu môžete zmeniť a potom otestovať, koľkokrát chcete.
-
---- /task ---
-
 
 --- task ---
 
@@ -217,20 +121,12 @@ x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255 sen
 
 Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu tímu, mien členov tímu a kódu triedy, ktorý si dostal/-a. Svoj program môžeš znova načítať na akomkoľvek zariadení s internetovým pripojením zadaním názvu tímu a kódu triedy.
 
-![Tlačidlo Uložiť v Mission Zero.](images/mz_savebutton_v2.png)
-
 --- /task ---
 
-
---- task ---
-
---- collapse ---
-
+--- task --- --- collapse ---
 ---
-title: Príklad hotového kódu
+line_highlights: 7
 ---
-
-![Mriežka s 8 x 8 štvorcami zobrazujúcimi rybu.](images/fish.png)
 
 --- code ---
 ---
@@ -247,22 +143,50 @@ sense = SenseHat() sense.set_rotation(270)
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 # Add colour variables and image
+Môj kód beží dlhšie ako 30 sekúnd:
 
-z = (153, 50, 204) # DarkOrchid q = (255, 255, 0) # Yellow d = (51, 153, 255) # blue c = (0, 0, 0) # Black
+# Sense a colour
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28): rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-  image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+sense.set_pixels(image) --- /code --- --- /collapse --- --- collapse ---
+---
+title: Príklad hotového kódu
+---
 
+--- code ---
+---
+language: python filename: main.py
+line_numbers: false
+---
+# Import the libraries
+from sense_hat import SenseHat from time import sleep
 
-  # Display the image
+# Set up the Sense HAT
+sense = SenseHat() sense.set_rotation(270)
 
-  sense.set_pixels(image) sleep(1)
+# Set up the colour sensor
+sense.set_pixels(obrazok) sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255 sense.clear(x)
+# Add colour variables and image
+sense.clear()
 
---- /code ---
+# Sense a colour
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
 
---- /collapse ---
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
---- /task ---
+sense.set_pixels(image)
+
+# BASIC SUBMISSION is done by now
+
+# Extra images / frames go here:
+image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
+
+sleep(1)
+
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
+
+  # Display the first image sense.set_pixels(image) sleep(1) --- /code --- --- /collapse --- --- /task ---
