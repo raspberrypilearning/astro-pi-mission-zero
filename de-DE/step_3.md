@@ -1,12 +1,18 @@
 ## Anzeigen eines Bildes
 
-Die LED-Matrix des Astro Pi kann Farben darstellen. In diesem Schritt zeigst du Bilder aus der Natur auf der LED-Matrix des Astro Pi an.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Eine <span style="color: #0faeb0">**LED-Matrix**</span> ist ein Raster von LEDs, die einzeln oder als Gruppe gesteuert werden können, um verschiedene Lichteffekte zu erzeugen. Die LED-Matrix des Sense HAT verfügt über 64 LEDs, die in einem 8 x 8-Raster angeordnet sind. Die LEDs können so programmiert werden, dass sie eine breite Palette von Farben erzeugen.
 </p>
 
-![Ein Screenshot des Emulatorfensters, das die Flugeinheit mit der LED-Matrix zeigt, die ein Bild einer Blume anzeigt.](images/fu-pic.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ c = black
++ f = midnight blue
++ g = deep sky blue
+
 
 --- task ---
 
@@ -40,11 +46,47 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Alle Farben können mit unterschiedlichen Anteilen von rot, grün und blau erzeugt werden. Informationen zu RGB-Farben findest du hier:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
 Die LED-Matrix ist ein 8 x 8 Raster. Jede LED am Raster kann auf eine andere Farbe eingestellt werden. Hier ist eine Liste von Variablen für 24 verschiedene Farben. Jede Farbe hat einen Wert für Rot, Grün und Blau:
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: List of Colour Variables
+---
+
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+
+```python
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+d = (25, 25, 113)   # Navy Blue
+e = (0, 0, 255)     # Pure Blue
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+h = (86, 255, 255)  # Electric Cyan
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+p = (180, 34, 34)   # Brick Red
+q = (255, 0, 0)     # Pure Red
+r = (232, 118, 5)   # Orange
+s = (241, 231, 100) # Pale Yellow
+t = (255, 255, 0)   # Pure Yellow
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+
+```
+
+--- /collapse ---
 
 ### Wähle ein Bild
 
@@ -57,73 +99,43 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-title: Fisch
+title: Walross
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Fisch zeigen.](images/fish.png)
-
-Erstellt vom Team Chalka, Polen
-
-```python
-z = (153, 50, 204) # DunkelOrchidee
-q = (255, 255, 0) # Gelb
-d = (51, 153, 255) # Blau
-c = (0, 0, 0) # Schwarz
-
-image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
-Titel: Walross
----
-
-![Ein Raster mit 8 x 8 Quadraten, die ein Walross zeigen.](images/walrus.png)
-
-Erstellt vom Team Walrus, Finnland
-
-```python
-h = (0, 255, 255) # Zyan
-c = (0, 0, 0) # Schwarz
-s = (139, 69, 19) # Sattelbraun
-a = (255, 255, 255) # Weiß
-r = (184, 134, 11) # DunkleGoldrute
-
-image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-Titel: Paxi
----
-
-![Ein Raster mit 8 x 8 Quadraten, die Paxi zeigen.](images/paxi.png)
+![Ein Raster mit 8 x 8 Quadraten, die ein Walross zeigen.](images/whale.png)
 
 Erstellt vom Team tony_pi, Italien
+
+```python
+c = (0, 0, 0) # Black
+r = (184, 134, 11) # DunkleGoldrute
+s = (139, 69, 19) # Sattelbraun
+y = (255, 20, 147) # TiefesPink
+
+bild = [
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
+---
+title: Paxi
+---
+
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+
+Erstellt vom Team Val, Griechenland
 
 ```python
 v = (255, 0, 0) # Rot
@@ -132,7 +144,7 @@ c = (0, 0, 0) # Schwarz
 e = (100, 149, 237) # Kornblumenblau
 l = (0, 255, 0) # Grün
 
-image = [
+bild = [
     c, v, m, c, c, m, v, c,
     c, c, v, v, v, v, c, c,
     c, v, c, e, l, e, v, c,
@@ -146,46 +158,45 @@ image = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: Hund
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die den Kopf eines Hundes zeigen.](images/dog.png)
+![Ein Raster mit 8 x 8 Quadraten, die den Kopf eines Hundes zeigen.](images/pig.png)
 
-Erstellt vom Team ptpr_07, Spanien
+Created by Gary, United Kingdom
 
 ```python
-
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DunkleGoldrute
+h = (0, 255, 255) # Zyan
+c = (0, 0, 0) # Schwarz
 s = (139, 69, 19) # Sattelbraun
-y = (255, 20, 147) # TiefesPink
+a = (255, 255, 255) # Weiß
+r = (184, 134, 11) # DunkleGoldrute
 
-image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
-
+bild = [
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
 ---
-Titel: Chamäleon
+title: Chamäleon
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, das ein regenbogenfarbenes Chamäleon zeigt.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Erstellt vom Team The_ETs, Vereinigtes Königreich
+Erstellt vom Team ptpr_07, Spanien
 
 ```python
 
@@ -200,7 +211,7 @@ h = (0, 255, 255) # Zyan
 z = (153, 50, 204) # DunkleOrchidee
 y = (255, 20, 147) # TiefesPink
 
-image = [
+bild = [
     a, a, v, v, t, a, a, a,
     a, v, v, t, t, q, a, a,
     v, c, t, t, q, q, m, a,
@@ -209,6 +220,7 @@ image = [
     a, a, a, a, a, a, a, z,
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
+
 
 ```
 
@@ -219,9 +231,9 @@ image = [
 title: Drache
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/kite.png)
+![Ein Raster mit 8 x 8 Quadraten, das ein Huhn zeigt.](images/duck.png)
 
-Erstellt vom Team Val, Griechenland
+Created by Peter, Ireland
 
 ```python
 
@@ -232,7 +244,7 @@ q = (255, 255, 0) # Gelb
 e = (0, 0, 205) # MittelBlau
 h = (0, 255, 255) # Zyan
 
-image = [
+bild = [
     h, h, h, h, h, h, h, h, 
     h, h, h, e, e, v, v, h, 
     h, h, h, e, e, v, v, h, 
@@ -248,10 +260,10 @@ image = [
 
 --- collapse ---
 ---
-Titel: Huhn
+title: Huhn
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, das ein Huhn zeigt.](images/chicken.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/frog.png)
 
 Erstellt vom Team Slepicky, Tschechien
 
@@ -263,7 +275,7 @@ b = (105, 105, 105) # DunklesGrau
 q = (255, 255, 0) # Gelb
 r = (184, 134, 11) # DunkleGoldrute
 
-image =  [
+bild =  [
     c, c, v, v, v, c, c, c,
     c, v, b, b, r, c, c, r,
     c, b, c, b, b, c, r, b,
@@ -272,6 +284,40 @@ image =  [
     c, v, b, r, r, r, b, r,
     c, c, c, r, b, q, r, c,
     c, c, c, c, q, q, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Blossom Tree
+---
+
+![Ein Raster mit 8 x 8 Quadraten, die Paxi zeigen.](images/blossom.png)
+
+Erstellt vom Team Chalka, Polen
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -288,9 +334,9 @@ image =  [
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 18, 19
 ---
-z = (153, 50, 204) # DunkleOrchidee q = (255, 255, 0) # Gelb d = (51, 153, 255) # Blau c = (0, 0, 0) # Schwarz
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+bild = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
 
 # Das Bild anzeigen
 sense.set_pixels(image)
