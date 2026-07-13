@@ -89,7 +89,7 @@ Budeš muset **zkopírovat** celý kód tebou zvoleného obrázku a **vložit** 
 --- collapse ---
 
 ---
-title: Mrož
+title: Whale
 ---
 
 ![A grid with 8 x 8 squares showing a whale.](images/whale.png)
@@ -121,7 +121,7 @@ r, r, s, s, s, s, s, s]
 --- collapse ---
 
 ---
-title: Paxi
+title: Lemon
 ---
 
 ![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
@@ -151,7 +151,7 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Pes
+title: Pig
 ---
 
 ![A grid with 8 x 8 squares showing a pig.](images/pig.png)
