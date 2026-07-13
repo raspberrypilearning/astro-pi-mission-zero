@@ -1,12 +1,18 @@
 ## Vis et billede
 
-Astro Pi'ens LED-matrix kan vise farver. I dette trin skal du vise billeder fra naturen på Astro Pi'ens LED-matrix.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder, der kan styres individuelt eller som en gruppe til at skabe forskellige lyseffekter. LED-matrixen på Sense HAT har 64 lysdioder viset i et 8 x 8 gitter. Lysdioderne kan programmeres til at vise et stort udvalg af farver.
 </p>
 
-![Et skærmbillede af emulatorvinduet, der viser flyenheden med LED-matrixen, der viser et billede af en blomst.](images/fu-pic.png)
+![Et skærmbillede af emulatorvinduet, der viser flyenheden med LED-matrixen, der viser et billede af en blomst.](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
++ Tjek at din kode matcher koden i eksemplerne ovenfor
++ Tjek at du har indrykket koden i din liste
++ Tjek at din liste er omgivet af `[` og `]`
+
 
 --- task ---
 
@@ -40,11 +46,37 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Farver kan laves ved hjælp af forskellige blandinger af rød, grøn og blå. Du kan lære om RGB farver her:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en anden farve. Her er en liste over variabler for 24 forskellige farver. Hver farve har en værdi for rød, grøn og blå:
+LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en anden farve. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Fisk
+---
+
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+
+```python
+z = (153, 50, 204) # MørkOrkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # blå
+c = (0, 0, 0) # Sort
+
+billede = [
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
+
+```
+
+--- /collapse ---
 
 ### Vælg et billede
 
@@ -57,43 +89,12 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Fisk
+title: Hvalros
 ---
 
-![Et gitter med 8 × 8 felter, der viser en fisk.](images/fish.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Lavet af holdet chalka, Polen
-
-```python
-z = (153, 50, 204) # MørkOrkidé
-q = (255, 255, 0) # Gul
-d = (51, 153, 255) # blå
-c = (0, 0, 0) # Sort
-
-billede = [
-d, d, z, d, d, d, d,
-d, d, d, z, z, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
-
-```
-
---- /collapse ---
-
-
---- collapse ---
-
----
-titel: Hvalros
----
-
-![Et gitter med 8 × 8 felter, der viser en hvalros.](images/walrus.png)
-
-Lavet af holdet Walrus, Finland
+Created by Team Naicom, Italy
 
 ```python
 h = (0, 255, 255) # Cyan
@@ -116,14 +117,16 @@ r, r, s, s, s, s, s, s]
 
 --- /collapse ---
 
+
 --- collapse ---
+
 ---
 title: Paxi
 ---
 
-![Et gitter med 8 × 8 felter, der viser Paxi.](images/paxi.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Lavet af holdet tony_pi, Italien
+Created by team g4lemoni, Greece
 
 ```python
 v = (255, 0, 0) # Rød
@@ -146,18 +149,16 @@ billede = [
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
-titel: Hund
+title: Hund
 ---
 
-![Et gitter med 8 × 8 felter, der viser et hundehoved.](images/dog.png)
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Lavet af holdet ptpr_07, Spanien
+Created by Gary, United Kingdom
 
 ```python
-
 c = (0, 0, 0) # Sort
 r = (184, 134, 11) # MørkGyldenris
 s = (139, 69, 19) # Sadelbrun
@@ -173,19 +174,19 @@ billede = [
     c, c, s, y, y, s, c, c,
     c, c, c, y, y, c, c, c]
 
-
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
 ---
-titel: Kamæleon
+title: Kamæleon
 ---
 
-![Et gitter med 8 × 8 felter, der viser en regnbuefarvet kamæleon.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Lavet af holdet The_ETs, Storbritannien
+Created by team hop2p023, Spain
 
 ```python
 
@@ -210,18 +211,19 @@ billede = [
     a, a, a, a, y, a, a, z,
     a, a, a, a, a, y, z, a]
 
+
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-titel: Drage
+title: Drage
 ---
 
-![Et gitter med 8 × 8 felter, der viser en drage.](images/kite.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Lavet af holdet Val, Grækenland
+Created by Peter, Ireland
 
 ```python
 
@@ -251,9 +253,9 @@ billede = [
 title: Kylling
 ---
 
-![Et gitter med 8 × 8 felter, der viser en kylling.](images/chicken.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Lavet af holdet Slepicky, Tjekkiet
+Created by team Jmeno, Czech Republic
 
 ```python
 
@@ -277,6 +279,40 @@ billede =  [
 
 --- /collapse ---
 
+--- collapse ---
+---
+line_highlights: 18, 19
+---
+
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+
+Created by team Zssh14, Slovakia
+
+```python
+
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
+
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
+
+```
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -286,11 +322,11 @@ billede =  [
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # MørkOrkidé q = (255, 255, 0) # Gul d = (51, 153, 255) # blå c = (0, 0, 0) # Sort
+c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Vis billedet
 sense.set_pixels(image)
