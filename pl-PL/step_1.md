@@ -1,11 +1,11 @@
 ## Co będziesz robić
 
-Twój projekt ustawi kolor tła obrazu na kolor, który Astro Pi wykryje. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
 
-Dowiesz się o komputerze Astro Pi i o tym, jak nim sterować, w tym jak: You will:
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
 + Design and display a pixel art image on an Astro Pi computer
-+ Wykryć kolor światła na pokładzie ISS
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
 + Create a simple animation
 
 Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
@@ -14,11 +14,11 @@ Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
 
 ### Czego będziesz potrzebować
 
-Do stworzenia swojego programu będziesz używać emulatora Astro Pi w przeglądarce internetowej. Nie potrzebujesz komputera Astro Pi.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Kryteria Mission Zero Astro Pi
 
-**Jeśli Twój projekt spełni [kryteria kwalifikacyjne](https://astro-pi.org/pl/mission-zero/eligibility){:target="_blank"}**, Twój ukończony program zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program został uruchomiony.
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
