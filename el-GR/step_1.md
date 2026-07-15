@@ -4,9 +4,9 @@ You will program an Astro Pi computer to display a colourful image. Once your pr
 
 In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
-+ Δημιουργία **μεταβλητών** χρώματος για να χρησιμοποιήσεις στην εικόνα σου
-+ Σχεδίαση και εμφάνιση μιας εικόνας pixel art στο Sense HAT
-+ Ανίχνευση του χρώματος του φωτός εντός του ISS
++ Design and display a pixel art image on an Astro Pi computer
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
++ Create a simple animation
 
 Εδώ είναι ένα παράδειγμα του είδους προγράμματος που θα μπορούσες να εκτελέσεις σε ένα Astro Pi στο διάστημα.
 
@@ -27,7 +27,7 @@ title: Σημειώσεις για μέντορες
 
 Το Mission Zero είναι κατάλληλο για αρχάριους/ες στον προγραμματισμό και/ή παιδιά δημοτικού σχολείου και μπορεί να ολοκληρωθεί σε μία μόνο συνεδρία 60 λεπτών σε οποιονδήποτε υπολογιστή με πρόσβαση στο διαδίκτυο. Δεν απαιτείται ειδικό υλικό ή προηγούμενες δεξιότητες προγραμματισμού. Όλα μπορούν να γίνουν σε ένα πρόγραμμα περιήγησης ιστού.
 
- Οργανώστε τους νέους/ες σε ομάδες των 1 έως τεσσάρων ατόμων, και ας τους καθοδηγήσουμε να γράψουν ένα σύντομο πρόγραμμα σε Python για να ανιχνεύσουν το χρώμα μέσα στον ISS και να δημιουργήσουν μια εικόνα που θα χρησιμοποιεί αυτό το χρώμα.
+ Misson Zero can be done individually or in teams of up to 4 people.
 
 Διαβάστε το [επίσημο έγγραφο οδηγιών](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} για το Mission Zero.
 
