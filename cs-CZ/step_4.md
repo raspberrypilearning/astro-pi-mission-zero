@@ -8,10 +8,10 @@ In the whale image we used in the previous step, the background colour was black
 
 --- code ---
 ---
-Použij senzor barev k vybarvení pozadí.
-line_highlights: 9, 10
+language: python filename: main.py line_numbers: false
+line_number_start: 1
 ---
-Před seznam s obrázkem přidej kód, díky němuž získáš naměřenou barvu ze senzoru, a změň proměnnou `c` s pozadím na barvu, kterou zachytil senzor barev desky Sense HAT.
+c = (0, 0, 0) --- /code ---
 
 
 --- task ---
@@ -23,10 +23,10 @@ Underneath the lines where you define the colours, add the following code:
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-Přidej do svého programu cyklus
+line_highlights: 3, 4
 ---
-# Přidej proměnné s barvami a obrázek
-obrazek = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+# Sense a colour
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour --- /code --- --- /task ---
 
 This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
 
@@ -48,7 +48,7 @@ You can save and submit your program using the form at the bottom of the code ed
 However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
 </p>
 
-## line_highlights: 2
+## Animate your project (optional)
 
 Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
@@ -60,15 +60,15 @@ Your Mission Zero program can run on the International Space Station (ISS) for u
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
 image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 sense.set_pixels(image)
 
-# Importuj knihovny
+# Extra images / frames go here:
 
-obrazek = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 --- /code ---
 
@@ -76,23 +76,23 @@ obrazek = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d,
 
 --- task ---
 
-Všechen svůj kód teď musíš odsadit pod cyklus `for` tak, aby se nacházel **uvnitř** těla tohoto cyklu.
+At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
 
-**Tip:** Pokud chceš odsadit více řádků, označ dané řádky a stiskni klávesu <kbd>Tab</kbd> (většinou nad klávesou <kbd>Caps Lock</kbd>).
+**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 5
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
-for i in range(28): rgb = sense.color # Získej barvu ze senzoru c = (rgb.red, rgb.green, rgb.blue)
+image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-obrazek = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+sleep(1)
 
-# Nastav Sense HAT
-# Zobraz obrázek
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
-  sense.set_pixels(obrazek)
+  # Display the first image sense.set_pixels(image) sleep(1) --- /code ---
 
 --- /task ---
 
@@ -108,10 +108,10 @@ If you would like to have more than two frames in your animation, you must make 
 
 --- task --- **Check for errors**
 
-# Zobraz obrázek
-- naměří poslední barvu,
-- aktualizuje pozadí obrázku,
-- se zastaví na jednu sekundu.
+My code has a syntax error or doesn't change frames:
+- Check that your `for` loop code matches the indentation in the example.
+- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
+- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
 
 --- /task ---
 
@@ -125,7 +125,7 @@ Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu
 
 --- task --- --- collapse ---
 ---
-line_highlights: 7
+title: Completed Whale code example
 ---
 
 --- code ---
@@ -143,7 +143,7 @@ sense = SenseHat() sense.set_rotation(270)
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 # Add colour variables and image
-Můj kód běží déle než 30 sekund:
+a = (255, 255, 255) # White c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
 # Sense a colour
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
@@ -152,7 +152,7 @@ image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c
 
 sense.set_pixels(image) --- /code --- --- /collapse --- --- collapse ---
 ---
-title: Příklad dokončeného kódu
+title: Completed Whale code example (with Animation)
 ---
 
 --- code ---
@@ -167,10 +167,10 @@ from sense_hat import SenseHat from time import sleep
 sense = SenseHat() sense.set_rotation(270)
 
 # Set up the colour sensor
-sense.set_pixels(obrazek) sleep(1)
+sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 # Add colour variables and image
-sense.clear()
+a = (255, 255, 255) # White c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
 # Sense a colour
 rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue)
