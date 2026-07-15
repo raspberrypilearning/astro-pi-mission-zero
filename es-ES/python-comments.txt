@@ -12,42 +12,68 @@ Agregar variables de color e imagen
 
 Mostrar la imagen
 
-Orquídea Oscuro
-
-Amarillo
-
-azul
-
-Negro
-
-Cian
-
-MarrónCuero
-
-VerdeOscuro
-
-Rojo
-
-Verde bosque
-
-Negro
-
-Azul Aciano
-
-Verde
-
-RosaProfundo
-
-Naranja oscuro
-
-Blanco
-
-Azul medio
-
-Gris oscuro
+Sense a colour
 
 obtener el color del sensor
 
 usar el color detectado
 
-elige tus propios valores de rojo, verde y azul entre 0 y 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Blanco
+
+Grey
+
+Negro
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
