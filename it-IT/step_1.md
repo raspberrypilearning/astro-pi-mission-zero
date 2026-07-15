@@ -1,6 +1,6 @@
 ## Quello che farai
 
-Il tuo progetto imposterà il colore di sfondo di un'immagine in base al colore rilevato da Astro Pi. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
 
 In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
@@ -14,11 +14,11 @@ Ecco un esempio del tipo di programma che potresti eseguire su un Astro Pi nello
 
 ### Avrete bisogno di
 
-Utilizzerai l'emulatore Astro Pi in un browser web per creare il tuo programma. Non hai bisogno di un computer Astro Pi.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Requisiti di Astro Pi Mission Zero
 
-**Se il tuo progetto soddisfa i [criteri di idoneità](https://astro-pi.org/it/mission-zero/eligibility){:target="_blank"}**, il tuo programma completato verrà eseguito sulla Stazione Spaziale Internazionale! Riceverete anche uno speciale certificato che mostra dove era esattamente la ISS nel momento in cui è stato eseguito il vostro programma!
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
