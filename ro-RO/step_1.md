@@ -4,9 +4,9 @@ You will program an Astro Pi computer to display a colourful image. Once your pr
 
 In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
-+ Creați **variabile** de culoare pentru a le utiliza în imaginea dvs
-+ Proiectați și afișați o imagine pe Sense HAT
-+ Simțiți culoarea luminii la bordul ISS
++ Design and display a pixel art image on an Astro Pi computer
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
++ Create a simple animation
 
 Iată un exemplu de program pe care l-ai putea face pentru a rula pe un Astro Pi în spațiu.
 
@@ -27,7 +27,7 @@ title: Note pentru mentori
 
 Misiunea Zero este potrivită pentru începătorii în programare și/sau copiii de vârstă școlară primară și poate fi finalizată într-o singură sesiune de 60 de minute pe orice computer cu acces la internet. Nu sunt necesare hardware special sau abilități de programare anterioare. Totul poate fi făcut într-un browser web.
 
- Organizați-vă tinerii în echipe de unul până la patru și lăsați-ne să-i ghidăm la scrierea unui scurt program Python pentru a detecta culoarea de la bordul ISS și a crea o imagine care să folosească acea culoare.
+ Misson Zero can be done individually or in teams of up to 4 people.
 
 Citește [instrucțiunile oficiale](https://astro-pi.org/ro/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
 
