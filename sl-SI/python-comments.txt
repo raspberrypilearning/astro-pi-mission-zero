@@ -12,42 +12,68 @@ Doda barvne spremenljivke in sliko
 
 Prikaže sliko
 
-Svetlo vijolična
-
-Rumena
-
-Modra
-
-Črna
-
-Cian
-
-Rjava
-
-Temno zlata
-
-Rdeča
-
-Drevesno zelena
-
-Črna
-
-Sinje modra
-
-Zelena
-
-Temno roza
-
-Temno oranžna
-
-Bela
-
-Modra
-
-Temno siva
+Sense a colour
 
 Preberi barvo iz senzorja
 
 Uporabi zaznano barvo
 
-Izberite svoje rdeče, zelene, modre vrednosti med 0 in 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Bela
+
+Grey
+
+Črna
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
