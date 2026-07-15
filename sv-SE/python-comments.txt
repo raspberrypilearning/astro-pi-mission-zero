@@ -12,42 +12,68 @@ Lägg till färgvariabler och bild
 
 Visa bilden
 
-Mörkorkidé
-
-Gul
-
-blå
-
-Svart
-
-Cyan
-
-Sadelbrun
-
-MörkGullris
-
-Röd
-
-Skogsgrön
-
-Svart
-
-Blåklintblå
-
-Grön
-
-Djuprosa
-
-Mörkorange
-
-Vit
-
-Mediumblå
-
-Dimgrå
+Sense a colour
 
 hämta färgen från sensorn
 
 använd den avkända färgen
 
-välj dina egna röda, gröna, blå värden mellan 0 och 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Vit
+
+Grey
+
+Svart
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
