@@ -12,42 +12,68 @@ Adaugă variabile de culoare și imagine
 
 Afișează imaginea
 
-OrhideeÎntunecată
-
-Galben
-
-Albastru
-
-Negru
-
-Turcoaz
-
-SaddleBrown
-
-DarkGoldenrod
-
-Roșu
-
-Verde pădure
-
-Negru
-
-Floarea de colțAlbastru
-
-Verde
-
-Roz intens
-
-Portocaliu închis
-
-Alb
-
-Albastru mediu
-
-GriȘters
+Sense a colour
 
 obține culoarea de la senzor
 
 utilizează culoarea de la senzor
 
-alegeți propriile valori pentru roșu, verde, albastru între 0 și 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Alb
+
+Grey
+
+Negru
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
