@@ -12,42 +12,68 @@ Farbvariablen und Bild hinzufügen
 
 Das Bild anzeigen
 
-Dunkle Orchidee
-
-Gelb
-
-blau
-
-Schwarz
-
-Zyan
-
-SattelBraun
-
-DunkleGoldrute
-
-Rot
-
-Waldgrün
-
-Schwarz
-
-Kornblumenblau
-
-Grün
-
-TiefesPink
-
-Dunkelorange
-
-Weiß
-
-MittelBlau
-
-Dunkelgrau
+Sense a colour
 
 Hole die Farbe vom Sensor
 
 Verwende die ermittelte Farbe
 
-Wähle deine eigenen Rot-, Grün- und Blauwerte zwischen 0 - 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Weiß
+
+Grey
+
+Schwarz
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
