@@ -1,11 +1,11 @@
 ## Je gaat maken
 
-Je project stelt de achtergrondkleur van een afbeelding in op de kleur die de Astro Pi waarneemt. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
 
-Je leert over de Astro Pi-computer en hoe je hem bestuurt, inclusief hoe je: You will:
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
 + Design and display a pixel art image on an Astro Pi computer
-+ Neem de kleur van het licht aan boord van het ISS waar
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
 + Create a simple animation
 
 Hier is een voorbeeld van het soort programma dat je zou kunnen maken.
@@ -14,11 +14,11 @@ Hier is een voorbeeld van het soort programma dat je zou kunnen maken.
 
 ### Je hebt nodig
 
-Je gebruikt de Astro Pi-emulator in een webbrowser om je programma te maken. Je hebt geen Astro Pi computer nodig.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Astro Pi Mission Zero criteria
 
-**Als je project voldoet aan de [criteria voor geschiktheid](https://astro-pi.org/nl/mission-zero/eligibility){:target="_blank"}**, zal je voltooide programma worden uitgevoerd op het International Space Station! Je ontvangt ook een speciaal certificaat waaruit blijkt waar het ISS precies was toen jouw programma uitgevoerd werd.
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
