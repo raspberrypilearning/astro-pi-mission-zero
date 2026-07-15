@@ -12,42 +12,68 @@ Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-Ciemna orchidea
-
-Żółty
-
-Niebieski
-
-Czarny
-
-Cyjan
-
-Kasztanowy brąz
-
-Ciemna nawłoć
-
-Czerwony
-
-Leśny zielony
-
-Czarny
-
-Chabrowy
-
-Zielony
-
-Ciemny róż
-
-Ciemny pomarańczowy
-
-Biały
-
-Średni niebieski
-
-Ciemnoszary
+Sense a colour
 
 pobierz kolor z czujnika
 
 użyj odczytany kolor
 
-wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Biały
+
+Grey
+
+Czarny
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
