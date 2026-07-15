@@ -12,42 +12,68 @@
 
 Εμφάνιση της εικόνας
 
-ΣκοτεινήΟρχιδέα
-
-Κίτρινο
-
-μπλε
-
-Μαύρο
-
-Γαλάζιο
-
-Σοκολατί
-
-Μελί
-
-Κόκκινο
-
-ΠράσινοΔάσους
-
-Μαύρο
-
-ΜπλεΆνθουςΑραβοσίτου
-
-Πράσινο
-
-ΣκούροΡοζ
-
-ΣκούροΠορτοκαλί
-
-Άσπρο
-
-ΜεσαίοΜπλε
-
-ΑχνόΓκρι
+Sense a colour
 
 λήψη του χρώματος από τον αισθητήρα
 
 χρήση του χρώματος που ανίχνευσε ο αισθητήρας
 
-επίλεξε τις δικές σου τιμές μεταξύ 0 - 255 για το κόκκινο, το πράσινο, το μπλε
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Άσπρο
+
+Grey
+
+Μαύρο
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
