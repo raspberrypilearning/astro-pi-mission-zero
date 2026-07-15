@@ -12,42 +12,68 @@ Pridajte farebné premenné a obrázok
 
 Zobrazte obrázok
 
-Tmavoorchideová
-
-Žltá
-
-Modrá
-
-Čierna
-
-Azúrová
-
-Sedlová hnedá
-
-Tmavožltá
-
-Červená
-
-Sýtozelená
-
-Čierna
-
-Nevädzová modrá
-
-Zelená
-
-Tmavoružová
-
-Tmavooranžová
-
-Biela
-
-Stredne modrá
-
-Tmavosivá
+Sense a colour
 
 získajte farbu zo snímača
 
 použite nasnímanú farbu
 
-vyberte si vlastné hodnoty červenej, zelenej a modrej medzi 0 a 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Biela
+
+Grey
+
+Čierna
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
