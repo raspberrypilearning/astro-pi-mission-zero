@@ -12,42 +12,68 @@ Adicionar variáveis de cor e imagem
 
 Mostrar a imagem
 
-Orquídea escura
-
-Amarelo
-
-azul
-
-Preto
-
-Ciano
-
-Castanho sela
-
-Dourado Escuro
-
-Vermelho
-
-Verde floresta
-
-Preto
-
-Azul centáurea
-
-Verde
-
-Rosa Profundo
-
-Laranja escuro
-
-Branco
-
-Azul Médio
-
-Cinzento fosco
+Sense a colour
 
 obter a cor do sensor
 
 usa a cor detetada
 
-escolhe os teus próprios valores de vermelho, verde e azul entre 0 - 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Branco
+
+Grey
+
+Preto
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
