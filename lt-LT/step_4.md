@@ -11,7 +11,9 @@ In the whale image we used in the previous step, the background colour was black
 language: python filename: main.py line_numbers: false
 line_number_start: 1
 ---
-c = (0, 0, 0) --- /code ---
+c = (0, 0, 0)
+
+--- /code ---
 
 
 --- task ---
@@ -26,7 +28,11 @@ language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights: 3, 4
 ---
 # Sense a colour
-rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour --- /code --- --- /task ---
+rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+
+--- /code ---
+
+--- /task ---
 
 This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
 
@@ -92,7 +98,9 @@ sleep(1)
 # Loop 14 times (14 * 2 seconds = 28 seconds total animation)
 for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
-  # Display the first image sense.set_pixels(image) sleep(1) --- /code ---
+  # Display the first image sense.set_pixels(image) sleep(1)
+
+--- /code ---
 
 --- /task ---
 
@@ -106,7 +114,9 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
 </p>
 
---- task --- **Check for errors**
+--- task ---
+
+**Check for errors**
 
 My code has a syntax error or doesn't change frames:
 - Check that your `for` loop code matches the indentation in the example.
@@ -123,7 +133,9 @@ You can save your program on the Mission Starter project by entering your team n
 
 --- /task ---
 
---- task --- --- collapse ---
+--- task ---
+
+--- collapse ---
 ---
 title: Completed Whale code example
 ---
@@ -150,7 +162,13 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-sense.set_pixels(image) --- /code --- --- /collapse --- --- collapse ---
+sense.set_pixels(image)
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
 ---
 title: Completed Whale code example (with Animation)
 ---
@@ -189,4 +207,10 @@ sleep(1)
 # Loop 14 times (14 * 2 seconds = 28 seconds total animation)
 for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
-  # Display the first image sense.set_pixels(image) sleep(1) --- /code --- --- /collapse --- --- /task ---
+  # Display the first image sense.set_pixels(image) sleep(1)
+
+--- /code ---
+
+--- /collapse ---
+
+--- /task ---
