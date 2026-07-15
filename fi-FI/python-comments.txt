@@ -20,34 +20,34 @@ Sininen
 
 Musta
 
-Sinivihreä
+Cyan
 
-Satulanruskea
+SaddleBrown
 
-Tummakultapiisku
+DarkGoldenrod
 
 Punainen
 
 Metsänvihreä
 
-Musta
+Black
 
 Ruiskukansininen
 
-Vihreä
+Green
 
-Syvänvaaleanpunainen
+DeepPink
 
-Tummanoranssi
+DarkOrange
 
 Valkoinen
 
-Keskisininen
+MediumBlue
 
-Himmeänharmaa
+DimGray
 
 hae väri anturilta
 
 käytä tunnistettua väriä
 
-valitse omat punaisen, vihreän ja sinisen arvot 0:n ja 255:n väliltä
+choose your own red, green, blue values between 0 and 255
