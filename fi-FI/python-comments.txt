@@ -12,42 +12,68 @@ Lisää värimuuttujia ja kuva
 
 Näytä kuva
 
-Tummanorkidea
-
-Keltainen
-
-Sininen
-
-Musta
-
-Cyan
-
-SaddleBrown
-
-DarkGoldenrod
-
-Punainen
-
-Metsänvihreä
-
-Black
-
-Ruiskukansininen
-
-Green
-
-DeepPink
-
-DarkOrange
-
-Valkoinen
-
-MediumBlue
-
-DimGray
+Sense a colour
 
 hae väri anturilta
 
 käytä tunnistettua väriä
 
-choose your own red, green, blue values between 0 and 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Valkoinen
+
+Grey
+
+Musta
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
