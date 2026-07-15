@@ -12,42 +12,68 @@ Legg til fargevariabler og bilde
 
 Vis bildet
 
-Mørk orkidé
-
-Gul
-
-Blå
-
-Svart
-
-Cyan
-
-Lærbrun
-
-Mørk gullris
-
-Rød
-
-Skoggrønn
-
-Svart
-
-Kornblomstblå
-
-Grønn
-
-Dyprosa
-
-Mørk oransje
-
-Hvit
-
-Mellomblå
-
-Blekgrå
+Sense a colour
 
 hent fargen fra sensoren
 
 bruke den sansede fargen
 
-Velg dine egne verdier før rød, grønn og blå mellom 0 og 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Hvit
+
+Grey
+
+Svart
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
