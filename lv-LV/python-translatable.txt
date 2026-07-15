@@ -1,3 +1,5 @@
 attēls
 
+image2
+
 rgb
