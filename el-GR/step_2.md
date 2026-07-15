@@ -1,6 +1,6 @@
 ## Τι είναι το Astro Pi;
 
-Το Astro Pi είναι ένας υπολογιστής Raspberry Pi μέσα σε ένα περίβλημα που είναι ειδικά σχεδιασμένο για τις συνθήκες που υπάρχουν στο διάστημα.
+An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
 
 ![Κινούμενη εικόνα ενός Sense HAT προσαρτημένου στο επάνω μέρος ενός υπολογιστή Raspberry Pi.](images/astro_pi_casing.jpeg)
 
