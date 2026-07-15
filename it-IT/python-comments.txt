@@ -12,42 +12,68 @@ Aggiungi variabili per il colore e l'immagine
 
 Mostra l'immagine
 
-Orchidea scura
-
-Giallo
-
-Blu
-
-Nero
-
-Ciano
-
-Marrone sella
-
-Asta oro scuro
-
-Rosso
-
-Verde foresta
-
-Nero
-
-Blu Fiordaliso
-
-Giallo verde
-
-Rosa scuro
-
-Arancione scuro
-
-Bianco
-
-Blu medio
-
-Grigio medio
+Sense a colour
 
 ottenere il colore dal sensore
 
 usa il colore rilevato
 
-scegli i tuoi valori di rosso, verde e blu compresi tra 0 e 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Bianco
+
+Grey
+
+Nero
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
