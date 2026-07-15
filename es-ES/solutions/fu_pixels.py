@@ -1,13 +1,13 @@
 from sense_hat import SenseHat
 sensor = SenseHat()
-sense.set_rotation (270)
-rgb (255, 255, 255)
+sense.set_rotation(270)
+w = (255, 255, 255)
 b = (0, 0, 0)
 g = (50,50,50)
 s = (180,180,180)
-rojo = (255,0,0)
+r = (255,0,0)
 
-imagen = [
+picture = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, s,
@@ -18,4 +18,4 @@ imagen = [
     g, b, b, b, b, b, b, g
     ]
     
-sense.set_pixels(imagen)
+sense.set_pixels(picture)
