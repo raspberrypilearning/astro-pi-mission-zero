@@ -12,42 +12,68 @@ Tilføj farvevariabler og billede
 
 Vis billedet
 
-MørkOrkidé
-
-Gul
-
-Blå
-
-Sort
-
-Cyan
-
-SaddleBrown
-
-DarkGoldenrod
-
-Rød
-
-Skovgrøn
-
-Black
-
-KornblomstBlå
-
-Green
-
-DeepPink
-
-DarkOrange
-
-Hvid
-
-MediumBlue
-
-DimGray
+Sense a colour
 
 få farven fra sensoren
 
 brug den opfangede farve
 
-choose your own red, green, blue values between 0 and 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Hvid
+
+Grey
+
+Sort
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
