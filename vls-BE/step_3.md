@@ -6,12 +6,12 @@ The image you display will be made from 64 coloured squares called **pixels**. T
 Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster met LEDs die individueel of in groep bestuurd kunnen worden om verschillende lichteffecten te creëeren. De LED matrix op de Sense HAT heeft 64 LEDs die in een raster van 8 x 8 getoond worden. De LEDs kunnen geprogrammeerd worden om een breeder gamma van kleuren te maken.
 </p>
 
-![Een screenshot van het emulatorscherm dat de vluchtunit toont met de LED-matrix met een foto van een bloem.](images/whale.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
 
 Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ Controleer dat je code overeenkomt met de code in de voorbeelden hierboven
-+ Controleer dat je de code gecopieerd hebt in je lijst
-+ Controleer dat je lijst omgeven wordt door `[` en `]`
++ c = black
++ f = midnight blue
++ g = deep sky blue
 
 
 --- task ---
@@ -53,26 +53,36 @@ De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een andere 
 --- collapse ---
 
 ---
-title: Vis
+title: List of Colour Variables
 ---
 
 ![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
 
 ```python
-z = (153, 50, 204) # Donkerorchidee
-q = (255, 255, 0) # Geel
-d = (51, 153, 255) # Blauw
-c = (0, 0, 0) # Zwart
-
-afbeelding= [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+d = (25, 25, 113)   # Navy Blue
+e = (0, 0, 255)     # Pure Blue
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+h = (86, 255, 255)  # Electric Cyan
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+p = (180, 34, 34)   # Brick Red
+q = (255, 0, 0)     # Pure Red
+r = (232, 118, 5)   # Orange
+s = (241, 231, 100) # Pale Yellow
+t = (255, 255, 0)   # Pure Yellow
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
 
 ```
 
@@ -89,7 +99,7 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 --- collapse ---
 
 ---
-title: Walrus
+title: Whale
 ---
 
 ![A grid with 8 x 8 squares showing a whale.](images/whale.png)
@@ -97,21 +107,19 @@ title: Walrus
 Created by Team Naicom, Italy
 
 ```python
-h = (0, 255, 255) # Cyaan
-c = (0, 0, 0) # Zwart
-s = (139, 69, 19) # Zadelbruin
-a = (255, 255, 255) # Wit
-r = (184, 134, 11) # Donkerguldenroede
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
-afbeelding= [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -121,7 +129,7 @@ r, r, s, s, s, s, s, s]
 --- collapse ---
 
 ---
-title: Paxi
+title: Lemon
 ---
 
 ![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
@@ -129,21 +137,19 @@ title: Paxi
 Created by team g4lemoni, Greece
 
 ```python
-v = (255, 0, 0) # Rood
-m = (34, 139, 34) # Bosgroen
-c = (0, 0, 0) # Zwart 
-e = (100, 149, 237) # Korenbloemblauw
-l = (0, 255, 0) # Groen
+a = (255, 255, 255) # White
+k = (46, 139, 33)   # Leaf Green
+t = (255, 255, 0)   # Pure Yellow
 
-afbeelding= [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+image = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
 
 ```
 
@@ -151,7 +157,7 @@ afbeelding= [
 
 --- collapse ---
 ---
-title: Hond
+title: Pig
 ---
 
 ![A grid with 8 x 8 squares showing a pig.](images/pig.png)
@@ -159,20 +165,21 @@ title: Hond
 Created by Gary, United Kingdom
 
 ```python
-c = (0, 0, 0) # Zwart
-r = (184, 134, 11) # Donkerguldenroede
-s = (139, 69, 19) # Zadelbruin
-y = (255, 20, 147) # Dieproze
+a = (255, 255, 255) # White
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+o = (179, 96, 65)   # Terracotta Brown
+c = (0, 0, 0)       # Black
 
-afbeelding= [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+image = [
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -181,7 +188,7 @@ afbeelding= [
 
 --- collapse ---
 ---
-title: Kameleon
+title: Storm
 ---
 
 ![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
@@ -190,26 +197,20 @@ Created by team hop2p023, Spain
 
 ```python
 
-c = (0, 0, 0) # Zwart
-s = (139, 69, 19) # Zadelbruin
-a = (255, 255, 255) # Wit
-v = (255, 0, 0) # Rood
-t = (255, 140, 0) # Donkeroranje
-q = (255, 255, 0) # Geel
-m = (34, 139, 34) # Bosgroen
-h = (0, 255, 255) # Cyaan
-z = (153, 50, 204) # Donkerorchidee
-y = (255, 20, 147) # Dieproze
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+t = (255, 255, 0)   # Pure Yellow
 
-afbeelding= [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+image = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -218,7 +219,7 @@ afbeelding= [
 
 --- collapse ---
 ---
-title: Vlieger
+title: Duck
 ---
 
 ![A grid with 8 x 8 squares showing a duck.](images/duck.png)
@@ -227,22 +228,22 @@ Created by Peter, Ireland
 
 ```python
 
-c = (0, 0, 0) # Zwart
-m = (34, 139, 34) # Bosgroen
-v = (255, 0, 0) # Rood
-q = (255, 255, 0) # Geel
-e = (0, 0, 205) # Middenblauw
-h = (0, 255, 255) # Cyaan
+c = (0, 0, 0) # Black
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+r = (232, 118, 5)   # Orange
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
 
-afbeelding = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+image = [
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -250,7 +251,7 @@ afbeelding = [
 
 --- collapse ---
 ---
-title: Kip
+title: Frog
 ---
 
 ![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
@@ -259,21 +260,23 @@ Created by team Jmeno, Czech Republic
 
 ```python
 
-v = (255, 0, 0) # Rood
-c = (0, 0, 0) # Zwart
-b = (105, 105, 105) # Donkergrijs
-q = (255, 255, 0) # Geel
-r = (184, 134, 11) # Donkerguldenroede
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+q = (255, 0, 0)     # Pure Red
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+n = (126, 88, 25)   # Earth Brown
 
-afbeelding =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+image = [
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -281,7 +284,7 @@ afbeelding =  [
 
 --- collapse ---
 ---
-line_highlights: 18, 19
+title: Blossom Tree
 ---
 
 ![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
