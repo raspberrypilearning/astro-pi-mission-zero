@@ -6,12 +6,12 @@ The image you display will be made from 64 coloured squares called **pixels**. T
 O <span style="color: #0faeb0">**matrice LED**</span> este o grilă de LED-uri care poate fi controlată individual sau de un grup pentru a crea diferite efecte de iluminat. Matricea LED de pe Sense HAT are 64 de LED-uri afișate într-o grilă de 8 x 8. LED-urile pot fi programate pentru a produce o gamă largă de culori.
 </p>
 
-![O captură de ecran a ferestrei de emulator care arată Unitatea de zbor cu matricea LED care afișează o poză a unei flori.](images/whale.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
 
 Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ Verifică dacă codul tău se potrivește cu codul din exemplele de mai sus
-+ Verifică dacă ai indentat codul din lista ta
-+ Verifică dacă lista ta este înconjurată de `[` și `]`
++ c = black
++ f = midnight blue
++ g = deep sky blue
 
 
 --- task ---
@@ -27,13 +27,13 @@ Acest cod se conectează la Astro Pi, se asigură că afișajul LED al lui Astro
 language: python filename: main.py line_numbers: false line_number_start: 1
 line_highlights:
 ---
-# Importă bibliotecile
+# Import the libraries
 from sense_hat import SenseHat from time import sleep
 
-# Configurează Sense HAT
+# Set up the Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
-# Configurează senzorul de culoare
+# Set up the colour sensor
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 --- /code ---
@@ -53,26 +53,36 @@ Matricea LED este o grilă de 8 x 8. Fiecare LED din grilă poate fi setat la o 
 --- collapse ---
 
 ---
-title: Pește
+title: List of Colour Variables
 ---
 
 ![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
 
 ```python
-z = (153, 50, 204) # OrhideeÎntunecată
-q = (255, 255, 0) # Galben
-d = (51, 153, 255) # Albastru
-c = (0, 0, 0) # Negru
-
-imagine = [
-d, d, z, d, d, d, d,
-d, d, d, z, z, d, d,
-z, d, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+d = (25, 25, 113)   # Navy Blue
+e = (0, 0, 255)     # Pure Blue
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+h = (86, 255, 255)  # Electric Cyan
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+p = (180, 34, 34)   # Brick Red
+q = (255, 0, 0)     # Pure Red
+r = (232, 118, 5)   # Orange
+s = (241, 231, 100) # Pale Yellow
+t = (255, 255, 0)   # Pure Yellow
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
 
 ```
 
@@ -89,7 +99,7 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Morsă
+title: Whale
 ---
 
 ![A grid with 8 x 8 squares showing a whale.](images/whale.png)
@@ -97,21 +107,19 @@ title: Morsă
 Created by Team Naicom, Italy
 
 ```python
-h = (0, 255, 255) # Turcoaz
-c = (0, 0, 0) # Negru
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # Alb
-r = (184, 134, 11) # DarkGoldenrod
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
-imagine = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -121,7 +129,7 @@ r, r, s, s, s, s, s, s]
 --- collapse ---
 
 ---
-title: Paxi
+title: Lemon
 ---
 
 ![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
@@ -129,21 +137,19 @@ title: Paxi
 Created by team g4lemoni, Greece
 
 ```python
-v = (255, 0, 0) # Roșu
-m = (34, 139, 34) # Verde pădure
-c = (0, 0, 0) # Negru 
-e = (100, 149, 237) # Floarea de colțAlbastru
-l = (0, 255, 0) # Verde
+a = (255, 255, 255) # White
+k = (46, 139, 33)   # Leaf Green
+t = (255, 255, 0)   # Pure Yellow
 
-imagine = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+image = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
 
 ```
 
@@ -151,7 +157,7 @@ imagine = [
 
 --- collapse ---
 ---
-title: Câine
+title: Pig
 ---
 
 ![A grid with 8 x 8 squares showing a pig.](images/pig.png)
@@ -159,20 +165,21 @@ title: Câine
 Created by Gary, United Kingdom
 
 ```python
-c = (0, 0, 0) # Negru
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # Roz intens
+a = (255, 255, 255) # White
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+o = (179, 96, 65)   # Terracotta Brown
+c = (0, 0, 0)       # Black
 
-imagine = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+image = [
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -181,7 +188,7 @@ imagine = [
 
 --- collapse ---
 ---
-title: Cameleon
+title: Storm
 ---
 
 ![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
@@ -190,26 +197,20 @@ Created by team hop2p023, Spain
 
 ```python
 
-c = (0, 0, 0) # Negru
-s = (139, 69, 19) # SaddleBrown
-a = (255, 255, 255) # Alb
-v = (255, 0, 0) # Roșu
-t = (255, 140, 0) # Portocaliu închis
-q = (255, 255, 0) # Galben
-m = (34, 139, 34) # Verde pădure
-h = (0, 255, 255) # Turcoaz
-z = (153, 50, 204) # OrhideeÎntunecată
-y = (255, 20, 147) # Roz intens
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+t = (255, 255, 0)   # Pure Yellow
 
-imagine = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+image = [
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -218,7 +219,7 @@ imagine = [
 
 --- collapse ---
 ---
-title: Zmeu
+title: Duck
 ---
 
 ![A grid with 8 x 8 squares showing a duck.](images/duck.png)
@@ -227,22 +228,22 @@ Created by Peter, Ireland
 
 ```python
 
-c = (0, 0, 0) # Negru
-m = (34, 139, 34) # Verde pădure
-v = (255, 0, 0) # Roșu
-q = (255, 255, 0) # Galben
-e = (0, 0, 205) # Albastru mediu
-h = (0, 255, 255) # Turcoaz
+c = (0, 0, 0) # Black
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+r = (232, 118, 5)   # Orange
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
 
-imagine = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+image = [
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -250,7 +251,7 @@ imagine = [
 
 --- collapse ---
 ---
-title: Pui
+title: Frog
 ---
 
 ![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
@@ -259,21 +260,23 @@ Created by team Jmeno, Czech Republic
 
 ```python
 
-v = (255, 0, 0) # Roșu
-c = (0, 0, 0) # Negru
-b = (105, 105, 105) # GriȘters
-q = (255, 255, 0) # Galben
-r = (184, 134, 11) # DarkGoldenrod
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+q = (255, 0, 0)     # Pure Red
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+n = (126, 88, 25)   # Earth Brown
 
-imagine = [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+image = [
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -281,7 +284,7 @@ imagine = [
 
 --- collapse ---
 ---
-line_highlights: 18, 19
+title: Blossom Tree
 ---
 
 ![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
