@@ -20,34 +20,34 @@ Blauw
 
 Zwart
 
-Cyaan
+Cyan
 
-Zadelbruin
+SaddleBrown
 
-Donkergoudenstaaf
+DarkGoldenrod
 
 Rood
 
 Bosgroen
 
-Zwart
+Black
 
 Korenbloemblauw
 
-Groen
+Green
 
-Dieproze
+DeepPink
 
-Donkeroranje
+DarkOrange
 
 Wit
 
-Mediumblauw
+MediumBlue
 
-Donkergrijs
+DimGray
 
 ontvang de kleur van de sensor
 
 gebruik de waargenomen kleur
 
-kies je eigen rood, groen, blauw-waarden tussen 0 en 255
+choose your own red, green, blue values between 0 and 255
