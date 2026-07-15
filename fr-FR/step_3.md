@@ -48,7 +48,7 @@ Tu peux créer des couleurs en utilisant différentes valeurs de rouge, vert et 
 
 ![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. Voici une liste de variables pour 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu :
+La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
 --- collapse ---
 
@@ -99,28 +99,27 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Morse
+title: Whale
 ---
 
-![Une grille de 8 x 8 cases représentant un poisson.](images/whale.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Créé par l'équipe tony_pi, Italie
+Created by Team Naicom, Italy
 
 ```python
-c = (0, 0, 0) # Noir
-r = (184, 134, 11) # Jaunedorefonce
-s = (139, 69, 19) # Brunfonce
-y = (255, 20, 147) # Fuchsiavif
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
 image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -130,29 +129,27 @@ image = [
 --- collapse ---
 
 ---
-title: Paxi
+title: Lemon
 ---
 
-![Une grille de 8 x 8 cases représentant un Paxi.](images/lemon.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Créé par l'équipe Val, Grèce
+Created by team g4lemoni, Greece
 
 ```python
-v = (255, 0, 0) # Rouge
-m = (34, 139, 34) # Vertforet
-c = (0, 0, 0) # Noir 
-e = (100, 149, 237) # Bleubleuet
-l = (0, 255, 0) # Vert
+a = (255, 255, 255) # White
+k = (46, 139, 33)   # Leaf Green
+t = (255, 255, 0)   # Pure Yellow
 
 image = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
 
 ```
 
@@ -160,29 +157,29 @@ image = [
 
 --- collapse ---
 ---
-title: Chien
+title: Pig
 ---
 
-![Une grille de 8 x 8 cases représentant une tête de chien.](images/pig.png)
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Créé par l'équipe The_ETs, Royaume-Uni
+Created by Gary, United Kingdom
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Noir
-s = (139, 69, 19) # Brunfonce
-a = (255, 255, 255) # Blanc
-r = (184, 134, 11) # Jaunedorefonce
+a = (255, 255, 255) # White
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+o = (179, 96, 65)   # Terracotta Brown
+c = (0, 0, 0)       # Black
 
 image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -191,35 +188,29 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Caméléon
+title: Storm
 ---
 
-![Une grille de 8 x 8 carrés représentant un caméléon aux couleurs de l'arc-en-ciel.](images/storm.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Créé par l'équipe ptpr_07, Espagne
+Created by team hop2p023, Spain
 
 ```python
 
-c = (0, 0, 0) # Noir
-s = (139, 69, 19) # Brunfonce
-a = (255, 255, 255) # Blanc
-v = (255, 0, 0) # Rouge
-t = (255, 140, 0) # Orangefonce
-q = (255, 255, 0) # Jaune
-m = (34, 139, 34) # Vertfonce
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # Orchideefoncee
-y = (255, 20, 147) # Fuchsiavif
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+t = (255, 255, 0)   # Pure Yellow
 
 image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -228,31 +219,31 @@ image = [
 
 --- collapse ---
 ---
-title: Cerf-volant
+title: Duck
 ---
 
-![Une grille de 8 x 8 cases représentant un morse.](images/duck.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
 Created by Peter, Ireland
 
 ```python
 
-c = (0, 0, 0) # Noir
-m = (34, 139, 34) # Vertforet
-v = (255, 0, 0) # Rouge
-q = (255, 255, 0) # Jaune
-e = (0, 0, 205) # Bleumoyen
-h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Black
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+r = (232, 118, 5)   # Orange
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
 
 image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -260,30 +251,32 @@ image = [
 
 --- collapse ---
 ---
-title: Poulet
+title: Frog
 ---
 
-![Une grille de 8 x 8 cases représentant un cerf-volant.](images/frog.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
 Created by team Jmeno, Czech Republic
 
 ```python
 
-v = (255, 0, 0) # Rouge
-c = (0, 0, 0) # Noir
-b = (105, 105, 105) # Grismat
-q = (255, 255, 0) # Jaune
-r = (184, 134, 11) # Jaunedorefonce
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+q = (255, 0, 0)     # Pure Red
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+n = (126, 88, 25)   # Earth Brown
 
-image =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+image = [
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -296,7 +289,7 @@ title: Blossom Tree
 
 ![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
 
-Créé par l'équipe chalka, Pologne
+Created by team Zssh14, Slovakia
 
 ```python
 
@@ -332,11 +325,11 @@ k, k, o, n, n, n, k, k]
 --- code ---
 ---
 language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
 c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ d, d, z, d, d, d, d, d, d, d, d, z, z, d, d, d, z, d, q, q, q, q, d, d, z, z, q, q, q, c, q, d, z, z, z, q, q, q, q, d, z, z, q, q, q, q, q, d, z, d, q, z, z, q, d, d, d, d, d, z, d, d, d, d]
+image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Afficher l'image
 sense.set_pixels(image)
