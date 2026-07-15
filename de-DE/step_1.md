@@ -1,11 +1,11 @@
 ## Das wirst du machen
 
-Dein Projekt setzt die Hintergrundfarbe eines Bildes auf die Farbe, die der Astro Pi erkennt. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
+You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) and the astronauts on board will see your work!
 
-Du wirst mehr über den Astro Pi erfahren und wie du ihn steuern kannst, einschließlich: You will:
+In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
 + Design and display a pixel art image on an Astro Pi computer
-+ Ermitteln der Lichtfarbe an Bord der ISS
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
 + Create a simple animation
 
 Hier ist ein Beispiel für die Art von Programm, das du erstellen könntest, um es auf einem Astro Pi im Weltraum auszuführen.
@@ -14,11 +14,11 @@ Hier ist ein Beispiel für die Art von Programm, das du erstellen könntest, um 
 
 ### Was du brauchen wirst
 
-Du wirst den Astro Pi Emulator in einem Webbrowser verwenden, um dein Programm zu erstellen. Du brauchst keinen Astro Pi Computer.
+You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
 ### Astro Pi Mission Zero Kriterien
 
-**Wenn dein Projekt die [Eignungskriterien](https://astro-pi.org/de/mission-zero/eligibility){:target="_blank"}** erfüllt, wird dein abgeschlossenes Programm auf der Internationalen Raumstation durchgeführt! Du erhältst außerdem ein spezielles Zertifikat, das zeigt, wo genau die ISS war, als dein Programm lief.
+Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will be selected to run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
 
 --- collapse ---
 ---
