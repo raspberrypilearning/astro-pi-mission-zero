@@ -1,6 +1,6 @@
 ## Ce este Astro Pi?
 
-Astro Pi este un calculator Raspberry Pi încapsulat într-o carcasă special concepută pentru condițiile din spațiu.
+An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
 
 ![Imagine animată a unui Sense HAT atașat la partea superioară a unui computer Raspberry Pi.](images/astro_pi_casing.jpeg)
 
