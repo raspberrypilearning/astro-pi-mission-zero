@@ -4,9 +4,9 @@ You will program an Astro Pi computer to display a colourful image. Once your pr
 
 In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
-+ vytvářet **proměnné** s barvami, které využiješ ve svém obrázku,
-+ navrhnout a zobrazit obrázek na desce Sense HAT,
-+ naměřit barvu světla na palubě ISS.
++ Design and display a pixel art image on an Astro Pi computer
++ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
++ Create a simple animation
 
 Tady je ukázka programu, který by mohl běžet ve vesmíru na počítači Astro Pi a který zvládneš naprogramovat i ty.
 
@@ -27,7 +27,7 @@ title: Poznámky pro mentory
 
 Výzva Mission Zero je vhodná pro ty, kteří s programováním začínají, a/nebo pro děti ve školním věku a lze ji dokončit během jediného 60minutového sezení na jakémkoliv počítači s připojením k internetu. Není potřeba žádný speciální hardware ani předchozí znalosti programování. Vše se dá udělat ve webovém prohlížeči.
 
- Rozdělte studenty do týmů nanejvýš po čtyřech a my jim předvedeme, jak napsat krátký program v jazyce Python, který naměří barvu na palubě ISS a použije ji k vytvoření obrázku.
+ Misson Zero can be done individually or in teams of up to 4 people.
 
 Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
