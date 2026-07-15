@@ -3,11 +3,11 @@ sense = SenseHat()
 sense.set_rotation(270)
 w = (255, 255, 255)
 b = (0, 0, 0)
-g = (50, 50, 50)
-s = (180, 180, 180)
-r = (255, 0, 0)
+g = (50,50,50)
+s = (180,180,180)
+r = (255,0,0)
 
-imagine = [
+picture = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, s,
@@ -18,4 +18,4 @@ imagine = [
     g, b, b, b, b, b, b, g
     ]
     
-sense.set_pixels(imagine)
+sense.set_pixels(picture)
