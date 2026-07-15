@@ -12,42 +12,68 @@ Színváltozók és kép hozzáadása
 
 Kép megjelenítése
 
-DarkOrchid (lila)
-
-Yellow (Sárga)
-
-kék
-
-Black (fekete)
-
-Cián
-
-SaddleBrown (barna)
-
-DarkGoldenrod (arany)
-
-Red (piros)
-
-ForestGreen (sötétzöld)
-
-Black (fekete)
-
-CornflowerBlue (búzavirágkék)
-
-Zöld
-
-DeepPink (sötét rózsaszín)
-
-DarkOrange (narancssárga)
-
-White (fehér)
-
-MediumBlue (kék)
-
-DimGray (sötétszürke)
+Sense a colour
 
 szín lekérése az érzékelőtől
 
 az érzékelt szín használata
 
-válassz saját vörös, zöld és kék értéket 0 és 255 között
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+White (fehér)
+
+Grey
+
+Black (fekete)
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
