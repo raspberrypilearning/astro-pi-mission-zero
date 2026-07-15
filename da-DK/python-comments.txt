@@ -22,32 +22,32 @@ Sort
 
 Cyan
 
-Sadelbrun
+SaddleBrown
 
-MørkGyldenris
+DarkGoldenrod
 
 Rød
 
 Skovgrøn
 
-Sort
+Black
 
 KornblomstBlå
 
-Grøn
+Green
 
-DybPink
+DeepPink
 
-MørkOrange
+DarkOrange
 
 Hvid
 
-Mellemblå
+MediumBlue
 
-MørkeGrå
+DimGray
 
 få farven fra sensoren
 
 brug den opfangede farve
 
-vælg dine egne rød-, grøn- og blåværdier mellem 0 og 255
+choose your own red, green, blue values between 0 and 255
