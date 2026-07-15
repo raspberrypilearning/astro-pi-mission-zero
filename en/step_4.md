@@ -14,6 +14,7 @@ line_numbers: false
 line_number_start: 1
 ---
 c = (0, 0, 0)
+
 --- /code ---
 
 
@@ -34,7 +35,9 @@ line_highlights: 3, 4
 # Sense a colour
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
+
 --- /code ---
+
 --- /task ---
 
 This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
@@ -137,6 +140,7 @@ for i in range(14):
   # Display the first image
   sense.set_pixels(image)
   sleep(1)
+  
 --- /code ---
 
 --- /task ---
@@ -152,6 +156,7 @@ If you would like to have more than two frames in your animation, you must make 
 </p>
 
 --- task ---
+
 **Check for errors**
 
 My code has a syntax error or doesn't change frames:
@@ -170,6 +175,7 @@ You can save your program on the Mission Starter project by entering your team n
 --- /task ---
 
 --- task ---
+
 --- collapse ---
 ---
 title: Completed Whale code example
@@ -214,8 +220,11 @@ g, g, g, g, g, g, c, c,
 c, g, g, g, g, c, c, c]
 
 sense.set_pixels(image)
+
 --- /code ---
+
 --- /collapse ---
+
 --- collapse ---
 ---
 title: Completed Whale code example (with Animation)
@@ -285,6 +294,9 @@ for i in range(14):
   # Display the first image
   sense.set_pixels(image)
   sleep(1)
+  
 --- /code ---
+
 --- /collapse ---
+
 --- /task ---
