@@ -1,6 +1,6 @@
 ## Mis on Astro Pi?
 
-Astro Pi on kapsliga ümbritsetud Raspberry Pi arvuti, mis on spetsiaalselt valmistatud kosmoses valitsevate tingimuste jaoks.
+An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
 
 ![Animeeritud pilt Sense HAT-ist, mis on kinnitatud Raspberry Pi arvuti peale.](images/astro_pi_casing.jpeg)
 
