@@ -22,32 +22,32 @@ Noir
 
 Cyan
 
-Brunfonce
+SaddleBrown
 
-Jaunedorefonce
+DarkGoldenrod
 
 Rouge
 
 Vert forêt
 
-Noir
+Black
 
 Bleuet
 
-Vert
+Green
 
-Rosefoncé
+DeepPink
 
-Orangefoncé
+DarkOrange
 
 Blanc
 
-Bleumoyen
+MediumBlue
 
-Grismat
+DimGray
 
 obtenir la couleur du capteur
 
 utiliser la couleur détectée
 
-choisis tes propres valeurs de rouge, vert et bleu entre 0 et 255
+choose your own red, green, blue values between 0 and 255
