@@ -1,6 +1,6 @@
 ## Mikä on Astro Pi?
 
-Astro Pi on Raspberry Pi -tietokone, jonka kotelo on erityisesti suunniteltu avaruusolosuhteisiin.
+An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
 
 ![Animoitu kuva Sense HATista, joka on kiinnitetty Raspberry Pi -tietokoneen päälle.](images/astro_pi_casing.jpeg)
 
