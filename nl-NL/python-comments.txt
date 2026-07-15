@@ -12,42 +12,68 @@ Kleurvariabelen en afbeelding toevoegen
 
 Geef de afbeelding weer
 
-Donkerorchidee
-
-Geel
-
-blauw
-
-Zwart
-
-Cyan
-
-SaddleBrown
-
-DarkGoldenrod
-
-Rood
-
-Bosgroen
-
-Black
-
-Korenbloemblauw
-
-Green
-
-DeepPink
-
-DarkOrange
-
-Wit
-
-MediumBlue
-
-DimGray
+Sense a colour
 
 haal de kleur uit de sensor
 
 gebruik de waargenomen kleur
 
-choose your own red, green, blue values between 0 and 255
+Extra images / frames go here:
+
+Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+
+# Display the second image
+
+# Display the first image
+
+# BASIC SUBMISSION is done by now
+
+Wit
+
+Grey
+
+Zwart
+
+Navy Blue
+
+Pure Blue
+
+Ocean Blue
+
+Sky Blue
+
+Electric Cyan
+
+Pure Green
+
+Leaf Green
+
+Olive Green
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+
