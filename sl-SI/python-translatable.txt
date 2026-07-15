@@ -1,3 +1,5 @@
 slika
 
+image2
+
 rgb
