@@ -12,68 +12,68 @@ Kleurvariabelen en afbeelding toevoegen
 
 Geef de afbeelding weer
 
-Sense a colour
+Een kleur waarnemen
 
 haal de kleur uit de sensor
 
 gebruik de waargenomen kleur
 
-Extra images / frames go here:
+Extra afbeeldingen/frames kunnen hier worden geplaatst:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Herhaal 14 keer (14 * 2 seconden = 28 seconden totale animatie)
 
-# Display the second image
+# Geef de tweede afbeelding weer
 
-# Display the first image
+# Geef de eerste afbeelding weer
 
-# BASIC SUBMISSION is done by now
+# De BASICINZENDING is nu voltooid
 
 Wit
 
-Grey
+Grijs
 
 Zwart
 
-Navy Blue
+Marineblauw
 
-Pure Blue
+Puur blauw
 
-Ocean Blue
+Oceaanblauw
 
-Sky Blue
+Hemelsblauw
 
-Electric Cyan
+Elektrisch cyaan
 
-Pure Green
+Puur groen
 
-Leaf Green
+Loofgroen
 
-Olive Green
+Olijfgroen
 
-Forest Green
+Bosgroen
 
-Earth Brown
+Aardbruin
 
-Terracotta Brown
+Terracotta bruin
 
-Brick Red
+Baksteenrood
 
-Pure Red
+Puur rood
 
-Orange
+Oranje
 
-Pale Yellow
+Bleekgeel
 
-Pure Yellow
+Puur geel
 
-Pale Pink
+Bleekroze
 
-Blush Pink
+Blushroze
 
-Light Pink
+Lichtroze
 
 Magenta
 
-Purple
+Paars
 
 
