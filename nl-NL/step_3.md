@@ -1,17 +1,17 @@
 ## Toon een afbeelding
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+De afbeelding die je weergeeft, is opgebouwd uit 64 gekleurde vierkantjes, genaamd **pixels**. De pixels zijn gerangschikt in een raster van 8 x 8. Elke pixel kan een andere kleur hebben. Door de kleuren zorgvuldig te kiezen, kun je een afbeelding creëren. Hier is een voorbeeld van een walvis gemaakt met verschillende tinten blauw op een zwarte achtergrond.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster van LED's die afzonderlijk of als groep kunnen worden aangestuurd om verschillende lichteffecten te creëren. De LED-matrix op de Sense HAT heeft 64 LED's die worden weergegeven in een 8 x 8 raster. De LED's kunnen worden geprogrammeerd om een breed scala aan kleuren te produceren.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![een afbeelding van 8x8 cm van een walvis met letters die verschillende kleuren aanduiden](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Merk op dat elk vierkantje is voorzien van een code die een bepaalde kleur vertegenwoordigt. In deze afbeelding worden 3 kleuren gebruikt:
++ c = zwart
++ f = Oceaanblauw
++ g = Hemelsblauw
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Kleuren kunnen worden gemaakt met verschillende verhoudingen van rood, groen en blauw. Meer informatie over de RGB kleuren vind je hier:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Drie schuifregelaars die RGB kleurwaarden demonstreren](images/rgbsliders.gif)
 
-De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleur worden ingesteld. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleur worden ingesteld. We kunnen de letters a tot en met z gebruiken als namen voor variabelen om 24 verschillende kleuren weer te geven. Elke kleur heeft een waarde voor rood, groen en blauw.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+title: Lijst met kleurvariabelen
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Een raster van 24 gekleurde vierkantjes, elk voorzien van een label met een andere letter van het alfabet](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Wit
+b = (171, 171, 171) # Grijs
+c = (0, 0, 0) # Zwart
+d = (25, 25, 113) # Marineblauw
+e = (0, 0, 255) # Puur blauw
+f = (36, 128, 200) # Oceaanblauw
+g = (0, 204, 255) # Hemelsblauw
+h = (86, 255, 255) # Elektrisch cyaan
+j = (0, 255, 0) # Puur groen
+k = (46, 139, 33) # Bladgroen
+l = (57, 97, 17) # Olijfgroen
+m = (30, 65, 6) # Bosgroen
+n = (126, 88, 25) # Aardbruin
+o = (179, 96, 65) # Terracotta bruin
+p = (180, 34, 34) # Baksteenrood
+q = (255, 0, 0) # Puur rood
+r = (232, 118, 5) # Oranje
+s = (241, 231, 100) # Bleekgeel
+t = (255, 255, 0) # Puur geel
+u = (255, 209, 209) # Bleekroze
+v = (255, 177, 177) # Blush roze
+w = (249, 169, 255) # Lichtroze
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Paars
 
 ```
 
@@ -99,12 +99,12 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 --- collapse ---
 
 ---
-title: Whale
+title: Walvis
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Een raster met 8 x 8 vierkantjes die een walvis tonen.](images/whale.png)
 
-Created by Team Naicom, Italy
+Gemaakt door Team Naicom, Italië
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Citroen
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Een raster met 8 x 8 vierkantjes die een citroen tonen.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Gemaakt door team g4lemoni, Griekenland
 
 ```python
 a = (255, 255, 255) # White
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Varken
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Een raster met 8 x 8 vierkantjes die een varken tonen.](images/pig.png)
 
-Created by Gary, United Kingdom
+Gemaakt door Gary, Verenigd Koninkrijk
 
 ```python
 a = (255, 255, 255) # White
@@ -191,9 +191,9 @@ a, a, y, a, a, a, y, a]
 title: Storm
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Een raster met 8 x 8 vierkantjes die een stormwolk tonen.](images/storm.png)
 
-Created by team hop2p023, Spain
+Gemaakt door team hop2p023, Spanje
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Eend
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Een raster met 8 x 8 vierkantjes die een eend tonen.](images/duck.png)
 
-Created by Peter, Ireland
+Gemaakt door Peter, Ierland
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Kikker
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Een raster met 8 x 8 vierkantjes die een kikker tonen.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Gemaakt door team Jmeno, Tsjechische Republiek
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Bloesemboom
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Een raster met 8 x 8 vierkantjes die een boom in bloesem tonen.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Gemaakt door team Zssh14, Slowakije
 
 ```python
 
