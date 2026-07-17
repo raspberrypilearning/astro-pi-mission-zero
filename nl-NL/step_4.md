@@ -1,10 +1,10 @@
 ## Een kleur waarnemen
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+In deze stap configureer je de kleur- en helderheidssensor. Met deze sensor meet je de hoeveelheid rood, groen en blauw licht die de sensor bereikt. Deze waarden worden vervolgens gebruikt om een van de kleuren in de door jouw gekozen afbeelding te wijzigen.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Dit betekent dat het beeld kan veranderen afhankelijk van wat de sensor waarneemt. Een astronaut die bijvoorbeeld een blauw shirt draagt, ziet een andere versie van het beeld dan een astronaut die een rood shirt draagt.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+In de walvisafbeelding die we in de vorige stap gebruikten, was de achtergrondkleur zwart. We gebruikten de variabele `c` om de RGB-kleurcode op te slaan:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Gebruik de kleursensor om een van je kleuren te veranderen.
 
-Underneath the lines where you define the colours, add the following code:
+Voeg onder de regels waar je de kleuren definieert de volgende code toe:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Deze code vervangt de RGB-waarden die zijn opgeslagen in `c` door de waarden voor de kleur die door de sensor is gedetecteerd.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Tip: Als je de variabele `c` niet in je eigen afbeelding hebt gebruikt, vervang dan `c` door een van de kleurvariabelen die je wél hebt gebruikt. Hierdoor kan de sensor die kleur veranderen.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Je hebt nu een afbeelding weergegeven, een kleur gedetecteerd en deze in je programma gebruikt, en je code is klaar om in te dienen! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Je kunt je programma opslaan en indienen via het formulier onderaan de code-editor.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Je kunt er echter ook voor kiezen om meer afbeeldingen aan jouw project toe te voegen, of het tot leven te brengen met animatie. De volgende stappen laten zien hoe je dit doet.
 </p>
 
-## Animate your project (optional)
+## Animeer je project (optioneel)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Jouw Mission Zero-programma kan tot 30 seconden lang op het Internationale Ruimtestation (ISS) draaien. Je kunt deze tijd gebruiken om een animatie op de LED-matrix weer te geven door te schakelen tussen twee of meer verschillende afbeeldingen.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Voeg** een tweede afbeelding direct onder je `sense.set_pixels(afbeelding)` regel code toe. Geef het de variabelenaam `afbeelding2` en verander een paar pixels om je animatieframe er anders uit te laten zien. Voeg daarna een korte pauze toe.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Helemaal onderaan je codebestand moet je je `for` lus zo instellen dat deze `14` keer herhaalt en afwisselend `afbeelding` en `afbeelding2` weergeeft, met een pauze van 1 seconde tussen elk frame.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Tip:** Zorg ervoor dat de regels code onder `for i in range(14):` ingesprongen zijn met een spatie, zodat ze **binnen** het lusblok vallen.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Voer je code opnieuw uit. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Test:** Voer je code opnieuw uit. Je programma zal de gedetecteerde kleur direct weergeven en vervolgens heen en weer schakelen voor een geanimeerde weergave.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Als je meer dan twee frames in je animatie wilt hebben, moet je ervoor zorgen dat het programma niet langer dan 30 seconden duurt. Als je bijvoorbeeld 10 afbeeldingen hebt die elk 1 seconde worden weergegeven, moet je je `for`-lus aanpassen zodat deze 3 keer wordt herhaald (10 * 3 = 30 seconden)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Controleer op fouten**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Mijn code bevat een syntaxfout of wisselt niet van frame:
+- Controleer of de inspringing van je `for` luscode overeenkomt met de inspringing in het voorbeeld.
+- Zorg ervoor dat je je tweede afbeeldingsmatrix de naam `afbeelding2` hebt gegeven en dat deze buiten en vóór het begin van de lus is geplaatst.
+- Controleer of je `sleep` tijden precies zijn ingesteld op `1` seconde om te voorkomen dat de strikte uitvoeringslimiet van 30 seconden op het ISS wordt overschreden.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Je kunt je programma opslaan in het Mission Start-project door je teamnaam, de n
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Voltooide walvis-codevoorbeeld
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Voltooide walvis-codevoorbeeld (met animatie)
 ---
 
 --- code ---
