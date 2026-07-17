@@ -1,13 +1,13 @@
 ## Qu'est-ce qu'un Astro Pi ?
 
-An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
+Un Astro Pi est un ordinateur Raspberry Pi spécialement conçu pour fonctionner dans l'espace.
 
 ![Image animée d'un Sense HAT fixé au-dessus d'un ordinateur Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
+Les ordinateurs Astro Pi sont équipés d'un ensemble de capteurs appelé « Sense HAT », que les jeunes peuvent utiliser pour réaliser des expériences scientifiques. Un capteur est un dispositif capable de détecter ou de mesurer ce qui se passe autour de lui. Les capteurs du Sense Hat peuvent mesurer des éléments tels que la couleur et la luminosité des objets situés devant lui. Le Sense Hat comprend également une matrice LED 8 x 8 capable d'afficher des images et des informations simples.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Une <span style="color: #0faeb0">**matrice de LED**</span> est une grille de LED (diodes électroluminescentes) qui peuvent être contrôlées individuellement ou en groupe pour créer différents effets lumineux. La matrice LED du Sense HAT comporte 64 LED affichées dans une grille de 8 x 8. Les LED peuvent être programmées pour produire une large gamme de couleurs.
 </p>
 
-![an 8x8 pixel art image of a whale](images/whaleblank.png)
+![un pixel art de 8x8 pixels d'une baleine](images/whaleblank.png)
