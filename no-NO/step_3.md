@@ -10,8 +10,8 @@ En <span style="color: #0faeb0">**LED-matrise**</span> er et rutenett av LED-pæ
 
 Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
 + c = black
-+ f = midnight blue
-+ g = deep sky blue
++ f = Ocean blue
++ g = Sky blue
 
 
 --- task ---
