@@ -2,7 +2,7 @@
 
 Nüüd, kui olete oma missiooni täitnud, siis miks mitte proovida veel mõnda projekti, kasutades Astro Pi teisi andureid?
 
-Kui oled endas kindel, võiksid osaleda projektis Mission Space Lab. Moodusta kahest kuni kuuest inimesest koosnev meeskond ja töötage koos, et vastata tõelisele teaduslikule küsimusele. Kõik meeskonnad, kes esitavad sobiva programmi, kutsutakse Astro Pi Challenge tsükli lõpus ESA virtuaalsele Q&A kohtumisele astronaudiga.
+Kui oled endas kindel, võiksid osaleda projektis Mission Space Lab. Moodusta kahest kuni kuuest inimesest koosnev meeskond ja töötage koos, et vastata tõelisele teaduslikule küsimusele. All teams that submit an eligible program will be invited to a virtual Q&A with an human space flight expert from ESA at the end of the European Astro Pi Challenge cycle.
 
 Soovi korral võid proovida ka mõnd teistsugust Sense HAT projekti:
 
