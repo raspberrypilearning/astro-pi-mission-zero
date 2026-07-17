@@ -2,7 +2,7 @@
 
 Most, hogy teljesítetted a küldetésedet, akár más projekteket is kipróbálhatsz az Astro Pi többi érzékelőjét használva!
 
-Ha elég magabiztosnak érzed magad, akár a Mission Space Labben is részt vehetsz. Alkossatok 2-6 fős csapatot, és dolgozzatok együtt, hogy megválaszoljatok egy valódi tudományos kérdést. Minden csapat, amely megfelelő programot küld be, meghívásra kerül egy virtuális beszélgetésre egy ESA-űrhajóssal az Astro Pi Kihívás ciklusának a végén.
+Ha elég magabiztosnak érzed magad, akár a Mission Space Labben is részt vehetsz. Alkossatok 2-6 fős csapatot, és dolgozzatok együtt, hogy megválaszoljatok egy valódi tudományos kérdést. All teams that submit an eligible program will be invited to a virtual Q&A with an human space flight expert from ESA at the end of the European Astro Pi Challenge cycle.
 
 Vagy kipróbálhatod valamelyik másik Sense HAT projektünket:
 
