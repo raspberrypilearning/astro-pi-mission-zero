@@ -1,17 +1,17 @@
 ## Afficher une image
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+L'image que tu afficheras sera composée de 64 carrés colorés appelés **pixels**. Les pixels sont disposés selon une grille de 8 x 8. Chaque pixel peut être d'une couleur différente. En choisissant soigneusement les couleurs, tu peux créer une image. Voici un exemple de baleine réalisée avec différentes nuances de bleu sur arrière-plan noir.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Une <span style="color: #0faeb0">**matrice LED**</span> est une grille de LED qui peuvent être contrôlées individuellement ou en groupe pour créer différents effets de lumière. La matrice LED du Sense HAT comporte 64 LED affichées dans une grille de 8 x 8. Les LED peuvent être programmées pour produire une large gamme de couleurs.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![une image 8x8 d'une baleine avec des lettres indiquant différentes couleurs](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Tu remarqueras que chaque case est identifiée par un code correspondant à une couleur précise. Cette image utilise 3 couleurs :
++ c = noir
++ f = Bleu océan
++ g = Bleu ciel
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Tu peux créer des couleurs en utilisant différentes valeurs de rouge, vert et bleu. Tu peux découvrir les couleurs RVB ici :
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Trois curseurs illustrant les valeurs de couleur RVB](images/rgbsliders.gif)
 
-La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. Nous pouvons utiliser les lettres de a à z comme noms de variables pour représenter 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+title: Liste des variables de couleur
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Une grille de 24 carrés colorés, chacun portant une lettre différente de l'alphabet](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Blanc
+b = (171, 171, 171) # Gris
+c = (0, 0, 0) # Noir
+d = (25, 25, 113) # Bleu marine
+e = (0, 0, 255) # Bleu pur
+f = (36, 128, 200) # Bleu océan
+g = (0, 204, 255) # Bleu ciel
+h = (86, 255, 255) # Cyan électrique
+j = (0, 255, 0) # Vert pur
+k = (46, 139, 33) # Vert feuille
+l = (57, 97, 17) # Vert olive
+m = (30, 65, 6) # Vert forêt
+n = (126, 88, 25) # Brun terre
+o = (179, 96, 65) # Brun terracotta
+p = (180, 34, 34) # Rouge brique
+q = (255, 0, 0) # Rouge pur
+r = (232, 118, 5) # Orange
+s = (241, 231, 100) # Jaune pâle
+t = (255, 255, 0) # Jaune pur
+u = (255, 209, 209) # Rose pâle
+v = (255, 177, 177) # Rose poudré
+w = (249, 169, 255) # Rose clair
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Violet
 
 ```
 
@@ -99,12 +99,12 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Whale
+title: Baleine
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Une grille de 8 x 8 cases représentant une baleine.](images/whale.png)
 
-Created by Team Naicom, Italy
+Créé par la Team Naicom, Italie
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Citron
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Une grille de 8 x 8 cases représentant un citron.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Créé par la Team g4lemoni, Grèce
 
 ```python
 a = (255, 255, 255) # White
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Cochon
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Une grille de 8 x 8 cases représentant un cochon.](images/pig.png)
 
-Created by Gary, United Kingdom
+Créé par Gary, Royaume-Uni
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Orage
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Une grille de 8 × 8 cases représentant un nuage d'orage.](images/storm.png)
 
-Created by team hop2p023, Spain
+Créé par la Team hop2p023, Espagne
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Canard
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Une grille de 8 x 8 cases représentant un canard.](images/duck.png)
 
-Created by Peter, Ireland
+Créé par Peter, Irlande
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Grenouille
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Une grille de 8 x 8 cases représentant une grenouille.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Créé par la Team Jmeno, République tchèque
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Arbre en fleurs
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Une grille de 8 x 8 cases représentant un arbre en fleurs.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Créé par la Team Zssh14, Slovaquie
 
 ```python
 
