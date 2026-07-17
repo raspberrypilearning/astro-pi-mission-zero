@@ -2,7 +2,7 @@
 
 Nu hvor du har fuldført din mission, hvorfor så ikke prøve nogle flere projekter ved hjælp af de andre sensorer på Astro Pi?
 
-Hvis du har mod på det, kan du deltage i Mission Space Lab. Lav et hold på to til seks personer og arbejd sammen for at besvare et rigtigt videnskabeligt spørgsmål. Alle hold, der indsender et kvalificeret program, vil blive inviteret til en virtuel Q&A med en ESA-astronaut i slutningen af Astro Pi Challenge cyklussen.
+Hvis du har mod på det, kan du deltage i Mission Space Lab. Lav et hold på to til seks personer og arbejd sammen for at besvare et rigtigt videnskabeligt spørgsmål. All teams that submit an eligible program will be invited to a virtual Q&A with an human space flight expert from ESA at the end of the European Astro Pi Challenge cycle.
 
 Alternativt har du måske lyst til at prøve kræfter med et af vores andre Astro Pi-projekter:
 
