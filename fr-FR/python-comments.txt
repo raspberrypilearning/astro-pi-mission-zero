@@ -12,68 +12,68 @@ Ajouter des variables de couleur et une image
 
 Afficher l'image
 
-Sense a colour
+Détecter une couleur
 
 obtenir la couleur du capteur
 
 utiliser la couleur détectée
 
-Extra images / frames go here:
+Images/frames supplémentaires à insérer ici :
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Répéter 14 fois (14 * 2 secondes = 28 secondes d'animation au total)
 
-# Display the second image
+# Afficher la deuxième image
 
-# Display the first image
+# Afficher la première image
 
-# BASIC SUBMISSION is done by now
+# LA SOUMISSION DE BASE EST TERMINÉE
 
 Blanc
 
-Grey
+Gris
 
 Noir
 
-Navy Blue
+Bleu marine
 
-Pure Blue
+Bleu pur
 
-Ocean Blue
+Bleu océan
 
-Sky Blue
+Bleu ciel
 
-Electric Cyan
+Cyan électrique
 
-Pure Green
+Vert pur
 
-Leaf Green
+Vert feuille
 
-Olive Green
+Vert olive
 
-Forest Green
+Vert forêt
 
-Earth Brown
+Brun terre
 
-Terracotta Brown
+Brun terracotta
 
-Brick Red
+Rouge brique
 
-Pure Red
+Rouge pur
 
 Orange
 
-Pale Yellow
+Jaune pâle
 
-Pure Yellow
+Jaune pur
 
-Pale Pink
+Rose pâle
 
-Blush Pink
+Rose poudré
 
-Light Pink
+Rose clair
 
 Magenta
 
-Purple
+Violet
 
 
