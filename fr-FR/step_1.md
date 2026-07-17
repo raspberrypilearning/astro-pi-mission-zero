@@ -1,12 +1,12 @@
 ## Ce que tu vas faire
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Tu programmeras un ordinateur Astro Pi pour afficher une image colorée. Une fois que ton programme aura passé les vérifications de code officielles, il sera exécuté sur un ordinateur Astro Pi à bord de la Station spatiale internationale (ISS) afin que les astronautes puissent le voir pendant qu'ils effectuent leurs tâches quotidiennes.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+Dans ce projet, tu découvriras l'ordinateur Astro Pi et apprendras à le contrôler. Tu vas :
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Concevoir et afficher un pixel art sur un ordinateur Astro Pi
++ Utiliser un capteur pour détecter la couleur et la luminosité de la lumière à bord de l'ISS et modifier l'image
++ Créer une animation simple (facultatif)
 
 Voici un exemple du type de programme que tu pourrais créer.
 
@@ -14,20 +14,20 @@ Voici un exemple du type de programme que tu pourrais créer.
 
 ### Ce dont tu auras besoin
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Tu écriras et testeras ton programme dans un navigateur web tel que Google Chrome. Tu n'as pas besoin d'un véritable ordinateur Astro Pi.
 
 ### Critères d'éligibilité de l'Astro Pi Mission Zero
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Chaque projet qui respecte les [règles](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} recevra le « statut de vol » et sera envoyé pour être exécuté à bord de la Station spatiale internationale ! Si tu réussis, tu recevras aussi un certificat spécial indiquant l'endroit exact où se trouvait la Station spatiale internationale lorsque ton programme a été exécuté dans l'espace.
 
 --- collapse ---
 ---
 title: Notes pour les mentor·e·s
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
+Mission Zero convient aux débutant·e·s en programmation et est recommandé aux jeunes de 9 à 16 ans. Mission Zero peut être réalisé en une seule session de 60 minutes sur n'importe quel ordinateur avec accès à Internet. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ Mission Zero peut être réalisé individuellement ou en équipes de 4 personnes maximum.
 
 Consultez les [directives officielles](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
