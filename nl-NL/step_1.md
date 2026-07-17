@@ -1,12 +1,12 @@
 ## Je gaat maken
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Je gaat een Astro Pi-computer programmeren om een kleurrijke afbeelding weer te geven. Zodra jouw programma de officiële codecontroles doorstaat, wordt het uitgevoerd op een Astro Pi-computer aan boord van het Internationale Ruimtestation (ISS), zodat de astronauten het kunnen bekijken tijdens hun dagelijkse werkzaamheden.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+In dit project leer je meer over de Astro Pi-computer en hoe je deze kunt besturen. Je gaat:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Een pixelart-afbeelding ontwerpen en tonen op de Astro Pi-computer
++ Een sensor gebruiken om de kleur en helderheid van het licht aan boord van het ISS te detecteren en de afbeelding aan te passen
++ Een eenvoudige animatie maken (optioneel)
 
 Hier is een voorbeeld van het soort programma dat je zou kunnen maken.
 
@@ -14,20 +14,20 @@ Hier is een voorbeeld van het soort programma dat je zou kunnen maken.
 
 ### Je hebt nodig
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Je schrijft en test je programma in een webbrowser zoals Google Chrome. Je hebt geen echte Astro Pi-computer nodig.
 
 ### Astro Pi Mission Zero criteria
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Elk project dat voldoet aan de [regels](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} krijgt de 'Vluchtstatus' om op het Internationale Ruimtestation te draaien! Als je slaagt, ontvang je ook een speciaal certificaat waarop precies staat waar het ISS zich bevond toen je programma in de ruimte draaide.
 
 --- collapse ---
 ---
 title: Notities voor leraren en mentoren
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Er zijn geen speciale hardware of voorafgaande codeervaardigheden nodig. Alles kan in een webbrowser worden gedaan.
+Mission Zero is geschikt voor beginners in programmeren en wordt aanbevolen voor jongeren van 9 tot 16 jaar. Het kan worden voltooid in één sessie van 60 minuten en op elke computer met internettoegang. Er zijn geen speciale hardware of voorafgaande codeervaardigheden nodig. Alles kan in een webbrowser worden gedaan.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ Mission Zero kan individueel of in teams van maximaal 4 personen worden uitgevoerd.
 
 Lees de [officiële richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero door.
 
