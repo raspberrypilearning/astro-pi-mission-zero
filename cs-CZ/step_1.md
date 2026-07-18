@@ -4,9 +4,9 @@ Naprogramuješ počítač Astro Pi tak, aby zobrazil barevný obrázek. Jakmile 
 
 V tomto projektu se dozvíš o počítači Astro Pi a naučíš se ho ovládat. Také se naučíš:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ jak navrhnout a zobrazit pixelový obrázek na počítači Astro Pi,
++ jak použít senzor pro detekování barvy a svítivosti na palubě ISS a za jeho pomocí upravit obrázek,
++ jak vytvořit jednoduchou animaci (nepovinné).
 
 Tady je ukázka programu, který by mohl běžet ve vesmíru na počítači Astro Pi a který zvládneš naprogramovat i ty.
 
@@ -14,20 +14,20 @@ Tady je ukázka programu, který by mohl běžet ve vesmíru na počítači Astr
 
 ### Co budeš potřebovat
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Svůj program napíšeš a otestuješ ve webovém prohlížeči, jako je například Google Chrome. Nepotřebuješ skutečný počítač Astro Pi.
 
 ### Kritéria výzvy Astro Pi Mission Zero
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Všechny projekty, které se řídí [pravidly](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} získají „stav letu“ a budou spuštěný na Mezinárodní vesmírné stanici! Pokud uspěješ, obdržíš také speciální certifikát, který udává přesnou polohu ISS v okamžiku, kdy byl tvůj program ve vesmíru spuštěn.
 
 --- collapse ---
 ---
 title: Poznámky pro mentory
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Není potřeba žádný speciální hardware ani předchozí znalosti programování. Vše se dá udělat ve webovém prohlížeči.
+Výzva Mission Zero je vhodná pro začínající programátory a je doporučena pro mladé lidi ve věku 9-16 let. Lze ji dokončit během jediného 60minutového sezení na jakémkoli počítači s připojením k internetu. Není potřeba žádný speciální hardware ani předchozí znalosti programování. Vše se dá udělat ve webovém prohlížeči.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ Výzvu Mission Zero lze absolvovat jako jednotlivec nebo jako člen týmu složeného maximálně ze 4 lidí.
 
 Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
