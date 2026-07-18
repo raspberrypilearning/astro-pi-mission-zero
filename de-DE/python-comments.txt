@@ -12,68 +12,68 @@ Farbvariablen und Bild hinzufügen
 
 Das Bild anzeigen
 
-Sense a colour
+Bestimme eine Farbe
 
 Hole die Farbe vom Sensor
 
 Verwende die ermittelte Farbe
 
-Extra images / frames go here:
+Weitere Bilder/Frames kommen hierher:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+14 Mal wiederholen (14 * 2 Sekunden = 28 Sekunden Gesamtanimation)
 
-# Display the second image
+# Zeige das zweite Bild an
 
-# Display the first image
+# Zeige das erste Bild an
 
-# BASIC SUBMISSION is done by now
+# Die grundlegende Einreichung ist nun abgeschlossen
 
 Weiß
 
-Grey
+Grau
 
 Schwarz
 
-Navy Blue
+Marineblau
 
-Pure Blue
+Reines Blau
 
-Ocean Blue
+Ozeanblau
 
-Sky Blue
+Himmelblau
 
-Electric Cyan
+Elektrisches Cyan
 
-Pure Green
+Reines Grün
 
-Leaf Green
+Blattgrün
 
-Olive Green
+Olivgrün
 
-Forest Green
+Waldgrün
 
-Earth Brown
+Erdbraun
 
-Terracotta Brown
+Terrakottabraun
 
-Brick Red
+Ziegelrot
 
-Pure Red
+Reines Rot
 
 Orange
 
-Pale Yellow
+Blassgelb
 
-Pure Yellow
+Reines Gelb
 
-Pale Pink
+Blassrosa
 
-Blush Pink
+Zartrosa
 
-Light Pink
+Hellrosa
 
 Magenta
 
-Purple
+Lila
 
 
