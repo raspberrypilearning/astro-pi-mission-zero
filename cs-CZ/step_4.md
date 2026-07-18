@@ -1,6 +1,6 @@
 ## Získej hodnoty ze senzoru
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+V tomto kroku nastavíš senzor barev a svítivosti. Tento senzor použiješ k měření množství červeného, zeleného a modrého světla, které na něho dopadá. These values will then be used to change one of the colours in your chosen image.
 
 This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
 
@@ -118,7 +118,7 @@ If you would like to have more than two frames in your animation, you must make 
 
 **Check for errors**
 
-My code has a syntax error or doesn't change frames:
+Můj kód má chyby v syntaxi nebo nemění snímky:
 - Check that your `for` loop code matches the indentation in the example.
 - Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
 - Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
@@ -137,7 +137,7 @@ Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Příklad dokončeného kódu s velrybou
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Příklad dokončeného kódu s velrybou (včetně animace)
 ---
 
 --- code ---
