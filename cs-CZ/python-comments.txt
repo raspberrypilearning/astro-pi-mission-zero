@@ -12,68 +12,68 @@ Přidej proměnné s barvami a obrázek
 
 Zobraz obrázek
 
-Sense a colour
+Získej hodnoty ze senzoru
 
 Získej barvu ze senzoru
 
 Použij barvu naměřenou ze senzoru
 
-Extra images / frames go here:
+Další obrázky/snímky budou zde:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Smyčka 14krát (14 * 2 sekundy = 28 sekund celkové doby animace)
 
-# Display the second image
+# Zobraz druhý obrázek
 
-# Display the first image
+# Zobraz první obrázek
 
-# BASIC SUBMISSION is done by now
+# ZÁKLAD PRO PŘIHLÁŠKU je nyní hotový
 
 Bílá
 
-Grey
+Šedá
 
 Černá
 
-Navy Blue
+Námořnická modrá
 
-Pure Blue
+Čistě modrá
 
-Ocean Blue
+Oceánská modř
 
-Sky Blue
+Nebesky modrá
 
-Electric Cyan
+Elektrická modrozelená
 
-Pure Green
+Čistě zelená
 
-Leaf Green
+Listově zelená
 
-Olive Green
+Olivově zelená
 
-Forest Green
+Lesní zelená
 
-Earth Brown
+Hnědá hlína
 
-Terracotta Brown
+Hnědá terakota
 
-Brick Red
+Cihlově červená
 
-Pure Red
+Čistě červená
 
-Orange
+Oranžová
 
-Pale Yellow
+Bledě žlutá
 
-Pure Yellow
+Čistě žlutá
 
-Pale Pink
+Bledě růžová
 
-Blush Pink
+Růžová tvářenka
 
-Light Pink
+Světle růžová
 
-Magenta
+Purpurová
 
-Purple
+Fialová
 
 
