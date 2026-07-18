@@ -1,5 +1,5 @@
 bild
 
-image2
+bild2
 
 rgb
