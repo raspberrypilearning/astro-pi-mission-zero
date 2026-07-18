@@ -26,7 +26,7 @@ Répéter 14 fois (14 * 2 secondes = 28 secondes d'animation au total)
 
 # Afficher la première image
 
-# LA SOUMISSION DE BASE EST TERMINÉE
+# LA SOUMISSION DE BASE est terminée
 
 Blanc
 
