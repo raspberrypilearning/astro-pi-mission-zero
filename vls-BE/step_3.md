@@ -287,7 +287,7 @@ k, k, k, j, k, n, n, n]
 title: Blossom Tree
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Een raster met 8 x 8 vierkanten dat een boom met bloesems toont.](images/blossom.png)
 
 Created by team Zssh14, Slovakia
 
