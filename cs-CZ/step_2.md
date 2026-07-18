@@ -1,13 +1,13 @@
 ## Co je Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
+Astro Pi je počítač od společnosti Raspberry Pi, který byl speciálně navržen pro práci ve vesmíru.
 
 ![Animovaný obrázek obsahující desku Sense HAT, která je připevněná k vrchní části počítače Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
+Počítače Astro Pi mají sadu senzorů zvaných „Sense HAT“, které mohou mladí lidé používat k provádění vědeckých experimentů. Senzor je něco, co dokáže detekovat nebo měřit to, co se kolem něj děje. Senzory na desce Sense HAT dokáží měřit například barvu a svítivost objektů před nimi. Sense HAT rovněž obsahuje LED matici o velikosti 8 × 8, která dokáže zobrazovat jednoduché obrázky nebo informace.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED matice**</span> je mřížka osazená LED diodami, které můžeš ovládat jednotlivě nebo jako skupinu, a můžeš tak docílit různých světelných efektů. LED matice na desce Sense HAT má 64 LED diod v mřížce o velikosti 8 × 8. Tyto LED diody můžeš naprogramovat tak, aby vyprodukovaly širokou škálu barev.
 </p>
 
-![an 8x8 pixel art image of a whale](images/whaleblank.png)
+![Pixelový obrázek velryby o velikost 8 × 8.](images/whaleblank.png)
