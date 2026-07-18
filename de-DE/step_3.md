@@ -1,17 +1,17 @@
 ## Anzeigen eines Bildes
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Das angezeigte Bild wird aus 64 farbigen Quadraten namens **Pixeln** erstellt. Die Pixel sind in einem 8 x 8 Raster angeordnet. Jedes Pixel kann eine andere Farbe haben. Durch die sorgfältige Auswahl der Farben lässt sich ein Bild gestalten. Hier ist ein Beispiel für einen Wal, der aus verschiedenen Blautönen auf schwarzem Hintergrund besteht.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Eine <span style="color: #0faeb0">**LED-Matrix**</span> ist ein Raster von LEDs, die einzeln oder als Gruppe gesteuert werden können, um verschiedene Lichteffekte zu erzeugen. Die LED-Matrix des Sense HAT verfügt über 64 LEDs, die in einem 8 x 8-Raster angeordnet sind. Die LEDs können so programmiert werden, dass sie eine breite Palette von Farben erzeugen.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![ein 8x8 Bild eines Wales mit Buchstaben, die verschiedene Farben kennzeichnen](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Beachte, dass jedes Quadrat mit einem Code versehen ist, der eine bestimmte Farbe repräsentiert. In diesem Bild werden 3 Farben verwendet:
++ c = schwarz
++ f = Ozeanblau
++ g = Himmelblau
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Alle Farben können mit unterschiedlichen Anteilen von rot, grün und blau erzeugt werden. Informationen zu RGB-Farben findest du hier:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Drei Schieberegler zur Darstellung der RGB-Farbwerte](images/rgbsliders.gif)
 
-Die LED-Matrix ist ein 8 x 8 Raster. Jede LED am Raster kann auf eine andere Farbe eingestellt werden. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+Die LED-Matrix ist ein 8 x 8 Raster. Jede LED am Raster kann auf eine andere Farbe eingestellt werden. Wir können die Buchstaben a bis z als Namen von Variablen verwenden, um 24 verschiedene Farben darzustellen. Jede Farbe hat einen Wert für Rot, Grün und Blau.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+title: Liste der Farbvariablen
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Ein Raster aus 24 farbigen Quadraten, von denen jedes mit einem anderen Buchstaben des Alphabets beschriftet ist](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
+a = (255, 255, 255) # Weiß
+b = (171, 171, 171) # Grau
+c = (0, 0, 0) # Schwarz
+d = (25, 25, 113) # Marineblau
+e = (0, 0, 255) # Reines Blau
+f = (36, 128, 200) # Ozeanblau
+g = (0, 204, 255) # Himmelblau
+h = (86, 255, 255) # Elektrisches Cyan
+j = (0, 255, 0) # Reines Grün
+k = (46, 139, 33) # Blattgrün
+l = (57, 97, 17) # Olivgrün
+m = (30, 65, 6) # Waldgrün
+n = (126, 88, 25) # Erdbraun
+o = (179, 96, 65) # Terrakottabraun
+p = (180, 34, 34) # Ziegelrot
+q = (255, 0, 0) # Reines Rot
+r = (232, 118, 5) # Orange
+s = (241, 231, 100) # Hellgelb
+t = (255, 255, 0) # Reines Gelb
+u = (255, 209, 209) # Hellrosa
 v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+w = (249, 169, 255) # Helles Pink
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Lila
 
 ```
 
@@ -99,12 +99,12 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-title: Whale
+title: Wal
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Wal zeigen.](images/whale.png)
 
-Created by Team Naicom, Italy
+Erstellt vom Team Naicom, Italien
 
 ```python
 c = (0, 0, 0)       # Black
@@ -132,9 +132,9 @@ c, g, g, g, g, c, c, c]
 title: Lemon
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Ein Raster mit 8 x 8 Quadraten, das eine Zitrone zeigt.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Erstellt von Team g4lemoni, Griechenland
 
 ```python
 a = (255, 255, 255) # White
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Schwein
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Ein Raster mit 8 x 8 Quadraten, das ein Schwein zeigt.](images/pig.png)
 
-Created by Gary, United Kingdom
+Erstellt von Gary, Großbritannien
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Sturm
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Ein Raster mit 8 x 8 Quadraten, das eine Gewitterwolke darstellt.](images/storm.png)
 
-Created by team hop2p023, Spain
+Erstellt von Team hop2p023, Spanien
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Ente
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Ein Raster mit 8 x 8 Quadraten, das eine Ente zeigt.](images/duck.png)
 
-Created by Peter, Ireland
+Erstellt von Peter, Irland
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Frosch
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Ein Raster mit 8 x 8 Quadraten, das einen Frosch zeigt.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Erstellt vom Team Jmeno, Tschechische Republik
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Blütenbaum
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Ein Raster aus 8 x 8 Quadraten, das einen blühenden Baum zeigt.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Erstellt vom Team Zssh14, Slowakei
 
 ```python
 
