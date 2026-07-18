@@ -1,13 +1,13 @@
 ## Wat is een Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
+Een Astro Pi is een Raspberry Pi computer die speciaal ontworpen is om in de ruimte te werken.
 
 ![Een geanimeerd beeld van een Sense HAT wordt bovenaan een Raspberry Pi-computer geplaatst.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
+Astro Pi computers hebben een set sensoren die 'Sense HAT' heten en die jongeren kunnen gebruiken om wetenschappelijke experimenten uit te voeren. Een sensor is een apparaat dat kan detecteren of meten wat er in de omgeving gebeurt. De sensoren op de Sense Hat kunnen dingen meten zoals de kleur en helderheid van voorwerpen die ervoor staan. De Sense Hat heeft ook een 8 x 8 LED Matrix die eenvoudige afbeeldingen en informatie kan tonen.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Een <span style="color: #0faeb0">**LED matrix**</span> is een raster met LED's (lichtgevende diodes) die apart of in groep gecontrolleerd kunnen worden of verschillende lichteffecten te maken. De LED matrix op de Sense HAT heeft 64 LEDs, afgebeeld in een raster van 8 x 8.  De LEDs kunnen geprogrammeerd worden om een breed gamma kleuren te produceren.
 </p>
 
-![an 8x8 pixel art image of a whale](images/whaleblank.png)
+![een 8x8 pixel art afbeelding van een walvis](images/whaleblank.png)
