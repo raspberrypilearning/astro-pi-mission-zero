@@ -99,7 +99,7 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 --- collapse ---
 
 ---
-title: Walvis
+titel: Walvis
 ---
 
 ![Een raster met 8 x 8 vierkanten die een walvis tonen.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Citroen
+titel: Citroen
 ---
 
 ![Een raster met 8 x 8 vierkanten die een citroen tonen.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Varken
+titel: Varken
 ---
 
 ![Een raster met 8 x 8 vierkanten die een varken tonen.](images/pig.png)
@@ -188,10 +188,10 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+titel: Storm
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Een raster met 8 x 8 vierkanten dat een stormwolk toont.](images/storm.png)
 
 Created by team hop2p023, Spain
 
@@ -222,7 +222,7 @@ c, g, c, c, c, c, c, c]
 title: Duck
 ---
 
-![Een raster met 8 x 8 veirkanten die een eend toont.](images/duck.png)
+![Een raster met 8 x 8 veirkanten dat een eend toont.](images/duck.png)
 
 Created by Peter, Ireland
 
