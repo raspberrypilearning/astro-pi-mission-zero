@@ -1,10 +1,10 @@
 ## Meet een kleur
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+In deze stap zal je de kleur en helderheidssensor instellen. Je zal deze sensor gebruiken om te meten hoeveel rood, groen en blauw licht de sensor bereikt. Deze waarden zullen dan gebruikt worden om één van de kleuren in je gekozen afbeelding te veranderen.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Dit betekent dat de afbeelding kan veranderen afhankelijk van wat de sensor ziet. Bijvoorbeeld, een astronaut die een blauw shirt draagt zal een andere versie van de afbeelding zien dan een astronaut die een rood shirt draagt.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+In de afbeelding van de walvis die we in de vorige stap gebruikten, was de achtergrond zwart. We gebruikten de variabele `c`om de RGB-kleur code op te slaan:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Gebruik de kleursensor om één van je kleuren te veranderen.
 
-Underneath the lines where you define the colours, add the following code:
+Onder de lijnen waar je de kleuren bepaalt, voeg je deze code toe:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Deze code vervangt de RGB-waarden die opgeslagen zijn in `c`</0> door de waarden van de kleur die de sensor waarneemt.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Tip: als je variabele `c` niet gebruikte in je eigen afbeelding, vervang dan `c` door één van de kleurvariabelen die je wel gebruikte. Dit zorgt ervoor dat de sensor naar die kleur zal veranderen.
 
 --- task ---
 
@@ -47,14 +47,14 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Je hebt nu een afbeelding getoond, een kleur gemeten en een dit in je programma gebruikt. Je code is klaar om in te dienen!  
 
-You can save and submit your program using the form at the bottom of the code editor.
+Je kan je programma opslaan en indienen door het formulier te gebruiken dat onderaan de code-aanpasser staat.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Je kan ook als je dat wil nog meer afbeeldingen aan je project wil toevoegen of het tot leven laten komen door animatie. De volgende stappen laten je zien hoe je dat moet doen.
 </p>
 
-## Animate your project (optional)
+## Maak een animatie van je project (optioneel)
 
 Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
