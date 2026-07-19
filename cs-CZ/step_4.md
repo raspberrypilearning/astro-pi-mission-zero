@@ -1,10 +1,10 @@
 ## Získej hodnoty ze senzoru
 
-V tomto kroku nastavíš senzor barev a svítivosti. Tento senzor použiješ k měření množství červeného, zeleného a modrého světla, které na něho dopadá. These values will then be used to change one of the colours in your chosen image.
+V tomto kroku nastavíš senzor barev a svítivosti. Tento senzor budeš používat k naměření množství červeného, zeleného a modrého světla, které na něho dopadá. Tyto hodnoty pak budou použity ke změně jedné z barev na tvém obrázku.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+To znamená, že obrázek se může měnit podle toho, co senzor vidí. Například astronaut v modrém tričku uvidí jinou verzi obrázku než astronaut v červeném tričku.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Barva pozadí obrázku s velrybou v minulém kroku byla černá. Použili jsme proměnnou `c`, do které jsme uložili kód barvy RGB:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Použij barevný senzor a změň jednu ze svých barev.
 
-Underneath the lines where you define the colours, add the following code:
+Pod řádky, kde definuješ barvy, přidej následující kód:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Tento kód nahrazuje hodnoty RGB uložené v proměnné `c` hodnotami naměřenými barevným senzorem.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Tip: Pokud ve svém obrázku nepoužíváš proměnnou `c`, nahraď `c` jednou z proměnných barev, které používáš. Díky tomu bude moci senzor změnit danou barvu.
 
 --- task ---
 
@@ -54,14 +54,14 @@ You can save and submit your program using the form at the bottom of the code ed
 However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
 </p>
 
-## Animate your project (optional)
+## Naanimuj svůj projekt (nepovinné)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Tvůj program Mission Zero může na Mezinárodní vesmírné stanici (ISS) běžet po dobu až 30 sekund. Tento čas můžeš využít k zobrazení animace na LED matici tak, že budeš přepínat mezi dvěma nebo více obrázky.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+Těsně pod řádek `sense.set_pixels(obrazek)` **přidej** svůj druhý obrázek. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
 
 --- code ---
 ---
