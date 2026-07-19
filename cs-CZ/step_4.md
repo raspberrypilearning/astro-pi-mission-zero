@@ -47,11 +47,11 @@ Tip: Pokud ve svém obrázku nepoužíváš proměnnou `c`, nahraď `c` jednou z
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Podařilo se ti zobrazit obrázek, rozpoznat barvu a použít ji ve svém programu, a tvůj kód je tak připraven k odevzdání! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Program můžeš uložit a odeslat pomocí formuláře v dolní části editoru kódu.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Možná však budeš chtít do svého projektu přidat další obrázky nebo ho oživit animacemi. V následujících krocích se dozvíš, jak na to.
 </p>
 
 ## Naanimuj svůj projekt (nepovinné)
@@ -61,7 +61,7 @@ Tvůj program Mission Zero může na Mezinárodní vesmírné stanici (ISS) bě�
 --- task ---
 
 
-Těsně pod řádek `sense.set_pixels(obrazek)` **přidej** svůj druhý obrázek. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+Těsně pod řádek `sense.set_pixels(obrazek)` **přidej** svůj druhý obrázek. Pojmenuj proměnnou jako `obrazek2` a změň pár pixelu, aby tvůj snímek animace vypadal jinak. Pak za ním přidej krátkou pauzu.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Na samém konci souboru s kódem nastav smyčku `for` tak, aby se opakovala `14`krát a střídala mezi proměnnými `obrazek` a `obrazek2`, přičemž na každém snímku se zastaví na 1 sekundu.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Tip:** Ujisti se, že řádky kódu pod `for i in range(14):` jsou odsazeny mezerou, aby se nacházely **uvnitř** bloku smyčky.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Spusť svůj kód znovu. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Test:** Spusť svůj kód znovu. Tvůj program okamžitě zobrazí naměřenou barvu a poté bude pomocí smyčky přepínat tam a zpátky, čímž vznikne animovaný obrázek.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Pokud ve své animaci chceš mít více než dva snímky, musíš zajistit, aby program běžel po dobu maximálně 30 sekund. Například pokud máš 10 obrázků, z nichž každý se zobrazí na 1 sekundu, musíš smyčku „for“ nastavit tak, aby se opakovala 3krát (10 × 3 = 30 sekund).
 </p>
 
 --- task ---
 
-**Check for errors**
+**Zkontroluj chyby**
 
 Můj kód má chyby v syntaxi nebo nemění snímky:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+- Zkontroluj, že tvůj kód pro smyčku `for` má stejné odsazení jako v příkladu.
+- Ujisti se, že se tvůj druhý obrázek jmenuje `obrazek2` a že je umístěný mimo smyčku a před ní.
+- Podívej se, že řádky se `sleep` jsou nastaveny přesně na `1` sekundu, aby nedošlo k překročení 30sekundového limitu na ISS.
 
 --- /task ---
 
