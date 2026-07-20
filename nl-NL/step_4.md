@@ -1,6 +1,6 @@
 ## Een kleur waarnemen
 
-In deze stap configureer je de kleur- en helderheidssensor. Met deze sensor meet je de hoeveelheid rood, groen en blauw licht die de sensor bereikt. Deze waarden worden vervolgens gebruikt om een van de kleuren in de door jouw gekozen afbeelding te wijzigen.
+In deze stap stel je de kleur- en helderheidssensor in. Met deze sensor meet je de hoeveelheid rood, groen en blauw licht die de sensor bereikt. Deze waarden worden vervolgens gebruikt om een van de kleuren in de door jouw gekozen afbeelding te wijzigen.
 
 Dit betekent dat het beeld kan veranderen afhankelijk van wat de sensor waarneemt. Een astronaut die bijvoorbeeld een blauw shirt draagt, ziet een andere versie van het beeld dan een astronaut die een rood shirt draagt.
 
@@ -106,7 +106,7 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Voer je code opnieuw uit. Je programma zal de gedetecteerde kleur direct weergeven en vervolgens heen en weer schakelen voor een geanimeerde weergave.
+**Test:** Voer je code opnieuw uit. Je programma laat meteen de kleur zien die de sensor meet, daarna beweegt de kleur heen en weer als een animatie.
 
 --- /task ---
 
