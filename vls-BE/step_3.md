@@ -193,7 +193,7 @@ titel: Storm
 
 ![Een raster met 8 x 8 vierkanten dat een stormwolk toont.](images/storm.png)
 
-Created by team hop2p023, Spain
+Gemaakt door team hop2p023, Spanje
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+titel: Eend
 ---
 
 ![Een raster met 8 x 8 veirkanten dat een eend toont.](images/duck.png)
 
-Created by Peter, Ireland
+Gemaakt door Peter, Ierland
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+titel: Kikker
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een kikker toont.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Gemaakt door team Jmeno, Tsjechië
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+titel: Bloesemboom
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een boom met bloesems toont.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Gemaakt door team Zssh14, Slovakije
 
 ```python
 
