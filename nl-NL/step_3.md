@@ -46,7 +46,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Kleuren kunnen worden gemaakt met verschillende verhoudingen van rood, groen en blauw. Meer informatie over de RGB kleuren vind je hier:
 
-![Drie schuifregelaars die RGB kleurwaarden demonstreren](images/rgbsliders.gif)
+![Drie schuifregelaars die RGB kleurwaarden laten zien](images/rgbsliders.gif)
 
 De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleur worden ingesteld. We kunnen de letters a tot en met z gebruiken als namen voor variabelen om 24 verschillende kleuren weer te geven. Elke kleur heeft een waarde voor rood, groen en blauw.
 
