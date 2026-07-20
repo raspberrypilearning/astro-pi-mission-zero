@@ -56,12 +56,12 @@ Je kan ook als je dat wil nog meer afbeeldingen aan je project wil toevoegen of 
 
 ## Maak een animatie van je project (optioneel)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Je Mission Zero programma kan werken in het internationaal ruimtestation (ISS) gedurende maximum 30 seconden. Je kan deze tijd gebruiken om een animatie te tonen op de LED-matrix door af te wisselen tussen twee of meer verschillende afbeeldingen.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Toevoegen** van een tweede afbeelding net onder je `sense.set_pixels(afbeelding)` codeerlijn. Geef het de variabelennaam `afbeelding2` en verander een aantal pixels om ervoor te zorgen dat je animatiekader er anders uitziet. Voeg daarna een korte pauz toe.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Helemaal onderaan je codeerfile, stel je je `for`lus in op herhaal `14` keer en wissel af tussen het tonen van `image` en `image2` terwijl je 1 seconde pauzeert bij elk kader.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Tip:** Zorg ervoor dat de codeerlijnen onder `for i in range(14):` aangeduid worden met een spatie zodat ze **inside** het lusblok zitten.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Start je code nog eens. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Test:** Start je code nog eens. Je programma zal je gemeten code onmiddellijk tonen en daarna start de lus heen en weer om een geanimeerd beeld te tonen.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Als je graag meer dan twee kaders in je animatie hebt, moet je ervoor zorgen dat het programma langer dan 30 seconden duurt. Bijvoorbeeld, als je 10 afbeeldingen hebt die elk gedurende 1 seconde getoond worden, moet je je 'for'-lus aanpassen om 3 keer te herhalen (10 * 3 =30 seconden)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Controleer op fouten**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Mijn code heeft een syntax error of verandert de kaders niet:
+- Controleer dat je `for` luscode overeenkomt met de onderbreking in het voorbeeld.
+- Zorg ervoor dat je je tweede afbeeldingsmatrix `image2` genoemd hebt en dat deze buiten staat en voor de lus begint.
+- Controleer dat je `sleep` tijden ingesteld staan op exact `1` seconde om te vermijden dat je buiten de strikte 30 seconden uitvoerstop op het ISS valt.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de 
 
 --- collapse ---
 ---
-title: Completed Whale code example
+titel: Afgewerkt codeervoorbeeld Walvis
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+titel: Afgewerkt codeervoorbeeld Walvis (met animatie)
 ---
 
 --- code ---
