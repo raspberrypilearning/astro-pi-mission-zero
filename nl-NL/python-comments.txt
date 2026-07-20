@@ -26,7 +26,7 @@ Herhaal 14 keer (14 * 2 seconden = 28 seconden totale animatie)
 
 # Geef de eerste afbeelding weer
 
-# De BASICINZENDING is nu voltooid
+# De BASIS INZENDING is nu klaar
 
 Wit
 
