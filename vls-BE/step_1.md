@@ -25,7 +25,7 @@ Elk project dat voldoet aan de [regels](https://astro-pi.org/mission-zero/eligib
 title: Opmerkingen voor begeleiders
 ---
 
-Mission Zero is geschickt voor mensen die starten met programmeren en wordt aanbevolen voor jongeren tussen 9 en 16 jaar. Het kan afgewerkt worden in 1 sessie van 60 minuten op elke computer met internettoegang. Er is geen speciale hardware of voorgaande codeerkennis nodig. Alles kan in een webbrowser uitgevoerd worden.
+Mission Zero is geschikt voor mensen die starten met programmeren en wordt aanbevolen voor jongeren tussen 9 en 16 jaar. Het kan afgewerkt worden in 1 sessie van 60 minuten op elke computer met internettoegang. Er is geen speciale hardware of voorgaande codeerkennis nodig. Alles kan in een webbrowser uitgevoerd worden.
 
  Mission Zero kan individueel uitgevoerd worden of in teams tot 4 mensen.
 
