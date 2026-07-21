@@ -47,9 +47,9 @@ Tip: als je variabele `c` niet gebruikte in je eigen afbeelding, vervang dan `c`
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Je hebt nu een afbeelding getoond, een kleur gemeten en een dit in je programma gebruikt. Je code is klaar om in te dienen!  
+Je hebt nu een afbeelding getoond, een kleur gemeten en dit in je programma gebruikt. Je code is klaar om in te dienen! 
 
-Je kan je programma opslaan en indienen door het formulier te gebruiken dat onderaan de code-aanpasser staat.
+Je kan je programma opslaan en indienen door het formulier te gebruiken dat onderaan de code-editor staat.
   
 Je kan ook als je dat wil nog meer afbeeldingen aan je project wil toevoegen of het tot leven laten komen door animatie. De volgende stappen laten je zien hoe je dat moet doen.
 </p>
@@ -61,7 +61,7 @@ Je Mission Zero programma kan werken in het internationaal ruimtestation (ISS) g
 --- task ---
 
 
-**Toevoegen** van een tweede afbeelding net onder je `sense.set_pixels(afbeelding)` codeerlijn. Geef het de variabelennaam `afbeelding2` en verander een aantal pixels om ervoor te zorgen dat je animatiekader er anders uitziet. Voeg daarna een korte pauz toe.
+**Toevoegen** van een tweede afbeelding net onder je `sense.set_pixels(afbeelding)` codeerlijn. Geef het de variabelennaam `afbeelding2` en verander een aantal pixels om ervoor te zorgen dat je animatiekader er anders uitziet. Voeg daarna een korte pauze toe.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-Helemaal onderaan je codeerfile, stel je je `for`lus in op herhaal `14` keer en wissel af tussen het tonen van `image` en `image2` terwijl je 1 seconde pauzeert bij elk kader.
+Helemaal onderaan je codebestand moet je je `for` lus zo instellen dat deze `14` keer herhaalt en afwisselend `afbeelding` en `afbeelding2` weergeeft, met een pauze van 1 seconde tussen elk frame.
 
-**Tip:** Zorg ervoor dat de codeerlijnen onder `for i in range(14):` aangeduid worden met een spatie zodat ze **inside** het lusblok zitten.
+**Tip:** Zorg ervoor dat de regels code onder `for i in range(14):` ingesprongen zijn met een spatie, zodat ze **binnen** het lusblok vallen.
 
 --- code ---
 ---
@@ -106,12 +106,12 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Start je code nog eens. Je programma zal je gemeten code onmiddellijk tonen en daarna start de lus heen en weer om een geanimeerd beeld te tonen.
+**Test:** Start je code nog eens. Je programma laat meteen de kleur zien die de sensor meet, daarna beweegt de kleur heen en weer als een animatie.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Als je graag meer dan twee kaders in je animatie hebt, moet je ervoor zorgen dat het programma langer dan 30 seconden duurt. Bijvoorbeeld, als je 10 afbeeldingen hebt die elk gedurende 1 seconde getoond worden, moet je je 'for'-lus aanpassen om 3 keer te herhalen (10 * 3 =30 seconden)
+Als je graag meer dan twee kaders in je animatie hebt, moet je ervoor zorgen dat het programma niet langer dan 30 seconden duurt. Bijvoorbeeld, als je 10 afbeeldingen hebt die elk gedurende 1 seconde getoond worden, moet je je 'for'-lus aanpassen om 3 keer te herhalen (10 * 3 =30 seconden)
 </p>
 
 --- task ---
@@ -119,9 +119,9 @@ Als je graag meer dan twee kaders in je animatie hebt, moet je ervoor zorgen dat
 **Controleer op fouten**
 
 Mijn code heeft een syntax error of verandert de kaders niet:
-- Controleer dat je `for` luscode overeenkomt met de onderbreking in het voorbeeld.
-- Zorg ervoor dat je je tweede afbeeldingsmatrix `image2` genoemd hebt en dat deze buiten staat en voor de lus begint.
-- Controleer dat je `sleep` tijden ingesteld staan op exact `1` seconde om te vermijden dat je buiten de strikte 30 seconden uitvoerstop op het ISS valt.
+- Controleer of de inspringing van je `for` luscode overeenkomt met de inspringing in het voorbeeld.
+- Zorg ervoor dat je je tweede afbeeldingsmatrix de naam `afbeelding2` hebt gegeven en dat deze buiten en vóór het begin van de lus is geplaatst.
+- Controleer of je `sleep` tijden precies zijn ingesteld op `1` seconde om te voorkomen dat de strikte uitvoeringslimiet van 30 seconden op het ISS wordt overschreden.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Je kan je programma op het Mission Starter Project opslaan door je teamnaam, de 
 
 --- collapse ---
 ---
-titel: Afgewerkt codeervoorbeeld Walvis
+title: Voltooide walvis-codevoorbeeld
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-titel: Afgewerkt codeervoorbeeld Walvis (met animatie)
+title: Voltooide walvis-codevoorbeeld (met animatie)
 ---
 
 --- code ---
