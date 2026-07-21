@@ -53,7 +53,7 @@ De LED-matrix is een raster van 8 x 8. Elke LED op het raster kan in een andere 
 --- collapse ---
 
 ---
-titel: Lijst van kleurvariabelen
+title: Lijst van kleurvariabelen
 ---
 
 ![Een raster van 24 gekleurde vierkanten, elke gelabeld met een andere letter van het alfabet](images/palette.png)
@@ -99,7 +99,7 @@ Je zal alle code moeten **kopieren** voor je gekozen afbeelding en dan **plakken
 --- collapse ---
 
 ---
-titel: Walvis
+title: Walvis
 ---
 
 ![Een raster met 8 x 8 vierkanten die een walvis tonen.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-titel: Citroen
+title: Citroen
 ---
 
 ![Een raster met 8 x 8 vierkanten die een citroen tonen.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-titel: Varken
+title: Varken
 ---
 
 ![Een raster met 8 x 8 vierkanten die een varken tonen.](images/pig.png)
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-titel: Storm
+title: Storm
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een stormwolk toont.](images/storm.png)
@@ -219,7 +219,7 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-titel: Eend
+title: Eend
 ---
 
 ![Een raster met 8 x 8 veirkanten dat een eend toont.](images/duck.png)
@@ -251,7 +251,7 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-titel: Kikker
+title: Kikker
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een kikker toont.](images/frog.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-titel: Bloesemboom
+title: Bloesemboom
 ---
 
 ![Een raster met 8 x 8 vierkanten dat een boom met bloesems toont.](images/blossom.png)
