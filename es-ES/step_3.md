@@ -1,17 +1,17 @@
 ## Muestra una imagen
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+La imagen que muestre estará hecha de 64 cuadrados coloreados llamados **píxeles**. Los píxeles están dispuestos en una cuadrícula de 8 x 8. Cada píxel puede ser de un color diferente. Si eliges los colores con cuidado, puedes crear una imagen. Aquí tienes un ejemplo de una ballena creada con diferentes tonalidades de azul sobre un fondo negro.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de LEDs que se puede controlar individualmente o en grupo para crear diferentes efectos de iluminación. La matriz de LEDs del Sense HAT tiene 64 LEDs que se muestran en una cuadrícula de 8 x 8. Los LED se pueden programar para producir una amplia gama de colores.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![una imagen de 8x8 de una ballena con letras que etiquetan diferentes colores](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Observa que cada cuadrado está etiquetado con un código que representa un color en particular. En esta imagen se utilizan 3 colores:
++ c = negro
++ f = Azul océano
++ g = Azul cielo
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Los colores se pueden crear usando diferentes proporciones de rojo, verde y azul. Aquí puedes encotrar información sobre los colores RGB:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Tres deslizadores que demuestran valores de color RGB](images/rgbsliders.gif)
 
-La matriz de LEDs es una cuadrícula de 8 x 8. Cada LED de la cuadrícula se puede configurar en un color diferente. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+La matriz de LEDs es una cuadrícula de 8 x 8. Cada LED de la cuadrícula se puede configurar en un color diferente. Podemos usar las letras de la a a la z como nombres de variables para representar 24 colores diferentes. Cada color tiene un valor para rojo, verde y azul.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+título: Lista de variables de color
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Una cuadrícula de 24 cuadrados de colores, cada uno etiquetado con una letra diferente del alfabeto](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Blanco
+b = (171, 171, 171) # Gris
+c = (0, 0, 0) # Negro
+d = (25, 25, 113) # Azul marino
+e = (0, 0, 255) # Azul puro
+f = (36, 128, 200) # Azul océano
+g = (0, 204, 255) # Azul cielo
+h = (86, 255, 255) # Cian eléctrico
+j = (0, 255, 0) # Verde puro
+k = (46, 139, 33) # Verde hoja
+l = (57, 97, 17) # Verde oliva
+m = (30, 65, 6) # Verde bosque
+n = (126, 88, 25) # Marrón tierra
+o = (179, 96, 65) # Marrón terracota
+p = (180, 34, 34) # Rojo ladrillo
+q = (255, 0, 0) # Rojo puro
+r = (232, 118, 5) # Naranja
+s = (241, 231, 100) # Amarillo claro
+t = (255, 255, 0) # Amarillo puro
+u = (255, 209, 209) # Rosa pálido
+v = (255, 177, 177) # Rosa rubor
+w = (249, 169, 255) # Rosa claro
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Violeta
 
 ```
 
@@ -99,12 +99,12 @@ Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** e
 --- collapse ---
 
 ---
-title: Whale
+title: Ballena
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestra una ballena.](images/whale.png)
 
-Created by Team Naicom, Italy
+Creado por el Equipo Naicom, Italia
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Limón
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Una cuadrícula de 8 x 8 cuadrados que muestra un limón.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Creado por el equipo g4lemoni, Grecia
 
 ```python
 a = (255, 255, 255) # White
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Cerdo
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestran un cerdo.](images/pig.png)
 
-Created by Gary, United Kingdom
+Creado por Gary, Reino Unido
 
 ```python
 a = (255, 255, 255) # White
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Tormenta
 ---
 
 ![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
