@@ -18,9 +18,9 @@ ontvang de kleur van de sensor
 
 gebruik de waargenomen kleur
 
-Extra afbeeldingen / kaders staan hier:
+Extra afbeeldingen/frames kunnen hier worden geplaatst:
 
-Lus 14 keer (14 * 2 seconden =28 seconden volledige animatie)
+Herhaal 14 keer (14 * 2 seconden = 28 seconden totale animatie)
 
 # Toon de tweede afbeelding
 
