@@ -191,9 +191,9 @@ a, a, y, a, a, a, y, a]
 title: Tormenta
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestra una nube de tormenta.](images/storm.png)
 
-Created by team hop2p023, Spain
+Creado por el equipo hop2p023, España
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Pato
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestra un pato.](images/duck.png)
 
-Created by Peter, Ireland
+Creado por Peter, Irlanda
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Rana
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestran una Rana.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Creado por el equipo Jmeno, República Checa
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+Title: Árbol en flor
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Una rejilla con 8 x 8 cuadrados que muestran un árbol en flor.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Creado por el equipo Zssh14, Eslovaquia
 
 ```python
 
