@@ -2,7 +2,7 @@
 
 Nu je je missie afgerond hebt, kan je een ander project proberen door gebruik te maken van de andere sensors op de Astro Pi?
 
-Als je je zelfverzekerd voelt, kan je deelnemen aan de Space Lab missie. Vorm een team van twee tot zes mensen en werk samen om een echte wetenschappelijk vraag te beantwoorden. Alle teams die een bruikbaar programma indienen zullen uitgenodigd worden voor een virtuele Q&A met een menselijke ruimtevluchtexpert van ESA aan het einde van de Europese Astro Pi uitdagingscyclus.
+Als je je zelfverzekerd voelt, kan je deelnemen aan de Space Lab missie. Vorm een team van twee tot zes mensen en werk samen om een echte wetenschappelijk vraag te beantwoorden. Alle teams die een geldig programma insturen, worden uitgenodigd voor een online vraag-en-antwoordsessie met een expert in bemande ruimtevaart van ESA aan het einde van de Europese Astro Pi Challenge.
 
 Als alternatief kan je ook een van onze andere Sense HAT-projecten proberen:
 
