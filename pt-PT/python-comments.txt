@@ -18,7 +18,7 @@ obter a cor do sensor
 
 usa a cor detetada
 
-Extra images / frames go here:
+As imagens / frames extras vão aqui:
 
 Loop 14 times (14 * 2 seconds = 28 seconds total animation)
 
