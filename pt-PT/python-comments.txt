@@ -12,7 +12,7 @@ Adicionar variáveis de cor e imagem
 
 Mostrar a imagem
 
-Sense a colour
+Identificar uma cor
 
 obter a cor do sensor
 
