@@ -12,68 +12,68 @@ Lägg till färgvariabler och bild
 
 Visa bilden
 
-Sense a colour
+Känn av en färg
 
 hämta färgen från sensorn
 
 använd den avkända färgen
 
-Extra images / frames go here:
+Extra bilder/ramar finns här:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Loopa 14 gånger (14 * 2 sekunder = 28 sekunder total animation)
 
-# Display the second image
+# Visa den andra bilden
 
-# Display the first image
+# Visa den första bilden
 
-# BASIC SUBMISSION is done by now
+# GRUNDINLÄMNINGEN är nu klar
 
 Vit
 
-Grey
+Grå
 
 Svart
 
-Navy Blue
+Marinblå
 
-Pure Blue
+Ren blå
 
-Ocean Blue
+Havsblå
 
-Sky Blue
+Himmelsblå
 
-Electric Cyan
+Elektrisk Cyan
 
-Pure Green
+Ren grön
 
-Leaf Green
+Bladgrön
 
-Olive Green
+Olivgrön
 
-Forest Green
+Skogsgrön
 
-Earth Brown
+Jordbrun
 
-Terracotta Brown
+Terrakottabrun
 
-Brick Red
+Tegelröd
 
-Pure Red
+Ren röd
 
 Orange
 
-Pale Yellow
+Ljusgul
 
-Pure Yellow
+Ren gul
 
-Pale Pink
+Blekrosa
 
-Blush Pink
+Rosig rosa
 
-Light Pink
+Ljusrosa
 
 Magenta
 
-Purple
+Lila
 
 
