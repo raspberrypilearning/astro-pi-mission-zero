@@ -30,50 +30,50 @@ Loop 14 times (14 * 2 seconds = 28 seconds total animation)
 
 White (fehér)
 
-Grey
+Grey (szürke)
 
 Black (fekete)
 
-Navy Blue
+Navy Blue (sötétkék)
 
-Pure Blue
+Pure Blue (tiszta kék)
 
-Ocean Blue
+Ocean Blue (óceánkék)
 
-Sky Blue
+Sky Blue (égkék)
 
-Electric Cyan
+Electric Cyan (ciánkék)
 
-Pure Green
+Pure Green (tiszta zöld)
 
-Leaf Green
+Leaf Green (levélzöld)
 
-Olive Green
+Olive Green (olajzöld)
 
-Forest Green
+Forest Green (sötétzöld)
 
-Earth Brown
+Earth Brown (barna)
 
-Terracotta Brown
+Terracotta Brown (világosbarna)
 
-Brick Red
+Brick Red (sötétvörös)
 
-Pure Red
+Pure Red (tiszta vörös)
 
-Orange
+Orange (narancs)
 
-Pale Yellow
+Pale Yellow (halványsárga)
 
-Pure Yellow
+Pure Yellow (sárga)
 
-Pale Pink
+Pale Pink (halvány rózsaszín)
 
-Blush Pink
+Blush Pink (rózsaszín)
 
-Light Pink
+Light Pink (világoslila)
 
-Magenta
+Magenta (lila)
 
-Purple
+Purple (sötétlila)
 
 
