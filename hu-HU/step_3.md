@@ -1,17 +1,17 @@
 ## Jeleníts meg egy képet
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Az általad megjelenített kép 64 színes négyzetből, azaz **pixelből** fog állni. A pixelek egy 8 x 8-as rácsban vannak elrendezve. Minden pixel más színű lehet. A színek gondos kiválasztásával egy képet alkothatsz. Példaként itt egy bálna képe különféle kék árnyalatok felhasználásával fekete háttéren.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">**LED mátrix**</span> egy LED-ekből álló rács, amely egyenként vagy csoportosan vezérelhető, hogy létrehozz különféle fényhatásokat. A Sense HAT LED-mátrixa 64 LED-ből áll egy 8*8-as rácson elhelyezve. A LED-eket be lehet programozni, hogy a színek széles skáláját mustassák.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![egy bálna 8x8-as képe, amelyen betűk jelölik a különböző színeket](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Figyeld meg, hogy mindegyik négyzet meg van jelölve egy kóddal, amely egy bizonyos színt jelképez. Ezen a képen 3 színt használtunk:
++ c = fekete
++ f = Óceánkék
++ g = Égkék
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Bármilyen színt létrehozhatsz a vörös, a zöld és a kék különböző arányainak használatával. Itt többet tudhatsz meg az RGB-színekről:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Három csúszka az RGB színértékek bemutatására](images/rgbsliders.gif)
 
-A LED-mátrix egy 8*8-as rács. A rácson mindegyik LED más színre állítható be. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+A LED-mátrix egy 8*8-as rács. A rácson mindegyik LED más színre állítható be. Az a-tól z-ig terjedő betűket használhatjuk változónévként 24 különböző szín jelképezésére. Mindegyik szín egy vörös, zöld és kék értékkel rendelkezik.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+title: Színváltozók listája
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![24 színes négyzetből álló rács, amelyek mindegyike az ábécé más betűjével van jelölve](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # White (fehér)
+b = (171, 171, 171) # Grey (szürke)
+c = (0, 0, 0)       # Black (fekete)
+d = (25, 25, 113)   # Navy Blue (sötétkék)
+e = (0, 0, 255)     # Pure Blue (tiszta kék)
+f = (36, 128, 200)  # Ocean Blue (óceánkék)
+g = (0, 204, 255)   # Sky Blue (égkék)
+h = (86, 255, 255)  # Electric Cyan (ciánkék)
+j = (0, 255, 0)     # Pure Green (tiszta zöld)
+k = (46, 139, 33)   # Leaf Green (levélzöld)
+l = (57, 97, 17)    # Olive Green (olajzöld)
+m = (30, 65, 6)     # Forest Green (sötétzöld)
+n = (126, 88, 25)   # Earth Brown (barna)
+o = (179, 96, 65)   # Terracotta Brown (világosbarna)
+p = (180, 34, 34)   # Brick Red (sötétvörös)
+q = (255, 0, 0)     # Pure Red (tiszta vörös)
+r = (232, 118, 5)   # Orange (narancs)
+s = (241, 231, 100) # Pale Yellow (halványsárga)
+t = (255, 255, 0)   # Pure Yellow (sárga)
+u = (255, 209, 209) # Pale Pink (halvány rózsaszín)
+v = (255, 177, 177) # Blush Pink (rózsaszín)
+w = (249, 169, 255) # Light Pink (világoslila)
+y = (248, 97, 255)  # Magenta (lila)
+z = (220, 53, 232)  # Purple (sötétlila)
 
 ```
 
