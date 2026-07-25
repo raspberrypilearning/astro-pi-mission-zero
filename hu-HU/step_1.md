@@ -4,9 +4,9 @@ Egy Astro Pi számítógépet fogsz beprogramozni, hogy egy színes képet jelen
 
 Ebben a projektben az Astro Pi számítógépről fogsz tanulni, és arról, hogyan vezéreld. A következőket fogod elvégezni:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Pixelgrafika tervezése és megjelenítése az Astro Pi számítógépen
++ Érzékelő használata a szín és fényerősség érzékelésére az ISS fedélzetén, és ez alapján a kép megváltoztatása
++ Egyszerű animáció készítése (opcionális)
 
 Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy Astro Pi számítógépen.
 
@@ -14,20 +14,20 @@ Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy 
 
 ### Amire szükséged lesz
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+A programodat egy webbőngészőben, példaul a Google Chrome-ban fogod megírni és tesztelni. Nincs szükséged igazi Astro Pi számítógépre.
 
 ### Az Astro Pi Mission Zero feltételei
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Minden projekt, amely betartja a [szabályokat](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, repülési státuszt kap, amellyel futhat a Nemzetközi Űrállomáson! Ha sikerrel jársz, kapsz egy különleges bizonyítványt, amely megmutatja, hogy pontosan hol volt az ISS akkor, amikor a programod lefutott az űrben.
 
 --- collapse ---
 ---
 title: Megjegyzések mentoroknak
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Nincs szükség speciális hardverre vagy előzetes programozási tudásra. Minden teljesíthető egy webböngészőben.
+A Mission Zero alkalmas kezdő programozóknak, és 9-16 év közötti fiataloknak ajánlott. 60 perc alatt teljesíthető bármely számítógépen, amely rendelkezik internetkapcsolattal. Nincs szükség speciális hardverre vagy előzetes programozási tudásra. Minden teljesíthető egy webböngészőben.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ A Mission Zero teljesíthető egyénileg vagy maximum 4 fős csapatban.
 
 Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
