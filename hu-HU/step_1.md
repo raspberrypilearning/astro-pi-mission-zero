@@ -1,8 +1,8 @@
 ## Amit el fogsz készíteni
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Egy Astro Pi számítógépet fogsz beprogramozni, hogy egy színes képet jelenítsen meg. Ha a programod átmegy a hivatalos kódellenőrzéseken, egy igazi Astro Pi számítógépen fog futni a Nemzetközi Űrállomás (ISS) fedélzetén, hogy az űrhajósok láthassák, miközben a mindennapi feladataikat végzik.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+Ebben a projektben az Astro Pi számítógépről fogsz tanulni, és arról, hogyan vezéreld. A következőket fogod elvégezni:
 
 + Design and display a pixel art image on an Astro Pi computer
 + Use a sensor to detect the colour and brightness of light on board the ISS and change the image
