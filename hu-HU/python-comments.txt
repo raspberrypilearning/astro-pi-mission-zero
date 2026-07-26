@@ -12,21 +12,21 @@ Színváltozók és kép hozzáadása
 
 Kép megjelenítése
 
-Sense a colour
+Érzékelj egy színt
 
 szín lekérése az érzékelőtől
 
 az érzékelt szín használata
 
-Extra images / frames go here:
+A további képek / képkockák ide kerülnek:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Ismételd 14-szer (14 * 2 másodperc = 28 másodperc összesen az animációnak)
 
-# Display the second image
+# A második kép megjelenítése
 
-# Display the first image
+# Az első kép megjelenítése
 
-# BASIC SUBMISSION is done by now
+# Az EGYSZERŰ PÁLYAMŰ itt elkészült
 
 White (fehér)
 
