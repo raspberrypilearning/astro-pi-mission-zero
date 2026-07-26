@@ -1,10 +1,10 @@
 ## Érzékeld a színt
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+Ebben a lépésben beállítod a szín- és fényerősség-érzékelőt. Ezzel az érzékelővel fogod megmérni az érzékelőhöz érkező vörös, zöld és kék fény erejét. Ezután kapott értékek alapján megváltoztatod valamelyik színt a képeden.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Ez azt jelenti, hogy a kép megváltozhat attól függően, mint lát az érzékelő. Például egy kék inget viselő űrhajós a kép más változatát látná, mint egy vörös inget viselő.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+A korábbi bálnás képen a háttér színe fekete volt. We used the variable `c` to store its RGB colour code:
 
 --- code ---
 ---
