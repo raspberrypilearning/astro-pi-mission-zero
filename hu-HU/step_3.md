@@ -99,12 +99,12 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Whale
+title: Bálna
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Egy 8 x 8-as rács, amely egy bálna képét mutatja.](images/whale.png)
 
-Created by Team Naicom, Italy
+Készítette: Naicom csapat, Olaszország
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Citrom
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Egy 8 x 8-as rács, amely egy citrom képét mutatja.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Készítette: g4lemoni csapat, Görögország
 
 ```python
 a = (255, 255, 255) # White
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Disznó
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Egy 8 x 8-as rács, amely egy disznó képét mutatja.](images/pig.png)
 
-Created by Gary, United Kingdom
+Készítette: Gary, Egyesült Királyság
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Vihar
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Egy 8 x 8-as rács, amely egy viharfelhő képét mutatja.](images/storm.png)
 
-Created by team hop2p023, Spain
+Készítette: hop2p023 csapat, Spanyolország
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Kacsa
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Egy 8 x 8-as rács, amely egy kacsa képét mutatja.](images/duck.png)
 
-Created by Peter, Ireland
+Készítette: Peter, Írország
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Béka
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Egy 8 x 8-as rács, amely egy béka képét mutatja.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Készítette: Jmeno csapat, Csehország
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Virágzó fa
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Egy 8 x 8-as rács, amely egy virágzó fa képét mutatja.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Készítette: Zssh14 csapat, Szlovákia
 
 ```python
 
