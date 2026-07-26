@@ -4,7 +4,7 @@ Ebben a lépésben beállítod a szín- és fényerősség-érzékelőt. Ezzel a
 
 Ez azt jelenti, hogy a kép megváltozhat attól függően, mint lát az érzékelő. Például egy kék inget viselő űrhajós a kép más változatát látná, mint egy vörös inget viselő.
 
-A korábbi bálnás képen a háttér színe fekete volt. We used the variable `c` to store its RGB colour code:
+A korábbi bálnás képen a háttér színe fekete volt. A `c` változót használtuk ennek az RGB-értéknek a tárolására:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Használd a színérzékelőt, hogy megváltoztasd az egyik színedet.
 
-Underneath the lines where you define the colours, add the following code:
+A színekez definiáló sorok alá add hozzá az alábbi kódot:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Ez a kód lecseréli a `c` változóban tárolt RGB-értékeket az érzékelőből kiolvasott színértékekkel.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Tipp: Ha nem használtad a `c` változót a képed létrehozására, cseréld le a `c`-t a kódban egy olyan színváltozóra, amelyet használtál. Ez lehetővé teszi, hogy az érzékelő egy másik színt változtasson meg.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Most, hogy megjelenítettél egy képet, érzékeltél egy színt és felhasználtad azt a programodban, a kódod készen áll a beküldésre! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Elmentheted és beküldheted a programodat a kódszerkesztő alján található űrlap segítségével.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Azonban esetleg hozzáadhatsz több képet a projektedhez, vagy életre keltheted egy animációval. A következő lépések bemutatják, hogyan teheted meg ezt.
 </p>
 
-## Animate your project (optional)
+## Animáld a projektedet (opcionális)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+A Mission Zero-programod legfeljebb 30 másodpercig futhat a Nemzetközi Űrállomáson (ISS). Ezt a futási időt felhasználhatod arra, hogy egy animációt jeleníts meg a LED-mátrixon úgy, hogy kettő vagy több kép között váltasz.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Adj hozzá** egy második képet közvetlenül a `sense.set_pixels(image)` kódsor alá. Add neki a `kep2` változónevet, majd változtass meg néhány pixelt, hogy máshogy nézzen ki az animáció újabb képkockája. Ezután adj hozzá egy rövid várakozást.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+A kódfájlod legvégén adj hozzá egy `for` ciklust, hogy `14`-szer váltogass a `kep` és a `kep2` megjelenítése között, és minden képkocka után 1 másodpercet várj.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Tipp:** Győződj meg róla, hogy a `for i in range(14):` alatti sorok be vannak húzva szóközökkel, hogy a cikluson **belül** legyenek.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Tesztelés:** Futtasd a kódodat még egyszer. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Tesztelés:** Futtasd a kódodat még egyszer. A programod azonlla meg fogja jeleníteni az érzékelt színt, aztán váltogatni fog a képek között, így egy animációt hoz létre.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Ha szeretnél kettőnél több képet megjeleníteni, ügyelj arra, hogy a programod ne fusson 30 másodpercnél tovább. Például, ha 10 képed van, és mindegyiket 1 másodpercig jeleníted meg, a "for" ciklusodat át kell írnod, hogy 3-szor fusson le (10 * 3 = 30 másodperc).
 </p>
 
 --- task ---
 
-**Check for errors**
+**Keress hibákat**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+A kódomban szintaktikai hiba van, vagy nem vált képkockát:
+- Ellenőrizd, hogy a `for` ciklusod behúzása ugyanúgy néz ki, mint a példában.
+- Győződj meg róla, hogy a második képmátrixodat `kep2`-nek nevezted, és a "for" cikluson kívül, az előtt helyezted el.
+- Ellenőrizd, hogy a `sleep` idők pontosan `1` másodpercre vannak állítva, hogy ne lépd túl a szigorú 30 másodperces időkorlátot az ISS-en.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: A bálna kész példakódja
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: A bálna kész példakódja (animációval)
 ---
 
 --- code ---
