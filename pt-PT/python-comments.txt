@@ -18,7 +18,7 @@ obter a cor do sensor
 
 usa a cor detetada
 
-As imagens / frames extras vão aqui:
+As imagens / frames extras vão para aqui:
 
 Ciclo de repetição de 14 vezes (14 * 2 segundos = 28 segundos de animação total)
 
@@ -26,7 +26,7 @@ Ciclo de repetição de 14 vezes (14 * 2 segundos = 28 segundos de animação to
 
 # Mostrar a primeira imagem
 
-# O ENVIO BÁSICO já foi concluído
+# O ENVIO BÁSICO está por esta altura, concluído
 
 Branco
 
