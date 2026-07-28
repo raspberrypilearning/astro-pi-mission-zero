@@ -1,12 +1,12 @@
 ## Vais fazer
 
-Vais programar um computador Astro Pi para mostrar uma imagem colorida. Assim que o teu programa passar nas verificações oficiais de código, será executado num computador Astro Pi na Estação Espacial Internacional (EEI), para que os astronautas o possam ver enquanto realizam as suas tarefas diárias.
+Vais programar um computador Astro Pi para mostrar uma imagem colorida. Assim que o teu programa passar nas verificações oficiais do código, será executado num computador Astro Pi na Estação Espacial Internacional (EEI), para que os astronautas o possam ver enquanto realizam as suas tarefas diárias.
 
-Neste projeto, vais aprender sobre o computador Astro Pi e como controlá-lo. Vais fazer:
+Neste projeto, vais aprender sobre o computador Astro Pi e como controlá-lo. Vais:
 
 + Criar e mostrar uma imagem em pixel arte num computador Astro Pi
 + Utiliza um sensor para detetar a cor e a luminosidade da luz e para alterar a imagem a bordo da EEI
-+ Cria uma animação simples (opcional)
++ Criar uma animação simples (opcional)
 
 Aqui está um exemplo do tipo de programa que tu poderás fazer para executar num Astro Pi no espaço.
 
@@ -14,7 +14,7 @@ Aqui está um exemplo do tipo de programa que tu poderás fazer para executar nu
 
 ### Vais precisar
 
-Vais escrever e testar o teu programa num navegador Web, como o Google Chrome. Não é necessário ter um computador Astro Pi de verdade.
+Vais escrever e testar o teu programa num navegador Web, como o Google Chrome. Não é necessário ter um computador Astro Pi real.
 
 ### Critérios Astro Pi Mission Zero
 
@@ -27,7 +27,7 @@ title: Notas para professores e mentores
 
 A Mission Zero é adequado para quem está a dar os primeiros passos na programação e é recomendado para jovens dos 9 aos 16 anos de idade. Pode ser concluído numa única sessão de 60 minutos em qualquer computador com acesso à Internet. Nenhum hardware especial ou conhecimentos de programação são necessários. Tudo pode ser feito num navegador da web.
 
- A Mission Zero pode ser realizado individualmente ou em equipas até 4 pessoas.
+ A Mission Zero pode ser realizada individualmente ou em equipas até 4 pessoas.
 
 Leia as [orientações oficiais](https://astro-pi.org/pt/mission-zero/guidelines){:target="_blank"} da Mission Zero.
 
