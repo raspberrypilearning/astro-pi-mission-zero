@@ -38,42 +38,42 @@ Azul Marinho
 
 Azul Puro
 
-Ocean Blue
+Azul Oceano
 
-Sky Blue
+Azul Céu
 
-Electric Cyan
+Ciano Elétrico
 
-Pure Green
+Verde Puro
 
-Leaf Green
+Verde Folha
 
-Olive Green
+Verde Azeitona
 
-Forest Green
+Verde Floresta
 
-Earth Brown
+Castanho Terra
 
-Terracotta Brown
+Castanho Terracota
 
-Brick Red
+Vermelho Tijolo
 
-Pure Red
+Vermelho Puro
 
-Orange
+Laranja
 
-Pale Yellow
+Amarelo Pálido
 
-Pure Yellow
+Amarelo Puro
 
-Pale Pink
+Rosa Pálido
 
-Blush Pink
+Rosa Blush
 
-Light Pink
+Rosa Claro
 
 Magenta
 
-Purple
+Roxo
 
 
