@@ -2,7 +2,7 @@
 
 Agora que completaste a tua missão, porque não experimentar mais alguns projetos com outros sensores do Astro Pi?
 
-Se te sentires confiante, podes participar no Laboratório Espacial da Missão. Forma uma equipa de duas a seis pessoas e trabalhem em conjunto para responder a uma verdadeira questão científica. All teams that submit an eligible program will be invited to a virtual Q&A with an human space flight expert from ESA at the end of the European Astro Pi Challenge cycle.
+Se te sentires confiante, podes participar no Laboratório Espacial da Missão. Forma uma equipa de duas a seis pessoas e trabalhem em conjunto para responder a uma verdadeira questão científica. Todas as equipas que submeterem um programa elegível serão convidadas para uma sessão virtual de perguntas e respostas com um especialista em voos espaciais tripulados da ESA, no final do ciclo do European Astro Pi Challenge.
 
 Em alternativa, podes querer experimentar um dos nossos outros projetos Sense HAT:
 
