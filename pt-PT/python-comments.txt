@@ -20,23 +20,23 @@ usa a cor detetada
 
 As imagens / frames extras vão aqui:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Ciclo de repetição de 14 vezes (14 * 2 segundos = 28 segundos de animação total)
 
-# Display the second image
+# Mostrar a segunda imagem
 
-# Display the first image
+# Mostrar a primeira imagem
 
-# BASIC SUBMISSION is done by now
+# O ENVIO BÁSICO já foi concluído
 
 Branco
 
-Grey
+Cinzento
 
 Preto
 
-Navy Blue
+Azul Marinho
 
-Pure Blue
+Azul Puro
 
 Ocean Blue
 
