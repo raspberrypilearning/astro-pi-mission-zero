@@ -14,21 +14,21 @@ Jūs programmēsiet Astro Pi datoru, lai tas parādītu krāsainu attēlu. Kad j
 
 ### Nepieciešamie resursi
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Jūs rakstīsiet un testēsiet savu programmu tīmekļa pārlūkprogrammā, piemēram, Google Chrome. Jums nav nepieciešams īsts Astro Pi dators.
 
-### Astro Pi Mission Zero criteria
+### Astro Pi Mission Zero pārskats
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Katrs projekts, kas atbilst [noteikumiem](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, saņems 'Lidojuma statusu' darbībai Starptautiskajā kosmosa stacijā! Ja jums izdosies, jūs saņemsiet arī īpašu sertifikātu, kas precīzi parādīs, kur atradās SKS, kamēr jūsu programma darbojās kosmosā.
 
 --- collapse ---
 ---
-title: Notes for mentors
+nosaukums: Piezīmes mentoriem
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+Mission Zero ir piemērota programmēšanas iesācējiem un ieteicama jauniešiem vecumā no 9 līdz 16 gadiem. To var pabeigt vienā 60 minūšu sesijā jebkurā datorā ar piekļuvi internetam. Nav nepieciešama īpaša aparatūra vai iepriekšējas programmēšanas prasmes. Visu var izdarīt tīmekļa pārlūkprogrammā.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ “Misson Zero” var veikt individuāli vai komandās līdz 4 cilvēkiem.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Izlasiet [oficiālās vadlīnijas](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} spēlei Mission Zero.
 
 --- /collapse ---
