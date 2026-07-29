@@ -137,7 +137,7 @@ title: Citrón
 Vytvořil tým g4lemoni z Řecka
 
 ```python
-a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
 k = (46, 139, 33)   # Leaf Green
 t = (255, 255, 0)   # Pure Yellow
 
@@ -166,8 +166,8 @@ Vytvořil Gary z Velké Británie
 
 ```python
 a = (255, 255, 255) # White
-u = (255, 209, 209) # Pale Pink
 v = (255, 177, 177) # Blush Pink
+y = (248, 97, 255)  # Magenta
 o = (179, 96, 65)   # Terracotta Brown
 c = (0, 0, 0)       # Black
 
