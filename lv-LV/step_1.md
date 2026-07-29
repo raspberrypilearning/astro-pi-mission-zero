@@ -1,18 +1,18 @@
-## You will make
+## Jūs izveidosiet
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Jūs programmēsiet Astro Pi datoru, lai tas parādītu krāsainu attēlu. Kad jūsu programma būs izturējusi oficiālās koda pārbaudes, tā tiks palaista Astro Pi datorā Starptautiskajā kosmosa stacijā (SKS), lai astronauti to varētu redzēt, veicot savus ikdienas uzdevumus.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+Šajā projektā jūs uzzināsiet par datoru Astro Pi un tā vadību. Jūs varēsiet:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Izveidot un attēlot pikseļu mākslas attēlu Astro Pi datorā
++ Izmantot sensoru, lai noteiktu gaismas krāsu un spilgtumu uz SKS un mainītu attēlu
++ Izveidot vienkāršu animāciju (pēc izvēles)
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Šeit ir piemērs programmai, ko varētu izveidot, lai tā darbotos Astro Pi kosmosā.
 
-![The Sense HAT emulator running a sample program with a snake where the background colour changes to the colour sensed.](images/finished.gif)
+![Sense HAT emulators, kas izpilda parauga programmu ar čūsku, kur fona krāsa mainās uz uztverto krāsu.](images/finished.gif)
 
-### You will need
+### Nepieciešamie resursi
 
 You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
 
