@@ -1,13 +1,13 @@
-## What is an Astro Pi?
+## Kas ir Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
+Astro Pi ir Raspberry Pi dators, kas ir īpaši izstrādāts darbam kosmosā.
 
-![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
+![Animēts attēls, kurā redzams Sense HAT, kas piestiprināts Raspberry Pi datora augšdaļai.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
+Astro Pi datoriem ir sensoru komplekts, ko sauc par “Sense HAT”, ko jaunieši var izmantot zinātnisku eksperimentu veikšanai. Sensors ir kaut kas tāds, kas var noteikt vai izmērīt apkārt notiekošo. Sense Hat sensori var izmērīt tādus rādītājus kā priekšā esošo objektu krāsa un spilgtums. Sense Hat ietver arī 8 x 8 LED matricu, kas var attēlot vienkāršus attēlus un informāciju.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED matrica**</span> ir LED (gaismas diožu) režģis, ko var vadīt atsevišķi vai grupā, lai radītu dažādus apgaismojuma efektus. Sense HAT gaismas diožu matricā ir 64 gaismas diodes, kas attēlotas 8 x 8 režģī. Gaismas diodes var ieprogrammēt, lai radītu plašu krāsu gammu.
 </p>
 
-![an 8x8 pixel art image of a whale](images/whaleblank.png)
+![8x8 pikseļu mākslas attēls, kurā attēlots valis](images/whaleblank.png)
