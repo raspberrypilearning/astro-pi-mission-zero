@@ -1,26 +1,26 @@
-## Display an image
+## Attēla attēlošana
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Attēls, ko jūs parādīsiet, tiks veidots no 64 krāsainiem kvadrātiem, ko sauc par **pikseļiem**. Pikseļi ir izvietoti 8 x 8 režģī. Katrs pikselis var būt citā krāsā. Rūpīgi izvēloties krāsas, jūs varat izveidot unikālu attēlu. Šeit ir vaļa piemērs, kas izgatavots, izmantojot dažādus zilus toņus uz melna fona.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED matrica**</span> ir LED režģis, ko var vadīt atsevišķi vai grupā, lai radītu dažādus apgaismojuma efektus. Sense HAT gaismas diožu matricā ir 64 gaismas diodes, kas attēlotas 8 x 8 režģī. Gaismas diodes var ieprogrammēt, lai radītu plašu krāsu gammu.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![8x8 vaļa attēls ar burtiem, kas apzīmē dažādas krāsas](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Ievērojiet, ka katrs kvadrāts ir apzīmēts ar kodu, kas apzīmē noteiktu krāsu. Šajā attēlā izmantotas 3 krāsas:
++ c = melns
++ f = okeāna zils
++ g = debeszils
 
 
 --- task ---
 
-Open the [Mission Zero starter project](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Atveriet [Mission Zero sākuma projektu](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Jūs redzēsiet, ka dažas koda rindiņas ir pievienotas automātiski.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+Šis kods izveido savienojumu ar Astro Pi, nodrošina, ka Astro Pi LED displejs tiek parādīts pareizi, un iestata krāsu sensoru. Atstājiet kodu tur, jo tas jums būs nepieciešams.
 
 --- code ---
 ---
@@ -38,73 +38,73 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator3.png)
+![Sense HAT emulatora ekrānuzņēmums ar sākuma koda rindām kreisajā rūtī.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
-### RGB Colours
+### RGB krāsas
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Krāsas var iegūt, izmantojot dažādas sarkanās, zaļās un zilās krāsas proporcijas. Par RGB krāsām var uzzināt šeit:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Trīs slīdņi, kas parāda RGB krāsu vērtības](images/rgbsliders.gif)
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+Gaismas diožu matrica ir 8 x 8 režģis. Katru režģa gaismas diodi var iestatīt citā krāsā. Mēs varam izmantot burtus no a līdz z kā mainīgo nosaukumus, lai attēlotu 24 dažādas krāsas. Katrai krāsai ir sava vērtība sarkanai, zaļai un zilai krāsai.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+nosaukums: krāsu mainīgo saraksts
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![24 krāsainu kvadrātiņu režģis, katrs apzīmēts ar atšķirīgu alfabēta burtu](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Balta
+b = (171, 171, 171) # Pelēka
+c = (0, 0, 0) # Melna
+d = (25, 25, 113) # Tumši zila
+e = (0, 0, 255) # Tīri zila
+f = (36, 128, 200) # Okeāna zila
+g = (0, 204, 255) # Debeszila
+h = (86, 255, 255) # Elektriski ciāna
+j = (0, 255, 0) # Tīri zaļa
+k = (46, 139, 33) # Lapu zaļa
+l = (57, 97, 17) # Olīvzaļa
+m = (30, 65, 6) # Meža zaļa
+n = (126, 88, 25) # Zemes brūna
+o = (179, 96, 65) # Terakotas brūna
+p = (180, 34, 34) # Ķieģeļsarkana
+q = (255, 0, 0) # Tīri sarkana
+r = (232, 118, 5) # Oranža
+s = (241, 231, 100) # Bāli dzeltena
+t = (255, 255, 0) # Tīri dzeltena
+u = (255, 209, 209) # Bāli rozā
+v = (255, 177, 177) # Sārti rozā
+w = (249, 169, 255) # Gaiši rozā
+y = (248, 97, 255) # Fuksīna
+z = (220, 53, 232) # Violeta
 
 ```
 
 --- /collapse ---
 
-### Choose an image
+### Izvēlēties attēlu
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Izvēlieties:** ailasiet attēlu, ko parādīt, no tālāk norādītajām iespējām. Python saglabā attēla informāciju sarakstā. Katra attēla kodā ir iekļauti izmantotie krāsu mainīgie un to saraksts.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Jums vajadzēs **kopēt** visu izvēlētā attēla kodu un pēc tam **ielīmēt** to savā projektā zem rindas, kurā teikts `# Pievienot krāsu mainīgos un attēlu`.
 
 --- collapse ---
 
 ---
-title: Whale
+nosaukums: Valis
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Režģis ar 8 x 8 kvadrātiem, kuros attēlots valis.](images/whale.png)
 
-Created by Team Naicom, Italy
+Izveidojusi komanda Team Naicom, Itālija
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+nosaukums: Citrons
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Režģis ar 8 x 8 kvadrātiem, kuros attēlots citrons.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Izveidojusi komanda g4lemoni, Grieķija
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+nosaukums: Cūka
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Režģis ar 8 x 8 kvadrātiem, kuros attēlota cūka.](images/pig.png)
 
-Created by Gary, United Kingdom
+Izveidojis Gerijs, Apvienotā Karaliste
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+nosaukums: Vētra
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Režģis ar 8 x 8 kvadrātiem, kas attēlo negaisa mākoni.](images/storm.png)
 
-Created by team hop2p023, Spain
+Izveidoja komanda hop2p023, Spānija
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+nosaukums: Pīle
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Režģis ar 8 x 8 kvadrātiem, kuros attēlota pīle.](images/duck.png)
 
-Created by Peter, Ireland
+Izveidojis Pīters, Īrija
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+nosaukums: Varde
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Režģis ar 8 x 8 kvadrātiem, kuros attēlota varde.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Izveidoja komanda Jmeno, Čehija
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+nosaukums: Ziedošs koks
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Režģis ar 8 x 8 kvadrātiem, kurā attēlots ziedošs koks.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Izveidojusi Zssh14 komanda, Slovākija
 
 ```python
 
@@ -320,7 +320,7 @@ k, k, o, n, n, n, k, k]
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Atrodiet:** rindu, kurā teikts `# Parādiet attēlu` un pievienojiet koda rindu, lai parādītu savu attēlu LED matricā:
 
 --- code ---
 ---
@@ -331,7 +331,7 @@ c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)  
 
 image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-# Display the image
+# Attēla attēlošana
 sense.set_pixels(image)
 
 --- /code ---
@@ -340,34 +340,34 @@ sense.set_pixels(image)
 
 --- task ---
 
-Press **Run** at the bottom of the editor, to see your image displayed on the LED matrix.
+Nospiediet **Palaist** redaktora apakšdaļā, lai redzētu savu attēlu LED matricā.
 
 --- /task ---
 
 --- task ---
 
-**Debug**
+**Atkļūdot**
 
-My code has a syntax error:
+Manā kodā ir sintakses kļūda:
 
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your list
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Pārliecinieties, vai jūsu kods atbilst iepriekš minētajos piemēros redzamajam kodam
+- Pārbaudiet, vai sarakstā ir identisks kods
+- Pārliecinieties, vai jūsu sarakstu ieskauj `[` un `]`
+- Pārbaudiet, vai katrs krāsu mainīgais sarakstā ir atdalīts ar komatu
 
-My image does not appear:
+Mans attēls neparādās:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Pārbaudiet, vai jūsu `sense.set_pixels(image)` nav ar atkāpi
 
 --- /task ---
 
 
 --- task ---
 
-**Save your progress**
+**Saglabājiet savu progresu**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Tagad, kad esat parādījis attēlu, varat saglabāt savu programmu Mission Starter projektā, ievadot savas komandas nosaukumu, komandas dalībnieku vārdus un jums piešķirto klases kodu. Programmu var atkārtoti ielādēt jebkurā ierīcē ar interneta pieslēgumu, ievadot komandas nosaukumu un klases kodu.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![Mission Zero saglabāšanas poga.](images/mz_savebutton_v2.png)
 
 --- /task --- 
