@@ -1,5 +1,5 @@
 attēls
 
-image2
+attēls2
 
 rgb
