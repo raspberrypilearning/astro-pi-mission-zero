@@ -1,17 +1,17 @@
-## What next — more Astro Pi projects
+## Kas tālāk — vēl vairāk Astro Pi projektu
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+Tagad, kad esat pabeidzis savu misiju, kāpēc gan neizmēģināt vēl dažus projektus, izmantojot citus Astro Pi sensorus?
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an human space flight expert from ESA at the end of the European Astro Pi Challenge cycle.
+Ja jūties pārliecināts, vari piedalīties Mission Space Lab. Izveidojiet komandu no diviem līdz sešiem cilvēkiem un kopīgi strādājiet, lai atbildētu uz reālu zinātnisku jautājumu. Visas komandas, kas iesniegs atbilstošu programmu, tiks aicinātas piedalīties virtuālā jautājumu un atbilžu sesijā ar Eiropas Kosmosa aģentūras (ESA) pilotējamo kosmosa lidojumu ekspertu pēc Eiropas Astro Pi Challenge cikla noslēguma.
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+Varat arī izmēģināt kādu no mūsu citiem Sense HAT projektiem:
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
++ Uzziniet [vairāk par Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} un citām lietām, ko tā var paveikt.
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
++ Izveidojiet dažus skaistus [nejaušus mirdzumus](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} Sense HAT LED displejā
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
++ Izveidojiet [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} spēli
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
++ Izaiciniet savus draugus ar [marmora labirinta](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} spēli
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
++ Atveidojiet klasisko spēli [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
