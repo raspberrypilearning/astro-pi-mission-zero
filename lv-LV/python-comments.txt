@@ -1,79 +1,79 @@
-Import the libraries
+Importējiet bibliotēkas
 
-Set up the Sense HAT
+Iestatiet Sense HAT
 
-Set up the colour sensor
+Krāsu sensora iestatīšana
 
-Set the sensitivity of the sensor
+Iestatiet sensitīvu jutību
 
-The interval at which the reading will be taken
+Intervāls, kurā tiks veikts nolasījums
 
-Add colour variables and image
+Pievienojiet krāsu mainīgos un attēlu
 
-Display the image
+Attēla attēlošana
 
-Sense a colour
+Sajūtiet krāsu
 
-get the colour from the sensor
+iegūt krāsu no sensora
 
-use the sensed colour
+izmantojiet uztverto krāsu
 
-Extra images / frames go here:
+Papildu attēli/rāmji nonāk šeit:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Cikls 14 reizes (14 * 2 sekundes = 28 sekundes kopā animācijas)
 
-# Display the second image
+# Parādiet otro attēlu
 
-# Display the first image
+# Parādiet pirmo attēlu
 
-# BASIC SUBMISSION is done by now
+# PAMATA IESNIEGŠANA tagad ir pabeigta
 
 Baltā
 
-Grey
+Pelēks
 
-Black
+Melns
 
-Navy Blue
+Tumši zils
 
-Pure Blue
+Tīri zils
 
-Ocean Blue
+Okeāna zils
 
-Sky Blue
+Debeszils
 
-Electric Cyan
+Elektriski ciāna krāsa
 
-Pure Green
+Tīri zaļš
 
-Leaf Green
+Lapu zaļš
 
-Olive Green
+Olīvzaļš
 
-Forest Green
+Meža zaļš
 
-Earth Brown
+Zemes brūns
 
-Terracotta Brown
+Terakota brūns
 
-Brick Red
+Ķieģeļsarkans
 
-Pure Red
+Tīri sarkans
 
-Orange
+Oranžs
 
-Pale Yellow
+Bāli dzeltens
 
-Pure Yellow
+Tīri dzeltens
 
-Pale Pink
+Bāli rozā
 
-Blush Pink
+Maigi rozā
 
-Light Pink
+Gaiši rozā
 
-Magenta
+Fuksīns
 
-Purple
+Violets
 
 
