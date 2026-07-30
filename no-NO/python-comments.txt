@@ -12,68 +12,68 @@ Legg til fargevariabler og bilde
 
 Vis bildet
 
-Sense a colour
+Detekter en farge
 
 hent fargen fra sensoren
 
 bruke den sansede fargen
 
-Extra images / frames go here:
+Ekstra bilder/rammer kommer her:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+I sløyfe 14 ganger (14 * 2 sekunder = 28 sekunder total animasjon)
 
-# Display the second image
+# Vis det andre bildet
 
-# Display the first image
+# Vis det første bildet
 
-# BASIC SUBMISSION is done by now
+# GRUNNLEGGENDE INNSENDING er over nå
 
 Hvit
 
-Grey
+Grå
 
 Svart
 
-Navy Blue
+Marineblå
 
-Pure Blue
+Ren blå
 
-Ocean Blue
+Havblå
 
-Sky Blue
+Himmelblå
 
-Electric Cyan
+Elektrisk cyan
 
-Pure Green
+Ren grønn
 
-Leaf Green
+Bladgrønn
 
-Olive Green
+Olivengrønn
 
-Forest Green
+Skoggrønn
 
-Earth Brown
+Jordbrun
 
-Terracotta Brown
+Terrakottabrun
 
-Brick Red
+Mursteinsrød
 
-Pure Red
+Ren rød
 
-Orange
+Oransje
 
-Pale Yellow
+Svak gul
 
-Pure Yellow
+Ren gul
 
-Pale Pink
+Blekrosa
 
-Blush Pink
+Blush-rosa
 
-Light Pink
+Lyserosa
 
 Magenta
 
-Purple
+Lilla
 
 
