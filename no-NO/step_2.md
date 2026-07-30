@@ -1,13 +1,13 @@
 ## Hva er en Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
+En Astro Pi er en Raspberry Pi-datamaskin som er spesialdesignet for å fungere i verdensrommet.
 
 ![Animert bilde av Sense HAT er festet til toppen av en Raspberry Pi datamaskin.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
+Astro Pi-datamaskiner har et sett med sensorer som heter Sense HAT, og unge kan bruke disse til å gjøre vitenskapelige eksperimenter. En sensor er noe som kan oppdage eller måle hva som skjer rundt den. Sensorene på Sense Hat kan måle farge og lysstyrke på objekter foran på den. Sense Hat inneholder også en 8 x 8 LED-matrise som kan vise enkle bilder og informasjon.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+En <span style="color: #0faeb0">**LED-matrise**</span> er et rutenett av LED-pærer som kan styres individuelt eller som en gruppe for å skape forskjellige lyseffekter. LED-matrisen på Sense HAT har 64 LED-er vist i et rutenett på 8x8 ruter. LED-lysene kan programmeres til å produsere et bredt spekter av farger.
 </p>
 
-![an 8x8 pixel art image of a whale](images/whaleblank.png)
+![et 8x8 pikselkunstbilde av en hval](images/whaleblank.png)
