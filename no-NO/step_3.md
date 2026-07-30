@@ -1,17 +1,17 @@
 ## Vise et bilde
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Bildet du viser, vil bestå av 64 fargede firkanter kalt **piksler**. Pikslene er ordnet i et rutenett på 8x8 ruter. Hver piksel kan ha en egen farge. Ved å velge fargene nøye kan du skape et bilde. Her er et eksempel på en hval laget med forskjellige nyanser av blått på svart bakgrunn.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 En <span style="color: #0faeb0">**LED-matrise**</span> er et rutenett av LED-pærer som kan styres individuelt eller som en gruppe for å skape forskjellige lyseffekter. LED-matrisen på Sense HAT har 64 LED'er som vises i 8 x 8 rutenett. LED-pærene kan programmeres til å produsere en lang rekke farger.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![et 8x8 felt stort bilde av en hval med bokstaver som markerer forskjellige farger](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Legg merke til at hver rute er merket med en kode som representerer en bestemt farge. I dette bildet er det brukt 3 farger:
++ c = svart
++ f = havblå
++ g = himmelblå
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Farger kan lages ved hjelp av ulike deler av rød, grønn og blå. Du kan finne ut om RGB farger her:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Tre glidebrytere som viser RGB-fargeverdier](images/rgbsliders.gif)
 
-LED-matrisen er et 8 x 8-rutenett. Hver LED på rutenettet kan settes til en annen farge. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+LED-matrisen er et 8 x 8-rutenett. Hver LED på rutenettet kan settes til en annen farge. Vi kan bruke bokstavene a til å som navn på variabler for å representere 24 forskjellige farger. Hver farge har en verdi for rød, grønn og blå.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+tittel: Liste over fargevariabler
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Et rutenett med 24 fargede firkanter, hver merket med en egen bokstav](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Hvit
+b = (171, 171, 171) # Grå
+c = (0, 0, 0) # Svart
+d = (25, 25, 113) # Marineblå
+e = (0, 0, 255) # Ren blå
+f = (36, 128, 200) # Havblå
+g = (0, 204, 255) # Himmelblå
+h = (86, 255, 255) # Elektrisk cyan
+j = (0, 255, 0) # Ren grønn
+k = (46, 139, 33) # Bladgrønn
+l = (57, 97, 17) # Olivengrønn
+m = (30, 65, 6) # Skoggrønn
+n = (126, 88, 25) # Jordbrun
+o = (179, 96, 65) # Terrakottabrun
+p = (180, 34, 34) # Mursteinsrød
+q = (255, 0, 0) # Ren rød
+r = (232, 118, 5) # Oransje
+s = (241, 231, 100) # Blekgul
+t = (255, 255, 0) # Ren gul
+u = (255, 209, 209) # Blekrosa
+v = (255, 177, 177) # Blush-rosa
+w = (249, 169, 255) # Lys rosa
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Lilla
 
 ```
 
@@ -99,12 +99,12 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-title: Whale
+tittel: Hval
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Et rutenett med 8 x 8 ruter som viser en hval.](images/whale.png)
 
-Created by Team Naicom, Italy
+Laget av team Naicom fra Italia
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+tittel: Sitron
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Et rutenett med 8 x 8 ruter som viser en sitron.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Laget av team g4lemoni fra Hellas
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+tittel: Gris
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Et rutenett med 8 x 8 ruter som viser en gris.](images/pig.png)
 
-Created by Gary, United Kingdom
+Laget av Gary fra Storbritannia
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+tittel: Storm
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Et rutenett med 8 x 8 ruter som viser en stormsky.](images/storm.png)
 
-Created by team hop2p023, Spain
+Laget av team hop2p023 fra Spania
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+tittel: And
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Et rutenett med 8 x 8 ruter som viser en and.](images/duck.png)
 
-Created by Peter, Ireland
+Laget av Peter fra Irland
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+tittel: Frosk
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Et rutenett med 8 x 8 ruter som viser en frosk.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Laget av team Jmeno fra Tsjekkia
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+tittel: Blomstrende tre
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Et rutenett med 8 x 8 ruter som viser et blomstrende tre.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Laget av team Zssh14 fra Slovakia
 
 ```python
 
