@@ -1,12 +1,12 @@
 ## Du kommer til å lage
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Du skal programmere en Astro Pi-datamaskin til å vise et fargerikt bilde. Når programmet ditt har bestått de offisielle kodekontrollene, kjøres det på en Astro Pi-datamaskin på den internasjonale romstasjonen (ISS), slik at astronautene kan se det mens de utfører sine daglige oppgaver.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+I dette prosjektet skal du lære om Astro Pi-datamaskinen og hvordan du styrer den. Du skal gjøre følgende:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Designe et pikselkunstbilde og vise det på en Astro Pi-datamaskin
++ Bruke en sensor til å oppdage fargen og lysstyrken på lyset om bord på ISS og endre bildet
++ Lage en enkel animasjon (valgfritt)
 
 Her er et eksempel på den typen program du kan lage for å kjøre på en Astro Pi-plass.
 
@@ -14,20 +14,20 @@ Her er et eksempel på den typen program du kan lage for å kjøre på en Astro 
 
 ### Du vil trenge
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Du skal skrive og teste programmet ditt i en nettleser som Google Chrome. Du trenger ikke en ekte Astro Pi-datamaskin.
 
 ### Astro Pi Mission Zero-kriterier
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Alle prosjekter som oppfyller [-reglene](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, får statusen «Godkjent for flyvning» for å kjøres på den internasjonale romstasjonen! Hvis du lykkes, mottar du også et spesielt sertifikat som viser nøyaktig hvor ISS var mens programmet ditt kjørte i rommet.
 
 --- collapse ---
 ---
 title: Notater for veiledere
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Spesiell maskinvare eller tidligere kodingsevne er ikke nødvendig. Alt kan gjøres i en nettleser.
+Mission Zero passer for nybegynnere innen programmering og anbefales for unge mennesker i alderen 9–16 år. Det kan fullføres i løpet av én enkelt 60-minutters økt på en hvilken som helst datamaskin med internettilgang. Spesiell maskinvare eller tidligere kodingsevne er ikke nødvendig. Alt kan gjøres i en nettleser.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ Misson Zero kan gjøres individuelt eller i team på opptil 4 personer.
 
 Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
