@@ -1,10 +1,10 @@
 ## Sanse en farge
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+I dette trinnet konfigurerer du farge- og lysstyrkesensoren. Du skal bruke denne sensoren til å måle mengden rødt, grønt og blått lys som når sensoren. Disse verdiene vil deretter bli brukt til å endre en av fargene i det valgte bildet.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Dette betyr at bildet kan endre seg avhengig av hva sensoren ser. For eksempel ville en astronaut som har på seg en blå skjorte se en annen versjon av bildet enn en astronaut som har på seg en rød skjorte.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+I hvalbildet vi brukte i forrige trinn, var bakgrunnsfargen svart. Vi brukte variabelen `c` til å lagre RGB-fargekoden:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Bruk fargesensoren til å endre en av fargene dine.
 
-Underneath the lines where you define the colours, add the following code:
+Legg til følgende kode under linjene der du definerer fargene:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Denne koden erstatter RGB-verdiene som er lagret i `c`, med verdiene for fargen som oppdages av sensoren.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Tips: Hvis du ikke brukte variabelen `c` i ditt eget bilde, kan du erstatte `c` med en av fargevariablene du brukte. Dette lar sensoren endre den fargen i stedet.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Nå har du vist et bilde og registrert en farge og brukt den i programmet ditt, og koden din er klar til innsending! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Du kan lagre og sende inn programmet ditt ved hjelp av skjemaet nederst i koderedigeringsverktøyet.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Du kan imidlertid ønske å legge til flere bilder i prosjektet ditt, eller gjøre det levende med animasjon. De neste trinnene viser deg hvordan du gjør dette.
 </p>
 
-## Animate your project (optional)
+## Animer prosjektet ditt (valgfritt)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Mission Zero-programmet ditt kan kjøre på den internasjonale romstasjonen (ISS) i opptil 30 sekunder. Du kan bruke denne kjøretiden til å vise en animasjon på LED-matrisen ved å veksle mellom to eller flere forskjellige bilder.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Legg til** et bilde til rett under kodelinjen `sense.set_pixels(image)`. Gi den variabelnavnet `image2` og endre noen piksler for å få animasjonsrammen til å se annerledes ut. Legg så til en kort pause etterpå.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Helt nederst i kodefilen setter du opp `for` -løkken din til å gjenta `14` ganger og veksler mellom å vise `image` og `image2` med 1 sekunds pause på hver billedramme.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Tips:** Sørg for at kodelinjene under `for i i range(14):` er innrykket med et mellomrom slik at de sitter **inni** løkkeblokken.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Kjør koden din igjen. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Test:** Kjør koden din igjen. Programmet ditt vil vise den registrerte fargen umiddelbart, og deretter gå frem og tilbake i en animert visning.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Hvis du ønsker å ha mer enn to bilder i animasjonen, må du sørge for at programmet kjører i ikke mer enn 30 sekunder. Hvis du for eksempel har 10 bilder som hvert vises i 1 sekund, må du endre `for`-løkken til å gjentas 3 ganger (10 * 3 = 30 sekunder).
 </p>
 
 --- task ---
 
-**Check for errors**
+**Sjekk om det finnes feil**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Koden min har en syntaksfeil eller endrer ikke billedramme:
+- Sjekk at `for`-løkkekoden samsvarer med innrykket i eksemplet.
+- Sørg for at du har kalt den andre bildematrisen `image2` og at den er plassert utenfor og før løkken begynner.
+- Sjekk at `sleep-`-tidene dine er satt til nøyaktig `1` sekund for å unngå å overskride ISS' strenge frist på 30 sekunders utførelse.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn la
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Kodeeksempel for ferdig hval
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+tittel: Kodeeksempel for ferdig hval (med animasjon)
 ---
 
 --- code ---
