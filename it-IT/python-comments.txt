@@ -12,68 +12,68 @@ Aggiungi variabili per il colore e l'immagine
 
 Mostra l'immagine
 
-Sense a colour
+Leggi un colore
 
 ottenere il colore dal sensore
 
 usa il colore rilevato
 
-Extra images / frames go here:
+Immagini/cornici extra vanno qui:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Ripeti 14 volte (14 * 2 secondi = 28 secondi di animazione totale)
 
-# Display the second image
+# Visualizza la seconda immagine
 
-# Display the first image
+# Visualizza la prima immagine
 
-# BASIC SUBMISSION is done by now
+# L'INVIO DI BASE è ormai terminato
 
 Bianco
 
-Grey
+Grigio
 
 Nero
 
-Navy Blue
+Blu navy
 
-Pure Blue
+Blu puro
 
-Ocean Blue
+Blu oceano
 
-Sky Blue
+Cielo blu
 
-Electric Cyan
+Ciano elettrico
 
-Pure Green
+Verde puro
 
-Leaf Green
+Verde foglia
 
-Olive Green
+Verde Oliva
 
-Forest Green
+Verde foresta
 
-Earth Brown
+Marrone Terra
 
-Terracotta Brown
+Marrone terracotta
 
-Brick Red
+Rosso mattone
 
-Pure Red
+Rosso puro
 
-Orange
+Arancia
 
-Pale Yellow
+Giallo pallido
 
-Pure Yellow
+Giallo puro
 
-Pale Pink
+Rosa pallido
 
-Blush Pink
+Rosa cipria
 
-Light Pink
+Rosa chiaro
 
 Magenta
 
-Purple
+Viola
 
 
