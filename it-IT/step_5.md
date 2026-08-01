@@ -2,13 +2,13 @@
 
 Ora che hai completato la tua missione, perché non provi altri progetti utilizzando gli altri sensori dell'Astro Pi?
 
-Se ti senti all'altezza, potresti partecipare al Mission Space Lab. Forma un team da due a sei persone e lavora insieme per rispondere a una vera domanda scientifica. All teams that submit an eligible program will be invited to a virtual Q&A with an human space flight expert from ESA at the end of the European Astro Pi Challenge cycle.
+Se ti senti all'altezza, potresti partecipare al Mission Space Lab. Forma un team da due a sei persone e lavora insieme per rispondere a una vera domanda scientifica. Tutti i team che presenteranno un programma idoneo saranno invitati a una sessione di domande e risposte virtuali con un esperto di volo spaziale umano dell'ESA alla fine del ciclo europeo Astro Pi Challenge.
 
 In alternativa potresti provare uno dei nostri altri progetti Sense HAT:
 
 + Scopri [di più sul Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} e le altre cose che può fare
 
-+ Crea alcune fantastici [brillamenti casuali](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} sul display LED del Sense HAT
++ Crea alcuni fantastici [scintillii casuali](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} sul display LED del Sense HAT
 
 + Crea un gioco [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
 
