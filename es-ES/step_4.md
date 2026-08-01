@@ -121,7 +121,7 @@ Si quieres tener más de dos fotogramas en tu animación, debes asegurarte de qu
 Mi código tiene un error de sintaxis o no cambia fotogramas:
 - Comprueba que tu bucle `for` coincide con la sangría en el ejemplo.
 - Asegúrate que nombraste tu segunda imagen `imagen2` y de que está colocada fuera y antes de que el bucle comience.
-- Compruebe que el tiempo del comando `sleep` esté configurados exactamente como `1` segundo para evitarpasarte de una ejecución de 30 segundos en el ISS.
+- Comprueba que el tiempo del comando `sleep` esté configurado exactamente como `1` segundo para evitarpasarte de una ejecución de 30 segundos en el ISS.
 
 --- /task ---
 
