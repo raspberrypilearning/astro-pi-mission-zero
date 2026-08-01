@@ -1,10 +1,10 @@
 ## Leggi il colore
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+In questo passaggio configurerai il sensore di colore e luminosità. Utilizzerai questo sensore per misurare la quantità di luce rossa, verde e blu che raggiunge il sensore. Questi valori verranno quindi utilizzati per modificare uno dei colori nell'immagine scelta.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Ciò significa che l'immagine può cambiare a seconda di ciò che vede il sensore. Ad esempio, un astronauta che indossa una maglietta blu vedrebbe una versione diversa dell'immagine rispetto a un astronauta che indossa una maglietta rossa.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Nell'immagine della balena utilizzata nel passaggio precedente, il colore di sfondo era nero. Abbiamo utilizzato la variabile `c` per memorizzare il suo codice colore RGB:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Usa il sensore di colore per cambiare uno dei tuoi colori.
 
-Underneath the lines where you define the colours, add the following code:
+Sotto le righe in cui definisci i colori, aggiungi il seguente codice:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Questo codice sostituisce i valori RGB memorizzati in `c` con i valori del colore rilevato dal sensore.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Suggerimento: se non hai utilizzato la variabile `c` nella tua immagine, sostituisci `c` con una delle variabili di colore che hai utilizzato. Ciò consentirà invece al sensore di cambiare quel colore.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Ora che hai visualizzato un'immagine, rilevato un colore e utilizzato nel tuo programma, il tuo codice è pronto per l'invio! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Puoi salvare e inviare il tuo programma utilizzando il modulo nella parte inferiore dell'editor di codice.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Tuttavia, potresti voler aggiungere più immagini al tuo progetto o dargli vita con un'animazione. I passaggi successivi mostrano come eseguire questa operazione.
 </p>
 
-## Animate your project (optional)
+## Anima il tuo progetto (facoltativo)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Il tuo programma Mission Zero può essere eseguito sulla Stazione Spaziale Internazionale (ISS) per un massimo di 30 secondi. È possibile utilizzare questo tempo di esecuzione per visualizzare un'animazione sulla matrice LED passando da due o più immagini diverse.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Aggiungi** una seconda immagine proprio sotto la riga di codice `sense.set_pixels(image)`. Assegnagli il nome della variabile `image2` e modifica alcuni pixel per rendere diverso il fotogramma dell'animazione. Quindi aggiungi una breve pausa subito dopo.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Nella parte inferiore del file di codice, imposta il ciclo `for` in modo che si ripeta `14` volte e alterni la visualizzazione di `image` e `image2` facendo una pausa per 1 secondo su ciascun fotogramma.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Suggerimento:** assicurati che le righe di codice sotto `for i in range(14):` siano rientrate con uno spazio in modo che si trovino **all'interno** del blocco loop.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Esegui di nuovo il codice. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Test:** Esegui di nuovo il codice. Il tuo programma visualizzerà immediatamente il colore rilevato, quindi andrà avanti e indietro per eseguire un'animazione.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Se desideri avere più di due fotogrammi nella tua animazione, devi assicurarti che il programma venga eseguito per non più di 30 secondi. Ad esempio, se hai 10 immagini visualizzate ciascuna per 1 secondo, devi modificare il ciclo "for" in modo che si ripeta 3 volte (10 * 3 = 30 secondi)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Verifica la presenza di errori**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Il mio codice ha un errore di sintassi o non cambia frame:
+- Controlla che il codice del ciclo `for` corrisponda al rientro nell'esempio.
+- Assicurati di aver chiamato la tua seconda matrice immagine `image2` e che sia posizionata all'esterno e prima dell'inizio del ciclo.
+- Controlla che i tuoi tempi di `sleep` siano impostati esattamente su `1` secondo per evitare di superare il rigido limite di esecuzione di 30 secondi sulla ISS.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Puoi salvare il tuo programma sul progetto Mission Starter inserendo il nome del
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Esempio di codice Whale completato
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Esempio di codice Whale completato (con animazione)
 ---
 
 --- code ---
