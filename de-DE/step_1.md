@@ -1,12 +1,12 @@
 ## Das wirst du machen
 
-Du wirst einen Astro Pi-Computer so programmieren, dass er ein farbiges Bild anzeigt. Sobald dein Programm die offiziellen Code-Prüfungen bestanden hat, wird es auf einem Astro Pi-Computer auf der Internationalen Raumstation (ISS) ausgeführt, damit die Astronauten es während ihrer täglichen Aufgaben einsehen können.
+Du wirst einen Astro Pi-Computer so programmieren, dass er ein farbiges Bild anzeigt. Sobald dein Programm die offiziellen Code-Prüfungen bestanden hat, wird es auf einem Astro Pi-Computer auf der Internationalen Raumstation (ISS) ausgeführt, damit die Astronauten es während ihrer täglichen Aufgaben sehen können.
 
 In diesem Projekt lernst du den Astro Pi-Computer und seine Steuerung kennen. Du wirst:
 
 + Entwerfen und Anzeigen eines Pixel-Art-Bildes auf einem Astro Pi-Computer
-+ Verwende einen Sensor, um die Farbe und Helligkeit des Lichts an Bord der ISS zu erfassen und das Bild zu ändern
-+ Erstelle eine einfache Animation (optional)
++ Einen Sensor verwenden, um die Farbe und Helligkeit des Lichts an Bord der ISS zu erfassen und das Bild zu ändern
++ Eine einfache Animation erstellen (optional)
 
 Hier ist ein Beispiel für die Art von Programm, das du erstellen könntest, um es auf einem Astro Pi im Weltraum auszuführen.
 
@@ -25,7 +25,7 @@ Jedes Projekt, das die [Regeln](https://astro-pi.org/mission-zero/eligibility){:
 title: Hinweise für Lehrer und Mentoren
 ---
 
-Mission Zero eignet sich für Programmieranfänger und wird für Jugendliche im Alter von 9 bis 16 Jahren empfohlen. Es kann in einer einzigen 60-minütigen Sitzung und auf jedem Computer mit Internetzugang abgeschlossen werden. Es sind keine spezielle Hardware oder vorherige Programmierkenntnisse erforderlich. Alles kann in einem Webbrowser erledigt werden.
+Mission Zero eignet sich für Programmieranfänger und wird für Jugendliche im Alter von 9 bis 16 Jahren empfohlen. Es kann in einer einzigen 60-minütigen Sitzung auf jedem Computer mit Internetzugang abgeschlossen werden. Es sind keine spezielle Hardware oder vorherige Programmierkenntnisse erforderlich. Alles kann in einem Webbrowser erledigt werden.
 
  Mission Zero kann einzeln oder in Teams von bis zu 4 Personen durchgeführt werden.
 
