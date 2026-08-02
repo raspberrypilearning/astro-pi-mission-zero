@@ -2,9 +2,9 @@
 
 In diesem Schritt wird der Farb- und Helligkeitssensor eingestellt. Du wirst diesen Sensor verwenden, um die Menge an rotem, grünem und blauem Licht zu messen, die den Sensor erreicht. Diese Werte werden dann verwendet, um eine der Farben in deinem ausgewählten Bild zu ändern.
 
-Das bedeutet, dass sich das Bild je nach dem, was der Sensor sieht, verändern kann. Ein Astronaut, der beispielsweise ein blaues Hemd trägt, würde eine andere Version des Bildes sehen als ein Astronaut, der ein rotes Hemd trägt.
+Das bedeutet, dass sich das Bild je nachdem, was der Sensor sieht, verändern kann. Ein Astronaut, der beispielsweise ein blaues Hemd trägt, würde eine andere Version des Bildes sehen als ein Astronaut, der ein rotes Hemd trägt.
 
-Bei dem Walbild, das wir im vorherigen Schritt verwendet haben, war die Hintergrundfarbe schwarz. Wir haben die Variable `c` verwendet, um deinen RGB-Farbcode zu speichern:
+Bei dem Walbild, das wir im vorherigen Schritt verwendet haben, war die Hintergrundfarbe schwarz. Wir haben die Variable `c` verwendet, um seinen RGB-Farbcode zu speichern:
 
 --- code ---
 ---
@@ -36,7 +36,7 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 Dieser Code ersetzt die in `c` gespeicherten RGB-Werte durch die vom Sensor erfassten Werte für die Farbe.
 
-Tipp: Falls du die Variable `c` in deinem Bild nicht verwendet hast, ersetze `c` durch eine der Farbvariablen, die du verwendest hast. Dadurch kann der Sensor stattdessen die Farbe ändern.
+Tipp: Falls du die Variable `c` in deinem Bild nicht verwendet hast, ersetze `c` durch die Farbvariable, die du verwendest hast. Dadurch kann der Sensor diese Farbe ändern.
 
 --- task ---
 
@@ -61,7 +61,7 @@ Dein Mission Zero Programm kann bis zu 30 Sekunden auf der Internationalen Raums
 --- task ---
 
 
-**Füge** ein zweites Bild direkt unterhalb deiner `sense.set_pixels(image)` Codezeile hinzu. Gib der Variable den Namen `image2` und ändere ein paar Pixel, damit dein Animationsbild anders aussieht. Füge anschließend eine kurze Pause ein.
+**Füge** ein zweites Bild direkt unterhalb deiner `sense.set_pixels(image)` Codezeile hinzu. Gib der Variable den Namen `bild2` und ändere ein paar Pixel, damit dein Animationsbild anders aussieht. Füge anschließend eine kurze Pause ein.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-Richte ganz unten in deiner Codedatei deine `for` Schleife so ein, dass sie `14` Mal wiederholt wird und abwechselnd `Bild` und `Bild2` angezeigt wird, wobei sie jeweils 1 Sekunde pausieren.
+Richte ganz unten in deiner Codedatei deine `for` Schleife so ein, dass sie `14` Mal wiederholt wird und abwechselnd `bild` und `bild2` angezeigt wird, wobei sie jeweils 1 Sekunde pausieren.
 
-**Tipp:** Stelle sicher, dass die Codezeilen unterhalb von `for i in range(14):` mit einem Leerzeichen eingerückt sind, sodass sie sich **innerhalb von** dem Schleifenblock befinden.
+**Tipp:** Stelle sicher, dass die Codezeilen unterhalb von `for i in range(14):` mit einem Leerzeichen eingerückt sind, sodass sie sich **innerhalb** des Schleifenblocks befinden.
 
 --- code ---
 ---
@@ -106,7 +106,7 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Führe deinen Code erneut aus. Dein Programm zeigt die erfasste Farbe sofort an und wiederholt dies dann in einer Schleife für eine animierte Darstellung.
+**Test:** Führe deinen Code erneut aus. Dein Programm zeigt die erfasste Farbe sofort an und läuft dann in einer Schleife um eine Animation zu zeigen.
 
 --- /task ---
 
@@ -120,7 +120,7 @@ Wenn deine Animation mehr als zwei Einzelbilder enthalten soll, musst du sichers
 
 Mein Code enthält einen Syntaxfehler oder ändert die Frames nicht:
 - Prüfe, ob dein `for` Schleifencode der Einrückung im Beispiel entspricht.
-- Stelle sicher, dass deine zweite Bildmatrix `image2` genannt hast und dass sie außerhalb und vor Beginn der Schleife platziert wird.
+- Stelle sicher, dass deine zweite Bildmatrix `bild2` genannt hast und dass sie außerhalb und vor Beginn der Schleife platziert wird.
 - Überprüfe, ob deine `Schlafzeiten` genau auf`1` Sekunde eingestellt sind, um ein Überschreiten des strikten 30-Sekunden-Ausführungslimits auf der ISS zu vermeiden.
 
 --- /task ---
