@@ -12,7 +12,7 @@ Farbvariablen und Bild hinzufügen
 
 Das Bild anzeigen
 
-Bestimme eine Farbe
+Erfasse eine Farbe
 
 Hole die Farbe vom Sensor
 
