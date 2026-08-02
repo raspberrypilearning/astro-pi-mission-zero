@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Zitrone
 ---
 
 ![Ein Raster mit 8 x 8 Quadraten, das eine Zitrone zeigt.](images/lemon.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blütenbaum
+title: blühender Baum
 ---
 
 ![Ein Raster aus 8 x 8 Quadraten, das einen blühenden Baum zeigt.](images/blossom.png)
