@@ -12,68 +12,68 @@ Adaugă variabile de culoare și imagine
 
 Afișează imaginea
 
-Sense a colour
+Detectează o culoare
 
 obține culoarea de la senzor
 
 utilizează culoarea de la senzor
 
-Extra images / frames go here:
+Imaginile/cadrele suplimentare se pun aici:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Repetă de 14 ori (14 * 2 secunde = 28 de secunde animație în total)
 
-# Display the second image
+# Afișează a doua imagine
 
-# Display the first image
+# Afișează prima imagine
 
-# BASIC SUBMISSION is done by now
+# TRIMITEREA DE BAZĂ este deja finalizată
 
 Alb
 
-Grey
+Gri
 
 Negru
 
-Navy Blue
+Albastru Marin
 
-Pure Blue
+Albastru pur
 
-Ocean Blue
+Albastru oceanic
 
-Sky Blue
+Albastru ceresc
 
-Electric Cyan
+Cian electric
 
-Pure Green
+Verde pur
 
-Leaf Green
+Verde frunză
 
-Olive Green
+Verde măsliniu
 
-Forest Green
+Verde Pădure
 
-Earth Brown
+Maro Pământ
 
-Terracotta Brown
+Maro teracotă
 
-Brick Red
+Cărămiziu
 
-Pure Red
+Roșu pur
 
-Orange
+Portocaliu
 
-Pale Yellow
+Galben pal
 
-Pure Yellow
+Galben pur
 
-Pale Pink
+Roz pal
 
-Blush Pink
+Roz îmbujorat
 
-Light Pink
+Roz deschis
 
-Magenta
+Mov
 
-Purple
+Violet
 
 
