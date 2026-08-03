@@ -1,13 +1,13 @@
 ## Τι είναι το Astro Pi;
 
-An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
+Ένα Astro Pi είναι ένας υπολογιστής Raspberry Pi που έχει σχεδιαστεί ειδικά για να λειτουργεί στο διάστημα.
 
 ![Κινούμενη εικόνα ενός Sense HAT προσαρτημένου στο επάνω μέρος ενός υπολογιστή Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
+Οι υπολογιστές Astro Pi διαθέτουν ένα σύνολο αισθητήρων που ονομάζονται «Sense HAT» και τους οποίους μπορούν να χρησιμοποιήσουν οι νέοι/ες για να πραγματοποιήσουν επιστημονικά πειράματα. Ένας αισθητήρας είναι κάτι που μπορεί να ανιχνεύσει ή να μετρήσει τι συμβαίνει γύρω του. Οι αισθητήρες στο Sense Hat μπορούν να μετρήσουν πράγματα όπως το χρώμα και τη φωτεινότητα των αντικειμένων μπροστά του. Το Sense Hat περιλαμβάνει επίσης έναν πίνακα LED 8 x 8 που μπορεί να εμφανίσει απλές εικόνες και πληροφορίες.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+Ένα <span style="color: #0faeb0">**LED matrix**</span> είναι ένα πλέγμα από LED (Light Emitting Diodes) που μπορούν να ελεγχθούν μεμονωμένα ή ως ομάδα για να δημιουργήσουν διαφορετικά εφέ φωτισμού. Ο πίνακας LED matrix στο Sense HAT έχει 64 LED που εμφανίζονται σε ένα πλέγμα 8 x 8. Τα LED μπορούν να προγραμματιστούν ώστε να παράγουν μεγάλη γκάμα χρωμάτων.
 </p>
 
-![an 8x8 pixel art image of a whale](images/whaleblank.png)
+![μια εικόνα τέχνης μιας φάλαινας 8x8 pixel](images/whaleblank.png)
