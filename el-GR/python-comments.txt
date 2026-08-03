@@ -12,68 +12,68 @@
 
 Εμφάνιση της εικόνας
 
-Sense a colour
+Ανίχνευση ενός χρώματος
 
 λήψη του χρώματος από τον αισθητήρα
 
 χρήση του χρώματος που ανίχνευσε ο αισθητήρας
 
-Extra images / frames go here:
+Επιπλέον εικόνες / καρέ πηγαίνουν εδώ:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Επανάληψη 14 φορές (14 * 2 δευτερόλεπτα = 28 δευτερόλεπτα συνολικό κινούμενο σχέδιο)
 
-# Display the second image
+# Εμφάνιση της δεύτερης εικόνας
 
-# Display the first image
+# Εμφάνιση της πρώτης εικόνας
 
-# BASIC SUBMISSION is done by now
+# Η ΒΑΣΙΚΗ ΥΠΟΒΟΛΗ έχει ολοκληρωθεί μέχρι τώρα
 
 Άσπρο
 
-Grey
+Γκρι
 
 Μαύρο
 
-Navy Blue
+Μπλε Σκούρο
 
-Pure Blue
+Καθαρό Μπλε
 
-Ocean Blue
+Μπλε του Ωκεανού
 
-Sky Blue
+Μπλε Του Ουρανού
 
-Electric Cyan
+Μπλε Ελεκτρίκ
 
-Pure Green
+Καθαρό Πράσινο
 
-Leaf Green
+Πράσινο Φύλλων
 
-Olive Green
+Πράσινο της Ελιάς
 
-Forest Green
+Πράσινο Του Δάσους
 
-Earth Brown
+Καφέ της Γης
 
-Terracotta Brown
+Καφέ Τερακόττα
 
-Brick Red
+Κόκκινο Τούβλου
 
-Pure Red
+Καθαρό Κόκκινο
 
-Orange
+Πορτοκαλί
 
-Pale Yellow
+Ανοιχτό κίτρινο
 
-Pure Yellow
+Καθαρό κίτρινο
 
-Pale Pink
+Αχνό Ροζ
 
-Blush Pink
+Ροζ του Ρουζ
 
-Light Pink
+Ανοιχτό ροζ
 
-Magenta
+Φούξια
 
-Purple
+Μωβ
 
 
