@@ -1,5 +1,5 @@
 imagine
 
-image2
+imagine2
 
 rgb
