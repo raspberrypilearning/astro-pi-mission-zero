@@ -1,17 +1,17 @@
 ## Εμφάνιση εικόνας
 
-Η εικόνα που θα εμφανίσετε θα αποτελείται από 64 χρωματιστά τετράγωνα που ονομάζονται **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Η εικόνα που θα εμφανίσετε θα αποτελείται από 64 χρωματιστά τετράγωνα που ονομάζονται **pixels** (εικονοστοιχεία). Τα εικονοστοιχεία είναι τοποθετημένα σε πλέγμα 8 x 8. Κάθε εικονοστοιχείο μπορεί να έχει διαφορετικό χρώμα. Επιλέγοντας προσεκτικά τα χρώματα, μπορείτε να δημιουργήσετε μια εικόνα. Ακολουθεί ένα παράδειγμα φάλαινας φτιαγμένης με διαφορετικές αποχρώσεις του μπλε σε μαύρο φόντο.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Ένα <span style="color: #0faeb0">**LED matrix**</span> είναι ένα πλέγμα από LED που μπορούν να ελεγχθούν μεμονωμένα ή ως ομάδα για να δημιουργήσουν διαφορετικά εφέ φωτισμού. Ο πίνακας LED matrix στο Sense HAT έχει 64 LED που εμφανίζονται σε ένα πλέγμα 8 x 8. Τα LED μπορούν να προγραμματιστούν ώστε να παράγουν μεγάλη γκάμα χρωμάτων.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![μια εικόνα 8x8 μιας φάλαινας με γράμματα που επισημαίνουν διαφορετικά χρώματα](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Παρατηρήστε ότι κάθε τετράγωνο φέρει έναν κωδικό που αντιπροσωπεύει ένα συγκεκριμένο χρώμα. Σε αυτήν την εικόνα χρησιμοποιούνται 3 χρώματα:
++ c = μαύρο
++ f = Μπλε του ωκεανού
++ g = Μπλε του ουρανού
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Τα χρώματα μπορούν να δημιουργηθούν χρησιμοποιώντας διαφορετικές αναλογίες κόκκινου, πράσινου και μπλε. Μπορείς να μάθεις για τα χρώματα RGB εδώ:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Τρία ρυθμιστικά που δείχνουν τιμές χρωμάτων RGB](images/rgbsliders.gif)
 
-Ο πίνακας LED είναι ένα πλέγμα 8 x 8. Κάθε LED στο πλέγμα μπορεί να ρυθμιστεί σε διαφορετικό χρώμα. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+Ο πίνακας LED είναι ένα πλέγμα 8 x 8. Κάθε LED στο πλέγμα μπορεί να ρυθμιστεί σε διαφορετικό χρώμα. Μπορούμε να χρησιμοποιήσουμε τα γράμματα από το a έως το z ως ονόματα μεταβλητών για να αναπαραστήσουμε 24 διαφορετικά χρώματα. Κάθε χρώμα έχει μια τιμή για το κόκκινο, το πράσινο και το μπλε.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+title: Λίστα Μεταβλητών για τα Χρώματα
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Ένα πλέγμα από 24 χρωματιστά τετράγωνα, καθένα από τα οποία έχει επισημανθεί με ένα διαφορετικό γράμμα του αλφαβήτου](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Λευκό
+b = (171, 171, 171) # Γκρι
+c = (0, 0, 0) # Μαύρο
+d = (25, 25, 113) # Μπλε Σκούρο
+e = (0, 0, 255) # Καθαρό Μπλε
+f = (36, 128, 200) # Μπλε του Ωκεανού
+g = (0, 204, 255) # Μπλε του Ουρανού
+h = (86, 255, 255) # Μπλε Ελεκτρίκ
+j = (0, 255, 0) # Καθαρό Πράσινο
+k = (46, 139, 33) # Πράσινο Φύλλων
+l = (57, 97, 17) # Πράσινο της Ελιάς
+m = (30, 65, 6) # Πράσινο του Δάσους
+n = (126, 88, 25) # Καφέ της Γης
+o = (179, 96, 65) # Καφέ Τερακότα
+p = (180, 34, 34) # Κόκκινο Τούβλου
+q = (255, 0, 0) # Καθαρό Κόκκινο
+r = (232, 118, 5) # Πορτοκαλί
+s = (241, 231, 100) # Ανοιχτό Κίτρινο
+t = (255, 255, 0) # Καθαρό κίτρινο
+u = (255, 209, 209) # Αχνό Ροζ
+v = (255, 177, 177) # Ροζ του Ρουζ
+w = (249, 169, 255) # Ανοιχτό Ροζ
+y = (248, 97, 255) # Φούξια
+z = (220, 53, 232) # Μωβ
 
 ```
 
@@ -99,12 +99,12 @@ z = (220, 53, 232)  # Purple
 --- collapse ---
 
 ---
-title: Whale
+title: Φάλαινα
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει μια φάλαινα.](images/whale.png)
 
-Created by Team Naicom, Italy
+Δημιουργήθηκε από την Ομάδα Naicom, Ιταλία
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Λεμόνι
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα λεμόνι.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Δημιουργήθηκε από την ομάδα g4lemoni, Ελλάδα
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Γουρούνι
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα γουρούνι.](images/pig.png)
 
-Created by Gary, United Kingdom
+Δημιουργήθηκε από τον Gary, Ηνωμένο Βασίλειο
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Καταιγίδα
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα σύννεφο καταιγίδας.](images/storm.png)
 
-Created by team hop2p023, Spain
+Δημιουργήθηκε από την ομάδα hop2p023, Ισπανία
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Πάπια
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει μια πάπια.](images/duck.png)
 
-Created by Peter, Ireland
+Δημιουργήθηκε από τον Peter, Ιρλανδία
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Βάτραχος
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα βάτραχο.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Δημιουργήθηκε από την ομάδα Jmeno, Τσεχία
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Ανθισμένο Δέντρο
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Ένα πλέγμα με τετράγωνα 8 x 8 που δείχνει ένα ανθισμένο δέντρο.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Δημιουργήθηκε από την ομάδα Zssh14, Σλοβακία
 
 ```python
 
