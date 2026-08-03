@@ -1,10 +1,10 @@
 ## Detectează o culoare
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+În acest pas, vei seta senzorul de culoare și luminozitate. Vei folosi acest senzor pentru a măsura cantitatea de lumină roșie, verde și albastră care ajunge la senzor. Aceste valori vor fi folosite apoi pentru a schimba una dintre culorile din imaginea aleasă.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Asta înseamnă că imaginea se poate schimba în funcție de ceea ce vede senzorul. De exemplu, un astronaut care poartă un tricou albastru ar vedea o versiune diferită a imaginii față de un astronaut care poartă un tricou roșu.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+În imaginea balenei pe care am folosit-o în pasul anterior, culoarea de fundal a fost neagră. Am folosit variabila `c` pentru a stoca codul său de culoare RGB:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Folosește senzorul de culoare pentru a schimba una dintre culorile tale.
 
-Underneath the lines where you define the colours, add the following code:
+Sub liniile unde definești culorile, adaugă următorul cod:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Acest cod înlocuiește valorile RGB stocate în `c` cu valorile pentru culoarea detectată de către senzor.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Sfat: Dacă nu ai folosit variabila `c` în propria imagine, înlocuiește `c` cu una dintre variabilele de culoare pe care le-ai folosit. Acest lucru va permite senzorului să schimbe culoarea respectivă.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Acum ai afișat o imagine și ai detectat o culoare și ai folosit-o în programul tău, iar codul tău este gata de trimitere! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Poți salva și trimite programul tău folosind formularul de la baza editorului de cod.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Totuși, este posibil să vrei să adaugi mai multe imagini la proiect sau să-i dai viață cu animație. Următorii pași arată cum să faci asta.
 </p>
 
-## Animate your project (optional)
+## Animează proiectul tău (opțional)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Programul tău Mission Zero poate rula pe Stația Spațială Internațională (ISS) timp de până la 30 de secunde. Poți folosi acest timp de funcționare pentru a afișa o animație pe matricea LED-urilor, comutând între două sau mai multe imagini diferite.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Adaugă** a doua imagine sub linia de cod `sense.set_pixels(imagine)`. Dă-i numele variabilei `image2` şi schimbă câţiva pixeli pentru a face cadrul de animaţie să arate diferit. Apoi adaugă o scurtă pauză după ea.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+În partea de jos a fișierului de cod, configurează bucla `for` să se repete de `14` ori și să alterneze între afișarea imaginii `imagine` și a imaginii `imagine2`, cu pauză de 1 secundă la fiecare cadru.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Sfat:** Asigură-te că liniile de cod de sub `for i in range(14):` sunt indentate cu un spațiu pentru a sta **în interiorul** blocului buclei.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Rulează codul din nou. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Test:** Rulează codul din nou. Programul tău va afișa instantaneu culoarea detectată, apoi va repeta procesul de afișare animată.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Dacă dorești să ai mai mult de două cadre în animația ta, trebuie să te asiguri că programul va rula pentru cel mult 30 de secunde. De exemplu, dacă ai 10 imagini care sunt afișate fiecare timp de 1 secundă, trebuie să modifici bucla `for` pentru a se repeta de 3 ori (10 * 3 = 30 de secunde)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Verifică dacă există erori**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Codul meu are o eroare de sintaxă sau nu modifică cadrele:
+- Verifică dacă codul buclei `for` se potriveşte cu indentarea din exemplu.
+- Asigură-te că ai denumit a doua matrice de imagine `imagine2` și că este plasată în afara și înainte de începerea buclei.
+- Verifică dacă timpii de `sleep` sunt setați la exact `1` secundă pentru a evita trecerea peste limita strictă de execuție de 30 secunde de pe ISS.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Poți salva programul tău în proiectul Mission Starter introducând numele ech
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Exemplu de cod pentru balenă complet
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Exemplu de cod pentru balenă complet (cu animație)
 ---
 
 --- code ---
