@@ -1,17 +1,17 @@
 ## Afișează o imagine
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Imaginea pe care o afișezi va fi formată din 64 de pătrate colorate numite **pixeli**. Pixelii sunt aranjați într-o grilă de 8 x 8. Fiecare pixel poate avea o culoare diferită. Alegând culorile cu atenție, poți crea o imagine. Iată un exemplu de balenă făcută folosind diferite nuanţe de albastru pe un fundal negru.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 O <span style="color: #0faeb0">**matrice LED**</span> este o grilă de LED-uri care poate fi controlată individual sau de un grup pentru a crea diferite efecte de iluminat. Matricea LED de pe Sense HAT are 64 de LED-uri afișate într-o grilă de 8 x 8. LED-urile pot fi programate pentru a produce o gamă largă de culori.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![o imagine de 8x8 a unei balene cu litere etichetând culori diferite](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Observați că fiecare pătrat este etichetat cu un cod care reprezintă o anumită culoare. În această imagine se folosesc 3 culori:
++ c = negru
++ f = Albastru oceanic
++ g = Albastru ceresc
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Culorile pot fi create folosind diferite proporții de roșu, verde și albastru. Poți afla mai multe despre culorile RGB aici:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Trei cursoare care demonstrează valorile culorilor RGB](images/rgbsliders.gif)
 
-Matricea LED este o grilă de 8 x 8. Fiecare LED din grilă poate fi setat la o culoare diferită. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+Matricea LED este o grilă de 8 x 8. Fiecare LED din grilă poate fi setat la o culoare diferită. Putem folosi literele de la A la z ca nume de variabile pentru a reprezenta 24 de culori diferite. Fiecare culoare are o valoare pentru roşu, verde şi albastru.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+title: Lista Variabilelor de Culoare
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![O grilă de 24 de pătrate colorate, fiecare etichetat cu o literă diferită a alfabetului](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Alb
+b = (171, 171, 171) # Gri
+c = (0, 0, 0) # Negru
+d = (25, 25, 113) # Albastru marin
+e = (0, 0, 255) # Albastru pur
+f = (36, 128, 200) # Albastru oceanic
+g = (0, 204, 255) # Albastru ceresc
+h = (86, 255, 255) # Cian electric
+j = (0, 255, 0) # Verde pur
+k = (46, 139, 33) # Verde frunză
+l = (57, 97, 17) # Verde măsliniu
+m = (30, 65, 6) # Verde pădure
+n = (126, 88, 25) # Maro pământ
+o = (179, 96, 65) # Maro teracotă
+p = (180, 34, 34) # Cărămiziu
+q = (255, 0, 0) # Roșu pur
+r = (232, 118, 5) # Portocaliu
+s = (241, 231, 100) # Galben pal
+t = (255, 255, 0) # Galben pur
+u = (255, 209, 209) # Roz pal
+v = (255, 177, 177) # Roz îmbujorat
+w = (249, 169, 255) # Roz deschis
+y = (248, 97, 255) # Purpuriu
+z = (220, 53, 232) # Mov
 
 ```
 
@@ -99,12 +99,12 @@ Va trebui să **copiezi** tot codul pentru imaginea aleasă, apoi **lipește-l**
 --- collapse ---
 
 ---
-title: Whale
+title: Balenă
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![O grilă cu 8 x 8 pătrate ce arată o balenă.](images/whale.png)
 
-Created by Team Naicom, Italy
+Creat de Team Naicom, Italia
 
 ```python
 c = (0, 0, 0)       # Black
@@ -132,9 +132,9 @@ c, g, g, g, g, c, c, c]
 title: Lemon
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![O grilă cu 8 x 8 pătrate ce arată o lămâie.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Creat de echipa g4lemoni, Grecia
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Porc
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![O grilă cu 8 x 8 pătrate ce arată un porc.](images/pig.png)
 
-Created by Gary, United Kingdom
+Creat de Gary, Marea Britanie
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Furtună
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![O grilă cu 8 x 8 pătrate ce arată un nor de furtună.](images/storm.png)
 
-Created by team hop2p023, Spain
+Creat de echipa hop2p023, Spania
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Rață
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![O grilă cu 8 x 8 pătrate ce arată o rață.](images/duck.png)
 
-Created by Peter, Ireland
+Creat de Peter, Irlanda
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Broască
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![O grilă cu 8 x 8 pătrate ce arată o broască.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Creat de echipa Jmeno, Republica Cehă
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Copac înflorit
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![O grilă cu 8 x 8 pătrate ce arată un copac înflorit.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Creat de echipa Zssh14, Slovacia
 
 ```python
 
