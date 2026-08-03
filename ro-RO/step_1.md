@@ -1,12 +1,12 @@
 ## Vei face
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Vei programa un calculator Astro Pi pentru a afișa o imagine colorată. Odată ce programul tău a trecut de verificările oficiale ale codului, va rula pe un computer Astro Pi pe Stația Spațială Internațională (ISS), pentru ca astronauții să-l poată vedea în timpul activităților lor cotidiene.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+În acest proiect, vei învăța despre computerul Astro Pi și cum să îl controlezi. Vei:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Proiecta și afișa o imagine de artă cu pixeli pe un calculator Astro Pi
++ Folosi un senzor pentru a detecta culoarea și luminozitatea luminii de la bordul ISS și a schimba imaginea
++ Crea o animație simplă (opțional)
 
 Iată un exemplu de program pe care l-ai putea face pentru a rula pe un Astro Pi în spațiu.
 
@@ -14,20 +14,20 @@ Iată un exemplu de program pe care l-ai putea face pentru a rula pe un Astro Pi
 
 ### Ce vei face
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Vei scrie și testa programul într-un browser web, cum ar fi Google Chrome. Nu ai nevoie de un computer Astro Pi adevărat.
 
 ### Criteriile Astro Pi Mission Zero
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Fiecare proiect care îndeplinește [regulile](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} va primi „Statutul de zbor” pentru a rula pe Stația Spațială Internațională! Dacă reușești, vei primi și un certificat special care arată exact unde se afla SSI în timp ce programul tău rula în spațiu.
 
 --- collapse ---
 ---
 title: Note pentru mentori
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Nu sunt necesare hardware special sau abilități de programare anterioare. Totul poate fi făcut într-un browser web.
+Mission Zero este potrivit pentru începătorii în programare și este recomandat tinerilor cu vârste cuprinse între 9 și 16 ani. Se poate realiza într-o singură sesiune de 60 de minute, pe orice computer cu acces la internet. Nu sunt necesare hardware special sau abilități de programare anterioare. Totul poate fi făcut într-un browser web.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ Misson Zero se poate face individual sau în echipe de până la 4 persoane.
 
 Citește [instrucțiunile oficiale](https://astro-pi.org/ro/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
 
