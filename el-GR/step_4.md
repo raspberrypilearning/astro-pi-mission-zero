@@ -1,10 +1,10 @@
 ## Ανίχνευση ενός χρώματος
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+Σε αυτό το βήμα, θα ρυθμίσετε τον αισθητήρα χρώματος και φωτεινότητας. Θα χρησιμοποιήσετε αυτόν τον αισθητήρα για να μετρήσετε την ποσότητα κόκκινου, πράσινου και μπλε φωτός που φτάνει στον αισθητήρα. Αυτές οι τιμές θα χρησιμοποιηθούν στη συνέχεια για να αλλάξετε ένα από τα χρώματα στην εικόνα που έχετε επιλέξει.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Αυτό σημαίνει ότι η εικόνα μπορεί να αλλάξει ανάλογα με το τι βλέπει ο αισθητήρας. Για παράδειγμα, ένας αστροναύτης που φοράει μπλε πουκάμισο θα έβλεπε μια διαφορετική εκδοχή της εικόνας από έναν αστροναύτη που φοράει κόκκινο πουκάμισο.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Στην εικόνα της φάλαινας που χρησιμοποιήσαμε στο προηγούμενο βήμα, το χρώμα φόντου ήταν μαύρο. Χρησιμοποιήσαμε τη μεταβλητή `c` για να αποθηκεύσουμε τον κωδικό χρώματος RGB:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Χρησιμοποιήστε τον αισθητήρα χρώματος για να αλλάξετε ένα από τα χρώματά σας.
 
-Underneath the lines where you define the colours, add the following code:
+Κάτω από τις γραμμές όπου ορίζετε τα χρώματα, προσθέστε τον ακόλουθο κώδικα:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Αυτός ο κώδικας αντικαθιστά τις τιμές RGB που είναι αποθηκευμένες στο `c` με τις τιμές για το χρώμα που ανιχνεύεται από τον αισθητήρα.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Συμβουλή: Εάν δεν χρησιμοποιήσατε τη μεταβλητή `c` στη δική σας εικόνα, αντικαταστήστε την `c` με μία από τις μεταβλητές χρώματος που χρησιμοποιήσατε. Αυτό θα επιτρέψει στον αισθητήρα να αλλάξει αυτό το χρώμα.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Τώρα έχετε εμφανίσει μια εικόνα και έχετε ανιχνεύσει ένα χρώμα και το έχετε χρησιμοποιήσει στο πρόγραμμά σας, και ο κώδικάς σας είναι έτοιμος για υποβολή! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Μπορείτε να αποθηκεύσετε και να υποβάλετε το πρόγραμμά σας χρησιμοποιώντας τη φόρμα στο κάτω μέρος του προγράμματος code editor.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Ωστόσο, ίσως θελήσετε να προσθέσετε περισσότερες εικόνες στο έργο σας ή να το ζωντανέψετε με κινούμενα σχέδια. Τα επόμενα βήματα σας δείχνουν πώς να το κάνετε αυτό.
 </p>
 
-## Animate your project (optional)
+## Δώστε κίνηση στο έργο σας (προαιρετικό)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Το πρόγραμμα Mission Zero μπορεί να εκτελεστεί στον Διεθνή Διαστημικό Σταθμό (ISS) για έως και 30 δευτερόλεπτα. Μπορείτε να χρησιμοποιήσετε αυτόν τον χρόνο εκτέλεσης για να εμφανίσετε μια κινούμενη εικόνα στην οθόνη LED, εναλλάσσοντας δύο ή περισσότερες διαφορετικές εικόνες.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Προσθέστε** μια δεύτερη εικόνα ακριβώς κάτω από τη γραμμή κώδικα `sense.set_pixels(image)`. Δώστε στη μεταβλητή το όνομα `image2` και αλλάξτε μερικά εικονοστοιχεία για να κάνετε το πλαίσιο της κινούμενης εικόνας να φαίνεται διαφορετικό. Στη συνέχεια, προσθέστε μια σύντομη παύση μετά από αυτό.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Στο κάτω μέρος του αρχείου σας με τον κώδικα, ρυθμίστε τον βρόχο `for` ώστε να επαναλαμβάνεται ο βρόχος `14` φορές και εναλλάξ να εμφανίζει την εικόνα `image` και την εικόνα `image2` κάνοντας παύση για 1 δευτερόλεπτο σε κάθε καρέ.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Συμβουλή:** Βεβαιωθείτε ότι οι γραμμές κώδικα κάτω από το `for i in range(14):` έχουν εσοχή με κενό, ώστε να βρίσκονται **μέσα στο** μπλοκ του βρόχου.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Δοκιμή:** Εκτέλεσε τον κώδικά σου πάλι. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου πάλι. Το πρόγραμμά σας θα εμφανίσει αμέσως το χρώμα που ανιχνεύσατε και στη συνέχεια θα κάνει επανάληψη μπρος-πίσω για μια κινούμενη οθόνη.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Αν θέλετε να έχετε περισσότερα από δύο καρέ στην κινούμενη εικόνα σας, πρέπει να βεβαιωθείτε ότι το πρόγραμμα θα εκτελεστεί για όχι περισσότερο από 30 δευτερόλεπτα. Για παράδειγμα, αν έχετε 10 εικόνες που η καθεμία εμφανίζεται για 1 δευτερόλεπτο, πρέπει να αλλάξετε τον βρόχο `for` ώστε να επαναλαμβάνεται 3 φορές (10 * 3 = 30 δευτερόλεπτα)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Έλεγχος για σφάλματα**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Ο κώδικάς μου έχει ένα συντακτικό σφάλμα ή δεν αλλάζει τα καρέ:
+- Ελέγξτε ότι ο κώδικας βρόχου `for` ταιριάζει με την εσοχή στο παράδειγμα.
+- Βεβαιωθείτε ότι έχετε ονομάσει τον δεύτερο πίνακα εικόνων `image2` και ότι βρίσκεται έξω και πριν από την έναρξη του βρόχου.
+- Ελέγξτε ότι οι χρόνοι `sleep` έχουν οριστεί ακριβώς σε `1` δευτερόλεπτο για να αποφύγετε την υπέρβαση του αυστηρού ορίου εκτέλεσης των 30 δευτερολέπτων στον ISS.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ My code has a syntax error or doesn't change frames:
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Παράδειγμα ολοκληρωμένου κώδικα γα τη Φάλαινα
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Παράδειγμα ολοκληρωμένου κώδικα γα τη Φάλαινα (με κινούμενη εικόνα)
 ---
 
 --- code ---
