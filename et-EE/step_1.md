@@ -1,12 +1,12 @@
 ## Sa hakkad tegema
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Sa programmeerid Astro Pi arvutit värvilise pildi kuvamiseks. Kui teie programm on ametlikud koodikontrollid läbinud, käivitatakse see Rahvusvahelise Kosmosejaama (ISS) Astro Pi arvutis, et astronaudid saaksid seda oma igapäevaste ülesannete täitmisel jälgida.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+Selles projektis õpid tundma Astro Pi arvutit ja selle juhtimist. Sa saad:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Kujundage ja kuvage pikslikunsti pilti Astro Pi arvutis
++ Kasutage sensorit, et tuvastada ISS-i pardal oleva valguse värvi ja heledust ning muuta pilti
++ Loo lihtne animatsioon (valikuline)
 
 Siin on näide sellest, millise programmi saad teha Astro Pi peal kosmoses käitamiseks.
 
@@ -14,20 +14,20 @@ Siin on näide sellest, millise programmi saad teha Astro Pi peal kosmoses käit
 
 ### Sul on vaja
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Sa kirjutad ja testid oma programmi veebibrauseris, näiteks Google Chrome'is. Sa ei vaja päris Astro Pi arvutit.
 
 ### Astro Pi Mission Zero kriteeriumid
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Iga projekt, mis vastab [reeglitele](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, saab rahvusvahelises kosmosejaamas töötamiseks lennustaatuse! Kui teil õnnestub, saate ka spetsiaalse sertifikaadi, mis näitab täpselt, kus ISS asus teie programmi kosmoses töötamise ajal.
 
 --- collapse ---
 ---
 title: Märkused mentoritele
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Spetsiaalset riistvara ega eelnevaid kodeerimisoskusi pole vaja. Kõike saab teha veebibrauseris.
+Mission Zero sobib programmeerimise algajatele ja on soovitatav 9–16-aastastele noortele. Seda saab teha ühe 60-minutilise sessiooniga mis tahes internetiühendusega arvutis. Spetsiaalset riistvara ega eelnevaid kodeerimisoskusi pole vaja. Kõike saab teha veebibrauseris.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ Mission Zero't saab teha individuaalselt või kuni neljaliikmelistes meeskondades.
 
 Lugege Mission Zero [ametlikke juhiseid](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
