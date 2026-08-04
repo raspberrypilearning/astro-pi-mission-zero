@@ -1,17 +1,17 @@
 ## Kuva pilt
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Kuvatav pilt koosneb 64 värvilisest ruudust, mida nimetatakse **piksliteks**. Pikslid on paigutatud 8 x 8 ruudustikku. Iga piksel võib olla erinevat värvi. Värve hoolikalt valides saate luua soovitud pildi. Siin on näide vaalast, mis on valmistatud mustal taustal erinevate sinise varjundite abil.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED-maatriks**</span> on LED-ide võre, mida saab juhtida üksikult või rühmana, et luua erinevaid valgusefekte. Sense HAT-i LED-maatriksil on 64 LED-i, mis kuvatakse 8 x 8 võrena. LED-e saab programmeerida tootma laias valikus värve.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![8x8 vaala pilt, millel on tähed, mis tähistavad erinevaid värve](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Pane tähele, et iga ruut on tähistatud koodiga, mis tähistab konkreetset värvi. Sellel pildil on kasutatud kolme värvi:
++ c = must
++ f = ookeanisinine
++ g = taevasinine
 
 
 --- task ---
@@ -46,43 +46,43 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Värve saab luua kasutades erinevaid punase, rohelise ja sinise proportsioone. RGB värvide kohta saad rohkem teada siin:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Kolm liugurit, mis näitavad RGB värviväärtusi](images/rgbsliders.gif)
 
-LED-maatriks on 8x8-ruudustik. Iga võre LED-i saab seadistada erinevat värvi. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+LED-maatriks on 8x8-ruudustik. Iga võre LED-i saab seadistada erinevat värvi. Muutujate nimedena saame kasutada tähti a kuni z, mis tähistavad 24 erinevat värvi. Igal värvil on väärtus punase, rohelise ja sinise jaoks.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+pealkiri: Värvimuutujate loend
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![24 värvilisest ruudust koosnev ruudustik, millest igaüks on tähistatud erineva tähestiku tähega](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Valge
+b = (171, 171, 171) # Hall
+c = (0, 0, 0) # Must
+d = (25, 25, 113) # Tumesinine
+e = (0, 0, 255) # Puhas sinine
+f = (36, 128, 200) # Ookeanisinine
+g = (0, 204, 255) # Taevasinine
+h = (86, 255, 255) # Elektriline tsüaansinine
+j = (0, 255, 0) # Puhas roheline
+k = (46, 139, 33) # Leheroheline
+l = (57, 97, 17) # Oliivroheline
+m = (30, 65, 6) # Metsaroheline
+n = (126, 88, 25) # Maapruun
+o = (179, 96, 65) # Terrakotapruun
+p = (180, 34, 34) # Telliskivipunane
+q = (255, 0, 0) # Puhas punane
+r = (232, 118, 5) # Oranž
+s = (241, 231, 100) # Kahvatukollane
+t = (255, 255, 0) # Puhas kollane
+u = (255, 209, 209) # Kahvaturoosa
+v = (255, 177, 177) # Punakasroosa
+w = (249, 169, 255) # Heleroosa
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Lilla
 
 ```
 
@@ -99,12 +99,12 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 --- collapse ---
 
 ---
-title: Whale
+pealkiri: Vaal
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![8 x 8 ruuduga ruudustik, mis kujutab vaala.](images/whale.png)
 
-Created by Team Naicom, Italy
+Loonud Team Naicom, Itaalia
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+pealkiri: Sidrun
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Ruudustik 8 x 8 ruutudega, millel on kujutatud sidrun.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Loonud meeskond g4lemoni, Kreeka
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+pealkiri: Siga
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![8 x 8 ruuduga ruudustik, millel on kujutatud siga.](images/pig.png)
 
-Created by Gary, United Kingdom
+Loonud Gary, Ühendkuningriik
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+pealkiri: Torm
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![8 x 8 ruuduga ruudustik, mis kujutab tormipilve.](images/storm.png)
 
-Created by team hop2p023, Spain
+Loonud meeskond hop2p023, Hispaania
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+pealkiri: Part
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![8 x 8 ruuduga ruudustik, millel on kujutatud parti.](images/duck.png)
 
-Created by Peter, Ireland
+Loonud Peter, Iirimaa
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+pealkiri: Konn
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![8 x 8 ruuduga ruudustik, millel on kujutatud konna.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Loodud meeskond Jmeno, Tšehhi Vabariik
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+pealkiri: Õitepuu
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![8 x 8 ruuduga ruudustik, mis kujutab õitsvat puud.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Loonud meeskond Zssh14, Slovakkia
 
 ```python
 
