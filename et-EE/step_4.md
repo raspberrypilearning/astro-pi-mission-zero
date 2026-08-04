@@ -1,10 +1,10 @@
 ## Taju värvi
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+Selles etapis seadistate värvi- ja heleduseanduri. Selle anduri abil mõõdad andurile jõudva punase, rohelise ja sinise valguse hulka. Neid väärtusi kasutatakse seejärel teie valitud pildi ühe värvi muutmiseks.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+See tähendab, et pilt võib muutuda sõltuvalt sellest, mida andur näeb. Näiteks näeks sinist särki kandev astronaut pildist erinevat versiooni kui punast särki kandev astronaut.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Eelmises etapis kasutatud vaalapildil oli taustavärv must. RGB värvikoodi salvestamiseks kasutasime muutujat `c`:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Värvisensori abil saate ühte oma värvidest muuta.
 
-Underneath the lines where you define the colours, add the following code:
+Värvide defineerimise ridade alla lisa järgmine kood:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+See kood asendab `c` salvestatud RGB-väärtused sensori poolt tuvastatud värvi väärtustega.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Näpunäide: Kui sa ei kasutanud oma pildil muutujat `c` , asenda `c` ühe värvimuutujaga, mida sa kasutasid. See võimaldab anduril hoopis seda värvi muuta.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Nüüd oled pildi kuvanud, värvi tuvastanud ja oma programmis kasutanud ning sinu kood on esitamiseks valmis! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Saate oma programmi salvestada ja esitada koodiredaktori allosas oleva vormi abil.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Siiski võiksite oma projektile lisada rohkem pilte või animatsiooni abil ellu äratada. Järgmised sammud näitavad teile, kuidas seda teha.
 </p>
 
-## Animate your project (optional)
+## Animeeri oma projekti (valikuline)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Teie Mission Zero programm saab rahvusvahelises kosmosejaamas (ISS) töötada kuni 30 sekundit. Seda tööaega saab kasutada LED-maatriksil animatsiooni kuvamiseks, vahetades kahe või enama erineva pildi vahel.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Lisa** teine pilt kohe oma `sense.set_pixels(image)` koodirea alla. Anna sellele muutuja nimi `image2` ja muuda paar pikslit, et animatsiooniraam teistsugune välja näeks. Seejärel lisage sellele lühike paus.
 
 --- code ---
 ---
@@ -82,46 +82,68 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Koodifaili kõige lõpus sea oma `` tsükkel kordama `14` korda ja kuvama vaheldumisi `pilti` ja `pilti2` , tehes iga kaadri juures 1-sekundilise pausi.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Vihje:** Veendu, et vahemikus (14):</code> olevad koodiread `i jaoks vahemikus <code> on tühikuga taandatud, nii et need paikneksid <strong x-id="1">tsükliploki</strong> sees.</p>
 
---- code ---
----
-language: python filename: main.py line_numbers: false line_number_start: 1
-line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
----
-image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
+<p spaces-before="0">--- code ---</p>
 
-sleep(1)
+<hr />
 
-# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
-for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
+<p spaces-before="0">language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1</p>
 
-  # Display the first image sense.set_pixels(image) sleep(1)
+<h2 spaces-before="0">line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22</h2>
 
---- /code ---
+<p spaces-before="0">image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]</p>
 
---- /task ---
+<p spaces-before="0">sleep(1)</p>
 
---- task ---
+<h1 spaces-before="0">Loop 14 times (14 * 2 seconds = 28 seconds total animation)</h1>
 
-**Testi:** Käita oma kood uuesti. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+<p spaces-before="0">for i in range(14):
+  # Display the second image
+  sense.set_pixels(image2)
+  sleep(1)</p>
 
---- /task ---
+<p spaces-before="2"># Display the first image
+  sense.set_pixels(image)
+  sleep(1)</p>
+
+<p spaces-before="0">--- /code ---</p>
+
+<p spaces-before="0">--- /task ---</p>
+
+<p spaces-before="0">--- task ---</p>
+
+<p spaces-before="0"><strong x-id="1">Testi:</strong> Käita oma kood uuesti. Teie programm kuvab teie tuvastatud värvi koheselt ja seejärel tsüklib edasi-tagasi animeeritud kuvamiseks.</p>
+
+<p spaces-before="0">--- /task ---</p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Kui soovite oma animatsioonis kasutada rohkem kui kahte kaadrit, peate veenduma, et programm ei kesta kauem kui 30 sekundit. Näiteks kui teil on 10 pilti, millest igaüks kuvatakse 1 sekundi jooksul, peate oma `for`-tsüklit muutma nii, et see korduks 3 korda (10 * 3 = 30 sekundit).
 </p>
 
---- task ---
+<p spaces-before="0">--- task ---</p>
 
-**Check for errors**
+<p spaces-before="0"><strong x-id="1">Kontrolli vigu</strong></p>
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+<p spaces-before="0">Minu koodis on süntaksiviga või see ei jookse ootuspäraselt:</p>
+
+<ul>
+<li>Kontrolli, et sinu <code>for` tsükli kood vastaks näites olevale taandele.</li>
+- Veendu, et sa nimetasid oma teise pildimaatriksi `pilt2` ja et see asetseks tsükli algusest väljapoole ja enne seda.
+- Kontrolli, et sinu `une-` ajad oleksid seatud täpselt `1` sekundile, et vältida ISS-i range 30-sekundilise täitmisaja ületamist.</ul>
 
 --- /task ---
 
@@ -137,7 +159,7 @@ Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna
 
 --- collapse ---
 ---
-title: Completed Whale code example
+pealkiri: Valmis vaala koodi näide
 ---
 
 --- code ---
@@ -170,7 +192,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+pealkiri: Valmis vaala koodi näide (animatsiooniga)
 ---
 
 --- code ---
