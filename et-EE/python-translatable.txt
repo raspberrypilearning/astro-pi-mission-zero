@@ -1,5 +1,5 @@
 pilt
 
-image2
+pilt2
 
 rgb
