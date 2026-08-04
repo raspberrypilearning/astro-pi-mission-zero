@@ -12,68 +12,68 @@ Lisa värvi muutujad ja pilt
 
 Kuva pilt
 
-Sense a colour
+Tunneta värvi
 
 saa värv andurilt
 
 kasuta anduriga määratud värvi
 
-Extra images / frames go here:
+Lisapildid/raamid tulevad siia:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Tsükelda 14 korda (14 * 2 sekundit = 28 sekundit animatsiooni kokku)
 
-# Display the second image
+# Kuva teine pilt
 
-# Display the first image
+# Kuva esimene pilt
 
-# BASIC SUBMISSION is done by now
+# PÕHILISE ESITAMISE NR on nüüdseks tehtud
 
 Valge
 
-Grey
+Hall
 
 Must
 
-Navy Blue
+Tumesinine
 
-Pure Blue
+Puhas sinine
 
-Ocean Blue
+Ookeani sinine
 
-Sky Blue
+Taevasinine
 
-Electric Cyan
+Elektriline tsüaan
 
-Pure Green
+Puhas roheline
 
-Leaf Green
+Lehtroheline
 
-Olive Green
+Oliivroheline
 
-Forest Green
+Metsaroheline
 
-Earth Brown
+Maapruun
 
-Terracotta Brown
+Terrakotapruun
 
-Brick Red
+Telliskivipunane
 
-Pure Red
+Puhas punane
 
-Orange
+Oranž
 
-Pale Yellow
+Kahvatukollane
 
-Pure Yellow
+Puhas kollane
 
-Pale Pink
+Kahvaturoosa
 
-Blush Pink
+Põsepuna roosa
 
-Light Pink
+Heleroosa
 
-Magenta
+Fuksia
 
-Purple
+Lilla
 
 
