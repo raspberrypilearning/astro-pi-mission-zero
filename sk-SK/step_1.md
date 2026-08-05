@@ -1,12 +1,12 @@
 ## Čo urobíš
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Naprogramuješ počítač Astro Pi tak, aby zobrazoval farebný obrázok. Keď tvoj program úspešne prejde oficiálnymi kontrolami kódu, bude spustený na počítači Astro Pi na Medzinárodnej vesmírnej stanici (ISS), aby ho astronauti mohli sledovať pri plnení svojich každodenných úloh.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+V tomto projekte sa dozvieš o počítači Astro Pi a o tom, ako ho ovládať. Tvojou úlohou bude:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Navrhnúť a zobraziť obrázok na počítači Astro Pi
++ Pomocou senzora zistiť farbu a jasu svetla na palube ISS a zmeniť obrázok
++ Vytvoriť jednoduchú animáciu (voliteľné)
 
 Tu je príklad typu programu, ktorý by sa mohol spustiť na Astro Pi vo vesmíre.
 
@@ -14,7 +14,7 @@ Tu je príklad typu programu, ktorý by sa mohol spustiť na Astro Pi vo vesmír
 
 ### Budeš potrebovať
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Svoj program napíšeš a otestuješ vo webovom prehliadači, ako je napríklad Google Chrome. Nepotrebuješ skutočný počítač Astro Pi.
 
 ### Kritériá pre Astro Pi Mission Zero
 
