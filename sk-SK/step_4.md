@@ -1,10 +1,10 @@
 ## Nasnímanie farby
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+V tomto kroku nastavíš senzor farieb a jasu. Tento senzor použiješ na odmeranie množstva červeného, zeleného a modrého svetla dopadajúceho na senzor. Tieto hodnoty sa potom použijú na zmenu jednej z farieb v tvojom obrázku.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+To znamená, že obrázok sa môže meniť v závislosti od hodnôt odmeraných senzorom. Napríklad astronaut v modrej košeli by videl inú verziu obrázka ako astronaut v červenej košeli.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Na obrázku veľryby, ktorý sme použili v predchádzajúcom kroku, bola farba pozadia čierna. Na uloženie jej RGB farebného kódu sme použili premennú `c`:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Pomocou senzora farieb zmeň jednu z farieb.
 
-Underneath the lines where you define the colours, add the following code:
+Pod riadky, kde definuješ farby, pridaj tento kód:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Tento kód nahradí hodnoty RGB uložené v `c` hodnotami farby zistenej senzorom.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Tip: Ak vo svojom obrázku nemáš použitú premennú `c`, nahraď `c` jednou z premenných farieb, ktoré si použil/-a. To umožní senzoru zmeniť túto farbu.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Teraz s zobrazil/-a obrázok, zistil/-a farbu a použil/-a ju vo svojom programe a tvoj kód je pripravený na odoslanie! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Program môžeš uložiť a odoslať pomocou formulára v dolnej časti editora kódu.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Možno však budeš chcieť do svojho projektu pridať viac obrázkov alebo ho oživiť animáciou. Nasledujúce kroky ti ukážu, ako to urobiť.
 </p>
 
-## Animate your project (optional)
+## Animuj svoj projekt (voliteľné)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Tvoj program Mission Zero môže byť na Medzinárodnej vesmírnej stanici (ISS) spustený až 30 sekúnd. Tento čas spustenia môžeš využiť na zobrazenie animácie na LED matrici prepínaním medzi dvoma alebo viacerými rôznymi obrázkami.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Pridaj** druhý obrázok hneď pod riadok kódu `sense.set_pixels(image)`. Daj mu názov premennej `image2` a zmeň niekoľko pixelov, aby tvoja animačná snímka vyzerala inak. Potom za ním pridaj krátku pauzu.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Úplne na konci súboru s kódom nastavte slučku `for` tak, aby sa opakovala `14` krát a striedavo zobrazovala `image` a `image2` s 1-sekundovou pauzou na každej snímke.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Tip:** Uisti sa, že riadky kódu pod `for i in range(14):` sú odsadené medzerou, aby sa nachádzali **vnútri** bloku slučky.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Znova spusti kód. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Test:** Znova spusti kód. Tvoj program okamžite zobrazí nasnímanú farbu a potom sa bude v slučke prepínať tam a späť pre animované zobrazenie.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Ak chceš mať v animácii viac ako dve snímky, musíš dbať na to, aby program nebežal dlhšie ako 30 sekúnd. Ak máš napríklad 10 obrázkov, ktoré sa zobrazujú 1 sekundu, musíš zmeniť slučku ‚for‘ tak, aby sa opakovala 3-krát (10 x 3 = 30 sekúnd)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Kontrola chýb**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Môj kód má chybu syntaxe alebo nemení snímky:
+- Skontroluj, či tvoj kód slučky `for` zodpovedá odsadeniu v príklade.
+- Uisti sa, že druhá matica obrázka má názov `image2` a že sa nachádza mimo a pred začiatkom slučky.
+- Skontroluj, či sú tvoje časy `sleep` nastavené presne na `1` sekundu, aby sa predišlo prekročeniu prísneho 30-sekundového limitu pre spustenie na ISS.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Svoj program si môžeš uložiť do projektu Mission Starter zadaním názvu t�
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Príklad hotového kódu veľryby
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Príklad hotového kódu veľryby (s animáciou)
 ---
 
 --- code ---
