@@ -1,15 +1,13 @@
 ## Ce este Astro Pi?
 
-Astro Pi este un calculator Raspberry Pi încapsulat într-o carcasă special concepută pentru condițiile din spațiu.
+Un Astro Pi este un computer Raspberry Pi care a fost special conceput pentru a lucra în spațiu.
 
 ![Imagine animată a unui Sense HAT atașat la partea superioară a unui computer Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Calculatoarele Astro Pi vin cu un set de senzori și gadget-uri care pot fi folosite pentru a face experimente științifice remarcabile. Acest set de senzori se numește „Sense HAT” (care reprezintă „Hardware-ul atașat în partea de sus”). Sense HAT îi conferă Astro Pi capacitatea de a „simți” și de a efectua multe măsurători, de la temperatură la mişcare şi la informaţii de ieşire utilizând o matrice de 8 x 8 LED. Astro Pi-urile au de asemenea un joystick și butoane, exact ca o consolă de jocuri video!
+Calculatoarele Astro Pi au un set de senzori numiți „Sense HAT” pe care tinerii îl pot folosi pentru a efectua experimente științifice. Un senzor este ceva ce poate detecta sau măsura ce se întâmplă în jurul lui. Senzorii de pe Sense Hat pot măsura lucruri precum culoarea și luminozitatea obiectelor din fața sa. Sense Hat include și o matrice LED de 8 x 8 care poate afișa imagini și informații simple.
 
-![Imaginea animată a unui Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+O <span style="color: #0faeb0">**matrice LED**</span> este o rețea de LED-uri (diode emițătoare de lumină) care poate fi controlată individual sau în grup pentru a crea diferite efecte de iluminat. Matricea LED de pe Sense HAT are 64 de LED-uri afișate într-o grilă de 8 x 8. LED-urile pot fi programate pentru a produce o gamă largă de culori.
+</p>
 
-Pentru această misiune, vei folosi emulatorul Sense HAT care simulează funcțiile principale ale Astro Pi în browser-ul tău.
-
-
-
-
+![o imagine artistică de 8x8 pixeli a unei balene](images/whaleblank.png)

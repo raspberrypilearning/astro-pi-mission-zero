@@ -1,5 +1,5 @@
 kep
 
-rgb
+kep2
 
-szivarvany
+rgb

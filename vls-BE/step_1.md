@@ -1,6 +1,12 @@
 ## Je zal het volgende maken
 
-Jouw project zal de achtergrondkleur van een afbeelding veranderen naar de kleur die de Astro Pi detecteert. Dit zal het internationaal ruimtestation (ISS) kleurrijker maken voor de astronauten aan boord. Je code zal de kleurintensiteitssensor op de Sense HAT van de Mark II Astro Pi computer daarvoor gebruiken.
+Je zal een Astro Pi computer programmeren om een kleurrijke afbeelding te laten zien. Als je programma voldoet aan de officiële codeercontroles, zal het werken op een Astro Pi computer in het internationaal ruimtestation (ISS) zodat de astronauten het kunnen zien terwijl ze hun dagelijkse taken uitvoeren.
+
+In dit project zal je dingen leren over de Astro Pi computer en hoe je ermee moet werken. Je zal:
+
++ Een pixel art afbeelding op een Astro Pi computer ontwerpen en tonen
++ Een sensor gebruiken om de kleur en helderheid van licht aan boord van het ISS te bepalen en de afbeelding te veranderen
++ Een eenvoudige animatie maken (optioneel)
 
 Hier is een voorbeeld van het soort programma dat je zou kunnen maken op op een Astro Pi in de ruimte te laten werken.
 
@@ -8,25 +14,20 @@ Hier is een voorbeeld van het soort programma dat je zou kunnen maken op op een 
 
 ### Wat je nodig hebt
 
-Je zal de Astro Pi emulator in een webbrowser gebruiken om je programma te maken. Je hebt geen Astro Pi-computer nodig.
+Je zal je programma schrijven en testen in een webbrowser zoals Google Chrome. Je hebt geen echte Astro Pi computer nodig.
 
 ### Criteria voor de Astro Pi Mission Zero
 
-**Als je project voldoet aan de [toelatingscriteria](https://astro-pi.org/vls/mission-zero/eligibility){:target="_blank"}**, zal je afgewerkt programma werken op het Internationaal Ruimtestation! Je zal ook een speciaal certificaat ontvangen waarop staat waar het ISS zich juist bevond op het moment dat jouw programma werkte.
-
-Je komt vanalles te weten over de Astro Pi computer en hoe je ermee moet werken en ook hoe:
-+ Kleur **variabelen** kan maken om te gebruiken in je afbeelding
-+ Ontwerp en toon een pixel art afbeelding op de Sense HAT
-+ Meet de kleur van het licht aan boord van het ISS
+Elk project dat voldoet aan de [regels](https://astro-pi.org/mission-zero/eligibility) {:target="_blank"} zal een 'vluchtstatus' krijgen om te werken op het internationaal ruimtestation! Als je slaagt zal je ook een speciaal certificaat krijgen dat exact laat zien waar het ISS zich bevond toen jouw programma in de ruimte getoond werd.
 
 --- collapse ---
 ---
 title: Opmerkingen voor begeleiders
 ---
 
-Mission Zero is geschikt voor beginnende programmeurs en/of kinderen van lagere school-leeftijd en kunnen afgewerkt worden in één enkele sessie van 60 minuten op eender welke computer met internettoegang. Er is geen speciale hardware of voorgaande codeerkennis nodig. Alles kan in een webbrowser uitgevoerd worden.
+Mission Zero is geschikt voor mensen die starten met programmeren en wordt aanbevolen voor jongeren tussen 9 en 16 jaar. Het kan afgewerkt worden in 1 sessie van 60 minuten op elke computer met internettoegang. Er is geen speciale hardware of voorgaande codeerkennis nodig. Alles kan in een webbrowser uitgevoerd worden.
 
-Verdeel je jongeren in teams van 1 tot 4 en laat ons hen begeleiden bij het schrijven van een kort Python-programma om de kleur aan boord van het ISS te meten en een afbeelding te maken met die kleur.
+ Mission Zero kan individueel uitgevoerd worden of in teams tot 4 mensen.
 
 Lees de [officiele richtlijnen](https://astro-pi.org/vls/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
 

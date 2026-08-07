@@ -12,38 +12,68 @@ Agregar variables de color e imagen
 
 Mostrar la imagen
 
-Negro
-
-Blanco
-
-Naranja oscuro
-
-Gris oscuro
-
-Verde amarillo
-
-Amarillo
-
-Naranja oscuro
-
-Azul medianoche
-
-Verde bosque
-
-Azul Aciano
-
-Rojo
-
-Verde Primavera
-
-Azul medio
-
-Gris apagado
-
-Orquídea Oscuro
+Percibir un color
 
 obtener el color del sensor
 
 usar el color detectado
 
-elige tus propios valores de rojo, verde y azul entre 0 y 255
+Aquí se incluyen imágenes/marcos adicionales:
+
+Bucle 14 veces (14 * 2 segundos = 28 segundos total de animación)
+
+# Mostrar la segunda imagen
+
+# Mostrar la primera imagen
+
+# La SUBMISIÓN BÁSICA ya está hecha
+
+Blanco
+
+Gris
+
+Negro
+
+Azul Marino
+
+Azul puro
+
+Azul océano
+
+Azul cielo
+
+Cian eléctrico
+
+Verde puro
+
+Verde hoja
+
+Verde oliva
+
+Verde bosque
+
+Marrón tierra
+
+Marrón terracota
+
+Rojo ladrillo
+
+Rojo puro
+
+Naranja
+
+Amarillo pálido
+
+Amarillo puro
+
+Rosa pálido
+
+Rosa rubor
+
+Rosa claro
+
+Magenta
+
+Violeta
+
+

@@ -2,7 +2,7 @@
 
 Nu när du har slutfört ditt uppdrag, varför inte testa några fler projekt med hjälp av de andra sensorerna på Astro Pi?
 
-Om du känner dig självsäker kan du delta i Mission Space Lab. Bilda ett team på två till sex personer och arbeta tillsammans för att svara på en riktig vetenskaplig fråga. Alla lag som skickar in ett kvalificerat program kommer att bjudas in till en virtuell Q&A med en ESA-astronaut i slutet av Astro Pi Challenge-cykeln.
+Om du känner dig självsäker kan du delta i Mission Space Lab. Bilda ett team på två till sex personer och arbeta tillsammans för att svara på en riktig vetenskaplig fråga. Alla lag som skickar in ett kvalificerat program kommer att bjudas in till en virtuell Q&A med en expert på bemannade rymdfärder från ESA i slutet av den europeiska Astro Pi-utmaningen.
 
 Alternativt kanske du vill testa något av våra andra Sense HAT-projekt:
 
@@ -15,9 +15,3 @@ Alternativt kanske du vill testa något av våra andra Sense HAT-projekt:
 + Utmana dina vänner med ett [marmorlabyrint](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}-spel
 
 + Återskapa det klassiska spelet [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
-
-***
-
-Detta projekt översattes av frivilliga.
-
-Tack vare frivilliga kan vi ge människor runt om i världen möjligheten att lära på sitt eget språk. Du kan hjälpa oss att nå ut till fler personer genom att bli frivillig översättare - läs mer på [rpf.io/translate](https://rpf.io/translate).

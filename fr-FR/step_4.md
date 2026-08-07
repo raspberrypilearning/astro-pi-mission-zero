@@ -1,51 +1,48 @@
 ## Détecter une couleur
 
-Dans cette étape, tu vas configurer le capteur de luminosité des couleurs et l'utiliser pour détecter la quantité de rouge, de vert et de bleu qui atteint le capteur. Cette couleur sera ensuite utilisée pour coloriser ton image. Un·e astronaute s'approchant du capteur en chemise bleue verrait une image différente de celle d'un·e astronaute en chemise rouge.
+Dans cette étape, tu configureras le capteur de couleur et de luminosité. Tu utiliseras ce capteur pour mesurer la quantité de lumière rouge, verte et bleue qui l'atteint. Ces valeurs seront ensuite utilisées pour modifier l'une des couleurs de l'image que tu as choisie.
 
-![image affichée avec un arrière-plan rose sur la matrice LED](images/colour_background.png)
+Cela signifie que l'image peut changer en fonction de ce que voit le capteur. Par exemple, un astronaute portant un t-shirt bleu verrait une version différente de l'image d'un astronaute portant un t-shirt rouge.
 
-Quelle que soit l'image choisie, l'arrière-plan utilise la variable `c` qui est définie sur le noir.
-
---- task ---
-
-Utilise le capteur de couleurs pour coloriser ton arrière-plan.
-
-Ajoute du code avant ta liste d'images pour obtenir la couleur du capteur et modifie ta variable de couleur d'arrière-plan `c` pour utiliser la couleur détectée par le capteur de couleur Sense HAT au lieu du noir.
-
-**Astuce :** tu n'as pas besoin de taper les commentaires qui commencent par « # » (ils sont là pour expliquer le code).
+Sur l'image de baleine utilisée à l'étape précédente, la couleur d'arrière-plan était noire. Nous avons utilisé la variable `c` pour stocker son code couleur RVB :
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights: 9, 10
 ---
-# Ajouter des variables de couleur et une image
+c = (0, 0, 0)
 
-z = (153, 50, 204) # Orchideefoncee
-q = (255, 255, 0) # Jaune
-d = (51, 153, 255) # bleu
-c = (0, 0, 0) # Noir
+--- /code ---
 
-rgb = sense.color # get the colour from the sensor
-c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
 
-image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+--- task ---
 
+Utilise le capteur de couleur pour changer l'une de tes couleurs.
+
+Sous les lignes où tu définis les couleurs, ajoute le code suivant :
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 3, 4
+---
+# Détecter une couleur
+rgb = sense.color # obtenir la couleur du capteur
+c = (rgb.red, rgb.green, rgb.blue) # utiliser la couleur détectée
 
 --- /code ---
 
 --- /task ---
+
+Ce code remplace les valeurs RVB stockées dans `c` par les valeurs de la couleur détectée par le capteur.
+
+Astuce : si tu n'as pas utilisé la variable `c` dans ton image, remplace `c` par une des variables de couleurs que tu as utilisées. Cela permettra au capteur de changer cette couleur à la place.
 
 --- task ---
 
@@ -55,20 +52,22 @@ image = [
 
 --- /task ---
 
-## Faire tourner ton programme en boucle
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Bravo ! Tu as affiché une image, détecté une couleur et utilisé cette couleur dans ton programme. Ton code est maintenant prêt à être envoyé ! 
 
-Le programme Mission Zero de l'Astro Pi peut être exécuté pendant 30 secondes maximum. Tu utiliseras ce temps pour vérifier à plusieurs reprises le capteur de couleurs et actualiser l'image.
+Tu peux enregistrer et soumettre ton programme en utilisant le formulaire situé en bas du Code Editor.
+  
+Tu peux aussi ajouter d'autres images à ton projet ou lui donner vie grâce à des animations. Tu découvriras comment faire dans les étapes suivantes.
+</p>
 
-Ton code utilisera une boucle `for` pour s'exécuter 28 fois. À chaque **fois**, il va :
-+ détecter la dernière couleur
-+ mettre à jour la couleur d'arrière-plan de l'image
-+ faire une pause d'une seconde
+## Animer ton projet (facultatif)
+
+Ton programme Mission Zero peut s'exécuter à bord de la Station spatiale internationale (ISS) pendant 30 secondes maximum. Tu peux profiter de ce temps d'exécution pour créer une animation sur la matrice LED en faisant défiler deux images différentes ou plus.
 
 --- task ---
 
-**Trouve** ta ligne de code rvb = sense.color`.
 
-**Ajoute** du code juste au-dessus pour configurer ta boucle `for` pour `28` répétitions.
+**Ajoute** une deuxième image juste en dessous de ta ligne de code `sense.set_pixels(image)`. Donne-lui le nom de variable `image2` et modifie quelques pixels pour que ton image d'animation soit différente. Ajoute ensuite une courte pause.
 
 --- code ---
 ---
@@ -76,33 +75,41 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
-
-for i in range(28):
-rvb = sense.color # obtenir la couleur du capteur
-c = (rvb.red, rvb.green, rvb.blue)
-
 image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  
+sense.set_pixels(image)
+
+# Images/frames supplémentaires à insérer ici :
+
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Tu dois maintenant indenter tout ton code sous la boucle `for` pour qu'il se trouve **à l'intérieur** de la boucle `for`.
+Tout en bas de ton fichier de code, crée ta boucle `for` pour qu'elle se répète `14` fois et alterne l'affichage de `image` et `image2`, en faisant une pause d'une seconde entre chaque image.
 
-**Astuce :** pour indenter plusieurs lignes, mets en surbrillance les lignes que tu souhaites indenter puis appuie sur la touche <kbd>Tab</kbd> de ton clavier (généralement au-dessus de la touche <kbd>Verr Maj</kbd> du clavier).
+**Astuce :** vérifie que les lignes de code sous `for i in range(14):` sont indentées avec un espace afin qu'elles se trouvent **à l'intérieur** du bloc de la boucle.
 
 --- code ---
 ---
@@ -110,103 +117,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-for i in range(28):
-  rvb = sense.color # obtenir la couleur du capteur
-  c = (rvb.red, rvb.green, rvb.blue)
+sleep(1)
 
-  image = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+# Répéter 14 fois (14 * 2 secondes = 28 secondes d'animation au total)
+for i in range(14):
+  # Afficher la deuxième image
+  sense.set_pixels(image2)
+  sleep(1)
 
-    
-  # Afficher l'image
-
+  # Afficher la première image
   sense.set_pixels(image)
- 
---- /code ---
-
---- /task ---
-
---- task ---
-
-Au bas de ton code, ajoute un `sleep` d'une seconde à l'intérieur de ta boucle :
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 5
----
-  
-  # Afficher l'image
-
-  sense.set_pixels(image)
-  sleep(1)  
-  
---- /code ---
-
-**Astuce :** assure-toi que cette ligne de code est indentée dans ta boucle `for`.
-
---- /task ---
-
---- task ---
-
-**Test :** exécute ton code et modifie le sélecteur de couleur plusieurs fois lorsque ton projet est en cours d'exécution. Vérifie que ton image s'actualise pour utiliser la couleur détectée lors de sa prochaine exécution.
-
-L'image cessera de s'actualiser lorsque la boucle se terminera afin que le programme ne dure pas plus de 30 secondes.
-
---- /task ---
-
---- task ---
-
-**Déboguer**
-
-Mon code a une erreur de syntaxe ou ne s'exécute pas comme prévu :
-
-- Vérifie que ton code correspond au code des exemples ci-dessus
-- Vérifie que tu as indenté le code dans ta boucle `for`
-- Vérifie que ta liste est entourée de `[` et `]`
-- Vérifie que chaque variable de couleur de la liste est séparée par une virgule
-
-Mon code s'exécute pendant plus de 30 secondes :
-
-- Diminue le nombre de fois où ta boucle « for » s'exécute, de 28 à 25 ou même 20.
-- Diminue la durée du « sleep », de 1 seconde à 0,5 seconde.
-
---- /task ---
-
---- task ---
-
-Ajoute `sense.clear()` à la fin de ton code pour effacer l'image à la fin de ta boucle. Cela t'aidera à voir quand ton animation a fini de fonctionner.
-
-**Astuce :** assure-toi de **ne pas** indenter la ligne de code `sense.clear()` car tu veux que cela ne s'exécute qu'une fois à la fin de ton animation.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7
----
-  
-  # Afficher l'image
-
-  sense.set_pixels(image)
-  sleep(1) 
-  
-sense.clear()
+  sleep(1)
   
 --- /code ---
 
@@ -214,77 +147,39 @@ sense.clear()
 
 --- task ---
 
-**Test :** exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED est effacée, ce qui fait que toutes les lumières deviennent noires (éteintes).
+**Test :** exécute à nouveau ton code. Ton programme affichera instantanément la couleur détectée, puis alternera entre les deux images pour créer une animation.
+
+--- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Si tu veux ajouter plus de deux images à ton animation, vérifie que la durée d'exécution de ton programme ne dépasse pas 30 secondes. Par exemple, si tu as 10 images qui s'affichent chacune pendant 1 seconde, tu dois modifier ta boucle for pour qu'elle se répète 3 fois (10 × 3 = 30 secondes)
+</p>
+
+--- task ---
+
+**Vérifier les erreurs**
+
+Mon code contient une erreur de syntaxe ou ne change pas d'image :
+- Vérifie que ton code de boucle `for` correspond à l'indentation de l'exemple.
+- Vérifie que tu as bien nommé ta deuxième matrice d'image `image2` et qu'elle est placée en dehors de la boucle, avant le début de celle-ci.
+- Vérifie que tes temps d'attente `sleep` sont réglés exactement sur `1` seconde afin d'éviter de dépasser la limite stricte d'exécution de 30 secondes à bord de l'ISS.
 
 --- /task ---
 
 --- task ---
 
-**Déboguer**
-
-La matrice LED devient noire toutes les secondes :
-
-- Vérifie que tu n'as pas indenté le code `sense.clear()` dans ta boucle `for`
-
---- /task ---
-
---- task ---
-
-Ajoute du code pour effacer la matrice de LED par une couleur de ton choix. Crée une variable appelée `x` pour stocker ta nouvelle couleur.
-
-Tu peux mélanger ta propre couleur ou utiliser les valeurs de la liste de couleurs pour créer ta nouvelle couleur `x`.
-
-[[[generic-theory-simple-colours]]]
-[[[ambient-colours]]]
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7, 8
----
-  
-  # Afficher l'image
-
-  sense.set_pixels(image)
-  sleep(1) 
-
-x = (178, 34, 34)  # choisis tes propres valeurs de rouge, vert et bleu entre 0 et 255
-sense.clear(x)
-  
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test :** exécute à nouveau ton code. Lorsque ton projet est terminé, la matrice LED s'efface et utilise la couleur que tu as choisie. Tu peux changer puis tester la couleur autant de fois que tu le souhaites.
-
---- /task ---
-
-
---- task ---
-
-**Enregistre ta progression**
+**Enregistrer ta progression**
 
 Tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, le nom des membres de ton équipe et le code de classe qui t'est donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
 
-![Capture d'écran du bouton Enregistrer Mission Zero](images/savebutton_fr.png)
-
 --- /task ---
-
 
 --- task ---
 
 --- collapse ---
-
 ---
-title: Exemple de code terminé
+title: Exemple de code complet pour une baleine
 ---
-
-![Une grille de 8 x 8 cases représentant un poisson.](images/fish.png)
 
 --- code ---
 ---
@@ -292,48 +187,114 @@ language: python
 filename: main.py
 line_numbers: false
 ---
-# Import the libraries
+# Importer les bibliothèques
 from sense_hat import SenseHat
 from time import sleep
 
-# Set up the Sense HAT
+# Configurer le Sense HAT
 sense = SenseHat()
 sense.set_rotation(270)
 
-# Set up the colour sensor
+# Configurer le capteur de couleurs
 sense.color.gain = 60 # Régler la sensibilité du capteur
 sense.color.integration_cycles = 64 # L'intervalle auquel la lecture sera effectuée
 
-# Add colour variables and image
+# Ajouter des variables de couleur et une image
+a = (255, 255, 255) # Blanc
+c = (0, 0, 0)       # Noir
+f = (36, 128, 200)  # Bleu océan
+g = (0, 204, 255)   # Bleu ciel
 
-z = (153, 50, 204) # Orchideefoncee
-q = (255, 255, 0) # Jaune
-d = (51, 153, 255) # bleu
-c = (0, 0, 0) # Noir
+# Détecter une couleur
+rgb = sense.color # obtenir la couleur du capteur
+c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28):
-  rvb = sense.color # obtenir la couleur du capteur
-  c = (rvb.red, rvb.green, rvb.blue)
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  image = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+sense.set_pixels(image)
 
+--- /code ---
 
-  # Afficher l'image
+--- /collapse ---
 
-  sense.set_pixels(image)
+--- collapse ---
+---
+title: Exemple de code complet pour une baleine (avec animation)
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Importer les bibliothèques
+from sense_hat import SenseHat
+from time import sleep
+
+# Configurer le Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Configurer le capteur de couleurs
+sense.color.gain = 60 # Régler la sensibilité du capteur
+sense.color.integration_cycles = 64 # L'intervalle auquel la lecture sera effectuée
+
+# Ajouter des variables de couleur et une image
+a = (255, 255, 255) # Blanc
+c = (0, 0, 0)       # Noir
+f = (36, 128, 200)  # Bleu océan
+g = (0, 204, 255)   # Bleu ciel
+
+# Détecter une couleur
+rgb = sense.color # obtenir la couleur du capteur
+c = (rgb.red, rgb.green, rgb.blue)
+
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(image)
+
+# LA SOUMISSION DE BASE est terminée
+
+# Images/frames supplémentaires à insérer ici :
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sleep(1)
+
+# Répéter 14 fois (14 * 2 secondes = 28 secondes d'animation au total)
+for i in range(14):
+  # Afficher la deuxième image
+  sense.set_pixels(image2)
   sleep(1)
 
-x = (178, 34, 34)  # choisis tes propres valeurs de rouge, vert et bleu entre 0 et 255
-sense.clear(x)
-
+  # Afficher la première image
+  sense.set_pixels(image)
+  sleep(1)
+  
 --- /code ---
 
 --- /collapse ---

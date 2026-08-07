@@ -6,44 +6,74 @@ Installeer de kleursensor
 
 Stel de gevoeligheid van de sensor in
 
-Het interval waarin het uitlezen gebeurt
+Het interval waarin het uitlezen zal gebeuren
 
 Voeg kleurvariabelen en beeld toe
 
 Toon de afbeelding
 
-Zwart
-
-Wit
-
-Donkeroranje
-
-Donkergrijs
-
-Geelgroen
-
-Geel
-
-Donkeroranje
-
-Middernachtblauw
-
-Bosgroen
-
-Korenbloemblauw
-
-Rood
-
-Lentegroen
-
-Middenblauw
-
-Vaalgrijs
-
-Donkerorchidee
+Meet een kleur
 
 ontvang de kleur van de sensor
 
 gebruik de waargenomen kleur
 
-kies je eigen rood-, groen-, blauw-waardes tussen 0 - 255
+Extra afbeeldingen/frames kunnen hier worden geplaatst:
+
+Herhaal 14 keer (14 * 2 seconden = 28 seconden totale animatie)
+
+# Toon de tweede afbeelding
+
+# Toon de eerste afbeelding
+
+# BASIS INDIENEN is nu klaar
+
+Wit
+
+Grijs
+
+Zwart
+
+Marineblauw
+
+Puur blauw
+
+Oceaanblauw
+
+Hemelsblauw
+
+Electrische cyaan
+
+Puur groen
+
+Bladgroen
+
+Olijfgroen
+
+Bosgroen
+
+Aardebruin
+
+Terracotta bruin
+
+Baksteenrood
+
+Puur rood
+
+Oranje
+
+Lichtgeel
+
+Puur geel
+
+Bleek roze
+
+Blush roze
+
+Lichtroze
+
+Magenta
+
+Paars
+
+

@@ -7,14 +7,19 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - title: Θα φτιάξεις
-  - title: Τι είναι το Astro Pi;
-  - title: Εμφάνιση εικόνας
+  - 
+    title: Θα φτιάξεις
+  - 
+    title: Τι είναι το Astro Pi;
+  - 
+    title: Εμφάνιση εικόνας
     completion:
       - engaged
-  - title: Ανίχνευση ενός χρώματος
+  - 
+    title: Ανίχνευση ενός χρώματος
     completion:
       - internal
-  - title: Τι ακολουθεί — περισσότερα έργα Astro Pi
+  - 
+    title: Τι ακολουθεί — περισσότερα έργα Astro Pi
     completion:
       - external

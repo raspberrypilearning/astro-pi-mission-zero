@@ -7,14 +7,19 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - title: Du kommer til å lage
-  - title: Hva er en Astro Pi?
-  - title: Vise et bilde
+  - 
+    title: Du kommer til å lage
+  - 
+    title: Hva er en Astro Pi?
+  - 
+    title: Vise et bilde
     completion:
       - engaged
-  - title: Sanse en farge
+  - 
+    title: Sanse en farge
     completion:
       - internal
-  - title: Hva skjer videre – flere Astro Pi-prosjekter
+  - 
+    title: Hva skjer videre – flere Astro Pi-prosjekter
     completion:
       - external

@@ -15,11 +15,3 @@ Alternativamente, puedes intentar uno de los otros proyectos Sense HAT:
 + Desafía a tus amigos con un juego [laberinto de mármol](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
 + Recrea el clásico juego de [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
-
-***
-
-Este proyecto fue traducido por voluntarios:
-
-Laura Lurati
-
-Gracias a los voluntarios, podemos dar a las personas de todo el mundo la oportunidad de aprender en su propio idioma. Puede ayudarnos a llegar a más personas ofreciéndose como voluntario para traducir; más información en [rpf.io/translate](https://rpf.io/translate).

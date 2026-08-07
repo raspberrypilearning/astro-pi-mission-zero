@@ -1,15 +1,13 @@
 ## Qu'est-ce qu'un Astro Pi ?
 
-Un Astro Pi est un ordinateur Raspberry Pi intégré dans un boîtier spécialement conçu pour les conditions spatiales.
+Un Astro Pi est un ordinateur Raspberry Pi spécialement conçu pour fonctionner dans l'espace.
 
 ![Image animée d'un Sense HAT fixé au-dessus d'un ordinateur Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Les ordinateurs Astro Pi sont livrés avec un ensemble de capteurs et de gadgets qui peuvent être utilisés pour réaliser de grandes expériences scientifiques. Cet ensemble de capteurs est appelé « Sense HAT » (qui signifie « Hardware Attached on Top »). Le Sense HAT permet à l'Astro Pi de « détecter » et d'effectuer de nombreux types de mesures, de la température au mouvement, et de fournir des informations à l'aide d'un écran matriciel à LED 8 x 8. Les Astro Pi disposent également d'un joystick et de boutons, comme une console de jeu vidéo !
+Les ordinateurs Astro Pi sont équipés d'un ensemble de capteurs appelé « Sense HAT », que les jeunes peuvent utiliser pour réaliser des expériences scientifiques. Un capteur est un dispositif capable de détecter ou de mesurer ce qui se passe autour de lui. Les capteurs du Sense Hat peuvent mesurer des éléments tels que la couleur et la luminosité des objets situés devant lui. Le Sense Hat comprend également une matrice LED 8 x 8 capable d'afficher des images et des informations simples.
 
-![Image animée d'un Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Une <span style="color: #0faeb0">**matrice de LED**</span> est une grille de LED (diodes électroluminescentes) qui peuvent être contrôlées individuellement ou en groupe pour créer différents effets lumineux. La matrice LED du Sense HAT comporte 64 LED affichées dans une grille de 8 x 8. Les LED peuvent être programmées pour produire une large gamme de couleurs.
+</p>
 
-Pour cette mission, tu utiliseras l'émulateur Sense HAT. Cet émulateur simule les principales fonctions de l'Astro Pi dans ton navigateur web.
-
-
-
-
+![un pixel art de 8x8 pixels d'une baleine](images/whaleblank.png)

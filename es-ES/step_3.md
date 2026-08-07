@@ -1,16 +1,22 @@
 ## Muestra una imagen
 
-La matriz LED del Astro Pi puede mostrar colores. En este paso, mostrarás imágenes de la naturaleza en la matriz LED de Astro Pi.
+La imagen que muestre estará hecha de 64 cuadrados coloreados llamados **píxeles**. Los píxeles están dispuestos en una cuadrícula de 8 x 8. Cada píxel puede ser de un color diferente. Si eliges los colores con cuidado, puedes crear una imagen. Aquí tienes un ejemplo de una ballena creada con diferentes tonalidades de azul sobre un fondo negro.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de LEDs que se puede controlar individualmente o en grupo para crear diferentes efectos de iluminación. La matriz de LEDs del Sense HAT tiene 64 LEDs que se muestran en una cuadrícula de 8 x 8. Los LED se pueden programar para producir una amplia gama de colores.
 </p>
 
-![Una captura de pantalla de la ventana del emulador que muestra la Unidad de vuelo con la matriz de LEDs mostrando una foto de una flor.](images/fu-pic.png)
+![una imagen de 8x8 de una ballena con letras que etiquetan diferentes colores](images/whale.png)
+
+Observa que cada cuadrado está etiquetado con un código que representa un color en particular. En esta imagen se utilizan 3 colores:
++ c = negro
++ f = Azul océano
++ g = Azul cielo
+
 
 --- task ---
 
-Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"} para el proyecto Mission Zero.
+Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Comprobarás que se han añadido automáticamente unas líneas de código.
 
@@ -46,11 +52,47 @@ sense.color.integration_cycles = 64 # El intervalo en el que se tomará la lectu
 
 Los colores se pueden crear usando diferentes proporciones de rojo, verde y azul. Aquí puedes encotrar información sobre los colores RGB:
 
-[[[generic-theory-simple-colours]]]
+![Tres deslizadores que demuestran valores de color RGB](images/rgbsliders.gif)
 
-La matriz de LEDs es una cuadrícula de 8 x 8. Cada LED de la cuadrícula se puede configurar en un color diferente. Aquí hay una lista de variables para 24 colores diferentes. Cada color tiene un valor para rojo, verde y azul:
+La matriz de LEDs es una cuadrícula de 8 x 8. Cada LED de la cuadrícula se puede configurar en un color diferente. Podemos usar las letras de la a a la z como nombres de variables para representar 24 colores diferentes. Cada color tiene un valor para rojo, verde y azul.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+título: Lista de variables de color
+---
+
+![Una cuadrícula de 24 cuadrados de colores, cada uno etiquetado con una letra diferente del alfabeto](images/palette.png)
+
+```python
+a = (255, 255, 255) # Blanco
+b = (171, 171, 171) # Gris
+c = (0, 0, 0) # Negro
+d = (25, 25, 113) # Azul marino
+e = (0, 0, 255) # Azul puro
+f = (36, 128, 200) # Azul océano
+g = (0, 204, 255) # Azul cielo
+h = (86, 255, 255) # Cian eléctrico
+j = (0, 255, 0) # Verde puro
+k = (46, 139, 33) # Verde hoja
+l = (57, 97, 17) # Verde oliva
+m = (30, 65, 6) # Verde bosque
+n = (126, 88, 25) # Marrón tierra
+o = (179, 96, 65) # Marrón terracota
+p = (180, 34, 34) # Rojo ladrillo
+q = (255, 0, 0) # Rojo puro
+r = (232, 118, 5) # Naranja
+s = (241, 231, 100) # Amarillo claro
+t = (255, 255, 0) # Amarillo puro
+u = (255, 209, 209) # Rosa pálido
+v = (255, 177, 177) # Rosa rubor
+w = (249, 169, 255) # Rosa claro
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Violeta
+
+```
+
+--- /collapse ---
 
 ### Elige una imagen
 
@@ -58,33 +100,32 @@ La matriz de LEDs es una cuadrícula de 8 x 8. Cada LED de la cuadrícula se pue
 
 **Seleccionar:** Elije una imagen para mostrar entre las opciones a continuación. Python almacena la información de una imagen en una lista. El código para cada imagen incluye las variables de color utilizadas y la lista.
 
-Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** en ru proyecto debajo de la línea que dice `# Agregar variables de color e imagen`.
+Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** en tu proyecto debajo de la línea que dice `# Agregar variables de color e imagen`.
 
 --- collapse ---
 
 ---
-title: Pez
+title: Ballena
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un pez.](images/fish.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestra una ballena.](images/whale.png)
 
-Creado por el equipo Chalka, Polonia
+Creado por el Equipo Naicom, Italia
 
 ```python
-z = (153, 50, 204) # OrquideaOscuro
-q = (255, 255, 0) # Amarillo
-d = (51, 153, 255) # Azul
-c = (0, 0, 0) # Negro
+c = (0, 0, 0)       # Negro
+f = (36, 128, 200)  # Azul océano
+g = (0, 204, 255)   # Azul cielo
 
 imagen = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -94,59 +135,57 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Morsa
+title: Limón
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra una morsa.](images/walrus.png)
+![Una cuadrícula de 8 x 8 cuadrados que muestra un limón.](images/lemon.png)
 
-Creado por el equipo Walrus, Finlandia
+Creado por el equipo g4lemoni, Grecia
 
 ```python
-h = (0, 255, 255) # Cian
-c = (0, 0, 0) # Negro
-s = (139, 69, 19) # MarrónCuero
+c = (0, 0, 0)       # Negro
+k = (46, 139, 33)   # Verde hoja
+t = (255, 255, 0)   # Amarillo puro
+
+imagen = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Cerdo
+---
+
+![Una cuadrícula con 8 x 8 cuadrados que muestran un cerdo.](images/pig.png)
+
+Creado por Gary, Reino Unido
+
+```python
 a = (255, 255, 255) # Blanco
-r = (184, 134, 11) # VerdeOscuro
+v = (255, 177, 177) # Rosa rubor
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Marrón terracota
+c = (0, 0, 0)       # Negro
 
 imagen = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Una cuadrícula con cuadrados de 8 x 8 que muestra a Paxi.](images/paxi.png)
-
-Creado por el equipo tony_pi, Italia
-
-```python
-v = (255, 0, 0) # Rojo
-m = (34, 139, 34) # VerdeBosque
-c = (0, 0, 0) # Negro
-e = (100, 149, 237) # AzulFlorDeMaiz
-l = (0, 255, 0) # Verde
-
-imagen = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -155,29 +194,29 @@ imagen = [
 
 --- collapse ---
 ---
-title: Perro
+title: Tormenta
 ---
 
-![Una cuadrícula de 8 x 8 cuadrados que muestra una cabeza de perro.](images/dog.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestra una nube de tormenta.](images/storm.png)
 
-Creado por el equipo ptpr_07, España
+Creado por el equipo hop2p023, España
 
 ```python
 
-c = (0, 0, 0) # Negro
-r = (184, 134, 11) # VerdeOscuro
-s = (139, 69, 19) # MarrónCuero
-y = (255, 20, 147) # RosaProfundo
+c = (0, 0, 0)       # Negro
+f = (36, 128, 200)  # Azul océano
+g = (0, 204, 255)   # Azul cielo
+t = (255, 255, 0)   # Amarillo puro
 
 imagen = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -186,35 +225,31 @@ imagen = [
 
 --- collapse ---
 ---
-title: Camaleón
+title: Pato
 ---
 
-![Una cuadrícula de 8 x 8 cuadrados que muestra un cameleón con los colores del arco iris.](images/chameleon.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestra un pato.](images/duck.png)
 
-Creado por el equipo The_ETs, Reino Unido
+Creado por Peter, Irlanda
 
 ```python
 
 c = (0, 0, 0) # Negro
-s = (139, 69, 19) # MarrónCuero
+l = (57, 97, 17)    # Verde oliva
+m = (30, 65, 6)     # Verde bosque
+r = (232, 118, 5)   # Naranja
 a = (255, 255, 255) # Blanco
-v = (255, 0, 0) # Rojo
-t = (255, 140, 0) # AnaranjadoOscuro
-q = (255, 255, 0) # Amarillo
-m = (34, 139, 34) # VerdeBosque
-h = (0, 255, 255) # Cian
-z = (153, 50, 204) # OrquídeaOscuro
-y = (255, 20, 147) # RosaProfundo
+b = (171, 171, 171) # Gris
 
 imagen = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -222,31 +257,32 @@ imagen = [
 
 --- collapse ---
 ---
-title: Cometa
+title: Rana
 ---
 
-![Una cuadrícula de 8 x 8 cuadrados que muestra una cometa.](images/kite.png)
+![Una cuadrícula con 8 x 8 cuadrados que muestran una Rana.](images/frog.png)
 
-Creado por el equipo Val, Grecia
+Creado por el equipo Jmeno, República Checa
 
 ```python
 
-c = (0, 0, 0) # Negro
-m = (34, 139, 34) # VerdeBosque
-v = (255, 0, 0) # Rojo
-q = (255, 255, 0) # Amarillo
-e = (0, 0, 205) # AzulMedio
-h = (0, 255, 255) # Cian
+a = (255, 255, 255) # Blanco
+b = (171, 171, 171) # Gris
+c = (0, 0, 0)       # Negro
+q = (255, 0, 0)     # Rojo puro
+j = (0, 255, 0)     # Verde puro
+k = (46, 139, 33)   # Verde hoja
+n = (126, 88, 25)   # Marrón tierra
 
 imagen = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -254,30 +290,33 @@ imagen = [
 
 --- collapse ---
 ---
-title: Pollo
+Title: Árbol en flor
 ---
 
-![Una cuadrícula con cuadrados de 8 x 8 que muestra un pollo.](images/chicken.png)
+![Una rejilla con 8 x 8 cuadrados que muestran un árbol en flor.](images/blossom.png)
 
-Creado por el equipo de Slepicky, República Checa
+Creado por el equipo Zssh14, Eslovaquia
 
 ```python
 
-v = (255, 0, 0) # Rojo
-c = (0, 0, 0) # Negro
-b = (105, 105, 105) # GrisApagado
-q = (255, 255, 0) # Amarillo
-r = (184, 134, 11) # VerdeOscuro
+t = (255, 255, 0)   # Amarillo puro
+g = (0, 204, 255)   # Azul cielo
+w = (249, 169, 255) # Rosa claro
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Violeta
+n = (126, 88, 25)   # Marrón tierra
+o = (179, 96, 65)   # Marrón terracota
+k = (46, 139, 33)   # Verde hoja
 
-imagen =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -295,22 +334,21 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Orquídea Oscuro
-q = (255, 255, 0) # Amarillo
-d = (51, 153, 255) # Azul
-c = (0, 0, 0) # Negro
+c = (0, 0, 0)       # Negro
+f = (36, 128, 200)  # Azul océano
+g = (0, 204, 255)   # Azul cielo
 
 imagen = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 # Mostrar la imagen
 sense.set_pixels(imagen)
@@ -349,6 +387,6 @@ Mi imagen no aparece:
 
 Ahora que has mostrado una imagen, puedes guardar tu programa en el Proyecto Inicial de la Misión ingresando el nombre de tu equipo, los nombres de los miembros del equipo y el código de aula que te dieron. Puedes recargar tu programa en cualquier dispositivo con conexión a Internet ingresando el nombre de tu equipo y el código de aula.
 
-![Botón Guardar de Mission Zero](images/savebutton_es.png)
+![Botón Guardar de Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task --- 

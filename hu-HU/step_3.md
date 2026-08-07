@@ -1,12 +1,18 @@
 ## Jeleníts meg egy képet
 
-Az Astro Pi LED-mátrixa színeket is meg tud jeleníteni. Ebben a lépésben a természetről szóló képeket fogsz megjeleníteni az Astro Pi LED-mátrixán.
+Az általad megjelenített kép 64 színes négyzetből, azaz **pixelből** fog állni. A pixelek egy 8 x 8-as rácsban vannak elrendezve. Minden pixel más színű lehet. A színek gondos kiválasztásával egy képet alkothatsz. Példaként itt egy bálna képe különféle kék árnyalatok felhasználásával fekete háttéren.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">**LED mátrix**</span> egy LED-ekből álló rács, amely egyenként vagy csoportosan vezérelhető, hogy létrehozz különféle fényhatásokat. A Sense HAT LED-mátrixa 64 LED-ből áll egy 8*8-as rácson elhelyezve. A LED-eket be lehet programozni, hogy a színek széles skáláját mustassák.
 </p>
 
-![Képernyőkép az emulátorról, amely a Repülési Egységet mutatja, a LED-mátrixon egy virágnak a képével.](images/fu-pic.png)
+![egy bálna 8x8-as képe, amelyen betűk jelölik a különböző színeket](images/whale.png)
+
+Figyeld meg, hogy mindegyik négyzet meg van jelölve egy kóddal, amely egy bizonyos színt jelképez. Ezen a képen 3 színt használtunk:
++ c = Fekete
++ f = Óceánkék
++ g = Égkék
+
 
 --- task ---
 
@@ -46,11 +52,47 @@ sense.color.integration_cycles = 64 # Az egyes leolvasások között eltelt idő
 
 Bármilyen színt létrehozhatsz a vörös, a zöld és a kék különböző arányainak használatával. Itt többet tudhatsz meg az RGB-színekről:
 
-[[[generic-theory-simple-colours]]]
+![Három csúszka az RGB színértékek bemutatására](images/rgbsliders.gif)
 
-A LED-mátrix egy 8*8-as rács. A rácson mindegyik LED más színre állítható be. Itt egy lista színváltozókból 24 különböző színhez. Mindegyik szín egy vörös, zöld és kék értékkel rendelkezik:
+A LED-mátrix egy 8*8-as rács. A rácson mindegyik LED más színre állítható be. Az a-tól z-ig terjedő betűket használhatjuk változónévként 24 különböző szín jelképezésére. Mindegyik szín egy vörös, zöld és kék értékkel rendelkezik.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Színváltozók listája
+---
+
+![24 színes négyzetből álló rács, amelyek mindegyike az ábécé más betűjével van jelölve](images/palette.png)
+
+```python
+a = (255, 255, 255) # White (fehér)
+b = (171, 171, 171) # Grey (szürke)
+c = (0, 0, 0)       # Black (fekete)
+d = (25, 25, 113)   # Navy Blue (sötétkék)
+e = (0, 0, 255)     # Pure Blue (tiszta kék)
+f = (36, 128, 200)  # Ocean Blue (óceánkék)
+g = (0, 204, 255)   # Sky Blue (égkék)
+h = (86, 255, 255)  # Electric Cyan (ciánkék)
+j = (0, 255, 0)     # Pure Green (tiszta zöld)
+k = (46, 139, 33)   # Leaf Green (levélzöld)
+l = (57, 97, 17)    # Olive Green (olajzöld)
+m = (30, 65, 6)     # Forest Green (sötétzöld)
+n = (126, 88, 25)   # Earth Brown (barna)
+o = (179, 96, 65)   # Terracotta Brown (világosbarna)
+p = (180, 34, 34)   # Brick Red (sötétvörös)
+q = (255, 0, 0)     # Pure Red (tiszta vörös)
+r = (232, 118, 5)   # Orange (narancs)
+s = (241, 231, 100) # Pale Yellow (halványsárga)
+t = (255, 255, 0)   # Pure Yellow (sárga)
+u = (255, 209, 209) # Pale Pink (halvány rózsaszín)
+v = (255, 177, 177) # Blush Pink (rózsaszín)
+w = (249, 169, 255) # Light Pink (világoslila)
+y = (248, 97, 255)  # Magenta (lila)
+z = (220, 53, 232)  # Purple (sötétlila)
+
+```
+
+--- /collapse ---
 
 ### Válassz egy képet
 
@@ -63,28 +105,27 @@ Ki kell **másolnod** a választott képed kódját, aztán **beillesztened** a 
 --- collapse ---
 
 ---
-title: Hal
+title: Bálna
 ---
 
-![Egy 8*8-as rács, amely egy hal képét mutatja.](images/fish.png)
+![Egy 8 x 8-as rács, amely egy bálna képét mutatja.](images/whale.png)
 
-Készítette: chalka csapat, Lengyelország
+Készítette: Naicom csapat, Olaszország
 
 ```python
-z = (153, 50, 204) # DarkOrchid - lila
-q = (255, 255, 0) # sárga
-d = (51, 153, 255) # kék
-c = (0, 0, 0) # fekete
+c = (0, 0, 0)       # Black (fekete)
+f = (36, 128, 200)  # Ocean Blue (óceánkék)
+g = (0, 204, 255)   # Sky Blue (égkék)
 
 kep = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -94,29 +135,27 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Rozmár
+title: Citrom
 ---
 
-![Egy 8*8-as rács, amely egy rozmár képét mutatja.](images/walrus.png)
+![Egy 8 x 8-as rács, amely egy citrom képét mutatja.](images/lemon.png)
 
-Készítette: Walrus csapat, Finnország
+Készítette: g4lemoni csapat, Görögország
 
 ```python
-h = (0, 255, 255) # cián
-c = (0, 0, 0) # fekete
-s = (139, 69, 19) # SaddleBrown - barna
-a = (255, 255, 255) # fehér
-r = (184, 134, 11) # DarkGoldenrod - arany
+c = (0, 0, 0)       # Black (fekete)
+k = (46, 139, 33)   # Leaf Green (levélzöld)
+t = (255, 255, 0)   # Pure Yellow (sárga)
 
 kep = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
 
 ```
 
@@ -124,29 +163,29 @@ r, r, s, s, s, s, s, s]
 
 --- collapse ---
 ---
-title: Paxi
+title: Disznó
 ---
 
-![Egy 8*8-as rács, amely Paxi képét mutatja.](images/paxi.png)
+![Egy 8 x 8-as rács, amely egy disznó képét mutatja.](images/pig.png)
 
-Készítette: tony_pi csapat, Olaszország
+Készítette: Gary, Egyesült Királyság
 
 ```python
-v = (255, 0, 0) # vörös
-m = (34, 139, 34) # ForestGreen - sötétzöld
-c = (0, 0, 0) # fekete
-e = (100, 149, 237) # CornflowerBlue - világoskék
-l = (0, 255, 0) # zöld
+a = (255, 255, 255) # White (fehér)
+v = (255, 177, 177) # Blush Pink (rózsaszín)
+y = (248, 97, 255)  # Magenta (lila)
+o = (179, 96, 65)   # Terracotta Brown (világosbarna)
+c = (0, 0, 0)       # Black (fekete)
 
 kep = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -155,29 +194,29 @@ kep = [
 
 --- collapse ---
 ---
-title: Kutya
+title: Vihar
 ---
 
-![Egy 8*8-as rács, amely egy kutya képét mutatja.](images/dog.png)
+![Egy 8 x 8-as rács, amely egy viharfelhő képét mutatja.](images/storm.png)
 
-Készítette: ptpr_07 csapat, Spanyolország
+Készítette: hop2p023 csapat, Spanyolország
 
 ```python
 
-c = (0, 0, 0) # fekete
-r = (184, 134, 11) # DarkGoldenrod - arany
-s = (139, 69, 19) # SaddleBrown - barna
-y = (255, 20, 147) # DeepPink - rózsaszín
+c = (0, 0, 0)       # Black (fekete)
+f = (36, 128, 200)  # Ocean Blue (óceánkék)
+g = (0, 204, 255)   # Sky Blue (égkék)
+t = (255, 255, 0)   # Pure Yellow (sárga)
 
 kep = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -186,35 +225,31 @@ kep = [
 
 --- collapse ---
 ---
-title: Kaméleon
+title: Kacsa
 ---
 
-![Egy 8*8-as rács, amely egy szivárványszínű kaméleon képét mutatja.](images/chameleon.png)
+![Egy 8 x 8-as rács, amely egy kacsa képét mutatja.](images/duck.png)
 
-Készítette: The_ETs csapat, Egyesült Királyság
+Készítette: Peter, Írország
 
 ```python
 
-c = (0, 0, 0) # fekete
-s = (139, 69, 19) # SaddleBrown - barna
-a = (255, 255, 255) # fehér
-v = (255, 0, 0) # vörös
-t = (255, 140, 0) # DarkOrange - sötét narancssárga
-q = (255, 255, 0) # sárga
-m = (34, 139, 34) # ForestGreen - sötétzölds
-h = (0, 255, 255) # cián
-z = (153, 50, 204) # DarkOrchid - lila
-y = (255, 20, 147) # DeepPink - rózsaszín
+c = (0, 0, 0) # Black (fekete)
+l = (57, 97, 17)    # Olive Green (olajzöld)
+m = (30, 65, 6)     # Forest Green (sötétzöld)
+r = (232, 118, 5)   # Orange (narancs)
+a = (255, 255, 255) # White (fehér)
+b = (171, 171, 171) # Grey (szürke)
 
 kep = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -222,31 +257,32 @@ kep = [
 
 --- collapse ---
 ---
-title: Papírsárkány
+title: Béka
 ---
 
-![Egy 8*8-as rács, amely egy papírsárkány képét mutatja.](images/kite.png)
+![Egy 8 x 8-as rács, amely egy béka képét mutatja.](images/frog.png)
 
-Készítette: Val csapat, Görögország
+Készítette: Jmeno csapat, Csehország
 
 ```python
 
-c = (0, 0, 0) # fekete
-m = (34, 139, 34) # ForestGreen - sötétzöld
-v = (255, 0, 0) # vörös
-q = (255, 255, 0) # sárga
-e = (0, 0, 205) # MediumBlue - sötétkék
-h = (0, 255, 255) # cián
+a = (255, 255, 255) # White (fehér)
+b = (171, 171, 171) # Grey (szürke)
+c = (0, 0, 0)       # Black (fekete)
+q = (255, 0, 0)     # Pure Red (tiszta vörös)
+j = (0, 255, 0)     # Pure Green (tiszta zöld)
+k = (46, 139, 33)   # Leaf Green (levélzöld)
+n = (126, 88, 25)   # Earth Brown (barna)
 
 kep = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -254,30 +290,33 @@ kep = [
 
 --- collapse ---
 ---
-title: Csirke
+title: Virágzó fa
 ---
 
-![Egy 8*8-as rács, amely egy csirke képét mutatja.](images/chicken.png)
+![Egy 8 x 8-as rács, amely egy virágzó fa képét mutatja.](images/blossom.png)
 
-Készítette: Slepicky csapat, Csehország
+Készítette: Zssh14 csapat, Szlovákia
 
 ```python
 
-v = (255, 0, 0) # vörös
-c = (0, 0, 0) # fekete
-b = (105, 105, 105) # DimGray - szürke
-q = (255, 255, 0) # sárga
-r = (184, 134, 11) # DarkGoldenrod - arany
+t = (255, 255, 0)   # Pure Yellow (sárga)
+g = (0, 204, 255)   # Sky Blue (égkék)
+w = (249, 169, 255) # Light Pink (világoslila)
+y = (248, 97, 255)  # Magenta (lila)
+z = (220, 53, 232)  # Purple (sötétlila)
+n = (126, 88, 25)   # Earth Brown (barna)
+o = (179, 96, 65)   # Terracotta Brown (világosbarna)
+k = (46, 139, 33)   # Leaf Green (levélzöld)
 
-kep =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+image =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -287,7 +326,7 @@ kep =  [
 
 --- task ---
 
-**Keresd meg** a `# Kép megjelenítése` sort, majd adj hozzá egy új sor kódot, hogy megjelenítsd a képet a LED-mátrixon:
+**Keresd meg** a sort, ahol ez áll `# Kép megjelenítése`, és add hozzá ezt a sort, amely megjeleníti a képet a LED-mátrixon:
 
 --- code ---
 ---
@@ -295,24 +334,23 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # DarkOrchid (lila)
-q = (255, 255, 0) # Yellow (Sárga)
-d = (51, 153, 255) # kék
-c = (0, 0, 0) # Black (fekete)
+c = (0, 0, 0)       # Black (fekete)
+f = (36, 128, 200)  # Ocean Blue (óceánkék)
+g = (0, 204, 255)   # Sky Blue (égkék)
 
 kep = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-# Kép megjelenítése 
+# Kép megjelenítése
 sense.set_pixels(kep)
 
 --- /code ---
@@ -349,6 +387,6 @@ Nem jelenik meg a képem:
 
 Most, hogy megjeenítettél egy képet, elmentheted a programodat a küldetés kezdőprojektjébe, ha megadod a csapatod nevét, a csapattagok nevét és a mentorodtól kapott osztálytermi kódot. Újra betöltheted a programodat bármely internetkapcsolattal rendelkező eszközön, ha megadod a csapatod nevét és az osztálytermi kódot.
 
-![A Mission Zero mentés gombja.](images/savebutton_hu.png)
+![A Mission Zero mentés gombja.](images/mz_savebutton_v2.png)
 
 --- /task --- 

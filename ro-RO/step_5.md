@@ -2,7 +2,7 @@
 
 Acum că ți-ai încheiat misiunea, de ce să nu mai încerci câteva proiecte folosind ceilalți senzori de pe Astro Pi?
 
-Dacă te simți încrezător, poți să participi la Mission Space Lab. Formați o echipă de doi până la șase persoane și lucrați împreună pentru a răspunde la o întrebare științifică reală. Toate echipele care depun un program eligibil vor fi invitate la un Q&A virtual cu un astronaut ESA la sfârșitul ciclului Astro Pi Challenge.
+Dacă te simți încrezător, poți să participi la Mission Space Lab. Formați o echipă de doi până la șase persoane și lucrați împreună pentru a răspunde la o întrebare științifică reală. Toate echipele care depun un program eligibil vor fi invitate la o sesiune de Întrebări&Răspunsuri virtuale cu un expert în zbor uman din ESA la sfârșitul ciclului european Astro Pi Challenge.
 
 Alternativ, ai putea vrea să încerci unul dintre celelalte proiecte Sense HAT:
 
@@ -15,11 +15,3 @@ Alternativ, ai putea vrea să încerci unul dintre celelalte proiecte Sense HAT:
 + Provoacă-ți prietenii cu un joc de tip [labirint de marmură](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 
 + Recrează jocul clasic al lui [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
-
-***
-
-Acest proiect a fost tradus de voluntarii:
-
-Manuela Grindei
-
-Datorită voluntarilor, putem oferi oamenilor din întreaga lume șansa de a învăța în propria lor limbă. Ne poți ajuta să ajungem la mai multe persoane, ajutând la traducere ca și voluntar - mai multe informații la [rpf.io/translate](https://rpf.io/translate).
