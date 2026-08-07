@@ -27,7 +27,7 @@ title: Poznámky pro mentory
 
 Výzva Mission Zero je vhodná pro začínající programátory a je doporučena pro mladé lidi ve věku 9-16 let. Lze ji dokončit během jediného 60minutového sezení na jakémkoli počítači s připojením k internetu. Není potřeba žádný speciální hardware ani předchozí znalosti programování. Vše se dá udělat ve webovém prohlížeči.
 
- Výzvu Mission Zero lze absolvovat jako jednotlivec nebo jako člen týmu složeného maximálně ze 4 lidí.
+Mission Zero can be done individually or in teams of up to 4 people.
 
 Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
