@@ -27,7 +27,7 @@ title: Noter til mentorer
 
 Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+Mission Zero can be done individually or in teams of up to 4 people.
 
 Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
