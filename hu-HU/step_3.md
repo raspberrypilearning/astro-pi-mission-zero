@@ -9,7 +9,7 @@ A <span style="color: #0faeb0">**LED mátrix**</span> egy LED-ekből álló rác
 ![egy bálna 8x8-as képe, amelyen betűk jelölik a különböző színeket](images/whale.png)
 
 Figyeld meg, hogy mindegyik négyzet meg van jelölve egy kóddal, amely egy bizonyos színt jelképez. Ezen a képen 3 színt használtunk:
-+ c = fekete
++ c = Fekete
 + f = Óceánkék
 + g = Égkék
 
