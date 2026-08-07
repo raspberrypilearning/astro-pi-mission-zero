@@ -6,21 +6,21 @@ Jūsų rodomas vaizdas bus sudarytas iš 64 spalvotų kvadratų, vadinamų **pik
 <span style="color: #0faeb0">**LED matrica**</span> – tai LED tinklelis, kurį galima valdyti atskirai arba kaip grupę, siekiant sukurti skirtingus apšvietimo efektus. „Sense HAT“ LED matricą sudaro 64 LED diodai, rodomi 8 x 8 tinklelyje. Šviesos diodus galima užprogramuoti taip, kad jie skleistų platų spalvų spektrą.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![8x8 banginio atvaizdas su raidėmis, žyminčiomis skirtingas spalvas](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Atkreipkite dėmesį, kad kiekvienas kvadratas yra pažymėtas kodu, kuris žymi tam tikrą spalvą. Šiame paveikslėlyje panaudotos 3 spalvos:
++ c = juoda
++ f = šviesiai mėlyna
++ g = dangaus mėlyna
 
 
 --- task ---
 
-Open the [Mission Zero starter project](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Atidarykite [„Mission Zero“ pradinį projektą](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
-You will see that a few lines of code have been added for you automatically.
+Pamatysite, kad kelios kodo eilutės buvo pridėtos automatiškai.
 
-This code connects to the Astro Pi, makes sure the Astro Pi's LED display is shown the correct way around and sets up the colour sensor. Leave the code there, because you'll need it.
+Šis kodas prisijungia prie „Astro Pi“, užtikrina, kad „Astro Pi“ LED ekranas būtų rodomas teisingai, ir nustato spalvų jutiklį. Palikite kodą, nes jo prireiks.
 
 --- code ---
 ---
@@ -38,73 +38,73 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 --- /code ---
 
-![A screenshot of the Sense HAT emulator with lines of starter code displayed in the left-hand pane.](images/sense-hat-emulator3.png)
+![„Sense HAT“ emuliatoriaus ekrano kopija su pradinio kodo eilutėmis, rodomomis kairiajame lange.](images/sense-hat-emulator3.png)
 
 --- /task ---
 
-### RGB Colours
+### RGB spalvos
 
-Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
+Spalvos gali būti kuriamos naudojant skirtingas raudonos, žalios ir mėlynos spalvų proporcijas. Apie RGB spalvas galite sužinoti čia:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Trys slankikliai, rodantys RGB spalvų vertes](images/rgbsliders.gif)
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+LED matrica yra 8 x 8 tinklelis. Kiekvieną tinklelio šviesos diodą galima nustatyti šviesi skirtinga spalva. Raides nuo a iki z galime naudoti kaip kintamųjų pavadinimus, reiškiančius 24 skirtingas spalvas. Kiekviena spalva turi savo raudonos, žalios ir mėlynos spalvos reikšmę.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+pavadinimas: Spalvų kintamųjų sąrašas
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![24 spalvotų kvadratėlių tinklelis, kuriame kiekvienas kvadratėlis pažymėtas skirtinga abėcėlės raide](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+a = (255, 255, 255) # Balta
+b = (171, 171, 171) # Pilka
+c = (0, 0, 0) # Juoda
+d = (25, 25, 113) # Tamsiai mėlyna
+e = (0, 0, 255) # Tikra mėlyna
+f = (36, 128, 200) # Šviesiai mėlyna
+g = (0, 204, 255) # Dangaus mėlyna
+h = (86, 255, 255) # Elektrinė žydra
+j = (0, 255, 0) # Tikra žalia
+k = (46, 139, 33) # Lapų žalia
+l = (57, 97, 17) # Alyvuogių žalia
+m = (30, 65, 6) # Miško žalia
+n = (126, 88, 25) # Žemės ruda
+o = (179, 96, 65) # Terakotos ruda
+p = (180, 34, 34) # Plytų raudona
+q = (255, 0, 0) # Tikra raudona
+r = (232, 118, 5) # Oranžinė
+s = (241, 231, 100) # Šviesiai geltona
+t = (255, 255, 0) # Tikra geltona
+u = (255, 209, 209) # Blyškiai rožinė
+v = (255, 177, 177) # Švelniai rožinė
+w = (249, 169, 255) # Šviesiai rožinė
+y = (248, 97, 255) # Purpurinė
+z = (220, 53, 232) # Violetinė
 
 ```
 
 --- /collapse ---
 
-### Choose an image
+### Pasirinkite vaizdą
 
 --- task ---
 
-**Choose:** Pick an image to display from the options below. Python stores the information for an image in a list. The code for each image includes the colour variables used and the list.
+**Pasirinkite:** iš toliau pateiktų parinkčių pasirinkite paveikslėlį, kurį norite rodyti. „Python“ saugo paveikslėlio informaciją sąraše. Kiekvieno paveikslėlio kode yra naudojami spalvų kintamieji ir jų sąrašas.
 
-You will need to **copy** all of the code for your chosen image then **paste** it into your project below the line which says `# Add colour variables and image`.
+Reikės **nukopijuoti** visą pasirinkto paveikslėlio kodą, tada **įklijuoti** jį į savo projektą po eilute `# Pridėti spalvų kintamuosius ir vaizdą`.
 
 --- collapse ---
 
 ---
-title: Whale
+pavadinimas: Banginis
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![8 x 8 kvadratų tinklelis, kuriame pavaizduotas banginis.](images/whale.png)
 
-Created by Team Naicom, Italy
+Sukūrė „Naicom“ komanda, Italija
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+pavadinimas: Citrina
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![8 x 8 kvadratų tinklelis, kuriame pavaizduota citrina.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Sukūrė „g4lemoni“ komanda, Graikija
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+pavadinimas: Kiaulė
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![8 x 8 kvadratų tinklelis, kuriame pavaizduota kiaulė.](images/pig.png)
 
-Created by Gary, United Kingdom
+Sukūrė Gary, Jungtinė Karalystė
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+pavadinimas: Audra
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![8 x 8 kvadratų tinklelis, kuriame pavaizduotas audros debesis.](images/storm.png)
 
-Created by team hop2p023, Spain
+Sukūrė „hop2p023“ komanda, Ispanija
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+pavadinimas: Antis
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![8 x 8 kvadratų tinklelis, kuriame pavaizduota antis.](images/duck.png)
 
-Created by Peter, Ireland
+Sukūrė Peter, Airija
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+pavadinimas: Varlė
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![8 x 8 kvadratų tinklelis, kuriame pavaizduota varlė.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Sukūrė „Jmeno“ komanda, Čekija
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+pavadinimas: Žydintis medis
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![8 x 8 kvadratų tinklelis, kuriame pavaizduotas žydintis medis.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Sukūrė „Zssh14“ komanda, Slovakija
 
 ```python
 
@@ -320,7 +320,7 @@ k, k, o, n, n, n, k, k]
 
 --- task ---
 
-**Find:** the line that says `# Display the image` and add a line of code to display your image on the LED matrix:
+**Raskite:** eilutę, kurioje parašyta `# Rodyti vaizdą` ir pridėkite kodo eilutę, kad jūsų vaizdas būtų rodomas LED matricoje:
 
 --- code ---
 ---
@@ -331,7 +331,7 @@ c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)  
 
 image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, a, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-# Display the image
+# Rodyti vaizdą
 sense.set_pixels(image)
 
 --- /code ---
@@ -351,23 +351,23 @@ Paspauskite **Paleisti** redagavimo įrankio apačioje, kad pamatytumėte, kaip 
 Mano kode yra sintaksės klaida:
 
 - Patikrinkite, ar jūsų kodas atitinka pirmiau pateiktuose pavyzdžiuose pateiktą kodą
-- Patikrinkite, ar į sąrašą įtraukėte kodą
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma
+- Patikrinkite, ar į sąraše pateikėte kodą su įtrauka
+- Patikrinkite, ar jūsų sąrašas pradeda ir baigiasi `[` ir `]`
+- Patikrinkite, ar kiekvienas sąraše esantis spalvos kintamasis yra atskirtas kableliu
 
-My image does not appear:
+Mano paveikslėlis nerodomas:
 
-- Check that your `sense.set_pixels(image)` is not indented
+- Patikrinkite, ar jūsų `sense.set_pixels(image)` pateiktas be įtraukos
 
 --- /task ---
 
 
 --- task ---
 
-**Save your progress**
+**Išsaugokite savo progresą**
 
-Now that you have displayed an image, you can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Peržiūrėję paveikslėlį galite išsaugoti savo programą misijos pradiniame projekte, įvesdami savo komandos pavadinimą, komandos narių vardus ir jums suteiktą klasės kodą. Programą galite įkelti iš naujo bet kuriame įrenginyje, turinčiame interneto ryšį, įvesdami savo komandos pavadinimą ir klasės kodą.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
+![„Mission Zero“ išsaugojimo mygtukas.](images/mz_savebutton_v2.png)
 
 --- /task --- 
