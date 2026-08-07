@@ -14,4 +14,4 @@ Je kunt ook een van onze andere Sense HAT-projecten uitproberen:
 
 + Daag je vrienden uit met een [knikkerdoolhof](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}-spel
 
-+ Maak het klassieke spel [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_ blank"} opnieuw
++ Maak het klassieke spel [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"} opnieuw
