@@ -27,7 +27,7 @@ title: Notater for veiledere
 
 Mission Zero passer for nybegynnere innen programmering og anbefales for unge mennesker i alderen 9–16 år. Det kan fullføres i løpet av én enkelt 60-minutters økt på en hvilken som helst datamaskin med internettilgang. Spesiell maskinvare eller tidligere kodingsevne er ikke nødvendig. Alt kan gjøres i en nettleser.
 
- Misson Zero kan gjøres individuelt eller i team på opptil 4 personer.
+Mission Zero can be done individually or in teams of up to 4 people.
 
 Les [offisielle retningslinjer](https://astro-pi.org/nb/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
