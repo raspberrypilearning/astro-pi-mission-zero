@@ -16,7 +16,7 @@ Observa que cada cuadrado está etiquetado con un código que representa un colo
 
 --- task ---
 
-Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"} para el proyecto Mission Zero.
+Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
 
 Comprobarás que se han añadido automáticamente unas líneas de código.
 
@@ -94,7 +94,7 @@ z = (220, 53, 232) # Violeta
 
 **Seleccionar:** Elije una imagen para mostrar entre las opciones a continuación. Python almacena la información de una imagen en una lista. El código para cada imagen incluye las variables de color utilizadas y la lista.
 
-Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** en ru proyecto debajo de la línea que dice `# Agregar variables de color e imagen`.
+Deberás **copiar** todo el código para la imagen elegida y luego **pegarlo** en tu proyecto debajo de la línea que dice `# Agregar variables de color e imagen`.
 
 --- collapse ---
 
