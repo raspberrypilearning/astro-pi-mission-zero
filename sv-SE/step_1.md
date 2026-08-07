@@ -27,7 +27,7 @@ title: Anteckningar för mentorer
 
 Mission Zero passar nybörjare inom programmering och rekommenderas för ungdomar i åldrarna 9–16 år. Den kan genomföras under en enda 60-minuterslektion på vilken dator som helst med internetåtkomst. Ingen speciell hårdvara eller tidigare kodningskunskaper behövs. Allt kan göras i en webbläsare.
 
- Misson Zero kan göras individuellt eller i grupper om upp till 4 personer.
+Mission Zero can be done individually or in teams of up to 4 people.
 
 Läs de [officiella riktlinjerna](https://astro-pi.org/sv/mission-zero/guidelines){:target="_blank"} för Mission Zero.
 
