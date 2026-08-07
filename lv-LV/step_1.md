@@ -27,7 +27,7 @@ nosaukums: Piezīmes mentoriem
 
 Mission Zero ir piemērota programmēšanas iesācējiem un ieteicama jauniešiem vecumā no 9 līdz 16 gadiem. To var pabeigt vienā 60 minūšu sesijā jebkurā datorā ar piekļuvi internetam. Nav nepieciešama īpaša aparatūra vai iepriekšējas programmēšanas prasmes. Visu var izdarīt tīmekļa pārlūkprogrammā.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+“Mission Zero” var veikt individuāli vai komandās līdz 4 cilvēkiem.
 
 Izlasiet [oficiālās vadlīnijas](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} spēlei Mission Zero.
 
