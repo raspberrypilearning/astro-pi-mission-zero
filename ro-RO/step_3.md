@@ -9,7 +9,7 @@ O <span style="color: #0faeb0">**matrice LED**</span> este o grilă de LED-uri c
 ![o imagine de 8x8 a unei balene cu litere etichetând culori diferite](images/whale.png)
 
 Observați că fiecare pătrat este etichetat cu un cod care reprezintă o anumită culoare. În această imagine se folosesc 3 culori:
-+ c = negru
++ c = Negru
 + f = Albastru oceanic
 + g = Albastru ceresc
 
