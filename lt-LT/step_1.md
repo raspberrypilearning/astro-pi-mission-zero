@@ -27,7 +27,7 @@ pavadinimas: Pastabos mentoriams
 
 „Mission Zero“ tinka pradedantiesiems programuotojams ir yra rekomenduojama 9–16 metų jaunuoliams. Ją galima atlikti per vieną 60 minučių trukmės užsiėmimą bet kuriame kompiuteryje su prieiga prie interneto. Nereikia jokios specialios aparatinės įrangos ar programavimo žinių. Viską galima padaryti žiniatinklio naršyklėje.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+„Mission Zero“ galima vykdyti individualiai arba komandose iki 4 žmonių.
 
 Perskaitykite [oficialias gaires](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}, skirtas „Mission Zero“.
 
