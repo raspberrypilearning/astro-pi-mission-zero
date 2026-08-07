@@ -1,10 +1,10 @@
-## Sense a colour
+## Nuskaityti spalvą
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+Šiame žingsnyje nustatysite spalvų ir ryškumo jutiklį. Šį jutiklį naudosite raudonos, žalios ir mėlynos šviesos, pasiekiančios jutiklį, kiekiui matuoti. Šios vertės bus naudojamos norint pakeisti vieną iš pasirinkto vaizdo spalvų.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Tai reiškia, kad vaizdas gali keistis priklausomai nuo to, ką mato jutiklis. Pavyzdžiui, astronautas, vilkintis mėlynus marškinėlius, matytų kitokią vaizdo versiją nei astronautas, vilkintis raudonus marškinėlius.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Ankstesniame žingsnyje pateiktame banginio paveikslėlyje fono spalva buvo juoda. RGB spalvos kodui saugoti naudojome kintamąjį `c`:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Norėdami pakeisti vieną iš spalvų, naudokite spalvų jutiklį.
 
-Underneath the lines where you define the colours, add the following code:
+Po eilutėmis, kuriose apibrėžiate spalvas, pridėkite šį kodą:
 
 --- code ---
 ---
@@ -34,34 +34,34 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Šis kodas pakeičia RGB reikšmes, saugomas `c` , jutiklio aptiktos spalvos reikšmėmis.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Patarimas: jei savo paveikslėlyje nenaudojote kintamojo `c` , pakeiskite `c` vienu iš spalvų kintamųjų, kuriuos naudojote. Tai leis jutikliui pakeisti tą spalvą.
 
 --- task ---
 
-**Test:** Move the colour slider to a colour of your choice and then **run** your code. Your background colour will change. Repeat this test again with a new colour.
+**Testas:** perkelkite spalvos slankiklį į pasirinktą spalvą ir **paleiskite** savo kodą. Jūsų fono spalva pasikeis. Pakartokite šį testą su nauja spalva.
 
-**Tip:** You will need to click 'Run' every time you change the colour.
+**Patarimas:** kiekvieną kartą keisdami spalvą turėsite spustelėti „Paleisti“.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Dabar parodėte paveikslėlį, nuskaitėte spalvą ir panaudojote ją savo programoje, todėl jūsų kodas paruoštas pateikimui! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Programą galite išsaugoti ir pateikti naudodami formą, esančią kodų redagavimo priemonės apačioje.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Tačiau, jei norite, prie savo projekto galite pridėti daugiau vaizdų arba jį pagyvinti animuodami. Tolesni veiksmai parodys, kaip tai padaryti.
 </p>
 
-## Animate your project (optional)
+## Animuokite savo projektą (nebūtina)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Jūsų „Mission Zero“ programa gali veikti Tarptautinėje kosminėje stotyje (TKS) iki 30 sekundžių. Šį laiką galite naudoti animacijai LED matricoje rodyti, perjungdami du ar daugiau skirtingų paveikslėlių.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Pridėkite** antrą paveikslėlį iškart po `sense.set_pixels(image)` kodo eilute. Suteikite jam kintamojo pavadinimą `image2` ir pakeiskite kelis pikselius, kad animacijos kadras atrodytų kitaip. Tada po jo pridėkite trumpą pauzę.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Pačioje kodo failo apačioje nustatykite savo `ciklą` taip, kad jis kartotųsi  `14` kartų ir kaitaliotų `image` ir `image2` rodymą, tarp kadrų padarydamas 1 sekundės pauzę.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Patarimas:** įsitikinkite, kad kodo eilutės po `for i in range(14):`  yra su tarpo įtrauka, kad jos būtų ciklo bloko **viduje**.
 
 --- code ---
 ---
@@ -106,30 +106,30 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Test:** Run your code again. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Testas:** paleiskite savo kodą dar kartą. Jūsų programa akimirksniu parodys jūsų nuskaitytą spalvą, o tada kartos ciklą kaip animuotą vaizdą.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Jei norite, kad animaciją sudarytų daugiau nei du kadrai, turite įsitikinti, kad programa veiks ne ilgiau kaip 30 sekundžių. Pavyzdžiui, jei turite 10 paveikslėlių, kurių kiekvienas rodomas po 1 sekundę, turite pakeisti „for“ ciklą, kad jis kartotųsi 3 kartus (10 * 3 = 30 sekundžių).
 </p>
 
 --- task ---
 
-**Check for errors**
+**Patikrinkite, ar nėra klaidų**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Mano kode yra sintaksės klaida arba jis nekeičia kadrų:
+- Patikrinkite, ar jūsų `for` ciklo kodas pateiktas su pavyzdyje nurodyta įtrauka.
+- Įsitikinkite, kad antrąją vaizdo matricą pavadinote `image2` ir kad ji yra pateikta už ciklo ribų, prieš jam prasidedant.
+- Patikrinkite, ar jūsų `pertraukos` laikas nustatytas tiksliai į `1` sekundę, kad neviršytumėte griežtos 30 sekundžių vykdymo ribos TKS.
 
 --- /task ---
 
 --- task ---
 
-**Save your progress**
+**Išsaugokite savo darbą**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
+Savo programą galite išsaugoti „Mission“ pradiniame projekte įvesdami savo komandos pavadinimą, komandos narių vardus ir jums suteiktą klasės kodą. Programą galite įkelti iš naujo bet kuriame įrenginyje, turinčiame interneto ryšį, įvesdami savo komandos pavadinimą ir klasės kodą.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ You can save your program on the Mission Starter project by entering your team n
 
 --- collapse ---
 ---
-title: Completed Whale code example
+pavadinimas: Užbaigto banginio kodo pavyzdys
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+pavadinimas: Užbaigto banginio kodo pavyzdys (su animacija)
 ---
 
 --- code ---
