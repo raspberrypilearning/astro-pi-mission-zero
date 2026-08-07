@@ -1,79 +1,79 @@
-Import the libraries
+Importuoti bibliotekas
 
-Set up the Sense HAT
+Nustatyti Sense HAT
 
-Set up the colour sensor
+Nustatyti spalvų jutiklį
 
-Set the sensitivity of the sensor
+Nustatyti jutiklio jautrumą
 
-The interval at which the reading will be taken
+Intervalas, kuriuo bus imamas rodmuo
 
-Add colour variables and image
+Pridėti spalvų kintamuosius ir vaizdą
 
-Display the image
+Rodyti vaizdą
 
-Sense a colour
+Nuskaityti spalvą
 
-get the colour from the sensor
+gauti spalvą iš jutiklio
 
-use the sensed colour
+naudoti nuskaitytą spalvą
 
-Extra images / frames go here:
+Papildomi vaizdai / rėmeliai pateikiami čia:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Kartoti 14 kartų (14 * 2 sekundės = 28 sekundės animacijos)
 
-# Display the second image
+# Rodyti antrą paveikslėlį
 
-# Display the first image
+# Rodyti pirmą paveikslėlį
 
-# BASIC SUBMISSION is done by now
+# PAGRINDINIS PATEIKIMAS jau atliktas
 
-Baltoji
+Balta
 
-Grey
+Pilka
 
-Black
+Juoda
 
-Navy Blue
+Tamsiai mėlyna
 
-Pure Blue
+Tikra mėlyna
 
-Ocean Blue
+Vandenyno mėlyna
 
-Sky Blue
+Dangaus mėlyna
 
-Electric Cyan
+Elektrinė žydra
 
-Pure Green
+Tikra žalia
 
-Leaf Green
+Lapų žalia
 
-Olive Green
+Alyvuogių žalia
 
-Forest Green
+Miško žalia
 
-Earth Brown
+Žemės ruda
 
-Terracotta Brown
+Terakotos ruda
 
-Brick Red
+Plytų raudona
 
-Pure Red
+Tikra raudona
 
-Orange
+Oranžinė
 
-Pale Yellow
+Šviesiai geltona
 
-Pure Yellow
+Tikra geltona
 
-Pale Pink
+Blyškiai rožinė
 
-Blush Pink
+Švelniai rožinė
 
-Light Pink
+Šviesiai rožinė
 
-Magenta
+Purpurinė
 
-Purple
+Violetinė
 
 
