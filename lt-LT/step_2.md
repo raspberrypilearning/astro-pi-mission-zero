@@ -1,13 +1,13 @@
-## What is an Astro Pi?
+## Kas yra „Astro Pi“?
 
-An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
+„Astro Pi“ yra „Raspberry Pi“ kompiuteris, specialiai sukurtas darbui kosmose.
 
-![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
+![Animuotas „Sense HAT“ paveikslėlis, pritvirtintas prie „Raspberry Pi“ kompiuterio viršaus.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
+„Astro Pi“ kompiuteriuose yra jutiklių rinkinys, vadinamas „Sense HAT“, kurį jaunuoliai gali naudoti moksliniams eksperimentams atlikti. Jutiklis yra daiktas, galintis aptikti arba išmatuoti, kas vyksta aplink jį. „Sense Hat“ jutikliai gali matuoti tokius dalykus, kaip priešais jį esančių objektų spalva ir ryškumas. „Sense Hat“ taip pat turi 8 x 8 LED matricą, kuri gali rodyti paprastus vaizdus ir informaciją.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+<span style="color: #0faeb0">**LED matrica**</span> – tai LED (šviesos diodų) tinklelis, kurį galima valdyti atskirai arba kaip grupę, siekiant sukurti skirtingus apšvietimo efektus. „Sense HAT“ LED matricą sudaro 64 LED diodai, rodomi 8 x 8 tinklelyje. Šviesos diodus galima užprogramuoti taip, kad jie skleistų platų spalvų spektrą.
 </p>
 
-![an 8x8 pixel art image of a whale](images/whaleblank.png)
+![8x8 pikselių dydžio banginio paveikslėlis](images/whaleblank.png)
