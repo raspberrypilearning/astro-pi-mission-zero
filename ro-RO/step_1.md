@@ -27,7 +27,7 @@ title: Note pentru mentori
 
 Mission Zero este potrivit pentru începătorii în programare și este recomandat tinerilor cu vârste cuprinse între 9 și 16 ani. Se poate realiza într-o singură sesiune de 60 de minute, pe orice computer cu acces la internet. Nu sunt necesare hardware special sau abilități de programare anterioare. Totul poate fi făcut într-un browser web.
 
- Misson Zero se poate face individual sau în echipe de până la 4 persoane.
+Mission Zero can be done individually or in teams of up to 4 people.
 
 Citește [instrucțiunile oficiale](https://astro-pi.org/ro/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
 
