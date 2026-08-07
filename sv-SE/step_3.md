@@ -9,7 +9,7 @@ En <span style="color: #0faeb0">**LED-matris**</span> är ett rutnät av lysdiod
 ![8x8-bild av en val med bokstäver som markerar olika färger](images/whale.png)
 
 Observera att varje ruta är märkt med en kod som representerar en viss färg. I den här bilden används 3 färger:
-+ c = svart
++ c = Svart
 + f = Havsblå
 + g = Himmelsblå
 
@@ -53,7 +53,7 @@ LED-matrisen är ett 8 x 8 rutnät. Varje lysdiod på nätet kan ställas in på
 --- collapse ---
 
 ---
-titel: Lista över färgvariabler
+title: Lista över färgvariabler
 ---
 
 ![Ett rutnät med 24 färgade rutor, var och en märkt med en annan bokstav i alfabetet](images/palette.png)
@@ -99,7 +99,7 @@ Du måste **kopiera** hela koden för din valda bild och sedan **klistra in** de
 --- collapse ---
 
 ---
-titel: Val
+title: Val
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en val.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-titel: Citron
+title: Citron
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en citron.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-titel: Gris
+title: Gris
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en gris.](images/pig.png)
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-titel: Storm
+title: Storm
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar ett stormmoln.](images/storm.png)
@@ -219,7 +219,7 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-titel: Anka
+title: Anka
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en anka.](images/duck.png)
@@ -251,7 +251,7 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-titel: Groda
+title: Groda
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar en groda.](images/frog.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-titel: Blomstrande träd
+title: Blomstrande träd
 ---
 
 ![Ett rutnät med 8 x 8 rutor som visar ett träd i blom.](images/blossom.png)
@@ -357,7 +357,7 @@ Min kod har ett syntaxfel:
 
 Min bild visas inte:
 
-- Kontrollera att din `sense.set_pixels(image)` inte är indragen
+- Kontrollera att din `sense.set_pixels(bild)` inte är indragen
 
 --- /task ---
 
