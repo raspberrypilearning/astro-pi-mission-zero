@@ -94,7 +94,7 @@ z = (220, 53, 232) # Fialová
 
 **Vyber:** Z možností nižšie vyber obrázok, ktorý sa má zobraziť. Program Python uloží informácie o obrázku do zoznamu. Kód pre každý obrázok obsahuje použité farebné premenné a zoznam.
 
-Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **prilepiť** do svojho projektu pod riadok s textom `# Pridajte farebné premenné a obrázok`.
+Budeš musieť **skopírovať** celý kód pre zvolený obrázok a potom ho **prilepiť** do svojho projektu pod riadok s textom `# Pridaj farebné premenné a obrázok`.
 
 --- collapse ---
 
@@ -320,7 +320,7 @@ k, k, o, n, n, n, k, k]
 
 --- task ---
 
-**Nájdite:** riadok s textom `# Zobraziť obrázok` a pridajte riadok kódu na zobrazenie obrázka na LED matrici:
+**Nájdi:** riadok s textom `# Zobraziť obrázok` a pridaj riadok kódu na zobrazenie obrázka na LED matrici:
 
 --- code ---
 ---
@@ -340,7 +340,7 @@ sense.set_pixels(image)
 
 --- task ---
 
-Stlačením tlačidla **Spustiť** v dolnej časti editora zobrazíte obrázok zobrazený na LED matrici.
+Stlačením tlačidla **Spustiť** v dolnej časti editora zobrazíš obrázok zobrazený na LED matrici.
 
 --- /task ---
 
