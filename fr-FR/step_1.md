@@ -27,7 +27,7 @@ title: Notes pour les mentor·e·s
 
 Mission Zero convient aux débutant·e·s en programmation et est recommandé aux jeunes de 9 à 16 ans. Mission Zero peut être réalisé en une seule session de 60 minutes sur n'importe quel ordinateur avec accès à Internet. Aucun matériel spécial ni aucune compétence préalable en codage ne sont nécessaires. Tout peut être réalisé dans un navigateur web.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+Mission Zero peut être réalisé individuellement ou en équipes de 4 personnes maximum.
 
 Consultez les [directives officielles](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
