@@ -16,7 +16,7 @@ steps:
     completion:
       - engaged
   - 
-    title: Nujausti spalvą
+    title: Nuskaityti spalvą
     completion:
       - internal
   - 
