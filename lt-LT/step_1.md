@@ -1,34 +1,34 @@
-## You will make
+## Jūs sukursite
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Jūs programuosite „Astro Pi“ kompiuterį, kad jis rodytų spalvingą vaizdą. Kai jūsų programa praeis oficialius kodo patikrinimus, ji bus paleista „Astro Pi“ kompiuteryje Tarptautinėje kosminėje stotyje (TKS), kad astronautai galėtų ją matyti atlikdami savo kasdienes užduotis.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+Šiame projekte sužinosite apie „Astro Pi“ kompiuterį ir kaip jį valdyti. Jūs:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Sukursite ir parodysite pikselių meno paveikslėlį „Astro Pi“ kompiuteryje
++ Naudosite jutiklį, kad aptiktumėte šviesos spalvą ir ryškumą TKS stotyje, kad pakeistumėte atvaizdą
++ Sukurkite paprastą animaciją (nebūtina)
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Štai pavyzdinė programa , kurią galite sukurti, kad ji būtų paleista „Astro Pi“ kosmose.
 
-![The Sense HAT emulator running a sample program with a snake where the background colour changes to the colour sensed.](images/finished.gif)
+![„Sense HAT“ emuliatorius leidžia pavyzdinę programą su gyvate, kurios fono spalva keičiasi į aptiktą spalvą.](images/finished.gif)
 
-### You will need
+### Jums reikės
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Savo programą rašysite ir testuosite žiniatinklio naršyklėje, tokioje kaip „Google Chrome“. Jums nereikia tikro „Astro Pi“ kompiuterio.
 
-### Astro Pi Mission Zero criteria
+### „Astro Pi Mission Zero“ kriterijai
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Kiekvienam projektui, sukurtam pagal [taisykles](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, bus suteikta „Skrydžio būsena“, kad programa galėtų būti paleista Tarptautinėje kosminėje stotyje! Jei jums pasiseks, taip pat gausite specialų pažymėjimą, kuriame bus nurodyta, kur tiksliai buvo TKS, kai jūsų programa buvo paleista kosmose.
 
 --- collapse ---
 ---
-title: Notes for mentors
+pavadinimas: Pastabos mentoriams
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser.
+„Mission Zero“ tinka pradedantiesiems programuotojams ir yra rekomenduojama 9–16 metų jaunuoliams. Ją galima atlikti per vieną 60 minučių trukmės užsiėmimą bet kuriame kompiuteryje su prieiga prie interneto. Nereikia jokios specialios aparatinės įrangos ar programavimo žinių. Viską galima padaryti žiniatinklio naršyklėje.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+ „Misson Zero“ galima vykdyti individualiai arba komandose iki 4 žmonių.
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Perskaitykite [oficialias gaires](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}, skirtas „Mission Zero“.
 
 --- /collapse ---
