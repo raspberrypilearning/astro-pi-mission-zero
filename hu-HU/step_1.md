@@ -27,7 +27,7 @@ title: Megjegyzések mentoroknak
 
 A Mission Zero alkalmas kezdő programozóknak, és 9-16 év közötti fiataloknak ajánlott. 60 perc alatt teljesíthető bármely számítógépen, amely rendelkezik internetkapcsolattal. Nincs szükség speciális hardverre vagy előzetes programozási tudásra. Minden teljesíthető egy webböngészőben.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+A Mission Zero teljesíthető egyénileg vagy maximum 4 fős csapatban.
 
 Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
