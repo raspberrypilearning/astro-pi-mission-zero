@@ -61,7 +61,7 @@ Programul tău Mission Zero poate rula pe Stația Spațială Internațională (I
 --- task ---
 
 
-**Adaugă** a doua imagine sub linia de cod `sense.set_pixels(imagine)`. Dă-i numele variabilei `image2` şi schimbă câţiva pixeli pentru a face cadrul de animaţie să arate diferit. Apoi adaugă o scurtă pauză după ea.
+**Adaugă** a doua imagine sub linia de cod `sense.set_pixels(imagine)`. Dă-i numele variabilei `imagine2` şi schimbă câţiva pixeli pentru a face cadrul de animaţie să arate diferit. Apoi adaugă o scurtă pauză după ea.
 
 --- code ---
 ---
