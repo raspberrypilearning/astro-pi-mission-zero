@@ -27,7 +27,7 @@ title: Opombe za mentorje
 
 Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Posebna strojna oprema ali predhodno znanje kodiranja nista potrebna. Vse je mogoče narediti v spletnem brskalniku.
 
- Misson Zero can be done individually or in teams of up to 4 people.
+Mission Zero can be done individually or in teams of up to 4 people.
 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
