@@ -18,7 +18,7 @@ Svoj program napíšeš a otestuješ vo webovom prehliadači, ako je napríklad 
 
 ### Kritériá pre Astro Pi Mission Zero
 
-Každý projekt, ktorý spĺňa pravidlá [](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, získa „status letu“ na spustenie na Medzinárodnej vesmírnej stanici! Ak uspeješ, dostaneš tiež špeciálne osvedčenie s presnou polohou ISS, keď bol tvoj program spustený vo vesmíre.
+Každý projekt, ktorý spĺňa [pravidlá](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, získa „status letu“ na spustenie na Medzinárodnej vesmírnej stanici! Ak uspeješ, dostaneš tiež špeciálne osvedčenie s presnou polohou ISS, keď bol tvoj program spustený vo vesmíre.
 
 --- collapse ---
 ---
@@ -27,8 +27,8 @@ title: Poznámky pre mentorov
 
 Program Mission Zero je vhodný pre začiatočníkov v programovaní a odporúča sa mladým ľuďom vo veku 9 až 16 rokov. Dá sa dokončiť v rámci jednej 60-minútovej lekcie na akomkoľvek počítači s prístupom na internet. Nie je potrebný žiadny špeciálny hardvér ani predchádzajúce znalosti programovania. Všetko sa dá urobiť vo webovom prehliadači.
 
- Program Misson Zero možno absolvovať individuálne alebo v tímoch s max. 4 členmi.
+Mission Zero can be done individually or in teams of up to 4 people.
 
-Prečítajte si [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines) pre Mission Zero.
+Prečítajte si [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pre Mission Zero.
 
 --- /collapse ---
