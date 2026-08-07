@@ -61,7 +61,7 @@ Tu programa Mission Zero puede ejecutarse en la Estación Espacial Internacional
 --- task ---
 
 
-**Añade** una segunda imagen justo debajo de ls línra de código `sense.set_pixels(image)`. Asígnale el nombre de variable `imagen2` y cambia algunos píxeles para que el fotograma de tu animación se vea diferente. Luego, añade una breve pausa.
+**Añade** una segunda imagen justo debajo de la línea de código `sense.set_pixels(image)`. Asígnale el nombre de variable `imagen2` y cambia algunos píxeles para que el fotograma de tu animación se vea diferente. Luego, añade una breve pausa.
 
 --- code ---
 ---
