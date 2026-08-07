@@ -27,7 +27,7 @@ title: Hinweise für Lehrer und Mentoren
 
 Mission Zero eignet sich für Programmieranfänger und wird für Jugendliche im Alter von 9 bis 16 Jahren empfohlen. Es kann in einer einzigen 60-minütigen Sitzung auf jedem Computer mit Internetzugang abgeschlossen werden. Es sind keine spezielle Hardware oder vorherige Programmierkenntnisse erforderlich. Alles kann in einem Webbrowser erledigt werden.
 
- Mission Zero kann einzeln oder in Teams von bis zu 4 Personen durchgeführt werden.
+Mission Zero can be done individually or in teams of up to 4 people.
 
 Lesen Sie die [offiziellen Richtlinien](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} für Mission Zero.
 
