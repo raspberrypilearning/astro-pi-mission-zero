@@ -1,6 +1,6 @@
 Importer les bibliothèques
 
-Configuer le Sense HAT
+Configurer le Sense HAT
 
 Configurer le capteur de couleurs
 
