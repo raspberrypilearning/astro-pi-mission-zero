@@ -61,7 +61,7 @@ A Mission Zero-programod legfeljebb 30 másodpercig futhat a Nemzetközi Űráll
 --- task ---
 
 
-**Adj hozzá** egy második képet közvetlenül a `sense.set_pixels(image)` kódsor alá. Add neki a `kep2` változónevet, majd változtass meg néhány pixelt, hogy máshogy nézzen ki az animáció újabb képkockája. Ezután adj hozzá egy rövid várakozást.
+**Adj hozzá** egy második képet közvetlenül a `sense.set_pixels(kep)` kódsor alá. Add neki a `kep2` változónevet, majd változtass meg néhány pixelt, hogy máshogy nézzen ki az animáció újabb képkockája. Ezután adj hozzá egy rövid várakozást.
 
 --- code ---
 ---
