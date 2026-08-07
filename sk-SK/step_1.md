@@ -27,7 +27,7 @@ title: Poznámky pre mentorov
 
 Program Mission Zero je vhodný pre začiatočníkov v programovaní a odporúča sa mladým ľuďom vo veku 9 až 16 rokov. Dá sa dokončiť v rámci jednej 60-minútovej lekcie na akomkoľvek počítači s prístupom na internet. Nie je potrebný žiadny špeciálny hardvér ani predchádzajúce znalosti programovania. Všetko sa dá urobiť vo webovom prehliadači.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+Program Mission Zero možno absolvovať individuálne alebo v tímoch s max. 4 členmi.
 
 Prečítajte si [oficiálne pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pre Mission Zero.
 
