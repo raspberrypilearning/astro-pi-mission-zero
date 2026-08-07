@@ -27,7 +27,7 @@ title: Märkused mentoritele
 
 Mission Zero sobib programmeerimise algajatele ja on soovitatav 9–16-aastastele noortele. Seda saab teha ühe 60-minutilise sessiooniga mis tahes internetiühendusega arvutis. Spetsiaalset riistvara ega eelnevaid kodeerimisoskusi pole vaja. Kõike saab teha veebibrauseris.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+Mission Zero't saab teha individuaalselt või kuni neljaliikmelistes meeskondades.
 
 Lugege Mission Zero [ametlikke juhiseid](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
