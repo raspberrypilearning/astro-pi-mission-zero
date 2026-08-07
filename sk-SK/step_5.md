@@ -1,8 +1,8 @@
 ## Čo ďalej — ďalšie projekty Astro Pi
 
-Teraz, keď ste dokončili svoju misiu, prečo nevyskúšať ďalšie projekty pomocou iných snímačov na Astro Pi?
+Teraz, keď si dokončil svoju misiu, prečo nevyskúšať ďalšie projekty pomocou iných snímačov na Astro Pi?
 
-Ak sa cítiš sebaisto, môžete sa zúčastniť na Mission Space Lab. Vytvor tím dvoch až šiestich ľudí a spolupracujte ako skutoční vesmírni vedci, aby ste navrhli svoj vlastný experiment. Všetky tímy, ktoré odošlú program spĺňajúci kritériá, budú na konci cyklu European Astro Pi Challenge pozvané na virtuálnu diskusiu s odborníkom na lety do vesmíru z ESA.
+Ak sa cítiš sebaisto, môžeš sa zúčastniť na Mission Space Lab. Vytvor tím dvoch až šiestich ľudí a spolupracujte ako skutoční vesmírni vedci, aby ste navrhli svoj vlastný experiment. Všetky tímy, ktoré odošlú program spĺňajúci kritériá, budú na konci cyklu European Astro Pi Challenge pozvané na virtuálnu diskusiu s odborníkom na lety do vesmíru z ESA.
 
 Prípadne môžeš vyskúšať jeden z našich ďalších projektov Sense HAT:
 
