@@ -10,7 +10,7 @@ Jūs programuosite „Astro Pi“ kompiuterį, kad jis rodytų spalvingą vaizd�
 
 Štai pavyzdinė programa , kurią galite sukurti, kad ji būtų paleista „Astro Pi“ kosmose.
 
-![„Sense HAT“ emuliatorius leidžia pavyzdinę programą su gyvate, kurios fono spalva keičiasi į aptiktą spalvą.](images/finished.gif)
+![„Sense HAT“ emuliatorius leidžia pavyzdinę programą su gyvate, kurios fono spalva keičiasi į nuskaitytą spalvą.](images/finished.gif)
 
 ### Jums reikės
 
