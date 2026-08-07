@@ -61,7 +61,7 @@ Ert Mission Zero-program kan köras på den internationella rymdstationen (ISS) 
 --- task ---
 
 
-**Lägg till** en andra bild precis under din `sense.set_pixels(image)` kodrad. Ge den variabelnamnet `image2` och ändra några pixlar för att få din animationsbildruta att se annorlunda ut. Lägg sedan till en kort paus efteråt.
+**Lägg till** en andra bild precis under din `sense.set_pixels(bild)` kodrad. Ge den variabelnamnet `bild2` och ändra några pixlar för att få din animationsbildruta att se annorlunda ut. Lägg sedan till en kort paus efteråt.
 
 --- code ---
 ---
@@ -120,7 +120,7 @@ Om du vill ha fler än två bildrutor i din animation måste du se till att prog
 
 Min kod har ett syntaxfel eller ändrar inte bildrutor:
 - Kontrollera att din `for` loopkod matchar indenteringen i exemplet.
-- Se till att du har döpt din andra bildmatris till `image2` och att den är placerad utanför och före loopen börjar.
+- Se till att du har döpt din andra bildmatris till `bild2` och att den är placerad utanför och före loopen börjar.
 - Kontrollera att dina `sleep-` timers är inställda på exakt `1` sekund för att undvika att överskrida den strikta gränsen på 30 sekunder på ISS.
 
 --- /task ---
