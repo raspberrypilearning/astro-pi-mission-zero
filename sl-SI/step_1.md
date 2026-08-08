@@ -1,12 +1,12 @@
 ## Izdelali boste
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Ustvarili boste program za računalnik Astro Pi, ki bo prikazal barvito sliko. Ko bo program prestal uradna preverjanja kode, se bo zagnal na računalniku Astro Pi na Mednarodni vesoljski postaji (ISS), kjer ga bodo lahko videli astronavti med opravljanjem svojih vsakodnevnih nalog.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+V tem projektu se boste seznanili z računalnikom Astro Pi in njegovim upravljanjem. Spoznali boste, kako:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Oblikovati in prikazati sliko na računalniku Astro Pi
++ Uporabiti senzor za zaznavanje barve in svetlosti na krovu ISS in spreminjati sliko
++ Ustvariti preprosto animacijo (neobvezno)
 
 Tukaj je primer programa, ki bi ga lahko naredili za Astro Pi v vesolju.
 
@@ -14,20 +14,20 @@ Tukaj je primer programa, ki bi ga lahko naredili za Astro Pi v vesolju.
 
 ### Kaj boste potrebovali
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Program boste napisali in preizkusili v spletnem brskalniku. Računalnika Astro Pi ne potrebujete.
 
 ### Kriteriji Astro Pi Mission Zero
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Vsak projekt, ki izpolnjuje [pravila](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} bo prejel status za izvajanje na Mednarodni vesoljski postaji! Če vam uspe, boste prejeli tudi posebno potrdilo, ki natančno prikazuje, kje je bila ISS, ko je vaš program deloval v vesolju.
 
 --- collapse ---
 ---
 title: Opombe za mentorje
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Posebna strojna oprema ali predhodno znanje kodiranja nista potrebna. Vse je mogoče narediti v spletnem brskalniku.
+Projekt Mission Zero je primeren za začetnike pri programiranju in je priporočen za mladostnike med 9. in 16. letom. Projekt Mission Zero lahko zaključite v eni uri na keterem koli računalniku z dostopom do interneta. Posebna strojna oprema ali predhodno znanje kodiranja nista potrebna. Vse je mogoče narediti v spletnem brskalniku.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+Mission Zero lahko izvedete individualno ali pa v skupini do štirih oseb.
 
 Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
