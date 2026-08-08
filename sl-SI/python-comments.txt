@@ -12,61 +12,61 @@ Doda barvne spremenljivke in sliko
 
 Prikaže sliko
 
-Sense a colour
+Zazna barvo
 
-Preberi barvo iz senzorja
+Prebere barvo iz senzorja
 
 Uporabi zaznano barvo
 
-Extra images / frames go here:
+Dodatne sličice gredo sem:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Ponovi 14-krat (14 * 2 sekundi = 28 sekund animacije)
 
-# Display the second image
+# Prikaže drugo sliko
 
-# Display the first image
+# Prikaže prvo sliko
 
-# BASIC SUBMISSION is done by now
+# OSNOVNA ODDAJA je zdaj končana
 
 Bela
 
-Grey
+Siva
 
 Črna
 
-Navy Blue
+Temno modra
 
-Pure Blue
+Modra
 
-Ocean Blue
+Oceansko modra
 
-Sky Blue
+Nebesno modra
 
-Electric Cyan
+Cian
 
-Pure Green
+Zelena
 
-Leaf Green
+Listnato zelena
 
-Olive Green
+Olivno zelena
 
-Forest Green
+Gozdno zelena
 
 Earth Brown
 
 Terracotta Brown
 
-Brick Red
+Opečnato rdeča
 
-Pure Red
+Rdeča
 
-Orange
+Oranžna
 
-Pale Yellow
+Bledo rumena
 
-Pure Yellow
+Rumena
 
-Pale Pink
+Bledo roza
 
 Blush Pink
 
@@ -74,6 +74,6 @@ Light Pink
 
 Magenta
 
-Purple
+Vijolična
 
 
