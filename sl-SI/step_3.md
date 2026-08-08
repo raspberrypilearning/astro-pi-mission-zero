@@ -9,9 +9,9 @@ The image you display will be made from 64 coloured squares called **pixels**. T
 ![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
 
 Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
++ c = črna
++ f = oceansko modra
++ g = nebesno modra
 
 
 --- task ---
