@@ -1,6 +1,6 @@
 ## Vis et billede
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Hver pixel kan have en forskellig farve. Ved at vælge farverne med omhu kan du skabe et billede. Her er et eksempel på en hval lavet ved hjælp af forskellige nuancer af blå på en sort baggrund.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder, der kan styres individuelt eller som en gruppe til at skabe forskellige lyseffekter. LED-matrixen på Sense HAT har 64 lysdioder viset i et 8 x 8 gitter. Lysdioderne kan programmeres til at vise et stort udvalg af farver.
