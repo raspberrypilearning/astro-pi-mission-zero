@@ -12,43 +12,43 @@ Lisää värimuuttujia ja kuva
 
 Näytä kuva
 
-Sense a colour
+Tunnista väri
 
 hae väri anturilta
 
 käytä tunnistettua väriä
 
-Extra images / frames go here:
+Lisäkuvat/ruudut tulevat tähän:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Toista 14 kertaa (14 * 2 sekuntia = 28 sekuntia animaatiota)
 
-# Display the second image
+# Näytä toinen kuva
 
-# Display the first image
+# Näytä ensimmäinen kuva
 
-# BASIC SUBMISSION is done by now
+# PERUSTYÖ on nyt tehty
 
 Valkoinen
 
-Grey
+Harmaa
 
 Musta
 
-Navy Blue
+Laivaston sininen
 
-Pure Blue
+Puhtaansininen
 
-Ocean Blue
+Merensininen
 
-Sky Blue
+Taivaansininen
 
-Electric Cyan
+Sähköinen syaani
 
-Pure Green
+Puhtaanvihreä
 
-Leaf Green
+Lehdenvihreä
 
-Olive Green
+Oliivinvihreä
 
 Forest Green
 
