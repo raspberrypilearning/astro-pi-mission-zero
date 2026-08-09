@@ -6,12 +6,12 @@ The image you display will be made from 64 coloured squares called **pixels**. T
 En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder, der kan styres individuelt eller som en gruppe til at skabe forskellige lyseffekter. LED-matrixen på Sense HAT har 64 lysdioder viset i et 8 x 8 gitter. Lysdioderne kan programmeres til at vise et stort udvalg af farver.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![et 8×8-billede af en hval med bogstaver, der angiver de forskellige farver](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Bemærk, at hvert kvadrat er mærket med en kode til at repræsentere en bestemt farve. På dette billede er der brugt 3 farver:
++ c = sort
++ f = Havblå
++ g = Himmelblå
 
 
 --- task ---
@@ -46,14 +46,14 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Farver kan laves ved hjælp af forskellige blandinger af rød, grøn og blå. Du kan lære om RGB farver her:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Tre skydere, der viser RGB-farveværdier](images/rgbsliders.gif)
 
-LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en anden farve. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en anden farve. Vi kan bruge bogstaverne a til z som navnene på variabler til at repræsentere 24 forskellige farver. Hver farve har en værdi for rød, grøn og blå.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+titel: Liste over farvevariabler
 ---
 
 ![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
