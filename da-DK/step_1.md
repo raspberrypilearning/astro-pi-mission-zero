@@ -1,6 +1,6 @@
 ## Du vil gøre
 
-You will program an Astro Pi computer to display a colourful image. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Du skal programmere en Astro Pi-computer til at vise et farverigt billede. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
 
 In this project, you will learn about the Astro Pi computer and how to control it. You will:
 
