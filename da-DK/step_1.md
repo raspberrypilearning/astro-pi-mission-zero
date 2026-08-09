@@ -1,12 +1,12 @@
 ## Du vil gøre
 
-Du skal programmere en Astro Pi-computer til at vise et farverigt billede. Once your program passes the official code checks, it will be run on an Astro Pi computer on the International Space Station (ISS) for the astronauts to see as they go about their daily tasks.
+Du skal programmere en Astro Pi-computer til at vise et farverigt billede. Når dit program har bestået den officielle kontrol af koden, bliver det kørt på en Astro Pi-computer på Den Internationale Rumstation (ISS), så astronauterne kan se det, mens de udfører deres daglige opgaver.
 
-In this project, you will learn about the Astro Pi computer and how to control it. You will:
+I dette projekt vil du lære om Astro Pi-computeren og hvordan du styrer den. Du vil:
 
-+ Design and display a pixel art image on an Astro Pi computer
-+ Use a sensor to detect the colour and brightness of light on board the ISS and change the image
-+ Create a simple animation (optional)
++ Designe og vise et pixel-kunstbillede på en Astro Pi-computer
++ Bruge en sensor til at detektere farven og lysstyrken på lyset om bord på ISS og ændre billedet
++ Oprette en simpel animation (valgfri)
 
 Her er et eksempel på den slags program, du kan lave til at køre på en Astro Pi i rummet.
 
@@ -14,7 +14,7 @@ Her er et eksempel på den slags program, du kan lave til at køre på en Astro 
 
 ### Du skal bruge
 
-You will write and test your program in a web browser such as Google Chrome. You do not need a real Astro Pi computer.
+Du skal skrive og teste dit program i en webbrowser som f. eks. Google Chrome. Du behøver ikke en rigtig Astro Pi-computer.
 
 ### Astro Pi Mission Zero kriterier
 
