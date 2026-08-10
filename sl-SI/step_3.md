@@ -6,7 +6,7 @@ Slika, ki jo boste prikazali, bo sestavljena iz 64 barvnih kvadratkov, imenovani
 <span style="color: #0faeb0">**LED matrika**</span> je mreža LED diod, ki jih je mogoče nadzorovati posamično ali kot skupino za ustvarjanje različnih svetlobnih učinkov. Matrika LED na Sense HAT ima 64 LED, postavljenih v 8x8 mrežo. Te diode je mogoče programirati za ustvarjanje širokega spektra barv.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![Slika kita velikosti 8x8 s kvadratki, ki označujejo različne barve.](images/whale.png)
 
 Vsak kvadratek je označen s kodo, ki predstavlja določeno barvo. Na tej sliki so uporabljene tri barve:
 + c = črna
@@ -46,7 +46,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Barve lahko ustvarite z različnimi razmerji rdeče, zelene in modre. O barvah RGB si lahko preberete tukaj:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Trije drsniki, ki prikazujejo barvne vrednosti RGB.](images/rgbsliders.gif)
 
 LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. Črke od a do z lahko uporabimo kot imena spremenljivk, ki predstavljajo 24 različnih barv. Vsaka barva ima vrednost za rdečo, zeleno in modro.
 
@@ -56,33 +56,33 @@ LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. �
 title: Seznam barvnih spremenljivk
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Mreža s 24 barvnimi kvadratki, kjer je vsak označen z drugo črko abecede.](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
-u = (255, 209, 209) # Pale Pink
-v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
+a = (255, 255, 255) # Bela
+b = (171, 171, 171) # Siva
+c = (0, 0, 0)       # Črna
+d = (25, 25, 113)   # Temno modra
+e = (0, 0, 255)     # Modra
+f = (36, 128, 200)  # Oceansko modra
+g = (0, 204, 255)   # Nebesno modra
+h = (86, 255, 255)  # Cian
+j = (0, 255, 0)     # Zelena
+k = (46, 139, 33)   # Listnato zelena
+l = (57, 97, 17)    # Olivno zelena
+m = (30, 65, 6)     # Gozdno zelena
+n = (126, 88, 25)   # Rjava
+o = (179, 96, 65)   # Rdečkasto rjava
+p = (180, 34, 34)   # Opečnato rdeča
+q = (255, 0, 0)     # Rdeča
+r = (232, 118, 5)   # Oranžna
+s = (241, 231, 100) # Bledo rumena
+t = (255, 255, 0)   # Rumena
+u = (255, 209, 209) # Bledo roza
+v = (255, 177, 177) # Rdečkasto roza
+w = (249, 169, 255) # Svetlo roza
 y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+z = (220, 53, 232)  # Vijolična
 
 ```
 
@@ -102,7 +102,7 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 title: Kit
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo kita.](images/whale.png)
 
 Ustvarila ekipa Naicom, Italija
 
@@ -132,7 +132,7 @@ c, g, g, g, g, c, c, c]
 title: Limona
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo limono.](images/lemon.png)
 
 Ustvarila ekipa g4lemoni, Grčija
 
@@ -160,7 +160,7 @@ c, c, c, t, t, c, c, c]
 title: Pujs
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo pujsa.](images/pig.png)
 
 Ustvaril Gary, Združeno kraljestvo
 
@@ -191,7 +191,7 @@ a, a, y, a, a, a, y, a]
 title: Nevihta
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo nevihtni oblak.](images/storm.png)
 
 Ustvarila ekipa hop2p023, Španija
 
@@ -222,7 +222,7 @@ c, g, c, c, c, c, c, c]
 title: Raca
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo raco.](images/duck.png)
 
 Ustvaril Peter, Irska
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Žaba
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo žabo.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Ustvarila ekipa Jmeno, Češka
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Cvetoče drevo
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo cvetoče drevo.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Ustvarila ekipa Zssh14, Slovaška
 
 ```python
 
