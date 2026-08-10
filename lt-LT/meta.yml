@@ -7,14 +7,19 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-- title: Jūs sukursite
-- title: Kas yra „Astro Pi“?
-- title: Rodyti vaizdą
-  completion:
-  - engaged
-- title: Nuskaityti spalvą
-  completion:
-  - internal
-- title: Kas toliau – daugiau „Astro Pi“ projektų
-  completion:
-  - external
+  - 
+    title: Jūs sukursite
+  - 
+    title: Kas yra „Astro Pi“?
+  - 
+    title: Rodyti vaizdą
+    completion:
+      - engaged
+  - 
+    title: Nuskaityti spalvą
+    completion:
+      - internal
+  - 
+    title: Kas toliau – daugiau „Astro Pi“ projektų
+    completion:
+      - external
