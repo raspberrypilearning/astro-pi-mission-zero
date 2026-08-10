@@ -26,7 +26,7 @@ Gentag 14 gange (14 * 2 sekunder = 28 sekunders animation i alt)
 
 # Vis det første billede
 
-# BASIC SUBMISSION is done by now
+# DEN GRUNDLÆGGENDE INDSENDELSE er nu færdig
 
 Hvid
 
