@@ -12,68 +12,38 @@ Lägg till färgvariabler och bild
 
 Visa bilden
 
-Känn av en färg
+Svart
+
+Vit
+
+Mörkorange
+
+Mörkgrå
+
+Gulgrön
+
+Gul
+
+Mörkorange
+
+Midnattsblå
+
+Skogsgrön
+
+Blåklintblå
+
+Röd
+
+Vårgrön
+
+Mediumblå
+
+Dimgrå
+
+Mörkorkidé
 
 hämta färgen från sensorn
 
 använd den avkända färgen
 
-Extra bilder/ramar finns här:
-
-Loopa 14 gånger (14 * 2 sekunder = 28 sekunder total animation)
-
-# Visa den andra bilden
-
-# Visa den första bilden
-
-# GRUNDINLÄMNINGEN är nu klar
-
-Vit
-
-Grå
-
-Svart
-
-Marinblå
-
-Ren blå
-
-Havsblå
-
-Himmelsblå
-
-Elektrisk Cyan
-
-Ren grön
-
-Bladgrön
-
-Olivgrön
-
-Skogsgrön
-
-Jordbrun
-
-Terrakottabrun
-
-Tegelröd
-
-Ren röd
-
-Orange
-
-Ljusgul
-
-Ren gul
-
-Blekrosa
-
-Rosig rosa
-
-Ljusrosa
-
-Magenta
-
-Lila
-
-
+välj dina egna röda, gröna, blå värden mellan 0 - 255

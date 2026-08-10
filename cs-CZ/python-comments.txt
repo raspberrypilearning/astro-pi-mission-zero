@@ -12,68 +12,38 @@ Přidej proměnné s barvami a obrázek
 
 Zobraz obrázek
 
-Získej hodnoty ze senzoru
+Černá
+
+Bílá
+
+Tmavě oranžová
+
+Tmavě šedá
+
+Žlutozelená
+
+Žlutá
+
+Tmavě oranžová
+
+Půlnoční modrá
+
+Lesní zelená
+
+Chrpově modrá
+
+Červená
+
+Jarní zelená
+
+Středně modrá
+
+Tlumeně šedá
+
+Tmavá orchidej
 
 Získej barvu ze senzoru
 
 Použij barvu naměřenou ze senzoru
 
-Další obrázky/snímky budou zde:
-
-Smyčka 14krát (14 * 2 sekundy = 28 sekund celkové doby animace)
-
-# Zobraz druhý obrázek
-
-# Zobraz první obrázek
-
-# ZÁKLAD PRO PŘIHLÁŠKU je nyní hotový
-
-Bílá
-
-Šedá
-
-Černá
-
-Námořnická modrá
-
-Čistě modrá
-
-Oceánská modř
-
-Nebesky modrá
-
-Elektrická modrozelená
-
-Čistě zelená
-
-Listově zelená
-
-Olivově zelená
-
-Lesní zelená
-
-Hnědá hlína
-
-Hnědá terakota
-
-Cihlově červená
-
-Čistě červená
-
-Oranžová
-
-Bledě žlutá
-
-Čistě žlutá
-
-Bledě růžová
-
-Růžová tvářenka
-
-Světle růžová
-
-Purpurová
-
-Fialová
-
-
+Vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255

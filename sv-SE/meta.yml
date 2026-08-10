@@ -7,19 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Du kommer göra
-  - 
-    title: Vad är en Astro Pi?
-  - 
-    title: Visa en bild
+  - title: Du kommer göra
+  - title: Vad är en Astro Pi?
+  - title: Visa en bild
     completion:
       - engaged
-  - 
-    title: Känn en färg
+  - title: Känn en färg
     completion:
       - internal
-  - 
-    title: 'Vad kommer sen: fler Astro Pi-projekt'
+  - title: 'Vad kommer sen: fler Astro Pi-projekt'
     completion:
       - external

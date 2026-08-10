@@ -1,79 +1,39 @@
 Importer les bibliothèques
 
-Configurer le Sense HAT
+Configuer le Sense HAT
 
 Configurer le capteur de couleurs
 
 Régler la sensibilité du capteur
 
-L'intervalle auquel la lecture sera effectuée
+L'intervalle auquel la mesure est effectuée
 
 Ajouter des variables de couleur et une image
 
 Afficher l'image
 
-Détecter une couleur
+Blanc
+
+Noir
+
+Bleu moyen
+
+Jaune
+
+Orange foncé
+
+Rose
+
+Vert forêt
+
+Rose foncé
+
+Rouge
+
+Bleu nuit
 
 obtenir la couleur du capteur
 
 utiliser la couleur détectée
 
-Images/frames supplémentaires à insérer ici :
-
-Répéter 14 fois (14 * 2 secondes = 28 secondes d'animation au total)
-
-# Afficher la deuxième image
-
-# Afficher la première image
-
-# LA SOUMISSION DE BASE est terminée
-
-Blanc
-
-Gris
-
-Noir
-
-Bleu marine
-
-Bleu pur
-
-Bleu océan
-
-Bleu ciel
-
-Cyan électrique
-
-Vert pur
-
-Vert feuille
-
-Vert olive
-
-Vert forêt
-
-Brun terre
-
-Brun terracotta
-
-Rouge brique
-
-Rouge pur
-
-Orange
-
-Jaune pâle
-
-Jaune pur
-
-Rose pâle
-
-Rose poudré
-
-Rose clair
-
-Magenta
-
-Violet
-
-
+choisis tes propres valeurs de rouge, vert et bleu entre 0 et 255

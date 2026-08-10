@@ -7,19 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Čo urobíš
-  - 
-    title: Čo je Astro Pi?
-  - 
-    title: Zobrazenie obrázka
+  - title: Čo urobíš
+  - title: Čo je Astro Pi?
+  - title: Zobrazenie obrázka
     completion:
       - engaged
-  - 
-    title: Nasnímanie farby
+  - title: Nasnímanie farby
     completion:
       - internal
-  - 
-    title: Čo ďalej — ďalšie projekty Astro Pi
+  - title: Čo ďalej — ďalšie projekty Astro Pi
     completion:
       - external

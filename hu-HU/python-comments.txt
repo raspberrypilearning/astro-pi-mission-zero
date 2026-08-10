@@ -12,68 +12,38 @@ Színváltozók és kép hozzáadása
 
 Kép megjelenítése
 
-Érzékelj egy színt
+Black (fekete)
+
+White (fehér)
+
+Sötét narancssárga
+
+Sötétszürke
+
+YellowGreen (sárgászöld)
+
+Yellow (sárga)
+
+DarkOrange (narancssárga)
+
+MidnightBlue (éjkék)
+
+ForestGreen (sötétzöld)
+
+CornflowerBlue (búzavirágkék)
+
+Red (piros)
+
+SpringGreen (élénkzöld)
+
+MediumBlue (kék)
+
+DimGray (sötétszürke)
+
+DarkOrchid (lila)
 
 szín lekérése az érzékelőtől
 
 az érzékelt szín használata
 
-A további képek / képkockák ide kerülnek:
-
-Ismételd 14-szer (14 * 2 másodperc = 28 másodperc összesen az animációnak)
-
-# A második kép megjelenítése
-
-# Az első kép megjelenítése
-
-# Az EGYSZERŰ PÁLYAMŰ itt elkészült
-
-White (fehér)
-
-Grey (szürke)
-
-Black (fekete)
-
-Navy Blue (sötétkék)
-
-Pure Blue (tiszta kék)
-
-Ocean Blue (óceánkék)
-
-Sky Blue (égkék)
-
-Electric Cyan (ciánkék)
-
-Pure Green (tiszta zöld)
-
-Leaf Green (levélzöld)
-
-Olive Green (olajzöld)
-
-Forest Green (sötétzöld)
-
-Earth Brown (barna)
-
-Terracotta Brown (világosbarna)
-
-Brick Red (sötétvörös)
-
-Pure Red (tiszta vörös)
-
-Orange (narancs)
-
-Pale Yellow (halványsárga)
-
-Pure Yellow (sárga)
-
-Pale Pink (halvány rózsaszín)
-
-Blush Pink (rózsaszín)
-
-Light Pink (világoslila)
-
-Magenta (lila)
-
-Purple (sötétlila)
-
-
+válassz saját vörös, zöld és kék értéket 0 és 255 között

@@ -1,18 +1,12 @@
 ## Vise et bilde
 
-Bildet du viser, vil bestå av 64 fargede firkanter kalt **piksler**. Pikslene er ordnet i et rutenett på 8x8 ruter. Hver piksel kan ha en egen farge. Ved å velge fargene nøye kan du skape et bilde. Her er et eksempel på en hval laget med forskjellige nyanser av blått på svart bakgrunn.
+Astro Pi-matrisen kan vise farger. I dette trinnet vises bilder fra naturen på Astro Pi's LED-matrise.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 En <span style="color: #0faeb0">**LED-matrise**</span> er et rutenett av LED-pærer som kan styres individuelt eller som en gruppe for å skape forskjellige lyseffekter. LED-matrisen på Sense HAT har 64 LED'er som vises i 8 x 8 rutenett. LED-pærene kan programmeres til å produsere en lang rekke farger.
 </p>
 
-![et 8x8 felt stort bilde av en hval med bokstaver som markerer forskjellige farger](images/whale.png)
-
-Legg merke til at hver rute er merket med en kode som representerer en bestemt farge. I dette bildet er det brukt 3 farger:
-+ c = svart
-+ f = havblå
-+ g = himmelblå
-
+![Et skjermbilde av emulatorvinduet som viser Flight Unit med LED-matrisen som viser et bilde av en blomst.](images/fu-pic.png)
 
 --- task ---
 
@@ -28,14 +22,14 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 
+line_highlights:
 ---
 # Importer bibliotekene
-from sense_hat import SenseHat
+from sense_hat import SenseHat 
 from time import sleep
 
 # Sett opp Sense HAT
-sense = SenseHat()
+sense = SenseHat() 
 sense.set_rotation(270)
 
 # Sett opp fargesensoren
@@ -52,47 +46,11 @@ sense.color.integration_cycles = 64 # Intervallet som avlesningens skal utføres
 
 Farger kan lages ved hjelp av ulike deler av rød, grønn og blå. Du kan finne ut om RGB farger her:
 
-![Tre glidebrytere som viser RGB-fargeverdier](images/rgbsliders.gif)
+[[[generic-theory-simple-colours]]]
 
-LED-matrisen er et 8 x 8-rutenett. Hver LED på rutenettet kan settes til en annen farge. Vi kan bruke bokstavene a til å som navn på variabler for å representere 24 forskjellige farger. Hver farge har en verdi for rød, grønn og blå.
+LED-matrisen er et 8 x 8-rutenett. Hver LED på rutenettet kan settes til en annen farge. Her er en liste over variabler for 24 forskjellige farger. Hver farge har en verdi for rød, grønn og blå:
 
---- collapse ---
-
----
-tittel: Liste over fargevariabler
----
-
-![Et rutenett med 24 fargede firkanter, hver merket med en egen bokstav](images/palette.png)
-
-```python
-a = (255, 255, 255) # Hvit
-b = (171, 171, 171) # Grå
-c = (0, 0, 0) # Svart
-d = (25, 25, 113) # Marineblå
-e = (0, 0, 255) # Ren blå
-f = (36, 128, 200) # Havblå
-g = (0, 204, 255) # Himmelblå
-h = (86, 255, 255) # Elektrisk cyan
-j = (0, 255, 0) # Ren grønn
-k = (46, 139, 33) # Bladgrønn
-l = (57, 97, 17) # Olivengrønn
-m = (30, 65, 6) # Skoggrønn
-n = (126, 88, 25) # Jordbrun
-o = (179, 96, 65) # Terrakottabrun
-p = (180, 34, 34) # Mursteinsrød
-q = (255, 0, 0) # Ren rød
-r = (232, 118, 5) # Oransje
-s = (241, 231, 100) # Blekgul
-t = (255, 255, 0) # Ren gul
-u = (255, 209, 209) # Blekrosa
-v = (255, 177, 177) # Blush-rosa
-w = (249, 169, 255) # Lys rosa
-y = (248, 97, 255) # Magenta
-z = (220, 53, 232) # Lilla
-
-```
-
---- /collapse ---
+[[[ambient-colours]]]
 
 ### Velg et bilde
 
@@ -105,27 +63,28 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-tittel: Hval
+title: Fisk
 ---
 
-![Et rutenett med 8 x 8 ruter som viser en hval.](images/whale.png)
+![Et rutenett med 8 x 8 ruter som viser en fisk.](images/fish.png)
 
-Laget av team Naicom fra Italia
+Laget av Team Chalka fra Polen
 
 ```python
-c = (0, 0, 0)       # Svart
-f = (36, 128, 200)  # Havblå
-g = (0, 204, 255)   # Himmelblå
+z = (153, 50, 204) # Mørk orkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
+c = (0, 0, 0) # Svart
 
 bilde = [
-c, g, c, g, c, c, c, c,
-c, c, g, c, c, f, f, f,
-c, f, f, f, c, c, f, a,
-f, f, c, f, f, c, f, c,
-f, f, f, f, f, c, f, c,
-g, f, f, f, f, f, f, c,
-g, g, g, g, g, g, c, c,
-c, g, g, g, g, c, c, c]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
 ```
 
@@ -135,121 +94,91 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-tittel: Sitron
+title: Hvalross
 ---
 
-![Et rutenett med 8 x 8 ruter som viser en sitron.](images/lemon.png)
+![Et rutenett med 8 x 8 ruter som viser en hvalross.](images/walrus.png)
 
-Laget av team g4lemoni fra Hellas
+Laget av Team Walrus fra Finland
 
 ```python
-c = (0, 0, 0)       # Svart
-k = (46, 139, 33)   # Bladgrønn
-t = (255, 255, 0)   # Ren gul
-
-bilde = [
-c, c, c, k, k, c, c, c,
-c, c, k, c, k, c, c, c,
-c, k, c, t, t, c, c, c,
-c, c, t, t, t, t, c, c,
-c, c, t, t, t, t, c, c,
-c, c, t, t, t, t, c, c,
-c, c, t, t, t, t, c, c,
-c, c, c, t, t, c, c, c]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-tittel: Gris
----
-
-![Et rutenett med 8 x 8 ruter som viser en gris.](images/pig.png)
-
-Laget av Gary fra Storbritannia
-
-```python
+h = (0, 255, 255) # Cyan
+c = (0, 0, 0) # Svart
+s = (139, 69, 19) # Lærbrun
 a = (255, 255, 255) # Hvit
-v = (255, 177, 177) # Blush-rosa
-y = (248, 97, 255)  # Magenta
-o = (179, 96, 65)   # Terrakottabrun
-c = (0, 0, 0)       # Svart
+r = (184, 134, 11) # Mørk gullris
 
 bilde = [
-a, a, y, a, a, y, a, a,
-a, y, y, y, y, y, y, a,
-a, y, c, y, c, y, y, y,
-v, v, v, v, v, y, y, y,
-v, o, v, o, v, y, y, y,
-v, v, v, v, v, y, y, y,
-a, y, y, y, y, y, y, y,
-a, a, y, a, a, a, y, a]
+h, h, h, h, h, h, h, h,
+h, h, s, s, s, h, h, h,
+h, s, s, s, s, s, h, h,
+h, s, c, s, c, s, s, s,
+h, r, r, r, r, r, s, s,
+h, h, a, s, a, s, s, s,
+h, h, a, s, a, s, s, s,
+r, r, s, s, s, s, s, s]
 
 ```
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
-tittel: Storm
+title: Paxi
 ---
 
-![Et rutenett med 8 x 8 ruter som viser en stormsky.](images/storm.png)
+![Et rutenett med 8 x 8 ruter som viser Paxi.](images/paxi.png)
 
-Laget av team hop2p023 fra Spania
+Laget av team tony_pi fra Italia
 
 ```python
-
-c = (0, 0, 0)       # Svart
-f = (36, 128, 200)  # Havblå
-g = (0, 204, 255)   # Himmelblå
-t = (255, 255, 0)   # Ren gul
+v = (255, 0, 0) # Rød
+m = (34, 139, 34) # Skogsgrønn
+c = (0, 0, 0) # Svart
+e = (100, 149, 237) # Kornblomstblå
+l = (0, 255, 0) # Grønn
 
 bilde = [
-c, c, c, c, c, c, c, c,
-c, c, f, f, f, f, c, c,
-c, f, f, f, f, f, f, c,
-c, g, c, g, t, g, c, c,
-c, c, c, t, t, c, c, c,
-c, c, t, t, c, c, c, c,
-c, c, g, c, c, c, c, g,
-c, g, c, c, c, c, c, c]
-
+    c, v, m, c, c, m, v, c,
+    c, c, v, v, v, v, c, c,
+    c, v, c, e, l, e, v, c,
+    c, v, c, l, l, l, v, c,
+    c, v, c, l, c, l, v, c,
+    c, c, v, v, v, v, c, c,
+    c, c, l, c, c, l, c, c,
+    c, m, m, c, c, m, m, c]
 
 ```
 
 --- /collapse ---
 
+
 --- collapse ---
 ---
-tittel: And
+title: Hund
 ---
 
-![Et rutenett med 8 x 8 ruter som viser en and.](images/duck.png)
+![Et rutenett med 8 x 8 ruter som viser et hundehode.](images/dog.png)
 
-Laget av Peter fra Irland
+Laget av Team ptpr_07 fra Spania
 
 ```python
 
 c = (0, 0, 0) # Svart
-l = (57, 97, 17)    # Olivengrønn
-m = (30, 65, 6)     # Skoggrønn
-r = (232, 118, 5)   # Oransje
-a = (255, 255, 255) # Hvit
-b = (171, 171, 171) # Grå
+r = (184, 134, 11) # Mørk gullris
+s = (139, 69, 19) # Lærbrun
+y = (255, 20, 147) # Dyprosa
 
 bilde = [
-c, l, l, c, c, c, c, c,
-r, r, m, c, c, c, c, c,
-c, l, l, c, c, c, c, c,
-c, a, a, l, a, a, c, c,
-c, l, l, a, a, a, b, a,
-c, a, a, b, b, b, a, a,
-c, c, a, a, a, a, c, c,
-c, c, c, r, c, r, c, c]
+    c, r, r, c, c, r, r, c,
+    c, r, s, s, s, s, r, c,
+    c, r, c, s, s, c, r, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, s, s, s, s, c,
+    c, s, s, c, c, s, s, c,
+    c, c, s, y, y, s, c, c,
+    c, c, c, y, y, c, c, c]
+
 
 ```
 
@@ -257,32 +186,35 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-tittel: Frosk
+title: Kameleon
 ---
 
-![Et rutenett med 8 x 8 ruter som viser en frosk.](images/frog.png)
+![Et rutenett med 8 x 8 ruter som viser en regnbuefarget kameleon.](images/chameleon.png)
 
-Laget av team Jmeno fra Tsjekkia
+Laget av Team The_ETs fra Storbritannia
 
 ```python
 
+c = (0, 0, 0) # Svart
+s = (139, 69, 19) # Lærbrun
 a = (255, 255, 255) # Hvit
-b = (171, 171, 171) # Grå
-c = (0, 0, 0)       # Svart
-q = (255, 0, 0)     # Ren rød
-j = (0, 255, 0)     # Ren grønn
-k = (46, 139, 33)   # Bladgrønn
-n = (126, 88, 25)   # Jordbrun
+v = (255, 0, 0) # Rød
+t = (255, 140, 0) # Mørk oransje
+q = (255, 255, 0) # Gul
+m = (34, 139, 34) # Skogsgrønn
+h = (0, 255, 255) # Cyan
+z = (153, 50, 204) # Mørk orkidé
+y = (255, 20, 147) # Dyprosa
 
 bilde = [
-a, a, a, a, a, a, a, a,
-a, a, a, a, a, b, a, b,
-a, a, a, a, a, a, c, a,
-a, a, c, a, c, a, q, a,
-a, a, j, j, j, q, a, a,
-a, j, j, k, q, a, a, a,
-j, k, j, k, k, a, a, a,
-k, k, k, j, k, n, n, n]
+    a, a, v, v, t, a, a, a,
+    a, v, v, t, t, q, a, a,
+    v, c, t, t, q, q, m, a,
+    v, t, t, q, q, m, m, h,
+    s, s, q, s, s, m, s, h,
+    a, a, a, a, a, a, a, z,
+    a, a, a, a, y, a, a, z,
+    a, a, a, a, a, y, z, a]
 
 ```
 
@@ -290,33 +222,62 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-tittel: Blomstrende tre
+title: Drage
 ---
 
-![Et rutenett med 8 x 8 ruter som viser et blomstrende tre.](images/blossom.png)
+![Et rutenett med 8 x 8 ruter som viser en drage.](images/kite.png)
 
-Laget av team Zssh14 fra Slovakia
+Laget av Team Val fra Hellas
 
 ```python
 
-t = (255, 255, 0)   # Ren gul
-g = (0, 204, 255)   # Himmelblå
-w = (249, 169, 255) # Lyserosa
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Lilla
-n = (126, 88, 25)   # Jordbrun
-o = (179, 96, 65)   # Terrakottabrun
-k = (46, 139, 33)   # Bladgrønn
+c = (0, 0, 0) # Svart
+m = (34, 139, 34) # Skogsgrønn
+v = (255, 0, 0) # Rød
+q = (255, 255, 0) # Gul
+e = (0, 0, 205) # Mellomblå
+h = (0, 255, 255) # Cyan
 
-image =  [
-t, g, g, w, w, y, g, g,
-g, g, w, w, y, y, z, g,
-g, w, y, z, y, z, z, z,
-w, y, z, z, g, n, w, g,
-g, g, o, o, n, w, y, z,
-g, g, g, g, n, g, g, g,
-g, g, g, o, n, n, g, g,
-k, k, o, n, n, n, k, k]
+bilde = [
+    h, h, h, h, h, h, h, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, e, e, v, v, h, 
+    h, h, h, q, q, m, m, h, 
+    h, h, h, q, q, m, m, h,
+    h, h, c, h, h, h, h, h, 
+    h, c, h, h, h, h, h, h, 
+    c, h, h, h, h, h, h, h]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Høne
+---
+
+![Et rutenett med 8 x 8 ruter som viser en kylling.](images/chicken.png)
+
+Laget av Team Slepicky fra Tsjekkia
+
+```python
+
+v = (255, 0, 0) # Rød
+c = (0, 0, 0) # Svart
+b = (105, 105, 105) # Blekgrå
+q = (255, 255, 0) # Gul
+r = (184, 134, 11) # Mørk gullris
+
+bilde =  [
+    c, c, v, v, v, c, c, c,
+    c, v, b, b, r, c, c, r,
+    c, b, c, b, b, c, r, b,
+    q, r, b, b, b, b, b, r,
+    c, v, b, b, b, b, r, b,
+    c, v, b, r, r, r, b, r,
+    c, c, c, r, b, q, r, c,
+    c, c, c, c, q, q, c, c]
 
 ```
 
@@ -334,23 +295,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 17, 18
+line_highlights: 18, 19
 ---
-c = (0, 0, 0)       # Svart
-f = (36, 128, 200)  # Havblå
-g = (0, 204, 255)   # Himmelblå
+z = (153, 50, 204) # Mørk orkidé
+q = (255, 255, 0) # Gul
+d = (51, 153, 255) # Blå
+c = (0, 0, 0) # Svart
 
 bilde = [
-c, g, c, g, c, c, c, c,
-c, c, g, c, c, f, f, f,
-c, f, f, f, c, c, f, a,
-f, f, c, f, f, c, f, c,
-f, f, f, f, f, c, f, c,
-g, f, f, f, f, f, f, c,
-g, g, g, g, g, g, c, c,
-c, g, g, g, g, c, c, c]
+d, d, z, d, d, d, d, d,
+d, d, d, z, z, d, d, d,
+z, d, q, q, q, q, d, d,
+z, z, q, q, q, c, q, d,
+z, z, z, q, q, q, q, d,
+z, z, q, q, q, q, q, d,
+z, d, q, z, z, q, d, d,
+d, d, d, z, d, d, d, d]
 
-# Vis bildet
+# Vis bildet 
 sense.set_pixels(bilde)
 
 --- /code ---
@@ -387,6 +349,6 @@ Bildet mitt vises ikke:
 
 Nå som du har vist et bilde, kan du lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Lagreknappen for Mission Zero.](images/mz_savebutton_v2.png)
+![Lagreknappen for Mission Zero.](images/savebutton_no.png)
 
 --- /task --- 

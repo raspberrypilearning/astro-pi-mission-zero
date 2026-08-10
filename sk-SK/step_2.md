@@ -1,13 +1,15 @@
 ## Čo je Astro Pi?
 
-Astro Pi je počítač Raspberry Pi špeciálne navrhnutý na fungovanie vo vesmíre.
+Astro Pi je počítač Raspberry Pi zapuzdrený krytom špeciálne navrhnutým pre podmienky vo vesmíre.
 
 ![Animovaný obrázok modulu Sense HAT pripevneného k hornej časti počítača Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Počítače Astro Pi majú niekoľko senzorov nazývaných „Sense HAT“, ktoré môžu mladí ľudia používať na vykonávanie vedeckých experimentov. Senzor je niečo, čo dokáže detegovať alebo merať, čo sa deje okolo neho. Senzory na Sense Hat dokážu merať napríklad farbu a jas objektov pred ním. Sense Hat obsahuje aj LED matricu s rozmermi 8 x 8, ktorá dokáže zobrazovať jednoduché obrázky a informácie.
+Počítače Astro Pi obsahujú modul so snímačmi a zariadeniami, ktoré umožňujú vykonávať veľké vedecké experimenty. Tento modul snímačov sa nazýva „Sense HAT“ (čo znamená „Hardvér pripojený navrchu“). Modul Sense HAT umožňuje počítaču Astro Pi „snímať“ a vykonávať mnoho druhov meraní, od teploty po pohyb, a odosielať informácie pomocou 8 x 8 LED maticového displeja. Počítač Astro Pi má tiež joystick a tlačidlá, rovnako ako videoherná konzola!
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**LED matrica**</span> je mriežka LED diód, ktoré možno ovládať jednotlivo alebo ako skupinu a vytvárať tak rôzne svetelné efekty. LED matrica na module Sense HAT má 64 LED diód zobrazených v mriežke 8 x 8. LED diódy sa dajú naprogramovať tak, aby produkovali širokú škálu farieb.
-</p>
+![Animovaný obrázok Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
 
-![obrázok veľryby s rozmermi 8x8 pixelov](images/whaleblank.png)
+Pre túto misiu budeš používať emulátor modulu Sense HAT, ktorý simuluje hlavné funkcie počítača Astro Pi vo webovom prehliadači.
+
+
+
+
