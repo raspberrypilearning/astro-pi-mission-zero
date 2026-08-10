@@ -1,10 +1,10 @@
 ## Registrer en farve
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+I dette trin skal du konfigurere farve- og lysstyrkesensoren. Du skal bruge denne sensor til at måle mængden af rødt, grønt og blåt lys, der rammer sensoren. Disse værdier bruges derefter til at ændre en af farverne i det billede, du har valgt.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Det betyder, at billedet kan ændre sig afhængigt af, hvad sensoren ser. For eksempel ville en astronaut iført en blå skjorte se en anden version af billedet end en astronaut iført en rød skjorte.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+På hvalbilledet, som vi brugte i det forrige trin, var baggrundsfarven sort. Vi brugte variablen `c` til at gemme dens RGB farvekode:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Brug farvesensoren til at ændre en af dine farver.
 
-Underneath the lines where you define the colours, add the following code:
+Under linjerne, hvor du definerer farverne, skal du tilføje følgende kode:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Denne kode erstatter RGB-værdierne gemt i `c` med værdierne for den farve, der registreres af sensoren.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Tip: Hvis du ikke brugte variablen `c` i dit eget billede, erstatte `c` med en af de farver, du har brugt. Dette vil gøre det muligt for sensoren at ændre denne farve i stedet.
 
 --- task ---
 
@@ -47,21 +47,21 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Nu har du vist et billede og registreret en farve og brugt den i dit program og din kode er klar til indsendelse! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Du kan gemme og indsende dit program ved hjælp af formularen i bunden af kodeeditoren.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Du kan dog vælge at tilføje flere billeder til dit projekt eller gøre det mere levende med animation. De næste trin viser dig, hvordan du gør dette.
 </p>
 
-## Animate your project (optional)
+## Animér dit projekt (valgfrit)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Dit Mission Zero-program kan køre på den internationale rumstation (ISS) i op til 30 sekunder. Du kan bruge denne køretid til at vise en animation på LED-matrixen ved at skifte mellem to eller flere forskellige billeder.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Tilføj** et andet billede lige under kodelinjen `sense.set_pixels(image)`. Giv det variabelnavnet `billede2` og ændr nogle få pixels, så dette billede i animationen ser anderledes ud. Tilføj derefter en kort pause efter det.
 
 --- code ---
 ---
