@@ -1,6 +1,6 @@
 ## Prikažite sliko
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Slika, ki jo boste prikazali, bo sestavljena iz 64 barvnih kvadratkov, imenovanih **slikovnih pik (pikslov)**. Piksli so razporejeni v 8x8 mreži. Vsak piksel je lahko drugačne barve. Z natančno izbiro barv lahko ustvarite sliko. Tukaj je primer slike kita, ustvarjene iz različnih odtenkov modre na črnem ozadju.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED matrika**</span> je mreža LED diod, ki jih je mogoče nadzorovati posamično ali kot skupino za ustvarjanje različnih svetlobnih učinkov. Matrika LED na Sense HAT ima 64 LED, postavljenih v 8x8 mrežo. Te diode je mogoče programirati za ustvarjanje širokega spektra barv.
@@ -8,7 +8,7 @@ The image you display will be made from 64 coloured squares called **pixels**. T
 
 ![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
+Vsak kvadratek je označen s kodo, ki predstavlja določeno barvo. Na tej sliki so uporabljene tri barve:
 + c = črna
 + f = oceansko modra
 + g = nebesno modra
@@ -48,12 +48,12 @@ Barve lahko ustvarite z različnimi razmerji rdeče, zelene in modre. O barvah R
 
 ![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. Črke od a do z lahko uporabimo kot imena spremenljivk, ki predstavljajo 24 različnih barv. Vsaka barva ima vrednost za rdečo, zeleno in modro.
 
 --- collapse ---
 
 ---
-title: List of Colour Variables
+title: Seznam barvnih spremenljivk
 ---
 
 ![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
@@ -99,12 +99,12 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 --- collapse ---
 
 ---
-title: Whale
+title: Kit
 ---
 
 ![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Created by Team Naicom, Italy
+Ustvarila ekipa Naicom, Italija
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Limona
 ---
 
 ![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Ustvarila ekipa g4lemoni, Grčija
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Pujs
 ---
 
 ![A grid with 8 x 8 squares showing a pig.](images/pig.png)
 
-Created by Gary, United Kingdom
+Ustvaril Gary, Združeno kraljestvo
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Nevihta
 ---
 
 ![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Created by team hop2p023, Spain
+Ustvarila ekipa hop2p023, Španija
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Raca
 ---
 
 ![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Created by Peter, Ireland
+Ustvaril Peter, Irska
 
 ```python
 
