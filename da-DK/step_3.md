@@ -1,6 +1,6 @@
 ## Vis et billede
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Hver pixel kan have en forskellig farve. Ved at vælge farverne med omhu kan du skabe et billede. Her er et eksempel på en hval lavet ved hjælp af forskellige nuancer af blå på en sort baggrund.
+Det billede, du viser, består af 64 farvede felter, der kaldes **pixels**. Pixlerne er placeret i et 8 × 8-gitter. Hver pixel kan have en forskellig farve. Ved at vælge farverne med omhu kan du skabe et billede. Her er et eksempel på en hval lavet ved hjælp af forskellige nuancer af blå på en sort baggrund.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder, der kan styres individuelt eller som en gruppe til at skabe forskellige lyseffekter. LED-matrixen på Sense HAT har 64 lysdioder viset i et 8 x 8 gitter. Lysdioderne kan programmeres til at vise et stort udvalg af farver.
@@ -56,33 +56,33 @@ LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en an
 titel: Liste over farvevariabler
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Et gitter med 24 farvede felter, der hver er mærket med et forskelligt bogstav i alfabetet](images/palette.png)
 
 ```python
-a = (255, 255, 255) # White
-b = (171, 171, 171) # Grey
-c = (0, 0, 0)       # Black
-d = (25, 25, 113)   # Navy Blue
-e = (0, 0, 255)     # Pure Blue
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
-h = (86, 255, 255)  # Electric Cyan
-j = (0, 255, 0)     # Pure Green
-k = (46, 139, 33)   # Leaf Green
-l = (57, 97, 17)    # Olive Green
-m = (30, 65, 6)     # Forest Green
-n = (126, 88, 25)   # Earth Brown
-o = (179, 96, 65)   # Terracotta Brown
-p = (180, 34, 34)   # Brick Red
-q = (255, 0, 0)     # Pure Red
-r = (232, 118, 5)   # Orange
-s = (241, 231, 100) # Pale Yellow
-t = (255, 255, 0)   # Pure Yellow
+a = (255, 255, 255) # hvid
+b = (171, 171, 171) # Grå
+c = (0, 0, 0) # Sort
+d = (25, 25, 113) # Navy Blue
+e = (0, 0, 255) # Pure Blue
+f = (36, 128, 200) # Ocean Blue
+g = (0, 204, 255) # Sky Blue
+h = (86, 255, 255) # Electric Cyan
+j = (0, 255, 0) # Ren grøn
+k = (46, 139, 33) # Leaf Green
+l = (57, 97, 17) # Olivengrøn
+m = (30, 65, 6) # Forest Green
+n = (126, 88, 25) # Earth Brown
+o = (179, 96, 65) # Terrakotta Brown
+p = (180, 34, 34) # Mursten rød
+q = (255, 0, 0) # Ren Rød
+r = (232, 118, 5) # Orange
+s = (241, 231, 100) # Bleggul
+t = (255, 255, 0) # Pure Yellow
 u = (255, 209, 209) # Pale Pink
 v = (255, 177, 177) # Blush Pink
-w = (249, 169, 255) # Light Pink
-y = (248, 97, 255)  # Magenta
-z = (220, 53, 232)  # Purple
+w = (249, 169, 255) # Lyserød
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Lilla
 
 ```
 
@@ -99,12 +99,12 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Whale
+titel: Hvale
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Et gitter med 8 x 8 felter, der viser en hval.](images/whale.png)
 
-Created by Team Naicom, Italy
+Lavet af Team Naicom, Italien
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+titel: Citron
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Et gitter med 8 × 8 felter, der viser en citron.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Lavet af Team 4lemoni, Grækenland
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+titel: Gris
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Et gitter med 8 × 8 felter, der viser en gris.](images/pig.png)
 
-Created by Gary, United Kingdom
+Lavet af Gary, Storbritannien
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+titel: Storm
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Et gitter med 8 × 8 felter, der viser en stormsky.](images/storm.png)
 
-Created by team hop2p023, Spain
+Lavet af Team hop2p023, Spanien
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+titel: And
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Et gitter med 8 × 8 felter, der viser en and.](images/duck.png)
 
-Created by Peter, Ireland
+Lavet af Pater, Irland
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+titel: Frø
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Et gitter med 8 × 8 felter, der viser en frø.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Lavet af Team Jmeno, Tjekkiet
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+titel: Blossom Tree
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Et gitter med 8 × 8 felter, der viser et blomstrende træ.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Lavet af Team Zssh14, Slovakiet
 
 ```python
 
