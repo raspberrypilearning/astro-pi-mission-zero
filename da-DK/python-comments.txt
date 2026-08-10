@@ -12,68 +12,68 @@ Tilføj farvevariabler og billede
 
 Vis billedet
 
-Sense a colour
+Registrer en farve
 
 få farven fra sensoren
 
 brug den opfangede farve
 
-Extra images / frames go here:
+Ekstra billeder/billedrammer indsættes her:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Gentag 14 gange (14 * 2 sekunder = 28 sekunders animation i alt)
 
-# Display the second image
+# Vis det andet billede
 
-# Display the first image
+# Vis det første billede
 
 # BASIC SUBMISSION is done by now
 
 Hvid
 
-Grey
+Grå
 
 Sort
 
-Navy Blue
+Marineblå
 
-Pure Blue
+Ren Blå
 
-Ocean Blue
+Havblå
 
-Sky Blue
+Himmelblå
 
-Electric Cyan
+Elektrisk Cyan
 
-Pure Green
+Ren Grøn
 
-Leaf Green
+Bladgrøn
 
-Olive Green
+Olivengrøn
 
-Forest Green
+Skovgrøn
 
-Earth Brown
+Jordbrun
 
-Terracotta Brown
+Terrakotta Brun
 
-Brick Red
+Murstensrød
 
-Pure Red
+Ren Rød
 
 Orange
 
-Pale Yellow
+Lys Gul
 
-Pure Yellow
+Rent Gul
 
-Pale Pink
+Bleg lyserød
 
-Blush Pink
+Rosa
 
-Light Pink
+Lyserød
 
 Magenta
 
-Purple
+Lilla
 
 
