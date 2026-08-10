@@ -18,16 +18,16 @@ Du skal skrive og teste dit program i en webbrowser som f. eks. Google Chrome. D
 
 ### Astro Pi Mission Zero kriterier
 
-Every project that meets the [rules](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} will receive 'Flight Status' to run on the International Space Station! If you succeed then you will also receive a special certificate that shows exactly where the ISS was as your program ran in space.
+Alle projekter, der opfylder [reglerne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, vil modtage 'flight status' til at køre på den internationale rumstation! Hvis du lykkes så vil du også modtage et særligt certifikat, der viser præcis, hvor ISS var som dit program løb i rummet.
 
 --- collapse ---
 ---
 title: Noter til mentorer
 ---
 
-Mission Zero is suitable for beginners to programming and is recommended for young people people aged 9 - 16 years old. It can be completed in a single 60-minute session on any computer with internet access. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
+Mission Zero er velegnet til begyndere inden for programmering og anbefales til unge i alderen 9-16 år. Det kan gennemføres i en enkelt session på 60 minutter på enhver computer med internetadgang. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
 
-Mission Zero can be done individually or in teams of up to 4 people.
+Mission Zero kan gøres individuelt eller i teams på op til 4 personer.
 
 Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
