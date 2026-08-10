@@ -7,19 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Je zal het volgende maken
-  - 
-    title: Wat is een Astro Pi?
-  - 
-    title: Laat een afbeelding zien
-    completion:
-      - engaged
-  - 
-    title: Meet een kleur
-    completion:
-      - internal
-  - 
-    title: Wat nu - meer Astro Pi-projecten
-    completion:
-      - external
+- title: Je zal het volgende maken
+- title: Wat is een Astro Pi?
+- title: Laat een afbeelding zien
+  completion:
+  - engaged
+- title: Meet een kleur
+  completion:
+  - internal
+- title: Wat nu - meer Astro Pi-projecten
+  completion:
+  - external

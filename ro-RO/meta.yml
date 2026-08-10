@@ -7,19 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Vei face
-  - 
-    title: Ce este Astro Pi?
-  - 
-    title: Afișează o imagine
-    completion:
-      - engaged
-  - 
-    title: Simte o culoare
-    completion:
-      - internal
-  - 
-    title: Ce urmează — mai multe proiecte Astro Pi
-    completion:
-      - external
+- title: Vei face
+- title: Ce este Astro Pi?
+- title: Afișează o imagine
+  completion:
+  - engaged
+- title: Simte o culoare
+  completion:
+  - internal
+- title: Ce urmează — mai multe proiecte Astro Pi
+  completion:
+  - external

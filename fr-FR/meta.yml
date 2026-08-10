@@ -7,19 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - 
-    title: Ce que tu vas faire
-  - 
-    title: Qu'est-ce qu'un Astro Pi ?
-  - 
-    title: Afficher une image
-    completion:
-      - engaged
-  - 
-    title: Détecter une couleur
-    completion:
-      - internal
-  - 
-    title: Et ensuite — plus de projets Astro Pi
-    completion:
-      - external
+- title: Ce que tu vas faire
+- title: Qu'est-ce qu'un Astro Pi ?
+- title: Afficher une image
+  completion:
+  - engaged
+- title: Détecter une couleur
+  completion:
+  - internal
+- title: Et ensuite — plus de projets Astro Pi
+  completion:
+  - external
