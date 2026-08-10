@@ -1,10 +1,10 @@
 ## Zaznajte barve
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+V tem koraku boste nastavili senzor barve in svetlosti. Z njim boste merili količino rdeče, zelene in modre svetlobe, ki doseže senzor. Te vrednosti boste nato uporabili za spremembo ene od barv na izbrani sliki.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+To pomeni, da se slika lahko spreminja glede na to, kaj senzor vidi. Na primer, astronavt v modri majici bi lahko videl drugačno različico slike kot astronavt v rdeči majici.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Na sliki kita, ki smo jo uporabili v prejšnjem koraku, je bila barva ozadja črna. Za shranjevanje barvne kode RGB smo uporabili spremenljivko `c`:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Za spremembo barve uporabite barvni senzor.
 
-Underneath the lines where you define the colours, add the following code:
+Pod vrstice, kjer definirate barve, dodajte naslednjo kodo:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Ta koda nadomesti vrednosti RGB, shranjene v spremenljivki `c` , z vrednostmi za barvo, ki jo zazna senzor.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Nasvet: Če v svoji sliki niste uporabili spremenljivke `c`, zamenjajte `c` z eno od barvnih spremenljivk, ki ste jih uporabili. To bo senzorju omogočilo, da spremeni to barvo.
 
 --- task ---
 
@@ -47,7 +47,7 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Zdaj, ko ste prikazali sliko in zaznali barvo ter jo uporabili v svojem programu, je vaša koda pripravljena za oddajo! 
 
 You can save and submit your program using the form at the bottom of the code editor.
   
@@ -137,7 +137,7 @@ Svoj program lahko shranite v projekt Mission Starter tako, da vnesete ime svoje
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Primer dokončane kode s kitom
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Primer dokončane kode z animiranim kitom
 ---
 
 --- code ---
