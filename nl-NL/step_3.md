@@ -1,16 +1,22 @@
 ## Toon een afbeelding
 
-De LED-matrix van de Astro Pi kan kleuren weergeven. In deze stap zul je afbeeldingen van de natuur weergeven op de LED-matrix van de Astro Pi.
+De afbeelding die je weergeeft, is opgebouwd uit 64 gekleurde vierkantjes, genaamd **pixels**. De pixels zijn gerangschikt in een raster van 8 x 8. Elke pixel kan een andere kleur hebben. Door de kleuren zorgvuldig te kiezen, kun je een afbeelding creëren. Hier is een voorbeeld van een walvis gemaakt met verschillende tinten blauw op een zwarte achtergrond.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster van LED's die afzonderlijk of als groep kunnen worden aangestuurd om verschillende lichteffecten te creëren. De LED-matrix op de Sense HAT heeft 64 LED's die worden weergegeven in een 8 x 8 raster. De LED's kunnen worden geprogrammeerd om een breed scala aan kleuren te produceren.
 </p>
 
-![Een screenshot van het emulatorvenster van de Flight Unit met de LED-matrix waarop een afbeelding van een bloem te zien is.](images/fu-pic.png)
+![een afbeelding van 8x8 cm van een walvis met letters die verschillende kleuren aanduiden](images/whale.png)
+
+Merk op dat elk vierkantje is voorzien van een code die een bepaalde kleur vertegenwoordigt. In deze afbeelding worden 3 kleuren gebruikt:
++ c = Zwart
++ f = Oceaanblauw
++ g = Hemelsblauw
+
 
 --- task ---
 
-Open het [Mission Zero-startproject](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Open het [Mission Zero-startproject](https://missions.astro-pi.org/nl/mz/code_submissions/){:target="_blank"}.
 
 Je zult zien dat er automatisch enkele regels met code voor je zijn toegevoegd.
 
@@ -33,7 +39,7 @@ sense = SenseHat()
 sense.set_rotation(270)
 
 # Stel de kleurensensor in
-sense.color.gain = 60 # Stel de gevoeligheid van de sensor in 
+sense.color.gain = 60 # Stel de gevoeligheid van de sensor in
 sense.color.integration_cycles = 64 # Het interval waarmee de meting wordt uitgevoerd
 
 --- /code ---
@@ -46,11 +52,47 @@ sense.color.integration_cycles = 64 # Het interval waarmee de meting wordt uitge
 
 Kleuren kunnen worden gemaakt met verschillende verhoudingen van rood, groen en blauw. Meer informatie over de RGB kleuren vind je hier:
 
-[[[generic-theory-simple-colours]]]
+![Drie schuifregelaars die RGB kleurwaarden laten zien](images/rgbsliders.gif)
 
-De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleur worden ingesteld. Hier is een lijst met variabelen voor 24 verschillende kleuren. Elke kleur heeft een waarde voor rood, groen en blauw:
+De LED-matrix is een 8 x 8 raster. Elke LED op het raster kan op een andere kleur worden ingesteld. We kunnen de letters a tot en met z gebruiken als namen voor variabelen om 24 verschillende kleuren weer te geven. Elke kleur heeft een waarde voor rood, groen en blauw.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Lijst met kleurvariabelen
+---
+
+![Een raster van 24 gekleurde vierkantjes, elk voorzien van een label met een andere letter van het alfabet](images/palette.png)
+
+```python
+a = (255, 255, 255) # Wit
+b = (171, 171, 171) # Grijs
+c = (0, 0, 0) # Zwart
+d = (25, 25, 113) # Marineblauw
+e = (0, 0, 255) # Puur blauw
+f = (36, 128, 200) # Oceaanblauw
+g = (0, 204, 255) # Hemelsblauw
+h = (86, 255, 255) # Elektrisch cyaan
+j = (0, 255, 0) # Puur groen
+k = (46, 139, 33) # Bladgroen
+l = (57, 97, 17) # Olijfgroen
+m = (30, 65, 6) # Bosgroen
+n = (126, 88, 25) # Aardbruin
+o = (179, 96, 65) # Terracotta bruin
+p = (180, 34, 34) # Baksteenrood
+q = (255, 0, 0) # Puur rood
+r = (232, 118, 5) # Oranje
+s = (241, 231, 100) # Bleekgeel
+t = (255, 255, 0) # Puur geel
+u = (255, 209, 209) # Bleekroze
+v = (255, 177, 177) # Blush roze
+w = (249, 169, 255) # Lichtroze
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Paars
+
+```
+
+--- /collapse ---
 
 ### Kies een afbeelding
 
@@ -63,89 +105,87 @@ Je moet alle code **kopiëren** voor je gekozen afbeelding en **plak** het in je
 --- collapse ---
 
 ---
-title: Vis
+title: Walvis
 ---
 
-![Een raster met 8 x 8 vierkanten met daarop een vis.](images/fish.png)
+![Een raster met 8 x 8 vierkantjes die een walvis tonen.](images/whale.png)
 
-Gemaakt door team Chalka, Polen
+Gemaakt door Team Naicom, Italië
 
 ```python
-z = (153, 50, 204) # Donkerorchidee 
-q = (255, 255, 0) # Geel
-d = (51, 153, 255) # Blauw
-c = (0, 0, 0) # Zwart
+c = (0, 0, 0)       # Zwart
+f = (36, 128, 200)  # Oceaanblauw
+g = (0, 204, 255)   # Hemelsblauw
 
 afbeelding = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+
+---
+title: Citroen
+---
+
+![Een raster met 8 x 8 vierkantjes die een citroen tonen.](images/lemon.png)
+
+Gemaakt door team g4lemoni, Griekenland
+
+```python
+c = (0, 0, 0)       # Zwart
+k = (46, 139, 33)   # Loofgroen
+t = (255, 255, 0)   # Puur geel
+
+afbeelding = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
 
 ```
 
 --- /collapse ---
 
 --- collapse ---
-
 ---
-title: Walrus
+title: Varken
 ---
 
-![Een raster van 8 x 8 vierkanten met daarop een walrus.](images/walrus.png)
+![Een raster met 8 x 8 vierkantjes die een varken tonen.](images/pig.png)
 
-Gemaakt door team Walrus, Finland
+Gemaakt door Gary, Verenigd Koninkrijk
 
 ```python
-h = (0, 255, 255) # Cyaan
-c = (0, 0, 0) # Zwart
-s = (139, 69, 19) # Zadelbruin
 a = (255, 255, 255) # Wit
-r = (184, 134, 11) # Donkergoudenroede
+v = (255, 177, 177) # Blushroze
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Terracotta bruin
+c = (0, 0, 0)       # Zwart
 
 afbeelding = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Een raster van 8 x 8 vierkanten met Paxi.](images/paxi.png)
-
-Gemaakt door team tony_pi, Italië
-
-```python
-v = (255, 0, 0) # Rood
-m = (34, 139, 34) # Bosgroen
-c = (0, 0, 0) # Zwart 
-e = (100, 149, 237) # Korenbloemblauw
-l = (0, 255, 0) # Groen
-
-afbeelding = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -154,29 +194,29 @@ afbeelding = [
 
 --- collapse ---
 ---
-title: Hond
+title: Storm
 ---
 
-![Een raster met 8 x 8 vakjes waarop een hondenkop is afgebeeld.](images/dog.png)
+![Een raster met 8 x 8 vierkantjes die een stormwolk tonen.](images/storm.png)
 
-Gemaakt door team ptpr_07, Spanje
+Gemaakt door team hop2p023, Spanje
 
 ```python
 
-c = (0, 0, 0) # Zwart
-r = (184, 134, 11) # Donkergoudenroede
-s = (139, 69, 19) # Zadelbruin
-y = (255, 20, 147) # Dieproze
+c = (0, 0, 0)       # Zwart
+f = (36, 128, 200)  # Oceaanblauw
+g = (0, 204, 255)   # Hemelsblauw
+t = (255, 255, 0)   # Puur geel
 
 afbeelding = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -185,35 +225,31 @@ afbeelding = [
 
 --- collapse ---
 ---
-title: Kameleon
+title: Eend
 ---
 
-![Een raster met 8 x 8 vierkanten met een regenboogkleurige kameleon.](images/chameleon.png)
+![Een raster met 8 x 8 vierkantjes die een eend tonen.](images/duck.png)
 
-Gemaakt door team The_ETs, Verenigd Koninkrijk
+Gemaakt door Peter, Ierland
 
 ```python
 
 c = (0, 0, 0) # Zwart
-s = (139, 69, 19) # Zadelbruin
+l = (57, 97, 17)    # Olijfgroen
+m = (30, 65, 6)     # Bosgroen
+r = (232, 118, 5)   # Oranje
 a = (255, 255, 255) # Wit
-v = (255, 0, 0) # Rood
-t = (255, 140, 0) # Donkeroranje
-q = (255, 255, 0) # Geel
-m = (34, 139, 34) # Bosgroen
-h = (0, 255, 255) # Cyaan
-z = (153, 50, 204) # Donkerorchidee
-y = (255, 20, 147) # Dieproze
+b = (171, 171, 171) # Grijs
 
 afbeelding = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -221,31 +257,32 @@ afbeelding = [
 
 --- collapse ---
 ---
-title: Vlieger
+title: Kikker
 ---
 
-![Een raster met 8 x 8 vakjes waarop een vlieger is afgebeeld.](images/kite.png)
+![Een raster met 8 x 8 vierkantjes die een kikker tonen.](images/frog.png)
 
-Gemaakt door team Val, Griekenland
+Gemaakt door team Jmeno, Tsjechische Republiek
 
 ```python
 
-c = (0, 0, 0) # Zwart
-m = (34, 139, 34) # Bosgroen
-v = (255, 0, 0) # Rood
-q = (255, 255, 0) # Geel
-e = (0, 0, 205) # Middelblauw
-h = (0, 255, 255) # Cyaan
+a = (255, 255, 255) # Wit
+b = (171, 171, 171) # Grijs
+c = (0, 0, 0)       # Zwart
+q = (255, 0, 0)     # Puur rood
+j = (0, 255, 0)     # Puur groen
+k = (46, 139, 33)   # Loofgroen
+n = (126, 88, 25)   # Aardbruin
 
 afbeelding = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -253,30 +290,33 @@ afbeelding = [
 
 --- collapse ---
 ---
-title: Kip
+title: Bloesemboom
 ---
 
-![Een raster met 8 x 8 vierkanten met een kip.](images/chicken.png)
+![Een raster met 8 x 8 vierkantjes die een boom in bloesem tonen.](images/blossom.png)
 
-Gemaakt door team Slepicky, Tsjechië
+Gemaakt door team Zssh14, Slowakije
 
 ```python
 
-v = (255, 0, 0) # Rood
-c = (0, 0, 0) # Zwart
-b = (105, 105, 105) # Matgrijs
-q = (255, 255, 0) # Geel
-r = (184, 134, 11) # Donkergoudenroede
+t = (255, 255, 0)   # Puur geel
+g = (0, 204, 255)   # Hemelsblauw
+w = (249, 169, 255) # Lichtroze
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Paars
+n = (126, 88, 25)   # Aardbruin
+o = (179, 96, 65)   # Terracotta bruin
+k = (46, 139, 33)   # Loofgroen
 
-afbeelding = [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+afbeelding =  [
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -294,22 +334,21 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Donkerorchidee
-q = (255, 255, 0) # Geel
-d = (51, 153, 255) # blauw
-c = (0, 0, 0) # Zwart
+c = (0, 0, 0)       # Zwart
+f = (36, 128, 200)  # Oceaanblauw
+g = (0, 204, 255)   # Hemelsblauw
 
 afbeelding = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 # Geef de afbeelding weer
 sense.set_pixels(afbeelding)
@@ -348,6 +387,7 @@ Mijn afbeelding verschijnt niet:
 
 Nu je een afbeelding hebt weergegeven, kun je je programma opslaan in het Mission Start-project door je teamnaam, de namen van de teamleden en de klascode die je hebt gekregen in te voeren. Je kunt je programma herladen op elk apparaat met een internetverbinding door je teamnaam en klascode in te voeren.
 
-![Mission Zero Save-knop](images/savebutton_nl.png)
+![Mission Zero Save-knop](images/mz_savebutton_v2.png)
 
 --- /task --- 
+

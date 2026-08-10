@@ -1,15 +1,13 @@
 ## Wat is een Astro Pi?
 
-Een Astro Pi is een Raspberry Pi-computer in een behuizing die speciaal is ontworpen voor omstandigheden in de ruimte.
+Een Astro Pi is een Raspberry Pi-computer die speciaal is ontworpen om in de ruimte te functioneren.
 
 ![Geanimeerde afbeelding van een Sense HAT die aan de bovenkant van een Raspberry Pi-computer wordt bevestigd.](images/astro_pi_casing.jpeg)
 
-Astro Pi-computers worden geleverd met een reeks sensoren en gadgets die kunnen worden gebruikt om geweldige wetenschappelijke experimenten uit te voeren. Deze verzameling sensoren wordt een 'Sense HAT' genoemd (wat staat voor 'Hardware Attached on Top'). De Sense HAT geeft Astro Pi de mogelijkheid om 'waar te nemen' en vele soorten metingen te doen, van temperatuur tot beweging, en om informatie uit te voeren met behulp van een 8 x 8 LED-matrixdisplay. De Astro Pi's hebben ook een joystick en knoppen, net als een videogame console!
+Astro Pi-computers hebben een set sensoren, de zogenaamde 'Sense HAT', waarmee jongeren wetenschappelijke experimenten kunnen uitvoeren. Een sensor is iets dat kan waarnemen of meten wat er in de omgeving gebeurt. De sensoren op de Sense Hat kunnen zaken meten zoals de kleur en helderheid van objecten die zich ervoor bevinden. De Sense Hat bevat ook een 8 x 8 LED-matrix die eenvoudige afbeeldingen en informatie kan weergeven.
 
-![Geanimeerde afbeelding van een Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Een <span style="color: #0faeb0">**LED-matrix**</span> is een raster van LED's (Light Emitting Diodes) die afzonderlijk of als groep kunnen worden aangestuurd om verschillende lichteffecten te creëren. De LED-matrix op de Sense HAT heeft 64 LED's die worden weergegeven in een 8 x 8 raster. De LED's kunnen worden geprogrammeerd om een breed scala aan kleuren te produceren.
+</p>
 
-Voor deze missie gebruik je de Sense HAT-emulator. De emulator is een stukje software dat alle functies van de Astro Pi simuleert in je webbrowser.
-
-
-
-
+![een 8x8 pixelkunstafbeelding van een walvis](images/whaleblank.png)

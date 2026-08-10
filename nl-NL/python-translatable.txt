@@ -1,5 +1,5 @@
 afbeelding
 
-rgb
+afbeelding2
 
-regenboog
+rgb
