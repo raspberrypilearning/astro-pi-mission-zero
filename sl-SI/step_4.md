@@ -49,12 +49,12 @@ Nasvet: Če v svoji sliki niste uporabili spremenljivke `c`, zamenjajte `c` z en
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Zdaj, ko ste prikazali sliko in zaznali barvo ter jo uporabili v svojem programu, je vaša koda pripravljena za oddajo! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Program lahko shranite in oddate z uporabo obrazca na dnu urejevalnika kode.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Vendar pa mu boste morda želeli dodati še več slik ali pa ga poživiti z animacijo. Naslednji koraki vam bodo pokazali, kako to storiti.
 </p>
 
-## Animate your project (optional)
+## Animirajte svoj projekt (neobvezno)
 
 Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
