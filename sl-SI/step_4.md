@@ -56,7 +56,7 @@ Vendar pa mu boste morda želeli dodati še več slik ali pa ga poživiti z anim
 
 ## Animirajte svoj projekt (neobvezno)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Vaš program za Mission Zero se lahko na Mednarodni vesoljski postaji (ISS) izvaja do 30 sekund. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
 --- task ---
 
