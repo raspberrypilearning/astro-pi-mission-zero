@@ -137,7 +137,7 @@ Du kan gemme dit program på Mission Starter-projektet ved at indtaste dit teamn
 
 --- collapse ---
 ---
-titel: Eksempel på færdig hvalkode
+title: Eksempel på færdig hvalkode
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-titel: Eksempel på færdig hvalkode (med animation)
+title: Eksempel på færdig hvalkode (med animation)
 ---
 
 --- code ---
