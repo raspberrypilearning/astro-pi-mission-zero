@@ -9,7 +9,7 @@ En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder,
 ![et 8×8-billede af en hval med bogstaver, der angiver de forskellige farver](images/whale.png)
 
 Bemærk, at hvert kvadrat er mærket med en kode til at repræsentere en bestemt farve. På dette billede er der brugt 3 farver:
-+ c = sort
++ c = Sort
 + f = Havblå
 + g = Himmelblå
 
@@ -53,13 +53,13 @@ LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en an
 --- collapse ---
 
 ---
-titel: Liste over farvevariabler
+title: Liste over farvevariabler
 ---
 
 ![Et gitter med 24 farvede felter, der hver er mærket med et forskelligt bogstav i alfabetet](images/palette.png)
 
 ```python
-a = (255, 255, 255) # hvid
+a = (255, 255, 255) # Hvid
 b = (171, 171, 171) # Grå
 c = (0, 0, 0) # Sort
 d = (25, 25, 113) # Navy Blue
@@ -99,7 +99,7 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-titel: Hvale
+title: Hvale
 ---
 
 ![Et gitter med 8 x 8 felter, der viser en hval.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-titel: Citron
+title: Citron
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en citron.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-titel: Gris
+title: Gris
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en gris.](images/pig.png)
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-titel: Storm
+title: Storm
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en stormsky.](images/storm.png)
@@ -219,7 +219,7 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-titel: And
+title: And
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en and.](images/duck.png)
@@ -251,7 +251,7 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-titel: Frø
+title: Frø
 ---
 
 ![Et gitter med 8 × 8 felter, der viser en frø.](images/frog.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-titel: Blossom Tree
+title: Blomstertræ
 ---
 
 ![Et gitter med 8 × 8 felter, der viser et blomstrende træ.](images/blossom.png)
