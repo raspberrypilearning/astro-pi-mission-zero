@@ -2,7 +2,7 @@
 
 Maintenant que tu as terminé ta mission, pourquoi ne pas essayer d'autres projets en utilisant les autres capteurs de l'Astro Pi ?
 
-Si tu te sens en confiance, tu pourrais participer à la Mission Space Lab. Forme une équipe de deux à six personnes, et travaillez ensemble pour répondre à une vraie question scientifique. Toutes les équipes qui soumettent un programme éligible seront invitées à une séance de questions-réponses virtuelle avec un astronaute de l'ESA à la fin du cycle du défi Astro Pi.
+Si tu te sens en confiance, tu pourrais participer à la Mission Space Lab. Forme une équipe de deux à six personnes, et travaillez ensemble pour répondre à une vraie question scientifique. Toutes les équipes qui soumettent un programme conforme aux critères seront invitées à participer à une séance de questions-réponses en ligne avec un expert de l'ESA spécialisé dans les vols spatiaux habités, à la fin du défi européen Astro Pi.
 
 Tu peux aussi essayer l'un de nos autres projets Sense HAT :
 
@@ -10,7 +10,7 @@ Tu peux aussi essayer l'un de nos autres projets Sense HAT :
 
 + Crée de jolies [étincelles aléatoires](https://projects.raspberrypi.org/fr-FR/projects/sense-hat-random-sparkles){:target="_blank"} sur l'écran LED du Sense HAT
 
-+ Crée un jeu [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"}
++ Crée un jeu [Flappy Astronaut](https://projects.raspberrypi.org/fr-FR/projects/flappy-astronaut){:target="_blank"}
 
 + Défie tes ami·e·s avec un jeu [labyrinthe avec des billes](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"}
 

@@ -2,7 +2,7 @@
 
 A teď, když máš svoji misi za sebou, nechceš si zkusit nějaké další projekty, ve kterých se používají jiné senzory počítače Astro Pi?
 
-Pokud se na to cítíš, můžeš se zúčastnit výzvy Mission Space Lab. Dej dohromady tým o dvou až šesti členů a společně vyřešte opravdové problémy vědců. Všechny týmy, které odešlou způsobilý program, budou na konci cyklu výzvy Astro Pi pozvány na virtuální diskuzní panel s astronautem ESA.
+Pokud se na to cítíš, můžeš se zúčastnit výzvy Mission Space Lab. Dej dohromady tým o dvou až šesti členů a společně vyřešte opravdové problémy vědců. Všechny týmy, které odešlou způsobilý program, budou na konci cyklu Evropské výzvy Astro Pi pozvány na virtuální diskuzní panel s odborníkem na pilotované vesmírné lety z ESA.
 
 Také si můžeš zkusit některé z našich dalších projektů Sense HAT:
 
