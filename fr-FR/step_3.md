@@ -30,7 +30,7 @@ line_highlights:
 # Importer les bibliothèques
 from sense_hat import SenseHat from time import sleep
 
-# Configuer le Sense HAT
+# Configurer le Sense HAT
 sense = SenseHat() sense.set_rotation(270)
 
 # Configurer le capteur de couleurs
