@@ -18,7 +18,7 @@ Svůj program napíšeš a otestuješ ve webovém prohlížeči, jako je napří
 
 ### Kritéria výzvy Astro Pi Mission Zero
 
-Všechny projekty, které se řídí [pravidly](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} získají „stav letu“ a budou spuštěný na Mezinárodní vesmírné stanici! Pokud uspěješ, obdržíš také speciální certifikát, který udává přesnou polohu ISS v okamžiku, kdy byl tvůj program ve vesmíru spuštěn.
+Všechny projekty, které se řídí [pravidly](https://astro-pi.org/cs/mission-zero/eligibility){:target="_blank"} získají „stav letu“ a budou spuštěný na Mezinárodní vesmírné stanici! Pokud uspěješ, obdržíš také speciální certifikát, který udává přesnou polohu ISS v okamžiku, kdy byl tvůj program ve vesmíru spuštěn.
 
 --- collapse ---
 ---
