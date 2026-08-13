@@ -56,12 +56,12 @@ Vendar pa mu boste morda želeli dodati še več slik ali pa ga poživiti z anim
 
 ## Animirajte svoj projekt (neobvezno)
 
-Vaš program za Mission Zero se lahko na Mednarodni vesoljski postaji (ISS) izvaja do 30 sekund. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Vaš program za Mission Zero se lahko na Mednarodni vesoljski postaji (ISS) izvaja do 30 sekund. Med tem časom lahko na LED matriki z menjavanjem dveh ali več različnih sličic prikazujete animacijo.
 
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Dodajte** drugo sliko tik pod vrstico `sense.set_pixels(image)`. Spremenljivki dajte ime `image2` in spremenite nekaj slikovnih pik, da bo vaša sličica videti drugačen. Nato dodajte kratek premor.
 
 --- code ---
 ---
