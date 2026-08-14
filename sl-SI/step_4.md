@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Čisto na dnu datoteke s kodo ustvarite zanko `for`, ki se ponovi `14`-krat in izmenično prikazuje `image` in `image2`, pri čemer se po vsaki sličici ustavi za eno sekundo.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Nasvet:** Prepričajte se, da so vrstice kode pod `for i in range(14):` zamaknjene s presledki, tako da se nahajajo **znotraj** bloka zanke.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Preizkus:** Znova zaženite kodo. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Preizkus:** Znova zaženite kodo. Vaš program bo takoj prikazal zaznano barvo in se nato v zanki preklapljal med sličicama.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Če želite v animaciji imeti več kot dve sličici, morate zagotoviti, da program ne bo deloval več kot 30 sekund. Na primer, če imate 10 slik, kjer se vsaka prikazuje 1 sekundo, morate zanko `for` spremeniti tako, da se ponovi 3-krat (10 * 3 = 30 sekund)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Preverite napake**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Moja koda ima sintaktično napako ali pa ne spreminja sličic:
+- Preverite, ali se zamik v vaši kodi zanke `for` ujema z zamikom v primeru.
+- Prepričajte se, da ste drugo slikovno spremenljivko poimenovali `image2` ter je postavljena zunaj in pred začetkom zanke.
+- Preverite, ali so vaši časi premora (`sleep`) nastavljeni na natančno `1` sekundo, da se izognete prekoračitvi stroge 30-sekundne omejitve izvajanja na ISS.
 
 --- /task ---
 
