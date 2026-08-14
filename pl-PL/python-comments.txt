@@ -18,62 +18,62 @@ pobierz kolor z czujnika
 
 użyj odczytany kolor
 
-Extra images / frames go here:
+Dodatkowe obrazki / klatki umieść tutaj:
 
-Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+Powtórz 14 razy (14 * 2 sekundy = 28 sekund całej animacji)
 
-# Display the second image
+# Wyświetl drugi obrazek
 
-# Display the first image
+# Wyświetl pierwszy obrazek
 
-# BASIC SUBMISSION is done by now
+# PODSTAWOWE ZGŁOSZENIE jest już gotowe
 
 Biały
 
-Grey
+Szary
 
 Czarny
 
-Navy Blue
+Granatowy
 
-Pure Blue
+Czysty niebieski
 
-Ocean Blue
+Błękit oceanu
 
-Sky Blue
+Błękit nieba
 
-Electric Cyan
+Jaskrawy cyjan
 
-Pure Green
+Czysta zieleń
 
-Leaf Green
+Zieleń liści
 
-Olive Green
+Zieleń oliwkowa
 
-Forest Green
+Zieleń lasu
 
-Earth Brown
+Brąz ziemisty
 
-Terracotta Brown
+Brąz terakotowy
 
-Brick Red
+Czerwień ceglana
 
-Pure Red
+Czysta czerwień
 
-Orange
+Pomarańczowy
 
-Pale Yellow
+Bladożółty
 
-Pure Yellow
+Czysta żółć
 
-Pale Pink
+Blady róż
 
-Blush Pink
+Pudrowy róż
 
-Light Pink
+Jasnoróżowy
 
 Magenta
 
-Purple
+Fioletowy
 
 
