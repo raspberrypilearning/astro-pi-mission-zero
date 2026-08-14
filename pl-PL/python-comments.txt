@@ -12,7 +12,7 @@ Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-Sense a colour
+Wykryj kolor
 
 pobierz kolor z czujnika
 
