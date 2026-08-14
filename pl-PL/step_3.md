@@ -46,7 +46,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Kolory można tworzyć przy użyciu różnych proporcji czerwieni, zieleni i niebieskiego. Dowiedz się więcej o kolorach RGB tutaj:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Trzy suwaki pokazujące wartości kolorów RGB](images/rgbsliders.gif)
 
 Matryca LED to siatka 8 x 8. Każda dioda świecąca na siatce może być ustawiona na inny kolor. Możemy używać liter od a do z jako nazw zmiennych reprezentujących 24 różne kolory. Każdy kolor ma wartość dla czerwonego, zielonego i niebieskiego.
 
@@ -56,7 +56,7 @@ Matryca LED to siatka 8 x 8. Każda dioda świecąca na siatce może być ustawi
 title: Lista zmiennych kolorów
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Siatka 24 kolorowych kwadratów, z których każdy jest oznaczony inną literą alfabetu](images/palette.png)
 
 ```python
 a = (255, 255, 255) # Biały
@@ -102,7 +102,7 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 title: Wieloryb
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![Siatka 8 x 8 kwadratów przedstawiająca wieloryba.](images/whale.png)
 
 Stworzone przez zespół Naicom, Włochy
 
@@ -129,12 +129,12 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Cytryna
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![Siatka 8 x 8 kwadratów przedstawiająca cytrynę.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Stworzone przez zespół g4lemoni, Grecja
 
 ```python
 c = (0, 0, 0)       # Black
@@ -160,7 +160,7 @@ c, c, c, t, t, c, c, c]
 title: Świnka
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![Siatka 8 x 8 kwadratów przedstawiająca świnkę.](images/pig.png)
 
 Stworzone przez Gary'ego, Wielka Brytania
 
@@ -191,7 +191,7 @@ a, a, y, a, a, a, y, a]
 title: Burza
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![Siatka 8 x 8 kwadratów przedstawiająca chmurę burzową.](images/storm.png)
 
 Stworzone przez zespół hop2p023, Hiszpania
 
@@ -222,7 +222,7 @@ c, g, c, c, c, c, c, c]
 title: Kaczka
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![Siatka 8 x 8 kwadratów przedstawiająca kaczkę.](images/duck.png)
 
 Stworzone przez Petera, Irlandia
 
@@ -254,7 +254,7 @@ c, c, c, r, c, r, c, c]
 title: Żaba
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![Siatka 8 x 8 kwadratów przedstawiająca żabę.](images/frog.png)
 
 Stworzone przez zespół Jmeno, Czechy
 
@@ -287,7 +287,7 @@ k, k, k, j, k, n, n, n]
 title: Kwitnące drzewo
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![Siatka 8 x 8 kwadratów przedstawiająca kwitnące drzewo.](images/blossom.png)
 
 Stworzone przez zespół Zssh14, Słowacja
 
