@@ -1,6 +1,6 @@
 ## Näytä kuva
 
-The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
+Esittämäsi kuva koostuu 64 värillisestä neliöstä, joita kutsutaan **pikseleiksi**. Pikselit on järjestetty 8 x 8 -ruudukkoon. Jokainen pikseli voi olla erivärinen. Voit luoda kuvan valitsemalla värit huolellisesti. Tässä on esimerkki valaasta, joka on tehty käyttämällä erilaisia sinisen sävyjä mustalla taustalla.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED-matriisi**</span> on ruudukko LEDejä, joita voidaan ohjata yhdessä tai erikseen erilaisten valotehosteiden luomiseksi. Sense HATin LED-matriisissa on 64 LEDiä 8 x 8 -ruudukossa. LEDit voidaan ohjelmoida tuottamaan laaja valikoima värejä.
@@ -8,10 +8,10 @@ The image you display will be made from 64 coloured squares called **pixels**. T
 
 ![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
 
-Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used:
-+ c = black
-+ f = Ocean blue
-+ g = Sky blue
+Huomaa, että jokainen neliö on merkitty koodilla, joka tarkoittaa tiettyä väriä. Tässä kuvassa käytetään 3 väriä:
++ c = musta
++ f = merensininen
++ g = taivaansininen
 
 
 --- task ---
