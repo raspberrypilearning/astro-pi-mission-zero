@@ -6,7 +6,7 @@ Esittämäsi kuva koostuu 64 värillisestä neliöstä, joita kutsutaan **piksel
 <span style="color: #0faeb0">**LED-matriisi**</span> on ruudukko LEDejä, joita voidaan ohjata yhdessä tai erikseen erilaisten valotehosteiden luomiseksi. Sense HATin LED-matriisissa on 64 LEDiä 8 x 8 -ruudukossa. LEDit voidaan ohjelmoida tuottamaan laaja valikoima värejä.
 </p>
 
-![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+![8x8-kuva valaasta, jossa on kirjaimia merkitsemässä eri värejä](images/whale.png)
 
 Huomaa, että jokainen neliö on merkitty koodilla, joka tarkoittaa tiettyä väriä. Tässä kuvassa käytetään 3 väriä:
 + c = musta
@@ -48,7 +48,7 @@ Värejä voidaan luoda käyttämällä punaista, vihreää ja sinistä eri suhte
 
 ![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-LED-matriisi on 8 x 8 -ruudukko. Jokainen ruudukon LED-valo voidaan asettaa eri väriin. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
+LED-matriisi on 8 x 8 -ruudukko. Jokainen ruudukon LED-valo voidaan asettaa eri väriin. Voimme käyttää kirjaimia a-z muuttujien niminä tarkoittamaan 24 eri väriä. Jokaisella värillä on arvo punaiselle, vihreälle ja siniselle.
 
 --- collapse ---
 
@@ -99,12 +99,12 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 --- collapse ---
 
 ---
-title: Whale
+title: Valas
 ---
 
 ![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Created by Team Naicom, Italy
+Tehnyt joukkue Naicom, Italia
 
 ```python
 c = (0, 0, 0)       # Black
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-title: Lemon
+title: Sitruuna
 ---
 
 ![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
