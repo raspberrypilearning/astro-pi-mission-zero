@@ -82,68 +82,46 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-Koodifaili kõige lõpus sea oma `` tsükkel kordama `14` korda ja kuvama vaheldumisi `pilti` ja `pilti2` , tehes iga kaadri juures 1-sekundilise pausi.
+Koodifaili kõige lõpus sea oma `for` tsükkel kordama `14` korda ja kuvama vaheldumisi muutujaid `pilt` ja `pilt2`, tehes iga kaadri juures 1-sekundilise pausi.
 
-**Vihje:** Veendu, et vahemikus (14):</code> olevad koodiread `i jaoks vahemikus <code> on tühikuga taandatud, nii et need paikneksid <strong x-id="1">tsükliploki</strong> sees.</p>
+**Vihje:** Veendu, et koodiread, mis asuvad `for i in range(14):` all, on tühikuga taandatud, nii et need paikneksid **tsükliploki** sees.
 
-<p spaces-before="0">--- code ---</p>
+--- code ---
+---
+language: python filename: main.py line_numbers: false line_number_start: 1
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
+---
+image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
-<hr />
+sleep(1)
 
-<p spaces-before="0">language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1</p>
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
-<h2 spaces-before="0">line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22</h2>
+  # Display the first image sense.set_pixels(image) sleep(1)
 
-<p spaces-before="0">image2 = [
-c, c, c, c, c, c, c, c,
-c, c, c, c, c, f, f, f,
-c, f, f, f, c, c, f, c,
-f, f, c, f, f, c, f, c,
-f, f, f, f, f, c, f, c,
-g, f, f, f, f, f, f, c,
-g, g, g, g, g, g, c, c,
-c, g, g, g, g, c, c, c]</p>
+--- /code ---
 
-<p spaces-before="0">sleep(1)</p>
+--- /task ---
 
-<h1 spaces-before="0">Loop 14 times (14 * 2 seconds = 28 seconds total animation)</h1>
+--- task ---
 
-<p spaces-before="0">for i in range(14):
-  # Display the second image
-  sense.set_pixels(image2)
-  sleep(1)</p>
+**Testi:** Käita oma kood uuesti. Teie programm kuvab teie tuvastatud värvi koheselt ja seejärel tsüklib edasi-tagasi animeeritud kuvamiseks.
 
-<p spaces-before="2"># Display the first image
-  sense.set_pixels(image)
-  sleep(1)</p>
-
-<p spaces-before="0">--- /code ---</p>
-
-<p spaces-before="0">--- /task ---</p>
-
-<p spaces-before="0">--- task ---</p>
-
-<p spaces-before="0"><strong x-id="1">Testi:</strong> Käita oma kood uuesti. Teie programm kuvab teie tuvastatud värvi koheselt ja seejärel tsüklib edasi-tagasi animeeritud kuvamiseks.</p>
-
-<p spaces-before="0">--- /task ---</p>
+--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Kui soovite oma animatsioonis kasutada rohkem kui kahte kaadrit, peate veenduma, et programm ei kesta kauem kui 30 sekundit. Näiteks kui teil on 10 pilti, millest igaüks kuvatakse 1 sekundi jooksul, peate oma `for`-tsüklit muutma nii, et see korduks 3 korda (10 * 3 = 30 sekundit).
 </p>
 
-<p spaces-before="0">--- task ---</p>
+--- task ---
 
-<p spaces-before="0"><strong x-id="1">Kontrolli vigu</strong></p>
+**Kontrolli vigu**
 
-<p spaces-before="0">Minu koodis on süntaksiviga või see ei jookse ootuspäraselt:</p>
-
-<ul>
-<li>Kontrolli, et sinu <code>for` tsükli kood vastaks näites olevale taandele.</li>
+Minu koodis on süntaksiviga või see ei jookse ootuspäraselt:
+- Kontrolli, et sinu `for` tsükli kood vastaks näites olevale taandele.
 - Veendu, et sa nimetasid oma teise pildimaatriksi `pilt2` ja et see asetseks tsükli algusest väljapoole ja enne seda.
-- Kontrolli, et sinu `une-` ajad oleksid seatud täpselt `1` sekundile, et vältida ISS-i range 30-sekundilise täitmisaja ületamist.</ul>
+- Kontrolli, et sinu `une-` ajad oleksid seatud täpselt `1` sekundile, et vältida ISS-i range 30-sekundilise täitmisaja ületamist.
 
 --- /task ---
 
@@ -159,7 +137,7 @@ Saad oma programmi salvestada Mission Starter projekti, sisestades oma meeskonna
 
 --- collapse ---
 ---
-pealkiri: Valmis vaala koodi näide
+title: Valmis vaala koodi näide
 ---
 
 --- code ---
@@ -192,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-pealkiri: Valmis vaala koodi näide (animatsiooniga)
+title: Valmis vaala koodi näide (animatsiooniga)
 ---
 
 --- code ---
