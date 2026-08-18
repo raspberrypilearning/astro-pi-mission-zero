@@ -53,7 +53,7 @@ LED-maatriks on 8x8-ruudustik. Iga võre LED-i saab seadistada erinevat värvi. 
 --- collapse ---
 
 ---
-pealkiri: Värvimuutujate loend
+title: Värvimuutujate loend
 ---
 
 ![24 värvilisest ruudust koosnev ruudustik, millest igaüks on tähistatud erineva tähestiku tähega](images/palette.png)
@@ -99,7 +99,7 @@ Pead **kopeerima** kogu valitud pildi koodi ja seejärel **kleepima** selle oma 
 --- collapse ---
 
 ---
-pealkiri: Vaal
+title: Vaal
 ---
 
 ![8 x 8 ruuduga ruudustik, mis kujutab vaala.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-pealkiri: Sidrun
+title: Sidrun
 ---
 
 ![Ruudustik 8 x 8 ruutudega, millel on kujutatud sidrun.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-pealkiri: Siga
+title: Siga
 ---
 
 ![8 x 8 ruuduga ruudustik, millel on kujutatud siga.](images/pig.png)
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-pealkiri: Torm
+title: Torm
 ---
 
 ![8 x 8 ruuduga ruudustik, mis kujutab tormipilve.](images/storm.png)
@@ -219,7 +219,7 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-pealkiri: Part
+title: Part
 ---
 
 ![8 x 8 ruuduga ruudustik, millel on kujutatud parti.](images/duck.png)
@@ -251,7 +251,7 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-pealkiri: Konn
+title: Konn
 ---
 
 ![8 x 8 ruuduga ruudustik, millel on kujutatud konna.](images/frog.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-pealkiri: Õitepuu
+title: Õitepuu
 ---
 
 ![8 x 8 ruuduga ruudustik, mis kujutab õitsvat puud.](images/blossom.png)
