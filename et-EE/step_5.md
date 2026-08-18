@@ -2,7 +2,7 @@
 
 Nüüd, kui olete oma missiooni täitnud, siis miks mitte proovida veel mõnda projekti, kasutades Astro Pi teisi andureid?
 
-Kui oled endas kindel, võiksid osaleda projektis Mission Space Lab. Moodusta kahest kuni kuuest inimesest koosnev meeskond ja töötage koos, et vastata tõelisele teaduslikule küsimusele. Kõik meeskonnad, kes esitavad sobiva programmi, kutsutakse Astro Pi Challenge tsükli lõpus ESA virtuaalsele Q&A kohtumisele astronaudiga.
+Kui oled endas kindel, võiksid osaleda projektis Mission Space Lab. Moodusta kahest kuni kuuest inimesest koosnev meeskond ja töötage koos, et vastata tõelisele teaduslikule küsimusele. Kõik meeskonnad, kes esitavad nõuetele vastava programmi, kutsutakse Euroopa Astro Pi Challenge'i vooru lõpus virtuaalsele küsimuste ja vastuste sessioonile ESA mehitatud kosmoselendude eksperdiga.
 
 Soovi korral võid proovida ka mõnd teistsugust Sense HAT projekti:
 
@@ -23,4 +23,3 @@ Selle projekti tõlkisid vabatahtlikud:
 Kärt Roomäe
 
 Tänu vabatahtlikele saame anda inimestele kogu maailmas võimaluse õppida oma emakeeles. Võite aidata meil jõuda rohkemate inimesteni, alustades vabatahtliku tõlkijana - lisateavet leiate saidilt [rpf.io/translate](https://rpf.io/translate).
-
