@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-Koda faila pašā apakšā iestatiet savu `ciklu` , lai tas atkārtotu `14` reizes un pārmaiņus parādītu `attēlu` un `attēlu2` , katrā kadrā apturot 1 sekundes pauzi.
+Koda faila pašā apakšā iestatiet savu `for` ciklu, lai tas atkārtotu `14` reizes un pārmaiņus parādītu `image` un `image2`, katrā kadrā ieturot 1 sekundes pauzi.
 
-**Padoms:** pārliecinieties, ka koda rindas zem `, kas paredzētas i diapazonam (14):` , ir atkāptas ar atstarpi, lai tās atrastos **cikla bloka** iekšpusē.
+**Padoms:** pārliecinieties, ka koda rindas zem `for i in range(14):` ir ievilktas ar atstarpi, lai tās atrastos **cikla bloka** iekšpusē.
 
 --- code ---
 ---
@@ -137,7 +137,7 @@ Jūs varat saglabāt savu programmu Mission Starter projektā, ievadot savas kom
 
 --- collapse ---
 ---
-nosaukums: Pabeigts vaļa koda piemērs
+title: Pabeigts vaļa koda piemērs
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-nosaukums: Pabeigts vaļa koda piemērs (ar animāciju)
+title: Pabeigts vaļa koda piemērs (ar animāciju)
 ---
 
 --- code ---
