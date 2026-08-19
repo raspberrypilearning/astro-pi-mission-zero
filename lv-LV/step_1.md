@@ -22,7 +22,7 @@ Katrs projekts, kas atbilst [noteikumiem](https://astro-pi.org/mission-zero/elig
 
 --- collapse ---
 ---
-nosaukums: Piezīmes mentoriem
+title: Piezīmes mentoriem
 ---
 
 Mission Zero ir piemērota programmēšanas iesācējiem un ieteicama jauniešiem vecumā no 9 līdz 16 gadiem. To var pabeigt vienā 60 minūšu sesijā jebkurā datorā ar piekļuvi internetam. Nav nepieciešama īpaša aparatūra vai iepriekšējas programmēšanas prasmes. Visu var izdarīt tīmekļa pārlūkprogrammā.
