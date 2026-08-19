@@ -82,7 +82,7 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-Pačioje kodo failo apačioje nustatykite savo `ciklą` taip, kad jis kartotųsi  `14` kartų ir kaitaliotų `image` ir `image2` rodymą, tarp kadrų padarydamas 1 sekundės pauzę.
+Pačioje kodo failo apačioje nustatykite savo `for` ciklą taip, kad jis kartotųsi `14` kartų ir kaitaliotų `image` ir `image2` rodymą, tarp kadrų padarydamas 1 sekundės pauzę.
 
 **Patarimas:** įsitikinkite, kad kodo eilutės po `for i in range(14):`  yra su tarpo įtrauka, kad jos būtų ciklo bloko **viduje**.
 
@@ -137,7 +137,7 @@ Savo programą galite išsaugoti „Mission“ pradiniame projekte įvesdami sav
 
 --- collapse ---
 ---
-pavadinimas: Užbaigto banginio kodo pavyzdys
+title: Užbaigto banginio kodo pavyzdys
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-pavadinimas: Užbaigto banginio kodo pavyzdys (su animacija)
+title: Užbaigto banginio kodo pavyzdys (su animacija)
 ---
 
 --- code ---
