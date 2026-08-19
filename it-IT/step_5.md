@@ -2,7 +2,7 @@
 
 Ora che hai completato la tua missione, perché non provi altri progetti utilizzando gli altri sensori dell'Astro Pi?
 
-Se ti senti all'altezza, potresti partecipare al Mission Space Lab. Forma un team da due a sei persone e lavora insieme per rispondere a una vera domanda scientifica. Tutti i team che presenteranno un programma idoneo saranno invitati a una sessione di domande e risposte virtuali con un esperto di volo spaziale umano dell'ESA alla fine del ciclo europeo Astro Pi Challenge.
+Se ti senti all'altezza, potresti partecipare al Mission Space Lab. Forma un team da due a sei persone e lavora insieme per rispondere a una vera domanda scientifica. Tutte le squadre che presentano un programma idoneo saranno invitate a una Q&A virtuale con un astronauta ESA alla fine del ciclo Astro Pi Challenge.
 
 In alternativa potresti provare uno dei nostri altri progetti Sense HAT:
 

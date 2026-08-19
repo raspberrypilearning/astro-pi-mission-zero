@@ -12,68 +12,38 @@ Aggiungi variabili per il colore e l'immagine
 
 Mostra l'immagine
 
-Leggi un colore
+Nero
+
+Bianco
+
+Arancione scuro
+
+Grigio scuro
+
+Giallo verde
+
+Giallo
+
+Arancione scuro
+
+Blu notte
+
+Verde foresta
+
+Blu Fiordaliso
+
+Rosso
+
+Verde primavera
+
+Blu medio
+
+Grigio medio
+
+Orchidea scura
 
 ottenere il colore dal sensore
 
 usa il colore rilevato
 
-Immagini/cornici extra vanno qui:
-
-Ripeti 14 volte (14 * 2 secondi = 28 secondi di animazione totale)
-
-# Visualizza la seconda immagine
-
-# Visualizza la prima immagine
-
-# L'INVIO DI BASE è ormai terminato
-
-Bianco
-
-Grigio
-
-Nero
-
-Blu navy
-
-Blu puro
-
-Blu oceano
-
-Cielo blu
-
-Ciano elettrico
-
-Verde puro
-
-Verde foglia
-
-Verde Oliva
-
-Verde foresta
-
-Marrone Terra
-
-Marrone terracotta
-
-Rosso mattone
-
-Rosso puro
-
-Arancia
-
-Giallo pallido
-
-Giallo puro
-
-Rosa pallido
-
-Rosa cipria
-
-Rosa chiaro
-
-Magenta
-
-Viola
-
-
+scegli i tuoi valori di rosso, verde e blu compresi tra 0 e 255
