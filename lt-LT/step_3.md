@@ -53,7 +53,7 @@ LED matrica yra 8 x 8 tinklelis. Kiekvieną tinklelio šviesos diodą galima nus
 --- collapse ---
 
 ---
-pavadinimas: Spalvų kintamųjų sąrašas
+title: Spalvų kintamųjų sąrašas
 ---
 
 ![24 spalvotų kvadratėlių tinklelis, kuriame kiekvienas kvadratėlis pažymėtas skirtinga abėcėlės raide](images/palette.png)
@@ -99,7 +99,7 @@ Reikės **nukopijuoti** visą pasirinkto paveikslėlio kodą, tada **įklijuoti*
 --- collapse ---
 
 ---
-pavadinimas: Banginis
+title: Banginis
 ---
 
 ![8 x 8 kvadratų tinklelis, kuriame pavaizduotas banginis.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-pavadinimas: Citrina
+title: Citrina
 ---
 
 ![8 x 8 kvadratų tinklelis, kuriame pavaizduota citrina.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-pavadinimas: Kiaulė
+title: Kiaulė
 ---
 
 ![8 x 8 kvadratų tinklelis, kuriame pavaizduota kiaulė.](images/pig.png)
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-pavadinimas: Audra
+title: Audra
 ---
 
 ![8 x 8 kvadratų tinklelis, kuriame pavaizduotas audros debesis.](images/storm.png)
@@ -219,7 +219,7 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-pavadinimas: Antis
+title: Antis
 ---
 
 ![8 x 8 kvadratų tinklelis, kuriame pavaizduota antis.](images/duck.png)
@@ -251,7 +251,7 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-pavadinimas: Varlė
+title: Varlė
 ---
 
 ![8 x 8 kvadratų tinklelis, kuriame pavaizduota varlė.](images/frog.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-pavadinimas: Žydintis medis
+title: Žydintis medis
 ---
 
 ![8 x 8 kvadratų tinklelis, kuriame pavaizduotas žydintis medis.](images/blossom.png)
