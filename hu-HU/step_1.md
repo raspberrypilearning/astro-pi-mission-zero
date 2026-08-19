@@ -1,6 +1,12 @@
 ## Amit el fogsz készíteni
 
-A projekted egy kép háttérszínét fogja megváltoztatni az Astro Pi által érzékelt színre. Ezzel színesebbé teheted a Nemzetközi Űrállomás (ISS) fedélzetén lakó űrhajósok életét. A kódod a cél eléréséhez a Mark II-es Astro Pi számítógép Sense HAT kiegészítőjén található színfényerő-érzékelőt fogja használni.
+Egy Astro Pi számítógépet fogsz beprogramozni, hogy egy színes képet jelenítsen meg. Ha a programod átmegy a hivatalos kódellenőrzéseken, egy igazi Astro Pi számítógépen fog futni a Nemzetközi Űrállomás (ISS) fedélzetén, hogy az űrhajósok láthassák, miközben a mindennapi feladataikat végzik.
+
+Ebben a projektben az Astro Pi számítógépről fogsz tanulni, és arról, hogyan vezéreld. A következőket fogod elvégezni:
+
++ Pixelgrafika tervezése és megjelenítése az Astro Pi számítógépen
++ Érzékelő használata a szín és fényerősség érzékelésére az ISS fedélzetén, és ez alapján a kép megváltoztatása
++ Egyszerű animáció készítése (opcionális)
 
 Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy Astro Pi számítógépen.
 
@@ -8,25 +14,20 @@ Itt egy példa, hogy milyen programot készíthetsz, amely az űrben futhat egy 
 
 ### Amire szükséged lesz
 
-A programod elkészítéséhez az Astro Pi emulátort fogod használni egy webböngészőben. Nincs szükséged igazi Astro Pi számítógépre.
+A programodat egy webbőngészőben, példaul a Google Chrome-ban fogod megírni és tesztelni. Nincs szükséged igazi Astro Pi számítógépre.
 
 ### Az Astro Pi Mission Zero feltételei
 
-**Ha a projekted megfelel a [részvételi feltételeknek](https://astro-pi.org/hu/mission-zero/eligibility){:target="_blank"}**, akkor az elkészített programod futni fog a Nemzetközi Űrállomáson! Még egy különleges tanúsítványt is kapsz majd, amely megmutatja, pontosan hol volt a Nemzetközi Űrállomás, amikor a programod futott.
-
-Az Astro Pi számítógépről tanulsz majd, és arról, hogyan irányítsd, beleértve a következőket:
-+ Szín **változók** létrehozása és használata képekben
-+ Képek tervezése és megjelenítése a Sense HAT-on
-+ A fény színének érzékelése az ISS-en
+Minden projekt, amely betartja a [szabályokat](https://astro-pi.org/hu/mission-zero/eligibility){:target="_blank"}, repülési státuszt kap, amellyel futhat a Nemzetközi Űrállomáson! Ha sikerrel jársz, kapsz egy különleges bizonyítványt, amely megmutatja, hogy pontosan hol volt az ISS akkor, amikor a programod lefutott az űrben.
 
 --- collapse ---
 ---
 title: Megjegyzések mentoroknak
 ---
 
-A Mission Zero alkalmas kezdő programozóknak és/vagy általános iskolás korú gyerekeknek, és egyhuzamban 60 perc alatt teljesíthető egy internetkapcsolattal rendelkező számítógépen. Nincs szükség speciális hardverre vagy előzetes programozási tudásra. Minden teljesíthető egy webböngészőben.
+A Mission Zero alkalmas kezdő programozóknak, és 9-16 év közötti fiataloknak ajánlott. 60 perc alatt teljesíthető bármely számítógépen, amely rendelkezik internetkapcsolattal. Nincs szükség speciális hardverre vagy előzetes programozási tudásra. Minden teljesíthető egy webböngészőben.
 
-Szervezd a fiatalokat egy-négy fős csapatokba, és engedd meg, hogy végigkísérjük őket egy rövid Python program megírásán, amely érzékeli a színt az ISS fedélzetén, és egy képet hoz létre a szín felhasználásával.
+A Mission Zero teljesíthető egyénileg vagy maximum 4 fős csapatban.
 
 Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/hu/mission-zero/guidelines){:target="_blank"}.
 

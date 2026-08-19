@@ -1,15 +1,13 @@
 ## Mi az az Astro Pi?
 
-Az Astro Pi egy Raspberry Pi számítógép egy olyan burkolatban, amelyet kifejezetten az űrbeli körülményekre terveztek.
+Az Astro Pi egy Raspberry Pi számítógép, amelyet kifejezetten az űrbeli működésre terveztek.
 
 ![Animált kép egy Sense HAT-ről, amely egy Raspberry Pi számítógép tetejére van rögzítve.](images/astro_pi_casing.jpeg)
 
-Az Astro Pi számítógépek különféle érzékelőkkel és kütyükkel vannak felszerelve, amelyek segítségével nagyszerű tudományos kísérletek végezhetők. Ezen érzékelők halmazát "Sense HAT"-nek nevezzük (érzékelés + Hardware Attached on Top, felül csatlakoztatott hardver). A Sense Hat lehetővé teszi az Astro Pi-nak, hogy "érzékeljen" különféle mértékeket, például a hőmérsékletet és a mozgást, és információt jelenítsen meg egy 8*8-as LED-mátrix kijelzőn. Az Astro Pi rendelkezik egy botkormánnyal és gombokkal is, mint egy játékkonzol!
+Az Astro Pi számítógépeken található egy "Sense HAT" nevű érzékelőrendszer, amellyel a fiatalok tudományos kísérleteket végezhetnek. Az érzékelő egy olyan eszköz, amely egy körülötte zajló jelenség érzékelésére vagy mérésére használható. A Sense Hat érzékelői olyan dolgokat tudnak mérni, mint az előtte levő tárgyak színe és fényessége. A Sense Hat egy 8 x 8-as LED-mátrixot is tartalmaz, amelyen egyszerű képek és információk jeleníthetők meg.
 
-![Animált kép egy Sense HAT Mark II-ről.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">**LED mátrix**</span> egy LED-ekből (fénykibocsátó diódákból) álló rács, amely egyenként vagy csoportosan vezérelhető, hogy létrehozz különféle fényhatásokat. A Sense HAT LED-mátrixa 64 LED-ből áll egy 8 x 8-as rácson elhelyezve. A LED-eket be lehet programozni, hogy a színek széles skáláját mustassák.
+</p>
 
-Ehhez a küldetéshez a Sense HAT emulátort fogod használni, amely szimulálja az Astro Pi legfőbb funkcióit a webböngésződben.
-
-
-
-
+![egy bálna 8x8 pixeles képe](images/whaleblank.png)
