@@ -1,0 +1,20 @@
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/MZ_banner_2024_V4.png
+description: Gatavojieties Mission Zero
+listed: true
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+steps:
+- title: Jūs izveidosiet
+- title: Kas ir Astro Pi?
+- title: Attēla attēlošana
+  completion:
+  - engaged
+- title: Sajūtiet krāsu
+  completion:
+  - internal
+- title: Kas tālāk — vēl vairāk Astro Pi projektu
+  completion:
+  - external

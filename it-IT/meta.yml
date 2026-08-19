@@ -7,14 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - title: Quello che farai
-  - title: Che cos'è un Astro Pi?
-  - title: Mostra un’immagine
-    completion:
-      - engaged
-  - title: Leggi un colore
-    completion:
-      - internal
-  - title: 'E poi: altri progetti Astro Pi'
-    completion:
-      - external
+- title: Quello che farai
+- title: Che cos'è un Astro Pi?
+- title: Mostra un’immagine
+  completion:
+  - engaged
+- title: Leggi un colore
+  completion:
+  - internal
+- title: 'E poi: altri progetti Astro Pi'
+  completion:
+  - external
