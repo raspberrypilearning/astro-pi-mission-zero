@@ -53,7 +53,7 @@ Gaismas diožu matrica ir 8 x 8 režģis. Katru režģa gaismas diodi var iestat
 --- collapse ---
 
 ---
-nosaukums: krāsu mainīgo saraksts
+title: Krāsu mainīgo saraksts
 ---
 
 ![24 krāsainu kvadrātiņu režģis, katrs apzīmēts ar atšķirīgu alfabēta burtu](images/palette.png)
@@ -99,7 +99,7 @@ Jums vajadzēs **kopēt** visu izvēlētā attēla kodu un pēc tam **ielīmēt*
 --- collapse ---
 
 ---
-nosaukums: Valis
+title: Valis
 ---
 
 ![Režģis ar 8 x 8 kvadrātiem, kuros attēlots valis.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-nosaukums: Citrons
+title: Citrons
 ---
 
 ![Režģis ar 8 x 8 kvadrātiem, kuros attēlots citrons.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-nosaukums: Cūka
+title: Cūka
 ---
 
 ![Režģis ar 8 x 8 kvadrātiem, kuros attēlota cūka.](images/pig.png)
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-nosaukums: Vētra
+title: Vētra
 ---
 
 ![Režģis ar 8 x 8 kvadrātiem, kas attēlo negaisa mākoni.](images/storm.png)
@@ -219,7 +219,7 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-nosaukums: Pīle
+title: Pīle
 ---
 
 ![Režģis ar 8 x 8 kvadrātiem, kuros attēlota pīle.](images/duck.png)
@@ -251,7 +251,7 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-nosaukums: Varde
+title: Varde
 ---
 
 ![Režģis ar 8 x 8 kvadrātiem, kuros attēlota varde.](images/frog.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-nosaukums: Ziedošs koks
+title: Ziedošs koks
 ---
 
 ![Režģis ar 8 x 8 kvadrātiem, kurā attēlots ziedošs koks.](images/blossom.png)
