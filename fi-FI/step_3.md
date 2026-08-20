@@ -46,7 +46,7 @@ sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integratio
 
 Värejä voidaan luoda käyttämällä punaista, vihreää ja sinistä eri suhteissa. Voit tutustua RGB-väreihin täältä:
 
-![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
+![Kolme liukusäädintä osoittamassa RGB-väriarvoja](images/rgbsliders.gif)
 
 LED-matriisi on 8 x 8 -ruudukko. Jokainen ruudukon LED-valo voidaan asettaa eri väriin. Voimme käyttää kirjaimia a-z muuttujien niminä tarkoittamaan 24 eri väriä. Jokaisella värillä on arvo punaiselle, vihreälle ja siniselle.
 
@@ -56,7 +56,7 @@ LED-matriisi on 8 x 8 -ruudukko. Jokainen ruudukon LED-valo voidaan asettaa eri 
 title: List of Colour Variables
 ---
 
-![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+![Ruudukko, jossa on 24 värillistä neliötä, joista jokainen on merkitty eri aakkosten kirjaimella](images/palette.png)
 
 ```python
 a = (255, 255, 255) # White
@@ -102,7 +102,7 @@ Sinun on **kopioitava** kaikki valitsemasi kuvan koodi ja sitten **liitettävä*
 title: Valas
 ---
 
-![A grid with 8 x 8 squares showing a whale.](images/whale.png)
+![8 x 8 neliön ruudukko esittämässä valasta.](images/whale.png)
 
 Tehnyt joukkue Naicom, Italia
 
@@ -132,9 +132,9 @@ c, g, g, g, g, c, c, c]
 title: Sitruuna
 ---
 
-![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
+![8 x 8 neliön ruudukko esittämässä sitruunaa.](images/lemon.png)
 
-Created by team g4lemoni, Greece
+Tehnyt joukkue g4lemoni, Kreikka
 
 ```python
 c = (0, 0, 0)       # Black
@@ -157,12 +157,12 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-title: Pig
+title: Possu
 ---
 
-![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+![8 x 8 neliön ruudukko esittämässä possua.](images/pig.png)
 
-Created by Gary, United Kingdom
+Tehnyt joukkue Gary, Yhdistynyt kuningaskunta
 
 ```python
 a = (255, 255, 255) # White
@@ -188,12 +188,12 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-title: Storm
+title: Myrsky
 ---
 
-![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
+![8 x 8 neliön ruudukko esittämässä myrskypilveä.](images/storm.png)
 
-Created by team hop2p023, Spain
+Tehnyt joukkue hop2p023, Espanja
 
 ```python
 
@@ -219,12 +219,12 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-title: Duck
+title: Ankka
 ---
 
-![A grid with 8 x 8 squares showing a duck.](images/duck.png)
+![8 x 8 neliön ruudukko esittämässä ankkaa.](images/duck.png)
 
-Created by Peter, Ireland
+Tekijä Peter, Irlanti
 
 ```python
 
@@ -251,12 +251,12 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-title: Frog
+title: Sammakko
 ---
 
 ![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Created by team Jmeno, Czech Republic
+Tehnyt joukkue Jmeno, Tšekki
 
 ```python
 
@@ -284,12 +284,12 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-title: Blossom Tree
+title: Kukkiva puu
 ---
 
 ![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
 
-Created by team Zssh14, Slovakia
+Tehnyt joukkue Zssh14, Slovakia
 
 ```python
 
