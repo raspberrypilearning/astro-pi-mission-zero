@@ -18,7 +18,7 @@ Swój program napiszesz i przetestujesz w przeglądarce internetowej, takiej jak
 
 ### Kryteria Mission Zero Astro Pi
 
-Każdy projekt, który spełnia [zasady](https://astro-pi.org/pl/mission-zero/eligibility){:target="_blank"}, otrzyma „status lotu" i zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Jeśli Ci się uda, otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program działał w kosmosie.
+Każdy projekt, który spełnia [zasady](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, otrzyma „status lotu" i zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Jeśli Ci się uda, otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program działał w kosmosie.
 
 --- collapse ---
 ---
@@ -29,6 +29,6 @@ Mission Zero jest odpowiednia dla osób początkujących w programowaniu i polec
 
 Mission Zero można wykonać indywidualnie lub w zespołach liczących maksymalnie 4 osoby.
 
-Przeczytaj [oficjalne wytyczne](https://astro-pi.org/pl/mission-zero/guidelines){:target="_blank"} dla Mission Zero.
+Przeczytaj [oficjalne wytyczne](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} dla Mission Zero.
 
 --- /collapse ---
