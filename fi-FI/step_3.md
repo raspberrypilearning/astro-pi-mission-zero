@@ -254,7 +254,7 @@ c, c, c, r, c, r, c, c]
 title: Sammakko
 ---
 
-![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
+![8 x 8 neliön ruudukko esittämässä sammakkoa.](images/frog.png)
 
 Tehnyt joukkue Jmeno, Tšekki
 
@@ -287,7 +287,7 @@ k, k, k, j, k, n, n, n]
 title: Kukkiva puu
 ---
 
-![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
+![8 x 8 neliön ruudukko esittämässä kukkivaa puuta.](images/blossom.png)
 
 Tehnyt joukkue Zssh14, Slovakia
 
