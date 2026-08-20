@@ -1,18 +1,10 @@
 ## Detectează o culoare
 
-În acest pas, vei configura senzorul luminozității culorii și îl vei folosi pentru a detecta cantitatea de roșu, verde și albastru care ajunge la senzor. Această culoare va fi apoi folosită pentru a colora în imaginea aleasă. Un astronaut care se apropie de senzor într-o cămașă albastră ar vedea o imagine diferită de un astronaut într-o cămașă roșie.
+În acest pas, vei seta senzorul de culoare și luminozitate. Vei folosi acest senzor pentru a măsura cantitatea de lumină roșie, verde și albastră care ajunge la senzor. Aceste valori vor fi folosite apoi pentru a schimba una dintre culorile din imaginea aleasă.
 
-![imagine afișată cu un fundal roz pe matricea LED](images/colour_background.png)
+Asta înseamnă că imaginea se poate schimba în funcție de ceea ce vede senzorul. De exemplu, un astronaut care poartă un tricou albastru ar vedea o versiune diferită a imaginii față de un astronaut care poartă un tricou roșu.
 
-Indiferent de imaginea pe care ai ales-o, fundalul folosește variabila `c` care este setată la negru.
-
---- task ---
-
-Utilizează senzorul de culoare pentru a colora fundalul.
-
-Adaugă cod înainte de lista ta de imagini pentru a obține culoarea de la senzor și a schimba variabila de culoare `c` de fundal pentru a utiliza culoarea simțită de către senzorul de culoare Sense HAT în loc de negru.
-
-**Sfat:** Nu trebuie să tastezi comentariile care încep cu '#' (sunt acolo pentru a explica codul).
+În imaginea balenei pe care am folosit-o în pasul anterior, culoarea de fundal a fost neagră. Am folosit variabila `c` pentru a stoca codul său de culoare RGB:
 
 --- code ---
 ---
@@ -20,33 +12,37 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9, 10
 ---
+c = (0, 0, 0)
 
-# Adaugă variabile de culoare și imagine
+--- /code ---
 
-z = (153, 50, 204) # OrhideeÎntunecată
-q = (255, 255, 0) # Galben
-d = (51, 153, 255) # Albastru
-c = (0, 0, 0) # Negru
 
+--- task ---
+
+Folosește senzorul de culoare pentru a schimba una dintre culorile tale.
+
+Sub liniile unde definești culorile, adaugă următorul cod:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 3, 4
+---
+# Detectează o culoare
 rgb = sense.color # obține culoarea de la senzor
 c = (rgb.red, rgb.green, rgb.blue) # utilizează culoarea de la senzor
-
-imagine = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
-
 
 --- /code ---
 
 --- /task ---
+
+Acest cod înlocuiește valorile RGB stocate în `c` cu valorile pentru culoarea detectată de către senzor.
+
+Sfat: Dacă nu ai folosit variabila `c` în propria imagine, înlocuiește `c` cu una dintre variabilele de culoare pe care le-ai folosit. Acest lucru va permite senzorului să schimbe culoarea respectivă.
 
 --- task ---
 
@@ -56,20 +52,22 @@ imagine = [
 
 --- /task ---
 
-## Repetă programul tău
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Acum ai afișat o imagine și ai detectat o culoare și ai folosit-o în programul tău, iar codul tău este gata de trimitere! 
 
-Programul Astro Pi Mission Zero poate rula până la 30 de secunde. Vei folosi acest timp pentru a verifica în mod repetat senzorul de culoare şi a actualiza imaginea.
+Poți salva și trimite programul tău folosind formularul de la baza editorului de cod.
+  
+Totuși, este posibil să vrei să adaugi mai multe imagini la proiect sau să-i dai viață cu animație. Următorii pași arată cum să faci asta.
+</p>
 
-Codul tău va folosi o buclă `for` pentru a rula de 28 de ori. De **fiecare** dată va:
-+ detecta cea mai recentă culoare
-+ actualiza culoarea de fundal a imaginii
-+ face pauză o secundă
+## Animează proiectul tău (opțional)
+
+Programul tău Mission Zero poate rula pe Stația Spațială Internațională (ISS) timp de până la 30 de secunde. Poți folosi acest timp de funcționare pentru a afișa o animație pe matricea LED-urilor, comutând între două sau mai multe imagini diferite.
 
 --- task ---
 
-**Găsește** linia de cod `rgb = sense.color`.
 
-**Adaugă** codul deasupra lui pentru a configura bucla `for` să facă `28` de repetări.
+**Adaugă** a doua imagine sub linia de cod `sense.set_pixels(imagine)`. Dă-i numele variabilei `imagine2` şi schimbă câţiva pixeli pentru a face cadrul de animaţie să arate diferit. Apoi adaugă o scurtă pauză după ea.
 
 --- code ---
 ---
@@ -77,33 +75,41 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
-
-for i in range(28):
-rgb = sense.color # obține culoarea de la senzor
-c = (rgb.red, rgb.green, rgb.blue)
-
 imagine = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  
+sense.set_pixels(imagine)
+
+# Imaginile/cadrele suplimentare se pun aici:
+
+imagine2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Acum trebuie să indentezi tot codul de sub bucla `for` astfel încât să fie **în interiorul** buclei `for`.
+În partea de jos a fișierului de cod, configurează bucla `for` să se repete de `14` ori și să alterneze între afișarea imaginii `imagine` și a imaginii `imagine2`, cu pauză de 1 secundă la fiecare cadru.
 
-**Sfat:** Pentru a indenta mai multe linii, evidențiază liniile pe care vrei să le indentezi, apoi apasă tasta <kbd>Tab</kbd> de pe tastatură (de obicei deasupra tastei <kbd>Caps Lock</kbd> de pe tastatură).
+**Sfat:** Asigură-te că liniile de cod de sub `for i in range(14):` sunt indentate cu un spațiu pentru a sta **în interiorul** blocului buclei.
 
 --- code ---
 ---
@@ -111,103 +117,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
+imagine2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-for i in range(28):
-  rgb = sense.color # obține culoarea de la senzor
-  c = (rgb.red, rgb.green, rgb.blue)
+sleep(1)
 
-  imagine = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+# Repetă de 14 ori (14 * 2 secunde = 28 de secunde animație în total)
+for i in range(14):
+  # Afișează a doua imagine
+  sense.set_pixels(imagine2)
+  sleep(1)
 
-    
-  # Afișează imaginea
-
+  # Afișează prima imagine
   sense.set_pixels(imagine)
- 
---- /code ---
-
---- /task ---
-
---- task ---
-
-În partea de jos a codului tău, adaugă un `sleep` de o secundă în interiorul buclei tale:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 5
----
-  
-  # Afișează imaginea
-
-  sense.set_pixels(imagine)
-  sleep(1)  
-  
---- /code ---
-
-**Sfat:** Asigură-te că această linie de cod este indentată în cadrul buclei `for`.
-
---- /task ---
-
---- task ---
-
-**Test:** Execută codul și schimbă selectorul de culori de mai multe ori pe măsură ce proiectul rulează. Verifică dacă imaginea se actualizează pentru a utiliza culoarea detectată la următoarea sa execuție.
-
-Imaginea va înceta să se actualizeze atunci când bucla se termină astfel încât programul să nu ruleze mai mult de 30 de secunde.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-Codul meu are o eroare de sintaxă sau nu rulează conform așteptărilor:
-
-- Verifică dacă codul tău se potrivește cu codul din exemplele de mai sus
-- Verifică dacă ai indentat codul din bucla ta `for`
-- Verifică dacă lista ta este înconjurată de `[` și `]`
-- Verifică dacă fiecare variabilă de culoare din listă este separată de virgulă
-
-Codul meu rulează mai mult de 30 de secunde:
-
-- Redu numărul de rulări din bucla for, de la 28 la 25 sau chiar 20.
-- Scade durata sleep-ului, de la 1 secundă la 0,5 secunde.
-
---- /task ---
-
---- task ---
-
-Adaugă `sense.clear()` la sfârșitul codului tău pentru a șterge imaginea de la sfârșitul buclei tale. Acest lucru te va ajuta să vezi când animația s-a terminat de executat.
-
-**Sfat:** Asigură-te că **nu** indentezi linia de cod `sense.clear()` deoarece vrei ca aceasta să ruleze o singură dată la sfârșitul animației.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7
----
-  
-  # Afișează imaginea
-
-  sense.set_pixels(imagine)
-  sleep(1) 
-  
-sense.clear()
+  sleep(1)
   
 --- /code ---
 
@@ -215,53 +147,22 @@ sense.clear()
 
 --- task ---
 
-**Test:** Rulează codul din nou. După ce proiectul a terminat de rulat, matricea LED se va șterge și se vor face toate luminile negre (oprite).
+**Test:** Rulează codul din nou. Programul tău va afișa instantaneu culoarea detectată, apoi va repeta procesul de afișare animată.
 
 --- /task ---
 
---- task ---
-
-**Debug**
-
-Matricea LED devine neagră la fiecare secundă:
-
-- Verifică dacă nu ai indentat codul `sense.clear()` din cadrul buclei tale `for`
-
---- /task ---
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Dacă dorești să ai mai mult de două cadre în animația ta, trebuie să te asiguri că programul va rula pentru cel mult 30 de secunde. De exemplu, dacă ai 10 imagini care sunt afișate fiecare timp de 1 secundă, trebuie să modifici bucla `for` pentru a se repeta de 3 ori (10 * 3 = 30 de secunde)
+</p>
 
 --- task ---
 
-Adaugă cod pentru a șterge matricea LED-urilor la o culoare la alegerea ta. Creează o variabilă numită `x` pentru a stoca noua ta culoare.
+**Verifică dacă există erori**
 
-Poți să amesteci propria culoare sau să folosești valorile din lista de culori pentru a crea noua ta culoare `x`.
-
-[[[generic-theory-simple-colours]]] 
-[[[ambient-colours]]]
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7, 8
----
-  
-  # Afișează imaginea
-
-  sense.set_pixels(imagine)
-  sleep(1) 
-
-x = (178, 34, 34)  # alege-ți propriile valori roșu, verde, albastru între 0 - 255
-sense.clear(x)
-  
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test:** Rulează codul din nou. După terminarea proiectului, matricea LED se va șterge după culoarea aleasă. Poți schimba apoi testa culoarea ori de câte ori vrei.
+Codul meu are o eroare de sintaxă sau nu modifică cadrele:
+- Verifică dacă codul buclei `for` se potriveşte cu indentarea din exemplu.
+- Asigură-te că ai denumit a doua matrice de imagine `imagine2` și că este plasată în afara și înainte de începerea buclei.
+- Verifică dacă timpii de `sleep` sunt setați la exact `1` secundă pentru a evita trecerea peste limita strictă de execuție de 30 secunde de pe ISS.
 
 --- /task ---
 
@@ -271,20 +172,14 @@ sense.clear(x)
 
 Poți salva programul tău în proiectul Mission Starter introducând numele echipei, numele membrilor echipei și codul de clasă care ți-a fost dat. Poți reîncărca programul tău pe orice dispozitiv cu o conexiune la internet prin introducerea numelui echipei și a codului de clasă.
 
-![Butonul Mission Zero Salvare](images/savebutton_ro.png)
-
-
 --- /task ---
 
 --- task ---
 
 --- collapse ---
-
 ---
-title: Exemplu de cod completat
+title: Exemplu de cod pentru balenă complet
 ---
-
-![O grilă cu 8 x 8 pătrate care arată un pește.](images/fish.png)
 
 --- code ---
 ---
@@ -305,37 +200,104 @@ sense.color.gain = 60 # Setează sensibilitatea senzorului
 sense.color.integration_cycles = 64 # Intervalul la care va avea loc citirea
 
 # Adaugă variabile de culoare și imagine
+a = (255, 255, 255) # Alb
+c = (0, 0, 0)       # Negru
+f = (36, 128, 200)  # Albastru oceanic
+g = (0, 204, 255)   # Albastru ceresc
 
-z = (153, 50, 204) # OrhideeÎntunecată
-q = (255, 255, 0) # Galben
-d = (51, 153, 255) # Albastru
-c = (0, 0, 0) # Negru
+# Detectează o culoare
+rgb = sense.color # obține culoarea de la senzor
+c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28):
-  rgb = sense.color # obține culoarea de la senzor
-  c = (rgb.red, rgb.green, rgb.blue)
+imagine = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  imagine = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
-
-
-  # Afișează imaginea
-
-  sense.set_pixels(imagine)
-  sleep(1)
-
-x = (178, 34, 34)  # alege-ți propriile valori roșu, verde, albastru între 0 - 255
-sense.clear(x)
+sense.set_pixels(imagine)
 
 --- /code ---
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Exemplu de cod pentru balenă complet (cu animație)
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Importă bibliotecile
+from sense_hat import SenseHat
+from time import sleep
+
+# Configurează Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Configurează senzorul de culoare
+sense.color.gain = 60 # Setează sensibilitatea senzorului
+sense.color.integration_cycles = 64 # Intervalul la care va avea loc citirea
+
+# Adaugă variabile de culoare și imagine
+a = (255, 255, 255) # Alb
+c = (0, 0, 0)       # Negru
+f = (36, 128, 200)  # Albastru oceanic
+g = (0, 204, 255)   # Albastru ceresc
+
+# Detectează o culoare
+rgb = sense.color # obține culoarea de la senzor
+c = (rgb.red, rgb.green, rgb.blue)
+
+imagine = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(imagine)
+
+# TRIMITEREA DE BAZĂ este deja finalizată
+
+# Imaginile/cadrele suplimentare se pun aici:
+imagine2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sleep(1)
+
+# Repetă de 14 ori (14 * 2 secunde = 28 de secunde animație în total)
+for i in range(14):
+  # Afișează a doua imagine
+  sense.set_pixels(imagine2)
+  sleep(1)
+
+  # Afișează prima imagine
+  sense.set_pixels(imagine)
+  sleep(1)
+  
+--- /code ---
+
+--- /collapse ---
+
 --- /task ---
+
