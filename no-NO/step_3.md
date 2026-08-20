@@ -16,7 +16,7 @@ Legg merke til at hver rute er merket med en kode som representerer en bestemt f
 
 --- task ---
 
-Åpne [Mission Zero startprosjektet](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Åpne [Mission Zero startprosjektet](https://missions.astro-pi.org/nb/mz/code_submissions/){:target="_blank"}.
 
 Du vil se at et par kodelinjer er lagt til automatisk for deg.
 
@@ -53,7 +53,7 @@ LED-matrisen er et 8 x 8-rutenett. Hver LED på rutenettet kan settes til en ann
 --- collapse ---
 
 ---
-tittel: Liste over fargevariabler
+title: Liste over fargevariabler
 ---
 
 ![Et rutenett med 24 fargede firkanter, hver merket med en egen bokstav](images/palette.png)
@@ -99,7 +99,7 @@ Du må **kopiere** all koden for det valgte bildet og **lime inn** den inn i pro
 --- collapse ---
 
 ---
-tittel: Hval
+title: Hval
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en hval.](images/whale.png)
@@ -129,7 +129,7 @@ c, g, g, g, g, c, c, c]
 --- collapse ---
 
 ---
-tittel: Sitron
+title: Sitron
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en sitron.](images/lemon.png)
@@ -157,7 +157,7 @@ c, c, c, t, t, c, c, c]
 
 --- collapse ---
 ---
-tittel: Gris
+title: Gris
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en gris.](images/pig.png)
@@ -188,7 +188,7 @@ a, a, y, a, a, a, y, a]
 
 --- collapse ---
 ---
-tittel: Storm
+title: Storm
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en stormsky.](images/storm.png)
@@ -219,7 +219,7 @@ c, g, c, c, c, c, c, c]
 
 --- collapse ---
 ---
-tittel: And
+title: And
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en and.](images/duck.png)
@@ -251,7 +251,7 @@ c, c, c, r, c, r, c, c]
 
 --- collapse ---
 ---
-tittel: Frosk
+title: Frosk
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser en frosk.](images/frog.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-tittel: Blomstrende tre
+title: Blomstrende tre
 ---
 
 ![Et rutenett med 8 x 8 ruter som viser et blomstrende tre.](images/blossom.png)
