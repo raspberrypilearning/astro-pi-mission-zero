@@ -1,10 +1,10 @@
 ## Tunnista väri
 
-In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
+Tässä vaiheessa alustat väri- ja kirkkausanturin. Käytät tätä anturia mittaamaan anturiin saapuvan punaisen, vihreän ja sinisen valon määrää. Sitten niitä arvoja käytetään yhden värin muuttamiseen valitsemassasi kuvassa.
 
-This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
+Tämä tarkoittaa, että kuva voi muuttua sen mukaan, mitä anturi näkee. Esimerkiksi siniseen paitaan pukeutunut astronautti näkisi kuvan eri version kuin punaiseen paitaan pukeutunut astronautti.
 
-In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
+Edellisessä vaiheessa käyttämässämme valaskuvassa taustaväri oli musta. Käytimme muuttujaa `c` tallentaaksemme sen RGB-värikoodin:
 
 --- code ---
 ---
@@ -18,9 +18,9 @@ c = (0, 0, 0)
 
 --- task ---
 
-Use the colour sensor to change one of your colours.
+Käytä värianturia muuttaaksesi yhtä väreistäsi.
 
-Underneath the lines where you define the colours, add the following code:
+Lisää seuraava koodi niiden rivien alle, joilla määrität värit:
 
 --- code ---
 ---
@@ -34,9 +34,9 @@ rgb = sense.color # get the colour from the sensor c = (rgb.red, rgb.green, rgb.
 
 --- /task ---
 
-This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+Tämä koodi korvaa `c` -kohtaan tallennetut RGB-arvot anturin havaitseman värin arvoilla.
 
-Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
+Vinkki: Jos et käyttänyt muuttujaa `c` omassa kuvassasi, korvaa `c` jollakin käyttämistäsi värimuuttujista. Näin anturi voi vaihtaa kyseisen värin.
 
 --- task ---
 
@@ -47,16 +47,16 @@ Tip: If you didn't use the variable `c` in your own image, replace `c` with one 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
+Nyt olet näyttänyt kuvan sekä tunnistanut värin ja käyttänyt sitä ohjelmassasi, joten koodisi on valmis lähetettäväksi! 
 
-You can save and submit your program using the form at the bottom of the code editor.
+Voit tallentaa ja lähettää ohjelmasi koodieditorin alareunassa olevalla lomakkeella.
   
-However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+Voit kuitenkin halutessasi lisätä projektiisi lisää kuvia tai herättää sen eloon animaatioilla. Seuraavat vaiheet näyttävät, miten se tehdään.
 </p>
 
-## Animate your project (optional)
+## Animoi projektisi (valinnainen)
 
-Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
+Mission Zero -ohjelmaasi ajetaan Kansainvälisellä avaruusasemalla (ISS) enintään 30 sekuntia. Voit käyttää tätä suoritusaikaa animaation näyttämiseen LED-matriisissa vaihtamalla kahden tai useamman eri kuvan välillä.
 
 --- task ---
 
