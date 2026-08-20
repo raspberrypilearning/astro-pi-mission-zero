@@ -16,7 +16,7 @@ Observa que cada cuadrado está etiquetado con un código que representa un colo
 
 --- task ---
 
-Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Abre el [proyecto inicial de Mission Zero](https://missions.astro-pi.org/es/mz/code_submissions/){:target="_blank"}.
 
 Comprobarás que se han añadido automáticamente unas líneas de código.
 
@@ -53,7 +53,7 @@ La matriz de LEDs es una cuadrícula de 8 x 8. Cada LED de la cuadrícula se pue
 --- collapse ---
 
 ---
-título: Lista de variables de color
+title: Lista de variables de color
 ---
 
 ![Una cuadrícula de 24 cuadrados de colores, cada uno etiquetado con una letra diferente del alfabeto](images/palette.png)
@@ -284,7 +284,7 @@ k, k, k, j, k, n, n, n]
 
 --- collapse ---
 ---
-Title: Árbol en flor
+title: Árbol en flor
 ---
 
 ![Una rejilla con 8 x 8 cuadrados que muestran un árbol en flor.](images/blossom.png)
