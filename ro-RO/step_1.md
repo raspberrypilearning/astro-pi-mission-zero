@@ -29,6 +29,6 @@ Mission Zero este potrivit pentru începătorii în programare și este recomand
 
 Mission Zero se poate face individual sau în echipe de până la 4 persoane.
 
-Citește [instrucțiunile oficiale](https://astro-pi.org/ro/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
+Citește [instrucțiunile oficiale](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pentru Mission Zero.
 
 --- /collapse ---
