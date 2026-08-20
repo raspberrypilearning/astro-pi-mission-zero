@@ -12,38 +12,68 @@ Pridajte farebné premenné a obrázok
 
 Zobrazte obrázok
 
-Čierna
-
-Biela
-
-Tmavooranžová
-
-Tmavosivá
-
-Žltozelená
-
-Žltá
-
-Tmavooranžová
-
-Polnočná modrá
-
-Lesná zelená
-
-Nevädzová modrá
-
-Červená
-
-Jarná zelená
-
-Stredne modrá
-
-Tmavosivá
-
-Tmavoorchideová
+Zistenie farby
 
 získajte farbu zo snímača
 
 použite nasnímanú farbu
 
-vyberte si vlastné hodnoty červenej, zelenej a modrej medzi 0 a 255
+Sem sa pridávajú ďalšie obrázky/snímky:
+
+Zopakujte 14-krát (14 x 2 sekundy = celkový čas animácie 28 sekúnd)
+
+# Zobraziť druhý obrázok
+
+# Zobraziť prvý obrázok
+
+# ZÁKLADNÉ ODOSLANIE je hotové
+
+Biela
+
+Sivá
+
+Čierna
+
+Námornícka modrá
+
+Čistá modrá
+
+Morská modrá
+
+Nebeská modrá
+
+Elektrická azúrová
+
+Čistá zelená
+
+Listová zelená
+
+Olivovo zelená
+
+Lesná zelená
+
+Zemitá hnedá
+
+Terakotová hnedá
+
+Tehlovo červená
+
+Čistá červená
+
+Oranžová
+
+Svetložltá
+
+Čistá žltá
+
+Svetloružová
+
+Ružová
+
+Bledoružová
+
+Purpurová
+
+Fialová
+
+

@@ -1,5 +1,5 @@
-obrázok
+image
+
+image2
 
 rgb
-
-duha
