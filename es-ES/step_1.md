@@ -29,6 +29,6 @@ Mission Zero es apto para principiantes a la programación y es recomendado para
 
 Mission Zero se puede hacer individualmente o en equipos de hasta 4 personas.
 
-Lee el [documento con las directrices oficiales](https://astro-pi.org/es/mission-zero/guidelines){:target="_blank"} de Mission Zero.
+Lee el [documento con las directrices oficiales](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
 --- /collapse ---
