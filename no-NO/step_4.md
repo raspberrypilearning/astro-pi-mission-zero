@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-tittel: Kodeeksempel for ferdig hval (med animasjon)
+title: Kodeeksempel for ferdig hval (med animasjon)
 ---
 
 --- code ---
