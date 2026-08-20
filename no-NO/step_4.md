@@ -1,18 +1,10 @@
 ## Sanse en farge
 
-I dette trinnet vil du sette opp fargens lysstyrke og bruke den til å forstå mengden av rød, grønn, og blå når sensoren. Denne fargen vil bli brukt til å farge i det valgte bildet. En astronaut som går opp til sensoren i en blå skjorte vil se et annet bilde enn en astronaut i en rød skjorte.
+I dette trinnet konfigurerer du farge- og lysstyrkesensoren. Du skal bruke denne sensoren til å måle mengden rødt, grønt og blått lys som når sensoren. Disse verdiene vil deretter bli brukt til å endre en av fargene i det valgte bildet.
 
-![bilde som vises med en rosa bakgrunn på LED-matrisen](images/colour_background.png)
+Dette betyr at bildet kan endre seg avhengig av hva sensoren ser. For eksempel ville en astronaut som har på seg en blå skjorte se en annen versjon av bildet enn en astronaut som har på seg en rød skjorte.
 
-Uansett hvilket bilde du velger, bruker bakgrunnen `c`-variabelen, som er satt til svart.
-
---- task ---
-
-Bruk fargesensoren til å farge bakgrunnen din.
-
-Legg til kode før bildelisten din for å få fargen fra sensoren og endre `c` bakgrunnsfarge-variabelen for å bruke fargen med Sense HAT-fargesensoren i stedet for svart.
-
-**Tips:** Du trenger ikke skrive inn kommentarer som begynner med '#' (de er der for å forklare koden).
+I hvalbildet vi brukte i forrige trinn, var bakgrunnsfargen svart. Vi brukte variabelen `c` til å lagre RGB-fargekoden:
 
 --- code ---
 ---
@@ -20,56 +12,62 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9, 10
 ---
+c = (0, 0, 0)
 
-# Legg til fargevariabler og bilde
+--- /code ---
 
-z = (153, 50, 204) # Mørk orkidé
-q = (255, 255, 0) # Gul
-d = (51, 153, 255) # Blå
-c = (0, 0, 0) # Svart
 
+--- task ---
+
+Bruk fargesensoren til å endre en av fargene dine.
+
+Legg til følgende kode under linjene der du definerer fargene:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 3, 4
+---
+# Detekter en farge
 rgb = sense.color # hent fargen fra sensoren
 c = (rgb.red, rgb.green, rgb.blue) # bruke den sansede fargen
-
-bilde = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
-
 
 --- /code ---
 
 --- /task ---
 
+Denne koden erstatter RGB-verdiene som er lagret i `c`, med verdiene for fargen som oppdages av sensoren.
+
+Tips: Hvis du ikke brukte variabelen `c` i ditt eget bilde, kan du erstatte `c` med en av fargevariablene du brukte. Dette lar sensoren endre den fargen i stedet.
+
 --- task ---
 
-**Test:** Flytt fargegjenryteren til en farge du velger, og deretter **run (kjør)** koden din. Bakgrunnsfargen din endres. Gjenta denne testen igjen med en ny farge.
+**Test:** Flytt fargegjenryteren til en farge du velger, og deretter **kjør** koden din. Bakgrunnsfargen din endres. Gjenta denne testen igjen med en ny farge.
 
 **Tips:** Du må klikke 'Run (Kjør)' hver gang du endrer fargen.
 
 --- /task ---
 
-## Gjenta programmet ditt
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Nå har du vist et bilde og registrert en farge og brukt den i programmet ditt, og koden din er klar til innsending! 
 
-Astro Pi-Mission Zero-programmet tillates å løpe i opptil 30 sekunder. Du vil bruke denne tiden til å sjekke fargesensoren flere ganger og oppdatere bildet.
+Du kan lagre og sende inn programmet ditt ved hjelp av skjemaet nederst i koderedigeringsverktøyet.
+  
+Du kan imidlertid ønske å legge til flere bilder i prosjektet ditt, eller gjøre det levende med animasjon. De neste trinnene viser deg hvordan du gjør dette.
+</p>
 
-Koden din vil bruke en `for` løkke for å kjøre 28 ganger. **Hver** gang det vil:
-+ fornemme den nyeste fargen
-+ oppdatere bakgrunnsfargen på bildet
-+ pause i ett sekund
+## Animer prosjektet ditt (valgfritt)
+
+Mission Zero-programmet ditt kan kjøre på den internasjonale romstasjonen (ISS) i opptil 30 sekunder. Du kan bruke denne kjøretiden til å vise en animasjon på LED-matrisen ved å veksle mellom to eller flere forskjellige bilder.
 
 --- task ---
 
-**Finn** din `rgb = sense.color` kodelinje.
 
-**Legg til** kode over for å sette opp `for` loop for `28` repetisjoner.
+**Legg til** et bilde til rett under kodelinjen `sense.set_pixels(image)`. Gi den variabelnavnet `image2` og endre noen piksler for å få animasjonsrammen til å se annerledes ut. Legg så til en kort pause etterpå.
 
 --- code ---
 ---
@@ -77,33 +75,41 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-for i in range(28):
-rgb = sense.color # hent fargen fra sensoren
-c = (rgb.red, rgb.green, rgb.blue)
+sense.set_pixels(image)
 
-bilde = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+# Ekstra bilder/rammer kommer her:
 
-  
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Nå må du rykke inn all koden under `for` løkken slik at den sitter **inni** `for` løkke.
+Helt nederst i kodefilen setter du opp `for` -løkken din til å gjenta `14` ganger og veksler mellom å vise `image` og `image2` med 1 sekunds pause på hver billedramme.
 
-**Tip:** Til innrykk flere linjer, uthev linjene du ønsker å rykke inn, og trykk deretter <kbd>fane</kbd> på tastaturet (vanligvis over <kbd>Caps Lock</kbd> -tasten på tastaturet).
+**Tips:** Sørg for at kodelinjene under `for i i range(14):` er innrykket med et mellomrom slik at de sitter **inni** løkkeblokken.
 
 --- code ---
 ---
@@ -111,103 +117,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-for i in range(28):
-  rgb = sense.color # hent fargen fra sensoren
-  c = (rgb.red, rgb.green, rgb.blue)
+sleep(1)
 
-  bilde = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+# I sløyfe 14 ganger (14 * 2 sekunder = 28 sekunder total animasjon)
+for i in range(14):
+  # Vis det andre bildet
+  sense.set_pixels(image2)
+  sleep(1)
 
-    
-  # Vis bildet
-
-  sense.set_pixels(bilde)
- 
---- /code ---
-
---- /task ---
-
---- task ---
-
-I bunnen av koden legger du til en `sleep` på et sekund i løkken:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 5
----
-  
-  # Vis bildet
-
-  sense.set_pixels(bilde)
-  sleep(1)  
-  
---- /code ---
-
-**Tip:** Kontroller at denne kodelinjen er innrykket i din `for` løkke.
-
---- /task ---
-
---- task ---
-
-**Test:** Kjør koden og endre fargevelgeren flere ganger når prosjektet kjører. Sjekk at bildeoppdateringer dine for å bruke sensoret farge på neste kjøring.
-
-Bildet slutter å oppdatere når løkka er ferdig slik at programmet ikke kjører på mer enn 30 sekunder.
-
---- /task ---
-
---- task ---
-
-**Debug**
-
-Min kode har en syntaksfeil eller kjører ikke som forventet:
-
-- Kontroller at koden samsvarer med koden i eksemplene ovenfor
-- Sjekk at du har skrevet inn koden i `for` gjennomløp
-- Sjekk at listen din er omgitt av `[` and `]`
-- Kontroller at hver fargevariabel i listen er adskilt med et komma
-
-Min kode kjører lenger enn 30 sekunder:
-
-- Redusere antall ganger din for-løkke, fra 28 til 25 eller til 20.
-- Reduser lengden på søvnen fra 1 sekund til 0,5 sekunder.
-
---- /task ---
-
---- task ---
-
-Legg til `sense.clear()` ved slutten av koden for å fjerne bildet på slutten av løkken. Dette vil hjelpe deg å se når din animasjon er ferdig kjørt.
-
-**Tip:** Kontroller at du **ikke** rykk `sense.clear()` linje med kode da du ønsker at dette kun skal kjøres på slutten av din animasjon.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7
----
-  
-  # Vis bildet
-
-  sense.set_pixels(bilde)
-  sleep(1) 
-  
-sense.clear()
+  # Vis det første bildet
+  sense.set_pixels(image)
+  sleep(1)
   
 --- /code ---
 
@@ -215,53 +147,22 @@ sense.clear()
 
 --- task ---
 
-**Test:** Kjør koden din igjen. Når prosjektet ditt er ferdig med å kjøre LED-matrisen, vil alle lysene som er svarte (av).
+**Test:** Kjør koden din igjen. Programmet ditt vil vise den registrerte fargen umiddelbart, og deretter gå frem og tilbake i en animert visning.
 
 --- /task ---
 
---- task ---
-
-**Debug**
-
-LED-matrisen blir sort hvert sekund:
-
-- Sjekk at du ikke har skrevet inn `sense.clear()` koden i `for` løkke
-
---- /task ---
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Hvis du ønsker å ha mer enn to bilder i animasjonen, må du sørge for at programmet kjører i ikke mer enn 30 sekunder. Hvis du for eksempel har 10 bilder som hvert vises i 1 sekund, må du endre `for`-løkken til å gjentas 3 ganger (10 * 3 = 30 sekunder).
+</p>
 
 --- task ---
 
-Legg til kode for å fjerne LED matrisen til en farge du velger. Opprett en variabel kalt `x` for å lagre den nye fargen.
+**Sjekk om det finnes feil**
 
-Du kan blande din egen farge eller bruke verdiene fra fargelisten over farger for å lage din nye `x` farge.
-
-[[[generic-theory-simple-colours]]]
-[[[ambient-colours]]]
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7, 8
----
-  
-  # Vis bildet
-
-  sense.set_pixels(bilde)
-  sleep(1) 
-
-x = (178, 34, 34)  # velg ditt eget, grønn, blå verdier mellom 0 - 255
-sense.clear(x)
-  
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test:** Kjør koden din igjen. Når prosjektet ditt er ferdig med å kjøre LED-matrisen vil det fjerne til den valgte fargen. Du kan endre fargen så mange ganger du vil.
+Koden min har en syntaksfeil eller endrer ikke billedramme:
+- Sjekk at `for`-løkkekoden samsvarer med innrykket i eksemplet.
+- Sørg for at du har kalt den andre bildematrisen `image2` og at den er plassert utenfor og før løkken begynner.
+- Sjekk at `sleep-`-tidene dine er satt til nøyaktig `1` sekund for å unngå å overskride ISS' strenge frist på 30 sekunders utførelse.
 
 --- /task ---
 
@@ -271,19 +172,14 @@ sense.clear(x)
 
 Du kan lagre programmet ditt på Mission Starter-prosjektet ved å skrive inn lagnavnet ditt, lagmedlemmenes navn og klasseromskoden du har fått. Du kan laste inn programmet på nytt på en hvilken som helst enhet med internettforbindelse ved å skrive inn lagnavnet og klasseromskoden.
 
-![Lagre-knappen for Mission Zero.](images/savebutton_no.png)
-
 --- /task ---
 
 --- task ---
 
 --- collapse ---
-
 ---
-title: Fullstendig kodeeksempel
+title: Kodeeksempel for ferdig hval
 ---
-
-![Et rutenett med 8 x 8 ruter som viser en fisk.](images/fish.png)
 
 --- code ---
 ---
@@ -304,37 +200,104 @@ sense.color.gain = 60 # Angi følsomheten til sensoren
 sense.color.integration_cycles = 64 # Intervallet som avlesningens skal utføres i
 
 # Legg til fargevariabler og bilde
+a = (255, 255, 255) # Hvit
+c = (0, 0, 0)       # Svart
+f = (36, 128, 200)  # Havblå
+g = (0, 204, 255)   # Himmelblå
 
-z = (153, 50, 204) # Mørk orkidé
-q = (255, 255, 0) # Gul
-d = (51, 153, 255) # Blå
-c = (0, 0, 0) # Svart
+# Detekter en farge
+rgb = sense.color # hent fargen fra sensoren
+c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28):
-  rgb = sense.color # hent fargen fra sensoren
-  c = (rgb.red, rgb.green, rgb.blue)
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  bilde = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
-
-
-  # Vis bildet
-
-  sense.set_pixels(bilde)
-  sleep(1)
-
-x = (178, 34, 34)  # velg ditt eget, grønn, blå verdier mellom 0 - 255
-sense.clear(x)
+sense.set_pixels(image)
 
 --- /code ---
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Kodeeksempel for ferdig hval (med animasjon)
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Importer bibliotekene
+from sense_hat import SenseHat
+from time import sleep
+
+# Sett opp Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Sett opp fargesensoren
+sense.color.gain = 60 # Angi følsomheten til sensoren
+sense.color.integration_cycles = 64 # Intervallet som avlesningens skal utføres i
+
+# Legg til fargevariabler og bilde
+a = (255, 255, 255) # Hvit
+c = (0, 0, 0)       # Svart
+f = (36, 128, 200)  # Havblå
+g = (0, 204, 255)   # Himmelblå
+
+# Detekter en farge
+rgb = sense.color # hent fargen fra sensoren
+c = (rgb.red, rgb.green, rgb.blue)
+
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(image)
+
+# GRUNNLEGGENDE INNSENDING er over nå
+
+# Ekstra bilder/rammer kommer her:
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sleep(1)
+
+# I sløyfe 14 ganger (14 * 2 sekunder = 28 sekunder total animasjon)
+for i in range(14):
+  # Vis det andre bildet
+  sense.set_pixels(image2)
+  sleep(1)
+
+  # Vis det første bildet
+  sense.set_pixels(image)
+  sleep(1)
+  
+--- /code ---
+
+--- /collapse ---
+
 --- /task ---
+

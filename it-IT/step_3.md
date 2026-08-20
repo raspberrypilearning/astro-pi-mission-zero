@@ -16,7 +16,7 @@ Nota che ogni quadrato è etichettato con un codice per rappresentare un colore 
 
 --- task ---
 
-Apri [il progetto iniziale Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Apri [il progetto iniziale Mission Zero](https://missions.astro-pi.org/it/mz/code_submissions/){:target="_blank"}.
 
 Vedrai che alcune righe di codice sono state aggiunte automaticamente per facilitarti.
 

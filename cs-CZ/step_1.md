@@ -18,7 +18,7 @@ Svůj program napíšeš a otestuješ ve webovém prohlížeči, jako je napří
 
 ### Kritéria výzvy Astro Pi Mission Zero
 
-Všechny projekty, které se řídí [pravidly](https://astro-pi.org/cs/mission-zero/eligibility){:target="_blank"} získají „stav letu“ a budou spuštěný na Mezinárodní vesmírné stanici! Pokud uspěješ, obdržíš také speciální certifikát, který udává přesnou polohu ISS v okamžiku, kdy byl tvůj program ve vesmíru spuštěn.
+Všechny projekty, které se řídí [pravidly](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} získají „stav letu“ a budou spuštěný na Mezinárodní vesmírné stanici! Pokud uspěješ, obdržíš také speciální certifikát, který udává přesnou polohu ISS v okamžiku, kdy byl tvůj program ve vesmíru spuštěn.
 
 --- collapse ---
 ---
@@ -29,6 +29,6 @@ Výzva Mission Zero je vhodná pro začínající programátory a je doporučena
 
 Výzvu Mission Zero lze absolvovat jako jednotlivec nebo jako člen týmu složeného maximálně ze 4 lidí.
 
-Přečtěte si [oficiální pokyny](https://astro-pi.org/cs/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
+Přečtěte si [oficiální pokyny](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} pro výzvu Mission Zero.
 
 --- /collapse ---

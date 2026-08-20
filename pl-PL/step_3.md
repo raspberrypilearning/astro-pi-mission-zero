@@ -1,12 +1,18 @@
 ## Wyświetl obrazek
 
-Diody LED Astro Pi mogą świecić się na kolorowo. W tym kroku będziesz wyświetlać obrazy z natury na matrycy LED Astro Pi.
+Obrazek, który wyświetlisz, będzie się składał z 64 kolorowych kwadratów zwanych **pikselami**. Piksele są ułożone w siatkę 8 x 8. Każdy piksel może mieć inny kolor. Dobierając kolory starannie, możesz stworzyć obrazek. Oto przykład wieloryba stworzonego przy użyciu różnych odcieni niebieskiego na czarnym tle.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Matryca LED**</span> to siatka diod LED, które mogą być kontrolowane pojedynczo lub jako grupa, aby tworzyć różne efekty wyświetlania. Matryca LED na Sense HAT ma 64 diody LED wyświetlane w siatce 8 x 8. Diody LED mogą być zaprogramowane w celu uzyskania szerokiej gamy kolorów.
 </p>
 
-![Zrzut ekranu okna emulatora przedstawiającego komputer z matrycą LED wyświetlającą obrazek kwiatka.](images/fu-pic.png)
+![obrazek wieloryba o rozmiarze 8x8 z literami oznaczającymi różne kolory](images/whale.png)
+
+Zwróć uwagę, że każdy kwadrat jest oznaczony kodem reprezentującym określony kolor. Na tym obrazku użyto 3 kolorów:
++ c = czarny
++ f = błękit oceanu
++ g = błękit nieba
+
 
 --- task ---
 
@@ -34,7 +40,7 @@ sense.set_rotation(270)
 
 # Przygotuj czujnik kolorów
 sense.color.gain = 60 # Ustaw czułość czujnika
-sense.color.integration_cycles = 64 # Okres czasu, w którym będzie dokonywany odczyt
+sense.color.integration_cycles = 64 # Interwał, w którym będzie wykonywany odczyt
 
 --- /code ---
 
@@ -46,11 +52,47 @@ sense.color.integration_cycles = 64 # Okres czasu, w którym będzie dokonywany 
 
 Kolory można tworzyć przy użyciu różnych proporcji czerwieni, zieleni i niebieskiego. Dowiedz się więcej o kolorach RGB tutaj:
 
-[[[generic-theory-simple-colours]]]
+![Trzy suwaki pokazujące wartości kolorów RGB](images/rgbsliders.gif)
 
-Matryca LED to siatka 8 x 8. Każda dioda świecąca na siatce może być ustawiona na inny kolor. Oto lista zmiennych dla 24 różnych kolorów. Każdy kolor ma wartość dla czerwonego, zielonego i niebieskiego:
+Matryca LED to siatka 8 x 8. Każda dioda świecąca na siatce może być ustawiona na inny kolor. Możemy używać liter od a do z jako nazw zmiennych reprezentujących 24 różne kolory. Każdy kolor ma wartość dla czerwonego, zielonego i niebieskiego.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Lista zmiennych kolorów
+---
+
+![Siatka 24 kolorowych kwadratów, z których każdy jest oznaczony inną literą alfabetu](images/palette.png)
+
+```python
+a = (255, 255, 255) # Biały
+b = (171, 171, 171) # Szary
+c = (0, 0, 0)       # Czarny
+d = (25, 25, 113)   # Granatowy
+e = (0, 0, 255)     # Czysty niebieski
+f = (36, 128, 200)  # Błękit oceanu
+g = (0, 204, 255)   # Błękit nieba
+h = (86, 255, 255)  # Jaskrawy cyjan
+j = (0, 255, 0)     # Czysta zieleń
+k = (46, 139, 33)   # Zieleń liści
+l = (57, 97, 17)    # Zieleń oliwkowa
+m = (30, 65, 6)     # Zieleń lasu
+n = (126, 88, 25)   # Brąz ziemisty
+o = (179, 96, 65)   # Brąz terakotowy
+p = (180, 34, 34)   # Czerwień ceglana
+q = (255, 0, 0)     # Czysta czerwień
+r = (232, 118, 5)   # Pomarańczowy
+s = (241, 231, 100) # Bladożółty
+t = (255, 255, 0)   # Czysta żółć
+u = (255, 209, 209) # Blady róż
+v = (255, 177, 177) # Pudrowy róż
+w = (249, 169, 255) # Jasnoróżowy
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Fioletowy
+
+```
+
+--- /collapse ---
 
 ### Wybierz obraz
 
@@ -63,28 +105,27 @@ Będziesz musiał **skopiować** cały kod wybranego obrazu, a następnie **wkle
 --- collapse ---
 
 ---
-title: Ryba
+title: Wieloryb
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających rybę.](images/fish.png)
+![Siatka 8 x 8 kwadratów przedstawiająca wieloryba.](images/whale.png)
 
-Stworzone przez zespół chalka, Polska
+Stworzone przez zespół Naicom, Włochy
 
 ```python
-z = (153, 50, 204) # CiemnaOrchidea
-q = (255, 255, 0) # Żółty
-d = (51, 153, 255) # Niebieski
-c = (0, 0, 0) # Czarny
+c = (0, 0, 0)       # Czarny
+f = (36, 128, 200)  # Błękit oceanu
+g = (0, 204, 255)   # Błękit nieba
 
 obrazek = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -94,59 +135,57 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Mors
+title: Cytryna
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających morsa.](images/walrus.png)
+![Siatka 8 x 8 kwadratów przedstawiająca cytrynę.](images/lemon.png)
 
-Stworzone przez zespół Walrus, Finlandia
+Stworzone przez zespół g4lemoni, Grecja
 
 ```python
-h = (0, 255, 255) # Cyjan
-c = (0, 0, 0) # Czarny
-s = (139, 69, 19) # Kasztanowy brąz
+c = (0, 0, 0)       # Czarny
+k = (46, 139, 33)   # Zieleń liści
+t = (255, 255, 0)   # Czysta żółć
+
+obrazek = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Świnka
+---
+
+![Siatka 8 x 8 kwadratów przedstawiająca świnkę.](images/pig.png)
+
+Stworzone przez Gary'ego, Wielka Brytania
+
+```python
 a = (255, 255, 255) # Biały
-r = (184, 134, 11) # Ciemna nawłoć
+v = (255, 177, 177) # Pudrowy róż
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Brąz terakotowy
+c = (0, 0, 0)       # Czarny
 
 obrazek = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Siatka kwadratów 8 x 8 przedstawiających Paxi.](images/paxi.png)
-
-Stworzone przez zespół tony_pi, Włochy
-
-```python
-v = (255, 0, 0) # Czerwony
-m = (34, 139, 34) # Leśny zielony
-c = (0, 0, 0) # Czarny 
-e = (100, 149, 237) # Chabrowy
-l = (0, 255, 0) # Zielony
-
-obrazek = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -155,29 +194,29 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Pies
+title: Burza
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających głowę psa.](images/dog.png)
+![Siatka 8 x 8 kwadratów przedstawiająca chmurę burzową.](images/storm.png)
 
-Stworzone przez zespół ptpr_07, Hiszpania
+Stworzone przez zespół hop2p023, Hiszpania
 
 ```python
 
-c = (0, 0, 0) # Czarny
-r = (184, 134, 11) # Ciemna nawłoć
-s = (139, 69, 19) # Kasztanowy brąz
-y = (255, 20, 147) # Ciemny róż
+c = (0, 0, 0)       # Czarny
+f = (36, 128, 200)  # Błękit oceanu
+g = (0, 204, 255)   # Błękit nieba
+t = (255, 255, 0)   # Czysta żółć
 
 obrazek = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -186,35 +225,31 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Kameleon
+title: Kaczka
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających kameleona w kolorach tęczy.](images/chameleon.png)
+![Siatka 8 x 8 kwadratów przedstawiająca kaczkę.](images/duck.png)
 
-Stworzone przez zespół The_ETs, Wielka Brytania
+Stworzone przez Petera, Irlandia
 
 ```python
 
 c = (0, 0, 0) # Czarny
-s = (139, 69, 19) # Kasztanowy brąz
+l = (57, 97, 17)    # Zieleń oliwkowa
+m = (30, 65, 6)     # Zieleń lasu
+r = (232, 118, 5)   # Pomarańczowy
 a = (255, 255, 255) # Biały
-v = (255, 0, 0) # Czerwony
-t = (255, 140, 0) # Ciemny pomarańczowy
-q = (255, 255, 0) # Żółty
-m = (34, 139, 34) # Leśny zielony
-h = (0, 255, 255) # Cyjan
-z = (153, 50, 204) # Ciemna orchidea
-y = (255, 20, 147) # Ciemny róż
+b = (171, 171, 171) # Szary
 
 obrazek = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -222,31 +257,32 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Latawiec
+title: Żaba
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających latawiec.](images/kite.png)
+![Siatka 8 x 8 kwadratów przedstawiająca żabę.](images/frog.png)
 
-Stworzone przez zespół Val, Grecja
+Stworzone przez zespół Jmeno, Czechy
 
 ```python
 
-c = (0, 0, 0) # Czarny
-m = (34, 139, 34) # Leśny zielony
-v = (255, 0, 0) # Czerwony
-q = (255, 255, 0) # Żółty
-e = (0, 0, 205) # Średni niebieski
-h = (0, 255, 255) # Cyjan
+a = (255, 255, 255) # Biały
+b = (171, 171, 171) # Szary
+c = (0, 0, 0)       # Czarny
+q = (255, 0, 0)     # Czysta czerwień
+j = (0, 255, 0)     # Czysta zieleń
+k = (46, 139, 33)   # Zieleń liści
+n = (126, 88, 25)   # Brąz ziemisty
 
 obrazek = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -254,30 +290,33 @@ obrazek = [
 
 --- collapse ---
 ---
-title: Kurczak
+title: Kwitnące drzewo
 ---
 
-![Siatka kwadratów 8 x 8 przedstawiających kurczaka.](images/chicken.png)
+![Siatka 8 x 8 kwadratów przedstawiająca kwitnące drzewo.](images/blossom.png)
 
-Stworzone przez zespół Slepicky, Czechy
+Stworzone przez zespół Zssh14, Słowacja
 
 ```python
 
-v = (255, 0, 0) # Czerwony
-c = (0, 0, 0) # Czarny
-b = (105, 105, 105) # Ciemnoszary
-q = (255, 255, 0) # Żółty
-r = (184, 134, 11) # Ciemna nawłoć
+t = (255, 255, 0)   # Czysta żółć
+g = (0, 204, 255)   # Błękit nieba
+w = (249, 169, 255) # Jasnoróżowy
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Fioletowy
+n = (126, 88, 25)   # Brąz ziemisty
+o = (179, 96, 65)   # Brąz terakotowy
+k = (46, 139, 33)   # Zieleń liści
 
 obrazek =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -295,24 +334,23 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Ciemna orchidea
-q = (255, 255, 0) # Żółty
-d = (51, 153, 255) # Niebieski
-c = (0, 0, 0) # Czarny
+c = (0, 0, 0)       # Czarny
+f = (36, 128, 200)  # Błękit oceanu
+g = (0, 204, 255)   # Błękit nieba
 
 obrazek = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-# Wyświetl obraz 
+# Wyświetl obraz
 sense.set_pixels(obrazek)
 
 --- /code ---
@@ -342,12 +380,14 @@ Mój obraz się nie pojawia:
 
 --- /task ---
 
---- task ---
+
+--- task --- 
 
 **Zapisz swoje postępy**
 
 Teraz, gdy wyświetliłeś obraz, możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swojego zespołu, imiona członków zespołu i otrzymany kod klasy. Możesz ponownie załadować swój program na dowolnym urządzeniu z dostępem do Internetu, wpisując nazwę swojego zespołu i kod klasy.
 
-![Przycisk „Zapisz” w Mission Zero.](images/savebutton_pl.png)
+![Przycisk „Zapisz” w Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task --- 
+

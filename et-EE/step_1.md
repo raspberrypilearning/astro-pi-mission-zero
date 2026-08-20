@@ -18,7 +18,7 @@ Sa kirjutad ja testid oma programmi veebibrauseris, näiteks Google Chrome'is. S
 
 ### Astro Pi Mission Zero kriteeriumid
 
-Iga projekt, mis vastab [reeglitele](https://astro-pi.org/et/mission-zero/eligibility){:target="_blank"}, saab rahvusvahelises kosmosejaamas töötamiseks lennustaatuse! Kui teil õnnestub, saate ka spetsiaalse sertifikaadi, mis näitab täpselt, kus ISS asus teie programmi kosmoses töötamise ajal.
+Iga projekt, mis vastab [reeglitele](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, saab rahvusvahelises kosmosejaamas töötamiseks lennustaatuse! Kui teil õnnestub, saate ka spetsiaalse sertifikaadi, mis näitab täpselt, kus ISS asus teie programmi kosmoses töötamise ajal.
 
 --- collapse ---
 ---

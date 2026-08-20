@@ -18,7 +18,7 @@ Je schrijft en test je programma in een webbrowser zoals Google Chrome. Je hebt 
 
 ### Astro Pi Mission Zero criteria
 
-Elk project dat voldoet aan de [regels](https://astro-pi.org/nl/mission-zero/eligibility){:target="_blank"} krijgt de 'Vluchtstatus' om op het Internationale Ruimtestation te draaien! Als je slaagt, ontvang je ook een speciaal certificaat waarop precies staat waar het ISS zich bevond toen je programma in de ruimte draaide.
+Elk project dat voldoet aan de [regels](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} krijgt de 'Vluchtstatus' om op het Internationale Ruimtestation te draaien! Als je slaagt, ontvang je ook een speciaal certificaat waarop precies staat waar het ISS zich bevond toen je programma in de ruimte draaide.
 
 --- collapse ---
 ---
@@ -29,6 +29,6 @@ Mission Zero is ideaal als je net begint met programmeren, het is gemaakt voor k
 
 Mission Zero kan individueel of in teams van maximaal 4 personen worden uitgevoerd.
 
-Lees de [officiële richtlijnen](https://astro-pi.org/nl/mission-zero/guidelines){:target="_blank"} voor Mission Zero door.
+Lees de [officiële richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero door.
 
 --- /collapse ---

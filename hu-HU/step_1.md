@@ -18,7 +18,7 @@ A programodat egy webbőngészőben, példaul a Google Chrome-ban fogod megírni
 
 ### Az Astro Pi Mission Zero feltételei
 
-Minden projekt, amely betartja a [szabályokat](https://astro-pi.org/hu/mission-zero/eligibility){:target="_blank"}, repülési státuszt kap, amellyel futhat a Nemzetközi Űrállomáson! Ha sikerrel jársz, kapsz egy különleges bizonyítványt, amely megmutatja, hogy pontosan hol volt az ISS akkor, amikor a programod lefutott az űrben.
+Minden projekt, amely betartja a [szabályokat](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, repülési státuszt kap, amellyel futhat a Nemzetközi Űrállomáson! Ha sikerrel jársz, kapsz egy különleges bizonyítványt, amely megmutatja, hogy pontosan hol volt az ISS akkor, amikor a programod lefutott az űrben.
 
 --- collapse ---
 ---
@@ -29,6 +29,6 @@ A Mission Zero alkalmas kezdő programozóknak, és 9-16 év közötti fiatalokn
 
 A Mission Zero teljesíthető egyénileg vagy maximum 4 fős csapatban.
 
-Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/hu/mission-zero/guidelines){:target="_blank"}.
+Olvasd el a Mission Zero [hivatalos irányelveket](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---

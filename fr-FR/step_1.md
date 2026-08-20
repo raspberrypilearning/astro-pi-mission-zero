@@ -18,7 +18,7 @@ Tu écriras et testeras ton programme dans un navigateur web tel que Google Chr
 
 ### Critères d'éligibilité de l'Astro Pi Mission Zero
 
-Chaque projet qui respecte les [règles](https://astro-pi.org/fr/mission-zero/eligibility){:target="_blank"} recevra le « statut de vol » et sera envoyé pour être exécuté à bord de la Station spatiale internationale ! Si tu réussis, tu recevras aussi un certificat spécial indiquant l'endroit exact où se trouvait la Station spatiale internationale lorsque ton programme a été exécuté dans l'espace.
+Chaque projet qui respecte les [règles](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} recevra le « statut de vol » et sera envoyé pour être exécuté à bord de la Station spatiale internationale ! Si tu réussis, tu recevras aussi un certificat spécial indiquant l'endroit exact où se trouvait la Station spatiale internationale lorsque ton programme a été exécuté dans l'espace.
 
 --- collapse ---
 ---
@@ -29,6 +29,6 @@ Mission Zero convient aux débutant·e·s en programmation et est recommandé a
 
 Mission Zero peut être réalisé individuellement ou en équipes de 4 personnes maximum.
 
-Consultez les [directives officielles](https://astro-pi.org/fr/mission-zero/guidelines){:target="_blank"} de Mission Zero.
+Consultez les [directives officielles](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} de Mission Zero.
 
 --- /collapse ---

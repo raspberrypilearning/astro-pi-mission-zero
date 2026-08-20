@@ -5,9 +5,9 @@ w = (255, 255, 255)
 b = (0, 0, 0)
 g = (50,50,50)
 s = (180,180,180)
-red = (255,0,0)
+r = (255,0,0)
 
-obrazek = [
+picture = [
     g, b, b, b, b, b, b, g,
     b, g, g, g, g, g, g, b,
     b, g, b, b, g, w, g, s,
@@ -18,4 +18,4 @@ obrazek = [
     g, b, b, b, b, b, b, g
     ]
     
-sense.set_pixels(obrazek)
+sense.set_pixels(picture)

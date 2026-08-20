@@ -1,6 +1,12 @@
 ## Co będziesz robić
 
-Twój projekt ustawi kolor tła obrazu na kolor, który Astro Pi wykryje. Dzięki temu Międzynarodowa Stacja Kosmiczna (ISS) będzie bardziej kolorowa dla astronautów na pokładzie. Twój kod wykorzysta do tego czujnik jasności koloru Sense HAT na nowym komputerze Mark II Astro Pi.
+Zaprogramujesz komputer Astro Pi, aby wyświetlił kolorowy obraz. Gdy Twój program przejdzie oficjalne kontrole kodu, zostanie uruchomiony na komputerze Astro Pi na Międzynarodowej Stacji Kosmicznej (ISS), aby astronauci mogli go zobaczyć podczas swoich codziennych zajęć.
+
+W tym projekcie dowiesz się, czym jest komputer Astro Pi i jak go sterować. Będziesz:
+
++ Projektować i wyświetlać obrazek pixel art na komputerze Astro Pi
++ Używać czujnika do wykrywania koloru i jasności światła na pokładzie ISS oraz zmieniać obrazek
++ Tworzyć prostą animację (opcjonalnie)
 
 Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
 
@@ -8,26 +14,21 @@ Oto przykład programu, który można uruchomić na Astro Pi w kosmosie.
 
 ### Czego będziesz potrzebować
 
-Do stworzenia swojego programu będziesz używać emulatora Astro Pi w przeglądarce internetowej. Nie potrzebujesz komputera Astro Pi.
+Swój program napiszesz i przetestujesz w przeglądarce internetowej, takiej jak Google Chrome. Nie potrzebujesz prawdziwego komputera Astro Pi.
 
 ### Kryteria Mission Zero Astro Pi
 
-**Jeśli Twój projekt spełni [kryteria kwalifikacyjne](https://astro-pi.org/pl/mission-zero/eligibility){:target="_blank"}**, Twój ukończony program zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program został uruchomiony.
-
-Dowiesz się o komputerze Astro Pi i o tym, jak nim sterować, w tym jak:
-+ Utworzyć **zmienne** kolorów do użycia w swoim obrazku
-+ Zaprojektować i wyświetlić obrazek na Sense HAT
-+ Wykryć kolor światła na pokładzie ISS
+Każdy projekt, który spełnia [zasady](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, otrzyma „status lotu" i zostanie uruchomiony na Międzynarodowej Stacji Kosmicznej! Jeśli Ci się uda, otrzymasz również specjalny certyfikat, który pokaże dokładne miejsce, gdzie znajdowała się ISS, kiedy Twój program działał w kosmosie.
 
 --- collapse ---
 ---
 title: Notatki dla mentorów
 ---
 
-Mission Zero jest odpowiednie dla początkujących programistów i/lub dzieci w wieku szkolnym i można ją ukończyć w ciągu jednej 60-minutowej sesji na dowolnym komputerze z dostępem do Internetu. Nie jest potrzebny żaden specjalny sprzęt ani wcześniejsze umiejętności programistyczne. Wszystko można zrobić w przeglądarce internetowej.
+Mission Zero jest odpowiednia dla osób początkujących w programowaniu i polecana młodym ludziom w wieku od 9 do 16 lat. Można ją ukończyć w pojedynczej 60-minutowej sesji, na dowolnym komputerze z dostępem do Internetu. Nie jest potrzebny żaden specjalny sprzęt ani wcześniejsze umiejętności programistyczne. Wszystko można zrobić w przeglądarce internetowej.
 
-Zorganizuj uczniów w zespoły składające się maksymalnie z czterech osób, które pokierowane według naszych wskazówek napiszą oni krótki program w języku Python, który wykryje kolor na pokładzie stacji ISS i utworzy obrazek z użyciem tego koloru.
+Mission Zero można wykonać indywidualnie lub w zespołach liczących maksymalnie 4 osoby.
 
-Przeczytaj [oficjalne wytyczne](https://astro-pi.org/pl/mission-zero/guidelines){:target="_blank"} dla Mission Zero.
+Przeczytaj [oficjalne wytyczne](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} dla Mission Zero.
 
 --- /collapse ---

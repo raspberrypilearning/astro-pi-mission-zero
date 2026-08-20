@@ -1,18 +1,10 @@
 ## Wykryj kolor
 
-W tym kroku przygotujesz czujnik jasności koloru i użyjesz go do wykrycia ilości czerwonego, zielonego i niebieskiego docierającego do czujnika. Ten kolor zostanie następnie użyty do pokolorowania wybranego obrazu. Astronauta podchodzący do czujnika w niebieskiej koszuli zobaczy inny obraz niż astronauta w czerwonej koszuli.
+W tym kroku skonfigurujesz czujnik koloru i jasności. Użyjesz tego czujnika do zmierzenia ilości światła czerwonego, zielonego i niebieskiego docierającego do czujnika. Te wartości zostaną następnie użyte do zmiany jednego z kolorów na wybranym przez Ciebie obrazku.
 
-![Obraz wyświetlany z różowym tłem na matrycy LED.](images/colour_background.png)
+Oznacza to, że obrazek może się zmieniać w zależności od tego, co widzi czujnik. Na przykład astronauta w niebieskiej koszulce zobaczy inną wersję obrazka niż astronauta w czerwonej koszulce.
 
-Niezależnie od wybranego obrazu tło używa zmiennej `c`, ustawionej na kolor czarny.
-
---- task ---
-
-Użyj czujnika koloru, aby pokolorować tło.
-
-Dodaj kod przed listą obrazów, aby uzyskać kolor z czujnika i popraw zmienną koloru tła `c`, aby zamiast czerni użyć kolor wykrywany przez czujnik koloru Sense HAT.
-
-**Wskazówka:** Nie musisz wpisywać komentarzy zaczynających się od znaku „#” (są tam po to, aby wyjaśnić kod).
+Na obrazku wieloryba, którego użyliśmy w poprzednim kroku, kolor tła był czarny. Do przechowania jego kodu koloru RGB użyliśmy zmiennej `c`:
 
 --- code ---
 ---
@@ -20,33 +12,37 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9, 10
 ---
+c = (0, 0, 0)
 
-# Dodaj zmienne kolorów i obraz
+--- /code ---
 
-z = (153, 50, 204) # Ciemna orchidea
-q = (255, 255, 0) # Żółty
-d = (51, 153, 255) # Niebieski
-c = (0, 0, 0) # Czarny
 
+--- task ---
+
+Użyj czujnika koloru, aby zmienić jeden ze swoich kolorów.
+
+Pod liniami, w których definiujesz kolory, dodaj następujący kod:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 3, 4
+---
+# Wykryj kolor
 rgb = sense.color # pobierz kolor z czujnika
 c = (rgb.red, rgb.green, rgb.blue) # użyj odczytany kolor
-
-obrazek = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
-
 
 --- /code ---
 
 --- /task ---
+
+Ten kod zastępuje wartości RGB przechowywane w zmiennej `c` wartościami koloru wykrytego przez czujnik.
+
+Wskazówka: Jeśli nie użyłeś zmiennej `c` na swoim obrazku, zastąp `c` jedną ze zmiennych kolorów, których użyłeś. Dzięki temu czujnik zmieni zamiast niej ten kolor.
 
 --- task ---
 
@@ -56,20 +52,22 @@ obrazek = [
 
 --- /task ---
 
-## Zapętl swój program
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Wyświetliłeś już obrazek, odczytałeś kolor i wykorzystałeś go w swoim programie — Twój kod jest gotowy do przesłania! 
 
-Program Astro Pi Mission Zero może działać maksymalnie 30 sekund. Wykorzystasz ten czas, aby wielokrotnie sprawdzać czujnik koloru i odświeżać obraz.
+Możesz zapisać i przesłać swój program za pomocą formularza znajdującego się na dole edytora kodu.
+  
+Możesz jednak dodać do swojego projektu więcej obrazków lub ożywić go animacją. Kolejne kroki pokażą Ci, jak to zrobić.
+</p>
 
-Twój kod użyje pętli `for`, aby uruchomić się 28 razy. **Za każdym** razem będzie:
-+ odczytywał ostatni kolor
-+ odświeżał kolor tła obrazka
-+ zatrzymywał się na sekundę
+## Animuj swój projekt (opcjonalnie)
+
+Twój program Mission Zero może działać na Międzynarodowej Stacji Kosmicznej (ISS) maksymalnie przez 30 sekund. Możesz wykorzystać ten czas działania do wyświetlenia animacji na matrycy LED, przełączając się między dwoma lub więcej różnymi obrazkami.
 
 --- task ---
 
-**Znajdź** swoją linię kodu `rgb = sense.color`.
 
-**Dodaj** powyższy kod, aby ustawić pętlę `for` na `28` powtórzeń.
+**Dodaj** drugi obrazek bezpośrednio pod linią kodu `sense.set_pixels(obrazek)`. Nadaj mu nazwę zmiennej `obrazek2` i zmień kilka pikseli, aby klatka animacji wyglądała inaczej. Następnie dodaj po nim krótką pauzę.
 
 --- code ---
 ---
@@ -77,33 +75,41 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
-
-for i in range(28):
-rgb = sense.color # pobierz kolor z czujnika
-c = (rgb.red, rgb.green, rgb.blue)
-
 obrazek = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  
+sense.set_pixels(obrazek)
+
+# Dodatkowe obrazki / klatki umieść tutaj:
+
+obrazek2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Teraz musisz zrobić wcięcie w całym kodzie poniżej pętli `for`, aby znajdował się **wewnątrz** pętli `for`.
+Na samym dole pliku z kodem ustaw pętlę `for`, aby powtórzyła się `14` razy i naprzemiennie wyświetlała `obrazek` i `obrazek2`, zatrzymując się na 1 sekundę przy każdej klatce.
 
-**Wskazówka:** Aby zrobić wcięcie wielu linii, zaznacz linie, które chcesz wciąć, a następnie naciśnij klawisz <kbd>Tab</kbd> na klawiaturze (zazwyczaj powyżej klawisza <kbd>Caps Lock</kbd>).
+**Wskazówka:** Upewnij się, że linie kodu pod `for i in range(14):` są wcięte o spację, dzięki czemu znajdą się **wewnątrz** bloku pętli.
 
 --- code ---
 ---
@@ -111,103 +117,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
+obrazek2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-for i in range(28):
-  rgb = sense.color # pobierz kolor z czujnika
-  c = (rgb.red, rgb.green, rgb.blue)
+sleep(1)
 
-  obrazek = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+# Powtórz 14 razy (14 * 2 sekundy = 28 sekund całej animacji)
+for i in range(14):
+  # Wyświetl drugi obrazek
+  sense.set_pixels(obrazek2)
+  sleep(1)
 
-    
-  # Wyświetl obraz
-
+  # Wyświetl pierwszy obrazek
   sense.set_pixels(obrazek)
- 
---- /code ---
-
---- /task ---
-
---- task ---
-
-Na dole kodu w swojej pętli dodaj instrukcję `sleep` na jedną sekundę:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 5
----
-  
-  # Wyświetl obraz
-
-  sense.set_pixels(obrazek)
-  sleep(1)  
-  
---- /code ---
-
-**Wskazówka:** Upewnij się, że ten wiersz kodu jest wcięty w pętli `for`.
-
---- /task ---
-
---- task ---
-
-**Test:** Uruchom swój kod i zmieniaj wybór kolorów kilkakrotnie w trakcie działania projektu. Sprawdź, czy obraz zmienił się, aby użyć wykrytego koloru przy następnym uruchomieniu.
-
-Obraz przestanie się odświeżać po zakończeniu pętli, aby program nie działał dłużej niż 30 sekund.
-
---- /task ---
-
---- task ---
-
-**Debugowanie (usuwanie błędów)**
-
-Mój kod zawiera błąd składni lub nie działa tak jak powinien:
-
-- Sprawdź, czy Twój kod pasuje do kodu w powyższych przykładach
-- Sprawdź, czy masz wcięcia w kodzie pętli `for`
-- Sprawdź, czy Twoja lista jest otoczona przez `[` i `]`
-- Sprawdź, czy każda zmienna koloru na liście jest oddzielona przecinkiem
-
-Mój kod działa dłużej niż 30 sekund:
-
-- Zmniejsz liczbę uruchomień pętli for z 28 do 25, a nawet 20.
-- Zmniejsz długość opóźnienia (sleep) z 1 sekundy do 0.5 sekundy.
-
---- /task ---
-
---- task ---
-
-Dodaj `sense.clear()` na końcu kodu, aby wyczyścić obraz na końcu pętli. Pomoże ci to zobaczyć, kiedy twoja animacja się zakończyła.
-
-**Wskazówka:** Upewnij się, że **nie** wciąłeś linii kodu `sense.clear()`, ponieważ chcesz uruchomić tą funkcję tylko raz na końcu animacji.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7
----
-  
-  # Wyświetl obraz
-
-  sense.set_pixels(obrazek)
-  sleep(1) 
-  
-sense.clear()
+  sleep(1)
   
 --- /code ---
 
@@ -215,54 +147,22 @@ sense.clear()
 
 --- task ---
 
-**Test:** Uruchom kod ponownie. Po zakończeniu pracy projekt wyczyści matrycę LED, wyłączając (off) wszystkie diody.
+**Test:** Uruchom kod ponownie. Twój program natychmiast wyświetli wykryty kolor, a następnie będzie przełączał się tam i z powrotem, tworząc animację.
 
 --- /task ---
 
---- task ---
-
-**Debugowanie**
-
-Matryca LED staje się czarna co sekundę:
-
-- Sprawdź, czy nie masz wcięcia w kodzie `sense.clear()` w pętli `for`
-
---- /task ---
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Jeśli chcesz mieć w swojej animacji więcej niż dwie klatki, musisz upewnić się, że program nie będzie działał dłużej niż 30 sekund. Na przykład, jeśli masz 10 obrazków, z których każdy wyświetla się przez 1 sekundę, musisz zmienić pętlę `for` tak, aby powtórzyła się 3 razy (10 * 3 = 30 sekund)
+</p>
 
 --- task ---
 
-Dodaj kod, aby wyczyścić matrycę LED na wybrany kolor. Utwórz zmienną o nazwie `x`, aby przechować nowy kolor.
+**Sprawdzanie błędów**
 
-Możesz mieszać własny kolor lub użyć wartości z listy kolorów, aby utworzyć swój nowy kolor `x`.
-
-[[[generic-theory-simple-colours]]]
-[[[ambient-colours]]]
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7, 8
----
-  
-  # Wyświetl obraz
-
-  sense.set_pixels(obrazek)
-  sleep(1) 
-
-x = (178, 34, 34)  # wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
-sense.clear(x)
-  
---- /code ---
-
-
---- /task ---
-
---- task ---
-
-**Test:** Uruchom kod ponownie. Kiedy Twój projekt zakończy działanie, matryca LED zmieni kolor na wybrany przez Ciebie. Możesz zmienić, a następnie przetestować kolor tyle razy, ile chcesz.
+Mój kod ma błąd składni lub nie zmienia klatek:
+- Sprawdź, czy kod Twojej pętli `for` ma takie same wcięcia jak w przykładzie.
+- Upewnij się, że nazwałeś swoją drugą matrycę obrazka `obrazek2` i że znajduje się ona poza pętlą, przed jej rozpoczęciem.
+- Sprawdź, czy Twoje czasy `sleep` są ustawione na dokładnie `1` sekundę, aby nie przekroczyć ścisłego 30-sekundowego limitu wykonania na ISS.
 
 --- /task ---
 
@@ -272,19 +172,14 @@ sense.clear(x)
 
 Możesz zapisać swój program w projekcie Mission Starter, wpisując nazwę swojego zespołu, imiona członków zespołu i otrzymany kod klasy. Możesz ponownie załadować swój program na dowolnym urządzeniu z dostępem do Internetu, wpisując nazwę swojego zespołu i kod klasy.
 
-![Zrzut ekranu z przyciskiem „Zapisz” w Mission Zero](images/savebutton_pl.png)
-
 --- /task ---
 
 --- task ---
 
 --- collapse ---
-
 ---
-title: Ukończony przykład kodu
+title: Ukończony przykład kodu z wielorybem
 ---
-
-![Siatka kwadratów 8 x 8 przedstawiających rybę.](images/fish.png)
 
 --- code ---
 ---
@@ -301,41 +196,108 @@ sense = SenseHat()
 sense.set_rotation(270)
 
 # Przygotuj czujnik kolorów
-sense.color.gain = 60 # Przygotuj czujnik kolorów
-sense.color.integration_cycles = 64 # Okres czasu, w którym będzie dokonywany odczyt
+sense.color.gain = 60 # Ustaw czułość czujnika
+sense.color.integration_cycles = 64 # Interwał, w którym będzie wykonywany odczyt
 
 # Dodaj zmienne kolorów i obraz
+a = (255, 255, 255) # Biały
+c = (0, 0, 0)       # Czarny
+f = (36, 128, 200)  # Błękit oceanu
+g = (0, 204, 255)   # Błękit nieba
 
-z = (153, 50, 204) # Ciemna orchidea
-q = (255, 255, 0) # Żółty
-d = (51, 153, 255) # Niebieski
-c = (0, 0, 0) # Czarny
+# Wykryj kolor
+rgb = sense.color # pobierz kolor z czujnika
+c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28):
-  rgb = sense.color # pobierz kolor z czujnika
-  c = (rgb.red, rgb.green, rgb.blue)
+obrazek = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  obrazek = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
-
-
-  # Wyświetl obraz
-
-  sense.set_pixels(obrazek)
-  sleep(1)
-
-x = (178, 34, 34)  # wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
-sense.clear(x)
+sense.set_pixels(obrazek)
 
 --- /code ---
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Ukończony przykład kodu z wielorybem (z animacją)
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Wczytaj biblioteki
+from sense_hat import SenseHat
+from time import sleep
+
+# Przygotuj Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Przygotuj czujnik kolorów
+sense.color.gain = 60 # Ustaw czułość czujnika
+sense.color.integration_cycles = 64 # Interwał, w którym będzie wykonywany odczyt
+
+# Dodaj zmienne kolorów i obraz
+a = (255, 255, 255) # Biały
+c = (0, 0, 0)       # Czarny
+f = (36, 128, 200)  # Błękit oceanu
+g = (0, 204, 255)   # Błękit nieba
+
+# Wykryj kolor
+rgb = sense.color # pobierz kolor z czujnika
+c = (rgb.red, rgb.green, rgb.blue)
+
+obrazek = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(obrazek)
+
+# PODSTAWOWE ZGŁOSZENIE jest już gotowe
+
+# Dodatkowe obrazki / klatki umieść tutaj:
+obrazek2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sleep(1)
+
+# Powtórz 14 razy (14 * 2 sekundy = 28 sekund całej animacji)
+for i in range(14):
+  # Wyświetl drugi obrazek
+  sense.set_pixels(obrazek2)
+  sleep(1)
+
+  # Wyświetl pierwszy obrazek
+  sense.set_pixels(obrazek)
+  sleep(1)
+  
+--- /code ---
+
+--- /collapse ---
+
 --- /task ---
+

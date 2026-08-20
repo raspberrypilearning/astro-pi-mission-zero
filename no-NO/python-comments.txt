@@ -6,44 +6,74 @@ Sett opp fargesensoren
 
 Angi følsomheten til sensoren
 
-Intervallet hvor avlesningen vil ta
+Intervallet som avlesningens skal utføres i
 
 Legg til fargevariabler og bilde
 
 Vis bildet
 
-Svart
-
-Hvit
-
-Mørk oransje
-
-Mørk grå
-
-Gulgrønn
-
-Gul
-
-Mørk oransje
-
-Midnatt blå
-
-Skoggrønn
-
-Kornblomstblå
-
-Rød
-
-Vårgrønn
-
-Middels blå
-
-Dimgrå
-
-Mørk orkidé
+Detekter en farge
 
 hent fargen fra sensoren
 
 bruke den sansede fargen
 
-velg ditt eget, grønn, blå verdier mellom 0 - 255
+Ekstra bilder/rammer kommer her:
+
+I sløyfe 14 ganger (14 * 2 sekunder = 28 sekunder total animasjon)
+
+# Vis det andre bildet
+
+# Vis det første bildet
+
+# GRUNNLEGGENDE INNSENDING er over nå
+
+Hvit
+
+Grå
+
+Svart
+
+Marineblå
+
+Ren blå
+
+Havblå
+
+Himmelblå
+
+Elektrisk cyan
+
+Ren grønn
+
+Bladgrønn
+
+Olivengrønn
+
+Skoggrønn
+
+Jordbrun
+
+Terrakottabrun
+
+Mursteinsrød
+
+Ren rød
+
+Oransje
+
+Svak gul
+
+Ren gul
+
+Blekrosa
+
+Blush-rosa
+
+Lyserosa
+
+Magenta
+
+Lilla
+
+
