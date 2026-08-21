@@ -29,6 +29,6 @@ Mission Zero is geschikt voor mensen die starten met programmeren en wordt aanbe
 
 Mission Zero kan individueel uitgevoerd worden of in teams tot 4 mensen.
 
-Lees de [officiele richtlijnen](https://astro-pi.org/vls/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
+Lees de [officiele richtlijnen](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} voor Mission Zero.
 
 --- /collapse ---
