@@ -16,7 +16,7 @@ Beachte, dass jedes Quadrat mit einem Code versehen ist, der eine bestimmte Farb
 
 --- task ---
 
-Öffne das [Mission Zero-Starterprojekt](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Öffne das [Mission Zero-Starterprojekt](https://missions.astro-pi.org/de/mz/code_submissions/){:target="_blank"}.
 
 Du wirst sehen, dass einige Zeilen Code bereits automatisch erscheinen.
 
