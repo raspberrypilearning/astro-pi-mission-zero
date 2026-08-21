@@ -1,15 +1,13 @@
 ## Wat is een Astro Pi?
 
-Een Astro Pi is een Raspberry Pi-computer in een behuizing die speciaal ontworpen werd voor de omstandigheden in de ruimte.
+Een Astro Pi is een Raspberry Pi computer die speciaal ontworpen is om in de ruimte te werken.
 
 ![Een geanimeerd beeld van een Sense HAT wordt bovenaan een Raspberry Pi-computer geplaatst.](images/astro_pi_casing.jpeg)
 
-Bij een Astro Pi-computers zitten er een aantal sensoren en gadgets die gebruikt kunnen worden om geweldige wetenschappelijke experimenten uit te voeren. Deze set sensoren heet een 'Sense HAT' (dat staat voor 'Hardware Attached on Top'). De Sense HAT biedt de Astro Pi de mogelijkheid om te 'voelen' en vele verschillende metingen te doen, van temperatuur tot beweging en om informatie te delen door gebruik te maken van een LED matrix-scherm van 8 x 8. The Astro Pi's hebben ook een joystick en knoppen, net als een spelconsole!
+Astro Pi computers hebben een set sensoren die 'Sense HAT' heten en die jongeren kunnen gebruiken om wetenschappelijke experimenten uit te voeren. Een sensor is een apparaat dat kan detecteren of meten wat er in de omgeving gebeurt. De sensoren op de Sense Hat kunnen dingen meten zoals de kleur en helderheid van voorwerpen die ervoor staan. De Sense Hat heeft ook een 8 x 8 LED Matrix die eenvoudige afbeeldingen en informatie kan tonen.
 
-![Geanimeerde afbeelding van een Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Een <span style="color: #0faeb0">**LED matrix**</span> is een raster met LED's (lichtgevende diodes) die apart of in groep gecontroleerd kunnen worden of verschillende lichteffecten te maken. De LED matrix op de Sense HAT heeft 64 LEDs, afgebeeld in een raster van 8 x 8.  De LEDs kunnen geprogrammeerd worden om een breed gamma kleuren te produceren.
+</p>
 
-Voor deze missie zal je de Sense HAT-emulator gebruiken die de belangrijkste funcite van de Astro Pi in je webbrowser zal simuleren.
-
-
-
-
+![een 8x8 pixel art afbeelding van een walvis](images/whaleblank.png)
