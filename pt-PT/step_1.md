@@ -29,6 +29,6 @@ A Mission Zero é adequado para quem está a dar os primeiros passos na programa
 
 A Mission Zero pode ser realizada individualmente ou em equipas até 4 pessoas.
 
-Leia as [orientações oficiais](https://astro-pi.org/pt/mission-zero/guidelines){:target="_blank"} da Mission Zero.
+Leia as [orientações oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} da Mission Zero.
 
 --- /collapse ---
