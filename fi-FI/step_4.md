@@ -181,11 +181,6 @@ Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkuees
 title: Valmis valaskoodiesimerkki
 ---
 
---- collapse ---
----
-title: Completed Whale code example
----
-
 --- code ---
 ---
 language: python
