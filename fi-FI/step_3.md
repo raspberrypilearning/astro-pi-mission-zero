@@ -16,7 +16,7 @@ Huomaa, että jokainen neliö on merkitty koodilla, joka tarkoittaa tiettyä vä
 
 --- task ---
 
-Avaa [Mission Zero -aloitusprojekti](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Avaa [Mission Zero -aloitusprojekti](https://missions.astro-pi.org/fi/mz/code_submissions/){:target="_blank"}.
 
 Näet, että sinua varten on lisätty muutama koodirivi automaattisesti.
 
