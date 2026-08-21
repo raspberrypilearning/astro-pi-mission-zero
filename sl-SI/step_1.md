@@ -29,6 +29,6 @@ Projekt Mission Zero je primeren za začetnike pri programiranju in je priporoč
 
 Mission Zero lahko izvedete individualno ali pa v skupini do štirih oseb.
 
-Preberite [dokument z uradnimi smernicami](https://astro-pi.org/sl/mission-zero/guidelines){:target="_blank"} za Mission Zero.
+Preberite [dokument z uradnimi smernicami](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} za Mission Zero.
 
 --- /collapse ---
