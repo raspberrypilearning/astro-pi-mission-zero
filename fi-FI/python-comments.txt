@@ -50,30 +50,30 @@ Lehdenvihreä
 
 Oliivinvihreä
 
-Forest Green
+Metsänvihreä
 
-Earth Brown
+Maanruskea
 
-Terracotta Brown
+Terrakotan ruskea
 
-Brick Red
+Tiilenpunainen
 
-Pure Red
+Puhtaan punainen
 
-Orange
+Oranssi
 
-Pale Yellow
+Vaaleankeltainen
 
-Pure Yellow
+Puhtaan keltainen
 
-Pale Pink
+Vaalean pinkki
 
-Blush Pink
+Roosa
 
-Light Pink
+Vaalean pinkki
 
-Magenta
+Purppura
 
-Purple
+Violetti
 
 
