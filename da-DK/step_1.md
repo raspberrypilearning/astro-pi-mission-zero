@@ -29,6 +29,6 @@ Mission Zero er velegnet til begyndere inden for programmering og anbefales til 
 
 Mission Zero kan gøres individuelt eller i teams på op til 4 personer.
 
-Læs de [officielle retningslinjer](https://astro-pi.org/da/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+Læs de [officielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
 --- /collapse ---
