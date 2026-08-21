@@ -16,7 +16,7 @@ Repara que cada quadrado está identificado com um código que representa uma co
 
 --- task ---
 
-Abre o [Projeto Inicial Missão Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Abre o [Projeto Inicial Missão Zero](https://missions.astro-pi.org/pt/mz/code_submissions/){:target="_blank"}.
 
 Irás ver que algumas linhas de código foram adicionadas para ti automaticamente.
 
