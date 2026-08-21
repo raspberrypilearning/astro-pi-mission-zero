@@ -1,12 +1,18 @@
 ## Vis et billede
 
-Astro Pi'ens LED-matrix kan vise farver. I dette trin skal du vise billeder fra naturen på Astro Pi'ens LED-matrix.
+Det billede, du viser, består af 64 farvede felter, der kaldes **pixels**. Pixlerne er placeret i et 8 × 8-gitter. Hver pixel kan have en forskellig farve. Ved at vælge farverne med omhu kan du skabe et billede. Her er et eksempel på en hval lavet ved hjælp af forskellige nuancer af blå på en sort baggrund.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af lysdioder, der kan styres individuelt eller som en gruppe til at skabe forskellige lyseffekter. LED-matrixen på Sense HAT har 64 lysdioder viset i et 8 x 8 gitter. Lysdioderne kan programmeres til at vise et stort udvalg af farver.
 </p>
 
-![Et skærmbillede af emulatorvinduet, der viser flyenheden med LED-matrixen, der viser et billede af en blomst.](images/fu-pic.png)
+![et 8×8-billede af en hval med bogstaver, der angiver de forskellige farver](images/whale.png)
+
+Bemærk, at hvert kvadrat er mærket med en kode til at repræsentere en bestemt farve. På dette billede er der brugt 3 farver:
++ c = Sort
++ f = Havblå
++ g = Himmelblå
+
 
 --- task ---
 
@@ -34,8 +40,7 @@ sense.set_rotation(270)
 
 # Konfigurer farvesensoren
 sense.color.gain = 60 # Indstil sensorens følsomhed
-sense.color.integration_cycles = 64 # Intervallet, som aflæsningen vil blive taget med
-
+sense.color.integration_cycles = 64 # Intervallet som aflæsningen vil blive taget med
 
 --- /code ---
 
@@ -47,11 +52,47 @@ sense.color.integration_cycles = 64 # Intervallet, som aflæsningen vil blive ta
 
 Farver kan laves ved hjælp af forskellige blandinger af rød, grøn og blå. Du kan lære om RGB farver her:
 
-[[[generic-theory-simple-colours]]]
+![Tre skydere, der viser RGB-farveværdier](images/rgbsliders.gif)
 
-LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en anden farve. Her er en liste over variabler for 24 forskellige farver. Hver farve har en værdi for rød, grøn og blå:
+LED-matricen er et 8 x 8 gitter. Hvert LED på gitteret kan indstilles til en anden farve. Vi kan bruge bogstaverne a til z som navnene på variabler til at repræsentere 24 forskellige farver. Hver farve har en værdi for rød, grøn og blå.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Liste over farvevariabler
+---
+
+![Et gitter med 24 farvede felter, der hver er mærket med et forskelligt bogstav i alfabetet](images/palette.png)
+
+```python
+a = (255, 255, 255) # Hvid
+b = (171, 171, 171) # Grå
+c = (0, 0, 0) # Sort
+d = (25, 25, 113) # Marineblå
+e = (0, 0, 255) # Ren Blå
+f = (36, 128, 200) # Havblå
+g = (0, 204, 255) # Himmelblå
+h = (86, 255, 255) # Elektrisk Cyan
+j = (0, 255, 0) # Ren grøn
+k = (46, 139, 33) # Bladgrøn
+l = (57, 97, 17) # Olivengrøn
+m = (30, 65, 6) # Skovgrøn
+n = (126, 88, 25) # Jordbrun
+o = (179, 96, 65) # Terrakotta Brown
+p = (180, 34, 34) # Mursten rød
+q = (255, 0, 0) # Ren Rød
+r = (232, 118, 5) # Orange
+s = (241, 231, 100) # Bleggul
+t = (255, 255, 0) # Rent Gul
+u = (255, 209, 209) # Bleg lyserød
+v = (255, 177, 177) # Rosa
+w = (249, 169, 255) # Lyserød
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Lilla
+
+```
+
+--- /collapse ---
 
 ### Vælg et billede
 
@@ -64,28 +105,27 @@ Du skal **kopiere** hele koden for dit valgte billede og derefter **indsætte** 
 --- collapse ---
 
 ---
-title: Fisk
+title: Hvale
 ---
 
-![Et gitter med 8 × 8 felter, der viser en fisk.](images/fish.png)
+![Et gitter med 8 x 8 felter, der viser en hval.](images/whale.png)
 
-Lavet af holdet chalka, Polen
+Lavet af Team Naicom, Italien
 
 ```python
-z = (153, 50, 204) # MørkOrkidé
-q = (255, 255, 0) # Gul
-d = (51, 153, 255) # blå
-c = (0, 0, 0) # Sort
+c = (0, 0, 0)       # Sort
+f = (36, 128, 200)  # Havblå
+g = (0, 204, 255)   # Himmelblå
 
 billede = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -95,59 +135,57 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Hvalros
+title: Citron
 ---
 
-![Et gitter med 8 × 8 felter, der viser en hvalros.](images/walrus.png)
+![Et gitter med 8 × 8 felter, der viser en citron.](images/lemon.png)
 
-Lavet af holdet Walrus, Finland
+Lavet af Team 4lemoni, Grækenland
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Sort
-s = (139, 69, 19) # Sadelbrun
+c = (0, 0, 0)       # Sort
+k = (46, 139, 33)   # Bladgrøn
+t = (255, 255, 0)   # Rent Gul
+
+billede = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Gris
+---
+
+![Et gitter med 8 × 8 felter, der viser en gris.](images/pig.png)
+
+Lavet af Gary, Storbritannien
+
+```python
 a = (255, 255, 255) # Hvid
-r = (184, 134, 11) # MørkGyldenris
+v = (255, 177, 177) # Rosa
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Terrakotta Brun
+c = (0, 0, 0)       # Sort
 
 billede = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Et gitter med 8 × 8 felter, der viser Paxi.](images/paxi.png)
-
-Lavet af holdet tony_pi, Italien
-
-```python
-v = (255, 0, 0) # Rød
-m = (34, 139, 34) # Skovgrøn
-c = (0, 0, 0) # Sort 
-e = (100, 149, 237) # KornblomstBlå
-l = (0, 255, 0) # Grøn
-
-billede = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -156,29 +194,29 @@ billede = [
 
 --- collapse ---
 ---
-title: Hund
+title: Storm
 ---
 
-![Et gitter med 8 × 8 felter, der viser et hundehoved.](images/dog.png)
+![Et gitter med 8 × 8 felter, der viser en stormsky.](images/storm.png)
 
-Lavet af holdet ptpr_07, Spanien
+Lavet af Team hop2p023, Spanien
 
 ```python
 
-c = (0, 0, 0) # Sort
-r = (184, 134, 11) # MørkGyldenris
-s = (139, 69, 19) # Sadelbrun
-y = (255, 20, 147) # DybPink
+c = (0, 0, 0)       # Sort
+f = (36, 128, 200)  # Havblå
+g = (0, 204, 255)   # Himmelblå
+t = (255, 255, 0)   # Rent Gul
 
 billede = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -187,35 +225,31 @@ billede = [
 
 --- collapse ---
 ---
-title: Kamæleon
+title: And
 ---
 
-![Et gitter med 8 × 8 felter, der viser en regnbuefarvet kamæleon.](images/chameleon.png)
+![Et gitter med 8 × 8 felter, der viser en and.](images/duck.png)
 
-Lavet af holdet The_ETs, Storbritannien
+Lavet af Pater, Irland
 
 ```python
 
 c = (0, 0, 0) # Sort
-s = (139, 69, 19) # Sadelbrun
+l = (57, 97, 17)    # Olivengrøn
+m = (30, 65, 6)     # Skovgrøn
+r = (232, 118, 5)   # Orange
 a = (255, 255, 255) # Hvid
-v = (255, 0, 0) # Rød
-t = (255, 140, 0) # MørkOrange
-q = (255, 255, 0) # Gul
-m = (34, 139, 34) # Skovgrøn
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # MørkOrkidé
-y = (255, 20, 147) # DybPink
+b = (171, 171, 171) # Grå
 
 billede = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -223,31 +257,32 @@ billede = [
 
 --- collapse ---
 ---
-title: Drage
+title: Frø
 ---
 
-![Et gitter med 8 × 8 felter, der viser en drage.](images/kite.png)
+![Et gitter med 8 × 8 felter, der viser en frø.](images/frog.png)
 
-Lavet af holdet Val, Grækenland
+Lavet af Team Jmeno, Tjekkiet
 
 ```python
 
-c = (0, 0, 0) # Sort
-m = (34, 139, 34) # Skovgrøn
-v = (255, 0, 0) # Rød
-q = (255, 255, 0) # Gul
-e = (0, 0, 205) # Mellemblå
-h = (0, 255, 255) # Cyan
+a = (255, 255, 255) # Hvid
+b = (171, 171, 171) # Grå
+c = (0, 0, 0)       # Sort
+q = (255, 0, 0)     # Ren Rød
+j = (0, 255, 0)     # Ren Grøn
+k = (46, 139, 33)   # Bladgrøn
+n = (126, 88, 25)   # Jordbrun
 
 billede = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -255,30 +290,33 @@ billede = [
 
 --- collapse ---
 ---
-title: Kylling
+title: Blomstertræ
 ---
 
-![Et gitter med 8 × 8 felter, der viser en kylling.](images/chicken.png)
+![Et gitter med 8 × 8 felter, der viser et blomstrende træ.](images/blossom.png)
 
-Lavet af holdet Slepicky, Tjekkiet
+Lavet af Team Zssh14, Slovakiet
 
 ```python
 
-v = (255, 0, 0) # Rød
-c = (0, 0, 0) # Sort
-b = (105, 105, 105) # MørkeGrå
-q = (255, 255, 0) # Gul
-r = (184, 134, 11) # MørkGyldenris
+t = (255, 255, 0)   # Rent Gul
+g = (0, 204, 255)   # Himmelblå
+w = (249, 169, 255) # Lyserød
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Lilla
+n = (126, 88, 25)   # Jordbrun
+o = (179, 96, 65)   # Terrakotta Brun
+k = (46, 139, 33)   # Bladgrøn
 
 billede =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -296,22 +334,21 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # MørkOrkidé
-q = (255, 255, 0) # Gul
-d = (51, 153, 255) # Blå
-c = (0, 0, 0) # Sort
+c = (0, 0, 0)       # Sort
+f = (36, 128, 200)  # Havblå
+g = (0, 204, 255)   # Himmelblå
 
 billede = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 # Vis billedet
 sense.set_pixels(billede)
@@ -344,12 +381,13 @@ Mit billede vises ikke:
 --- /task ---
 
 
---- task ---
+--- task --- 
 
 **Gem dine fremskridt**
 
 Nu hvor du har vist et billede, kan du gemme dit program på Mission Starter-projektet ved at indtaste dit holdnavn, holdmedlemmers navne og den klasseværelseskode, som du har fået. Du kan genindlæse dit program på enhver enhed med internetforbindelse ved at indtaste dit teamnavn og klasseværelseskode.
 
-![Mission Zero-knappen ‘Gem’.](images/savebutton_dk.png)
+![Mission Zero-knappen ‘Gem’.](images/mz_savebutton_v2.png)
 
 --- /task --- 
+

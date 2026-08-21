@@ -6,44 +6,74 @@ Konfigurer farvesensoren
 
 Indstil sensorens følsomhed
 
-Intervallet, som aflæsningen vil blive taget med
+Intervallet som aflæsningen vil blive taget med
 
 Tilføj farvevariabler og billede
 
 Vis billedet
 
-Sort
-
-Hvid
-
-Mørk orange
-
-Mørkegrå
-
-GulGrøn
-
-Gul
-
-Mørk orange
-
-Midnatsblå
-
-Skovgrøn
-
-KornblomstBlå
-
-Rød
-
-ForårsGrøn
-
-Mellemblå
-
-MørkeGrå
-
-MørkOrkidé
+Registrer en farve
 
 få farven fra sensoren
 
 brug den opfangede farve
 
-vælg dine egne røde, grønne eller blå værdier mellem 0 - 255
+Ekstra billeder/billedrammer indsættes her:
+
+Gentag 14 gange (14 * 2 sekunder = 28 sekunders animation i alt)
+
+# Vis det andet billede
+
+# Vis det første billede
+
+# DEN GRUNDLÆGGENDE INDSENDELSE er nu færdig
+
+Hvid
+
+Grå
+
+Sort
+
+Marineblå
+
+Ren Blå
+
+Havblå
+
+Himmelblå
+
+Elektrisk Cyan
+
+Ren Grøn
+
+Bladgrøn
+
+Olivengrøn
+
+Skovgrøn
+
+Jordbrun
+
+Terrakotta Brun
+
+Murstensrød
+
+Ren Rød
+
+Orange
+
+Lys Gul
+
+Rent Gul
+
+Bleg lyserød
+
+Rosa
+
+Lyserød
+
+Magenta
+
+Lilla
+
+

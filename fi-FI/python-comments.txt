@@ -12,38 +12,68 @@ Lisää värimuuttujia ja kuva
 
 Näytä kuva
 
-Musta
-
-Valkoinen
-
-Tummanoranssi
-
-Tummanharmaa
-
-Keltavihreä
-
-Keltainen
-
-Tummanoranssi
-
-Yönsininen
-
-Metsänvihreä
-
-Ruiskukansininen
-
-Punainen
-
-Keväänvihreä
-
-Tummansininen
-
-DimGray
-
-Tummanorkidea
+Tunnista väri
 
 hae väri anturilta
 
 käytä tunnistettua väriä
 
-valitse omat punaisen, vihreän ja sinisen arvot väliltä 0 - 255
+Lisäkuvat/ruudut tulevat tähän:
+
+Toista 14 kertaa (14 * 2 sekuntia = 28 sekuntia animaatiota)
+
+# Näytä toinen kuva
+
+# Näytä ensimmäinen kuva
+
+# PERUSTYÖ on nyt tehty
+
+Valkoinen
+
+Harmaa
+
+Musta
+
+Laivaston sininen
+
+Puhtaansininen
+
+Merensininen
+
+Taivaansininen
+
+Sähköinen syaani
+
+Puhtaanvihreä
+
+Lehdenvihreä
+
+Oliivinvihreä
+
+Forest Green
+
+Earth Brown
+
+Terracotta Brown
+
+Brick Red
+
+Pure Red
+
+Orange
+
+Pale Yellow
+
+Pure Yellow
+
+Pale Pink
+
+Blush Pink
+
+Light Pink
+
+Magenta
+
+Purple
+
+

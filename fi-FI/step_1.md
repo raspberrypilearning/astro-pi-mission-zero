@@ -1,33 +1,34 @@
 ## Sinä teet
 
-Projektisi asettaa kuvan taustaväriksi sen värin, jonka Astro Pi havaitsee. Näin Kansainvälisestä avaruusasemasta (ISS) tulee entistä värikkäämpi aluksella oleville astronauteille. Tämän toteuttamiseksi koodisi käyttää 2. sukupolven Astro Pi -tietokoneen Sense HATin värin kirkkausanturia.
+Ohjelmoit Astro Pi -tietokoneen näyttämään värikkään kuvan. Kun ohjelmasi läpäisee viralliset kooditarkistukset, se ajetaan Astro Pi -tietokoneella Kansainvälisellä avaruusasemalla (ISS), jossa astronautit näkevät sen päivittäisissä tehtävissään.
 
-Tässä on esimerkki ohjelmasta, jonka voit tehdä Astro Pillä avaruudessa ajettavaksi.
+Tässä projektissa opit Astro Pi -tietokoneesta ja sen ohjaamisesta. Tulet:
+
++ Suunnittelemaan ja näyttämään pikselitaidekuvan Astro Pi -tietokoneessa
++ Käyttämään anturia valon värin ja kirkkauden havaitsemiseen ISS:llä, ja muuttamaan kuvaa
++ Luomaan yksinkertaisen animaation (valinnainen)
+
+Tässä on esimerkki ohjelmasta, jonka voisit tehdä Astro Pillä ajettavaksi avaruudessa.
 
 ![Sense HAT -emulaatori ajamassa esimerkkiohjelmaa, jossa on käärme ja tunnistetun värin perusteella vaihtuva taustaväri.](images/finished.gif)
 
 ### Sinä tarvitset
 
-Käytät Astro Pi -emulaattoria verkkoselaimessa ohjelman luomiseen. Et tarvitse Astro Pi -tietokonetta.
+Kirjoitat ja testaat ohjelmasi verkkoselaimessa, kuten Google Chromessa. Et tarvitse oikeaa Astro Pi -tietokonetta.
 
 ### Astro Pi Mission Zeron vaatimukset
 
-**Jos projektisi täyttää [kelpoisuusvaatimukset](https://astro-pi.org/fi/mission-zero/eligibility){:target="_blank"}**, valmis ohjelmasi ajetaan Kansainvälisellä avaruusasemalla! Saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli ohjelmasi ajon aikana.
-
-Opit Astro Pi -tietokoneesta ja sen hallinnasta, mukaan lukien miten:
-+ Luodaan **muuttujia** väreille kuvassasi käytettäväksi
-+ Suunnitellaan ja näytetään pikselitaidekuva Sense HATissa
-+ Tunnistetaan valon väri ISS:llä
+Jokainen projekti, joka täyttää [säännöt](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, saa 'Lentoluvan' Kansainväliselle avaruusasemalle ajettavaksi! Jos onnistut, saat myös erityisen todistuksen, joka näyttää tarkalleen missä ISS oli avaruudessa ohjelmasi ajon aikana.
 
 --- collapse ---
 ---
 title: Huomautuksia ohjaajille
 ---
 
-Mission Zero sopii ohjelmoinnin aloittelijoille ja/tai peruskouluikäisillä lapsille, ja se voidaan suorittaa kokonaisuudessaan yhden 60 minuutin istunnon aikana millä tahansa tietokoneella, jossa on internet-yhteys. Erikoislaitteistoja tai aikaisempia ohjelmointitaitoja ei tarvita. Kaikki voidaan tehdä verkkoselaimessa.
+Mission Zero sopii ohjelmoinnin aloittelijoille ja sitä suositellaan 9–16-vuotiaille nuorille. Se voidaan suorittaa yhdellä 60 minuutin istunnolla millä tahansa tietokoneella, jossa on internet-yhteys. Erikoislaitteistoja tai aikaisempaa ohjelmointitaitoa ei tarvita. Kaikki voidaan tehdä verkkoselaimessa.
 
-Muodosta joukkueita, joissa on enintään neljä nuorta, ja anna meidän opastaa heidät kirjoittamaan lyhyt Python-ohjelma, joka tunnistaa ISS:llä olevan värin ja luo sitä käyttävän kuvan.
+Mission Zero voidaan tehdä yksin tai enintään 4 hengen joukkueissa.
 
-Lue Mission Zeron [viralliset säännöt](https://astro-pi.org/fi/mission-zero/guidelines){:target="_blank"}.
+Lue Mission Zeron [viralliset säännöt](https://astro-pi.org/mission-zero/guidelines){:target="_blank"}.
 
 --- /collapse ---

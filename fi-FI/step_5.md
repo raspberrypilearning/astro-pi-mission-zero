@@ -2,7 +2,7 @@
 
 Nyt kun olet suorittanut tehtäväsi, miksi et kokeilisi muita projekteja käyttämällä Astro Pi:n muita antureita?
 
-Jos tunnet olosi itsevarmaksi, voisit osallistua Mission Space Labiin. Muodosta 2–6 hengen ryhmä ja työskennelkää yhdessä vastataksenne todelliseen tieteelliseen kysymykseen. Kaikki kelvollisen ohjelman lähettäneet joukkueet kutsutaan virtuaaliseen Q&A:han ESAn astronautin kanssa Astro Pi -haasteen kauden lopussa.
+Jos tunnet olosi itsevarmaksi, voisit osallistua Mission Space Labiin. Muodosta 2–6 hengen ryhmä ja työskennelkää yhdessä vastataksenne todelliseen tieteelliseen kysymykseen. Kaikki kelvollisen ohjelman lähettäneet joukkueet kutsutaan virtuaaliseen Q&A:han ESAn miehitettyjen avaruuslentojen asiantuntijan kanssa eurooppalaisen Astro Pi -haasteen kauden lopussa.
 
 Vaihtoehtoisesti voit kokeilla joitain muita Sense HAT -projektejamme:
 

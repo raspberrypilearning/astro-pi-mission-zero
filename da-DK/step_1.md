@@ -1,6 +1,12 @@
 ## Du vil gøre
 
-Dit projekt vil indstille baggrundsfarven på et billede til den farve, som Astro Pi registrerer. Dette vil gøre den internationale rumstation (ISS) mere farverig for astronauterne om bord. Din kode vil bruge farve- og lysstyrkesensoren på Mark II Astro Pi-computerens Sense HAT for at få dette til at ske.
+Du skal programmere en Astro Pi-computer til at vise et farverigt billede. Når dit program har bestået den officielle kontrol af koden, bliver det kørt på en Astro Pi-computer på Den Internationale Rumstation (ISS), så astronauterne kan se det, mens de udfører deres daglige opgaver.
+
+I dette projekt vil du lære om Astro Pi-computeren og hvordan du styrer den. Du vil:
+
++ Designe og vise et pixel-kunstbillede på en Astro Pi-computer
++ Bruge en sensor til at detektere farven og lysstyrken på lyset om bord på ISS og ændre billedet
++ Oprette en simpel animation (valgfri)
 
 Her er et eksempel på den slags program, du kan lave til at køre på en Astro Pi i rummet.
 
@@ -8,25 +14,20 @@ Her er et eksempel på den slags program, du kan lave til at køre på en Astro 
 
 ### Du skal bruge
 
-Du skal bruge Astro Pi-emulatoren i en webbrowser til at oprette dit program. Du behøver ikke en Astro Pi-computer.
+Du skal skrive og teste dit program i en webbrowser som f. eks. Google Chrome. Du behøver ikke en rigtig Astro Pi-computer.
 
 ### Astro Pi Mission Zero kriterier
 
-**Hvis dit projekt opfylder [adgangskriterierne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, vil dit færdige program blive kørt på den internationale rumstation! Du modtager også et særligt certifikat, der viser præcist, hvor ISS var, da dit program blev kørt.
-
-Du kommer til at lære om AstroPi-computeren og styringen af den, herunder hvordan du:
-+ Opret farve **variabler** til brug i dit billede
-+ Design og vis et billede på Sense HAT
-+ Fornemme lysets farve om bord på ISS
+Alle projekter, der opfylder [reglerne](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}, vil modtage 'flight status' til at køre på den internationale rumstation! Hvis du lykkes så vil du også modtage et særligt certifikat, der viser præcis, hvor ISS var som dit program løb i rummet.
 
 --- collapse ---
 ---
 title: Noter til mentorer
 ---
 
-Mission Zero egner sig til begyndere i programmering og/eller grundskolebørn og kan afsluttes i en enkelt 60 minutters session på enhver computer med internetadgang. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
+Mission Zero er velegnet til begyndere inden for programmering og anbefales til unge i alderen 9-16 år. Det kan gennemføres i en enkelt session på 60 minutter på enhver computer med internetadgang. Ingen særlig hardware eller forudgående kodningsfærdigheder er nødvendige. Alt kan gøres i en webbrowser.
 
-Organiser de unge i hold på en til fire og lad os guide dem gennem at skrive et kort Python-program til at fornemme farven om bord på ISS og skabe et billede, der bruger denne farve.
+Mission Zero kan gøres individuelt eller i teams på op til 4 personer.
 
 Læs de [officielle retningslinjer](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
