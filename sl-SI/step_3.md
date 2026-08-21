@@ -16,7 +16,7 @@ Vsak kvadratek je označen s kodo, ki predstavlja določeno barvo. Na tej sliki 
 
 --- task ---
 
-Odprite začetni projekt [Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Odprite začetni projekt [Mission Zero](https://missions.astro-pi.org/sl/mz/code_submissions/){:target="_blank"}.
 
 Opazili boste, da je bilo nekaj vrstic kode dodanih samodejno.
 
