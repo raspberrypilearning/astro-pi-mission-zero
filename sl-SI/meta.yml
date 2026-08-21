@@ -7,14 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - title: Izdelali boste
-  - title: Kaj je Astro Pi?
-  - title: Prikažite sliko
-    completion:
-      - engaged
-  - title: Zaznajte barve
-    completion:
-      - internal
-  - title: 'Kaj zdaj: Več projektov Astro Pi'
-    completion:
-      - external
+- title: Izdelali boste
+- title: Kaj je Astro Pi?
+- title: Prikažite sliko
+  completion:
+  - engaged
+- title: Zaznajte barve
+  completion:
+  - internal
+- title: 'Kaj zdaj: Več projektov Astro Pi'
+  completion:
+  - external

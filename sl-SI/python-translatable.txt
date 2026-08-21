@@ -1,5 +1,5 @@
 slika
 
-rgb
+slika2
 
-mavrica
+rgb

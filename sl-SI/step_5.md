@@ -2,7 +2,7 @@
 
 Zdaj, ko ste končali svojo misijo, zakaj ne bi poskusili še nekaj drugih projektov z uporabo drugih senzorjev na Astro Pi?
 
-Če ste dovolj samozavestni, lahko sodelujete v projektu Mission Space Lab. Sestavite ekipo dveh do šestih ljudi in skupaj odgovorite na pravo znanstveno vprašanje. Vse ekipe, ki oddajo primeren program, bodo povabljene na virtualni Q&A z astronavtom ESA ob koncu izziva Astro Pi Challenge.
+Če ste dovolj samozavestni, lahko sodelujete v projektu Mission Space Lab. Sestavite ekipo dveh do šestih ljudi in skupaj odgovorite na pravo znanstveno vprašanje. Vse ekipe, ki bodo oddale ustrezen program, bodo ob koncu evropskega izziva Astro Pi povabljene na virtualni Q&A s strokovnjakom za vesoljske polete s posadko iz ESA.
 
 Preizkusite pa se lahko tudi v enem izmed naših drugih projektov Sense HAT:
 

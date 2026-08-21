@@ -12,38 +12,68 @@ Doda barvne spremenljivke in sliko
 
 Prikaže sliko
 
-Črna
+Zazna barvo
 
-Bela
-
-Temno oranžna
-
-Temno siva
-
-Rumenozelena
-
-Rumena
-
-Temno oranžna
-
-Nočno modra
-
-Drevesno zelena
-
-Sinje modra
-
-Rdeča
-
-Pomladno zelena
-
-Modra
-
-Temno siva
-
-Svetlo vijolična
-
-Preberi barvo iz senzorja
+Prebere barvo iz senzorja
 
 Uporabi zaznano barvo
 
-Izberite svoje rdeče, zelene, modre vrednosti med 0 in 255
+Dodatne sličice gredo sem:
+
+Ponovi 14-krat (14 * 2 sekundi = 28 sekund animacije)
+
+# Prikaže drugo sliko
+
+# Prikaže prvo sliko
+
+# OSNOVNA ODDAJA je zdaj končana
+
+Bela
+
+Siva
+
+Črna
+
+Temno modra
+
+Modra
+
+Oceansko modra
+
+Nebesno modra
+
+Cian
+
+Zelena
+
+Listnato zelena
+
+Olivno zelena
+
+Gozdno zelena
+
+Rjava
+
+Rdečkasto rjava
+
+Opečnato rdeča
+
+Rdeča
+
+Oranžna
+
+Bledo rumena
+
+Rumena
+
+Bledo roza
+
+Rdečkasto roza
+
+Svetlo roza
+
+Magenta
+
+Vijolična
+
+

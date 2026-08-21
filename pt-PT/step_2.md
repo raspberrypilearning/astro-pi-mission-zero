@@ -1,15 +1,13 @@
 ## O que é um Astro Pi?
 
-Um Astro Pi é um computador Raspberry Pi envolto numa caixa especialmente projetada para as condições do espaço.
+Um Astro Pi é um computador Raspberry Pi que foi especialmente concebido para funcionar no espaço.
 
 ![Imagem animada de um Sense HAT a ser ligado ao topo de um computador Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Os computadores Astro Pi vêm com um conjunto de sensores e gadgets que podem ser usados para realizar grandes experiências científicas. Este conjunto de sensores chama-se "Sense HAT" (que significa "Hardware Conectado (attached) no Topo"). O Sense HAT dá ao Astro Pi a capacidade de “sentir” e fazer muitos tipos de medições, de temperatura a movimento, e até informação de saída usando um ecrã de matriz LED de 8 x 8. Os Astro Pi também tem joystick e botões, como uma consola de videojogos!
+Os computadores Astro Pi dispõem de um conjunto de sensores denominados «Sense HAT», que os jovens podem utilizar para realizar experiências científicas. Um sensor é um dispositivo capaz de detetar ou medir o que se passa à sua volta. Os sensores Sense Hat conseguem medir características como a cor e o brilho dos objetos que se encontram à sua frente. Os Sense Hat incluem também uma matriz de LED de 8 x 8 que pode exibir imagens e informações simples.
 
-![Imagem animada de um Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Uma <span style="color: #0faeb0">**matriz de LED**</span> é uma grelha de LEDs (Díodos Emissores de Luz) que podem ser controlados individualmente ou em grupo para criar diferentes efeitos de iluminação. A matriz de LED Sense HAT tem 64 LEDs dispostos numa grelha de 8 x 8. Os LEDs podem ser programados para produzir uma vasta gama de cores.
+</p>
 
-Para esta missão, vai usar o emulador Sense HAT, que simula as funções principais do Astro Pi no teu navegador de Internet.
-
-
-
-
+![uma imagem em pixel art de 8x8 de uma baleia](images/whaleblank.png)
