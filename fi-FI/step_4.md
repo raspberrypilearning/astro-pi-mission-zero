@@ -61,7 +61,7 @@ Mission Zero -ohjelmaasi ajetaan Kansainvälisellä avaruusasemalla (ISS) enint�
 --- task ---
 
 
-**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
+**Lisää** toinen kuva suoraan `sense.set_pixels(image)` -rivisi alle. Anna sille muuttujan nimi `image2` ja muuta joitain pikseleitä, jotta animaatiokehyksesi näyttää erilaiselta. Lisää sitten lyhyt tauko sen jälkeen.
 
 --- code ---
 ---
@@ -82,9 +82,9 @@ image2 = [ c, c, c, c, c, c, c, c, c, c, c, c, c, f, f, f, c, f, f, f, c, c, f, 
 
 --- task ---
 
-At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
+Aseta kooditiedostosi aivan loppuun `for` -silmukka toistumaan `14` kertaa ja näyttämään vuorotellen `image` ja `image2` pysähtyen 1 sekunniksi jokaisen ruudun kohdalla.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Vinkki:** Varmista, että rivin `for i in range(14):` alla olevat koodirivit ovat sisennetty välilyönnillä, jotta ne ovat silmukkalohkon **sisällä**.
 
 --- code ---
 ---
@@ -106,22 +106,22 @@ for i in range(14): # Display the second image sense.set_pixels(image2) sleep(1)
 
 --- task ---
 
-**Kokeile:** Aja koodisi uudelleen. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
+**Kokeile:** Aja koodisi uudelleen. Ohjelmasi näyttää tunnistetun värisi välittömästi, ja toistaa sitten väriä edestakaisin animoituaa näkymää varten.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+Jos haluat animaatiossasi olevan enemmän kuin kaksi ruutua, varmista, että ohjelma kestää enintään 30 sekuntia. Jos esimerkiksi sinulla on 10 kuvaa, joita kutakin näytetään 1 sekunnin ajan, sinun on muutettava `for`-silmukka toistumaan 3 kertaa (10 * 3 = 30 sekuntia)
 </p>
 
 --- task ---
 
-**Check for errors**
+**Tarkista virheet**
 
-My code has a syntax error or doesn't change frames:
-- Check that your `for` loop code matches the indentation in the example.
-- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
-- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
+Koodissani on syntaksivirhe tai se ei vaihda ruutuja:
+- Tarkista, että `for` -silmukan sisennys vastaa esimerkin sisennystä.
+- Varmista, että toisen kuvamatriisin nimi on `image2` ja että se on sijoitettu silmukan ulkopuolelle ja ennen sen alkua.
+- Tarkista, että `sleep` -aika on asetettu täsmälleen `1` sekunniksi, jotta vältytään ylittämästä tiukkaa 30 sekunnin suoritusaikarajaa ISS:llä.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Voit tallentaa ohjelmasi tehtävän aloitusprojektissa syöttämällä joukkuees
 
 --- collapse ---
 ---
-title: Completed Whale code example
+title: Valmis valaskoodiesimerkki
 ---
 
 --- code ---
@@ -170,7 +170,7 @@ sense.set_pixels(image)
 
 --- collapse ---
 ---
-title: Completed Whale code example (with Animation)
+title: Valmis valaskoodiesimerkki (animoituna)
 ---
 
 --- code ---
