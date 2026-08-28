@@ -34,9 +34,9 @@ line_highlights:
 from sense_hat import SenseHat
 from time import sleep
 
-# Configurer le Sense HAT
+# Configuer le Sense HAT
 sense = SenseHat()
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Configurer le capteur de couleurs
 sense.color.gain = 60 # Régler la sensibilité du capteur

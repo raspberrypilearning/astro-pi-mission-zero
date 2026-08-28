@@ -36,7 +36,7 @@ from time import sleep
 
 # Állítsd be a SenseHAT-et
 sense = SenseHat()
-sense.set_rotation(270)
+sense.set_rotation(270, False)
 
 # Állítsd be a színérzékelőt
 sense.color.gain = 60 # Az érzékelő érzékenységének beállítása
