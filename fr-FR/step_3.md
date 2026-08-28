@@ -31,7 +31,7 @@ line_highlights:
 from sense_hat import SenseHat from time import sleep
 
 # Configurer le Sense HAT
-sense = SenseHat() sense.set_rotation(270)
+sense = SenseHat() sense.set_rotation(270, False)
 
 # Configurer le capteur de couleurs
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
@@ -91,6 +91,8 @@ z = (220, 53, 232) # Violet
 ### Choisir une image
 
 --- task ---
+
+You can either choose one of the example images below or create your own original design. Feel free to draw anything you like - such as an animal, plant, or imaginary creature - as long as it follows the Mission Zero guidelines.
 
 **Choisir :** choisis une image à afficher parmi les options ci-dessous. Python stocke les informations d'une image dans une liste. Le code de chaque image comprend les variables de couleur utilisées et la liste.
 
