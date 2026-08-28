@@ -31,7 +31,7 @@ line_highlights:
 from sense_hat import SenseHat from time import sleep
 
 # Nastav Sense HAT
-sense = SenseHat() sense.set_rotation(270)
+sense = SenseHat() sense.set_rotation(270, False)
 
 # Nastav senzor barev
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
@@ -91,6 +91,8 @@ z = (220, 53, 232)  # Fialová
 ### Vyber obrázek
 
 --- task ---
+
+You can either choose one of the example images below or create your own original design. Feel free to draw anything you like - such as an animal, plant, or imaginary creature - as long as it follows the Mission Zero guidelines.
 
 **Vyber:** Zvol si obrázek, který chceš zobrazit, z příkladů uvedených níže. Python ukládá informaci o obrázku do seznamu. Kód každého obrázku obsahuje proměnné použitých barev a samotný seznam.
 
