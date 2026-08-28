@@ -31,7 +31,7 @@ line_highlights:
 from sense_hat import SenseHat from time import sleep
 
 # Ρύθμιση του Sense HAT
-sense = SenseHat() sense.set_rotation(270)
+sense = SenseHat() sense.set_rotation(270, False)
 
 # Ρύθμιση του αισθητήρα χρωμάτων
 sense.color.gain = 60 # Set the sensitivity of the sensor sense.color.integration_cycles = 64 # The interval at which the reading will be taken
@@ -91,6 +91,8 @@ z = (220, 53, 232) # Μωβ
 ### Επίλεξε μια εικόνα
 
 --- task ---
+
+You can either choose one of the example images below or create your own original design. Feel free to draw anything you like - such as an animal, plant, or imaginary creature - as long as it follows the Mission Zero guidelines.
 
 **Επίλεξε:** Από τις παρακάτω επιλογές διάλεξε μια εικόνα για να την εμφανίσεις. Η Python αποθηκεύει τις πληροφορίες για μια εικόνα σε μια λίστα. Ο κώδικας για κάθε εικόνα περιλαμβάνει τις μεταβλητές για τα χρώματα που χρησιμοποιούνται και τη λίστα.
 
