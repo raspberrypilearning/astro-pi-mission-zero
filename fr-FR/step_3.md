@@ -34,7 +34,7 @@ line_highlights:
 from sense_hat import SenseHat
 from time import sleep
 
-# Configuer le Sense HAT
+# Configurer le Sense HAT
 sense = SenseHat()
 sense.set_rotation(270, False)
 
