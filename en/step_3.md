@@ -123,7 +123,7 @@ g = (0, 204, 255)   # Sky Blue
 image = [
 c, g, c, g, c, c, c, c,
 c, c, g, c, c, f, f, f,
-c, f, f, f, c, c, f, a,
+c, f, f, f, c, c, f, c,
 f, f, c, f, f, c, f, c,
 f, f, f, f, f, c, f, c,
 g, f, f, f, f, f, f, c,
