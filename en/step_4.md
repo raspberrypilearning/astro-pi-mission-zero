@@ -109,7 +109,7 @@ c, g, g, g, g, c, c, c]
 
 At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
 
-**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
+**Tip:** Make sure the lines of code underneath `for i in range(15):` are indented with a space so they sit **inside** the loop block.
 
 --- code ---
 ---
@@ -131,8 +131,8 @@ c, g, g, g, g, c, c, c]
 
 sleep(1)
 
-# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
-for i in range(14):
+# Loop 15 times (15 * 2 seconds = 30 seconds total animation)
+for i in range(15):
   # Display the second image
   sense.set_pixels(image2)
   sleep(1)
@@ -285,8 +285,8 @@ c, g, g, g, g, c, c, c]
 
 sleep(1)
 
-# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
-for i in range(14):
+# Loop 15 times (15 * 2 seconds = 30 seconds total animation)
+for i in range(15):
   # Display the second image
   sense.set_pixels(image2)
   sleep(1)
