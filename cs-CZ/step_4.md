@@ -1,18 +1,10 @@
 ## Získej hodnoty ze senzoru
 
-V tomto kroku nastavíš senzor barev a svítivosti, který ti řekne, kolik červené, zelené a modré dopadá na senzor. Touto barvou se poté vybarví tvůj obrázek. Astronaut, který přijde k senzoru v modrém tričku, uvidí jiný obrázek než astronaut v červeném tričku.
+V tomto kroku nastavíš senzor barev a svítivosti. Tento senzor budeš používat k naměření množství červeného, zeleného a modrého světla, které na něho dopadá. Tyto hodnoty pak budou použity ke změně jedné z barev na tvém obrázku.
 
-![Obrázek zobrazený s růžovým pozadím na LED matici.](images/colour_background.png)
+To znamená, že obrázek se může měnit podle toho, co senzor vidí. Například astronaut v modrém tričku uvidí jinou verzi obrázku než astronaut v červeném tričku.
 
-Ať už si vybereš jakýkoli obrázek, pozadí používá proměnnou `c`, která je nastavená na černou.
-
---- task ---
-
-Použij senzor barev k vybarvení pozadí.
-
-Před seznam s obrázkem přidej kód, díky němuž získáš naměřenou barvu ze senzoru, a změň proměnnou `c` s pozadím na barvu, kterou zachytil senzor barev desky Sense HAT.
-
-**Tip:** Nemusíš psát komentáře, které začínají „#“ (slouží pouze k vysvětlení daného kódu).
+Barva pozadí obrázku s velrybou v minulém kroku byla černá. Použili jsme proměnnou `c`, do které jsme uložili kód barvy RGB:
 
 --- code ---
 ---
@@ -20,33 +12,37 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9, 10
 ---
+c = (0, 0, 0)
 
-# Přidej proměnné s barvami a obrázek
+--- /code ---
 
-z = (153, 50, 204) # Tmavá orchidej
-q = (255, 255, 0) # Žlutá
-d = (51, 153, 255) # Modrá
-c = (0, 0, 0) # Černá
 
+--- task ---
+
+Použij barevný senzor a změň jednu ze svých barev.
+
+Pod řádky, kde definuješ barvy, přidej následující kód:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 3, 4
+---
+# Získej hodnoty ze senzoru
 rgb = sense.color # Získej barvu ze senzoru
 c = (rgb.red, rgb.green, rgb.blue) # Použij barvu naměřenou ze senzoru
-
-obrazek = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
-
 
 --- /code ---
 
 --- /task ---
+
+Tento kód nahrazuje hodnoty RGB uložené v proměnné `c` hodnotami naměřenými barevným senzorem.
+
+Tip: Pokud ve svém obrázku nepoužíváš proměnnou `c`, nahraď `c` jednou z proměnných barev, které používáš. Díky tomu bude moci senzor změnit danou barvu.
 
 --- task ---
 
@@ -56,20 +52,22 @@ obrazek = [
 
 --- /task ---
 
-## Přidej do svého programu cyklus
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Podařilo se ti zobrazit obrázek, rozpoznat barvu a použít ji ve svém programu, a tvůj kód je tak připraven k odevzdání! 
 
-Program výzvy Astro Pi Mission Zero může běžet po dobu až 30 sekund. Využij této doby a opakovaně kontroluj senzor barev, a aktualizuj tak svůj obrázek.
+Program můžeš uložit a odeslat pomocí formuláře v dolní části editoru kódu.
+  
+Možná však budeš chtít do svého projektu přidat další obrázky nebo ho oživit animacemi. V následujících krocích se dozvíš, jak na to.
+</p>
 
-Tvůj kód použije cyklus `for`, aby se spustil 28krát. Během **každého** opakování:
-+ naměří poslední barvu,
-+ aktualizuje pozadí obrázku,
-+ se zastaví na jednu sekundu.
+## Naanimuj svůj projekt (nepovinné)
+
+Tvůj program Mission Zero může na Mezinárodní vesmírné stanici (ISS) běžet po dobu až 30 sekund. Tento čas můžeš využít k zobrazení animace na LED matici tak, že budeš přepínat mezi dvěma nebo více obrázky.
 
 --- task ---
 
-**Najdi** řádek kódu obsahující `rgb = sense.color`.
 
-**Přidej** kód nad něj a nastav cyklus `for` na `28` opakování.
+Těsně pod řádek `sense.set_pixels(obrazek)` **přidej** svůj druhý obrázek. Pojmenuj proměnnou jako `obrazek2` a změň pár pixelu, aby tvůj snímek animace vypadal jinak. Pak za ním přidej krátkou pauzu.
 
 --- code ---
 ---
@@ -77,21 +75,31 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
-for i in range(28):
-rgb = sense.color # Získej barvu ze senzoru
-c = (rgb.red, rgb.green, rgb.blue)
-
 obrazek = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(obrazek)
+
+# Další obrázky/snímky budou zde:
+
+obrazek2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 --- /code ---
 
@@ -99,9 +107,9 @@ obrazek = [
 
 --- task ---
 
-Všechen svůj kód teď musíš odsadit pod cyklus `for` tak, aby se nacházel **uvnitř** těla tohoto cyklu.
+Na samém konci souboru s kódem nastav smyčku `for` tak, aby se opakovala `14`krát a střídala mezi proměnnými `obrazek` a `obrazek2`, přičemž na každém snímku se zastaví na 1 sekundu.
 
-**Tip:** Pokud chceš odsadit více řádků, označ dané řádky a stiskni klávesu <kbd>Tab</kbd> (většinou nad klávesou <kbd>Caps Lock</kbd>).
+**Tip:** Ujisti se, že řádky kódu pod `for i in range(14):` jsou odsazeny mezerou, aby se nacházely **uvnitř** bloku smyčky.
 
 --- code ---
 ---
@@ -109,103 +117,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
+obrazek2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-for i in range(28):
-  rgb = sense.color # Získej barvu ze senzoru
-  c = (rgb.red, rgb.green, rgb.blue)
+sleep(1)
 
-  obrazek = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+# Smyčka 14krát (14 * 2 sekundy = 28 sekund celkové doby animace)
+for i in range(14):
+  # Zobraz druhý obrázek
+  sense.set_pixels(obrazek2)
+  sleep(1)
 
-    
-  # Zobraz obrázek
-
+  # Zobraz první obrázek
   sense.set_pixels(obrazek)
- 
---- /code ---
-
---- /task ---
-
---- task ---
-
-Na konec cyklu přidej funkci `sleep` s délkou trvání jedné sekundy:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 5
----
-  
-  # Zobraz obrázek
-
-  sense.set_pixels(obrazek)
-  sleep(1)  
-  
---- /code ---
-
-**Tip:** Ujisti se, že tento řádek kódu je v cyklu `for` odsazený.
-
---- /task ---
-
---- task ---
-
-**Test:** Spusť svůj kód a pomocí nástroje pro výběr barvy několikrát změn barvu. Zkontroluj, jestli se tvůj obrázek změnil a jestli používá při dalším opakování naměřenou barvu.
-
-Po dokončení cyklu se obrázek přestane aktualizovat, aby tvůj program neběžel déle než 30 sekund.
-
---- /task ---
-
---- task ---
-
-**Ladění**
-
-Můj kód má chyby v syntaxi nebo neběží, jak by měl:
-
-- Zkontroluj si, jestli tvůj kód odpovídá kódu v příkladech uvedených výše.
-- Zkontroluj si, jestli je tvůj kód uvnitř cyklu `for` správně odsazený.
-- Zkontroluj si, jestli je tvůj seznam ohraničený závorkami `[` a `]`.
-- Zkontroluj si, jestli je každá proměnná s barvou oddělená čárkou.
-
-Můj kód běží déle než 30 sekund:
-
-- Sniž počet opakování cyklu `for` z 28 na 25 nebo třeba na 20.
-- Sniž dobu trvání funkce `sleep` z 1 sekundy na 0,5 sekundy.
-
---- /task ---
-
---- task ---
-
-Na konec svého kódu přidej řádek `sense.clear()`, který po dokončení cyklu obrázek vyklidí. Díky němu uvidíš, kdy tvoje animace skončila.
-
-**Tip:** Ujisti se, že řádek `sense.clear()` **není** odsazený, protože ho chceš spustit pouze jednou, a to na konci své animace.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7
----
-  
-  # Zobraz obrázek
-
-  sense.set_pixels(obrazek)
-  sleep(1) 
-  
-sense.clear()
+  sleep(1)
   
 --- /code ---
 
@@ -213,56 +147,24 @@ sense.clear()
 
 --- task ---
 
-**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí, čímž všechna světla zčernají (vypnou se).
+**Test:** Spusť svůj kód znovu. Tvůj program okamžitě zobrazí naměřenou barvu a poté bude pomocí smyčky přepínat tam a zpátky, čímž vznikne animovaný obrázek.
 
 --- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Pokud ve své animaci chceš mít více než dva snímky, musíš zajistit, aby program běžel po dobu maximálně 30 sekund. Například pokud máš 10 obrázků, z nichž každý se zobrazí na 1 sekundu, musíš smyčku „for“ nastavit tak, aby se opakovala 3krát (10 × 3 = 30 sekund).
+</p>
 
 --- task ---
 
-**Ladění**
+**Zkontroluj chyby**
 
-LED matice každou sekundu zčerná:
-
-- Zkontroluj si, jestli řádek `sense.clear()` není odsazený, a nenachází se tak v cyklu `for`.
-
---- /task ---
-
---- task ---
-
-Přidej kód, který vyklidí LED matici na barvu dle tvého výběru. Vytvoř proměnnou `x`, do které uložíš novou barvu.
-
-K vytvoření proměnné `x` si můžeš namíchat svoji vlastní barvu nebo použít hodnoty ze seznamu barev.
-
-[[[generic-theory-simple-colours]]] 
-[[[ambient-colours]]]
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7, 8
----
-  
-  # Zobraz obrázek
-
-  sense.set_pixels(obrazek)
-  sleep(1) 
-
-x = (178, 34, 34)  # Vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
-sense.clear(x)
-  
---- /code ---
+Můj kód má chyby v syntaxi nebo nemění snímky:
+- Zkontroluj, že tvůj kód pro smyčku `for` má stejné odsazení jako v příkladu.
+- Ujisti se, že se tvůj druhý obrázek jmenuje `obrazek2` a že je umístěný mimo smyčku a před ní.
+- Podívej se, že řádky se `sleep` jsou nastaveny přesně na `1` sekundu, aby nedošlo k překročení 30sekundového limitu na ISS.
 
 --- /task ---
-
---- task ---
-
-**Test:** Spusť svůj kód znovu. Jakmile tvůj projekt doběhne, LED matice se vyklidí na tebou zvolenou barvu. Barvu můžeš měnit a testovat, kolikrát jen chceš.
-
---- /task ---
-
 
 --- task ---
 
@@ -270,20 +172,14 @@ sense.clear(x)
 
 Svůj program můžeš uložit do startovacího projektu výzvy zadáním názvu týmu, jmen členů týmu a kódu třídy, který ti byl přidělen. Program můžeš načíst na jakémkoli zařízení s připojením k internetu tak, že zadáš název týmu a kód třídy.
 
-![Tlačítko výzvy Mission Zero pro uložení.](images/savebutton_cz.png)
-
 --- /task ---
-
 
 --- task ---
 
 --- collapse ---
-
 ---
-title: Příklad dokončeného kódu
+title: Příklad dokončeného kódu s velrybou
 ---
-
-![Mřížka o velikosti 8 × 8, na které je ryba.](images/fish.png)
 
 --- code ---
 ---
@@ -304,36 +200,104 @@ sense.color.gain = 60 # Nastav citlivost senzoru
 sense.color.integration_cycles = 64 # Interval, který udává frekvenci měření ze senzoru
 
 # Přidej proměnné s barvami a obrázek
+a = (255, 255, 255) # Bílá
+c = (0, 0, 0)       # Černá
+f = (36, 128, 200)  # Oceánská modř
+g = (0, 204, 255)   # Nebesky modrá
 
-z = (153, 50, 204) # Tmavá orchidej
-q = (255, 255, 0) # Žlutá
-d = (51, 153, 255) # Modrá
-c = (0, 0, 0) # Černá
+# Získej hodnoty ze senzoru
+rgb = sense.color # Získej barvu ze senzoru
+c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28):
-  rgb = sense.color # Získej barvu ze senzoru
-  c = (rgb.red, rgb.green, rgb.blue)
+obrazek = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  obrazek = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
-
-  # Zobraz obrázek
-
-  sense.set_pixels(obrazek)
-  sleep(1)
-
-x = (178, 34, 34)  # vyber si vlastní hodnotu červené, zelené a modré v rozsahu 0–255
-sense.clear(x)
+sense.set_pixels(obrazek)
 
 --- /code ---
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Příklad dokončeného kódu s velrybou (včetně animace)
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Importuj knihovny
+from sense_hat import SenseHat
+from time import sleep
+
+# Nastav Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Nastav senzor barev
+sense.color.gain = 60 # Nastav citlivost senzoru
+sense.color.integration_cycles = 64 # Interval, který udává frekvenci měření ze senzoru
+
+# Přidej proměnné s barvami a obrázek
+a = (255, 255, 255) # Bílá
+c = (0, 0, 0)       # Černá
+f = (36, 128, 200)  # Oceánská modř
+g = (0, 204, 255)   # Nebesky modrá
+
+# Získej hodnoty ze senzoru
+rgb = sense.color # Získej barvu ze senzoru
+c = (rgb.red, rgb.green, rgb.blue)
+
+obrazek = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(obrazek)
+
+# ZÁKLAD PRO PŘIHLÁŠKU je nyní hotový
+
+# Další obrázky/snímky budou zde:
+obrazek2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sleep(1)
+
+# Smyčka 14krát (14 * 2 sekundy = 28 sekund celkové doby animace)
+for i in range(14):
+  # Zobraz druhý obrázek
+  sense.set_pixels(obrazek2)
+  sleep(1)
+
+  # Zobraz první obrázek
+  sense.set_pixels(obrazek)
+  sleep(1)
+  
+--- /code ---
+
+--- /collapse ---
+
 --- /task ---
+

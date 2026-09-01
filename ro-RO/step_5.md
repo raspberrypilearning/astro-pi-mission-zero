@@ -2,7 +2,7 @@
 
 Acum că ți-ai încheiat misiunea, de ce să nu mai încerci câteva proiecte folosind ceilalți senzori de pe Astro Pi?
 
-Dacă te simți încrezător, poți să participi la Mission Space Lab. Formați o echipă de doi până la șase persoane și lucrați împreună pentru a răspunde la o întrebare științifică reală. Toate echipele care depun un program eligibil vor fi invitate la un Q&A virtual cu un astronaut ESA la sfârșitul ciclului Astro Pi Challenge.
+Dacă te simți încrezător, poți să participi la Mission Space Lab. Formați o echipă de doi până la șase persoane și lucrați împreună pentru a răspunde la o întrebare științifică reală. Toate echipele care depun un program eligibil vor fi invitate la o sesiune de Întrebări&Răspunsuri virtuale cu un expert în zbor uman din ESA la sfârșitul ciclului european Astro Pi Challenge.
 
 Alternativ, ai putea vrea să încerci unul dintre celelalte proiecte Sense HAT:
 

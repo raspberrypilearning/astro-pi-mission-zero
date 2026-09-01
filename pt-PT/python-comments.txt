@@ -12,38 +12,68 @@ Adicionar variáveis de cor e imagem
 
 Mostrar a imagem
 
-Preto
-
-Branco
-
-Laranja escuro
-
-Cinzento escuro
-
-Amarelo esverdeado
-
-Amarelo
-
-Laranja escuro
-
-Azul noturno
-
-Verde floresta
-
-Azul centáurea
-
-Vermelho
-
-Verde primavera
-
-Azul Médio
-
-Cinzento fosco
-
-Orquídea Negra
+Identificar uma cor
 
 obter a cor do sensor
 
 usa a cor detetada
 
-escolhe os teus próprios valores de vermelho, verde e azul entre 0 - 255
+As imagens / frames extras vão para aqui:
+
+Ciclo de repetição de 14 vezes (14 * 2 segundos = 28 segundos de animação total)
+
+# Mostrar a segunda imagem
+
+# Mostrar a primeira imagem
+
+# O ENVIO BÁSICO está por esta altura, concluído
+
+Branco
+
+Cinzento
+
+Preto
+
+Azul Marinho
+
+Azul Puro
+
+Azul Oceano
+
+Azul Céu
+
+Ciano Elétrico
+
+Verde Puro
+
+Verde Folha
+
+Verde Azeitona
+
+Verde Floresta
+
+Castanho Terra
+
+Castanho Terracota
+
+Vermelho Tijolo
+
+Vermelho Puro
+
+Laranja
+
+Amarelo Pálido
+
+Amarelo Puro
+
+Rosa Pálido
+
+Rosa Blush
+
+Rosa Claro
+
+Magenta
+
+Roxo
+
+

@@ -1,5 +1,5 @@
 pilt
 
-rgb
+pilt2
 
-vikerkaar
+rgb

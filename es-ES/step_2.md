@@ -1,15 +1,13 @@
 ## ¿Qué es un Astro Pi?
 
-Un Astro Pi es una computadora Raspberry Pi encerrada en una carcasa especialmente diseñada para las condiciones en el espacio.
+Una Astro Pi es una computadora Raspberry Pi que ha sido especialmente diseñada para funcionar en el espacio.
 
 ![Imagen animada de un Sense HAT adjunto a la parte superior de una computadora Raspberry Pi.](images/astro_pi_casing.jpeg)
 
-Las computadoras Astro Pi vienen con un conjunto de sensores y dispositivos que se pueden usar para realizar experimentos científicos maravillosos. Este conjunto de sensores se llama 'Sense HAT' (que significa 'Hardware conectado en la parte superior'). El Sense HAT le da a Astro Pi la capacidad de 'detectar' y realizar muchos tipos de mediciones, desde la temperatura hasta el movimiento, y generar información utilizando una pantalla de matriz de 8 x 8 LEDs. Los Astro Pis también tienen un joystick y botones, ¡como una consola de videojuegos!
+Las computadoras Astro Pi tienen un conjunto de sensores llamados “Sense HAT” que los jóvenes pueden utilizar para llevar a cabo experimentos científicos. Un sensor es algo que puede detectar o medir lo que está ocurriendo a su alrededor. Los sensores del Sense Hat pueden medir aspectos como el color y el brillo de los objetos que se encuentran frente a él. El Sense Hat también incluye una matriz de LED de 8 x 8 que puede mostrar imágenes e información sencillas.
 
-![Imagen animada de un Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Una <span style="color: #0faeb0">**matriz de LEDs**</span> es una cuadrícula de LEDs (diodos emisores de luz) que se pueden controlar individualmente o en grupo para crear diferentes efectos de iluminación. La matriz de LEDs del Sense HAT tiene 64 LEDs que se muestran en una cuadrícula de 8 x 8. Los LEDs se pueden programar para producir una amplia gama de colores.
+</p>
 
-Para esta misión, usarás el emulador Sense HAT. El emulador es una pieza de software que simula todas las funciones del Astro Pi en tu navegador web.
-
-
-
-
+![una imagen de arte de pixels de 8x8 de una ballena](images/whaleblank.png)

@@ -1,15 +1,13 @@
 ## Hvad er en Astro Pi?
 
-En Astro Pi er en Raspberry Pi-computer indkapslet i et kabinet, der er specialdesignet til forhold i rummet.
+En Astro Pi er en Raspberry Pi-computer, der er specielt designet til at fungere i rummet.
 
 ![Animeret billede af en Sense HAT, der er fastgjort til toppen af en Raspberry Pi-computer.](images/astro_pi_casing.jpeg)
 
-Astro Pi-computere leveres med et sæt sensorer og gadgets, der kan bruges til at køre store videnskabelige eksperimenter. Dette sæt af sensorer kaldes en ‘Sense HAT’ (som står for ‘Hardware Attached on Top’). Sense HAT giver Astro Pi mulighed for at “sanse” og foretage mange forskellige slags målinger, fra temperatur til bevægelse og efterfølgende at vise denne information ved hjælp af et 8 x 8 LED matrix display. Astro Pi'erne har også et joystick og knapper, ligesom et videospil konsol!
+Astro Pi-computerne har en række sensorer kaldet 'Sense HAT', som børn og unge kan bruge til at udføre videnskabelige eksperimenter. En sensor er noget, der kan registrere eller måle, hvad der sker omkring den. Sensorerne på Sense Hat kan måle ting som farven og lysstyrken på objekter foran den. Sense Hat indeholder også en 8 x 8 LED matrix, der kan vise enkle billeder og information.
 
-![Animeret billede af en Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+En <span style="color: #0faeb0">**LED-matrix**</span> er et gitter af LED'er (lysdioder), der kan styres individuelt eller som en gruppe for at skabe forskellige lyseffekter. LED-matrixen på Sense HAT har 64 lysdioder viset i et 8 x 8 gitter. Lysdioderne kan programmeres til at vise et stort udvalg af farver.
+</p>
 
-Til denne mission skal du bruge Sense HAT-emulatoren, der simulerer hovedfunktionerne i Astro Pi i din webbrowser.
-
-
-
-
+![et 8x8 pixelart-billede af en hval](images/whaleblank.png)

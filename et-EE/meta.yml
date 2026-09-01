@@ -7,14 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - title: Sa hakkad tegema
-  - title: Mis on Astro Pi?
-  - title: Kuva pilt
-    completion:
-      - engaged
-  - title: Taju värvi
-    completion:
-      - internal
-  - title: Mis edasi — rohkem Astro Pi projekte
-    completion:
-      - external
+- title: Sa hakkad tegema
+- title: Mis on Astro Pi?
+- title: Kuva pilt
+  completion:
+  - engaged
+- title: Taju värvi
+  completion:
+  - internal
+- title: Mis edasi — rohkem Astro Pi projekte
+  completion:
+  - external

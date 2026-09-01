@@ -1,16 +1,22 @@
 ## Afficher une image
 
-La matrice LED de l'Astro Pi peut afficher des couleurs. Dans cette étape, tu vas afficher des images de la nature sur la matrice LED de l'Astro Pi.
+L'image que tu afficheras sera composée de 64 carrés colorés appelés **pixels**. Les pixels sont disposés selon une grille de 8 x 8. Chaque pixel peut être d'une couleur différente. En choisissant soigneusement les couleurs, tu peux créer une image. Voici un exemple de baleine réalisée avec différentes nuances de bleu sur arrière-plan noir.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Une <span style="color: #0faeb0">**matrice LED**</span> est une grille de LED qui peuvent être contrôlées individuellement ou en groupe pour créer différents effets de lumière. La matrice LED du Sense HAT comporte 64 LED affichées dans une grille de 8 x 8. Les LED peuvent être programmées pour produire une large gamme de couleurs.
 </p>
 
-![Une capture d'écran de la fenêtre de l'émulateur montrant l'unité de vol avec la matrice LED qui affiche l'image d'une fleur.](images/fu-pic.png)
+![une image 8x8 d'une baleine avec des lettres indiquant différentes couleurs](images/whale.png)
+
+Tu remarqueras que chaque case est identifiée par un code correspondant à une couleur précise. Cette image utilise 3 couleurs :
++ c = Noir
++ f = Bleu océan
++ g = Bleu ciel
+
 
 --- task ---
 
-Ouvre le [projet de démarrage de Mission Zero](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Ouvre le [projet de démarrage de Mission Zero](https://missions.astro-pi.org/fr/mz/code_submissions/){:target="_blank"}.
 
 Tu verras que quelques lignes de code ont été ajoutées pour toi automatiquement.
 
@@ -18,22 +24,22 @@ Ce code se connecte à l'Astro Pi et fait en sorte que l'écran LED de l'Astro�
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights:
+line_highlights: 
 ---
 # Importer les bibliothèques
-from sense_hat import SenseHat 
+from sense_hat import SenseHat
 from time import sleep
 
-# Configuer le Sense HAT
+# Configurer le Sense HAT
 sense = SenseHat()
 sense.set_rotation(270, False)
 
 # Configurer le capteur de couleurs
-sense.color.gain = 60 # Régler la sensibilité du capteur 
+sense.color.gain = 60 # Régler la sensibilité du capteur
 sense.color.integration_cycles = 64 # L'intervalle auquel la lecture sera effectuée
 
 --- /code ---
@@ -46,11 +52,47 @@ sense.color.integration_cycles = 64 # L'intervalle auquel la lecture sera effect
 
 Tu peux créer des couleurs en utilisant différentes valeurs de rouge, vert et bleu. Tu peux découvrir les couleurs RVB ici :
 
-[[[generic-theory-simple-colours]]]
+![Trois curseurs illustrant les valeurs de couleur RVB](images/rgbsliders.gif)
 
-La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. Voici une liste de variables pour 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu :
+La matrice LED est une grille 8 x 8. Chaque LED de la grille peut être réglée sur une couleur différente. Nous pouvons utiliser les lettres de a à z comme noms de variables pour représenter 24 couleurs différentes. Chaque couleur comporte une valeur de rouge, vert et bleu.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Liste des variables de couleur
+---
+
+![Une grille de 24 carrés colorés, chacun portant une lettre différente de l'alphabet](images/palette.png)
+
+```python
+a = (255, 255, 255) # Blanc
+b = (171, 171, 171) # Gris
+c = (0, 0, 0) # Noir
+d = (25, 25, 113) # Bleu marine
+e = (0, 0, 255) # Bleu pur
+f = (36, 128, 200) # Bleu océan
+g = (0, 204, 255) # Bleu ciel
+h = (86, 255, 255) # Cyan électrique
+j = (0, 255, 0) # Vert pur
+k = (46, 139, 33) # Vert feuille
+l = (57, 97, 17) # Vert olive
+m = (30, 65, 6) # Vert forêt
+n = (126, 88, 25) # Brun terre
+o = (179, 96, 65) # Brun terracotta
+p = (180, 34, 34) # Rouge brique
+q = (255, 0, 0) # Rouge pur
+r = (232, 118, 5) # Orange
+s = (241, 231, 100) # Jaune pâle
+t = (255, 255, 0) # Jaune pur
+u = (255, 209, 209) # Rose pâle
+v = (255, 177, 177) # Rose poudré
+w = (249, 169, 255) # Rose clair
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Violet
+
+```
+
+--- /collapse ---
 
 ### Choisir une image
 
@@ -63,28 +105,27 @@ Tu devras **copier** tout le code de l'image que tu as choisie puis le **coller*
 --- collapse ---
 
 ---
-title: Poisson
+title: Baleine
 ---
 
-![Une grille de 8 x 8 cases représentant un poisson.](images/fish.png)
+![Une grille de 8 x 8 cases représentant une baleine.](images/whale.png)
 
-Créé par l'équipe chalka, Pologne
+Créé par la Team Naicom, Italie
 
 ```python
-z = (153, 50, 204) # Orchideefoncee
-q = (255, 255, 0) # Jaune
-d = (51, 153, 255) # bleu
-c = (0, 0, 0) # Noir
+c = (0, 0, 0)       # Noir
+f = (36, 128, 200)  # Bleu océan
+g = (0, 204, 255)   # Bleu ciel
 
 image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -94,59 +135,57 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Morse
+title: Citron
 ---
 
-![Une grille de 8 x 8 cases représentant un morse.](images/walrus.png)
+![Une grille de 8 x 8 cases représentant un citron.](images/lemon.png)
 
-Créé par l'équipe Walrus, Finlande
+Créé par la Team g4lemoni, Grèce
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Noir
-s = (139, 69, 19) # Brunfonce
+c = (0, 0, 0)       # Noir
+k = (46, 139, 33)   # Vert feuille
+t = (255, 255, 0)   # Jaune pur
+
+image = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Cochon
+---
+
+![Une grille de 8 x 8 cases représentant un cochon.](images/pig.png)
+
+Créé par Gary, Royaume-Uni
+
+```python
 a = (255, 255, 255) # Blanc
-r = (184, 134, 11) # Jaunedorefonce
+v = (255, 177, 177) # Rose poudré
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Brun terracotta
+c = (0, 0, 0)       # Noir
 
 image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Une grille de 8 x 8 cases représentant un Paxi.](images/paxi.png)
-
-Créé par l'équipe tony_pi, Italie
-
-```python
-v = (255, 0, 0) # Rouge
-m = (34, 139, 34) # Vertforet
-c = (0, 0, 0) # Noir 
-e = (100, 149, 237) # Bleubleuet
-l = (0, 255, 0) # Vert
-
-image = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -155,29 +194,29 @@ image = [
 
 --- collapse ---
 ---
-title: Chien
+title: Orage
 ---
 
-![Une grille de 8 x 8 cases représentant une tête de chien.](images/dog.png)
+![Une grille de 8 × 8 cases représentant un nuage d'orage.](images/storm.png)
 
-Créé par l'équipe ptpr_07, Espagne
+Créé par la Team hop2p023, Espagne
 
 ```python
 
-c = (0, 0, 0) # Noir
-r = (184, 134, 11) # Jaunedorefonce
-s = (139, 69, 19) # Brunfonce
-y = (255, 20, 147) # Fuchsiavif
+c = (0, 0, 0)       # Noir
+f = (36, 128, 200)  # Bleu océan
+g = (0, 204, 255)   # Bleu ciel
+t = (255, 255, 0)   # Jaune pur
 
 image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -186,35 +225,31 @@ image = [
 
 --- collapse ---
 ---
-title: Caméléon
+title: Canard
 ---
 
-![Une grille de 8 x 8 carrés représentant un caméléon aux couleurs de l'arc-en-ciel.](images/chameleon.png)
+![Une grille de 8 x 8 cases représentant un canard.](images/duck.png)
 
-Créé par l'équipe The_ETs, Royaume-Uni
+Créé par Peter, Irlande
 
 ```python
 
 c = (0, 0, 0) # Noir
-s = (139, 69, 19) # Brunfonce
+l = (57, 97, 17)    # Vert olive
+m = (30, 65, 6)     # Vert forêt
+r = (232, 118, 5)   # Orange
 a = (255, 255, 255) # Blanc
-v = (255, 0, 0) # Rouge
-t = (255, 140, 0) # Orangefonce
-q = (255, 255, 0) # Jaune
-m = (34, 139, 34) # Vertfonce
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # Orchideefoncee
-y = (255, 20, 147) # Fuchsiavif
+b = (171, 171, 171) # Gris
 
 image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -222,31 +257,32 @@ image = [
 
 --- collapse ---
 ---
-title: Cerf-volant
+title: Grenouille
 ---
 
-![Une grille de 8 x 8 cases représentant un cerf-volant.](images/kite.png)
+![Une grille de 8 x 8 cases représentant une grenouille.](images/frog.png)
 
-Créé par l'équipe Val, Grèce
+Créé par la Team Jmeno, République tchèque
 
 ```python
 
-c = (0, 0, 0) # Noir
-m = (34, 139, 34) # Vertforet
-v = (255, 0, 0) # Rouge
-q = (255, 255, 0) # Jaune
-e = (0, 0, 205) # Bleumoyen
-h = (0, 255, 255) # Cyan
+a = (255, 255, 255) # Blanc
+b = (171, 171, 171) # Gris
+c = (0, 0, 0)       # Noir
+q = (255, 0, 0)     # Rouge pur
+j = (0, 255, 0)     # Vert pur
+k = (46, 139, 33)   # Vert feuille
+n = (126, 88, 25)   # Brun terre
 
 image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -254,30 +290,33 @@ image = [
 
 --- collapse ---
 ---
-title: Poulet
+title: Arbre en fleurs
 ---
 
-![Une grille de 8 x 8 cases représentant un poulet.](images/chicken.png)
+![Une grille de 8 x 8 cases représentant un arbre en fleurs.](images/blossom.png)
 
-Créé par l'équipe Slepicky, Tchéquie
+Créé par la Team Zssh14, Slovaquie
 
 ```python
 
-v = (255, 0, 0) # Rouge
-c = (0, 0, 0) # Noir
-b = (105, 105, 105) # Grismat
-q = (255, 255, 0) # Jaune
-r = (184, 134, 11) # Jaunedorefonce
+t = (255, 255, 0)   # Jaune pur
+g = (0, 204, 255)   # Bleu ciel
+w = (249, 169, 255) # Rose clair
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Violet
+n = (126, 88, 25)   # Brun terre
+o = (179, 96, 65)   # Brun terracotta
+k = (46, 139, 33)   # Vert feuille
 
 image =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -295,22 +334,21 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Orchideefoncee
-q = (255, 255, 0) # Jaune
-d = (51, 153, 255) # bleu
-c = (0, 0, 0) # Noir
+c = (0, 0, 0)       # Noir
+f = (36, 128, 200)  # Bleu océan
+g = (0, 204, 255)   # Bleu ciel
 
 image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 # Afficher l'image
 sense.set_pixels(image)
@@ -342,12 +380,14 @@ Mon image n'apparaît pas :
 
 --- /task ---
 
---- task ---
+
+--- task --- 
 
 **Enregistre ta progression**
 
 Maintenant que tu as affiché une image, tu peux enregistrer ton programme sur le projet Mission Starter en entrant le nom de ton équipe, les noms des membres de l'équipe et le code de classe qui t'a été donné. Tu peux recharger ton programme sur n'importe quel appareil avec une connexion Internet en entrant le nom de ton équipe et le code de classe.
 
-![Bouton Enregistrer Mission Zero](images/savebutton_fr.png)
+![Bouton Enregistrer Mission Zero](images/mz_savebutton_v2.png)
 
 --- /task --- 
+

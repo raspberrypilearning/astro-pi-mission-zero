@@ -12,38 +12,68 @@ Adaugă variabile de culoare și imagine
 
 Afișează imaginea
 
-Negru
-
-Alb
-
-Portocaliu închis
-
-Gri închis
-
-GalbenVerde
-
-Galben
-
-Portocaliu închis
-
-Bleumarin
-
-Verde pădure
-
-Floarea de colțAlbastru
-
-Roșu
-
-VerdePrimăvară
-
-Albastru mediu
-
-GriȘters
-
-OrhideeÎntunecată
+Detectează o culoare
 
 obține culoarea de la senzor
 
 utilizează culoarea de la senzor
 
-alege-ți propriile valori roșu, verde, albastru între 0 - 255
+Imaginile/cadrele suplimentare se pun aici:
+
+Repetă de 14 ori (14 * 2 secunde = 28 de secunde animație în total)
+
+# Afișează a doua imagine
+
+# Afișează prima imagine
+
+# TRIMITEREA DE BAZĂ este deja finalizată
+
+Alb
+
+Gri
+
+Negru
+
+Albastru Marin
+
+Albastru pur
+
+Albastru oceanic
+
+Albastru ceresc
+
+Cian electric
+
+Verde pur
+
+Verde frunză
+
+Verde măsliniu
+
+Verde Pădure
+
+Maro Pământ
+
+Maro teracotă
+
+Cărămiziu
+
+Roșu pur
+
+Portocaliu
+
+Galben pal
+
+Galben pur
+
+Roz pal
+
+Roz îmbujorat
+
+Roz deschis
+
+Mov
+
+Violet
+
+

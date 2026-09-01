@@ -1,6 +1,12 @@
 ## Vais fazer
 
-O teu projeto irá definir a cor de fundo de uma imagem para a cor que o Astro Pi estiver a detetar. Isto tornará a Estação Espacial Internacional (ISS) mais colorida para os astronautas a bordo. O teu código vai usar o sensor de luminosidade de cor no novo Sense HAT do computador Mark II Astro Pi, para que isso aconteça.
+Vais programar um computador Astro Pi para mostrar uma imagem colorida. Assim que o teu programa passar nas verificações oficiais do código, será executado num computador Astro Pi na Estação Espacial Internacional (EEI), para que os astronautas o possam ver enquanto realizam as suas tarefas diárias.
+
+Neste projeto, vais aprender sobre o computador Astro Pi e como controlá-lo. Vais:
+
++ Criar e mostrar uma imagem em pixel arte num computador Astro Pi
++ Utiliza um sensor para detetar a cor e a luminosidade da luz e para alterar a imagem a bordo da EEI
++ Criar uma animação simples (opcional)
 
 Aqui está um exemplo do tipo de programa que tu poderás fazer para executar num Astro Pi no espaço.
 
@@ -8,26 +14,21 @@ Aqui está um exemplo do tipo de programa que tu poderás fazer para executar nu
 
 ### Vais precisar
 
-Irás usar o emulador Astro Pi num navegador da web para criar o teu programa. Tu não precisas de um computador Astro Pi.
+Vais escrever e testar o teu programa num navegador Web, como o Google Chrome. Não é necessário ter um computador Astro Pi real.
 
 ### Critérios Astro Pi Mission Zero
 
-**Se o teu projeto corresponder aos [critérios de elegibilidade](https://astro-pi.org/pt/mission-zero/eligibility){:target="_blank"}**, o teu programa concluído será executado na Estação Espacial Internacional! Receberás também um certificado especial que mostra exatamente onde estava a Estação Espacial quando o teu programa foi executado.
-
-Vais aprender sobre o computador Astro Pi e como controlá-lo, incluindo como:
-+ Crie **variáveis** de cor para usar na tua imagem
-+ Desenhar e mostrar uma imagem no Sense HAT
-+ Identificar a cor da luz ambiente da EEI (ISS)
+Todos os projetos que cumpram as [regras](https://astro-pi.org/mission-zero/eligibility){:target="_blank"} vão receber o «Estado de Voo» para serem executados na Estação Espacial Internacional! Se tiveres sucesso, recebes também um certificado especial que indica exatamente onde se encontrava a EEI quando o teu programa correu no espaço.
 
 --- collapse ---
 ---
 title: Notas para professores e mentores
 ---
 
-A Mission Zero é adequada para iniciantes em programação e/ou crianças com idade escolar primária e pode ser concluída em uma única sessão de 60 minutos em qualquer computador com acesso à Internet. Nenhum hardware especial ou conhecimentos de programação são necessários. Tudo pode ser feito num navegador da web.
+A Mission Zero é adequado para quem está a dar os primeiros passos na programação e é recomendado para jovens dos 9 aos 16 anos de idade. Pode ser concluído numa única sessão de 60 minutos em qualquer computador com acesso à Internet. Nenhum hardware especial ou conhecimentos de programação são necessários. Tudo pode ser feito num navegador da web.
 
-Organize os seus jovens em equipas de uma até quatro pessoas, e deixe-nos guiá-los por meio da criação de um pequeno programa em Python para identificar a cor ambiente na EEI (ISS) e criar uma imagem que use essa cor.
+A Mission Zero pode ser realizada individualmente ou em equipas até 4 pessoas.
 
-Leia as [orientações oficiais](https://astro-pi.org/pt/mission-zero/guidelines){:target="_blank"} da Mission Zero.
+Leia as [orientações oficiais](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} da Mission Zero.
 
 --- /collapse ---

@@ -7,14 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - title: Co budeš dělat
-  - title: Co je Astro Pi?
-  - title: Zobraz obrázek
-    completion:
-      - engaged
-  - title: Získej hodnoty ze senzoru
-    completion:
-      - internal
-  - title: 'Co dál: Další projekty Astro Pi'
-    completion:
-      - external
+- title: Co budeš dělat
+- title: Co je Astro Pi?
+- title: Zobraz obrázek
+  completion:
+  - engaged
+- title: Získej hodnoty ze senzoru
+  completion:
+  - internal
+- title: 'Co dál: Další projekty Astro Pi'
+  completion:
+  - external

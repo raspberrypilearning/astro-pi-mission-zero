@@ -1,5 +1,5 @@
 imagen
 
-rgb
+imagen2
 
-arcoiris
+rgb

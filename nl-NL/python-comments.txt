@@ -12,38 +12,68 @@ Kleurvariabelen en afbeelding toevoegen
 
 Geef de afbeelding weer
 
-Zwart
-
-Wit
-
-Donkeroranje
-
-Donkergrijs
-
-Geelgroen
-
-Geel
-
-Donkeroranje
-
-Middernachtblauw
-
-Bosgroen
-
-Korenbloemblauw
-
-Rood
-
-Lentegroen
-
-Middelblauw
-
-Matgrijs
-
-Donkerorchidee
+Een kleur waarnemen
 
 haal de kleur uit de sensor
 
 gebruik de waargenomen kleur
 
-kies je eigen rode, groene en blauwe waarden tussen 0 - 255
+Extra afbeeldingen/frames kunnen hier worden geplaatst:
+
+Herhaal 14 keer (14 * 2 seconden = 28 seconden totale animatie)
+
+# Geef de tweede afbeelding weer
+
+# Geef de eerste afbeelding weer
+
+# De BASIS INZENDING is nu klaar
+
+Wit
+
+Grijs
+
+Zwart
+
+Marineblauw
+
+Puur blauw
+
+Oceaanblauw
+
+Hemelsblauw
+
+Elektrisch cyaan
+
+Puur groen
+
+Loofgroen
+
+Olijfgroen
+
+Bosgroen
+
+Aardbruin
+
+Terracotta bruin
+
+Baksteenrood
+
+Puur rood
+
+Oranje
+
+Bleekgeel
+
+Puur geel
+
+Bleekroze
+
+Blushroze
+
+Lichtroze
+
+Magenta
+
+Paars
+
+

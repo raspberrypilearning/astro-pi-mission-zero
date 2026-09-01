@@ -1,16 +1,22 @@
 ## Anzeigen eines Bildes
 
-Die LED-Matrix des Astro Pi kann Farben darstellen. In diesem Schritt zeigst du Bilder aus der Natur auf der LED-Matrix des Astro Pi an.
+Das angezeigte Bild wird aus 64 farbigen Quadraten namens **Pixeln** erstellt. Die Pixel sind in einem 8 x 8 Raster angeordnet. Jedes Pixel kann eine andere Farbe haben. Durch die sorgfältige Auswahl der Farben lässt sich ein Bild gestalten. Hier ist ein Beispiel für einen Wal, der aus verschiedenen Blautönen auf schwarzem Hintergrund besteht.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Eine <span style="color: #0faeb0">**LED-Matrix**</span> ist ein Raster von LEDs, die einzeln oder als Gruppe gesteuert werden können, um verschiedene Lichteffekte zu erzeugen. Die LED-Matrix des Sense HAT verfügt über 64 LEDs, die in einem 8 x 8-Raster angeordnet sind. Die LEDs können so programmiert werden, dass sie eine breite Palette von Farben erzeugen.
 </p>
 
-![Ein Screenshot des Emulatorfensters, das die Flugeinheit mit der LED-Matrix zeigt, die ein Bild einer Blume anzeigt.](images/fu-pic.png)
+![ein 8x8 Bild eines Wales mit Buchstaben, die verschiedene Farben kennzeichnen](images/whale.png)
+
+Beachte, dass jedes Quadrat mit einem Code versehen ist, der eine bestimmte Farbe repräsentiert. In diesem Bild werden 3 Farben verwendet:
++ c = schwarz
++ f = Ozeanblau
++ g = Himmelblau
+
 
 --- task ---
 
-Öffne das [Mission Zero-Starterprojekt](https://missions.astro-pi.org/mz/code_submissions/){:target="_blank"}.
+Öffne das [Mission Zero-Starterprojekt](https://missions.astro-pi.org/de/mz/code_submissions/){:target="_blank"}.
 
 Du wirst sehen, dass einige Zeilen Code bereits automatisch erscheinen.
 
@@ -18,14 +24,14 @@ Dieser Code verbindet sich mit dem Astro Pi, stellt sicher, dass die LED-Anzeige
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: false 
+language: python
+filename: main.py
+line_numbers: false
 line_number_start: 1
-line_highlights:
+line_highlights: 
 ---
 # Bibliotheken importieren
-from sense_hat import SenseHat 
+from sense_hat import SenseHat
 from time import sleep
 
 # Einrichten des Sense HAT
@@ -33,8 +39,8 @@ sense = SenseHat()
 sense.set_rotation(270, False)
 
 # Farbsensor einrichten
-sense.color.gain = 60 # Stelle die Empfindlichkeit des Sensors ein 
-sense.color.integration_cycles = 64 # Das Intervall in dem gemessen wird
+sense.color.gain = 60 # Empfindlichkeit des Sensors einstellen
+sense.color.integration_cycles = 64 # Das Intervall, in dem die Messung durchgeführt wird
 
 --- /code ---
 
@@ -46,11 +52,47 @@ sense.color.integration_cycles = 64 # Das Intervall in dem gemessen wird
 
 Alle Farben können mit unterschiedlichen Anteilen von rot, grün und blau erzeugt werden. Informationen zu RGB-Farben findest du hier:
 
-[[[generic-theory-simple-colours]]]
+![Drei Schieberegler zur Darstellung der RGB-Farbwerte](images/rgbsliders.gif)
 
-Die LED-Matrix ist ein 8 x 8 Raster. Jede LED am Raster kann auf eine andere Farbe eingestellt werden. Hier ist eine Liste von Variablen für 24 verschiedene Farben. Jede Farbe hat einen Wert für Rot, Grün und Blau:
+Die LED-Matrix ist ein 8 x 8 Raster. Jede LED am Raster kann auf eine andere Farbe eingestellt werden. Wir können die Buchstaben a bis z als Namen von Variablen verwenden, um 24 verschiedene Farben darzustellen. Jede Farbe hat einen Wert für Rot, Grün und Blau.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Liste der Farbvariablen
+---
+
+![Ein Raster aus 24 farbigen Quadraten, von denen jedes mit einem anderen Buchstaben des Alphabets beschriftet ist](images/palette.png)
+
+```python
+a = (255, 255, 255) # Weiß
+b = (171, 171, 171) # Grau
+c = (0, 0, 0) # Schwarz
+d = (25, 25, 113) # Marineblau
+e = (0, 0, 255) # Reines Blau
+f = (36, 128, 200) # Ozeanblau
+g = (0, 204, 255) # Himmelblau
+h = (86, 255, 255) # Elektrisches Cyan
+j = (0, 255, 0) # Reines Grün
+k = (46, 139, 33) # Blattgrün
+l = (57, 97, 17) # Olivgrün
+m = (30, 65, 6) # Waldgrün
+n = (126, 88, 25) # Erdbraun
+o = (179, 96, 65) # Terrakottabraun
+p = (180, 34, 34) # Ziegelrot
+q = (255, 0, 0) # Reines Rot
+r = (232, 118, 5) # Orange
+s = (241, 231, 100) # Hellgelb
+t = (255, 255, 0) # Reines Gelb
+u = (255, 209, 209) # Hellrosa
+v = (255, 177, 177) # Zartrosa
+w = (249, 169, 255) # Helles Pink
+y = (248, 97, 255) # Magenta
+z = (220, 53, 232) # Lila
+
+```
+
+--- /collapse ---
 
 ### Wähle ein Bild
 
@@ -63,28 +105,27 @@ Du musst den gesamten Code für dein ausgewähltes Bild **kopieren** und ihn dan
 --- collapse ---
 
 ---
-title: Fisch
+title: Wal
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Fisch zeigen.](images/fish.png)
+![Ein Raster mit 8 x 8 Quadraten, die einen Wal zeigen.](images/whale.png)
 
-Erstellt vom Team Chalka, Polen
+Erstellt vom Team Naicom, Italien
 
 ```python
-z = (153, 50, 204) # DunkelOrchidee
-q = (255, 255, 0) # Gelb
-d = (51, 153, 255) # Blau
-c = (0, 0, 0) # Schwarz
+c = (0, 0, 0)       # Schwarz
+f = (36, 128, 200)  # Ozeanblau
+g = (0, 204, 255)   # Himmelblau
 
 bild = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -94,59 +135,57 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walross
+title: Zitrone
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die ein Walross zeigen.](images/walrus.png)
+![Ein Raster mit 8 x 8 Quadraten, das eine Zitrone zeigt.](images/lemon.png)
 
-Erstellt vom Team Walrus, Finnland
+Erstellt von Team g4lemoni, Griechenland
 
 ```python
-h = (0, 255, 255) # Zyan
-c = (0, 0, 0) # Schwarz
-s = (139, 69, 19) # Sattelbraun
+c = (0, 0, 0)       # Schwarz
+k = (46, 139, 33)   # Blattgrün
+t = (255, 255, 0)   # Reines Gelb
+
+bild = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Schwein
+---
+
+![Ein Raster mit 8 x 8 Quadraten, das ein Schwein zeigt.](images/pig.png)
+
+Erstellt von Gary, Großbritannien
+
+```python
 a = (255, 255, 255) # Weiß
-r = (184, 134, 11) # DunkleGoldrute
+v = (255, 177, 177) # Zartrosa
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Terrakottabraun
+c = (0, 0, 0)       # Schwarz
 
 bild = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Ein Raster mit 8 x 8 Quadraten, die Paxi zeigen.](images/paxi.png)
-
-Erstellt vom Team tony_pi, Italien
-
-```python
-v = (255, 0, 0) # Rot
-m = (34, 139, 34) # Waldgrün
-c = (0, 0, 0) # Schwarz 
-e = (100, 149, 237) # Kornblumenblau
-l = (0, 255, 0) # Grün
-
-bild = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -155,29 +194,29 @@ bild = [
 
 --- collapse ---
 ---
-title: Hund
+title: Sturm
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die den Kopf eines Hundes zeigen.](images/dog.png)
+![Ein Raster mit 8 x 8 Quadraten, das eine Gewitterwolke darstellt.](images/storm.png)
 
-Erstellt vom Team ptpr_07, Spanien
+Erstellt von Team hop2p023, Spanien
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DunkleGoldrute
-s = (139, 69, 19) # Sattelbraun
-y = (255, 20, 147) # TiefesPink
+c = (0, 0, 0)       # Schwarz
+f = (36, 128, 200)  # Ozeanblau
+g = (0, 204, 255)   # Himmelblau
+t = (255, 255, 0)   # Reines Gelb
 
 bild = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -186,35 +225,31 @@ bild = [
 
 --- collapse ---
 ---
-title: Chamäleon
+title: Ente
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, das ein regenbogenfarbenes Chamäleon zeigt.](images/chameleon.png)
+![Ein Raster mit 8 x 8 Quadraten, das eine Ente zeigt.](images/duck.png)
 
-Erstellt vom Team The_ETs, Vereinigtes Königreich
+Erstellt von Peter, Irland
 
 ```python
 
 c = (0, 0, 0) # Schwarz
-s = (139, 69, 19) # Sattelbraun
+l = (57, 97, 17)    # Olivgrün
+m = (30, 65, 6)     # Waldgrün
+r = (232, 118, 5)   # Orange
 a = (255, 255, 255) # Weiß
-v = (255, 0, 0) # Rot
-t = (255, 140, 0) # DunkelOrange
-q = (255, 255, 0) # Gelb
-m = (34, 139, 34) # Waldgrün
-h = (0, 255, 255) # Zyan
-z = (153, 50, 204) # DunkleOrchidee
-y = (255, 20, 147) # TiefesPink
+b = (171, 171, 171) # Grau
 
 bild = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -222,31 +257,32 @@ bild = [
 
 --- collapse ---
 ---
-title: Drache
+title: Frosch
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, die einen Drachen zeigen.](images/kite.png)
+![Ein Raster mit 8 x 8 Quadraten, das einen Frosch zeigt.](images/frog.png)
 
-Erstellt vom Team Val, Griechenland
+Erstellt vom Team Jmeno, Tschechische Republik
 
 ```python
 
-c = (0, 0, 0) # Schwarz
-m = (34, 139, 34) # Waldgrün
-v = (255, 0, 0) # Rot
-q = (255, 255, 0) # Gelb
-e = (0, 0, 205) # MittelBlau
-h = (0, 255, 255) # Zyan
+a = (255, 255, 255) # Weiß
+b = (171, 171, 171) # Grau
+c = (0, 0, 0)       # Schwarz
+q = (255, 0, 0)     # Reines Rot
+j = (0, 255, 0)     # Reines Grün
+k = (46, 139, 33)   # Blattgrün
+n = (126, 88, 25)   # Erdbraun
 
 bild = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -254,30 +290,33 @@ bild = [
 
 --- collapse ---
 ---
-title: Huhn
+title: blühender Baum
 ---
 
-![Ein Raster mit 8 x 8 Quadraten, das ein Huhn zeigt.](images/chicken.png)
+![Ein Raster aus 8 x 8 Quadraten, das einen blühenden Baum zeigt.](images/blossom.png)
 
-Erstellt vom Team Slepicky, Tschechien
+Erstellt vom Team Zssh14, Slowakei
 
 ```python
 
-v = (255, 0, 0) # Rot
-c = (0, 0, 0) # Schwarz
-b = (105, 105, 105) # DunklesGrau
-q = (255, 255, 0) # Gelb
-r = (184, 134, 11) # DunkleGoldrute
+t = (255, 255, 0)   # Reines Gelb
+g = (0, 204, 255)   # Himmelblau
+w = (249, 169, 255) # Hellrosa
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Lila
+n = (126, 88, 25)   # Erdbraun
+o = (179, 96, 65)   # Terrakottabraun
+k = (46, 139, 33)   # Blattgrün
 
 bild =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -295,22 +334,21 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Dunkle Orchidee
-q = (255, 255, 0) # Gelb
-d = (51, 153, 255) # Blau
-c = (0, 0, 0) # Schwarz
+c = (0, 0, 0)       # Schwarz
+f = (36, 128, 200)  # Ozeanblau
+g = (0, 204, 255)   # Himmelblau
 
 bild = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 # Das Bild anzeigen
 sense.set_pixels(bild)
@@ -343,12 +381,13 @@ Mein Bild wird nicht angezeigt:
 --- /task ---
 
 
---- task ---
+--- task --- 
 
 **Speichere deinen Fortschritt**
 
 Nachdem du nun ein Bild angezeigt hast, kannst du dein Programm im Mission Starter-Projekt speichern, indem du deinen Teamnamen, die Namen der Teammitglieder und den dir zugewiesenen Klassen-Code eingibst. Du kannst dein Programm auf jedem Gerät mit Internetverbindung neu laden, indem du deinen Teamnamen und deinen Klassen-Code eingibst.
 
-![Mission Zero Speichern-Button](images/savebutton_de.png)
+![Mission Zero Speichern-Button](images/mz_savebutton_v2.png)
 
 --- /task --- 
+

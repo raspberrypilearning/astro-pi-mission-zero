@@ -1,12 +1,19 @@
 ## Display an image
 
-The Astro Pi's LED matrix can display colours. In this step, you will display images from nature on the Astro Pi's LED matrix. 
+The image you display will be made from 64 coloured squares called **pixels**. The pixels are arranged in an 8 x 8 grid. 
+Each pixel can be a different colour. By choosing the colours carefully, you can create a picture. Here is an example of a whale made using different shades of blue on a black background.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
 </p>
 
-![A screenshot of the emulator window showing the Flight Unit with the LED matrix displaying a picture of a flower.](images/fu-pic.png)
+![an 8x8 image of a whale with letters labelling different colours](images/whale.png)
+
+Notice that each square is labelled with a code to represent a particular colour. In this image 3 colours are used: 
++ c = black
++ f = Ocean blue
++ g = Sky blue
+
 
 --- task ---
 
@@ -46,11 +53,47 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 
 Colours can be created using different proportions of red, green, and blue. You can find out about RGB colours here:
 
-[[[generic-theory-simple-colours]]]
+![Three sliders demonstrating RGB colour values](images/rgbsliders.gif)
 
-The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. Here is a list of variables for 24 different colours. Each colour has a value for red, green, and blue:
+The LED matrix is an 8 x 8 grid. Each LED on the grid can be set to a different colour. We can use the letters a to z as the names of variables to represent 24 different colours. Each colour has a value for red, green, and blue.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: List of Colour Variables
+---
+
+![A grid of 24 coloured squared each labelled with a different letter of the alphabet](images/palette.png)
+
+```python
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+d = (25, 25, 113)   # Navy Blue
+e = (0, 0, 255)     # Pure Blue
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+h = (86, 255, 255)  # Electric Cyan
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+p = (180, 34, 34)   # Brick Red
+q = (255, 0, 0)     # Pure Red
+r = (232, 118, 5)   # Orange
+s = (241, 231, 100) # Pale Yellow
+t = (255, 255, 0)   # Pure Yellow
+u = (255, 209, 209) # Pale Pink
+v = (255, 177, 177) # Blush Pink
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+
+```
+
+--- /collapse ---
 
 ### Choose an image 
 
@@ -65,28 +108,27 @@ You will need to **copy** all of the code for your chosen image then **paste** i
 --- collapse ---
 
 ---
-title: Fish
+title: Whale
 ---
 
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
+![A grid with 8 x 8 squares showing a whale.](images/whale.png)
 
-Created by team chalka, Poland
+Created by Team Naicom, Italy
 
 ```python
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
 image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -96,59 +138,57 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Walrus
+title: Lemon
 ---
 
-![A grid with 8 x 8 squares showing a walrus.](images/walrus.png)
+![A grid with 8 x 8 squares showing a lemon.](images/lemon.png)
 
-Created by team Walrus, Finland
+Created by team g4lemoni, Greece
 
 ```python
-h = (0, 255, 255) # Cyan
-c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
+c = (0, 0, 0)       # Black
+k = (46, 139, 33)   # Leaf Green
+t = (255, 255, 0)   # Pure Yellow
+
+image = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Pig
+---
+
+![A grid with 8 x 8 squares showing a pig.](images/pig.png)
+
+Created by Gary, United Kingdom
+
+```python
 a = (255, 255, 255) # White
-r = (184, 134, 11) # DarkGoldenrod
+v = (255, 177, 177) # Blush Pink
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Terracotta Brown
+c = (0, 0, 0)       # Black
 
 image = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![A grid with 8 x 8 squares showing Paxi.](images/paxi.png)
-
-Created by team tony_pi, Italy
-
-```python
-v = (255, 0, 0) # Red
-m = (34, 139, 34) # ForestGreen
-c = (0, 0, 0) # Black 
-e = (100, 149, 237) # CornflowerBlue
-l = (0, 255, 0) # Green
-
-image = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -157,29 +197,29 @@ image = [
  
 --- collapse ---
 ---
-title: Dog
+title: Storm
 ---
 
-![A grid with 8 x 8 squares showing a dog head.](images/dog.png)
+![A grid with 8 x 8 squares showing a storm cloud.](images/storm.png)
 
-Created by team ptpr_07, Spain
+Created by team hop2p023, Spain
 
 ```python
 
-c = (0, 0, 0) # Black
-r = (184, 134, 11) # DarkGoldenrod
-s = (139, 69, 19) # SaddleBrown
-y = (255, 20, 147) # DeepPink
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+t = (255, 255, 0)   # Pure Yellow
 
 image = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -188,35 +228,31 @@ image = [
  
 --- collapse ---
 ---
-title: Chameleon
+title: Duck
 ---
 
-![A grid with 8 x 8 squares showing a rainbow-coloured chameleon.](images/chameleon.png)
+![A grid with 8 x 8 squares showing a duck.](images/duck.png)
 
-Created by team The_ETs, United Kingdom
+Created by Peter, Ireland
 
 ```python
 
 c = (0, 0, 0) # Black
-s = (139, 69, 19) # SaddleBrown
+l = (57, 97, 17)    # Olive Green
+m = (30, 65, 6)     # Forest Green
+r = (232, 118, 5)   # Orange
 a = (255, 255, 255) # White
-v = (255, 0, 0) # Red
-t = (255, 140, 0) # DarkOrange
-q = (255, 255, 0) # Yellow
-m = (34, 139, 34) # ForestGreen
-h = (0, 255, 255) # Cyan
-z = (153, 50, 204) # DarkOrchid
-y = (255, 20, 147) # DeepPink
+b = (171, 171, 171) # Grey
 
 image = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -224,31 +260,32 @@ image = [
 
 --- collapse ---
 ---
-title: Kite
+title: Frog
 ---
 
-![A grid with 8 x 8 squares showing a kite.](images/kite.png)
+![A grid with 8 x 8 squares showing a Frog.](images/frog.png)
 
-Created by team Val, Greece
+Created by team Jmeno, Czech Republic
 
 ```python
 
-c = (0, 0, 0) # Black
-m = (34, 139, 34) # ForestGreen
-v = (255, 0, 0) # Red
-q = (255, 255, 0) # Yellow
-e = (0, 0, 205) # MediumBlue
-h = (0, 255, 255) # Cyan
+a = (255, 255, 255) # White
+b = (171, 171, 171) # Grey
+c = (0, 0, 0)       # Black
+q = (255, 0, 0)     # Pure Red
+j = (0, 255, 0)     # Pure Green
+k = (46, 139, 33)   # Leaf Green
+n = (126, 88, 25)   # Earth Brown
 
 image = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -256,30 +293,33 @@ image = [
 
 --- collapse ---
 ---
-title: Chicken
+title: Blossom Tree
 ---
 
-![A grid with 8 x 8 squares showing a chicken.](images/chicken.png)
+![A grid with 8 x 8 squares showing a tree in blossom.](images/blossom.png)
 
-Created by team Slepicky, Czechia
+Created by team Zssh14, Slovakia
 
 ```python
 
-v = (255, 0, 0) # Red
-c = (0, 0, 0) # Black
-b = (105, 105, 105) # DimGray
-q = (255, 255, 0) # Yellow
-r = (184, 134, 11) # DarkGoldenrod
+t = (255, 255, 0)   # Pure Yellow
+g = (0, 204, 255)   # Sky Blue
+w = (249, 169, 255) # Light Pink
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Purple
+n = (126, 88, 25)   # Earth Brown
+o = (179, 96, 65)   # Terracotta Brown
+k = (46, 139, 33)   # Leaf Green
 
 image =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -297,22 +337,21 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
 image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 # Display the image
 sense.set_pixels(image)

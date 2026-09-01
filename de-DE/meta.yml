@@ -7,14 +7,14 @@ copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
 steps:
-  - title: Das wirst du machen
-  - title: Was ist ein Astro Pi?
-  - title: Zeige ein Bild
-    completion:
-      - engaged
-  - title: Bestimme eine Farbe
-    completion:
-      - internal
-  - title: Wie geht es weiter – weitere Astro Pi-Projekte
-    completion:
-      - external
+- title: Das wirst du machen
+- title: Was ist ein Astro Pi?
+- title: Zeige ein Bild
+  completion:
+  - engaged
+- title: Bestimme eine Farbe
+  completion:
+  - internal
+- title: Wie geht es weiter – weitere Astro Pi-Projekte
+  completion:
+  - external

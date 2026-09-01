@@ -1,5 +1,5 @@
 kuva
 
-rgb
+kuva2
 
-sateenkaari
+rgb

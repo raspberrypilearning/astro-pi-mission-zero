@@ -1,0 +1,79 @@
+Importējiet bibliotēkas
+
+Iestatiet Sense HAT
+
+Krāsu sensora iestatīšana
+
+Iestatiet sensitīvu jutību
+
+Intervāls, kurā tiks veikts nolasījums
+
+Pievienojiet krāsu mainīgos un attēlu
+
+Attēla attēlošana
+
+Sajūtiet krāsu
+
+iegūt krāsu no sensora
+
+izmantojiet uztverto krāsu
+
+Papildu attēli/rāmji nonāk šeit:
+
+Cikls 14 reizes (14 * 2 sekundes = 28 sekundes kopā animācijas)
+
+# Parādiet otro attēlu
+
+# Parādiet pirmo attēlu
+
+# PAMATA IESNIEGŠANA tagad ir pabeigta
+
+Baltā
+
+Pelēks
+
+Melns
+
+Tumši zils
+
+Tīri zils
+
+Okeāna zils
+
+Debeszils
+
+Elektriski ciāna krāsa
+
+Tīri zaļš
+
+Lapu zaļš
+
+Olīvzaļš
+
+Meža zaļš
+
+Zemes brūns
+
+Terakota brūns
+
+Ķieģeļsarkans
+
+Tīri sarkans
+
+Oranžs
+
+Bāli dzeltens
+
+Tīri dzeltens
+
+Bāli rozā
+
+Maigi rozā
+
+Gaiši rozā
+
+Fuksīns
+
+Violets
+
+

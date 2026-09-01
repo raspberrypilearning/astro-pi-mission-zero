@@ -1,15 +1,13 @@
 ## Was ist ein Astro Pi?
 
-Ein Astro Pi ist ein Raspberry Pi Computer, in einem Gehäuse, das speziell für Weltraumbedingungen entwickelt wurde.
+Ein Astro Pi ist ein Raspberry Pi-Computer, der speziell für den Einsatz im Weltraum entwickelt wurde.
 
 ![Animiertes Bild eines Sense HAT, das an der Oberseite eines Raspberry Pi-Computers angebracht ist.](images/astro_pi_casing.jpeg)
 
-Astro Pi Computer verfügen über eine Reihe von Sensoren und Gadgets, mit denen man großartige wissenschaftliche Experimente durchführen kann. Dieser Satz von Sensoren wird als „Sense HAT“ bezeichnet (was für „Hardware Attached on Top“ steht). Das Sense HAT gibt Astro Pi die Möglichkeit, viele Daten zu „erfassen“ und verschiedene Arten von Messungen durchzuführen, von Temperatur bis zu Bewegung, und Informationen über ein 8 x 8 LED-Matrix-Display auszugeben. Die Astro Pis haben auch einen Joystick und Tasten, genau wie eine Videospielkonsole!
+Astro Pi-Computer verfügen über eine Reihe von Sensoren namens „Sense HAT“, mit denen junge Menschen wissenschaftliche Experimente durchführen können. Ein Sensor ist etwas, das erfassen oder messen kann, was in seiner Umgebung geschieht. Die Sensoren des Sense Hat können Dinge wie die Farbe und Helligkeit von Objekten vor dem Hat messen. Der Sense Hat verfügt außerdem über eine 8 x 8 LED-Matrix, die einfache Bilder und Informationen anzeigen kann.
 
-![Animiertes Bild eines Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Eine <span style="color: #0faeb0">**LED-Matrix**</span> ist ein Raster von LEDs (Light Emitting Diodes), das individuell oder als Gruppe gesteuert werden kann, um unterschiedliche Lichteffekte zu erzeugen. Die LED-Matrix des Sense HAT verfügt über 64 LEDs, die in einem 8 x 8-Raster angeordnet sind. Die LEDs können so programmiert werden, dass sie eine breite Palette von Farben erzeugen.
+</p>
 
-Für diese Mission wirst du den Sense HAT Emulator verwenden. Der Emulator ist eine Software, die alle Funktionen des Astro Pi in deinem Webbrowser simuliert.
-
-
-
-
+![ein 8x8 Pixel großes Pixelbild eines Wals](images/whaleblank.png)

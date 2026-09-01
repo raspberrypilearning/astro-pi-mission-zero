@@ -12,38 +12,68 @@ Farbvariablen und Bild hinzufügen
 
 Das Bild anzeigen
 
-Schwarz
-
-Weiß
-
-Dunkelorange
-
-Dunkelgrau
-
-Gelbgrün
-
-Gelb
-
-Dunkelorange
-
-Mitternachtsblau
-
-Waldgrün
-
-Kornblumenblau
-
-Rot
-
-Frühlingsgrün
-
-Mittelblau
-
-Mittelgrau
-
-Dunkle Orchidee
+Erfasse eine Farbe
 
 Hole die Farbe vom Sensor
 
 Verwende die ermittelte Farbe
 
-Wähle deine eigenen Rot-, Grün- und Blauwerte zwischen 0 - 255
+Weitere Bilder/Frames kommen hierher:
+
+14 Mal wiederholen (14 * 2 Sekunden = 28 Sekunden Gesamtanimation)
+
+# Zeige das zweite Bild an
+
+# Zeige das erste Bild an
+
+# Die grundlegende Einreichung ist nun abgeschlossen
+
+Weiß
+
+Grau
+
+Schwarz
+
+Marineblau
+
+Reines Blau
+
+Ozeanblau
+
+Himmelblau
+
+Elektrisches Cyan
+
+Reines Grün
+
+Blattgrün
+
+Olivgrün
+
+Waldgrün
+
+Erdbraun
+
+Terrakottabraun
+
+Ziegelrot
+
+Reines Rot
+
+Orange
+
+Blassgelb
+
+Reines Gelb
+
+Blassrosa
+
+Zartrosa
+
+Hellrosa
+
+Magenta
+
+Lila
+
+

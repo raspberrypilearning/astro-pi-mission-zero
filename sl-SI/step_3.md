@@ -1,12 +1,18 @@
 ## Prikažite sliko
 
-LED matrika računalnika Astro Pi lahko prikazuje barve. V tem koraku boste prikazali slike iz narave na LED matriki Astro Pi.
+Slika, ki jo boste prikazali, bo sestavljena iz 64 barvnih kvadratkov, imenovanih **slikovnih pik (pikslov)**. Piksli so razporejeni v 8x8 mreži. Vsak piksel je lahko drugačne barve. Z natančno izbiro barv lahko ustvarite sliko. Tukaj je primer slike kita, ustvarjene iz različnih odtenkov modre na črnem ozadju.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**LED matrika**</span> je mreža LED diod, ki jih je mogoče nadzorovati posamično ali kot skupino za ustvarjanje različnih svetlobnih učinkov. Matrika LED na Sense HAT ima 64 LED, postavljenih v 8x8 mrežo. Te diode je mogoče programirati za ustvarjanje širokega spektra barv.
 </p>
 
-![Posnetek zaslona okna emulatorja, ki prikazuje letalsko enoto z matriko LED, ki prikazuje sliko rože.](images/fu-pic.png)
+![Slika kita velikosti 8x8 s kvadratki, ki označujejo različne barve.](images/whale.png)
+
+Vsak kvadratek je označen s kodo, ki predstavlja določeno barvo. Na tej sliki so uporabljene tri barve:
++ c = črna
++ f = oceansko modra
++ g = nebesno modra
+
 
 --- task ---
 
@@ -46,11 +52,47 @@ sense.color.integration_cycles = 64 # Interval, v katerem bo opravljeno branje
 
 Barve lahko ustvarite z različnimi razmerji rdeče, zelene in modre. O barvah RGB si lahko preberete tukaj:
 
-[[[generic-theory-simple-colours]]]
+![Trije drsniki, ki prikazujejo barvne vrednosti RGB.](images/rgbsliders.gif)
 
-LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. Tukaj je seznam spremenljivk za 24 različnih barv. Vsaka barva ima vrednost za rdečo, zeleno in modro:
+LED matrika je 8x8 mreža. Vsako LED na mreži lahko nastavite na drugo barvo. Črke od a do z lahko uporabimo kot imena spremenljivk, ki predstavljajo 24 različnih barv. Vsaka barva ima vrednost za rdečo, zeleno in modro.
 
-[[[ambient-colours]]]
+--- collapse ---
+
+---
+title: Seznam barvnih spremenljivk
+---
+
+![Mreža s 24 barvnimi kvadratki, kjer je vsak označen z drugo črko abecede.](images/palette.png)
+
+```python
+a = (255, 255, 255) # Bela
+b = (171, 171, 171) # Siva
+c = (0, 0, 0)       # Črna
+d = (25, 25, 113)   # Temno modra
+e = (0, 0, 255)     # Modra
+f = (36, 128, 200)  # Oceansko modra
+g = (0, 204, 255)   # Nebesno modra
+h = (86, 255, 255)  # Cian
+j = (0, 255, 0)     # Zelena
+k = (46, 139, 33)   # Listnato zelena
+l = (57, 97, 17)    # Olivno zelena
+m = (30, 65, 6)     # Gozdno zelena
+n = (126, 88, 25)   # Rjava
+o = (179, 96, 65)   # Rdečkasto rjava
+p = (180, 34, 34)   # Opečnato rdeča
+q = (255, 0, 0)     # Rdeča
+r = (232, 118, 5)   # Oranžna
+s = (241, 231, 100) # Bledo rumena
+t = (255, 255, 0)   # Rumena
+u = (255, 209, 209) # Bledo roza
+v = (255, 177, 177) # Rdečkasto roza
+w = (249, 169, 255) # Svetlo roza
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Vijolična
+
+```
+
+--- /collapse ---
 
 ### Izberi sliko
 
@@ -63,28 +105,27 @@ Vso kodo za izbrano sliko boste morali **kopirati**, nato pa **jo prilepiti** v 
 --- collapse ---
 
 ---
-title: Riba
+title: Kit
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo ribo.](images/fish.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo kita.](images/whale.png)
 
-Ustvarila ekipa chalka, Poljska
+Ustvarila ekipa Naicom, Italija
 
 ```python
-z = (153, 50, 204) # Svetlo vijolična
-q = (255, 255, 0) # Rumena
-d = (51, 153, 255) # Modra
-c = (0, 0, 0) # Črna
+c = (0, 0, 0)       # Črna
+f = (36, 128, 200)  # Oceansko modra
+g = (0, 204, 255)   # Nebesno modra
 
 slika = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
 ```
 
@@ -94,59 +135,57 @@ d, d, d, z, d, d, d, d]
 --- collapse ---
 
 ---
-title: Mrož
+title: Limona
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo mroža.](images/walrus.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo limono.](images/lemon.png)
 
-Ustvarila ekipa Mrož, Finska
+Ustvarila ekipa g4lemoni, Grčija
 
 ```python
-h = (0, 255, 255) # Cian
-c = (0, 0, 0) # Črna
-s = (139, 69, 19) # Rjava
+c = (0, 0, 0)       # Črna
+k = (46, 139, 33)   # Listnato zelena
+t = (255, 255, 0)   # Rumena
+
+slika = [
+c, c, c, k, k, c, c, c,
+c, c, k, c, k, c, c, c,
+c, k, c, t, t, c, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, t, t, t, t, c, c,
+c, c, c, t, t, c, c, c]
+
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Pujs
+---
+
+![Mreža z 8x8 kvadratki, ki prikazujejo pujsa.](images/pig.png)
+
+Ustvaril Gary, Združeno kraljestvo
+
+```python
 a = (255, 255, 255) # Bela
-r = (184, 134, 11) # Temno zlata
+v = (255, 177, 177) # Rdečkasto roza
+y = (248, 97, 255)  # Magenta
+o = (179, 96, 65)   # Rdečkasto rjava
+c = (0, 0, 0)       # Črna
 
 slika = [
-h, h, h, h, h, h, h, h,
-h, h, s, s, s, h, h, h,
-h, s, s, s, s, s, h, h,
-h, s, c, s, c, s, s, s,
-h, r, r, r, r, r, s, s,
-h, h, a, s, a, s, s, s,
-h, h, a, s, a, s, s, s,
-r, r, s, s, s, s, s, s]
-
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Paxi
----
-
-![Mreža z 8x8 kvadratki, ki prikazujejo Paxija.](images/paxi.png)
-
-Ustvarila ekipa tony_pi, Italija
-
-```python
-v = (255, 0, 0) # Rdeča
-m = (34, 139, 34) # Drevesno zelena
-c = (0, 0, 0) # Črna
-e = (100, 149, 237) # Sinje modra
-l = (0, 255, 0) # Zelena
-
-slika = [
-    c, v, m, c, c, m, v, c,
-    c, c, v, v, v, v, c, c,
-    c, v, c, e, l, e, v, c,
-    c, v, c, l, l, l, v, c,
-    c, v, c, l, c, l, v, c,
-    c, c, v, v, v, v, c, c,
-    c, c, l, c, c, l, c, c,
-    c, m, m, c, c, m, m, c]
+a, a, y, a, a, y, a, a,
+a, y, y, y, y, y, y, a,
+a, y, c, y, c, y, y, y,
+v, v, v, v, v, y, y, y,
+v, o, v, o, v, y, y, y,
+v, v, v, v, v, y, y, y,
+a, y, y, y, y, y, y, y,
+a, a, y, a, a, a, y, a]
 
 ```
 
@@ -155,29 +194,29 @@ slika = [
 
 --- collapse ---
 ---
-title: Pes
+title: Nevihta
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo glavo psa.](images/dog.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo nevihtni oblak.](images/storm.png)
 
-Ustvarila ekipa ptpr_07, Španija
+Ustvarila ekipa hop2p023, Španija
 
 ```python
 
-c = (0, 0, 0) # Črna
-r = (184, 134, 11) # Temno zlata
-s = (139, 69, 19) # Rjava
-y = (255, 20, 147) # Temno roza
+c = (0, 0, 0)       # Črna
+f = (36, 128, 200)  # Oceansko modra
+g = (0, 204, 255)   # Nebesno modra
+t = (255, 255, 0)   # Rumena
 
 slika = [
-    c, r, r, c, c, r, r, c,
-    c, r, s, s, s, s, r, c,
-    c, r, c, s, s, c, r, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, s, s, s, s, c,
-    c, s, s, c, c, s, s, c,
-    c, c, s, y, y, s, c, c,
-    c, c, c, y, y, c, c, c]
+c, c, c, c, c, c, c, c,
+c, c, f, f, f, f, c, c,
+c, f, f, f, f, f, f, c,
+c, g, c, g, t, g, c, c,
+c, c, c, t, t, c, c, c,
+c, c, t, t, c, c, c, c,
+c, c, g, c, c, c, c, g,
+c, g, c, c, c, c, c, c]
 
 
 ```
@@ -186,35 +225,31 @@ slika = [
 
 --- collapse ---
 ---
-title: Kameleon
+title: Raca
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo mavrično obarvanega kameleona.](images/chameleon.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo raco.](images/duck.png)
 
-Ustvarila ekipa The_ETs, Združeno kraljestvo
+Ustvaril Peter, Irska
 
 ```python
 
 c = (0, 0, 0) # Črna
-s = (139, 69, 19) # Rjava
+l = (57, 97, 17)    # Olivno zelena
+m = (30, 65, 6)     # Gozdno zelena
+r = (232, 118, 5)   # Oranžna
 a = (255, 255, 255) # Bela
-v = (255, 0, 0) # Rdeča
-t = (255, 140, 0) # Temno oranžna
-q = (255, 255, 0) # Rumena
-m = (34, 139, 34) # Drevesno zelena
-h = (0, 255, 255) # Cian
-z = (153, 50, 204) # Svetlo vijolična
-y = (255, 20, 147) # Temno roza
+b = (171, 171, 171) # Siva
 
 slika = [
-    a, a, v, v, t, a, a, a,
-    a, v, v, t, t, q, a, a,
-    v, c, t, t, q, q, m, a,
-    v, t, t, q, q, m, m, h,
-    s, s, q, s, s, m, s, h,
-    a, a, a, a, a, a, a, z,
-    a, a, a, a, y, a, a, z,
-    a, a, a, a, a, y, z, a]
+c, l, l, c, c, c, c, c,
+r, r, m, c, c, c, c, c,
+c, l, l, c, c, c, c, c,
+c, a, a, l, a, a, c, c,
+c, l, l, a, a, a, b, a,
+c, a, a, b, b, b, a, a,
+c, c, a, a, a, a, c, c,
+c, c, c, r, c, r, c, c]
 
 ```
 
@@ -222,31 +257,32 @@ slika = [
 
 --- collapse ---
 ---
-title: Zmaj
+title: Žaba
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo zmaja.](images/kite.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo žabo.](images/frog.png)
 
-Ustvarila ekipa Val, Grčija
+Ustvarila ekipa Jmeno, Češka
 
 ```python
 
-c = (0, 0, 0) # Črna
-m = (34, 139, 34) # Drevesno zelena
-v = (255, 0, 0) # Rdeča
-q = (255, 255, 0) # Rumena
-e = (0, 0, 205) # Modra
-h = (0, 255, 255) # Cian
+a = (255, 255, 255) # Bela
+b = (171, 171, 171) # Siva
+c = (0, 0, 0)       # Črna
+q = (255, 0, 0)     # Rdeča
+j = (0, 255, 0)     # Zelena
+k = (46, 139, 33)   # Listnato zelena
+n = (126, 88, 25)   # Rjava
 
 slika = [
-    h, h, h, h, h, h, h, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, e, e, v, v, h, 
-    h, h, h, q, q, m, m, h, 
-    h, h, h, q, q, m, m, h,
-    h, h, c, h, h, h, h, h, 
-    h, c, h, h, h, h, h, h, 
-    c, h, h, h, h, h, h, h]
+a, a, a, a, a, a, a, a,
+a, a, a, a, a, b, a, b,
+a, a, a, a, a, a, c, a,
+a, a, c, a, c, a, q, a,
+a, a, j, j, j, q, a, a,
+a, j, j, k, q, a, a, a,
+j, k, j, k, k, a, a, a,
+k, k, k, j, k, n, n, n]
 
 ```
 
@@ -254,30 +290,33 @@ slika = [
 
 --- collapse ---
 ---
-title: Piščanec
+title: Cvetoče drevo
 ---
 
-![Mreža z 8x8 kvadratki, ki prikazujejo piščanca.](images/chicken.png)
+![Mreža z 8x8 kvadratki, ki prikazujejo cvetoče drevo.](images/blossom.png)
 
-Ustvarila ekipa Slepicky, Češka
+Ustvarila ekipa Zssh14, Slovaška
 
 ```python
 
-v = (255, 0, 0) # Rdeča
-c = (0, 0, 0) # Črna
-b = (105, 105, 105) # Temno siva
-q = (255, 255, 0) # Rumena
-r = (184, 134, 11) # Temno zlata
+t = (255, 255, 0)   # Rumena
+g = (0, 204, 255)   # Nebesno modra
+w = (249, 169, 255) # Svetlo roza
+y = (248, 97, 255)  # Magenta
+z = (220, 53, 232)  # Vijolična
+n = (126, 88, 25)   # Rjava
+o = (179, 96, 65)   # Rdečkasto rjava
+k = (46, 139, 33)   # Listnato zelena
 
 slika =  [
-    c, c, v, v, v, c, c, c,
-    c, v, b, b, r, c, c, r,
-    c, b, c, b, b, c, r, b,
-    q, r, b, b, b, b, b, r,
-    c, v, b, b, b, b, r, b,
-    c, v, b, r, r, r, b, r,
-    c, c, c, r, b, q, r, c,
-    c, c, c, c, q, q, c, c]
+t, g, g, w, w, y, g, g,
+g, g, w, w, y, y, z, g,
+g, w, y, z, y, z, z, z,
+w, y, z, z, g, n, w, g,
+g, g, o, o, n, w, y, z,
+g, g, g, g, n, g, g, g,
+g, g, g, o, n, n, g, g,
+k, k, o, n, n, n, k, k]
 
 ```
 
@@ -287,7 +326,7 @@ slika =  [
 
 --- task ---
 
-**Poiščite:** vrstico, ki pravi `# Prikaži sliko` in dodajte vrstico kode za prikaz vaše slike na matriki LED:
+**Poiščite** vrstico, ki pravi `# Prikaži sliko` in dodajte vrstico kode za prikaz vaše slike na matriki LED:
 
 --- code ---
 ---
@@ -295,26 +334,24 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 18, 19
+line_highlights: 17, 18
 ---
-z = (153, 50, 204) # Svetlo vijolična
-q = (255, 255, 0) # Rumena
-d = (51, 153, 255) # Modra
-c = (0, 0, 0) # Črna
+c = (0, 0, 0)       # Črna
+f = (36, 128, 200)  # Oceansko modra
+g = (0, 204, 255)   # Nebesno modra
 
 slika = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, a,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-# Prikaži sliko 
+# Prikaže sliko
 sense.set_pixels(slika)
-
 
 --- /code ---
 
@@ -344,12 +381,13 @@ Moja slika se ne prikaže:
 --- /task ---
 
 
---- task ---
+--- task --- 
 
 **Shrani svoj napredek**
 
 Zdaj, ko ste prikazali sliko, lahko shranite svoj program v projekt Mission Starter tako, da vnesete ime svoje ekipe, imena članov ekipe in kodo učilnice, ki ste jo prejeli. Svoj program lahko znova naložite v katero koli napravo z internetno povezavo, tako da vnesete ime ekipe in kodo učilnice.
 
-![Gumb za shranjevanje Mission Zero.](images/savebutton_sl.png)
+![Gumb za shranjevanje Mission Zero.](images/mz_savebutton_v2.png)
 
 --- /task --- 
+

@@ -6,44 +6,74 @@ Installi värviandur
 
 Määra anduri tundlikkus
 
-Intervall, millal näit võetakse
+Intervall, millega näit võetakse
 
 Lisa värvi muutujad ja pilt
 
 Kuva pilt
 
-Black
-
-White
-
-Tumeoranž
-
-Tumehall
-
-Kollakasroheline
-
-Kollane
-
-DarkOrange
-
-MidnightBlue
-
-ForestGreen
-
-Rukkilillesinine
-
-Red
-
-Kevadroheline
-
-MediumBlue
-
-Tuhmhall
-
-Tume orhidee
+Tunneta värvi
 
 saa värv andurilt
 
 kasuta anduriga määratud värvi
 
-vali oma punase, rohelise ja sinise väärtused vahemikus 0–255
+Lisapildid/raamid tulevad siia:
+
+Tsükelda 14 korda (14 * 2 sekundit = 28 sekundit animatsiooni kokku)
+
+# Kuva teine pilt
+
+# Kuva esimene pilt
+
+# PÕHILISE ESITAMISE NR on nüüdseks tehtud
+
+Valge
+
+Hall
+
+Must
+
+Tumesinine
+
+Puhas sinine
+
+Ookeani sinine
+
+Taevasinine
+
+Elektriline tsüaan
+
+Puhas roheline
+
+Lehtroheline
+
+Oliivroheline
+
+Metsaroheline
+
+Maapruun
+
+Terrakotapruun
+
+Telliskivipunane
+
+Puhas punane
+
+Oranž
+
+Kahvatukollane
+
+Puhas kollane
+
+Kahvaturoosa
+
+Põsepuna roosa
+
+Heleroosa
+
+Fuksia
+
+Lilla
+
+

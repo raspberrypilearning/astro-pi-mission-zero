@@ -6,44 +6,74 @@ Przygotuj czujnik kolorów
 
 Ustaw czułość czujnika
 
-Okres czasu, w którym będzie dokonywany odczyt
+Interwał, w którym będzie wykonywany odczyt
 
 Dodaj zmienne kolorów i obraz
 
 Wyświetl obraz
 
-Czarny
-
-Biały
-
-Ciemnopomarańczowy
-
-Ciemnoszary
-
-Żółto-zielony
-
-Żółty
-
-Ciemny pomarańczowy
-
-Nocny niebieski
-
-Leśny zielony
-
-Chabrowy
-
-Czerwony
-
-Wiosenna Zieleń
-
-Średni niebieski
-
-Ciemnoszary
-
-Ciemna Orchidea
+Wykryj kolor
 
 pobierz kolor z czujnika
 
 użyj odczytany kolor
 
-wybierz własne wartości czerwonego, zielonego i niebieskiego od 0 do 255
+Dodatkowe obrazki / klatki umieść tutaj:
+
+Powtórz 14 razy (14 * 2 sekundy = 28 sekund całej animacji)
+
+# Wyświetl drugi obrazek
+
+# Wyświetl pierwszy obrazek
+
+# PODSTAWOWE ZGŁOSZENIE jest już gotowe
+
+Biały
+
+Szary
+
+Czarny
+
+Granatowy
+
+Czysty niebieski
+
+Błękit oceanu
+
+Błękit nieba
+
+Jaskrawy cyjan
+
+Czysta zieleń
+
+Zieleń liści
+
+Zieleń oliwkowa
+
+Zieleń lasu
+
+Brąz ziemisty
+
+Brąz terakotowy
+
+Czerwień ceglana
+
+Czysta czerwień
+
+Pomarańczowy
+
+Bladożółty
+
+Czysta żółć
+
+Blady róż
+
+Pudrowy róż
+
+Jasnoróżowy
+
+Magenta
+
+Fioletowy
+
+

@@ -1,15 +1,13 @@
 ## What is an Astro Pi?
 
-An Astro Pi is a Raspberry Pi computer encased by a housing specially designed for conditions in space. 
+An Astro Pi is a Raspberry Pi computer that has been specially designed to work in space.
 
 ![Animated image of a Sense HAT being attached to the top of a Raspberry Pi computer.](images/astro_pi_casing.jpeg)
 
-Astro Pi computers come with a set of sensors and gadgets that can be used to run great scientific experiments. This set of sensors is called a ‘Sense HAT’ (that stands for ‘Hardware Attached on Top’). The Sense HAT gives Astro Pi the ability to ‘sense’ and make many kinds of measurements, from temperature to movement, and to output information using an 8 x 8 LED matrix display. The Astro Pis also have a joystick and buttons, just like a video game console!
+Astro Pi computers have a set of sensors called the ‘Sense HAT’ that young people can use to carry out scientific experiments. A sensor is something that can detect or measure what is happening around it. The sensors on the Sense Hat can measure things such the colour and brightness of objects in front of it. The Sense Hat also includes an 8 x 8 LED matrix that can display simple images and information.
 
-![Animated image of a Sense HAT Mark II.](images/AP_spin.gif){:width="400px"}
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">**LED matrix**</span> is a grid of LEDs (Light Emitting Diodes) that can be controlled individually or as a group to create different lighting effects. The LED matrix on the Sense HAT has 64 LEDs displayed in an 8 x 8 grid. The LEDs can be programmed to produce a wide range of colours.
+</p>
 
-For this mission, you will be using the Sense HAT emulator which simulates the main functions of the Astro Pi in your web browser.
-
-
-
-
+![an 8x8 pixel art image of a whale](images/whaleblank.png)

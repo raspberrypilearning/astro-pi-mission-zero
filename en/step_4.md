@@ -1,18 +1,10 @@
 ## Sense a colour
 
-In this step, you will set up the colour luminosity sensor and use it to sense the amount of red, green, and blue reaching the sensor. This colour will then be used to colour in your chosen image. An astronaut walking up to the sensor in a blue shirt would see a different image than an astronaut in a red shirt. 
+In this step, you will set up the colour and brightness sensor. You will use this sensor to measure the amount of red, green, and blue light reaching the sensor. These values will then be used to change one of the colours in your chosen image.
 
-![An image displayed with a pink background on the LED matrix.](images/colour_background.png)
+This means that the image can change depending on what the sensor sees. For example, an astronaut wearing a blue shirt would see a different version of the image from an astronaut wearing a red shirt.
 
-Whichever image you chose, the background uses the `c` variable, which is set to black. 
-
---- task ---
-
-Use the colour sensor to colour your background.
-
-Add code before your image list to get the colour from the sensor and change your `c` background colour variable to use the colour sensed by the Sense HAT colour sensor instead of black.
-
-**Tip:** You don't need to type the comments that start with '#' (they are there to explain the code). 
+In the whale image we used in the previous step, the background colour was black. We used the variable `c` to store its RGB colour code:
 
 --- code ---
 ---
@@ -20,33 +12,37 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 9, 10
 ---
+c = (0, 0, 0)
 
-# Add colour variables and image
+--- /code ---
 
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
 
+--- task ---
+
+Use the colour sensor to change one of your colours.
+
+Underneath the lines where you define the colours, add the following code:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 3, 4
+---
+# Sense a colour
 rgb = sense.color # get the colour from the sensor
 c = (rgb.red, rgb.green, rgb.blue) # use the sensed colour
-
-image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
-
 
 --- /code ---
 
 --- /task ---
+
+This code replaces the RGB values stored in `c` with the values for the colour detected by the sensor.
+
+Tip: If you didn't use the variable `c` in your own image, replace `c` with one of the colour variables that you did use. This will allow the sensor to change that colour instead.
 
 --- task ---
 
@@ -56,20 +52,22 @@ image = [
 
 --- /task ---
 
-## Loop your program
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Now you have displayed an image and sensed a colour and used it in your program, and your code is ready for submission! 
 
-The Astro Pi Mission Zero program is allowed to run for up to 30 seconds. You will use this time to repeatedly check the colour sensor and update the image.
+You can save and submit your program using the form at the bottom of the code editor.
+  
+However, you may wish to add more images to your project, or make it come to life with animation. The next steps show you how to do this.
+</p>
 
-Your code will use a `for` loop to run 28 times. **Each** time it will:
-+ sense the latest colour
-+ update the background colour of the image
-+ pause for one second
+## Animate your project (optional)
+
+Your Mission Zero program can run on the International Space Station (ISS) for up to 30 seconds. You can use this running time to display an animation on the LED matrix by switching between two or more different images.
 
 --- task ---
 
-**Find** your `rgb = sense.color` line of code.
 
-**Add** code above it to set up your `for` loop for `28` repetitions.
+**Add** a second image right below your `sense.set_pixels(image)` line of code. Give it the variable name `image2` and change a few pixels to make your animation frame look different. Then add a short pause after it.
 
 --- code ---
 ---
@@ -77,33 +75,41 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 2
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
 ---
-
-for i in range(28):
-rgb = sense.color # get the colour from the sensor
-c = (rgb.red, rgb.green, rgb.blue)
-
 image = [
-  d, d, z, d, d, d, d, d,
-  d, d, d, z, z, d, d, d,
-  z, d, q, q, q, q, d, d,
-  z, z, q, q, q, c, q, d,
-  z, z, z, q, q, q, q, d,
-  z, z, q, q, q, q, q, d,
-  z, d, q, z, z, q, d, d,
-  d, d, d, z, d, d, d, d]
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  
+sense.set_pixels(image)
+
+# Extra images / frames go here:
+
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-You now need to indent all your code below the `for` loop so that it sits **inside** the `for` loop.
+At the very bottom of your code file, set up your `for` loop to repeat `14` times and alternate between displaying `image` and `image2` pausing for 1 second on each frame.
 
-**Tip:** To indent multiple lines, highlight the lines you want to indent then press the <kbd>Tab</kbd> key on your keyboard (usually above the <kbd>Caps Lock</kbd> key on the keyboard). 
+**Tip:** Make sure the lines of code underneath `for i in range(14):` are indented with a space so they sit **inside** the loop block.
 
 --- code ---
 ---
@@ -111,103 +117,29 @@ language: python
 filename: main.py
 line_numbers: false
 line_number_start: 1
-line_highlights: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+line_highlights: 14, 15, 16, 17, 18, 19, 20, 21, 22
 ---
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-for i in range(28):
-  rgb = sense.color # get the colour from the sensor
-  c = (rgb.red, rgb.green, rgb.blue)
+sleep(1)
 
-  image = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14):
+  # Display the second image
+  sense.set_pixels(image2)
+  sleep(1)
 
-    
-  # Display the image
-
+  # Display the first image
   sense.set_pixels(image)
- 
---- /code ---
-
---- /task ---
-
---- task ---
-
-At the bottom of your code, add a `sleep` of one second inside your loop:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 5
----
-  
-  # Display the image
-
-  sense.set_pixels(image)
-  sleep(1)  
-  
---- /code ---
-
-**Tip:** Make sure this line of code is indented within your `for` loop. 
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and change the colour picker several times as your project is running. Check that your image updates to use the sensed colour on its next run. 
-
-The image will stop updating when the loop finishes so that the program doesn't run for more than 30 seconds. 
-
---- /task ---
-
---- task ---
-
-**Debug** 
-
-My code has a syntax error or doesn't run as expected:
-
-- Check that your code matches the code in the examples above
-- Check that you have indented the code in your `for` loop
-- Check that your list is surrounded by `[` and `]`
-- Check that each colour variable in the list is separated by a comma 
-
-My code runs for longer than 30 seconds:
-
-- Decrease the number of times your for loop runs, from 28 to 25 or even 20.
-- Decrease the length of the sleep, from 1 second to 0.5 seconds.
-
---- /task ---
-
---- task ---
-
-Add `sense.clear()` at the end of your code to clear the image at the end of your loop. This will help you see when your animation has finished running. 
-
-**Tip:** Make sure you **do not** indent the `sense.clear()` line of code as you want this to only run once at the end of your animation.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7
----
-  
-  # Display the image
-
-  sense.set_pixels(image)
-  sleep(1) 
-  
-sense.clear()
+  sleep(1)
   
 --- /code ---
 
@@ -215,77 +147,39 @@ sense.clear()
 
 --- task ---
 
-**Test:** Run your code again. When your project has finished running the LED matrix will clear, turning all the lights black (off).  
+**Test:** Run your code again. Your program will display your sensed color instantly, and then loop back and forth for an animated display.
 
 --- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+If you would like to have more than two frames in your animation, you must make sure that the program will run for no more than 30 seconds. For example, if you have 10 images that each display for 1 second, you must change your `for` loop to repeat 3 times (10 * 3 = 30 seconds)
+</p>
 
 --- task ---
 
-**Debug** 
+**Check for errors**
 
-The LED matrix turns black every second:
-
-- Check that you have not indented the `sense.clear()` code within your `for` loop
-
---- /task ---
-
---- task ---
-
-Add code to clear the LED matrix to a colour of your choice. Create a variable called `x` to store your new colour. 
-
-You can mix your own colour or use the values from the list of colours to create your new `x`colour. 
-
-[[[generic-theory-simple-colours]]]
-[[[ambient-colours]]]
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 1 
-line_highlights: 7, 8
----
-  
-  # Display the image
-
-  sense.set_pixels(image)
-  sleep(1) 
-
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 - 255
-sense.clear(x)
-  
---- /code ---
+My code has a syntax error or doesn't change frames:
+- Check that your `for` loop code matches the indentation in the example.
+- Make sure you named your second image matrix `image2` and that it is placed outside and before the loop begins.
+- Check that your `sleep` times are set to exactly `1` second to avoid running past the strict 30-second execution cutoff on the ISS.
 
 --- /task ---
-
---- task ---
-
-**Test:** Run your code again. When your project has finished running the LED matrix will clear to your chosen colour. You can change then test the colour as many times as you want.  
-
---- /task ---
-
 
 --- task ---
 
 **Save your progress**
 
-You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code. 
+You can save your program on the Mission Starter project by entering your team name, team members' names, and the classroom code given to you. You can reload your program on any device with an internet connection by entering your team name and classroom code.
 
-![The Mission Zero Save button.](images/mz_savebutton_v2.png)
-
---- /task --- 
-
+--- /task ---
 
 --- task ---
 
 --- collapse ---
-
 ---
-title: Completed code example
+title: Completed Whale code example
 ---
-
-![A grid with 8 x 8 squares showing a fish.](images/fish.png)
 
 --- code ---
 ---
@@ -306,35 +200,101 @@ sense.color.gain = 60 # Set the sensitivity of the sensor
 sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 # Add colour variables and image
+a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
 
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+# Sense a colour
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue)
 
-for i in range(28):
-  rgb = sense.color # get the colour from the sensor
-  c = (rgb.red, rgb.green, rgb.blue)
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
 
-  image = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d]
+sense.set_pixels(image)
 
+--- /code ---
 
-  # Display the image
+--- /collapse ---
 
-  sense.set_pixels(image)
+--- collapse ---
+---
+title: Completed Whale code example (with Animation)
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+---
+# Import the libraries
+from sense_hat import SenseHat
+from time import sleep
+
+# Set up the Sense HAT
+sense = SenseHat()
+sense.set_rotation(270)
+
+# Set up the colour sensor
+sense.color.gain = 60 # Set the sensitivity of the sensor
+sense.color.integration_cycles = 64 # The interval at which the reading will be taken
+
+# Add colour variables and image
+a = (255, 255, 255) # White
+c = (0, 0, 0)       # Black
+f = (36, 128, 200)  # Ocean Blue
+g = (0, 204, 255)   # Sky Blue
+
+# Sense a colour
+rgb = sense.color # get the colour from the sensor
+c = (rgb.red, rgb.green, rgb.blue)
+
+image = [
+c, g, c, g, c, c, c, c,
+c, c, g, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sense.set_pixels(image)
+
+# BASIC SUBMISSION is done by now
+
+# Extra images / frames go here:
+image2 = [
+c, c, c, c, c, c, c, c,
+c, c, c, c, c, f, f, f,
+c, f, f, f, c, c, f, c,
+f, f, c, f, f, c, f, c,
+f, f, f, f, f, c, f, c,
+g, f, f, f, f, f, f, c,
+g, g, g, g, g, g, c, c,
+c, g, g, g, g, c, c, c]
+
+sleep(1)
+
+# Loop 14 times (14 * 2 seconds = 28 seconds total animation)
+for i in range(14):
+  # Display the second image
+  sense.set_pixels(image2)
   sleep(1)
 
-x = (178, 34, 34)  # choose your own red, green, blue values between 0 and 255
-sense.clear(x)
-
+  # Display the first image
+  sense.set_pixels(image)
+  sleep(1)
+  
 --- /code ---
 
 --- /collapse ---
