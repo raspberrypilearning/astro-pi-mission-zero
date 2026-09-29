@@ -92,7 +92,7 @@ z = (220, 53, 232) # Lilla
 
 --- task ---
 
-You can either choose one of the example images below or create your own original design. Feel free to draw anything you like - such as an animal, plant, or imaginary creature - as long as it follows the Mission Zero guidelines.
+Du kan enten velge et av eksempelbildene nedenfor, eller lage ditt eget originale design. Tegn gjerne noe du liker – for eksempel et dyr, en plante eller en fantasiskapning – så lenge det følger retningslinjene for Mission Zero.
 
 **Velg:** Velg et bilde for visning blant valgene nedenfor. Python lagrer informasjonen for et bilde i en liste. Koden for hvert bilde inneholder fargevariablene som er brukt, og listen.
 
