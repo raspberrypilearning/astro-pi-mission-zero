@@ -109,9 +109,9 @@ title: Vaal
 Loonud Team Naicom, Itaalia
 
 ```python
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
+c = (0, 0, 0)       # Must
+f = (36, 128, 200)  # Ookeanisinine
+g = (0, 204, 255)   # Taevasinine
 
 image = [
 c, g, c, g, c, c, c, c,
