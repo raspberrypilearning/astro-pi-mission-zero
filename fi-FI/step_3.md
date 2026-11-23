@@ -109,11 +109,11 @@ title: Valas
 Tehnyt joukkue Naicom, Italia
 
 ```python
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
+c = (0, 0, 0)       # Musta
+f = (36, 128, 200)  # Merensininen
+g = (0, 204, 255)   # Taivaansininen
 
-image = [
+kuva = [
 c, g, c, g, c, c, c, c,
 c, c, g, c, c, f, f, f,
 c, f, f, f, c, c, f, c,
@@ -331,7 +331,7 @@ line_highlights: 17, 18
 ---
 c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
+kuva = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Näytä kuva
 sense.set_pixels(image)
