@@ -109,9 +109,9 @@ title: Banginis
 Sukūrė „Naicom“ komanda, Italija
 
 ```python
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
+c = (0, 0, 0)       # Juoda
+f = (36, 128, 200)  # Šviesiai mėlyna
+g = (0, 204, 255)   # Dangaus mėlyna
 
 image = [
 c, g, c, g, c, c, c, c,
