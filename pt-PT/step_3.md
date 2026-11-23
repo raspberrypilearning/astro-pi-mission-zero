@@ -109,11 +109,11 @@ title: Baleia
 Criado pela Equipa Naicom, Itália
 
 ```python
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
+c = (0, 0, 0)       # Preto
+f = (36, 128, 200)  # Azul Oceano
+g = (0, 204, 255)   # Azul Céu
 
-image = [
+imagem = [
 c, g, c, g, c, c, c, c,
 c, c, g, c, c, f, f, f,
 c, f, f, f, c, c, f, c,
@@ -331,7 +331,7 @@ line_highlights: 17, 18
 ---
 c = (0, 0, 0)       # Black f = (36, 128, 200)  # Ocean Blue g = (0, 204, 255)   # Sky Blue
 
-image = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
+imagem = [ c, g, c, g, c, c, c, c, c, c, g, c, c, f, f, f, c, f, f, f, c, c, f, c, f, f, c, f, f, c, f, c, f, f, f, f, f, c, f, c, g, f, f, f, f, f, f, c, g, g, g, g, g, g, c, c, c, g, g, g, g, c, c, c]
 
 # Mostrar a imagem
 sense.set_pixels(image)
