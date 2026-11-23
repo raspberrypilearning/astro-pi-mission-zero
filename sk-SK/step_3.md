@@ -109,9 +109,9 @@ title: Veľryba
 Autor: tím Naicom, Taliansko
 
 ```python
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
+c = (0, 0, 0)       # Čierna
+f = (36, 128, 200)  # Morská modrá
+g = (0, 204, 255)   # Nebeská modrá
 
 image = [
 c, g, c, g, c, c, c, c,
