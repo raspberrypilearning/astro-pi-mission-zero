@@ -109,9 +109,9 @@ title: Valis
 Izveidojusi komanda Team Naicom, Itālija
 
 ```python
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
+c = (0, 0, 0)       # Melna
+f = (36, 128, 200)  # Okeāna zila
+g = (0, 204, 255)   # Debeszila
 
 image = [
 c, g, c, g, c, c, c, c,
