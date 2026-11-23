@@ -109,9 +109,9 @@ title: Baleine
 Créé par la Team Naicom, Italie
 
 ```python
-c = (0, 0, 0)       # Black
-f = (36, 128, 200)  # Ocean Blue
-g = (0, 204, 255)   # Sky Blue
+c = (0, 0, 0)       # Noir
+f = (36, 128, 200)  # Bleu océan
+g = (0, 204, 255)   # Bleu ciel
 
 image = [
 c, g, c, g, c, c, c, c,
